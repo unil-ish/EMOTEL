@@ -2,7 +2,6 @@
 
 Inspiré par "[EFO: the Emotion Frame Ontology](https://arxiv.org/pdf/2401.10751.pdf)" de Stefano De Giorgis et Aldo Gangemi, vous pourriez développer une ontologie basée sur OWL pour modéliser les émotions spécifiques des personnages et les situations décrites dans les textes littéraires. Cette ontologie pourrait inclure des cadres sémantiques qui capturent différents aspects de l'expérience émotionnelle, tels que les causes des émotions, les réactions des personnages et les changements au fil de la narration. Votre projet pourrait explorer comment différentes théories des émotions peuvent être intégrées et représentées au sein d'une structure ontologique unique, permettant des analyses comparatives et approfondies des textes.
 
-
 ## A quoi ça sert?
 
 Voici plusieurs cas d'utilisation potentiels pour une ontologie basée sur OWL dédiée à la modélisation des émotions dans les textes littéraires :
@@ -152,7 +151,7 @@ Pour promouvoir l'interopérabilité, alignez votre ontologie avec des standards
 
 ### 5. **Peuplement de l'Ontologie :**
 
-Une fois la structure de l'ontologie définie, utilisez des LLM (Large Language Models) et les [prompts suggérés](./prompts.md) pour peupler votre ontologie avec des exemples tirés de textes littéraires. Cela comprend l'utilisation des LLM pour identifier et classer les émotions dans des extraits littéraires, ainsi que pour détecter les relations entre les émotions et les autres éléments littéraires. Ce processus peut être facilité par l'automatisation partielle à travers les réponses générées par les LLM aux prompts donnés, mais il nécessitera toujours une révision manuelle minutieuse pour s'assurer de la pertinence et de l'exactitude des données par rapport à votre ontologie.
+Une fois la structure de l'ontologie définie, utilisez des [LLM](llm.py) (Large Language Models) et les [prompts suggérés](./prompts.md) pour peupler votre ontologie avec des exemples tirés de textes littéraires. Cela comprend l'utilisation des LLM pour identifier et classer les émotions dans des extraits littéraires, ainsi que pour détecter les relations entre les émotions et les autres éléments littéraires. Ce processus peut être facilité par l'automatisation partielle à travers les réponses générées par les LLM aux prompts donnés, mais il nécessitera toujours une révision manuelle minutieuse pour s'assurer de la pertinence et de l'exactitude des données par rapport à votre ontologie.
 
 #### 5.1 Sélection des Textes:
 
@@ -201,3 +200,8 @@ Une fois la structure de l'ontologie définie, utilisez des LLM (Large Language 
 Sur la base des retours reçus pendant la phase d'évaluation, apportez les modifications nécessaires pour affiner et améliorer l'ontologie. Cela peut inclure l'ajout de nouvelles émotions, la refonte des relations existantes ou l'ajustement des définitions de classe pour mieux refléter la complexité des émotions dans les textes littéraires.
 
 Cette approche détaillée vous aidera à construire une ontologie robuste et significative qui peut être utilisée pour analyser et comprendre les émotions dans les textes littéraires de manière plus profonde et systématique.
+
+
+# TODO
+
+* Préparer les corpus
