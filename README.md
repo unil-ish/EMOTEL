@@ -1,4 +1,5 @@
-# Développement d'une Ontologie des Émotions pour l'Analyse Littéraire
+
+# EMOTEL: "Emotion Ontology for Literary Exploration".
 
 Inspiré par "[EFO: the Emotion Frame Ontology](https://arxiv.org/pdf/2401.10751.pdf)" de Stefano De Giorgis et Aldo Gangemi, vous pourriez développer une ontologie basée sur OWL pour modéliser les émotions spécifiques des personnages et les situations décrites dans les textes littéraires. Cette ontologie pourrait inclure des cadres sémantiques qui capturent différents aspects de l'expérience émotionnelle, tels que les causes des émotions, les réactions des personnages et les changements au fil de la narration. Votre projet pourrait explorer comment différentes théories des émotions peuvent être intégrées et représentées au sein d'une structure ontologique unique, permettant des analyses comparatives et approfondies des textes.
 
