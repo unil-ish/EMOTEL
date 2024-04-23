@@ -154,6 +154,10 @@ Pour promouvoir l'interopérabilité, alignez votre ontologie avec des standards
 
 Une fois la structure de l'ontologie définie, utilisez des [LLM](llm.py) (Large Language Models) et les [prompts suggérés](./prompts.md) pour peupler votre ontologie avec des exemples tirés de textes littéraires. Cela comprend l'utilisation des LLM pour identifier et classer les émotions dans des extraits littéraires, ainsi que pour détecter les relations entre les émotions et les autres éléments littéraires. Ce processus peut être facilité par l'automatisation partielle à travers les réponses générées par les LLM aux prompts donnés, mais il nécessitera toujours une révision manuelle minutieuse pour s'assurer de la pertinence et de l'exactitude des données par rapport à votre ontologie.
 
+
+**RDFlib pour intéragir avec l'ontologie**
+[RDFlib](https://rdflib.readthedocs.io/en/stable/) est une bibliothèque Python populaire utilisée pour travailler avec des données structurées au format RDF (Resource Description Framework). Pour l'utiliser, commencez par installer la bibliothèque via pip avec la commande `pip install rdflib`. Une fois installée, vous pouvez créer un graphe RDF en important `Graph` de RDFlib. Utilisez la méthode `add()` pour ajouter des triplets au graphe, représentant respectivement le sujet, le prédicat et l'objet. Par exemple, `g.add((sujet, prédicat, objet))`. RDFlib permet également de parser des données depuis des fichiers ou des URL avec des formats supportés comme RDF/XML, JSON-LD, Turtle, etc., en utilisant `g.parse(source)`. Cela rend RDFlib extrêmement utile pour les projets qui nécessitent de manipuler ou d'interroger des données sémantiques dans divers formats RDF.
+
 #### 5.1 Sélection des Textes:
 
 **Diversité des Genres**: Sélectionnez une gamme de textes couvrant divers genres littéraires comme les romans, les drames, etc. Cela permet de tester l'ontologie contre une variété de formes et de styles narratifs, assurant ainsi que l'ontologie est adaptable et applicable à travers différents types de littérature.
