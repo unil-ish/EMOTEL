@@ -1,0 +1,22 @@
+{
+    "individuals": [
+      {
+        "id": "Alice",
+        "type": "Person",
+        "properties": {
+          "hasName": "Alice",
+          "hasAge": 25
+        }
+      },
+      {
+        "id": "Bob",
+        "type": "Student",
+        "properties": {
+          "hasName": "Bob",
+          "hasAge": 22,
+          "isEnrolledIn": "ComputerScience"
+        }
+      }
+    ]
+  }
+  
