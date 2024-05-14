@@ -44,7 +44,7 @@ qres = g.query(
     PREFIX ex: <http://example.org/>
     SELECT ?name ?age ?course
     WHERE {
-        ?student rdf:type ex:Student .
+        {?student rdf:type ex:Student} UNION {?student rdf:type ex:Person} .
         ?student ex:hasName ?name .
         ?student ex:hasAge ?age .
         OPTIONAL { ?student ex:isEnrolledIn ?course }
