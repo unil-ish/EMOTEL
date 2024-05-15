@@ -1,0 +1,212 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="https://github.com/unil-ish/EMOTEL"
+         xmlns="https://github.com/unil-ish/EMOTEL#">
+
+<owl:Ontology rdf:about="https://github.com/unil-ish/EMOTEL"/>
+
+<owl:ObjectProperty rdf:about="#hasContext">
+  <rdfs:domain rdf:resource="#Passage"/>
+  <rdfs:range rdf:resource="#Situation"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#isPartOf">
+  <rdfs:range rdf:resource="#Work"/>
+  <rdfs:domain rdf:resource="#Passage"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#isFeltBy">
+  <rdfs:domain rdf:resource="#Emotion"/>
+  <rdfs:range rdf:resource="#Character"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#appearsIn">
+  <rdfs:range rdf:resource="#Work"/>
+  <rdfs:domain rdf:resource="#Character"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#causedBy">
+  <rdfs:domain rdf:resource="#Emotion"/>
+  <rdfs:range rdf:resource="#Situation"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasObject">
+  <rdfs:domain rdf:resource="#Emotion"/>
+  <rdfs:range rdf:resource="#FictionnalEntity"/>
+</owl:ObjectProperty>
+
+<owl:DatatypeProperty rdf:about="#hasIntensity">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  <rdfs:domain rdf:resource="#Emotion"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasPubYear">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  <rdfs:domain rdf:resource="#Work"/>
+</owl:DatatypeProperty>
+
+<owl:Class rdf:about="#Work">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Passage">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Emotion">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#FictionnalEntity">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Character">
+  <rdfs:subClassOf rdf:resource="#FictionnalEntity"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Situation">
+  <rdfs:subClassOf rdf:resource="#FictionnalEntity"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Trust">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Surprise">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Anger">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Joy">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Anticipation">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Fear">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Disgust">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Sadness">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Acceptance">
+  <rdfs:subClassOf rdf:resource="#Trust"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Admiration">
+  <rdfs:subClassOf rdf:resource="#Trust"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Amazement">
+  <rdfs:subClassOf rdf:resource="#Surprise"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Distraction">
+  <rdfs:subClassOf rdf:resource="#Surprise"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Terror">
+  <rdfs:subClassOf rdf:resource="#Fear"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Apprehension">
+  <rdfs:subClassOf rdf:resource="#Fear"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Boredom">
+  <rdfs:subClassOf rdf:resource="#Disgust"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Loathing">
+  <rdfs:subClassOf rdf:resource="#Disgust"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Interest">
+  <rdfs:subClassOf rdf:resource="#Anticipation"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Vigilance">
+  <rdfs:subClassOf rdf:resource="#Anticipation"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Annoyance">
+  <rdfs:subClassOf rdf:resource="#Anger"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Rage">
+  <rdfs:subClassOf rdf:resource="#Anger"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Serenity">
+  <rdfs:subClassOf rdf:resource="#Joy"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Ecstasy">
+  <rdfs:subClassOf rdf:resource="#Joy"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Grief">
+  <rdfs:subClassOf rdf:resource="#Sadness"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Pensiveness">
+  <rdfs:subClassOf rdf:resource="#Sadness"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Contempt">
+  <rdfs:subClassOf rdf:resource="#Anger"/>
+  <rdfs:subClassOf rdf:resource="#Disgust"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Aggressiveness">
+  <rdfs:subClassOf rdf:resource="#Anger"/>
+  <rdfs:subClassOf rdf:resource="#Anticipation"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Optimism">
+  <rdfs:subClassOf rdf:resource="#Joy"/>
+  <rdfs:subClassOf rdf:resource="#Anticipation"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Love">
+  <rdfs:subClassOf rdf:resource="#Trust"/>
+  <rdfs:subClassOf rdf:resource="#Joy"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Submission">
+  <rdfs:subClassOf rdf:resource="#Trust"/>
+  <rdfs:subClassOf rdf:resource="#Fear"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Awe">
+  <rdfs:subClassOf rdf:resource="#Surprise"/>
+  <rdfs:subClassOf rdf:resource="#Fear"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Disapproval">
+  <rdfs:subClassOf rdf:resource="#Surprise"/>
+  <rdfs:subClassOf rdf:resource="#Sadness"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Remorse">
+  <rdfs:subClassOf rdf:resource="#Disgust"/>
+  <rdfs:subClassOf rdf:resource="#Sadness"/>
+</owl:Class>
+
+
+</rdf:RDF>
