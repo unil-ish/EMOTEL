@@ -1,0 +1,86 @@
+digraph {
+
+    // cidoc-crm classes
+    _crm [label="..." color=red shape=plain]
+    human_made_thing [label="crm:human-made_thing"  color=red]
+    conceptual_object [label="crm:conceptual_object"  color=red]
+    propositional_object [label="crm:propositional_object" color=red]
+    information_object [label="crm:information_object"color=red]
+
+    // cidoc-crm -is_a-> cidoc-crm
+    human_made_thing -> _crm [color=red]
+    conceptual_object -> human_made_thing  [color=red]
+    propositional_object -> conceptual_object [color=red]
+    information_object -> conceptual_object [color=red]
+
+    // frbroo
+    expression [label="frbroo:expression" color=green]
+    expression -> information_object [color=green]
+    frbroo_character [label="frbroo:character" color=grey fontcolor=grey]
+    frbroo_character -> conceptual_object [color=grey]
+
+    // emotel classes
+    story
+    story_part
+    fictional_object
+    fictional_event
+    fictional_character
+    fictional_place
+
+    // emotel -is_a-> crm
+    story -> propositional_object
+    fictional_object -> propositional_object
+
+    // emotel property frbroo
+    story_part -> story [style=dashed label="part_of"]
+    story_part -> story
+    story -> expression [style=dashed label="told_in"]
+
+    // emotel -is_a-> emotel
+    fictional_event -> fictional_object
+    fictional_character -> fictional_object
+    fictional_place -> fictional_object
+
+    // emotel property emotel
+    fictional_event -> fictional_place [style=dashed label="took_place_at"]
+    fictional_event -> fictional_character [style=dashed label="has_participant"]
+    fictional_object -> story [style=dashed label="is_in"]
+
+    // cwrc
+    cwrc_fictional_person [label="cwrc:fictional_person" fontcolor=grey color=grey]
+    cwrc_fictional_place [label="cwrc:fictional_place" fontcolor=grey color=grey]
+    cwrc_place [label="cwrc:place" fontcolor=grey color=grey]
+    // cwrc -is_a-> cwrc
+    cwrc_fictional_place -> cwrc_place [color=grey]
+    // foaf
+    foaf_person [label="foaf:person" fontcolor=grey color=grey]
+    foaf_agent [label="foaf:agent" fontcolor=grey color=grey]
+    // geo
+    geo_spatial_thing [label="geo:spatial_thing" color=grey fontcolor=grey]
+    // cwrc -is_a-> foaf
+    cwrc_fictional_person -> foaf_person [color=grey]
+    foaf_person -> foaf_agent [color=grey]
+    foaf_person -> geo_spatial_thing  [color=grey]
+    // sem, w3
+    sem_place [label="sem:place" color=grey fontcolor=grey]
+    w3_spatial_thing [label="w3c:spatial_thing" color=grey fontcolor=grey]
+    // cwrc -is_a-> sem, w3
+    cwrc_place -> sem_place [color=grey]
+    cwrc_place -> w3_spatial_thing [color=grey]
+
+    // dbpedia
+    dbo_fictional_character [label="dbo:fictional_character" color=grey fontcolor=grey]
+    dbo_agent [label="dbo:agent" color=grey fontcolor=grey]
+    dbo_fictional_character -> dbo_agent [color=grey]
+    // owl
+    owl_thing [label="owl:thing" color=grey fontcolor=grey]
+    // dbpedia -is_a-> owl
+    dbo_agent -> owl_thing [color=grey]
+
+    // emotel -refers_to-> dbpedai, cwrc
+    fictional_character -> cwrc_fictional_person [style=dashed color=grey label="refers_to" fontcolor=grey]
+    fictional_character -> dbo_fictional_character [style=dashed color=grey label="refers_to" fontcolor=grey]
+    fictional_character -> frbroo_character [style=dashed color=grey fontcolor=grey label="refers_to"]
+    fictional_place -> cwrc_fictional_place [style=dashed color=grey fontcolor=grey label="refers_to"]
+
+}
