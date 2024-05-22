@@ -2,7 +2,7 @@
 
 Une ontologie représentant les émotions dans des textes littéraires.
 
-Ce projet a été réalisé dans le cadre du cours "Progrmmation pour le Web sémantique" dde Davide Picca (SLI, Lettres, UNIL) au printemps 2024.
+Ce projet a été réalisé dans le cadre du cours "Programmation pour le Web sémantique" de Davide Picca (SLI, Lettres, UNIL) au printemps 2024.
 
 ## 1. But du projet
 
@@ -23,8 +23,8 @@ Nous utilisons ensuite des LLMs pour essayer de peupler notre ontologie au moyen
 Se référer au fichier requirements.txt pour une liste exacte.
 
 Nous vous encourageons à exécuter nos scripts dans un environnement virtuel. Pour installer le fichier `requirements.txt`, exécutez la commande suivante dans un terminal:
-- Unix/macOS: python3 -m pip install -r requirements.txt
-- Windows: py -m pip install -r requirements.txt
+- Unix/macOS: `python3 -m pip install -r requirements.txt`
+- Windows: `py -m pip install -r requirements.txt`
 
 ## Crédits
 

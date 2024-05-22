@@ -8,12 +8,12 @@ import types
 # - passage
 # - entité fictionnelle
 # - émotion
-base_classes = ["Work", "Passage", "Emotion", "FictionnalEntity"]
+base_classes = ["Expression", "Emotion", "Story", "FictionalObject"]
 
 # les sous-classes de 'entité fictionnelle':
 # - personnage
 # - situation
-fictional_entities = ["Character", "Situation"]
+fictional_objects = ["FictionalCharacter", "FictionalEvent", "FictionalPlace"]
 
 # les sous-classes de 'émotion' (émotions simples, composées, dérivées)
 base_emotions = [
@@ -54,17 +54,17 @@ derived_emotions = {
 }
 
 object_properties = {
-    "hasContext": {"domain": "Passage", "range": "Situation"},
-    "isPartOf": {"domain": "Passage", "range": "Work"},
     "isFeltBy": {"domain": "Emotion", "range": "Character"},
-    "appearsIn": {"domain": "Character", "range": "Work"},
     "causedBy": {"domain": "Emotion", "range": "Situation"},
-    "hasObject": {"domain": "Emotion", "range": "FictionnalEntity"},
+    "hasObject": {"domain": "Emotion", "range": "FictionalObject"},
+    "isIn": {"domain": "FictionalObject", "range": "Story"},
+    "takePlaceAt": {"domain": "FictionalEvent", "range": "FictionalPlace"},
+    "hasParticipant": {"domain": "FictionalEvent", "range": "FictionalCharacter"},
 }
 
 data_properties = {
     "hasIntensity": {"domain": "Emotion", "range": float},
-    "hasPubYear": {"domain": "Work", "range": int},
+    "hasPubYear": {"domain": "Expression", "range": int},
 }
 
 # crée une ontologie avec, comme URI, l'URL du projet.
@@ -75,8 +75,8 @@ with onto:
         types.new_class(i, (owl.Thing,))
 
     # 2) crée les sous-classe de 'entité fictionnelle'
-    for i in fictional_entities:
-        types.new_class(i, (onto.FictionnalEntity,))
+    for i in fictional_objects:
+        types.new_class(i, (onto.FictionalObject,))
 
     # 3) crée les classes d'émotions
     # 3.1) d'abord les émotions simples.
