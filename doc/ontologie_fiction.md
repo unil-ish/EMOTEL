@@ -1,3 +1,5 @@
+![](./img/diagram_ontologie_fiction.dot.png)
+
 # ontologie de la fiction
 
 pour construire une ontologie des émotions telles qu'elles apparaissent dans les textes littéraires, il nous faut élaborer, au moins en partie, une ontologie des textes littéraires: chose un peu trop complexe pour la visée de ce projet aux ambitions plus modestes, qui concentra son attention sur un type de textes littéraires seulement: la littérature de fiction narrative.
