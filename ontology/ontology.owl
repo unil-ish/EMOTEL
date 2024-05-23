@@ -8,45 +8,27 @@
 
 <owl:Ontology rdf:about="https://github.com/unil-ish/EMOTEL"/>
 
-<owl:ObjectProperty rdf:about="#isFeltBy">
-  <rdfs:domain rdf:resource="#Emotion"/>
-</owl:ObjectProperty>
+<owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E28_Conceptual_Object">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
 
-<owl:ObjectProperty rdf:about="#causedBy">
-  <rdfs:domain rdf:resource="#Emotion"/>
-</owl:ObjectProperty>
+<owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object">
+  <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E28_Conceptual_Object"/>
+</owl:Class>
 
-<owl:ObjectProperty rdf:about="#hasObject">
-  <rdfs:domain rdf:resource="#Emotion"/>
-  <rdfs:range rdf:resource="#FictionalObject"/>
-</owl:ObjectProperty>
+<owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object">
+  <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object"/>
+</owl:Class>
 
-<owl:ObjectProperty rdf:about="#isIn">
-  <rdfs:range rdf:resource="#Story"/>
-  <rdfs:domain rdf:resource="#FictionalObject"/>
-</owl:ObjectProperty>
+<owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object">
+  <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+</owl:Class>
 
-<owl:ObjectProperty rdf:about="#takePlaceAt">
-  <rdfs:domain rdf:resource="#FictionalEvent"/>
-  <rdfs:range rdf:resource="#FictionalPlace"/>
-</owl:ObjectProperty>
+<owl:Class rdf:about="http://iflastandards.info/ns/fr/frbr/frbroo/Expression">
+  <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+</owl:Class>
 
-<owl:ObjectProperty rdf:about="#hasParticipant">
-  <rdfs:range rdf:resource="#FictionalCharacter"/>
-  <rdfs:domain rdf:resource="#FictionalEvent"/>
-</owl:ObjectProperty>
-
-<owl:DatatypeProperty rdf:about="#hasIntensity">
-  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-  <rdfs:domain rdf:resource="#Emotion"/>
-</owl:DatatypeProperty>
-
-<owl:DatatypeProperty rdf:about="#hasPubYear">
-  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-  <rdfs:domain rdf:resource="#Expression"/>
-</owl:DatatypeProperty>
-
-<owl:Class rdf:about="#Expression">
+<owl:Class rdf:about="#E28_Conceptual_Object">
   <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
 </owl:Class>
 
@@ -54,24 +36,44 @@
   <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
 </owl:Class>
 
-<owl:Class rdf:about="#Story">
-  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+<owl:Class rdf:about="#E89_Propositional_Object">
+  <rdfs:subClassOf rdf:resource="#E28_Conceptual_Object"/>
 </owl:Class>
 
 <owl:Class rdf:about="#FictionalObject">
-  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  <rdfs:subClassOf rdf:resource="#E89_Propositional_Object"/>
 </owl:Class>
 
-<owl:Class rdf:about="#FictionalCharacter">
-  <rdfs:subClassOf rdf:resource="#FictionalObject"/>
+<owl:Class rdf:about="#E73_Information_Object">
+  <rdfs:subClassOf rdf:resource="#E89_Propositional_Object"/>
 </owl:Class>
 
 <owl:Class rdf:about="#FictionalEvent">
   <rdfs:subClassOf rdf:resource="#FictionalObject"/>
 </owl:Class>
 
+<owl:Class rdf:about="#FictionalCharacter">
+  <rdfs:subClassOf rdf:resource="#FictionalObject"/>
+</owl:Class>
+
 <owl:Class rdf:about="#FictionalPlace">
   <rdfs:subClassOf rdf:resource="#FictionalObject"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Expression">
+  <rdfs:subClassOf rdf:resource="#E73_Information_Object"/>
+</owl:Class>
+
+<owl:Class rdf:about="#E33_Linguistic_Object">
+  <rdfs:subClassOf rdf:resource="#E73_Information_Object"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Story">
+  <rdfs:subClassOf rdf:resource="#E33_Linguistic_Object"/>
+</owl:Class>
+
+<owl:Class rdf:about="#StoryPart">
+  <rdfs:subClassOf rdf:resource="#Story"/>
 </owl:Class>
 
 <owl:Class rdf:about="#Trust">
