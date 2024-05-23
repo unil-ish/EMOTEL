@@ -1,0 +1,38 @@
+salut :-) j'aimerais que, dans le texte que je vais te soumettre à la fin de mon message, tu repères les passages qui concernent les émotions suivantes: peur, joie, sérénité, surprise, colère, dégoût, tristesse. j'aimerais que tu cites exactement les passages identifiés, que tu évalues l'intensité de l'émotion sur une échelle de 0 (peu intense) et 1 (très intense) et que tu apportes une justification. j'aimerais que tu décrises la situation qui a suscité cette émotion. j'aimerais que tu décrives comment se manifeste l'émotion dans le comportement observable du personnage (si existant). j'aimerais que tu mentionnes le personnage qui ressent cette émotion.
+voici à quoi j'aimerais que ta réponse (au format json) ressemble:
+
+[
+    {
+        "émotion": "peur",
+        "intensité": 0.4,
+        "passage": "le chat sursauta et s'enfuit.",
+        "personnage": "chat"
+        "situation": "le chat a été surpris par quelque chose."
+        "manifestation": "fuite",
+        "justification": "sursauter et s'enfuir sont des comportements typiquement associés à la peur."
+    },
+    {
+        "émotion": "joie",
+        "intensité": 0.8,
+        "passage": "un large sourire illumina le visage de Marie.",
+        "personnage": "Marie",
+        "situation": "Marie a reçu un cadeau",
+        "manifestation": "sourire",
+        "justification": "le sourire est un signe de bonheur, donc de joie."
+    },
+    {
+        "émotion": "joie",
+        "intensité": 0.1,
+        "passage": "Jeanne était heureuse.",
+        "personnage": "Jeanne",
+        "situation": "Jeanne se promène dans la forêt.",
+        "manifestation": NULL,
+        "justification": "on ressent de la joie lorsqu'on est heureux·se."
+    }
+]
+
+---
+
+texte:
+
+

@@ -16,12 +16,12 @@ g.parse("ontology.rdf", format="xml")
 ex_ns = "http://example.org/"
 ex = URIRef(ex_ns)
 
+
 # Fonction pour ajouter un individu au graphe
 def add_individual(individual):
     ind_uri = URIRef(ex_ns + individual["id"])
     class_uri = URIRef(ex_ns + individual["type"])
     g.add((ind_uri, RDF.type, class_uri))
-    
     for prop, value in individual["properties"].items():
         prop_uri = URIRef(ex_ns + prop)
         if isinstance(value, str):
@@ -30,6 +30,7 @@ def add_individual(individual):
             g.add((ind_uri, prop_uri, Literal(value, datatype=XSD.integer)))
         else:
             g.add((ind_uri, prop_uri, URIRef(ex_ns + value)))
+
 
 # Ajout des individus depuis le fichier JSON
 for individual in data["individuals"]:
@@ -44,7 +45,8 @@ qres = g.query(
     PREFIX ex: <http://example.org/>
     SELECT ?name ?age ?course
     WHERE {
-        {?student rdf:type ex:Student} UNION {?student rdf:type ex:Person} .
+        {?student rdf:type ex:Student} 
+        UNION {?student rdf:type ex:Person} .
         ?student ex:hasName ?name .
         ?student ex:hasAge ?age .
         OPTIONAL { ?student ex:isEnrolledIn ?course }
