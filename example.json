@@ -1,0 +1,66 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "type": "FictionalCharacter",
+      "name": "John Doe",
+      "feels": [
+        {
+          "id": "emotion1",
+          "type": "Emotion",
+          "name": "Joy",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event1",
+            "type": "FictionalEvent",
+            "name": "Winning a prize"
+          },
+          "hasObject": {
+            "id": "object1",
+            "type": "FictionalObject",
+            "name": "Prize"
+          }
+        }
+      ]
+    }
+  ],
+  "Stories": [
+    {
+      "id": "story1",
+      "type": "Story",
+      "title": "A Joyful Day",
+      "text": "This is a story about John Doe winning a prize and feeling joyful.",
+      "contains": [
+        {
+          "id": "object1",
+          "type": "FictionalObject",
+          "name": "Prize",
+          "isIn": {
+            "id": "story1",
+            "type": "Story"
+          }
+        }
+      ],
+      "partOf": {
+        "id": "storyPart1",
+        "type": "StoryPart"
+      }
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "type": "FictionalEvent",
+      "name": "Winning a prize",
+      "takePlaceAt": {
+        "id": "place1",
+        "type": "FictionalPlace",
+        "name": "Award Ceremony"
+      },
+      "hasParticipant": {
+        "id": "fc1",
+        "type": "FictionalCharacter"
+      }
+    }
+  ]
+}

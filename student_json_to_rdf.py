@@ -3,14 +3,14 @@ from rdflib import Graph, Literal, RDF, URIRef
 from rdflib.namespace import XSD
 
 # Chargement du fichier JSON
-with open("data.json", "r") as f:
+with open("student_data.json", "r") as f:
     data = json.load(f)
 
 # Création du graphe RDF
 g = Graph()
 
 # Chargement de l'ontologie depuis le fichier RDF
-g.parse("ontology.rdf", format="xml")
+g.parse("student_ontology.rdf", format="xml")
 
 # Définition de namespaces
 ex_ns = "http://example.org/"
