@@ -8,7 +8,7 @@ voici à quoi j'aimerais que ta réponse (au format json) ressemble:
         "passage": "le chat sursauta et s'enfuit.",
         "personnage": "chat"
         "situation": "le chat a été surpris par quelque chose."
-	      "lieu": "la cuisine",
+	"lieu": "la cuisine",
         "manifestation": "fuite",
         "justification": "sursauter et s'enfuir sont des comportements typiquement associés à la peur."
     },
@@ -18,7 +18,7 @@ voici à quoi j'aimerais que ta réponse (au format json) ressemble:
         "passage": "un large sourire illumina le visage de Marie.",
         "personnage": "Marie",
         "situation": "Marie a reçu un cadeau",
-	      "lieu": "dans son jardin",
+	"lieu": "dans son jardin",
         "manifestation": "sourire",
         "justification": "le sourire est un signe de bonheur, donc de joie."
     },
@@ -28,7 +28,7 @@ voici à quoi j'aimerais que ta réponse (au format json) ressemble:
         "passage": "Jeanne était heureuse.",
         "personnage": "Jeanne",
         "situation": "Jeanne se promène dans la forêt.",
-	      "lieu": "la forêt",
+	"lieu": "la forêt",
         "manifestation": NULL,
         "justification": "on ressent de la joie lorsqu'on est heureux·se."
     }
