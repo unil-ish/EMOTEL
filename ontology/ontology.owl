@@ -8,6 +8,123 @@
 
 <owl:Ontology rdf:about="https://github.com/unil-ish/EMOTEL"/>
 
+<owl:ObjectProperty rdf:about="#isFeltBy">
+  <rdfs:domain rdf:resource="#Emotion"/>
+  <rdfs:range rdf:resource="#FictionalCharacter"/>
+  <owl:inverseOf rdf:resource="#feels"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#feels">
+  <rdfs:range rdf:resource="#Emotion"/>
+  <rdfs:domain rdf:resource="#FictionalCharacter"/>
+  <owl:inverseOf rdf:resource="#isFeltBy"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#causedBy">
+  <rdfs:domain rdf:resource="#Emotion"/>
+  <rdfs:range rdf:resource="#FictionalEvent"/>
+  <owl:inverseOf rdf:resource="#causes"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#causes">
+  <rdfs:range rdf:resource="#Emotion"/>
+  <rdfs:domain rdf:resource="#FictionalEvent"/>
+  <owl:inverseOf rdf:resource="#causedBy"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasObject">
+  <rdfs:domain rdf:resource="#Emotion"/>
+  <rdfs:range rdf:resource="#FictionalObject"/>
+  <owl:inverseOf rdf:resource="#isObjectOf"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#isObjectOf">
+  <rdfs:range rdf:resource="#Emotion"/>
+  <rdfs:domain rdf:resource="#FictionalObject"/>
+  <owl:inverseOf rdf:resource="#hasObject"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#isIn">
+  <rdfs:domain rdf:resource="#FictionalObject"/>
+  <rdfs:range rdf:resource="#Story"/>
+  <owl:inverseOf rdf:resource="#contains"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#contains">
+  <rdfs:range rdf:resource="#FictionalObject"/>
+  <rdfs:domain rdf:resource="#Story"/>
+  <owl:inverseOf rdf:resource="#isIn"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#partOf">
+  <rdfs:range rdf:resource="#Story"/>
+  <rdfs:domain rdf:resource="#StoryPart"/>
+  <owl:inverseOf rdf:resource="#hasPart"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasPart">
+  <rdfs:domain rdf:resource="#Story"/>
+  <rdfs:range rdf:resource="#StoryPart"/>
+  <owl:inverseOf rdf:resource="#partOf"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#takePlaceAt">
+  <rdfs:domain rdf:resource="#FictionalEvent"/>
+  <rdfs:range rdf:resource="#FictionalPlace"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasParticipant">
+  <rdfs:domain rdf:resource="#FictionalEvent"/>
+  <rdfs:range rdf:resource="#FictionalCharacter"/>
+  <owl:inverseOf rdf:resource="#takePartOf"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#takePartOf">
+  <rdfs:range rdf:resource="#FictionalEvent"/>
+  <rdfs:domain rdf:resource="#FictionalCharacter"/>
+  <owl:inverseOf rdf:resource="#hasParticipant"/>
+</owl:ObjectProperty>
+
+<owl:DatatypeProperty rdf:about="#hasIntensity">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  <rdfs:domain rdf:resource="#Emotion"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasPubYear">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  <rdfs:domain rdf:resource="#Expression"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasAuthor">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  <rdfs:domain rdf:resource="#Expression"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasTitle">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  <rdfs:domain rdf:resource="#Expression"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasPubPlace">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  <rdfs:domain rdf:resource="#Expression"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#text">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  <rdfs:domain rdf:resource="#Story"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasName">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  <rdfs:domain rdf:resource="#FictionalObject"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasDesc">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  <rdfs:domain rdf:resource="#FictionalObject"/>
+</owl:DatatypeProperty>
+
 <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E28_Conceptual_Object">
   <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
 </owl:Class>
