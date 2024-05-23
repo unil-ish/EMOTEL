@@ -11,6 +11,7 @@ Ce projet cherche à représenter les émotions dans un texte littéraire en cr�
 Nous utilisons ensuite des LLMs pour essayer de peupler notre ontologie au moyen de prompts ajustés pour effectuer cette tâche.
 
 ## 2. Étapes du projet
+1. Identification des émotions et informations que nous souhaitons recenser dans notre ontologie. 
 
 1. Création d'une hiérarchie de classe de notre ontologie.
 
