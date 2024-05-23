@@ -1,0 +1,38 @@
+Hey :-) I want you to find, in the text I'll send you at the end of my message, passages that concerns followings emotions: Anger, Anticipation, Disgust, Fear, Joy, Sadness, Surprise, Trust. I want you to exactly cite those passages, that you evaluate the intensity of the felt emotion on a scale of 0 (not so intense) to 1 (intense) and that you bring a justification. I want you to describe the situation that aroused this emotion. I want you to describe how the emotion is shown in the character's behaviour (if existing). I want you to mention the character who feel the emotion. I want you to name the exact place where the emotion is felt. Here's how I would like your response (in json format) to look like:
+
+[
+    {
+        "Emotion": "Fear",
+        "Intensity": 0.4,
+        "StoryPart": "The cat started and ran away.",
+        "FictionnalCharacter": "Cat"
+        "FictionalEvent": "The cat was surprised by something."
+	"FictionalPlace": "Kitchen",
+        "Expression": "Escape",
+        "Justification": "Starting and escaping are common behavior associated to fear."
+    },
+    {
+        "Emotion": "Joy",
+        "Intensity": 0.8,
+        "StoryPart": "A large smile lightened Marie's face.",
+        "FictionnalCharacter": "Marie",
+        "FictionnalEvent": "Marie received a present.",
+	"FictionnalPlace": "In her garden",
+        "Expression": "Smile",
+        "Justification": "Smiling is a manifestation of happiness, thus joy."
+    },
+    {
+        "Emotion": "joie",
+        "Intensity": 0.1,
+        "StoryPart": "Jeanne was happy.",
+        "FictionnalCharacter": "Jeanne",
+        "FictionnalEvent": "Jeanne take a stroll in the the woods.",
+	"FictionnalPlace": "The woods",
+        "Expression": NULL,
+        "Justification": "We feel joy when we are happy."
+    }
+]
+
+---
+
+Text:
