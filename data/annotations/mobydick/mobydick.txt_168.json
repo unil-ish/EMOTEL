@@ -1,0 +1,104 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Narrator",
+      "feels": [
+        {
+          "name": "Fear",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event1",
+            "name": "Infernal orgies"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Revelry"
+          },
+          "place": {
+            "id": "place1",
+            "name": "On the ship"
+          }
+        },
+        {
+          "name": "Joy",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event2",
+            "name": "Singing farewell to Spanish ladies"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Farewell"
+          },
+          "place": {
+            "id": "place2",
+            "name": "Midnight, Forecastle"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Stubb",
+      "feels": [
+        {
+          "name": "Amazement",
+          "hasIntensity": 0.5,
+          "causedBy": {
+            "id": "event3",
+            "name": "Thinking about predestination"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Predestination"
+          },
+          "place": {
+            "id": "place3",
+            "name": "Solus, mending a brace"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "On the ship",
+      "description": "Sailing with a heathen crew"
+    },
+    {
+      "id": "place2",
+      "name": "Midnight, Forecastle",
+      "description": "Harpooneers and sailors singing farewell"
+    },
+    {
+      "id": "place3",
+      "name": "Solus, mending a brace",
+      "description": "Thinking about predestination"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Infernal orgies",
+      "takePlaceAt": {
+        "id": "place1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Singing farewell to Spanish ladies",
+      "takePlaceAt": {
+        "id": "place2"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Thinking about predestination",
+      "takePlaceAt": {
+        "id": "place3"
+      }
+    }
+  ]
+}

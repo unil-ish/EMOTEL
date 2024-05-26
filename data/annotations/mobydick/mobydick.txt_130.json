@@ -1,0 +1,68 @@
+```json
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Narrator",
+      "feels": [
+        {
+          "name": "Anticipation",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event1",
+            "name": "Projecting the draught of a systematization of cetology"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Systematization of cetology"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Bottom of the sea",
+            "description": "Among the unspeakable foundations, ribs, and very pelvis of the world"
+          }
+        },
+        {
+          "name": "Fear",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event2",
+            "name": "Attempting to hook the nose of the leviathan"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Leviathan"
+          },
+          "place": {
+            "id": "place2",
+            "name": "Libraries and oceans",
+            "description": "Swimming through libraries and sailing through oceans"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Bottom of the sea",
+      "description": "Among the unspeakable foundations, ribs, and very pelvis of the world"
+    },
+    {
+      "id": "place2",
+      "name": "Libraries and oceans",
+      "description": "Swimming through libraries and sailing through oceans"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Projecting the draught of a systematization of cetology"
+    },
+    {
+      "id": "event2",
+      "name": "Attempting to hook the nose of the leviathan"
+    }
+  ]
+}
+```

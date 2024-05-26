@@ -1,0 +1,78 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Ishmael",
+      "feels": [
+        {
+          "name": "Anticipation",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event1",
+            "name": "Embarking on a whaling voyage"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Whaling voyage"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Wharf",
+            "description": "A busy dock with ships ready to sail."
+          }
+        },
+        {
+          "name": "Interest",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event2",
+            "name": "Encountering mysterious characters"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Mysterious characters"
+          },
+          "place": {
+            "id": "place2",
+            "name": "Spouter-Inn",
+            "description": "A peculiar inn with intriguing guests."
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Wharf",
+      "description": "A busy dock with ships ready to sail."
+    },
+    {
+      "id": "place2",
+      "name": "Spouter-Inn",
+      "description": "A peculiar inn with intriguing guests."
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Embarking on a whaling voyage",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Encountering mysterious characters",
+      "takePlaceAt": {
+        "id": "place2"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Flask",
+      "feels": [
+        {
+          "name": "Hunger",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "Being an officer"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Food"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Pequod's cabin",
+            "description": "A high and mighty cabin"
+          }
+        },
+        {
+          "name": "Discontent",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event2",
+            "name": "Promotion"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Old-fashioned beef"
+          },
+          "place": {
+            "id": "place2",
+            "name": "Forecastle",
+            "description": "Where Flask used to eat before"
+          }
+        },
+        {
+          "name": "Vengeance",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event3",
+            "name": "Grudge against Flask"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Seeing Flask through the cabin sky-light"
+          },
+          "place": {
+            "id": "place3",
+            "name": "Pequod's cabin",
+            "description": "Where Flask is sitting"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Stubb",
+      "feels": [
+        {
+          "name": "Privilege",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event4",
+            "name": "Lounging in the rear"
+          },
+          "hasObject": {
+            "id": "object4",
+            "name": "Lounging"
+          },
+          "place": {
+            "id": "place4",
+            "name": "Pequod's cabin",
+            "description": "Rear of the cabin"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc3",
+      "name": "Ahab",
+      "feels": [
+        {
+          "name": "Authority",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event5",
+            "name": "Forming the first table"
+          },
+          "hasObject": {
+            "id": "object5",
+            "name": "First table"
+          },
+          "place": {
+            "id": "place5",
+            "name": "Pequod's cabin",
+            "description": "Where the first table is located"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Pequod's cabin",
+      "description": "A high and mighty cabin"
+    },
+    {
+      "id": "place2",
+      "name": "Forecastle",
+      "description": "Where Flask used to eat before"
+    },
+    {
+      "id": "place3",
+      "name": "Pequod's cabin",
+      "description": "Where Flask is sitting"
+    },
+    {
+      "id": "place4",
+      "name": "Pequod's cabin",
+      "description": "Rear of the cabin"
+    },
+    {
+      "id": "place5",
+      "name": "Pequod's cabin",
+      "description": "Where the first table is located"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Being an officer"
+    },
+    {
+      "id": "event2",
+      "name": "Promotion"
+    },
+    {
+      "id": "event3",
+      "name": "Grudge against Flask"
+    },
+    {
+      "id": "event4",
+      "name": "Lounging in the rear"
+    },
+    {
+      "id": "event5",
+      "name": "Forming the first table"
+    }
+  ]
+}

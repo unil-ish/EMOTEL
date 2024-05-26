@@ -1,0 +1,73 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Narrator",
+      "feels": [
+        {
+          "name": "Apprehension",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event1",
+            "name": "Seeing Captain Ahab"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Captain Ahab"
+          },
+          "exactPlace": {
+            "id": "place1",
+            "name": "Ship's deck",
+            "description": "Quarter-deck"
+          }
+        },
+        {
+          "name": "Trust",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event2",
+            "name": "Observing the three chief officers"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Three chief officers"
+          },
+          "exactPlace": {
+            "id": "place1",
+            "name": "Ship's deck",
+            "description": "Quarter-deck"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Ship",
+      "description": "At sea"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Seeing Captain Ahab",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Observing the three chief officers",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    }
+  ]
+}

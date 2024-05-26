@@ -1,0 +1,169 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Starbuck",
+      "feels": [
+        {
+          "name": "Fear",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "Drinking to Death to Moby Dick"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "White whale"
+          }
+        },
+        {
+          "name": "Disgust",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event2",
+            "name": "Drinking spirits"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Spirits"
+          }
+        },
+        {
+          "name": "Sadness",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event3",
+            "name": "Feeling unable to enjoy loveliness"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Loveliness"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Ahab",
+      "feels": [
+        {
+          "name": "Anger",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event4",
+            "name": "Hunting Moby Dick"
+          },
+          "hasObject": {
+            "id": "object4",
+            "name": "Moby Dick"
+          }
+        },
+        {
+          "name": "Joy",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event5",
+            "name": "Seeing the warm waves blush like wine"
+          },
+          "hasObject": {
+            "id": "object5",
+            "name": "Warm waves"
+          }
+        },
+        {
+          "name": "Serenity",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event6",
+            "name": "Gazing out at the sunset"
+          },
+          "hasObject": {
+            "id": "object6",
+            "name": "Sunset"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Cabin",
+      "description": "By the stern windows"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Drinking to Death to Moby Dick",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": [
+        {
+          "id": "fc1"
+        }
+      ]
+    },
+    {
+      "id": "event2",
+      "name": "Drinking spirits",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": [
+        {
+          "id": "fc1"
+        }
+      ]
+    },
+    {
+      "id": "event3",
+      "name": "Feeling unable to enjoy loveliness",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": [
+        {
+          "id": "fc1"
+        }
+      ]
+    },
+    {
+      "id": "event4",
+      "name": "Hunting Moby Dick",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": [
+        {
+          "id": "fc2"
+        }
+      ]
+    },
+    {
+      "id": "event5",
+      "name": "Seeing the warm waves blush like wine",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": [
+        {
+          "id": "fc2"
+        }
+      ]
+    },
+    {
+      "id": "event6",
+      "name": "Gazing out at the sunset",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": [
+        {
+          "id": "fc2"
+        }
+      ]
+    }
+  ]
+}

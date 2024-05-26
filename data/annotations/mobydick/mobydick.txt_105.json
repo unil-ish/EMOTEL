@@ -1,0 +1,85 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Narrator",
+      "feels": [
+        {
+          "name": "Awe",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "Bulkington's resilience"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Bulkington"
+          }
+        },
+        {
+          "name": "Fear",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event2",
+            "name": "Perilous situation"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Ship"
+          }
+        },
+        {
+          "name": "Optimism",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event3",
+            "name": "Apotheosis of Bulkington"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Apotheosis"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "On the ship Pequod",
+      "description": "In the midst of a stormy sea"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Bulkington's resilience",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Perilous situation",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Apotheosis of Bulkington",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    }
+  ]
+}

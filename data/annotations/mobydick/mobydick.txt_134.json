@@ -1,0 +1,78 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Narrator",
+      "feels": [
+        {
+          "name": "Amazement",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "Describing the Fin-Back whale"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Fin-Back whale"
+          },
+          "feltAt": {
+            "id": "place1",
+            "name": "Sea",
+            "description": "Vast and open waters"
+          }
+        },
+        {
+          "name": "Fear",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event2",
+            "name": "Describing the Fin-Back whale as solitary and powerful"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Fin-Back whale"
+          },
+          "feltAt": {
+            "id": "place2",
+            "name": "Remote waters",
+            "description": "Sullen and isolated"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Sea",
+      "description": "Vast and open waters"
+    },
+    {
+      "id": "place2",
+      "name": "Remote waters",
+      "description": "Sullen and isolated"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Describing the Fin-Back whale",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Describing the Fin-Back whale as solitary and powerful",
+      "takePlaceAt": {
+        "id": "place2"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    }
+  ]
+}

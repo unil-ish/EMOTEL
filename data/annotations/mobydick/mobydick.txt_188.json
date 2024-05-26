@@ -1,0 +1,59 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Narrator",
+      "feels": [
+        {
+          "name": "Anticipation",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event1",
+            "name": "Mystery of whiteness"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Whitsuntide"
+          },
+          "feltAt": {
+            "id": "place1",
+            "name": "Imagination"
+          }
+        },
+        {
+          "name": "Fear",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event2",
+            "name": "Mention of White Friar or White Nun"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "White Friar or White Nun"
+          },
+          "feltAt": {
+            "id": "place1",
+            "name": "Soul"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Imagination",
+      "description": "The realm of creative thought and visualization."
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Mystery of whiteness"
+    },
+    {
+      "id": "event2",
+      "name": "Mention of White Friar or White Nun"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Starbuck",
+      "feels": [
+        {
+          "name": "Trust",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event1",
+            "name": "Stubb's statement"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Stubb"
+          },
+          "place": {
+            "id": "place1",
+            "name": "On the ship"
+          }
+        },
+        {
+          "name": "Fear",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event2",
+            "name": "Memories of past tragedies"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Past tragedies"
+          },
+          "place": {
+            "id": "place1",
+            "name": "On the ship"
+          }
+        },
+        {
+          "name": "Bravery",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event3",
+            "name": "Necessity to kill whales for a living"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Whales"
+          },
+          "place": {
+            "id": "place1",
+            "name": "On the ship"
+          }
+        },
+        {
+          "name": "Terror",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event4",
+            "name": "Spiritual terrors"
+          },
+          "hasObject": {
+            "id": "object4",
+            "name": "Spiritual terrors"
+          },
+          "place": {
+            "id": "place1",
+            "name": "On the ship"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "On the ship",
+      "description": "In the critical ocean"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Stubb's statement",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Memories of past tragedies",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Necessity to kill whales for a living",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event4",
+      "name": "Spiritual terrors",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Daggoo",
+      "feels": [
+        {
+          "name": "Admiration",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "Physical appearance and demeanor"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Daggoo"
+          },
+          "place": {
+            "id": "place1",
+            "name": "On the ship's deck"
+          }
+        },
+        {
+          "name": "Fear",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event2",
+            "name": "Comparison to a fortress"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "White man"
+          },
+          "place": {
+            "id": "place1",
+            "name": "On the ship's deck"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Little Pip",
+      "feels": [
+        {
+          "name": "Sadness",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event3",
+            "name": "Death"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Alabama boy"
+          },
+          "place": {
+            "id": "place2",
+            "name": "Pequod's forecastle"
+          }
+        },
+        {
+          "name": "Joy",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event4",
+            "name": "Being called a hero"
+          },
+          "hasObject": {
+            "id": "object4",
+            "name": "Hero status"
+          },
+          "place": {
+            "id": "place2",
+            "name": "Pequod's forecastle"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "On the ship's deck",
+      "description": "Where the harpooneers are located."
+    },
+    {
+      "id": "place2",
+      "name": "Pequod's forecastle",
+      "description": "The front part of the ship where Little Pip is located."
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Physical appearance and demeanor",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Comparison to a fortress",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Death",
+      "takePlaceAt": {
+        "id": "place2"
+      },
+      "hasParticipant": {
+        "id": "fc2"
+      }
+    },
+    {
+      "id": "event4",
+      "name": "Being called a hero",
+      "takePlaceAt": {
+        "id": "place2"
+      },
+      "hasParticipant": {
+        "id": "fc2"
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Naturalists",
+      "feels": [
+        {
+          "name": "Frustration",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event1",
+            "name": "Incomplete indications"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Knowledge of the cetacea"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Incomplete indications",
+      "takePlaceAt": null,
+      "hasParticipant": {
+        "id": "fc1",
+      }
+    }
+  ]
+}

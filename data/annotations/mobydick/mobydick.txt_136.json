@@ -1,0 +1,110 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Narrator",
+      "feels": [
+        {
+          "name": "Amazement",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "Description of whale anatomy"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Whale anatomy"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Inside the whale",
+            "description": "Internal parts of the whale"
+          }
+        },
+        {
+          "name": "Joy",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event2",
+            "name": "Description of the Hump Back whale"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Hump Back whale"
+          },
+          "place": {
+            "id": "place2",
+            "name": "Northern American coast",
+            "description": "Coast where the Hump Back whale is often seen"
+          }
+        },
+        {
+          "name": "Surprise",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event3",
+            "name": "Description of the Razor Back whale"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Razor Back whale"
+          },
+          "place": {
+            "id": "place3",
+            "name": "Cape Horn",
+            "description": "Location where the Razor Back whale is seen"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Inside the whale",
+      "description": "Internal parts of the whale"
+    },
+    {
+      "id": "place2",
+      "name": "Northern American coast",
+      "description": "Coast where the Hump Back whale is often seen"
+    },
+    {
+      "id": "place3",
+      "name": "Cape Horn",
+      "description": "Location where the Razor Back whale is seen"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Description of whale anatomy",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Description of the Hump Back whale",
+      "takePlaceAt": {
+        "id": "place2"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Description of the Razor Back whale",
+      "takePlaceAt": {
+        "id": "place3"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    }
+  ]
+}

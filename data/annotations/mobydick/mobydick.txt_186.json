@@ -1,0 +1,86 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Captain",
+      "feels": [
+        {
+          "name": "Trust",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event1",
+            "name": "Tying a lettered tally around the fowl's neck"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Leathern tally"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Old trappers and hunters",
+      "feels": [
+        {
+          "name": "Admiration",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event2",
+            "name": "Seeing the White Steed of the Prairies"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "White Steed of the Prairies"
+          }
+        },
+        {
+          "name": "Awe",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event2",
+            "name": "Seeing the White Steed of the Prairies"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "White Steed of the Prairies"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Sea",
+      "description": "Where the fowl floated"
+    },
+    {
+      "id": "place2",
+      "name": "Western Prairies",
+      "description": "Where the White Steed of the Prairies roamed"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Tying a lettered tally around the fowl's neck",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Seeing the White Steed of the Prairies",
+      "takePlaceAt": {
+        "id": "place2"
+      },
+      "hasParticipant": {
+        "id": "fc2"
+      }
+    }
+  ]
+}

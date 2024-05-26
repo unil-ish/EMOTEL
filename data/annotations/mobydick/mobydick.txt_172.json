@@ -1,0 +1,170 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Belfast Sailor",
+      "feels": [
+        {
+          "name": "Joy",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event1",
+            "name": "Seeing a row"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Row"
+          }
+        },
+        {
+          "name": "Fear",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event2",
+            "name": "Squall approaching"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Squall"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Old Manx Sailor",
+      "feels": [
+        {
+          "name": "Joy",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event3",
+            "name": "Seeing the ringed horizon"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Horizon"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc3",
+      "name": "Pip",
+      "feels": [
+        {
+          "name": "Fear",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event4",
+            "name": "Royal yard coming down"
+          },
+          "hasObject": {
+            "id": "object4",
+            "name": "Royal yard"
+          }
+        },
+        {
+          "name": "Fear",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event5",
+            "name": "Mention of the white whale"
+          },
+          "hasObject": {
+            "id": "object5",
+            "name": "White whale"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc4",
+      "name": "Ishmael",
+      "feels": [
+        {
+          "name": "Fear",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event6",
+            "name": "Ahab's feud with the white whale"
+          },
+          "hasObject": {
+            "id": "object6",
+            "name": "White whale"
+          }
+        },
+        {
+          "name": "Acceptance",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event7",
+            "name": "Joining the crew"
+          },
+          "hasObject": {
+            "id": "object7",
+            "name": "Crew"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "On the ship",
+      "description": "Deck of a whaling ship during a storm."
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Seeing a row",
+      "takePlaceAt": {
+        "id": "place1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Squall approaching",
+      "takePlaceAt": {
+        "id": "place1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Seeing the ringed horizon",
+      "takePlaceAt": {
+        "id": "place1"
+      }
+    },
+    {
+      "id": "event4",
+      "name": "Royal yard coming down",
+      "takePlaceAt": {
+        "id": "place1"
+      }
+    },
+    {
+      "id": "event5",
+      "name": "Mention of the white whale",
+      "takePlaceAt": {
+        "id": "place1"
+      }
+    },
+    {
+      "id": "event6",
+      "name": "Ahab's feud with the white whale",
+      "takePlaceAt": {
+        "id": "place1"
+      }
+    },
+    {
+      "id": "event7",
+      "name": "Joining the crew",
+      "takePlaceAt": {
+        "id": "place1"
+      }
+    }
+  ]
+}

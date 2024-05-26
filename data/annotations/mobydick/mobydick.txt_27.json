@@ -1,0 +1,120 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Narrator",
+      "feels": [
+        {
+          "name": "Anger",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "Landlord's stories about the harpooneer"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Harpooneer"
+          }
+        },
+        {
+          "name": "Fear",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event2",
+            "name": "Possibility of sleeping with a madman"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Madman"
+          }
+        },
+        {
+          "name": "Disgust",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event3",
+            "name": "Landlord's behavior"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Landlord"
+          }
+        },
+        {
+          "name": "Annoyance",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event4",
+            "name": "Landlord's refusal to provide a full bed"
+          },
+          "hasObject": {
+            "id": "object4",
+            "name": "Half a bed"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Landlord",
+      "feels": [
+        {
+          "name": "Surprise",
+          "hasIntensity": 0.5,
+          "causedBy": {
+            "id": "event5",
+            "name": "Narrator's reaction"
+          },
+          "hasObject": {
+            "id": "object5",
+            "name": "Narrator's anger"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Inn",
+      "description": "A cozy inn with a rustic charm."
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Landlord's stories about the harpooneer",
+      "takePlaceAt": {
+        "id": "place1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Possibility of sleeping with a madman",
+      "takePlaceAt": {
+        "id": "place1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Landlord's behavior",
+      "takePlaceAt": {
+        "id": "place1"
+      }
+    },
+    {
+      "id": "event4",
+      "name": "Landlord's refusal to provide a full bed",
+      "takePlaceAt": {
+        "id": "place1"
+      }
+    },
+    {
+      "id": "event5",
+      "name": "Narrator's reaction",
+      "takePlaceAt": {
+        "id": "place1"
+      }
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Ishmael",
+      "feels": [
+        {
+          "name": "Fear",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "Savage musk smell"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Savage musk"
+          }
+        },
+        {
+          "name": "Anticipation",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event2",
+            "name": "Solving the incantation of whiteness"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Whiteness"
+          }
+        },
+        {
+          "name": "Amazement",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event3",
+            "name": "Symbol of spiritual things"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Symbol of spiritual things"
+          }
+        },
+        {
+          "name": "Fear",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event4",
+            "name": "Most appalling things to mankind"
+          },
+          "hasObject": {
+            "id": "object4",
+            "name": "Appalling things"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Savage musk smell"
+    },
+    {
+      "id": "event2",
+      "name": "Solving the incantation of whiteness"
+    },
+    {
+      "id": "event3",
+      "name": "Symbol of spiritual things"
+    },
+    {
+      "id": "event4",
+      "name": "Most appalling things to mankind"
+    }
+  ]
+}

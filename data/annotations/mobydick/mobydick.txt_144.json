@@ -1,0 +1,152 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Ahab",
+      "feels": [
+        {
+          "name": "Anticipation",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event1",
+            "name": "Announcement of dinner"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Dinner"
+          },
+          "feltAt": {
+            "id": "place1",
+            "name": "Deck of the ship"
+          }
+        },
+        {
+          "name": "Anger",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event2",
+            "name": "Being denied outward majestical trappings"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Outward majestical trappings"
+          },
+          "feltAt": {
+            "id": "place1",
+            "name": "Deck of the ship"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Starbuck",
+      "feels": [
+        {
+          "name": "Acceptance",
+          "hasIntensity": 0.5,
+          "causedBy": {
+            "id": "event3",
+            "name": "Announcement of dinner"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Dinner"
+          },
+          "feltAt": {
+            "id": "place1",
+            "name": "Deck of the ship"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc3",
+      "name": "Stubb",
+      "feels": [
+        {
+          "name": "Boredom",
+          "hasIntensity": 0.4,
+          "causedBy": {
+            "id": "event4",
+            "name": "Announcement of dinner"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Dinner"
+          },
+          "feltAt": {
+            "id": "place1",
+            "name": "Deck of the ship"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc4",
+      "name": "Flask",
+      "feels": [
+        {
+          "name": "Annoyance",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event5",
+            "name": "Announcement of dinner"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Dinner"
+          },
+          "feltAt": {
+            "id": "place1",
+            "name": "Deck of the ship"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Deck of the ship",
+      "description": "Where the characters are gathered for dinner."
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Announcement of dinner",
+      "takePlaceAt": {
+        "id": "place1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Being denied outward majestical trappings",
+      "takePlaceAt": {
+        "id": "place1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Announcement of dinner",
+      "takePlaceAt": {
+        "id": "place1"
+      }
+    },
+    {
+      "id": "event4",
+      "name": "Announcement of dinner",
+      "takePlaceAt": {
+        "id": "place1"
+      }
+    },
+    {
+      "id": "event5",
+      "name": "Announcement of dinner",
+      "takePlaceAt": {
+        "id": "place1"
+      }
+    }
+  ]
+}

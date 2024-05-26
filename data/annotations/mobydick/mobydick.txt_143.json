@@ -1,0 +1,100 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Captain Ahab",
+      "feels": [
+        {
+          "name": "Fear",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event1",
+            "name": "Feeling overshadowed by political power"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Political power"
+          },
+          "place": {
+            "id": "place1",
+            "name": "On the Pequod ship",
+            "description": "At sea"
+          }
+        },
+        {
+          "name": "Admiration",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event2",
+            "name": "Realizing the power of external arts and entrenchments"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "External arts and entrenchments"
+          },
+          "place": {
+            "id": "place1",
+            "name": "On the Pequod ship",
+            "description": "At sea"
+          }
+        },
+        {
+          "name": "Contempt",
+          "hasIntensity": 0.5,
+          "causedBy": {
+            "id": "event3",
+            "name": "Observing the plebeian herds crouch before centralization"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Centralization"
+          },
+          "place": {
+            "id": "place1",
+            "name": "On the Pequod ship",
+            "description": "At sea"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "On the Pequod ship",
+      "description": "At sea"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Feeling overshadowed by political power",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Realizing the power of external arts and entrenchments",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Observing the plebeian herds crouch before centralization",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    }
+  ]
+}

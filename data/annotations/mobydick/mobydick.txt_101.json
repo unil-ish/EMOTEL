@@ -1,0 +1,123 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Captain Peleg",
+      "feels": [
+        {
+          "name": "Anger",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "Sailors lingering at the main-mast"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Sailors"
+          },
+          "place": {
+            "id": "place1",
+            "name": "On the quarter-deck"
+          }
+        },
+        {
+          "name": "Vigilance",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event2",
+            "name": "Preparing to set sail"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Setting sail"
+          },
+          "place": {
+            "id": "place1",
+            "name": "On the quarter-deck"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Captain Bildad",
+      "feels": [
+        {
+          "name": "Acceptance",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event3",
+            "name": "Being told to do the bidding"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Doing the bidding"
+          },
+          "place": {
+            "id": "place1",
+            "name": "On the quarter-deck"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc3",
+      "name": "Captain Ahab",
+      "feels": [
+        {
+          "name": "Fear",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event4",
+            "name": "Not being seen"
+          },
+          "hasObject": {
+            "id": "object4",
+            "name": "Being unseen"
+          },
+          "place": {
+            "id": "place1",
+            "name": "In the cabin"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Quarter-deck",
+      "description": "The main deck of the ship where the captains are giving orders."
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Sailors lingering at the main-mast",
+      "takePlaceAt": {
+        "id": "place1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Preparing to set sail",
+      "takePlaceAt": {
+        "id": "place1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Being told to do the bidding",
+      "takePlaceAt": {
+        "id": "place1"
+      }
+    },
+    {
+      "id": "event4",
+      "name": "Not being seen",
+      "takePlaceAt": {
+        "id": "place1"
+      }
+    }
+  ]
+}

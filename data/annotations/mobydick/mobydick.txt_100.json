@@ -1,0 +1,173 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Queequeg",
+      "feels": [
+        {
+          "name": "Joy",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event1",
+            "name": "Smoking the tomahawk pipe"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Tomahawk pipe"
+          },
+          "feltAt": {
+            "id": "place1",
+            "name": "On the ship"
+          }
+        },
+        {
+          "name": "Surprise",
+          "hasIntensity": 0.4,
+          "causedBy": {
+            "id": "event2",
+            "name": "Hearing noise on deck"
+          },
+          "feltAt": {
+            "id": "place1",
+            "name": "On the ship"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Rigger",
+      "feels": [
+        {
+          "name": "Fear",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event3",
+            "name": "Breathing in strong vapor"
+          },
+          "feltAt": {
+            "id": "place1",
+            "name": "On the ship"
+          }
+        },
+        {
+          "name": "Anticipation",
+          "hasIntensity": 0.5,
+          "causedBy": {
+            "id": "event4",
+            "name": "Preparing to sail"
+          },
+          "feltAt": {
+            "id": "place1",
+            "name": "On the ship"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc3",
+      "name": "Captain Ahab",
+      "feels": [
+        {
+          "name": "Rage",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event5",
+            "name": "Being invisibly enshrined in his cabin"
+          },
+          "feltAt": {
+            "id": "place1",
+            "name": "On the ship"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc4",
+      "name": "Peleg",
+      "feels": [
+        {
+          "name": "Joy",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event6",
+            "name": "Issuing from the cabin"
+          },
+          "feltAt": {
+            "id": "place1",
+            "name": "On the ship"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "On the ship",
+      "description": "On the Pequod"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Smoking the tomahawk pipe",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Hearing noise on deck",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Breathing in strong vapor",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc2"
+      }
+    },
+    {
+      "id": "event4",
+      "name": "Preparing to sail",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc2"
+      }
+    },
+    {
+      "id": "event5",
+      "name": "Being invisibly enshrined in his cabin",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc3"
+      }
+    },
+    {
+      "id": "event6",
+      "name": "Issuing from the cabin",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc4"
+      }
+    }
+  ]
+}

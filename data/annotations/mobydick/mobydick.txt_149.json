@@ -1,0 +1,91 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Dough-Boy",
+      "feels": [
+        {
+          "name": "Fear",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event1",
+            "name": "Queequeg's eating habits"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Eating"
+          }
+        },
+        {
+          "name": "Annoyance",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event2",
+            "name": "Tashtego's singing"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Singing"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Tashtego",
+      "feels": [
+        {
+          "name": "Anger",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event3",
+            "name": "Dough-Boy's reaction"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Reaction"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Ship's Cabin",
+      "description": "A low cabin framework"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Queequeg's eating habits",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Tashtego's singing",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Dough-Boy's reaction",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc2"
+      }
+    }
+  ]
+}

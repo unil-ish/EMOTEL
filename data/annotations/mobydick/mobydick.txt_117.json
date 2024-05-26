@@ -1,0 +1,71 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Captain Ahab",
+      "feels": [
+        {
+          "name": "Anticipation",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event1",
+            "name": "Awaiting the appearance of Captain Ahab"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Captain Ahab"
+          },
+          "feltAt": {
+            "id": "place1",
+            "name": "Ship's deck"
+          }
+        },
+        {
+          "name": "Fear",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event2",
+            "name": "Sudden and peremptory orders"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Orders"
+          },
+          "feltAt": {
+            "id": "place1",
+            "name": "Ship's deck"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Ship's deck",
+      "description": "Above hatches on the ship"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Awaiting the appearance of Captain Ahab",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Sudden and peremptory orders",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    }
+  ]
+}

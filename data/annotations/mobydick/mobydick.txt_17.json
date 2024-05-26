@@ -1,0 +1,124 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Narrator",
+      "feels": [
+        {
+          "name": "Curiosity",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "Encountering the great whale"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Great whale"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Wild and distant seas",
+            "description": "Where the whale rolled his island bulk"
+          }
+        },
+        {
+          "name": "Joy",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event2",
+            "name": "Arriving in New Bedford"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "New Bedford"
+          },
+          "place": {
+            "id": "place2",
+            "name": "New Bedford",
+            "description": "A good city"
+          }
+        },
+        {
+          "name": "Disappointment",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event3",
+            "name": "Learning the packet for Nantucket had sailed"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Packet for Nantucket"
+          },
+          "place": {
+            "id": "place2",
+            "name": "New Bedford",
+            "description": "A good city"
+          }
+        },
+        {
+          "name": "Pleasure",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event4",
+            "name": "Thinking about Nantucket"
+          },
+          "hasObject": {
+            "id": "object4",
+            "name": "Nantucket"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Wild and distant seas",
+      "description": "Where the whale rolled his island bulk"
+    },
+    {
+      "id": "place2",
+      "name": "New Bedford",
+      "description": "A good city"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Encountering the great whale",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Arriving in New Bedford",
+      "takePlaceAt": {
+        "id": "place2"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Learning the packet for Nantucket had sailed",
+      "takePlaceAt": {
+        "id": "place2"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event4",
+      "name": "Thinking about Nantucket",
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    }
+  ]
+}

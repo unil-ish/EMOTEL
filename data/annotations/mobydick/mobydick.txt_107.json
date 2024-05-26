@@ -1,0 +1,102 @@
+```json
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Narrator",
+      "feels": [
+        {
+          "name": "Admiration",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "Impact of whaling on the world"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Whaling"
+          },
+          "place": {
+            "id": "place1",
+            "name": "World",
+            "description": "Global impact"
+          }
+        },
+        {
+          "name": "Joy",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event2",
+            "name": "Liberation of Peru, Chili, and Bolivia"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Whalemen"
+          },
+          "place": {
+            "id": "place1",
+            "name": "World",
+            "description": "Global impact"
+          }
+        },
+        {
+          "name": "Optimism",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event3",
+            "name": "Whale-ship's role in establishing colonies"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Whale-ship"
+          },
+          "place": {
+            "id": "place1",
+            "name": "World",
+            "description": "Global impact"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "World",
+      "description": "Global impact"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Impact of whaling on the world",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Liberation of Peru, Chili, and Bolivia",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Whale-ship's role in establishing colonies",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    }
+  ]
+}
+```

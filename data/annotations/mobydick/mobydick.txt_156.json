@@ -1,0 +1,73 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Captain Sleet",
+      "feels": [
+        {
+          "name": "Admiration",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "Describing the crow’s-nest"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Crow’s-nest"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Crow’s-nest",
+            "description": "On top of the mast"
+          }
+        },
+        {
+          "name": "Love",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event2",
+            "name": "Ignoring the case-bottle"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Case-bottle"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Crow’s-nest",
+            "description": "On top of the mast"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Crow’s-nest",
+      "description": "On top of the mast"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Describing the crow’s-nest",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Ignoring the case-bottle",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    }
+  ]
+}

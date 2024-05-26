@@ -1,0 +1,63 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Narrator",
+      "feels": [
+        {
+          "name": "Admiration",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "Success and recognition of whalemen"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Whalemen"
+          }
+        },
+        {
+          "name": "Acceptance",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event2",
+            "name": "Acknowledgment of whalemen's importance"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Whalemen"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Whale-ship",
+      "description": "Deck of a whale-ship"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Success and recognition of whalemen",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Acknowledgment of whalemen's importance",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    }
+  ]
+}

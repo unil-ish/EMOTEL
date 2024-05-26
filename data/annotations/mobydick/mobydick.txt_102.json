@@ -1,0 +1,133 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Narrator",
+      "feels": [
+        {
+          "name": "Fear",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event1",
+            "name": "Captain Peleg's aggressive behavior"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Captain Peleg"
+          },
+          "place": {
+            "id": "place1",
+            "name": "On deck",
+            "description": "Near the windlass"
+          }
+        },
+        {
+          "name": "Anger",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event2",
+            "name": "Captain Peleg's aggressive behavior"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Captain Peleg"
+          },
+          "place": {
+            "id": "place1",
+            "name": "On deck",
+            "description": "Near the windlass"
+          }
+        },
+        {
+          "name": "Fear",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event3",
+            "name": "Sailing into the wintry ocean"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Wintry ocean"
+          },
+          "place": {
+            "id": "place1",
+            "name": "On deck",
+            "description": "Sailing into the wintry ocean"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Captain Peleg",
+      "feels": [
+        {
+          "name": "Aggressiveness",
+          "hasIntensity": 0.95,
+          "causedBy": {
+            "id": "event4",
+            "name": "Getting the ship ready to sail"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Ship"
+          },
+          "place": {
+            "id": "place1",
+            "name": "On deck",
+            "description": "Near the windlass"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "On deck",
+      "description": "Near the windlass"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Captain Peleg's aggressive behavior",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Captain Peleg's aggressive behavior",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Sailing into the wintry ocean",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event4",
+      "name": "Getting the ship ready to sail",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc2"
+      }
+    }
+  ]
+}

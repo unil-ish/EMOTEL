@@ -1,0 +1,63 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Ahab",
+      "feels": [
+        {
+          "name": "Anticipation",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "Premature hour of Pequod's sailing"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Sailing season"
+          }
+        },
+        {
+          "name": "Acceptance",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event2",
+            "name": "Interval of 365 days and nights"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Time"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Nantucket",
+      "description": "Port town in Massachusetts."
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Premature hour of Pequod's sailing",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Interval of 365 days and nights",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    }
+  ]
+}

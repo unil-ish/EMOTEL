@@ -1,0 +1,84 @@
+```json
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "English Naturalist",
+      "feels": [
+        {
+          "name": "Amazement",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event1",
+            "name": "Discovering the true nature of spermaceti"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Spermaceti"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Unknown location"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "American Fisherman",
+      "feels": [
+        {
+          "name": "Anticipation",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event2",
+            "name": "Pursuing the right whale in various parts of the world"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Right Whale"
+          },
+          "place": {
+            "id": "place2",
+            "name": "Indian Ocean"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Unknown location",
+      "description": "A place where the true nature of spermaceti was discovered."
+    },
+    {
+      "id": "place2",
+      "name": "Indian Ocean",
+      "description": "A vast body of water where American fishermen pursue whales."
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Discovering the true nature of spermaceti",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Pursuing the right whale in various parts of the world",
+      "takePlaceAt": {
+        "id": "place2"
+      },
+      "hasParticipant": {
+        "id": "fc2"
+      }
+    }
+  ]
+}
+```

@@ -1,0 +1,200 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Ahab",
+      "feels": [
+        {
+          "name": "Trust",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event1",
+            "name": "Being served by his officers"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Officers"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Dining Hall",
+            "description": "Over his ivory-inlaid table"
+          }
+        },
+        {
+          "name": "Joy",
+          "hasIntensity": 0.5,
+          "causedBy": {
+            "id": "event2",
+            "name": "Rat making a sudden racket"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Rat"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Dining Hall",
+            "description": "Over his ivory-inlaid table"
+          }
+        },
+        {
+          "name": "Acceptance",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event3",
+            "name": "Flask not helping himself"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Flask"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Dining Hall",
+            "description": "Over his ivory-inlaid table"
+          }
+        },
+        {
+          "name": "Disapproval",
+          "hasIntensity": 0.4,
+          "causedBy": {
+            "id": "event4",
+            "name": "Flask being a butterless man"
+          },
+          "hasObject": {
+            "id": "object4",
+            "name": "Butter"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Dining Hall",
+            "description": "Over his ivory-inlaid table"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Stubb",
+      "feels": [
+        {
+          "name": "Relief",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event2",
+            "name": "Rat making a sudden racket"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Rat"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Dining Hall",
+            "description": "Over his ivory-inlaid table"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc3",
+      "name": "Flask",
+      "feels": [
+        {
+          "name": "Fear",
+          "hasIntensity": 0.4,
+          "causedBy": {
+            "id": "event5",
+            "name": "Possibility of being caught helping himself"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Helping himself"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Dining Hall",
+            "description": "Over his ivory-inlaid table"
+          }
+        },
+        {
+          "name": "Loathing",
+          "hasIntensity": 0.3,
+          "causedBy": {
+            "id": "event4",
+            "name": "Being a butterless man"
+          },
+          "hasObject": {
+            "id": "object4",
+            "name": "Butter"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Dining Hall",
+            "description": "Over his ivory-inlaid table"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Dining Hall",
+      "description": "Over his ivory-inlaid table"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Being served by his officers",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Rat making a sudden racket",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Flask not helping himself",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event4",
+      "name": "Flask being a butterless man",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event5",
+      "name": "Possibility of being caught helping himself",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc3"
+      }
+    }
+  ]
+}

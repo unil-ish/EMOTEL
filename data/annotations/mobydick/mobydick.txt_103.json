@@ -1,0 +1,241 @@
+```json
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Captain Bildad",
+      "feels": [
+        {
+          "name": "Loathing",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event1",
+            "name": "Leaving the ship",
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Ship"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Deck of the ship",
+            "description": "On the deck of the ship bound on a perilous voyage."
+          }
+        },
+        {
+          "name": "Fear",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event2",
+            "name": "Encountering terrors of the pitiless jaw",
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Terrors of the pitiless jaw"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Deck of the ship",
+            "description": "On the deck of the ship bound on a perilous voyage."
+          }
+        },
+        {
+          "name": "Sadness",
+          "hasIntensity": 0.5,
+          "causedBy": {
+            "id": "event3",
+            "name": "Saying goodbye to the ship",
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Ship"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Deck of the ship",
+            "description": "On the deck of the ship bound on a perilous voyage."
+          }
+        },
+        {
+          "name": "Acceptance",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event4",
+            "name": "Realizing he can stand it",
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Situation"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Deck of the ship",
+            "description": "On the deck of the ship bound on a perilous voyage."
+          }
+        },
+        {
+          "name": "Admiration",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event5",
+            "name": "Gazing heroically at Peleg",
+          },
+          "hasObject": {
+            "id": "object4",
+            "name": "Peleg"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Deck of the ship",
+            "description": "On the deck of the ship bound on a perilous voyage."
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Peleg",
+      "feels": [
+        {
+          "name": "Acceptance",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event4",
+            "name": "Realizing he can stand it",
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Situation"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Deck of the ship",
+            "description": "On the deck of the ship bound on a perilous voyage."
+          }
+        },
+        {
+          "name": "Sadness",
+          "hasIntensity": 0.4,
+          "causedBy": {
+            "id": "event3",
+            "name": "Saying goodbye to the ship",
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Ship"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Deck of the ship",
+            "description": "On the deck of the ship bound on a perilous voyage."
+          }
+        },
+        {
+          "name": "Interest",
+          "hasIntensity": 0.5,
+          "causedBy": {
+            "id": "event6",
+            "name": "Talking with Starbuck",
+          },
+          "hasObject": {
+            "id": "object5",
+            "name": "Conversation with Starbuck"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Deck of the ship",
+            "description": "On the deck of the ship bound on a perilous voyage."
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Deck of the ship",
+      "description": "On the deck of the ship bound on a perilous voyage."
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Leaving the ship",
+      "takePlaceAt": {
+        "id": "place1",
+      },
+      "hasParticipant": [
+        {
+          "id": "fc1",
+        }
+      ]
+    },
+    {
+      "id": "event2",
+      "name": "Encountering terrors of the pitiless jaw",
+      "takePlaceAt": {
+        "id": "place1",
+      },
+      "hasParticipant": [
+        {
+          "id": "fc1",
+        }
+      ]
+    },
+    {
+      "id": "event3",
+      "name": "Saying goodbye to the ship",
+      "takePlaceAt": {
+        "id": "place1",
+      },
+      "hasParticipant": [
+        {
+          "id": "fc1",
+        },
+        {
+          "id": "fc2",
+        }
+      ]
+    },
+    {
+      "id": "event4",
+      "name": "Realizing he can stand it",
+      "takePlaceAt": {
+        "id": "place1",
+      },
+      "hasParticipant": [
+        {
+          "id": "fc1",
+        },
+        {
+          "id": "fc2",
+        }
+      ]
+    },
+    {
+      "id": "event5",
+      "name": "Gazing heroically at Peleg",
+      "takePlaceAt": {
+        "id": "place1",
+      },
+      "hasParticipant": [
+        {
+          "id": "fc1",
+        }
+      ]
+    },
+    {
+      "id": "event6",
+      "name": "Talking with Starbuck",
+      "takePlaceAt": {
+        "id": "place1",
+      },
+      "hasParticipant": [
+        {
+          "id": "fc2",
+        }
+      ]
+    }
+  ]
+}
+```

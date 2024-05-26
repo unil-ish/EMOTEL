@@ -1,0 +1,107 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Ahab",
+      "feels": [
+        {
+          "name": "Fear",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event1",
+            "name": "Elemental strife at sea"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Unknown elemental force"
+          }
+        },
+        {
+          "name": "Acceptance",
+          "hasIntensity": 0.5,
+          "causedBy": {
+            "id": "event2",
+            "name": "Being branded"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Birth-mark"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Tashtego",
+      "feels": [
+        {
+          "name": "Trust",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event3",
+            "name": "Assertion by old Gay-Head Indian"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Superstition"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc3",
+      "name": "Old Manxman",
+      "feels": [
+        {
+          "name": "Admiration",
+          "hasIntensity": 0.4,
+          "causedBy": {
+            "id": "event4",
+            "name": "Preternatural powers of discernment"
+          },
+          "hasObject": {
+            "id": "object4",
+            "name": "Old sea-traditions"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Onboard ship",
+      "description": "At sea"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Elemental strife at sea",
+      "takePlaceAt": {
+        "id": "place1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Being branded",
+      "takePlaceAt": {
+        "id": "place1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Assertion by old Gay-Head Indian",
+      "takePlaceAt": {
+        "id": "place1"
+      }
+    },
+    {
+      "id": "event4",
+      "name": "Preternatural powers of discernment",
+      "takePlaceAt": {
+        "id": "place1"
+      }
+    }
+  ]
+}

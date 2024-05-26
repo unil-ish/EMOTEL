@@ -1,0 +1,33 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Don Sebastian",
+      "feels": [
+        {
+          "name": "Confusion",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event1",
+            "name": "Not understanding the terms"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Lakeman and Buffalo"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Not understanding the terms",
+      "takePlaceAt": {},
+      "hasParticipant": {
+        "id": "fc1",
+      }
+    }
+  ]
+}

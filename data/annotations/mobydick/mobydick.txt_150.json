@@ -1,0 +1,85 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Ahab",
+      "feels": [
+        {
+          "name": "Inaccessibility",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "Social isolation"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Cabin"
+          }
+        },
+        {
+          "name": "Alienation",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event2",
+            "name": "Being an alien to Christendom"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "World"
+          }
+        },
+        {
+          "name": "Gloom",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event3",
+            "name": "Inclement old age"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Soul"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Ship's Cabin",
+      "description": "Ahab's private quarters on the ship."
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Social isolation",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Being an alien to Christendom",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Inclement old age",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    }
+  ]
+}

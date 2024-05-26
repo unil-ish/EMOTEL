@@ -1,0 +1,73 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Seaman",
+      "feels": [
+        {
+          "name": "Joy",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event1",
+            "name": "Being on the mast-head"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "View of the sea"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Mast-head",
+            "description": "A hundred feet above the silent decks"
+          }
+        },
+        {
+          "name": "Serenity",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event2",
+            "name": "Tranquil environment"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Tranquil sea"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Mast-head",
+            "description": "A hundred feet above the silent decks"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Mast-head",
+      "description": "A hundred feet above the silent decks"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Being on the mast-head",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Tranquil environment",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    }
+  ]
+}

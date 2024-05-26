@@ -1,0 +1,85 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Ahab",
+      "feels": [
+        {
+          "name": "Fear",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "Being dismasted off Japan"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Ivory leg"
+          }
+        },
+        {
+          "name": "Trust",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event2",
+            "name": "Maintaining a singular posture"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Bone leg"
+          }
+        },
+        {
+          "name": "Anger",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event3",
+            "name": "Moody stricken appearance"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Crucifixion in his face"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Pequod's quarter deck",
+      "description": "Close to the mizzen shrouds."
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Being dismasted off Japan",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Maintaining a singular posture",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Moody stricken appearance",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    }
+  ]
+}

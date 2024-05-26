@@ -1,0 +1,127 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Ahab",
+      "feels": [
+        {
+          "name": "Anger",
+          "hasIntensity": 1,
+          "causedBy": {
+            "id": "event1",
+            "name": "Bodily dismemberment"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Monster"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Ship",
+            "description": "Sailing across the tranquil tropics"
+          }
+        },
+        {
+          "name": "Fear",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event2",
+            "name": "Being laced fast in a strait-jacket"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Strait-jacket"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Ship",
+            "description": "Sailing across the tranquil tropics"
+          }
+        },
+        {
+          "name": "Madness",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event3",
+            "name": "Encounter with the monster"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Monster"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Ship",
+            "description": "Sailing across the tranquil tropics"
+          }
+        },
+        {
+          "name": "Acceptance",
+          "hasIntensity": 0.5,
+          "causedBy": {
+            "id": "event4",
+            "name": "Realization of his madness"
+          },
+          "hasObject": {
+            "id": "object4",
+            "name": "Madness"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Ship",
+            "description": "Sailing across the tranquil tropics"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Ship",
+      "description": "Sailing across the tranquil tropics"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Bodily dismemberment",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Being laced fast in a strait-jacket",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Encounter with the monster",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event4",
+      "name": "Realization of his madness",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    }
+  ]
+}

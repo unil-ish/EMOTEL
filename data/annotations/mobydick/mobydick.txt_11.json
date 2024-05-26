@@ -1,0 +1,76 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Whaleman",
+      "feels": [
+        {
+          "name": "Fear",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "Being pursued by a whale"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Whale"
+          },
+          "feltAt": {
+            "id": "place1",
+            "name": "Whale-ship Globe"
+          }
+        },
+        {
+          "name": "Anger",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event2",
+            "name": "Threatening someone"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Person"
+          },
+          "feltAt": {
+            "id": "place2",
+            "name": "Unknown location"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Whale-ship Globe",
+      "description": "On board of the vessel where the horrid transactions occurred."
+    },
+    {
+      "id": "place2",
+      "name": "Unknown location",
+      "description": "Location where the threat was made."
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Being pursued by a whale",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Threatening someone",
+      "takePlaceAt": {
+        "id": "place2"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    }
+  ]
+}

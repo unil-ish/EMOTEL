@@ -1,0 +1,107 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Desperate Hunter",
+      "feels": [
+        {
+          "name": "Fear",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "White Whale's attacks"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "White Whale"
+          }
+        },
+        {
+          "name": "Distraction",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event2",
+            "name": "Chaos during the attack"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Chewed boats and torn comrades"
+          }
+        },
+        {
+          "name": "Rage",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event3",
+            "name": "White Whale's ferocity"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "White Whale"
+          }
+        },
+        {
+          "name": "Serenity",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event4",
+            "name": "Sunlight after the chaos"
+          },
+          "hasObject": {
+            "id": "object4",
+            "name": "Sunlight"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Ocean",
+      "description": "In the midst of the chaotic whale attack."
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "White Whale's attacks",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Chaos during the attack",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "White Whale's ferocity",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event4",
+      "name": "Sunlight after the chaos",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    }
+  ]
+}

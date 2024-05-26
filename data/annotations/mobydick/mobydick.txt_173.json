@@ -1,0 +1,160 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Sperm Whale Fishermen",
+      "feels": [
+        {
+          "name": "Fear",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "Encountering Moby Dick"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Moby Dick"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Seas",
+            "description": "Uncivilized seas mostly frequented by Sperm Whale fishermen."
+          }
+        },
+        {
+          "name": "Fear",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event2",
+            "name": "Disastrous encounters with Moby Dick"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Moby Dick"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Seas",
+            "description": "Uncivilized seas mostly frequented by Sperm Whale fishermen."
+          }
+        },
+        {
+          "name": "Fear",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event3",
+            "name": "Wild rumors of deadly encounters"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Deadly encounters"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Seas",
+            "description": "Uncivilized seas mostly frequented by Sperm Whale fishermen."
+          }
+        },
+        {
+          "name": "Fear",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event4",
+            "name": "Facing astonishing sea marvels"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Sea marvels"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Seas",
+            "description": "Uncivilized seas mostly frequented by Sperm Whale fishermen."
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Brave Hunters",
+      "feels": [
+        {
+          "name": "Fear",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event5",
+            "name": "Calamities in assaults on Moby Dick"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Moby Dick"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Seas",
+            "description": "Uncivilized seas mostly frequented by Sperm Whale fishermen."
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Seas",
+      "description": "Uncivilized seas mostly frequented by Sperm Whale fishermen."
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Encountering Moby Dick",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Disastrous encounters with Moby Dick",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Wild rumors of deadly encounters",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event4",
+      "name": "Facing astonishing sea marvels",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event5",
+      "name": "Calamities in assaults on Moby Dick",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc2"
+      }
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Ishmael",
+      "feels": [
+        {
+          "name": "Joy",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event1",
+            "name": "Sailing to see the watery part of the world"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Watery part of the world"
+          }
+        },
+        {
+          "name": "Surprise",
+          "hasIntensity": 0.4,
+          "causedBy": {
+            "id": "event2",
+            "name": "Seeing crowds of water-gazers"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Crowds of water-gazers"
+          }
+        },
+        {
+          "name": "Interest",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event3",
+            "name": "Observing people pacing straight for the water"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "People pacing for the water"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Watery part of the world",
+      "description": "Vast ocean"
+    },
+    {
+      "id": "place2",
+      "name": "City of the Manhattoes",
+      "description": "Surrounded by wharves"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Sailing to see the watery part of the world",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Seeing crowds of water-gazers",
+      "takePlaceAt": {
+        "id": "place2"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Observing people pacing straight for the water",
+      "takePlaceAt": {
+        "id": "place2"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    }
+  ]
+}

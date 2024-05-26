@@ -1,0 +1,132 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "The third Emir",
+      "feels": [
+        {
+          "name": "Relief",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event1",
+            "name": "Feeling alone on the quarter-deck"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Being alone"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Quarter-deck",
+            "description": "On the ship"
+          }
+        },
+        {
+          "name": "Joy",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event2",
+            "name": "Performing a hornpipe"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Hornpipe"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Quarter-deck",
+            "description": "On the ship"
+          }
+        },
+        {
+          "name": "Fear",
+          "hasIntensity": 0.5,
+          "causedBy": {
+            "id": "event3",
+            "name": "Entering King Ahab's presence"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "King Ahab"
+          },
+          "place": {
+            "id": "place1",
+            "name": "King Ahab's presence",
+            "description": "In the cabin"
+          }
+        },
+        {
+          "name": "Submission",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event4",
+            "name": "Entering King Ahab's presence as Abjectus"
+          },
+          "hasObject": {
+            "id": "object4",
+            "name": "Abjectus role"
+          },
+          "place": {
+            "id": "place1",
+            "name": "King Ahab's presence",
+            "description": "In the cabin"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Quarter-deck",
+      "description": "On the ship"
+    },
+    {
+      "id": "place2",
+      "name": "King Ahab's presence",
+      "description": "In the cabin"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Feeling alone on the quarter-deck",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Performing a hornpipe",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Entering King Ahab's presence",
+      "takePlaceAt": {
+        "id": "place2"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event4",
+      "name": "Entering King Ahab's presence as Abjectus",
+      "takePlaceAt": {
+        "id": "place2"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    }
+  ]
+}

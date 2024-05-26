@@ -1,0 +1,169 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Ahab",
+      "feels": [
+        {
+          "name": "Joy",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "Offering a reward for the white whale"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Gold ounce"
+          }
+        },
+        {
+          "name": "Anticipation",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event2",
+            "name": "Hunting the white whale"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "White whale"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Mariners",
+      "feels": [
+        {
+          "name": "Surprise",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event3",
+            "name": "Ahab's unexpected questions"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Questions"
+          }
+        },
+        {
+          "name": "Interest",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event4",
+            "name": "Ahab's orders about the white whale"
+          },
+          "hasObject": {
+            "id": "object4",
+            "name": "White whale"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc3",
+      "name": "Starbuck",
+      "feels": [
+        {
+          "name": "Admiration",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event5",
+            "name": "Ahab's display of the gold ounce"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Gold ounce"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc4",
+      "name": "Seamen",
+      "feels": [
+        {
+          "name": "Excitement",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event6",
+            "name": "Nailing the gold to the mast"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Gold ounce"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "On the ship",
+      "description": "Deck of the whaling ship"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Offering a reward for the white whale",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Hunting the white whale",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Ahab's unexpected questions",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc2"
+      }
+    },
+    {
+      "id": "event4",
+      "name": "Ahab's orders about the white whale",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc2"
+      }
+    },
+    {
+      "id": "event5",
+      "name": "Ahab's display of the gold ounce",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc3"
+      }
+    },
+    {
+      "id": "event6",
+      "name": "Nailing the gold to the mast",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc4"
+      }
+    }
+  ]
+}

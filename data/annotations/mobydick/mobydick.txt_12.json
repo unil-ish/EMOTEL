@@ -1,0 +1,69 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Mate",
+      "feels": [
+        {
+          "name": "Fear",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "Sperm Whale close to the head of the boat"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Sperm Whale"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Whale Killer",
+      "feels": [
+        {
+          "name": "Joy",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event2",
+            "name": "Striking the whale"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Whale"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Ocean",
+      "description": "Wide expanse of water"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Sperm Whale close to the head of the boat",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Striking the whale",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc2"
+      }
+    }
+  ]
+}
