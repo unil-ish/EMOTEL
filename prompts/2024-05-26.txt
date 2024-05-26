@@ -76,10 +76,10 @@ json
       "id": "event1",
       "name": "Winning a prize",
       "takePlaceAt": {
-        "id": "place1",
+        "id": "place1"
       },
       "hasParticipant": {
-        "id": "fc1",
+        "id": "fc1"
       }
     }
   ]
