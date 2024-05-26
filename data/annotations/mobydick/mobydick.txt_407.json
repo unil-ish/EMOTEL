@@ -1,0 +1,111 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Narrator",
+      "feels": [
+        {
+          "name": "Anticipation",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event1",
+            "name": "Raising the White Whale"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "White Whale"
+          },
+          "feltAt": {
+            "id": "place1",
+            "name": "On the ship"
+          }
+        },
+        {
+          "name": "Fear",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event2",
+            "name": "Muttering of the old Manxman"
+          },
+          "feltAt": {
+            "id": "place1",
+            "name": "On the ship"
+          }
+        },
+        {
+          "name": "Amazement",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event3",
+            "name": "Realization of the horse-shoe sign"
+          },
+          "feltAt": {
+            "id": "place1",
+            "name": "On the ship"
+          }
+        },
+        {
+          "name": "Grief",
+          "hasIntensity": 0.5,
+          "causedBy": {
+            "id": "event4",
+            "name": "Thinking about the old ship"
+          },
+          "feltAt": {
+            "id": "place1",
+            "name": "On the ship"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "On the ship",
+      "description": "Aboard a whaling ship"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Raising the White Whale",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Muttering of the old Manxman",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Realization of the horse-shoe sign",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event4",
+      "name": "Thinking about the old ship",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    }
+  ]
+}

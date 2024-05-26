@@ -1,0 +1,133 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Flask",
+      "feels": [
+        {
+          "name": "Amazement",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event1",
+            "name": "Being lifted by Daggoo"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Daggoo's shoulders"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Boat",
+            "description": "Pitched about by the sea"
+          }
+        },
+        {
+          "name": "Admiration",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event2",
+            "name": "Seeing Daggoo's skill"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Daggoo's skill"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Boat",
+            "description": "Pitched about by the sea"
+          }
+        },
+        {
+          "name": "Joy",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event3",
+            "name": "Maintaining an erect posture in the boat"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Erect posture in the boat"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Boat",
+            "description": "Pitched about by the sea"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Daggoo",
+      "feels": [
+        {
+          "name": "Acceptance",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event4",
+            "name": "Offering his shoulders to Flask"
+          },
+          "hasObject": {
+            "id": "object4",
+            "name": "Flask on his shoulders"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Boat",
+            "description": "Pitched about by the sea"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Boat",
+      "description": "Pitched about by the sea"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Being lifted by Daggoo",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Seeing Daggoo's skill",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Maintaining an erect posture in the boat",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event4",
+      "name": "Offering his shoulders to Flask",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc2"
+      }
+    }
+  ]
+}

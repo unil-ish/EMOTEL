@@ -1,0 +1,113 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Tashtego",
+      "feels": [
+        {
+          "name": "Fear",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "Falling into the great Tun of Heidelburgh"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Great Tun of Heidelburgh"
+          }
+        },
+        {
+          "name": "Surprise",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event2",
+            "name": "Being hoisted up by the hoisters"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Hoisters"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Daggoo",
+      "feels": [
+        {
+          "name": "Fear",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event3",
+            "name": "Seeing Tashtego fall into the sea"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Tashtego"
+          }
+        },
+        {
+          "name": "Anticipation",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event4",
+            "name": "Swinging the bucket"
+          },
+          "hasObject": {
+            "id": "object4",
+            "name": "Bucket"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "On the Pequod ship",
+      "description": "Aboard the whaling ship Pequod."
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Falling into the great Tun of Heidelburgh",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Being hoisted up by the hoisters",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Seeing Tashtego fall into the sea",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc2"
+      }
+    },
+    {
+      "id": "event4",
+      "name": "Swinging the bucket",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc2"
+      }
+    }
+  ]
+}

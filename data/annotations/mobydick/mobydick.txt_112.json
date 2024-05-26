@@ -1,0 +1,56 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Narrator",
+      "feels": [
+        {
+          "name": "Sadness",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "Exposing the fall of valour in the soul"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Valor-ruined man"
+          },
+          "exactPlace": {
+            "id": "place1",
+            "name": "Undraped spectacle",
+            "description": "A place where the fall of valour is exposed"
+          }
+        },
+        {
+          "name": "Admiration",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event2",
+            "name": "Mentioning the democratic dignity radiating from God"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Democratic dignity"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Undraped spectacle",
+      "description": "A place where the fall of valour is exposed"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Exposing the fall of valour in the soul"
+    },
+    {
+      "id": "event2",
+      "name": "Mentioning the democratic dignity radiating from God"
+    }
+  ]
+}

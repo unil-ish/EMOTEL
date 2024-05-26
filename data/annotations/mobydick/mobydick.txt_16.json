@@ -1,0 +1,63 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Ishmael",
+      "feels": [
+        {
+          "name": "Joy",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event1",
+            "name": "Going on a whaling voyage"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Whaling voyage"
+          }
+        },
+        {
+          "name": "Anticipation",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event2",
+            "name": "Being set down for a whaling voyage"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Shabby part of a whaling voyage"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Sea",
+      "description": "On a whaling voyage"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Going on a whaling voyage",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Being set down for a whaling voyage",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    }
+  ]
+}

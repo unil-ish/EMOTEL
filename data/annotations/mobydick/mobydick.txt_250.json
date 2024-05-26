@@ -1,0 +1,166 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Steelkilt",
+      "feels": [
+        {
+          "name": "Anger",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "Being betrayed by his crewmates"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Crewmates"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Deck of the ship",
+            "description": "In the midst of a mutiny"
+          }
+        },
+        {
+          "name": "Fear",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event2",
+            "name": "Threat of being flogged"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Captain"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Deck of the ship",
+            "description": "In the midst of a mutiny"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Captain",
+      "feels": [
+        {
+          "name": "Rage",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event3",
+            "name": "Mutiny on the ship"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Mutineers"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Deck of the ship",
+            "description": "In the midst of a mutiny"
+          }
+        },
+        {
+          "name": "Disgust",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event4",
+            "name": "Mutineers' behavior"
+          },
+          "hasObject": {
+            "id": "object4",
+            "name": "Mutineers"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Deck of the ship",
+            "description": "In the midst of a mutiny"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc3",
+      "name": "Lakeman",
+      "feels": [
+        {
+          "name": "Fear",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event5",
+            "name": "Captain's threat"
+          },
+          "hasObject": {
+            "id": "object5",
+            "name": "Captain"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Deck of the ship",
+            "description": "In the midst of a mutiny"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Deck of the ship",
+      "description": "In the midst of a mutiny"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Being betrayed by crewmates",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Threat of being flogged",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Mutiny on the ship",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc2"
+      }
+    },
+    {
+      "id": "event4",
+      "name": "Mutineers' behavior",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc2"
+      }
+    },
+    {
+      "id": "event5",
+      "name": "Captain's threat",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc3"
+      }
+    }
+  ]
+}

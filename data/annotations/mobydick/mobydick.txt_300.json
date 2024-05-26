@@ -1,0 +1,85 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Ahab",
+      "feels": [
+        {
+          "name": "Anger",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "Seeing the decapitated whale's head"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Whale's head"
+          }
+        },
+        {
+          "name": "Sadness",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event2",
+            "name": "Silence on the deck"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Deck"
+          }
+        },
+        {
+          "name": "Amazement",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event3",
+            "name": "Unfolding calm sea"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Sea"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Deck of the Pequod",
+      "description": "A deserted deck with a decapitated whale's head hanging from the ship's side."
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Seeing the decapitated whale's head",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Silence on the deck",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Unfolding calm sea",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    }
+  ]
+}

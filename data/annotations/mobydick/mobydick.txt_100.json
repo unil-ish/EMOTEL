@@ -15,7 +15,7 @@
             "id": "object1",
             "name": "Tomahawk pipe"
           },
-          "feltAt": {
+          "place": {
             "id": "place1",
             "name": "On the ship"
           }
@@ -25,9 +25,9 @@
           "hasIntensity": 0.4,
           "causedBy": {
             "id": "event2",
-            "name": "Hearing noise on deck"
+            "name": "Hearing the noise on deck"
           },
-          "feltAt": {
+          "place": {
             "id": "place1",
             "name": "On the ship"
           }
@@ -43,9 +43,9 @@
           "hasIntensity": 0.7,
           "causedBy": {
             "id": "event3",
-            "name": "Breathing in strong vapor"
+            "name": "Breathing in the strong vapor"
           },
-          "feltAt": {
+          "place": {
             "id": "place1",
             "name": "On the ship"
           }
@@ -57,7 +57,7 @@
             "id": "event4",
             "name": "Preparing to sail"
           },
-          "feltAt": {
+          "place": {
             "id": "place1",
             "name": "On the ship"
           }
@@ -73,9 +73,9 @@
           "hasIntensity": 0.9,
           "causedBy": {
             "id": "event5",
-            "name": "Being invisibly enshrined in his cabin"
+            "name": "Being mentioned by the rigger"
           },
-          "feltAt": {
+          "place": {
             "id": "place1",
             "name": "On the ship"
           }
@@ -87,13 +87,13 @@
       "name": "Peleg",
       "feels": [
         {
-          "name": "Joy",
-          "hasIntensity": 0.7,
+          "name": "Optimism",
+          "hasIntensity": 0.8,
           "causedBy": {
             "id": "event6",
-            "name": "Issuing from the cabin"
+            "name": "Preparing to set sail"
           },
-          "feltAt": {
+          "place": {
             "id": "place1",
             "name": "On the ship"
           }
@@ -105,7 +105,7 @@
     {
       "id": "place1",
       "name": "On the ship",
-      "description": "On the Pequod"
+      "description": "On the Pequod ship"
     }
   ],
   "Events": [
@@ -121,7 +121,7 @@
     },
     {
       "id": "event2",
-      "name": "Hearing noise on deck",
+      "name": "Hearing the noise on deck",
       "takePlaceAt": {
         "id": "place1"
       },
@@ -131,7 +131,7 @@
     },
     {
       "id": "event3",
-      "name": "Breathing in strong vapor",
+      "name": "Breathing in the strong vapor",
       "takePlaceAt": {
         "id": "place1"
       },
@@ -151,7 +151,7 @@
     },
     {
       "id": "event5",
-      "name": "Being invisibly enshrined in his cabin",
+      "name": "Being mentioned by the rigger",
       "takePlaceAt": {
         "id": "place1"
       },
@@ -161,7 +161,7 @@
     },
     {
       "id": "event6",
-      "name": "Issuing from the cabin",
+      "name": "Preparing to set sail",
       "takePlaceAt": {
         "id": "place1"
       },

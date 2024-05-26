@@ -9,85 +9,57 @@
           "hasIntensity": 0.9,
           "causedBy": {
             "id": "event1",
-            "name": "Mention of Job and Alfred the Great"
+            "name": "Whaling being declared imperial"
           },
           "hasObject": {
             "id": "object1",
-            "name": "Job and Alfred the Great"
+            "name": "Whaling"
+          },
+          "feltAt": {
+            "id": "place1",
+            "name": "Roman Triumph",
+            "description": "A grand procession in Rome"
           }
         },
         {
-          "name": "Surprise",
+          "name": "Acceptance",
           "hasIntensity": 0.7,
           "causedBy": {
             "id": "event2",
-            "name": "Mention of whale as a royal fish"
+            "name": "Realizing the dignity in whaling"
           },
           "hasObject": {
             "id": "object2",
-            "name": "Whale"
-          }
-        },
-        {
-          "name": "Anger",
-          "hasIntensity": 0.6,
-          "causedBy": {
-            "id": "event3",
-            "name": "Disrespect towards whaling"
-          },
-          "hasObject": {
-            "id": "object3",
             "name": "Whaling"
-          }
-        },
-        {
-          "name": "Joy",
-          "hasIntensity": 0.8,
-          "causedBy": {
-            "id": "event4",
-            "name": "Dignity of whaling"
-          },
-          "hasObject": {
-            "id": "object4",
-            "name": "Whaling"
-          }
-        },
-        {
-          "name": "Admiration",
-          "hasIntensity": 0.9,
-          "causedBy": {
-            "id": "event5",
-            "name": "Mention of man taking 350 whales"
-          },
-          "hasObject": {
-            "id": "object5",
-            "name": "Man taking 350 whales"
           }
         }
       ]
     }
   ],
-  "Places": [],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Roman Triumph",
+      "description": "A grand procession in Rome"
+    }
+  ],
   "Events": [
     {
       "id": "event1",
-      "name": "Mention of Job and Alfred the Great",
+      "name": "Whaling being declared imperial",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
     },
     {
       "id": "event2",
-      "name": "Mention of whale as a royal fish",
-    },
-    {
-      "id": "event3",
-      "name": "Disrespect towards whaling",
-    },
-    {
-      "id": "event4",
-      "name": "Dignity of whaling",
-    },
-    {
-      "id": "event5",
-      "name": "Mention of man taking 350 whales",
+      "name": "Realizing the dignity in whaling",
+      "hasParticipant": {
+        "id": "fc1"
+      }
     }
   ]
 }

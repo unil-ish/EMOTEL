@@ -2,38 +2,36 @@
   "FictionalCharacters": [
     {
       "id": "fc1",
-      "name": "Whaleman",
+      "name": "Samuel Comstock",
       "feels": [
         {
-          "name": "Fear",
+          "name": "Anger",
           "hasIntensity": 0.9,
           "causedBy": {
             "id": "event1",
-            "name": "Being pursued by a whale"
+            "name": "Threat of noise"
           },
           "hasObject": {
             "id": "object1",
-            "name": "Whale"
-          },
-          "feltAt": {
-            "id": "place1",
-            "name": "Whale-ship Globe"
+            "name": "Making noise"
           }
-        },
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Narrator",
+      "feels": [
         {
-          "name": "Anger",
+          "name": "Fear",
           "hasIntensity": 0.7,
           "causedBy": {
             "id": "event2",
-            "name": "Threatening someone"
+            "name": "Whale attack"
           },
           "hasObject": {
             "id": "object2",
-            "name": "Person"
-          },
-          "feltAt": {
-            "id": "place2",
-            "name": "Unknown location"
+            "name": "Whale"
           }
         }
       ]
@@ -44,17 +42,12 @@
       "id": "place1",
       "name": "Whale-ship Globe",
       "description": "On board of the vessel where the horrid transactions occurred."
-    },
-    {
-      "id": "place2",
-      "name": "Unknown location",
-      "description": "Location where the threat was made."
     }
   ],
   "Events": [
     {
       "id": "event1",
-      "name": "Being pursued by a whale",
+      "name": "Threat of noise",
       "takePlaceAt": {
         "id": "place1"
       },
@@ -64,12 +57,12 @@
     },
     {
       "id": "event2",
-      "name": "Threatening someone",
+      "name": "Whale attack",
       "takePlaceAt": {
-        "id": "place2"
+        "id": "place1"
       },
       "hasParticipant": {
-        "id": "fc1"
+        "id": "fc2"
       }
     }
   ]

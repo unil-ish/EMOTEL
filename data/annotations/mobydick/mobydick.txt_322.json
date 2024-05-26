@@ -1,0 +1,85 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Sperm Whale",
+      "feels": [
+        {
+          "name": "Amazement",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "Facing death"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Death"
+          }
+        },
+        {
+          "name": "Acceptance",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event2",
+            "name": "Facing death"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Death"
+          }
+        },
+        {
+          "name": "Amazement",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event3",
+            "name": "Battering-ram power"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Battering-ram power"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Sperm Whale's head",
+      "description": "Inside the whale's head"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Facing death",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Facing death",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Battering-ram power",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    }
+  ]
+}

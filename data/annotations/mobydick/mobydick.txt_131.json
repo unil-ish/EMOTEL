@@ -1,0 +1,80 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Narrator",
+      "feels": [
+        {
+          "name": "Trust",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event1",
+            "name": "Submission of argument to friends"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Friends Simeon Macey and Charley Coffin"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Nantucket",
+            "description": "A certain voyage"
+          }
+        },
+        {
+          "name": "Anger",
+          "hasIntensity": 0.4,
+          "causedBy": {
+            "id": "event2",
+            "name": "Insufficient reasons for banishing whales"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Reasons set forth"
+          }
+        },
+        {
+          "name": "Acceptance",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event3",
+            "name": "Settling the fundamental thing that the whale is a fish"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Nantucket",
+      "description": "A certain voyage"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Submission of argument to friends",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Insufficient reasons for banishing whales",
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Settling the fundamental thing that the whale is a fish",
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    }
+  ]
+}

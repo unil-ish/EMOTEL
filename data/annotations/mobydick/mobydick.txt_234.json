@@ -1,0 +1,162 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "American Sailor",
+      "feels": [
+        {
+          "name": "Trust",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event1",
+            "name": "Exchange of letters and news"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Whaling news"
+          }
+        },
+        {
+          "name": "Joy",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event2",
+            "name": "Agreeable chat"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Common pursuit"
+          }
+        },
+        {
+          "name": "Anticipation",
+          "hasIntensity": 0.5,
+          "causedBy": {
+            "id": "event3",
+            "name": "Rare meetings with English whalers"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Metropolitan superiority"
+          }
+        },
+        {
+          "name": "Disgust",
+          "hasIntensity": 0.4,
+          "causedBy": {
+            "id": "event4",
+            "name": "Perceived superiority of English whalers"
+          },
+          "hasObject": {
+            "id": "object4",
+            "name": "Metropolitan superiority"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "English Sailor",
+      "feels": [
+        {
+          "name": "Disapproval",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event5",
+            "name": "Shyness between English and American whalers"
+          },
+          "hasObject": {
+            "id": "object5",
+            "name": "Shyness"
+          }
+        },
+        {
+          "name": "Loathing",
+          "hasIntensity": 0.3,
+          "causedBy": {
+            "id": "event6",
+            "name": "Perceived sea-peasant status of Nantucketer"
+          },
+          "hasObject": {
+            "id": "object6",
+            "name": "Sea-peasant status"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Cruising-ground",
+      "description": "Whaling area where ships cross paths."
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Exchange of letters and news",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": [
+        {
+          "id": "fc1"
+        },
+        {
+          "id": "fc2"
+        }
+      ]
+    },
+    {
+      "id": "event2",
+      "name": "Agreeable chat",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Rare meetings with English whalers",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event4",
+      "name": "Perceived superiority of English whalers",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event5",
+      "name": "Shyness between English and American whalers",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc2"
+      }
+    },
+    {
+      "id": "event6",
+      "name": "Perceived sea-peasant status of Nantucketer",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc2"
+      }
+    }
+  ]
+}

@@ -9,29 +9,75 @@
           "hasIntensity": 0.7,
           "causedBy": {
             "id": "event1",
-            "name": "Ahab shouting about whales"
+            "name": "Ahab's strange behavior"
           },
           "hasObject": {
             "id": "object1",
             "name": "White whale"
+          },
+          "place": {
+            "id": "place1",
+            "name": "On the ship"
+          }
+        },
+        {
+          "name": "Fear",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event2",
+            "name": "Mysterious wind"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Ahab's intentions"
+          },
+          "place": {
+            "id": "place1",
+            "name": "On the ship"
           }
         }
       ]
     },
     {
       "id": "fc2",
-      "name": "Narrator",
+      "name": "Captain Scoresby",
       "feels": [
         {
-          "name": "Interest",
-          "hasIntensity": 0.6,
+          "name": "Confusion",
+          "hasIntensity": 0.8,
           "causedBy": {
-            "id": "event2",
-            "name": "Launching upon the deep"
+            "id": "event3",
+            "name": "Difficulty in classifying whales"
           },
           "hasObject": {
-            "id": "object2",
-            "name": "Unshored, harbourless immensities"
+            "id": "object3",
+            "name": "Cetacea"
+          },
+          "place": {
+            "id": "place1",
+            "name": "On the ship"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc3",
+      "name": "Surgeon Beale",
+      "feels": [
+        {
+          "name": "Disapproval",
+          "hasIntensity": 0.5,
+          "causedBy": {
+            "id": "event4",
+            "name": "Historical confusion about sperm whales"
+          },
+          "hasObject": {
+            "id": "object4",
+            "name": "Sperm whale"
+          },
+          "place": {
+            "id": "place1",
+            "name": "On the ship"
           }
         }
       ]
@@ -40,14 +86,14 @@
   "Places": [
     {
       "id": "place1",
-      "name": "Pequod's deck",
-      "description": "On a whaling ship in the middle of the ocean."
+      "name": "On the ship",
+      "description": "Aboard the Pequod"
     }
   ],
   "Events": [
     {
       "id": "event1",
-      "name": "Ahab shouting about whales",
+      "name": "Ahab's strange behavior",
       "takePlaceAt": {
         "id": "place1"
       },
@@ -57,12 +103,32 @@
     },
     {
       "id": "event2",
-      "name": "Launching upon the deep",
+      "name": "Mysterious wind",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Difficulty in classifying whales",
       "takePlaceAt": {
         "id": "place1"
       },
       "hasParticipant": {
         "id": "fc2"
+      }
+    },
+    {
+      "id": "event4",
+      "name": "Historical confusion about sperm whales",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc3"
       }
     }
   ]

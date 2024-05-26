@@ -1,0 +1,63 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Narrator",
+      "feels": [
+        {
+          "name": "Fear",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "Appearance of the harpooneer"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Harpooneer"
+          }
+        },
+        {
+          "name": "Surprise",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event2",
+            "name": "Discovery of the harpooneer's appearance"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Harpooneer's appearance"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Unknown Room",
+      "description": "A room with a bed and a large bag."
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Appearance of the harpooneer",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Discovery of the harpooneer's appearance",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    }
+  ]
+}

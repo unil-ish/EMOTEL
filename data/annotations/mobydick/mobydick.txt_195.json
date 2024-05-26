@@ -1,0 +1,123 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Ahab",
+      "feels": [
+        {
+          "name": "Anticipation",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "Season-on-the-Line approaching"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Encountering Moby Dick"
+          },
+          "place": {
+            "id": "place1",
+            "name": "On the Pequod"
+          }
+        },
+        {
+          "name": "Vigilance",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event2",
+            "name": "Hunting Moby Dick"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Capturing Moby Dick"
+          },
+          "place": {
+            "id": "place1",
+            "name": "On the Pequod"
+          }
+        },
+        {
+          "name": "Rage",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event3",
+            "name": "Encounters with Moby Dick"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Moby Dick"
+          },
+          "place": {
+            "id": "place1",
+            "name": "On the Pequod"
+          }
+        },
+        {
+          "name": "Grief",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event4",
+            "name": "Tragic spot"
+          },
+          "hasObject": {
+            "id": "object4",
+            "name": "Tragic spot"
+          },
+          "place": {
+            "id": "place1",
+            "name": "On the Pequod"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "On the Pequod",
+      "description": "Aboard the ship Pequod"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Season-on-the-Line approaching",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Hunting Moby Dick",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Encounters with Moby Dick",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event4",
+      "name": "Tragic spot",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    }
+  ]
+}

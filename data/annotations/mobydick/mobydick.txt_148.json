@@ -9,7 +9,7 @@
           "hasIntensity": 0.9,
           "causedBy": {
             "id": "event1",
-            "name": "Harpooneers' behavior"
+            "name": "Presence of harpooneers"
           },
           "hasObject": {
             "id": "object1",
@@ -26,7 +26,7 @@
           "hasIntensity": 0.7,
           "causedBy": {
             "id": "event2",
-            "name": "Tashtego's actions"
+            "name": "Being accelerated by Tashtego"
           },
           "hasObject": {
             "id": "object2",
@@ -34,8 +34,8 @@
           },
           "exactPlace": {
             "id": "place1",
-            "name": "Pantry",
-            "description": "Little pantry adjoining"
+            "name": "Dining area",
+            "description": "Captain's table"
           }
         }
       ]
@@ -49,7 +49,7 @@
           "hasIntensity": 0.8,
           "causedBy": {
             "id": "event3",
-            "name": "Daggoo's humor"
+            "name": "Daggoo assisting Dough-Boy's memory"
           },
           "hasObject": {
             "id": "object3",
@@ -57,8 +57,8 @@
           },
           "exactPlace": {
             "id": "place1",
-            "name": "Pantry",
-            "description": "Little pantry adjoining"
+            "name": "Dining area",
+            "description": "Captain's table"
           }
         }
       ]
@@ -67,14 +67,14 @@
   "Places": [
     {
       "id": "place1",
-      "name": "Pantry",
-      "description": "Little pantry adjoining"
+      "name": "Ship's interior",
+      "description": "Between the captain's table and the pantry"
     }
   ],
   "Events": [
     {
       "id": "event1",
-      "name": "Harpooneers' behavior",
+      "name": "Presence of harpooneers",
       "takePlaceAt": {
         "id": "place1"
       },
@@ -84,7 +84,7 @@
     },
     {
       "id": "event2",
-      "name": "Tashtego's actions",
+      "name": "Being accelerated by Tashtego",
       "takePlaceAt": {
         "id": "place1"
       },
@@ -94,7 +94,7 @@
     },
     {
       "id": "event3",
-      "name": "Daggoo's humor",
+      "name": "Daggoo assisting Dough-Boy's memory",
       "takePlaceAt": {
         "id": "place1"
       },

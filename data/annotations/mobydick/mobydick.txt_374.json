@@ -1,0 +1,108 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Forty-barrel-bull",
+      "feels": [
+        {
+          "name": "Fear",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event1",
+            "name": "Being struck"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Being struck"
+          },
+          "feltAt": {
+            "id": "place1",
+            "name": "Ocean"
+          }
+        },
+        {
+          "name": "Disgust",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event2",
+            "name": "Being abandoned by comrades"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Comrades"
+          },
+          "feltAt": {
+            "id": "place2",
+            "name": "Ocean"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Harem school member",
+      "feels": [
+        {
+          "name": "Trust",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event3",
+            "name": "Companions swimming around with concern"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Companions"
+          },
+          "feltAt": {
+            "id": "place2",
+            "name": "Ocean"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Ocean",
+      "description": "Vast body of water"
+    },
+    {
+      "id": "place2",
+      "name": "Ocean",
+      "description": "Vast body of water"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Being struck",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Being abandoned by comrades",
+      "takePlaceAt": {
+        "id": "place2"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Companions swimming around with concern",
+      "takePlaceAt": {
+        "id": "place2"
+      },
+      "hasParticipant": {
+        "id": "fc2"
+      }
+    }
+  ]
+}

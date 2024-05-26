@@ -1,0 +1,135 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Captain",
+      "feels": [
+        {
+          "name": "Surprise",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "Steelkilt objecting to the stroke"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Steelkilt"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Deck"
+          }
+        },
+        {
+          "name": "Anger",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event2",
+            "name": "Radney stopping the execution"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Radney"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Deck"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Steelkilt",
+      "feels": [
+        {
+          "name": "Fear",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event3",
+            "name": "Being threatened by the mate"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Mate"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Deck"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc3",
+      "name": "Lakeman",
+      "feels": [
+        {
+          "name": "Contempt",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event4",
+            "name": "Calling the mate a coward"
+          },
+          "hasObject": {
+            "id": "object4",
+            "name": "Mate"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Deck"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Deck",
+      "description": "On the ship's deck"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Steelkilt objecting to the stroke",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc2"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Radney stopping the execution",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Being threatened by the mate",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc2"
+      }
+    },
+    {
+      "id": "event4",
+      "name": "Calling the mate a coward",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc3"
+      }
+    }
+  ]
+}

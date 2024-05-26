@@ -1,0 +1,85 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Narrator",
+      "feels": [
+        {
+          "name": "Serenity",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "Being in seductive seas"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Seductive seas"
+          }
+        },
+        {
+          "name": "Fear",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event2",
+            "name": "Being left completely to himself"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Being left completely to himself"
+          }
+        },
+        {
+          "name": "Disgust",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event3",
+            "name": "Whale-fishery as an asylum for romantic, melancholy men"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Whale-fishery as an asylum"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Top of the rigging",
+      "description": "Resting place for the narrator to chat with others."
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Being in seductive seas",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Being left completely to himself",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Whale-fishery as an asylum for romantic, melancholy men",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    }
+  ]
+}

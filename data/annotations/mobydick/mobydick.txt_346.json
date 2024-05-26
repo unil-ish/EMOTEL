@@ -1,0 +1,71 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Narrator",
+      "feels": [
+        {
+          "name": "Admiration",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event1",
+            "name": "Mention of heroes and prophets"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Heroes and prophets"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Narrator's mind"
+          }
+        },
+        {
+          "name": "Amazement",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event2",
+            "name": "Rehearsing the story of Vishnoo"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Story of Vishnoo"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Narrator's mind"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Narrator's mind",
+      "description": "Internal thoughts and reflections"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Mention of heroes and prophets",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Rehearsing the story of Vishnoo",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    }
+  ]
+}

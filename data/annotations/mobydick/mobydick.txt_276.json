@@ -1,0 +1,181 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Ahab",
+      "feels": [
+        {
+          "name": "Anticipation",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "Spotting the Sperm Whale"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Sperm Whale"
+          },
+          "place": {
+            "id": "place1",
+            "name": "On the ship"
+          }
+        },
+        {
+          "name": "Fear",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event2",
+            "name": "Whale swimming away"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Whale"
+          },
+          "place": {
+            "id": "place1",
+            "name": "On the ship"
+          }
+        },
+        {
+          "name": "Joy",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event3",
+            "name": "Respite granted"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Respite"
+          },
+          "place": {
+            "id": "place1",
+            "name": "On the ship"
+          }
+        },
+        {
+          "name": "Aggressiveness",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event4",
+            "name": "Cheering on crew"
+          },
+          "hasObject": {
+            "id": "object4",
+            "name": "Crew"
+          },
+          "place": {
+            "id": "place1",
+            "name": "On the ship"
+          }
+        },
+        {
+          "name": "Optimism",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event5",
+            "name": "Whale becoming aware of pursuers"
+          },
+          "hasObject": {
+            "id": "object5",
+            "name": "Whale"
+          },
+          "place": {
+            "id": "place1",
+            "name": "On the ship"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Stubb",
+      "feels": [
+        {
+          "name": "Distraction",
+          "hasIntensity": 0.5,
+          "causedBy": {
+            "id": "event6",
+            "name": "Whale rising again"
+          },
+          "hasObject": {
+            "id": "object6",
+            "name": "Whale"
+          },
+          "place": {
+            "id": "place1",
+            "name": "On the ship"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "On the ship",
+      "description": "Aboard the ship at sea"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Spotting the Sperm Whale",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Whale swimming away",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Respite granted",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event4",
+      "name": "Cheering on crew",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event5",
+      "name": "Whale becoming aware of pursuers",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event6",
+      "name": "Whale rising again",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc2"
+      }
+    }
+  ]
+}

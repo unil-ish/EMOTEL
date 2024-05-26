@@ -1,0 +1,107 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Narrator",
+      "feels": [
+        {
+          "name": "Anticipation",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event1",
+            "name": "Going a-whaling"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Whaling"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Spouter-Inn"
+          }
+        },
+        {
+          "name": "Fear",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event2",
+            "name": "Stranded Lazarus"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Stranded Lazarus"
+          },
+          "place": {
+            "id": "place2",
+            "name": "Curbstone"
+          }
+        },
+        {
+          "name": "Disgust",
+          "hasIntensity": 0.4,
+          "causedBy": {
+            "id": "event3",
+            "name": "Besmoked oil painting"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Oil painting"
+          },
+          "place": {
+            "id": "place3",
+            "name": "Spouter-Inn"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Spouter-Inn",
+      "description": "Wide, low, straggling entry with old-fashioned wainscots."
+    },
+    {
+      "id": "place2",
+      "name": "Curbstone",
+      "description": "Before the door of Dives."
+    },
+    {
+      "id": "place3",
+      "name": "Spouter-Inn",
+      "description": "Wide, low, straggling entry with old-fashioned wainscots."
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Going a-whaling",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Stranded Lazarus",
+      "takePlaceAt": {
+        "id": "place2"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Besmoked oil painting",
+      "takePlaceAt": {
+        "id": "place3"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    }
+  ]
+}

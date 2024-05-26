@@ -1,0 +1,107 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Narrator",
+      "feels": [
+        {
+          "name": "Amazement",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "Observing great whales in the starry heavens"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Great whales"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Starry heavens"
+          }
+        },
+        {
+          "name": "Joy",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event2",
+            "name": "Seeing vast meadows of brit"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Meadows of brit"
+          },
+          "place": {
+            "id": "place2",
+            "name": "Sailing through boundless fields of ripe and golden wheat"
+          }
+        },
+        {
+          "name": "Surprise",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event3",
+            "name": "Encountering numbers of Right Whales"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Right Whales"
+          },
+          "place": {
+            "id": "place3",
+            "name": "Sailing through the brit"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Starry heavens",
+      "description": "In the starry night sky."
+    },
+    {
+      "id": "place2",
+      "name": "Golden wheat fields",
+      "description": "Sailing through vast meadows of brit."
+    },
+    {
+      "id": "place3",
+      "name": "Sailing through the brit",
+      "description": "In the midst of the ocean surrounded by Right Whales."
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Observing great whales in the starry heavens",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Seeing vast meadows of brit",
+      "takePlaceAt": {
+        "id": "place2"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Encountering numbers of Right Whales",
+      "takePlaceAt": {
+        "id": "place3"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    }
+  ]
+}

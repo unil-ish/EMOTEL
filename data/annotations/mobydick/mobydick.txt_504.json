@@ -1,0 +1,147 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Hunters",
+      "feels": [
+        {
+          "name": "Anticipation",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event1",
+            "name": "Whale shedding off enticings"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Whale shedding off enticings"
+          }
+        },
+        {
+          "name": "Fear",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event2",
+            "name": "Fatal discovery of quietude"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Quietude"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Moby Dick",
+      "feels": [
+        {
+          "name": "Amazement",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event3",
+            "name": "Revealing himself"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Revealing himself"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc3",
+      "name": "Ahab",
+      "feels": [
+        {
+          "name": "Vigilance",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event4",
+            "name": "Gazing towards the dim blue spaces"
+          },
+          "hasObject": {
+            "id": "object4",
+            "name": "Dim blue spaces"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc4",
+      "name": "Tashtego",
+      "feels": [
+        {
+          "name": "Surprise",
+          "hasIntensity": 0.5,
+          "causedBy": {
+            "id": "event5",
+            "name": "Crying out about the birds"
+          },
+          "hasObject": {
+            "id": "object5",
+            "name": "Birds"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Tropical Sea",
+      "description": "Among waves whose hand-clappings were suspended by exceeding rapture."
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Whale shedding off enticings",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Fatal discovery of quietude",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Revealing himself",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc2"
+      }
+    },
+    {
+      "id": "event4",
+      "name": "Gazing towards the dim blue spaces",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc3"
+      }
+    },
+    {
+      "id": "event5",
+      "name": "Crying out about the birds",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc4"
+      }
+    }
+  ]
+}

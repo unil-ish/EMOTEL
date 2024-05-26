@@ -1,0 +1,123 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Whaleman",
+      "feels": [
+        {
+          "name": "Surprise",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event1",
+            "name": "Encountering Moby Dick"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Moby Dick"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Uncharted Seas"
+          }
+        },
+        {
+          "name": "Fear",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event2",
+            "name": "Escaping White Whale"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "White Whale"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Uncharted Seas"
+          }
+        },
+        {
+          "name": "Admiration",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event3",
+            "name": "Observing White Whale's features"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "White Whale's features"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Uncharted Seas"
+          }
+        },
+        {
+          "name": "Amazement",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event4",
+            "name": "Witnessing White Whale's appearance"
+          },
+          "hasObject": {
+            "id": "object4",
+            "name": "White Whale's appearance"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Uncharted Seas"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Uncharted Seas",
+      "description": "Endless, unexplored waters."
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Encountering Moby Dick",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Escaping White Whale",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Observing White Whale's features",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event4",
+      "name": "Witnessing White Whale's appearance",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    }
+  ]
+}

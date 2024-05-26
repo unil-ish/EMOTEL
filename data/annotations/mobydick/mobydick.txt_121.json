@@ -9,35 +9,47 @@
           "hasIntensity": 0.9,
           "causedBy": {
             "id": "event1",
-            "name": "Being dismasted off Japan"
+            "name": "Barbaric white leg"
           },
           "hasObject": {
             "id": "object1",
             "name": "Ivory leg"
-          }
-        },
-        {
-          "name": "Trust",
-          "hasIntensity": 0.7,
-          "causedBy": {
-            "id": "event2",
-            "name": "Maintaining a singular posture"
           },
-          "hasObject": {
-            "id": "object2",
-            "name": "Bone leg"
+          "place": {
+            "id": "place1",
+            "name": "Pequod's quarter deck"
           }
         },
         {
           "name": "Anger",
           "hasIntensity": 0.8,
           "causedBy": {
+            "id": "event2",
+            "name": "Being under a troubled master-eye"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Officers"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Pequod's quarter deck"
+          }
+        },
+        {
+          "name": "Sadness",
+          "hasIntensity": 0.7,
+          "causedBy": {
             "id": "event3",
-            "name": "Moody stricken appearance"
+            "name": "Mighty woe"
           },
           "hasObject": {
             "id": "object3",
             "name": "Crucifixion in his face"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Pequod's quarter deck"
           }
         }
       ]
@@ -47,13 +59,13 @@
     {
       "id": "place1",
       "name": "Pequod's quarter deck",
-      "description": "Close to the mizzen shrouds."
+      "description": "Upon each side of the Pequod’s quarter deck, and pretty close to the mizzen shrouds."
     }
   ],
   "Events": [
     {
       "id": "event1",
-      "name": "Being dismasted off Japan",
+      "name": "Barbaric white leg",
       "takePlaceAt": {
         "id": "place1"
       },
@@ -63,7 +75,7 @@
     },
     {
       "id": "event2",
-      "name": "Maintaining a singular posture",
+      "name": "Being under a troubled master-eye",
       "takePlaceAt": {
         "id": "place1"
       },
@@ -73,7 +85,7 @@
     },
     {
       "id": "event3",
-      "name": "Moody stricken appearance",
+      "name": "Mighty woe",
       "takePlaceAt": {
         "id": "place1"
       },

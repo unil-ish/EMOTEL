@@ -33,9 +33,9 @@
             "name": "Case-bottle"
           },
           "place": {
-            "id": "place1",
+            "id": "place2",
             "name": "Crow’s-nest",
-            "description": "On top of the mast"
+            "description": "Within easy reach"
           }
         }
       ]
@@ -46,6 +46,11 @@
       "id": "place1",
       "name": "Crow’s-nest",
       "description": "On top of the mast"
+    },
+    {
+      "id": "place2",
+      "name": "Crow’s-nest",
+      "description": "Within easy reach"
     }
   ],
   "Events": [
@@ -63,7 +68,7 @@
       "id": "event2",
       "name": "Ignoring the case-bottle",
       "takePlaceAt": {
-        "id": "place1"
+        "id": "place2"
       },
       "hasParticipant": {
         "id": "fc1"

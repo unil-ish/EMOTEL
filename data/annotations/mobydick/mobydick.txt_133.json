@@ -1,46 +1,58 @@
-```json
 {
   "FictionalCharacters": [
     {
       "id": "fc1",
-      "name": "English Naturalist",
+      "name": "Narrator",
       "feels": [
         {
-          "name": "Amazement",
+          "name": "Interest",
           "hasIntensity": 0.7,
           "causedBy": {
             "id": "event1",
-            "name": "Discovering the true nature of spermaceti"
+            "name": "Learning about different whale species"
           },
           "hasObject": {
             "id": "object1",
-            "name": "Spermaceti"
+            "name": "Whale species"
           },
-          "place": {
+          "exactPlace": {
             "id": "place1",
-            "name": "Unknown location"
+            "name": "Library",
+            "description": "A quiet room filled with books"
           }
-        }
-      ]
-    },
-    {
-      "id": "fc2",
-      "name": "American Fisherman",
-      "feels": [
+        },
         {
-          "name": "Anticipation",
-          "hasIntensity": 0.6,
+          "name": "Amazement",
+          "hasIntensity": 0.9,
           "causedBy": {
             "id": "event2",
-            "name": "Pursuing the right whale in various parts of the world"
+            "name": "Realizing the value of spermaceti"
           },
           "hasObject": {
             "id": "object2",
-            "name": "Right Whale"
+            "name": "Spermaceti"
           },
-          "place": {
+          "exactPlace": {
             "id": "place2",
-            "name": "Indian Ocean"
+            "name": "Marketplace",
+            "description": "A bustling area with various vendors"
+          }
+        },
+        {
+          "name": "Contempt",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event3",
+            "name": "Confusion over whale species"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Misidentification of whale species"
+          },
+          "exactPlace": {
+            "id": "place3",
+            "name": "Museum",
+            "description": "A place with exhibits on marine life"
           }
         }
       ]
@@ -49,19 +61,24 @@
   "Places": [
     {
       "id": "place1",
-      "name": "Unknown location",
-      "description": "A place where the true nature of spermaceti was discovered."
+      "name": "Library",
+      "description": "A quiet room filled with books"
     },
     {
       "id": "place2",
-      "name": "Indian Ocean",
-      "description": "A vast body of water where American fishermen pursue whales."
+      "name": "Marketplace",
+      "description": "A bustling area with various vendors"
+    },
+    {
+      "id": "place3",
+      "name": "Museum",
+      "description": "A place with exhibits on marine life"
     }
   ],
   "Events": [
     {
       "id": "event1",
-      "name": "Discovering the true nature of spermaceti",
+      "name": "Learning about different whale species",
       "takePlaceAt": {
         "id": "place1"
       },
@@ -71,14 +88,23 @@
     },
     {
       "id": "event2",
-      "name": "Pursuing the right whale in various parts of the world",
+      "name": "Realizing the value of spermaceti",
       "takePlaceAt": {
         "id": "place2"
       },
       "hasParticipant": {
-        "id": "fc2"
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Confusion over whale species",
+      "takePlaceAt": {
+        "id": "place3"
+      },
+      "hasParticipant": {
+        "id": "fc1"
       }
     }
   ]
 }
-```

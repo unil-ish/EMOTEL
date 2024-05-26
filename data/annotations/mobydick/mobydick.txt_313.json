@@ -1,0 +1,73 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Stubb",
+      "feels": [
+        {
+          "name": "Fear",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event1",
+            "name": "Talking about the devil"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Devil"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Flask",
+      "feels": [
+        {
+          "name": "Confusion",
+          "hasIntensity": 0.5,
+          "causedBy": {
+            "id": "event2",
+            "name": "Discussion about the devil"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Devil"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "On the boats",
+      "description": "Slowly advancing towards the ship."
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Talking about the devil",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": [
+        {
+          "id": "fc1"
+        }
+      ]
+    },
+    {
+      "id": "event2",
+      "name": "Discussion about the devil",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": [
+        {
+          "id": "fc2"
+        }
+      ]
+    }
+  ]
+}

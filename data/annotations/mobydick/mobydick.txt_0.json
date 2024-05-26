@@ -15,27 +15,27 @@
             "id": "object1",
             "name": "Whaling voyage"
           },
-          "place": {
+          "feltAt": {
             "id": "place1",
-            "name": "Wharf",
-            "description": "A busy dock with ships ready to sail."
+            "name": "Nantucket",
+            "description": "A whaling town"
           }
         },
         {
-          "name": "Interest",
+          "name": "Joy",
           "hasIntensity": 0.6,
           "causedBy": {
             "id": "event2",
-            "name": "Encountering mysterious characters"
+            "name": "Meeting a bosom friend"
           },
           "hasObject": {
             "id": "object2",
-            "name": "Mysterious characters"
+            "name": "Bosom friend"
           },
-          "place": {
+          "feltAt": {
             "id": "place2",
-            "name": "Spouter-Inn",
-            "description": "A peculiar inn with intriguing guests."
+            "name": "The Spouter-Inn",
+            "description": "An inn in New Bedford"
           }
         }
       ]
@@ -44,13 +44,13 @@
   "Places": [
     {
       "id": "place1",
-      "name": "Wharf",
-      "description": "A busy dock with ships ready to sail."
+      "name": "Nantucket",
+      "description": "A whaling town"
     },
     {
       "id": "place2",
-      "name": "Spouter-Inn",
-      "description": "A peculiar inn with intriguing guests."
+      "name": "The Spouter-Inn",
+      "description": "An inn in New Bedford"
     }
   ],
   "Events": [
@@ -66,7 +66,7 @@
     },
     {
       "id": "event2",
-      "name": "Encountering mysterious characters",
+      "name": "Meeting a bosom friend",
       "takePlaceAt": {
         "id": "place2"
       },

@@ -1,0 +1,160 @@
+{
+    "FictionalCharacters": [
+        {
+            "id": "fc1",
+            "name": "Ishmael",
+            "feels": [
+                {
+                    "name": "Fear",
+                    "hasIntensity": 0.7,
+                    "causedBy": {
+                        "id": "event1",
+                        "name": "Being close to a shark"
+                    },
+                    "hasObject": {
+                        "id": "object1",
+                        "name": "Shark"
+                    },
+                    "place": {
+                        "id": "place1",
+                        "name": "Near the shark",
+                        "description": "On the ship"
+                    }
+                },
+                {
+                    "name": "Acceptance",
+                    "hasIntensity": 0.6,
+                    "causedBy": {
+                        "id": "event2",
+                        "name": "Queequeg's fate"
+                    },
+                    "hasObject": {
+                        "id": "object2",
+                        "name": "Queequeg"
+                    },
+                    "place": {
+                        "id": "place1",
+                        "name": "On the ship",
+                        "description": "Near the shark"
+                    }
+                },
+                {
+                    "name": "Disgust",
+                    "hasIntensity": 0.8,
+                    "causedBy": {
+                        "id": "event3",
+                        "name": "Offering ginger and water"
+                    },
+                    "hasObject": {
+                        "id": "object3",
+                        "name": "Ginger and water"
+                    },
+                    "place": {
+                        "id": "place1",
+                        "name": "On the ship",
+                        "description": "Near the steward"
+                    }
+                },
+                {
+                    "name": "Anger",
+                    "hasIntensity": 0.9,
+                    "causedBy": {
+                        "id": "event4",
+                        "name": "Offering calomel and jalap"
+                    },
+                    "hasObject": {
+                        "id": "object4",
+                        "name": "Calomel and jalap"
+                    },
+                    "place": {
+                        "id": "place1",
+                        "name": "On the ship",
+                        "description": "Near the steward"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "fc2",
+            "name": "Stubb",
+            "feels": [
+                {
+                    "name": "Annoyance",
+                    "hasIntensity": 0.7,
+                    "causedBy": {
+                        "id": "event5",
+                        "name": "Sneaking Temperance Society movement"
+                    },
+                    "hasObject": {
+                        "id": "object5",
+                        "name": "Temperance Society movement"
+                    },
+                    "place": {
+                        "id": "place1",
+                        "name": "On the ship",
+                        "description": "Near the steward"
+                    }
+                }
+            ]
+        }
+    ],
+    "Places": [
+        {
+            "id": "place1",
+            "name": "On the ship",
+            "description": "Near the shark"
+        }
+    ],
+    "Events": [
+        {
+            "id": "event1",
+            "name": "Being close to a shark",
+            "takePlaceAt": {
+                "id": "place1"
+            },
+            "hasParticipant": {
+                "id": "fc1"
+            }
+        },
+        {
+            "id": "event2",
+            "name": "Queequeg's fate",
+            "takePlaceAt": {
+                "id": "place1"
+            },
+            "hasParticipant": {
+                "id": "fc1"
+            }
+        },
+        {
+            "id": "event3",
+            "name": "Offering ginger and water",
+            "takePlaceAt": {
+                "id": "place1"
+            },
+            "hasParticipant": {
+                "id": "fc1"
+            }
+        },
+        {
+            "id": "event4",
+            "name": "Offering calomel and jalap",
+            "takePlaceAt": {
+                "id": "place1"
+            },
+            "hasParticipant": {
+                "id": "fc1"
+            }
+        },
+        {
+            "id": "event5",
+            "name": "Sneaking Temperance Society movement",
+            "takePlaceAt": {
+                "id": "place1"
+            },
+            "hasParticipant": {
+                "id": "fc2"
+            }
+        }
+    ]
+}

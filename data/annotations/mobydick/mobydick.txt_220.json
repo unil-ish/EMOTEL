@@ -1,0 +1,103 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Queequeg",
+      "feels": [
+        {
+          "name": "Fear",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "Boat being swamped"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Swamped boat"
+          },
+          "feltAt": {
+            "id": "place1",
+            "name": "Boat in the storm"
+          }
+        },
+        {
+          "name": "Acceptance",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event2",
+            "name": "Holding up hope in despair"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Imbecile candle"
+          },
+          "feltAt": {
+            "id": "place1",
+            "name": "Boat in the storm"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Starbuck",
+      "feels": [
+        {
+          "name": "Annoyance",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event3",
+            "name": "Many failures in igniting the lamp"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Waterproof match keg"
+          },
+          "feltAt": {
+            "id": "place1",
+            "name": "Boat in the storm"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Boat in the storm",
+      "description": "In the midst of a raging squall on the ocean."
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Boat being swamped",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Holding up hope in despair",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Many failures in igniting the lamp",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc2"
+      }
+    }
+  ]
+}

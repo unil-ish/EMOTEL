@@ -1,0 +1,108 @@
+```json
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Fleece",
+      "feels": [
+        {
+          "name": "Anger",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event1",
+            "name": "Being reprimanded by Ahab"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Reprimand"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Deck of the ship",
+            "description": "Open area on the ship"
+          }
+        },
+        {
+          "name": "Disapproval",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event2",
+            "name": "Being recalled by Ahab"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Recall"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Deck of the ship",
+            "description": "Open area on the ship"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Ahab",
+      "feels": [
+        {
+          "name": "Contempt",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event3",
+            "name": "Fleece's behavior"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Behavior"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Deck of the ship",
+            "description": "Open area on the ship"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Deck of the ship",
+      "description": "Open area on the ship"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Being reprimanded by Ahab",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Being recalled by Ahab",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Fleece's behavior",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc2"
+      }
+    }
+  ]
+}
+```

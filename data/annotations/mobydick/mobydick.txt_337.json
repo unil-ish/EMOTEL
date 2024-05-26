@@ -1,0 +1,207 @@
+```json
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Flask",
+      "feels": [
+        {
+          "name": "Joy",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event1",
+            "name": "Seeing the suds made by the whale"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Suds"
+          },
+          "place": {
+            "id": "place1",
+            "name": "On the ship deck",
+            "description": "Deck of the Pequod"
+          }
+        },
+        {
+          "name": "Anger",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event2",
+            "name": "Derick pitching lamp-feeder at advancing boats"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Lamp-feeder"
+          },
+          "place": {
+            "id": "place1",
+            "name": "On the ship deck",
+            "description": "Deck of the Pequod"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Stubb",
+      "feels": [
+        {
+          "name": "Anger",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event3",
+            "name": "Derick's actions"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Derick"
+          },
+          "place": {
+            "id": "place1",
+            "name": "On the ship deck",
+            "description": "Deck of the Pequod"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc3",
+      "name": "Tashtego",
+      "feels": [
+        {
+          "name": "Aggressiveness",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event4",
+            "name": "Taunts from Stubb"
+          },
+          "hasObject": {
+            "id": "object4",
+            "name": "Stubb"
+          },
+          "place": {
+            "id": "place1",
+            "name": "On the ship deck",
+            "description": "Deck of the Pequod"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc4",
+      "name": "Derick",
+      "feels": [
+        {
+          "name": "Rage",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event5",
+            "name": "Crab catching the blade of his midship oarsman"
+          },
+          "hasObject": {
+            "id": "object5",
+            "name": "Crab"
+          },
+          "place": {
+            "id": "place1",
+            "name": "On the ship deck",
+            "description": "Deck of the Pequod"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc5",
+      "name": "Starbuck",
+      "feels": [
+        {
+          "name": "Anticipation",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event6",
+            "name": "Approaching the whale"
+          },
+          "hasObject": {
+            "id": "object6",
+            "name": "Whale"
+          },
+          "place": {
+            "id": "place1",
+            "name": "On the ship deck",
+            "description": "Deck of the Pequod"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "On the ship deck",
+      "description": "Deck of the Pequod"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Seeing the suds made by the whale",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Derick pitching lamp-feeder at advancing boats",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Derick's actions",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc2"
+      }
+    },
+    {
+      "id": "event4",
+      "name": "Taunts from Stubb",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc3"
+      }
+    },
+    {
+      "id": "event5",
+      "name": "Crab catching the blade of Derick's midship oarsman",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc4"
+      }
+    },
+    {
+      "id": "event6",
+      "name": "Approaching the whale",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc5"
+      }
+    }
+  ]
+}
+```

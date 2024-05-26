@@ -1,0 +1,63 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Narrator",
+      "feels": [
+        {
+          "name": "Fear",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "Appearance of the stranger"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Stranger"
+          }
+        },
+        {
+          "name": "Fear",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event2",
+            "name": "Tomahawk"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Tomahawk"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Narrator's Room",
+      "description": "Second floor back"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Appearance of the stranger",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Tomahawk",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    }
+  ]
+}

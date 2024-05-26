@@ -1,0 +1,91 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Stubb",
+      "feels": [
+        {
+          "name": "Excitement",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "Flushed with conquest"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Conquest"
+          }
+        },
+        {
+          "name": "Joy",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event2",
+            "name": "Eating whale steak"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Whale steak"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Ahab",
+      "feels": [
+        {
+          "name": "Quiescence",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event3",
+            "name": "Unknown"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Unknown"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "On deck of the ship",
+      "description": "Where the action is taking place."
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Flushed with conquest",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Eating whale steak",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Unknown",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc2"
+      }
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Starbuck",
+      "feels": [
+        {
+          "name": "Fear",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "Ship careening over on her side"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Ship"
+          }
+        },
+        {
+          "name": "Surprise",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event2",
+            "name": "Triumphant tackle rising into sight"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Tackle"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Stubb",
+      "feels": [
+        {
+          "name": "Joy",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event3",
+            "name": "Peeling off blubber"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Blubber"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "On the ship",
+      "description": "Deck of the ship during a whaling operation."
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Ship careening over on her side",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": [
+        {
+          "id": "fc1"
+        }
+      ]
+    },
+    {
+      "id": "event2",
+      "name": "Triumphant tackle rising into sight",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": [
+        {
+          "id": "fc1"
+        }
+      ]
+    },
+    {
+      "id": "event3",
+      "name": "Peeling off blubber",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": [
+        {
+          "id": "fc2"
+        }
+      ]
+    }
+  ]
+}

@@ -17,61 +17,69 @@
           }
         },
         {
-          "name": "Anticipation",
+          "name": "Joy",
           "hasIntensity": 0.7,
           "causedBy": {
             "id": "event2",
-            "name": "Solving the incantation of whiteness"
+            "name": "Visible world formed in love"
           },
           "hasObject": {
             "id": "object2",
-            "name": "Whiteness"
-          }
-        },
-        {
-          "name": "Amazement",
-          "hasIntensity": 0.8,
-          "causedBy": {
-            "id": "event3",
-            "name": "Symbol of spiritual things"
-          },
-          "hasObject": {
-            "id": "object3",
-            "name": "Symbol of spiritual things"
+            "name": "Visible world"
           }
         },
         {
           "name": "Fear",
-          "hasIntensity": 0.9,
+          "hasIntensity": 0.8,
           "causedBy": {
-            "id": "event4",
-            "name": "Most appalling things to mankind"
+            "id": "event3",
+            "name": "Whiteness"
           },
           "hasObject": {
-            "id": "object4",
-            "name": "Appalling things"
+            "id": "object3",
+            "name": "Whiteness"
           }
         }
       ]
     }
   ],
-  "Places": [],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Unknown",
+      "description": "Somewhere those things must exist."
+    }
+  ],
   "Events": [
     {
       "id": "event1",
-      "name": "Savage musk smell"
+      "name": "Savage musk smell",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
     },
     {
       "id": "event2",
-      "name": "Solving the incantation of whiteness"
+      "name": "Visible world formed in love",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
     },
     {
       "id": "event3",
-      "name": "Symbol of spiritual things"
-    },
-    {
-      "id": "event4",
-      "name": "Most appalling things to mankind"
+      "name": "Whiteness",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
     }
   ]
 }

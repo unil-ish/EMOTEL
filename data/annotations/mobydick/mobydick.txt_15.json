@@ -14,6 +14,11 @@
           "hasObject": {
             "id": "object1",
             "name": "Broom"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Deck of the ship",
+            "description": "Aboard a sailing vessel"
           }
         },
         {
@@ -25,7 +30,12 @@
           },
           "hasObject": {
             "id": "object2",
-            "name": "Physical aggression"
+            "name": "Sea-captains"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Deck of the ship",
+            "description": "Aboard a sailing vessel"
           }
         }
       ]
@@ -34,8 +44,8 @@
   "Places": [
     {
       "id": "place1",
-      "name": "On a ship at sea",
-      "description": "In the forecastle and at the royal mast-head."
+      "name": "Deck of the ship",
+      "description": "Aboard a sailing vessel"
     }
   ],
   "Events": [

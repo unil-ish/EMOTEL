@@ -9,7 +9,7 @@
           "hasIntensity": 0.9,
           "causedBy": {
             "id": "event1",
-            "name": "Drinking to Death to Moby Dick"
+            "name": "Drinking to hunt Moby Dick"
           },
           "hasObject": {
             "id": "object1",
@@ -21,23 +21,11 @@
           "hasIntensity": 0.7,
           "causedBy": {
             "id": "event2",
-            "name": "Drinking spirits"
+            "name": "Feeling overwhelmed by Ahab's obsession"
           },
           "hasObject": {
             "id": "object2",
-            "name": "Spirits"
-          }
-        },
-        {
-          "name": "Sadness",
-          "hasIntensity": 0.8,
-          "causedBy": {
-            "id": "event3",
-            "name": "Feeling unable to enjoy loveliness"
-          },
-          "hasObject": {
-            "id": "object3",
-            "name": "Loveliness"
+            "name": "Ahab's obsession"
           }
         }
       ]
@@ -47,39 +35,27 @@
       "name": "Ahab",
       "feels": [
         {
-          "name": "Anger",
-          "hasIntensity": 0.9,
+          "name": "Sadness",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event3",
+            "name": "Feeling disconnected from beauty"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Lovely light"
+          }
+        },
+        {
+          "name": "Loathing",
+          "hasIntensity": 0.6,
           "causedBy": {
             "id": "event4",
-            "name": "Hunting Moby Dick"
+            "name": "Feeling damned in Paradise"
           },
           "hasObject": {
             "id": "object4",
-            "name": "Moby Dick"
-          }
-        },
-        {
-          "name": "Joy",
-          "hasIntensity": 0.6,
-          "causedBy": {
-            "id": "event5",
-            "name": "Seeing the warm waves blush like wine"
-          },
-          "hasObject": {
-            "id": "object5",
-            "name": "Warm waves"
-          }
-        },
-        {
-          "name": "Serenity",
-          "hasIntensity": 0.7,
-          "causedBy": {
-            "id": "event6",
-            "name": "Gazing out at the sunset"
-          },
-          "hasObject": {
-            "id": "object6",
-            "name": "Sunset"
+            "name": "Paradise"
           }
         }
       ]
@@ -95,7 +71,7 @@
   "Events": [
     {
       "id": "event1",
-      "name": "Drinking to Death to Moby Dick",
+      "name": "Drinking to hunt Moby Dick",
       "takePlaceAt": {
         "id": "place1"
       },
@@ -107,7 +83,7 @@
     },
     {
       "id": "event2",
-      "name": "Drinking spirits",
+      "name": "Feeling overwhelmed by Ahab's obsession",
       "takePlaceAt": {
         "id": "place1"
       },
@@ -119,43 +95,19 @@
     },
     {
       "id": "event3",
-      "name": "Feeling unable to enjoy loveliness",
+      "name": "Feeling disconnected from beauty",
       "takePlaceAt": {
         "id": "place1"
       },
       "hasParticipant": [
         {
-          "id": "fc1"
+          "id": "fc2"
         }
       ]
     },
     {
       "id": "event4",
-      "name": "Hunting Moby Dick",
-      "takePlaceAt": {
-        "id": "place1"
-      },
-      "hasParticipant": [
-        {
-          "id": "fc2"
-        }
-      ]
-    },
-    {
-      "id": "event5",
-      "name": "Seeing the warm waves blush like wine",
-      "takePlaceAt": {
-        "id": "place1"
-      },
-      "hasParticipant": [
-        {
-          "id": "fc2"
-        }
-      ]
-    },
-    {
-      "id": "event6",
-      "name": "Gazing out at the sunset",
+      "name": "Feeling damned in Paradise",
       "takePlaceAt": {
         "id": "place1"
       },

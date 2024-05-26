@@ -1,0 +1,63 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Whaleman",
+      "feels": [
+        {
+          "name": "Fear",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "Rumors of the White Whale"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "White Whale"
+          }
+        },
+        {
+          "name": "Awe",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event2",
+            "name": "Encountering the Sperm Whale"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Sperm Whale"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Whaling Ship",
+      "description": "On board of a ship in the middle of the ocean."
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Rumors of the White Whale",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Encountering the Sperm Whale",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    }
+  ]
+}

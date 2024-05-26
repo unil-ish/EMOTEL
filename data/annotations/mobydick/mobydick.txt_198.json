@@ -1,0 +1,127 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Ahab",
+      "feels": [
+        {
+          "name": "Fear",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "Nightmares and intense thoughts"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Chasm opening"
+          },
+          "feltAt": {
+            "id": "place1",
+            "name": "Ship",
+            "description": "Aboard a ship at sea"
+          }
+        },
+        {
+          "name": "Anger",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event2",
+            "name": "Intense purpose"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Supreme purpose"
+          },
+          "feltAt": {
+            "id": "place1",
+            "name": "Ship",
+            "description": "Aboard a ship at sea"
+          }
+        },
+        {
+          "name": "Acceptance",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event3",
+            "name": "Realization of inner struggle"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Vacated thing"
+          },
+          "feltAt": {
+            "id": "place1",
+            "name": "Ship",
+            "description": "Aboard a ship at sea"
+          }
+        },
+        {
+          "name": "Amazement",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event4",
+            "name": "Creation of a creature within"
+          },
+          "hasObject": {
+            "id": "object4",
+            "name": "Creature within"
+          },
+          "feltAt": {
+            "id": "place1",
+            "name": "Ship",
+            "description": "Aboard a ship at sea"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Ship",
+      "description": "Aboard a ship at sea"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Nightmares and intense thoughts",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Intense purpose",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Realization of inner struggle",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event4",
+      "name": "Creation of a creature within",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    }
+  ]
+}

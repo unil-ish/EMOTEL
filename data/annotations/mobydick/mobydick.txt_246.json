@@ -1,0 +1,97 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Company Member",
+      "feels": [
+        {
+          "name": "Surprise",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "Expressing admiration for sailor's delicacy"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Sailor"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Company Member",
+      "feels": [
+        {
+          "name": "Admiration",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event2",
+            "name": "Receiving good turns from Canaller"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Canaller"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc3",
+      "name": "Don Pedro",
+      "feels": [
+        {
+          "name": "Surprise",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event3",
+            "name": "Realizing the world is one Lima"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "World"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Company Gathering",
+      "description": "A social event with multiple attendees."
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Expressing admiration for sailor's delicacy",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Receiving good turns from Canaller",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc2"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Realizing the world is one Lima",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc3"
+      }
+    }
+  ]
+}

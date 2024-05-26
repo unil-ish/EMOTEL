@@ -27,6 +27,18 @@
             "id": "object2",
             "name": "Monstrous clubs and spears"
           }
+        },
+        {
+          "name": "Wonder",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event2",
+            "name": "Seeing the monstrous clubs and spears"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Monstrous clubs and spears"
+          }
         }
       ]
     }

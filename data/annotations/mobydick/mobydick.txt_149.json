@@ -9,11 +9,16 @@
           "hasIntensity": 0.7,
           "causedBy": {
             "id": "event1",
-            "name": "Queequeg's eating habits"
+            "name": "Tashtego singing out for him to produce himself"
           },
           "hasObject": {
             "id": "object1",
-            "name": "Eating"
+            "name": "Tashtego"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Cabin",
+            "description": "Low cabin framework"
           }
         },
         {
@@ -21,29 +26,39 @@
           "hasIntensity": 0.6,
           "causedBy": {
             "id": "event2",
-            "name": "Tashtego's singing"
+            "name": "Whetstone sharpening knives"
           },
           "hasObject": {
             "id": "object2",
-            "name": "Singing"
+            "name": "Whetstone"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Cabin",
+            "description": "Low cabin framework"
           }
         }
       ]
     },
     {
       "id": "fc2",
-      "name": "Tashtego",
+      "name": "Queequeg",
       "feels": [
         {
-          "name": "Anger",
-          "hasIntensity": 0.8,
+          "name": "Disgust",
+          "hasIntensity": 0.5,
           "causedBy": {
             "id": "event3",
-            "name": "Dough-Boy's reaction"
+            "name": "Barbaric smack of the lip in eating"
           },
           "hasObject": {
             "id": "object3",
-            "name": "Reaction"
+            "name": "Eating"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Cabin",
+            "description": "Low cabin framework"
           }
         }
       ]
@@ -52,14 +67,14 @@
   "Places": [
     {
       "id": "place1",
-      "name": "Ship's Cabin",
-      "description": "A low cabin framework"
+      "name": "Cabin",
+      "description": "Low cabin framework"
     }
   ],
   "Events": [
     {
       "id": "event1",
-      "name": "Queequeg's eating habits",
+      "name": "Tashtego singing out for him to produce himself",
       "takePlaceAt": {
         "id": "place1"
       },
@@ -69,7 +84,7 @@
     },
     {
       "id": "event2",
-      "name": "Tashtego's singing",
+      "name": "Whetstone sharpening knives",
       "takePlaceAt": {
         "id": "place1"
       },
@@ -79,7 +94,7 @@
     },
     {
       "id": "event3",
-      "name": "Dough-Boy's reaction",
+      "name": "Barbaric smack of the lip in eating",
       "takePlaceAt": {
         "id": "place1"
       },

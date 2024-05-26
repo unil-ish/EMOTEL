@@ -9,7 +9,7 @@
           "hasIntensity": 0.9,
           "causedBy": {
             "id": "event1",
-            "name": "Physical appearance and demeanor"
+            "name": "Physical appearance"
           },
           "hasObject": {
             "id": "object1",
@@ -17,7 +17,7 @@
           },
           "place": {
             "id": "place1",
-            "name": "On the ship's deck"
+            "name": "Pequod's deck"
           }
         },
         {
@@ -25,15 +25,15 @@
           "hasIntensity": 0.7,
           "causedBy": {
             "id": "event2",
-            "name": "Comparison to a fortress"
+            "name": "Encounter with Ahab"
           },
           "hasObject": {
             "id": "object2",
-            "name": "White man"
+            "name": "Ahab"
           },
           "place": {
             "id": "place1",
-            "name": "On the ship's deck"
+            "name": "Pequod's deck"
           }
         }
       ]
@@ -54,23 +54,7 @@
             "name": "Alabama boy"
           },
           "place": {
-            "id": "place2",
-            "name": "Pequod's forecastle"
-          }
-        },
-        {
-          "name": "Joy",
-          "hasIntensity": 0.6,
-          "causedBy": {
-            "id": "event4",
-            "name": "Being called a hero"
-          },
-          "hasObject": {
-            "id": "object4",
-            "name": "Hero status"
-          },
-          "place": {
-            "id": "place2",
+            "id": "place1",
             "name": "Pequod's forecastle"
           }
         }
@@ -80,19 +64,14 @@
   "Places": [
     {
       "id": "place1",
-      "name": "On the ship's deck",
-      "description": "Where the harpooneers are located."
-    },
-    {
-      "id": "place2",
-      "name": "Pequod's forecastle",
-      "description": "The front part of the ship where Little Pip is located."
+      "name": "Pequod's deck",
+      "description": "The main deck of the ship Pequod."
     }
   ],
   "Events": [
     {
       "id": "event1",
-      "name": "Physical appearance and demeanor",
+      "name": "Physical appearance",
       "takePlaceAt": {
         "id": "place1"
       },
@@ -102,7 +81,7 @@
     },
     {
       "id": "event2",
-      "name": "Comparison to a fortress",
+      "name": "Encounter with Ahab",
       "takePlaceAt": {
         "id": "place1"
       },
@@ -114,17 +93,7 @@
       "id": "event3",
       "name": "Death",
       "takePlaceAt": {
-        "id": "place2"
-      },
-      "hasParticipant": {
-        "id": "fc2"
-      }
-    },
-    {
-      "id": "event4",
-      "name": "Being called a hero",
-      "takePlaceAt": {
-        "id": "place2"
+        "id": "place1"
       },
       "hasParticipant": {
         "id": "fc2"

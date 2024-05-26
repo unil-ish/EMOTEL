@@ -6,7 +6,7 @@
       "feels": [
         {
           "name": "Confusion",
-          "hasIntensity": 0.7,
+          "hasIntensity": 0.6,
           "causedBy": {
             "id": "event1",
             "name": "Not understanding the terms"
@@ -24,9 +24,8 @@
     {
       "id": "event1",
       "name": "Not understanding the terms",
-      "takePlaceAt": {},
       "hasParticipant": {
-        "id": "fc1",
+        "id": "fc1"
       }
     }
   ]

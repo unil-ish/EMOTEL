@@ -1,0 +1,135 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Steelkilt",
+      "feels": [
+        {
+          "name": "Anger",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "Captain's threat"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Pistol"
+          }
+        },
+        {
+          "name": "Fear",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event2",
+            "name": "Fear of mutiny"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Mutiny"
+          }
+        },
+        {
+          "name": "Defiance",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event3",
+            "name": "Challenging the captain"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Captain"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Captain",
+      "feels": [
+        {
+          "name": "Vigilance",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event4",
+            "name": "Mutiny threat"
+          },
+          "hasObject": {
+            "id": "object4",
+            "name": "Mutiny"
+          }
+        },
+        {
+          "name": "Annoyance",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event5",
+            "name": "Insurgents' defiance"
+          },
+          "hasObject": {
+            "id": "object5",
+            "name": "Insurgents"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Deck",
+      "description": "On the ship's deck during a confrontation."
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Captain's threat",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Fear of mutiny",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Challenging the captain",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event4",
+      "name": "Mutiny threat",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc2"
+      }
+    },
+    {
+      "id": "event5",
+      "name": "Insurgents' defiance",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc2"
+      }
+    }
+  ]
+}

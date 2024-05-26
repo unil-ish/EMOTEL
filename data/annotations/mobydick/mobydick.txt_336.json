@@ -1,0 +1,109 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Flask",
+      "feels": [
+        {
+          "name": "Anger",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "Cruel comment by Starbuck"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Whale-line"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Whaling boat"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Starbuck",
+      "feels": [
+        {
+          "name": "Disgust",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event2",
+            "name": "Derick's confidence"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Derick"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Whaling boat"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc3",
+      "name": "Stubb",
+      "feels": [
+        {
+          "name": "Aggressiveness",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event3",
+            "name": "Challenging crew"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Yarman"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Whaling boat"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Whaling boat",
+      "description": "Aboard the Pequod"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Cruel comment by Starbuck",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Derick's confidence",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc2"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Challenging crew",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc3"
+      }
+    }
+  ]
+}

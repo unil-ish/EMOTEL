@@ -1,0 +1,113 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Fedallah",
+      "feels": [
+        {
+          "name": "Mystery",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "Unknown origin and influence"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Fedallah"
+          }
+        },
+        {
+          "name": "Surprise",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event2",
+            "name": "Sighting the silvery jet"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Silvery jet"
+          }
+        },
+        {
+          "name": "Joy",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event3",
+            "name": "Desire for a lowering"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Lowering"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Seamen",
+      "feels": [
+        {
+          "name": "Pleasure",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event4",
+            "name": "Exciting cry"
+          },
+          "hasObject": {
+            "id": "object4",
+            "name": "Cry"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Main-mast head",
+      "description": "Top of the main mast on the ship"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Unknown origin and influence",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Sighting the silvery jet",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Desire for a lowering",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event4",
+      "name": "Exciting cry",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc2"
+      }
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Narrator",
+      "feels": [
+        {
+          "name": "Fear",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "Feeling a supernatural presence"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Supernatural hand"
+          },
+          "feltAt": {
+            "id": "place1",
+            "name": "Bedroom",
+            "description": "Dark room with a bed"
+          }
+        },
+        {
+          "name": "Confusion",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event2",
+            "name": "Puzzling over the mystery"
+          },
+          "feltAt": {
+            "id": "place1"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Bedroom",
+      "description": "Dark room with a bed"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Feeling a supernatural presence",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Puzzling over the mystery",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    }
+  ]
+}

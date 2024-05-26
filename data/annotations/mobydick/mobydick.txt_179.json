@@ -9,7 +9,7 @@
           "hasIntensity": 1,
           "causedBy": {
             "id": "event1",
-            "name": "Bodily dismemberment"
+            "name": "Being dismembered by the monster"
           },
           "hasObject": {
             "id": "object1",
@@ -17,8 +17,7 @@
           },
           "place": {
             "id": "place1",
-            "name": "Ship",
-            "description": "Sailing across the tranquil tropics"
+            "name": "On the ship"
           }
         },
         {
@@ -26,50 +25,63 @@
           "hasIntensity": 0.9,
           "causedBy": {
             "id": "event2",
-            "name": "Being laced fast in a strait-jacket"
+            "name": "Being forced to turn towards home"
           },
           "hasObject": {
             "id": "object2",
-            "name": "Strait-jacket"
+            "name": "Home"
           },
           "place": {
             "id": "place1",
-            "name": "Ship",
-            "description": "Sailing across the tranquil tropics"
+            "name": "On the ship"
           }
         },
         {
           "name": "Madness",
-          "hasIntensity": 0.7,
+          "hasIntensity": 0.95,
           "causedBy": {
             "id": "event3",
-            "name": "Encounter with the monster"
+            "name": "Interfusing of torn body and gashed soul"
           },
           "hasObject": {
             "id": "object3",
-            "name": "Monster"
+            "name": "Torn body and gashed soul"
           },
           "place": {
             "id": "place1",
-            "name": "Ship",
-            "description": "Sailing across the tranquil tropics"
+            "name": "On the ship"
           }
         },
         {
-          "name": "Acceptance",
-          "hasIntensity": 0.5,
+          "name": "Joy",
+          "hasIntensity": 0.7,
           "causedBy": {
             "id": "event4",
-            "name": "Realization of his madness"
+            "name": "Coming forth from dark den into blessed light and air"
           },
           "hasObject": {
             "id": "object4",
+            "name": "Blessed light and air"
+          },
+          "place": {
+            "id": "place1",
+            "name": "On the ship"
+          }
+        },
+        {
+          "name": "Disapproval",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event5",
+            "name": "Realizing his madness"
+          },
+          "hasObject": {
+            "id": "object5",
             "name": "Madness"
           },
           "place": {
             "id": "place1",
-            "name": "Ship",
-            "description": "Sailing across the tranquil tropics"
+            "name": "On the ship"
           }
         }
       ]
@@ -78,50 +90,30 @@
   "Places": [
     {
       "id": "place1",
-      "name": "Ship",
-      "description": "Sailing across the tranquil tropics"
+      "name": "On the ship",
+      "description": "In the middle of the ocean"
     }
   ],
   "Events": [
     {
       "id": "event1",
-      "name": "Bodily dismemberment",
-      "takePlaceAt": {
-        "id": "place1"
-      },
-      "hasParticipant": {
-        "id": "fc1"
-      }
+      "name": "Being dismembered by the monster"
     },
     {
       "id": "event2",
-      "name": "Being laced fast in a strait-jacket",
-      "takePlaceAt": {
-        "id": "place1"
-      },
-      "hasParticipant": {
-        "id": "fc1"
-      }
+      "name": "Being forced to turn towards home"
     },
     {
       "id": "event3",
-      "name": "Encounter with the monster",
-      "takePlaceAt": {
-        "id": "place1"
-      },
-      "hasParticipant": {
-        "id": "fc1"
-      }
+      "name": "Interfusing of torn body and gashed soul"
     },
     {
       "id": "event4",
-      "name": "Realization of his madness",
-      "takePlaceAt": {
-        "id": "place1"
-      },
-      "hasParticipant": {
-        "id": "fc1"
-      }
+      "name": "Coming forth from dark den into blessed light and air"
+    },
+    {
+      "id": "event5",
+      "name": "Realizing his madness"
     }
   ]
 }

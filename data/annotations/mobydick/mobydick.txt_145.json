@@ -15,7 +15,7 @@
             "id": "object1",
             "name": "Being alone"
           },
-          "place": {
+          "feltAt": {
             "id": "place1",
             "name": "Quarter-deck",
             "description": "On the ship"
@@ -32,7 +32,7 @@
             "id": "object2",
             "name": "Hornpipe"
           },
-          "place": {
+          "feltAt": {
             "id": "place1",
             "name": "Quarter-deck",
             "description": "On the ship"
@@ -40,7 +40,7 @@
         },
         {
           "name": "Fear",
-          "hasIntensity": 0.5,
+          "hasIntensity": 0.4,
           "causedBy": {
             "id": "event3",
             "name": "Entering King Ahab's presence"
@@ -49,10 +49,10 @@
             "id": "object3",
             "name": "King Ahab"
           },
-          "place": {
+          "feltAt": {
             "id": "place1",
             "name": "King Ahab's presence",
-            "description": "In the cabin"
+            "description": "In the cabin doorway"
           }
         },
         {
@@ -64,12 +64,12 @@
           },
           "hasObject": {
             "id": "object4",
-            "name": "Abjectus role"
+            "name": "Abjectus"
           },
-          "place": {
+          "feltAt": {
             "id": "place1",
             "name": "King Ahab's presence",
-            "description": "In the cabin"
+            "description": "In the cabin doorway"
           }
         }
       ]
@@ -80,11 +80,6 @@
       "id": "place1",
       "name": "Quarter-deck",
       "description": "On the ship"
-    },
-    {
-      "id": "place2",
-      "name": "King Ahab's presence",
-      "description": "In the cabin"
     }
   ],
   "Events": [
@@ -112,7 +107,7 @@
       "id": "event3",
       "name": "Entering King Ahab's presence",
       "takePlaceAt": {
-        "id": "place2"
+        "id": "place1"
       },
       "hasParticipant": {
         "id": "fc1"
@@ -122,7 +117,7 @@
       "id": "event4",
       "name": "Entering King Ahab's presence as Abjectus",
       "takePlaceAt": {
-        "id": "place2"
+        "id": "place1"
       },
       "hasParticipant": {
         "id": "fc1"

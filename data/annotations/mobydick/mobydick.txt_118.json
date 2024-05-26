@@ -5,7 +5,7 @@
       "name": "Narrator",
       "feels": [
         {
-          "name": "Apprehension",
+          "name": "Fear",
           "hasIntensity": 0.7,
           "causedBy": {
             "id": "event1",
@@ -17,25 +17,94 @@
           },
           "exactPlace": {
             "id": "place1",
-            "name": "Ship's deck",
-            "description": "Quarter-deck"
+            "name": "Deck",
+            "description": "The upper deck of the ship"
+          }
+        },
+        {
+          "name": "Anticipation",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event2",
+            "name": "Transition to fair weather"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Fair weather"
+          },
+          "exactPlace": {
+            "id": "place1",
+            "name": "Deck",
+            "description": "The upper deck of the ship"
+          }
+        },
+        {
+          "name": "Joy",
+          "hasIntensity": 0.5,
+          "causedBy": {
+            "id": "event3",
+            "name": "Leaving winter behind"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Leaving winter"
+          },
+          "exactPlace": {
+            "id": "place1",
+            "name": "Deck",
+            "description": "The upper deck of the ship"
           }
         },
         {
           "name": "Trust",
-          "hasIntensity": 0.9,
+          "hasIntensity": 0.8,
           "causedBy": {
-            "id": "event2",
-            "name": "Observing the three chief officers"
+            "id": "event4",
+            "name": "Seeing the three chief officers"
           },
           "hasObject": {
-            "id": "object2",
+            "id": "object4",
             "name": "Three chief officers"
           },
           "exactPlace": {
             "id": "place1",
-            "name": "Ship's deck",
-            "description": "Quarter-deck"
+            "name": "Deck",
+            "description": "The upper deck of the ship"
+          }
+        },
+        {
+          "name": "Amazement",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event5",
+            "name": "Observing the rapidity of the ship"
+          },
+          "hasObject": {
+            "id": "object5",
+            "name": "Rapidity of the ship"
+          },
+          "exactPlace": {
+            "id": "place1",
+            "name": "Deck",
+            "description": "The upper deck of the ship"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Elijah",
+      "feels": [
+        {
+          "name": "Disgust",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event6",
+            "name": "Recurrence of Elijah's incoherences"
+          },
+          "hasObject": {
+            "id": "object6",
+            "name": "Incoherences"
           }
         }
       ]
@@ -44,8 +113,8 @@
   "Places": [
     {
       "id": "place1",
-      "name": "Ship",
-      "description": "At sea"
+      "name": "Deck",
+      "description": "The upper deck of the ship"
     }
   ],
   "Events": [
@@ -61,12 +130,49 @@
     },
     {
       "id": "event2",
-      "name": "Observing the three chief officers",
+      "name": "Transition to fair weather",
       "takePlaceAt": {
         "id": "place1"
       },
       "hasParticipant": {
         "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Leaving winter behind",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event4",
+      "name": "Seeing the three chief officers",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event5",
+      "name": "Observing the rapidity of the ship",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event6",
+      "name": "Recurrence of Elijah's incoherences",
+      "hasParticipant": {
+        "id": "fc2"
       }
     }
   ]

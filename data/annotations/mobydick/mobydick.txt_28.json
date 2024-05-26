@@ -1,0 +1,108 @@
+```json
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Narrator",
+      "feels": [
+        {
+          "name": "Fear",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event1",
+            "name": "Being told about the harpooneer selling human heads"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Human heads"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Landlord's inn",
+            "description": "A small room cold as a clam"
+          }
+        },
+        {
+          "name": "Anticipation",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event2",
+            "name": "Being offered to see the harpooneer's room"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Harpooneer's room"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Landlord's inn",
+            "description": "A small room cold as a clam"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Landlord",
+      "feels": [
+        {
+          "name": "Surprise",
+          "hasIntensity": 0.5,
+          "causedBy": {
+            "id": "event3",
+            "name": "Narrator's reaction to the harpooneer's business"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Narrator's reaction"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Landlord's inn",
+            "description": "A small room cold as a clam"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Landlord's inn",
+      "description": "A small room cold as a clam"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Being told about the harpooneer selling human heads",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Being offered to see the harpooneer's room",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Narrator's reaction to the harpooneer's business",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc2"
+      }
+    }
+  ]
+}
+```

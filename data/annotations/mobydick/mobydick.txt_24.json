@@ -1,0 +1,63 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Bulkington",
+      "feels": [
+        {
+          "name": "Interest",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event1",
+            "name": "Being a huge favourite with shipmates"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Shipmates"
+          }
+        },
+        {
+          "name": "Anticipation",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event2",
+            "name": "Becoming a comrade on the sea"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Becoming a comrade"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Room",
+      "description": "Supernaturally quiet after orgies."
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Being a huge favourite with shipmates",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Becoming a comrade on the sea",
+      "takePlaceAt": {
+        "id": "place2"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    }
+  ]
+}

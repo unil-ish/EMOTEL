@@ -1,0 +1,73 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Narrator",
+      "feels": [
+        {
+          "name": "Fear",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "Description of the sea as a foe"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Sea"
+          },
+          "place": {
+            "id": "place1",
+            "name": "On the ship",
+            "description": "Pequod ship"
+          }
+        },
+        {
+          "name": "Joy",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event2",
+            "name": "Impelling keel towards Java"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Java island"
+          },
+          "place": {
+            "id": "place1",
+            "name": "On the ship",
+            "description": "Pequod ship"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "On the ship",
+      "description": "Pequod ship"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Description of the sea as a foe",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Impelling keel towards Java",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    }
+  ]
+}

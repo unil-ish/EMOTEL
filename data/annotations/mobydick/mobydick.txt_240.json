@@ -1,0 +1,91 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Steelkilt",
+      "feels": [
+        {
+          "name": "Trust",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event1",
+            "name": "Being treated with common decency"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Recognition"
+          }
+        },
+        {
+          "name": "Acceptance",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event2",
+            "name": "Being retained harmless and docile"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Treatment"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Radney",
+      "feels": [
+        {
+          "name": "Anger",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event3",
+            "name": "Being doomed and made mad"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Fate"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Nantucket Beach",
+      "description": "A lone beach where Radney may have laid down in his infancy."
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Being treated with common decency",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Being retained harmless and docile",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Being doomed and made mad",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc2"
+      }
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+```json
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Stubb",
+      "feels": [
+        {
+          "name": "Anger",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event1",
+            "name": "Being annoyed by swearing"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Swearing"
+          },
+          "exactPlace": {
+            "id": "place1",
+            "name": "On the ship near the capstan"
+          }
+        },
+        {
+          "name": "Joy",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event2",
+            "name": "Resuming supper"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Supper"
+          },
+          "exactPlace": {
+            "id": "place1",
+            "name": "On the ship near the capstan"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Fleece",
+      "feels": [
+        {
+          "name": "Disgust",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event3",
+            "name": "Witnessing the behavior of the crew"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Crew's behavior"
+          },
+          "exactPlace": {
+            "id": "place1",
+            "name": "On the ship near the capstan"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "On the ship near the capstan",
+      "description": "Aboard the ship, near the capstan."
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Being annoyed by swearing",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Resuming supper",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Witnessing the behavior of the crew",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc2"
+      }
+    }
+  ]
+}
+```

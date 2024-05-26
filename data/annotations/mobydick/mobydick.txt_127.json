@@ -25,7 +25,7 @@
           "hasIntensity": 0.7,
           "causedBy": {
             "id": "event2",
-            "name": "Being approached by the old merman"
+            "name": "Encounter with old merman"
           },
           "hasObject": {
             "id": "object2",
@@ -59,7 +59,7 @@
     {
       "id": "place1",
       "name": "Dream world",
-      "description": "A surreal realm where dreams take place."
+      "description": "A surreal place where dreams take form."
     }
   ],
   "Events": [
@@ -75,7 +75,7 @@
     },
     {
       "id": "event2",
-      "name": "Being approached by the old merman",
+      "name": "Encounter with old merman",
       "takePlaceAt": {
         "id": "place1"
       },

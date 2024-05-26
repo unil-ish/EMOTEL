@@ -25,7 +25,7 @@
           },
           "hasObject": {
             "id": "object2",
-            "name": "Mystical horror"
+            "name": "Horror"
           }
         }
       ]
@@ -36,7 +36,7 @@
     {
       "id": "event1",
       "name": "Whiteness of the whale",
-      "takePlaceAt": {},
+      "takePlaceAt": null,
       "hasParticipant": {
         "id": "fc1"
       }
@@ -44,7 +44,7 @@
     {
       "id": "event2",
       "name": "Mystical horror",
-      "takePlaceAt": {},
+      "takePlaceAt": null,
       "hasParticipant": {
         "id": "fc1"
       }

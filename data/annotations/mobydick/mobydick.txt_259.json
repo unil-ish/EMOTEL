@@ -1,0 +1,142 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Narrator",
+      "feels": [
+        {
+          "name": "Amazement",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "Seeing strange creatures in paintings"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Strange creatures in paintings"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Art Gallery",
+            "description": "Old Galleries"
+          }
+        },
+        {
+          "name": "Disgust",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event2",
+            "name": "Seeing inaccurate depictions of whales"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Inaccurate depictions of whales"
+          },
+          "place": {
+            "id": "place2",
+            "name": "Art Gallery",
+            "description": "Old Galleries"
+          }
+        },
+        {
+          "name": "Interest",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event3",
+            "name": "Reading about whales in books"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Whales in books"
+          },
+          "place": {
+            "id": "place3",
+            "name": "Library",
+            "description": "Reading books"
+          }
+        },
+        {
+          "name": "Amazement",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event4",
+            "name": "Seeing strange depictions of whales"
+          },
+          "hasObject": {
+            "id": "object4",
+            "name": "Strange depictions of whales"
+          },
+          "place": {
+            "id": "place4",
+            "name": "Art Gallery",
+            "description": "Old Galleries"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Art Gallery",
+      "description": "Old Galleries"
+    },
+    {
+      "id": "place2",
+      "name": "Art Gallery",
+      "description": "Old Galleries"
+    },
+    {
+      "id": "place3",
+      "name": "Library",
+      "description": "Reading books"
+    },
+    {
+      "id": "place4",
+      "name": "Art Gallery",
+      "description": "Old Galleries"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Seeing strange creatures in paintings",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Seeing inaccurate depictions of whales",
+      "takePlaceAt": {
+        "id": "place2"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Reading about whales in books",
+      "takePlaceAt": {
+        "id": "place3"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event4",
+      "name": "Seeing strange depictions of whales",
+      "takePlaceAt": {
+        "id": "place4"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    }
+  ]
+}

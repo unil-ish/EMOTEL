@@ -9,7 +9,7 @@
           "hasIntensity": 0.9,
           "causedBy": {
             "id": "event1",
-            "name": "Bulkington's resilience"
+            "name": "Bulkington standing at the helm of the ship"
           },
           "hasObject": {
             "id": "object1",
@@ -21,7 +21,7 @@
           "hasIntensity": 0.7,
           "causedBy": {
             "id": "event2",
-            "name": "Perilous situation"
+            "name": "The storm-tossed ship"
           },
           "hasObject": {
             "id": "object2",
@@ -29,15 +29,69 @@
           }
         },
         {
-          "name": "Optimism",
+          "name": "Amazement",
           "hasIntensity": 0.8,
           "causedBy": {
             "id": "event3",
-            "name": "Apotheosis of Bulkington"
+            "name": "The truth of deep, earnest thinking"
           },
           "hasObject": {
             "id": "object3",
+            "name": "Truth"
+          }
+        },
+        {
+          "name": "Terror",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event4",
+            "name": "Agony of landlessness"
+          },
+          "hasObject": {
+            "id": "object4",
+            "name": "Landlessness"
+          }
+        },
+        {
+          "name": "Optimism",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event5",
+            "name": "Apotheosis of Bulkington"
+          },
+          "hasObject": {
+            "id": "object5",
             "name": "Apotheosis"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Narrator",
+      "feels": [
+        {
+          "name": "Interest",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event6",
+            "name": "Business of whaling"
+          },
+          "hasObject": {
+            "id": "object6",
+            "name": "Whaling"
+          }
+        },
+        {
+          "name": "Disapproval",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event7",
+            "name": "Unpoetical and disreputable perception of whaling"
+          },
+          "hasObject": {
+            "id": "object7",
+            "name": "Perception of whaling"
           }
         }
       ]
@@ -46,14 +100,14 @@
   "Places": [
     {
       "id": "place1",
-      "name": "On the ship Pequod",
-      "description": "In the midst of a stormy sea"
+      "name": "On the ship",
+      "description": "In the midst of a stormy sea."
     }
   ],
   "Events": [
     {
       "id": "event1",
-      "name": "Bulkington's resilience",
+      "name": "Bulkington standing at the helm of the ship",
       "takePlaceAt": {
         "id": "place1"
       },
@@ -63,7 +117,7 @@
     },
     {
       "id": "event2",
-      "name": "Perilous situation",
+      "name": "The storm-tossed ship",
       "takePlaceAt": {
         "id": "place1"
       },
@@ -73,12 +127,52 @@
     },
     {
       "id": "event3",
+      "name": "The truth of deep, earnest thinking",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event4",
+      "name": "Agony of landlessness",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event5",
       "name": "Apotheosis of Bulkington",
       "takePlaceAt": {
         "id": "place1"
       },
       "hasParticipant": {
         "id": "fc1"
+      }
+    },
+    {
+      "id": "event6",
+      "name": "Business of whaling",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc2"
+      }
+    },
+    {
+      "id": "event7",
+      "name": "Unpoetical and disreputable perception of whaling",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc2"
       }
     }
   ]

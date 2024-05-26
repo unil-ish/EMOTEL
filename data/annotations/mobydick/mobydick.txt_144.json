@@ -17,23 +17,25 @@
           },
           "feltAt": {
             "id": "place1",
-            "name": "Deck of the ship"
+            "name": "Cabin",
+            "description": "Inside the ship"
           }
         },
         {
-          "name": "Anger",
+          "name": "Acceptance",
           "hasIntensity": 0.6,
           "causedBy": {
             "id": "event2",
-            "name": "Being denied outward majestical trappings"
+            "name": "Being a poor old whale-hunter"
           },
           "hasObject": {
             "id": "object2",
-            "name": "Outward majestical trappings"
+            "name": "Status"
           },
           "feltAt": {
-            "id": "place1",
-            "name": "Deck of the ship"
+            "id": "place2",
+            "name": "Ship",
+            "description": "On the deck"
           }
         }
       ]
@@ -43,19 +45,18 @@
       "name": "Starbuck",
       "feels": [
         {
-          "name": "Acceptance",
+          "name": "Interest",
           "hasIntensity": 0.5,
           "causedBy": {
             "id": "event3",
-            "name": "Announcement of dinner"
+            "name": "Observing Ahab's behavior"
           },
           "hasObject": {
-            "id": "object1",
-            "name": "Dinner"
+            "id": "object3",
+            "name": "Ahab's behavior"
           },
           "feltAt": {
-            "id": "place1",
-            "name": "Deck of the ship"
+            "id": "place2"
           }
         }
       ]
@@ -69,15 +70,14 @@
           "hasIntensity": 0.4,
           "causedBy": {
             "id": "event4",
-            "name": "Announcement of dinner"
+            "name": "Routine announcement of dinner"
           },
           "hasObject": {
-            "id": "object1",
-            "name": "Dinner"
+            "id": "object4",
+            "name": "Routine"
           },
           "feltAt": {
-            "id": "place1",
-            "name": "Deck of the ship"
+            "id": "place2"
           }
         }
       ]
@@ -91,15 +91,14 @@
           "hasIntensity": 0.6,
           "causedBy": {
             "id": "event5",
-            "name": "Announcement of dinner"
+            "name": "Being the last to be called for dinner"
           },
           "hasObject": {
-            "id": "object1",
-            "name": "Dinner"
+            "id": "object5",
+            "name": "Order of being called"
           },
           "feltAt": {
-            "id": "place1",
-            "name": "Deck of the ship"
+            "id": "place2"
           }
         }
       ]
@@ -108,8 +107,13 @@
   "Places": [
     {
       "id": "place1",
-      "name": "Deck of the ship",
-      "description": "Where the characters are gathered for dinner."
+      "name": "Cabin",
+      "description": "Inside the ship"
+    },
+    {
+      "id": "place2",
+      "name": "Ship",
+      "description": "On the deck"
     }
   ],
   "Events": [
@@ -118,35 +122,60 @@
       "name": "Announcement of dinner",
       "takePlaceAt": {
         "id": "place1"
-      }
+      },
+      "hasParticipant": [
+        {
+          "id": "fc1"
+        }
+      ]
     },
     {
       "id": "event2",
-      "name": "Being denied outward majestical trappings",
+      "name": "Being a poor old whale-hunter",
       "takePlaceAt": {
-        "id": "place1"
-      }
+        "id": "place2"
+      },
+      "hasParticipant": [
+        {
+          "id": "fc1"
+        }
+      ]
     },
     {
       "id": "event3",
-      "name": "Announcement of dinner",
+      "name": "Observing Ahab's behavior",
       "takePlaceAt": {
-        "id": "place1"
-      }
+        "id": "place2"
+      },
+      "hasParticipant": [
+        {
+          "id": "fc2"
+        }
+      ]
     },
     {
       "id": "event4",
-      "name": "Announcement of dinner",
+      "name": "Routine announcement of dinner",
       "takePlaceAt": {
-        "id": "place1"
-      }
+        "id": "place2"
+      },
+      "hasParticipant": [
+        {
+          "id": "fc3"
+        }
+      ]
     },
     {
       "id": "event5",
-      "name": "Announcement of dinner",
+      "name": "Being the last to be called for dinner",
       "takePlaceAt": {
-        "id": "place1"
-      }
+        "id": "place2"
+      },
+      "hasParticipant": [
+        {
+          "id": "fc4"
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,69 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Country Dandy",
+      "feels": [
+        {
+          "name": "Amazement",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event1",
+            "name": "Joining the great whale-fishery"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Great whale-fishery"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Narrator",
+      "feels": [
+        {
+          "name": "Admiration",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event2",
+            "name": "Seeing the houses and gardens in New Bedford"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Houses and gardens in New Bedford"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "New Bedford",
+      "description": "A town with fine maples and beautiful horse-chestnuts."
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Joining the great whale-fishery",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Seeing the houses and gardens in New Bedford",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc2"
+      }
+    }
+  ]
+}

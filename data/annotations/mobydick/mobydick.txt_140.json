@@ -5,23 +5,23 @@
       "name": "Mariner",
       "feels": [
         {
-          "name": "Delight",
+          "name": "Joy",
           "hasIntensity": 0.9,
           "causedBy": {
             "id": "event1",
-            "name": "Seeing the Huzza Porpoise shoals"
+            "name": "Seeing the Huzza Porpoise"
           },
           "hasObject": {
             "id": "object1",
-            "name": "Huzza Porpoise shoals"
+            "name": "Huzza Porpoise"
           }
         },
         {
-          "name": "Fear",
-          "hasIntensity": 0.6,
+          "name": "Surprise",
+          "hasIntensity": 0.7,
           "causedBy": {
             "id": "event2",
-            "name": "Provoking the Algerine Porpoise"
+            "name": "Discovering the Algerine Porpoise"
           },
           "hasObject": {
             "id": "object2",
@@ -30,7 +30,7 @@
         },
         {
           "name": "Disgust",
-          "hasIntensity": 0.7,
+          "hasIntensity": 0.6,
           "causedBy": {
             "id": "event3",
             "name": "Seeing the Mealy-mouthed Porpoise"
@@ -46,14 +46,14 @@
   "Places": [
     {
       "id": "place1",
-      "name": "Broad sea",
-      "description": "A vast expanse of water with no land in sight."
+      "name": "At Sea",
+      "description": "On a ship in the middle of the ocean."
     }
   ],
   "Events": [
     {
       "id": "event1",
-      "name": "Seeing the Huzza Porpoise shoals",
+      "name": "Seeing the Huzza Porpoise",
       "takePlaceAt": {
         "id": "place1"
       },
@@ -63,7 +63,7 @@
     },
     {
       "id": "event2",
-      "name": "Provoking the Algerine Porpoise",
+      "name": "Discovering the Algerine Porpoise",
       "takePlaceAt": {
         "id": "place1"
       },

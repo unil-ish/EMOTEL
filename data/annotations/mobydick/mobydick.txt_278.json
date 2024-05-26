@@ -1,0 +1,141 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Queequeg",
+      "feels": [
+        {
+          "name": "Joy",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event1",
+            "name": "Howling with excitement"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Grenadier's steak"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Stubb",
+      "feels": [
+        {
+          "name": "Anticipation",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event2",
+            "name": "Preparing to harpoon the whale"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Whale"
+          }
+        },
+        {
+          "name": "Fear",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event3",
+            "name": "Feeling the magical line hissing"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Magical line"
+          }
+        },
+        {
+          "name": "Aggressiveness",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event4",
+            "name": "Darting darts into the flying fish"
+          },
+          "hasObject": {
+            "id": "object4",
+            "name": "Flying fish"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc3",
+      "name": "Tashtego",
+      "feels": [
+        {
+          "name": "Fear",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event5",
+            "name": "Rushing through opposing elements"
+          },
+          "hasObject": {
+            "id": "object5",
+            "name": "Opposing elements"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Boat on the sea",
+      "description": "In the midst of the ocean, chasing a whale."
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Howling with excitement",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Preparing to harpoon the whale",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc2"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Feeling the magical line hissing",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc2"
+      }
+    },
+    {
+      "id": "event4",
+      "name": "Darting darts into the flying fish",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc2"
+      }
+    },
+    {
+      "id": "event5",
+      "name": "Rushing through opposing elements",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc3"
+      }
+    }
+  ]
+}

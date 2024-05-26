@@ -1,0 +1,85 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Ahab",
+      "feels": [
+        {
+          "name": "Amazement",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "Seeing the black and hooded head"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Black and hooded head"
+          }
+        },
+        {
+          "name": "Joy",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event2",
+            "name": "Hearing the sail ho cry"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Sail ho cry"
+          }
+        },
+        {
+          "name": "Optimism",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event3",
+            "name": "Setting the signal to see the response of the whale-ship"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Signal"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Main-mast-head",
+      "description": "At the top of the main mast of the ship."
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Seeing the black and hooded head",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Hearing the sail ho cry",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Setting the signal to see the response of the whale-ship",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    }
+  ]
+}

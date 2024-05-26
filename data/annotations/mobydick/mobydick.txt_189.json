@@ -1,0 +1,102 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Narrator",
+      "feels": [
+        {
+          "name": "Fear",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "Mention of the White Sea"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "White Sea"
+          },
+          "feltAt": {
+            "id": "place1",
+            "name": "Imagination"
+          }
+        },
+        {
+          "name": "Sadness",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event2",
+            "name": "Lima's ruins"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Lima's ruins"
+          },
+          "feltAt": {
+            "id": "place2",
+            "name": "Lima"
+          }
+        },
+        {
+          "name": "Fear",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event3",
+            "name": "Whiteness of woe in Lima"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Whiteness of woe"
+          },
+          "feltAt": {
+            "id": "place2",
+            "name": "Lima"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Imagination",
+      "description": "Mind's eye"
+    },
+    {
+      "id": "place2",
+      "name": "Lima",
+      "description": "City of Lima"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Mention of the White Sea",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Lima's ruins",
+      "takePlaceAt": {
+        "id": "place2"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Whiteness of woe in Lima",
+      "takePlaceAt": {
+        "id": "place2"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    }
+  ]
+}

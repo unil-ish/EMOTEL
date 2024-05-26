@@ -1,0 +1,178 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Saint Stylites",
+      "feels": [
+        {
+          "name": "Trust",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "Belief in his mission"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Mission"
+          }
+        },
+        {
+          "name": "Joy",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event2",
+            "name": "Hoisting food with a tackle"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Food"
+          }
+        },
+        {
+          "name": "Acceptance",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event3",
+            "name": "Facing everything out to the last"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Challenges"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Napoleon",
+      "feels": [
+        {
+          "name": "Contempt",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event4",
+            "name": "Indifference to rulers below"
+          },
+          "hasObject": {
+            "id": "object4",
+            "name": "Rulers"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc3",
+      "name": "Admiral Nelson",
+      "feels": [
+        {
+          "name": "Vigilance",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event5",
+            "name": "Being on mast-head in Trafalgar Square"
+          },
+          "hasObject": {
+            "id": "object5",
+            "name": "Surroundings"
+          }
+        },
+        {
+          "name": "Awe",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event6",
+            "name": "Presence in Trafalgar Square"
+          },
+          "hasObject": {
+            "id": "object6",
+            "name": "Trafalgar Square"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Desert",
+      "description": "A remote area with a stone pillar."
+    },
+    {
+      "id": "place2",
+      "name": "Vendome Column",
+      "description": "A tall column in Paris."
+    },
+    {
+      "id": "place3",
+      "name": "Baltimore",
+      "description": "City in Maryland with a towering main-mast."
+    },
+    {
+      "id": "place4",
+      "name": "Trafalgar Square",
+      "description": "Historic square in London."
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Belief in his mission",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Hoisting food with a tackle",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Facing everything out to the last",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event4",
+      "name": "Indifference to rulers below",
+      "takePlaceAt": {
+        "id": "place2"
+      },
+      "hasParticipant": {
+        "id": "fc2"
+      }
+    },
+    {
+      "id": "event5",
+      "name": "Being on mast-head in Trafalgar Square",
+      "takePlaceAt": {
+        "id": "place4"
+      },
+      "hasParticipant": {
+        "id": "fc3"
+      }
+    },
+    {
+      "id": "event6",
+      "name": "Presence in Trafalgar Square",
+      "takePlaceAt": {
+        "id": "place4"
+      },
+      "hasParticipant": {
+        "id": "fc3"
+      }
+    }
+  ]
+}

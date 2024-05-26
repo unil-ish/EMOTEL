@@ -9,16 +9,11 @@
           "hasIntensity": 0.7,
           "causedBy": {
             "id": "event1",
-            "name": "Captain Peleg's aggressive behavior"
+            "name": "Captain Peleg's behavior"
           },
           "hasObject": {
             "id": "object1",
             "name": "Captain Peleg"
-          },
-          "place": {
-            "id": "place1",
-            "name": "On deck",
-            "description": "Near the windlass"
           }
         },
         {
@@ -26,33 +21,11 @@
           "hasIntensity": 0.9,
           "causedBy": {
             "id": "event2",
-            "name": "Captain Peleg's aggressive behavior"
+            "name": "Captain Peleg's actions"
           },
           "hasObject": {
             "id": "object1",
             "name": "Captain Peleg"
-          },
-          "place": {
-            "id": "place1",
-            "name": "On deck",
-            "description": "Near the windlass"
-          }
-        },
-        {
-          "name": "Fear",
-          "hasIntensity": 0.8,
-          "causedBy": {
-            "id": "event3",
-            "name": "Sailing into the wintry ocean"
-          },
-          "hasObject": {
-            "id": "object2",
-            "name": "Wintry ocean"
-          },
-          "place": {
-            "id": "place1",
-            "name": "On deck",
-            "description": "Sailing into the wintry ocean"
           }
         }
       ]
@@ -62,20 +35,15 @@
       "name": "Captain Peleg",
       "feels": [
         {
-          "name": "Aggressiveness",
-          "hasIntensity": 0.95,
+          "name": "Anger",
+          "hasIntensity": 0.8,
           "causedBy": {
-            "id": "event4",
-            "name": "Getting the ship ready to sail"
+            "id": "event3",
+            "name": "Insubordination of crew"
           },
           "hasObject": {
-            "id": "object3",
-            "name": "Ship"
-          },
-          "place": {
-            "id": "place1",
-            "name": "On deck",
-            "description": "Near the windlass"
+            "id": "object2",
+            "name": "Crew"
           }
         }
       ]
@@ -84,14 +52,14 @@
   "Places": [
     {
       "id": "place1",
-      "name": "On deck",
-      "description": "Near the windlass"
+      "name": "On board the Pequod",
+      "description": "Aboard a ship at sea."
     }
   ],
   "Events": [
     {
       "id": "event1",
-      "name": "Captain Peleg's aggressive behavior",
+      "name": "Captain Peleg's behavior",
       "takePlaceAt": {
         "id": "place1"
       },
@@ -101,7 +69,7 @@
     },
     {
       "id": "event2",
-      "name": "Captain Peleg's aggressive behavior",
+      "name": "Captain Peleg's actions",
       "takePlaceAt": {
         "id": "place1"
       },
@@ -111,17 +79,7 @@
     },
     {
       "id": "event3",
-      "name": "Sailing into the wintry ocean",
-      "takePlaceAt": {
-        "id": "place1"
-      },
-      "hasParticipant": {
-        "id": "fc1"
-      }
-    },
-    {
-      "id": "event4",
-      "name": "Getting the ship ready to sail",
+      "name": "Insubordination of crew",
       "takePlaceAt": {
         "id": "place1"
       },

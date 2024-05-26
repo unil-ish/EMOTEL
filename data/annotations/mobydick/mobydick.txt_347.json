@@ -1,0 +1,63 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Old Sag-Harbor Whaleman",
+      "feels": [
+        {
+          "name": "Distrust",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event1",
+            "name": "Reading the Bible with unscientific plates"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Bible with unscientific plates"
+          }
+        },
+        {
+          "name": "Anticipation",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event2",
+            "name": "Considering Bishop Jebb's explanation"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Bishop Jebb's explanation"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Sag-Harbor",
+      "description": "Whaleman's residence"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Reading the Bible with unscientific plates",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Considering Bishop Jebb's explanation",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    }
+  ]
+}

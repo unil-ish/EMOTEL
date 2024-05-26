@@ -1,0 +1,61 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Narrator",
+      "feels": [
+        {
+          "name": "Anticipation",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event1",
+            "name": "Desire to see the true appearance of the whale"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Whale"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Unknown",
+            "description": "Not specified in the text"
+          }
+        },
+        {
+          "name": "Admiration",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event2",
+            "name": "Appreciation of Beale's drawings"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Beale's drawings"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Unknown",
+            "description": "Not specified in the text"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Unknown",
+      "description": "Not specified in the text"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Desire to see the true appearance of the whale"
+    },
+    {
+      "id": "event2",
+      "name": "Appreciation of Beale's drawings"
+    }
+  ]
+}

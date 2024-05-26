@@ -1,0 +1,112 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Captain Bildad",
+      "feels": [
+        {
+          "name": "Trust",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event1",
+            "name": "Parting ways with crew members"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Crew members"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Boat",
+            "description": "In the cold, damp night breeze"
+          }
+        },
+        {
+          "name": "Sadness",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event2",
+            "name": "Parting ways with crew members"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Crew members"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Boat",
+            "description": "In the cold, damp night breeze"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Peleg",
+      "feels": [
+        {
+          "name": "Annoyance",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event3",
+            "name": "Captain Bildad's palavering"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Captain Bildad"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Boat",
+            "description": "In the cold, damp night breeze"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Boat",
+      "description": "In the cold, damp night breeze"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Parting ways with crew members",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": [
+        {
+          "id": "fc1"
+        }
+      ]
+    },
+    {
+      "id": "event2",
+      "name": "Parting ways with crew members",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": [
+        {
+          "id": "fc1"
+        }
+      ]
+    },
+    {
+      "id": "event3",
+      "name": "Captain Bildad's palavering",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": [
+        {
+          "id": "fc2"
+        }
+      ]
+    }
+  ]
+}

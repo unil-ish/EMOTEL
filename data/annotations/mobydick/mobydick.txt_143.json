@@ -17,8 +17,7 @@
           },
           "place": {
             "id": "place1",
-            "name": "On the Pequod ship",
-            "description": "At sea"
+            "name": "On the Pequod"
           }
         },
         {
@@ -26,33 +25,15 @@
           "hasIntensity": 0.6,
           "causedBy": {
             "id": "event2",
-            "name": "Realizing the power of external arts and entrenchments"
+            "name": "Recognizing the power of political centralization"
           },
           "hasObject": {
             "id": "object2",
-            "name": "External arts and entrenchments"
-          },
-          "place": {
-            "id": "place1",
-            "name": "On the Pequod ship",
-            "description": "At sea"
-          }
-        },
-        {
-          "name": "Contempt",
-          "hasIntensity": 0.5,
-          "causedBy": {
-            "id": "event3",
-            "name": "Observing the plebeian herds crouch before centralization"
-          },
-          "hasObject": {
-            "id": "object3",
             "name": "Centralization"
           },
           "place": {
             "id": "place1",
-            "name": "On the Pequod ship",
-            "description": "At sea"
+            "name": "On the Pequod"
           }
         }
       ]
@@ -61,40 +42,18 @@
   "Places": [
     {
       "id": "place1",
-      "name": "On the Pequod ship",
-      "description": "At sea"
+      "name": "On the Pequod",
+      "description": "A whaling ship at sea."
     }
   ],
   "Events": [
     {
       "id": "event1",
-      "name": "Feeling overshadowed by political power",
-      "takePlaceAt": {
-        "id": "place1"
-      },
-      "hasParticipant": {
-        "id": "fc1"
-      }
+      "name": "Feeling overshadowed by political power"
     },
     {
       "id": "event2",
-      "name": "Realizing the power of external arts and entrenchments",
-      "takePlaceAt": {
-        "id": "place1"
-      },
-      "hasParticipant": {
-        "id": "fc1"
-      }
-    },
-    {
-      "id": "event3",
-      "name": "Observing the plebeian herds crouch before centralization",
-      "takePlaceAt": {
-        "id": "place1"
-      },
-      "hasParticipant": {
-        "id": "fc1"
-      }
+      "name": "Recognizing the power of political centralization"
     }
   ]
 }

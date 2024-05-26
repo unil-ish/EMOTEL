@@ -1,4 +1,3 @@
-```json
 {
   "FictionalCharacters": [
     {
@@ -10,33 +9,35 @@
           "hasIntensity": 0.7,
           "causedBy": {
             "id": "event1",
-            "name": "Projecting the draught of a systematization of cetology"
+            "name": "Offering a classification of whales"
           },
           "hasObject": {
             "id": "object1",
-            "name": "Systematization of cetology"
-          },
-          "place": {
-            "id": "place1",
-            "name": "Bottom of the sea",
-            "description": "Among the unspeakable foundations, ribs, and very pelvis of the world"
+            "name": "Classification of whales"
           }
         },
         {
           "name": "Fear",
-          "hasIntensity": 0.9,
+          "hasIntensity": 0.8,
           "causedBy": {
             "id": "event2",
-            "name": "Attempting to hook the nose of the leviathan"
+            "name": "Attempting to describe the various species of whales"
           },
           "hasObject": {
             "id": "object2",
-            "name": "Leviathan"
+            "name": "Various species of whales"
+          }
+        },
+        {
+          "name": "Awe",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event3",
+            "name": "Realizing the enormity of the task"
           },
-          "place": {
-            "id": "place2",
-            "name": "Libraries and oceans",
-            "description": "Swimming through libraries and sailing through oceans"
+          "hasObject": {
+            "id": "object3",
+            "name": "Task of classifying whales"
           }
         }
       ]
@@ -46,23 +47,21 @@
     {
       "id": "place1",
       "name": "Bottom of the sea",
-      "description": "Among the unspeakable foundations, ribs, and very pelvis of the world"
-    },
-    {
-      "id": "place2",
-      "name": "Libraries and oceans",
-      "description": "Swimming through libraries and sailing through oceans"
+      "description": "Among the unspeakable foundations, ribs, and very pelvis of the world."
     }
   ],
   "Events": [
     {
       "id": "event1",
-      "name": "Projecting the draught of a systematization of cetology"
+      "name": "Offering a classification of whales"
     },
     {
       "id": "event2",
-      "name": "Attempting to hook the nose of the leviathan"
+      "name": "Attempting to describe the various species of whales"
+    },
+    {
+      "id": "event3",
+      "name": "Realizing the enormity of the task"
     }
   ]
 }
-```

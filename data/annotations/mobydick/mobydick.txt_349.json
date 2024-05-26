@@ -1,0 +1,129 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Queequeg",
+      "feels": [
+        {
+          "name": "Anticipation",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event1",
+            "name": "Anointing his boat"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Boat"
+          },
+          "feltAt": {
+            "id": "place1",
+            "name": "On the boat"
+          }
+        },
+        {
+          "name": "Fear",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event2",
+            "name": "Whales fleeing"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Whales"
+          },
+          "feltAt": {
+            "id": "place1",
+            "name": "On the boat"
+          }
+        },
+        {
+          "name": "Amazement",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event3",
+            "name": "Pitchpoling"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Pitchpoling"
+          },
+          "feltAt": {
+            "id": "place1",
+            "name": "On the boat"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Tashtego",
+      "feels": [
+        {
+          "name": "Anger",
+          "hasIntensity": 0.5,
+          "causedBy": {
+            "id": "event4",
+            "name": "Struggling to plant iron"
+          },
+          "hasObject": {
+            "id": "object4",
+            "name": "Iron"
+          },
+          "feltAt": {
+            "id": "place1",
+            "name": "On the boat"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Whaling Boat",
+      "description": "A small boat on the sea"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Anointing his boat",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Whales fleeing",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Pitchpoling",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event4",
+      "name": "Struggling to plant iron",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc2"
+      }
+    }
+  ]
+}

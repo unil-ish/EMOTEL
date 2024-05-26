@@ -1,0 +1,112 @@
+```json
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Old Fleece",
+      "feels": [
+        {
+          "name": "Anger",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event1",
+            "name": "Being woken up from his hammock"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Hammock"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Galley",
+            "description": "A small, cramped kitchen area on the ship"
+          }
+        },
+        {
+          "name": "Annoyance",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event2",
+            "name": "Stubb's interference"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Stubb"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Galley"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Stubb",
+      "feels": [
+        {
+          "name": "Amazement",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event3",
+            "name": "Old Fleece's preaching"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Preaching"
+          },
+          "place": {
+            "id": "place2",
+            "name": "Deck",
+            "description": "Open area on the ship's upper level"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Galley",
+      "description": "A small, cramped kitchen area on the ship"
+    },
+    {
+      "id": "place2",
+      "name": "Deck",
+      "description": "Open area on the ship's upper level"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Being woken up from his hammock",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Stubb's interference",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Old Fleece's preaching",
+      "takePlaceAt": {
+        "id": "place2"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    }
+  ]
+}
+```

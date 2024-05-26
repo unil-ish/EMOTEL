@@ -1,0 +1,63 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Narrator",
+      "feels": [
+        {
+          "name": "Disgust",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "Refusing to sleep with the harpooneer"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Harpooneer"
+          }
+        },
+        {
+          "name": "Annoyance",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event2",
+            "name": "Landlord's offer to use a carpenter's plane"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Carpenter's plane"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Inn",
+      "description": "A strange inn in a strange town"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Refusing to sleep with the harpooneer",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Landlord's offer to use a carpenter's plane",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    }
+  ]
+}

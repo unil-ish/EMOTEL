@@ -1,0 +1,135 @@
+```json
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Stubb",
+      "feels": [
+        {
+          "name": "Joy",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event1",
+            "name": "Seeing hogsheads of sperm ahead"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Hogsheads of sperm"
+          },
+          "place": {
+            "id": "place1",
+            "name": "On the boat",
+            "description": "On the deck of the ship"
+          }
+        },
+        {
+          "name": "Anticipation",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event2",
+            "name": "Thinking about the White Whale"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "White Whale"
+          },
+          "place": {
+            "id": "place1",
+            "name": "On the boat",
+            "description": "On the deck of the ship"
+          }
+        },
+        {
+          "name": "Fear",
+          "hasIntensity": 0.4,
+          "causedBy": {
+            "id": "event3",
+            "name": "Realizing the White Whale is involved"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "White Whale"
+          },
+          "place": {
+            "id": "place1",
+            "name": "On the boat",
+            "description": "On the deck of the ship"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Starbuck",
+      "feels": [
+        {
+          "name": "Vigilance",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event4",
+            "name": "Being on alert for any suspicious activity"
+          },
+          "hasObject": {
+            "id": "object4",
+            "name": "Suspicious activity"
+          },
+          "place": {
+            "id": "place1",
+            "name": "On the boat",
+            "description": "On the deck of the ship"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "On the boat",
+      "description": "On the deck of the ship"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Seeing hogsheads of sperm ahead",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Thinking about the White Whale",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Realizing the White Whale is involved",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event4",
+      "name": "Being on alert for any suspicious activity",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc2"
+      }
+    }
+  ]
+}
+```

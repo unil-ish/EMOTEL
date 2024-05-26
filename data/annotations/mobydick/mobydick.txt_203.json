@@ -1,0 +1,54 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Chace",
+      "feels": [
+        {
+          "name": "Fear",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "Encountering the whale"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Whale"
+          },
+          "feltAt": {
+            "id": "place1",
+            "name": "Open boat in the dark ocean"
+          }
+        },
+        {
+          "name": "Despair",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event2",
+            "name": "Almost not reaching any hospitable shore"
+          },
+          "feltAt": {
+            "id": "place1"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Open boat in the dark ocean",
+      "description": "During a black night in an open boat, almost despairing of reaching any hospitable shore."
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Encountering the whale"
+    },
+    {
+      "id": "event2",
+      "name": "Almost not reaching any hospitable shore"
+    }
+  ]
+}

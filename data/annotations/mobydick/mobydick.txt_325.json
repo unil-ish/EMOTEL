@@ -1,0 +1,110 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Narrator",
+      "feels": [
+        {
+          "name": "Amazement",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "Description of the Sperm Whale's anatomy"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Sperm Whale's anatomy"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Description of the Sperm Whale's anatomy",
+            "description": "Throughout the text"
+          }
+        },
+        {
+          "name": "Fear",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event2",
+            "name": "Decapitating the whale"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Decapitated end of the whale's head"
+          },
+          "place": {
+            "id": "place2",
+            "name": "Decapitating the whale",
+            "description": "During the operation"
+          }
+        },
+        {
+          "name": "Awe",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event3",
+            "name": "Tapping the Sperm Whale's Heidelburgh Tun"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Sperm Whale's Heidelburgh Tun"
+          },
+          "place": {
+            "id": "place3",
+            "name": "Tapping the Sperm Whale's Heidelburgh Tun",
+            "description": "During the operation"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Description of the Sperm Whale's anatomy",
+      "description": "Throughout the text"
+    },
+    {
+      "id": "place2",
+      "name": "Decapitating the whale",
+      "description": "During the operation"
+    },
+    {
+      "id": "place3",
+      "name": "Tapping the Sperm Whale's Heidelburgh Tun",
+      "description": "During the operation"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Description of the Sperm Whale's anatomy",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Decapitating the whale",
+      "takePlaceAt": {
+        "id": "place2"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Tapping the Sperm Whale's Heidelburgh Tun",
+      "takePlaceAt": {
+        "id": "place3"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    }
+  ]
+}

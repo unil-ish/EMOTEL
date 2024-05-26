@@ -13,7 +13,7 @@
           },
           "hasObject": {
             "id": "object1",
-            "name": "Cabin"
+            "name": "Cabin companionship"
           }
         },
         {
@@ -25,7 +25,7 @@
           },
           "hasObject": {
             "id": "object2",
-            "name": "World"
+            "name": "Christendom"
           }
         },
         {
@@ -37,7 +37,7 @@
           },
           "hasObject": {
             "id": "object3",
-            "name": "Soul"
+            "name": "Body"
           }
         }
       ]
@@ -46,8 +46,8 @@
   "Places": [
     {
       "id": "place1",
-      "name": "Ship's Cabin",
-      "description": "Ahab's private quarters on the ship."
+      "name": "Ship's cabin",
+      "description": "Ahab's living quarters"
     }
   ],
   "Events": [

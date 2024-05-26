@@ -1,0 +1,123 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Steelkilt",
+      "feels": [
+        {
+          "name": "Anger",
+          "hasIntensity": 1,
+          "causedBy": {
+            "id": "event1",
+            "name": "Being threatened with a hammer"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Hammer"
+          },
+          "feltAt": {
+            "id": "place1",
+            "name": "Deck of the ship"
+          }
+        },
+        {
+          "name": "Fear",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event2",
+            "name": "Witnessing a violent act"
+          },
+          "feltAt": {
+            "id": "place1",
+            "name": "Deck of the ship"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Don Pedro",
+      "feels": [
+        {
+          "name": "Interest",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event3",
+            "name": "Learning about Canallers"
+          },
+          "feltAt": {
+            "id": "place1",
+            "name": "Deck of the ship"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc3",
+      "name": "Don Sebastian",
+      "feels": [
+        {
+          "name": "Amazement",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event4",
+            "name": "Observing the conversation"
+          },
+          "feltAt": {
+            "id": "place1",
+            "name": "Deck of the ship"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Deck of the ship",
+      "description": "Aboard a whaling ship"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Being threatened with a hammer",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Witnessing a violent act",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Learning about Canallers",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc2"
+      }
+    },
+    {
+      "id": "event4",
+      "name": "Observing the conversation",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc3"
+      }
+    }
+  ]
+}

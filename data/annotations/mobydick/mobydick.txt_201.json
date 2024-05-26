@@ -1,0 +1,100 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Narrator",
+      "feels": [
+        {
+          "name": "Admiration",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event1",
+            "name": "Famous whales' renown"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Famous whales"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Ocean",
+            "description": "Vast body of water"
+          }
+        },
+        {
+          "name": "Fear",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event2",
+            "name": "Hunting whales"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Whales"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Ocean",
+            "description": "Vast body of water"
+          }
+        },
+        {
+          "name": "Acceptance",
+          "hasIntensity": 0.5,
+          "causedBy": {
+            "id": "event3",
+            "name": "Establishing the reasonableness of the story"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Whole story of the White Whale"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Ocean",
+            "description": "Vast body of water"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Ocean",
+      "description": "Vast body of water"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Famous whales' renown",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Hunting whales",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Establishing the reasonableness of the story",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    }
+  ]
+}

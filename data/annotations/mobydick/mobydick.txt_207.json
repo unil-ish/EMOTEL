@@ -18,7 +18,7 @@
         },
         {
           "name": "Anger",
-          "hasIntensity": 0.8,
+          "hasIntensity": 0.9,
           "causedBy": {
             "id": "event2",
             "name": "Vindictiveness towards the White Whale"
@@ -27,37 +27,35 @@
             "id": "object2",
             "name": "White Whale"
           }
+        },
+        {
+          "name": "Fear",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event3",
+            "name": "Hypothesis of vindictiveness towards all sperm whales"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Sperm whales"
+          }
         }
       ]
     }
   ],
-  "Places": [
-    {
-      "id": "place1",
-      "name": "The sea",
-      "description": "In the Propontis"
-    }
-  ],
+  "Places": [],
   "Events": [
     {
       "id": "event1",
-      "name": "Realizing other motives for his actions",
-      "takePlaceAt": {
-        "id": "place1"
-      },
-      "hasParticipant": {
-        "id": "fc1"
-      }
+      "name": "Realizing other motives for his actions"
     },
     {
       "id": "event2",
-      "name": "Vindictiveness towards the White Whale",
-      "takePlaceAt": {
-        "id": "place1"
-      },
-      "hasParticipant": {
-        "id": "fc1"
-      }
+      "name": "Vindictiveness towards the White Whale"
+    },
+    {
+      "id": "event3",
+      "name": "Hypothesis of vindictiveness towards all sperm whales"
     }
   ]
 }

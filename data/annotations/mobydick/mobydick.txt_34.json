@@ -1,0 +1,152 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Narrator",
+      "feels": [
+        {
+          "name": "Fear",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "Being threatened with a tomahawk"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Tomahawk"
+          },
+          "feltAt": {
+            "id": "place1",
+            "name": "Unknown room",
+            "description": "Dark room with scattered hot tobacco ashes"
+          }
+        },
+        {
+          "name": "Trust",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event2",
+            "name": "Landlord's reassurance"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Landlord"
+          },
+          "feltAt": {
+            "id": "place1"
+          }
+        },
+        {
+          "name": "Acceptance",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event3",
+            "name": "Realization of common humanity"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Queequeg"
+          },
+          "feltAt": {
+            "id": "place1"
+          }
+        },
+        {
+          "name": "Annoyance",
+          "hasIntensity": 0.5,
+          "causedBy": {
+            "id": "event4",
+            "name": "Queequeg smoking in bed"
+          },
+          "hasObject": {
+            "id": "object4",
+            "name": "Smoking in bed"
+          },
+          "feltAt": {
+            "id": "place1"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Queequeg",
+      "feels": [
+        {
+          "name": "Joy",
+          "hasIntensity": 0.4,
+          "causedBy": {
+            "id": "event5",
+            "name": "Being allowed to sleep peacefully"
+          },
+          "hasObject": {
+            "id": "object5",
+            "name": "Peaceful sleep"
+          },
+          "feltAt": {
+            "id": "place1"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Unknown room",
+      "description": "Dark room with scattered hot tobacco ashes"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Being threatened with a tomahawk",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Landlord's reassurance",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Realization of common humanity",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event4",
+      "name": "Queequeg smoking in bed",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event5",
+      "name": "Being allowed to sleep peacefully",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc2"
+      }
+    }
+  ]
+}

@@ -9,62 +9,35 @@
           "hasIntensity": 0.9,
           "causedBy": {
             "id": "event1",
-            "name": "Encountering the great whale"
+            "name": "Mysterious monster"
           },
           "hasObject": {
             "id": "object1",
             "name": "Great whale"
+          }
+        },
+        {
+          "name": "Anticipation",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event2",
+            "name": "Starting for Cape Horn and the Pacific"
           },
-          "place": {
-            "id": "place1",
-            "name": "Wild and distant seas",
-            "description": "Where the whale rolled his island bulk"
+          "hasObject": {
+            "id": "object2",
+            "name": "Nantucket craft"
           }
         },
         {
           "name": "Joy",
-          "hasIntensity": 0.7,
-          "causedBy": {
-            "id": "event2",
-            "name": "Arriving in New Bedford"
-          },
-          "hasObject": {
-            "id": "object2",
-            "name": "New Bedford"
-          },
-          "place": {
-            "id": "place2",
-            "name": "New Bedford",
-            "description": "A good city"
-          }
-        },
-        {
-          "name": "Disappointment",
           "hasIntensity": 0.6,
           "causedBy": {
             "id": "event3",
-            "name": "Learning the packet for Nantucket had sailed"
+            "name": "Arriving in New Bedford"
           },
           "hasObject": {
             "id": "object3",
-            "name": "Packet for Nantucket"
-          },
-          "place": {
-            "id": "place2",
-            "name": "New Bedford",
-            "description": "A good city"
-          }
-        },
-        {
-          "name": "Pleasure",
-          "hasIntensity": 0.8,
-          "causedBy": {
-            "id": "event4",
-            "name": "Thinking about Nantucket"
-          },
-          "hasObject": {
-            "id": "object4",
-            "name": "Nantucket"
+            "name": "Saturday night in December"
           }
         }
       ]
@@ -73,21 +46,16 @@
   "Places": [
     {
       "id": "place1",
-      "name": "Wild and distant seas",
-      "description": "Where the whale rolled his island bulk"
-    },
-    {
-      "id": "place2",
       "name": "New Bedford",
-      "description": "A good city"
+      "description": "A city where whaling candidates stop to embark on their voyage."
     }
   ],
   "Events": [
     {
       "id": "event1",
-      "name": "Encountering the great whale",
+      "name": "Mysterious monster",
       "takePlaceAt": {
-        "id": "place1"
+        "id": "place2"
       },
       "hasParticipant": {
         "id": "fc1"
@@ -95,9 +63,9 @@
     },
     {
       "id": "event2",
-      "name": "Arriving in New Bedford",
+      "name": "Starting for Cape Horn and the Pacific",
       "takePlaceAt": {
-        "id": "place2"
+        "id": "place3"
       },
       "hasParticipant": {
         "id": "fc1"
@@ -105,17 +73,10 @@
     },
     {
       "id": "event3",
-      "name": "Learning the packet for Nantucket had sailed",
+      "name": "Arriving in New Bedford",
       "takePlaceAt": {
-        "id": "place2"
+        "id": "place1"
       },
-      "hasParticipant": {
-        "id": "fc1"
-      }
-    },
-    {
-      "id": "event4",
-      "name": "Thinking about Nantucket",
       "hasParticipant": {
         "id": "fc1"
       }

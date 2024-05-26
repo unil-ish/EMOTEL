@@ -1,0 +1,127 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Harpooneer",
+      "feels": [
+        {
+          "name": "Fear",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event1",
+            "name": "Hearing the cry to stand up and give it to the whale"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Whale"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Whale-boat",
+            "description": "In the middle of the ocean"
+          }
+        },
+        {
+          "name": "Anger",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event2",
+            "name": "Exhaustion from rowing and shouting"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Exhaustion"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Whale-boat",
+            "description": "In the middle of the ocean"
+          }
+        },
+        {
+          "name": "Disgust",
+          "hasIntensity": 0.5,
+          "causedBy": {
+            "id": "event3",
+            "name": "Foolish and unnecessary practices in the fishery"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Foolish practices"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Whale-boat",
+            "description": "In the middle of the ocean"
+          }
+        },
+        {
+          "name": "Optimism",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event4",
+            "name": "Insight on improving efficiency in the dart"
+          },
+          "hasObject": {
+            "id": "object4",
+            "name": "Efficiency improvement"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Whale-boat",
+            "description": "In the middle of the ocean"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Whale-boat",
+      "description": "In the middle of the ocean"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Hearing the cry to stand up and give it to the whale",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Exhaustion from rowing and shouting",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Foolish and unnecessary practices in the fishery",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event4",
+      "name": "Insight on improving efficiency in the dart",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    }
+  ]
+}

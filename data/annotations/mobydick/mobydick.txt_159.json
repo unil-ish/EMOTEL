@@ -1,0 +1,166 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Ahab",
+      "feels": [
+        {
+          "name": "Anticipation",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "Ordering everyone aft"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Ship's crew"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Ship's deck",
+            "description": "On the deck of the ship"
+          }
+        },
+        {
+          "name": "Fear",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event2",
+            "name": "Summoning the crew"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Storm"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Ship's deck",
+            "description": "On the deck of the ship"
+          }
+        },
+        {
+          "name": "Anger",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event3",
+            "name": "Crying out"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Whale"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Ship's deck",
+            "description": "On the deck of the ship"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Stubb",
+      "feels": [
+        {
+          "name": "Amazement",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event4",
+            "name": "Ahab's behavior"
+          },
+          "hasObject": {
+            "id": "object4",
+            "name": "Ahab"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Ship's deck",
+            "description": "On the deck of the ship"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc3",
+      "name": "Flask",
+      "feels": [
+        {
+          "name": "Confusion",
+          "hasIntensity": 0.5,
+          "causedBy": {
+            "id": "event5",
+            "name": "Ahab's actions"
+          },
+          "hasObject": {
+            "id": "object5",
+            "name": "Ahab"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Ship's deck",
+            "description": "On the deck of the ship"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Ship's deck",
+      "description": "On the deck of the ship"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Ordering everyone aft",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Summoning the crew",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Crying out",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event4",
+      "name": "Ahab's behavior",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc2"
+      }
+    },
+    {
+      "id": "event5",
+      "name": "Ahab's actions",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc3"
+      }
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+```json
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Stubb",
+      "feels": [
+        {
+          "name": "Disgust",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event1",
+            "name": "Having to deal with a foul lard"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Foul lard"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Flask",
+      "feels": [
+        {
+          "name": "Fear",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event2",
+            "name": "Suspicion of Fedallah being the devil"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Fedallah"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "On the Pequod",
+      "description": "On the ship during a battle"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Having to deal with a foul lard",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Suspicion of Fedallah being the devil",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc2"
+      }
+    }
+  ]
+}
+```

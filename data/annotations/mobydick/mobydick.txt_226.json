@@ -1,0 +1,63 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Captain",
+      "feels": [
+        {
+          "name": "Amazement",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event1",
+            "name": "Encountering strange castaway creatures"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Castaway creatures"
+          }
+        },
+        {
+          "name": "Acceptance",
+          "hasIntensity": 0.5,
+          "causedBy": {
+            "id": "event2",
+            "name": "Unsubduable excitement in the forecastle"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Unsubduable excitement"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Whaler Ship",
+      "description": "Floating outlaw of whalers"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Encountering strange castaway creatures",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Unsubduable excitement in the forecastle",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    }
+  ]
+}

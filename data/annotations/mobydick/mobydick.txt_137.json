@@ -1,0 +1,71 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Narrator",
+      "feels": [
+        {
+          "name": "Interest",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event1",
+            "name": "Describing the Grampus"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Grampus"
+          },
+          "feltAt": {
+            "id": "place1",
+            "name": "Book II, Chapter I"
+          }
+        },
+        {
+          "name": "Disgust",
+          "hasIntensity": 0.5,
+          "causedBy": {
+            "id": "event2",
+            "name": "Describing the Hyena Whale"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Hyena Whale"
+          },
+          "feltAt": {
+            "id": "place1",
+            "name": "Book II, Chapter II"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Book",
+      "description": "Description of whales"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Describing the Grampus",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Describing the Hyena Whale",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    }
+  ]
+}

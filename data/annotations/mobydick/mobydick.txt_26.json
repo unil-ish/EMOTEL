@@ -1,0 +1,73 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Narrator",
+      "feels": [
+        {
+          "name": "Anger",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "Landlord's response"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Landlord's statement"
+          },
+          "feltAt": {
+            "id": "place1",
+            "name": "Inn",
+            "description": "A room in the inn"
+          }
+        },
+        {
+          "name": "Rage",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event2",
+            "name": "Landlord's explanation"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Landlord's words"
+          },
+          "feltAt": {
+            "id": "place1",
+            "name": "Inn",
+            "description": "A room in the inn"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Inn",
+      "description": "A room in the inn"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Landlord's response",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Landlord's explanation",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    }
+  ]
+}

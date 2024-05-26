@@ -1,0 +1,125 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Stubb",
+      "feels": [
+        {
+          "name": "Joy",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event1",
+            "name": "Pudding for supper"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Pudding"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Ahab",
+      "feels": [
+        {
+          "name": "Terror",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event2",
+            "name": "Chasing prey"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Prey"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc3",
+      "name": "Oarsmen",
+      "feels": [
+        {
+          "name": "Fear",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event3",
+            "name": "Threatening waves"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Waves"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc4",
+      "name": "Headsmen and Harpooneers",
+      "feels": [
+        {
+          "name": "Thrill",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event4",
+            "name": "Ivory Pequod bearing down"
+          },
+          "hasObject": {
+            "id": "object4",
+            "name": "Ivory Pequod"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Boat on the sea",
+      "description": "In the midst of the vast ocean"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Pudding for supper",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Chasing prey",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc2"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Threatening waves",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc3"
+      }
+    },
+    {
+      "id": "event4",
+      "name": "Ivory Pequod bearing down",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc4"
+      }
+    }
+  ]
+}

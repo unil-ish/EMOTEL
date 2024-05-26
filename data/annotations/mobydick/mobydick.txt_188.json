@@ -2,38 +2,36 @@
   "FictionalCharacters": [
     {
       "id": "fc1",
-      "name": "Narrator",
+      "name": "Man of untutored ideality",
       "feels": [
         {
-          "name": "Anticipation",
+          "name": "Fear",
           "hasIntensity": 0.7,
           "causedBy": {
             "id": "event1",
-            "name": "Mystery of whiteness"
+            "name": "Mention of Whitsuntide"
           },
           "hasObject": {
             "id": "object1",
             "name": "Whitsuntide"
-          },
-          "feltAt": {
-            "id": "place1",
-            "name": "Imagination"
           }
-        },
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Unread, unsophisticated Protestant",
+      "feels": [
         {
           "name": "Fear",
           "hasIntensity": 0.6,
           "causedBy": {
             "id": "event2",
-            "name": "Mention of White Friar or White Nun"
+            "name": "Passing mention of a White Friar or a White Nun"
           },
           "hasObject": {
             "id": "object2",
             "name": "White Friar or White Nun"
-          },
-          "feltAt": {
-            "id": "place1",
-            "name": "Soul"
           }
         }
       ]
@@ -42,18 +40,34 @@
   "Places": [
     {
       "id": "place1",
-      "name": "Imagination",
-      "description": "The realm of creative thought and visualization."
+      "name": "Imaginary",
+      "description": "In the mind of the characters."
     }
   ],
   "Events": [
     {
       "id": "event1",
-      "name": "Mystery of whiteness"
+      "name": "Mention of Whitsuntide",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": [
+        {
+          "id": "fc1"
+        }
+      ]
     },
     {
       "id": "event2",
-      "name": "Mention of White Friar or White Nun"
+      "name": "Passing mention of a White Friar or a White Nun",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": [
+        {
+          "id": "fc2"
+        }
+      ]
     }
   ]
 }

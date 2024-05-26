@@ -5,68 +5,41 @@
       "name": "Narrator",
       "feels": [
         {
-          "name": "Anticipation",
+          "name": "Admiration",
           "hasIntensity": 0.7,
           "causedBy": {
             "id": "event1",
-            "name": "Prospectively ascribing honor and glory to whaling"
+            "name": "Whaling"
           },
           "hasObject": {
             "id": "object1",
-            "name": "Whaling"
-          },
-          "feltAt": {
-            "id": "place1",
-            "name": "Desk",
-            "description": "Where precious MSS. may be found"
+            "name": "Whale-ship"
           }
         },
         {
-          "name": "Disgust",
+          "name": "Contempt",
           "hasIntensity": 0.6,
           "causedBy": {
             "id": "event2",
-            "name": "Contemplating the anointing of a king's head"
+            "name": "Anointing at coronations"
           },
           "hasObject": {
             "id": "object2",
-            "name": "Anointing of hair"
-          }
-        },
-        {
-          "name": "Amazement",
-          "hasIntensity": 0.8,
-          "causedBy": {
-            "id": "event3",
-            "name": "Realizing whalemen supply coronation oil"
-          },
-          "hasObject": {
-            "id": "object3",
-            "name": "Coronation oil"
+            "name": "Hair-oil"
           }
         }
       ]
     }
   ],
-  "Places": [
-    {
-      "id": "place1",
-      "name": "Desk",
-      "description": "Where precious MSS. may be found"
-    }
-  ],
+  "Places": [],
   "Events": [
     {
       "id": "event1",
-      "name": "Prospectively ascribing honor and glory to whaling"
+      "name": "Whaling"
     },
     {
       "id": "event2",
-      "name": "Contemplating the anointing of a king's head"
-    },
-    {
-      "id": "event3",
-      "name": "Realizing whalemen supply coronation oil"
+      "name": "Anointing at coronations"
     }
   ]
 }

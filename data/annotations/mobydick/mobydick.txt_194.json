@@ -1,0 +1,91 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Lieutenant Maury",
+      "feels": [
+        {
+          "name": "Joy",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "Official circular confirming completion of chart"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Official circular"
+          }
+        },
+        {
+          "name": "Amazement",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event2",
+            "name": "Whales' precise navigation"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Whales' navigation"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Ahab",
+      "feels": [
+        {
+          "name": "Anticipation",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event3",
+            "name": "Prospect of meeting migrating whales"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Migrating whales"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "National Observatory, Washington",
+      "description": "Location where official circular was issued"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Official circular confirming completion of chart",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Whales' precise navigation",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Prospect of meeting migrating whales",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc2"
+      }
+    }
+  ]
+}

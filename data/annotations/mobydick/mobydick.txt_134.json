@@ -14,11 +14,6 @@
           "hasObject": {
             "id": "object1",
             "name": "Fin-Back whale"
-          },
-          "feltAt": {
-            "id": "place1",
-            "name": "Sea",
-            "description": "Vast and open waters"
           }
         },
         {
@@ -26,16 +21,23 @@
           "hasIntensity": 0.7,
           "causedBy": {
             "id": "event2",
-            "name": "Describing the Fin-Back whale as solitary and powerful"
+            "name": "Describing the Fin-Back whale's power and velocity"
           },
           "hasObject": {
             "id": "object2",
             "name": "Fin-Back whale"
+          }
+        },
+        {
+          "name": "Loathing",
+          "hasIntensity": 0.5,
+          "causedBy": {
+            "id": "event3",
+            "name": "Describing the Fin-Back whale as a whale-hater"
           },
-          "feltAt": {
-            "id": "place2",
-            "name": "Remote waters",
-            "description": "Sullen and isolated"
+          "hasObject": {
+            "id": "object3",
+            "name": "Fin-Back whale"
           }
         }
       ]
@@ -45,12 +47,7 @@
     {
       "id": "place1",
       "name": "Sea",
-      "description": "Vast and open waters"
-    },
-    {
-      "id": "place2",
-      "name": "Remote waters",
-      "description": "Sullen and isolated"
+      "description": "Vast and sullen waters"
     }
   ],
   "Events": [
@@ -66,9 +63,19 @@
     },
     {
       "id": "event2",
-      "name": "Describing the Fin-Back whale as solitary and powerful",
+      "name": "Describing the Fin-Back whale's power and velocity",
       "takePlaceAt": {
-        "id": "place2"
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Describing the Fin-Back whale as a whale-hater",
+      "takePlaceAt": {
+        "id": "place1"
       },
       "hasParticipant": {
         "id": "fc1"

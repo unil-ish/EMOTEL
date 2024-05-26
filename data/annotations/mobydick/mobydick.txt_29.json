@@ -1,0 +1,92 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Narrator",
+      "feels": [
+        {
+          "name": "Confusion",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event1",
+            "name": "Encountering the mysterious door mat"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Door mat"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Unknown room",
+            "description": "A room with minimal furniture"
+          }
+        },
+        {
+          "name": "Fear",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event2",
+            "name": "Feeling cold and alone"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Unknown room",
+            "description": "A room with minimal furniture"
+          }
+        },
+        {
+          "name": "Acceptance",
+          "hasIntensity": 0.5,
+          "causedBy": {
+            "id": "event3",
+            "name": "Commending oneself to the care of heaven"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Unknown room",
+            "description": "A room with minimal furniture"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Unknown room",
+      "description": "A room with minimal furniture"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Encountering the mysterious door mat",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Feeling cold and alone",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Commending oneself to the care of heaven",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    }
+  ]
+}

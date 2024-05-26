@@ -1,0 +1,148 @@
+```json
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Ship's Company",
+      "feels": [
+        {
+          "name": "Amazement",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event1",
+            "name": "Arrival of strangers"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Strangers"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Ship's Deck"
+          }
+        },
+        {
+          "name": "Fear",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event2",
+            "name": "Whales settling down"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Whales"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Ship's Deck"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Ahab",
+      "feels": [
+        {
+          "name": "Anticipation",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event3",
+            "name": "Chasing the White Whale"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "White Whale"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Ship's Deck"
+          }
+        },
+        {
+          "name": "Aggressiveness",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event4",
+            "name": "Managing the steering oar"
+          },
+          "hasObject": {
+            "id": "object4",
+            "name": "Steering oar"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Ship's Deck"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc3",
+      "name": "Starbuck",
+      "feels": [
+        {
+          "name": "Vigilance",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event5",
+            "name": "Balancing on the boat"
+          },
+          "hasObject": {
+            "id": "object5",
+            "name": "Boat"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Ship's Deck"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Ship's Deck",
+      "description": "On the deck of the ship during a whale chase."
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Arrival of strangers",
+      "takePlaceAt": {
+        "id": "place1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Whales settling down",
+      "takePlaceAt": {
+        "id": "place1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Chasing the White Whale",
+      "takePlaceAt": {
+        "id": "place1"
+      }
+    },
+    {
+      "id": "event4",
+      "name": "Managing the steering oar",
+      "takePlaceAt": {
+        "id": "place1"
+      }
+    },
+    {
+      "id": "event5",
+      "name": "Balancing on the boat",
+      "takePlaceAt": {
+        "id": "place1"
+      }
+    }
+  ]
+}
+```

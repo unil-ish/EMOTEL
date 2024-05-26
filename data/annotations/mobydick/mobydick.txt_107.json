@@ -19,7 +19,7 @@
           "place": {
             "id": "place1",
             "name": "World",
-            "description": "Global impact"
+            "description": "Whole broad world"
           }
         },
         {
@@ -31,29 +31,58 @@
           },
           "hasObject": {
             "id": "object2",
-            "name": "Whalemen"
+            "name": "Liberation"
           },
           "place": {
-            "id": "place1",
-            "name": "World",
-            "description": "Global impact"
+            "id": "place2",
+            "name": "Spanish provinces on the Pacific coast",
+            "description": "Opulent Spanish provinces"
           }
         },
         {
-          "name": "Optimism",
+          "name": "Joy",
           "hasIntensity": 0.6,
           "causedBy": {
             "id": "event3",
-            "name": "Whale-ship's role in establishing colonies"
+            "name": "Establishment of Australia"
           },
           "hasObject": {
             "id": "object3",
-            "name": "Whale-ship"
+            "name": "Australia"
           },
           "place": {
-            "id": "place1",
-            "name": "World",
-            "description": "Global impact"
+            "id": "place3",
+            "name": "Australia",
+            "description": "First Australian settlement"
+          }
+        },
+        {
+          "name": "Admiration",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event4",
+            "name": "Impact of whaling on Japan"
+          },
+          "hasObject": {
+            "id": "object4",
+            "name": "Whaling"
+          },
+          "place": {
+            "id": "place4",
+            "name": "Japan",
+            "description": "Double-bolted land"
+          }
+        },
+        {
+          "name": "Aggressiveness",
+          "hasIntensity": 0.5,
+          "causedBy": {
+            "id": "event5",
+            "name": "Defending the noble associations of whaling"
+          },
+          "hasObject": {
+            "id": "object5",
+            "name": "Whaling"
           }
         }
       ]
@@ -63,7 +92,22 @@
     {
       "id": "place1",
       "name": "World",
-      "description": "Global impact"
+      "description": "Whole broad world"
+    },
+    {
+      "id": "place2",
+      "name": "Spanish provinces on the Pacific coast",
+      "description": "Opulent Spanish provinces"
+    },
+    {
+      "id": "place3",
+      "name": "Australia",
+      "description": "First Australian settlement"
+    },
+    {
+      "id": "place4",
+      "name": "Japan",
+      "description": "Double-bolted land"
     }
   ],
   "Events": [
@@ -81,7 +125,7 @@
       "id": "event2",
       "name": "Liberation of Peru, Chili, and Bolivia",
       "takePlaceAt": {
-        "id": "place1"
+        "id": "place2"
       },
       "hasParticipant": {
         "id": "fc1"
@@ -89,10 +133,27 @@
     },
     {
       "id": "event3",
-      "name": "Whale-ship's role in establishing colonies",
+      "name": "Establishment of Australia",
       "takePlaceAt": {
-        "id": "place1"
+        "id": "place3"
       },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event4",
+      "name": "Impact of whaling on Japan",
+      "takePlaceAt": {
+        "id": "place4"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event5",
+      "name": "Defending the noble associations of whaling",
       "hasParticipant": {
         "id": "fc1"
       }

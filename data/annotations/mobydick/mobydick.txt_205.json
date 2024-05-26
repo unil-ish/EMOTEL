@@ -1,0 +1,151 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Captain D’Wolf",
+      "feels": [
+        {
+          "name": "Trust",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event1",
+            "name": "Being a sea-captain"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Experience"
+          },
+          "feltAt": {
+            "id": "place1",
+            "name": "Dorchester village near Boston"
+          }
+        },
+        {
+          "name": "Surprise",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event2",
+            "name": "Feeling a terrible shock on the ship"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Earthquake or unseen whale"
+          },
+          "feltAt": {
+            "id": "place2",
+            "name": "Ship at sea"
+          }
+        },
+        {
+          "name": "Fear",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event2",
+            "name": "Feeling a terrible shock on the ship"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Earthquake or unseen whale"
+          },
+          "feltAt": {
+            "id": "place2",
+            "name": "Ship at sea"
+          }
+        },
+        {
+          "name": "Amazement",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event2",
+            "name": "Feeling a terrible shock on the ship"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Earthquake or unseen whale"
+          },
+          "feltAt": {
+            "id": "place2",
+            "name": "Ship at sea"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Lionel",
+      "feels": [
+        {
+          "name": "Fear",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event2",
+            "name": "Feeling a terrible shock on the ship"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Earthquake or unseen whale"
+          },
+          "feltAt": {
+            "id": "place2",
+            "name": "Ship at sea"
+          }
+        },
+        {
+          "name": "Amazement",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event2",
+            "name": "Feeling a terrible shock on the ship"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Earthquake or unseen whale"
+          },
+          "feltAt": {
+            "id": "place2",
+            "name": "Ship at sea"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Dorchester village near Boston",
+      "description": "Residence of Captain D’Wolf"
+    },
+    {
+      "id": "place2",
+      "name": "Ship at sea",
+      "description": "Location of the ship where the shock was felt"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Being a sea-captain",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Feeling a terrible shock on the ship",
+      "takePlaceAt": {
+        "id": "place2"
+      },
+      "hasParticipant": [
+        {
+          "id": "fc1"
+        },
+        {
+          "id": "fc2"
+        }
+      ]
+    }
+  ]
+}

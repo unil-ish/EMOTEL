@@ -1,0 +1,106 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Ahab",
+      "feels": [
+        {
+          "name": "Fear",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event1",
+            "name": "Feeling like going down into one's tomb"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Scuttle"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Cabin",
+            "description": "Narrow scuttle leading to his grave-dug berth"
+          }
+        },
+        {
+          "name": "Annoyance",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event2",
+            "name": "Being spoken to in a scornful way"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Stubb"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Cabin",
+            "description": "Narrow scuttle leading to his grave-dug berth"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Stubb",
+      "feels": [
+        {
+          "name": "Surprise",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event3",
+            "name": "Unforseen concluding exclamation of Ahab"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Ahab"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Cabin",
+            "description": "Narrow scuttle leading to Ahab's grave-dug berth"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Cabin",
+      "description": "Narrow scuttle leading to Ahab's grave-dug berth"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Feeling like going down into one's tomb",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Being spoken to in a scornful way",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Unforseen concluding exclamation of Ahab",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc2"
+      }
+    }
+  ]
+}

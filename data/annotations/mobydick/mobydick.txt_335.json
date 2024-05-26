@@ -1,0 +1,139 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Ahab",
+      "feels": [
+        {
+          "name": "Anger",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "German's ignorance of the White Whale"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "White Whale"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Deck",
+            "description": "On the ship"
+          }
+        },
+        {
+          "name": "Surprise",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event2",
+            "name": "Whales being raised"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Whales"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Deck",
+            "description": "On the ship"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Derick",
+      "feels": [
+        {
+          "name": "Anticipation",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event3",
+            "name": "Eager for the chase"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Chase"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Deck",
+            "description": "On the ship"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc3",
+      "name": "Stubb",
+      "feels": [
+        {
+          "name": "Amazement",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event4",
+            "name": "Whale's behavior"
+          },
+          "hasObject": {
+            "id": "object4",
+            "name": "Whale"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Deck",
+            "description": "On the ship"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Deck",
+      "description": "On the ship"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "German's ignorance of the White Whale",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Whales being raised",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Eager for the chase",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc2"
+      }
+    },
+    {
+      "id": "event4",
+      "name": "Whale's behavior",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc3"
+      }
+    }
+  ]
+}

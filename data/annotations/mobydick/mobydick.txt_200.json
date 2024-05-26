@@ -1,0 +1,133 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Narrator",
+      "feels": [
+        {
+          "name": "Trust",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event1",
+            "name": "Knowing the truth of instances"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Instances"
+          },
+          "feltAt": {
+            "id": "place1",
+            "name": "Narrator's boat",
+            "description": "In the middle of the ocean"
+          }
+        },
+        {
+          "name": "Surprise",
+          "hasIntensity": 0.4,
+          "causedBy": {
+            "id": "event2",
+            "name": "Discovering popularly cognisable whales"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Popularly cognisable whales"
+          },
+          "feltAt": {
+            "id": "place1",
+            "name": "Narrator's boat",
+            "description": "In the middle of the ocean"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Fishermen",
+      "feels": [
+        {
+          "name": "Fear",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event3",
+            "name": "Terrible prestige of perilousness about whales"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Whales"
+          },
+          "feltAt": {
+            "id": "place1",
+            "name": "Sea",
+            "description": "In the middle of the ocean"
+          }
+        },
+        {
+          "name": "Disgust",
+          "hasIntensity": 0.5,
+          "causedBy": {
+            "id": "event4",
+            "name": "Boiling whales down into oil"
+          },
+          "hasObject": {
+            "id": "object4",
+            "name": "Boiled whale oil"
+          },
+          "feltAt": {
+            "id": "place1",
+            "name": "Sea",
+            "description": "In the middle of the ocean"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Narrator's boat",
+      "description": "In the middle of the ocean"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Knowing the truth of instances",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Discovering popularly cognisable whales",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Terrible prestige of perilousness about whales",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc2"
+      }
+    },
+    {
+      "id": "event4",
+      "name": "Boiling whales down into oil",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc2"
+      }
+    }
+  ]
+}

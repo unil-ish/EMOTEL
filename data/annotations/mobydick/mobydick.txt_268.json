@@ -1,0 +1,100 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Narrator",
+      "feels": [
+        {
+          "name": "Fear",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "Describing the sea creatures"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Sea creatures"
+          },
+          "place": {
+            "id": "place1",
+            "name": "At sea",
+            "description": "On a ship in the ocean"
+          }
+        },
+        {
+          "name": "Disgust",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event2",
+            "name": "Describing the sea as an insult and murderer"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "The sea"
+          },
+          "place": {
+            "id": "place1",
+            "name": "At sea",
+            "description": "On a ship in the ocean"
+          }
+        },
+        {
+          "name": "Fear",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event3",
+            "name": "Describing the power of the ocean"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "The ocean"
+          },
+          "place": {
+            "id": "place1",
+            "name": "At sea",
+            "description": "On a ship in the ocean"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "At sea",
+      "description": "On a ship in the ocean"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Describing the sea creatures",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Describing the sea as an insult and murderer",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Describing the power of the ocean",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    }
+  ]
+}

@@ -13,8 +13,9 @@
           },
           "hasObject": {
             "id": "object1",
-            "name": "Unknown elemental force"
-          }
+            "name": "Unknown force at sea"
+          },
+          "exactPlace": "On the ship"
         },
         {
           "name": "Acceptance",
@@ -26,7 +27,8 @@
           "hasObject": {
             "id": "object2",
             "name": "Birth-mark"
-          }
+          },
+          "exactPlace": "On the ship"
         }
       ]
     },
@@ -39,12 +41,13 @@
           "hasIntensity": 0.6,
           "causedBy": {
             "id": "event3",
-            "name": "Assertion by old Gay-Head Indian"
+            "name": "Old Gay-Head Indian's assertion"
           },
           "hasObject": {
             "id": "object3",
-            "name": "Superstition"
-          }
+            "name": "Superstitious belief"
+          },
+          "exactPlace": "On the ship"
         }
       ]
     },
@@ -62,7 +65,8 @@
           "hasObject": {
             "id": "object4",
             "name": "Old sea-traditions"
-          }
+          },
+          "exactPlace": "On the ship"
         }
       ]
     }
@@ -70,8 +74,8 @@
   "Places": [
     {
       "id": "place1",
-      "name": "Onboard ship",
-      "description": "At sea"
+      "name": "On the ship",
+      "description": "Ahab's ship at sea"
     }
   ],
   "Events": [
@@ -80,6 +84,9 @@
       "name": "Elemental strife at sea",
       "takePlaceAt": {
         "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
       }
     },
     {
@@ -87,13 +94,19 @@
       "name": "Being branded",
       "takePlaceAt": {
         "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
       }
     },
     {
       "id": "event3",
-      "name": "Assertion by old Gay-Head Indian",
+      "name": "Old Gay-Head Indian's assertion",
       "takePlaceAt": {
         "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc2"
       }
     },
     {
@@ -101,6 +114,9 @@
       "name": "Preternatural powers of discernment",
       "takePlaceAt": {
         "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc3"
       }
     }
   ]

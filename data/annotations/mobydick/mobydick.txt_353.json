@@ -1,0 +1,73 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Narrator",
+      "feels": [
+        {
+          "name": "Contempt",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event1",
+            "name": "Observing the Sperm Whale's lack of olfactories"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Sperm Whale"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Sea",
+            "description": "In the vast ocean"
+          }
+        },
+        {
+          "name": "Boredom",
+          "hasIntensity": 0.4,
+          "causedBy": {
+            "id": "event2",
+            "name": "Realizing the lack of profound communication from whales"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Whales"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Sea",
+            "description": "In the vast ocean"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Sea",
+      "description": "In the vast ocean"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Observing the Sperm Whale's lack of olfactories",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Realizing the lack of profound communication from whales",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    }
+  ]
+}

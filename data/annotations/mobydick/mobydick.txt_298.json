@@ -1,0 +1,63 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Narrator",
+      "feels": [
+        {
+          "name": "Admiration",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "Describing the whale"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Whale"
+          }
+        },
+        {
+          "name": "Sadness",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event2",
+            "name": "Funeral of the whale"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Whale"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Sea",
+      "description": "In the vast ocean."
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Describing the whale",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Funeral of the whale",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    }
+  ]
+}

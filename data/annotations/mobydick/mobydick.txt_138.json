@@ -1,0 +1,102 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Charley Coffin",
+      "feels": [
+        {
+          "name": "Amazement",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event1",
+            "name": "Describing the Narwhale's horn"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Narwhale's horn"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Sir Martin Frobisher",
+      "feels": [
+        {
+          "name": "Admiration",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event2",
+            "name": "Presenting the Narwhale's horn to Queen Bess"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Narwhale's horn"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc3",
+      "name": "Earl of Leicester",
+      "feels": [
+        {
+          "name": "Submission",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event3",
+            "name": "Presenting the unicorn horn to Queen Bess"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Unicorn horn"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Greenwich Palace",
+      "description": "Where Queen Bess waved to Sir Martin Frobisher"
+    },
+    {
+      "id": "place2",
+      "name": "Windsor Castle",
+      "description": "Where the Narwhale's horn was hung"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Describing the Narwhale's horn",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Presenting the Narwhale's horn to Queen Bess",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc2"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Presenting the unicorn horn to Queen Bess",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc3"
+      }
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Ahab",
+      "feels": [
+        {
+          "name": "Anticipation",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event1",
+            "name": "Meeting a stranger captain"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Stranger captain"
+          },
+          "feltAt": {
+            "id": "place1",
+            "name": "Whaling vessel"
+          }
+        },
+        {
+          "name": "Trust",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event2",
+            "name": "Interchanging hails with another whaling vessel"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Another whaling vessel"
+          },
+          "feltAt": {
+            "id": "place1",
+            "name": "Whaling vessel"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Whaling vessel",
+      "description": "At sea, off lone Fanning’s Island or the far away King’s Mills."
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Meeting a stranger captain",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Interchanging hails with another whaling vessel",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    }
+  ]
+}

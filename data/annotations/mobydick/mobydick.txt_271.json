@@ -1,0 +1,85 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Starbuck",
+      "feels": [
+        {
+          "name": "Fear",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "Seeing the great live squid"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Great live squid"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Flask",
+      "feels": [
+        {
+          "name": "Surprise",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event1",
+            "name": "Learning about the great live squid"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Great live squid"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc3",
+      "name": "Ahab",
+      "feels": [
+        {
+          "name": "Loathing",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event1",
+            "name": "Encountering the great live squid"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Great live squid"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "On the water",
+      "description": "In the middle of the ocean."
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Encountering the great live squid",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": [
+        {
+          "id": "fc1"
+        },
+        {
+          "id": "fc2"
+        },
+        {
+          "id": "fc3"
+        }
+      ]
+    }
+  ]
+}

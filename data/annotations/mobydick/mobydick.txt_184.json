@@ -1,0 +1,127 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Narrator",
+      "feels": [
+        {
+          "name": "Fear",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "Description of white bear and white shark"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "White bear and white shark"
+          },
+          "feltAt": {
+            "id": "place1",
+            "name": "Unknown location",
+            "description": "Not specified in the text"
+          }
+        },
+        {
+          "name": "Loathing",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event2",
+            "name": "Description of white bear and white shark"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "White bear and white shark"
+          },
+          "feltAt": {
+            "id": "place1",
+            "name": "Unknown location",
+            "description": "Not specified in the text"
+          }
+        },
+        {
+          "name": "Terror",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event3",
+            "name": "Description of white bear and white shark"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "White bear and white shark"
+          },
+          "feltAt": {
+            "id": "place1",
+            "name": "Unknown location",
+            "description": "Not specified in the text"
+          }
+        },
+        {
+          "name": "Disgust",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event4",
+            "name": "Description of white bear and white shark"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "White bear and white shark"
+          },
+          "feltAt": {
+            "id": "place1",
+            "name": "Unknown location",
+            "description": "Not specified in the text"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Unknown location",
+      "description": "Not specified in the text"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Description of white bear and white shark",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Description of white bear and white shark",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Description of white bear and white shark",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event4",
+      "name": "Description of white bear and white shark",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    }
+  ]
+}

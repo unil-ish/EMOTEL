@@ -1,0 +1,85 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Daggoo",
+      "feels": [
+        {
+          "name": "Joy",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "Rescue of Tashtego"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Rescue"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Queequeg",
+      "feels": [
+        {
+          "name": "Joy",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event1",
+            "name": "Rescue of Tashtego"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Rescue"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc3",
+      "name": "Tashtego",
+      "feels": [
+        {
+          "name": "Fear",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event1",
+            "name": "Rescue by Queequeg"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Rescue"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Deck of the ship",
+      "description": "On the ship's deck after the rescue."
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Rescue of Tashtego",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": [
+        {
+          "id": "fc1"
+        },
+        {
+          "id": "fc2"
+        },
+        {
+          "id": "fc3"
+        }
+      ]
+    }
+  ]
+}

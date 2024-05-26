@@ -1,0 +1,63 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Whaleman",
+      "feels": [
+        {
+          "name": "Joy",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event1",
+            "name": "Replenishing lamps at the try-works"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Oil"
+          }
+        },
+        {
+          "name": "Anticipation",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event2",
+            "name": "Hunting for oil"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Oil"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Try-works",
+      "description": "Where the whaleman replenishes lamps with oil."
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Replenishing lamps at the try-works",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Hunting for oil",
+      "takePlaceAt": {
+        "id": "place2"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    }
+  ]
+}

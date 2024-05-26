@@ -15,9 +15,9 @@
             "id": "object1",
             "name": "Sailors"
           },
-          "place": {
+          "feltAt": {
             "id": "place1",
-            "name": "On the quarter-deck"
+            "name": "Quarter-deck"
           }
         },
         {
@@ -31,9 +31,9 @@
             "id": "object2",
             "name": "Setting sail"
           },
-          "place": {
+          "feltAt": {
             "id": "place1",
-            "name": "On the quarter-deck"
+            "name": "Quarter-deck"
           }
         }
       ]
@@ -47,37 +47,15 @@
           "hasIntensity": 0.6,
           "causedBy": {
             "id": "event3",
-            "name": "Being told to do the bidding"
+            "name": "Being asked to do bidding"
           },
           "hasObject": {
             "id": "object3",
-            "name": "Doing the bidding"
+            "name": "Doing bidding"
           },
-          "place": {
+          "feltAt": {
             "id": "place1",
-            "name": "On the quarter-deck"
-          }
-        }
-      ]
-    },
-    {
-      "id": "fc3",
-      "name": "Captain Ahab",
-      "feels": [
-        {
-          "name": "Fear",
-          "hasIntensity": 0.8,
-          "causedBy": {
-            "id": "event4",
-            "name": "Not being seen"
-          },
-          "hasObject": {
-            "id": "object4",
-            "name": "Being unseen"
-          },
-          "place": {
-            "id": "place1",
-            "name": "In the cabin"
+            "name": "Quarter-deck"
           }
         }
       ]
@@ -87,7 +65,7 @@
     {
       "id": "place1",
       "name": "Quarter-deck",
-      "description": "The main deck of the ship where the captains are giving orders."
+      "description": "On the ship, just before setting sail."
     }
   ],
   "Events": [
@@ -96,6 +74,9 @@
       "name": "Sailors lingering at the main-mast",
       "takePlaceAt": {
         "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
       }
     },
     {
@@ -103,20 +84,19 @@
       "name": "Preparing to set sail",
       "takePlaceAt": {
         "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
       }
     },
     {
       "id": "event3",
-      "name": "Being told to do the bidding",
+      "name": "Being asked to do bidding",
       "takePlaceAt": {
         "id": "place1"
-      }
-    },
-    {
-      "id": "event4",
-      "name": "Not being seen",
-      "takePlaceAt": {
-        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc2"
       }
     }
   ]

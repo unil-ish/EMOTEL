@@ -5,8 +5,8 @@
       "name": "Ishmael",
       "feels": [
         {
-          "name": "Joy",
-          "hasIntensity": 0.6,
+          "name": "Interest",
+          "hasIntensity": 0.9,
           "causedBy": {
             "id": "event1",
             "name": "Sailing to see the watery part of the world"
@@ -18,7 +18,7 @@
         },
         {
           "name": "Surprise",
-          "hasIntensity": 0.4,
+          "hasIntensity": 0.7,
           "causedBy": {
             "id": "event2",
             "name": "Seeing crowds of water-gazers"
@@ -29,15 +29,39 @@
           }
         },
         {
-          "name": "Interest",
-          "hasIntensity": 0.7,
+          "name": "Joy",
+          "hasIntensity": 0.6,
           "causedBy": {
             "id": "event3",
-            "name": "Observing people pacing straight for the water"
+            "name": "Being surrounded by water"
           },
           "hasObject": {
             "id": "object3",
-            "name": "People pacing for the water"
+            "name": "Water"
+          }
+        },
+        {
+          "name": "Anticipation",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event4",
+            "name": "Seeing crowds pacing straight for the water"
+          },
+          "hasObject": {
+            "id": "object4",
+            "name": "Water"
+          }
+        },
+        {
+          "name": "Interest",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event5",
+            "name": "Magnetic virtue of the needles of the compasses"
+          },
+          "hasObject": {
+            "id": "object5",
+            "name": "Needles of the compasses"
           }
         }
       ]
@@ -47,12 +71,12 @@
     {
       "id": "place1",
       "name": "Watery part of the world",
-      "description": "Vast ocean"
+      "description": "Ocean"
     },
     {
       "id": "place2",
-      "name": "City of the Manhattoes",
-      "description": "Surrounded by wharves"
+      "name": "City streets",
+      "description": "Manhattan"
     }
   ],
   "Events": [
@@ -78,7 +102,27 @@
     },
     {
       "id": "event3",
-      "name": "Observing people pacing straight for the water",
+      "name": "Being surrounded by water",
+      "takePlaceAt": {
+        "id": "place2"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event4",
+      "name": "Seeing crowds pacing straight for the water",
+      "takePlaceAt": {
+        "id": "place2"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event5",
+      "name": "Magnetic virtue of the needles of the compasses",
       "takePlaceAt": {
         "id": "place2"
       },

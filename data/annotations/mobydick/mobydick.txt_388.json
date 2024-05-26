@@ -1,0 +1,107 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Narrator",
+      "feels": [
+        {
+          "name": "Surprise",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event1",
+            "name": "Discovering the origin of the savor"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Whaling ships"
+          }
+        },
+        {
+          "name": "Disgust",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event2",
+            "name": "Unloading whale cemeteries"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Whale cemeteries"
+          }
+        },
+        {
+          "name": "Amazement",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event3",
+            "name": "Realizing the lack of odor in South Sea Sperm Whaler oil"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Sperm Whale oil"
+          }
+        },
+        {
+          "name": "Admiration",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event4",
+            "name": "Comparing Sperm Whale to a fragrant elephant"
+          },
+          "hasObject": {
+            "id": "object4",
+            "name": "Sperm Whale"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Greenland dock",
+      "description": "A place where whale cemeteries are unloaded."
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Discovering the origin of the savor",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Unloading whale cemeteries",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Realizing the lack of odor in South Sea Sperm Whaler oil",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event4",
+      "name": "Comparing Sperm Whale to a fragrant elephant",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    }
+  ]
+}

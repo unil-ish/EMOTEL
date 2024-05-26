@@ -1,0 +1,74 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Porter",
+      "feels": [
+        {
+          "name": "Trust",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event1",
+            "name": "Sleepiness"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Anvil-headed whale"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Traveller",
+      "feels": [
+        {
+          "name": "Anticipation",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event2",
+            "name": "Catching passing glimpses of whales"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Profiles of whales"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Old gable-roofed country houses",
+      "description": "Houses with brass whales hung by the tail for knockers."
+    },
+    {
+      "id": "place2",
+      "name": "Mountainous countries",
+      "description": "Countries with amphitheatrical heights."
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Sleepiness",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Catching passing glimpses of whales",
+      "takePlaceAt": {
+        "id": "place2"
+      },
+      "hasParticipant": {
+        "id": "fc2"
+      }
+    }
+  ]
+}

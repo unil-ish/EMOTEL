@@ -1,0 +1,63 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Narrator",
+      "feels": [
+        {
+          "name": "Interest",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "Stumbling upon an ancient Dutch volume"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Ancient Dutch volume"
+          }
+        },
+        {
+          "name": "Joy",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event2",
+            "name": "Reading about good gin and good cheer"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Good gin and good cheer"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Whale ship",
+      "description": "Aboard a whale ship"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Stumbling upon an ancient Dutch volume",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Reading about good gin and good cheer",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    }
+  ]
+}

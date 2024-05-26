@@ -43,27 +43,10 @@
           "hasIntensity": 0.6,
           "causedBy": {
             "id": "event3",
-            "name": "Flask not helping himself"
+            "name": "Flask not helping himself to butter"
           },
           "hasObject": {
             "id": "object3",
-            "name": "Flask"
-          },
-          "place": {
-            "id": "place1",
-            "name": "Dining Hall",
-            "description": "Over his ivory-inlaid table"
-          }
-        },
-        {
-          "name": "Disapproval",
-          "hasIntensity": 0.4,
-          "causedBy": {
-            "id": "event4",
-            "name": "Flask being a butterless man"
-          },
-          "hasObject": {
-            "id": "object4",
             "name": "Butter"
           },
           "place": {
@@ -80,7 +63,7 @@
       "feels": [
         {
           "name": "Relief",
-          "hasIntensity": 0.6,
+          "hasIntensity": 0.8,
           "causedBy": {
             "id": "event2",
             "name": "Rat making a sudden racket"
@@ -105,12 +88,12 @@
           "name": "Fear",
           "hasIntensity": 0.4,
           "causedBy": {
-            "id": "event5",
-            "name": "Possibility of being caught helping himself"
+            "id": "event4",
+            "name": "Potential consequences of helping himself to butter"
           },
           "hasObject": {
             "id": "object3",
-            "name": "Helping himself"
+            "name": "Butter"
           },
           "place": {
             "id": "place1",
@@ -122,11 +105,11 @@
           "name": "Loathing",
           "hasIntensity": 0.3,
           "causedBy": {
-            "id": "event4",
+            "id": "event5",
             "name": "Being a butterless man"
           },
           "hasObject": {
-            "id": "object4",
+            "id": "object3",
             "name": "Butter"
           },
           "place": {
@@ -162,13 +145,18 @@
       "takePlaceAt": {
         "id": "place1"
       },
-      "hasParticipant": {
-        "id": "fc1"
-      }
+      "hasParticipant": [
+        {
+          "id": "fc1"
+        },
+        {
+          "id": "fc2"
+        }
+      ]
     },
     {
       "id": "event3",
-      "name": "Flask not helping himself",
+      "name": "Flask not helping himself to butter",
       "takePlaceAt": {
         "id": "place1"
       },
@@ -178,17 +166,17 @@
     },
     {
       "id": "event4",
-      "name": "Flask being a butterless man",
+      "name": "Potential consequences of helping himself to butter",
       "takePlaceAt": {
         "id": "place1"
       },
       "hasParticipant": {
-        "id": "fc1"
+        "id": "fc3"
       }
     },
     {
       "id": "event5",
-      "name": "Possibility of being caught helping himself",
+      "name": "Being a butterless man",
       "takePlaceAt": {
         "id": "place1"
       },

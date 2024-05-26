@@ -1,0 +1,79 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Ahab",
+      "feels": [
+        {
+          "name": "Anger",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "Stubb's defiance"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Stubb"
+          }
+        },
+        {
+          "name": "Fear",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event2",
+            "name": "Ahab's overbearing terrors"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Ahab"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Stubb",
+      "feels": [
+        {
+          "name": "Defiance",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event3",
+            "name": "Ahab's threats"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Ahab"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Stubb's defiance",
+      "takePlaceAt": null,
+      "hasParticipant": {
+        "id": "fc2"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Ahab's overbearing terrors",
+      "takePlaceAt": null,
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Ahab's threats",
+      "takePlaceAt": null,
+      "hasParticipant": {
+        "id": "fc2"
+      }
+    }
+  ]
+}

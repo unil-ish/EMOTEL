@@ -1,0 +1,98 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Starbuck",
+      "feels": [
+        {
+          "name": "Fear",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "Terrible old man sleeping in the gale"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Old man"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Cabin",
+            "description": "Below deck"
+          }
+        },
+        {
+          "name": "Amazement",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event2",
+            "name": "Sighting the Goney (Albatross)"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Goney (Albatross)"
+          },
+          "place": {
+            "id": "place2",
+            "name": "Fore-mast-head",
+            "description": "Lofty perch"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Look-outs",
+      "feels": [
+        {
+          "name": "Acceptance",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event3",
+            "name": "Surviving nearly four years of cruising"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Survival"
+          },
+          "place": {
+            "id": "place3",
+            "name": "Mast-heads",
+            "description": "Iron hoops nailed to the mast"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Cabin",
+      "description": "Below deck"
+    },
+    {
+      "id": "place2",
+      "name": "Fore-mast-head",
+      "description": "Lofty perch"
+    },
+    {
+      "id": "place3",
+      "name": "Mast-heads",
+      "description": "Iron hoops nailed to the mast"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Terrible old man sleeping in the gale"
+    },
+    {
+      "id": "event2",
+      "name": "Sighting the Goney (Albatross)"
+    },
+    {
+      "id": "event3",
+      "name": "Surviving nearly four years of cruising"
+    }
+  ]
+}

@@ -54,6 +54,23 @@
             "name": "Cape Horn",
             "description": "Location where the Razor Back whale is seen"
           }
+        },
+        {
+          "name": "Disgust",
+          "hasIntensity": 0.4,
+          "causedBy": {
+            "id": "event4",
+            "name": "Description of the Sulphur Bottom whale"
+          },
+          "hasObject": {
+            "id": "object4",
+            "name": "Sulphur Bottom whale"
+          },
+          "place": {
+            "id": "place4",
+            "name": "Southern seas",
+            "description": "Remoter southern seas where the Sulphur Bottom whale is seen"
+          }
         }
       ]
     }
@@ -73,6 +90,11 @@
       "id": "place3",
       "name": "Cape Horn",
       "description": "Location where the Razor Back whale is seen"
+    },
+    {
+      "id": "place4",
+      "name": "Southern seas",
+      "description": "Remoter southern seas where the Sulphur Bottom whale is seen"
     }
   ],
   "Events": [
@@ -101,6 +123,16 @@
       "name": "Description of the Razor Back whale",
       "takePlaceAt": {
         "id": "place3"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event4",
+      "name": "Description of the Sulphur Bottom whale",
+      "takePlaceAt": {
+        "id": "place4"
       },
       "hasParticipant": {
         "id": "fc1"

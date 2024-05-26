@@ -1,0 +1,139 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Stubb",
+      "feels": [
+        {
+          "name": "Disgust",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event1",
+            "name": "Eating cooked whales"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Cooked whale meat"
+          },
+          "placeWhereFelt": {
+            "id": "place1",
+            "name": "Dining Hall"
+          }
+        },
+        {
+          "name": "Joy",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event2",
+            "name": "Making a good supper"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Good supper"
+          },
+          "placeWhereFelt": {
+            "id": "place2",
+            "name": "Ship's Galley"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Epicures",
+      "feels": [
+        {
+          "name": "Disapproval",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event3",
+            "name": "Continually dining on calves' brains"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Calves' brains"
+          },
+          "placeWhereFelt": {
+            "id": "place3",
+            "name": "Fine Dining Restaurant"
+          }
+        },
+        {
+          "name": "Sadness",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event4",
+            "name": "Seeing a calf's head"
+          },
+          "hasObject": {
+            "id": "object4",
+            "name": "Calf's head"
+          },
+          "placeWhereFelt": {
+            "id": "place3",
+            "name": "Fine Dining Restaurant"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Dining Hall",
+      "description": "A large room with tables and chairs for dining."
+    },
+    {
+      "id": "place2",
+      "name": "Ship's Galley",
+      "description": "The kitchen area on a ship where food is prepared."
+    },
+    {
+      "id": "place3",
+      "name": "Fine Dining Restaurant",
+      "description": "An upscale establishment known for gourmet cuisine."
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Eating cooked whales",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Making a good supper",
+      "takePlaceAt": {
+        "id": "place2"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Continually dining on calves' brains",
+      "takePlaceAt": {
+        "id": "place3"
+      },
+      "hasParticipant": {
+        "id": "fc2"
+      }
+    },
+    {
+      "id": "event4",
+      "name": "Seeing a calf's head",
+      "takePlaceAt": {
+        "id": "place3"
+      },
+      "hasParticipant": {
+        "id": "fc2"
+      }
+    }
+  ]
+}

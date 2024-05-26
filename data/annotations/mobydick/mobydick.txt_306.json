@@ -1,0 +1,111 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Ahab",
+      "feels": [
+        {
+          "name": "Anger",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "Reading the letter about Mr. Harry Macey's death"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Letter"
+          }
+        },
+        {
+          "name": "Fear",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event2",
+            "name": "Mutinous boat drifting away"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Boat"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Mayhew",
+      "feels": [
+        {
+          "name": "Sadness",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event3",
+            "name": "Learning about Mr. Harry Macey's death"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Death news"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc3",
+      "name": "Gabriel",
+      "feels": [
+        {
+          "name": "Anticipation",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event4",
+            "name": "Receiving the letter from Ahab"
+          },
+          "hasObject": {
+            "id": "object4",
+            "name": "Letter"
+          }
+        },
+        {
+          "name": "Fear",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event5",
+            "name": "Boat drifting away"
+          },
+          "hasObject": {
+            "id": "object5",
+            "name": "Boat"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Pequod Ship",
+      "description": "Whale-ship in the ocean."
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Reading the letter about Mr. Harry Macey's death"
+    },
+    {
+      "id": "event2",
+      "name": "Mutinous boat drifting away"
+    },
+    {
+      "id": "event3",
+      "name": "Learning about Mr. Harry Macey's death"
+    },
+    {
+      "id": "event4",
+      "name": "Receiving the letter from Ahab"
+    },
+    {
+      "id": "event5",
+      "name": "Boat drifting away"
+    }
+  ]
+}

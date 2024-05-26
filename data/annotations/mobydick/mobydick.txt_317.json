@@ -1,0 +1,45 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Narrator",
+      "feels": [
+        {
+          "name": "Curiosity",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event1",
+            "name": "Puzzling question about the whale's eyes"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Whale's eyes"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Narrator's mind"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Narrator's mind",
+      "description": "Internal space where the narrator's thoughts occur."
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Puzzling question about the whale's eyes",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    }
+  ]
+}

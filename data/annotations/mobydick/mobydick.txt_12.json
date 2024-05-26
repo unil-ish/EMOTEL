@@ -9,7 +9,7 @@
           "hasIntensity": 0.9,
           "causedBy": {
             "id": "event1",
-            "name": "Sperm Whale close to the head of the boat"
+            "name": "Sperm Whale threatening boat"
           },
           "hasObject": {
             "id": "object1",
@@ -20,7 +20,7 @@
     },
     {
       "id": "fc2",
-      "name": "Whale Killer",
+      "name": "Harpooneer",
       "feels": [
         {
           "name": "Joy",
@@ -47,13 +47,15 @@
   "Events": [
     {
       "id": "event1",
-      "name": "Sperm Whale close to the head of the boat",
+      "name": "Sperm Whale threatening boat",
       "takePlaceAt": {
         "id": "place1"
       },
-      "hasParticipant": {
-        "id": "fc1"
-      }
+      "hasParticipant": [
+        {
+          "id": "fc1"
+        }
+      ]
     },
     {
       "id": "event2",
@@ -61,9 +63,11 @@
       "takePlaceAt": {
         "id": "place1"
       },
-      "hasParticipant": {
-        "id": "fc2"
-      }
+      "hasParticipant": [
+        {
+          "id": "fc2"
+        }
+      ]
     }
   ]
 }

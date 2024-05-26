@@ -1,0 +1,63 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Ahab",
+      "feels": [
+        {
+          "name": "Fear",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "Entering a whale-boat in the hunt"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Whale-boat"
+          }
+        },
+        {
+          "name": "Anticipation",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event2",
+            "name": "Pursuit of whales under great difficulties"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Whales"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Whale-boat",
+      "description": "A small boat used in the hunt for whales."
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Entering a whale-boat in the hunt",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Pursuit of whales under great difficulties",
+      "takePlaceAt": {
+        "id": "place2"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Narrator",
+      "feels": [
+        {
+          "name": "Trust",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event1",
+            "name": "Detailing the concentrations of potency in the whale"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Sperm Whale"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Unknown",
+            "description": "Not specified in the text."
+          }
+        },
+        {
+          "name": "Surprise",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event2",
+            "name": "Baling of the Case"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Internal structure of the Sperm Whale's head"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Unknown",
+            "description": "Not specified in the text."
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Unknown",
+      "description": "Not specified in the text."
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Detailing the concentrations of potency in the whale"
+    },
+    {
+      "id": "event2",
+      "name": "Baling of the Case"
+    }
+  ]
+}

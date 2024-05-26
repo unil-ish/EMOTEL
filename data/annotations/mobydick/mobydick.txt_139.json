@@ -5,19 +5,19 @@
       "name": "Narrator",
       "feels": [
         {
-          "name": "Interest",
+          "name": "Admiration",
           "hasIntensity": 0.7,
           "causedBy": {
             "id": "event1",
-            "name": "Describing the Narwhale"
+            "name": "Description of the Narwhale"
           },
           "hasObject": {
             "id": "object1",
             "name": "Narwhale"
           },
-          "feltAt": {
+          "place": {
             "id": "place1",
-            "name": "Narrator's Mind"
+            "name": "Circumpolar seas"
           }
         },
         {
@@ -25,47 +25,15 @@
           "hasIntensity": 0.5,
           "causedBy": {
             "id": "event2",
-            "name": "Realizing the Killer whale is savage"
+            "name": "Classification of smaller whales as Duodecimoes"
           },
           "hasObject": {
             "id": "object2",
-            "name": "Killer whale"
-          },
-          "feltAt": {
-            "id": "place1",
-            "name": "Narrator's Mind"
-          }
-        },
-        {
-          "name": "Disgust",
-          "hasIntensity": 0.4,
-          "causedBy": {
-            "id": "event3",
-            "name": "Describing the Thrasher's behavior"
-          },
-          "hasObject": {
-            "id": "object3",
-            "name": "Thrasher"
-          },
-          "feltAt": {
-            "id": "place1",
-            "name": "Narrator's Mind"
-          }
-        },
-        {
-          "name": "Amazement",
-          "hasIntensity": 0.8,
-          "causedBy": {
-            "id": "event4",
-            "name": "Realizing the Duodecimoes are considered whales"
-          },
-          "hasObject": {
-            "id": "object4",
             "name": "Duodecimoes"
           },
-          "feltAt": {
+          "place": {
             "id": "place1",
-            "name": "Narrator's Mind"
+            "name": "Circumpolar seas"
           }
         }
       ]
@@ -74,14 +42,14 @@
   "Places": [
     {
       "id": "place1",
-      "name": "Narrator's Mind",
-      "description": "The internal thoughts and reflections of the narrator."
+      "name": "Circumpolar seas",
+      "description": "Cold and remote seas near the poles."
     }
   ],
   "Events": [
     {
       "id": "event1",
-      "name": "Describing the Narwhale",
+      "name": "Description of the Narwhale",
       "takePlaceAt": {
         "id": "place1"
       },
@@ -91,27 +59,7 @@
     },
     {
       "id": "event2",
-      "name": "Realizing the Killer whale is savage",
-      "takePlaceAt": {
-        "id": "place1"
-      },
-      "hasParticipant": {
-        "id": "fc1"
-      }
-    },
-    {
-      "id": "event3",
-      "name": "Describing the Thrasher's behavior",
-      "takePlaceAt": {
-        "id": "place1"
-      },
-      "hasParticipant": {
-        "id": "fc1"
-      }
-    },
-    {
-      "id": "event4",
-      "name": "Realizing the Duodecimoes are considered whales",
+      "name": "Classification of smaller whales as Duodecimoes",
       "takePlaceAt": {
         "id": "place1"
       },

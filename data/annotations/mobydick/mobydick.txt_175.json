@@ -1,0 +1,83 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Fishermen",
+      "feels": [
+        {
+          "name": "Fear",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "Rumors and portents concerning Moby Dick"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Moby Dick"
+          }
+        },
+        {
+          "name": "Anticipation",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event2",
+            "name": "Chasing Moby Dick"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Moby Dick"
+          }
+        },
+        {
+          "name": "Amazement",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event3",
+            "name": "Encountering Moby Dick in opposite latitudes"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Moby Dick"
+          }
+        },
+        {
+          "name": "Vigilance",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event4",
+            "name": "Secrets of the currents in the seas"
+          },
+          "hasObject": {
+            "id": "object4",
+            "name": "Sperm Whale"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Sea",
+      "description": "Beneath the surface of the ocean."
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Rumors and portents concerning Moby Dick"
+    },
+    {
+      "id": "event2",
+      "name": "Chasing Moby Dick"
+    },
+    {
+      "id": "event3",
+      "name": "Encountering Moby Dick in opposite latitudes"
+    },
+    {
+      "id": "event4",
+      "name": "Secrets of the currents in the seas"
+    }
+  ]
+}

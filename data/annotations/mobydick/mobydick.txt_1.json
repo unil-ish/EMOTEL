@@ -9,15 +9,15 @@
           "hasIntensity": 0.9,
           "causedBy": {
             "id": "event1",
-            "name": "Encountering Moby Dick"
+            "name": "Moby Dick destroying his boat"
           },
           "hasObject": {
             "id": "object1",
-            "name": "Moby Dick"
+            "name": "Boat"
           },
-          "place": {
+          "feltAt": {
             "id": "place1",
-            "name": "Deck of the Pequod"
+            "name": "Ahab's boat"
           }
         },
         {
@@ -25,15 +25,31 @@
           "hasIntensity": 0.7,
           "causedBy": {
             "id": "event2",
-            "name": "Approaching storm"
+            "name": "Encountering Moby Dick"
           },
           "hasObject": {
             "id": "object2",
-            "name": "Storm"
+            "name": "Moby Dick"
           },
-          "place": {
+          "feltAt": {
             "id": "place2",
             "name": "Open sea"
+          }
+        },
+        {
+          "name": "Grief",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event3",
+            "name": "Death of a crew member"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Crew member"
+          },
+          "feltAt": {
+            "id": "place3",
+            "name": "On deck"
           }
         }
       ]
@@ -44,17 +60,17 @@
       "feels": [
         {
           "name": "Joy",
-          "hasIntensity": 0.8,
+          "hasIntensity": 0.6,
           "causedBy": {
-            "id": "event3",
+            "id": "event4",
             "name": "Killing a whale"
           },
           "hasObject": {
-            "id": "object3",
+            "id": "object4",
             "name": "Whale"
           },
-          "place": {
-            "id": "place3",
+          "feltAt": {
+            "id": "place4",
             "name": "Whaling boat"
           }
         }
@@ -64,16 +80,21 @@
   "Places": [
     {
       "id": "place1",
-      "name": "Deck of the Pequod",
-      "description": "On the ship where Ahab commands the crew."
+      "name": "Ahab's boat",
+      "description": "In the middle of the ocean."
     },
     {
       "id": "place2",
       "name": "Open sea",
-      "description": "Vast expanse of water where the Pequod sails."
+      "description": "Vast expanse of water."
     },
     {
       "id": "place3",
+      "name": "On deck",
+      "description": "Top of the ship."
+    },
+    {
+      "id": "place4",
       "name": "Whaling boat",
       "description": "Small boat used for hunting whales."
     }
@@ -81,7 +102,7 @@
   "Events": [
     {
       "id": "event1",
-      "name": "Encountering Moby Dick",
+      "name": "Moby Dick destroying his boat",
       "takePlaceAt": {
         "id": "place1"
       },
@@ -91,7 +112,7 @@
     },
     {
       "id": "event2",
-      "name": "Approaching storm",
+      "name": "Encountering Moby Dick",
       "takePlaceAt": {
         "id": "place2"
       },
@@ -101,9 +122,19 @@
     },
     {
       "id": "event3",
-      "name": "Killing a whale",
+      "name": "Death of a crew member",
       "takePlaceAt": {
         "id": "place3"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event4",
+      "name": "Killing a whale",
+      "takePlaceAt": {
+        "id": "place4"
       },
       "hasParticipant": {
         "id": "fc2"

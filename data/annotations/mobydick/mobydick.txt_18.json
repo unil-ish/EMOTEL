@@ -1,0 +1,73 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Ishmael",
+      "feels": [
+        {
+          "name": "Fear",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event1",
+            "name": "Dark and dismal night"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Night"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Dreary street",
+            "description": "A dark and deserted street"
+          }
+        },
+        {
+          "name": "Anxiety",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event2",
+            "name": "Uncertainty of lodging"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Lodging"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Dreary street",
+            "description": "A dark and deserted street"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Dreary street",
+      "description": "A dark and deserted street"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Dark and dismal night",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Uncertainty of lodging",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    }
+  ]
+}

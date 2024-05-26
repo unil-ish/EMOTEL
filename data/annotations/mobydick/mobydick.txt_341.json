@@ -1,0 +1,129 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Flask",
+      "feels": [
+        {
+          "name": "Anger",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "Whale darting at the craft"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Whale"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Boat"
+          }
+        },
+        {
+          "name": "Fear",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event2",
+            "name": "Whale spouting thick blood"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Whale"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Boat"
+          }
+        },
+        {
+          "name": "Sadness",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event3",
+            "name": "Whale dying"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Whale"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Boat"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Starbuck",
+      "feels": [
+        {
+          "name": "Pity",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event4",
+            "name": "Whale's suffering"
+          },
+          "hasObject": {
+            "id": "object4",
+            "name": "Whale"
+          },
+          "place": {
+            "id": "place1",
+            "name": "Boat"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Boat",
+      "description": "On the sea next to the sinking whale."
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Whale darting at the craft",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Whale spouting thick blood",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Whale dying",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event4",
+      "name": "Whale's suffering",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc2"
+      }
+    }
+  ]
+}

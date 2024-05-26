@@ -1,0 +1,75 @@
+```json
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Narrator",
+      "feels": [
+        {
+          "name": "Disgust",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "Eating whale meat"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Whale meat"
+          },
+          "feltAt": {
+            "id": "place1",
+            "name": "Meat-market",
+            "description": "A crowded place with rows of dead quadrupeds"
+          }
+        },
+        {
+          "name": "Loathing",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event2",
+            "name": "Feasting on bloated livers"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Bloated livers"
+          },
+          "feltAt": {
+            "id": "place1",
+            "name": "Meat-market",
+            "description": "A crowded place with rows of dead quadrupeds"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Meat-market",
+      "description": "A crowded place with rows of dead quadrupeds"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Eating whale meat",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Feasting on bloated livers",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    }
+  ]
+}
+```

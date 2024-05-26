@@ -1,0 +1,91 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Archy",
+      "feels": [
+        {
+          "name": "Anticipation",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event1",
+            "name": "Hearing a noise under the hatches"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Noise"
+          }
+        },
+        {
+          "name": "Fear",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event2",
+            "name": "Suspecting someone unseen in the after-hold"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Unseen person"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Cabaco",
+      "feels": [
+        {
+          "name": "Annoyance",
+          "hasIntensity": 0.5,
+          "causedBy": {
+            "id": "event3",
+            "name": "Archy's repeated comments"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Archy's comments"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Middle-watch on the ship",
+      "description": "Fair moonlight, seamen standing in a cordon."
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Hearing a noise under the hatches",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Suspecting someone unseen in the after-hold",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Archy's repeated comments",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc2"
+      }
+    }
+  ]
+}

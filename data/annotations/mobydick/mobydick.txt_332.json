@@ -1,0 +1,63 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Ishmael",
+      "feels": [
+        {
+          "name": "Amazement",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "Observing the Sperm Whale's greatness"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Sperm Whale"
+          }
+        },
+        {
+          "name": "Interest",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event2",
+            "name": "Thinking about the Sperm Whale's brain"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Sperm Whale's brain"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Unknown Location",
+      "description": "A place where Ishmael is contemplating the greatness of the Sperm Whale."
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Observing the Sperm Whale's greatness",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Thinking about the Sperm Whale's brain",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    }
+  ]
+}

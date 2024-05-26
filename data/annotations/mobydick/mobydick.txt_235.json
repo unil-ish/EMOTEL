@@ -1,0 +1,75 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Whaler Captain",
+      "feels": [
+        {
+          "name": "Trust",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event1",
+            "name": "Gam meeting"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Another Whaleship"
+          }
+        },
+        {
+          "name": "Surprise",
+          "hasIntensity": 0.5,
+          "causedBy": {
+            "id": "event2",
+            "name": "Learning about the concept of Gam"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Gam"
+          }
+        },
+        {
+          "name": "Joy",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event1",
+            "name": "Gam meeting"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Another Whaleship"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Whaleship at Sea",
+      "description": "In the middle of the ocean during a Gam meeting."
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Gam meeting",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Learning about the concept of Gam",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    }
+  ]
+}

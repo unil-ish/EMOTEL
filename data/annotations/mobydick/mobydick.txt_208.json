@@ -33,7 +33,7 @@
           "hasIntensity": 0.5,
           "causedBy": {
             "id": "event3",
-            "name": "Being coerced by Ahab"
+            "name": "Ahab's leadership"
           },
           "hasObject": {
             "id": "object3",
@@ -59,15 +59,27 @@
           }
         },
         {
-          "name": "Rage",
+          "name": "Fear",
           "hasIntensity": 0.9,
           "causedBy": {
-            "id": "event5",
-            "name": "Starbuck's rebellion"
+            "id": "event4",
+            "name": "Hunt for Moby Dick"
           },
           "hasObject": {
-            "id": "object3",
-            "name": "Starbuck"
+            "id": "object2",
+            "name": "Moby Dick"
+          }
+        },
+        {
+          "name": "Aggressiveness",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event4",
+            "name": "Hunt for Moby Dick"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Moby Dick"
           }
         }
       ]
@@ -76,8 +88,8 @@
   "Places": [
     {
       "id": "place1",
-      "name": "On the ship",
-      "description": "In the captain's quarters."
+      "name": "Ship",
+      "description": "In the middle of the ocean."
     }
   ],
   "Events": [
@@ -103,7 +115,7 @@
     },
     {
       "id": "event3",
-      "name": "Being coerced by Ahab",
+      "name": "Ahab's leadership",
       "takePlaceAt": {
         "id": "place1"
       },
@@ -117,19 +129,14 @@
       "takePlaceAt": {
         "id": "place1"
       },
-      "hasParticipant": {
-        "id": "fc2"
-      }
-    },
-    {
-      "id": "event5",
-      "name": "Starbuck's rebellion",
-      "takePlaceAt": {
-        "id": "place1"
-      },
-      "hasParticipant": {
-        "id": "fc2"
-      }
+      "hasParticipant": [
+        {
+          "id": "fc1"
+        },
+        {
+          "id": "fc2"
+        }
+      ]
     }
   ]
 }

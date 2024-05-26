@@ -15,15 +15,15 @@
             "id": "object1",
             "name": "Pipe"
           },
-          "feltAt": {
+          "place": {
             "id": "place1",
             "name": "Deck",
             "description": "On the weather side of the deck"
           }
         },
         {
-          "name": "Disgust",
-          "hasIntensity": 0.4,
+          "name": "Loathing",
+          "hasIntensity": 0.7,
           "causedBy": {
             "id": "event2",
             "name": "Tossing the pipe into the sea"
@@ -32,7 +32,7 @@
             "id": "object2",
             "name": "Pipe"
           },
-          "feltAt": {
+          "place": {
             "id": "place1",
             "name": "Deck",
             "description": "On the weather side of the deck"

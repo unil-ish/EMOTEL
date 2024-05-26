@@ -1,0 +1,89 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Starbuck",
+      "feels": [
+        {
+          "name": "Joy",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event1",
+            "name": "Enchanted acquiescence of the mate"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Enchanted acquiescence"
+          }
+        },
+        {
+          "name": "Fear",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event2",
+            "name": "Presaging vibrations of the winds"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Winds"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Ahab",
+      "feels": [
+        {
+          "name": "Anticipation",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event3",
+            "name": "Ordering harpooneers to produce weapons"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Weapons"
+          }
+        },
+        {
+          "name": "Anger",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event4",
+            "name": "Eyes meeting his crew's eyes"
+          },
+          "hasObject": {
+            "id": "object4",
+            "name": "Crew's eyes"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Ship's deck",
+      "description": "Near the capstan with the crew forming a circle."
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Enchanted acquiescence of the mate"
+    },
+    {
+      "id": "event2",
+      "name": "Presaging vibrations of the winds"
+    },
+    {
+      "id": "event3",
+      "name": "Ordering harpooneers to produce weapons"
+    },
+    {
+      "id": "event4",
+      "name": "Eyes meeting crew's eyes"
+    }
+  ]
+}

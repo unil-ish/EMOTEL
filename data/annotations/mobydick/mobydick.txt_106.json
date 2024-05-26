@@ -2,18 +2,18 @@
   "FictionalCharacters": [
     {
       "id": "fc1",
-      "name": "Narrator",
+      "name": "Whaleman",
       "feels": [
         {
           "name": "Admiration",
           "hasIntensity": 0.9,
           "causedBy": {
             "id": "event1",
-            "name": "Success and recognition of whalemen"
+            "name": "History of whaling"
           },
           "hasObject": {
             "id": "object1",
-            "name": "Whalemen"
+            "name": "Whaling industry"
           }
         },
         {
@@ -21,11 +21,11 @@
           "hasIntensity": 0.7,
           "causedBy": {
             "id": "event2",
-            "name": "Acknowledgment of whalemen's importance"
+            "name": "Success of whaling industry"
           },
           "hasObject": {
             "id": "object2",
-            "name": "Whalemen"
+            "name": "Whaling industry"
           }
         }
       ]
@@ -41,7 +41,7 @@
   "Events": [
     {
       "id": "event1",
-      "name": "Success and recognition of whalemen",
+      "name": "History of whaling",
       "takePlaceAt": {
         "id": "place1"
       },
@@ -51,7 +51,7 @@
     },
     {
       "id": "event2",
-      "name": "Acknowledgment of whalemen's importance",
+      "name": "Success of whaling industry",
       "takePlaceAt": {
         "id": "place1"
       },

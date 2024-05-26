@@ -1,0 +1,97 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Ahab",
+      "feels": [
+        {
+          "name": "Acceptance",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event1",
+            "name": "Warm, holiday weather"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Weather"
+          },
+          "feltAt": {
+            "id": "place1",
+            "name": "Deck of the Pequod"
+          }
+        },
+        {
+          "name": "Joy",
+          "hasIntensity": 0.4,
+          "causedBy": {
+            "id": "event2",
+            "name": "Responding to playful allurings"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Playful allurings"
+          },
+          "feltAt": {
+            "id": "place1",
+            "name": "Deck of the Pequod"
+          }
+        },
+        {
+          "name": "Serenity",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event3",
+            "name": "Bright Quito spring"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "Spring"
+          },
+          "feltAt": {
+            "id": "place1",
+            "name": "Deck of the Pequod"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Deck of the Pequod",
+      "description": "The ship's deck under the bright Quito spring"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Warm, holiday weather",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Responding to playful allurings",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Bright Quito spring",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    }
+  ]
+}

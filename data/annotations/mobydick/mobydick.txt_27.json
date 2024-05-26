@@ -9,11 +9,16 @@
           "hasIntensity": 0.9,
           "causedBy": {
             "id": "event1",
-            "name": "Landlord's stories about the harpooneer"
+            "name": "Landlord's stories"
           },
           "hasObject": {
             "id": "object1",
-            "name": "Harpooneer"
+            "name": "Landlord's stories"
+          },
+          "feltAt": {
+            "id": "place1",
+            "name": "Inn",
+            "description": "A small inn in a coastal town"
           }
         },
         {
@@ -21,53 +26,50 @@
           "hasIntensity": 0.7,
           "causedBy": {
             "id": "event2",
-            "name": "Possibility of sleeping with a madman"
+            "name": "Mention of a madman"
           },
           "hasObject": {
             "id": "object2",
             "name": "Madman"
+          },
+          "feltAt": {
+            "id": "place1",
+            "name": "Inn",
+            "description": "A small inn in a coastal town"
           }
         },
         {
           "name": "Disgust",
-          "hasIntensity": 0.8,
+          "hasIntensity": 0.6,
           "causedBy": {
             "id": "event3",
-            "name": "Landlord's behavior"
+            "name": "Selling a head"
           },
           "hasObject": {
             "id": "object3",
-            "name": "Landlord"
+            "name": "Selling a head"
+          },
+          "feltAt": {
+            "id": "place1",
+            "name": "Inn",
+            "description": "A small inn in a coastal town"
           }
         },
         {
           "name": "Annoyance",
-          "hasIntensity": 0.6,
+          "hasIntensity": 0.8,
           "causedBy": {
             "id": "event4",
-            "name": "Landlord's refusal to provide a full bed"
+            "name": "Landlord's behavior"
           },
           "hasObject": {
             "id": "object4",
-            "name": "Half a bed"
-          }
-        }
-      ]
-    },
-    {
-      "id": "fc2",
-      "name": "Landlord",
-      "feels": [
-        {
-          "name": "Surprise",
-          "hasIntensity": 0.5,
-          "causedBy": {
-            "id": "event5",
-            "name": "Narrator's reaction"
+            "name": "Landlord's behavior"
           },
-          "hasObject": {
-            "id": "object5",
-            "name": "Narrator's anger"
+          "feltAt": {
+            "id": "place1",
+            "name": "Inn",
+            "description": "A small inn in a coastal town"
           }
         }
       ]
@@ -77,43 +79,48 @@
     {
       "id": "place1",
       "name": "Inn",
-      "description": "A cozy inn with a rustic charm."
+      "description": "A small inn in a coastal town"
     }
   ],
   "Events": [
     {
       "id": "event1",
-      "name": "Landlord's stories about the harpooneer",
+      "name": "Landlord's stories",
       "takePlaceAt": {
         "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
       }
     },
     {
       "id": "event2",
-      "name": "Possibility of sleeping with a madman",
+      "name": "Mention of a madman",
       "takePlaceAt": {
         "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
       }
     },
     {
       "id": "event3",
-      "name": "Landlord's behavior",
+      "name": "Selling a head",
       "takePlaceAt": {
         "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
       }
     },
     {
       "id": "event4",
-      "name": "Landlord's refusal to provide a full bed",
+      "name": "Landlord's behavior",
       "takePlaceAt": {
         "id": "place1"
-      }
-    },
-    {
-      "id": "event5",
-      "name": "Narrator's reaction",
-      "takePlaceAt": {
-        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
       }
     }
   ]

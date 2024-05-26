@@ -1,0 +1,80 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Ahab",
+      "feels": [
+        {
+          "name": "Acceptance",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event1",
+            "name": "Realization of his motive and object"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Motive and object"
+          }
+        },
+        {
+          "name": "Fear",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event2",
+            "name": "Terrible casualty"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Casualty"
+          }
+        },
+        {
+          "name": "Sadness",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event2",
+            "name": "Terrible casualty"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Casualty"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Hotel de Cluny",
+      "description": "A spiked hotel"
+    },
+    {
+      "id": "place2",
+      "name": "Roman halls of Thermes",
+      "description": "Vast halls beneath fantastic towers"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Realization of his motive and object",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Terrible casualty",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    }
+  ]
+}

@@ -9,11 +9,15 @@
           "hasIntensity": 0.9,
           "causedBy": {
             "id": "event1",
-            "name": "Premature hour of Pequod's sailing"
+            "name": "Premature hour of sailing"
           },
           "hasObject": {
             "id": "object1",
-            "name": "Sailing season"
+            "name": "Sailing"
+          },
+          "place": {
+            "id": "place1",
+            "name": "On the Pequod"
           }
         },
         {
@@ -21,11 +25,15 @@
           "hasIntensity": 0.7,
           "causedBy": {
             "id": "event2",
-            "name": "Interval of 365 days and nights"
+            "name": "Interval of three hundred and sixty-five days"
           },
           "hasObject": {
             "id": "object2",
-            "name": "Time"
+            "name": "Interval"
+          },
+          "place": {
+            "id": "place1",
+            "name": "On the Pequod"
           }
         }
       ]
@@ -34,14 +42,14 @@
   "Places": [
     {
       "id": "place1",
-      "name": "Nantucket",
-      "description": "Port town in Massachusetts."
+      "name": "On the Pequod",
+      "description": "Aboard the ship sailing from Nantucket."
     }
   ],
   "Events": [
     {
       "id": "event1",
-      "name": "Premature hour of Pequod's sailing",
+      "name": "Premature hour of sailing",
       "takePlaceAt": {
         "id": "place1"
       },
@@ -51,7 +59,7 @@
     },
     {
       "id": "event2",
-      "name": "Interval of 365 days and nights",
+      "name": "Interval of three hundred and sixty-five days",
       "takePlaceAt": {
         "id": "place1"
       },

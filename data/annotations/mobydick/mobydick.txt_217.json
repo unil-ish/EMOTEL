@@ -1,0 +1,119 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Tashtego",
+      "feels": [
+        {
+          "name": "Anticipation",
+          "hasIntensity": 0.9,
+          "causedBy": {
+            "id": "event1",
+            "name": "Spotting the whales"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Whales"
+          }
+        },
+        {
+          "name": "Fear",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event2",
+            "name": "Sudden sighting of whales"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Whales"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc2",
+      "name": "Starbuck",
+      "feels": [
+        {
+          "name": "Vigilance",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event3",
+            "name": "Directing the crew"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Boat"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fc3",
+      "name": "King-Post",
+      "feels": [
+        {
+          "name": "Rage",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event4",
+            "name": "Frustration with the situation"
+          },
+          "hasObject": {
+            "id": "object3",
+            "name": "White water"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Boat",
+      "description": "In the midst of the ocean, chasing whales."
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Spotting the whales",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Sudden sighting of whales",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event3",
+      "name": "Directing the crew",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc2"
+      }
+    },
+    {
+      "id": "event4",
+      "name": "Frustration with the situation",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc3"
+      }
+    }
+  ]
+}

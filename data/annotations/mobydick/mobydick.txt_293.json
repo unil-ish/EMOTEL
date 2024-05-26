@@ -1,0 +1,63 @@
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "Queequeg",
+      "feels": [
+        {
+          "name": "Acceptance",
+          "hasIntensity": 0.7,
+          "causedBy": {
+            "id": "event1",
+            "name": "Being a shark"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Shark"
+          }
+        },
+        {
+          "name": "Disgust",
+          "hasIntensity": 0.6,
+          "causedBy": {
+            "id": "event2",
+            "name": "Sabbath breaking"
+          },
+          "hasObject": {
+            "id": "object2",
+            "name": "Sabbath breaking"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+    {
+      "id": "place1",
+      "name": "Pequod",
+      "description": "Whaling ship"
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Being a shark",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    },
+    {
+      "id": "event2",
+      "name": "Sabbath breaking",
+      "takePlaceAt": {
+        "id": "place1"
+      },
+      "hasParticipant": {
+        "id": "fc1"
+      }
+    }
+  ]
+}
