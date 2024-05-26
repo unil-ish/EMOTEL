@@ -1,0 +1,232 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "fc1",
+   "name": "Father Mapple",
+   "feels": [
+    {
+     "name": "Joy",
+     "hasIntensity": 0.8,
+     "quote": "Father Mapple cast a look upwards, and then with a truly sailor-like but still reverential dexterity, hand over hand, mounted the steps as if ascending the main-top of his vessel.",
+     "causedBy": {
+      "id": "event1",
+      "name": "Ascending the pulpit"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Pulpit"
+     },
+     "place": {
+      "id": "place1",
+      "name": "Chapel"
+     }
+    },
+    {
+     "name": "Anticipation",
+     "hasIntensity": 0.7,
+     "quote": "Father Mapple enjoyed such a wide reputation for sincerity and sanctity, that I could not suspect him of courting notoriety by any mere tricks of the stage.",
+     "causedBy": {
+      "id": "event2",
+      "name": "Reputation for sincerity and sanctity"
+     },
+     "hasObject": {
+      "id": "object2",
+      "name": "Reputation"
+     },
+     "place": {
+      "id": "place1",
+      "name": "Chapel"
+     }
+    },
+    {
+     "name": "Fear",
+     "hasIntensity": 0.9,
+     "quote": "He paused a little; then kneeling in the pulpit’s bows, folded his large brown hands across his chest, uplifted his closed eyes, and offered a prayer so deeply devout that he seemed kneeling and praying at the bottom of the sea.",
+     "causedBy": {
+      "id": "event3",
+      "name": "Offering a prayer"
+     },
+     "hasObject": {
+      "id": "object3",
+      "name": "Prayer"
+     },
+     "place": {
+      "id": "place1",
+      "name": "Chapel"
+     }
+    },
+    {
+     "name": "Sadness",
+     "hasIntensity": 0.6,
+     "quote": "His deep chest heaved as with a ground-swell; his tossed arms seemed the warring elements at work; and the thunders that rolled away from off his swarthy brow, and the light leaping from his eye, made all his simple hearers look on him with a quick fear that was strange to them.",
+     "causedBy": {
+      "id": "event4",
+      "name": "Describing Jonah’s sea-storm"
+     },
+     "hasObject": {
+      "id": "object4",
+      "name": "Describing the sea-storm"
+     },
+     "place": {
+      "id": "place1",
+      "name": "Chapel"
+     }
+    },
+    {
+     "name": "Love",
+     "hasIntensity": 0.9,
+     "quote": "His story being ended with his pipe’s last dying puff, Queequeg embraced me, pressed his forehead against mine, and blowing out the light, we rolled over from each other, this way and that, and very soon were sleeping.",
+     "causedBy": {
+      "id": "event5",
+      "name": "Embracing and sleeping"
+     },
+     "hasObject": {
+      "id": "object5",
+      "name": "Embracing"
+     },
+     "place": {
+      "id": "place2",
+      "name": "Bedroom"
+     }
+    }
+   ]
+  },
+  {
+   "id": "fc2",
+   "name": "Queequeg",
+   "feels": [
+    {
+     "name": "Interest",
+     "hasIntensity": 0.8,
+     "quote": "With much interest I sat watching him.",
+     "causedBy": {
+      "id": "event6",
+      "name": "Watching him"
+     },
+     "hasObject": {
+      "id": "object6",
+      "name": "Watching"
+     },
+     "place": {
+      "id": "place3",
+      "name": "Inn"
+     }
+    },
+    {
+     "name": "Acceptance",
+     "hasIntensity": 0.7,
+     "quote": "He at once resolved to accompany me to that island, ship aboard the same vessel, get into the same watch, the same boat, the same mess with me, in short to share my every hap; with both my hands in his, boldly dip into the Potluck of both worlds.",
+     "causedBy": {
+      "id": "event7",
+      "name": "Resolving to accompany"
+     },
+     "hasObject": {
+      "id": "object7",
+      "name": "Accompanying"
+     },
+     "place": {
+      "id": "place4",
+      "name": "Schooner"
+     }
+    },
+    {
+     "name": "Joy",
+     "hasIntensity": 0.8,
+     "quote": "Hoisting sail, it glided down the Acushnet river.",
+     "causedBy": {
+      "id": "event8",
+      "name": "Gliding down the river"
+     },
+     "hasObject": {
+      "id": "object8",
+      "name": "Gliding"
+     },
+     "place": {
+      "id": "place5",
+      "name": "Schooner"
+     }
+    }
+   ]
+  }
+ ],
+ "Places": [
+  {
+   "id": "place1",
+   "name": "Chapel"
+  },
+  {
+   "id": "place2",
+   "name": "Bedroom"
+  },
+  {
+   "id": "place3",
+   "name": "Inn"
+  },
+  {
+   "id": "place4",
+   "name": "Schooner"
+  },
+  {
+   "id": "place5",
+   "name": "Acushnet river"
+  }
+ ],
+ "Events": [
+  {
+   "id": "event1",
+   "name": "Ascending the pulpit",
+   "takePlaceAt": {
+    "id": "place1"
+   }
+  },
+  {
+   "id": "event2",
+   "name": "Reputation for sincerity and sanctity",
+   "takePlaceAt": {
+    "id": "place1"
+   }
+  },
+  {
+   "id": "event3",
+   "name": "Offering a prayer",
+   "takePlaceAt": {
+    "id": "place1"
+   }
+  },
+  {
+   "id": "event4",
+   "name": "Describing Jonah’s sea-storm",
+   "takePlaceAt": {
+    "id": "place1"
+   }
+  },
+  {
+   "id": "event5",
+   "name": "Embracing and sleeping",
+   "takePlaceAt": {
+    "id": "place2"
+   }
+  },
+  {
+   "id": "event6",
+   "name": "Watching him",
+   "takePlaceAt": {
+    "id": "place3"
+   }
+  },
+  {
+   "id": "event7",
+   "name": "Resolving to accompany",
+   "takePlaceAt": {
+    "id": "place4"
+   }
+  },
+  {
+   "id": "event8",
+   "name": "Gliding down the river",
+   "takePlaceAt": {
+    "id": "place5"
+   }
+  }
+ ]
+}

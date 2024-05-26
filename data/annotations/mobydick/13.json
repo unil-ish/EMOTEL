@@ -1,0 +1,123 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "Queequeg",
+   "feels": [
+    {
+     "name": "Fear",
+     "hasIntensity": 0.9,
+     "quote": "Being the savage’s bowsman, that is, the person who pulled the bow-oar in his boat (the second one from forward), it was my cheerful duty to attend upon him while taking that hard-scrabble scramble upon the dead whale’s back.",
+     "causedBy": {
+      "id": "event1",
+      "name": "Scrambling upon the dead whale's back"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Dead whale"
+     },
+     "place": "Dead whale's back"
+    },
+    {
+     "name": "Fear",
+     "hasIntensity": 0.8,
+     "quote": "It was a humorously perilous business for both of us.",
+     "causedBy": {
+      "id": "event2",
+      "name": "Perilous business"
+     },
+     "hasObject": {
+      "id": "object2",
+      "name": "Perilous situation"
+     },
+     "place": "On the dead whale's back"
+    },
+    {
+     "name": "Fear",
+     "hasIntensity": 0.7,
+     "quote": "So strongly and metaphysically did I conceive of my situation then, that while earnestly watching his motions, I seemed distinctly to perceive that my own individuality was now merged in a joint stock company of two.",
+     "causedBy": {
+      "id": "event3",
+      "name": "Perceiving the merged individuality"
+     },
+     "hasObject": {
+      "id": "object3",
+      "name": "Merged individuality"
+     },
+     "place": "On the dead whale's back"
+    },
+    {
+     "name": "Fear",
+     "hasIntensity": 0.8,
+     "quote": "Therefore, I saw that here was a sort of interregnum in Providence; for its even-handed equity never could have so gross an injustice.",
+     "causedBy": {
+      "id": "event4",
+      "name": "Interregnum in Providence"
+     },
+     "hasObject": {
+      "id": "object4",
+      "name": "Interregnum"
+     },
+     "place": "On the dead whale's back"
+    },
+    {
+     "name": "Fear",
+     "hasIntensity": 0.9,
+     "quote": "And yet still further pondering—while I jerked him now and then from between the whale and ship, which would threaten to jam him—still further pondering, I say, I saw that this situation of mine was the precise situation of every mortal that breathes.",
+     "causedBy": {
+      "id": "event5",
+      "name": "Pondering the situation"
+     },
+     "hasObject": {
+      "id": "object5",
+      "name": "Pondering the situation"
+     },
+     "place": "Between the whale and ship"
+    }
+   ]
+  }
+ ],
+ "Events": [
+  {
+   "id": "event1",
+   "name": "Scrambling upon the dead whale's back"
+  },
+  {
+   "id": "event2",
+   "name": "Perilous business"
+  },
+  {
+   "id": "event3",
+   "name": "Perceiving the merged individuality"
+  },
+  {
+   "id": "event4",
+   "name": "Interregnum in Providence"
+  },
+  {
+   "id": "event5",
+   "name": "Pondering the situation"
+  }
+ ],
+ "Objects": [
+  {
+   "id": "object1",
+   "name": "Dead whale"
+  },
+  {
+   "id": "object2",
+   "name": "Perilous situation"
+  },
+  {
+   "id": "object3",
+   "name": "Merged individuality"
+  },
+  {
+   "id": "object4",
+   "name": "Interregnum"
+  },
+  {
+   "id": "object5",
+   "name": "Pondering the situation"
+  }
+ ]
+}

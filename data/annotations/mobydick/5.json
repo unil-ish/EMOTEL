@@ -1,0 +1,107 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "Ahab",
+   "feels": [
+    {
+     "name": "Anger",
+     "hasIntensity": 0.8,
+     "quote": "“Am I a cannon-ball, Stubb,” said Ahab, “that thou wouldst wad me that fashion? But go thy ways; I had forgot. Below to thy nightly grave; where such as ye sleep between shrouds, to use ye to the filling one at last.—Down, dog, and kennel!”",
+     "causedBy": {
+      "id": "event1",
+      "name": "Interaction with Stubb"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Stubb"
+     },
+     "place": "On the deck"
+    },
+    {
+     "name": "Contemplation",
+     "hasIntensity": 0.7,
+     "quote": "“May be; may be. But it’s made a wise man of me, Flask. D’ye see Ahab standing there, sideways looking over the stern? Well, the best thing you can do, Flask, is to let the old man alone; never speak to him, whatever he says.",
+     "causedBy": {
+      "id": "event2",
+      "name": "Reflecting on Ahab's behavior"
+     },
+     "hasObject": {
+      "id": "object2",
+      "name": "Ahab"
+     },
+     "place": "On the deck"
+    },
+    {
+     "name": "Determination",
+     "hasIntensity": 0.9,
+     "quote": "“Mast-head, there! Look sharp, all of ye! There are whales hereabouts! If ye see a white one, split your lungs for him! What do you think of that now, Flask? ain’t there a small drop of something queer about that, eh? A white whale—did ye mark that, man? Look ye—there’s something special in the wind. Stand by for it, Flask. Ahab has that that’s bloody on his mind. But, mum; he comes this way.”",
+     "causedBy": {
+      "id": "event3",
+      "name": "Spotting whales"
+     },
+     "hasObject": {
+      "id": "object3",
+      "name": "Whales"
+     },
+     "place": "On the deck"
+    }
+   ]
+  },
+  {
+   "id": "Stubb",
+   "feels": [
+    {
+     "name": "Confusion",
+     "hasIntensity": 0.7,
+     "quote": "“I don’t know; it seems a sort of foolish to me, tho.’”",
+     "causedBy": {
+      "id": "event4",
+      "name": "Reflecting on Ahab's dream"
+     },
+     "hasObject": {
+      "id": "object4",
+      "name": "Ahab's dream"
+     },
+     "place": "On the deck"
+    }
+   ]
+  }
+ ],
+ "Places": [
+  {
+   "id": "deck",
+   "name": "On the deck",
+   "description": "The main deck of the ship where the characters interact and observe"
+  }
+ ],
+ "Events": [
+  {
+   "id": "event1",
+   "name": "Interaction with Stubb",
+   "takePlaceAt": {
+    "id": "deck"
+   }
+  },
+  {
+   "id": "event2",
+   "name": "Reflecting on Ahab's behavior",
+   "takePlaceAt": {
+    "id": "deck"
+   }
+  },
+  {
+   "id": "event3",
+   "name": "Spotting whales",
+   "takePlaceAt": {
+    "id": "deck"
+   }
+  },
+  {
+   "id": "event4",
+   "name": "Reflecting on Ahab's dream",
+   "takePlaceAt": {
+    "id": "deck"
+   }
+  }
+ ]
+}

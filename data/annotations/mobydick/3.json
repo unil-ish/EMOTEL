@@ -1,0 +1,146 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "Ishmael",
+   "feels": [
+    {
+     "name": "Sympathy",
+     "hasIntensity": 0.7,
+     "quote": "Alarmed at this terrible outburst between the two principal and responsible owners of the ship, and feeling half a mind to give up all idea of sailing in a vessel so questionably owned and temporarily commanded, I stepped aside from the door to give egress to Bildad, who, I made no doubt, was all eagerness to vanish from before the awakened wrath of Peleg.",
+     "causedBy": {
+      "id": "Outburst between Peleg and Bildad"
+     },
+     "hasObject": {
+      "id": "Captain Ahab"
+     },
+     "place": "Cabin"
+    },
+    {
+     "name": "Awe",
+     "hasIntensity": 0.8,
+     "quote": "Towards evening, when I felt assured that all his performances and rituals must be over, I went up to his room and knocked at the door; but no answer. I tried to open it, but it was fastened inside.",
+     "causedBy": {
+      "id": "Queequeg's silence"
+     },
+     "hasObject": {
+      "id": "Queequeg"
+     },
+     "place": "Room"
+    },
+    {
+     "name": "Alarm",
+     "hasIntensity": 0.9,
+     "quote": "I began to grow alarmed. I had allowed him such abundant time; I thought he might have had an apoplectic fit.",
+     "causedBy": {
+      "id": "Queequeg's silence"
+     },
+     "hasObject": {
+      "id": "Queequeg"
+     },
+     "place": "Room"
+    }
+   ]
+  },
+  {
+   "id": "Queequeg",
+   "feels": [
+    {
+     "name": "Silence",
+     "hasIntensity": 0.8,
+     "quote": "Towards evening, when I felt assured that all his performances and rituals must be over, I went up to his room and knocked at the door; but no answer. I tried to open it, but it was fastened inside.",
+     "causedBy": {
+      "id": "Fasting and Humiliation"
+     },
+     "hasObject": {
+      "id": "Ishmael"
+     },
+     "place": "Room"
+    }
+   ]
+  },
+  {
+   "id": "Mrs. Hussey",
+   "feels": [
+    {
+     "name": "Alarm",
+     "hasIntensity": 0.9,
+     "quote": "Wood-house! cried I, which way to it? Run for God's sake, and fetch something to pry open the door—the axe!—the axe! he's had a stroke; depend upon it!—and so saying I was unmethodically rushing up stairs again empty-handed, when Mrs. Hussey interposed the mustard-pot and vinegar-cruet, and the entire castor of her countenance.",
+     "causedBy": {
+      "id": "Ishmael's urgency"
+     },
+     "hasObject": {
+      "id": "Ishmael"
+     },
+     "place": "House"
+    }
+   ]
+  }
+ ],
+ "Places": [
+  {
+   "id": "Cabin",
+   "name": "Ship's cabin",
+   "description": "Where the owners of the ship, Peleg and Bildad, are having a discussion."
+  },
+  {
+   "id": "Room",
+   "name": "Queequeg's room",
+   "description": "Where Ishmael goes to check on Queequeg."
+  },
+  {
+   "id": "House",
+   "name": "Mrs. Hussey's house",
+   "description": "Where Ishmael seeks help from Mrs. Hussey."
+  }
+ ],
+ "Events": [
+  {
+   "id": "Outburst between Peleg and Bildad",
+   "name": "Outburst between Captain Peleg and Captain Bildad",
+   "takePlaceAt": {
+    "id": "Cabin"
+   },
+   "hasParticipant": [
+    {
+     "id": "Ishmael"
+    }
+   ]
+  },
+  {
+   "id": "Queequeg's silence",
+   "name": "Queequeg's silence",
+   "takePlaceAt": {
+    "id": "Room"
+   },
+   "hasParticipant": [
+    {
+     "id": "Ishmael"
+    }
+   ]
+  },
+  {
+   "id": "Fasting and Humiliation",
+   "name": "Queequeg's Fasting and Humiliation",
+   "takePlaceAt": {
+    "id": "Room"
+   },
+   "hasParticipant": [
+    {
+     "id": "Ishmael"
+    }
+   ]
+  },
+  {
+   "id": "Ishmael's urgency",
+   "name": "Ishmael's urgency",
+   "takePlaceAt": {
+    "id": "House"
+   },
+   "hasParticipant": [
+    {
+     "id": "Ishmael"
+    }
+   ]
+  }
+ ]
+}

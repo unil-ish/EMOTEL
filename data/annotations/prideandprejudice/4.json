@@ -1,0 +1,140 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "fc1",
+   "name": "Elizabeth Bennet",
+   "feels": [
+    {
+     "name": "Perplexity",
+     "hasIntensity": 0.7,
+     "quote": "though a day seldom passed in which Elizabeth did not account for it clearly, there seemed little chance of her ever considering it with less perplexity.",
+     "causedBy": {
+      "id": "event1",
+      "name": "Mr. Bingley's absence"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Mr. Bingley's absence"
+     },
+     "exactPlace": "Her own thoughts"
+    },
+    {
+     "name": "Indignation",
+     "hasIntensity": 0.8,
+     "quote": "heard it in silent indignation.",
+     "causedBy": {
+      "id": "event2",
+      "name": "Miss Bingley's letter"
+     },
+     "hasObject": {
+      "id": "object2",
+      "name": "Miss Bingley's letter"
+     },
+     "exactPlace": "Upon hearing Miss Bingley's letter"
+    },
+    {
+     "name": "Resentment",
+     "hasIntensity": 0.9,
+     "quote": "Her heart was divided between concern for her sister and resentment against all others.",
+     "causedBy": {
+      "id": "event3",
+      "name": "Miss Bingley's letter"
+     },
+     "hasObject": {
+      "id": "object3",
+      "name": "Miss Bingley's letter"
+     },
+     "exactPlace": "Upon hearing Miss Bingley's letter"
+    }
+   ]
+  },
+  {
+   "id": "fc2",
+   "name": "Jane Bennet",
+   "feels": [
+    {
+     "name": "Concern",
+     "hasIntensity": 0.7,
+     "quote": "Her daughter endeavoured to convince her of what she did not believe herself, that his attentions to Jane had been merely the effect of a common and transient liking.",
+     "causedBy": {
+      "id": "event4",
+      "name": "Mr. Bingley's absence"
+     },
+     "hasObject": {
+      "id": "object4",
+      "name": "Mr. Bingley's absence"
+     },
+     "exactPlace": "During conversations with Elizabeth"
+    },
+    {
+     "name": "Distress",
+     "hasIntensity": 0.8,
+     "quote": "Her peace equally wounded.",
+     "causedBy": {
+      "id": "event5",
+      "name": "Mr. Bingley's absence"
+     },
+     "hasObject": {
+      "id": "object5",
+      "name": "Mr. Bingley's absence"
+     },
+     "exactPlace": "During conversations with Elizabeth"
+    }
+   ]
+  }
+ ],
+ "Places": [
+  {
+   "id": "place1",
+   "name": "Her own thoughts",
+   "description": "Where Elizabeth felt perplexity."
+  },
+  {
+   "id": "place2",
+   "name": "Upon hearing Miss Bingley's letter",
+   "description": "Where Elizabeth felt indignation and resentment."
+  },
+  {
+   "id": "place3",
+   "name": "During conversations with Elizabeth",
+   "description": "Where Jane felt concern and distress."
+  }
+ ],
+ "Events": [
+  {
+   "id": "event1",
+   "name": "Mr. Bingley's absence",
+   "takePlaceAt": {
+    "id": "place1"
+   }
+  },
+  {
+   "id": "event2",
+   "name": "Miss Bingley's letter",
+   "takePlaceAt": {
+    "id": "place2"
+   }
+  },
+  {
+   "id": "event3",
+   "name": "Miss Bingley's letter",
+   "takePlaceAt": {
+    "id": "place2"
+   }
+  },
+  {
+   "id": "event4",
+   "name": "Mr. Bingley's absence",
+   "takePlaceAt": {
+    "id": "place3"
+   }
+  },
+  {
+   "id": "event5",
+   "name": "Mr. Bingley's absence",
+   "takePlaceAt": {
+    "id": "place3"
+   }
+  }
+ ]
+}

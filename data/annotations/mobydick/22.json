@@ -1,0 +1,148 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "Ahab",
+   "feels": [
+    {
+     "name": "Trust",
+     "hasIntensity": 0.7,
+     "quote": "I will have the first sight of the whale myself.",
+     "causedBy": {
+      "id": "event1",
+      "name": "Desire to see the whale"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Whale"
+     },
+     "place": "On deck"
+    },
+    {
+     "name": "Surprise",
+     "hasIntensity": 0.6,
+     "quote": "Not forged!",
+     "causedBy": {
+      "id": "event2",
+      "name": "Discovery of the wrecked whale-boat"
+     },
+     "hasObject": {
+      "id": "object2",
+      "name": "Wrecked whale-boat"
+     },
+     "place": "On deck"
+    },
+    {
+     "name": "Anger",
+     "hasIntensity": 0.8,
+     "quote": "Brace forward! Up helm!",
+     "causedBy": {
+      "id": "event3",
+      "name": "The corpse hitting the sea"
+     },
+     "hasObject": {
+      "id": "object3",
+      "name": "Corpse"
+     },
+     "place": "On deck"
+    },
+    {
+     "name": "Joy",
+     "hasIntensity": 0.5,
+     "quote": "It was a clear steel-blue day.",
+     "causedBy": {
+      "id": "event4",
+      "name": "Clear day"
+     },
+     "hasObject": {
+      "id": "object4",
+      "name": "Clear day"
+     },
+     "place": "On deck"
+    }
+   ]
+  },
+  {
+   "id": "Sicilian Seaman",
+   "feels": [
+    {
+     "name": "Surprise",
+     "hasIntensity": 0.7,
+     "quote": "Your hat, your hat, sir!",
+     "causedBy": {
+      "id": "event5",
+      "name": "The hawk taking Ahab's hat"
+     },
+     "hasObject": {
+      "id": "object5",
+      "name": "Ahab's hat"
+     },
+     "place": "Mizen-mast-head"
+    }
+   ]
+  }
+ ],
+ "Places": [
+  {
+   "id": "deck",
+   "name": "On deck",
+   "description": "The main deck of the ship where the crew and captain are present."
+  },
+  {
+   "id": "mizen-mast-head",
+   "name": "Mizen-mast-head",
+   "description": "The top of the mizen mast where the Sicilian seaman is stationed."
+  }
+ ],
+ "Events": [
+  {
+   "id": "event1",
+   "name": "Desire to see the whale",
+   "takePlaceAt": {
+    "id": "deck"
+   },
+   "hasParticipant": {
+    "id": "Ahab"
+   }
+  },
+  {
+   "id": "event2",
+   "name": "Discovery of the wrecked whale-boat",
+   "takePlaceAt": {
+    "id": "deck"
+   },
+   "hasParticipant": {
+    "id": "Ahab"
+   }
+  },
+  {
+   "id": "event3",
+   "name": "The corpse hitting the sea",
+   "takePlaceAt": {
+    "id": "deck"
+   },
+   "hasParticipant": {
+    "id": "Ahab"
+   }
+  },
+  {
+   "id": "event4",
+   "name": "Clear day",
+   "takePlaceAt": {
+    "id": "deck"
+   },
+   "hasParticipant": {
+    "id": "Ahab"
+   }
+  },
+  {
+   "id": "event5",
+   "name": "The hawk taking Ahab's hat",
+   "takePlaceAt": {
+    "id": "mizen-mast-head"
+   },
+   "hasParticipant": {
+    "id": "Sicilian Seaman"
+   }
+  }
+ ]
+}

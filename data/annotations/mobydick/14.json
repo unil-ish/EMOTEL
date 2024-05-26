@@ -1,0 +1,174 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "Tashtego",
+   "feels": [
+    {
+     "name": "Fear",
+     "hasIntensity": 0.9,
+     "quote": "on a sudden, as the eightieth or ninetieth bucket came suckingly up—my God! poor Tashtego—like the twin reciprocating bucket in a veritable well, dropped head-foremost down into this great Tun of Heidelburgh, and with a horrible oily gurgling, went clean out of sight!",
+     "causedBy": {
+      "id": "event1",
+      "name": "Falling into the great Tun of Heidelburgh"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Great Tun of Heidelburgh"
+     },
+     "place": {
+      "id": "place1",
+      "name": "Deck of the Pequod"
+     }
+    },
+    {
+     "name": "Joy",
+     "hasIntensity": 0.8,
+     "quote": "Both! both!—it is both!—cried Daggoo again with a joyful shout; and soon after, Queequeg was seen boldly striking out with one hand, and with the other clutching the long hair of the Indian.",
+     "causedBy": {
+      "id": "event2",
+      "name": "Rescue of Tashtego"
+     },
+     "hasObject": {
+      "id": "object2",
+      "name": "Rescue"
+     },
+     "place": {
+      "id": "place2",
+      "name": "Deck of the Pequod"
+     }
+    }
+   ]
+  },
+  {
+   "id": "Daggoo",
+   "feels": [
+    {
+     "name": "Fear",
+     "hasIntensity": 0.7,
+     "quote": "Come down, come down! yelled the seamen to Daggoo, but with one hand holding on to the heavy tackles, so that if the head should drop, he would still remain suspended; the negro having cleared the foul line, rammed down the bucket into the now collapsed well, meaning that the buried harpooneer should grasp it, and so be hoisted out.",
+     "causedBy": {
+      "id": "event3",
+      "name": "Dangerous situation with the head"
+     },
+     "hasObject": {
+      "id": "object3",
+      "name": "Head"
+     },
+     "place": {
+      "id": "place1",
+      "name": "Deck of the Pequod"
+     }
+    },
+    {
+     "name": "Joy",
+     "hasIntensity": 0.9,
+     "quote": "Both! both!—it is both!—cried Daggoo again with a joyful shout; and soon after, Queequeg was seen boldly striking out with one hand, and with the other clutching the long hair of the Indian.",
+     "causedBy": {
+      "id": "event2",
+      "name": "Rescue of Tashtego"
+     },
+     "hasObject": {
+      "id": "object2",
+      "name": "Rescue"
+     },
+     "place": {
+      "id": "place2",
+      "name": "Deck of the Pequod"
+     }
+    }
+   ]
+  },
+  {
+   "id": "Queequeg",
+   "feels": [
+    {
+     "name": "Joy",
+     "hasIntensity": 0.9,
+     "quote": "Both! both!—it is both!—cried Daggoo again with a joyful shout; and soon after, Queequeg was seen boldly striking out with one hand, and with the other clutching the long hair of the Indian.",
+     "causedBy": {
+      "id": "event2",
+      "name": "Rescue of Tashtego"
+     },
+     "hasObject": {
+      "id": "object2",
+      "name": "Rescue"
+     },
+     "place": {
+      "id": "place2",
+      "name": "Deck of the Pequod"
+     }
+    },
+    {
+     "name": "Fear",
+     "hasIntensity": 0.8,
+     "quote": "Looking over the side, they saw the before lifeless head throbbing and heaving just below the surface of the sea, as if that moment seized with some momentous idea; whereas it was only the poor Indian unconsciously revealing by those struggles the perilous depth to which he had sunk.",
+     "causedBy": {
+      "id": "event4",
+      "name": "Seeing the head of Tashtego below the surface of the sea"
+     },
+     "hasObject": {
+      "id": "object4",
+      "name": "Head of Tashtego"
+     },
+     "place": {
+      "id": "place3",
+      "name": "Deck of the Pequod"
+     }
+    }
+   ]
+  }
+ ],
+ "Places": [
+  {
+   "id": "place1",
+   "name": "Deck of the Pequod",
+   "description": "The main deck of the whaling ship Pequod."
+  },
+  {
+   "id": "place2",
+   "name": "Deck of the Pequod",
+   "description": "The main deck of the whaling ship Pequod during the rescue operation."
+  },
+  {
+   "id": "place3",
+   "name": "Deck of the Pequod",
+   "description": "The main deck of the whaling ship Pequod during the rescue operation."
+  }
+ ],
+ "Events": [
+  {
+   "id": "event1",
+   "name": "Falling into the great Tun of Heidelburgh"
+  },
+  {
+   "id": "event2",
+   "name": "Rescue of Tashtego"
+  },
+  {
+   "id": "event3",
+   "name": "Dangerous situation with the head"
+  },
+  {
+   "id": "event4",
+   "name": "Seeing the head of Tashtego below the surface of the sea"
+  }
+ ],
+ "Objects": [
+  {
+   "id": "object1",
+   "name": "Great Tun of Heidelburgh"
+  },
+  {
+   "id": "object2",
+   "name": "Rescue"
+  },
+  {
+   "id": "object3",
+   "name": "Head"
+  },
+  {
+   "id": "object4",
+   "name": "Head of Tashtego"
+  }
+ ]
+}

@@ -1,0 +1,205 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "Victor Frankenstein",
+   "feels": [
+    {
+     "name": "Joy",
+     "hasIntensity": 0.9,
+     "quote": "I was their plaything and their idol, and something better—their child, the innocent and helpless creature bestowed on them by Heaven, whom to bring up to good, and whose future lot it was in their hands to direct to happiness or misery, according as they fulfilled their duties towards me.",
+     "causedBy": {
+      "id": "Birth and upbringing",
+      "name": "Being the only child and receiving love and care from his parents"
+     },
+     "hasObject": {
+      "id": "Parental love",
+      "name": "Love and care from parents"
+     },
+     "place": {
+      "id": "Geneva",
+      "name": "Geneva"
+     }
+    },
+    {
+     "name": "Gratitude",
+     "hasIntensity": 0.8,
+     "quote": "I distinctly discerned how peculiarly fortunate my lot was, and gratitude assisted the development of filial love.",
+     "causedBy": {
+      "id": "Comparison with other families",
+      "name": "Feeling fortunate compared to others"
+     },
+     "hasObject": {
+      "id": "Fortunate upbringing",
+      "name": "Feeling fortunate"
+     },
+     "place": {
+      "id": "Geneva",
+      "name": "Geneva"
+     }
+    },
+    {
+     "name": "Curiosity",
+     "hasIntensity": 0.9,
+     "quote": "Curiosity, earnest research to learn, and not to learn all things indiscriminately.",
+     "causedBy": {
+      "id": "Desire for knowledge",
+      "name": "Desire to learn the secrets of heaven and earth"
+     },
+     "hasObject": {
+      "id": "Metaphysical and physical secrets",
+      "name": "Secrets of heaven and earth"
+     },
+     "place": {
+      "id": "Geneva",
+      "name": "Geneva"
+     }
+    },
+    {
+     "name": "Enthusiasm",
+     "hasIntensity": 0.9,
+     "quote": "The theory which he attempts to demonstrate and the wonderful facts which he relates soon changed this feeling into enthusiasm.",
+     "causedBy": {
+      "id": "Discovery of Cornelius Agrippa's works",
+      "name": "Discovery of Cornelius Agrippa's works"
+     },
+     "hasObject": {
+      "id": "Cornelius Agrippa's works",
+      "name": "Works of Cornelius Agrippa"
+     },
+     "place": {
+      "id": "Thonon",
+      "name": "Thonon"
+     }
+    }
+   ]
+  },
+  {
+   "id": "Elizabeth Lavenza",
+   "feels": [
+    {
+     "name": "Love",
+     "hasIntensity": 0.9,
+     "quote": "Everyone loved Elizabeth. The passionate and almost reverential attachment with which all regarded her became, while I shared it, my pride and my delight.",
+     "causedBy": {
+      "id": "Kindness and affection",
+      "name": "Kindness and affection from others"
+     },
+     "hasObject": {
+      "id": "Affection from others",
+      "name": "Kindness and affection"
+     },
+     "place": {
+      "id": "Geneva",
+      "name": "Geneva"
+     }
+    }
+   ]
+  },
+  {
+   "id": "Henry Clerval",
+   "feels": [
+    {
+     "name": "Hope",
+     "hasIntensity": 0.8,
+     "quote": "The busy stage of life, the virtues of heroes, and the actions of men were his theme; and his hope and his dream was to become one among those whose names are recorded in story as the gallant and adventurous benefactors of our species.",
+     "causedBy": {
+      "id": "Desire for adventure",
+      "name": "Desire to become a benefactor"
+     },
+     "hasObject": {
+      "id": "Becoming a benefactor",
+      "name": "Gallant and adventurous benefactors"
+     },
+     "place": {
+      "id": "Geneva",
+      "name": "Geneva"
+     }
+    }
+   ]
+  }
+ ],
+ "Places": [
+  {
+   "id": "Geneva",
+   "name": "Geneva",
+   "description": "City in Switzerland where Victor Frankenstein and his family resided."
+  },
+  {
+   "id": "Thonon",
+   "name": "Thonon",
+   "description": "Location near the baths where Victor Frankenstein found a volume of Cornelius Agrippa's works."
+  }
+ ],
+ "Events": [
+  {
+   "id": "Birth and upbringing",
+   "name": "Birth and upbringing",
+   "takePlaceAt": {
+    "id": "Geneva"
+   },
+   "hasParticipant": {
+    "id": "Victor Frankenstein"
+   }
+  },
+  {
+   "id": "Being the only child and receiving love and care from his parents",
+   "name": "Being the only child and receiving love and care from his parents",
+   "takePlaceAt": {
+    "id": "Geneva"
+   },
+   "hasParticipant": {
+    "id": "Victor Frankenstein"
+   }
+  },
+  {
+   "id": "Feeling fortunate compared to others",
+   "name": "Feeling fortunate compared to others",
+   "takePlaceAt": {
+    "id": "Geneva"
+   },
+   "hasParticipant": {
+    "id": "Victor Frankenstein"
+   }
+  },
+  {
+   "id": "Desire for knowledge",
+   "name": "Desire for knowledge",
+   "takePlaceAt": {
+    "id": "Geneva"
+   },
+   "hasParticipant": {
+    "id": "Victor Frankenstein"
+   }
+  },
+  {
+   "id": "Discovery of Cornelius Agrippa's works",
+   "name": "Discovery of Cornelius Agrippa's works",
+   "takePlaceAt": {
+    "id": "Thonon"
+   },
+   "hasParticipant": {
+    "id": "Victor Frankenstein"
+   }
+  },
+  {
+   "id": "Kindness and affection",
+   "name": "Kindness and affection",
+   "takePlaceAt": {
+    "id": "Geneva"
+   },
+   "hasParticipant": {
+    "id": "Elizabeth Lavenza"
+   }
+  },
+  {
+   "id": "Desire for adventure",
+   "name": "Desire for adventure",
+   "takePlaceAt": {
+    "id": "Geneva"
+   },
+   "hasParticipant": {
+    "id": "Henry Clerval"
+   }
+  }
+ ]
+}

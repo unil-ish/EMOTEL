@@ -1,0 +1,148 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "fc1",
+   "name": "Mr. Bennet",
+   "feels": [
+    {
+     "name": "Amusement",
+     "hasIntensity": 0.7,
+     "quote": "He paused in hopes of an answer: but his companion was not disposed to make any; and Elizabeth at that instant moving towards them, he was struck with the notion of doing a very gallant thing, and called out to her,--",
+     "causedBy": {
+      "id": "event1",
+      "name": "Observing Mr. Bingley's attention to her sister"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Elizabeth"
+     },
+     "exactPlace": "At Sir William Lucas’s, where a large party were assembled."
+    },
+    {
+     "name": "Indifference",
+     "hasIntensity": 0.8,
+     "quote": "He listened to her with perfect indifference, while she chose to entertain herself in this manner; and as his composure convinced her that all was safe, her wit flowed along.",
+     "causedBy": {
+      "id": "event2",
+      "name": "Miss Bingley entertaining herself"
+     },
+     "hasObject": {
+      "id": "object2",
+      "name": "Mr. Darcy"
+     },
+     "exactPlace": "At a gathering where Miss Bingley entertained herself"
+    },
+    {
+     "name": "Coolness",
+     "hasIntensity": 0.9,
+     "quote": "After listening one morning to their effusions on this subject, Mr. Bennet coolly observed,--",
+     "causedBy": {
+      "id": "event3",
+      "name": "Listening to his daughters' conversation"
+     },
+     "hasObject": {
+      "id": "object3",
+      "name": "Catherine and Lydia"
+     },
+     "exactPlace": "At home"
+    }
+   ]
+  },
+  {
+   "id": "fc2",
+   "name": "Elizabeth Bennet",
+   "feels": [
+    {
+     "name": "Discomposure",
+     "hasIntensity": 0.7,
+     "quote": "Indeed, sir, I have not the least intention of dancing. I entreat you not to suppose that I moved this way in order to beg for a partner.",
+     "causedBy": {
+      "id": "event4",
+      "name": "Being asked to dance by Sir William Lucas"
+     },
+     "hasObject": {
+      "id": "object4",
+      "name": "Mr. Darcy"
+     },
+     "exactPlace": "At Sir William Lucas’s, where a large party were assembled."
+    },
+    {
+     "name": "Archness",
+     "hasIntensity": 0.8,
+     "quote": "Elizabeth looked archly, and turned away.",
+     "causedBy": {
+      "id": "event5",
+      "name": "Being complimented by Sir William Lucas"
+     },
+     "hasObject": {
+      "id": "object5",
+      "name": "Sir William Lucas"
+     },
+     "exactPlace": "At a gathering where Sir William Lucas complimented her"
+    }
+   ]
+  }
+ ],
+ "Places": [
+  {
+   "id": "place1",
+   "name": "At Sir William Lucas’s, where a large party were assembled."
+  },
+  {
+   "id": "place2",
+   "name": "At a gathering where Miss Bingley entertained herself"
+  }
+ ],
+ "Events": [
+  {
+   "id": "event1",
+   "name": "Observing Mr. Bingley's attention to her sister",
+   "takePlaceAt": {
+    "id": "place1"
+   },
+   "hasParticipant": {
+    "id": "fc1"
+   }
+  },
+  {
+   "id": "event2",
+   "name": "Miss Bingley entertaining herself",
+   "takePlaceAt": {
+    "id": "place2"
+   },
+   "hasParticipant": {
+    "id": "fc1"
+   }
+  },
+  {
+   "id": "event3",
+   "name": "Listening to his daughters' conversation",
+   "takePlaceAt": {
+    "id": "place3"
+   },
+   "hasParticipant": {
+    "id": "fc1"
+   }
+  },
+  {
+   "id": "event4",
+   "name": "Being asked to dance by Sir William Lucas",
+   "takePlaceAt": {
+    "id": "place1"
+   },
+   "hasParticipant": {
+    "id": "fc2"
+   }
+  },
+  {
+   "id": "event5",
+   "name": "Being complimented by Sir William Lucas",
+   "takePlaceAt": {
+    "id": "place1"
+   },
+   "hasParticipant": {
+    "id": "fc2"
+   }
+  }
+ ]
+}

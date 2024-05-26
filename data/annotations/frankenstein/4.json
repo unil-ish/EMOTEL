@@ -1,0 +1,192 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "fc1",
+   "name": "The Creature",
+   "feels": [
+    {
+     "name": "Trust",
+     "hasIntensity": 0.2,
+     "quote": "‘Do not trouble yourself, my kind host; I have food; it is warmth and rest only that I need.’",
+     "causedBy": {
+      "id": "event1",
+      "name": "Old man offering help"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Food"
+     },
+     "place": {
+      "id": "place1",
+      "name": "Cottage"
+     }
+    },
+    {
+     "name": "Surprise",
+     "hasIntensity": 0.8,
+     "quote": "‘Great God!’ exclaimed the old man. ‘Who are you?’",
+     "causedBy": {
+      "id": "event2",
+      "name": "Old man seeing the Creature"
+     },
+     "hasObject": {
+      "id": "object2",
+      "name": "The Creature"
+     },
+     "place": {
+      "id": "place1",
+      "name": "Cottage"
+     }
+    },
+    {
+     "name": "Anger",
+     "hasIntensity": 0.9,
+     "quote": "Felix darted forward, and with supernatural force tore me from his father, to whose knees I clung, in a transport of fury, he dashed me to the ground and struck me violently with a stick.",
+     "causedBy": {
+      "id": "event3",
+      "name": "Felix attacking the Creature"
+     },
+     "hasObject": {
+      "id": "object3",
+      "name": "The Creature"
+     },
+     "place": {
+      "id": "place1",
+      "name": "Cottage"
+     }
+    },
+    {
+     "name": "Joy",
+     "hasIntensity": 0.3,
+     "quote": "The pleasant sunshine and the pure air of day restored me to some degree of tranquillity",
+     "causedBy": {
+      "id": "event4",
+      "name": "Sunshine and fresh air"
+     },
+     "hasObject": {
+      "id": "object4",
+      "name": "Sunshine and fresh air"
+     },
+     "place": {
+      "id": "place2",
+      "name": "Forest"
+     }
+    },
+    {
+     "name": "Anticipation",
+     "hasIntensity": 0.5,
+     "quote": "I resolved to return to the cottage, seek the old man, and by my representations win him to my party.",
+     "causedBy": {
+      "id": "event5",
+      "name": "Planning to return to the cottage"
+     },
+     "hasObject": {
+      "id": "object5",
+      "name": "Return to the cottage"
+     },
+     "place": {
+      "id": "place3",
+      "name": "Hovel"
+     }
+    },
+    {
+     "name": "Fear",
+     "hasIntensity": 0.7,
+     "quote": "I trembled violently, apprehending some dreadful misfortune.",
+     "causedBy": {
+      "id": "event6",
+      "name": "Feeling of dread"
+     },
+     "hasObject": {
+      "id": "object6",
+      "name": "Dreadful misfortune"
+     },
+     "place": {
+      "id": "place4",
+      "name": "Hovel"
+     }
+    }
+   ]
+  }
+ ],
+ "Places": [
+  {
+   "id": "place1",
+   "name": "Cottage"
+  },
+  {
+   "id": "place2",
+   "name": "Forest"
+  },
+  {
+   "id": "place3",
+   "name": "Hovel"
+  },
+  {
+   "id": "place4",
+   "name": "Hovel"
+  }
+ ],
+ "Events": [
+  {
+   "id": "event1",
+   "name": "Old man offering help",
+   "takePlaceAt": {
+    "id": "place1"
+   },
+   "hasParticipant": {
+    "id": "fc1"
+   }
+  },
+  {
+   "id": "event2",
+   "name": "Old man seeing the Creature",
+   "takePlaceAt": {
+    "id": "place1"
+   },
+   "hasParticipant": {
+    "id": "fc1"
+   }
+  },
+  {
+   "id": "event3",
+   "name": "Felix attacking the Creature",
+   "takePlaceAt": {
+    "id": "place1"
+   },
+   "hasParticipant": {
+    "id": "fc1"
+   }
+  },
+  {
+   "id": "event4",
+   "name": "Sunshine and fresh air",
+   "takePlaceAt": {
+    "id": "place2"
+   },
+   "hasParticipant": {
+    "id": "fc1"
+   }
+  },
+  {
+   "id": "event5",
+   "name": "Planning to return to the cottage",
+   "takePlaceAt": {
+    "id": "place3"
+   },
+   "hasParticipant": {
+    "id": "fc1"
+   }
+  },
+  {
+   "id": "event6",
+   "name": "Feeling of dread",
+   "takePlaceAt": {
+    "id": "place4"
+   },
+   "hasParticipant": {
+    "id": "fc1"
+   }
+  }
+ ]
+}

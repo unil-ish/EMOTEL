@@ -1,0 +1,114 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "Lucy",
+   "feels": [
+    {
+     "name": "Fear",
+     "hasIntensity": 0.7,
+     "quote": "She had been a little frightened, both by Miss Lavish and by Mr. Eager, she knew not why.",
+     "causedBy": {
+      "id": "encounter1",
+      "name": "Encounter with Miss Lavish and Mr. Eager"
+     },
+     "hasObject": {
+      "id": "unknown",
+      "name": "Unknown"
+     },
+     "exactPlace": "In the newspaper-room at the English bank"
+    },
+    {
+     "name": "Rebellion",
+     "hasIntensity": 0.8,
+     "quote": "For the first time Lucy’s rebellious thoughts swept out in words—for the first time in her life.",
+     "causedBy": {
+      "id": "conversation1",
+      "name": "Conversation with Mr. Eager"
+     },
+     "hasObject": {
+      "id": "unknown",
+      "name": "Unknown"
+     },
+     "exactPlace": "In the newspaper-room at the English bank"
+    },
+    {
+     "name": "Confusion",
+     "hasIntensity": 0.6,
+     "quote": "Lucy was recalled to her manners, and after a little exertion the complacency of Mr. Eager was restored.",
+     "causedBy": {
+      "id": "conversation2",
+      "name": "Conversation with Mr. Eager"
+     },
+     "hasObject": {
+      "id": "unknown",
+      "name": "Unknown"
+     },
+     "exactPlace": "In the newspaper-room at the English bank"
+    },
+    {
+     "name": "Curiosity",
+     "hasIntensity": 0.9,
+     "quote": "Lucy stood by the central table, trying to answer, or at least to formulate the questions rioting in her brain.",
+     "causedBy": {
+      "id": "thoughts1",
+      "name": "Thoughts about the incidents in Florence"
+     },
+     "hasObject": {
+      "id": "unknown",
+      "name": "Unknown"
+     },
+     "exactPlace": "In the newspaper-room at the English bank"
+    }
+   ]
+  }
+ ],
+ "Places": [
+  {
+   "id": "newspaperroom1",
+   "name": "Newspaper-room at the English bank",
+   "description": "A room with a central table and newspapers like Punch and the Graphic."
+  }
+ ],
+ "Events": [
+  {
+   "id": "encounter1",
+   "name": "Encounter with Miss Lavish and Mr. Eager",
+   "takePlaceAt": {
+    "id": "newspaperroom1"
+   },
+   "hasParticipant": {
+    "id": "Lucy"
+   }
+  },
+  {
+   "id": "conversation1",
+   "name": "Conversation with Mr. Eager",
+   "takePlaceAt": {
+    "id": "newspaperroom1"
+   },
+   "hasParticipant": {
+    "id": "Lucy"
+   }
+  },
+  {
+   "id": "conversation2",
+   "name": "Conversation with Mr. Eager",
+   "takePlaceAt": {
+    "id": "newspaperroom1"
+   },
+   "hasParticipant": {
+    "id": "Lucy"
+   }
+  },
+  {
+   "id": "thoughts1",
+   "name": "Thoughts about the incidents in Florence",
+   "takePlaceAt": {
+    "id": "newspaperroom1"
+   },
+   "hasParticipant": {
+    "id": "Lucy"
+   }
+  }
+ ]
+}

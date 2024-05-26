@@ -1,0 +1,134 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "Queequeg",
+   "feels": [
+    {
+     "name": "Presentiment",
+     "hasIntensity": 0.7,
+     "quote": "He seemed to be working in obedience to some particular presentiment.",
+     "causedBy": {
+      "id": "event1",
+      "name": "Anointing his boat"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Boat"
+     },
+     "place": {
+      "id": "place1",
+      "name": "On the boat"
+     }
+    }
+   ]
+  },
+  {
+   "id": "Stubb",
+   "feels": [
+    {
+     "name": "Excitement",
+     "hasIntensity": 0.9,
+     "quote": "That drove the spigot out of him!",
+     "causedBy": {
+      "id": "event2",
+      "name": "Successfully pitchpoling the whale"
+     },
+     "hasObject": {
+      "id": "object2",
+      "name": "Whale"
+     },
+     "place": {
+      "id": "place2",
+      "name": "On the boat"
+     }
+    },
+    {
+     "name": "Playfulness",
+     "hasIntensity": 0.8,
+     "quote": "Yea, verily, hearts alive, we’d brew choice punch in the spread of his spout-hole there, and from that live punch-bowl quaff the living stuff.",
+     "causedBy": {
+      "id": "event3",
+      "name": "Successfully pitchpoling the whale"
+     },
+     "hasObject": {
+      "id": "object3",
+      "name": "Whale"
+     },
+     "place": {
+      "id": "place2",
+      "name": "On the boat"
+     }
+    },
+    {
+     "name": "Amusement",
+     "hasIntensity": 0.7,
+     "quote": "Again and again to such gamesome talk, the dexterous dart is repeated.",
+     "causedBy": {
+      "id": "event4",
+      "name": "Successfully pitchpoling the whale"
+     },
+     "hasObject": {
+      "id": "object4",
+      "name": "Whale"
+     },
+     "place": {
+      "id": "place2",
+      "name": "On the boat"
+     }
+    }
+   ]
+  }
+ ],
+ "Places": [
+  {
+   "id": "place1",
+   "name": "Under the boat"
+  },
+  {
+   "id": "place2",
+   "name": "On the boat"
+  }
+ ],
+ "Events": [
+  {
+   "id": "event1",
+   "name": "Anointing his boat",
+   "takePlaceAt": {
+    "id": "place1"
+   },
+   "hasParticipant": {
+    "id": "Queequeg"
+   }
+  },
+  {
+   "id": "event2",
+   "name": "Successfully pitchpoling the whale",
+   "takePlaceAt": {
+    "id": "place2"
+   },
+   "hasParticipant": {
+    "id": "Stubb"
+   }
+  },
+  {
+   "id": "event3",
+   "name": "Successfully pitchpoling the whale",
+   "takePlaceAt": {
+    "id": "place2"
+   },
+   "hasParticipant": {
+    "id": "Stubb"
+   }
+  },
+  {
+   "id": "event4",
+   "name": "Successfully pitchpoling the whale",
+   "takePlaceAt": {
+    "id": "place2"
+   },
+   "hasParticipant": {
+    "id": "Stubb"
+   }
+  }
+ ]
+}

@@ -1,0 +1,129 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "Lucy Honeychurch",
+   "feels": [
+    {
+     "name": "Annoyance",
+     "hasIntensity": 0.8,
+     "quote": "Oh, mother, what rubbish you talk! Of course I'm not tired of Windy Corner.",
+     "causedBy": {
+      "id": "conversation with mother",
+      "name": "Mother's accusations and complaints"
+     },
+     "hasObject": {
+      "id": "Windy Corner",
+      "name": "Home"
+     },
+     "exactPlace": "In the carriage"
+    },
+    {
+     "name": "Disappointment",
+     "hasIntensity": 0.9,
+     "quote": "She sank back. The carriage stopped at the Rectory. She got out to call for Miss Bartlett. So the Emersons had gone, and all this bother about Greece had been unnecessary. Waste!",
+     "causedBy": {
+      "id": "realization of unnecessary bother",
+      "name": "Emersons' departure"
+     },
+     "hasObject": {
+      "id": "Greece trip",
+      "name": "Travel plans"
+     },
+     "exactPlace": "At the Rectory"
+    },
+    {
+     "name": "Confusion",
+     "hasIntensity": 0.7,
+     "quote": "Not a word would come to her lips. George she had faced, and could have faced again, but she had forgotten how to treat his father.",
+     "causedBy": {
+      "id": "meeting Mr. Emerson",
+      "name": "Encounter with Mr. Emerson"
+     },
+     "hasObject": {
+      "id": "Mr. Emerson",
+      "name": "Mr. Emerson"
+     },
+     "exactPlace": "In Mr. Beebe's study"
+    },
+    {
+     "name": "Regret",
+     "hasIntensity": 0.8,
+     "quote": "Feeling a little steadier, she put the book back and turned round to him. His face was drooping and swollen, but his eyes, though they were sunken deep, gleamed with a child’s courage.",
+     "causedBy": {
+      "id": "Mr. Emerson's emotional speech",
+      "name": "Mr. Emerson's emotional speech"
+     },
+     "hasObject": {
+      "id": "Mr. Emerson",
+      "name": "Mr. Emerson"
+     },
+     "exactPlace": "In Mr. Beebe's study"
+    }
+   ]
+  },
+  {
+   "id": "Mr. Emerson",
+   "feels": [
+    {
+     "name": "Remorse",
+     "hasIntensity": 0.9,
+     "quote": "He quavered: 'But you must not scold him.'",
+     "causedBy": {
+      "id": "Lucy's reaction",
+      "name": "Lucy's reaction"
+     },
+     "hasObject": {
+      "id": "George Emerson",
+      "name": "George Emerson"
+     },
+     "exactPlace": "In Mr. Beebe's study"
+    },
+    {
+     "name": "Sorrow",
+     "hasIntensity": 0.8,
+     "quote": "'Miss Honeychurch, dear, we are so sorry! George is so sorry!'",
+     "causedBy": {
+      "id": "Lucy's reaction",
+      "name": "Lucy's reaction"
+     },
+     "hasObject": {
+      "id": "George Emerson",
+      "name": "George Emerson"
+     },
+     "exactPlace": "In Mr. Beebe's study"
+    },
+    {
+     "name": "Regret",
+     "hasIntensity": 0.7,
+     "quote": "'I taught him,' he quavered, 'to trust in love.'",
+     "causedBy": {
+      "id": "reflecting on past teachings",
+      "name": "Reflecting on past teachings"
+     },
+     "hasObject": {
+      "id": "George Emerson",
+      "name": "George Emerson"
+     },
+     "exactPlace": "In Mr. Beebe's study"
+    }
+   ]
+  }
+ ],
+ "Places": [
+  {
+   "id": "Carriage",
+   "name": "Carriage",
+   "description": "In the carriage on the way to Dorking Station."
+  },
+  {
+   "id": "Rectory",
+   "name": "Rectory",
+   "description": "At the Rectory where Lucy went to call for Miss Bartlett."
+  },
+  {
+   "id": "Mr. Beebe's Study",
+   "name": "Mr. Beebe's Study",
+   "description": "In Mr. Beebe's study at the Rectory."
+  }
+ ]
+}

@@ -1,0 +1,169 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "Victor Frankenstein",
+   "feels": [
+    {
+     "name": "Fear",
+     "hasIntensity": 0.9,
+     "quote": "I could not sustain the horror of my situation, and when I perceived that the popular voice and the countenances of the judges had already condemned my unhappy victim, I rushed out of the court in agony.",
+     "causedBy": {
+      "id": "event1",
+      "name": "Perception of Justine's condemnation"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Situation"
+     },
+     "exactPlace": "Courtroom"
+    },
+    {
+     "name": "Remorse",
+     "hasIntensity": 0.8,
+     "quote": "Despair! Who dared talk of that? The poor victim, who on the morrow was to pass the awful boundary between life and death, felt not, as I did, such deep and bitter agony. I gnashed my teeth and ground them together, uttering a groan that came from my inmost soul.",
+     "causedBy": {
+      "id": "event2",
+      "name": "Feeling of despair"
+     },
+     "hasObject": {
+      "id": "object2",
+      "name": "Victim's fate"
+     },
+     "exactPlace": "Prison room"
+    },
+    {
+     "name": "Anguish",
+     "hasIntensity": 0.9,
+     "quote": "I passed a night of unmingled wretchedness.",
+     "causedBy": {
+      "id": "event3",
+      "name": "Night of wretchedness"
+     },
+     "hasObject": {
+      "id": "object3",
+      "name": "Personal situation"
+     },
+     "exactPlace": "Personal space"
+    }
+   ]
+  },
+  {
+   "id": "Elizabeth Lavenza",
+   "feels": [
+    {
+     "name": "Despair",
+     "hasIntensity": 0.9,
+     "quote": "Alas! How shall I ever again believe in human goodness?",
+     "causedBy": {
+      "id": "event4",
+      "name": "Loss of faith in human goodness"
+     },
+     "hasObject": {
+      "id": "object4",
+      "name": "Human goodness"
+     },
+     "exactPlace": "Home"
+    },
+    {
+     "name": "Grief",
+     "hasIntensity": 0.8,
+     "quote": "Oh, Justine! Forgive me for having for one moment distrusted you.",
+     "causedBy": {
+      "id": "event5",
+      "name": "Distrust towards Justine"
+     },
+     "hasObject": {
+      "id": "object5",
+      "name": "Distrust"
+     },
+     "exactPlace": "Prison chamber"
+    }
+   ]
+  },
+  {
+   "id": "Justine Moritz",
+   "feels": [
+    {
+     "name": "Remorse",
+     "hasIntensity": 0.9,
+     "quote": "I did confess, but I confessed a lie. I confessed, that I might obtain absolution; but now that falsehood lies heavier at my heart than all my other sins.",
+     "causedBy": {
+      "id": "event6",
+      "name": "Confession of a lie"
+     },
+     "hasObject": {
+      "id": "object6",
+      "name": "Falsehood"
+     },
+     "exactPlace": "Prison chamber"
+    },
+    {
+     "name": "Resignation",
+     "hasIntensity": 0.8,
+     "quote": "God raises my weakness and gives me courage to endure the worst. I leave a sad and bitter world; and if you remember me and think of me as of one unjustly condemned, I am resigned to the fate awaiting me.",
+     "causedBy": {
+      "id": "event7",
+      "name": "Acceptance of fate"
+     },
+     "hasObject": {
+      "id": "object7",
+      "name": "Fate"
+     },
+     "exactPlace": "Prison chamber"
+    }
+   ]
+  }
+ ],
+ "Places": [
+  {
+   "id": "Courtroom",
+   "name": "Courtroom",
+   "description": "Where the trial of Justine Moritz took place."
+  },
+  {
+   "id": "Prison room",
+   "name": "Prison room",
+   "description": "Where Justine Moritz was held in prison."
+  },
+  {
+   "id": "Personal space",
+   "name": "Personal space",
+   "description": "Where Victor Frankenstein experienced personal anguish."
+  },
+  {
+   "id": "Home",
+   "name": "Home",
+   "description": "Where Elizabeth Lavenza expressed despair."
+  }
+ ],
+ "Events": [
+  {
+   "id": "event1",
+   "name": "Perception of Justine's condemnation"
+  },
+  {
+   "id": "event2",
+   "name": "Feeling of despair"
+  },
+  {
+   "id": "event3",
+   "name": "Night of wretchedness"
+  },
+  {
+   "id": "event4",
+   "name": "Loss of faith in human goodness"
+  },
+  {
+   "id": "event5",
+   "name": "Distrust towards Justine"
+  },
+  {
+   "id": "event6",
+   "name": "Confession of a lie"
+  },
+  {
+   "id": "event7",
+   "name": "Acceptance of fate"
+  }
+ ]
+}

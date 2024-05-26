@@ -1,0 +1,160 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "fc1",
+   "name": "Victor Frankenstein",
+   "feels": [
+    {
+     "name": "Remorse",
+     "hasIntensity": 0.9,
+     "quote": "This also was my doing! And my father’s woe, and the desolation of that late so smiling home all was the work of my thrice-accursed hands!",
+     "causedBy": {
+      "id": "event1",
+      "name": "Realization of the consequences of his actions"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Actions leading to grief"
+     },
+     "place": {
+      "id": "place1",
+      "name": "Mental state"
+     }
+    },
+    {
+     "name": "Despair",
+     "hasIntensity": 0.8,
+     "quote": "I was seized by remorse and the sense of guilt, which hurried me away to a hell of intense tortures such as no language can describe.",
+     "causedBy": {
+      "id": "event2",
+      "name": "Sense of guilt"
+     },
+     "hasObject": {
+      "id": "object2",
+      "name": "Guilt"
+     },
+     "place": {
+      "id": "place1",
+      "name": "Mental state"
+     }
+    },
+    {
+     "name": "Fear",
+     "hasIntensity": 0.7,
+     "quote": "I was restrained, when I thought of the heroic and suffering Elizabeth, whom I tenderly loved, and whose existence was bound up in mine.",
+     "causedBy": {
+      "id": "event3",
+      "name": "Fear of losing loved ones"
+     },
+     "hasObject": {
+      "id": "object3",
+      "name": "Loved ones"
+     },
+     "place": {
+      "id": "place2",
+      "name": "Thoughts of loved ones"
+     }
+    },
+    {
+     "name": "Anger",
+     "hasIntensity": 0.8,
+     "quote": "Devil,” I exclaimed, “do you dare approach me? And do not you fear the fierce vengeance of my arm wreaked on your miserable head?",
+     "causedBy": {
+      "id": "event4",
+      "name": "Encounter with the creature"
+     },
+     "hasObject": {
+      "id": "object4",
+      "name": "Creature"
+     },
+     "place": {
+      "id": "place3",
+      "name": "Encounter location"
+     }
+    },
+    {
+     "name": "Curiosity",
+     "hasIntensity": 0.6,
+     "quote": "I was partly urged by curiosity, and compassion confirmed my resolution.",
+     "causedBy": {
+      "id": "event5",
+      "name": "Desire to understand the creature"
+     },
+     "hasObject": {
+      "id": "object5",
+      "name": "Creature"
+     },
+     "place": {
+      "id": "place4",
+      "name": "Desire to understand"
+     }
+    },
+    {
+     "name": "Compassion",
+     "hasIntensity": 0.7,
+     "quote": "I was deeply affected by it. If such lovely creatures were miserable, it was less strange that I, an imperfect and solitary being, should be wretched.",
+     "causedBy": {
+      "id": "event6",
+      "name": "Empathy towards the cottagers"
+     },
+     "hasObject": {
+      "id": "object6",
+      "name": "Cottagers"
+     },
+     "place": {
+      "id": "place5",
+      "name": "Observing the cottagers"
+     }
+    }
+   ]
+  }
+ ],
+ "Places": [
+  {
+   "id": "place1",
+   "name": "Mental state"
+  },
+  {
+   "id": "place2",
+   "name": "Thoughts of loved ones"
+  },
+  {
+   "id": "place3",
+   "name": "Encounter location"
+  },
+  {
+   "id": "place4",
+   "name": "Desire to understand"
+  },
+  {
+   "id": "place5",
+   "name": "Observing the cottagers"
+  }
+ ],
+ "Events": [
+  {
+   "id": "event1",
+   "name": "Realization of the consequences of his actions"
+  },
+  {
+   "id": "event2",
+   "name": "Sense of guilt"
+  },
+  {
+   "id": "event3",
+   "name": "Fear of losing loved ones"
+  },
+  {
+   "id": "event4",
+   "name": "Encounter with the creature"
+  },
+  {
+   "id": "event5",
+   "name": "Desire to understand the creature"
+  },
+  {
+   "id": "event6",
+   "name": "Empathy towards the cottagers"
+  }
+ ]
+}

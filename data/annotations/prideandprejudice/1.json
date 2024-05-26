@@ -1,0 +1,193 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "fc1",
+   "name": "Elizabeth Bennet",
+   "feels": [
+    {
+     "name": "Surprise",
+     "hasIntensity": 0.6,
+     "quote": "Elizabeth was surprised, but agreed to it immediately.",
+     "causedBy": {
+      "id": "event1",
+      "name": "Miss Bingley's invitation to walk"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Miss Bingley's invitation"
+     },
+     "exactPlace": "Drawing-room"
+    },
+    {
+     "name": "Delight",
+     "hasIntensity": 0.8,
+     "quote": "Elizabeth, at work in the opposite corner, saw it all with great delight.",
+     "causedBy": {
+      "id": "event2",
+      "name": "Mr. Bingley's attention to Jane"
+     },
+     "hasObject": {
+      "id": "object2",
+      "name": "Mr. Bingley's attention"
+     },
+     "exactPlace": "Drawing-room"
+    },
+    {
+     "name": "Amusement",
+     "hasIntensity": 0.7,
+     "quote": "Elizabeth could not help observing, as she turned over some music-books that lay on the instrument, how frequently Mr. Darcy’s eyes were fixed on her.",
+     "causedBy": {
+      "id": "event3",
+      "name": "Mr. Darcy's attention to Elizabeth"
+     },
+     "hasObject": {
+      "id": "object3",
+      "name": "Mr. Darcy's attention"
+     },
+     "exactPlace": "Drawing-room"
+    },
+    {
+     "name": "Gallantry",
+     "hasIntensity": 0.9,
+     "quote": "Elizabeth was amazed at his gallantry.",
+     "causedBy": {
+      "id": "event4",
+      "name": "Mr. Darcy's behavior"
+     },
+     "hasObject": {
+      "id": "object4",
+      "name": "Mr. Darcy's behavior"
+     },
+     "exactPlace": "Drawing-room"
+    }
+   ]
+  },
+  {
+   "id": "fc2",
+   "name": "Miss Bingley",
+   "feels": [
+    {
+     "name": "Jealousy",
+     "hasIntensity": 0.7,
+     "quote": "Miss Bingley saw, or suspected, enough to be jealous.",
+     "causedBy": {
+      "id": "event5",
+      "name": "Mr. Darcy's attention to Elizabeth"
+     },
+     "hasObject": {
+      "id": "object5",
+      "name": "Mr. Darcy's attention"
+     },
+     "exactPlace": "Drawing-room"
+    },
+    {
+     "name": "Annoyance",
+     "hasIntensity": 0.8,
+     "quote": "Miss Bingley warmly resented the indignity he had received.",
+     "causedBy": {
+      "id": "event6",
+      "name": "Mr. Darcy's behavior"
+     },
+     "hasObject": {
+      "id": "object6",
+      "name": "Mr. Darcy's behavior"
+     },
+     "exactPlace": "Drawing-room"
+    }
+   ]
+  },
+  {
+   "id": "fc3",
+   "name": "Mr. Darcy",
+   "feels": [
+    {
+     "name": "Offended",
+     "hasIntensity": 0.7,
+     "quote": "Elizabeth thought she could perceive that he was rather offended.",
+     "causedBy": {
+      "id": "event7",
+      "name": "Miss Bingley's behavior"
+     },
+     "hasObject": {
+      "id": "object7",
+      "name": "Miss Bingley's behavior"
+     },
+     "exactPlace": "Drawing-room"
+    },
+    {
+     "name": "Curiosity",
+     "hasIntensity": 0.8,
+     "quote": "He was dying to know what could be his meaning.",
+     "causedBy": {
+      "id": "event8",
+      "name": "Miss Bingley's behavior"
+     },
+     "hasObject": {
+      "id": "object8",
+      "name": "Miss Bingley's behavior"
+     },
+     "exactPlace": "Drawing-room"
+    },
+    {
+     "name": "Bewitched",
+     "hasIntensity": 0.9,
+     "quote": "Darcy had never been so bewitched by any woman as he was by her.",
+     "causedBy": {
+      "id": "event9",
+      "name": "Elizabeth's behavior"
+     },
+     "hasObject": {
+      "id": "object9",
+      "name": "Elizabeth's behavior"
+     },
+     "exactPlace": "Drawing-room"
+    }
+   ]
+  }
+ ],
+ "Places": [
+  {
+   "id": "place1",
+   "name": "Drawing-room",
+   "description": "Where the characters interacted and displayed their emotions."
+  }
+ ],
+ "Events": [
+  {
+   "id": "event1",
+   "name": "Miss Bingley's invitation to walk"
+  },
+  {
+   "id": "event2",
+   "name": "Mr. Bingley's attention to Jane"
+  },
+  {
+   "id": "event3",
+   "name": "Mr. Darcy's attention to Elizabeth"
+  },
+  {
+   "id": "event4",
+   "name": "Mr. Darcy's behavior"
+  },
+  {
+   "id": "event5",
+   "name": "Mr. Darcy's attention to Elizabeth"
+  },
+  {
+   "id": "event6",
+   "name": "Mr. Darcy's behavior"
+  },
+  {
+   "id": "event7",
+   "name": "Miss Bingley's behavior"
+  },
+  {
+   "id": "event8",
+   "name": "Miss Bingley's behavior"
+  },
+  {
+   "id": "event9",
+   "name": "Elizabeth's behavior"
+  }
+ ]
+}

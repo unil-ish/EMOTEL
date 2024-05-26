@@ -1,0 +1,160 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "Pip",
+   "feels": [
+    {
+     "name": "Nervousness",
+     "hasIntensity": 0.6,
+     "quote": "The first time Stubb lowered with him, Pip evinced much nervousness.",
+     "causedBy": {
+      "id": "event1",
+      "name": "First time lowering with Stubb"
+     },
+     "hasObject": {
+      "id": "whale",
+      "name": "Whale"
+     },
+     "place": {
+      "id": "boat",
+      "name": "Boat"
+     }
+    },
+    {
+     "name": "Fear",
+     "hasIntensity": 0.8,
+     "quote": "The involuntary consternation of the moment caused him to leap, paddle in hand, out of the boat.",
+     "causedBy": {
+      "id": "event2",
+      "name": "Whale receiving the darted iron"
+     },
+     "hasObject": {
+      "id": "whale",
+      "name": "Whale"
+     },
+     "place": {
+      "id": "boat",
+      "name": "Boat"
+     }
+    },
+    {
+     "name": "Loneliness",
+     "hasIntensity": 0.9,
+     "quote": "Alas! Stubb was but too true to his word. It was a beautiful, bounteous, blue day; the spangled sea calm and cool, and flatly stretching away, all round, to the horizon, like gold-beater’s skin hammered out to the extremest.",
+     "causedBy": {
+      "id": "event3",
+      "name": "Being left behind on the sea"
+     },
+     "hasObject": {
+      "id": "sea",
+      "name": "Sea"
+     },
+     "place": {
+      "id": "sea",
+      "name": "Sea"
+     }
+    },
+    {
+     "name": "Desperation",
+     "hasIntensity": 0.7,
+     "quote": "But the awful lonesomeness is intolerable. The intense concentration of self in the middle of such a heartless immensity, my God! who can tell it?",
+     "causedBy": {
+      "id": "event4",
+      "name": "Being a castaway in the sea"
+     },
+     "hasObject": {
+      "id": "immensity",
+      "name": "Heartless immensity"
+     },
+     "place": {
+      "id": "sea",
+      "name": "Sea"
+     }
+    },
+    {
+     "name": "Abandonment",
+     "hasIntensity": 0.8,
+     "quote": "But had Stubb really abandoned the poor little negro to his fate? No; he did not mean to, at least.",
+     "causedBy": {
+      "id": "event5",
+      "name": "Being left behind on the sea"
+     },
+     "hasObject": {
+      "id": "sea",
+      "name": "Sea"
+     },
+     "place": {
+      "id": "sea",
+      "name": "Sea"
+     }
+    }
+   ]
+  }
+ ],
+ "Events": [
+  {
+   "id": "event1",
+   "name": "First time lowering with Stubb",
+   "takePlaceAt": {
+    "id": "boat",
+    "name": "Boat"
+   }
+  },
+  {
+   "id": "event2",
+   "name": "Whale receiving the darted iron",
+   "takePlaceAt": {
+    "id": "boat",
+    "name": "Boat"
+   }
+  },
+  {
+   "id": "event3",
+   "name": "Being left behind on the sea",
+   "takePlaceAt": {
+    "id": "sea",
+    "name": "Sea"
+   }
+  },
+  {
+   "id": "event4",
+   "name": "Being a castaway in the sea",
+   "takePlaceAt": {
+    "id": "sea",
+    "name": "Sea"
+   }
+  },
+  {
+   "id": "event5",
+   "name": "Being left behind on the sea",
+   "takePlaceAt": {
+    "id": "sea",
+    "name": "Sea"
+   }
+  }
+ ],
+ "Objects": [
+  {
+   "id": "whale",
+   "name": "Whale"
+  },
+  {
+   "id": "sea",
+   "name": "Sea"
+  },
+  {
+   "id": "immensity",
+   "name": "Heartless immensity"
+  }
+ ],
+ "Places": [
+  {
+   "id": "boat",
+   "name": "Boat"
+  },
+  {
+   "id": "sea",
+   "name": "Sea"
+  }
+ ]
+}

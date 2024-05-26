@@ -1,0 +1,139 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "VictorFrankenstein",
+   "name": "Victor Frankenstein",
+   "feels": [
+    {
+     "name": "Fear",
+     "hasIntensity": 0.9,
+     "quote": "I imagined that the monster seized me; I struggled furiously and fell down in a fit.",
+     "causedBy": {
+      "id": "event1",
+      "name": "Seeing the monster in his room"
+     },
+     "hasObject": {
+      "id": "monster",
+      "name": "The monster"
+     },
+     "place": {
+      "id": "room1",
+      "name": "Victor's room"
+     }
+    },
+    {
+     "name": "Joy",
+     "hasIntensity": 0.8,
+     "quote": "I clapped my hands for joy and ran down to Clerval.",
+     "causedBy": {
+      "id": "event2",
+      "name": "Realizing the monster had fled"
+     },
+     "hasObject": {
+      "id": "monster",
+      "name": "The monster"
+     },
+     "place": {
+      "id": "room1",
+      "name": "Victor's room"
+     }
+    },
+    {
+     "name": "Remorse",
+     "hasIntensity": 0.7,
+     "quote": "I feel the greatest remorse for the disappointment of which I have been the occasion.",
+     "causedBy": {
+      "id": "event3",
+      "name": "Reflecting on his actions"
+     }
+    },
+    {
+     "name": "Gratitude",
+     "hasIntensity": 0.9,
+     "quote": "how kind, how very good you are to me.",
+     "causedBy": {
+      "id": "event4",
+      "name": "Henry Clerval's care and attention"
+     },
+     "hasObject": {
+      "id": "HenryClerval",
+      "name": "Henry Clerval"
+     }
+    },
+    {
+     "name": "Relief",
+     "hasIntensity": 0.8,
+     "quote": "I felt my flesh tingle with excess of sensitiveness, and my pulse beat rapidly.",
+     "causedBy": {
+      "id": "event5",
+      "name": "Realizing the monster had fled"
+     }
+    },
+    {
+     "name": "Hope",
+     "hasIntensity": 0.9,
+     "quote": "I hope, I sincerely hope, that all these employments are now at an end and that I am at length free.",
+     "causedBy": {
+      "id": "event6",
+      "name": "Reflecting on his future"
+     }
+    },
+    {
+     "name": "Grief",
+     "hasIntensity": 0.8,
+     "quote": "I remember the first time I became capable of observing outward objects with any kind of pleasure, I perceived that the fallen leaves had disappeared and that the young buds were shooting forth from the trees that shaded my window.",
+     "causedBy": {
+      "id": "event7",
+      "name": "Recovering from illness"
+     }
+    }
+   ]
+  }
+ ],
+ "Events": [
+  {
+   "id": "event1",
+   "name": "Seeing the monster in his room"
+  },
+  {
+   "id": "event2",
+   "name": "Realizing the monster had fled"
+  },
+  {
+   "id": "event3",
+   "name": "Reflecting on his actions"
+  },
+  {
+   "id": "event4",
+   "name": "Henry Clerval's care and attention"
+  },
+  {
+   "id": "event5",
+   "name": "Realizing the monster had fled"
+  },
+  {
+   "id": "event6",
+   "name": "Reflecting on his future"
+  },
+  {
+   "id": "event7",
+   "name": "Recovering from illness"
+  }
+ ],
+ "Objects": [
+  {
+   "id": "monster",
+   "name": "The monster"
+  },
+  {
+   "id": "HenryClerval",
+   "name": "Henry Clerval"
+  }
+ ],
+ "Places": [
+  {
+   "id": "room1",
+   "name": "Victor's room"
+  }
+ ]
+}

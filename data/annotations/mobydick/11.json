@@ -1,0 +1,69 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "whaleman1",
+   "name": "Crippled Beggar",
+   "feels": [
+    {
+     "name": "Acceptance",
+     "hasIntensity": 0.7,
+     "quote": "But the time of his justification has now come.",
+     "causedBy": {
+      "id": "event1",
+      "name": "Holding up the painted board"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Painted board"
+     },
+     "place": "London docks"
+    }
+   ]
+  },
+  {
+   "id": "whaleman2",
+   "name": "Sailor-Savage",
+   "feels": [
+    {
+     "name": "Love",
+     "hasIntensity": 0.8,
+     "quote": "Your true whale-hunter is as much a savage as an Iroquois. I myself am a savage, owning no allegiance but to the King of the Cannibals; and ready at any moment to rebel against him.",
+     "causedBy": {
+      "id": "event2",
+      "name": "Long exile from Christendom and civilization"
+     },
+     "place": "Unknown"
+    }
+   ]
+  }
+ ],
+ "Places": [
+  {
+   "id": "place1",
+   "name": "London docks",
+   "description": "A place where a crippled beggar holds up a painted board."
+  }
+ ],
+ "Events": [
+  {
+   "id": "event1",
+   "name": "Holding up the painted board",
+   "takePlaceAt": {
+    "id": "place1"
+   },
+   "hasParticipant": {
+    "id": "whaleman1"
+   }
+  },
+  {
+   "id": "event2",
+   "name": "Long exile from Christendom and civilization",
+   "takePlaceAt": {
+    "id": "place2"
+   },
+   "hasParticipant": {
+    "id": "whaleman2"
+   }
+  }
+ ]
+}
