@@ -52,6 +52,7 @@ json
         {
           "name": "Joy",
           "hasIntensity": 0.8,
+          "quote": "John wons the prize and was full of joy.",
           "causedBy": {
             "id": "event1",
             "name": "Winning a prize"
