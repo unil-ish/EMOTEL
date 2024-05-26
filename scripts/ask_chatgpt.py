@@ -6,27 +6,25 @@ import tqdm
 import time
 
 
-def to_annotation(fp):
-    return fp.replace("/chunks/", "/annotations/")
-
-
 def send_req(messages):
+    """envoie une requête avec une liste de messages à chatpgt, et récupère le contenu de la réponse."""
+
     client = openai.OpenAI()
     response = client.chat.completions.create(
         model="gpt-3.5-turbo",
         messages=messages,
         temperature=0,
-        max_tokens=1000,
+        max_tokens=None,
         top_p=1,
         frequency_penalty=0,
         presence_penalty=0,
     )
-    return response.choices[0].message.content
+    return "\n".join([i.message.content for i in response.choices])
 
 
 def annotate_directory(chunks_dir):
-
-    annotations_dir = to_annotation(chunks_dir)
+    chunks_dir = os.path.realpath(chunks_dir)
+    annotations_dir = chunks_dir.replace("/chunks/", "/annotations/")
     if not os.path.isdir(annotations_dir):
         os.mkdir(annotations_dir)
 
@@ -43,18 +41,21 @@ def annotate_directory(chunks_dir):
     x = 1
 
     while n < total_n and x < 10:
-        print(f'reste à annoter {total_n - n} textes. essai numéro {x}/10')
+        print(f"reste à annoter {total_n - n} textes. essai numéro {x}/10")
         for fp in tqdm.tqdm(files):
             with open(os.path.join(chunks_dir, fp), "r") as f:
                 messages = json.load(f)
             response = send_req(messages)
             try:
                 r = json.loads(response)
+                if r is not None:
+                    with open(os.path.join(annotations_dir, fp), "w") as f:
+                        json.dump(obj=r, fp=f, indent=1, ensure_ascii=False)
+                    n += 1
             except json.decoder.JSONDecodeError:
-                continue
-            if r is not None:
-                with open(os.path.join(annotations_dir, fp), "w") as f:
-                    json.dump(obj=r, fp=f, indent=1, ensure_ascii=False)
+                print("erreur de décodage: à corriger manuelement")
+                with open(os.path.join(annotations_dir, fp + "_a_corriger"), "w") as f:
+                    f.write(response)
                 n += 1
         x += 1
         time.sleep(30)
