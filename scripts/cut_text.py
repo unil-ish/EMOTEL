@@ -1,8 +1,12 @@
-"""coupe un texte en textes plus petits d'au maximum 2000 caractères, sans couper au milieu des lignes."""
-
 import argparse
 import os
 import json
+
+DATA_DIR = os.path.join(
+    os.path.dirname(os.path.dirname(os.path.realpath(__file__))), "data"
+)
+CHUNKS_DIR = os.path.join(DATA_DIR, "chunks")
+TEXTS_DIR = os.path.join(DATA_DIR, "texts")
 
 parser = argparse.ArgumentParser()
 parser.add_argument(
@@ -12,21 +16,6 @@ parser.add_argument(
     type=str,
     help="le fichier à découper",
     required=True,
-)
-parser.add_argument(
-    "-d",
-    "--destination",
-    action="store",
-    type=str,
-    help="le dossier (ou le fichier) où placer les résultats",
-    default=None,
-)
-parser.add_argument(
-    "-P",
-    "--paragraph",
-    action="store_true",
-    default=False,
-    help="ne sépare pas les paragraphes.",
 )
 parser.add_argument(
     "-n",
@@ -52,28 +41,9 @@ parser.add_argument(
 )
 
 
-def cut_text_on_newlines(fp, limit):
-    """coupe un texte tout les N caractères, sans couper au milieu des lignes."""
-
-    with open(fp) as f:
-        c = f.readlines()
-    n = 0
-    a = []
-    x = []
-    for line in c:
-        ll = len(line)
-        if n + ll <= limit:
-            x.append(line)
-            n += ll
-        else:
-            a.append("".join(x))
-            x = [line]
-            n = 0
-    return a
-
-
 def cut_text_on_paragraph(fp, limit):
-    """coupe un texte tout les N caractères, sans couper au milieu des paragraphes."""
+    """coupe un texte tout les n caractères, sans couper au milieu des paragraphes."""
+
     with open(fp) as f:
         c = f.read().split("\n\n")
     c = [i.strip() for i in c]
@@ -112,7 +82,7 @@ def cut_to_messages(prompt, chunks, limit=50000):
     n = lp
     for i in chunks:
         ll = len(i)
-        if n + ll < limit:
+        if (n + ll) < limit:
             x.append(i)
             n += ll
         else:
@@ -128,67 +98,63 @@ def cut_to_messages(prompt, chunks, limit=50000):
 
 def cut(args):
     fp = args.file
-
-    paragraph = args.paragraph
     n = args.character_number
 
     # vérifie que le fichier existe
     if not os.path.isfile(fp):
         raise ValueError(fp, "is not a file.")
 
-    # assigne la fonction qui correspond à la méthode choisie
-    if paragraph is True:
-        fn = cut_text_on_paragraph
-    else:
-        fn = cut_text_on_newlines
-
-    parts = fn(fp, n)
-    return parts
-
-
-def new_filepath(fp, dest_dir, n, ext):
-    filename = os.path.basename(fp)
-    dest_fp = os.path.join(
-        dest_dir,
-        filename + "_" + str(n) + "." + ext,
-    )
-    return dest_fp
-
-
-if __name__ == "__main__":
-    args = parser.parse_args()
+    parts = cut_text_on_paragraph(fp, n)
 
     # créer le dossier s'il n'existe pas déjà. sinon, vérifier qu'il ne contient pas déjà des fichiers.
-    destination = os.path.realpath(args.destination)
-    if not os.path.isdir(destination):
-        os.mkdir(destination)
-    elif len(os.listdir(destination)) != 0:
-        raise ValueError(destination, "is not empty.")
-
-    parts = cut(args)
+    dest_dir = create_dest_dir(args.file)
 
     # prépare des listes de messages pour chatgpt et les écrits au format json.
     if args.json is True:
         messages_list_lists = cut_to_messages(
-            prompt=args.prompt, chunks=parts, limit=5000
+            prompt=args.prompt, chunks=parts, limit=50000
         )
         for n, i in enumerate(messages_list_lists):
             fp = new_filepath(
                 fp=args.file,
-                dest_dir=destination,
+                dest_dir=dest_dir,
                 n=n,
                 ext="json",
             )
             with open(fp, "w") as f:
-                json.dump(obj=i, fp=f)
-        quit(0)
+                json.dump(obj=i, fp=f, indent=1, ensure_ascii=False)
     else:
         for n, x in enumerate(parts):
             fp = new_filepath(
                 fp=args.file,
-                dest_dir=destination,
+                dest_dir=dest_dir,
                 n=n,
                 ext="txt",
             )
             with open(fp, "w") as f:
                 f.write(x)
+
+
+def new_filepath(fp, dest_dir, n, ext):
+    dest_fp = os.path.join(
+        dest_dir,
+        str(n) + "." + ext,
+    )
+    return dest_fp
+
+
+def create_dest_dir(fp):
+    filename = os.path.basename(fp)
+    if "." in filename:
+        filename = filename[: filename.index(".")]
+    dirpath = os.path.join(CHUNKS_DIR, filename)
+    if not os.path.isdir(dirpath):
+        os.mkdir(dirpath)
+    elif len(os.listdir(dirpath)) != 0:
+        raise ValueError(dirpath, "is not empty.")
+    return dirpath
+
+
+if __name__ == "__main__":
+    args = parser.parse_args()
+    cut(args)
