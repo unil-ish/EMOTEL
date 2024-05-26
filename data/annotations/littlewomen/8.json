@@ -1,0 +1,95 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "fc1",
+   "name": "Amy",
+   "feels": [
+    {
+     "name": "Fear",
+     "hasIntensity": 0.7,
+     "quote": "I've been so scared and worried, I don't want to have anything to do with lovers for a long while,--perhaps never.",
+     "causedBy": {
+      "id": "event1",
+      "name": "Receiving a love letter"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Love letter"
+     },
+     "exactPlace": "In the study"
+    }
+   ]
+  },
+  {
+   "id": "fc2",
+   "name": "Laurie",
+   "feels": [
+    {
+     "name": "Indignation",
+     "hasIntensity": 0.8,
+     "quote": "I've been shaken, and I won't bear it!",
+     "causedBy": {
+      "id": "event2",
+      "name": "Being shaken by grandfather"
+     },
+     "exactPlace": "In the study"
+    }
+   ]
+  },
+  {
+   "id": "fc3",
+   "name": "Jo",
+   "feels": [
+    {
+     "name": "Sorrow",
+     "hasIntensity": 0.7,
+     "quote": "Seeing that he really was out of temper, Jo, who knew how to manage him, assumed a contrite expression, and going artistically down upon her knees, said meekly, 'Please forgive me for being so cross. I came to make it up, and can't go away till I have.'",
+     "causedBy": {
+      "id": "event3",
+      "name": "Laurie being out of temper"
+     },
+     "exactPlace": "In the study"
+    }
+   ]
+  }
+ ],
+ "Places": [
+  {
+   "id": "place1",
+   "name": "The study",
+   "description": "A room in the house where discussions and conflicts take place."
+  }
+ ],
+ "Events": [
+  {
+   "id": "event1",
+   "name": "Receiving a love letter",
+   "takePlaceAt": {
+    "id": "place1"
+   },
+   "hasParticipant": {
+    "id": "fc1"
+   }
+  },
+  {
+   "id": "event2",
+   "name": "Being shaken by grandfather",
+   "takePlaceAt": {
+    "id": "place1"
+   },
+   "hasParticipant": {
+    "id": "fc2"
+   }
+  },
+  {
+   "id": "event3",
+   "name": "Laurie being out of temper",
+   "takePlaceAt": {
+    "id": "place1"
+   },
+   "hasParticipant": {
+    "id": "fc3"
+   }
+  }
+ ]
+}

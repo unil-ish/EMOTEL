@@ -1,0 +1,124 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "Meg",
+   "feels": [
+    {
+     "name": "Remorse",
+     "hasIntensity": 0.9,
+     "quote": "Oh, John, my dear, kind, hard-working boy, I didn't mean it! It was so wicked, so untrue and ungrateful, how could I say it! Oh, how could I say it!",
+     "causedBy": {
+      "id": "event1",
+      "name": "Reproaching John with his poverty"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "John"
+     },
+     "exactPlace": "In the hall, with her face buried in the old great-coat"
+    },
+    {
+     "name": "Despair",
+     "hasIntensity": 0.8,
+     "quote": "The discovery that John had countermanded the order for his new great-coat reduced her to a state of despair which was pathetic to behold.",
+     "causedBy": {
+      "id": "event2",
+      "name": "Countermanding the order for the new great-coat"
+     },
+     "hasObject": {
+      "id": "object2",
+      "name": "John"
+     },
+     "exactPlace": "In the hall, crying as if her heart would break"
+    },
+    {
+     "name": "Love",
+     "hasIntensity": 0.9,
+     "quote": "Meg learned to love her husband better for his poverty, because it seemed to have made a man of him, given him the strength and courage to fight his own way, and taught him a tender patience with which to bear and comfort the natural longings and failures of those he loved.",
+     "causedBy": {
+      "id": "event3",
+      "name": "Long talk about their relationship"
+     },
+     "hasObject": {
+      "id": "object3",
+      "name": "John"
+     },
+     "exactPlace": "During a long talk that night"
+    }
+   ]
+  },
+  {
+   "id": "John",
+   "feels": [
+    {
+     "name": "Hurt",
+     "hasIntensity": 0.9,
+     "quote": "I was afraid of this; I do my best, Meg.",
+     "causedBy": {
+      "id": "event4",
+      "name": "Meg's words of ingratitude"
+     },
+     "hasObject": {
+      "id": "object4",
+      "name": "Meg"
+     },
+     "exactPlace": "After Meg's words of ingratitude"
+    },
+    {
+     "name": "Forgiveness",
+     "hasIntensity": 0.9,
+     "quote": "He was very kind, forgave her readily, and did not utter one reproach.",
+     "causedBy": {
+      "id": "event5",
+      "name": "Meg's repentant tears"
+     },
+     "hasObject": {
+      "id": "object5",
+      "name": "Meg"
+     },
+     "exactPlace": "After Meg's repentant tears"
+    },
+    {
+     "name": "Resentment",
+     "hasIntensity": 0.8,
+     "quote": "He had simply said, 'I can't afford it, my dear.'",
+     "causedBy": {
+      "id": "event6",
+      "name": "Countermanding the order for the new great-coat"
+     },
+     "hasObject": {
+      "id": "object6",
+      "name": "Meg"
+     },
+     "exactPlace": "In the hall, with Meg crying as if her heart would break"
+    }
+   ]
+  }
+ ],
+ "Events": [
+  {
+   "id": "event1",
+   "name": "Reproaching John with his poverty"
+  },
+  {
+   "id": "event2",
+   "name": "Countermanding the order for the new great-coat"
+  },
+  {
+   "id": "event3",
+   "name": "Long talk about their relationship"
+  },
+  {
+   "id": "event4",
+   "name": "Meg's words of ingratitude"
+  },
+  {
+   "id": "event5",
+   "name": "Meg's repentant tears"
+  },
+  {
+   "id": "event6",
+   "name": "Countermanding the order for the new great-coat"
+  }
+ ]
+}

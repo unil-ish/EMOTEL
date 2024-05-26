@@ -1,0 +1,172 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "Fred Vincy",
+   "feels": [
+    {
+     "name": "Remorse",
+     "hasIntensity": 0.9,
+     "quote": "I am a good-for-nothing blackguard.",
+     "causedBy": {
+      "id": "event1",
+      "name": "Inability to pay back money borrowed"
+     },
+     "hasObject": {
+      "id": "money",
+      "name": "Money"
+     },
+     "place": "Mary's house"
+    },
+    {
+     "name": "Despair",
+     "hasIntensity": 0.7,
+     "quote": "I shall never speak to you about anything again. I'm very sorry for all the trouble I've caused—that's all.",
+     "causedBy": {
+      "id": "event2",
+      "name": "Rejection by Mary"
+     },
+     "hasObject": {
+      "id": "relationship",
+      "name": "Relationship with Mary"
+     },
+     "place": "Mary's house"
+    },
+    {
+     "name": "Hope",
+     "hasIntensity": 0.8,
+     "quote": "Fred secretly felt that his future was guaranteed against the fulfilment of Mary’s sarcastic prophecies.",
+     "causedBy": {
+      "id": "event3",
+      "name": "Expectations from Mr. Featherstone"
+     },
+     "hasObject": {
+      "id": "future",
+      "name": "Future prospects"
+     },
+     "place": "On his way home"
+    }
+   ]
+  },
+  {
+   "id": "Mary Garth",
+   "feels": [
+    {
+     "name": "Pity",
+     "hasIntensity": 0.8,
+     "quote": "Her pity for him surmounted her anger and all her other anxieties.",
+     "causedBy": {
+      "id": "event4",
+      "name": "Fred's despairing glance"
+     },
+     "hasObject": {
+      "id": "Fred",
+      "name": "Fred Vincy"
+     },
+     "place": "Mary's house"
+    },
+    {
+     "name": "Resentment",
+     "hasIntensity": 0.9,
+     "quote": "How can you bear to be so contemptible, when others are working and striving, and there are so many things to be done?",
+     "causedBy": {
+      "id": "event5",
+      "name": "Fred's irresponsibility"
+     },
+     "hasObject": {
+      "id": "Fred",
+      "name": "Fred Vincy"
+     },
+     "place": "Mary's house"
+    },
+    {
+     "name": "Love",
+     "hasIntensity": 0.9,
+     "quote": "I consider my father and mother the best part of myself, sir.",
+     "causedBy": {
+      "id": "event6",
+      "name": "Father's concern for her savings"
+     },
+     "hasObject": {
+      "id": "family",
+      "name": "Family"
+     },
+     "place": "Mary's house"
+    }
+   ]
+  },
+  {
+   "id": "Caleb Garth",
+   "feels": [
+    {
+     "name": "Tenderness",
+     "hasIntensity": 0.8,
+     "quote": "Caleb's voice became more tender; he had been pushing his hat about on the table and looking at it, but finally he turned his eyes on his daughter.",
+     "causedBy": {
+      "id": "event7",
+      "name": "Concern for Mary's future"
+     },
+     "hasObject": {
+      "id": "Mary",
+      "name": "Mary Garth"
+     },
+     "place": "Mary's house"
+    },
+    {
+     "name": "Regret",
+     "hasIntensity": 0.7,
+     "quote": "I’ve been a bit of a fool again, and put my name to a bill, and now it comes to paying.",
+     "causedBy": {
+      "id": "event8",
+      "name": "Financial trouble"
+     },
+     "hasObject": {
+      "id": "money",
+      "name": "Money"
+     },
+     "place": "Mary's house"
+    }
+   ]
+  }
+ ],
+ "Places": [
+  {
+   "id": "Mary's house",
+   "name": "Mary's house",
+   "description": "The setting for emotional conversations and revelations between the characters."
+  }
+ ],
+ "Events": [
+  {
+   "id": "event1",
+   "name": "Inability to pay back money borrowed"
+  },
+  {
+   "id": "event2",
+   "name": "Rejection by Mary"
+  },
+  {
+   "id": "event3",
+   "name": "Expectations from Mr. Featherstone"
+  },
+  {
+   "id": "event4",
+   "name": "Fred's despairing glance"
+  },
+  {
+   "id": "event5",
+   "name": "Fred's irresponsibility"
+  },
+  {
+   "id": "event6",
+   "name": "Father's concern for her savings"
+  },
+  {
+   "id": "event7",
+   "name": "Concern for Mary's future"
+  },
+  {
+   "id": "event8",
+   "name": "Financial trouble"
+  }
+ ]
+}

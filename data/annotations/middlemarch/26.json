@@ -1,0 +1,113 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "Will Ladislaw",
+   "feels": [
+    {
+     "name": "Anger",
+     "hasIntensity": 0.8,
+     "quote": "You shall keep your ill-gotten money. If I had any fortune of my own, I would willingly pay it to any one who could disprove what you have told me.",
+     "causedBy": {
+      "id": "Bulstrode's revelation about his mother's family",
+      "name": "Revelation about his mother's family"
+     },
+     "hasObject": {
+      "id": "Bulstrode",
+      "name": "Bulstrode"
+     },
+     "place": {
+      "id": "Bulstrode's private room",
+      "name": "Bulstrode's private room"
+     }
+    },
+    {
+     "name": "Indignation",
+     "hasIntensity": 0.9,
+     "quote": "I will not hear any evil spoken of Mr. Ladislaw; he has already suffered too much injustice.",
+     "causedBy": {
+      "id": "Gossip about Ladislaw",
+      "name": "Gossip about Ladislaw"
+     },
+     "hasObject": {
+      "id": "Sir James and Mrs. Cadwallader",
+      "name": "Sir James and Mrs. Cadwallader"
+     },
+     "place": {
+      "id": "Freshitt",
+      "name": "Freshitt"
+     }
+    },
+    {
+     "name": "Sadness",
+     "hasIntensity": 0.7,
+     "quote": "The tears came and rolled down her cheeks, but she did not know it.",
+     "causedBy": {
+      "id": "Gossip about Ladislaw",
+      "name": "Gossip about Ladislaw"
+     },
+     "hasObject": {
+      "id": "Sir James and Mrs. Cadwallader",
+      "name": "Sir James and Mrs. Cadwallader"
+     },
+     "place": {
+      "id": "Carriage",
+      "name": "Carriage"
+     }
+    }
+   ]
+  },
+  {
+   "id": "Dorothea",
+   "feels": [
+    {
+     "name": "Indignation",
+     "hasIntensity": 0.9,
+     "quote": "I will not hear any evil spoken of Mr. Ladislaw; he has already suffered too much injustice.",
+     "causedBy": {
+      "id": "Gossip about Ladislaw",
+      "name": "Gossip about Ladislaw"
+     },
+     "hasObject": {
+      "id": "Sir James and Mrs. Cadwallader",
+      "name": "Sir James and Mrs. Cadwallader"
+     },
+     "place": {
+      "id": "Freshitt",
+      "name": "Freshitt"
+     }
+    },
+    {
+     "name": "Sadness",
+     "hasIntensity": 0.7,
+     "quote": "The tears came and rolled down her cheeks, but she did not know it.",
+     "causedBy": {
+      "id": "Gossip about Ladislaw",
+      "name": "Gossip about Ladislaw"
+     },
+     "hasObject": {
+      "id": "Sir James and Mrs. Cadwallader",
+      "name": "Sir James and Mrs. Cadwallader"
+     },
+     "place": {
+      "id": "Carriage",
+      "name": "Carriage"
+     }
+    }
+   ]
+  }
+ ],
+ "Places": [
+  {
+   "id": "Bulstrode's private room",
+   "name": "Bulstrode's private room"
+  },
+  {
+   "id": "Freshitt",
+   "name": "Freshitt"
+  },
+  {
+   "id": "Carriage",
+   "name": "Carriage"
+  }
+ ]
+}

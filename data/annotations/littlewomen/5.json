@@ -1,0 +1,111 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "fc1",
+   "name": "Beth",
+   "feels": [
+    {
+     "name": "Embarrassment",
+     "hasIntensity": 0.7,
+     "quote": "Buffaloes proved soothing and satisfactory; and, in her eagerness to amuse another, Beth forgot herself, and was quite unconscious of her sisters' surprise and delight at the unusual spectacle of Beth talking away to one of the dreadful boys, against whom she had begged protection.",
+     "causedBy": {
+      "id": "situation1",
+      "name": "Talking to Frank"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Author-cards"
+     },
+     "place": {
+      "id": "place1",
+      "name": "Croquet-ground"
+     }
+    }
+   ]
+  },
+  {
+   "id": "fc2",
+   "name": "Meg",
+   "feels": [
+    {
+     "name": "Annoyance",
+     "hasIntensity": 0.6,
+     "quote": "Meg, passing over the first part of his reproach; for it was quite true that she had shunned him, remembering the Moffat party and the talk after it.",
+     "causedBy": {
+      "id": "situation2",
+      "name": "Shunning Ned"
+     },
+     "place": {
+      "id": "place2",
+      "name": "Croquet-ground"
+     }
+    }
+   ]
+  },
+  {
+   "id": "fc3",
+   "name": "Laurie",
+   "feels": [
+    {
+     "name": "Curiosity",
+     "hasIntensity": 0.8,
+     "quote": "Well, that's cool! to have a picnic and never ask me. They can't be going in the boat, for they haven't got the key. Perhaps they forgot it; I'll take it to them, and see what's going on.",
+     "causedBy": {
+      "id": "situation3",
+      "name": "Not being invited to the picnic"
+     },
+     "place": {
+      "id": "place3",
+      "name": "Hammock"
+     }
+    }
+   ]
+  }
+ ],
+ "Places": [
+  {
+   "id": "place1",
+   "name": "Croquet-ground"
+  },
+  {
+   "id": "place2",
+   "name": "Croquet-ground"
+  },
+  {
+   "id": "place3",
+   "name": "Hammock"
+  }
+ ],
+ "Events": [
+  {
+   "id": "situation1",
+   "name": "Talking to Frank",
+   "takePlaceAt": {
+    "id": "place1"
+   },
+   "hasParticipant": {
+    "id": "fc1"
+   }
+  },
+  {
+   "id": "situation2",
+   "name": "Shunning Ned",
+   "takePlaceAt": {
+    "id": "place2"
+   },
+   "hasParticipant": {
+    "id": "fc2"
+   }
+  },
+  {
+   "id": "situation3",
+   "name": "Not being invited to the picnic",
+   "takePlaceAt": {
+    "id": "place3"
+   },
+   "hasParticipant": {
+    "id": "fc3"
+   }
+  }
+ ]
+}

@@ -1,0 +1,176 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "fc1",
+   "name": "Lydgate",
+   "feels": [
+    {
+     "name": "Trust",
+     "hasIntensity": 0.2,
+     "quote": "But the danger is over; the debt is paid. I am out of my difficulties now: I shall be freed from debts, and able, I hope, to start afresh on a better plan.",
+     "causedBy": {
+      "id": "event1",
+      "name": "Debt being paid off"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Debt"
+     },
+     "place": "Under the archway of the Green Dragon"
+    },
+    {
+     "name": "Surprise",
+     "hasIntensity": 0.5,
+     "quote": "But the news that Lydgate had all at once become able not only to get rid of the execution in his house but to pay all his debts in Middlemarch was spreading fast, gathering round it conjectures and comments which gave it new body and impetus.",
+     "causedBy": {
+      "id": "event2",
+      "name": "News of debt payment spreading"
+     },
+     "hasObject": {
+      "id": "object2",
+      "name": "Debt payment"
+     },
+     "place": "Middlemarch"
+    },
+    {
+     "name": "Anxiety",
+     "hasIntensity": 0.3,
+     "quote": "He perceived that Mr. Hawley knew nothing at present of the sudden relief from debt, and he himself was careful to glide away from all approaches towards the subject.",
+     "causedBy": {
+      "id": "event3",
+      "name": "Hawley's lack of knowledge about debt relief"
+     },
+     "hasObject": {
+      "id": "object3",
+      "name": "Debt relief"
+     },
+     "place": "Middlemarch"
+    }
+   ]
+  },
+  {
+   "id": "fc2",
+   "name": "Bulstrode",
+   "feels": [
+    {
+     "name": "Dread",
+     "hasIntensity": 0.4,
+     "quote": "He perceived that Mr. Hawley knew nothing at present of the sudden relief from debt, and he himself was careful to glide away from all approaches towards the subject.",
+     "causedBy": {
+      "id": "event3",
+      "name": "Hawley's lack of knowledge about debt relief"
+     },
+     "hasObject": {
+      "id": "object3",
+      "name": "Debt relief"
+     },
+     "place": "Middlemarch"
+    },
+    {
+     "name": "Relief",
+     "hasIntensity": 0.6,
+     "quote": "He had not confessed to himself yet that he had done anything in the way of contrivance to this end; he had accepted what seemed to have been offered.",
+     "causedBy": {
+      "id": "event4",
+      "name": "Relief from Raffles' revelations"
+     },
+     "hasObject": {
+      "id": "object4",
+      "name": "Relief"
+     },
+     "place": "Middlemarch"
+    }
+   ]
+  },
+  {
+   "id": "fc3",
+   "name": "Mr. Hawley",
+   "feels": [
+    {
+     "name": "Satisfaction",
+     "hasIntensity": 0.7,
+     "quote": "Mr. Hawley was not slow to perceive that there was no handle for the law either in the revelations made by Raffles or in the circumstances of his death.",
+     "causedBy": {
+      "id": "event5",
+      "name": "No legal handle in Raffles' revelations"
+     },
+     "hasObject": {
+      "id": "object5",
+      "name": "Legal handle"
+     },
+     "place": "Middlemarch"
+    },
+    {
+     "name": "Curiosity",
+     "hasIntensity": 0.8,
+     "quote": "Mr. Hawley followed up his information by sending a clerk whom he could trust to Stone Court on a pretext of inquiring about hay, but really to gather all that could be learned about Raffles and his illness from Mrs. Abel.",
+     "causedBy": {
+      "id": "event6",
+      "name": "Desire for information about Raffles"
+     },
+     "hasObject": {
+      "id": "object6",
+      "name": "Information about Raffles"
+     },
+     "place": "Middlemarch"
+    }
+   ]
+  }
+ ],
+ "Places": [
+  {
+   "id": "place1",
+   "name": "Under the archway of the Green Dragon",
+   "description": "A public area where gossip and conversations take place."
+  },
+  {
+   "id": "place2",
+   "name": "Middlemarch",
+   "description": "The town where the events of the story unfold."
+  }
+ ],
+ "Events": [
+  {
+   "id": "event1",
+   "name": "Debt being paid off",
+   "takePlaceAt": {
+    "id": "place1"
+   }
+  },
+  {
+   "id": "event2",
+   "name": "News of debt payment spreading",
+   "takePlaceAt": {
+    "id": "place2"
+   }
+  },
+  {
+   "id": "event3",
+   "name": "Hawley's lack of knowledge about debt relief",
+   "takePlaceAt": {
+    "id": "place2"
+   }
+  },
+  {
+   "id": "event4",
+   "name": "Relief from Raffles' revelations",
+   "takePlaceAt": {
+    "id": "place2"
+   }
+  },
+  {
+   "id": "event5",
+   "name": "No legal handle in Raffles' revelations",
+   "takePlaceAt": {
+    "id": "place2"
+   }
+  },
+  {
+   "id": "event6",
+   "name": "Desire for information about Raffles",
+   "takePlaceAt": {
+    "id": "place2"
+   }
+  }
+ ]
+}

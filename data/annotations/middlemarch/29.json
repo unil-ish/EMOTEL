@@ -1,0 +1,194 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "fc1",
+   "name": "Lydgate",
+   "feels": [
+    {
+     "name": "Disgust",
+     "hasIntensity": 0.7,
+     "quote": "On the contrary, he felt unmixed disgust with himself the next day when he had to pay four or five pounds over and above his gains.",
+     "causedBy": {
+      "id": "event1",
+      "name": "Losing in the billiard-room"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Himself"
+     },
+     "place": {
+      "id": "place1",
+      "name": "Billiard-room"
+     }
+    },
+    {
+     "name": "Fear",
+     "hasIntensity": 0.6,
+     "quote": "He had begun to see that he should inevitably bend himself to ask help from somebody or other.",
+     "causedBy": {
+      "id": "event2",
+      "name": "Financial difficulties"
+     },
+     "hasObject": {
+      "id": "object2",
+      "name": "Asking for help"
+     },
+     "place": {
+      "id": "place2",
+      "name": "Home"
+     }
+    },
+    {
+     "name": "Anxiety",
+     "hasIntensity": 0.8,
+     "quote": "He longed for some confirmation of this hopeful conjecture.",
+     "causedBy": {
+      "id": "event3",
+      "name": "Hope for secrecy"
+     },
+     "hasObject": {
+      "id": "object3",
+      "name": "Secrecy"
+     },
+     "place": {
+      "id": "place3",
+      "name": "Home"
+     }
+    }
+   ]
+  },
+  {
+   "id": "fc2",
+   "name": "Bulstrode",
+   "feels": [
+    {
+     "name": "Fear",
+     "hasIntensity": 0.9,
+     "quote": "His mind was crowded with images and conjectures, which were a language to his hopes and fears.",
+     "causedBy": {
+      "id": "event4",
+      "name": "Caleb Garth's knowledge and rejection"
+     },
+     "hasObject": {
+      "id": "object4",
+      "name": "Fear of disgrace"
+     },
+     "place": {
+      "id": "place4",
+      "name": "Manager's room at the Bank"
+     }
+    },
+    {
+     "name": "Relief",
+     "hasIntensity": 0.7,
+     "quote": "It seemed to him a sort of earnest that Providence intended his rescue from worse consequences.",
+     "causedBy": {
+      "id": "event5",
+      "name": "Caleb Garth being the only one Raffles spoke to"
+     },
+     "hasObject": {
+      "id": "object5",
+      "name": "Rescue from disgrace"
+     },
+     "place": {
+      "id": "place5",
+      "name": "Manager's room at the Bank"
+     }
+    },
+    {
+     "name": "Humiliation",
+     "hasIntensity": 0.8,
+     "quote": "The deep humiliation with which he had winced under Caleb Garth’s knowledge of his past and rejection of his patronage.",
+     "causedBy": {
+      "id": "event6",
+      "name": "Caleb Garth's knowledge and rejection"
+     },
+     "hasObject": {
+      "id": "object6",
+      "name": "Humiliation"
+     },
+     "place": {
+      "id": "place6",
+      "name": "Manager's room at the Bank"
+     }
+    }
+   ]
+  }
+ ],
+ "Places": [
+  {
+   "id": "place1",
+   "name": "Billiard-room",
+   "description": "Location where Lydgate felt disgust with himself."
+  },
+  {
+   "id": "place2",
+   "name": "Home",
+   "description": "Location where Lydgate felt fear and anxiety."
+  },
+  {
+   "id": "place3",
+   "name": "Home",
+   "description": "Location where Lydgate felt anxiety."
+  },
+  {
+   "id": "place4",
+   "name": "Manager's room at the Bank",
+   "description": "Location where Bulstrode felt fear and humiliation."
+  },
+  {
+   "id": "place5",
+   "name": "Manager's room at the Bank",
+   "description": "Location where Bulstrode felt relief."
+  },
+  {
+   "id": "place6",
+   "name": "Manager's room at the Bank",
+   "description": "Location where Bulstrode felt humiliation."
+  }
+ ],
+ "Events": [
+  {
+   "id": "event1",
+   "name": "Losing in the billiard-room",
+   "takePlaceAt": {
+    "id": "place1"
+   }
+  },
+  {
+   "id": "event2",
+   "name": "Financial difficulties",
+   "takePlaceAt": {
+    "id": "place2"
+   }
+  },
+  {
+   "id": "event3",
+   "name": "Hope for secrecy",
+   "takePlaceAt": {
+    "id": "place3"
+   }
+  },
+  {
+   "id": "event4",
+   "name": "Caleb Garth's knowledge and rejection",
+   "takePlaceAt": {
+    "id": "place4"
+   }
+  },
+  {
+   "id": "event5",
+   "name": "Caleb Garth being the only one Raffles spoke to",
+   "takePlaceAt": {
+    "id": "place5"
+   }
+  },
+  {
+   "id": "event6",
+   "name": "Caleb Garth's knowledge and rejection",
+   "takePlaceAt": {
+    "id": "place6"
+   }
+  }
+ ]
+}

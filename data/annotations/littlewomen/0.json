@@ -1,0 +1,154 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "fc1",
+   "name": "Jo",
+   "feels": [
+    {
+     "name": "Joy",
+     "hasIntensity": 0.9,
+     "quote": "A universal shriek arose as the russet boots waved wildly from the wreck, and a golden head emerged, exclaiming, 'I told you so! I told you so!'",
+     "causedBy": {
+      "id": "event1",
+      "name": "Successful performance of the Operatic Tragedy"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Russet boots"
+     },
+     "exactPlace": "During the performance of the Operatic Tragedy"
+    },
+    {
+     "name": "Joy",
+     "hasIntensity": 0.8,
+     "quote": "A good deal of hammering went on before the curtain rose again; but when it became evident what a masterpiece of stage-carpentering had been got up, no one murmured at the delay.",
+     "causedBy": {
+      "id": "event2",
+      "name": "Impressive stage-carpentering"
+     },
+     "hasObject": {
+      "id": "object2",
+      "name": "Stage set"
+     },
+     "exactPlace": "During the preparation for the evening festivities"
+    },
+    {
+     "name": "Joy",
+     "hasIntensity": 0.9,
+     "quote": "It was like Marmee to get up a little treat for them; but anything so fine as this was unheard-of since the departed days of plenty.",
+     "causedBy": {
+      "id": "event3",
+      "name": "Surprise supper"
+     },
+     "hasObject": {
+      "id": "object3",
+      "name": "Supper treats"
+     },
+     "exactPlace": "During the surprise supper"
+    }
+   ]
+  },
+  {
+   "id": "fc2",
+   "name": "Meg",
+   "feels": [
+    {
+     "name": "Joy",
+     "hasIntensity": 0.8,
+     "quote": "A good deal of hammering went on before the curtain rose again; but when it became evident what a masterpiece of stage-carpentering had been got up, no one murmured at the delay.",
+     "causedBy": {
+      "id": "event2",
+      "name": "Impressive stage-carpentering"
+     },
+     "hasObject": {
+      "id": "object2",
+      "name": "Stage set"
+     },
+     "exactPlace": "During the preparation for the evening festivities"
+    },
+    {
+     "name": "Joy",
+     "hasIntensity": 0.9,
+     "quote": "It was like Marmee to get up a little treat for them; but anything so fine as this was unheard-of since the departed days of plenty.",
+     "causedBy": {
+      "id": "event3",
+      "name": "Surprise supper"
+     },
+     "hasObject": {
+      "id": "object3",
+      "name": "Supper treats"
+     },
+     "exactPlace": "During the surprise supper"
+    }
+   ]
+  },
+  {
+   "id": "fc3",
+   "name": "Amy",
+   "feels": [
+    {
+     "name": "Joy",
+     "hasIntensity": 0.9,
+     "quote": "A good deal of hammering went on before the curtain rose again; but when it became evident what a masterpiece of stage-carpentering had been got up, no one murmured at the delay.",
+     "causedBy": {
+      "id": "event2",
+      "name": "Impressive stage-carpentering"
+     },
+     "hasObject": {
+      "id": "object2",
+      "name": "Stage set"
+     },
+     "exactPlace": "During the preparation for the evening festivities"
+    },
+    {
+     "name": "Joy",
+     "hasIntensity": 0.9,
+     "quote": "It was like Marmee to get up a little treat for them; but anything so fine as this was unheard-of since the departed days of plenty.",
+     "causedBy": {
+      "id": "event3",
+      "name": "Surprise supper"
+     },
+     "hasObject": {
+      "id": "object3",
+      "name": "Supper treats"
+     },
+     "exactPlace": "During the surprise supper"
+    }
+   ]
+  },
+  {
+   "id": "fc4",
+   "name": "Beth",
+   "feels": [
+    {
+     "name": "Joy",
+     "hasIntensity": 0.9,
+     "quote": "A good deal of hammering went on before the curtain rose again; but when it became evident what a masterpiece of stage-carpentering had been got up, no one murmured at the delay.",
+     "causedBy": {
+      "id": "event2",
+      "name": "Impressive stage-carpentering"
+     },
+     "hasObject": {
+      "id": "object2",
+      "name": "Stage set"
+     },
+     "exactPlace": "During the preparation for the evening festivities"
+    },
+    {
+     "name": "Joy",
+     "hasIntensity": 0.9,
+     "quote": "It was like Marmee to get up a little treat for them; but anything so fine as this was unheard-of since the departed days of plenty.",
+     "causedBy": {
+      "id": "event3",
+      "name": "Surprise supper"
+     },
+     "hasObject": {
+      "id": "object3",
+      "name": "Supper treats"
+     },
+     "exactPlace": "During the surprise supper"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,124 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "fc1",
+   "name": "Jo March",
+   "feels": [
+    {
+     "name": "Trust",
+     "hasIntensity": 0.8,
+     "quote": "No, I had father and mother to help me, the dear babies to comfort me, and the thought that you and Amy were safe and happy, to make the troubles here easier to bear.",
+     "causedBy": {
+      "id": "event1",
+      "name": "Having family support and knowing loved ones are safe"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Father and mother, dear babies, and safe and happy loved ones"
+     },
+     "place": "Home"
+    },
+    {
+     "name": "Surprise",
+     "hasIntensity": 0.9,
+     "quote": "You are the same Jo still, dropping tears about one minute, and laughing the next. You look a little wicked now; what is it, grandma?",
+     "causedBy": {
+      "id": "event2",
+      "name": "Laurie's unexpected visit"
+     },
+     "hasObject": {
+      "id": "object2",
+      "name": "Laurie's visit"
+     },
+     "place": "Home"
+    },
+    {
+     "name": "Joy",
+     "hasIntensity": 0.9,
+     "quote": "You always were a comfort, Teddy;",
+     "causedBy": {
+      "id": "event3",
+      "name": "Reunion with Laurie"
+     },
+     "hasObject": {
+      "id": "object3",
+      "name": "Reunion with Laurie"
+     },
+     "place": "Home"
+    },
+    {
+     "name": "Acceptance",
+     "hasIntensity": 0.8,
+     "quote": "If I shouldn't be in the way, it would be very pleasant. I begin to feel quite young already; for, somehow, all my troubles seemed to fly away when you came.",
+     "causedBy": {
+      "id": "event4",
+      "name": "Feeling comforted by Laurie's presence"
+     },
+     "hasObject": {
+      "id": "object4",
+      "name": "Laurie's presence"
+     },
+     "place": "Home"
+    },
+    {
+     "name": "Love",
+     "hasIntensity": 0.9,
+     "quote": "You are the same Jo still, dropping tears about one minute, and laughing the next. You look a little wicked now; what is it, grandma?",
+     "causedBy": {
+      "id": "event5",
+      "name": "Feeling comforted by Laurie's presence"
+     },
+     "hasObject": {
+      "id": "object5",
+      "name": "Laurie's presence"
+     },
+     "place": "Home"
+    }
+   ]
+  }
+ ],
+ "Places": [
+  {
+   "id": "place1",
+   "name": "Home",
+   "description": "Jo's residence where the emotional interactions take place."
+  }
+ ],
+ "Events": [
+  {
+   "id": "event1",
+   "name": "Having family support and knowing loved ones are safe",
+   "takePlaceAt": {
+    "id": "place1"
+   }
+  },
+  {
+   "id": "event2",
+   "name": "Laurie's unexpected visit",
+   "takePlaceAt": {
+    "id": "place1"
+   }
+  },
+  {
+   "id": "event3",
+   "name": "Reunion with Laurie",
+   "takePlaceAt": {
+    "id": "place1"
+   }
+  },
+  {
+   "id": "event4",
+   "name": "Feeling comforted by Laurie's presence",
+   "takePlaceAt": {
+    "id": "place1"
+   }
+  },
+  {
+   "id": "event5",
+   "name": "Feeling comforted by Laurie's presence",
+   "takePlaceAt": {
+    "id": "place1"
+   }
+  }
+ ]
+}
