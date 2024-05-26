@@ -21,7 +21,7 @@ parser.add_argument(
     default=None,
 )
 parser.add_argument(
-    "-p",
+    "-P",
     "--paragraph",
     action="store_true",
     default=False,
@@ -76,10 +76,10 @@ def cut_text_on_paragraph(fp, limit):
         else:
             x.append(paragraph)
             n += ll
-        return a
+    return a
 
 
-def cut(args, nowrite):
+def cut(args):
     fp = args.file
 
     paragraph = args.paragraph
@@ -110,9 +110,12 @@ if __name__ == "__main__":
     # sinon, vérifier qu'il ne contient pas déjà des fichiers.
     elif len(os.listdir(destination)) != 0:
         raise ValueError(destination, "is not empty.")
-
     for n, x in enumerate(parts):
         with open(
-            os.path.join(destination, os.path.basename(args.fp) + "_" + str(n)), "w"
+            os.path.join(
+                destination,
+                os.path.basename(args.file) + "_" + str(n),
+            ),
+            "w",
         ) as f:
             f.write(x)

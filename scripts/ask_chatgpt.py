@@ -12,14 +12,6 @@ parser.add_argument(
     help="le fichier avec le prompt initial.",
     required=True,
 )
-parser.add_argument(
-    "-k",
-    "--api-key",
-    action="store",
-    type=str,
-    help="l'api key",
-    default=None,
-)
 
 
 def ask(prompt, chunks):
@@ -35,8 +27,8 @@ def ask(prompt, chunks):
     ]
     x = [{"role": "user", "content": i} for i in chunks]
     messages.extend(x)
-
-    response = openai.ChatCompletion.create(
+    client = openai.OpenAI()
+    response = client.chat.completions.create(
         model="gpt-3.5-turbo",
         messages=messages,
         temperature=0,
@@ -45,23 +37,22 @@ def ask(prompt, chunks):
         frequency_penalty=0,
         presence_penalty=0,
     )
-    return response["choices"]
+    return response.choices[0].message.content
 
 
 if __name__ == "__main__":
-    args = cut_text._parsearguments()
+    args = parser.parse_args()
 
-    key = args.api_key
-    if key is None:
-        key = os.getenv["CHATGPT_API"]
-        if key is None:
-            raise ValueError("undefined environment variable: CHATGPT_API")
-
-    openai.api_key = key
+    with open(args.prompt_file, "r") as f:
+        prompt = f.read()
 
     chunks = cut_text.cut(args)
     fp_export = args.file + "_annotated.json"
-    annotes = ask(chunks)
-    destination = os.path.realpath(args.destination)
-    with open(fp_export, "w") as f:
-        json.dump(fp=f, obj=annotes)
+    annotes = ask(prompt=prompt, chunks=chunks)
+
+    if args.destination is None:
+        print(annotes)
+    else:
+        destination = os.path.realpath(args.destination)
+        with open(fp_export, "w") as f:
+            json.dump(fp=f, obj=annotes)
