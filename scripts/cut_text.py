@@ -49,20 +49,25 @@ def cut_text_on_paragraph(fp, limit):
 def _parsearguments():
     parser = argparse.ArgumentParser()
     parser.add_argument(
-        "-f", "--file", action="store", type=str, help="le fichier à découper"
+        "-f",
+        "--file",
+        action="store",
+        type=str,
+        help="le fichier à découper",
+        required=True,
     )
     parser.add_argument(
         "-d",
         "--target-dir",
         action="store",
-        type="str",
+        type=str,
         help="le dossier où placer le résultats découpé.",
+        default=None,
     )
     parser.add_argument(
         "-p",
         "--paragraph",
         action="store_true",
-        type=bool,
         default=False,
         help="ne sépare pas les paragraphes.",
     )
@@ -80,20 +85,13 @@ def _parsearguments():
 
 def cut(args):
     fp = args.file
-    target_dir = os.path.realpath(args.target_dir)
+
     paragraph = args.paragraph
     n = args.character_number
 
     # vérifie que le fichier existe
     if not os.path.isfile(fp):
         raise ValueError(fp, "is not a file.")
-
-    # créer le dossier s'il n'existe pas déjà
-    if not os.path.isdir(target_dir):
-        os.mkdir(target_dir)
-    # sinon, vérifier qu'il ne contient pas déjà des fichiers.
-    elif len(os.listdir(target_dir)) != 0:
-        raise ValueError(target_dir, "is not empty.")
 
     # assigne la fonction qui correspond à la méthode choisie
     if paragraph is True:
@@ -103,11 +101,22 @@ def cut(args):
 
     parts = fn(fp, n)
 
-    for n, x in enumerate(parts):
-        with open(
-            os.path.join(target_dir, os.path.basename(fp) + "_" + str(n)), "w"
-        ) as f:
-            f.write(x)
+    if args.target_dir is not None:
+        target_dir = os.path.realpath(args.target_dir)
+        # créer le dossier s'il n'existe pas déjà
+        if not os.path.isdir(target_dir):
+            os.mkdir(target_dir)
+        # sinon, vérifier qu'il ne contient pas déjà des fichiers.
+        elif len(os.listdir(target_dir)) != 0:
+            raise ValueError(target_dir, "is not empty.")
+
+        for n, x in enumerate(parts):
+            with open(
+                os.path.join(target_dir, os.path.basename(fp) + "_" + str(n)), "w"
+            ) as f:
+                f.write(x)
+    else:
+        return parts
 
 
 if __name__ == "__main__":
