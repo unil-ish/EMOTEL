@@ -7,7 +7,7 @@ import time
 
 
 def send_req(messages) -> str:
-    """envoie une requête avec une liste de messages à chatpgt, et récupère le contenu de la réponse."""
+    """Envoie une requête avec une liste de messages à chatpgt, et récupère le contenu de la réponse."""
 
     client = openai.OpenAI()
     response = client.chat.completions.create(
@@ -31,11 +31,11 @@ def send_req(messages) -> str:
 
 
 def annotate_directory(chunks_dir) -> None:
-    """annote les séquences de messages qui se trouvent dans un dossier.
+    """Annote les séquences de messages qui se trouvent dans un dossier.
 
-    le processus est répété si certains textes n'ont pas été correctement analysés et que la réponse est vide (10 répétitions maximum).
+    Le processus est répété si certains textes n'ont pas été correctement analysés et que la réponse est vide (10 répétitions maximum).
 
-    si le JSON est mal formé, (ce qui arrive), il est placé tel quel mais au nom de fichier est ajouté le suffixe '_a_corriger'. normalement, il ne devrait pas y en avoir trop.
+    Si le JSON est mal formé, (ce qui arrive), il est placé tel quel mais au nom de fichier est ajouté le suffixe '_a_corriger'. normalement, il ne devrait pas y en avoir trop.
     """
 
     # le dossier contenant les séquences de messages
@@ -47,9 +47,9 @@ def annotate_directory(chunks_dir) -> None:
         os.mkdir(annotations_dir)
 
     def get_not_yet_annotated() -> list[str]:
-        """dresse la liste des fichiers qu'il reste à annoter.
+        """Dresse la liste des fichiers qu'il reste à annoter.
 
-        simplement obtenue par la liste de fichiers de l'oeuvre, à laquelle est soustraire la liste des fichiers annotés.
+        Simplement obtenue par la liste de fichiers de l'oeuvre, à laquelle est soustraire la liste des fichiers annotés.
         """
 
         chunk_files = set(os.listdir(chunks_dir))

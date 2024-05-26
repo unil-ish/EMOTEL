@@ -41,7 +41,7 @@ parser.add_argument(
 
 
 def cut_text_on_paragraph(fp, limit):
-    """coupe un texte tout les n caractères, sans couper au milieu des paragraphes."""
+    """Coupe un texte tout les n caractères, sans couper au milieu des paragraphes."""
 
     with open(fp) as f:
         c = f.read().split("\n\n")
@@ -67,7 +67,7 @@ def cut_text_on_paragraph(fp, limit):
 
 
 def cut_to_messages(prompt_file, chunks, limit=50000):
-    """construit des listes de messages pour le chat completion de chatgpt."""
+    """Construit des listes de messages pour le chat completion de chatgpt."""
 
     with open(prompt_file, 'r') as f:
         prompt = f.read()
