@@ -1,22 +1,13 @@
 import os
 import openai
-import cut_text
 import json
+import sys
+import tqdm
+import time
 
-def aggregate_messages(prompt, chunks):
-    messages = [
-        {
-            "role": "user",
-            "content": prompt,
-        },
-        {
-            "role": "assistant",
-            "content": "i wait until you have sent all texts.",
-        },
-    ]
-    x = [{"role": "user", "content": i} for i in chunks]
-    messages.extend(x)
-    return messages
+
+def to_annotation(fp):
+    return fp.replace("/chunks/", "/annotations/")
 
 
 def send_req(messages):
@@ -33,34 +24,40 @@ def send_req(messages):
     return response.choices[0].message.content
 
 
-def ask(prompt, chunks):
-    messages = aggregate_messages(prompt, chunks)
-    client = openai.OpenAI()
-    response = client.chat.completions.create(
-        model="gpt-3.5-turbo",
-        messages=messages,
-        temperature=0,
-        max_tokens=1000,
-        top_p=1,
-        frequency_penalty=0,
-        presence_penalty=0,
-    )
-    return response.choices[0].message.content
+def annotate_directory(chunks_dir):
+    annotations_dir = to_annotation(chunks_dir)
+    if not os.path.isdir(annotations_dir):
+        os.mkdir(annotations_dir)
+    chunk_files = set(os.listdir(chunks_dir))
+    annotations_files = set(os.listdir(annotations_dir))
+
+    files = chunk_files - annotations_files
+    total_n = len(files)
+    n = 0
+    x = 1
+
+    while n < total_n and x < 10:
+        print(f'reste à annoter {total_n - n} textes. essai numéro {x}/10')
+        for fp in tqdm.tqdm(files):
+            with open(os.path.join(chunks_dir, fp), "r") as f:
+                messages = json.load(f)
+            response = send_req(messages)
+            try:
+                r = json.loads(response)
+            except json.decoder.JSONDecodeError:
+                continue
+            if r is not None:
+                with open(os.path.join(annotations_dir, fp), "w") as f:
+                    json.dump(obj=r, fp=f, indent=1, ensure_ascii=False)
+                n += 1
+        x += 1
+        time.sleep(30)
 
 
 if __name__ == "__main__":
-    args = cut_text.parser.parse_args()
-
-    with open(args.prompt_file, "r") as f:
-        prompt = f.read()
-
-    chunks = cut_text.cut(args)
-    fp_export = args.file + "_annotated.json"
-    annotes = ask(prompt=prompt, chunks=chunks)
-
-    if args.destination is None:
-        print(annotes)
+    chunk_dir = sys.argv[1]
+    if os.path.isdir(chunk_dir):
+        annotate_directory(chunk_dir)
+        quit(0)
     else:
-        destination = os.path.realpath(args.destination)
-        with open(fp_export, "w") as f:
-            json.dump(fp=f, obj=annotes)
+        raise ValueError("not a directory:", chunk_dir)

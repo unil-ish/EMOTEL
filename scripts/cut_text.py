@@ -6,7 +6,6 @@ DATA_DIR = os.path.join(
     os.path.dirname(os.path.dirname(os.path.realpath(__file__))), "data"
 )
 CHUNKS_DIR = os.path.join(DATA_DIR, "chunks")
-TEXTS_DIR = os.path.join(DATA_DIR, "texts")
 
 parser = argparse.ArgumentParser()
 parser.add_argument(
@@ -33,7 +32,7 @@ parser.add_argument(
 )
 parser.add_argument(
     "-p",
-    "--prompt",
+    "--prompt-file",
     action="store",
     type=str,
     help="le fichier avec le prompt initial.",
@@ -67,8 +66,12 @@ def cut_text_on_paragraph(fp, limit):
     return a
 
 
-def cut_to_messages(prompt, chunks, limit=50000):
+def cut_to_messages(prompt_file, chunks, limit=50000):
     """construit des listes de messages pour le chat completion de chatgpt."""
+
+    with open(prompt_file, 'r') as f:
+        prompt = f.read()
+
     base_messages = [
         {"role": "user", "content": prompt},
         {
@@ -112,7 +115,7 @@ def cut(args):
     # prépare des listes de messages pour chatgpt et les écrits au format json.
     if args.json is True:
         messages_list_lists = cut_to_messages(
-            prompt=args.prompt, chunks=parts, limit=50000
+            prompt_file=args.prompt_file, chunks=parts, limit=50000
         )
         for n, i in enumerate(messages_list_lists):
             fp = new_filepath(
