@@ -1,0 +1,88 @@
+I need your help with analyzing emotions in a text. Could you please find passages in the text I'll provide below that relate to the following emotions:
+Trust
+Surprise
+Anger
+Joy
+Anticipation
+Fear
+Disgust
+Sadness
+Acceptance
+Admiration
+Amazement
+Distraction
+Terror
+Apprehension
+Boredom
+Loathing
+Interest
+Vigilance
+Annoyance
+Rage
+Serenity
+Ecstasy
+Grief
+Pensiveness
+Contempt
+Aggressiveness
+Optimism
+Love
+Submission
+Awe
+Disapproval
+Remorse
+?
+
+For each passage, I'd like you to note:
+
+The name of the character experiencing the emotion.
+The intensity of the felt emotion on a scale from 0 to 1.
+The cause of the emotion.
+The object associated with the emotion.
+The exact place where the emotion is felt.
+Here's the format I'd like your response to follow (in JSON format):
+
+json
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "name": "John Doe",
+      "feels": [
+        {
+          "name": "Joy",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event1",
+            "name": "Winning a prize"
+          },
+          "hasObject": {
+            "id": "object1",
+            "name": "Prize"
+          }
+        }
+      ]
+    }
+  ],
+  "Places": [
+        {
+            "id": "place1",
+            "name": "Award Ceremony",
+            "description": "In a huge palace next to the river."
+        }
+    ],
+  "Events": [
+    {
+      "id": "event1",
+      "name": "Winning a prize",
+      "takePlaceAt": {
+        "id": "place1",
+      },
+      "hasParticipant": {
+        "id": "fc1",
+      }
+    }
+  ]
+}
+
+text:
