@@ -3,18 +3,7 @@ import openai
 import cut_text
 import json
 
-parser = cut_text.parser
-parser.add_argument(
-    "-p",
-    "--prompt-file",
-    action="store",
-    type=str,
-    help="le fichier avec le prompt initial.",
-    required=True,
-)
-
-
-def ask(prompt, chunks):
+def aggregate_messages(prompt, chunks):
     messages = [
         {
             "role": "user",
@@ -27,6 +16,25 @@ def ask(prompt, chunks):
     ]
     x = [{"role": "user", "content": i} for i in chunks]
     messages.extend(x)
+    return messages
+
+
+def send_req(messages):
+    client = openai.OpenAI()
+    response = client.chat.completions.create(
+        model="gpt-3.5-turbo",
+        messages=messages,
+        temperature=0,
+        max_tokens=1000,
+        top_p=1,
+        frequency_penalty=0,
+        presence_penalty=0,
+    )
+    return response.choices[0].message.content
+
+
+def ask(prompt, chunks):
+    messages = aggregate_messages(prompt, chunks)
     client = openai.OpenAI()
     response = client.chat.completions.create(
         model="gpt-3.5-turbo",
@@ -41,7 +49,7 @@ def ask(prompt, chunks):
 
 
 if __name__ == "__main__":
-    args = parser.parse_args()
+    args = cut_text.parser.parse_args()
 
     with open(args.prompt_file, "r") as f:
         prompt = f.read()
