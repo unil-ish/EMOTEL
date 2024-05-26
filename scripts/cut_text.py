@@ -3,6 +3,39 @@
 import argparse
 import os
 
+parser = argparse.ArgumentParser()
+parser.add_argument(
+    "-f",
+    "--file",
+    action="store",
+    type=str,
+    help="le fichier à découper",
+    required=True,
+)
+parser.add_argument(
+    "-d",
+    "--destination",
+    action="store",
+    type=str,
+    help="le dossier (ou le fichier) où placer les résultats",
+    default=None,
+)
+parser.add_argument(
+    "-p",
+    "--paragraph",
+    action="store_true",
+    default=False,
+    help="ne sépare pas les paragraphes.",
+)
+parser.add_argument(
+    "-n",
+    "--character-number",
+    action="store",
+    type=int,
+    default=2000,
+    help="le nombre de caractère maximal par morceau.",
+)
+
 
 def cut_text_on_newlines(fp, limit):
     with open(fp) as f:
@@ -46,44 +79,7 @@ def cut_text_on_paragraph(fp, limit):
         return a
 
 
-def _parsearguments():
-    parser = argparse.ArgumentParser()
-    parser.add_argument(
-        "-f",
-        "--file",
-        action="store",
-        type=str,
-        help="le fichier à découper",
-        required=True,
-    )
-    parser.add_argument(
-        "-d",
-        "--target-dir",
-        action="store",
-        type=str,
-        help="le dossier où placer le résultats découpé.",
-        default=None,
-    )
-    parser.add_argument(
-        "-p",
-        "--paragraph",
-        action="store_true",
-        default=False,
-        help="ne sépare pas les paragraphes.",
-    )
-    parser.add_argument(
-        "-n",
-        "--character-number",
-        action="store",
-        type=int,
-        default=2000,
-        help="le nombre de caractère maximal par morceau.",
-    )
-    args = parser.parse_args()
-    return args
-
-
-def cut(args):
+def cut(args, nowrite):
     fp = args.file
 
     paragraph = args.paragraph
@@ -100,25 +96,23 @@ def cut(args):
         fn = cut_text_on_newlines
 
     parts = fn(fp, n)
-
-    if args.target_dir is not None:
-        target_dir = os.path.realpath(args.target_dir)
-        # créer le dossier s'il n'existe pas déjà
-        if not os.path.isdir(target_dir):
-            os.mkdir(target_dir)
-        # sinon, vérifier qu'il ne contient pas déjà des fichiers.
-        elif len(os.listdir(target_dir)) != 0:
-            raise ValueError(target_dir, "is not empty.")
-
-        for n, x in enumerate(parts):
-            with open(
-                os.path.join(target_dir, os.path.basename(fp) + "_" + str(n)), "w"
-            ) as f:
-                f.write(x)
-    else:
-        return parts
+    return parts
 
 
 if __name__ == "__main__":
-    args = _parsearguments()
-    cut(args)
+    args = parser.parse_args()
+    parts = cut(args)
+    destination = os.path.realpath(args.destination)
+
+    # créer le dossier s'il n'existe pas déjà
+    if not os.path.isdir(destination):
+        os.mkdir(destination)
+    # sinon, vérifier qu'il ne contient pas déjà des fichiers.
+    elif len(os.listdir(destination)) != 0:
+        raise ValueError(destination, "is not empty.")
+
+    for n, x in enumerate(parts):
+        with open(
+            os.path.join(destination, os.path.basename(args.fp) + "_" + str(n)), "w"
+        ) as f:
+            f.write(x)
