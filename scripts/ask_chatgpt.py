@@ -25,13 +25,19 @@ def send_req(messages):
 
 
 def annotate_directory(chunks_dir):
+
     annotations_dir = to_annotation(chunks_dir)
     if not os.path.isdir(annotations_dir):
         os.mkdir(annotations_dir)
-    chunk_files = set(os.listdir(chunks_dir))
-    annotations_files = set(os.listdir(annotations_dir))
 
-    files = chunk_files - annotations_files
+    def get_not_yet_annotated():
+        chunk_files = set(os.listdir(chunks_dir))
+        annotations_files = set(os.listdir(annotations_dir))
+        files = chunk_files - annotations_files
+        return files
+
+    files = get_not_yet_annotated()
+
     total_n = len(files)
     n = 0
     x = 1
@@ -52,6 +58,7 @@ def annotate_directory(chunks_dir):
                 n += 1
         x += 1
         time.sleep(30)
+        files = get_not_yet_annotated()
 
 
 if __name__ == "__main__":
