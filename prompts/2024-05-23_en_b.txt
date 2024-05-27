@@ -1,0 +1,112 @@
+I need your help with analyzing emotions in a text. Could you please find passages in the text I'll provide below that relate to the following emotions:
+Trust
+Surprise
+Anger
+Joy
+Anticipation
+Fear
+Disgust
+Sadness
+Acceptance
+Admiration
+Amazement
+Distraction
+Terror
+Apprehension
+Boredom
+Loathing
+Interest
+Vigilance
+Annoyance
+Rage
+Serenity
+Ecstasy
+Grief
+Pensiveness
+Contempt
+Aggressiveness
+Optimism
+Love
+Submission
+Awe
+Disapproval
+Remorse
+?
+
+For each passage, I'd like you to note:
+
+The name of the character experiencing the emotion.
+The intensity of the felt emotion on a scale from 0 to 1.
+The cause of the emotion.
+The object associated with the emotion.
+The exact place where the emotion is felt.
+Here's the format I'd like your response to follow (in JSON format):
+
+json
+Copier le code
+{
+  "FictionalCharacters": [
+    {
+      "id": "fc1",
+      "type": "FictionalCharacter",
+      "name": "John Doe",
+      "feels": [
+        {
+          "id": "emotion1",
+          "type": "Emotion",
+          "name": "Joy",
+          "hasIntensity": 0.8,
+          "causedBy": {
+            "id": "event1",
+            "type": "FictionalEvent",
+            "name": "Winning a prize"
+          },
+          "hasObject": {
+            "id": "object1",
+            "type": "FictionalObject",
+            "name": "Prize"
+          }
+        }
+      ]
+    }
+  ],
+  "Stories": [
+    {
+      "id": "story1",
+      "type": "Story",
+      "title": "A Joyful Day",
+      "text": "This is a story about John Doe winning a prize and feeling joyful.",
+      "contains": [
+        {
+          "id": "object1",
+          "type": "FictionalObject",
+          "name": "Prize",
+          "isIn": {
+            "id": "story1",
+            "type": "Story"
+          }
+        }
+      ],
+      "partOf": {
+        "id": "storyPart1",
+        "type": "StoryPart"
+      }
+    }
+  ],
+  "Events": [
+    {
+      "id": "event1",
+      "type": "FictionalEvent",
+      "name": "Winning a prize",
+      "takePlaceAt": {
+        "id": "place1",
+        "type": "FictionalPlace",
+        "name": "Award Ceremony"
+      },
+      "hasParticipant": {
+        "id": "fc1",
+        "type": "FictionalCharacter"
+      }
+    }
+  ]
+}
