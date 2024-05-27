@@ -40,7 +40,7 @@ The intensity of the felt emotion on a scale from 0 to 1.
 The cause of the emotion.
 The object associated with the emotion.
 The exact place where the emotion is felt.
-Here's the format I'd like your response to follow (in JSON format):
+Here's the format I'd like your response to follow (in JSON format).
 
 json
 {
@@ -52,8 +52,15 @@ json
           "name": "Joy",
           "hasIntensity": 0.8,
           "quote": "John wons the prize and was full of joy when the Mayor gave it to him.",
-          "causedBy": {
-            "name": "Winning a prize"
+          "causedByEvent": {
+                "name": "Winning a prize",
+                "takePlaceAt": {
+                    "name": "Award Ceremony"
+                },
+                "hasParticipant": [{
+                    {"name": "John Doe"},
+                    {"name": "the Mayor"}
+                }]
           },
           "hasObject": {
             "name": "Prize"
@@ -61,26 +68,8 @@ json
         }
       ]
     }
-  ],
-  "Places": [
-        {
-            "name": "Award Ceremony",
-            "description": "In a huge palace next to the river."
-        }
-    ],
-  "Events": [
-    {
-      "name": "Winning a prize",
-      "takePlaceAt": {
-        "name": "Award Ceremony"
-      },
-      "hasParticipant": [{
-        {"name": "John Doe"},
-        {"name": "the Mayor"},
-        ("name": "John's Friends")
-      }]
-    }
   ]
 }
+
 
 text:
