@@ -1,0 +1,177 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "Dorothea Brooke",
+   "feels": [
+    {
+     "name": "Gratitude",
+     "hasIntensity": 0.9,
+     "quote": "I am very grateful to you for loving me, and thinking me worthy to be your wife.",
+     "causedBy": {
+      "id": "event1",
+      "name": "Mr. Casaubon's proposal"
+     },
+     "hasObject": {
+      "id": "Mr. Casaubon",
+      "name": "Mr. Casaubon"
+     },
+     "place": "Reading Mr. Casaubon's letter"
+    },
+    {
+     "name": "Reverence",
+     "hasIntensity": 0.8,
+     "quote": "I admire and honor him more than any man I ever saw.",
+     "causedBy": {
+      "id": "event2",
+      "name": "Mr. Casaubon's proposal"
+     },
+     "hasObject": {
+      "id": "Mr. Casaubon",
+      "name": "Mr. Casaubon"
+     },
+     "place": "Reading Mr. Casaubon's letter"
+    },
+    {
+     "name": "Happiness",
+     "hasIntensity": 0.9,
+     "quote": "I am very, very happy.",
+     "causedBy": {
+      "id": "event3",
+      "name": "Accepting Mr. Casaubon's proposal"
+     },
+     "hasObject": {
+      "id": "Mr. Casaubon",
+      "name": "Mr. Casaubon"
+     },
+     "place": "After accepting Mr. Casaubon's proposal"
+    }
+   ]
+  },
+  {
+   "id": "Celia Brooke",
+   "feels": [
+    {
+     "name": "Surprise",
+     "hasIntensity": 0.7,
+     "quote": "Perhaps Celia had never turned so pale before.",
+     "causedBy": {
+      "id": "event4",
+      "name": "Learning about Dorothea's engagement to Mr. Casaubon"
+     },
+     "hasObject": {
+      "id": "Dorothea Brooke",
+      "name": "Dorothea Brooke"
+     },
+     "place": "Learning about Dorothea's engagement to Mr. Casaubon"
+    },
+    {
+     "name": "Tenderness",
+     "hasIntensity": 0.8,
+     "quote": "Oh, Dodo, I hope you will be happy.",
+     "causedBy": {
+      "id": "event5",
+      "name": "Learning about Dorothea's engagement to Mr. Casaubon"
+     },
+     "hasObject": {
+      "id": "Dorothea Brooke",
+      "name": "Dorothea Brooke"
+     },
+     "place": "Learning about Dorothea's engagement to Mr. Casaubon"
+    },
+    {
+     "name": "Fear",
+     "hasIntensity": 0.6,
+     "quote": "Her fears were the fears of affection.",
+     "causedBy": {
+      "id": "event6",
+      "name": "Learning about Dorothea's engagement to Mr. Casaubon"
+     },
+     "hasObject": {
+      "id": "Dorothea Brooke",
+      "name": "Dorothea Brooke"
+     },
+     "place": "Learning about Dorothea's engagement to Mr. Casaubon"
+    }
+   ]
+  }
+ ],
+ "Places": [
+  {
+   "id": "Reading Mr. Casaubon's letter",
+   "name": "Reading Mr. Casaubon's letter",
+   "description": "Dorothea reads Mr. Casaubon's proposal letter."
+  },
+  {
+   "id": "After accepting Mr. Casaubon's proposal",
+   "name": "After accepting Mr. Casaubon's proposal",
+   "description": "Dorothea feels very happy after accepting Mr. Casaubon's proposal."
+  },
+  {
+   "id": "Learning about Dorothea's engagement to Mr. Casaubon",
+   "name": "Learning about Dorothea's engagement to Mr. Casaubon",
+   "description": "Celia learns about Dorothea's engagement to Mr. Casaubon."
+  }
+ ],
+ "Events": [
+  {
+   "id": "event1",
+   "name": "Mr. Casaubon's proposal",
+   "takePlaceAt": {
+    "id": "Reading Mr. Casaubon's letter"
+   },
+   "hasParticipant": {
+    "id": "Dorothea Brooke"
+   }
+  },
+  {
+   "id": "event2",
+   "name": "Mr. Casaubon's proposal",
+   "takePlaceAt": {
+    "id": "Reading Mr. Casaubon's letter"
+   },
+   "hasParticipant": {
+    "id": "Dorothea Brooke"
+   }
+  },
+  {
+   "id": "event3",
+   "name": "Accepting Mr. Casaubon's proposal",
+   "takePlaceAt": {
+    "id": "After accepting Mr. Casaubon's proposal"
+   },
+   "hasParticipant": {
+    "id": "Dorothea Brooke"
+   }
+  },
+  {
+   "id": "event4",
+   "name": "Learning about Dorothea's engagement to Mr. Casaubon",
+   "takePlaceAt": {
+    "id": "Learning about Dorothea's engagement to Mr. Casaubon"
+   },
+   "hasParticipant": {
+    "id": "Celia Brooke"
+   }
+  },
+  {
+   "id": "event5",
+   "name": "Learning about Dorothea's engagement to Mr. Casaubon",
+   "takePlaceAt": {
+    "id": "Learning about Dorothea's engagement to Mr. Casaubon"
+   },
+   "hasParticipant": {
+    "id": "Celia Brooke"
+   }
+  },
+  {
+   "id": "event6",
+   "name": "Learning about Dorothea's engagement to Mr. Casaubon",
+   "takePlaceAt": {
+    "id": "Learning about Dorothea's engagement to Mr. Casaubon"
+   },
+   "hasParticipant": {
+    "id": "Celia Brooke"
+   }
+  }
+ ]
+}

@@ -1,0 +1,84 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "Don Diego de Zelos",
+   "feels": [
+    {
+     "name": "Joy",
+     "hasIntensity": 0.9,
+     "quote": "I professed myself extremely happy in having met with an opportunity of acquiring such a degree of my colonel’s esteem.",
+     "causedBy": {
+      "id": "Receiving esteem from his colonel"
+     },
+     "hasObject": {
+      "id": "Esteem"
+     },
+     "exactPlace": "Dining-room"
+    },
+    {
+     "name": "Love",
+     "hasIntensity": 0.95,
+     "quote": "I had been ravished with her first appearance, which far exceeded my imagination, and my faculties were so disordered by this address, that I answered her compliment with the most awkward confusion.",
+     "causedBy": {
+      "id": "Seeing Antonia for the first time"
+     },
+     "hasObject": {
+      "id": "Antonia"
+     },
+     "exactPlace": "Dining-room"
+    },
+    {
+     "name": "Remorse",
+     "hasIntensity": 0.8,
+     "quote": "Wretch that I am! to survive the loss of such an excellent woman, endeared to my remembrance by the most tender offices of wedlock, happily exercised for the space of five-and-twenty years!",
+     "causedBy": {
+      "id": "Surviving the loss of his wife"
+     },
+     "hasObject": {
+      "id": "Wife"
+     },
+     "exactPlace": "Present time"
+    }
+   ]
+  }
+ ],
+ "Places": [
+  {
+   "id": "Dining-room",
+   "name": "Dining-room",
+   "description": "An elegant dining-room where a magnificent entertainment was served up."
+  }
+ ],
+ "Events": [
+  {
+   "id": "Receiving esteem from his colonel",
+   "name": "Receiving esteem from his colonel",
+   "takePlaceAt": {
+    "id": "Dining-room"
+   },
+   "hasParticipant": {
+    "id": "Don Diego de Zelos"
+   }
+  },
+  {
+   "id": "Seeing Antonia for the first time",
+   "name": "Seeing Antonia for the first time",
+   "takePlaceAt": {
+    "id": "Dining-room"
+   },
+   "hasParticipant": {
+    "id": "Don Diego de Zelos"
+   }
+  },
+  {
+   "id": "Surviving the loss of his wife",
+   "name": "Surviving the loss of his wife",
+   "takePlaceAt": {
+    "id": "Present time"
+   },
+   "hasParticipant": {
+    "id": "Don Diego de Zelos"
+   }
+  }
+ ]
+}

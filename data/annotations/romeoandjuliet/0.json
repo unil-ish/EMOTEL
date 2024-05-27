@@ -1,0 +1,77 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "Romeo",
+   "feels": [
+    {
+     "name": "Love",
+     "hasIntensity": 1,
+     "quote": "It is the east, and Juliet is the sun!",
+     "causedBy": {
+      "id": "Juliet's presence",
+      "name": "Seeing Juliet at the window"
+     },
+     "hasObject": {
+      "id": "Juliet",
+      "name": "Juliet"
+     },
+     "exactPlace": "Capulet's Garden"
+    },
+    {
+     "name": "Joy",
+     "hasIntensity": 0.9,
+     "quote": "O blessed, blessed night. I am afeard, Being in night, all this is but a dream, Too flattering sweet to be substantial.",
+     "causedBy": {
+      "id": "Juliet's response",
+      "name": "Juliet's affection"
+     },
+     "hasObject": {
+      "id": "Juliet",
+      "name": "Juliet"
+     },
+     "exactPlace": "Capulet's Garden"
+    }
+   ]
+  },
+  {
+   "id": "Juliet",
+   "feels": [
+    {
+     "name": "Love",
+     "hasIntensity": 1,
+     "quote": "My bounty is as boundless as the sea, My love as deep; the more I give to thee, The more I have, for both are infinite.",
+     "causedBy": {
+      "id": "Romeo's affection",
+      "name": "Romeo's love"
+     },
+     "hasObject": {
+      "id": "Romeo",
+      "name": "Romeo"
+     },
+     "exactPlace": "Capulet's Garden"
+    },
+    {
+     "name": "Sorrow",
+     "hasIntensity": 0.8,
+     "quote": "Parting is such sweet sorrow That I shall say good night till it be morrow.",
+     "causedBy": {
+      "id": "Romeo's departure",
+      "name": "Romeo leaving"
+     },
+     "hasObject": {
+      "id": "Romeo",
+      "name": "Romeo"
+     },
+     "exactPlace": "Capulet's Garden"
+    }
+   ]
+  }
+ ],
+ "Places": [
+  {
+   "id": "Capulet's Garden",
+   "name": "Capulet's Garden",
+   "description": "A romantic setting where Romeo and Juliet express their love for each other."
+  }
+ ]
+}

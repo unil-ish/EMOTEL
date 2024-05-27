@@ -1,0 +1,91 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "Bulkington",
+   "feels": [
+    {
+     "name": "Resignation",
+     "hasIntensity": 0.9,
+     "quote": "But as in landlessness alone resides highest truth, shoreless, indefinite as God—so, better is it to perish in that howling infinite, than be ingloriously dashed upon the lee, even if that were safety!",
+     "causedBy": {
+      "id": "event1",
+      "name": "Facing the storm"
+     },
+     "hasObject": {
+      "id": "ocean",
+      "name": "Ocean"
+     },
+     "exactPlace": "On the ship's deck"
+    }
+   ]
+  },
+  {
+   "id": "CaptainPeleg",
+   "feels": [
+    {
+     "name": "Anxiety",
+     "hasIntensity": 0.8,
+     "quote": "As Queequeg and I are now fairly embarked in this business of whaling; and as this business of whaling has somehow come to be regarded among landsmen as a rather unpoetical and disreputable pursuit; therefore, I am all anxiety to convince ye, ye landsmen, of the injustice hereby done to us hunters of whales.",
+     "causedBy": {
+      "id": "event2",
+      "name": "Embarking on the whaling business"
+     },
+     "hasObject": {
+      "id": "whaling",
+      "name": "Whaling"
+     },
+     "exactPlace": "On the ship's deck"
+    }
+   ]
+  },
+  {
+   "id": "CaptainBildad",
+   "feels": [
+    {
+     "name": "Incoherence",
+     "hasIntensity": 0.7,
+     "quote": "“God bless ye, and have ye in His holy keeping, men,” murmured old Bildad, almost incoherently.",
+     "causedBy": {
+      "id": "event3",
+      "name": "Departing from the ship"
+     },
+     "hasObject": {
+      "id": "ship",
+      "name": "Ship"
+     },
+     "exactPlace": "On the ship's deck"
+    }
+   ]
+  }
+ ],
+ "Places": [
+  {
+   "id": "shipDeck",
+   "name": "Ship's Deck",
+   "description": "The main deck of the whaling ship Pequod."
+  }
+ ],
+ "Events": [
+  {
+   "id": "event1",
+   "name": "Facing the storm",
+   "takePlaceAt": {
+    "id": "shipDeck"
+   }
+  },
+  {
+   "id": "event2",
+   "name": "Embarking on the whaling business",
+   "takePlaceAt": {
+    "id": "shipDeck"
+   }
+  },
+  {
+   "id": "event3",
+   "name": "Departing from the ship",
+   "takePlaceAt": {
+    "id": "shipDeck"
+   }
+  }
+ ]
+}

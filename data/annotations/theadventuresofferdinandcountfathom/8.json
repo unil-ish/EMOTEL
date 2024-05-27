@@ -1,0 +1,107 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "Fathom",
+   "name": "Ferdinand Fathom",
+   "feels": [
+    {
+     "name": "Trust",
+     "hasIntensity": 0.2,
+     "quote": "He was prevailed upon to take a hand at whist or piquet, and even to wield the hazard-box; though he had hitherto declared himself an irreconcilable enemy to all sorts of play.",
+     "causedBy": {
+      "id": "circumstance1",
+      "name": "Being prevailed upon to play games of chance"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Playing games of chance"
+     },
+     "place": {
+      "id": "place1",
+      "name": "Unknown location"
+     }
+    },
+    {
+     "name": "Surprise",
+     "hasIntensity": 0.5,
+     "quote": "He was deeply touched with these marks of alienation in the behaviour of his friends.",
+     "causedBy": {
+      "id": "circumstance2",
+      "name": "Alienation of friends"
+     },
+     "hasObject": {
+      "id": "object2",
+      "name": "Alienation of friends"
+     },
+     "place": {
+      "id": "place2",
+      "name": "Social gatherings"
+     }
+    },
+    {
+     "name": "Anger",
+     "hasIntensity": 0.3,
+     "quote": "He was not a little confounded when he found himself charged with 350 attendances.",
+     "causedBy": {
+      "id": "circumstance3",
+      "name": "Excessive charges by the solicitor"
+     },
+     "hasObject": {
+      "id": "object3",
+      "name": "Excessive charges"
+     },
+     "place": {
+      "id": "place3",
+      "name": "Solicitor's office"
+     }
+    }
+   ]
+  }
+ ],
+ "Places": [
+  {
+   "id": "place1",
+   "name": "Unknown location"
+  },
+  {
+   "id": "place2",
+   "name": "Social gatherings"
+  },
+  {
+   "id": "place3",
+   "name": "Solicitor's office"
+  }
+ ],
+ "Events": [
+  {
+   "id": "circumstance1",
+   "name": "Being prevailed upon to play games of chance",
+   "takePlaceAt": {
+    "id": "place1"
+   },
+   "hasParticipant": {
+    "id": "Fathom"
+   }
+  },
+  {
+   "id": "circumstance2",
+   "name": "Alienation of friends",
+   "takePlaceAt": {
+    "id": "place2"
+   },
+   "hasParticipant": {
+    "id": "Fathom"
+   }
+  },
+  {
+   "id": "circumstance3",
+   "name": "Excessive charges by the solicitor",
+   "takePlaceAt": {
+    "id": "place3"
+   },
+   "hasParticipant": {
+    "id": "Fathom"
+   }
+  }
+ ]
+}

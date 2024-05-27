@@ -1,0 +1,157 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "fc1",
+   "name": "Mrs. Wilkins",
+   "feels": [
+    {
+     "name": "Joy",
+     "hasIntensity": 0.9,
+     "quote": "She, so to speak, at once flung off all her garments and dived straight into glory, unhesitatingly, with a cry of rapture.",
+     "causedBy": {
+      "id": "event1",
+      "name": "Experiencing the beauty of San Salvatore"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Beauty of San Salvatore"
+     },
+     "exactPlace": "San Salvatore"
+    },
+    {
+     "name": "Regret",
+     "hasIntensity": 0.7,
+     "quote": "The morning after the first dinner together, she woke up in a condition of regret that she should have been so talkative to Mrs. Wilkins the night before.",
+     "causedBy": {
+      "id": "event2",
+      "name": "Feeling talkative"
+     },
+     "hasObject": {
+      "id": "object2",
+      "name": "Being talkative"
+     },
+     "exactPlace": "Her room"
+    }
+   ]
+  },
+  {
+   "id": "fc2",
+   "name": "Mrs. Fisher",
+   "feels": [
+    {
+     "name": "Disapproval",
+     "hasIntensity": 0.8,
+     "quote": "But Mrs. Fisher, with even greater frostiness than that with which she had received Lady Caroline’s ignorance of the Blessed Damozel, said, “There is only one unoccupied bedroom in this house.”",
+     "causedBy": {
+      "id": "event3",
+      "name": "Realizing there is only one spare room"
+     },
+     "hasObject": {
+      "id": "object3",
+      "name": "One spare room"
+     },
+     "exactPlace": "San Salvatore"
+    },
+    {
+     "name": "Relief",
+     "hasIntensity": 0.7,
+     "quote": "Well, if nobody really wants that room, and wouldn’t use it anyhow, I shall be very glad if Mellersh may have it.",
+     "causedBy": {
+      "id": "event4",
+      "name": "No one wanting the spare room"
+     },
+     "hasObject": {
+      "id": "object4",
+      "name": "Spare room"
+     },
+     "exactPlace": "San Salvatore"
+    }
+   ]
+  },
+  {
+   "id": "fc3",
+   "name": "Lady Caroline",
+   "feels": [
+    {
+     "name": "Surprise",
+     "hasIntensity": 0.8,
+     "quote": "Even Lady Caroline, used all her life to beauty, who had been everywhere and seen everything, felt the surprise of it.",
+     "causedBy": {
+      "id": "event5",
+      "name": "Experiencing the beauty of San Salvatore"
+     },
+     "hasObject": {
+      "id": "object5",
+      "name": "Beauty of San Salvatore"
+     },
+     "exactPlace": "San Salvatore"
+    },
+    {
+     "name": "Self-Reflection",
+     "hasIntensity": 0.7,
+     "quote": "It had made her, beginning on the very first evening, want to think, and acted on her curiously like a conscience.",
+     "causedBy": {
+      "id": "event6",
+      "name": "Feeling the influence of San Salvatore"
+     },
+     "hasObject": {
+      "id": "object6",
+      "name": "Influence of San Salvatore"
+     },
+     "exactPlace": "San Salvatore"
+    }
+   ]
+  }
+ ],
+ "Places": [
+  {
+   "id": "place1",
+   "name": "San Salvatore",
+   "description": "A beautiful location with a castle and serene clear hills"
+  }
+ ],
+ "Events": [
+  {
+   "id": "event1",
+   "name": "Experiencing the beauty of San Salvatore",
+   "takePlaceAt": {
+    "id": "place1"
+   }
+  },
+  {
+   "id": "event2",
+   "name": "Feeling talkative",
+   "takePlaceAt": {
+    "id": "place1"
+   }
+  },
+  {
+   "id": "event3",
+   "name": "Realizing there is only one spare room",
+   "takePlaceAt": {
+    "id": "place1"
+   }
+  },
+  {
+   "id": "event4",
+   "name": "No one wanting the spare room",
+   "takePlaceAt": {
+    "id": "place1"
+   }
+  },
+  {
+   "id": "event5",
+   "name": "Experiencing the beauty of San Salvatore",
+   "takePlaceAt": {
+    "id": "place1"
+   }
+  },
+  {
+   "id": "event6",
+   "name": "Feeling the influence of San Salvatore",
+   "takePlaceAt": {
+    "id": "place1"
+   }
+  }
+ ]
+}

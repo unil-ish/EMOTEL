@@ -1,0 +1,95 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "Dorothea Brooke",
+   "feels": [
+    {
+     "name": "Pleased Surprise",
+     "hasIntensity": 0.8,
+     "quote": "Mr. Ladislaw! What can he have to say to me?",
+     "causedBy": {
+      "id": "event1",
+      "name": "Receiving a letter from Mr. Ladislaw"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Letter"
+     },
+     "place": "Library"
+    },
+    {
+     "name": "Anxiety",
+     "hasIntensity": 0.7,
+     "quote": "But I can imagine what he has written to you about.",
+     "causedBy": {
+      "id": "event2",
+      "name": "Receiving a letter from Mr. Ladislaw"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Letter"
+     },
+     "place": "Library"
+    }
+   ]
+  },
+  {
+   "id": "Edward Casaubon",
+   "feels": [
+    {
+     "name": "Displeasure",
+     "hasIntensity": 0.9,
+     "quote": "But I may as well say beforehand, that I must decline the proposal it contains to pay a visit here.",
+     "causedBy": {
+      "id": "event3",
+      "name": "Receiving a letter from Mr. Ladislaw"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Letter"
+     },
+     "place": "Library"
+    }
+   ]
+  }
+ ],
+ "Places": [
+  {
+   "id": "Library",
+   "name": "Library",
+   "description": "The room where Dorothea and Mr. Casaubon are having a conversation."
+  }
+ ],
+ "Events": [
+  {
+   "id": "event1",
+   "name": "Receiving a letter from Mr. Ladislaw",
+   "takePlaceAt": {
+    "id": "Library"
+   },
+   "hasParticipant": {
+    "id": "Dorothea Brooke"
+   }
+  },
+  {
+   "id": "event2",
+   "name": "Receiving a letter from Mr. Ladislaw",
+   "takePlaceAt": {
+    "id": "Library"
+   },
+   "hasParticipant": {
+    "id": "Dorothea Brooke"
+   }
+  },
+  {
+   "id": "event3",
+   "name": "Receiving a letter from Mr. Ladislaw",
+   "takePlaceAt": {
+    "id": "Library"
+   },
+   "hasParticipant": {
+    "id": "Edward Casaubon"
+   }
+  }
+ ]
+}

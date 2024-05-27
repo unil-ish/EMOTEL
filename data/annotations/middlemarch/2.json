@@ -1,0 +1,119 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "SirJamesChettam",
+   "feels": [
+    {
+     "name": "Disapproval",
+     "hasIntensity": 0.8,
+     "quote": "But, my dear Chettam, why should I use my influence to Casaubon’s disadvantage, unless I were much surer than I am that I should be acting for the advantage of Miss Brooke? I know no harm of Casaubon.",
+     "causedBy": {
+      "id": "event1",
+      "name": "Disapproval of Mr. Casaubon"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Mr. Casaubon"
+     },
+     "place": "Rectory study"
+    },
+    {
+     "name": "Sadness",
+     "hasIntensity": 0.7,
+     "quote": "Clearly, there would be no interference with Miss Brooke’s marriage through Mr. Cadwallader; and Sir James felt with some sadness that she was to have perfect liberty of misjudgment.",
+     "causedBy": {
+      "id": "event2",
+      "name": "Realization of lack of interference in Miss Brooke's marriage"
+     },
+     "hasObject": {
+      "id": "object2",
+      "name": "Miss Brooke's marriage"
+     },
+     "place": "Rectory study"
+    },
+    {
+     "name": "Pride",
+     "hasIntensity": 0.9,
+     "quote": "Doubtless this persistence was the best course for his own dignity: but pride only helps us to be generous; it never makes us so, any more than vanity makes us witty.",
+     "causedBy": {
+      "id": "event3",
+      "name": "Persistence in carrying out Dorothea’s design of the cottages"
+     },
+     "hasObject": {
+      "id": "object3",
+      "name": "Dorothea’s design of the cottages"
+     },
+     "place": "Rectory study"
+    },
+    {
+     "name": "Delight",
+     "hasIntensity": 0.8,
+     "quote": "He was gradually discovering the delight there is in frank kindness and companionship between a man and a woman who have no passion to hide or confess.",
+     "causedBy": {
+      "id": "event4",
+      "name": "Discovery of delight in companionship with Dorothea"
+     },
+     "hasObject": {
+      "id": "object4",
+      "name": "Companionship with Dorothea"
+     },
+     "place": "Dorothea's home"
+    }
+   ]
+  }
+ ],
+ "Places": [
+  {
+   "id": "Rectory study",
+   "name": "Rectory study",
+   "description": "A room where the Rector and Sir James Chettam have a conversation."
+  },
+  {
+   "id": "Dorothea's home",
+   "name": "Dorothea's home",
+   "description": "The future home of Dorothea where she dictates changes."
+  }
+ ],
+ "Events": [
+  {
+   "id": "event1",
+   "name": "Disapproval of Mr. Casaubon",
+   "takePlaceAt": {
+    "id": "Rectory study"
+   },
+   "hasParticipant": {
+    "id": "SirJamesChettam"
+   }
+  },
+  {
+   "id": "event2",
+   "name": "Realization of lack of interference in Miss Brooke's marriage",
+   "takePlaceAt": {
+    "id": "Rectory study"
+   },
+   "hasParticipant": {
+    "id": "SirJamesChettam"
+   }
+  },
+  {
+   "id": "event3",
+   "name": "Persistence in carrying out Dorothea’s design of the cottages",
+   "takePlaceAt": {
+    "id": "Rectory study"
+   },
+   "hasParticipant": {
+    "id": "SirJamesChettam"
+   }
+  },
+  {
+   "id": "event4",
+   "name": "Discovery of delight in companionship with Dorothea",
+   "takePlaceAt": {
+    "id": "Dorothea's home"
+   },
+   "hasParticipant": {
+    "id": "SirJamesChettam"
+   }
+  }
+ ]
+}

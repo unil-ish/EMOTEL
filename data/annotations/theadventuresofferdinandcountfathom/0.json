@@ -1,0 +1,110 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "fc1",
+   "name": "Ferdinand Count Fathom",
+   "feels": [
+    {
+     "name": "Trust",
+     "hasIntensity": 0.9,
+     "quote": "He remained unaltered by all their efforts and expostulations, and allowed our adventurer to enjoy the triumph of his praise, while he himself was conscious of his own superiority in those qualifications which seemed of more real importance than the mere exteriors and forms of life.",
+     "causedBy": {
+      "id": "event1",
+      "name": "Being conscious of his own superiority"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Superiority in qualifications"
+     },
+     "place": {
+      "id": "place1",
+      "name": "Family home"
+     }
+    },
+    {
+     "name": "Joy",
+     "hasIntensity": 0.7,
+     "quote": "He was ravished with the prospect of enjoying such a companion.",
+     "causedBy": {
+      "id": "event2",
+      "name": "Being presented to the Countess"
+     },
+     "hasObject": {
+      "id": "object2",
+      "name": "Prospect of enjoying a companion"
+     },
+     "place": {
+      "id": "place2",
+      "name": "Family home"
+     }
+    },
+    {
+     "name": "Submission",
+     "hasIntensity": 0.8,
+     "quote": "His present ambition was not to make a figure at his father’s table, but to eclipse his rivals at school, and to acquire an influence and authority among these confederates.",
+     "causedBy": {
+      "id": "event3",
+      "name": "Ambition to excel at school"
+     },
+     "hasObject": {
+      "id": "object3",
+      "name": "Eclipsing rivals at school"
+     },
+     "place": {
+      "id": "place3",
+      "name": "School"
+     }
+    }
+   ]
+  }
+ ],
+ "Places": [
+  {
+   "id": "place1",
+   "name": "Family home",
+   "description": "The residence of Count Melvil and his family."
+  },
+  {
+   "id": "place2",
+   "name": "Family home",
+   "description": "The residence of Count Melvil and his family."
+  },
+  {
+   "id": "place3",
+   "name": "School",
+   "description": "The educational institution attended by Ferdinand and the young Count."
+  }
+ ],
+ "Events": [
+  {
+   "id": "event1",
+   "name": "Being conscious of his own superiority",
+   "takePlaceAt": {
+    "id": "place1"
+   },
+   "hasParticipant": {
+    "id": "fc1"
+   }
+  },
+  {
+   "id": "event2",
+   "name": "Being presented to the Countess",
+   "takePlaceAt": {
+    "id": "place2"
+   },
+   "hasParticipant": {
+    "id": "fc1"
+   }
+  },
+  {
+   "id": "event3",
+   "name": "Ambition to excel at school",
+   "takePlaceAt": {
+    "id": "place3"
+   },
+   "hasParticipant": {
+    "id": "fc1"
+   }
+  }
+ ]
+}

@@ -1,0 +1,154 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "Valancy",
+   "feels": [
+    {
+     "name": "Joy",
+     "hasIntensity": 0.9,
+     "quote": "Valancy had taken some of her two hundred dollars out of the bank and spent it in pretty clothes. She had a little smoke-blue chiffon which she always put on when they spent the evening at home—smoke-blue with touches of silver about it. It was after she began wearing it that Barney began calling her Moonlight.",
+     "causedBy": {
+      "id": "event1",
+      "name": "Buying pretty clothes"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Smoke-blue chiffon dress"
+     },
+     "place": "Home"
+    },
+    {
+     "name": "Trust",
+     "hasIntensity": 0.8,
+     "quote": "Valancy had refused to let him buy any of her clothes—she had enough for that, she told him, as long as she would need clothes.",
+     "causedBy": {
+      "id": "event2",
+      "name": "Refusing to let Barney buy her clothes"
+     },
+     "hasObject": {
+      "id": "object2",
+      "name": "Clothes"
+     },
+     "place": "Home"
+    },
+    {
+     "name": "Love",
+     "hasIntensity": 0.9,
+     "quote": "Valancy had wanted a string of milky pearl beads—like congealed moonshine—all her life. And these were so pretty.",
+     "causedBy": {
+      "id": "event3",
+      "name": "Receiving pearl necklace as a Christmas present"
+     },
+     "hasObject": {
+      "id": "object3",
+      "name": "Pearl necklace"
+     },
+     "place": "Home"
+    },
+    {
+     "name": "Happiness",
+     "hasIntensity": 0.9,
+     "quote": "Valancy had heaped up the sand in the little island cove in a tremendous cone and stuck a gay little Union Jack on top of it.",
+     "causedBy": {
+      "id": "event4",
+      "name": "Celebrating by heaping up sand with a Union Jack"
+     },
+     "hasObject": {
+      "id": "object4",
+      "name": "Sand cone with Union Jack"
+     },
+     "place": "Island cove"
+    }
+   ]
+  },
+  {
+   "id": "Barney",
+   "feels": [
+    {
+     "name": "Joy",
+     "hasIntensity": 0.8,
+     "quote": "Barney had asked Valancy what she wanted for a Christmas present.",
+     "causedBy": {
+      "id": "event5",
+      "name": "Asking Valancy what she wanted for Christmas"
+     },
+     "hasObject": {
+      "id": "object5",
+      "name": "Christmas present"
+     },
+     "place": "Home"
+    },
+    {
+     "name": "Trust",
+     "hasIntensity": 0.8,
+     "quote": "Barney had once promised her a pair of skates for Christmas, but when Christmas came he had given her rubbers instead.",
+     "causedBy": {
+      "id": "event6",
+      "name": "Giving Valancy rubbers instead of skates for Christmas"
+     },
+     "hasObject": {
+      "id": "object6",
+      "name": "Rubbers"
+     },
+     "place": "Home"
+    }
+   ]
+  }
+ ],
+ "Places": [
+  {
+   "id": "Home",
+   "name": "Home",
+   "description": "Their cozy living space in the Blue Castle on the island"
+  },
+  {
+   "id": "Island cove",
+   "name": "Island cove",
+   "description": "The little island cove where Valancy heaped up sand with a Union Jack"
+  }
+ ],
+ "Events": [
+  {
+   "id": "event1",
+   "name": "Buying pretty clothes",
+   "takePlaceAt": {
+    "id": "Home"
+   }
+  },
+  {
+   "id": "event2",
+   "name": "Refusing to let Barney buy her clothes",
+   "takePlaceAt": {
+    "id": "Home"
+   }
+  },
+  {
+   "id": "event3",
+   "name": "Receiving pearl necklace as a Christmas present",
+   "takePlaceAt": {
+    "id": "Home"
+   }
+  },
+  {
+   "id": "event4",
+   "name": "Celebrating by heaping up sand with a Union Jack",
+   "takePlaceAt": {
+    "id": "Island cove"
+   }
+  },
+  {
+   "id": "event5",
+   "name": "Asking Valancy what she wanted for Christmas",
+   "takePlaceAt": {
+    "id": "Home"
+   }
+  },
+  {
+   "id": "event6",
+   "name": "Giving Valancy rubbers instead of skates for Christmas",
+   "takePlaceAt": {
+    "id": "Home"
+   }
+  }
+ ]
+}

@@ -1,0 +1,140 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "Mrs. Wilkins",
+   "feels": [
+    {
+     "name": "Trust",
+     "hasIntensity": 0.9,
+     "quote": "Mrs. Wilkins asserted that it would be quite true.",
+     "causedBy": {
+      "id": "Mrs. Arbuthnot's plan",
+      "name": "Mrs. Arbuthnot's plan to give out a false explanation"
+     },
+     "hasObject": {
+      "id": "mediaeval castle",
+      "name": "mediaeval castle"
+     },
+     "exactPlace": "In their minds"
+    },
+    {
+     "name": "Surprise",
+     "hasIntensity": 0.7,
+     "quote": "It staggered them.",
+     "causedBy": {
+      "id": "Mr. Briggs's letter",
+      "name": "Mr. Briggs's letter stating the rent"
+     },
+     "hasObject": {
+      "id": "rent",
+      "name": "rent"
+     },
+     "exactPlace": "Before Mrs. Arbuthnot’s eyes"
+    },
+    {
+     "name": "Joy",
+     "hasIntensity": 0.8,
+     "quote": "They did, both of them, for a whole day feel that the only thing to be done was to renounce the mediaeval castle; and it was in arriving at this bitter decision that they really realised how acute had been their longing for it.",
+     "causedBy": {
+      "id": "Realization of longing",
+      "name": "Realization of longing for the castle"
+     },
+     "hasObject": {
+      "id": "mediaeval castle",
+      "name": "mediaeval castle"
+     },
+     "exactPlace": "In arriving at this bitter decision"
+    }
+   ]
+  },
+  {
+   "id": "Mrs. Arbuthnot",
+   "feels": [
+    {
+     "name": "Fear",
+     "hasIntensity": 0.6,
+     "quote": "She felt happy, and she felt guilty, and she felt afraid.",
+     "causedBy": {
+      "id": "Secret visions",
+      "name": "Secret visions of the castle"
+     },
+     "hasObject": {
+      "id": "castle",
+      "name": "castle"
+     },
+     "exactPlace": "At the end of the meeting"
+    },
+    {
+     "name": "Guilty",
+     "hasIntensity": 0.7,
+     "quote": "She felt happy, and she felt guilty, and she felt afraid.",
+     "causedBy": {
+      "id": "Secret visions",
+      "name": "Secret visions of the castle"
+     },
+     "hasObject": {
+      "id": "castle",
+      "name": "castle"
+     },
+     "exactPlace": "At the end of the meeting"
+    },
+    {
+     "name": "Happiness",
+     "hasIntensity": 0.8,
+     "quote": "She felt happy, and she felt guilty, and she felt afraid.",
+     "causedBy": {
+      "id": "Secret visions",
+      "name": "Secret visions of the castle"
+     },
+     "hasObject": {
+      "id": "castle",
+      "name": "castle"
+     },
+     "exactPlace": "At the end of the meeting"
+    }
+   ]
+  }
+ ],
+ "Places": [
+  {
+   "id": "Brompton Oratory",
+   "name": "Brompton Oratory",
+   "description": "Address near where the owner lived"
+  }
+ ],
+ "Events": [
+  {
+   "id": "Mrs. Arbuthnot's plan",
+   "name": "Mrs. Arbuthnot's plan to give out a false explanation",
+   "takePlaceAt": {
+    "id": "mediaeval castle",
+    "name": "mediaeval castle"
+   },
+   "hasParticipant": {
+    "id": "Mrs. Wilkins"
+   }
+  },
+  {
+   "id": "Mr. Briggs's letter",
+   "name": "Mr. Briggs's letter stating the rent",
+   "takePlaceAt": {
+    "id": "mediaeval castle",
+    "name": "mediaeval castle"
+   },
+   "hasParticipant": {
+    "id": "Mrs. Wilkins"
+   }
+  },
+  {
+   "id": "Realization of longing",
+   "name": "Realization of longing for the castle",
+   "takePlaceAt": {
+    "id": "mediaeval castle",
+    "name": "mediaeval castle"
+   },
+   "hasParticipant": {
+    "id": "Mrs. Wilkins"
+   }
+  }
+ ]
+}

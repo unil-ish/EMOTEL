@@ -18,6 +18,7 @@ def send_req(messages) -> str:
         top_p=1,  # ?
         frequency_penalty=0,  # la répétition de tokens n'est pas un souci.
         presence_penalty=0,
+        response_format={"type": "json_object"},
     )
     result = "\n".join([i.message.content for i in response.choices])
     # parfois, chatgpt retourne le JSON dans un format markdown (blockCode):
@@ -66,10 +67,9 @@ def annotate_directory(chunks_dir) -> None:
     x = 1  # le nombre de répétitions du traitement.
 
     while n < total_n and x < 10:
-        print(f"""reste à annoter {total_n - n} conversations. 
-essai numéro {x}/10""")
+        print(f"""il reste à annoter {total_n - n} fichiers. 
+essai {x}/10""")
         for fp in tqdm.tqdm(files):  # tqdm: afficher la progression
-
             # parse la conversation (prompt initial et série de textes)
             with open(os.path.join(chunks_dir, fp), "r") as f:
                 messages = json.load(f)
@@ -87,7 +87,7 @@ essai numéro {x}/10""")
                     n += 1
             except json.decoder.JSONDecodeError:
                 # si le JSON est mal formé, l'écrire sans passer par le module JSON et ajouter un suffixe au fichier pour noter qu'il y a un problème.
-                print("erreur de décodage: à corriger manuelement")
+                print("erreur de décodage: à corriger manuellement")
                 with open(os.path.join(annotations_dir, fp + "_a_corriger"), "w") as f:
                     f.write(response)
                 n += 1
