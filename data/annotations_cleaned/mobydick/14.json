@@ -1,121 +1,79 @@
 {
  "FictionalCharacters": [
   {
-   "id": "Tashtego",
+   "id": "data/texts/mobydick#Tashtego",
    "feels": [
     {
      "name": "Fear",
      "hasIntensity": 0.9,
      "quote": "on a sudden, as the eightieth or ninetieth bucket came suckingly up—my God! poor Tashtego—like the twin reciprocating bucket in a veritable well, dropped head-foremost down into this great Tun of Heidelburgh, and with a horrible oily gurgling, went clean out of sight!",
-     "causedBy": {
-      "id": "event1",
-      "name": "Falling_into_the_great_Tun_of_Heidelburgh"
-     },
-     "hasObject": {
-      "id": "object1",
-      "name": "Great_Tun_of_Heidelburgh"
-     },
      "place": {
-      "id": "place1",
-      "name": "Deck of the Pequod"
-     }
+      "id": "data/texts/mobydick#Deck_of_the_Pequod",
+      "name": "Deck_of_the_Pequod"
+     },
+     "id": "Fear"
     },
     {
      "name": "Joy",
      "hasIntensity": 0.8,
      "quote": "Both! both!—it is both!—cried Daggoo again with a joyful shout; and soon after, Queequeg was seen boldly striking out with one hand, and with the other clutching the long hair of the Indian.",
-     "causedBy": {
-      "id": "event2",
-      "name": "Rescue_of_Tashtego"
-     },
-     "hasObject": {
-      "id": "object2",
-      "name": "Rescue"
-     },
      "place": {
-      "id": "place2",
-      "name": "Deck of the Pequod"
-     }
+      "id": "data/texts/mobydick#Deck_of_the_Pequod",
+      "name": "Deck_of_the_Pequod"
+     },
+     "id": "Joy"
     }
    ],
    "name": "Tashtego"
   },
   {
-   "id": "Daggoo",
+   "id": "data/texts/mobydick#Daggoo",
    "feels": [
     {
      "name": "Fear",
      "hasIntensity": 0.7,
      "quote": "Come down, come down! yelled the seamen to Daggoo, but with one hand holding on to the heavy tackles, so that if the head should drop, he would still remain suspended; the negro having cleared the foul line, rammed down the bucket into the now collapsed well, meaning that the buried harpooneer should grasp it, and so be hoisted out.",
-     "causedBy": {
-      "id": "event3",
-      "name": "Dangerous_situation_with_the_head"
-     },
-     "hasObject": {
-      "id": "object3",
-      "name": "Head"
-     },
      "place": {
-      "id": "place1",
-      "name": "Deck of the Pequod"
-     }
+      "id": "data/texts/mobydick#Deck_of_the_Pequod",
+      "name": "Deck_of_the_Pequod"
+     },
+     "id": "Fear"
     },
     {
      "name": "Joy",
      "hasIntensity": 0.9,
      "quote": "Both! both!—it is both!—cried Daggoo again with a joyful shout; and soon after, Queequeg was seen boldly striking out with one hand, and with the other clutching the long hair of the Indian.",
-     "causedBy": {
-      "id": "event2",
-      "name": "Rescue_of_Tashtego"
-     },
-     "hasObject": {
-      "id": "object2",
-      "name": "Rescue"
-     },
      "place": {
-      "id": "place2",
-      "name": "Deck of the Pequod"
-     }
+      "id": "data/texts/mobydick#Deck_of_the_Pequod",
+      "name": "Deck_of_the_Pequod"
+     },
+     "id": "Joy"
     }
    ],
    "name": "Daggoo"
   },
   {
-   "id": "Queequeg",
+   "id": "data/texts/mobydick#Queequeg",
    "feels": [
     {
      "name": "Joy",
      "hasIntensity": 0.9,
      "quote": "Both! both!—it is both!—cried Daggoo again with a joyful shout; and soon after, Queequeg was seen boldly striking out with one hand, and with the other clutching the long hair of the Indian.",
-     "causedBy": {
-      "id": "event2",
-      "name": "Rescue_of_Tashtego"
-     },
-     "hasObject": {
-      "id": "object2",
-      "name": "Rescue"
-     },
      "place": {
-      "id": "place2",
-      "name": "Deck of the Pequod"
-     }
+      "id": "data/texts/mobydick#Deck_of_the_Pequod",
+      "name": "Deck_of_the_Pequod"
+     },
+     "id": "Joy"
     },
     {
      "name": "Fear",
      "hasIntensity": 0.8,
      "quote": "Looking over the side, they saw the before lifeless head throbbing and heaving just below the surface of the sea, as if that moment seized with some momentous idea; whereas it was only the poor Indian unconsciously revealing by those struggles the perilous depth to which he had sunk.",
-     "causedBy": {
-      "id": "event4",
-      "name": "Seeing_the_head_of_Tashtego_below_the_surface_of_the_sea"
-     },
-     "hasObject": {
-      "id": "object4",
-      "name": "Head_of_Tashtego"
-     },
      "place": {
-      "id": "place3",
-      "name": "Deck of the Pequod"
-     }
+      "id": "data/texts/mobydick#Deck_of_the_Pequod",
+      "name": "Deck_of_the_Pequod"
+     },
+     "id": "Fear"
     }
    ],
    "name": "Queequeg"
@@ -123,55 +81,55 @@
  ],
  "Places": [
   {
-   "id": "place1",
+   "id": "data/texts/mobydick#Deck_of_the_Pequod",
    "name": "Deck_of_the_Pequod",
    "description": "The main deck of the whaling ship Pequod."
   },
   {
-   "id": "place2",
+   "id": "data/texts/mobydick#Deck_of_the_Pequod",
    "name": "Deck_of_the_Pequod",
    "description": "The main deck of the whaling ship Pequod during the rescue operation."
   },
   {
-   "id": "place3",
+   "id": "data/texts/mobydick#Deck_of_the_Pequod",
    "name": "Deck_of_the_Pequod",
    "description": "The main deck of the whaling ship Pequod during the rescue operation."
   }
  ],
  "Events": [
   {
-   "id": "event1",
+   "id": "data/texts/mobydick#Falling_into_the_great_Tun_of_Heidelburgh",
    "name": "Falling_into_the_great_Tun_of_Heidelburgh"
   },
   {
-   "id": "event2",
+   "id": "data/texts/mobydick#Rescue_of_Tashtego",
    "name": "Rescue_of_Tashtego"
   },
   {
-   "id": "event3",
+   "id": "data/texts/mobydick#Dangerous_situation_with_the_head",
    "name": "Dangerous_situation_with_the_head"
   },
   {
-   "id": "event4",
+   "id": "data/texts/mobydick#Seeing_the_head_of_Tashtego_below_the_surface_of_t",
    "name": "Seeing_the_head_of_Tashtego_below_the_surface_of_the_sea"
   }
  ],
  "Objects": [
   {
-   "id": "object1",
-   "name": "Great Tun of Heidelburgh"
+   "id": "data/texts/mobydick#Great_Tun_of_Heidelburgh",
+   "name": "Great_Tun_of_Heidelburgh"
   },
   {
-   "id": "object2",
+   "id": "data/texts/mobydick#Rescue",
    "name": "Rescue"
   },
   {
-   "id": "object3",
+   "id": "data/texts/mobydick#Head",
    "name": "Head"
   },
   {
-   "id": "object4",
-   "name": "Head of Tashtego"
+   "id": "data/texts/mobydick#Head_of_Tashtego",
+   "name": "Head_of_Tashtego"
   }
  ]
 }

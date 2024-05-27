@@ -1,58 +1,37 @@
 {
  "FictionalCharacters": [
   {
-   "id": "Valancy",
+   "id": "data/texts/thebluecastle#Valancy",
    "feels": [
     {
      "name": "Freedom",
      "hasIntensity": 0.9,
      "quote": "She let herself go with a wild, inner exultation, as Uncle Herbert carved the turkey.",
-     "causedBy": {
-      "id": "Uncle_Herbert_carving_the_turkey",
-      "name": "Uncle_Herbert_carving_the_turkey"
-     },
-     "hasObject": {
-      "id": "Thanksgiving_dinner",
-      "name": "Thanksgiving_dinner"
-     },
      "place": {
-      "id": "Uncle Herbert's house",
-      "name": "Uncle Herbert's house"
-     }
+      "id": "data/texts/thebluecastle#Uncle_Herbert_s_house",
+      "name": "Uncle_Herbert_s_house"
+     },
+     "id": "Freedom"
     },
     {
      "name": "Amusement",
      "hasIntensity": 0.8,
      "quote": "She was gazing around the table, examining relentlessly every one in this depressing assembly of sensible people and watching their little squirms with a detached, amused smile.",
-     "causedBy": {
-      "id": "Observing_the_guests_at_the_table",
-      "name": "Observing_the_guests_at_the_table"
-     },
-     "hasObject": {
-      "id": "Family_gathering",
-      "name": "Family_gathering"
-     },
      "place": {
-      "id": "Uncle Herbert's house",
-      "name": "Uncle Herbert's house"
-     }
+      "id": "data/texts/thebluecastle#Uncle_Herbert_s_house",
+      "name": "Uncle_Herbert_s_house"
+     },
+     "id": "Amusement"
     },
     {
      "name": "Rebellion",
      "hasIntensity": 0.9,
      "quote": "She was giving herself such freedom of thought as she had never dared to take before. She let herself go with a wild, inner exultation.",
-     "causedBy": {
-      "id": "Feeling_liberated",
-      "name": "Feeling_liberated"
-     },
-     "hasObject": {
-      "id": "Family_gathering",
-      "name": "Family_gathering"
-     },
      "place": {
-      "id": "Uncle Herbert's house",
-      "name": "Uncle Herbert's house"
-     }
+      "id": "data/texts/thebluecastle#Uncle_Herbert_s_house",
+      "name": "Uncle_Herbert_s_house"
+     },
+     "id": "Rebellion"
     }
    ],
    "name": "Valancy"
@@ -60,47 +39,23 @@
  ],
  "Places": [
   {
-   "id": "Uncle_Herbert_s_house",
+   "id": "data/texts/thebluecastle#Uncle_Herbert_s_house",
    "name": "Uncle_Herbert_s_house",
    "description": "A large, pretentious structure peppered with meaningless bay windows and excrescent porches."
   }
  ],
  "Events": [
   {
-   "id": "Uncle_Herbert_carving_the_turkey",
-   "name": "Uncle_Herbert_carving_the_turkey",
-   "takePlaceAt": {
-    "id": "Thanksgiving_dinner",
-    "name": "Thanksgiving_dinner"
-   },
-   "hasParticipant": {
-    "id": "Valancy",
-    "name": "Valancy"
-   }
+   "id": "data/texts/thebluecastle#Uncle_Herbert_carving_the_turkey",
+   "name": "Uncle_Herbert_carving_the_turkey"
   },
   {
-   "id": "Observing_the_guests_at_the_table",
-   "name": "Observing_the_guests_at_the_table",
-   "takePlaceAt": {
-    "id": "Family_gathering",
-    "name": "Family_gathering"
-   },
-   "hasParticipant": {
-    "id": "Valancy",
-    "name": "Valancy"
-   }
+   "id": "data/texts/thebluecastle#Observing_the_guests_at_the_table",
+   "name": "Observing_the_guests_at_the_table"
   },
   {
-   "id": "Feeling_liberated",
-   "name": "Feeling_liberated",
-   "takePlaceAt": {
-    "id": "Family_gathering",
-    "name": "Family_gathering"
-   },
-   "hasParticipant": {
-    "id": "Valancy",
-    "name": "Valancy"
-   }
+   "id": "data/texts/thebluecastle#Feeling_liberated",
+   "name": "Feeling_liberated"
   }
  ]
 }

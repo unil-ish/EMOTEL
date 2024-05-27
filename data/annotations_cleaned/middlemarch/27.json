@@ -1,97 +1,55 @@
 {
  "FictionalCharacters": [
   {
-   "id": "Lydgate",
+   "id": "data/texts/middlemarch#Lydgate",
    "feels": [
     {
      "name": "Trust",
      "hasIntensity": 0.2,
      "quote": "It was as if a fracture in delicate crystal had begun, and he was afraid of any movement that might make it fatal.",
-     "causedBy": {
-      "id": "discussion_with_his_wife",
-      "name": "Discussion_with_his_wife_about_their_financial_situation"
-     },
-     "hasObject": {
-      "id": "relationship_with_his_wife",
-      "name": "Relationship_with_his_wife"
-     },
-     "exactPlace": "Within him"
+     "exactPlace": "Within him",
+     "id": "Trust"
     },
     {
      "name": "Anger",
      "hasIntensity": 0.7,
      "quote": "He wheeled round there, and turned towards her.",
-     "causedBy": {
-      "id": "Rosamond_s_suggestion",
-      "name": "Rosamond_s_suggestion_to_part_with_the_house"
-     },
-     "hasObject": {
-      "id": "house",
-      "name": "House"
-     },
-     "exactPlace": "Within him"
+     "exactPlace": "Within him",
+     "id": "Anger"
     },
     {
      "name": "Joy",
      "hasIntensity": 0.5,
      "quote": "He tried that evening, by petting her, to heal the wound he had made in the morning.",
-     "causedBy": {
-      "id": "attempt_to_mend_the_situation",
-      "name": "Attempt_to_mend_the_situation_with_his_wife"
-     },
-     "hasObject": {
-      "id": "relationship_with_his_wife",
-      "name": "Relationship_with_his_wife"
-     },
-     "exactPlace": "Within him"
+     "exactPlace": "Within him",
+     "id": "Joy"
     }
    ],
    "name": "Lydgate"
   },
   {
-   "id": "Rosamond",
+   "id": "data/texts/middlemarch#Rosamond",
    "feels": [
     {
      "name": "Dread",
      "hasIntensity": 0.6,
      "quote": "He felt that the chief result of the discussion was a deposit of dread within him at the idea of opening with his wife in future subjects which might again urge him to violent speech.",
-     "causedBy": {
-      "id": "discussion_with_her_husband",
-      "name": "Discussion_with_her_husband_about_their_financial_situation"
-     },
-     "hasObject": {
-      "id": "future_discussions",
-      "name": "Future_discussions"
-     },
-     "exactPlace": "Within her"
+     "exactPlace": "Within her",
+     "id": "Dread"
     },
     {
      "name": "Bitterness",
      "hasIntensity": 0.8,
      "quote": "It was a moment of more intense bitterness than she had ever felt before.",
-     "causedBy": {
-      "id": "realization_of_the_financial_situation",
-      "name": "Realization_of_the_financial_situation"
-     },
-     "hasObject": {
-      "id": "financial_situation",
-      "name": "Financial_situation"
-     },
-     "exactPlace": "Within her"
+     "exactPlace": "Within her",
+     "id": "Bitterness"
     },
     {
      "name": "Determination",
      "hasIntensity": 0.7,
      "quote": "But this was something quite distinct from loving him. Lydgate would not have chosen soon to recur to the plan of parting with the house; he was resolved to carry it out, and say as little more about it as possible.",
-     "causedBy": {
-      "id": "decision_to_prevent_the_parting_with_the_house",
-      "name": "Decision_to_prevent_the_parting_with_the_house"
-     },
-     "hasObject": {
-      "id": "house",
-      "name": "House"
-     },
-     "exactPlace": "Within her"
+     "exactPlace": "Within her",
+     "id": "Determination"
     }
    ],
    "name": "Rosamond"
@@ -99,67 +57,41 @@
  ],
  "Places": [
   {
-   "id": "Middlemarch",
+   "id": "data/texts/middlemarch#Middlemarch",
    "name": "Middlemarch",
    "description": "The town where the characters reside."
   }
  ],
  "Events": [
   {
-   "id": "discussion_with_his_wife",
+   "id": "data/texts/middlemarch#Discussion_with_his_wife_about_their_financial_sit",
    "name": "Discussion_with_his_wife_about_their_financial_situation",
-   "takePlaceAt": {
-    "id": "Middlemarch",
-    "name": "Middlemarch"
-   }
+   "hasParticipant": [
+    {
+     "id": "data/texts/middlemarch#Lydgate",
+     "name": "Lydgate"
+    },
+    {
+     "id": "data/texts/middlemarch#Rosamond",
+     "name": "Rosamond"
+    }
+   ]
   },
   {
-   "id": "Rosamond_s_suggestion",
-   "name": "Rosamond_s_suggestion_to_part_with_the_house",
-   "takePlaceAt": {
-    "id": "Middlemarch",
-    "name": "Middlemarch"
-   },
-   "hasParticipant": {
-    "id": "Lydgate",
-    "name": "Lydgate"
-   }
+   "id": "data/texts/middlemarch#Rosamond_s_suggestion_to_part_with_the_house",
+   "name": "Rosamond_s_suggestion_to_part_with_the_house"
   },
   {
-   "id": "attempt_to_mend_the_situation",
-   "name": "Attempt_to_mend_the_situation_with_his_wife",
-   "takePlaceAt": {
-    "id": "Middlemarch",
-    "name": "Middlemarch"
-   },
-   "hasParticipant": {
-    "id": "Lydgate",
-    "name": "Lydgate"
-   }
+   "id": "data/texts/middlemarch#Attempt_to_mend_the_situation_with_his_wife",
+   "name": "Attempt_to_mend_the_situation_with_his_wife"
   },
   {
-   "id": "realization_of_the_financial_situation",
-   "name": "Realization_of_the_financial_situation",
-   "takePlaceAt": {
-    "id": "Middlemarch",
-    "name": "Middlemarch"
-   },
-   "hasParticipant": {
-    "id": "Rosamond",
-    "name": "Rosamond"
-   }
+   "id": "data/texts/middlemarch#Realization_of_the_financial_situation",
+   "name": "Realization_of_the_financial_situation"
   },
   {
-   "id": "decision_to_prevent_the_parting_with_the_house",
-   "name": "Decision_to_prevent_the_parting_with_the_house",
-   "takePlaceAt": {
-    "id": "Middlemarch",
-    "name": "Middlemarch"
-   },
-   "hasParticipant": {
-    "id": "Rosamond",
-    "name": "Rosamond"
-   }
+   "id": "data/texts/middlemarch#Decision_to_prevent_the_parting_with_the_house",
+   "name": "Decision_to_prevent_the_parting_with_the_house"
   }
  ]
 }

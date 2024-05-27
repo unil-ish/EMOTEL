@@ -1,77 +1,42 @@
 {
  "FictionalCharacters": [
   {
-   "id": "Queequeg",
+   "id": "data/texts/mobydick#Queequeg",
    "feels": [
     {
      "name": "Fear",
      "hasIntensity": 0.9,
      "quote": "Being the savage’s bowsman, that is, the person who pulled the bow-oar in his boat (the second one from forward), it was my cheerful duty to attend upon him while taking that hard-scrabble scramble upon the dead whale’s back.",
-     "causedBy": {
-      "id": "event1",
-      "name": "Scrambling_upon_the_dead_whale_s_back"
-     },
-     "hasObject": {
-      "id": "object1",
-      "name": "Dead_whale"
-     },
-     "place": "Dead whale's back"
+     "place": "Dead whale's back",
+     "id": "Fear"
     },
     {
      "name": "Fear",
      "hasIntensity": 0.8,
      "quote": "It was a humorously perilous business for both of us.",
-     "causedBy": {
-      "id": "event2",
-      "name": "Perilous_business"
-     },
-     "hasObject": {
-      "id": "object2",
-      "name": "Perilous_situation"
-     },
-     "place": "On the dead whale's back"
+     "place": "On the dead whale's back",
+     "id": "Fear"
     },
     {
      "name": "Fear",
      "hasIntensity": 0.7,
      "quote": "So strongly and metaphysically did I conceive of my situation then, that while earnestly watching his motions, I seemed distinctly to perceive that my own individuality was now merged in a joint stock company of two.",
-     "causedBy": {
-      "id": "event3",
-      "name": "Perceiving_the_merged_individuality"
-     },
-     "hasObject": {
-      "id": "object3",
-      "name": "Merged_individuality"
-     },
-     "place": "On the dead whale's back"
+     "place": "On the dead whale's back",
+     "id": "Fear"
     },
     {
      "name": "Fear",
      "hasIntensity": 0.8,
      "quote": "Therefore, I saw that here was a sort of interregnum in Providence; for its even-handed equity never could have so gross an injustice.",
-     "causedBy": {
-      "id": "event4",
-      "name": "Interregnum_in_Providence"
-     },
-     "hasObject": {
-      "id": "object4",
-      "name": "Interregnum"
-     },
-     "place": "On the dead whale's back"
+     "place": "On the dead whale's back",
+     "id": "Fear"
     },
     {
      "name": "Fear",
      "hasIntensity": 0.9,
      "quote": "And yet still further pondering—while I jerked him now and then from between the whale and ship, which would threaten to jam him—still further pondering, I say, I saw that this situation of mine was the precise situation of every mortal that breathes.",
-     "causedBy": {
-      "id": "event5",
-      "name": "Pondering_the_situation"
-     },
-     "hasObject": {
-      "id": "object5",
-      "name": "Pondering_the_situation"
-     },
-     "place": "Between the whale and ship"
+     "place": "Between the whale and ship",
+     "id": "Fear"
     }
    ],
    "name": "Queequeg"
@@ -79,46 +44,46 @@
  ],
  "Events": [
   {
-   "id": "event1",
+   "id": "data/texts/mobydick#Scrambling_upon_the_dead_whale_s_back",
    "name": "Scrambling_upon_the_dead_whale_s_back"
   },
   {
-   "id": "event2",
+   "id": "data/texts/mobydick#Perilous_business",
    "name": "Perilous_business"
   },
   {
-   "id": "event3",
+   "id": "data/texts/mobydick#Perceiving_the_merged_individuality",
    "name": "Perceiving_the_merged_individuality"
   },
   {
-   "id": "event4",
+   "id": "data/texts/mobydick#Interregnum_in_Providence",
    "name": "Interregnum_in_Providence"
   },
   {
-   "id": "event5",
+   "id": "data/texts/mobydick#Pondering_the_situation",
    "name": "Pondering_the_situation"
   }
  ],
  "Objects": [
   {
-   "id": "object1",
-   "name": "Dead whale"
+   "id": "data/texts/mobydick#Dead_whale",
+   "name": "Dead_whale"
   },
   {
-   "id": "object2",
-   "name": "Perilous situation"
+   "id": "data/texts/mobydick#Perilous_situation",
+   "name": "Perilous_situation"
   },
   {
-   "id": "object3",
-   "name": "Merged individuality"
+   "id": "data/texts/mobydick#Merged_individuality",
+   "name": "Merged_individuality"
   },
   {
-   "id": "object4",
+   "id": "data/texts/mobydick#Interregnum",
    "name": "Interregnum"
   },
   {
-   "id": "object5",
-   "name": "Pondering the situation"
+   "id": "data/texts/mobydick#Pondering_the_situation",
+   "name": "Pondering_the_situation"
   }
  ]
 }

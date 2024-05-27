@@ -1,81 +1,53 @@
 {
  "FictionalCharacters": [
   {
-   "id": "Ahab",
+   "id": "data/texts/mobydick#Ahab",
    "feels": [
     {
      "name": "Irritation",
      "hasIntensity": 0.8,
      "quote": "every little untoward circumstance that befell him, and which indirectly sprang from his luckless mishap, almost invariably irritated or exasperated Ahab.",
-     "causedBy": {
-      "id": "Mishap",
-      "name": "Luckless_mishap"
-     },
-     "hasObject": {
-      "id": "Circumstance1",
-      "name": "Untoward_circumstance"
-     },
      "place": {
-      "id": "Ship1",
+      "id": "data/texts/mobydick#Ship",
       "name": "Ship"
-     }
+     },
+     "id": "Irritation"
     },
     {
      "name": "Exasperation",
      "hasIntensity": 0.7,
      "quote": "every little untoward circumstance that befell him, and which indirectly sprang from his luckless mishap, almost invariably irritated or exasperated Ahab.",
-     "causedBy": {
-      "id": "Mishap",
-      "name": "Luckless_mishap"
-     },
-     "hasObject": {
-      "id": "Circumstance1",
-      "name": "Untoward_circumstance"
-     },
      "place": {
-      "id": "Ship1",
+      "id": "data/texts/mobydick#Ship",
       "name": "Ship"
-     }
+     },
+     "id": "Exasperation"
     },
     {
      "name": "Exultation",
      "hasIntensity": 0.9,
      "quote": "Aye, aye—they were mine—my irons—cried Ahab, exultingly—but on!",
-     "causedBy": {
-      "id": "Success",
-      "name": "Success_in_harpooning_the_whale"
-     },
-     "hasObject": {
-      "id": "Harpoons",
-      "name": "Harpoons"
-     },
      "place": {
-      "id": "Sea1",
+      "id": "data/texts/mobydick#Sea",
       "name": "Sea"
-     }
+     },
+     "id": "Exultation"
     }
    ],
    "name": "Ahab"
   },
   {
-   "id": "Englishman",
+   "id": "data/texts/mobydick#Englishman",
    "feels": [
     {
-     "name": "Good-humoredness",
+     "name": "Goodhumoredness",
      "hasIntensity": 0.8,
      "quote": "Shall I call that wise or foolish, now; if it be really wise it has a foolish look to it; yet, if it be really foolish, then has it a sort of wiseish look to it. But, avast; here comes our old Manxman—the old hearse-driver, he must have been, that is, before he took to the sea.",
-     "causedBy": {
-      "id": "Observation",
-      "name": "Observing_Ahab_s_actions"
-     },
-     "hasObject": {
-      "id": "Ahab",
-      "name": "Ahab"
-     },
      "place": {
-      "id": "Ship1",
+      "id": "data/texts/mobydick#Ship",
       "name": "Ship"
-     }
+     },
+     "id": "Goodhumoredness"
     }
    ],
    "name": "Englishman"
@@ -83,49 +55,37 @@
  ],
  "Places": [
   {
-   "id": "Ship1",
+   "id": "data/texts/mobydick#Ship",
    "name": "Ship",
    "description": "A vessel at sea"
   },
   {
-   "id": "Sea1",
+   "id": "data/texts/mobydick#Sea",
    "name": "Sea",
    "description": "The open ocean"
   }
  ],
  "Events": [
   {
-   "id": "Mishap",
-   "name": "Luckless_mishap",
-   "takePlaceAt": {
-    "id": "Ship1",
-    "name": "Ship1"
-   }
+   "id": "data/texts/mobydick#Luckless_mishap",
+   "name": "Luckless_mishap"
   },
   {
-   "id": "Success",
-   "name": "Success_in_harpooning_the_whale",
-   "takePlaceAt": {
-    "id": "Sea1",
-    "name": "Sea1"
-   }
+   "id": "data/texts/mobydick#Success_in_harpooning_the_whale",
+   "name": "Success_in_harpooning_the_whale"
   },
   {
-   "id": "Observation",
-   "name": "Observing_Ahab_s_actions",
-   "takePlaceAt": {
-    "id": "Ship1",
-    "name": "Ship1"
-   }
+   "id": "data/texts/mobydick#Observing_Ahab_s_actions",
+   "name": "Observing_Ahab_s_actions"
   }
  ],
  "Objects": [
   {
-   "id": "Circumstance1",
-   "name": "Untoward circumstance"
+   "id": "data/texts/mobydick#Untoward_circumstance",
+   "name": "Untoward_circumstance"
   },
   {
-   "id": "Harpoons",
+   "id": "data/texts/mobydick#Harpoons",
    "name": "Harpoons"
   }
  ]

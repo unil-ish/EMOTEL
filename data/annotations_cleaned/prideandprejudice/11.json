@@ -1,175 +1,106 @@
 {
  "FictionalCharacters": [
   {
-   "id": "fc1",
+   "id": "data/texts/prideandprejudice#Mr_Bennet",
    "name": "Mr_Bennet",
    "feels": [
     {
      "name": "Regret",
      "hasIntensity": 0.7,
      "quote": "The loss of her daughter made Mrs. Bennet very dull for several days.",
-     "causedBy": {
-      "id": "event1",
-      "name": "Daughter_s_departure"
-     },
-     "hasObject": {
-      "id": "object1",
-      "name": "Daughter"
-     },
-     "exactPlace": "Home"
+     "exactPlace": "Home",
+     "id": "Regret"
     },
     {
      "name": "Pride",
      "hasIntensity": 0.9,
      "quote": "He is as fine a fellow as ever I saw. He simpers, and smirks, and makes love to us all. I am prodigiously proud of him.",
-     "causedBy": {
-      "id": "event2",
-      "name": "Mr_Wickham_s_departure"
-     },
-     "hasObject": {
-      "id": "object2",
-      "name": "Mr_Wickham"
-     },
-     "exactPlace": "Home"
+     "exactPlace": "Home",
+     "id": "Pride"
     },
     {
      "name": "Regret",
      "hasIntensity": 0.8,
      "quote": "I begin to be sorry that he comes at all.",
-     "causedBy": {
-      "id": "event3",
-      "name": "Mr_Bingley_s_arrival"
-     },
-     "hasObject": {
-      "id": "object3",
-      "name": "Mr_Bingley"
-     },
-     "exactPlace": "Home"
+     "exactPlace": "Home",
+     "id": "Regret"
     }
    ]
   },
   {
-   "id": "fc2",
+   "id": "data/texts/prideandprejudice#Mrs_Bennet",
    "name": "Mrs_Bennet",
    "feels": [
     {
      "name": "Regret",
      "hasIntensity": 0.7,
      "quote": "The loss of her daughter made Mrs. Bennet very dull for several days.",
-     "causedBy": {
-      "id": "event4",
-      "name": "Daughter_s_departure"
-     },
-     "hasObject": {
-      "id": "object4",
-      "name": "Daughter"
-     },
-     "exactPlace": "Home"
+     "exactPlace": "Home",
+     "id": "Regret"
     },
     {
      "name": "Excitement",
      "hasIntensity": 0.8,
      "quote": "The housekeeper at Netherfield had received orders to prepare for the arrival of her master, who was coming down in a day or two, to shoot there for several weeks.",
-     "causedBy": {
-      "id": "event5",
-      "name": "Mr_Bingley_s_arrival"
-     },
-     "hasObject": {
-      "id": "object5",
-      "name": "Mr_Bingley"
-     },
-     "exactPlace": "Home"
+     "exactPlace": "Home",
+     "id": "Excitement"
     }
    ]
   },
   {
-   "id": "fc3",
+   "id": "data/texts/prideandprejudice#Jane_Bennet",
    "name": "Jane_Bennet",
    "feels": [
     {
      "name": "Distress",
      "hasIntensity": 0.8,
      "quote": "I begin to be sorry that he comes at all.",
-     "causedBy": {
-      "id": "event3",
-      "name": "Mr_Bingley_s_arrival"
-     },
-     "hasObject": {
-      "id": "object3",
-      "name": "Mr_Bingley"
-     },
-     "exactPlace": "Home"
+     "exactPlace": "Home",
+     "id": "Distress"
     }
    ]
   },
   {
-   "id": "fc4",
+   "id": "data/texts/prideandprejudice#Elizabeth_Bennet",
    "name": "Elizabeth_Bennet",
    "feels": [
     {
      "name": "Confusion",
      "hasIntensity": 0.7,
      "quote": "I saw you look at me to-day, Lizzy, when my aunt told us of the present report; and I know I appeared distressed; but don’t imagine it was from any silly cause.",
-     "causedBy": {
-      "id": "event5",
-      "name": "Mr_Bingley_s_arrival"
-     },
-     "hasObject": {
-      "id": "object5",
-      "name": "Mr_Bingley"
-     },
-     "exactPlace": "Home"
+     "exactPlace": "Home",
+     "id": "Confusion"
     }
    ]
   }
  ],
  "Places": [
   {
-   "id": "place1",
+   "id": "data/texts/prideandprejudice#Home",
    "name": "Home",
    "description": "The Bennet family residence"
   }
  ],
  "Events": [
   {
-   "id": "event1",
-   "name": "Daughter_s_departure",
-   "takePlaceAt": {
-    "id": "place1",
-    "name": "place1"
-   }
+   "id": "data/texts/prideandprejudice#Daughter_s_departure",
+   "name": "Daughter_s_departure"
   },
   {
-   "id": "event2",
-   "name": "Mr_Wickham_s_departure",
-   "takePlaceAt": {
-    "id": "place1",
-    "name": "place1"
-   }
+   "id": "data/texts/prideandprejudice#Mr_Wickham_s_departure",
+   "name": "Mr_Wickham_s_departure"
   },
   {
-   "id": "event3",
-   "name": "Mr_Bingley_s_arrival",
-   "takePlaceAt": {
-    "id": "place1",
-    "name": "place1"
-   }
+   "id": "data/texts/prideandprejudice#Mr_Bingley_s_arrival",
+   "name": "Mr_Bingley_s_arrival"
   },
   {
-   "id": "event4",
-   "name": "Daughter_s_departure",
-   "takePlaceAt": {
-    "id": "place1",
-    "name": "place1"
-   }
+   "id": "data/texts/prideandprejudice#Daughter_s_departure",
+   "name": "Daughter_s_departure"
   },
   {
-   "id": "event5",
-   "name": "Mr_Bingley_s_arrival",
-   "takePlaceAt": {
-    "id": "place1",
-    "name": "place1"
-   }
+   "id": "data/texts/prideandprejudice#Mr_Bingley_s_arrival",
+   "name": "Mr_Bingley_s_arrival"
   }
  ]
 }

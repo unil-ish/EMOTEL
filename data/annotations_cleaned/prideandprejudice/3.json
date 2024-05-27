@@ -1,191 +1,135 @@
 {
  "FictionalCharacters": [
   {
-   "id": "fc1",
+   "id": "data/texts/prideandprejudice#Elizabeth_Bennet",
    "name": "Elizabeth_Bennet",
    "feels": [
     {
      "name": "Surprise",
      "hasIntensity": 0.6,
      "quote": "Before Elizabeth had time for anything but a blush of surprise, Mrs. Bennet instantly answered...",
-     "causedBy": {
-      "id": "event1",
-      "name": "Mrs_Bennet_s_quick_response"
-     },
-     "hasObject": {
-      "id": "object1",
-      "name": "Mrs_Bennet_s_reaction"
-     },
      "place": {
-      "id": "place1",
-      "name": "Longbourn estate"
-     }
+      "id": "data/texts/prideandprejudice#Longbourn_estate",
+      "name": "Longbourn_estate"
+     },
+     "id": "Surprise"
     },
     {
      "name": "Joy",
      "hasIntensity": 0.7,
      "quote": "Elizabeth now began to revive...",
-     "causedBy": {
-      "id": "event2",
-      "name": "The_interval_of_tranquillity"
-     },
-     "hasObject": {
-      "id": "object2",
-      "name": "Tranquillity"
-     },
      "place": {
-      "id": "place1",
-      "name": "Longbourn estate"
-     }
+      "id": "data/texts/prideandprejudice#Longbourn_estate",
+      "name": "Longbourn_estate"
+     },
+     "id": "Joy"
     },
     {
      "name": "Distress",
      "hasIntensity": 0.8,
      "quote": "she tried to conceal, by incessant employment, the feelings which were divided between distress and diversion...",
-     "causedBy": {
-      "id": "event3",
-      "name": "Feeling_divided_between_distress_and_diversion"
-     },
-     "hasObject": {
-      "id": "object3",
-      "name": "Feelings"
-     },
      "place": {
-      "id": "place1",
-      "name": "Longbourn estate"
-     }
+      "id": "data/texts/prideandprejudice#Longbourn_estate",
+      "name": "Longbourn_estate"
+     },
+     "id": "Distress"
     },
     {
      "name": "Disbelief",
      "hasIntensity": 0.9,
      "quote": "To such perseverance in wilful self-deception Elizabeth would make no reply...",
-     "causedBy": {
-      "id": "event4",
-      "name": "Mr_Collins_selfdeception"
-     },
-     "hasObject": {
-      "id": "object4",
-      "name": "Selfdeception"
-     },
      "place": {
-      "id": "place1",
-      "name": "Longbourn estate"
-     }
+      "id": "data/texts/prideandprejudice#Longbourn_estate",
+      "name": "Longbourn_estate"
+     },
+     "id": "Disbelief"
     }
    ]
   },
   {
-   "id": "fc2",
+   "id": "data/texts/prideandprejudice#Mr_Collins",
    "name": "Mr_Collins",
    "feels": [
     {
      "name": "Hope",
      "hasIntensity": 0.7,
      "quote": "“Upon my word, sir,” cried Elizabeth, “your hope is rather an extraordinary one after my declaration...",
-     "causedBy": {
-      "id": "event5",
-      "name": "Hope_for_a_favourable_answer"
-     },
-     "hasObject": {
-      "id": "object5",
-      "name": "Hope"
-     },
      "place": {
-      "id": "place1",
-      "name": "Longbourn estate"
-     }
+      "id": "data/texts/prideandprejudice#Longbourn_estate",
+      "name": "Longbourn_estate"
+     },
+     "id": "Hope"
     },
     {
      "name": "Pleasure",
      "hasIntensity": 0.8,
      "quote": "Mr. Collins received and returned these felicitations with equal pleasure...",
-     "causedBy": {
-      "id": "event6",
-      "name": "Felicitations_from_Mrs_Bennet"
-     },
-     "hasObject": {
-      "id": "object6",
-      "name": "Felicitations"
-     },
      "place": {
-      "id": "place1",
-      "name": "Longbourn estate"
-     }
+      "id": "data/texts/prideandprejudice#Longbourn_estate",
+      "name": "Longbourn_estate"
+     },
+     "id": "Pleasure"
     },
     {
      "name": "Satisfaction",
      "hasIntensity": 0.9,
      "quote": "Mr. Collins proceeded to relate the particulars of their interview, with the result of which he trusted he had every reason to be satisfied...",
-     "causedBy": {
-      "id": "event7",
-      "name": "Satisfaction_with_the_interview"
-     },
-     "hasObject": {
-      "id": "object7",
-      "name": "Interview_result"
-     },
      "place": {
-      "id": "place1",
-      "name": "Longbourn estate"
-     }
+      "id": "data/texts/prideandprejudice#Longbourn_estate",
+      "name": "Longbourn_estate"
+     },
+     "id": "Satisfaction"
     },
     {
      "name": "Determination",
      "hasIntensity": 0.8,
      "quote": "“But depend upon it, Mr. Collins,” she added, “that Lizzy shall be brought to reason...",
-     "causedBy": {
-      "id": "event8",
-      "name": "Determination_to_bring_Elizabeth_to_reason"
-     },
-     "hasObject": {
-      "id": "object8",
-      "name": "Bringing_Elizabeth_to_reason"
-     },
      "place": {
-      "id": "place1",
-      "name": "Longbourn estate"
-     }
+      "id": "data/texts/prideandprejudice#Longbourn_estate",
+      "name": "Longbourn_estate"
+     },
+     "id": "Determination"
     }
    ]
   }
  ],
  "Places": [
   {
-   "id": "place1",
+   "id": "data/texts/prideandprejudice#Longbourn_estate",
    "name": "Longbourn_estate"
   }
  ],
  "Events": [
   {
-   "id": "event1",
+   "id": "data/texts/prideandprejudice#Mrs_Bennet_s_quick_response",
    "name": "Mrs_Bennet_s_quick_response"
   },
   {
-   "id": "event2",
+   "id": "data/texts/prideandprejudice#The_interval_of_tranquillity",
    "name": "The_interval_of_tranquillity"
   },
   {
-   "id": "event3",
+   "id": "data/texts/prideandprejudice#Feeling_divided_between_distress_and_diversion",
    "name": "Feeling_divided_between_distress_and_diversion"
   },
   {
-   "id": "event4",
+   "id": "data/texts/prideandprejudice#Mr_Collins_selfdeception",
    "name": "Mr_Collins_selfdeception"
   },
   {
-   "id": "event5",
+   "id": "data/texts/prideandprejudice#Hope_for_a_favourable_answer",
    "name": "Hope_for_a_favourable_answer"
   },
   {
-   "id": "event6",
+   "id": "data/texts/prideandprejudice#Felicitations_from_Mrs_Bennet",
    "name": "Felicitations_from_Mrs_Bennet"
   },
   {
-   "id": "event7",
+   "id": "data/texts/prideandprejudice#Satisfaction_with_the_interview",
    "name": "Satisfaction_with_the_interview"
   },
   {
-   "id": "event8",
+   "id": "data/texts/prideandprejudice#Determination_to_bring_Elizabeth_to_reason",
    "name": "Determination_to_bring_Elizabeth_to_reason"
   }
  ]

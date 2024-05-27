@@ -1,130 +1,90 @@
 {
  "FictionalCharacters": [
   {
-   "id": "fc1",
+   "id": "data/texts/thebluecastle#Valancy",
    "name": "Valancy",
    "feels": [
     {
      "name": "Fear",
      "hasIntensity": 0.9,
      "quote": "She had to sit and listen to Dr. Redfern, who didn’t mind talking at all.",
-     "causedBy": {
-      "id": "event1",
-      "name": "Dr_Redfern_s_unexpected_visit"
-     },
-     "hasObject": {
-      "id": "object1",
-      "name": "Dr_Redfern"
-     },
      "exactPlace": {
-      "id": "place1",
-      "name": "Blue Castle"
-     }
+      "id": "data/texts/thebluecastle#Blue_Castle",
+      "name": "Blue_Castle"
+     },
+     "id": "Fear"
     },
     {
      "name": "Pity",
      "hasIntensity": 0.7,
      "quote": "Valancy felt a pang of pity for him.",
-     "causedBy": {
-      "id": "event2",
-      "name": "Dr_Redfern_s_loneliness"
-     },
-     "hasObject": {
-      "id": "object2",
-      "name": "Dr_Redfern"
-     },
      "exactPlace": {
-      "id": "place2",
-      "name": "Blue Castle"
-     }
+      "id": "data/texts/thebluecastle#Blue_Castle",
+      "name": "Blue_Castle"
+     },
+     "id": "Pity"
     },
     {
      "name": "Amusement",
      "hasIntensity": 0.6,
      "quote": "Suddenly she laughed in Dr. Redfern’s face.",
-     "causedBy": {
-      "id": "event3",
-      "name": "Realizing_the_situation_with_the_necklace"
-     },
-     "hasObject": {
-      "id": "object3",
-      "name": "Necklace"
-     },
      "exactPlace": {
-      "id": "place3",
-      "name": "Blue Castle"
-     }
+      "id": "data/texts/thebluecastle#Blue_Castle",
+      "name": "Blue_Castle"
+     },
+     "id": "Amusement"
     },
     {
      "name": "Insensibility",
      "hasIntensity": 0.8,
      "quote": "She was thankful she no longer felt very bad.",
-     "causedBy": {
-      "id": "event4",
-      "name": "Feeling_bludgeoned_by_events"
-     },
      "exactPlace": {
-      "id": "place4",
-      "name": "Blue Castle"
-     }
+      "id": "data/texts/thebluecastle#Blue_Castle",
+      "name": "Blue_Castle"
+     },
+     "id": "Insensibility"
     }
    ]
   }
  ],
  "Places": [
   {
-   "id": "place1",
+   "id": "data/texts/thebluecastle#Blue_Castle",
    "name": "Blue_Castle",
    "description": "Valancy stood briefly like a faded flower bitten by frost, by the hearth, looking down on the white ashes of the last fire that had blazed in the Blue Castle."
   },
   {
-   "id": "place2",
+   "id": "data/texts/thebluecastle#Blue_Castle",
    "name": "Blue_Castle",
    "description": "Valancy had been thinking idly that Barney must resemble his mother. She had remained standing by the steps, but Dr. Redfern waved her to the swing seat."
   },
   {
-   "id": "place3",
+   "id": "data/texts/thebluecastle#Blue_Castle",
    "name": "Blue_Castle",
    "description": "Valancy was fingering her necklace. She was wearing fifteen thousand dollars around her neck. And she had worried lest Barney had paid fifteen dollars for it and couldn’t afford it. Suddenly she laughed in Dr. Redfern’s face."
   },
   {
-   "id": "place4",
+   "id": "data/texts/thebluecastle#Blue_Castle",
    "name": "Blue_Castle",
    "description": "She was thankful she no longer felt very bad. When you are bludgeoned on the head repeatedly, you naturally and mercifully become more or less insensible and stupid."
   }
  ],
  "Events": [
   {
-   "id": "event1",
-   "name": "Dr_Redfern_s_unexpected_visit",
-   "takePlaceAt": {
-    "id": "place1",
-    "name": "place1"
-   }
+   "id": "data/texts/thebluecastle#Dr_Redfern_s_unexpected_visit",
+   "name": "Dr_Redfern_s_unexpected_visit"
   },
   {
-   "id": "event2",
-   "name": "Dr_Redfern_s_loneliness",
-   "takePlaceAt": {
-    "id": "place2",
-    "name": "place2"
-   }
+   "id": "data/texts/thebluecastle#Dr_Redfern_s_loneliness",
+   "name": "Dr_Redfern_s_loneliness"
   },
   {
-   "id": "event3",
-   "name": "Realizing_the_situation_with_the_necklace",
-   "takePlaceAt": {
-    "id": "place3",
-    "name": "place3"
-   }
+   "id": "data/texts/thebluecastle#Realizing_the_situation_with_the_necklace",
+   "name": "Realizing_the_situation_with_the_necklace"
   },
   {
-   "id": "event4",
-   "name": "Feeling_bludgeoned_by_events",
-   "takePlaceAt": {
-    "id": "place4",
-    "name": "place4"
-   }
+   "id": "data/texts/thebluecastle#Feeling_bludgeoned_by_events",
+   "name": "Feeling_bludgeoned_by_events"
   }
  ]
 }

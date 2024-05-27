@@ -1,230 +1,135 @@
 {
  "FictionalCharacters": [
   {
-   "id": "fc1",
+   "id": "data/texts/littlewomen#Jo_March",
    "name": "Jo_March",
    "feels": [
     {
      "name": "Trust",
      "hasIntensity": 0.8,
      "quote": "She felt proud to know that he was an honored Professor in Berlin, though only a poor language-master in America; and his homely, hard-working life was much beautified by the spice of romance which this discovery gave it.",
-     "causedBy": {
-      "id": "event1",
-      "name": "Discovery_of_Mr_Bhaer_s_background"
-     },
-     "hasObject": {
-      "id": "object1",
-      "name": "Mr_Bhaer"
-     },
-     "place": "America"
+     "place": "America",
+     "id": "Trust"
     },
     {
      "name": "Surprise",
      "hasIntensity": 0.7,
      "quote": "Imagine her dismay, on stealing a glance of timid admiration at the poet whose lines suggested an ethereal being fed on 'spirit, fire, and dew,' to behold him devouring his supper with an ardor which flushed his intellectual countenance.",
-     "causedBy": {
-      "id": "event2",
-      "name": "Discovering_the_true_nature_of_the_celebrities"
-     },
-     "hasObject": {
-      "id": "object2",
-      "name": "Poet"
-     },
-     "place": "Symposium"
+     "place": "Symposium",
+     "id": "Surprise"
     },
     {
      "name": "Anger",
      "hasIntensity": 0.6,
      "quote": "Mr. Dashwood rejected any but thrilling tales; and, as thrills could not be produced except by harrowing up the souls of the readers, history and romance, land and sea, science and art, police records and lunatic asylums, had to be ransacked for the purpose.",
-     "causedBy": {
-      "id": "event3",
-      "name": "Rejection_of_Jo_s_stories"
-     },
-     "hasObject": {
-      "id": "object3",
-      "name": "Mr_Dashwood"
-     },
-     "place": "Office"
+     "place": "Office",
+     "id": "Anger"
     },
     {
      "name": "Joy",
      "hasIntensity": 0.9,
      "quote": "Jo soon found that her innocent experience had given her but few glimpses of the tragic world which underlies society; so, regarding it in a business light, she set about supplying her deficiencies with characteristic energy.",
-     "causedBy": {
-      "id": "event4",
-      "name": "Finding_material_for_stories"
-     },
-     "hasObject": {
-      "id": "object4",
-      "name": "Writing"
-     },
-     "place": "Home"
+     "place": "Home",
+     "id": "Joy"
     },
     {
      "name": "Anticipation",
      "hasIntensity": 0.7,
      "quote": "She thought it would do her no harm, for she sincerely meant to write nothing of which she should be ashamed, and quieted all pricks of conscience by anticipations of the happy minute when she should show her earnings and laugh over her well-kept secret.",
-     "causedBy": {
-      "id": "event5",
-      "name": "Anticipating_the_success_of_her_writing"
-     },
-     "hasObject": {
-      "id": "object5",
-      "name": "Success"
-     },
-     "place": "Home"
+     "place": "Home",
+     "id": "Anticipation"
     },
     {
      "name": "Fear",
      "hasIntensity": 0.6,
      "quote": "She was beginning to feel rather than see this, for much describing of other people's passions and feelings set her to studying and speculating about her own,--a morbid amusement, in which healthy young minds do not voluntarily indulge.",
-     "causedBy": {
-      "id": "event6",
-      "name": "Studying_other_people_s_passions"
-     },
-     "hasObject": {
-      "id": "object6",
-      "name": "Passions"
-     },
-     "place": "Home"
+     "place": "Home",
+     "id": "Fear"
     },
     {
      "name": "Disappointment",
      "hasIntensity": 0.8,
      "quote": "Before the evening was half over, Jo felt so completely _désillusionée_, that she sat down in a corner to recover herself.",
-     "causedBy": {
-      "id": "event7",
-      "name": "Discovering_the_true_nature_of_the_celebrities"
-     },
-     "hasObject": {
-      "id": "object7",
-      "name": "Celebrities"
-     },
-     "place": "Symposium"
+     "place": "Symposium",
+     "id": "Disappointment"
     }
    ]
   },
   {
-   "id": "fc2",
+   "id": "data/texts/littlewomen#Mr_Bhaer",
    "name": "Mr_Bhaer",
    "feels": [
     {
      "name": "Admiration",
      "hasIntensity": 0.9,
      "quote": "His very clothes seemed to partake of the hospitable nature of the wearer. They looked as if they were at ease, and liked to make him comfortable; his capacious waistcoat was suggestive of a large heart underneath; his rusty coat had a social air, and the baggy pockets plainly proved that little hands often went in empty and came out full; his very boots were benevolent, and his collars never stiff and raspy like other people's.",
-     "causedBy": {
-      "id": "event8",
-      "name": "Observing_Mr_Bhaer_s_character"
-     },
-     "hasObject": {
-      "id": "object8",
-      "name": "Mr_Bhaer"
-     },
-     "place": "America"
+     "place": "America",
+     "id": "Admiration"
     },
     {
      "name": "Serenity",
      "hasIntensity": 0.8,
      "quote": "His very clothes seemed to partake of the hospitable nature of the wearer. They looked as if they were at ease, and liked to make him comfortable; his capacious waistcoat was suggestive of a large heart underneath; his rusty coat had a social air, and the baggy pockets plainly proved that little hands often went in empty and came out full; his very boots were benevolent, and his collars never stiff and raspy like other people's.",
-     "causedBy": {
-      "id": "event8",
-      "name": "Observing_Mr_Bhaer_s_character"
-     },
-     "hasObject": {
-      "id": "object8",
-      "name": "Mr_Bhaer"
-     },
-     "place": "America"
+     "place": "America",
+     "id": "Serenity"
     }
    ]
   }
  ],
  "Places": [
   {
-   "id": "place1",
+   "id": "data/texts/littlewomen#America",
    "name": "America",
    "description": "Setting where Jo and Mr. Bhaer interact and observe each other"
   },
   {
-   "id": "place2",
+   "id": "data/texts/littlewomen#Symposium",
    "name": "Symposium",
    "description": "Gathering of celebrities where Jo's illusions are shattered"
   },
   {
-   "id": "place3",
+   "id": "data/texts/littlewomen#Home",
    "name": "Home",
    "description": "Location where Jo writes and anticipates success"
   },
   {
-   "id": "place4",
+   "id": "data/texts/littlewomen#Office",
    "name": "Office",
    "description": "Where Jo's stories are rejected by Mr. Dashwood"
   }
  ],
  "Events": [
   {
-   "id": "event1",
-   "name": "Discovery_of_Mr_Bhaer_s_background",
-   "takePlaceAt": {
-    "id": "place1",
-    "name": "place1"
-   }
+   "id": "data/texts/littlewomen#Discovery_of_Mr_Bhaer_s_background",
+   "name": "Discovery_of_Mr_Bhaer_s_background"
   },
   {
-   "id": "event2",
-   "name": "Discovering_the_true_nature_of_the_celebrities",
-   "takePlaceAt": {
-    "id": "place2",
-    "name": "place2"
-   }
+   "id": "data/texts/littlewomen#Discovering_the_true_nature_of_the_celebrities",
+   "name": "Discovering_the_true_nature_of_the_celebrities"
   },
   {
-   "id": "event3",
-   "name": "Rejection_of_Jo_s_stories",
-   "takePlaceAt": {
-    "id": "place4",
-    "name": "place4"
-   }
+   "id": "data/texts/littlewomen#Rejection_of_Jo_s_stories",
+   "name": "Rejection_of_Jo_s_stories"
   },
   {
-   "id": "event4",
-   "name": "Finding_material_for_stories",
-   "takePlaceAt": {
-    "id": "place3",
-    "name": "place3"
-   }
+   "id": "data/texts/littlewomen#Finding_material_for_stories",
+   "name": "Finding_material_for_stories"
   },
   {
-   "id": "event5",
-   "name": "Anticipating_the_success_of_her_writing",
-   "takePlaceAt": {
-    "id": "place3",
-    "name": "place3"
-   }
+   "id": "data/texts/littlewomen#Anticipating_the_success_of_her_writing",
+   "name": "Anticipating_the_success_of_her_writing"
   },
   {
-   "id": "event6",
-   "name": "Studying_other_people_s_passions",
-   "takePlaceAt": {
-    "id": "place3",
-    "name": "place3"
-   }
+   "id": "data/texts/littlewomen#Studying_other_people_s_passions",
+   "name": "Studying_other_people_s_passions"
   },
   {
-   "id": "event7",
-   "name": "Discovering_the_true_nature_of_the_celebrities",
-   "takePlaceAt": {
-    "id": "place2",
-    "name": "place2"
-   }
+   "id": "data/texts/littlewomen#Discovering_the_true_nature_of_the_celebrities",
+   "name": "Discovering_the_true_nature_of_the_celebrities"
   },
   {
-   "id": "event8",
-   "name": "Observing_Mr_Bhaer_s_character",
-   "takePlaceAt": {
-    "id": "place1",
-    "name": "place1"
-   }
+   "id": "data/texts/littlewomen#Observing_Mr_Bhaer_s_character",
+   "name": "Observing_Mr_Bhaer_s_character"
   }
  ]
 }

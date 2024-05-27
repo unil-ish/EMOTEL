@@ -1,41 +1,27 @@
 {
  "FictionalCharacters": [
   {
-   "id": "Ferdinand",
+   "id": "data/texts/theadventuresofferdinandcountfathom#Ferdinand",
    "feels": [
     {
      "name": "Surprise",
      "hasIntensity": 0.8,
      "quote": "Fathom being thus informed of the suspicion under which he stood, could not help smiling at the eagerness with which the spectators flew upon him.",
-     "causedBy": {
-      "id": "accusation1",
-      "name": "Being_mistaken_for_the_Young_Pretender"
-     },
-     "hasObject": {
-      "id": "crowd",
-      "name": "Spectators"
-     },
      "place": {
-      "id": "inn1",
+      "id": "data/texts/theadventuresofferdinandcountfathom#Inn",
       "name": "Inn"
-     }
+     },
+     "id": "Surprise"
     },
     {
      "name": "Amusement",
      "hasIntensity": 0.7,
      "quote": "Fathom being thus informed of the suspicion under which he stood, could not help smiling at the eagerness with which the spectators flew upon him.",
-     "causedBy": {
-      "id": "accusation1",
-      "name": "Being_mistaken_for_the_Young_Pretender"
-     },
-     "hasObject": {
-      "id": "spectators",
-      "name": "Spectators"
-     },
      "place": {
-      "id": "inn1",
+      "id": "data/texts/theadventuresofferdinandcountfathom#Inn",
       "name": "Inn"
-     }
+     },
+     "id": "Amusement"
     }
    ],
    "name": "Ferdinand"
@@ -43,19 +29,15 @@
  ],
  "Places": [
   {
-   "id": "inn1",
+   "id": "data/texts/theadventuresofferdinandcountfathom#Inn",
    "name": "Inn",
    "description": "The inn where the passengers used to eat their breakfasts."
   }
  ],
  "Events": [
   {
-   "id": "accusation1",
-   "name": "Being_mistaken_for_the_Young_Pretender",
-   "takePlaceAt": {
-    "id": "inn1",
-    "name": "inn1"
-   }
+   "id": "data/texts/theadventuresofferdinandcountfathom#Being_mistaken_for_the_Young_Pretender",
+   "name": "Being_mistaken_for_the_Young_Pretender"
   }
  ]
 }

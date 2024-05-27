@@ -1,105 +1,81 @@
 {
  "FictionalCharacters": [
   {
-   "id": "fc1",
+   "id": "data/texts/theenchantedapril#Mrs_Wilkins",
    "name": "Mrs_Wilkins",
    "feels": [
     {
      "name": "Joy",
      "hasIntensity": 1,
      "quote": "Their happiness was then complete.",
-     "causedBy": {
-      "id": "event1",
-      "name": "Taking_off_shoes_and_stockings_and_letting_feet_hang_in_the_water"
-     },
-     "hasObject": {
-      "id": "object1",
-      "name": "Feeling_of_completeness"
-     },
      "place": {
-      "id": "place1",
-      "name": "Sitting under a pine tree by the sea"
-     }
+      "id": "data/texts/theenchantedapril#Sitting_under_a_pine_tree_by_the_sea",
+      "name": "Sitting_under_a_pine_tree_by_the_sea"
+     },
+     "id": "Joy"
     },
     {
      "name": "Serene",
      "hasIntensity": 1,
      "quote": "She was very serene; she could control her conversation; she was quite at her ease, and completely natural.",
-     "causedBy": {
-      "id": "event2",
-      "name": "Being_in_a_state_of_happiness"
-     },
-     "hasObject": {
-      "id": "object2",
-      "name": "Feeling_of_serenity"
-     },
      "place": {
-      "id": "place2",
-      "name": "Sitting under a pine tree by the sea"
-     }
+      "id": "data/texts/theenchantedapril#Sitting_under_a_pine_tree_by_the_sea",
+      "name": "Sitting_under_a_pine_tree_by_the_sea"
+     },
+     "id": "Serene"
     }
    ]
   },
   {
-   "id": "fc2",
+   "id": "data/texts/theenchantedapril#Mrs_Arbuthnot",
    "name": "Mrs_Arbuthnot",
    "feels": [
     {
      "name": "Pensive",
      "hasIntensity": 0.8,
      "quote": "Mrs. Arbuthnot seemed pensive.",
-     "causedBy": {
-      "id": "event3",
-      "name": "Observing_the_beauty_of_the_surroundings"
-     },
-     "hasObject": {
-      "id": "object3",
-      "name": "Beauty_of_the_surroundings"
-     },
      "place": {
-      "id": "place3",
-      "name": "Sitting under a pine tree by the sea"
-     }
+      "id": "data/texts/theenchantedapril#Sitting_under_a_pine_tree_by_the_sea",
+      "name": "Sitting_under_a_pine_tree_by_the_sea"
+     },
+     "id": "Pensive"
     }
    ]
   },
   {
-   "id": "fc3",
+   "id": "data/texts/theenchantedapril#Lady_Caroline",
    "name": "Lady_Caroline",
    "feels": [
     {
      "name": "Annoyance",
      "hasIntensity": 0.9,
      "quote": "Lady Caroline scowled at the cook.",
-     "causedBy": {
-      "id": "event4",
-      "name": "Encounter_with_the_cook"
-     },
-     "hasObject": {
-      "id": "object4",
-      "name": "Interaction_with_the_cook"
-     },
      "place": {
-      "id": "place4",
-      "name": "Sitting under a pine tree by the sea"
-     }
+      "id": "data/texts/theenchantedapril#Sitting_under_a_pine_tree_by_the_sea",
+      "name": "Sitting_under_a_pine_tree_by_the_sea"
+     },
+     "id": "Annoyance"
     },
     {
      "name": "Icily",
      "hasIntensity": 0.9,
-     "quote": "No,"
+     "quote": "No,",
+     "id": "Icily"
     },
+    "causedBy",
     {
-     "id": "event5",
-     "name": "Discussion about husbands"
+     "id": "data/texts/theenchantedapril#Discussion_about_husbands",
+     "name": "Discussion_about_husbands"
     },
+    "hasObject",
     {
-     "id": "object5",
-     "name": "Discussion about husbands"
+     "id": "data/texts/theenchantedapril#Discussion_about_husbands",
+     "name": "Discussion_about_husbands"
     },
+    "place",
     {
-     "id": "place5",
-     "name": "Sitting under a pine tree by the sea"
+     "id": "data/texts/theenchantedapril#Sitting_under_a_pine_tree_by_the_sea",
+     "name": "Sitting_under_a_pine_tree_by_the_sea"
     }
    ]
   }

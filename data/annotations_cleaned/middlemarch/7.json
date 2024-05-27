@@ -1,122 +1,70 @@
 {
  "FictionalCharacters": [
   {
-   "id": "fc1",
+   "id": "data/texts/middlemarch#The_Rev_Camden_Farebrother",
    "name": "The_Rev_Camden_Farebrother",
    "feels": [
     {
      "name": "Trust",
      "hasIntensity": 0.8,
      "quote": "The Vicar of St. Botolph’s had certainly escaped the slightest tincture of the Pharisee, and by dint of admitting to himself that he was too much as other men were, he had become remarkably unlike them in this—that he could excuse others for thinking slightly of him, and could judge impartially of their conduct even when it told against him.",
-     "causedBy": {
-      "id": "event1",
-      "name": "Being_unlike_others"
-     },
-     "hasObject": {
-      "id": "object1",
-      "name": "Being_impartial"
-     },
      "place": {
-      "id": "place1",
-      "name": "St. Botolph’s"
-     }
+      "id": "data/texts/middlemarch#St_Botolphs",
+      "name": "St_Botolphs"
+     },
+     "id": "Trust"
     },
     {
      "name": "Joy",
      "hasIntensity": 0.7,
      "quote": "The Vicar of St. Botolph’s had certainly escaped the slightest tincture of the Pharisee, and by dint of admitting to himself that he was too much as other men were, he had become remarkably unlike them in this—that he could excuse others for thinking slightly of him, and could judge impartially of their conduct even when it told against him.",
-     "causedBy": {
-      "id": "event2",
-      "name": "Being_unlike_others"
-     },
-     "hasObject": {
-      "id": "object2",
-      "name": "Being_impartial"
-     },
      "place": {
-      "id": "place1",
-      "name": "St. Botolph’s"
-     }
+      "id": "data/texts/middlemarch#St_Botolphs",
+      "name": "St_Botolphs"
+     },
+     "id": "Joy"
     },
     {
      "name": "Sadness",
      "hasIntensity": 0.6,
      "quote": "The Vicar’s talk was not always inspiriting: he had escaped being a Pharisee, but he had not escaped that low estimate of possibilities which we rather hastily arrive at as an inference from our own failure.",
-     "causedBy": {
-      "id": "event3",
-      "name": "Low_estimate_of_possibilities"
-     },
-     "hasObject": {
-      "id": "object3",
-      "name": "Inferiority"
-     },
      "place": {
-      "id": "place1",
-      "name": "St. Botolph’s"
-     }
+      "id": "data/texts/middlemarch#St_Botolphs",
+      "name": "St_Botolphs"
+     },
+     "id": "Sadness"
     },
     {
      "name": "Trust",
      "hasIntensity": 0.8,
      "quote": "The Vicar’s talk was not always inspiriting: he had escaped being a Pharisee, but he had not escaped that low estimate of possibilities which we rather hastily arrive at as an inference from our own failure.",
-     "causedBy": {
-      "id": "event3",
-      "name": "Low_estimate_of_possibilities"
-     },
-     "hasObject": {
-      "id": "object3",
-      "name": "Inferiority"
-     },
      "place": {
-      "id": "place1",
-      "name": "St. Botolph’s"
-     }
+      "id": "data/texts/middlemarch#St_Botolphs",
+      "name": "St_Botolphs"
+     },
+     "id": "Trust"
     }
    ]
   }
  ],
  "Places": [
   {
-   "id": "place1",
+   "id": "data/texts/middlemarch#St_Botolphs",
    "name": "St_Botolphs"
   }
  ],
  "Events": [
   {
-   "id": "event1",
-   "name": "Being_unlike_others",
-   "takePlaceAt": {
-    "id": "place1",
-    "name": "place1"
-   },
-   "hasParticipant": {
-    "id": "fc1",
-    "name": "fc1"
-   }
+   "id": "data/texts/middlemarch#Being_unlike_others",
+   "name": "Being_unlike_others"
   },
   {
-   "id": "event2",
-   "name": "Being_unlike_others",
-   "takePlaceAt": {
-    "id": "place1",
-    "name": "place1"
-   },
-   "hasParticipant": {
-    "id": "fc1",
-    "name": "fc1"
-   }
+   "id": "data/texts/middlemarch#Being_unlike_others",
+   "name": "Being_unlike_others"
   },
   {
-   "id": "event3",
-   "name": "Low_estimate_of_possibilities",
-   "takePlaceAt": {
-    "id": "place1",
-    "name": "place1"
-   },
-   "hasParticipant": {
-    "id": "fc1",
-    "name": "fc1"
-   }
+   "id": "data/texts/middlemarch#Low_estimate_of_possibilities",
+   "name": "Low_estimate_of_possibilities"
   }
  ]
 }

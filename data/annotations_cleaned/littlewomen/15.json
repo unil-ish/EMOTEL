@@ -1,262 +1,199 @@
 {
  "FictionalCharacters": [
   {
-   "id": "fc1",
+   "id": "data/texts/littlewomen#Professor_Bhaer",
    "name": "Professor_Bhaer",
    "feels": [
     {
      "name": "Admiration",
      "hasIntensity": 0.9,
      "quote": "He knew that Jo wrote, and had met her down among the newspaper offices more than once; but as she never spoke of it, he asked no questions, in spite of a strong desire to see her work.",
-     "causedBy": {
-      "id": "event1",
-      "name": "Knowing_that_Jo_wrote"
-     },
-     "hasObject": {
-      "id": "object1",
-      "name": "Jo_s_writing"
-     },
      "place": {
-      "id": "place1",
+      "id": "data/texts/littlewomen#Home",
       "name": "Home",
       "description": "In the living room"
-     }
+     },
+     "id": "Admiration"
     },
     {
      "name": "Serenity",
      "hasIntensity": 0.8,
      "quote": "He did his best, and did it manfully; but I don't think he found that a pair of rampant boys, a pipe, or even the divine Plato, were very satisfactory substitutes for wife and child and home.",
-     "causedBy": {
-      "id": "event2",
-      "name": "Feeling_homesick"
-     },
-     "hasObject": {
-      "id": "object2",
-      "name": "Feeling_of_homesickness"
-     },
      "place": {
-      "id": "place2",
+      "id": "data/texts/littlewomen#Home",
       "name": "Home",
       "description": "In the living room"
-     }
+     },
+     "id": "Serenity"
     },
     {
      "name": "Rebellion",
      "hasIntensity": 0.7,
      "quote": "I'll be hanged if I do!",
-     "causedBy": {
-      "id": "event3",
-      "name": "Feeling_of_indignation"
-     },
-     "hasObject": {
-      "id": "object3",
-      "name": "Being_asked_to_go_abroad"
-     },
      "place": {
-      "id": "place3",
+      "id": "data/texts/littlewomen#Home",
       "name": "Home",
       "description": "In the living room"
-     }
+     },
+     "id": "Rebellion"
     },
     {
      "name": "Desperation",
      "hasIntensity": 0.9,
      "quote": "To the devil!",
-     "causedBy": {
-      "id": "event4",
-      "name": "Feeling_of_despair"
-     },
-     "hasObject": {
-      "id": "object4",
-      "name": "Feeling_of_despair"
-     },
      "place": {
-      "id": "place4",
+      "id": "data/texts/littlewomen#Home",
       "name": "Home",
       "description": "In the living room"
-     }
+     },
+     "id": "Desperation"
     },
     {
      "name": "Acceptance",
      "hasIntensity": 0.9,
      "quote": "It's all settled, and can be carried out at once",
-     "causedBy": {
-      "id": "event5",
-      "name": "Accepting_the_plan_to_go_abroad"
-     },
-     "hasObject": {
-      "id": "object5",
-      "name": "Plan_to_go_abroad"
-     },
      "place": {
-      "id": "place5",
+      "id": "data/texts/littlewomen#Home",
       "name": "Home",
       "description": "In the living room"
-     }
+     },
+     "id": "Acceptance"
     }
    ]
   },
   {
-   "id": "fc2",
+   "id": "data/texts/littlewomen#Beth",
    "name": "Beth",
    "feels": [
     {
      "name": "Sadness",
      "hasIntensity": 0.9,
      "quote": "It's like the tide, Jo, when it turns, it goes slowly, but it can't be stopped.",
-     "causedBy": {
-      "id": "event6",
-      "name": "Feeling_of_inevitability"
-     },
-     "hasObject": {
-      "id": "object6",
-      "name": "Feeling_of_inevitability"
-     },
      "place": {
-      "id": "place6",
+      "id": "data/texts/littlewomen#Home",
       "name": "Home",
       "description": "In the bedroom"
-     }
+     },
+     "id": "Sadness"
     },
     {
      "name": "Acceptance",
      "hasIntensity": 0.8,
      "quote": "I try to be willing",
-     "causedBy": {
-      "id": "event7",
-      "name": "Accepting_the_situation"
-     },
-     "hasObject": {
-      "id": "object7",
-      "name": "Situation"
-     },
      "place": {
-      "id": "place7",
+      "id": "data/texts/littlewomen#Home",
       "name": "Home",
       "description": "In the bedroom"
-     }
+     },
+     "id": "Acceptance"
     },
     {
      "name": "Gratitude",
      "hasIntensity": 0.9,
      "quote": "I'm glad you know it. I've tried to tell you, but I couldn't.",
-     "causedBy": {
-      "id": "event8",
-      "name": "Feeling_of_relief"
-     },
-     "hasObject": {
-      "id": "object8",
-      "name": "Feeling_of_relief"
-     },
      "place": {
-      "id": "place8",
+      "id": "data/texts/littlewomen#Home",
       "name": "Home",
       "description": "In the bedroom"
-     }
+     },
+     "id": "Gratitude"
     },
     {
      "name": "Contentment",
      "hasIntensity": 0.8,
      "quote": "Dear little bird! See, Jo, how tame it is. I like peeps better than the gulls: they are not so wild and handsome, but they seem happy, confiding little things.",
-     "causedBy": {
-      "id": "event9",
-      "name": "Feeling_of_contentment"
-     },
-     "hasObject": {
-      "id": "object9",
-      "name": "Feeling_of_contentment"
-     },
      "place": {
-      "id": "place9",
+      "id": "data/texts/littlewomen#Seashore",
       "name": "Seashore",
       "description": "By the beach"
-     }
+     },
+     "id": "Contentment"
     }
    ]
   }
  ],
  "Places": [
   {
-   "id": "place1",
+   "id": "data/texts/littlewomen#Home",
    "name": "Home",
    "description": "In the living room"
   },
   {
-   "id": "place2",
+   "id": "data/texts/littlewomen#Home",
    "name": "Home",
    "description": "In the living room"
   },
   {
-   "id": "place3",
+   "id": "data/texts/littlewomen#Home",
    "name": "Home",
    "description": "In the living room"
   },
   {
-   "id": "place4",
+   "id": "data/texts/littlewomen#Home",
    "name": "Home",
    "description": "In the living room"
   },
   {
-   "id": "place5",
+   "id": "data/texts/littlewomen#Home",
    "name": "Home",
    "description": "In the living room"
   },
   {
-   "id": "place6",
+   "id": "data/texts/littlewomen#Home",
    "name": "Home",
    "description": "In the bedroom"
   },
   {
-   "id": "place7",
+   "id": "data/texts/littlewomen#Home",
    "name": "Home",
    "description": "In the bedroom"
   },
   {
-   "id": "place8",
+   "id": "data/texts/littlewomen#Home",
    "name": "Home",
    "description": "In the bedroom"
   },
   {
-   "id": "place9",
+   "id": "data/texts/littlewomen#Seashore",
    "name": "Seashore",
    "description": "By the beach"
   }
  ],
  "Events": [
   {
-   "id": "event1",
+   "id": "data/texts/littlewomen#Knowing_that_Jo_wrote",
    "name": "Knowing_that_Jo_wrote"
   },
   {
-   "id": "event2",
+   "id": "data/texts/littlewomen#Feeling_homesick",
    "name": "Feeling_homesick"
   },
   {
-   "id": "event3",
+   "id": "data/texts/littlewomen#Feeling_of_indignation",
    "name": "Feeling_of_indignation"
   },
   {
-   "id": "event4",
+   "id": "data/texts/littlewomen#Feeling_of_despair",
    "name": "Feeling_of_despair"
   },
   {
-   "id": "event5",
+   "id": "data/texts/littlewomen#Accepting_the_plan_to_go_abroad",
    "name": "Accepting_the_plan_to_go_abroad"
   },
   {
-   "id": "event6",
+   "id": "data/texts/littlewomen#Feeling_of_inevitability",
    "name": "Feeling_of_inevitability"
   },
   {
-   "id": "event7",
+   "id": "data/texts/littlewomen#Accepting_the_situation",
    "name": "Accepting_the_situation"
   },
   {
-   "id": "event8",
+   "id": "data/texts/littlewomen#Feeling_of_relief",
    "name": "Feeling_of_relief"
   },
   {
-   "id": "event9",
+   "id": "data/texts/littlewomen#Feeling_of_contentment",
    "name": "Feeling_of_contentment"
   }
  ]

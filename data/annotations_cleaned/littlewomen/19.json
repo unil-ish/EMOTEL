@@ -1,49 +1,28 @@
 {
  "FictionalCharacters": [
   {
-   "id": "Jo_March",
+   "id": "data/texts/littlewomen#Jo_March",
    "feels": [
     {
      "name": "Anticipation",
      "hasIntensity": 0.8,
      "quote": "I quite long to see the dear man.",
-     "causedBy": {
-      "id": "event1",
-      "name": "Desire_to_see_Mr_Bhaer"
-     },
-     "hasObject": {
-      "id": "object1",
-      "name": "Mr_Bhaer"
-     },
-     "exactPlace": "At home"
+     "exactPlace": "At home",
+     "id": "Anticipation"
     },
     {
      "name": "Regret",
      "hasIntensity": 0.7,
      "quote": "It serves me right! What business had I to put on all my best things and come philandering down here, hoping to see the Professor?",
-     "causedBy": {
-      "id": "event2",
-      "name": "Realization_of_her_actions"
-     },
-     "hasObject": {
-      "id": "object2",
-      "name": "Mr_Bhaer"
-     },
-     "exactPlace": "In the street"
+     "exactPlace": "In the street",
+     "id": "Regret"
     },
     {
      "name": "Happiness",
      "hasIntensity": 0.9,
      "quote": "feeling as if the sun had suddenly burst out with uncommon brilliancy, that the world was all right again, and that one thoroughly happy woman was paddling through the wet that day.",
-     "causedBy": {
-      "id": "event3",
-      "name": "Walking_arminarm_with_Mr_Bhaer"
-     },
-     "hasObject": {
-      "id": "object3",
-      "name": "Mr_Bhaer"
-     },
-     "exactPlace": "Walking together"
+     "exactPlace": "Walking together",
+     "id": "Happiness"
     }
    ],
    "name": "Jo_March"
@@ -51,57 +30,33 @@
  ],
  "Places": [
   {
-   "id": "place1",
+   "id": "data/texts/littlewomen#At_home",
    "name": "At_home",
    "description": "Jo's home where she longs to see Mr. Bhaer."
   },
   {
-   "id": "place2",
+   "id": "data/texts/littlewomen#In_the_street",
    "name": "In_the_street",
    "description": "Where Jo realizes her actions and feels regret."
   },
   {
-   "id": "place3",
+   "id": "data/texts/littlewomen#Walking_together",
    "name": "Walking_together",
    "description": "Where Jo feels happiness walking arm-in-arm with Mr. Bhaer."
   }
  ],
  "Events": [
   {
-   "id": "event1",
-   "name": "Desire_to_see_Mr_Bhaer",
-   "takePlaceAt": {
-    "id": "place1",
-    "name": "place1"
-   },
-   "hasParticipant": {
-    "id": "Jo_March",
-    "name": "Jo_March"
-   }
+   "id": "data/texts/littlewomen#Desire_to_see_Mr_Bhaer",
+   "name": "Desire_to_see_Mr_Bhaer"
   },
   {
-   "id": "event2",
-   "name": "Realization_of_her_actions",
-   "takePlaceAt": {
-    "id": "place2",
-    "name": "place2"
-   },
-   "hasParticipant": {
-    "id": "Jo_March",
-    "name": "Jo_March"
-   }
+   "id": "data/texts/littlewomen#Realization_of_her_actions",
+   "name": "Realization_of_her_actions"
   },
   {
-   "id": "event3",
-   "name": "Walking_arminarm_with_Mr_Bhaer",
-   "takePlaceAt": {
-    "id": "place3",
-    "name": "place3"
-   },
-   "hasParticipant": {
-    "id": "Jo_March",
-    "name": "Jo_March"
-   }
+   "id": "data/texts/littlewomen#Walking_arminarm_with_Mr_Bhaer",
+   "name": "Walking_arminarm_with_Mr_Bhaer"
   }
  ]
 }

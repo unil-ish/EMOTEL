@@ -190,7 +190,7 @@ def create_dest_dir(fp):
 
     Exemple:
         fichier initial:
-            project/data/texts/mobydick.txt
+            project/texts/mobydick.txt
 
         dossier créer:
             project/data/chunks/mobydick/

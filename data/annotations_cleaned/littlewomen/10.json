@@ -1,121 +1,79 @@
 {
  "FictionalCharacters": [
   {
-   "id": "Amy",
+   "id": "data/texts/littlewomen#Amy",
    "feels": [
     {
      "name": "Determination",
      "hasIntensity": 0.9,
      "quote": "I can't have it as I like, I don't care to have it at all.",
-     "causedBy": {
-      "id": "event1",
-      "name": "Opposition_from_Jo"
-     },
-     "hasObject": {
-      "id": "object1",
-      "name": "Lunch_for_the_girls"
-     },
      "place": {
-      "id": "place1",
+      "id": "data/texts/littlewomen#Home",
       "name": "Home"
-     }
+     },
+     "id": "Determination"
     },
     {
      "name": "Gratitude",
      "hasIntensity": 0.8,
      "quote": "If it hadn't been for mother I never should have got through.",
-     "causedBy": {
-      "id": "event2",
-      "name": "Mother_s_help"
-     },
-     "hasObject": {
-      "id": "object2",
-      "name": "Preparation_for_the_event"
-     },
      "place": {
-      "id": "place1",
+      "id": "data/texts/littlewomen#Home",
       "name": "Home"
-     }
+     },
+     "id": "Gratitude"
     },
     {
      "name": "Disappointment",
      "hasIntensity": 0.7,
      "quote": "I can't get any lobsters, so you will have to do without salad today.",
-     "causedBy": {
-      "id": "event3",
-      "name": "Unavailability_of_lobsters"
-     },
-     "hasObject": {
-      "id": "object3",
-      "name": "Lunch_preparation"
-     },
      "place": {
-      "id": "place1",
+      "id": "data/texts/littlewomen#Home",
       "name": "Home"
-     }
+     },
+     "id": "Disappointment"
     }
    ],
    "name": "Amy"
   },
   {
-   "id": "Jo",
+   "id": "data/texts/littlewomen#Jo",
    "feels": [
     {
      "name": "Disapproval",
      "hasIntensity": 0.8,
      "quote": "Why in the world should you spend your money, worry your family, and turn the house upside down for a parcel of girls who don't care a sixpence for you?",
-     "causedBy": {
-      "id": "event4",
-      "name": "Amy_s_plan_for_the_event"
-     },
-     "hasObject": {
-      "id": "object4",
-      "name": "Girls_visit"
-     },
      "place": {
-      "id": "place1",
+      "id": "data/texts/littlewomen#Home",
       "name": "Home"
-     }
+     },
+     "id": "Disapproval"
     },
     {
      "name": "Reluctance",
      "hasIntensity": 0.7,
      "quote": "I would have nothing to do with it at first.",
-     "causedBy": {
-      "id": "event5",
-      "name": "Amy_s_plan_for_the_event"
-     },
-     "hasObject": {
-      "id": "object5",
-      "name": "Girls_visit"
-     },
      "place": {
-      "id": "place1",
+      "id": "data/texts/littlewomen#Home",
       "name": "Home"
-     }
+     },
+     "id": "Reluctance"
     }
    ],
    "name": "Jo"
   },
   {
-   "id": "Mrs_March",
+   "id": "data/texts/littlewomen#Mrs_March",
    "feels": [
     {
      "name": "Resignation",
      "hasIntensity": 0.7,
      "quote": "If your heart is set upon it, and you see your way through without too great an outlay of money, time, and temper, I'll say no more.",
-     "causedBy": {
-      "id": "event6",
-      "name": "Amy_s_determination_to_proceed_with_the_event"
-     },
-     "hasObject": {
-      "id": "object6",
-      "name": "Girls_visit"
-     },
      "place": {
-      "id": "place1",
+      "id": "data/texts/littlewomen#Home",
       "name": "Home"
-     }
+     },
+     "id": "Resignation"
     }
    ],
    "name": "Mrs_March"
@@ -123,34 +81,34 @@
  ],
  "Places": [
   {
-   "id": "place1",
+   "id": "data/texts/littlewomen#Home",
    "name": "Home",
    "description": "The setting for the preparations and discussions for the event."
   }
  ],
  "Events": [
   {
-   "id": "event1",
+   "id": "data/texts/littlewomen#Opposition_from_Jo",
    "name": "Opposition_from_Jo"
   },
   {
-   "id": "event2",
+   "id": "data/texts/littlewomen#Mother_s_help",
    "name": "Mother_s_help"
   },
   {
-   "id": "event3",
+   "id": "data/texts/littlewomen#Unavailability_of_lobsters",
    "name": "Unavailability_of_lobsters"
   },
   {
-   "id": "event4",
+   "id": "data/texts/littlewomen#Amy_s_plan_for_the_event",
    "name": "Amy_s_plan_for_the_event"
   },
   {
-   "id": "event5",
+   "id": "data/texts/littlewomen#Amy_s_plan_for_the_event",
    "name": "Amy_s_plan_for_the_event"
   },
   {
-   "id": "event6",
+   "id": "data/texts/littlewomen#Amy_s_determination_to_proceed_with_the_event",
    "name": "Amy_s_determination_to_proceed_with_the_event"
   }
  ]

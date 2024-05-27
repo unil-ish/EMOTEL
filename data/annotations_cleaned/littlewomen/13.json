@@ -1,134 +1,74 @@
 {
  "FictionalCharacters": [
   {
-   "id": "fc1",
+   "id": "data/texts/littlewomen#Beth",
    "name": "Beth",
    "feels": [
     {
      "name": "Sadness",
      "hasIntensity": 0.9,
      "quote": "I thought you were asleep,' sobbed Beth.",
-     "causedBy": {
-      "id": "event1",
-      "name": "Unknown_cause"
-     },
-     "hasObject": {
-      "id": "object1",
-      "name": "Unknown"
-     },
-     "exactPlace": "Bedroom"
+     "exactPlace": "Bedroom",
+     "id": "Sadness"
     },
     {
      "name": "Despair",
      "hasIntensity": 0.8,
      "quote": "No; it's a new one; but I can bear it,' and Beth tried to check her tears.",
-     "causedBy": {
-      "id": "event2",
-      "name": "Unknown_cause"
-     },
-     "hasObject": {
-      "id": "object2",
-      "name": "Unknown"
-     },
-     "exactPlace": "Bedroom"
+     "exactPlace": "Bedroom",
+     "id": "Despair"
     }
    ]
   },
   {
-   "id": "fc2",
+   "id": "data/texts/littlewomen#Jo",
    "name": "Jo",
    "feels": [
     {
      "name": "Restlessness",
      "hasIntensity": 0.7,
      "quote": "I feel restless, and anxious to be seeing, doing, and learning more than I am.",
-     "causedBy": {
-      "id": "event3",
-      "name": "Desire_for_change"
-     },
-     "hasObject": {
-      "id": "object3",
-      "name": "New_experiences"
-     },
-     "exactPlace": "Living room"
+     "exactPlace": "Living room",
+     "id": "Restlessness"
     },
     {
      "name": "Anxiety",
      "hasIntensity": 0.6,
      "quote": "I'm afraid--Laurie is getting too fond of me.",
-     "causedBy": {
-      "id": "event4",
-      "name": "Laurie_s_growing_affection"
-     },
-     "hasObject": {
-      "id": "object4",
-      "name": "Laurie"
-     },
-     "exactPlace": "Living room"
+     "exactPlace": "Living room",
+     "id": "Anxiety"
     }
    ]
   }
  ],
  "Places": [
   {
-   "id": "place1",
+   "id": "data/texts/littlewomen#Bedroom",
    "name": "Bedroom",
    "description": "Beth's bedroom where she confides in Jo about her pain."
   },
   {
-   "id": "place2",
+   "id": "data/texts/littlewomen#Living_room",
    "name": "Living_room",
    "description": "The room where Jo discusses her desire for change and anxiety about Laurie."
   }
  ],
  "Events": [
   {
-   "id": "event1",
-   "name": "Unknown_cause",
-   "takePlaceAt": {
-    "id": "place1",
-    "name": "place1"
-   },
-   "hasParticipant": {
-    "id": "fc1",
-    "name": "fc1"
-   }
+   "id": "data/texts/littlewomen#Unknown_cause",
+   "name": "Unknown_cause"
   },
   {
-   "id": "event2",
-   "name": "Unknown_cause",
-   "takePlaceAt": {
-    "id": "place1",
-    "name": "place1"
-   },
-   "hasParticipant": {
-    "id": "fc1",
-    "name": "fc1"
-   }
+   "id": "data/texts/littlewomen#Unknown_cause",
+   "name": "Unknown_cause"
   },
   {
-   "id": "event3",
-   "name": "Desire_for_change",
-   "takePlaceAt": {
-    "id": "place2",
-    "name": "place2"
-   },
-   "hasParticipant": {
-    "id": "fc2",
-    "name": "fc2"
-   }
+   "id": "data/texts/littlewomen#Desire_for_change",
+   "name": "Desire_for_change"
   },
   {
-   "id": "event4",
-   "name": "Laurie_s_growing_affection",
-   "takePlaceAt": {
-    "id": "place2",
-    "name": "place2"
-   },
-   "hasParticipant": {
-    "id": "fc2",
-    "name": "fc2"
-   }
+   "id": "data/texts/littlewomen#Laurie_s_growing_affection",
+   "name": "Laurie_s_growing_affection"
   }
  ]
 }

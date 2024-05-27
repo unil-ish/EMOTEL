@@ -1,170 +1,115 @@
 {
  "FictionalCharacters": [
   {
-   "id": "fc1",
+   "id": "data/texts/theadventuresofferdinandcountfathom#Renaldo_Melvil",
    "name": "Renaldo_Melvil",
    "feels": [
     {
      "name": "Joy",
      "hasIntensity": 0.9,
      "quote": "The sanction of the church being thus obtained, they withdrew into the vestry, where Melvil sealed his title on her rosy lips, and presented his wife to the company, who embraced her in their turns, with fervent wishes for their mutual happiness.",
-     "causedBy": {
-      "id": "event1",
-      "name": "Marriage_ceremony"
-     },
-     "hasObject": {
-      "id": "object1",
-      "name": "Wife"
-     },
      "place": {
-      "id": "place1",
-      "name": "Vestry-room of the church"
-     }
+      "id": "data/texts/theadventuresofferdinandcountfathom#Vestryroom_of_the_church",
+      "name": "Vestryroom_of_the_church"
+     },
+     "id": "Joy"
     },
     {
      "name": "Love",
      "hasIntensity": 0.8,
      "quote": "The lovely bride, with a silent blush that set her lover’s heart on fire, submitted to this determination, in consequence of which the company was bespoke for that auspicious hour, and the evening being pretty far advanced, they took leave of the ladies, and retired to their respective homes; Don Diego and his future son-in-law being reconducted to their lodgings, in the coach of the Jew.",
-     "causedBy": {
-      "id": "event2",
-      "name": "Marriage_proposal"
-     },
-     "hasObject": {
-      "id": "object2",
-      "name": "Bride"
-     },
      "place": {
-      "id": "place2",
-      "name": "Vestry-room of the church"
-     }
+      "id": "data/texts/theadventuresofferdinandcountfathom#Vestryroom_of_the_church",
+      "name": "Vestryroom_of_the_church"
+     },
+     "id": "Love"
     },
     {
      "name": "Compassion",
      "hasIntensity": 0.7,
      "quote": "The pseudo-parson was very much affected by this generous proffer, for which he made suitable acknowledgments, and protested before God he would die a thousand deaths rather than part with his dear Charlotte.",
-     "causedBy": {
-      "id": "event3",
-      "name": "Generous_proffer"
-     },
-     "hasObject": {
-      "id": "object3",
-      "name": "Charlotte"
-     },
      "place": {
-      "id": "place3",
-      "name": "Public-house"
-     }
+      "id": "data/texts/theadventuresofferdinandcountfathom#Publichouse",
+      "name": "Publichouse"
+     },
+     "id": "Compassion"
     }
    ]
   },
   {
-   "id": "fc2",
+   "id": "data/texts/theadventuresofferdinandcountfathom#Don_Diego",
    "name": "Don_Diego",
    "feels": [
     {
      "name": "Gratitude",
      "hasIntensity": 0.8,
      "quote": "The Spaniard’s heart overflowed with gratitude and joy, when he read this intimation; he embraced the Jew, who, before Zelos could give utterance to his thoughts, told him that the Spanish Ambassador at London, having been prepossessed in his favour, craved the honour of seeing Don Diego; and that he, Joshua, was ready to conduct him to the house.",
-     "causedBy": {
-      "id": "event4",
-      "name": "Favourable_news"
-     },
-     "hasObject": {
-      "id": "object4",
-      "name": "Intimation"
-     },
      "place": {
-      "id": "place4",
+      "id": "data/texts/theadventuresofferdinandcountfathom#House",
       "name": "House"
-     }
+     },
+     "id": "Gratitude"
     },
     {
      "name": "Reluctance",
      "hasIntensity": 0.7,
      "quote": "Charlotte, who wanted neither beauty nor understanding, assured him that her lover’s character was, in all respects, unblemished, for the truth of which assertion she appealed to her papa, who owned, with reluctance, that the young man was a gentleman by birth, that he had served him with remarkable diligence and integrity, and that his accomplishments were far superior to his station in life.",
-     "causedBy": {
-      "id": "event5",
-      "name": "Daughter_s_appeal"
-     },
-     "hasObject": {
-      "id": "object5",
-      "name": "Charlotte"
-     },
      "place": {
-      "id": "place5",
-      "name": "Public-house"
-     }
+      "id": "data/texts/theadventuresofferdinandcountfathom#Publichouse",
+      "name": "Publichouse"
+     },
+     "id": "Reluctance"
     }
    ]
   }
  ],
  "Places": [
   {
-   "id": "place1",
+   "id": "data/texts/theadventuresofferdinandcountfathom#Vestryroom_of_the_church",
    "name": "Vestryroom_of_the_church",
    "description": "Where the marriage ceremony took place."
   },
   {
-   "id": "place2",
+   "id": "data/texts/theadventuresofferdinandcountfathom#Vestryroom_of_the_church",
    "name": "Vestryroom_of_the_church",
    "description": "Where the marriage proposal was accepted."
   },
   {
-   "id": "place3",
+   "id": "data/texts/theadventuresofferdinandcountfathom#Publichouse",
    "name": "Publichouse",
    "description": "Where the pseudo-parson showed compassion."
   },
   {
-   "id": "place4",
+   "id": "data/texts/theadventuresofferdinandcountfathom#House",
    "name": "House",
    "description": "Where Don Diego received favourable news."
   },
   {
-   "id": "place5",
+   "id": "data/texts/theadventuresofferdinandcountfathom#Publichouse",
    "name": "Publichouse",
    "description": "Where Don Diego felt reluctance."
   }
  ],
  "Events": [
   {
-   "id": "event1",
-   "name": "Marriage_ceremony",
-   "takePlaceAt": {
-    "id": "place1",
-    "name": "place1"
-   }
+   "id": "data/texts/theadventuresofferdinandcountfathom#Marriage_ceremony",
+   "name": "Marriage_ceremony"
   },
   {
-   "id": "event2",
-   "name": "Marriage_proposal",
-   "takePlaceAt": {
-    "id": "place2",
-    "name": "place2"
-   }
+   "id": "data/texts/theadventuresofferdinandcountfathom#Marriage_proposal",
+   "name": "Marriage_proposal"
   },
   {
-   "id": "event3",
-   "name": "Generous_proffer",
-   "takePlaceAt": {
-    "id": "place3",
-    "name": "place3"
-   }
+   "id": "data/texts/theadventuresofferdinandcountfathom#Generous_proffer",
+   "name": "Generous_proffer"
   },
   {
-   "id": "event4",
-   "name": "Favourable_news",
-   "takePlaceAt": {
-    "id": "place4",
-    "name": "place4"
-   }
+   "id": "data/texts/theadventuresofferdinandcountfathom#Favourable_news",
+   "name": "Favourable_news"
   },
   {
-   "id": "event5",
-   "name": "Daughter_s_appeal",
-   "takePlaceAt": {
-    "id": "place5",
-    "name": "place5"
-   }
+   "id": "data/texts/theadventuresofferdinandcountfathom#Daughter_s_appeal",
+   "name": "Daughter_s_appeal"
   }
  ]
 }

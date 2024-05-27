@@ -1,94 +1,61 @@
 {
  "FictionalCharacters": [
   {
-   "id": "fc1",
+   "id": "data/texts/theadventuresofferdinandcountfathom#Doctor_Fathom",
    "name": "Doctor_Fathom",
    "feels": [
     {
      "name": "Disappointment",
      "hasIntensity": 0.7,
      "quote": "In cultivating the fiddler, they utterly neglected the physician.",
-     "causedBy": {
-      "id": "event1",
-      "name": "Lack_of_recognition_for_medical_capacity"
-     },
-     "hasObject": {
-      "id": "object1",
-      "name": "Medical_capacity"
-     },
      "place": {
-      "id": "place1",
+      "id": "data/texts/theadventuresofferdinandcountfathom#Tunbridge",
       "name": "Tunbridge"
-     }
+     },
+     "id": "Disappointment"
     },
     {
      "name": "Hope",
      "hasIntensity": 0.8,
      "quote": "The patient...was not altogether without hope.",
-     "causedBy": {
-      "id": "event2",
-      "name": "Hope_for_the_return_of_her_admirer"
-     },
-     "hasObject": {
-      "id": "object2",
-      "name": "Return_of_her_admirer"
-     },
      "place": {
-      "id": "place1",
+      "id": "data/texts/theadventuresofferdinandcountfathom#Tunbridge",
       "name": "Tunbridge"
-     }
+     },
+     "id": "Hope"
     },
     {
      "name": "Chagrin",
      "hasIntensity": 0.9,
      "quote": "The patient, though violently chagrined at the levity of her quondam admirer...",
-     "causedBy": {
-      "id": "event3",
-      "name": "Forsaking_of_the_patient_by_her_admirer"
-     },
-     "hasObject": {
-      "id": "object3",
-      "name": "Forsaking_of_the_patient"
-     },
      "place": {
-      "id": "place1",
+      "id": "data/texts/theadventuresofferdinandcountfathom#Tunbridge",
       "name": "Tunbridge"
-     }
+     },
+     "id": "Chagrin"
     }
    ]
   }
  ],
  "Places": [
   {
-   "id": "place1",
+   "id": "data/texts/theadventuresofferdinandcountfathom#Tunbridge",
    "name": "Tunbridge",
    "description": "A location where Doctor Fathom was trying to establish himself as a physician."
   }
  ],
  "Events": [
   {
-   "id": "event1",
-   "name": "Lack_of_recognition_for_medical_capacity",
-   "takePlaceAt": {
-    "id": "place1",
-    "name": "place1"
-   }
+   "id": "data/texts/theadventuresofferdinandcountfathom#Lack_of_recognition_for_medical_capacity",
+   "name": "Lack_of_recognition_for_medical_capacity"
   },
   {
-   "id": "event2",
-   "name": "Hope_for_the_return_of_her_admirer",
-   "takePlaceAt": {
-    "id": "place1",
-    "name": "place1"
-   }
+   "id": "data/texts/theadventuresofferdinandcountfathom#Hope_for_the_return_of_her_admirer",
+   "name": "Hope_for_the_return_of_her_admirer"
   },
   {
-   "id": "event3",
-   "name": "Forsaking_of_the_patient_by_her_admirer",
-   "takePlaceAt": {
-    "id": "place1",
-    "name": "place1"
-   }
+   "id": "data/texts/theadventuresofferdinandcountfathom#Forsaking_of_the_patient_by_her_admirer",
+   "name": "Forsaking_of_the_patient_by_her_admirer"
   }
  ]
 }

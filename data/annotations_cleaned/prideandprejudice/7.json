@@ -1,111 +1,62 @@
 {
  "FictionalCharacters": [
   {
-   "id": "Elizabeth_Bennet",
+   "id": "data/texts/prideandprejudice#Elizabeth_Bennet",
    "feels": [
     {
      "name": "Trust",
      "hasIntensity": 0.6,
      "quote": "Elizabeth was eager with her thanks and assurances of happiness.",
-     "causedBy": {
-      "id": "Mrs_Collins",
-      "name": "Mrs_Collins_kindness"
-     },
-     "hasObject": {
-      "id": "Mrs_Collins",
-      "name": "Mrs_Collins"
-     },
-     "exactPlace": "Gracechurch Street"
+     "exactPlace": "Gracechurch Street",
+     "id": "Trust"
     },
     {
      "name": "Surprise",
      "hasIntensity": 0.8,
      "quote": "Lydia laughed, and said,--'Ay, that is just like your formality and discretion.'",
-     "causedBy": {
-      "id": "Lydia",
-      "name": "Lydia_s_behavior"
-     },
-     "hasObject": {
-      "id": "Lydia",
-      "name": "Lydia"
-     },
-     "exactPlace": "Inn"
+     "exactPlace": "Inn",
+     "id": "Surprise"
     },
     {
      "name": "Anger",
      "hasIntensity": 0.7,
      "quote": "Elizabeth was shocked to think that, however incapable of such coarseness of expression herself, the coarseness of the sentiment was little other than her own breast had formerly harboured and fancied liberal!",
-     "causedBy": {
-      "id": "Lydia_s_behavior",
-      "name": "Lydia_s_behavior"
-     },
-     "hasObject": {
-      "id": "Lydia",
-      "name": "Lydia"
-     },
-     "exactPlace": "Inn"
+     "exactPlace": "Inn",
+     "id": "Anger"
     },
     {
      "name": "Joy",
      "hasIntensity": 0.9,
      "quote": "Their reception at home was most kind. Mrs. Bennet rejoiced to see Jane in undiminished beauty; and more than once during dinner did Mr. Bennet say voluntarily to Elizabeth, 'I am glad you are come back, Lizzy.'",
-     "causedBy": {
-      "id": "Family_s_warm_welcome",
-      "name": "Family_s_warm_welcome"
-     },
-     "hasObject": {
-      "id": "Family",
-      "name": "Family"
-     },
-     "exactPlace": "Longbourn"
+     "exactPlace": "Longbourn",
+     "id": "Joy"
     },
     {
      "name": "Boredom",
      "hasIntensity": 0.6,
      "quote": "Elizabeth listened as little as she could, but there was no escaping the frequent mention of Wickham’s name.",
-     "causedBy": {
-      "id": "Lydia_s_stories",
-      "name": "Lydia_s_stories"
-     },
-     "hasObject": {
-      "id": "Lydia",
-      "name": "Lydia"
-     },
-     "exactPlace": "Carriage"
+     "exactPlace": "Carriage",
+     "id": "Boredom"
     }
    ],
    "name": "Elizabeth_Bennet"
   },
   {
-   "id": "Lydia_Bennet",
+   "id": "data/texts/prideandprejudice#Lydia_Bennet",
    "feels": [
     {
      "name": "Joy",
      "hasIntensity": 0.8,
      "quote": "Lydia laughed, and said,--'Ay, that is just like your formality and discretion.'",
-     "causedBy": {
-      "id": "Lydia_s_behavior",
-      "name": "Lydia_s_behavior"
-     },
-     "hasObject": {
-      "id": "Lydia",
-      "name": "Lydia"
-     },
-     "exactPlace": "Inn"
+     "exactPlace": "Inn",
+     "id": "Joy"
     },
     {
      "name": "Boredom",
      "hasIntensity": 0.7,
      "quote": "With such kind of histories of their parties and good jokes did Lydia, assisted by Kitty’s hints and additions, endeavour to amuse her companions all the way to Longbourn.",
-     "causedBy": {
-      "id": "Lydia_s_stories",
-      "name": "Lydia_s_stories"
-     },
-     "hasObject": {
-      "id": "Lydia",
-      "name": "Lydia"
-     },
-     "exactPlace": "Carriage"
+     "exactPlace": "Carriage",
+     "id": "Boredom"
     }
    ],
    "name": "Lydia_Bennet"
@@ -113,22 +64,22 @@
  ],
  "Places": [
   {
-   "id": "Gracechurch_Street",
+   "id": "data/texts/prideandprejudice#Gracechurch_Street",
    "name": "Gracechurch_Street",
    "description": "Starting point of the journey to Hertfordshire."
   },
   {
-   "id": "Inn",
+   "id": "data/texts/prideandprejudice#Inn",
    "name": "Inn",
    "description": "Stopover during the journey."
   },
   {
-   "id": "Longbourn",
+   "id": "data/texts/prideandprejudice#Longbourn",
    "name": "Longbourn",
    "description": "Home of the Bennet family."
   },
   {
-   "id": "Carriage",
+   "id": "data/texts/prideandprejudice#Carriage",
    "name": "Carriage",
    "description": "Mode of transportation during the journey."
   }

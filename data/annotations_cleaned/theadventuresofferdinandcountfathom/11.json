@@ -1,77 +1,47 @@
 {
  "FictionalCharacters": [
   {
-   "id": "fc1",
+   "id": "data/texts/theadventuresofferdinandcountfathom#Monimia",
    "name": "Monimia",
    "feels": [
     {
      "name": "Sadness",
      "hasIntensity": 0.9,
      "quote": "Excuse me, Mr. Fathom, this, I hope, is the last agony I shall feel from my unhappy passion.",
-     "causedBy": {
-      "id": "event1",
-      "name": "Learning_about_Renaldo_s_departure"
-     },
-     "hasObject": {
-      "id": "object1",
-      "name": "Renaldo_s_departure"
-     },
      "place": {
-      "id": "place1",
-      "name": "Monimia's residence"
-     }
+      "id": "data/texts/theadventuresofferdinandcountfathom#Monimia_s_residence",
+      "name": "Monimia_s_residence"
+     },
+     "id": "Sadness"
     },
     {
      "name": "Resignation",
      "hasIntensity": 0.8,
      "quote": "Then wiping the tears from her lovely eyes, she retrieved her tranquillity.",
-     "causedBy": {
-      "id": "event2",
-      "name": "Learning_about_Renaldo_s_departure"
-     },
-     "hasObject": {
-      "id": "object1",
-      "name": "Renaldo_s_departure"
-     },
      "place": {
-      "id": "place1",
-      "name": "Monimia's residence"
-     }
+      "id": "data/texts/theadventuresofferdinandcountfathom#Monimia_s_residence",
+      "name": "Monimia_s_residence"
+     },
+     "id": "Resignation"
     }
    ]
   }
  ],
  "Places": [
   {
-   "id": "place1",
+   "id": "data/texts/theadventuresofferdinandcountfathom#Monimia_s_residence",
    "name": "Monimia_s_residence",
    "description": "A serene and composed environment where Monimia resides."
   }
  ],
  "Events": [
   {
-   "id": "event1",
-   "name": "Learning_about_Renaldo_s_departure",
-   "takePlaceAt": {
-    "id": "place1",
-    "name": "place1"
-   },
-   "hasParticipant": {
-    "id": "fc1",
-    "name": "fc1"
-   }
+   "id": "data/texts/theadventuresofferdinandcountfathom#Learning_about_Renaldo_s_departure",
+   "name": "Learning_about_Renaldo_s_departure"
   },
   {
-   "id": "event2",
-   "name": "Learning_about_Renaldo_s_departure",
-   "takePlaceAt": {
-    "id": "place1",
-    "name": "place1"
-   },
-   "hasParticipant": {
-    "id": "fc1",
-    "name": "fc1"
-   }
+   "id": "data/texts/theadventuresofferdinandcountfathom#Learning_about_Renaldo_s_departure",
+   "name": "Learning_about_Renaldo_s_departure"
   }
  ]
 }

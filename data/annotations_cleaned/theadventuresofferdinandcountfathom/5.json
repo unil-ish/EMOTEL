@@ -1,49 +1,28 @@
 {
  "FictionalCharacters": [
   {
-   "id": "Don_Diego_de_Zelos",
+   "id": "data/texts/theadventuresofferdinandcountfathom#Don_Diego_de_Zelos",
    "feels": [
     {
      "name": "Joy",
      "hasIntensity": 0.9,
      "quote": "I professed myself extremely happy in having met with an opportunity of acquiring such a degree of my colonel’s esteem.",
-     "causedBy": {
-      "id": "Receiving_esteem_from_his_colonel",
-      "name": "Receiving_esteem_from_his_colonel"
-     },
-     "hasObject": {
-      "id": "Esteem",
-      "name": "Esteem"
-     },
-     "exactPlace": "Dining-room"
+     "exactPlace": "Dining-room",
+     "id": "Joy"
     },
     {
      "name": "Love",
      "hasIntensity": 0.95,
      "quote": "I had been ravished with her first appearance, which far exceeded my imagination, and my faculties were so disordered by this address, that I answered her compliment with the most awkward confusion.",
-     "causedBy": {
-      "id": "Seeing_Antonia_for_the_first_time",
-      "name": "Seeing_Antonia_for_the_first_time"
-     },
-     "hasObject": {
-      "id": "Antonia",
-      "name": "Antonia"
-     },
-     "exactPlace": "Dining-room"
+     "exactPlace": "Dining-room",
+     "id": "Love"
     },
     {
      "name": "Remorse",
      "hasIntensity": 0.8,
      "quote": "Wretch that I am! to survive the loss of such an excellent woman, endeared to my remembrance by the most tender offices of wedlock, happily exercised for the space of five-and-twenty years!",
-     "causedBy": {
-      "id": "Surviving_the_loss_of_his_wife",
-      "name": "Surviving_the_loss_of_his_wife"
-     },
-     "hasObject": {
-      "id": "Wife",
-      "name": "Wife"
-     },
-     "exactPlace": "Present time"
+     "exactPlace": "Present time",
+     "id": "Remorse"
     }
    ],
    "name": "Don_Diego_de_Zelos"
@@ -51,47 +30,23 @@
  ],
  "Places": [
   {
-   "id": "Diningroom",
+   "id": "data/texts/theadventuresofferdinandcountfathom#Diningroom",
    "name": "Diningroom",
    "description": "An elegant dining-room where a magnificent entertainment was served up."
   }
  ],
  "Events": [
   {
-   "id": "Receiving_esteem_from_his_colonel",
-   "name": "Receiving_esteem_from_his_colonel",
-   "takePlaceAt": {
-    "id": "Diningroom",
-    "name": "Diningroom"
-   },
-   "hasParticipant": {
-    "id": "Don_Diego_de_Zelos",
-    "name": "Don_Diego_de_Zelos"
-   }
+   "id": "data/texts/theadventuresofferdinandcountfathom#Receiving_esteem_from_his_colonel",
+   "name": "Receiving_esteem_from_his_colonel"
   },
   {
-   "id": "Seeing_Antonia_for_the_first_time",
-   "name": "Seeing_Antonia_for_the_first_time",
-   "takePlaceAt": {
-    "id": "Diningroom",
-    "name": "Diningroom"
-   },
-   "hasParticipant": {
-    "id": "Don_Diego_de_Zelos",
-    "name": "Don_Diego_de_Zelos"
-   }
+   "id": "data/texts/theadventuresofferdinandcountfathom#Seeing_Antonia_for_the_first_time",
+   "name": "Seeing_Antonia_for_the_first_time"
   },
   {
-   "id": "Surviving_the_loss_of_his_wife",
-   "name": "Surviving_the_loss_of_his_wife",
-   "takePlaceAt": {
-    "id": "Present_time",
-    "name": "Present_time"
-   },
-   "hasParticipant": {
-    "id": "Don_Diego_de_Zelos",
-    "name": "Don_Diego_de_Zelos"
-   }
+   "id": "data/texts/theadventuresofferdinandcountfathom#Surviving_the_loss_of_his_wife",
+   "name": "Surviving_the_loss_of_his_wife"
   }
  ]
 }

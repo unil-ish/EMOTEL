@@ -1,163 +1,97 @@
 {
  "FictionalCharacters": [
   {
-   "id": "fc1",
+   "id": "data/texts/theenchantedapril#Mrs_Wilkins",
    "name": "Mrs_Wilkins",
    "feels": [
     {
      "name": "Joy",
      "hasIntensity": 0.9,
      "quote": "She, so to speak, at once flung off all her garments and dived straight into glory, unhesitatingly, with a cry of rapture.",
-     "causedBy": {
-      "id": "event1",
-      "name": "Experiencing_the_beauty_of_San_Salvatore"
-     },
-     "hasObject": {
-      "id": "object1",
-      "name": "Beauty_of_San_Salvatore"
-     },
-     "exactPlace": "San Salvatore"
+     "exactPlace": "San Salvatore",
+     "id": "Joy"
     },
     {
      "name": "Regret",
      "hasIntensity": 0.7,
      "quote": "The morning after the first dinner together, she woke up in a condition of regret that she should have been so talkative to Mrs. Wilkins the night before.",
-     "causedBy": {
-      "id": "event2",
-      "name": "Feeling_talkative"
-     },
-     "hasObject": {
-      "id": "object2",
-      "name": "Being_talkative"
-     },
-     "exactPlace": "Her room"
+     "exactPlace": "Her room",
+     "id": "Regret"
     }
    ]
   },
   {
-   "id": "fc2",
+   "id": "data/texts/theenchantedapril#Mrs_Fisher",
    "name": "Mrs_Fisher",
    "feels": [
     {
      "name": "Disapproval",
      "hasIntensity": 0.8,
      "quote": "But Mrs. Fisher, with even greater frostiness than that with which she had received Lady Caroline’s ignorance of the Blessed Damozel, said, “There is only one unoccupied bedroom in this house.”",
-     "causedBy": {
-      "id": "event3",
-      "name": "Realizing_there_is_only_one_spare_room"
-     },
-     "hasObject": {
-      "id": "object3",
-      "name": "One_spare_room"
-     },
-     "exactPlace": "San Salvatore"
+     "exactPlace": "San Salvatore",
+     "id": "Disapproval"
     },
     {
      "name": "Relief",
      "hasIntensity": 0.7,
      "quote": "Well, if nobody really wants that room, and wouldn’t use it anyhow, I shall be very glad if Mellersh may have it.",
-     "causedBy": {
-      "id": "event4",
-      "name": "No_one_wanting_the_spare_room"
-     },
-     "hasObject": {
-      "id": "object4",
-      "name": "Spare_room"
-     },
-     "exactPlace": "San Salvatore"
+     "exactPlace": "San Salvatore",
+     "id": "Relief"
     }
    ]
   },
   {
-   "id": "fc3",
+   "id": "data/texts/theenchantedapril#Lady_Caroline",
    "name": "Lady_Caroline",
    "feels": [
     {
      "name": "Surprise",
      "hasIntensity": 0.8,
      "quote": "Even Lady Caroline, used all her life to beauty, who had been everywhere and seen everything, felt the surprise of it.",
-     "causedBy": {
-      "id": "event5",
-      "name": "Experiencing_the_beauty_of_San_Salvatore"
-     },
-     "hasObject": {
-      "id": "object5",
-      "name": "Beauty_of_San_Salvatore"
-     },
-     "exactPlace": "San Salvatore"
+     "exactPlace": "San Salvatore",
+     "id": "Surprise"
     },
     {
-     "name": "Self-Reflection",
+     "name": "SelfReflection",
      "hasIntensity": 0.7,
      "quote": "It had made her, beginning on the very first evening, want to think, and acted on her curiously like a conscience.",
-     "causedBy": {
-      "id": "event6",
-      "name": "Feeling_the_influence_of_San_Salvatore"
-     },
-     "hasObject": {
-      "id": "object6",
-      "name": "Influence_of_San_Salvatore"
-     },
-     "exactPlace": "San Salvatore"
+     "exactPlace": "San Salvatore",
+     "id": "SelfReflection"
     }
    ]
   }
  ],
  "Places": [
   {
-   "id": "place1",
+   "id": "data/texts/theenchantedapril#San_Salvatore",
    "name": "San_Salvatore",
    "description": "A beautiful location with a castle and serene clear hills"
   }
  ],
  "Events": [
   {
-   "id": "event1",
-   "name": "Experiencing_the_beauty_of_San_Salvatore",
-   "takePlaceAt": {
-    "id": "place1",
-    "name": "place1"
-   }
+   "id": "data/texts/theenchantedapril#Experiencing_the_beauty_of_San_Salvatore",
+   "name": "Experiencing_the_beauty_of_San_Salvatore"
   },
   {
-   "id": "event2",
-   "name": "Feeling_talkative",
-   "takePlaceAt": {
-    "id": "place1",
-    "name": "place1"
-   }
+   "id": "data/texts/theenchantedapril#Feeling_talkative",
+   "name": "Feeling_talkative"
   },
   {
-   "id": "event3",
-   "name": "Realizing_there_is_only_one_spare_room",
-   "takePlaceAt": {
-    "id": "place1",
-    "name": "place1"
-   }
+   "id": "data/texts/theenchantedapril#Realizing_there_is_only_one_spare_room",
+   "name": "Realizing_there_is_only_one_spare_room"
   },
   {
-   "id": "event4",
-   "name": "No_one_wanting_the_spare_room",
-   "takePlaceAt": {
-    "id": "place1",
-    "name": "place1"
-   }
+   "id": "data/texts/theenchantedapril#No_one_wanting_the_spare_room",
+   "name": "No_one_wanting_the_spare_room"
   },
   {
-   "id": "event5",
-   "name": "Experiencing_the_beauty_of_San_Salvatore",
-   "takePlaceAt": {
-    "id": "place1",
-    "name": "place1"
-   }
+   "id": "data/texts/theenchantedapril#Experiencing_the_beauty_of_San_Salvatore",
+   "name": "Experiencing_the_beauty_of_San_Salvatore"
   },
   {
-   "id": "event6",
-   "name": "Feeling_the_influence_of_San_Salvatore",
-   "takePlaceAt": {
-    "id": "place1",
-    "name": "place1"
-   }
+   "id": "data/texts/theenchantedapril#Feeling_the_influence_of_San_Salvatore",
+   "name": "Feeling_the_influence_of_San_Salvatore"
   }
  ]
 }

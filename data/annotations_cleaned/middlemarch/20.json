@@ -1,92 +1,57 @@
 {
  "FictionalCharacters": [
   {
-   "id": "Dorothea_Brooke",
+   "id": "data/texts/middlemarch#Dorothea_Brooke",
    "feels": [
     {
      "name": "Trust",
      "hasIntensity": 0.8,
      "quote": "Dorothea had been safe at Freshitt Hall nearly a week before she had asked any dangerous questions.",
-     "causedBy": {
-      "id": "event1",
-      "name": "Being_at_Freshitt_Hall"
-     },
-     "hasObject": {
-      "id": "object1",
+     "exactPlace": {
+      "id": "data/texts/middlemarch#Freshitt_Hall",
       "name": "Freshitt_Hall"
      },
-     "exactPlace": {
-      "id": "place1",
-      "name": "Freshitt Hall"
-     }
+     "id": "Trust"
     },
     {
      "name": "Surprise",
      "hasIntensity": 0.6,
      "quote": "It seemed a long while—she did not know how long—before she heard Celia saying, 'That will do, nurse; he will be quiet on my lap now.'",
-     "causedBy": {
-      "id": "event2",
-      "name": "Celia_s_statement"
-     },
-     "hasObject": {
-      "id": "object2",
-      "name": "Celia_s_statement"
-     },
      "exactPlace": {
-      "id": "place2",
-      "name": "Dorothea's sitting room"
-     }
+      "id": "data/texts/middlemarch#Dorothea_s_sitting_room",
+      "name": "Dorothea_s_sitting_room"
+     },
+     "id": "Surprise"
     },
     {
      "name": "Anger",
      "hasIntensity": 0.7,
      "quote": "The blood rushed to Dorothea’s face and neck painfully.",
-     "causedBy": {
-      "id": "event3",
-      "name": "Celia_s_revelation"
-     },
-     "hasObject": {
-      "id": "object3",
-      "name": "Celia_s_revelation"
-     },
      "exactPlace": {
-      "id": "place3",
-      "name": "Dorothea's sitting room"
-     }
+      "id": "data/texts/middlemarch#Dorothea_s_sitting_room",
+      "name": "Dorothea_s_sitting_room"
+     },
+     "id": "Anger"
     },
     {
      "name": "Joy",
      "hasIntensity": 0.5,
      "quote": "Dorothea sank back in her chair when her uncle had left the room, and cast her eyes down meditatively on her crossed hands.",
-     "causedBy": {
-      "id": "event4",
-      "name": "Uncle_s_departure"
-     },
-     "hasObject": {
-      "id": "object4",
-      "name": "Uncle_s_departure"
-     },
      "exactPlace": {
-      "id": "place4",
-      "name": "Dorothea's sitting room"
-     }
+      "id": "data/texts/middlemarch#Dorothea_s_sitting_room",
+      "name": "Dorothea_s_sitting_room"
+     },
+     "id": "Joy"
     },
     {
      "name": "Sadness",
      "hasIntensity": 0.9,
      "quote": "Then, with an effort to recall subjects not connected with her agitation, she added, abruptly, 'You know every one in Middlemarch, I think, Mr. Lydgate.'",
-     "causedBy": {
-      "id": "event5",
-      "name": "Dorothea_s_emotional_turmoil"
-     },
-     "hasObject": {
-      "id": "object5",
-      "name": "Dorothea_s_emotional_turmoil"
-     },
      "exactPlace": {
-      "id": "place5",
-      "name": "Dorothea's sitting room"
-     }
+      "id": "data/texts/middlemarch#Dorothea_s_sitting_room",
+      "name": "Dorothea_s_sitting_room"
+     },
+     "id": "Sadness"
     }
    ],
    "name": "Dorothea_Brooke"
@@ -94,54 +59,54 @@
  ],
  "Places": [
   {
-   "id": "place1",
+   "id": "data/texts/middlemarch#Freshitt_Hall",
    "name": "Freshitt_Hall",
    "description": "Dorothea felt safe and happy at Freshitt Hall."
   },
   {
-   "id": "place2",
+   "id": "data/texts/middlemarch#Dorothea_s_sitting_room",
    "name": "Dorothea_s_sitting_room",
    "description": "Celia's statement surprised Dorothea in her sitting room."
   },
   {
-   "id": "place3",
+   "id": "data/texts/middlemarch#Dorothea_s_sitting_room",
    "name": "Dorothea_s_sitting_room",
    "description": "Dorothea felt anger in her sitting room."
   },
   {
-   "id": "place4",
+   "id": "data/texts/middlemarch#Dorothea_s_sitting_room",
    "name": "Dorothea_s_sitting_room",
    "description": "Dorothea felt joy after her uncle left the room."
   },
   {
-   "id": "place5",
+   "id": "data/texts/middlemarch#Dorothea_s_sitting_room",
    "name": "Dorothea_s_sitting_room",
    "description": "Dorothea felt sadness in her sitting room."
   }
  ],
  "Events": [
   {
-   "id": "event1",
+   "id": "data/texts/middlemarch#Being_at_Freshitt_Hall",
    "name": "Being_at_Freshitt_Hall",
    "description": "Dorothea felt safe and asked questions at Freshitt Hall."
   },
   {
-   "id": "event2",
+   "id": "data/texts/middlemarch#Celia_s_statement",
    "name": "Celia_s_statement",
    "description": "Celia's statement surprised Dorothea."
   },
   {
-   "id": "event3",
+   "id": "data/texts/middlemarch#Celia_s_revelation",
    "name": "Celia_s_revelation",
    "description": "Celia's revelation made Dorothea angry."
   },
   {
-   "id": "event4",
+   "id": "data/texts/middlemarch#Uncle_s_departure",
    "name": "Uncle_s_departure",
    "description": "Dorothea felt joy after her uncle left the room."
   },
   {
-   "id": "event5",
+   "id": "data/texts/middlemarch#Dorothea_s_emotional_turmoil",
    "name": "Dorothea_s_emotional_turmoil",
    "description": "Dorothea's emotional turmoil caused her sadness."
   }

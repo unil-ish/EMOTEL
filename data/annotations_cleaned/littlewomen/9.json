@@ -1,164 +1,109 @@
 {
  "FictionalCharacters": [
   {
-   "id": "fc1",
+   "id": "data/texts/littlewomen#Jo_March",
    "name": "Jo_March",
    "feels": [
     {
      "name": "Surprise",
      "hasIntensity": 0.8,
      "quote": "Going in to exult over a fallen enemy, and to praise a strong-minded sister for the banishment of an objectionable lover, it certainly was a shock to behold the aforesaid enemy serenely sitting on the sofa, with the strong-minded sister enthroned upon his knee, and wearing an expression of the most abject submission.",
-     "causedBy": {
-      "id": "event1",
-      "name": "Unexpected_sight_of_Meg_and_Mr_Brooke_together"
-     },
-     "hasObject": {
-      "id": "object1",
-      "name": "Meg_and_Mr_Brooke"
-     },
      "place": {
-      "id": "place1",
+      "id": "data/texts/littlewomen#Parlor",
       "name": "Parlor"
-     }
+     },
+     "id": "Surprise"
     },
     {
      "name": "Jealousy",
      "hasIntensity": 0.7,
      "quote": "Jo loved a few persons very dearly, and dreaded to have their affection lost or lessened in any way.",
-     "causedBy": {
-      "id": "event2",
-      "name": "Seeing_Meg_absorbed_in_Mr_Brooke"
-     },
-     "hasObject": {
-      "id": "object2",
-      "name": "Meg_and_Mr_Brooke"
-     },
      "place": {
-      "id": "place2",
+      "id": "data/texts/littlewomen#Parlor",
       "name": "Parlor"
-     }
+     },
+     "id": "Jealousy"
     },
     {
      "name": "Relief",
      "hasIntensity": 0.9,
      "quote": "Here comes Laurie. Now we shall have a little sensible conversation.",
-     "causedBy": {
-      "id": "event3",
-      "name": "Laurie_s_arrival"
-     },
-     "hasObject": {
-      "id": "object3",
-      "name": "Laurie"
-     },
      "place": {
-      "id": "place3",
+      "id": "data/texts/littlewomen#Parlor",
       "name": "Parlor"
-     }
+     },
+     "id": "Relief"
     },
     {
      "name": "Sadness",
      "hasIntensity": 0.8,
      "quote": "Rushing upstairs, she startled the invalids by exclaiming tragically, as she burst into the room, 'Oh do somebody go down quick; John Brooke is acting dreadfully, and Meg likes it!'",
-     "causedBy": {
-      "id": "event4",
-      "name": "Feeling_upset_about_Meg_and_Mr_Brooke"
-     },
-     "hasObject": {
-      "id": "object4",
-      "name": "Meg_and_Mr_Brooke"
-     },
      "place": {
-      "id": "place4",
+      "id": "data/texts/littlewomen#Parlor",
       "name": "Parlor"
-     }
+     },
+     "id": "Sadness"
     },
     {
      "name": "Comfort",
      "hasIntensity": 0.9,
      "quote": "'You've got me, anyhow. I'm not good for much, I know; but I'll stand by you, Jo, all the days of my life; upon my word I will!' and Laurie meant what he said.",
-     "causedBy": {
-      "id": "event5",
-      "name": "Laurie_s_reassurance"
-     },
-     "hasObject": {
-      "id": "object5",
-      "name": "Laurie"
-     },
      "place": {
-      "id": "place5",
+      "id": "data/texts/littlewomen#Parlor",
       "name": "Parlor"
-     }
+     },
+     "id": "Comfort"
     }
    ]
   }
  ],
  "Places": [
   {
-   "id": "place1",
+   "id": "data/texts/littlewomen#Parlor",
    "name": "Parlor",
    "description": "Where Jo was surprised to see Meg and Mr. Brooke together."
   },
   {
-   "id": "place2",
+   "id": "data/texts/littlewomen#Parlor",
    "name": "Parlor",
    "description": "Where Jo felt jealous of Meg and Mr. Brooke."
   },
   {
-   "id": "place3",
+   "id": "data/texts/littlewomen#Parlor",
    "name": "Parlor",
    "description": "Where Jo felt relief upon Laurie's arrival."
   },
   {
-   "id": "place4",
+   "id": "data/texts/littlewomen#Parlor",
    "name": "Parlor",
    "description": "Where Jo felt sadness about Meg and Mr. Brooke."
   },
   {
-   "id": "place5",
+   "id": "data/texts/littlewomen#Parlor",
    "name": "Parlor",
    "description": "Where Jo felt comforted by Laurie."
   }
  ],
  "Events": [
   {
-   "id": "event1",
-   "name": "Unexpected_sight_of_Meg_and_Mr_Brooke_together",
-   "takePlaceAt": {
-    "id": "place1",
-    "name": "place1"
-   }
+   "id": "data/texts/littlewomen#Unexpected_sight_of_Meg_and_Mr_Brooke_together",
+   "name": "Unexpected_sight_of_Meg_and_Mr_Brooke_together"
   },
   {
-   "id": "event2",
-   "name": "Seeing_Meg_absorbed_in_Mr_Brooke",
-   "takePlaceAt": {
-    "id": "place2",
-    "name": "place2"
-   }
+   "id": "data/texts/littlewomen#Seeing_Meg_absorbed_in_Mr_Brooke",
+   "name": "Seeing_Meg_absorbed_in_Mr_Brooke"
   },
   {
-   "id": "event3",
-   "name": "Laurie_s_arrival",
-   "takePlaceAt": {
-    "id": "place3",
-    "name": "place3"
-   }
+   "id": "data/texts/littlewomen#Laurie_s_arrival",
+   "name": "Laurie_s_arrival"
   },
   {
-   "id": "event4",
-   "name": "Feeling_upset_about_Meg_and_Mr_Brooke",
-   "takePlaceAt": {
-    "id": "place4",
-    "name": "place4"
-   }
+   "id": "data/texts/littlewomen#Feeling_upset_about_Meg_and_Mr_Brooke",
+   "name": "Feeling_upset_about_Meg_and_Mr_Brooke"
   },
   {
-   "id": "event5",
-   "name": "Laurie_s_reassurance",
-   "takePlaceAt": {
-    "id": "place5",
-    "name": "place5"
-   }
+   "id": "data/texts/littlewomen#Laurie_s_reassurance",
+   "name": "Laurie_s_reassurance"
   }
  ]
 }

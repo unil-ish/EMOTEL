@@ -1,110 +1,75 @@
 {
  "FictionalCharacters": [
   {
-   "id": "Queequeg",
+   "id": "data/texts/mobydick#Queequeg",
    "feels": [
     {
      "name": "Despair",
      "hasIntensity": 0.7,
      "quote": "Wet, drenched through, and shivering cold, despairing of ship or boat, we lifted up our eyes as the dawn came on.",
-     "causedBy": {
-      "id": "event1",
-      "name": "Being_wet_drenched_and_cold"
-     },
-     "hasObject": {
-      "id": "object1",
-      "name": "Ship_or_boat"
-     },
      "place": {
-      "id": "place1",
-      "name": "On the sea"
-     }
+      "id": "data/texts/mobydick#On_the_sea",
+      "name": "On_the_sea"
+     },
+     "id": "Despair"
     },
     {
      "name": "Hopelessness",
      "hasIntensity": 0.8,
      "quote": "There, then, he sat, holding up that imbecile candle in the heart of that almighty forlornness.",
-     "causedBy": {
-      "id": "event2",
-      "name": "Holding_up_a_candle_in_despair"
-     },
-     "hasObject": {
-      "id": "object2",
-      "name": "Candle"
-     },
      "place": {
-      "id": "place2",
-      "name": "In the heart of forlornness"
-     }
+      "id": "data/texts/mobydick#In_the_heart_of_forlornness",
+      "name": "In_the_heart_of_forlornness"
+     },
+     "id": "Hopelessness"
     }
    ],
    "name": "Queequeg"
   },
   {
-   "id": "Starbuck",
+   "id": "data/texts/mobydick#Starbuck",
    "feels": [
     {
      "name": "Fear",
      "hasIntensity": 0.9,
      "quote": "The whole crew were half suffocated as they were tossed helter-skelter into the white curdling cream of the squall.",
-     "causedBy": {
-      "id": "event3",
-      "name": "Being_tossed_into_the_squall"
-     },
-     "hasObject": {
-      "id": "object3",
-      "name": "White_curdling_cream_of_the_squall"
-     },
      "place": {
-      "id": "place3",
-      "name": "In the squall"
-     }
+      "id": "data/texts/mobydick#In_the_squall",
+      "name": "In_the_squall"
+     },
+     "id": "Fear"
     }
    ],
    "name": "Starbuck"
   },
   {
-   "id": "Stubb",
+   "id": "data/texts/mobydick#Stubb",
    "feels": [
     {
      "name": "Amusement",
      "hasIntensity": 0.8,
      "quote": "Ha, ha! the whale would give them squint for squint, mind that!",
-     "causedBy": {
-      "id": "event4",
-      "name": "Discussing_the_law_in_the_fishery"
-     },
-     "hasObject": {
-      "id": "object4",
-      "name": "Whale"
-     },
      "place": {
-      "id": "place4",
-      "name": "On the ship"
-     }
+      "id": "data/texts/mobydick#On_the_ship",
+      "name": "On_the_ship"
+     },
+     "id": "Amusement"
     }
    ],
    "name": "Stubb"
   },
   {
-   "id": "Flask",
+   "id": "data/texts/mobydick#Flask",
    "feels": [
     {
      "name": "Humor",
      "hasIntensity": 0.7,
      "quote": "Ha, ha! the whale would give them squint for squint, mind that!",
-     "causedBy": {
-      "id": "event4",
-      "name": "Discussing_the_law_in_the_fishery"
-     },
-     "hasObject": {
-      "id": "object4",
-      "name": "Whale"
-     },
      "place": {
-      "id": "place4",
-      "name": "On the ship"
-     }
+      "id": "data/texts/mobydick#On_the_ship",
+      "name": "On_the_ship"
+     },
+     "id": "Humor"
     }
    ],
    "name": "Flask"
@@ -112,37 +77,37 @@
  ],
  "Places": [
   {
-   "id": "place1",
+   "id": "data/texts/mobydick#On_the_sea",
    "name": "On_the_sea"
   },
   {
-   "id": "place2",
+   "id": "data/texts/mobydick#In_the_heart_of_forlornness",
    "name": "In_the_heart_of_forlornness"
   },
   {
-   "id": "place3",
+   "id": "data/texts/mobydick#In_the_squall",
    "name": "In_the_squall"
   },
   {
-   "id": "place4",
+   "id": "data/texts/mobydick#On_the_ship",
    "name": "On_the_ship"
   }
  ],
  "Events": [
   {
-   "id": "event1",
+   "id": "data/texts/mobydick#Being_wet_drenched_and_cold",
    "name": "Being_wet_drenched_and_cold"
   },
   {
-   "id": "event2",
+   "id": "data/texts/mobydick#Holding_up_a_candle_in_despair",
    "name": "Holding_up_a_candle_in_despair"
   },
   {
-   "id": "event3",
+   "id": "data/texts/mobydick#Being_tossed_into_the_squall",
    "name": "Being_tossed_into_the_squall"
   },
   {
-   "id": "event4",
+   "id": "data/texts/mobydick#Discussing_the_law_in_the_fishery",
    "name": "Discussing_the_law_in_the_fishery"
   }
  ]

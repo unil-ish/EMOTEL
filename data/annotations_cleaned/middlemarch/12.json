@@ -1,107 +1,63 @@
 {
  "FictionalCharacters": [
   {
-   "id": "fc1",
+   "id": "data/texts/middlemarch#Rosamond_Vincy",
    "name": "Rosamond_Vincy",
    "feels": [
     {
      "name": "Love",
      "hasIntensity": 1,
      "quote": "That moment of naturalness was the crystallizing feather-touch: it shook flirtation into love.",
-     "causedBy": {
-      "id": "event1",
-      "name": "Lydgate_s_comforting_words_and_actions"
-     },
-     "hasObject": {
-      "id": "object1",
-      "name": "Lydgate"
-     },
-     "exactPlace": "Sitting room"
+     "exactPlace": "Sitting room",
+     "id": "Love"
     },
     {
      "name": "Happiness",
      "hasIntensity": 0.8,
      "quote": "Rosamond, who at the first moment felt as if her happiness were returning...",
-     "causedBy": {
-      "id": "event2",
-      "name": "Lydgate_s_visit"
-     },
-     "hasObject": {
-      "id": "object2",
-      "name": "Lydgate"
-     },
-     "exactPlace": "Sitting room"
+     "exactPlace": "Sitting room",
+     "id": "Happiness"
     },
     {
      "name": "Embarrassment",
      "hasIntensity": 0.7,
      "quote": "Miss Vincy was alone, and blushed so deeply when Lydgate came in that he felt a corresponding embarrassment...",
-     "causedBy": {
-      "id": "event3",
-      "name": "Lydgate_s_unexpected_visit"
-     },
-     "hasObject": {
-      "id": "object3",
-      "name": "Lydgate"
-     },
-     "exactPlace": "Sitting room"
+     "exactPlace": "Sitting room",
+     "id": "Embarrassment"
     },
     {
      "name": "Terror",
      "hasIntensity": 0.9,
      "quote": "Rosamond became very unhappy. The uneasiness first stirred by her aunt’s questions grew and grew till at the end of ten days...",
-     "causedBy": {
-      "id": "event4",
-      "name": "Fear_of_Lydgate_s_indifference"
-     },
-     "hasObject": {
-      "id": "object4",
-      "name": "Lydgate"
-     },
-     "exactPlace": "Sitting room"
+     "exactPlace": "Sitting room",
+     "id": "Terror"
     }
    ]
   }
  ],
  "Places": [
   {
-   "id": "place1",
+   "id": "data/texts/middlemarch#Stone_Court",
    "name": "Stone_Court",
    "description": "The residence of Mr. Featherstone"
   }
  ],
  "Events": [
   {
-   "id": "event1",
-   "name": "Lydgate_s_comforting_words_and_actions",
-   "takePlaceAt": {
-    "id": "place1",
-    "name": "place1"
-   }
+   "id": "data/texts/middlemarch#Lydgate_s_comforting_words_and_actions",
+   "name": "Lydgate_s_comforting_words_and_actions"
   },
   {
-   "id": "event2",
-   "name": "Lydgate_s_visit",
-   "takePlaceAt": {
-    "id": "place1",
-    "name": "place1"
-   }
+   "id": "data/texts/middlemarch#Lydgate_s_visit",
+   "name": "Lydgate_s_visit"
   },
   {
-   "id": "event3",
-   "name": "Lydgate_s_unexpected_visit",
-   "takePlaceAt": {
-    "id": "place1",
-    "name": "place1"
-   }
+   "id": "data/texts/middlemarch#Lydgate_s_unexpected_visit",
+   "name": "Lydgate_s_unexpected_visit"
   },
   {
-   "id": "event4",
-   "name": "Fear_of_Lydgate_s_indifference",
-   "takePlaceAt": {
-    "id": "place1",
-    "name": "place1"
-   }
+   "id": "data/texts/middlemarch#Fear_of_Lydgate_s_indifference",
+   "name": "Fear_of_Lydgate_s_indifference"
   }
  ]
 }

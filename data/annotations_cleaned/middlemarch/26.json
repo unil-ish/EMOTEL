@@ -1,98 +1,63 @@
 {
  "FictionalCharacters": [
   {
-   "id": "Will_Ladislaw",
+   "id": "data/texts/middlemarch#Will_Ladislaw",
    "feels": [
     {
      "name": "Anger",
      "hasIntensity": 0.8,
      "quote": "You shall keep your ill-gotten money. If I had any fortune of my own, I would willingly pay it to any one who could disprove what you have told me.",
-     "causedBy": {
-      "id": "Bulstrode_s_revelation_about_his_mother_s_family",
-      "name": "Revelation_about_his_mother_s_family"
-     },
-     "hasObject": {
-      "id": "Bulstrode",
-      "name": "Bulstrode"
-     },
      "place": {
-      "id": "Bulstrode's private room",
-      "name": "Bulstrode's private room"
-     }
+      "id": "data/texts/middlemarch#Bulstrode_s_private_room",
+      "name": "Bulstrode_s_private_room"
+     },
+     "id": "Anger"
     },
     {
      "name": "Indignation",
      "hasIntensity": 0.9,
      "quote": "I will not hear any evil spoken of Mr. Ladislaw; he has already suffered too much injustice.",
-     "causedBy": {
-      "id": "Gossip_about_Ladislaw",
-      "name": "Gossip_about_Ladislaw"
-     },
-     "hasObject": {
-      "id": "Sir_James_and_Mrs_Cadwallader",
-      "name": "Sir_James_and_Mrs_Cadwallader"
-     },
      "place": {
-      "id": "Freshitt",
+      "id": "data/texts/middlemarch#Freshitt",
       "name": "Freshitt"
-     }
+     },
+     "id": "Indignation"
     },
     {
      "name": "Sadness",
      "hasIntensity": 0.7,
      "quote": "The tears came and rolled down her cheeks, but she did not know it.",
-     "causedBy": {
-      "id": "Gossip_about_Ladislaw",
-      "name": "Gossip_about_Ladislaw"
-     },
-     "hasObject": {
-      "id": "Sir_James_and_Mrs_Cadwallader",
-      "name": "Sir_James_and_Mrs_Cadwallader"
-     },
      "place": {
-      "id": "Carriage",
+      "id": "data/texts/middlemarch#Carriage",
       "name": "Carriage"
-     }
+     },
+     "id": "Sadness"
     }
    ],
    "name": "Will_Ladislaw"
   },
   {
-   "id": "Dorothea",
+   "id": "data/texts/middlemarch#Dorothea",
    "feels": [
     {
      "name": "Indignation",
      "hasIntensity": 0.9,
      "quote": "I will not hear any evil spoken of Mr. Ladislaw; he has already suffered too much injustice.",
-     "causedBy": {
-      "id": "Gossip_about_Ladislaw",
-      "name": "Gossip_about_Ladislaw"
-     },
-     "hasObject": {
-      "id": "Sir_James_and_Mrs_Cadwallader",
-      "name": "Sir_James_and_Mrs_Cadwallader"
-     },
      "place": {
-      "id": "Freshitt",
+      "id": "data/texts/middlemarch#Freshitt",
       "name": "Freshitt"
-     }
+     },
+     "id": "Indignation"
     },
     {
      "name": "Sadness",
      "hasIntensity": 0.7,
      "quote": "The tears came and rolled down her cheeks, but she did not know it.",
-     "causedBy": {
-      "id": "Gossip_about_Ladislaw",
-      "name": "Gossip_about_Ladislaw"
-     },
-     "hasObject": {
-      "id": "Sir_James_and_Mrs_Cadwallader",
-      "name": "Sir_James_and_Mrs_Cadwallader"
-     },
      "place": {
-      "id": "Carriage",
+      "id": "data/texts/middlemarch#Carriage",
       "name": "Carriage"
-     }
+     },
+     "id": "Sadness"
     }
    ],
    "name": "Dorothea"
@@ -100,15 +65,15 @@
  ],
  "Places": [
   {
-   "id": "Bulstrode_s_private_room",
+   "id": "data/texts/middlemarch#Bulstrode_s_private_room",
    "name": "Bulstrode_s_private_room"
   },
   {
-   "id": "Freshitt",
+   "id": "data/texts/middlemarch#Freshitt",
    "name": "Freshitt"
   },
   {
-   "id": "Carriage",
+   "id": "data/texts/middlemarch#Carriage",
    "name": "Carriage"
   }
  ]

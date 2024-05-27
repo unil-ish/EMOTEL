@@ -1,122 +1,70 @@
 {
  "FictionalCharacters": [
   {
-   "id": "Lydgate",
+   "id": "data/texts/middlemarch#Lydgate",
    "name": "Lydgate",
    "feels": [
     {
      "name": "Excitement",
      "hasIntensity": 0.8,
      "quote": "He was acting, watching, speaking with that excited narrow consciousness which reminds one of an animal with fierce eyes and retractile claws.",
-     "causedBy": {
-      "id": "betting",
-      "name": "Betting_on_his_own_strokes"
-     },
-     "hasObject": {
-      "id": "billiardtable",
-      "name": "Billiard_table"
-     },
-     "exactPlace": "Green Dragon billiard-room"
+     "exactPlace": "Green Dragon billiard-room",
+     "id": "Excitement"
     },
     {
      "name": "Shame",
      "hasIntensity": 0.7,
      "quote": "Lydgate felt shame, but could not bear to act as if he felt it, by refusing to see Mr. Farebrother.",
-     "causedBy": {
-      "id": "betting",
-      "name": "Betting_on_his_own_strokes"
-     },
-     "hasObject": {
-      "id": "money",
-      "name": "Money"
-     },
-     "exactPlace": "Green Dragon billiard-room"
+     "exactPlace": "Green Dragon billiard-room",
+     "id": "Shame"
     }
    ]
   },
   {
-   "id": "Fred",
+   "id": "data/texts/middlemarch#Fred_Vincy",
    "name": "Fred_Vincy",
    "feels": [
     {
      "name": "Shock",
      "hasIntensity": 0.6,
      "quote": "Fred felt a shock greater than he could quite account for by the vague knowledge that Lydgate was in debt.",
-     "causedBy": {
-      "id": "seeing_Lydgate_betting",
-      "name": "Seeing_Lydgate_betting"
-     },
-     "hasObject": {
-      "id": "betting",
-      "name": "Betting"
-     },
-     "exactPlace": "Green Dragon billiard-room"
+     "exactPlace": "Green Dragon billiard-room",
+     "id": "Shock"
     },
     {
      "name": "Alarm",
      "hasIntensity": 0.8,
      "quote": "Fred was moved quite newly. Some one highly susceptible to the contemplation of a fine act has said, that it produces a sort of regenerating shudder through the frame, and makes one feel ready to begin a new life.",
-     "causedBy": {
-      "id": "Mr_Farebrother_s_warning",
-      "name": "Mr_Farebrother_s_warning"
-     },
-     "hasObject": {
-      "id": "warning",
-      "name": "Warning"
-     },
-     "exactPlace": "St. Botolph’s road"
+     "exactPlace": "St. Botolph’s road",
+     "id": "Alarm"
     }
    ]
   }
  ],
  "Places": [
   {
-   "id": "Green_Dragon_billiardroom",
+   "id": "data/texts/middlemarch#Green_Dragon_billiardroom",
    "name": "Green_Dragon_billiardroom",
    "description": "A constant resort for a certain set, most of whom were regarded as men of pleasure."
   },
   {
-   "id": "St_Botolphs_road",
+   "id": "data/texts/middlemarch#St_Botolphs_road",
    "name": "St_Botolphs_road",
    "description": "A patch of green where the road diverged towards St. Botolph’s."
   }
  ],
  "Events": [
   {
-   "id": "betting",
-   "name": "Betting_on_his_own_strokes",
-   "takePlaceAt": {
-    "id": "Green_Dragon_billiardroom",
-    "name": "Green_Dragon_billiardroom"
-   },
-   "hasParticipant": {
-    "id": "Lydgate",
-    "name": "Lydgate"
-   }
+   "id": "data/texts/middlemarch#Betting_on_his_own_strokes",
+   "name": "Betting_on_his_own_strokes"
   },
   {
-   "id": "seeing_Lydgate_betting",
-   "name": "Seeing_Lydgate_betting",
-   "takePlaceAt": {
-    "id": "Green_Dragon_billiardroom",
-    "name": "Green_Dragon_billiardroom"
-   },
-   "hasParticipant": {
-    "id": "Fred",
-    "name": "Fred"
-   }
+   "id": "data/texts/middlemarch#Seeing_Lydgate_betting",
+   "name": "Seeing_Lydgate_betting"
   },
   {
-   "id": "Mr_Farebrother_s_warning",
-   "name": "Mr_Farebrother_s_warning",
-   "takePlaceAt": {
-    "id": "St_Botolphs_road",
-    "name": "St_Botolphs_road"
-   },
-   "hasParticipant": {
-    "id": "Fred",
-    "name": "Fred"
-   }
+   "id": "data/texts/middlemarch#Mr_Farebrother_s_warning",
+   "name": "Mr_Farebrother_s_warning"
   }
  ]
 }

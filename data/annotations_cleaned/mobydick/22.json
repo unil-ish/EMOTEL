@@ -1,83 +1,48 @@
 {
  "FictionalCharacters": [
   {
-   "id": "Ahab",
+   "id": "data/texts/mobydick#Ahab",
    "feels": [
     {
      "name": "Trust",
      "hasIntensity": 0.7,
      "quote": "I will have the first sight of the whale myself.",
-     "causedBy": {
-      "id": "event1",
-      "name": "Desire_to_see_the_whale"
-     },
-     "hasObject": {
-      "id": "object1",
-      "name": "Whale"
-     },
-     "place": "On deck"
+     "place": "On deck",
+     "id": "Trust"
     },
     {
      "name": "Surprise",
      "hasIntensity": 0.6,
      "quote": "Not forged!",
-     "causedBy": {
-      "id": "event2",
-      "name": "Discovery_of_the_wrecked_whaleboat"
-     },
-     "hasObject": {
-      "id": "object2",
-      "name": "Wrecked_whaleboat"
-     },
-     "place": "On deck"
+     "place": "On deck",
+     "id": "Surprise"
     },
     {
      "name": "Anger",
      "hasIntensity": 0.8,
      "quote": "Brace forward! Up helm!",
-     "causedBy": {
-      "id": "event3",
-      "name": "The_corpse_hitting_the_sea"
-     },
-     "hasObject": {
-      "id": "object3",
-      "name": "Corpse"
-     },
-     "place": "On deck"
+     "place": "On deck",
+     "id": "Anger"
     },
     {
      "name": "Joy",
      "hasIntensity": 0.5,
      "quote": "It was a clear steel-blue day.",
-     "causedBy": {
-      "id": "event4",
-      "name": "Clear_day"
-     },
-     "hasObject": {
-      "id": "object4",
-      "name": "Clear_day"
-     },
-     "place": "On deck"
+     "place": "On deck",
+     "id": "Joy"
     }
    ],
    "name": "Ahab"
   },
   {
-   "id": "Sicilian_Seaman",
+   "id": "data/texts/mobydick#Sicilian_Seaman",
    "feels": [
     {
      "name": "Surprise",
      "hasIntensity": 0.7,
      "quote": "Your hat, your hat, sir!",
-     "causedBy": {
-      "id": "event5",
-      "name": "The_hawk_taking_Ahab_s_hat"
-     },
-     "hasObject": {
-      "id": "object5",
-      "name": "Ahab_s_hat"
-     },
-     "place": "Mizen-mast-head"
+     "place": "Mizen-mast-head",
+     "id": "Surprise"
     }
    ],
    "name": "Sicilian_Seaman"
@@ -85,76 +50,36 @@
  ],
  "Places": [
   {
-   "id": "deck",
+   "id": "data/texts/mobydick#On_deck",
    "name": "On_deck",
    "description": "The main deck of the ship where the crew and captain are present."
   },
   {
-   "id": "mizenmasthead",
+   "id": "data/texts/mobydick#Mizenmasthead",
    "name": "Mizenmasthead",
    "description": "The top of the mizen mast where the Sicilian seaman is stationed."
   }
  ],
  "Events": [
   {
-   "id": "event1",
-   "name": "Desire_to_see_the_whale",
-   "takePlaceAt": {
-    "id": "deck",
-    "name": "deck"
-   },
-   "hasParticipant": {
-    "id": "Ahab",
-    "name": "Ahab"
-   }
+   "id": "data/texts/mobydick#Desire_to_see_the_whale",
+   "name": "Desire_to_see_the_whale"
   },
   {
-   "id": "event2",
-   "name": "Discovery_of_the_wrecked_whaleboat",
-   "takePlaceAt": {
-    "id": "deck",
-    "name": "deck"
-   },
-   "hasParticipant": {
-    "id": "Ahab",
-    "name": "Ahab"
-   }
+   "id": "data/texts/mobydick#Discovery_of_the_wrecked_whaleboat",
+   "name": "Discovery_of_the_wrecked_whaleboat"
   },
   {
-   "id": "event3",
-   "name": "The_corpse_hitting_the_sea",
-   "takePlaceAt": {
-    "id": "deck",
-    "name": "deck"
-   },
-   "hasParticipant": {
-    "id": "Ahab",
-    "name": "Ahab"
-   }
+   "id": "data/texts/mobydick#The_corpse_hitting_the_sea",
+   "name": "The_corpse_hitting_the_sea"
   },
   {
-   "id": "event4",
-   "name": "Clear_day",
-   "takePlaceAt": {
-    "id": "deck",
-    "name": "deck"
-   },
-   "hasParticipant": {
-    "id": "Ahab",
-    "name": "Ahab"
-   }
+   "id": "data/texts/mobydick#Clear_day",
+   "name": "Clear_day"
   },
   {
-   "id": "event5",
-   "name": "The_hawk_taking_Ahab_s_hat",
-   "takePlaceAt": {
-    "id": "mizenmasthead",
-    "name": "mizenmasthead"
-   },
-   "hasParticipant": {
-    "id": "Sicilian_Seaman",
-    "name": "Sicilian_Seaman"
-   }
+   "id": "data/texts/mobydick#The_hawk_taking_Ahab_s_hat",
+   "name": "The_hawk_taking_Ahab_s_hat"
   }
  ]
 }

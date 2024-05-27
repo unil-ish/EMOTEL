@@ -1,200 +1,134 @@
 {
  "FictionalCharacters": [
   {
-   "id": "fc1",
+   "id": "data/texts/prideandprejudice#Mr_Darcy",
    "name": "Mr_Darcy",
    "feels": [
     {
      "name": "Love",
      "hasIntensity": 0.9,
      "quote": "You must allow me to tell you how ardently I admire and love you.",
-     "causedBy": {
-      "id": "event1",
-      "name": "Realization_of_feelings_for_Elizabeth"
-     },
-     "hasObject": {
-      "id": "object1",
-      "name": "Elizabeth"
-     },
      "place": {
-      "id": "place1",
+      "id": "data/texts/prideandprejudice#Parsonage",
       "name": "Parsonage"
-     }
+     },
+     "id": "Love"
     },
     {
      "name": "Resentment",
      "hasIntensity": 0.8,
      "quote": "She lost all compassion in anger.",
-     "causedBy": {
-      "id": "event2",
-      "name": "Elizabeth_s_reaction_to_his_language"
-     },
-     "hasObject": {
-      "id": "object2",
-      "name": "Elizabeth"
-     },
      "place": {
-      "id": "place2",
+      "id": "data/texts/prideandprejudice#Parsonage",
       "name": "Parsonage"
-     }
+     },
+     "id": "Resentment"
     },
     {
      "name": "Shame",
      "hasIntensity": 0.7,
      "quote": "I perfectly comprehend your feelings, and have now only to be ashamed of what my own have been.",
-     "causedBy": {
-      "id": "event3",
-      "name": "Realization_of_Elizabeth_s_feelings"
-     },
-     "hasObject": {
-      "id": "object3",
-      "name": "Elizabeth"
-     },
      "place": {
-      "id": "place3",
+      "id": "data/texts/prideandprejudice#Parsonage",
       "name": "Parsonage"
-     }
+     },
+     "id": "Shame"
     }
    ]
   },
   {
-   "id": "fc2",
+   "id": "data/texts/prideandprejudice#Elizabeth_Bennet",
    "name": "Elizabeth_Bennet",
    "feels": [
     {
      "name": "Anger",
      "hasIntensity": 0.9,
      "quote": "She tried, however, to compose herself to answer him with patience, when he should have done.",
-     "causedBy": {
-      "id": "event4",
-      "name": "Mr_Darcy_s_language"
-     },
-     "hasObject": {
-      "id": "object4",
-      "name": "Mr_Darcy"
-     },
      "place": {
-      "id": "place4",
+      "id": "data/texts/prideandprejudice#Parsonage",
       "name": "Parsonage"
-     }
+     },
+     "id": "Anger"
     },
     {
      "name": "Pity",
      "hasIntensity": 0.6,
      "quote": "Soon overcame the pity which the consideration of his attachment had for a moment excited.",
-     "causedBy": {
-      "id": "event5",
-      "name": "Realization_of_Mr_Darcy_s_actions"
-     },
-     "hasObject": {
-      "id": "object5",
-      "name": "Mr_Darcy"
-     },
      "place": {
-      "id": "place5",
+      "id": "data/texts/prideandprejudice#Parsonage",
       "name": "Parsonage"
-     }
+     },
+     "id": "Pity"
     },
     {
      "name": "Astonishment",
      "hasIntensity": 0.8,
      "quote": "Her astonishment, as she reflected on what had passed, was increased by every review of it.",
-     "causedBy": {
-      "id": "event6",
-      "name": "Mr_Darcy_s_proposal"
-     },
-     "hasObject": {
-      "id": "object6",
-      "name": "Mr_Darcy_s_actions"
-     },
      "place": {
-      "id": "place6",
+      "id": "data/texts/prideandprejudice#Parsonage",
       "name": "Parsonage"
-     }
+     },
+     "id": "Astonishment"
     }
    ]
   }
  ],
  "Places": [
   {
-   "id": "place1",
+   "id": "data/texts/prideandprejudice#Parsonage",
    "name": "Parsonage",
    "description": "Location where Mr. Darcy expresses his love for Elizabeth."
   },
   {
-   "id": "place2",
+   "id": "data/texts/prideandprejudice#Parsonage",
    "name": "Parsonage",
    "description": "Location where Elizabeth loses compassion in anger towards Mr. Darcy."
   },
   {
-   "id": "place3",
+   "id": "data/texts/prideandprejudice#Parsonage",
    "name": "Parsonage",
    "description": "Location where Mr. Darcy feels ashamed of his actions towards Elizabeth."
   },
   {
-   "id": "place4",
+   "id": "data/texts/prideandprejudice#Parsonage",
    "name": "Parsonage",
    "description": "Location where Elizabeth tries to compose herself in response to Mr. Darcy's language."
   },
   {
-   "id": "place5",
+   "id": "data/texts/prideandprejudice#Parsonage",
    "name": "Parsonage",
    "description": "Location where Elizabeth's pity for Mr. Darcy is overcome by his actions."
   },
   {
-   "id": "place6",
+   "id": "data/texts/prideandprejudice#Parsonage",
    "name": "Parsonage",
    "description": "Location where Elizabeth reflects on Mr. Darcy's proposal with astonishment."
   }
  ],
  "Events": [
   {
-   "id": "event1",
-   "name": "Realization_of_feelings_for_Elizabeth",
-   "takePlaceAt": {
-    "id": "place1",
-    "name": "place1"
-   }
+   "id": "data/texts/prideandprejudice#Realization_of_feelings_for_Elizabeth",
+   "name": "Realization_of_feelings_for_Elizabeth"
   },
   {
-   "id": "event2",
-   "name": "Elizabeth_s_reaction_to_his_language",
-   "takePlaceAt": {
-    "id": "place2",
-    "name": "place2"
-   }
+   "id": "data/texts/prideandprejudice#Elizabeth_s_reaction_to_his_language",
+   "name": "Elizabeth_s_reaction_to_his_language"
   },
   {
-   "id": "event3",
-   "name": "Realization_of_Elizabeth_s_feelings",
-   "takePlaceAt": {
-    "id": "place3",
-    "name": "place3"
-   }
+   "id": "data/texts/prideandprejudice#Realization_of_Elizabeth_s_feelings",
+   "name": "Realization_of_Elizabeth_s_feelings"
   },
   {
-   "id": "event4",
-   "name": "Mr_Darcy_s_language",
-   "takePlaceAt": {
-    "id": "place4",
-    "name": "place4"
-   }
+   "id": "data/texts/prideandprejudice#Mr_Darcy_s_language",
+   "name": "Mr_Darcy_s_language"
   },
   {
-   "id": "event5",
-   "name": "Realization_of_Mr_Darcy_s_actions",
-   "takePlaceAt": {
-    "id": "place5",
-    "name": "place5"
-   }
+   "id": "data/texts/prideandprejudice#Realization_of_Mr_Darcy_s_actions",
+   "name": "Realization_of_Mr_Darcy_s_actions"
   },
   {
-   "id": "event6",
-   "name": "Mr_Darcy_s_proposal",
-   "takePlaceAt": {
-    "id": "place6",
-    "name": "place6"
-   }
+   "id": "data/texts/prideandprejudice#Mr_Darcy_s_proposal",
+   "name": "Mr_Darcy_s_proposal"
   }
  ]
 }

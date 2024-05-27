@@ -1,73 +1,47 @@
 {
  "FictionalCharacters": [
   {
-   "id": "whaleman1",
+   "id": "data/texts/mobydick#Crippled_Beggar",
    "name": "Crippled_Beggar",
    "feels": [
     {
      "name": "Acceptance",
      "hasIntensity": 0.7,
      "quote": "But the time of his justification has now come.",
-     "causedBy": {
-      "id": "event1",
-      "name": "Holding_up_the_painted_board"
-     },
-     "hasObject": {
-      "id": "object1",
-      "name": "Painted_board"
-     },
-     "place": "London docks"
+     "place": "London docks",
+     "id": "Acceptance"
     }
    ]
   },
   {
-   "id": "whaleman2",
+   "id": "data/texts/mobydick#SailorSavage",
    "name": "SailorSavage",
    "feels": [
     {
      "name": "Love",
      "hasIntensity": 0.8,
      "quote": "Your true whale-hunter is as much a savage as an Iroquois. I myself am a savage, owning no allegiance but to the King of the Cannibals; and ready at any moment to rebel against him.",
-     "causedBy": {
-      "id": "event2",
-      "name": "Long_exile_from_Christendom_and_civilization"
-     },
-     "place": "Unknown"
+     "place": "Unknown",
+     "id": "Love"
     }
    ]
   }
  ],
  "Places": [
   {
-   "id": "place1",
+   "id": "data/texts/mobydick#London_docks",
    "name": "London_docks",
    "description": "A place where a crippled beggar holds up a painted board."
   }
  ],
  "Events": [
   {
-   "id": "event1",
-   "name": "Holding_up_the_painted_board",
-   "takePlaceAt": {
-    "id": "place1",
-    "name": "place1"
-   },
-   "hasParticipant": {
-    "id": "whaleman1",
-    "name": "whaleman1"
-   }
+   "id": "data/texts/mobydick#Holding_up_the_painted_board",
+   "name": "Holding_up_the_painted_board"
   },
   {
-   "id": "event2",
-   "name": "Long_exile_from_Christendom_and_civilization",
-   "takePlaceAt": {
-    "id": "place2",
-    "name": "place2"
-   },
-   "hasParticipant": {
-    "id": "whaleman2",
-    "name": "whaleman2"
-   }
+   "id": "data/texts/mobydick#Long_exile_from_Christendom_and_civilization",
+   "name": "Long_exile_from_Christendom_and_civilization"
   }
  ]
 }

@@ -1,173 +1,117 @@
 {
  "FictionalCharacters": [
   {
-   "id": "fc1",
+   "id": "data/texts/littlewomen#Jo_March",
    "name": "Jo_March",
    "feels": [
     {
      "name": "Trust",
      "hasIntensity": 0.9,
      "quote": "I hate to borrow as much as mother does, and I knew Aunt March would croak; she always does, if you ask for a ninepence.",
-     "causedBy": {
-      "id": "event1",
-      "name": "Needing_money_for_father"
-     },
-     "hasObject": {
-      "id": "object1",
-      "name": "Money"
-     },
-     "exactPlace": "In the barber's shop"
+     "exactPlace": "In the barber's shop",
+     "id": "Trust"
     },
     {
      "name": "Surprise",
      "hasIntensity": 0.7,
      "quote": "He rather stared, at first, as if he wasn't used to having girls bounce into his shop and ask him to buy their hair.",
-     "causedBy": {
-      "id": "event2",
-      "name": "Asking_the_barber_to_buy_her_hair"
-     },
-     "hasObject": {
-      "id": "object2",
-      "name": "Barber"
-     },
-     "exactPlace": "In the barber's shop"
+     "exactPlace": "In the barber's shop",
+     "id": "Surprise"
     },
     {
      "name": "Anger",
      "hasIntensity": 0.6,
      "quote": "I hate to borrow as much as mother does, and I knew Aunt March would croak; she always does, if you ask for a ninepence.",
-     "causedBy": {
-      "id": "event3",
-      "name": "Needing_money_for_father"
-     },
-     "hasObject": {
-      "id": "object3",
-      "name": "Money"
-     },
-     "exactPlace": "In the barber's shop"
+     "exactPlace": "In the barber's shop",
+     "id": "Anger"
     },
     {
      "name": "Joy",
      "hasIntensity": 0.8,
      "quote": "That's my contribution towards making father comfortable and bringing him home!",
-     "causedBy": {
-      "id": "event4",
-      "name": "Contributing_money_for_father"
-     },
-     "hasObject": {
-      "id": "object4",
-      "name": "Money"
-     },
-     "exactPlace": "At home"
+     "exactPlace": "At home",
+     "id": "Joy"
     },
     {
      "name": "Regret",
      "hasIntensity": 0.7,
      "quote": "It almost seemed as if I'd an arm or a leg off.",
-     "causedBy": {
-      "id": "event5",
-      "name": "Seeing_her_hair_cut_off"
-     },
-     "hasObject": {
-      "id": "object5",
-      "name": "Hair"
-     },
-     "exactPlace": "In the barber's shop"
+     "exactPlace": "In the barber's shop",
+     "id": "Regret"
     }
    ]
   },
   {
-   "id": "fc2",
+   "id": "data/texts/littlewomen#Mrs_March",
    "name": "Mrs_March",
    "feels": [
     {
      "name": "Anxiety",
      "hasIntensity": 0.8,
      "quote": "I shall go at once, but it may be too late. O children, children, help me to bear it!",
-     "causedBy": {
-      "id": "event6",
-      "name": "Receiving_a_telegram_about_her_husband_s_illness"
-     },
-     "hasObject": {
-      "id": "object6",
-      "name": "Telegram"
-     },
-     "exactPlace": "At home"
+     "exactPlace": "At home",
+     "id": "Anxiety"
     },
     {
      "name": "Gratitude",
      "hasIntensity": 0.9,
      "quote": "How kind you all are! Mother will accept, I'm sure; and it will be such a relief to know that she has some one to take care of her.",
-     "causedBy": {
-      "id": "event7",
-      "name": "Mr_Brooke_offering_to_escort_her_to_Washington"
-     },
-     "hasObject": {
-      "id": "object7",
-      "name": "Mr_Brooke_s_offer"
-     },
-     "exactPlace": "At home"
+     "exactPlace": "At home",
+     "id": "Gratitude"
     },
     {
      "name": "Relief",
      "hasIntensity": 0.8,
      "quote": "No, I won't!",
-     "causedBy": {
-      "id": "event8",
-      "name": "Jo_s_hair_being_cut_off"
-     },
-     "hasObject": {
-      "id": "object8",
-      "name": "Jo_s_hair"
-     },
-     "exactPlace": "At home"
+     "exactPlace": "At home",
+     "id": "Relief"
     }
    ]
   }
  ],
  "Places": [
   {
-   "id": "place1",
+   "id": "data/texts/littlewomen#Barber_s_shop",
    "name": "Barber_s_shop",
    "description": "Where Jo had her hair cut off"
   },
   {
-   "id": "place2",
+   "id": "data/texts/littlewomen#At_home",
    "name": "At_home",
    "description": "Where Mrs. March received the telegram and made preparations"
   }
  ],
  "Events": [
   {
-   "id": "event1",
+   "id": "data/texts/littlewomen#Needing_money_for_father",
    "name": "Needing_money_for_father"
   },
   {
-   "id": "event2",
+   "id": "data/texts/littlewomen#Asking_the_barber_to_buy_her_hair",
    "name": "Asking_the_barber_to_buy_her_hair"
   },
   {
-   "id": "event3",
+   "id": "data/texts/littlewomen#Needing_money_for_father",
    "name": "Needing_money_for_father"
   },
   {
-   "id": "event4",
+   "id": "data/texts/littlewomen#Contributing_money_for_father",
    "name": "Contributing_money_for_father"
   },
   {
-   "id": "event5",
+   "id": "data/texts/littlewomen#Seeing_her_hair_cut_off",
    "name": "Seeing_her_hair_cut_off"
   },
   {
-   "id": "event6",
+   "id": "data/texts/littlewomen#Receiving_a_telegram_about_her_husband_s_illness",
    "name": "Receiving_a_telegram_about_her_husband_s_illness"
   },
   {
-   "id": "event7",
+   "id": "data/texts/littlewomen#Mr_Brooke_offering_to_escort_her_to_Washington",
    "name": "Mr_Brooke_offering_to_escort_her_to_Washington"
   },
   {
-   "id": "event8",
+   "id": "data/texts/littlewomen#Jo_s_hair_being_cut_off",
    "name": "Jo_s_hair_being_cut_off"
   }
  ]

@@ -1,108 +1,63 @@
 {
  "FictionalCharacters": [
   {
-   "id": "fc1",
+   "id": "data/texts/mobydick#Ahab",
    "name": "Ahab",
    "feels": [
     {
      "name": "Impatience",
      "hasIntensity": 0.6,
      "quote": "some vague dissatisfaction, or impatience, or despair, seemed working in him",
-     "causedBy": {
-      "id": "event1",
-      "name": "Moby_Dick_still_to_be_slain"
-     },
-     "hasObject": {
-      "id": "object1",
-      "name": "Moby_Dick"
-     },
-     "place": "On deck"
+     "place": "On deck",
+     "id": "Impatience"
     }
    ]
   },
   {
-   "id": "fc2",
+   "id": "data/texts/mobydick#Stubb",
    "name": "Stubb",
    "feels": [
     {
      "name": "Excitement",
      "hasIntensity": 0.8,
      "quote": "flushed with conquest, betrayed an unusual but still good-natured excitement",
-     "causedBy": {
-      "id": "event2",
-      "name": "Conquest"
-     },
-     "hasObject": {
-      "id": "object2",
-      "name": "Conquest"
-     },
-     "place": "On deck"
+     "place": "On deck",
+     "id": "Excitement"
     }
    ]
   },
   {
-   "id": "fc3",
+   "id": "data/texts/mobydick#Fleece",
    "name": "Fleece",
    "feels": [
     {
      "name": "Resentment",
      "hasIntensity": 0.7,
      "quote": "sullenly turning to go",
-     "causedBy": {
-      "id": "event3",
-      "name": "Stubb_s_reprimand"
-     },
-     "hasObject": {
-      "id": "object3",
-      "name": "Stubb_s_reprimand"
-     },
-     "place": "On deck"
+     "place": "On deck",
+     "id": "Resentment"
     }
    ]
   }
  ],
  "Places": [
   {
-   "id": "place1",
+   "id": "data/texts/mobydick#On_deck",
    "name": "On_deck"
   }
  ],
  "Events": [
   {
-   "id": "event1",
-   "name": "Moby_Dick_still_to_be_slain",
-   "takePlaceAt": {
-    "id": "place1",
-    "name": "place1"
-   },
-   "hasParticipant": {
-    "id": "fc1",
-    "name": "fc1"
-   }
+   "id": "data/texts/mobydick#Moby_Dick_still_to_be_slain",
+   "name": "Moby_Dick_still_to_be_slain"
   },
   {
-   "id": "event2",
-   "name": "Conquest",
-   "takePlaceAt": {
-    "id": "place1",
-    "name": "place1"
-   },
-   "hasParticipant": {
-    "id": "fc2",
-    "name": "fc2"
-   }
+   "id": "data/texts/mobydick#Conquest",
+   "name": "Conquest"
   },
   {
-   "id": "event3",
-   "name": "Stubb_s_reprimand",
-   "takePlaceAt": {
-    "id": "place1",
-    "name": "place1"
-   },
-   "hasParticipant": {
-    "id": "fc3",
-    "name": "fc3"
-   }
+   "id": "data/texts/mobydick#Stubb_s_reprimand",
+   "name": "Stubb_s_reprimand"
   }
  ]
 }

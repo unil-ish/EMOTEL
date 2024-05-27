@@ -1,102 +1,57 @@
 {
  "FictionalCharacters": [
   {
-   "id": "fc1",
+   "id": "data/texts/mobydick#Ishmael",
    "name": "Ishmael",
    "feels": [
     {
      "name": "Awe",
      "hasIntensity": 0.9,
      "quote": "But still another inquiry remains; one often agitated by the more recondite Nantucketers.",
-     "causedBy": {
-      "id": "event1",
-      "name": "Contemplating_the_vastness_of_the_whale"
-     },
-     "hasObject": {
-      "id": "object1",
-      "name": "Whale"
-     },
-     "exactPlace": "In the presence of the Leviathan skeletons"
+     "exactPlace": "In the presence of the Leviathan skeletons",
+     "id": "Awe"
     },
     {
      "name": "Admiration",
      "hasIntensity": 0.8,
      "quote": "But as perhaps fifty of these whale-bone whales are harpooned for one cachalot, some philosophers of the forecastle have concluded that this positive havoc has already very seriously diminished their battalions.",
-     "causedBy": {
-      "id": "event2",
-      "name": "Considering_the_resilience_of_the_whale_population"
-     },
-     "hasObject": {
-      "id": "object2",
-      "name": "Whale_population"
-     },
-     "exactPlace": "In the forecastle"
+     "exactPlace": "In the forecastle",
+     "id": "Admiration"
     },
     {
      "name": "Contemplation",
      "hasIntensity": 0.7,
      "quote": "But you must look at this matter in every light.",
-     "causedBy": {
-      "id": "event3",
-      "name": "Reflecting_on_the_whale_population_decline"
-     },
-     "hasObject": {
-      "id": "object3",
-      "name": "Whale_population_decline"
-     },
-     "exactPlace": "In the forecastle"
+     "exactPlace": "In the forecastle",
+     "id": "Contemplation"
     }
    ]
   }
  ],
  "Places": [
   {
-   "id": "place1",
+   "id": "data/texts/mobydick#Leviathan_skeletons_exhibition",
    "name": "Leviathan_skeletons_exhibition",
    "description": "The place where the Leviathan skeletons are displayed."
   },
   {
-   "id": "place2",
+   "id": "data/texts/mobydick#The_forecastle",
    "name": "The_forecastle",
    "description": "The front part of a ship below the deck, traditionally used as the crew's living quarters."
   }
  ],
  "Events": [
   {
-   "id": "event1",
-   "name": "Contemplating_the_vastness_of_the_whale",
-   "takePlaceAt": {
-    "id": "place1",
-    "name": "place1"
-   },
-   "hasParticipant": {
-    "id": "fc1",
-    "name": "fc1"
-   }
+   "id": "data/texts/mobydick#Contemplating_the_vastness_of_the_whale",
+   "name": "Contemplating_the_vastness_of_the_whale"
   },
   {
-   "id": "event2",
-   "name": "Considering_the_resilience_of_the_whale_population",
-   "takePlaceAt": {
-    "id": "place2",
-    "name": "place2"
-   },
-   "hasParticipant": {
-    "id": "fc1",
-    "name": "fc1"
-   }
+   "id": "data/texts/mobydick#Considering_the_resilience_of_the_whale_population",
+   "name": "Considering_the_resilience_of_the_whale_population"
   },
   {
-   "id": "event3",
-   "name": "Reflecting_on_the_whale_population_decline",
-   "takePlaceAt": {
-    "id": "place2",
-    "name": "place2"
-   },
-   "hasParticipant": {
-    "id": "fc1",
-    "name": "fc1"
-   }
+   "id": "data/texts/mobydick#Reflecting_on_the_whale_population_decline",
+   "name": "Reflecting_on_the_whale_population_decline"
   }
  ]
 }

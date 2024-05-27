@@ -1,179 +1,113 @@
 {
  "FictionalCharacters": [
   {
-   "id": "fc1",
+   "id": "data/texts/littlewomen#Jo_March",
    "name": "Jo_March",
    "feels": [
     {
      "name": "Anxiety",
      "hasIntensity": 0.9,
      "quote": "Language cannot describe the anxieties, experiences, and exertions which Jo underwent that morning.",
-     "causedBy": {
-      "id": "event1",
-      "name": "Preparing_dinner"
-     },
-     "hasObject": {
-      "id": "object1",
-      "name": "Dinner"
-     },
-     "exactPlace": "Kitchen"
+     "exactPlace": "Kitchen",
+     "id": "Anxiety"
     },
     {
      "name": "Exhaustion",
      "hasIntensity": 0.8,
      "quote": "The unusual spectacle of her busy mother rocking comfortably, and reading, early in the morning, made Jo feel as if some natural phenomenon had occurred.",
-     "causedBy": {
-      "id": "event2",
-      "name": "Mother_resting"
-     },
-     "hasObject": {
-      "id": "object2",
-      "name": "Mother"
-     },
-     "exactPlace": "Home"
+     "exactPlace": "Home",
+     "id": "Exhaustion"
     },
     {
      "name": "Embarrassment",
      "hasIntensity": 0.7,
      "quote": "Poor Jo would gladly have gone under the table, as one thing after another was tasted and left.",
-     "causedBy": {
-      "id": "event3",
-      "name": "Failed_dinner"
-     },
-     "hasObject": {
-      "id": "object3",
-      "name": "Dinner"
-     },
-     "exactPlace": "Dining room"
+     "exactPlace": "Dining room",
+     "id": "Embarrassment"
     }
    ]
   },
   {
-   "id": "fc2",
+   "id": "data/texts/littlewomen#Beth_March",
    "name": "Beth_March",
    "feels": [
     {
      "name": "Grief",
      "hasIntensity": 0.9,
      "quote": "Beth sobbing over Pip, the canary, who lay dead in the cage.",
-     "causedBy": {
-      "id": "event4",
-      "name": "Canary_s_death"
-     },
-     "hasObject": {
-      "id": "object4",
-      "name": "Canary"
-     },
-     "exactPlace": "Parlor"
+     "exactPlace": "Parlor",
+     "id": "Grief"
     }
    ]
   },
   {
-   "id": "fc3",
+   "id": "data/texts/littlewomen#Meg_March",
    "name": "Meg_March",
    "feels": [
     {
      "name": "Relief",
      "hasIntensity": 0.8,
      "quote": "Meg ran upstairs, and soon came back again, looking relieved, but rather bewildered, and a little ashamed.",
-     "causedBy": {
-      "id": "event5",
-      "name": "Mother_resting"
-     },
-     "hasObject": {
-      "id": "object5",
-      "name": "Mother"
-     },
-     "exactPlace": "Home"
+     "exactPlace": "Home",
+     "id": "Relief"
     }
    ]
   },
   {
-   "id": "fc4",
+   "id": "data/texts/littlewomen#Amy_March",
    "name": "Amy_March",
    "feels": [
     {
      "name": "Disappointment",
      "hasIntensity": 0.8,
      "quote": "Amy giggled, Meg looked distressed, Miss Crocker pursed up her lips, and Laurie talked and laughed with all his might, to give a cheerful tone to the festive scene.",
-     "causedBy": {
-      "id": "event6",
-      "name": "Failed_dessert"
-     },
-     "hasObject": {
-      "id": "object6",
-      "name": "Dessert"
-     },
-     "exactPlace": "Dining room"
+     "exactPlace": "Dining room",
+     "id": "Disappointment"
     }
    ]
   }
  ],
  "Places": [
   {
-   "id": "place1",
+   "id": "data/texts/littlewomen#Kitchen",
    "name": "Kitchen",
    "description": "In a most discouraging state of confusion."
   },
   {
-   "id": "place2",
+   "id": "data/texts/littlewomen#Parlor",
    "name": "Parlor",
    "description": "Where Beth sobbed over the dead canary."
   },
   {
-   "id": "place3",
+   "id": "data/texts/littlewomen#Dining_room",
    "name": "Dining_room",
    "description": "Where the failed dinner was served."
   }
  ],
  "Events": [
   {
-   "id": "event1",
-   "name": "Preparing_dinner",
-   "takePlaceAt": {
-    "id": "place1",
-    "name": "place1"
-   }
+   "id": "data/texts/littlewomen#Preparing_dinner",
+   "name": "Preparing_dinner"
   },
   {
-   "id": "event2",
-   "name": "Mother_resting",
-   "takePlaceAt": {
-    "id": "place2",
-    "name": "place2"
-   }
+   "id": "data/texts/littlewomen#Mother_resting",
+   "name": "Mother_resting"
   },
   {
-   "id": "event3",
-   "name": "Failed_dinner",
-   "takePlaceAt": {
-    "id": "place3",
-    "name": "place3"
-   }
+   "id": "data/texts/littlewomen#Failed_dinner",
+   "name": "Failed_dinner"
   },
   {
-   "id": "event4",
-   "name": "Canary_s_death",
-   "takePlaceAt": {
-    "id": "place2",
-    "name": "place2"
-   }
+   "id": "data/texts/littlewomen#Canary_s_death",
+   "name": "Canary_s_death"
   },
   {
-   "id": "event5",
-   "name": "Mother_resting",
-   "takePlaceAt": {
-    "id": "place2",
-    "name": "place2"
-   }
+   "id": "data/texts/littlewomen#Mother_resting",
+   "name": "Mother_resting"
   },
   {
-   "id": "event6",
-   "name": "Failed_dessert",
-   "takePlaceAt": {
-    "id": "place3",
-    "name": "place3"
-   }
+   "id": "data/texts/littlewomen#Failed_dessert",
+   "name": "Failed_dessert"
   }
  ]
 }

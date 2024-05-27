@@ -1,83 +1,48 @@
 {
  "FictionalCharacters": [
   {
-   "id": "Lucy_Honeychurch",
+   "id": "data/texts/aroomwithaview#Lucy_Honeychurch",
    "feels": [
     {
      "name": "Anxiety",
      "hasIntensity": 0.7,
      "quote": "The ghosts were returning; they filled Italy, they were even usurping the places she had known as a child. The Sacred Lake would never be the same again, and, on Sunday week, something would even happen to Windy Corner. How would she fight against ghosts? For a moment the visible world faded away, and memories and emotions alone seemed real.",
-     "causedBy": {
-      "id": "event1",
-      "name": "Return_of_ghosts_and_memories"
-     },
-     "hasObject": {
-      "id": "object1",
-      "name": "Italy_Sacred_Lake_Windy_Corner"
-     },
-     "exactPlace": "Italy, Sacred Lake, Windy Corner"
+     "exactPlace": "Italy, Sacred Lake, Windy Corner",
+     "id": "Anxiety"
     },
     {
      "name": "Regret",
      "hasIntensity": 0.6,
      "quote": "How dreadful if she really wished to remain near him! Of course, the wish was due to nerves, which love to play such perverse tricks upon us.",
-     "causedBy": {
-      "id": "event2",
-      "name": "Wishing_to_remain_near_George"
-     },
-     "hasObject": {
-      "id": "object2",
-      "name": "George_Emerson"
-     },
-     "exactPlace": "Rectory"
+     "exactPlace": "Rectory",
+     "id": "Regret"
     },
     {
      "name": "Nostalgia",
      "hasIntensity": 0.8,
      "quote": "The Sacred Lake would never be the same again, and, on Sunday week, something would even happen to Windy Corner.",
-     "causedBy": {
-      "id": "event3",
-      "name": "Changes_in_familiar_places"
-     },
-     "hasObject": {
-      "id": "object3",
-      "name": "Sacred_Lake_Windy_Corner"
-     },
-     "exactPlace": "Sacred Lake, Windy Corner"
+     "exactPlace": "Sacred Lake, Windy Corner",
+     "id": "Nostalgia"
     }
    ],
    "name": "Lucy_Honeychurch"
   },
   {
-   "id": "Cecil",
+   "id": "data/texts/aroomwithaview#Cecil",
    "feels": [
     {
      "name": "Irritation",
      "hasIntensity": 0.7,
      "quote": "Cecil frowned again. Oh, these Honeychurches! Eggs, boilers, hydrangeas, maids—of such were their lives compact.",
-     "causedBy": {
-      "id": "event4",
-      "name": "Discussion_about_Miss_Bartlett"
-     },
-     "hasObject": {
-      "id": "object4",
-      "name": "Honeychurches"
-     },
-     "exactPlace": "Dining room"
+     "exactPlace": "Dining room",
+     "id": "Irritation"
     },
     {
      "name": "Discomfort",
      "hasIntensity": 0.6,
      "quote": "Cecil crumbled his bread.",
-     "causedBy": {
-      "id": "event5",
-      "name": "Discussion_about_Miss_Bartlett"
-     },
-     "hasObject": {
-      "id": "object5",
-      "name": "Miss_Bartlett"
-     },
-     "exactPlace": "Dining room"
+     "exactPlace": "Dining room",
+     "id": "Discomfort"
     }
    ],
    "name": "Cecil"
@@ -85,71 +50,51 @@
  ],
  "Places": [
   {
-   "id": "Italy",
+   "id": "data/texts/aroomwithaview#Italy",
    "name": "Italy",
    "description": "Setting for memories and ghosts"
   },
   {
-   "id": "Sacred_Lake",
+   "id": "data/texts/aroomwithaview#Sacred_Lake",
    "name": "Sacred_Lake",
    "description": "Location of past experiences"
   },
   {
-   "id": "Windy_Corner",
+   "id": "data/texts/aroomwithaview#Windy_Corner",
    "name": "Windy_Corner",
    "description": "Familiar place with upcoming changes"
   },
   {
-   "id": "Rectory",
+   "id": "data/texts/aroomwithaview#Rectory",
    "name": "Rectory",
    "description": "Meeting place with George"
   },
   {
-   "id": "Dining_room",
+   "id": "data/texts/aroomwithaview#Dining_room",
    "name": "Dining_room",
    "description": "Location of discussion about Miss Bartlett"
   }
  ],
  "Events": [
   {
-   "id": "event1",
-   "name": "Return_of_ghosts_and_memories",
-   "takePlaceAt": {
-    "id": "Italy",
-    "name": "Italy"
-   }
+   "id": "data/texts/aroomwithaview#Return_of_ghosts_and_memories",
+   "name": "Return_of_ghosts_and_memories"
   },
   {
-   "id": "event2",
-   "name": "Wishing_to_remain_near_George",
-   "takePlaceAt": {
-    "id": "Rectory",
-    "name": "Rectory"
-   }
+   "id": "data/texts/aroomwithaview#Wishing_to_remain_near_George",
+   "name": "Wishing_to_remain_near_George"
   },
   {
-   "id": "event3",
-   "name": "Changes_in_familiar_places",
-   "takePlaceAt": {
-    "id": "Sacred_Lake_Windy_Corner",
-    "name": "Sacred_Lake_Windy_Corner"
-   }
+   "id": "data/texts/aroomwithaview#Changes_in_familiar_places",
+   "name": "Changes_in_familiar_places"
   },
   {
-   "id": "event4",
-   "name": "Discussion_about_Miss_Bartlett",
-   "takePlaceAt": {
-    "id": "Dining_room",
-    "name": "Dining_room"
-   }
+   "id": "data/texts/aroomwithaview#Discussion_about_Miss_Bartlett",
+   "name": "Discussion_about_Miss_Bartlett"
   },
   {
-   "id": "event5",
-   "name": "Discussion_about_Miss_Bartlett",
-   "takePlaceAt": {
-    "id": "Dining_room",
-    "name": "Dining_room"
-   }
+   "id": "data/texts/aroomwithaview#Discussion_about_Miss_Bartlett",
+   "name": "Discussion_about_Miss_Bartlett"
   }
  ]
 }

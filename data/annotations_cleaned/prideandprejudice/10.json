@@ -1,200 +1,151 @@
 {
  "FictionalCharacters": [
   {
-   "id": "fc1",
+   "id": "data/texts/prideandprejudice#Elizabeth_Bennet",
    "name": "Elizabeth_Bennet",
    "feels": [
     {
      "name": "Surprise",
      "hasIntensity": 0.7,
      "quote": "How strange this is! and for this we are to be thankful.",
-     "causedBy": {
-      "id": "event1",
-      "name": "Reading_the_letter_from_Mr_Gardiner"
-     },
-     "hasObject": {
-      "id": "object1",
-      "name": "Content_of_the_letter"
-     },
      "place": {
-      "id": "place1",
+      "id": "data/texts/prideandprejudice#Library",
       "name": "Library"
-     }
+     },
+     "id": "Surprise"
     },
     {
      "name": "Gratitude",
      "hasIntensity": 0.8,
      "quote": "The kindness of my uncle and aunt can never be requited.",
-     "causedBy": {
-      "id": "event2",
-      "name": "Realizing_the_sacrifice_made_by_Mr_Gardiner"
-     },
-     "hasObject": {
-      "id": "object2",
-      "name": "Kindness_of_uncle_and_aunt"
-     },
      "place": {
-      "id": "place2",
-      "name": "Breakfast-room"
-     }
+      "id": "data/texts/prideandprejudice#Breakfastroom",
+      "name": "Breakfastroom"
+     },
+     "id": "Gratitude"
     },
     {
      "name": "Relief",
      "hasIntensity": 0.9,
      "quote": "She was disturbed by no fear for her felicity, nor humbled by any remembrance of her misconduct.",
-     "causedBy": {
-      "id": "event3",
-      "name": "Hearing_about_Lydia_s_marriage"
-     },
-     "hasObject": {
-      "id": "object3",
-      "name": "Lydia_s_marriage"
-     },
      "place": {
-      "id": "place3",
+      "id": "data/texts/prideandprejudice#Library",
       "name": "Library"
-     }
+     },
+     "id": "Relief"
     }
    ]
   },
   {
-   "id": "fc2",
+   "id": "data/texts/prideandprejudice#Jane_Bennet",
    "name": "Jane_Bennet",
    "feels": [
     {
      "name": "Hope",
      "hasIntensity": 0.7,
      "quote": "Their mutual affection will steady them; and I flatter myself they will settle so quietly, and live in so rational a manner, as may in time make their past imprudence forgotten.",
-     "causedBy": {
-      "id": "event4",
-      "name": "Believing_in_Lydia_and_Wickham_s_future_happiness"
-     },
-     "hasObject": {
-      "id": "object4",
-      "name": "Lydia_and_Wickham_s_future"
-     },
      "place": {
-      "id": "place4",
-      "name": "Breakfast-room"
-     }
+      "id": "data/texts/prideandprejudice#Breakfastroom",
+      "name": "Breakfastroom"
+     },
+     "id": "Hope"
     },
     {
      "name": "Gratitude",
      "hasIntensity": 0.8,
      "quote": "For we must attribute this happy conclusion, in a great measure to his kindness.",
-     "causedBy": {
-      "id": "event5",
-      "name": "Acknowledging_Mr_Gardiner_s_kindness"
-     },
-     "hasObject": {
-      "id": "object5",
-      "name": "Mr_Gardiner_s_kindness"
-     },
      "place": {
-      "id": "place5",
-      "name": "Breakfast-room"
-     }
+      "id": "data/texts/prideandprejudice#Breakfastroom",
+      "name": "Breakfastroom"
+     },
+     "id": "Gratitude"
     }
    ]
   },
   {
-   "id": "fc3",
+   "id": "data/texts/prideandprejudice#Mrs_Bennet",
    "name": "Mrs_Bennet",
    "feels": [
     {
      "name": "Delight",
      "hasIntensity": 0.9,
      "quote": "My dear, dear Lydia! How merry we shall be together when we meet!",
-     "causedBy": {
-      "id": "event6",
-      "name": "Learning_about_Lydia_s_marriage"
-     },
-     "hasObject": {
-      "id": "object6",
-      "name": "Lydia_s_marriage"
-     },
      "place": {
-      "id": "place6",
-      "name": "Breakfast-room"
-     }
+      "id": "data/texts/prideandprejudice#Breakfastroom",
+      "name": "Breakfastroom"
+     },
+     "id": "Delight"
     },
     {
      "name": "Excitement",
      "hasIntensity": 0.8,
      "quote": "How I long to see her! and to see dear Wickham too!",
-     "causedBy": {
-      "id": "event7",
-      "name": "Anticipation_of_seeing_Lydia_and_Wickham"
-     },
-     "hasObject": {
-      "id": "object7",
-      "name": "Seeing_Lydia_and_Wickham"
-     },
      "place": {
-      "id": "place7",
-      "name": "Breakfast-room"
-     }
+      "id": "data/texts/prideandprejudice#Breakfastroom",
+      "name": "Breakfastroom"
+     },
+     "id": "Excitement"
     }
    ]
   }
  ],
  "Places": [
   {
-   "id": "place1",
+   "id": "data/texts/prideandprejudice#Library",
    "name": "Library"
   },
   {
-   "id": "place2",
+   "id": "data/texts/prideandprejudice#Breakfastroom",
    "name": "Breakfastroom"
   },
   {
-   "id": "place3",
+   "id": "data/texts/prideandprejudice#Library",
    "name": "Library"
   },
   {
-   "id": "place4",
+   "id": "data/texts/prideandprejudice#Breakfastroom",
    "name": "Breakfastroom"
   },
   {
-   "id": "place5",
+   "id": "data/texts/prideandprejudice#Breakfastroom",
    "name": "Breakfastroom"
   },
   {
-   "id": "place6",
+   "id": "data/texts/prideandprejudice#Breakfastroom",
    "name": "Breakfastroom"
   },
   {
-   "id": "place7",
+   "id": "data/texts/prideandprejudice#Breakfastroom",
    "name": "Breakfastroom"
   }
  ],
  "Events": [
   {
-   "id": "event1",
+   "id": "data/texts/prideandprejudice#Reading_the_letter_from_Mr_Gardiner",
    "name": "Reading_the_letter_from_Mr_Gardiner"
   },
   {
-   "id": "event2",
+   "id": "data/texts/prideandprejudice#Realizing_the_sacrifice_made_by_Mr_Gardiner",
    "name": "Realizing_the_sacrifice_made_by_Mr_Gardiner"
   },
   {
-   "id": "event3",
+   "id": "data/texts/prideandprejudice#Hearing_about_Lydia_s_marriage",
    "name": "Hearing_about_Lydia_s_marriage"
   },
   {
-   "id": "event4",
+   "id": "data/texts/prideandprejudice#Believing_in_Lydia_and_Wickham_s_future_happiness",
    "name": "Believing_in_Lydia_and_Wickham_s_future_happiness"
   },
   {
-   "id": "event5",
+   "id": "data/texts/prideandprejudice#Acknowledging_Mr_Gardiner_s_kindness",
    "name": "Acknowledging_Mr_Gardiner_s_kindness"
   },
   {
-   "id": "event6",
+   "id": "data/texts/prideandprejudice#Learning_about_Lydia_s_marriage",
    "name": "Learning_about_Lydia_s_marriage"
   },
   {
-   "id": "event7",
+   "id": "data/texts/prideandprejudice#Anticipation_of_seeing_Lydia_and_Wickham",
    "name": "Anticipation_of_seeing_Lydia_and_Wickham"
   }
  ]

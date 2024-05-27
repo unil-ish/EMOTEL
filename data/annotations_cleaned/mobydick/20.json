@@ -1,81 +1,53 @@
 {
  "FictionalCharacters": [
   {
-   "id": "Ahab",
+   "id": "data/texts/mobydick#Ahab",
    "feels": [
     {
      "name": "Anger",
      "hasIntensity": 0.7,
      "quote": "Oh, devilish tantalization of the gods!",
-     "causedBy": {
-      "id": "event1",
-      "name": "Observing_Queequeg_s_coffin"
-     },
-     "hasObject": {
-      "id": "object1",
-      "name": "Queequeg_s_coffin"
-     },
      "place": {
-      "id": "place1",
-      "name": "Beside the mizen rigging"
-     }
+      "id": "data/texts/mobydick#Beside_the_mizen_rigging",
+      "name": "Beside_the_mizen_rigging"
+     },
+     "id": "Anger"
     },
     {
      "name": "Joy",
      "hasIntensity": 0.6,
      "quote": "Aye, I come!",
-     "causedBy": {
-      "id": "event2",
-      "name": "Hearing_the_call_of_the_ocean"
-     },
-     "hasObject": {
-      "id": "object2",
-      "name": "Call_of_the_ocean"
-     },
      "place": {
-      "id": "place2",
-      "name": "By the ocean"
-     }
+      "id": "data/texts/mobydick#By_the_ocean",
+      "name": "By_the_ocean"
+     },
+     "id": "Joy"
     },
     {
      "name": "Impatience",
      "hasIntensity": 0.8,
      "quote": "In no Paradise myself, I am impatient of all misery in others that is not mad.",
-     "causedBy": {
-      "id": "event3",
-      "name": "Feeling_disconnected_from_others_misery"
-     },
-     "hasObject": {
-      "id": "object3",
-      "name": "Others_misery"
-     },
      "place": {
-      "id": "place3",
-      "name": "By the forge"
-     }
+      "id": "data/texts/mobydick#By_the_forge",
+      "name": "By_the_forge"
+     },
+     "id": "Impatience"
     }
    ],
    "name": "Ahab"
   },
   {
-   "id": "Perth",
+   "id": "data/texts/mobydick#Perth",
    "feels": [
     {
      "name": "Resignation",
      "hasIntensity": 0.9,
      "quote": "I am past scorching; not easily can’st thou scorch a scar.",
-     "causedBy": {
-      "id": "event4",
-      "name": "Reflecting_on_past_experiences"
-     },
-     "hasObject": {
-      "id": "object4",
-      "name": "Past_experiences"
-     },
      "place": {
-      "id": "place4",
-      "name": "By the forge"
-     }
+      "id": "data/texts/mobydick#By_the_forge",
+      "name": "By_the_forge"
+     },
+     "id": "Resignation"
     }
    ],
    "name": "Perth"
@@ -83,58 +55,42 @@
  ],
  "Places": [
   {
-   "id": "place1",
+   "id": "data/texts/mobydick#Beside_the_mizen_rigging",
    "name": "Beside_the_mizen_rigging",
    "description": "Aboard the ship, near the mizen rigging."
   },
   {
-   "id": "place2",
+   "id": "data/texts/mobydick#By_the_ocean",
    "name": "By_the_ocean",
    "description": "Standing near the ocean, hearing the call of the sea."
   },
   {
-   "id": "place3",
+   "id": "data/texts/mobydick#By_the_forge",
    "name": "By_the_forge",
    "description": "Standing between the forge and anvil."
   },
   {
-   "id": "place4",
+   "id": "data/texts/mobydick#By_the_forge",
    "name": "By_the_forge",
    "description": "Standing between the forge and anvil."
   }
  ],
  "Events": [
   {
-   "id": "event1",
-   "name": "Observing_Queequeg_s_coffin",
-   "takePlaceAt": {
-    "id": "place1",
-    "name": "place1"
-   }
+   "id": "data/texts/mobydick#Observing_Queequeg_s_coffin",
+   "name": "Observing_Queequeg_s_coffin"
   },
   {
-   "id": "event2",
-   "name": "Hearing_the_call_of_the_ocean",
-   "takePlaceAt": {
-    "id": "place2",
-    "name": "place2"
-   }
+   "id": "data/texts/mobydick#Hearing_the_call_of_the_ocean",
+   "name": "Hearing_the_call_of_the_ocean"
   },
   {
-   "id": "event3",
-   "name": "Feeling_disconnected_from_others_misery",
-   "takePlaceAt": {
-    "id": "place3",
-    "name": "place3"
-   }
+   "id": "data/texts/mobydick#Feeling_disconnected_from_others_misery",
+   "name": "Feeling_disconnected_from_others_misery"
   },
   {
-   "id": "event4",
-   "name": "Reflecting_on_past_experiences",
-   "takePlaceAt": {
-    "id": "place4",
-    "name": "place4"
-   }
+   "id": "data/texts/mobydick#Reflecting_on_past_experiences",
+   "name": "Reflecting_on_past_experiences"
   }
  ]
 }

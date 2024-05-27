@@ -1,63 +1,35 @@
 {
  "FictionalCharacters": [
   {
-   "id": "Victor_Frankenstein",
+   "id": "data/texts/frankenstein#Victor_Frankenstein",
    "feels": [
     {
      "name": "Trust",
      "hasIntensity": 0.7,
      "quote": "My father's care and attentions were indefatigable.",
-     "causedBy": {
-      "id": "father",
-      "name": "Father_s_care_and_attentions"
-     },
-     "hasObject": {
-      "id": "father",
-      "name": "Father"
-     },
-     "exactPlace": "Prison"
+     "exactPlace": "Prison",
+     "id": "Trust"
     },
     {
      "name": "Surprise",
      "hasIntensity": 0.6,
      "quote": "My father yielded at length to my desire to avoid society.",
-     "causedBy": {
-      "id": "father",
-      "name": "Father_yielding_to_Victor_s_desire"
-     },
-     "hasObject": {
-      "id": "father",
-      "name": "Father"
-     },
-     "exactPlace": "Paris"
+     "exactPlace": "Paris",
+     "id": "Surprise"
     },
     {
      "name": "Anger",
      "hasIntensity": 0.8,
      "quote": "I cried energetically; 'I am the assassin of those most innocent victims.'",
-     "causedBy": {
-      "id": "selfAccusation",
-      "name": "Selfaccusation"
-     },
-     "hasObject": {
-      "id": "innocentVictims",
-      "name": "Innocent_victims"
-     },
-     "exactPlace": "Conversation with father"
+     "exactPlace": "Conversation with father",
+     "id": "Anger"
     },
     {
      "name": "Joy",
      "hasIntensity": 0.9,
      "quote": "It gave me the greatest pleasure to receive a letter from my uncle.",
-     "causedBy": {
-      "id": "letterFromElizabeth",
-      "name": "Receiving_a_letter_from_Elizabeth"
-     },
-     "hasObject": {
-      "id": "letterFromElizabeth",
-      "name": "Letter_from_Elizabeth"
-     },
-     "exactPlace": "Paris"
+     "exactPlace": "Paris",
+     "id": "Joy"
     }
    ],
    "name": "Victor_Frankenstein"
@@ -65,64 +37,32 @@
  ],
  "Places": [
   {
-   "id": "Prison",
+   "id": "data/texts/frankenstein#Prison",
    "name": "Prison",
    "description": "Victor Frankenstein's place of confinement"
   },
   {
-   "id": "Paris",
+   "id": "data/texts/frankenstein#Paris",
    "name": "Paris",
    "description": "City where Victor Frankenstein and his father stayed"
   }
  ],
  "Events": [
   {
-   "id": "father",
-   "name": "Father_s_care_and_attentions",
-   "takePlaceAt": {
-    "id": "Prison",
-    "name": "Prison"
-   },
-   "hasParticipant": {
-    "id": "Victor_Frankenstein",
-    "name": "Victor_Frankenstein"
-   }
+   "id": "data/texts/frankenstein#Father_s_care_and_attentions",
+   "name": "Father_s_care_and_attentions"
   },
   {
-   "id": "father",
-   "name": "Father_yielding_to_Victor_s_desire",
-   "takePlaceAt": {
-    "id": "Paris",
-    "name": "Paris"
-   },
-   "hasParticipant": {
-    "id": "Victor_Frankenstein",
-    "name": "Victor_Frankenstein"
-   }
+   "id": "data/texts/frankenstein#Father_yielding_to_Victor_s_desire",
+   "name": "Father_yielding_to_Victor_s_desire"
   },
   {
-   "id": "selfAccusation",
-   "name": "Selfaccusation",
-   "takePlaceAt": {
-    "id": "Conversation_with_father",
-    "name": "Conversation_with_father"
-   },
-   "hasParticipant": {
-    "id": "Victor_Frankenstein",
-    "name": "Victor_Frankenstein"
-   }
+   "id": "data/texts/frankenstein#Selfaccusation",
+   "name": "Selfaccusation"
   },
   {
-   "id": "letterFromElizabeth",
-   "name": "Receiving_a_letter_from_Elizabeth",
-   "takePlaceAt": {
-    "id": "Paris",
-    "name": "Paris"
-   },
-   "hasParticipant": {
-    "id": "Victor_Frankenstein",
-    "name": "Victor_Frankenstein"
-   }
+   "id": "data/texts/frankenstein#Receiving_a_letter_from_Elizabeth",
+   "name": "Receiving_a_letter_from_Elizabeth"
   }
  ]
 }

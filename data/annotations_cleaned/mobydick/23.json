@@ -1,89 +1,54 @@
 {
  "FictionalCharacters": [
   {
-   "id": "Ahab",
+   "id": "data/texts/mobydick#Ahab",
    "feels": [
     {
      "name": "Determination",
      "hasIntensity": 0.9,
      "quote": "Ahab's hawser tows his purpose yet.",
-     "causedBy": {
-      "id": "event1",
-      "name": "The_pursuit_of_Moby_Dick"
-     },
-     "hasObject": {
-      "id": "object1",
-      "name": "Purpose"
-     },
-     "place": "On the deck of the ship"
+     "place": "On the deck of the ship",
+     "id": "Determination"
     },
     {
      "name": "Desperation",
      "hasIntensity": 0.8,
      "quote": "Ahab never thinks; he only feels, feels, feels; that’s tingling enough for mortal man!",
-     "causedBy": {
-      "id": "event2",
-      "name": "The_pursuit_of_Moby_Dick"
-     },
-     "hasObject": {
-      "id": "object2",
-      "name": "Feelings"
-     },
-     "place": "On the deck of the ship"
+     "place": "On the deck of the ship",
+     "id": "Desperation"
     },
     {
      "name": "Resignation",
      "hasIntensity": 0.7,
      "quote": "Ahab is for ever Ahab, man. This whole act’s immutably decreed.",
-     "causedBy": {
-      "id": "event3",
-      "name": "Acceptance_of_fate"
-     },
-     "hasObject": {
-      "id": "object3",
-      "name": "Fate"
-     },
-     "place": "On the deck of the ship"
+     "place": "On the deck of the ship",
+     "id": "Resignation"
     }
    ],
    "name": "Ahab"
   },
   {
-   "id": "Starbuck",
+   "id": "data/texts/mobydick#Starbuck",
    "feels": [
     {
      "name": "Concern",
      "hasIntensity": 0.8,
      "quote": "True concern for Ahab's well-being.",
-     "causedBy": {
-      "id": "event4",
-      "name": "Ahab_s_injury"
-     },
-     "hasObject": {
-      "id": "object4",
-      "name": "Ahab_s_wellbeing"
-     },
-     "place": "On the deck of the ship"
+     "place": "On the deck of the ship",
+     "id": "Concern"
     }
    ],
    "name": "Starbuck"
   },
   {
-   "id": "Stubb",
+   "id": "data/texts/mobydick#Stubb",
    "feels": [
     {
      "name": "Confusion",
      "hasIntensity": 0.7,
      "quote": "The Parsee—the Parsee!—gone, gone? and he was to go before:—but still was to be seen again ere I could perish—How’s that?",
-     "causedBy": {
-      "id": "event5",
-      "name": "The_Parsee_s_disappearance"
-     },
-     "hasObject": {
-      "id": "object5",
-      "name": "The_Parsee_s_fate"
-     },
-     "place": "On the deck of the ship"
+     "place": "On the deck of the ship",
+     "id": "Confusion"
     }
    ],
    "name": "Stubb"
@@ -91,51 +56,31 @@
  ],
  "Places": [
   {
-   "id": "deck",
+   "id": "data/texts/mobydick#Deck_of_the_ship",
    "name": "Deck_of_the_ship",
    "description": "The location where the characters are interacting and experiencing various emotions."
   }
  ],
  "Events": [
   {
-   "id": "event1",
-   "name": "The_pursuit_of_Moby_Dick",
-   "takePlaceAt": {
-    "id": "deck",
-    "name": "deck"
-   }
+   "id": "data/texts/mobydick#The_pursuit_of_Moby_Dick",
+   "name": "The_pursuit_of_Moby_Dick"
   },
   {
-   "id": "event2",
-   "name": "The_pursuit_of_Moby_Dick",
-   "takePlaceAt": {
-    "id": "deck",
-    "name": "deck"
-   }
+   "id": "data/texts/mobydick#The_pursuit_of_Moby_Dick",
+   "name": "The_pursuit_of_Moby_Dick"
   },
   {
-   "id": "event3",
-   "name": "Acceptance_of_fate",
-   "takePlaceAt": {
-    "id": "deck",
-    "name": "deck"
-   }
+   "id": "data/texts/mobydick#Acceptance_of_fate",
+   "name": "Acceptance_of_fate"
   },
   {
-   "id": "event4",
-   "name": "Ahab_s_injury",
-   "takePlaceAt": {
-    "id": "deck",
-    "name": "deck"
-   }
+   "id": "data/texts/mobydick#Ahab_s_injury",
+   "name": "Ahab_s_injury"
   },
   {
-   "id": "event5",
-   "name": "The_Parsee_s_disappearance",
-   "takePlaceAt": {
-    "id": "deck",
-    "name": "deck"
-   }
+   "id": "data/texts/mobydick#The_Parsee_s_disappearance",
+   "name": "The_Parsee_s_disappearance"
   }
  ]
 }

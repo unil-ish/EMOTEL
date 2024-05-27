@@ -1,205 +1,117 @@
 {
  "FictionalCharacters": [
   {
-   "id": "fc1",
+   "id": "data/texts/theadventuresofferdinandcountfathom#Ferdinand_de_Fathom",
    "name": "Ferdinand_de_Fathom",
    "feels": [
     {
      "name": "Reluctance",
      "hasIntensity": 0.7,
      "quote": "He declined the generous proffer with affected earnestness of refusal.",
-     "causedBy": {
-      "id": "event1",
-      "name": "Offer_of_financial_help"
-     },
-     "hasObject": {
-      "id": "object1",
-      "name": "Money"
-     },
-     "place": "House of their female friend"
+     "place": "House of their female friend",
+     "id": "Reluctance"
     },
     {
      "name": "Astonishment",
      "hasIntensity": 0.8,
      "quote": "He expressed the utmost astonishment at this generous proffer.",
-     "causedBy": {
-      "id": "event2",
-      "name": "Generous_proffer"
-     },
-     "hasObject": {
-      "id": "object2",
-      "name": "Generous_proffer"
-     },
-     "place": "House of their female friend"
+     "place": "House of their female friend",
+     "id": "Astonishment"
     },
     {
      "name": "Relief",
      "hasIntensity": 0.9,
      "quote": "He was comforted with the promise that she would remember the rendezvous of next day.",
-     "causedBy": {
-      "id": "event3",
-      "name": "Promise_of_help"
-     },
-     "hasObject": {
-      "id": "object3",
-      "name": "Promise_of_help"
-     },
-     "place": "House of their female friend"
+     "place": "House of their female friend",
+     "id": "Relief"
     },
     {
      "name": "Distress",
      "hasIntensity": 0.9,
      "quote": "He was wrung with mortal anguish at the prospect of parting for ever from his lovely Wilhelmina.",
-     "causedBy": {
-      "id": "event4",
-      "name": "Dreadful_resolution"
-     },
-     "hasObject": {
-      "id": "object4",
-      "name": "Parting_from_Wilhelmina"
-     },
-     "place": "Wilhelmina's chamber"
+     "place": "Wilhelmina's chamber",
+     "id": "Distress"
     },
     {
      "name": "Sorrow",
      "hasIntensity": 0.9,
      "quote": "He was instantly seized with an agony of fear and distraction.",
-     "causedBy": {
-      "id": "event5",
-      "name": "Dreadful_resolution"
-     },
-     "hasObject": {
-      "id": "object5",
-      "name": "Dreadful_resolution"
-     },
-     "place": "Wilhelmina's chamber"
+     "place": "Wilhelmina's chamber",
+     "id": "Sorrow"
     },
     {
      "name": "Melancholy",
      "hasIntensity": 0.8,
      "quote": "He was wrung with mortal anguish at the prospect of parting for ever from his lovely Wilhelmina.",
-     "causedBy": {
-      "id": "event6",
-      "name": "Dreadful_resolution"
-     },
-     "hasObject": {
-      "id": "object6",
-      "name": "Parting_from_Wilhelmina"
-     },
-     "place": "Wilhelmina's chamber"
+     "place": "Wilhelmina's chamber",
+     "id": "Melancholy"
     },
     {
      "name": "Hope",
      "hasIntensity": 0.9,
      "quote": "He yielded to her fervent request, rather with a view to calm the present transports of her sorrow.",
-     "causedBy": {
-      "id": "event7",
-      "name": "Fervent_request_from_Wilhelmina"
-     },
-     "hasObject": {
-      "id": "object7",
-      "name": "Fervent_request"
-     },
-     "place": "Wilhelmina's chamber"
+     "place": "Wilhelmina's chamber",
+     "id": "Hope"
     },
     {
      "name": "Anticipation",
      "hasIntensity": 0.9,
      "quote": "He did not doubt that the mine of his craft would take effect.",
-     "causedBy": {
-      "id": "event8",
-      "name": "Expectation_of_success"
-     },
-     "hasObject": {
-      "id": "object8",
-      "name": "Success"
-     },
-     "place": "His own lodging"
+     "place": "His own lodging",
+     "id": "Anticipation"
     }
    ]
   }
  ],
  "Places": [
   {
-   "id": "place1",
+   "id": "data/texts/theadventuresofferdinandcountfathom#House_of_their_female_friend",
    "name": "House_of_their_female_friend",
    "description": "Location of the generous proffer"
   },
   {
-   "id": "place2",
+   "id": "data/texts/theadventuresofferdinandcountfathom#Wilhelmina_s_chamber",
    "name": "Wilhelmina_s_chamber",
    "description": "Location of the dreadful resolution and fervent request"
   },
   {
-   "id": "place3",
+   "id": "data/texts/theadventuresofferdinandcountfathom#His_own_lodging",
    "name": "His_own_lodging",
    "description": "Location of the expectation of success"
   }
  ],
  "Events": [
   {
-   "id": "event1",
-   "name": "Offer_of_financial_help",
-   "takePlaceAt": {
-    "id": "place1",
-    "name": "place1"
-   }
+   "id": "data/texts/theadventuresofferdinandcountfathom#Offer_of_financial_help",
+   "name": "Offer_of_financial_help"
   },
   {
-   "id": "event2",
-   "name": "Generous_proffer",
-   "takePlaceAt": {
-    "id": "place1",
-    "name": "place1"
-   }
+   "id": "data/texts/theadventuresofferdinandcountfathom#Generous_proffer",
+   "name": "Generous_proffer"
   },
   {
-   "id": "event3",
-   "name": "Promise_of_help",
-   "takePlaceAt": {
-    "id": "place1",
-    "name": "place1"
-   }
+   "id": "data/texts/theadventuresofferdinandcountfathom#Promise_of_help",
+   "name": "Promise_of_help"
   },
   {
-   "id": "event4",
-   "name": "Dreadful_resolution",
-   "takePlaceAt": {
-    "id": "place2",
-    "name": "place2"
-   }
+   "id": "data/texts/theadventuresofferdinandcountfathom#Dreadful_resolution",
+   "name": "Dreadful_resolution"
   },
   {
-   "id": "event5",
-   "name": "Dreadful_resolution",
-   "takePlaceAt": {
-    "id": "place2",
-    "name": "place2"
-   }
+   "id": "data/texts/theadventuresofferdinandcountfathom#Dreadful_resolution",
+   "name": "Dreadful_resolution"
   },
   {
-   "id": "event6",
-   "name": "Dreadful_resolution",
-   "takePlaceAt": {
-    "id": "place2",
-    "name": "place2"
-   }
+   "id": "data/texts/theadventuresofferdinandcountfathom#Dreadful_resolution",
+   "name": "Dreadful_resolution"
   },
   {
-   "id": "event7",
-   "name": "Fervent_request_from_Wilhelmina",
-   "takePlaceAt": {
-    "id": "place2",
-    "name": "place2"
-   }
+   "id": "data/texts/theadventuresofferdinandcountfathom#Fervent_request_from_Wilhelmina",
+   "name": "Fervent_request_from_Wilhelmina"
   },
   {
-   "id": "event8",
-   "name": "Expectation_of_success",
-   "takePlaceAt": {
-    "id": "place3",
-    "name": "place3"
-   }
+   "id": "data/texts/theadventuresofferdinandcountfathom#Expectation_of_success",
+   "name": "Expectation_of_success"
   }
  ]
 }

@@ -1,135 +1,80 @@
 {
  "FictionalCharacters": [
   {
-   "id": "fc1",
+   "id": "data/texts/aroomwithaview#Freddy",
    "name": "Freddy",
    "feels": [
     {
      "name": "Jealousy",
      "hasIntensity": 0.8,
      "quote": "I had to say no. He ought never to have asked me.",
-     "causedBy": {
-      "id": "event1",
-      "name": "Cecil_s_proposal_to_Lucy"
-     },
-     "hasObject": {
-      "id": "object1",
-      "name": "Cecil"
-     },
-     "exactPlace": "Drawing-room"
+     "exactPlace": "Drawing-room",
+     "id": "Jealousy"
     },
     {
      "name": "Anxiety",
      "hasIntensity": 0.7,
      "quote": "I feel my foot’s in it.",
-     "causedBy": {
-      "id": "event2",
-      "name": "Feeling_uncomfortable_about_Cecil_s_proposal"
-     },
-     "hasObject": {
-      "id": "object2",
-      "name": "Cecil"
-     },
-     "exactPlace": "Drawing-room"
+     "exactPlace": "Drawing-room",
+     "id": "Anxiety"
     },
     {
      "name": "Confusion",
      "hasIntensity": 0.6,
      "quote": "I can’t explain—I do feel so uncomfortable.",
-     "causedBy": {
-      "id": "event3",
-      "name": "Feeling_uncomfortable_about_Cecil_s_proposal"
-     },
-     "hasObject": {
-      "id": "object2",
-      "name": "Cecil"
-     },
-     "exactPlace": "Drawing-room"
+     "exactPlace": "Drawing-room",
+     "id": "Confusion"
     }
    ]
   },
   {
-   "id": "fc2",
+   "id": "data/texts/aroomwithaview#Mrs_Honeychurch",
    "name": "Mrs_Honeychurch",
    "feels": [
     {
      "name": "Annoyance",
      "hasIntensity": 0.8,
      "quote": "You think you’re so holy and truthful, but really it’s only abominable conceit.",
-     "causedBy": {
-      "id": "event4",
-      "name": "Freddy_s_behavior"
-     },
-     "hasObject": {
-      "id": "object3",
-      "name": "Freddy"
-     },
-     "exactPlace": "Drawing-room"
+     "exactPlace": "Drawing-room",
+     "id": "Annoyance"
     },
     {
      "name": "Concern",
      "hasIntensity": 0.7,
      "quote": "I shall not keep quiet.",
-     "causedBy": {
-      "id": "event5",
-      "name": "Worry_about_the_situation_with_Cecil_and_Lucy"
-     },
-     "hasObject": {
-      "id": "object4",
-      "name": "Cecil_and_Lucy"
-     },
-     "exactPlace": "Drawing-room"
+     "exactPlace": "Drawing-room",
+     "id": "Concern"
     }
    ]
   }
  ],
  "Places": [
   {
-   "id": "place1",
+   "id": "data/texts/aroomwithaview#Drawingroom",
    "name": "Drawingroom",
    "description": "Windy Corner drawing-room with heavy curtains and subdued light."
   }
  ],
  "Events": [
   {
-   "id": "event1",
-   "name": "Cecil_s_proposal_to_Lucy",
-   "takePlaceAt": {
-    "id": "place1",
-    "name": "place1"
-   }
+   "id": "data/texts/aroomwithaview#Cecil_s_proposal_to_Lucy",
+   "name": "Cecil_s_proposal_to_Lucy"
   },
   {
-   "id": "event2",
-   "name": "Feeling_uncomfortable_about_Cecil_s_proposal",
-   "takePlaceAt": {
-    "id": "place1",
-    "name": "place1"
-   }
+   "id": "data/texts/aroomwithaview#Feeling_uncomfortable_about_Cecil_s_proposal",
+   "name": "Feeling_uncomfortable_about_Cecil_s_proposal"
   },
   {
-   "id": "event3",
-   "name": "Feeling_uncomfortable_about_Cecil_s_proposal",
-   "takePlaceAt": {
-    "id": "place1",
-    "name": "place1"
-   }
+   "id": "data/texts/aroomwithaview#Feeling_uncomfortable_about_Cecil_s_proposal",
+   "name": "Feeling_uncomfortable_about_Cecil_s_proposal"
   },
   {
-   "id": "event4",
-   "name": "Freddy_s_behavior",
-   "takePlaceAt": {
-    "id": "place1",
-    "name": "place1"
-   }
+   "id": "data/texts/aroomwithaview#Freddy_s_behavior",
+   "name": "Freddy_s_behavior"
   },
   {
-   "id": "event5",
-   "name": "Worry_about_the_situation_with_Cecil_and_Lucy",
-   "takePlaceAt": {
-    "id": "place1",
-    "name": "place1"
-   }
+   "id": "data/texts/aroomwithaview#Worry_about_the_situation_with_Cecil_and_Lucy",
+   "name": "Worry_about_the_situation_with_Cecil_and_Lucy"
   }
  ]
 }

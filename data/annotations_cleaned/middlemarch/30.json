@@ -1,182 +1,109 @@
 {
  "FictionalCharacters": [
   {
-   "id": "fc1",
+   "id": "data/texts/middlemarch#Lydgate",
    "name": "Lydgate",
    "feels": [
     {
      "name": "Trust",
      "hasIntensity": 0.2,
      "quote": "But the danger is over; the debt is paid. I am out of my difficulties now: I shall be freed from debts, and able, I hope, to start afresh on a better plan.",
-     "causedBy": {
-      "id": "event1",
-      "name": "Debt_being_paid_off"
-     },
-     "hasObject": {
-      "id": "object1",
-      "name": "Debt"
-     },
-     "place": "Under the archway of the Green Dragon"
+     "place": "Under the archway of the Green Dragon",
+     "id": "Trust"
     },
     {
      "name": "Surprise",
      "hasIntensity": 0.5,
      "quote": "But the news that Lydgate had all at once become able not only to get rid of the execution in his house but to pay all his debts in Middlemarch was spreading fast, gathering round it conjectures and comments which gave it new body and impetus.",
-     "causedBy": {
-      "id": "event2",
-      "name": "News_of_debt_payment_spreading"
-     },
-     "hasObject": {
-      "id": "object2",
-      "name": "Debt_payment"
-     },
-     "place": "Middlemarch"
+     "place": "Middlemarch",
+     "id": "Surprise"
     },
     {
      "name": "Anxiety",
      "hasIntensity": 0.3,
      "quote": "He perceived that Mr. Hawley knew nothing at present of the sudden relief from debt, and he himself was careful to glide away from all approaches towards the subject.",
-     "causedBy": {
-      "id": "event3",
-      "name": "Hawley_s_lack_of_knowledge_about_debt_relief"
-     },
-     "hasObject": {
-      "id": "object3",
-      "name": "Debt_relief"
-     },
-     "place": "Middlemarch"
+     "place": "Middlemarch",
+     "id": "Anxiety"
     }
    ]
   },
   {
-   "id": "fc2",
+   "id": "data/texts/middlemarch#Bulstrode",
    "name": "Bulstrode",
    "feels": [
     {
      "name": "Dread",
      "hasIntensity": 0.4,
      "quote": "He perceived that Mr. Hawley knew nothing at present of the sudden relief from debt, and he himself was careful to glide away from all approaches towards the subject.",
-     "causedBy": {
-      "id": "event3",
-      "name": "Hawley_s_lack_of_knowledge_about_debt_relief"
-     },
-     "hasObject": {
-      "id": "object3",
-      "name": "Debt_relief"
-     },
-     "place": "Middlemarch"
+     "place": "Middlemarch",
+     "id": "Dread"
     },
     {
      "name": "Relief",
      "hasIntensity": 0.6,
      "quote": "He had not confessed to himself yet that he had done anything in the way of contrivance to this end; he had accepted what seemed to have been offered.",
-     "causedBy": {
-      "id": "event4",
-      "name": "Relief_from_Raffles_revelations"
-     },
-     "hasObject": {
-      "id": "object4",
-      "name": "Relief"
-     },
-     "place": "Middlemarch"
+     "place": "Middlemarch",
+     "id": "Relief"
     }
    ]
   },
   {
-   "id": "fc3",
+   "id": "data/texts/middlemarch#Mr_Hawley",
    "name": "Mr_Hawley",
    "feels": [
     {
      "name": "Satisfaction",
      "hasIntensity": 0.7,
      "quote": "Mr. Hawley was not slow to perceive that there was no handle for the law either in the revelations made by Raffles or in the circumstances of his death.",
-     "causedBy": {
-      "id": "event5",
-      "name": "No_legal_handle_in_Raffles_revelations"
-     },
-     "hasObject": {
-      "id": "object5",
-      "name": "Legal_handle"
-     },
-     "place": "Middlemarch"
+     "place": "Middlemarch",
+     "id": "Satisfaction"
     },
     {
      "name": "Curiosity",
      "hasIntensity": 0.8,
      "quote": "Mr. Hawley followed up his information by sending a clerk whom he could trust to Stone Court on a pretext of inquiring about hay, but really to gather all that could be learned about Raffles and his illness from Mrs. Abel.",
-     "causedBy": {
-      "id": "event6",
-      "name": "Desire_for_information_about_Raffles"
-     },
-     "hasObject": {
-      "id": "object6",
-      "name": "Information_about_Raffles"
-     },
-     "place": "Middlemarch"
+     "place": "Middlemarch",
+     "id": "Curiosity"
     }
    ]
   }
  ],
  "Places": [
   {
-   "id": "place1",
+   "id": "data/texts/middlemarch#Under_the_archway_of_the_Green_Dragon",
    "name": "Under_the_archway_of_the_Green_Dragon",
    "description": "A public area where gossip and conversations take place."
   },
   {
-   "id": "place2",
+   "id": "data/texts/middlemarch#Middlemarch",
    "name": "Middlemarch",
    "description": "The town where the events of the story unfold."
   }
  ],
  "Events": [
   {
-   "id": "event1",
-   "name": "Debt_being_paid_off",
-   "takePlaceAt": {
-    "id": "place1",
-    "name": "place1"
-   }
+   "id": "data/texts/middlemarch#Debt_being_paid_off",
+   "name": "Debt_being_paid_off"
   },
   {
-   "id": "event2",
-   "name": "News_of_debt_payment_spreading",
-   "takePlaceAt": {
-    "id": "place2",
-    "name": "place2"
-   }
+   "id": "data/texts/middlemarch#News_of_debt_payment_spreading",
+   "name": "News_of_debt_payment_spreading"
   },
   {
-   "id": "event3",
-   "name": "Hawley_s_lack_of_knowledge_about_debt_relief",
-   "takePlaceAt": {
-    "id": "place2",
-    "name": "place2"
-   }
+   "id": "data/texts/middlemarch#Hawley_s_lack_of_knowledge_about_debt_relief",
+   "name": "Hawley_s_lack_of_knowledge_about_debt_relief"
   },
   {
-   "id": "event4",
-   "name": "Relief_from_Raffles_revelations",
-   "takePlaceAt": {
-    "id": "place2",
-    "name": "place2"
-   }
+   "id": "data/texts/middlemarch#Relief_from_Raffles_revelations",
+   "name": "Relief_from_Raffles_revelations"
   },
   {
-   "id": "event5",
-   "name": "No_legal_handle_in_Raffles_revelations",
-   "takePlaceAt": {
-    "id": "place2",
-    "name": "place2"
-   }
+   "id": "data/texts/middlemarch#No_legal_handle_in_Raffles_revelations",
+   "name": "No_legal_handle_in_Raffles_revelations"
   },
   {
-   "id": "event6",
-   "name": "Desire_for_information_about_Raffles",
-   "takePlaceAt": {
-    "id": "place2",
-    "name": "place2"
-   }
+   "id": "data/texts/middlemarch#Desire_for_information_about_Raffles",
+   "name": "Desire_for_information_about_Raffles"
   }
  ]
 }

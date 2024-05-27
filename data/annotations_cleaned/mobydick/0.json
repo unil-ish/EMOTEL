@@ -1,49 +1,28 @@
 {
  "FictionalCharacters": [
   {
-   "id": "Ishmael",
+   "id": "data/texts/mobydick#Ishmael",
    "feels": [
     {
      "name": "Curiosity",
      "hasIntensity": 0.9,
      "quote": "Such a portentous and mysterious monster roused all my curiosity.",
-     "causedBy": {
-      "id": "Great_whale",
-      "name": "Great_whale"
-     },
-     "hasObject": {
-      "id": "Great_whale",
-      "name": "Great_whale"
-     },
-     "exactPlace": "Mind"
+     "exactPlace": "Mind",
+     "id": "Curiosity"
     },
     {
      "name": "Wonder",
      "hasIntensity": 0.8,
      "quote": "But what most puzzled and confounded you was a long, limber, portentous, black mass of something hovering in the centre of the picture over three blue, dim, perpendicular lines floating in a nameless yeast.",
-     "causedBy": {
-      "id": "Painting",
-      "name": "Painting"
-     },
-     "hasObject": {
-      "id": "Painting",
-      "name": "Painting"
-     },
-     "exactPlace": "Mind"
+     "exactPlace": "Mind",
+     "id": "Wonder"
     },
     {
      "name": "Awe",
      "hasIntensity": 0.7,
      "quote": "But at last all these fancies yielded to that one portentous something in the picture’s midst.",
-     "causedBy": {
-      "id": "Painting",
-      "name": "Painting"
-     },
-     "hasObject": {
-      "id": "Painting",
-      "name": "Painting"
-     },
-     "exactPlace": "Mind"
+     "exactPlace": "Mind",
+     "id": "Awe"
     }
    ],
    "name": "Ishmael"
@@ -51,14 +30,14 @@
  ],
  "Objects": [
   {
-   "id": "Great whale",
-   "name": "Great whale",
+   "id": "data/texts/mobydick#Great_whale",
+   "name": "Great_whale",
    "associatedEmotions": [
     "Curiosity"
    ]
   },
   {
-   "id": "Painting",
+   "id": "data/texts/mobydick#Painting",
    "name": "Painting",
    "associatedEmotions": [
     "Wonder",
@@ -68,7 +47,7 @@
  ],
  "Places": [
   {
-   "id": "Spouter_Inn",
+   "id": "data/texts/mobydick#Spouter_Inn",
    "name": "Spouter_Inn",
    "description": "A gable-ended old house, one side palsied as it were, and leaning over sadly."
   }

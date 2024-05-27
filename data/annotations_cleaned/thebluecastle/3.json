@@ -1,91 +1,49 @@
 {
  "FictionalCharacters": [
   {
-   "id": "Valancy",
+   "id": "data/texts/thebluecastle#Valancy",
    "feels": [
     {
      "name": "Annoyance",
      "hasIntensity": 0.9,
      "quote": "She was being dragged out into the maze of shouting, stamping, yelling dancers.",
-     "causedBy": {
-      "id": "man1",
-      "name": "Tall_broadshouldered_man"
-     },
-     "hasObject": {
-      "id": "dance",
-      "name": "dance"
-     },
-     "exactPlace": "Dance floor"
+     "exactPlace": "Dance floor",
+     "id": "Annoyance"
     },
     {
      "name": "Fear",
      "hasIntensity": 0.8,
      "quote": "Valancy ran as she had never run before, clinging tight to Barney’s hand, wondering why she did not drop dead in such a mad scamper.",
-     "causedBy": {
-      "id": "man1",
-      "name": "Tall_broadshouldered_man"
-     },
-     "hasObject": {
-      "id": "dance",
-      "name": "dance"
-     },
-     "exactPlace": "Dance floor"
+     "exactPlace": "Dance floor",
+     "id": "Fear"
     },
     {
      "name": "Relief",
      "hasIntensity": 0.9,
      "quote": "It was at this moment that she saw Barney Snaith looking in over the heads of the crowd at the doorway.",
-     "causedBy": {
-      "id": "Barney",
-      "name": "Barney_Snaith"
-     },
-     "hasObject": {
-      "id": "dance",
-      "name": "dance"
-     },
-     "exactPlace": "Dance floor"
+     "exactPlace": "Dance floor",
+     "id": "Relief"
     },
     {
      "name": "Disgust",
      "hasIntensity": 0.9,
      "quote": "Valancy was feeling disgusted and repentant. Why had she ever come to such a place?",
-     "causedBy": {
-      "id": "dance",
-      "name": "dance"
-     },
-     "hasObject": {
-      "id": "dance",
-      "name": "dance"
-     },
-     "exactPlace": "Dance floor"
+     "exactPlace": "Dance floor",
+     "id": "Disgust"
     },
     {
      "name": "Shame",
      "hasIntensity": 0.9,
      "quote": "She was ashamed of the whole affair—ashamed of her folly in going—ashamed of being found in such a place by Barney Snaith.",
-     "causedBy": {
-      "id": "dance",
-      "name": "dance"
-     },
-     "hasObject": {
-      "id": "dance",
-      "name": "dance"
-     },
-     "exactPlace": "Dance floor"
+     "exactPlace": "Dance floor",
+     "id": "Shame"
     },
     {
      "name": "Gratitude",
      "hasIntensity": 0.9,
      "quote": "So he had actually come up to look after her.",
-     "causedBy": {
-      "id": "Barney",
-      "name": "Barney_Snaith"
-     },
-     "hasObject": {
-      "id": "dance",
-      "name": "dance"
-     },
-     "exactPlace": "Pine woods"
+     "exactPlace": "Pine woods",
+     "id": "Gratitude"
     }
    ],
    "name": "Valancy"
@@ -93,40 +51,24 @@
  ],
  "Places": [
   {
-   "id": "dance",
+   "id": "data/texts/thebluecastle#Chidley_Corners_Dance",
    "name": "Chidley_Corners_Dance",
    "description": "A rowdy dance event at Chidley Corners."
   },
   {
-   "id": "Pine_woods",
+   "id": "data/texts/thebluecastle#Pine_Woods",
    "name": "Pine_Woods",
    "description": "A quiet corner in the pine woods where Valancy and Barney sought refuge."
   }
  ],
  "Events": [
   {
-   "id": "man1",
-   "name": "Tall_broadshouldered_man_s_aggressive_behavior",
-   "takePlaceAt": {
-    "id": "dance",
-    "name": "dance"
-   },
-   "hasParticipant": {
-    "id": "Valancy",
-    "name": "Valancy"
-   }
+   "id": "data/texts/thebluecastle#Tall_broadshouldered_man_s_aggressive_behavior",
+   "name": "Tall_broadshouldered_man_s_aggressive_behavior"
   },
   {
-   "id": "Barney",
-   "name": "Barney_Snaith_s_protective_action",
-   "takePlaceAt": {
-    "id": "Pine_woods",
-    "name": "Pine_woods"
-   },
-   "hasParticipant": {
-    "id": "Valancy",
-    "name": "Valancy"
-   }
+   "id": "data/texts/thebluecastle#Barney_Snaith_s_protective_action",
+   "name": "Barney_Snaith_s_protective_action"
   }
  ]
 }

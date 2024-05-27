@@ -1,69 +1,41 @@
 {
  "FictionalCharacters": [
   {
-   "id": "Dorothea_Brooke",
+   "id": "data/texts/middlemarch#Dorothea_Brooke",
    "feels": [
     {
      "name": "Trust",
      "hasIntensity": 0.9,
      "quote": "He thinks with me,” said Dorothea to herself, “or rather, he thinks a whole world of which my thought is but a poor twopenny mirror.",
-     "causedBy": {
-      "id": "conversation",
-      "name": "Conversation_with_Mr_Casaubon"
-     },
-     "hasObject": {
-      "id": "Mr_Casaubon",
-      "name": "Mr_Casaubon_s_mind"
-     },
-     "exactPlace": "During a conversation with Mr. Casaubon"
+     "exactPlace": "During a conversation with Mr. Casaubon",
+     "id": "Trust"
     },
     {
      "name": "Joy",
      "hasIntensity": 0.8,
      "quote": "Here was something beyond the shallows of ladies’ school literature: here was a living Bossuet, whose work would reconcile complete knowledge with devoted piety; here was a modern Augustine who united the glories of doctor and saint.",
-     "causedBy": {
-      "id": "conversation",
-      "name": "Conversation_with_Mr_Casaubon"
-     },
-     "hasObject": {
-      "id": "Mr_Casaubon_s_work",
-      "name": "Mr_Casaubon_s_work"
-     },
-     "exactPlace": "During a conversation with Mr. Casaubon"
+     "exactPlace": "During a conversation with Mr. Casaubon",
+     "id": "Joy"
     },
     {
      "name": "Hope",
      "hasIntensity": 0.9,
      "quote": "It was three o’clock in the beautiful breezy autumn day when Mr. Casaubon drove off to his Rectory at Lowick, only five miles from Tipton; and Dorothea, who had on her bonnet and shawl, hurried along the shrubbery and across the park that she might wander through the bordering wood with no other visible companionship than that of Monk, the Great St. Bernard dog, who always took care of the young ladies in their walks.",
-     "causedBy": {
-      "id": "conversation",
-      "name": "Conversation_with_Mr_Casaubon"
-     },
-     "hasObject": {
-      "id": "Future",
-      "name": "Vision_of_a_possible_future"
-     },
-     "exactPlace": "After Mr. Casaubon left for his Rectory"
+     "exactPlace": "After Mr. Casaubon left for his Rectory",
+     "id": "Hope"
     }
    ],
    "name": "Dorothea_Brooke"
   },
   {
-   "id": "Sir_James_Chettam",
+   "id": "data/texts/middlemarch#Sir_James_Chettam",
    "feels": [
     {
      "name": "Interest",
      "hasIntensity": 0.7,
      "quote": "Certainly he seemed more and more bent on making her talk to him, on drawing her out, as Celia remarked to herself; and in looking at her his face was often lit up by a smile like pale wintry sunshine.",
-     "causedBy": {
-      "id": "conversation",
-      "name": "Conversation_with_Dorothea"
-     },
-     "hasObject": {
-      "id": "Dorothea_Brooke",
-      "name": "Dorothea_Brooke"
-     },
-     "exactPlace": "During a conversation with Dorothea"
+     "exactPlace": "During a conversation with Dorothea",
+     "id": "Interest"
     }
    ],
    "name": "Sir_James_Chettam"
@@ -71,19 +43,25 @@
  ],
  "Places": [
   {
-   "id": "Tipton",
+   "id": "data/texts/middlemarch#Tipton",
    "name": "Tipton",
    "description": "The setting of the story where the characters interact."
   }
  ],
  "Events": [
   {
-   "id": "conversation",
+   "id": "data/texts/middlemarch#Conversation_with_Mr_Casaubon",
    "name": "Conversation_with_Mr_Casaubon",
-   "takePlaceAt": {
-    "id": "Tipton",
-    "name": "Tipton"
-   }
+   "hasParticipant": [
+    {
+     "id": "data/texts/middlemarch#Dorothea_Brooke",
+     "name": "Dorothea_Brooke"
+    },
+    {
+     "id": "data/texts/middlemarch#Mr_Casaubon",
+     "name": "Mr_Casaubon"
+    }
+   ]
   }
  ]
 }

@@ -1,140 +1,91 @@
 {
  "FictionalCharacters": [
   {
-   "id": "fc1",
+   "id": "data/texts/theadventuresofferdinandcountfathom#Ferdinand",
    "name": "Ferdinand",
    "feels": [
     {
      "name": "Satisfaction",
      "hasIntensity": 0.8,
      "quote": "Ferdinand made himself amends for the chagrin he had undergone by the exercise of those talents in which he excelled.",
-     "causedBy": {
-      "id": "event1",
-      "name": "Being_in_quarters_of_cantonment"
-     },
-     "hasObject": {
-      "id": "object1",
-      "name": "Exercise_of_talents"
-     },
      "exactPlace": {
-      "id": "place1",
-      "name": "Quarters of cantonment"
-     }
+      "id": "data/texts/theadventuresofferdinandcountfathom#Quarters_of_cantonment",
+      "name": "Quarters_of_cantonment"
+     },
+     "id": "Satisfaction"
     },
     {
      "name": "Dissatisfaction",
      "hasIntensity": 0.7,
      "quote": "He saw that all his expectations of Count Melvil’s future favour were connected with his choice of a military life.",
-     "causedBy": {
-      "id": "event2",
-      "name": "Expectations_of_future_favour"
-     },
-     "hasObject": {
-      "id": "object2",
-      "name": "Choice_of_a_military_life"
-     }
+     "id": "Dissatisfaction"
     },
     {
      "name": "Ambition",
      "hasIntensity": 0.9,
      "quote": "He resolved to rear a splendid fortune for himself.",
-     "causedBy": {
-      "id": "event3",
-      "name": "Desire_for_a_fixed_and_firm_foundation"
-     },
-     "hasObject": {
-      "id": "object3",
-      "name": "Splendid_fortune"
-     }
+     "id": "Ambition"
     },
     {
      "name": "Fear",
      "hasIntensity": 0.8,
      "quote": "He felt, by anticipation, the toils of hard duty upon the works, the horrors of night-alarms, cannonading, bombardment, sallies, and mines blown up.",
-     "causedBy": {
-      "id": "event4",
-      "name": "Anticipation_of_being_besieged"
-     },
-     "hasObject": {
-      "id": "object4",
-      "name": "Toils_of_hard_duty"
-     }
+     "id": "Fear"
     },
     {
      "name": "Relief",
      "hasIntensity": 0.7,
      "quote": "He resolved to submit himself to his destiny.",
-     "causedBy": {
-      "id": "event5",
-      "name": "Resolution_to_submit_to_destiny"
-     },
-     "hasObject": {
-      "id": "object5",
-      "name": "Destiny"
-     }
+     "id": "Relief"
     },
     {
      "name": "Deceit",
      "hasIntensity": 0.9,
      "quote": "Ferdinand resolved to finish what the fugitive had imperfectly performed.",
-     "causedBy": {
-      "id": "event6",
-      "name": "Desertion_of_Renaldos_valet"
-     },
-     "hasObject": {
-      "id": "object6",
-      "name": "Finishing_the_theft"
-     }
+     "id": "Deceit"
     },
     {
      "name": "Sneakiness",
      "hasIntensity": 0.8,
      "quote": "Ferdinand immediately comprehended the whole adventure and resolved to finish what the fugitive had imperfectly performed.",
-     "causedBy": {
-      "id": "event7",
-      "name": "Discovering_the_theft"
-     },
-     "hasObject": {
-      "id": "object7",
-      "name": "Completing_the_theft"
-     }
+     "id": "Sneakiness"
     }
    ]
   }
  ],
  "Places": [
   {
-   "id": "place1",
+   "id": "data/texts/theadventuresofferdinandcountfathom#Quarters_of_cantonment",
    "name": "Quarters_of_cantonment"
   }
  ],
  "Events": [
   {
-   "id": "event1",
+   "id": "data/texts/theadventuresofferdinandcountfathom#Being_in_quarters_of_cantonment",
    "name": "Being_in_quarters_of_cantonment"
   },
   {
-   "id": "event2",
+   "id": "data/texts/theadventuresofferdinandcountfathom#Expectations_of_future_favour",
    "name": "Expectations_of_future_favour"
   },
   {
-   "id": "event3",
+   "id": "data/texts/theadventuresofferdinandcountfathom#Desire_for_a_fixed_and_firm_foundation",
    "name": "Desire_for_a_fixed_and_firm_foundation"
   },
   {
-   "id": "event4",
+   "id": "data/texts/theadventuresofferdinandcountfathom#Anticipation_of_being_besieged",
    "name": "Anticipation_of_being_besieged"
   },
   {
-   "id": "event5",
+   "id": "data/texts/theadventuresofferdinandcountfathom#Resolution_to_submit_to_destiny",
    "name": "Resolution_to_submit_to_destiny"
   },
   {
-   "id": "event6",
+   "id": "data/texts/theadventuresofferdinandcountfathom#Desertion_of_Renaldos_valet",
    "name": "Desertion_of_Renaldos_valet"
   },
   {
-   "id": "event7",
+   "id": "data/texts/theadventuresofferdinandcountfathom#Discovering_the_theft",
    "name": "Discovering_the_theft"
   }
  ]

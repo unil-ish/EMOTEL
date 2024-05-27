@@ -1,221 +1,165 @@
 {
  "FictionalCharacters": [
   {
-   "id": "fc1",
+   "id": "data/texts/theenchantedapril#Costanza",
    "name": "Costanza",
    "feels": [
     {
      "name": "Fear",
      "hasIntensity": 0.7,
      "quote": "Costanza had a very bad half-hour. She had not supposed it was in the English to be so mercenary.",
-     "causedBy": {
-      "id": "event1",
-      "name": "Receiving_a_large_bill"
-     },
-     "hasObject": {
-      "id": "object1",
-      "name": "Large_bill"
-     },
      "place": {
-      "id": "place1",
-      "name": "Mrs. Fisher's sitting-room"
-     }
+      "id": "data/texts/theenchantedapril#Mrs_Fisher_s_sittingroom",
+      "name": "Mrs_Fisher_s_sittingroom"
+     },
+     "id": "Fear"
     },
     {
      "name": "Sadness",
      "hasIntensity": 0.8,
      "quote": "Costanza wept, but Mrs. Fisher was unmoved.",
-     "causedBy": {
-      "id": "event2",
-      "name": "Being_denied_payment_for_bills"
-     },
-     "hasObject": {
-      "id": "object2",
-      "name": "Payment_denial"
-     },
      "place": {
-      "id": "place1",
-      "name": "Mrs. Fisher's sitting-room"
-     }
+      "id": "data/texts/theenchantedapril#Mrs_Fisher_s_sittingroom",
+      "name": "Mrs_Fisher_s_sittingroom"
+     },
+     "id": "Sadness"
     }
    ]
   },
   {
-   "id": "fc2",
+   "id": "data/texts/theenchantedapril#John_Doe",
    "name": "John_Doe",
    "feels": [
     {
      "name": "Joy",
      "hasIntensity": 0.9,
      "quote": "John wons the prize and was full of joy.",
-     "causedBy": {
-      "id": "event3",
-      "name": "Winning_a_prize"
-     },
-     "hasObject": {
-      "id": "object3",
-      "name": "Prize"
-     },
      "place": {
-      "id": "place2",
-      "name": "Award Ceremony"
-     }
+      "id": "data/texts/theenchantedapril#Award_Ceremony",
+      "name": "Award_Ceremony"
+     },
+     "id": "Joy"
     }
    ]
   },
   {
-   "id": "fc3",
+   "id": "data/texts/theenchantedapril#Rose",
    "name": "Rose",
    "feels": [
     {
      "name": "Hope",
      "hasIntensity": 0.9,
      "quote": "Bright and burning, Youth in that instant flashed down again on Rose.",
-     "causedBy": {
-      "id": "event4",
-      "name": "Receiving_a_telegram_from_Frederick"
-     },
-     "hasObject": {
-      "id": "object4",
-      "name": "Telegram_from_Frederick"
-     },
      "place": {
-      "id": "place3",
-      "name": "Stone steps by the camellias"
-     }
+      "id": "data/texts/theenchantedapril#Stone_steps_by_the_camellias",
+      "name": "Stone_steps_by_the_camellias"
+     },
+     "id": "Hope"
     },
     {
      "name": "Disappointment",
      "hasIntensity": 0.8,
      "quote": "She came slowly up through the pergola and between the camellias ranged on either side of the old stone steps.",
-     "causedBy": {
-      "id": "event5",
-      "name": "Not_finding_a_telegram_from_Frederick"
-     },
-     "hasObject": {
-      "id": "object5",
-      "name": "Absence_of_telegram_from_Frederick"
-     },
      "place": {
-      "id": "place4",
-      "name": "Stone steps by the camellias"
-     }
+      "id": "data/texts/theenchantedapril#Stone_steps_by_the_camellias",
+      "name": "Stone_steps_by_the_camellias"
+     },
+     "id": "Disappointment"
     },
     {
      "name": "Excitement",
      "hasIntensity": 0.9,
      "quote": "She flew up the steps, red as the camellia she had just been fingering, and was in the hall and tearing open the telegram before Mr. Wilkins had finished his sentence.",
-     "causedBy": {
-      "id": "event6",
-      "name": "Receiving_a_telegram_from_Thomas_Briggs"
-     },
-     "hasObject": {
-      "id": "object6",
-      "name": "Telegram_from_Thomas_Briggs"
-     },
      "place": {
-      "id": "place5",
-      "name": "Stone steps by the camellias"
-     }
+      "id": "data/texts/theenchantedapril#Stone_steps_by_the_camellias",
+      "name": "Stone_steps_by_the_camellias"
+     },
+     "id": "Excitement"
     },
     {
      "name": "Panic",
      "hasIntensity": 0.7,
      "quote": "She stared at him, her mouth open.",
-     "causedBy": {
-      "id": "event7",
-      "name": "Being_startled_by_Mr_Wilkins"
-     },
-     "hasObject": {
-      "id": "object7",
-      "name": "Startling_situation"
-     },
      "place": {
-      "id": "place6",
-      "name": "Stone steps by the camellias"
-     }
+      "id": "data/texts/theenchantedapril#Stone_steps_by_the_camellias",
+      "name": "Stone_steps_by_the_camellias"
+     },
+     "id": "Panic"
     },
     {
      "name": "Relief",
      "hasIntensity": 0.8,
      "quote": "She managed to smile. 'I’m going to have a visitor,' she said, holding out the telegram.",
-     "causedBy": {
-      "id": "event8",
-      "name": "Realizing_the_telegram_is_from_Thomas_Briggs"
-     },
-     "hasObject": {
-      "id": "object8",
-      "name": "Telegram_from_Thomas_Briggs"
-     },
      "place": {
-      "id": "place7",
-      "name": "Dining-room"
-     }
+      "id": "data/texts/theenchantedapril#Diningroom",
+      "name": "Diningroom"
+     },
+     "id": "Relief"
     }
    ]
   }
  ],
  "Places": [
   {
-   "id": "place1",
+   "id": "data/texts/theenchantedapril#Mrs_Fisher_s_sittingroom",
    "name": "Mrs_Fisher_s_sittingroom"
   },
   {
-   "id": "place2",
+   "id": "data/texts/theenchantedapril#Award_Ceremony",
    "name": "Award_Ceremony"
   },
   {
-   "id": "place3",
+   "id": "data/texts/theenchantedapril#Stone_steps_by_the_camellias",
    "name": "Stone_steps_by_the_camellias"
   },
   {
-   "id": "place4",
+   "id": "data/texts/theenchantedapril#Stone_steps_by_the_camellias",
    "name": "Stone_steps_by_the_camellias"
   },
   {
-   "id": "place5",
+   "id": "data/texts/theenchantedapril#Stone_steps_by_the_camellias",
    "name": "Stone_steps_by_the_camellias"
   },
   {
-   "id": "place6",
+   "id": "data/texts/theenchantedapril#Stone_steps_by_the_camellias",
    "name": "Stone_steps_by_the_camellias"
   },
   {
-   "id": "place7",
+   "id": "data/texts/theenchantedapril#Diningroom",
    "name": "Diningroom"
   }
  ],
  "Events": [
   {
-   "id": "event1",
+   "id": "data/texts/theenchantedapril#Receiving_a_large_bill",
    "name": "Receiving_a_large_bill"
   },
   {
-   "id": "event2",
+   "id": "data/texts/theenchantedapril#Being_denied_payment_for_bills",
    "name": "Being_denied_payment_for_bills"
   },
   {
-   "id": "event3",
+   "id": "data/texts/theenchantedapril#Winning_a_prize",
    "name": "Winning_a_prize"
   },
   {
-   "id": "event4",
+   "id": "data/texts/theenchantedapril#Receiving_a_telegram_from_Frederick",
    "name": "Receiving_a_telegram_from_Frederick"
   },
   {
-   "id": "event5",
+   "id": "data/texts/theenchantedapril#Not_finding_a_telegram_from_Frederick",
    "name": "Not_finding_a_telegram_from_Frederick"
   },
   {
-   "id": "event6",
+   "id": "data/texts/theenchantedapril#Receiving_a_telegram_from_Thomas_Briggs",
    "name": "Receiving_a_telegram_from_Thomas_Briggs"
   },
   {
-   "id": "event7",
+   "id": "data/texts/theenchantedapril#Being_startled_by_Mr_Wilkins",
    "name": "Being_startled_by_Mr_Wilkins"
   },
   {
-   "id": "event8",
+   "id": "data/texts/theenchantedapril#Realizing_the_telegram_is_from_Thomas_Briggs",
    "name": "Realizing_the_telegram_is_from_Thomas_Briggs"
   }
  ]
