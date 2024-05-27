@@ -1,0 +1,89 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "MrsWilkins",
+   "name": "Mrs. Wilkins",
+   "feels": [
+    {
+     "name": "Joy",
+     "hasIntensity": 1,
+     "quote": "She lay with her arms clasped round her head thinking how happy she was, her lips curved upwards in a delighted smile.",
+     "causedBy": {
+      "id": "Being in a bed by herself",
+      "name": "Adorable condition"
+     },
+     "hasObject": {
+      "id": "Bed without Mellersh",
+      "name": "Adorable condition"
+     },
+     "exactPlace": "In bed"
+    },
+    {
+     "name": "Contentment",
+     "hasIntensity": 1,
+     "quote": "She lay with her arms clasped round her head thinking how happy she was, her lips curved upwards in a delighted smile.",
+     "causedBy": {
+      "id": "Being in a bed by herself",
+      "name": "Adorable condition"
+     },
+     "hasObject": {
+      "id": "Bed without Mellersh",
+      "name": "Adorable condition"
+     },
+     "exactPlace": "In bed"
+    },
+    {
+     "name": "Delight",
+     "hasIntensity": 1,
+     "quote": "She lay with her arms clasped round her head thinking how happy she was, her lips curved upwards in a delighted smile.",
+     "causedBy": {
+      "id": "Being in a bed by herself",
+      "name": "Adorable condition"
+     },
+     "hasObject": {
+      "id": "Bed without Mellersh",
+      "name": "Adorable condition"
+     },
+     "exactPlace": "In bed"
+    },
+    {
+     "name": "Surprise",
+     "hasIntensity": 1,
+     "quote": "_Oh!_ cried Mrs. Wilkins.",
+     "causedBy": {
+      "id": "Opening the shutters",
+      "name": "View outside the window"
+     },
+     "hasObject": {
+      "id": "Radiance of April in Italy",
+      "name": "View outside the window"
+     },
+     "exactPlace": "By the window"
+    }
+   ]
+  }
+ ],
+ "Places": [
+  {
+   "id": "SanSalvatore",
+   "name": "San Salvatore",
+   "description": "A mediaeval castle on top of a hill in Italy."
+  }
+ ],
+ "Events": [
+  {
+   "id": "Being in a bed by herself",
+   "name": "Adorable condition",
+   "takePlaceAt": {
+    "id": "MrsWilkins"
+   }
+  },
+  {
+   "id": "Opening the shutters",
+   "name": "View outside the window",
+   "takePlaceAt": {
+    "id": "MrsWilkins"
+   }
+  }
+ ]
+}

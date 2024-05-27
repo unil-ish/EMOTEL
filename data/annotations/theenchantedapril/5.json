@@ -1,0 +1,179 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "fc1",
+   "name": "Scrap",
+   "feels": [
+    {
+     "name": "Amusement",
+     "hasIntensity": 0.8,
+     "quote": "Scrap, whenever she looked at Mr. Wilkins, saw him in his towel, dripping water, and felt indulgent.",
+     "causedBy": {
+      "id": "event1",
+      "name": "Mr. Wilkins's appearance in a towel"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Mr. Wilkins"
+     },
+     "place": {
+      "id": "place1",
+      "name": "Dining room"
+     }
+    },
+    {
+     "name": "Indulgence",
+     "hasIntensity": 0.7,
+     "quote": "Scrap, whenever she looked at Mr. Wilkins, saw him in his towel, dripping water, and felt indulgent.",
+     "causedBy": {
+      "id": "event1",
+      "name": "Mr. Wilkins's appearance in a towel"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Mr. Wilkins"
+     },
+     "place": {
+      "id": "place1",
+      "name": "Dining room"
+     }
+    }
+   ]
+  },
+  {
+   "id": "fc2",
+   "name": "Mrs. Fisher",
+   "feels": [
+    {
+     "name": "Placation",
+     "hasIntensity": 0.9,
+     "quote": "What Mr. Wilkins said to her in reply, when reminded by what she was saying of his condition, was so handsome in its apology, so proper in its confusion, that she had ended by being quite sorry for him and completely placated.",
+     "causedBy": {
+      "id": "event2",
+      "name": "Mr. Wilkins's apology"
+     },
+     "hasObject": {
+      "id": "object2",
+      "name": "Mrs. Fisher"
+     },
+     "place": {
+      "id": "place2",
+      "name": "Dining room"
+     }
+    },
+    {
+     "name": "Admiration",
+     "hasIntensity": 0.8,
+     "quote": "Mrs. Fisher was delighted with him.",
+     "causedBy": {
+      "id": "event3",
+      "name": "Mr. Wilkins's behavior at dinner"
+     },
+     "hasObject": {
+      "id": "object3",
+      "name": "Mr. Wilkins"
+     },
+     "place": {
+      "id": "place2",
+      "name": "Dining room"
+     }
+    }
+   ]
+  },
+  {
+   "id": "fc3",
+   "name": "Lady Caroline",
+   "feels": [
+    {
+     "name": "Approval",
+     "hasIntensity": 0.9,
+     "quote": "Meanwhile Lady Caroline was all and more than all Mr. Wilkins had imagined, and had received his speeches, worked in skilfully between the courses, graciously.",
+     "causedBy": {
+      "id": "event4",
+      "name": "Mr. Wilkins's speeches"
+     },
+     "hasObject": {
+      "id": "object4",
+      "name": "Lady Caroline"
+     },
+     "place": {
+      "id": "place2",
+      "name": "Dining room"
+     }
+    }
+   ]
+  },
+  {
+   "id": "fc4",
+   "name": "Lotty",
+   "feels": [
+    {
+     "name": "Delight",
+     "hasIntensity": 0.9,
+     "quote": "Her face sparkled with delight at the instantaneous effect of San Salvatore.",
+     "causedBy": {
+      "id": "event5",
+      "name": "Mr. Wilkins's behavior"
+     },
+     "hasObject": {
+      "id": "object5",
+      "name": "Mr. Wilkins"
+     },
+     "place": {
+      "id": "place2",
+      "name": "Dining room"
+     }
+    }
+   ]
+  }
+ ],
+ "Places": [
+  {
+   "id": "place1",
+   "name": "Dining room",
+   "description": "Where the characters had dinner."
+  },
+  {
+   "id": "place2",
+   "name": "Dining room",
+   "description": "Where the characters interacted with Mr. Wilkins."
+  }
+ ],
+ "Events": [
+  {
+   "id": "event1",
+   "name": "Mr. Wilkins's appearance in a towel",
+   "takePlaceAt": {
+    "id": "place1"
+   }
+  },
+  {
+   "id": "event2",
+   "name": "Mr. Wilkins's apology",
+   "takePlaceAt": {
+    "id": "place2"
+   }
+  },
+  {
+   "id": "event3",
+   "name": "Mr. Wilkins's behavior at dinner",
+   "takePlaceAt": {
+    "id": "place2"
+   }
+  },
+  {
+   "id": "event4",
+   "name": "Mr. Wilkins's speeches",
+   "takePlaceAt": {
+    "id": "place2"
+   }
+  },
+  {
+   "id": "event5",
+   "name": "Mr. Wilkins's behavior",
+   "takePlaceAt": {
+    "id": "place2"
+   }
+  }
+ ]
+}
