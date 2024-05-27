@@ -12,14 +12,18 @@ def clean_name(s):
 
 
 def clean_obj(obj) -> None:
-    """clean la clé 'name' d'un dict."""
+    """normalise le nom d'un objet."""
 
     if "name" in obj:
-        name = clean_name(obj["name"])
+        name = obj['name']
     elif "id" in obj:
-        name = clean_name(obj["id"])
+        # si 'name' est manquant, c'est en fait toujours l'id qui contient le nom. il suffit donc de le réassigner.
+        name = obj["id"]
     else:
         name = "undefined"
+    # la fonction qui enlève notamment les espaces.
+    name = clean_name(name)
+    # normalisation supplémentaires, pour essayer d'éliminer au maximum les erreurs.
     obj["name"] = unicodedata.normalize("NFC", name)
     return
 
@@ -27,20 +31,25 @@ def clean_obj(obj) -> None:
 def clean_annotation_names(annotations):
     """clean les clés 'name' de tous les objets concernés."""
 
+    # les objets qui se trouvent directement dans 'Places', 'Events', 'FictionalCharacters' sont facile à traiter, on utilise donc simplement la fonction 'clean_obj'.
     for key in ("Places", "Events", "FictionalCharacters"):
         if key in annotations.keys():
             for obj in annotations[key]:
                 clean_obj(obj)
+    # en revanche, les objets qui concernent les émotions sont plus chaotiques. donc la construction ici correspond aussi à ce nettoyage.
     if "FictionalCharacters" in annotations.keys():
         for c in annotations["FictionalCharacters"]:
+            # le premier souci possible, c'est lorsque 'feels' est remplacé par 'emotions'.
             if "feels" not in c:
                 if "emotions" in c:
                     c["feels"] = c["emotions"]
                     c.pop("emotions")
                 else:
                     continue
+            # le second souci, c'est les émotions qui ne sont pas des objets JSONs (dict en python), comme c'est trop aléatoire à gérer, on ne conserve que les 'dict'.
             emotions = [em for em in c["feels"] if isinstance(em, dict)]
             for em in emotions:
+                # le troisième souci, c'est quand les clés 'causedBy' ou 'hasObject' sont soit absentes, soit remplacées, respectivement par 'cause' et 'object'. on normalize en mettant la clé canonique correspondante.
                 for key, ersatz in [("causedBy", 'cause'), ('hasObject', 'object')]:
                     if key in em:
                         pass
@@ -49,6 +58,7 @@ def clean_annotation_names(annotations):
                         em.pop(ersatz)
                     else:
                         continue
+                    # dans les 'hasObject' et 'causesBy' aussi, parfois il n'y a pas d'objet JSONs. idem que pour les emotions: on ne conserve que les dicts.
                     if isinstance(em[key], dict):
                         clean_obj(em[key])
                     else:
@@ -61,6 +71,7 @@ if __name__ == "__main__":
     dir_source = "../data/annotations"
     dir_target = "../data/annotations_cleaned"
 
+    # la structure ci-dessous ne sert qu'à une seule chose: appliquer sur chaque fichier d'annotations les fonctions du présent module, et écrire le résultat dans un nouveau fichier, avec le même nom mais dans un autre dossier.
     for dirname in os.listdir(dir_source):
         d1 = os.path.join(dir_source, dirname)
         for filename in os.listdir(d1):
