@@ -41,24 +41,25 @@ def clean_annotation_names(annotations):
                     continue
             emotions = [em for em in c["feels"] if isinstance(em, dict)]
             for em in emotions:
-                if "causedBy" in em:
-                    pass
-                elif "cause" in em:
-                    em["causedBy"] = em["cause"]
-                    em.pop("cause")
-                else:
-                    continue
-                if isinstance(em["causedBy"], dict):
-                    clean_obj(em["causedBy"])
-                else:
-                    em.pop("causedBy")
+                for key, ersatz in [("causedBy", 'cause'), ('hasObject', 'object')]:
+                    if key in em:
+                        pass
+                    elif ersatz in em:
+                        em[key] = em[ersatz]
+                        em.pop(ersatz)
+                    else:
+                        continue
+                    if isinstance(em[key], dict):
+                        clean_obj(em[key])
+                    else:
+                        em.pop(key)
             c["feels"] = emotions
     return annotations
 
 
 if __name__ == "__main__":
     dir_source = "../data/annotations"
-    dir_target = "../data/annotations_unique_ids"
+    dir_target = "../data/annotations_cleaned"
 
     for dirname in os.listdir(dir_source):
         d1 = os.path.join(dir_source, dirname)
