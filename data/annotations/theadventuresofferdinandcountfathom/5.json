@@ -1,84 +1,127 @@
 {
  "FictionalCharacters": [
   {
-   "id": "Don Diego de Zelos",
+   "name": "Don Diego de Zelos",
    "feels": [
     {
      "name": "Joy",
      "hasIntensity": 0.9,
-     "quote": "I professed myself extremely happy in having met with an opportunity of acquiring such a degree of my colonel’s esteem.",
-     "causedBy": {
-      "id": "Receiving esteem from his colonel"
+     "quote": "I professed myself extremely happy in having met with an opportunity of acquiring such a degree of my colonel’s esteem, entertained them with a detail of his personal prowess in the battle, and answered all their questions with that moderation which every man ought to preserve in speaking of his own behaviour.",
+     "causedByEvent": {
+      "name": "Receiving a letter of esteem from his colonel",
+      "takePlaceAt": {
+       "name": "Dining-room"
+      },
+      "hasParticipant": [
+       {
+        "name": "Don Diego de Zelos"
+       },
+       {
+        "name": "Madame d’Orgullo"
+       },
+       {
+        "name": "Antonia"
+       }
+      ]
      },
      "hasObject": {
-      "id": "Esteem"
-     },
-     "exactPlace": "Dining-room"
+      "name": "Letter of esteem"
+     }
     },
     {
      "name": "Love",
-     "hasIntensity": 0.95,
-     "quote": "I had been ravished with her first appearance, which far exceeded my imagination, and my faculties were so disordered by this address, that I answered her compliment with the most awkward confusion.",
-     "causedBy": {
-      "id": "Seeing Antonia for the first time"
+     "hasIntensity": 0.8,
+     "quote": "I had the good fortune to espouse the charming Antonia, who submitted to the will of her father without reluctance.",
+     "causedByEvent": {
+      "name": "Proposal of marriage by Don Gonzales",
+      "takePlaceAt": {
+       "name": "Don Gonzales' quarters"
+      },
+      "hasParticipant": [
+       {
+        "name": "Don Diego de Zelos"
+       },
+       {
+        "name": "Don Gonzales"
+       }
+      ]
      },
      "hasObject": {
-      "id": "Antonia"
-     },
-     "exactPlace": "Dining-room"
+      "name": "Marriage proposal"
+     }
     },
     {
      "name": "Remorse",
-     "hasIntensity": 0.8,
-     "quote": "Wretch that I am! to survive the loss of such an excellent woman, endeared to my remembrance by the most tender offices of wedlock, happily exercised for the space of five-and-twenty years!",
-     "causedBy": {
-      "id": "Surviving the loss of his wife"
+     "hasIntensity": 0.7,
+     "quote": "Wretch that I am! to survive the loss of such an excellent woman, endeared to my remembrance by the most tender offices of wedlock, happily exercised for the space of five-and-twenty years! Forgive these tears; they are not the drops of weakness, but remorse.",
+     "causedByEvent": {
+      "name": "Recalling memories of his deceased wife",
+      "takePlaceAt": {
+       "name": "Reflection"
+      }
      },
      "hasObject": {
-      "id": "Wife"
-     },
-     "exactPlace": "Present time"
+      "name": "Memories of his deceased wife"
+     }
     }
    ]
-  }
- ],
- "Places": [
-  {
-   "id": "Dining-room",
-   "name": "Dining-room",
-   "description": "An elegant dining-room where a magnificent entertainment was served up."
-  }
- ],
- "Events": [
-  {
-   "id": "Receiving esteem from his colonel",
-   "name": "Receiving esteem from his colonel",
-   "takePlaceAt": {
-    "id": "Dining-room"
-   },
-   "hasParticipant": {
-    "id": "Don Diego de Zelos"
-   }
   },
   {
-   "id": "Seeing Antonia for the first time",
-   "name": "Seeing Antonia for the first time",
-   "takePlaceAt": {
-    "id": "Dining-room"
-   },
-   "hasParticipant": {
-    "id": "Don Diego de Zelos"
-   }
+   "name": "Madame d’Orgullo",
+   "feels": [
+    {
+     "name": "Joy",
+     "hasIntensity": 0.8,
+     "quote": "Donna Estifania, and her beautiful daughter the fair Antonia, who, advancing with the most amiable sweetness, thanked me in very warm expressions of acknowledgment, for the generosity of my conduct towards her father.",
+     "causedByEvent": {
+      "name": "Receiving Don Diego de Zelos with gratitude",
+      "takePlaceAt": {
+       "name": "Dining-room"
+      },
+      "hasParticipant": [
+       {
+        "name": "Madame d’Orgullo"
+       },
+       {
+        "name": "Don Diego de Zelos"
+       },
+       {
+        "name": "Antonia"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Generosity of Don Diego de Zelos"
+     }
+    }
+   ]
   },
   {
-   "id": "Surviving the loss of his wife",
-   "name": "Surviving the loss of his wife",
-   "takePlaceAt": {
-    "id": "Present time"
-   },
-   "hasParticipant": {
-    "id": "Don Diego de Zelos"
-   }
+   "name": "Antonia",
+   "feels": [
+    {
+     "name": "Love",
+     "hasIntensity": 0.8,
+     "quote": "I had the good fortune to espouse the charming Antonia, who submitted to the will of her father without reluctance.",
+     "causedByEvent": {
+      "name": "Proposal of marriage by Don Gonzales",
+      "takePlaceAt": {
+       "name": "Don Gonzales' quarters"
+      },
+      "hasParticipant": [
+       {
+        "name": "Don Diego de Zelos"
+       },
+       {
+        "name": "Don Gonzales"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Marriage proposal"
+     }
+    }
+   ]
   }
  ]
 }

@@ -1,108 +1,129 @@
 {
  "FictionalCharacters": [
   {
-   "id": "fc1",
    "name": "Mrs. Wilkins",
    "feels": [
     {
      "name": "Joy",
      "hasIntensity": 1,
-     "quote": "Their happiness was then complete.",
-     "causedBy": {
-      "id": "event1",
-      "name": "Taking off shoes and stockings and letting feet hang in the water"
+     "quote": "Their happiness was then complete. Their husbands would not have known them.",
+     "causedByEvent": {
+      "name": "Taking off shoes and stockings and letting feet hang in the water",
+      "takePlaceAt": {
+       "name": "Sitting under a pine tree by the sea"
+      }
      },
      "hasObject": {
-      "id": "object1",
-      "name": "Feeling of completeness"
-     },
-     "place": {
-      "id": "place1",
-      "name": "Sitting under a pine tree by the sea"
+      "name": "Feeling of complete happiness"
      }
     },
     {
      "name": "Serene",
      "hasIntensity": 1,
-     "quote": "She was very serene; she could control her conversation; she was quite at her ease, and completely natural.",
-     "causedBy": {
-      "id": "event2",
-      "name": "Being in a state of happiness"
+     "quote": "The disappointment of not going to be able to prepare a welcome for Mrs. Fisher had evaporated at once, for it was impossible to go on being disappointed in heaven.",
+     "causedByEvent": {
+      "name": "Realization of being in a beautiful place",
+      "takePlaceAt": {
+       "name": "Observing the beauty of the garden"
+      }
      },
      "hasObject": {
-      "id": "object2",
       "name": "Feeling of serenity"
+     }
+    },
+    {
+     "name": "Acceptance",
+     "hasIntensity": 1,
+     "quote": "They were just cups of acceptance.",
+     "causedByEvent": {
+      "name": "Sitting under a pine tree by the sea",
+      "takePlaceAt": {
+       "name": "Sitting under a pine tree by the sea"
+      }
      },
-     "place": {
-      "id": "place2",
-      "name": "Sitting under a pine tree by the sea"
+     "hasObject": {
+      "name": "Feeling of acceptance"
      }
     }
    ]
   },
   {
-   "id": "fc2",
    "name": "Mrs. Arbuthnot",
    "feels": [
     {
      "name": "Pensive",
      "hasIntensity": 0.8,
      "quote": "Mrs. Arbuthnot seemed pensive.",
-     "causedBy": {
-      "id": "event3",
-      "name": "Observing the beauty of the surroundings"
+     "causedByEvent": {
+      "name": "Observing the beauty of the garden",
+      "takePlaceAt": {
+       "name": "Observing the beauty of the garden"
+      }
      },
      "hasObject": {
-      "id": "object3",
-      "name": "Beauty of the surroundings"
+      "name": "Feeling of pensiveness"
+     }
+    },
+    {
+     "name": "Calm",
+     "hasIntensity": 0.9,
+     "quote": "The vicar, she knew, would have called Lotty’s talk levity, if not profanity. How old he seemed from here; an old, old vicar.",
+     "causedByEvent": {
+      "name": "Observing the beauty of the garden",
+      "takePlaceAt": {
+       "name": "Observing the beauty of the garden"
+      }
      },
-     "place": {
-      "id": "place3",
-      "name": "Sitting under a pine tree by the sea"
+     "hasObject": {
+      "name": "Feeling of calm"
      }
     }
    ]
   },
   {
-   "id": "fc3",
    "name": "Lady Caroline",
    "feels": [
     {
      "name": "Annoyance",
      "hasIntensity": 0.9,
      "quote": "Lady Caroline scowled at the cook.",
-     "causedBy": {
-      "id": "event4",
-      "name": "Encounter with the cook"
+     "causedByEvent": {
+      "name": "Interaction with the cook",
+      "takePlaceAt": {
+       "name": "Interaction with the cook"
+      }
      },
      "hasObject": {
-      "id": "object4",
-      "name": "Interaction with the cook"
-     },
-     "place": {
-      "id": "place4",
-      "name": "Sitting under a pine tree by the sea"
+      "name": "Feeling of annoyance"
      }
     },
     {
-     "name": "Icily",
-     "hasIntensity": 0.9,
-     "quote": "No,"
+     "name": "Anger",
+     "hasIntensity": 0.8,
+     "quote": "Lady Caroline repudiated angrily the assumption that the cook was her mother.",
+     "causedByEvent": {
+      "name": "Interaction with the cook",
+      "takePlaceAt": {
+       "name": "Interaction with the cook"
+      }
+     },
+     "hasObject": {
+      "name": "Feeling of anger"
+     }
     },
-    "causedBy",
     {
-     "id": "event5",
-     "name": "Discussion about husbands"
-    },
-    "hasObject",
-    {
-     "id": "object5",
-     "name": "Discussion about husbands"
-    },
-    "place",
-    {
-     "id": "place5",
-     "name": "Sitting under a pine tree by the sea"
+     "name": "Irritation",
+     "hasIntensity": 0.7,
+     "quote": "Lady Caroline countermanded the cream, feeling she had been extravagant.",
+     "causedByEvent": {
+      "name": "Realization of being extravagant",
+      "takePlaceAt": {
+       "name": "Interaction with the cook"
+      }
+     },
+     "hasObject": {
+      "name": "Feeling of irritation"
+     }
     }
    ]
   }

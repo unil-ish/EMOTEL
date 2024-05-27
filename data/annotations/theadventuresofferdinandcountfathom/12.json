@@ -1,91 +1,185 @@
 {
  "FictionalCharacters": [
   {
-   "id": "fc1",
-   "name": "Doctor Fathom",
+   "name": "Monimia",
    "feels": [
     {
-     "name": "Disappointment",
+     "name": "Shame",
      "hasIntensity": 0.7,
-     "quote": "In cultivating the fiddler, they utterly neglected the physician.",
-     "causedBy": {
-      "id": "event1",
-      "name": "Lack of recognition for medical capacity"
+     "quote": "Monimia was successively agitated with shame, anger, and grief.",
+     "causedByEvent": {
+      "name": "Fathom's importunate desires",
+      "takePlaceAt": {
+       "name": "Monimia's chamber"
+      },
+      "hasParticipant": [
+       {
+        "name": "Monimia"
+       },
+       {
+        "name": "Fathom"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object1",
-      "name": "Medical capacity"
-     },
-     "place": {
-      "id": "place1",
-      "name": "Tunbridge"
+      "name": "Fathom's importunate desires"
      }
     },
     {
-     "name": "Hope",
+     "name": "Anger",
      "hasIntensity": 0.8,
-     "quote": "The patient...was not altogether without hope.",
-     "causedBy": {
-      "id": "event2",
-      "name": "Hope for the return of her admirer"
+     "quote": "Monimia, provoked beyond the power of concealing her resentment, said, she was heartily sorry to find herself under the necessity of telling him, that, in the midst of her misfortunes, she could not help remembering what she had been.",
+     "causedByEvent": {
+      "name": "Fathom's importunate desires",
+      "takePlaceAt": {
+       "name": "Monimia's chamber"
+      },
+      "hasParticipant": [
+       {
+        "name": "Monimia"
+       },
+       {
+        "name": "Fathom"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object2",
-      "name": "Return of her admirer"
-     },
-     "place": {
-      "id": "place1",
-      "name": "Tunbridge"
+      "name": "Fathom's importunate desires"
      }
     },
     {
-     "name": "Chagrin",
+     "name": "Grief",
      "hasIntensity": 0.9,
-     "quote": "The patient, though violently chagrined at the levity of her quondam admirer...",
-     "causedBy": {
-      "id": "event3",
-      "name": "Forsaking of the patient by her admirer"
+     "quote": "Words are wanting to describe the accumulated horrors that took possession of her mind, when she thus beheld all her presaging fears realised, and found herself at the mercy of two wretches, who had now pulled off the mask, after having lost all sentiments of humanity.",
+     "causedByEvent": {
+      "name": "Fathom's betrayal",
+      "takePlaceAt": {
+       "name": "Monimia's chamber"
+      },
+      "hasParticipant": [
+       {
+        "name": "Monimia"
+       },
+       {
+        "name": "Fathom"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object3",
-      "name": "Forsaking of the patient"
+      "name": "Fathom's betrayal"
+     }
+    },
+    {
+     "name": "Joy",
+     "hasIntensity": 0.8,
+     "quote": "Monimia, overwhelmed with gratitude and surprise at this unexpected address, gazed upon the lady in silence, and when she repeated her tenders of service, could make no other reply to her goodness, than by bursting into a flood of tears.",
+     "causedByEvent": {
+      "name": "Madam Clement's kindness",
+      "takePlaceAt": {
+       "name": "Madam Clement's house"
+      },
+      "hasParticipant": [
+       {
+        "name": "Monimia"
+       },
+       {
+        "name": "Madam Clement"
+       }
+      ]
      },
-     "place": {
-      "id": "place1",
-      "name": "Tunbridge"
+     "hasObject": {
+      "name": "Madam Clement's kindness"
+     }
+    },
+    {
+     "name": "Sadness",
+     "hasIntensity": 0.9,
+     "quote": "Having passed the night in such agony, she rose at daybreak, and, hearing the chapel bell toll for morning prayers, resolved to go to this place of worship, in order to implore the assistance of Heaven.",
+     "causedByEvent": {
+      "name": "Fathom's betrayal",
+      "takePlaceAt": {
+       "name": "Monimia's chamber"
+      },
+      "hasParticipant": [
+       {
+        "name": "Monimia"
+       },
+       {
+        "name": "Fathom"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Fathom's betrayal"
+     }
+    },
+    {
+     "name": "Acceptance",
+     "hasIntensity": 0.7,
+     "quote": "Monimia, overwhelmed with gratitude and surprise at this unexpected address, gazed upon the lady in silence, and when she repeated her tenders of service, could make no other reply to her goodness, than by bursting into a flood of tears.",
+     "causedByEvent": {
+      "name": "Madam Clement's kindness",
+      "takePlaceAt": {
+       "name": "Madam Clement's house"
+      },
+      "hasParticipant": [
+       {
+        "name": "Monimia"
+       },
+       {
+        "name": "Madam Clement"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Madam Clement's kindness"
+     }
+    },
+    {
+     "name": "Admiration",
+     "hasIntensity": 0.8,
+     "quote": "Monimia, overwhelmed with gratitude and surprise at this unexpected address, gazed upon the lady in silence, and when she repeated her tenders of service, could make no other reply to her goodness, than by bursting into a flood of tears.",
+     "causedByEvent": {
+      "name": "Madam Clement's kindness",
+      "takePlaceAt": {
+       "name": "Madam Clement's house"
+      },
+      "hasParticipant": [
+       {
+        "name": "Monimia"
+       },
+       {
+        "name": "Madam Clement"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Madam Clement's kindness"
+     }
+    },
+    {
+     "name": "Fear",
+     "hasIntensity": 0.9,
+     "quote": "Words are wanting to describe the accumulated horrors that took possession of her mind, when she thus beheld all her presaging fears realised, and found herself at the mercy of two wretches, who had now pulled off the mask, after having lost all sentiments of humanity.",
+     "causedByEvent": {
+      "name": "Fathom's betrayal",
+      "takePlaceAt": {
+       "name": "Monimia's chamber"
+      },
+      "hasParticipant": [
+       {
+        "name": "Monimia"
+       },
+       {
+        "name": "Fathom"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Fathom's betrayal"
      }
     }
    ]
-  }
- ],
- "Places": [
-  {
-   "id": "place1",
-   "name": "Tunbridge",
-   "description": "A location where Doctor Fathom was trying to establish himself as a physician."
-  }
- ],
- "Events": [
-  {
-   "id": "event1",
-   "name": "Lack of recognition for medical capacity",
-   "takePlaceAt": {
-    "id": "place1"
-   }
-  },
-  {
-   "id": "event2",
-   "name": "Hope for the return of her admirer",
-   "takePlaceAt": {
-    "id": "place1"
-   }
-  },
-  {
-   "id": "event3",
-   "name": "Forsaking of the patient by her admirer",
-   "takePlaceAt": {
-    "id": "place1"
-   }
   }
  ]
 }

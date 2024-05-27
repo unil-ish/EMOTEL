@@ -1,123 +1,145 @@
 {
  "FictionalCharacters": [
   {
-   "id": "texts/middlemarch.txt#Fred_Vincy",
+   "name": "Dorothea",
    "feels": [
     {
-     "name": "Love",
-     "hasIntensity": 0.9,
-     "quote": "I have always loved her better than any one else, and that I shall never love any one as I love her.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Mary_Garth",
-      "name": "Mary_Garth"
-     },
+     "name": "Trust",
+     "hasIntensity": 0.7,
+     "quote": "Caleb had no cant at command, even if he could have chosen to use it; and he had been accustomed to meet all such difficulties in no other way than by doing his 'business' faithfully.",
      "hasObject": {
-      "id": "texts/middlemarch.txt#Mary_Garth",
-      "name": "Mary_Garth"
+      "name": "Caleb_s_honesty_and_reliability"
      },
-     "exactPlace": "In the gateway",
-     "id": "Love"
+     "causedBy": {
+      "name": "Caleb_s_reliability_and_honesty",
+      "takePlaceAt": {
+       "name": "Conversation_with_Caleb"
+      }
+     }
     },
     {
-     "name": "Hope",
+     "name": "Joy",
      "hasIntensity": 0.8,
-     "quote": "I shall be the most miserable devil in the world if I lose all hope of Mary.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Uncertainty_about_his_future",
-      "name": "Uncertainty_about_his_future"
-     },
+     "quote": "The young ones have always a claim on the old to help them forward. I was young myself once and had to do without much help; but help would have been welcome to me, if it had been only for the fellow-feeling's sake.",
      "hasObject": {
-      "id": "texts/middlemarch.txt#Mary_Garth",
-      "name": "Mary_Garth"
+      "name": "Caleb_s_willingness_to_help"
      },
-     "exactPlace": "In the gateway",
-     "id": "Hope"
-    }
-   ],
-   "name": "Fred_Vincy"
-  },
-  {
-   "id": "texts/middlemarch.txt#Caleb_Garth",
-   "feels": [
-    {
-     "name": "Pride",
-     "hasIntensity": 0.9,
-     "quote": "You must have a pride in your own work and in learning to do it well.",
      "causedBy": {
-      "id": "texts/middlemarch.txt#Work_ethic",
-      "name": "Work_ethic"
-     },
-     "hasObject": {
-      "id": "texts/middlemarch.txt#Work",
-      "name": "Work"
-     },
-     "exactPlace": "In the field",
-     "id": "Pride"
+      "name": "Caleb_s_willingness_to_help_Fred",
+      "takePlaceAt": {
+       "name": "Conversation_with_Caleb"
+      }
+     }
     },
     {
-     "name": "Fondness",
-     "hasIntensity": 0.8,
-     "quote": "The young ones have always a claim on the old to help them forward.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Fred_Vincy_s_situation",
-      "name": "Fred_Vincy_s_situation"
-     },
-     "hasObject": {
-      "id": "texts/middlemarch.txt#Fred_Vincy",
-      "name": "Fred_Vincy"
-     },
-     "exactPlace": "In the field",
-     "id": "Fondness"
-    }
-   ],
-   "name": "Caleb_Garth"
-  },
-  {
-   "id": "texts/middlemarch.txt#Mary_Garth",
-   "feels": [
-    {
-     "name": "Love",
+     "name": "Acceptance",
      "hasIntensity": 0.9,
      "quote": "The children are fond of each other—I mean, Fred and Mary.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Fred_Vincy",
-      "name": "Fred_Vincy"
-     },
      "hasObject": {
-      "id": "texts/middlemarch.txt#Fred_Vincy",
-      "name": "Fred_Vincy"
+      "name": "Fred_and_Mary_s_feelings"
      },
-     "exactPlace": "At home",
-     "id": "Love"
+     "causedBy": {
+      "name": "Fred_and_Mary_s_feelings_for_each_other",
+      "takePlaceAt": {
+       "name": "Conversation_with_Caleb"
+      }
+     }
     }
-   ],
-   "name": "Mary_Garth"
-  }
- ],
- "Places": [
-  {
-   "id": "texts/middlemarch.txt#Field",
-   "name": "Field",
-   "description": "The field where Caleb Garth and Fred Vincy were working."
+   ]
   },
   {
-   "id": "texts/middlemarch.txt#Gateway",
-   "name": "Gateway",
-   "description": "The gateway where Fred Vincy and Caleb Garth were talking."
-  }
- ],
- "Events": [
+   "name": "Fred_Vincy",
+   "feels": [
+    {
+     "name": "Surprise",
+     "hasIntensity": 0.7,
+     "quote": "The accidents of the morning had helped his frustrated imagination to shape an employment for himself which had several attractions.",
+     "hasObject": {
+      "name": "Accidents_of_the_morning"
+     },
+     "causedBy": {
+      "name": "Accidents_of_the_morning",
+      "takePlaceAt": {
+       "name": "Encounter_with_the_laborers"
+      }
+     }
+    },
+    {
+     "name": "Joy",
+     "hasIntensity": 0.8,
+     "quote": "His spirits had risen, and he heartily enjoyed a good slip in the moist earth under the hedgerow, which soiled his perfect summer trousers.",
+     "hasObject": {
+      "name": "Slip_in_the_earth"
+     },
+     "causedBy": {
+      "name": "Enjoying_the_slip_in_the_earth",
+      "takePlaceAt": {
+       "name": "Helping_Caleb_with_work"
+      }
+     }
+    },
+    {
+     "name": "Anticipation",
+     "hasIntensity": 0.9,
+     "quote": "He can't bear to be a clergyman, and Mary says she won't have him if he is one; and the lad would like to be under me and give his mind to business. And I've determined to take him and make a man of him.",
+     "hasObject": {
+      "name": "Fred_s_decision_to_pursue_business"
+     },
+     "causedBy": {
+      "name": "Fred_s_decision_to_pursue_business",
+      "takePlaceAt": {
+       "name": "Conversation_with_Caleb"
+      }
+     }
+    }
+   ]
+  },
   {
-   "id": "texts/middlemarch.txt#Fred_Vincy_s_uncertainty_about_his_future_career",
-   "name": "Fred_Vincy_s_uncertainty_about_his_future_career",
-   "takePlaceAt": {
-    "id": "texts/middlemarch.txt#Field",
-    "name": "Field"
-   },
-   "hasParticipant": {
-    "id": "texts/middlemarch.txt#Fred_Vincy",
-    "name": "Fred_Vincy"
-   }
+   "name": "Caleb_Garth",
+   "feels": [
+    {
+     "name": "Acceptance",
+     "hasIntensity": 0.9,
+     "quote": "The children are fond of each other—I mean, Fred and Mary.",
+     "hasObject": {
+      "name": "Fred_and_Mary_s_feelings"
+     },
+     "causedBy": {
+      "name": "Fred_and_Mary_s_feelings_for_each_other",
+      "takePlaceAt": {
+       "name": "Conversation_with_Fred"
+      }
+     }
+    },
+    {
+     "name": "Joy",
+     "hasIntensity": 0.8,
+     "quote": "The young ones have always a claim on the old to help them forward. I was young myself once and had to do without much help; but help would have been welcome to me, if it had been only for the fellow-feeling's sake.",
+     "hasObject": {
+      "name": "Fred_s_request_for_help"
+     },
+     "causedBy": {
+      "name": "Fred_s_request_for_help",
+      "takePlaceAt": {
+       "name": "Conversation_with_Fred"
+      }
+     }
+    },
+    {
+     "name": "Acceptance",
+     "hasIntensity": 0.9,
+     "quote": "The children are fond of each other—I mean, Fred and Mary.",
+     "hasObject": {
+      "name": "Fred_and_Mary_s_feelings"
+     },
+     "causedBy": {
+      "name": "Fred_and_Mary_s_feelings_for_each_other",
+      "takePlaceAt": {
+       "name": "Conversation_with_Fred"
+      }
+     }
+    }
+   ]
   }
  ]
 }

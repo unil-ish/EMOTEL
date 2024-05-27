@@ -1,154 +1,98 @@
 {
  "FictionalCharacters": [
   {
-   "id": "fc1",
-   "name": "Mr. Lydgate",
-   "feels": [
-    {
-     "name": "Anger",
-     "hasIntensity": 0.8,
-     "quote": "He was ready to curse the day on which he had come to Middlemarch.",
-     "causedBy": {
-      "id": "event1",
-      "name": "Feeling stigmatized and misunderstood by the town"
-     },
-     "hasObject": {
-      "id": "object1",
-      "name": "Town of Middlemarch"
-     },
-     "place": {
-      "id": "place1",
-      "name": "Middlemarch"
-     }
-    },
-    {
-     "name": "Defiance",
-     "hasIntensity": 0.9,
-     "quote": "He resolved not to shrink from showing his sense of obligation to Bulstrode.",
-     "causedBy": {
-      "id": "event2",
-      "name": "Decision to face the situation with defiance"
-     },
-     "hasObject": {
-      "id": "object2",
-      "name": "Sense of obligation to Bulstrode"
-     },
-     "place": {
-      "id": "place1",
-      "name": "Middlemarch"
-     }
-    },
-    {
-     "name": "Resentment",
-     "hasIntensity": 0.7,
-     "quote": "He was setting his mind on remaining in Middlemarch in spite of the worst that could be done against him.",
-     "causedBy": {
-      "id": "event3",
-      "name": "Decision to stay in Middlemarch despite the town's opinion"
-     },
-     "hasObject": {
-      "id": "object3",
-      "name": "Town of Middlemarch"
-     },
-     "place": {
-      "id": "place1",
-      "name": "Middlemarch"
-     }
-    }
-   ]
-  },
-  {
-   "id": "fc2",
    "name": "Mrs. Bulstrode",
    "feels": [
     {
-     "name": "Pity",
-     "hasIntensity": 0.6,
-     "quote": "Women who were intimate with her talked much of 'poor Harriet,' imagined what her feelings must be, and conjectured how much she had already come to know.",
-     "causedBy": {
-      "id": "event4",
-      "name": "Sympathy towards Mrs. Bulstrode's situation"
+     "name": "Anxiety",
+     "hasIntensity": 0.7,
+     "quote": "The calm was disturbed when Lydgate had brought him home ill from the meeting, and in spite of comforting assurances during the next few days, she cried in private from the conviction that her husband was not suffering from bodily illness merely, but from something that afflicted his mind.",
+     "causedByEvent": {
+      "name": "Mr. Bulstrode's illness and secretive behavior",
+      "takePlaceAt": {
+       "name": "Home"
+      }
      },
      "hasObject": {
-      "id": "object4",
-      "name": "Mrs. Bulstrode"
+      "name": "Mr. Bulstrode's well-being"
+     }
+    },
+    {
+     "name": "Suspicion",
+     "hasIntensity": 0.8,
+     "quote": "Not daring to question her husband, she said to Lydgate, on the fifth day after the meeting, when she had not left home except to go to church—“Mr. Lydgate, pray be open with me: I like to know the truth. Has anything happened to Mr. Bulstrode?”",
+     "causedByEvent": {
+      "name": "Mr. Bulstrode's secretive behavior",
+      "takePlaceAt": {
+       "name": "Home"
+      }
      },
-     "place": {
-      "id": "place2",
-      "name": "Middlemarch"
+     "hasObject": {
+      "name": "Mr. Bulstrode's well-being"
+     }
+    },
+    {
+     "name": "Fear",
+     "hasIntensity": 0.6,
+     "quote": "Mrs. Bulstrode felt suddenly rather chill and trembling: there was evidently something unusual behind this speech of Mrs. Hackbutt’s; but though she had set out with the desire to be fully informed, she found herself unable now to pursue her brave purpose.",
+     "causedByEvent": {
+      "name": "Mrs. Hackbutt's cryptic speech",
+      "takePlaceAt": {
+       "name": "Mrs. Hackbutt's house"
+      }
+     },
+     "hasObject": {
+      "name": "Unusual situation"
      }
     }
    ]
   },
   {
-   "id": "fc3",
-   "name": "Rosamond Vincy",
+   "name": "Mrs. Hackbutt",
    "feels": [
     {
-     "name": "Criticism",
-     "hasIntensity": 0.8,
-     "quote": "Rosamond was more severely criticized and less pitied.",
-     "causedBy": {
-      "id": "event5",
-      "name": "Being associated with her husband's situation"
+     "name": "Tension",
+     "hasIntensity": 0.7,
+     "quote": "Hence Mrs. Bulstrode was shown into the drawing-room, and Mrs. Hackbutt went to her, with more tightness of lip and rubbing of her hands than was usually observable in her, these being precautions adopted against freedom of speech.",
+     "causedByEvent": {
+      "name": "Mrs. Bulstrode's visit",
+      "takePlaceAt": {
+       "name": "Mrs. Hackbutt's house"
+      }
      },
      "hasObject": {
-      "id": "object5",
-      "name": "Association with Bulstrode"
+      "name": "Conversation with Mrs. Bulstrode"
+     }
+    },
+    {
+     "name": "Reluctance",
+     "hasIntensity": 0.8,
+     "quote": "Hence Mrs. Bulstrode was shown into the drawing-room, and Mrs. Hackbutt went to her, with more tightness of lip and rubbing of her hands than was usually observable in her, these being precautions adopted against freedom of speech.",
+     "causedByEvent": {
+      "name": "Mrs. Bulstrode's visit",
+      "takePlaceAt": {
+       "name": "Mrs. Hackbutt's house"
+      }
      },
-     "place": {
-      "id": "place1",
-      "name": "Middlemarch"
+     "hasObject": {
+      "name": "Conversation with Mrs. Bulstrode"
+     }
+    },
+    {
+     "name": "Deception",
+     "hasIntensity": 0.6,
+     "quote": "Hence Mrs. Bulstrode was shown into the drawing-room, and Mrs. Hackbutt went to her, with more tightness of lip and rubbing of her hands than was usually observable in her, these being precautions adopted against freedom of speech.",
+     "causedByEvent": {
+      "name": "Mrs. Bulstrode's visit",
+      "takePlaceAt": {
+       "name": "Mrs. Hackbutt's house"
+      }
+     },
+     "hasObject": {
+      "name": "Concealing information"
      }
     }
    ]
-  }
- ],
- "Places": [
-  {
-   "id": "place1",
-   "name": "Middlemarch"
-  },
-  {
-   "id": "place2",
-   "name": "Middlemarch"
-  }
- ],
- "Events": [
-  {
-   "id": "event1",
-   "name": "Feeling stigmatized and misunderstood by the town",
-   "takePlaceAt": {
-    "id": "place1"
-   }
-  },
-  {
-   "id": "event2",
-   "name": "Decision to face the situation with defiance",
-   "takePlaceAt": {
-    "id": "place1"
-   }
-  },
-  {
-   "id": "event3",
-   "name": "Decision to stay in Middlemarch despite the town's opinion",
-   "takePlaceAt": {
-    "id": "place1"
-   }
-  },
-  {
-   "id": "event4",
-   "name": "Sympathy towards Mrs. Bulstrode's situation",
-   "takePlaceAt": {
-    "id": "place2"
-   }
-  },
-  {
-   "id": "event5",
-   "name": "Being associated with her husband's situation",
-   "takePlaceAt": {
-    "id": "place1"
-   }
   }
  ]
 }

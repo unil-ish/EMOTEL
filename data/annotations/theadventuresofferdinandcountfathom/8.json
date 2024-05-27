@@ -1,107 +1,65 @@
 {
  "FictionalCharacters": [
   {
-   "id": "Fathom",
-   "name": "Ferdinand Fathom",
+   "name": "Fathom",
    "feels": [
     {
      "name": "Trust",
-     "hasIntensity": 0.2,
-     "quote": "He was prevailed upon to take a hand at whist or piquet, and even to wield the hazard-box; though he had hitherto declared himself an irreconcilable enemy to all sorts of play.",
-     "causedBy": {
-      "id": "circumstance1",
-      "name": "Being prevailed upon to play games of chance"
+     "hasIntensity": 0.3,
+     "quote": "Fathom suffered himself to be persuaded by the arguments of the Tyrolese, who approved the proposal of decamping.",
+     "causedByEvent": {
+      "name": "Proposal of decamping",
+      "takePlaceAt": {
+       "name": "Discussion between Fathom and the Tyrolese"
+      }
      },
      "hasObject": {
-      "id": "object1",
-      "name": "Playing games of chance"
-     },
-     "place": {
-      "id": "place1",
-      "name": "Unknown location"
+      "name": "Decamping"
      }
     },
     {
      "name": "Surprise",
-     "hasIntensity": 0.5,
+     "hasIntensity": 0.6,
      "quote": "He was deeply touched with these marks of alienation in the behaviour of his friends.",
-     "causedBy": {
-      "id": "circumstance2",
-      "name": "Alienation of friends"
+     "causedByEvent": {
+      "name": "Marks of alienation from friends",
+      "takePlaceAt": {
+       "name": "Social gatherings"
+      }
      },
      "hasObject": {
-      "id": "object2",
-      "name": "Alienation of friends"
-     },
-     "place": {
-      "id": "place2",
-      "name": "Social gatherings"
+      "name": "Alienation"
      }
     },
     {
      "name": "Anger",
-     "hasIntensity": 0.3,
-     "quote": "He was not a little confounded when he found himself charged with 350 attendances.",
-     "causedBy": {
-      "id": "circumstance3",
-      "name": "Excessive charges by the solicitor"
+     "hasIntensity": 0.4,
+     "quote": "He was not a little confounded when he found himself charged with 350 attendances by the solicitor.",
+     "causedByEvent": {
+      "name": "Receiving the solicitor's bill",
+      "takePlaceAt": {
+       "name": "Before trial"
+      }
      },
      "hasObject": {
-      "id": "object3",
       "name": "Excessive charges"
+     }
+    },
+    {
+     "name": "Fear",
+     "hasIntensity": 0.7,
+     "quote": "He knew it was not his interest to disoblige his lawyer at such a juncture.",
+     "causedByEvent": {
+      "name": "Receiving the solicitor's bill",
+      "takePlaceAt": {
+       "name": "Before trial"
+      }
      },
-     "place": {
-      "id": "place3",
-      "name": "Solicitor's office"
+     "hasObject": {
+      "name": "Displeasing the lawyer"
      }
     }
    ]
-  }
- ],
- "Places": [
-  {
-   "id": "place1",
-   "name": "Unknown location"
-  },
-  {
-   "id": "place2",
-   "name": "Social gatherings"
-  },
-  {
-   "id": "place3",
-   "name": "Solicitor's office"
-  }
- ],
- "Events": [
-  {
-   "id": "circumstance1",
-   "name": "Being prevailed upon to play games of chance",
-   "takePlaceAt": {
-    "id": "place1"
-   },
-   "hasParticipant": {
-    "id": "Fathom"
-   }
-  },
-  {
-   "id": "circumstance2",
-   "name": "Alienation of friends",
-   "takePlaceAt": {
-    "id": "place2"
-   },
-   "hasParticipant": {
-    "id": "Fathom"
-   }
-  },
-  {
-   "id": "circumstance3",
-   "name": "Excessive charges by the solicitor",
-   "takePlaceAt": {
-    "id": "place3"
-   },
-   "hasParticipant": {
-    "id": "Fathom"
-   }
   }
  ]
 }

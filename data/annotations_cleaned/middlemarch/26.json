@@ -1,120 +1,112 @@
 {
  "FictionalCharacters": [
   {
-   "id": "texts/middlemarch.txt#Will_Ladislaw",
+   "name": "Dorothea",
    "feels": [
+    {
+     "name": "Trust",
+     "hasIntensity": 0.9,
+     "quote": "Pray sit down,” said Dorothea, crossing her hands on her lap; “I am very glad you were here.”",
+     "hasObject": {
+      "name": "Will_Ladislaw"
+     },
+     "causedBy": {
+      "name": "Seeing_Will_Ladislaw",
+      "takePlaceAt": {
+       "name": "Library_at_the_Grange"
+      }
+     }
+    },
+    {
+     "name": "Surprise",
+     "hasIntensity": 0.7,
+     "quote": "As Mrs. Kell closed the door behind her they met: each was looking at the other, and consciousness was overflowed by something that suppressed utterance.",
+     "hasObject": {
+      "name": "Will_Ladislaw"
+     },
+     "causedBy": {
+      "name": "Meeting_Will_Ladislaw_unexpectedly",
+      "takePlaceAt": {
+       "name": "Library_at_the_Grange"
+      }
+     }
+    },
+    {
+     "name": "Sadness",
+     "hasIntensity": 0.8,
+     "quote": "The tears came and rolled down her cheeks, but she did not know it. The world, it seemed, was turning ugly and hateful, and there was no place for her trustfulness.",
+     "hasObject": {
+      "name": "The_world"
+     },
+     "causedBy": {
+      "name": "Feeling_betrayed_by_the_world",
+      "takePlaceAt": {
+       "name": "Carriage_passing_under_the_archway_of_the_lodgegate_at_the_Grange"
+      }
+     }
+    },
     {
      "name": "Anger",
-     "hasIntensity": 0.8,
-     "quote": "You shall keep your ill-gotten money. If I had any fortune of my own, I would willingly pay it to any one who could disprove what you have told me.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Revelation_about_his_mother_s_family",
-      "name": "Revelation_about_his_mother_s_family"
-     },
-     "hasObject": {
-      "id": "texts/middlemarch.txt#Bulstrode",
-      "name": "Bulstrode"
-     },
-     "place": {
-      "id": "texts/middlemarch.txt#Bulstrode_s_private_room",
-      "name": "Bulstrode_s_private_room"
-     },
-     "id": "Anger"
-    },
-    {
-     "name": "Indignation",
-     "hasIntensity": 0.9,
-     "quote": "I will not hear any evil spoken of Mr. Ladislaw; he has already suffered too much injustice.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Gossip_about_Ladislaw",
-      "name": "Gossip_about_Ladislaw"
-     },
-     "hasObject": {
-      "id": "texts/middlemarch.txt#Sir_James_and_Mrs_Cadwallader",
-      "name": "Sir_James_and_Mrs_Cadwallader"
-     },
-     "place": {
-      "id": "texts/middlemarch.txt#Freshitt",
-      "name": "Freshitt"
-     },
-     "id": "Indignation"
-    },
-    {
-     "name": "Sadness",
      "hasIntensity": 0.7,
-     "quote": "The tears came and rolled down her cheeks, but she did not know it.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Gossip_about_Ladislaw",
-      "name": "Gossip_about_Ladislaw"
-     },
+     "quote": "Her face was flushed and her lip trembled.",
      "hasObject": {
-      "id": "texts/middlemarch.txt#Sir_James_and_Mrs_Cadwallader",
-      "name": "Sir_James_and_Mrs_Cadwallader"
+      "name": "Injustice_towards_Will_Ladislaw"
      },
-     "place": {
-      "id": "texts/middlemarch.txt#Carriage",
-      "name": "Carriage"
-     },
-     "id": "Sadness"
+     "causedBy": {
+      "name": "Feeling_angry_at_the_injustice_towards_Will_Ladislaw",
+      "takePlaceAt": {
+       "name": "Carriage_passing_under_the_archway_of_the_lodgegate_at_the_Grange"
+      }
+     }
     }
-   ],
-   "name": "Will_Ladislaw"
+   ]
   },
   {
-   "id": "texts/middlemarch.txt#Dorothea",
+   "name": "Will_Ladislaw",
    "feels": [
     {
-     "name": "Indignation",
-     "hasIntensity": 0.9,
-     "quote": "I will not hear any evil spoken of Mr. Ladislaw; he has already suffered too much injustice.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Gossip_about_Ladislaw",
-      "name": "Gossip_about_Ladislaw"
-     },
+     "name": "Trust",
+     "hasIntensity": 0.8,
+     "quote": "Pray sit down,” said Dorothea, crossing her hands on her lap; “I am very glad you were here.”",
      "hasObject": {
-      "id": "texts/middlemarch.txt#Sir_James_and_Mrs_Cadwallader",
-      "name": "Sir_James_and_Mrs_Cadwallader"
+      "name": "Dorothea"
      },
-     "place": {
-      "id": "texts/middlemarch.txt#Freshitt",
-      "name": "Freshitt"
-     },
-     "id": "Indignation"
+     "causedBy": {
+      "name": "Seeing_Dorothea",
+      "takePlaceAt": {
+       "name": "Library_at_the_Grange"
+      }
+     }
     },
     {
-     "name": "Sadness",
+     "name": "Surprise",
      "hasIntensity": 0.7,
-     "quote": "The tears came and rolled down her cheeks, but she did not know it.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Gossip_about_Ladislaw",
-      "name": "Gossip_about_Ladislaw"
-     },
+     "quote": "As Mrs. Kell closed the door behind her they met: each was looking at the other, and consciousness was overflowed by something that suppressed utterance.",
      "hasObject": {
-      "id": "texts/middlemarch.txt#Sir_James_and_Mrs_Cadwallader",
-      "name": "Sir_James_and_Mrs_Cadwallader"
+      "name": "Dorothea"
      },
-     "place": {
-      "id": "texts/middlemarch.txt#Carriage",
-      "name": "Carriage"
+     "causedBy": {
+      "name": "Meeting_Dorothea_unexpectedly",
+      "takePlaceAt": {
+       "name": "Library_at_the_Grange"
+      }
+     }
+    },
+    {
+     "name": "Indignation",
+     "hasIntensity": 0.9,
+     "quote": "I have been grossly insulted in your eyes and in the eyes of others. There has been a mean implication against my character.",
+     "hasObject": {
+      "name": "Others"
      },
-     "id": "Sadness"
+     "causedBy": {
+      "name": "Feeling_insulted_by_others",
+      "takePlaceAt": {
+       "name": "Library_at_the_Grange"
+      }
+     }
     }
-   ],
-   "name": "Dorothea"
-  }
- ],
- "Places": [
-  {
-   "id": "texts/middlemarch.txt#Bulstrode_s_private_room",
-   "name": "Bulstrode_s_private_room"
-  },
-  {
-   "id": "texts/middlemarch.txt#Freshitt",
-   "name": "Freshitt"
-  },
-  {
-   "id": "texts/middlemarch.txt#Carriage",
-   "name": "Carriage"
+   ]
   }
  ]
 }

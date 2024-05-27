@@ -1,192 +1,141 @@
 {
  "FictionalCharacters": [
   {
-   "id": "fc1",
-   "name": "The Creature",
+   "name": "Victor Frankenstein",
    "feels": [
     {
      "name": "Trust",
-     "hasIntensity": 0.2,
+     "hasIntensity": 0.5,
      "quote": "‘Do not trouble yourself, my kind host; I have food; it is warmth and rest only that I need.’",
-     "causedBy": {
-      "id": "event1",
-      "name": "Old man offering help"
+     "causedByEvent": {
+      "name": "Seeking shelter and rest",
+      "takePlaceAt": {
+       "name": "De Lacey's cottage"
+      },
+      "hasParticipant": [
+       {
+        "name": "Victor Frankenstein"
+       },
+       {
+        "name": "De Lacey"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object1",
-      "name": "Food"
-     },
-     "place": {
-      "id": "place1",
-      "name": "Cottage"
+      "name": "Warmth and rest"
      }
     },
     {
      "name": "Surprise",
      "hasIntensity": 0.8,
      "quote": "‘Great God!’ exclaimed the old man. ‘Who are you?’",
-     "causedBy": {
-      "id": "event2",
-      "name": "Old man seeing the Creature"
+     "causedByEvent": {
+      "name": "Victor revealing himself to De Lacey",
+      "takePlaceAt": {
+       "name": "De Lacey's cottage"
+      },
+      "hasParticipant": [
+       {
+        "name": "Victor Frankenstein"
+       },
+       {
+        "name": "De Lacey"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object2",
-      "name": "The Creature"
-     },
-     "place": {
-      "id": "place1",
-      "name": "Cottage"
+      "name": "Victor Frankenstein"
      }
     },
     {
      "name": "Anger",
      "hasIntensity": 0.9,
      "quote": "Felix darted forward, and with supernatural force tore me from his father, to whose knees I clung, in a transport of fury, he dashed me to the ground and struck me violently with a stick.",
-     "causedBy": {
-      "id": "event3",
-      "name": "Felix attacking the Creature"
+     "causedByEvent": {
+      "name": "Felix's reaction to Victor's presence",
+      "takePlaceAt": {
+       "name": "De Lacey's cottage"
+      },
+      "hasParticipant": [
+       {
+        "name": "Victor Frankenstein"
+       },
+       {
+        "name": "Felix"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object3",
-      "name": "The Creature"
-     },
-     "place": {
-      "id": "place1",
-      "name": "Cottage"
+      "name": "Victor Frankenstein"
      }
     },
     {
      "name": "Joy",
-     "hasIntensity": 0.3,
-     "quote": "The pleasant sunshine and the pure air of day restored me to some degree of tranquillity",
-     "causedBy": {
-      "id": "event4",
-      "name": "Sunshine and fresh air"
+     "hasIntensity": 0.7,
+     "quote": "The presence of Safie diffused happiness among its inhabitants, and I also found that a greater degree of plenty reigned there.",
+     "causedByEvent": {
+      "name": "Safie's presence at the cottage",
+      "takePlaceAt": {
+       "name": "De Lacey's cottage"
+      },
+      "hasParticipant": [
+       {
+        "name": "Safie"
+       },
+       {
+        "name": "De Lacey's family"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object4",
-      "name": "Sunshine and fresh air"
-     },
-     "place": {
-      "id": "place2",
-      "name": "Forest"
+      "name": "Happiness and plenty"
      }
     },
     {
      "name": "Anticipation",
-     "hasIntensity": 0.5,
+     "hasIntensity": 0.6,
      "quote": "I resolved to return to the cottage, seek the old man, and by my representations win him to my party.",
-     "causedBy": {
-      "id": "event5",
-      "name": "Planning to return to the cottage"
+     "causedByEvent": {
+      "name": "Planning to approach De Lacey",
+      "takePlaceAt": {
+       "name": "Victor's hovel"
+      },
+      "hasParticipant": [
+       {
+        "name": "Victor Frankenstein"
+       },
+       {
+        "name": "De Lacey"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object5",
-      "name": "Return to the cottage"
-     },
-     "place": {
-      "id": "place3",
-      "name": "Hovel"
+      "name": "Winning De Lacey's favor"
      }
     },
     {
      "name": "Fear",
-     "hasIntensity": 0.7,
-     "quote": "I trembled violently, apprehending some dreadful misfortune.",
-     "causedBy": {
-      "id": "event6",
-      "name": "Feeling of dread"
+     "hasIntensity": 0.8,
+     "quote": "I trembled violently, apprehending some dreadful misfortune. The inside of the cottage was dark, and I heard no motion; I cannot describe the agony of this suspense.",
+     "causedByEvent": {
+      "name": "Fear of a dreadful misfortune",
+      "takePlaceAt": {
+       "name": "Victor's hovel"
+      },
+      "hasParticipant": [
+       {
+        "name": "Victor Frankenstein"
+       },
+       {
+        "name": "De Lacey's family"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object6",
       "name": "Dreadful misfortune"
-     },
-     "place": {
-      "id": "place4",
-      "name": "Hovel"
      }
     }
    ]
-  }
- ],
- "Places": [
-  {
-   "id": "place1",
-   "name": "Cottage"
-  },
-  {
-   "id": "place2",
-   "name": "Forest"
-  },
-  {
-   "id": "place3",
-   "name": "Hovel"
-  },
-  {
-   "id": "place4",
-   "name": "Hovel"
-  }
- ],
- "Events": [
-  {
-   "id": "event1",
-   "name": "Old man offering help",
-   "takePlaceAt": {
-    "id": "place1"
-   },
-   "hasParticipant": {
-    "id": "fc1"
-   }
-  },
-  {
-   "id": "event2",
-   "name": "Old man seeing the Creature",
-   "takePlaceAt": {
-    "id": "place1"
-   },
-   "hasParticipant": {
-    "id": "fc1"
-   }
-  },
-  {
-   "id": "event3",
-   "name": "Felix attacking the Creature",
-   "takePlaceAt": {
-    "id": "place1"
-   },
-   "hasParticipant": {
-    "id": "fc1"
-   }
-  },
-  {
-   "id": "event4",
-   "name": "Sunshine and fresh air",
-   "takePlaceAt": {
-    "id": "place2"
-   },
-   "hasParticipant": {
-    "id": "fc1"
-   }
-  },
-  {
-   "id": "event5",
-   "name": "Planning to return to the cottage",
-   "takePlaceAt": {
-    "id": "place3"
-   },
-   "hasParticipant": {
-    "id": "fc1"
-   }
-  },
-  {
-   "id": "event6",
-   "name": "Feeling of dread",
-   "takePlaceAt": {
-    "id": "place4"
-   },
-   "hasParticipant": {
-    "id": "fc1"
-   }
   }
  ]
 }

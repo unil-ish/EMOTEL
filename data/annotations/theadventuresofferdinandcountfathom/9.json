@@ -1,160 +1,129 @@
 {
  "FictionalCharacters": [
   {
-   "id": "fc1",
-   "name": "Captain Minikin",
+   "name": "Ferdinand Count Fathom",
    "feels": [
+    {
+     "name": "Surprise",
+     "hasIntensity": 0.7,
+     "quote": "Fathom, rather than run the risk of disobliging such a punctilious warrior, after having in vain attempted to dissuade him from his purpose, undertook to carry the challenge.",
+     "causedByEvent": {
+      "name": "Being asked to carry a challenge",
+      "takePlaceAt": {
+       "name": "Captain Minikin's apartment"
+      },
+      "hasParticipant": [
+       {
+        "name": "Ferdinand Count Fathom"
+       },
+       {
+        "name": "Captain Minikin"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Challenge letter"
+     }
+    },
     {
      "name": "Indignation",
      "hasIntensity": 0.9,
-     "quote": "his eyes seemed bursting from their spheres, he swelled to twice his natural dimensions, and, raising himself on his tiptoes, pronounced, in a strain that emulated thunder",
-     "causedBy": {
-      "id": "event1",
-      "name": "Feeling affronted by the situation with his wife"
+     "quote": "This explanation had no sooner escaped from his lips, than the captain’s face began to glow with indignation, his eyes seemed bursting from their spheres, he swelled to twice his natural dimensions.",
+     "causedByEvent": {
+      "name": "Being told that the ladies are good-natured",
+      "takePlaceAt": {
+       "name": "Captain Minikin's apartment"
+      },
+      "hasParticipant": [
+       {
+        "name": "Ferdinand Count Fathom"
+       },
+       {
+        "name": "Captain Minikin"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object1",
-      "name": "The situation with his wife"
-     },
-     "place": {
-      "id": "place1",
-      "name": "Count's apartment"
+      "name": "Ladies being good-natured"
      }
-    }
-   ]
-  },
-  {
-   "id": "fc2",
-   "name": "Sir Mungo Barebones",
-   "feels": [
+    },
     {
-     "name": "Indignation",
+     "name": "Anxiety",
      "hasIntensity": 0.8,
-     "quote": "his eyes gleamed like lightning, he sprung from his seat with the agility of a grasshopper, and, darting himself out at the door like an arrow from a bow, reappeared in a moment with a long rusty weapon",
-     "causedBy": {
-      "id": "event2",
-      "name": "Being called out by the French chevalier"
+     "quote": "Fathom, rather than run the risk of disobliging such a punctilious warrior, after having in vain attempted to dissuade him from his purpose, undertook to carry the challenge.",
+     "causedByEvent": {
+      "name": "Being asked to carry a challenge",
+      "takePlaceAt": {
+       "name": "Captain Minikin's apartment"
+      },
+      "hasParticipant": [
+       {
+        "name": "Ferdinand Count Fathom"
+       },
+       {
+        "name": "Captain Minikin"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object2",
-      "name": "Being called out by the French chevalier"
-     },
-     "place": {
-      "id": "place2",
-      "name": "General rendezvous"
+      "name": "Carrying the challenge"
      }
     }
    ]
   },
   {
-   "id": "fc3",
    "name": "Captain Minikin",
    "feels": [
     {
      "name": "Indignation",
      "hasIntensity": 0.9,
-     "quote": "his eyes seemed bursting from their spheres, he swelled to twice his natural dimensions, and, raising himself on his tiptoes, pronounced, in a strain that emulated thunder",
-     "causedBy": {
-      "id": "event3",
-      "name": "Feeling affronted by the situation with his wife"
+     "quote": "This explanation had no sooner escaped from his lips, than the captain’s face began to glow with indignation, his eyes seemed bursting from their spheres, he swelled to twice his natural dimensions.",
+     "causedByEvent": {
+      "name": "Being told that the ladies are good-natured",
+      "takePlaceAt": {
+       "name": "Captain Minikin's apartment"
+      },
+      "hasParticipant": [
+       {
+        "name": "Ferdinand Count Fathom"
+       },
+       {
+        "name": "Captain Minikin"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object3",
-      "name": "The situation with his wife"
-     },
-     "place": {
-      "id": "place3",
-      "name": "Count's apartment"
+      "name": "Ladies being good-natured"
      }
     }
    ]
   },
   {
-   "id": "fc4",
    "name": "Major Macleaver",
    "feels": [
     {
-     "name": "Readiness",
-     "hasIntensity": 0.7,
-     "quote": "I am ready to please him in his own way.",
-     "causedBy": {
-      "id": "event4",
-      "name": "Receiving the challenge from Captain Minikin"
+     "name": "Composure",
+     "hasIntensity": 0.8,
+     "quote": "He read the letter with great composure, like a man accustomed to such intercourse.",
+     "causedByEvent": {
+      "name": "Reading the challenge letter",
+      "takePlaceAt": {
+       "name": "Major Macleaver's apartment"
+      },
+      "hasParticipant": [
+       {
+        "name": "Major Macleaver"
+       },
+       {
+        "name": "Ferdinand Count Fathom"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object4",
-      "name": "Challenge from Captain Minikin"
-     },
-     "place": {
-      "id": "place4",
-      "name": "Major's lodgings"
+      "name": "Challenge letter"
      }
     }
    ]
-  }
- ],
- "Places": [
-  {
-   "id": "place1",
-   "name": "Count's apartment",
-   "description": "Where Captain Minikin felt indignation."
-  },
-  {
-   "id": "place2",
-   "name": "General rendezvous",
-   "description": "Where Sir Mungo Barebones felt indignation."
-  },
-  {
-   "id": "place3",
-   "name": "Count's apartment",
-   "description": "Where Captain Minikin felt indignation."
-  },
-  {
-   "id": "place4",
-   "name": "Major's lodgings",
-   "description": "Where Major Macleaver felt readiness."
-  }
- ],
- "Events": [
-  {
-   "id": "event1",
-   "name": "Feeling affronted by the situation with his wife",
-   "takePlaceAt": {
-    "id": "place1"
-   },
-   "hasParticipant": {
-    "id": "fc1"
-   }
-  },
-  {
-   "id": "event2",
-   "name": "Being called out by the French chevalier",
-   "takePlaceAt": {
-    "id": "place2"
-   },
-   "hasParticipant": {
-    "id": "fc2"
-   }
-  },
-  {
-   "id": "event3",
-   "name": "Feeling affronted by the situation with his wife",
-   "takePlaceAt": {
-    "id": "place3"
-   },
-   "hasParticipant": {
-    "id": "fc3"
-   }
-  },
-  {
-   "id": "event4",
-   "name": "Receiving the challenge from Captain Minikin",
-   "takePlaceAt": {
-    "id": "place4"
-   },
-   "hasParticipant": {
-    "id": "fc4"
-   }
   }
  ]
 }

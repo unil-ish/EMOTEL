@@ -1,129 +1,101 @@
 {
  "FictionalCharacters": [
   {
-   "id": "LucyHoneychurch",
+   "name": "Lucy",
    "feels": [
     {
-     "name": "Anger",
+     "name": "Trust",
+     "hasIntensity": 0.5,
+     "quote": "She had chosen the moment before bed, when, in accordance with their bourgeois habit, she always dispensed drinks to the men. Freddy and Mr. Floyd were sure to retire with their glasses, while Cecil invariably lingered, sipping at his while she locked up the sideboard.",
+     "causedByEvent": {
+      "name": "Dispensing drinks before bed",
+      "takePlaceAt": {
+       "name": "Before bed"
+      },
+      "hasParticipant": [
+       {
+        "name": "Lucy"
+       },
+       {
+        "name": "Freddy"
+       },
+       {
+        "name": "Mr. Floyd"
+       },
+       {
+        "name": "Cecil"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Drinks"
+     }
+    },
+    {
+     "name": "Surprise",
      "hasIntensity": 0.8,
-     "quote": "I am very sorry about it,” she said; “I have carefully thought things over. We are too different. I must ask you to release me, and try to forget that there ever was such a foolish girl.",
-     "causedBy": {
-      "id": "Cecil's reaction to her breaking off the engagement"
+     "quote": "The scales fell from Lucy’s eyes. How had she stood Cecil for a moment? He was absolutely intolerable, and the same evening she broke off her engagement.",
+     "causedByEvent": {
+      "name": "Realization of Cecil's intolerable behavior",
+      "takePlaceAt": {
+       "name": "Evening"
+      },
+      "hasParticipant": [
+       {
+        "name": "Lucy"
+       },
+       {
+        "name": "Cecil"
+       }
+      ]
      },
      "hasObject": {
-      "id": "Engagement",
-      "name": "Engagement ring"
-     },
-     "exactPlace": "By the sideboard"
-    },
-    {
-     "name": "Disgust",
-     "hasIntensity": 0.7,
-     "quote": "Different—how—how—”",
-     "causedBy": {
-      "id": "Cecil's reaction to her breaking off the engagement"
-     },
-     "hasObject": {
-      "id": "Engagement",
-      "name": "Engagement"
-     },
-     "exactPlace": "By the sideboard"
-    },
-    {
-     "name": "Anger",
-     "hasIntensity": 0.9,
-     "quote": "You always think women don’t mean what they say.",
-     "causedBy": {
-      "id": "Cecil's reaction to her breaking off the engagement"
-     },
-     "hasObject": {
-      "id": "Engagement",
-      "name": "Engagement"
-     },
-     "exactPlace": "By the sideboard"
-    },
-    {
-     "name": "Disgust",
-     "hasIntensity": 0.8,
-     "quote": "You aren’t like yourself. You’re tired, Lucy.",
-     "causedBy": {
-      "id": "Cecil's reaction to her breaking off the engagement"
-     },
-     "hasObject": {
-      "id": "Engagement",
-      "name": "Engagement"
-     },
-     "exactPlace": "By the sideboard"
+      "name": "Cecil's behavior"
+     }
     },
     {
      "name": "Anger",
      "hasIntensity": 0.9,
-     "quote": "You sound tired, as if something has worried you.",
-     "causedBy": {
-      "id": "Cecil's reaction to her breaking off the engagement"
+     "quote": "It was a suitable speech, but she was more angry than sorry, and her voice showed it.",
+     "causedByEvent": {
+      "name": "Breaking off the engagement",
+      "takePlaceAt": {
+       "name": "Before bed"
+      },
+      "hasParticipant": [
+       {
+        "name": "Lucy"
+       },
+       {
+        "name": "Cecil"
+       }
+      ]
      },
      "hasObject": {
-      "id": "Engagement",
       "name": "Engagement"
-     },
-     "exactPlace": "By the sideboard"
+     }
     },
     {
-     "name": "Disgust",
+     "name": "Relief",
      "hasIntensity": 0.7,
-     "quote": "You must excuse me if I say stupid things, but my brain has gone to pieces.",
-     "causedBy": {
-      "id": "Cecil's reaction to her breaking off the engagement"
+     "quote": "He was bewildered. He had nothing to say. He was not even angry, but stood, with a glass of whiskey between his hands, trying to think what had led her to such a conclusion.",
+     "causedByEvent": {
+      "name": "Lucy breaking off the engagement",
+      "takePlaceAt": {
+       "name": "Before bed"
+      },
+      "hasParticipant": [
+       {
+        "name": "Lucy"
+       },
+       {
+        "name": "Cecil"
+       }
+      ]
      },
      "hasObject": {
-      "id": "Engagement",
-      "name": "Engagement"
-     },
-     "exactPlace": "By the sideboard"
-    }
-   ]
-  },
-  {
-   "id": "CecilVyse",
-   "feels": [
-    {
-     "name": "Confusion",
-     "hasIntensity": 0.8,
-     "quote": "I don’t understand you. You aren’t like yourself. You’re tired, Lucy.",
-     "causedBy": {
-      "id": "Lucy breaking off the engagement"
-     },
-     "hasObject": {
-      "id": "Engagement",
-      "name": "Engagement"
-     },
-     "exactPlace": "By the sideboard"
-    },
-    {
-     "name": "Confusion",
-     "hasIntensity": 0.9,
-     "quote": "Well, you sound tired, as if something has worried you.",
-     "causedBy": {
-      "id": "Lucy breaking off the engagement"
-     },
-     "hasObject": {
-      "id": "Engagement",
-      "name": "Engagement"
-     },
-     "exactPlace": "By the sideboard"
-    },
-    {
-     "name": "Confusion",
-     "hasIntensity": 0.7,
-     "quote": "You had that bad headache yesterday—All right",
-     "causedBy": {
-      "id": "Lucy breaking off the engagement"
-     },
-     "hasObject": {
-      "id": "Engagement",
-      "name": "Engagement"
-     },
-     "exactPlace": "By the sideboard"
+      "name": "Breaking off the engagement"
+     }
     }
    ]
   }

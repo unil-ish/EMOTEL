@@ -1,113 +1,112 @@
 {
  "FictionalCharacters": [
   {
-   "id": "Will Ladislaw",
+   "name": "Dorothea",
    "feels": [
+    {
+     "name": "Trust",
+     "hasIntensity": 0.9,
+     "quote": "Pray sit down,” said Dorothea, crossing her hands on her lap; “I am very glad you were here.”",
+     "causedByEvent": {
+      "name": "Seeing Will Ladislaw",
+      "takePlaceAt": {
+       "name": "Library at the Grange"
+      }
+     },
+     "hasObject": {
+      "name": "Will Ladislaw"
+     }
+    },
+    {
+     "name": "Surprise",
+     "hasIntensity": 0.7,
+     "quote": "As Mrs. Kell closed the door behind her they met: each was looking at the other, and consciousness was overflowed by something that suppressed utterance.",
+     "causedByEvent": {
+      "name": "Meeting Will Ladislaw unexpectedly",
+      "takePlaceAt": {
+       "name": "Library at the Grange"
+      }
+     },
+     "hasObject": {
+      "name": "Will Ladislaw"
+     }
+    },
+    {
+     "name": "Sadness",
+     "hasIntensity": 0.8,
+     "quote": "The tears came and rolled down her cheeks, but she did not know it. The world, it seemed, was turning ugly and hateful, and there was no place for her trustfulness.",
+     "causedByEvent": {
+      "name": "Feeling betrayed by the world",
+      "takePlaceAt": {
+       "name": "Carriage passing under the archway of the lodge-gate at the Grange"
+      }
+     },
+     "hasObject": {
+      "name": "The world"
+     }
+    },
     {
      "name": "Anger",
-     "hasIntensity": 0.8,
-     "quote": "You shall keep your ill-gotten money. If I had any fortune of my own, I would willingly pay it to any one who could disprove what you have told me.",
-     "causedBy": {
-      "id": "Bulstrode's revelation about his mother's family",
-      "name": "Revelation about his mother's family"
-     },
-     "hasObject": {
-      "id": "Bulstrode",
-      "name": "Bulstrode"
-     },
-     "place": {
-      "id": "Bulstrode's private room",
-      "name": "Bulstrode's private room"
-     }
-    },
-    {
-     "name": "Indignation",
-     "hasIntensity": 0.9,
-     "quote": "I will not hear any evil spoken of Mr. Ladislaw; he has already suffered too much injustice.",
-     "causedBy": {
-      "id": "Gossip about Ladislaw",
-      "name": "Gossip about Ladislaw"
-     },
-     "hasObject": {
-      "id": "Sir James and Mrs. Cadwallader",
-      "name": "Sir James and Mrs. Cadwallader"
-     },
-     "place": {
-      "id": "Freshitt",
-      "name": "Freshitt"
-     }
-    },
-    {
-     "name": "Sadness",
      "hasIntensity": 0.7,
-     "quote": "The tears came and rolled down her cheeks, but she did not know it.",
-     "causedBy": {
-      "id": "Gossip about Ladislaw",
-      "name": "Gossip about Ladislaw"
+     "quote": "Her face was flushed and her lip trembled.",
+     "causedByEvent": {
+      "name": "Feeling angry at the injustice towards Will Ladislaw",
+      "takePlaceAt": {
+       "name": "Carriage passing under the archway of the lodge-gate at the Grange"
+      }
      },
      "hasObject": {
-      "id": "Sir James and Mrs. Cadwallader",
-      "name": "Sir James and Mrs. Cadwallader"
-     },
-     "place": {
-      "id": "Carriage",
-      "name": "Carriage"
+      "name": "Injustice towards Will Ladislaw"
      }
     }
    ]
   },
   {
-   "id": "Dorothea",
+   "name": "Will Ladislaw",
    "feels": [
     {
-     "name": "Indignation",
-     "hasIntensity": 0.9,
-     "quote": "I will not hear any evil spoken of Mr. Ladislaw; he has already suffered too much injustice.",
-     "causedBy": {
-      "id": "Gossip about Ladislaw",
-      "name": "Gossip about Ladislaw"
+     "name": "Trust",
+     "hasIntensity": 0.8,
+     "quote": "Pray sit down,” said Dorothea, crossing her hands on her lap; “I am very glad you were here.”",
+     "causedByEvent": {
+      "name": "Seeing Dorothea",
+      "takePlaceAt": {
+       "name": "Library at the Grange"
+      }
      },
      "hasObject": {
-      "id": "Sir James and Mrs. Cadwallader",
-      "name": "Sir James and Mrs. Cadwallader"
-     },
-     "place": {
-      "id": "Freshitt",
-      "name": "Freshitt"
+      "name": "Dorothea"
      }
     },
     {
-     "name": "Sadness",
+     "name": "Surprise",
      "hasIntensity": 0.7,
-     "quote": "The tears came and rolled down her cheeks, but she did not know it.",
-     "causedBy": {
-      "id": "Gossip about Ladislaw",
-      "name": "Gossip about Ladislaw"
+     "quote": "As Mrs. Kell closed the door behind her they met: each was looking at the other, and consciousness was overflowed by something that suppressed utterance.",
+     "causedByEvent": {
+      "name": "Meeting Dorothea unexpectedly",
+      "takePlaceAt": {
+       "name": "Library at the Grange"
+      }
      },
      "hasObject": {
-      "id": "Sir James and Mrs. Cadwallader",
-      "name": "Sir James and Mrs. Cadwallader"
+      "name": "Dorothea"
+     }
+    },
+    {
+     "name": "Indignation",
+     "hasIntensity": 0.9,
+     "quote": "I have been grossly insulted in your eyes and in the eyes of others. There has been a mean implication against my character.",
+     "causedByEvent": {
+      "name": "Feeling insulted by others",
+      "takePlaceAt": {
+       "name": "Library at the Grange"
+      }
      },
-     "place": {
-      "id": "Carriage",
-      "name": "Carriage"
+     "hasObject": {
+      "name": "Others"
      }
     }
    ]
-  }
- ],
- "Places": [
-  {
-   "id": "Bulstrode's private room",
-   "name": "Bulstrode's private room"
-  },
-  {
-   "id": "Freshitt",
-   "name": "Freshitt"
-  },
-  {
-   "id": "Carriage",
-   "name": "Carriage"
   }
  ]
 }

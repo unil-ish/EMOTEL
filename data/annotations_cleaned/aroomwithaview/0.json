@@ -1,95 +1,103 @@
 {
  "FictionalCharacters": [
   {
-   "id": "texts/aroomwithaview.txt#Lucy",
+   "name": "Miss_Lavish",
+   "feels": [
+    {
+     "name": "Excitement",
+     "hasIntensity": 0.7,
+     "quote": "“There goes my local-colour box! I must have a word with him!”",
+     "hasObject": {
+      "name": "Localcolour_box"
+     },
+     "causedBy": {
+      "name": "Spotting_a_localcolour_box",
+      "takePlaceAt": {
+       "name": "Santa_Croce"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "Lucy",
    "feels": [
     {
      "name": "Confusion",
-     "hasIntensity": 0.7,
-     "quote": "She was sure that she ought not to be with these men; but they had cast a spell over her.",
-     "causedBy": {
-      "id": "texts/aroomwithaview.txt#Being_in_the_presence_of_the_Emersons",
-      "name": "Being_in_the_presence_of_the_Emersons"
-     },
+     "hasIntensity": 0.8,
+     "quote": "Lucy again felt that this did not do.",
      "hasObject": {
-      "id": "texts/aroomwithaview.txt#Emersons",
-      "name": "Emersons"
+      "name": "Mr_Emerson_s_statement"
      },
-     "exactPlace": "Inside Santa Croce",
-     "id": "Confusion"
+     "causedBy": {
+      "name": "Mr_Emerson_s_statement",
+      "takePlaceAt": {
+       "name": "Santa_Croce"
+      }
+     }
     },
     {
      "name": "Pity",
      "hasIntensity": 0.6,
-     "quote": "She was no theologian, but she felt that here was a very foolish old man, as well as a very irreligious one.",
-     "causedBy": {
-      "id": "texts/aroomwithaview.txt#Mr_Emerson_s_comments_on_his_son",
-      "name": "Mr_Emerson_s_comments_on_his_son"
-     },
+     "quote": "The old man’s face saddened, and he touched her gently with his hand.",
      "hasObject": {
-      "id": "texts/aroomwithaview.txt#Mr_Emerson",
       "name": "Mr_Emerson"
      },
-     "exactPlace": "Inside Santa Croce",
-     "id": "Pity"
+     "causedBy": {
+      "name": "Mr_Emerson_s_reaction",
+      "takePlaceAt": {
+       "name": "Santa_Croce"
+      }
+     }
     },
     {
      "name": "Amusement",
-     "hasIntensity": 0.8,
-     "quote": "Surely one ought to laugh. A young man melancholy because the universe wouldn’t fit, because life was a tangle or a wind, or a Yes, or something!",
-     "causedBy": {
-      "id": "texts/aroomwithaview.txt#Mr_Emerson_s_philosophical_musings",
-      "name": "Mr_Emerson_s_philosophical_musings"
-     },
+     "hasIntensity": 0.9,
+     "quote": "Suddenly she laughed; surely one ought to laugh.",
      "hasObject": {
-      "id": "texts/aroomwithaview.txt#Mr_Emerson_s_musings",
-      "name": "Mr_Emerson_s_musings"
+      "name": "Mr_Emerson_s_statement"
      },
-     "exactPlace": "Inside Santa Croce",
-     "id": "Amusement"
-    },
-    {
-     "name": "Maternal_Concern",
-     "hasIntensity": 0.7,
-     "quote": "The dear George, now striding towards them over the tombstones, seemed both pitiable and absurd.",
      "causedBy": {
-      "id": "texts/aroomwithaview.txt#Mr_Emerson_s_demeanor",
-      "name": "Mr_Emerson_s_demeanor"
-     },
-     "hasObject": {
-      "id": "texts/aroomwithaview.txt#George_Emerson",
-      "name": "George_Emerson"
-     },
-     "exactPlace": "Inside Santa Croce",
-     "id": "Maternal_Concern"
+      "name": "Mr_Emerson_s_statement",
+      "takePlaceAt": {
+       "name": "Santa_Croce"
+      }
+     }
     }
-   ],
-   "name": "Lucy"
-  }
- ],
- "Places": [
-  {
-   "id": "texts/aroomwithaview.txt#Santa_Croce",
-   "name": "Santa_Croce",
-   "description": "A church in Florence"
-  }
- ],
- "Events": [
-  {
-   "id": "texts/aroomwithaview.txt#Loss_of_Baedeker",
-   "name": "Loss_of_Baedeker",
-   "takePlaceAt": {
-    "id": "texts/aroomwithaview.txt#place1",
-    "name": "place1"
-   }
+   ]
   },
   {
-   "id": "texts/aroomwithaview.txt#Mr_Emerson_s_philosophical_musings",
-   "name": "Mr_Emerson_s_philosophical_musings",
-   "takePlaceAt": {
-    "id": "texts/aroomwithaview.txt#place1",
-    "name": "place1"
-   }
+   "name": "Mr_Emerson",
+   "feels": [
+    {
+     "name": "Sorrow",
+     "hasIntensity": 0.7,
+     "quote": "The old man’s face saddened, and he touched her gently with his hand.",
+     "hasObject": {
+      "name": "Lucy"
+     },
+     "causedBy": {
+      "name": "Lucy_s_reaction",
+      "takePlaceAt": {
+       "name": "Santa_Croce"
+      }
+     }
+    },
+    {
+     "name": "Anxiety",
+     "hasIntensity": 0.8,
+     "quote": "Why will he look at that fresco?” he said uneasily.",
+     "hasObject": {
+      "name": "George_s_behavior"
+     },
+     "causedBy": {
+      "name": "Observing_George_s_behavior",
+      "takePlaceAt": {
+       "name": "Santa_Croce"
+      }
+     }
+    }
+   ]
   }
  ]
 }

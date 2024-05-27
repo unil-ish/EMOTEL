@@ -1,63 +1,124 @@
 {
  "FictionalCharacters": [
   {
-   "id": "fc1",
-   "name": "Jo",
+   "name": "Jo March",
    "feels": [
-    {
-     "name": "Relief",
-     "hasIntensity": 0.9,
-     "quote": "A dreadful fear passed coldly over Jo, as she thought, 'Beth is dead, and Meg is afraid to tell me.' She was back at her post in an instant, and to her excited eyes a great change seemed to have taken place.",
-     "cause": "Seeing Meg kneeling before their mother's easy-chair",
-     "place": "By the bed"
-    },
-    {
-     "name": "Joy",
-     "hasIntensity": 0.95,
-     "quote": "Leaning low over this dearest of her sisters, she kissed the damp forehead with her heart on her lips, and softly whispered, 'Good-by, my Beth; good-by!'",
-     "cause": "Seeing the peaceful expression on Beth's face",
-     "place": "By the bed"
-    },
     {
      "name": "Hope",
      "hasIntensity": 0.9,
-     "quote": "When they went back to be kissed and cuddled by faithful Hannah, they found Beth lying, as she used to do, with her cheek pillowed on her hand, the dreadful pallor gone, and breathing quietly, as if just fallen asleep.",
-     "cause": "Confirmation from the doctor that Beth will pull through",
-     "place": "By the bed"
+     "quote": "If God spares Beth I never will complain again.",
+     "causeByEvent": {
+      "name": "Beth's recovery",
+      "takePlaceAt": {
+       "name": "Sick-room"
+      }
+     },
+     "hasObject": {
+      "name": "Beth's recovery"
+     }
     },
     {
      "name": "Gratitude",
-     "hasIntensity": 0.85,
-     "quote": "When they went back to be kissed and cuddled by faithful Hannah, they found Beth lying, as she used to do, with her cheek pillowed on her hand, the dreadful pallor gone, and breathing quietly, as if just fallen asleep.",
-     "cause": "Confirmation from the doctor that Beth will pull through",
-     "place": "By the bed"
+     "hasIntensity": 0.8,
+     "quote": "O Laurie! O mother! I am so glad!",
+     "causeByEvent": {
+      "name": "Laurie's news about mother's arrival",
+      "takePlaceAt": {
+       "name": "Home"
+      }
+     },
+     "hasObject": {
+      "name": "Laurie's news about mother's arrival"
+     }
+    },
+    {
+     "name": "Relief",
+     "hasIntensity": 0.9,
+     "quote": "Good-by, my Beth; good-by!",
+     "causeByEvent": {
+      "name": "Beth's peaceful repose",
+      "takePlaceAt": {
+       "name": "Sick-room"
+      }
+     },
+     "hasObject": {
+      "name": "Beth's peaceful repose"
+     }
+    },
+    {
+     "name": "Joy",
+     "hasIntensity": 0.9,
+     "quote": "It looks like a fairy world.",
+     "causeByEvent": {
+      "name": "Seeing the beautiful morning",
+      "takePlaceAt": {
+       "name": "Early morning"
+      }
+     },
+     "hasObject": {
+      "name": "Seeing the beautiful morning"
+     }
     }
    ]
   },
   {
-   "id": "fc2",
-   "name": "Meg",
+   "name": "Meg March",
    "feels": [
     {
      "name": "Hope",
      "hasIntensity": 0.9,
-     "quote": "Before the girls could believe the happy truth, the doctor came to confirm it. He was a homely man, but they thought his face quite heavenly when he smiled, and said, with a fatherly look at them, 'Yes, my dears, I think the little girl will pull through this time.'",
-     "cause": "Confirmation from the doctor that Beth will pull through",
-     "place": "By the bed"
+     "quote": "If God spares Beth I never will complain again.",
+     "causeByEvent": {
+      "name": "Beth's recovery",
+      "takePlaceAt": {
+       "name": "Sick-room"
+      }
+     },
+     "hasObject": {
+      "name": "Beth's recovery"
+     }
+    },
+    {
+     "name": "Gratitude",
+     "hasIntensity": 0.8,
+     "quote": "O Laurie! O mother! I am so glad!",
+     "causeByEvent": {
+      "name": "Laurie's news about mother's arrival",
+      "takePlaceAt": {
+       "name": "Home"
+      }
+     },
+     "hasObject": {
+      "name": "Laurie's news about mother's arrival"
+     }
+    },
+    {
+     "name": "Relief",
+     "hasIntensity": 0.9,
+     "quote": "Good-by, my Beth; good-by!",
+     "causeByEvent": {
+      "name": "Beth's peaceful repose",
+      "takePlaceAt": {
+       "name": "Sick-room"
+      }
+     },
+     "hasObject": {
+      "name": "Beth's peaceful repose"
+     }
     },
     {
      "name": "Joy",
      "hasIntensity": 0.9,
-     "quote": "Never had the sun risen so beautifully, and never had the world seemed so lovely, as it did to the heavy eyes of Meg and Jo, as they looked out in the early morning, when their long, sad vigil was done.",
-     "cause": "The end of their long, sad vigil",
-     "place": "Looking out in the early morning"
-    },
-    {
-     "name": "Gratitude",
-     "hasIntensity": 0.85,
-     "quote": "When they went back to be kissed and cuddled by faithful Hannah, they found Beth lying, as she used to do, with her cheek pillowed on her hand, the dreadful pallor gone, and breathing quietly, as if just fallen asleep.",
-     "cause": "Confirmation from the doctor that Beth will pull through",
-     "place": "By the bed"
+     "quote": "It looks like a fairy world.",
+     "causeByEvent": {
+      "name": "Seeing the beautiful morning",
+      "takePlaceAt": {
+       "name": "Early morning"
+      }
+     },
+     "hasObject": {
+      "name": "Seeing the beautiful morning"
+     }
     }
    ]
   }

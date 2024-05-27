@@ -1,114 +1,51 @@
 {
  "FictionalCharacters": [
   {
-   "id": "fc1",
    "name": "Count Fathom",
    "feels": [
     {
-     "name": "Joy",
-     "hasIntensity": 0.9,
-     "quote": "Fathom was pleased with the success of his schemes and the admiration he received.",
-     "causedBy": {
-      "id": "event1",
-      "name": "Success in his schemes and admiration received"
+     "name": "Amazement",
+     "hasIntensity": 0.7,
+     "quote": "His adversaries, finding themselves disappointed in this effort, held a consultation to devise other measures against him, and came to a resolution of ending him by the sword, or rather of expelling him from the kingdom by the fear of death, which they hoped he had not courage enough to resist, because his deportment had always been remarkably mild and pacific.",
+     "causedByEvent": {
+      "name": "Adversaries plotting against him",
+      "takePlaceAt": {
+       "name": "Unknown location"
+      }
      },
      "hasObject": {
-      "id": "object1",
-      "name": "Success and admiration"
-     },
-     "place": {
-      "id": "place1",
-      "name": "Coffee-house"
+      "name": "Adversaries"
      }
     },
     {
      "name": "Fear",
      "hasIntensity": 0.8,
-     "quote": "The chevalier became jaundiced with terror and dismay upon seeing Fathom's bloody sword.",
-     "causedBy": {
-      "id": "event2",
-      "name": "Fathom displaying his bloody sword"
+     "quote": "This phenomenon made such an impression upon the astonished chevalier, already discomposed by the resolute behaviour of the Count, that he became jaundiced with terror and dismay, and, while his teeth chattered in his head, told our hero he had hoped, from his known politeness, to have found him ready to acknowledge an injury which might have been the effect of anger or misapprehension, in which case the affair might have been compromised to their mutual satisfaction, without proceeding to those extremities which, among men of honour, are always accounted the last resource.",
+     "causedByEvent": {
+      "name": "Display of bloodied sword",
+      "takePlaceAt": {
+       "name": "Count's lodgings"
+      }
      },
      "hasObject": {
-      "id": "object2",
-      "name": "Bloody sword"
-     },
-     "place": {
-      "id": "place2",
-      "name": "Count's lodgings"
+      "name": "Bloodied sword"
      }
     },
     {
      "name": "Anger",
-     "hasIntensity": 0.7,
-     "quote": "Fathom was resolved to chastise the chevalier for his insolent behaviour.",
-     "causedBy": {
-      "id": "event3",
-      "name": "Chevalier's insolent behaviour"
+     "hasIntensity": 0.9,
+     "quote": "Fathom having chid the servant for admitting people without his order, desired the Swiss to excuse him for a minute longer, and went in to the next room, from whence the following dialogue was overheard by this challenger:—“Count,” said the stranger, “you are not ignorant of my pretensions to the heart of that young lady, at whose house I met you yesterday; therefore you cannot be surprised when I declare myself displeased with your visits and behaviour to my mistress, and demand that you will instantly promise to drop the correspondence.” “Else what follows?” answered Ferdinand, with a cool and temperate voice. “My resentment and immediate defiance,” replied the other; “for the only alternative I propose is, to forego your design upon that lady, or to decide our pretension by the sword.”",
+     "causedByEvent": {
+      "name": "Stranger demanding Count to drop correspondence with a lady",
+      "takePlaceAt": {
+       "name": "Count's lodgings"
+      }
      },
      "hasObject": {
-      "id": "object3",
-      "name": "Chevalier's insolent behaviour"
-     },
-     "place": {
-      "id": "place3",
-      "name": "Count's lodgings"
-     }
-    },
-    {
-     "name": "Surprise",
-     "hasIntensity": 0.6,
-     "quote": "Fathom was surprised by the unexpected demand from the stranger regarding the lady.",
-     "causedBy": {
-      "id": "event4",
-      "name": "Stranger's demand regarding the lady"
-     },
-     "hasObject": {
-      "id": "object4",
-      "name": "Stranger's demand"
-     },
-     "place": {
-      "id": "place4",
-      "name": "Count's lodgings"
+      "name": "Stranger"
      }
     }
    ]
-  }
- ],
- "Places": [
-  {
-   "id": "place1",
-   "name": "Coffee-house"
-  },
-  {
-   "id": "place2",
-   "name": "Count's lodgings"
-  },
-  {
-   "id": "place3",
-   "name": "Count's lodgings"
-  },
-  {
-   "id": "place4",
-   "name": "Count's lodgings"
-  }
- ],
- "Events": [
-  {
-   "id": "event1",
-   "name": "Success in his schemes and admiration received"
-  },
-  {
-   "id": "event2",
-   "name": "Fathom displaying his bloody sword"
-  },
-  {
-   "id": "event3",
-   "name": "Chevalier's insolent behaviour"
-  },
-  {
-   "id": "event4",
-   "name": "Stranger's demand regarding the lady"
   }
  ]
 }

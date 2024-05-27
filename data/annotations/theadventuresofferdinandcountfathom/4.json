@@ -1,113 +1,122 @@
 {
  "FictionalCharacters": [
   {
-   "id": "fc1",
    "name": "Count Fathom",
    "feels": [
     {
      "name": "Trust",
      "hasIntensity": 0.9,
-     "quote": "Fathom, foreseeing that the affair might be managed for his own interest, professed himself of the baronet’s opinion; and, without hesitation, undertook the office of a mediator.",
-     "causedBy": {
-      "id": "event1",
-      "name": "Baronet seeking advice"
+     "quote": "Fathom, who had hitherto observed a strict neutrality, no sooner perceived them approach, than he leaped in between the disputants, that he might be found acting in the character of a peacemaker.",
+     "causedByEvent": {
+      "name": "Intervening in a fight between the English knight and the German count",
+      "takePlaceAt": {
+       "name": "House of the obliging dame"
+      },
+      "hasParticipant": [
+       {
+        "name": "Count Fathom"
+       },
+       {
+        "name": "English knight"
+       },
+       {
+        "name": "German count"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object1",
-      "name": "Baronet"
-     },
-     "exactPlace": "Lodgings"
+      "name": "Resolving a conflict"
+     }
     },
     {
      "name": "Surprise",
      "hasIntensity": 0.7,
-     "quote": "The count was so much enraged at these sarcastic observations, that his faculty of speech was overwhelmed by his resentment.",
-     "causedBy": {
-      "id": "event2",
-      "name": "Sarcastic observations"
+     "quote": "The knight, that he might not be behindhand with the Westphalian in point of courtesy, returned the compliment with the remaining chandelier, which also missed its mark, and, smiting a large mirror that was fixed behind them, emitted such a crash as one might expect to hear if a mine were sprung beneath a manufacture of glass.",
+     "causedByEvent": {
+      "name": "Throwing a chandelier during a fight",
+      "takePlaceAt": {
+       "name": "House of the obliging dame"
+      },
+      "hasParticipant": [
+       {
+        "name": "English knight"
+       },
+       {
+        "name": "German count"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object2",
-      "name": "Sarcastic observations"
-     },
-     "exactPlace": "Hotel"
+      "name": "Chandelier"
+     }
     },
     {
      "name": "Anger",
      "hasIntensity": 0.8,
-     "quote": "The German, enraged at this comparison, was quite abandoned by his patience and discretion.",
-     "causedBy": {
-      "id": "event3",
-      "name": "Comparison to a Westphalian hog"
+     "quote": "The German, enraged at this comparison, was quite abandoned by his patience and discretion. He called the knight an English clown, and, swearing he was the most untoward beast of a whole nation of mules, snatched up one of the candlesticks, which he launched at him with such force and violence, that it sung through the air, and, winging its flight into the ante-chamber, encountered the skull of his own valet, who with immediate prostration received the message of his master.",
+     "causedByEvent": {
+      "name": "Launching a candlestick at the English knight",
+      "takePlaceAt": {
+       "name": "House of the obliging dame"
+      },
+      "hasParticipant": [
+       {
+        "name": "German count"
+       },
+       {
+        "name": "English knight"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object3",
-      "name": "Comparison"
-     },
-     "exactPlace": "Hotel"
+      "name": "Candlestick"
+     }
     },
     {
      "name": "Joy",
-     "hasIntensity": 0.6,
-     "quote": "Having received the Englishman’s acknowledgments for this instance of friendship, he forthwith set out for the place of the German’s habitation.",
-     "causedBy": {
-      "id": "event4",
-      "name": "Acknowledgments from Englishman"
+     "hasIntensity": 0.7,
+     "quote": "Fathom having reconnoitred this peculiarity of temper, instead of treating him with that assiduous complaisance, which he received from the other gentlemen of the party, kept aloof from him in the conversation, with a remarkable shyness of distant civility, and seldom took notice of what he said, except with a view to contradict him, or retort some of his satirical observations.",
+     "causedByEvent": {
+      "name": "Observing the English knight's behaviour",
+      "takePlaceAt": {
+       "name": "House of the obliging dame"
+      },
+      "hasParticipant": [
+       {
+        "name": "Count Fathom"
+       },
+       {
+        "name": "English knight"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object4",
-      "name": "Acknowledgments"
+      "name": "Understanding the English knight's character"
+     }
+    },
+    {
+     "name": "Acceptance",
+     "hasIntensity": 0.8,
+     "quote": "Fathom, finding him in a fit temper of mind, took the opportunity of assenting to the reasonableness of his observation. He ventured to condemn the impetuosity of the baronet, who, he perceived, was extremely nice and scrupulous in the punctilios of honour; and said it was a pity that two gentlemen should forfeit each other’s friendship, much less expose their lives, for such a frivolous cause.",
+     "causedByEvent": {
+      "name": "Agreeing with the German count's perspective",
+      "takePlaceAt": {
+       "name": "German count's habitation"
+      },
+      "hasParticipant": [
+       {
+        "name": "Count Fathom"
+       },
+       {
+        "name": "German count"
+       }
+      ]
      },
-     "exactPlace": "German's habitation"
+     "hasObject": {
+      "name": "Resolving to avoid a duel"
+     }
     }
    ]
-  }
- ],
- "Places": [
-  {
-   "id": "place1",
-   "name": "Lodgings",
-   "description": "Accommodation in the Fauxbourg de St. Germain"
-  },
-  {
-   "id": "place2",
-   "name": "Hotel",
-   "description": "Reputable place frequented by fashionable strangers"
-  },
-  {
-   "id": "place3",
-   "name": "German's habitation",
-   "description": "Count's residence"
-  }
- ],
- "Events": [
-  {
-   "id": "event1",
-   "name": "Baronet seeking advice",
-   "takePlaceAt": {
-    "id": "place1"
-   }
-  },
-  {
-   "id": "event2",
-   "name": "Sarcastic observations",
-   "takePlaceAt": {
-    "id": "place2"
-   }
-  },
-  {
-   "id": "event3",
-   "name": "Comparison to a Westphalian hog",
-   "takePlaceAt": {
-    "id": "place2"
-   }
-  },
-  {
-   "id": "event4",
-   "name": "Acknowledgments from Englishman",
-   "takePlaceAt": {
-    "id": "place3"
-   }
   }
  ]
 }

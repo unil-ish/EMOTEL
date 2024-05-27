@@ -1,73 +1,63 @@
 {
  "FictionalCharacters": [
   {
-   "name": "Miss Matty",
+   "name": "Miss Jenkyns",
    "feels": [
     {
-     "name": "Trust",
-     "hasIntensity": 0.9,
-     "quote": "Martha, you are young... if you meet with such a young man, and tell me, and I find he is respectable, I have no objection to his coming to see you once a week. God forbid! that I should grieve any young hearts.",
-     "causedBy": {
-      "name": "Martha mentioning Jem Hearn"
+     "name": "Acceptance",
+     "hasIntensity": 0.7,
+     "quote": "Miss Matty made a strong effort to conceal her feelings—a concealment she practised even with me, for she has never alluded to Mr Holbrook again, although the book he gave her lies with her Bible on the little table by her bedside.",
+     "causedByEvent": {
+      "name": "Mr Holbrook's death",
+      "takePlaceAt": {
+       "name": "Cranford"
+      }
      },
      "hasObject": {
-      "name": "Jem Hearn"
-     },
-     "exactPlace": "Miss Matty's drawing-room"
-    },
-    {
-     "name": "Surprise",
-     "hasIntensity": 0.7,
-     "quote": "Miss Matty was startled, she submitted to Fate and Love.",
-     "exactPlace": "Miss Matty's drawing-room"
+      "name": "Mr Holbrook's book"
+     }
     },
     {
      "name": "Sadness",
      "hasIntensity": 0.8,
      "quote": "Miss Matty heard the news in silence; in fact, from the account of the previous day, it was only what we had to expect.",
-     "exactPlace": "Miss Matty's drawing-room"
+     "causedByEvent": {
+      "name": "Mr Holbrook's death",
+      "takePlaceAt": {
+       "name": "Cranford"
+      }
+     },
+     "hasObject": {
+      "name": "Mr Holbrook"
+     }
     },
     {
-     "name": "Acceptance",
-     "hasIntensity": 0.9,
-     "quote": "She spoke as if she were providing for some distant contingency, and was rather startled when Martha made her ready eager answer.",
-     "exactPlace": "Miss Matty's drawing-room"
-    }
-   ]
-  }
- ],
- "Places": [
-  {
-   "name": "Miss Matty's drawing-room",
-   "description": "A small, quiet room with a little table by her bedside where she keeps a book given by Mr. Holbrook."
-  }
- ],
- "Events": [
-  {
-   "name": "Mr. Holbrook's Death",
-   "takePlaceAt": {
-    "name": "Miss Matty's house"
-   },
-   "hasParticipant": [
-    {
-     "name": "Miss Matty"
+     "name": "Trust",
+     "hasIntensity": 0.6,
+     "quote": "God forbid! said she in a low voice, that I should grieve any young hearts.",
+     "causedByEvent": {
+      "name": "Martha mentioning Jem Hearn",
+      "takePlaceAt": {
+       "name": "Miss Matty's house"
+      }
+     },
+     "hasObject": {
+      "name": "Young hearts"
+     }
     },
     {
-     "name": "Miss Pole"
-    }
-   ]
-  },
-  {
-   "name": "Miss Matty's Decision on Martha's Relationship",
-   "takePlaceAt": {
-    "name": "Miss Matty's drawing-room"
-   },
-   "hasParticipant": [
-    {
-     "name": "Miss Matty"
-    },
-    {
-     "name": "Martha"
+     "name": "Surprise",
+     "hasIntensity": 0.5,
+     "quote": "Miss Matty was very silent and thoughtful; after prayers she called Martha back and then she stood uncertain what to say.",
+     "causedByEvent": {
+      "name": "Mr Holbrook's death",
+      "takePlaceAt": {
+       "name": "Cranford"
+      }
+     },
+     "hasObject": {
+      "name": "Martha"
+     }
     }
    ]
   }

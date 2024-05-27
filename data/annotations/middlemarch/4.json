@@ -1,132 +1,172 @@
 {
  "FictionalCharacters": [
   {
-   "id": "Rosamond Vincy",
+   "name": "Rosamond Vincy",
    "feels": [
     {
      "name": "Trust",
      "hasIntensity": 0.8,
-     "quote": "Rosamond, with her gravest mildness; 'I would not tell mamma for the world.'",
-     "causedBy": {
-      "id": "Uncle's inappropriate introduction"
+     "quote": "She bowed and looked at him: he of course was looking at her, and their eyes met with that peculiar meeting which is never arrived at by effort, but seems like a sudden divine clearance of haze.",
+     "causedByEvent": {
+      "name": "Meeting Mr. Lydgate",
+      "takePlaceAt": {
+       "name": "Featherstone's house"
+      },
+      "hasParticipant": [
+       {
+        "name": "Rosamond Vincy"
+       },
+       {
+        "name": "Mr. Lydgate"
+       }
+      ]
      },
      "hasObject": {
-      "id": "Uncle"
-     },
-     "exactPlace": "Sitting room"
+      "name": "Mr. Lydgate"
+     }
     },
     {
      "name": "Surprise",
      "hasIntensity": 0.7,
      "quote": "Rosamond blushed deeply and felt a certain astonishment.",
-     "causedBy": {
-      "id": "Meeting Lydgate"
+     "causedByEvent": {
+      "name": "Meeting Mr. Lydgate",
+      "takePlaceAt": {
+       "name": "Featherstone's house"
+      },
+      "hasParticipant": [
+       {
+        "name": "Rosamond Vincy"
+       },
+       {
+        "name": "Mr. Lydgate"
+       }
+      ]
      },
      "hasObject": {
-      "id": "Lydgate"
-     },
-     "exactPlace": "Sitting room"
+      "name": "Mr. Lydgate"
+     }
     },
     {
      "name": "Joy",
      "hasIntensity": 0.9,
      "quote": "Rosamond could not doubt that this was the great epoch of her life.",
-     "causedBy": {
-      "id": "Meeting Lydgate"
+     "causedByEvent": {
+      "name": "Meeting Mr. Lydgate",
+      "takePlaceAt": {
+       "name": "Featherstone's house"
+      },
+      "hasParticipant": [
+       {
+        "name": "Rosamond Vincy"
+       }
+      ]
      },
      "hasObject": {
-      "id": "Lydgate"
-     },
-     "exactPlace": "Sitting room"
+      "name": "Meeting Mr. Lydgate"
+     }
     },
     {
      "name": "Anticipation",
      "hasIntensity": 0.8,
      "quote": "Rosamond, though no older than Mary, was rather used to being fallen in love with; but she, for her part, had remained indifferent and fastidiously critical towards both fresh sprig and faded bachelor.",
-     "causedBy": {
-      "id": "Imagining her future with Lydgate"
+     "causedByEvent": {
+      "name": "Imagining her future with Mr. Lydgate",
+      "takePlaceAt": {
+       "name": "Riding home"
+      },
+      "hasParticipant": [
+       {
+        "name": "Rosamond Vincy"
+       }
+      ]
      },
      "hasObject": {
-      "id": "Lydgate"
-     },
-     "exactPlace": "On the way home"
-    }
-   ]
-  },
-  {
-   "id": "Mary Garth",
-   "feels": [
-    {
-     "name": "Annoyance",
-     "hasIntensity": 0.7,
-     "quote": "Mary, from some cause, looked rather out of temper.",
-     "causedBy": {
-      "id": "Rosamond's comments"
-     },
-     "hasObject": {
-      "id": "Rosamond"
-     },
-     "exactPlace": "Sitting room"
+      "name": "Future with Mr. Lydgate"
+     }
     },
     {
-     "name": "Disapproval",
-     "hasIntensity": 0.8,
-     "quote": "Mary spoke from a girlish impulse which got the better of her judgment.",
-     "causedBy": {
-      "id": "Rosamond's comments"
+     "name": "Love",
+     "hasIntensity": 0.9,
+     "quote": "Rosamond, though no older than Mary, was rather used to being fallen in love with; but she, for her part, had remained indifferent and fastidiously critical towards both fresh sprig and faded bachelor.",
+     "causedByEvent": {
+      "name": "Imagining her future with Mr. Lydgate",
+      "takePlaceAt": {
+       "name": "Riding home"
+      },
+      "hasParticipant": [
+       {
+        "name": "Rosamond Vincy"
+       }
+      ]
      },
      "hasObject": {
-      "id": "Rosamond"
-     },
-     "exactPlace": "Sitting room"
+      "name": "Future with Mr. Lydgate"
+     }
     }
    ]
   },
   {
-   "id": "Fred Vincy",
+   "name": "Fred Vincy",
    "feels": [
+    {
+     "name": "Anxiety",
+     "hasIntensity": 0.8,
+     "quote": "Fred’s mind, on the other hand, was busy with an anxiety which even his ready hopefulness could not immediately quell.",
+     "causedByEvent": {
+      "name": "Dealing with Featherstone's demand",
+      "takePlaceAt": {
+       "name": "Riding home"
+      },
+      "hasParticipant": [
+       {
+        "name": "Fred Vincy"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Featherstone's demand"
+     }
+    },
+    {
+     "name": "Bitterness",
+     "hasIntensity": 0.7,
+     "quote": "Such ruminations naturally produced a streak of misanthropic bitterness.",
+     "causedByEvent": {
+      "name": "Reflecting on his situation",
+      "takePlaceAt": {
+       "name": "Riding home"
+      },
+      "hasParticipant": [
+       {
+        "name": "Fred Vincy"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "His situation"
+     }
+    },
     {
      "name": "Fear",
-     "hasIntensity": 0.7,
-     "quote": "Fred, who had his own reasons for not being in the best spirits, and wanted to get away.",
-     "causedBy": {
-      "id": "Being in the presence of Lydgate"
+     "hasIntensity": 0.6,
+     "quote": "Fred felt that he made a wretched figure as a fellow who bragged about expectations from a queer old miser like Featherstone, and went to beg for certificates at his bidding.",
+     "causedByEvent": {
+      "name": "Dealing with Featherstone's demand",
+      "takePlaceAt": {
+       "name": "Riding home"
+      },
+      "hasParticipant": [
+       {
+        "name": "Fred Vincy"
+       }
+      ]
      },
      "hasObject": {
-      "id": "Lydgate"
-     },
-     "exactPlace": "Sitting room"
+      "name": "Featherstone's demand"
+     }
     }
    ]
-  },
-  {
-   "id": "Mr. Lydgate",
-   "feels": [
-    {
-     "name": "Admiration",
-     "hasIntensity": 0.9,
-     "quote": "He reached the whip before she did, and turned to present it to her. She bowed and looked at him: he of course was looking at her, and their eyes met with that peculiar meeting which is never arrived at by effort, but seems like a sudden divine clearance of haze.",
-     "causedBy": {
-      "id": "Seeing Rosamond"
-     },
-     "hasObject": {
-      "id": "Rosamond"
-     },
-     "exactPlace": "Sitting room"
-    }
-   ]
-  }
- ],
- "Places": [
-  {
-   "id": "Sitting room",
-   "name": "Sitting Room",
-   "description": "The room where the characters gathered and interacted."
-  },
-  {
-   "id": "On the way home",
-   "name": "On the way home",
-   "description": "The setting where Rosamond was contemplating her future."
   }
  ]
 }

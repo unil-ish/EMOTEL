@@ -1,121 +1,148 @@
 {
  "FictionalCharacters": [
   {
-   "id": "texts/middlemarch.txt#Dorothea",
    "name": "Dorothea",
    "feels": [
     {
      "name": "Love",
-     "hasIntensity": 1,
-     "quote": "Oh, I cannot bear it—my heart will break,” said Dorothea, starting from her seat, the flood of her young passion bearing down all the obstructions which had kept her silent—the great tears rising and falling in an instant: “I don’t mind about poverty—I hate my wealth.”",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Expressing_her_feelings_for_Will",
-      "name": "Expressing_her_feelings_for_Will"
-     },
-     "hasObject": {
-      "id": "texts/middlemarch.txt#Will",
-      "name": "Will"
-     },
-     "exactPlace": "Library",
-     "id": "Love"
-    },
-    {
-     "name": "Sorrow",
      "hasIntensity": 0.9,
-     "quote": "It is impossible!” said Will, angrily. “It is cruel of you to speak in that way—as if there were any comfort. You may see beyond the misery of it, but I don’t. It is unkind—it is throwing back my love for you as if it were a trifle, to speak in that way in the face of the fact. We can never be married.”“Some time—we might,” said Dorothea, in a trembling voice.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Realizing_the_impossibility_of_being_with_Will",
-      "name": "Realizing_the_impossibility_of_being_with_Will"
-     },
+     "quote": "Oh, I cannot bear it—my heart will break,” said Dorothea, starting from her seat, the flood of her young passion bearing down all the obstructions which had kept her silent—the great tears rising and falling in an instant: “I don’t mind about poverty—I hate my wealth.",
      "hasObject": {
-      "id": "texts/middlemarch.txt#Will",
-      "name": "Will"
+      "name": "Marriage_to_Will_Ladislaw"
      },
-     "exactPlace": "Library",
-     "id": "Sorrow"
+     "causedBy": {
+      "name": "Learning_about_Will_s_return_and_marriage",
+      "takePlaceAt": {
+       "name": "Freshitt_Hall"
+      },
+      "hasParticipant": [
+       {
+        "name": "Dorothea"
+       },
+       {
+        "name": "Will_Ladislaw"
+       }
+      ]
+     }
     },
     {
-     "name": "Tenderness",
-     "hasIntensity": 0.95,
-     "quote": "She tripped off to meet her uncle, while Sir James and Mr. Cadwallader came forward to make one group with the ladies. Celia had slipped her arm through her uncle’s, and he patted her hand with a rather melancholy “Well, my dear!” As they approached, it was evident that Mr. Brooke was looking dejected, but this was fully accounted for by the state of politics; and as he was shaking hands all round without more greeting than a “Well, you’re all here, you know,” the Rector said, laughingly—“Don’t take the throwing out of the Bill so much to heart, Brooke; you’ve got all the riff-raff of the country on your side.”",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Feeling_tenderness_towards_her_uncle",
-      "name": "Feeling_tenderness_towards_her_uncle"
-     },
+     "name": "Sadness",
+     "hasIntensity": 0.8,
+     "quote": "It is very dreadful of Dodo, though,” said Celia, wishing to justify her husband. “She said she never would marry again—not anybody at all.",
      "hasObject": {
-      "id": "texts/middlemarch.txt#Uncle",
-      "name": "Uncle"
+      "name": "Marriage_to_Will_Ladislaw"
      },
-     "exactPlace": "Freshitt Hall",
-     "id": "Tenderness"
+     "causedBy": {
+      "name": "Learning_about_Dorothea_s_marriage",
+      "takePlaceAt": {
+       "name": "Freshitt_Hall"
+      },
+      "hasParticipant": [
+       {
+        "name": "Dorothea"
+       },
+       {
+        "name": "Celia"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Determination",
+     "hasIntensity": 0.7,
+     "quote": "Dorothea is quite determined—it is no use opposing. I put it strongly to her. I did my duty, Chettam.",
+     "hasObject": {
+      "name": "Marriage_to_Will_Ladislaw"
+     },
+     "causedBy": {
+      "name": "Decision_to_marry_Will_Ladislaw",
+      "takePlaceAt": {
+       "name": "Freshitt_Hall"
+      },
+      "hasParticipant": {
+       "name": "Dorothea"
+      }
+     }
     }
    ]
   },
   {
-   "id": "texts/middlemarch.txt#Will_Ladislaw",
-   "name": "Will_Ladislaw",
+   "name": "Sir_James_Chettam",
    "feels": [
     {
      "name": "Anger",
-     "hasIntensity": 0.9,
-     "quote": "It is impossible!” said Will, angrily. “It is cruel of you to speak in that way—as if there were any comfort. You may see beyond the misery of it, but I don’t. It is unkind—it is throwing back my love for you as if it were a trifle, to speak in that way in the face of the fact. We can never be married.”“Some time—we might,” said Dorothea, in a trembling voice.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Realizing_the_impossibility_of_being_with_Dorothea",
-      "name": "Realizing_the_impossibility_of_being_with_Dorothea"
-     },
+     "hasIntensity": 0.8,
+     "quote": "It is perfectly scandalous. If Ladislaw had had a spark of honor he would have gone out of the country at once, and never shown his face in it again.",
      "hasObject": {
-      "id": "texts/middlemarch.txt#Dorothea",
-      "name": "Dorothea"
+      "name": "Dorothea_s_marriage_to_Ladislaw"
      },
-     "exactPlace": "Library",
-     "id": "Anger"
+     "causedBy": {
+      "name": "Learning_about_Dorothea_s_marriage_to_Ladislaw",
+      "takePlaceAt": {
+       "name": "Freshitt_Hall"
+      },
+      "hasParticipant": {
+       "name": "Sir_James_Chettam"
+      }
+     }
     },
     {
-     "name": "Love",
-     "hasIntensity": 1,
-     "quote": "In an instant Will was close to her and had his arms round her, but she drew her head back and held his away gently that she might go on speaking, her large tear-filled eyes looking at his very simply, while she said in a sobbing childlike way, “We could live quite well on my own fortune—it is too much—seven hundred a-year—I want so little—no new clothes—and I will learn what everything costs.”",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Feeling_Dorothea_s_love_and_willingness_to_be_with",
-      "name": "Feeling_Dorothea_s_love_and_willingness_to_be_with_him"
-     },
+     "name": "Embarrassment",
+     "hasIntensity": 0.6,
+     "quote": "He had touched a motive of which Sir James was ashamed. The mass of his feeling about Dorothea’s marriage to Ladislaw was due partly to excusable prejudice, or even justifiable opinion, partly to a jealous repugnance hardly less in Ladislaw’s case than in Casaubon’s.",
      "hasObject": {
-      "id": "texts/middlemarch.txt#Dorothea",
-      "name": "Dorothea"
+      "name": "Dorothea_s_marriage_to_Ladislaw"
      },
-     "exactPlace": "Library",
-     "id": "Love"
+     "causedBy": {
+      "name": "Mention_of_the_union_of_Tipton_and_Freshitt_estates",
+      "takePlaceAt": {
+       "name": "Freshitt_Hall"
+      },
+      "hasParticipant": {
+       "name": "Sir_James_Chettam"
+      }
+     }
     }
    ]
-  }
- ],
- "Places": [
-  {
-   "id": "texts/middlemarch.txt#Library",
-   "name": "Library",
-   "description": "A room where Dorothea and Will have an emotional conversation."
   },
   {
-   "id": "texts/middlemarch.txt#Freshitt_Hall",
-   "name": "Freshitt_Hall",
-   "description": "The location where Dorothea's uncle is present and she feels tenderness towards him."
-  }
- ],
- "Events": [
-  {
-   "id": "texts/middlemarch.txt#Expressing_her_feelings_for_Will",
-   "name": "Expressing_her_feelings_for_Will"
-  },
-  {
-   "id": "texts/middlemarch.txt#Realizing_the_impossibility_of_being_with_Will",
-   "name": "Realizing_the_impossibility_of_being_with_Will"
-  },
-  {
-   "id": "texts/middlemarch.txt#Feeling_tenderness_towards_her_uncle",
-   "name": "Feeling_tenderness_towards_her_uncle"
-  },
-  {
-   "id": "texts/middlemarch.txt#Feeling_Dorothea_s_love_and_willingness_to_be_with",
-   "name": "Feeling_Dorothea_s_love_and_willingness_to_be_with_him"
+   "name": "Mrs_Cadwallader",
+   "feels": [
+    {
+     "name": "Satisfaction",
+     "hasIntensity": 0.7,
+     "quote": "The only wonder to me is, that any of you are surprised. You did nothing to hinder it.",
+     "hasObject": {
+      "name": "Dorothea_s_marriage_to_Ladislaw"
+     },
+     "causedBy": {
+      "name": "Learning_about_Dorothea_s_marriage_to_Ladislaw",
+      "takePlaceAt": {
+       "name": "Freshitt_Hall"
+      },
+      "hasParticipant": {
+       "name": "Mrs_Cadwallader"
+      }
+     }
+    },
+    {
+     "name": "Sarcasm",
+     "hasIntensity": 0.8,
+     "quote": "The only wonder to me is, that any of you are surprised. You did nothing to hinder it.",
+     "hasObject": {
+      "name": "Dorothea_s_marriage_to_Ladislaw"
+     },
+     "causedBy": {
+      "name": "Learning_about_Dorothea_s_marriage_to_Ladislaw",
+      "takePlaceAt": {
+       "name": "Freshitt_Hall"
+      },
+      "hasParticipant": {
+       "name": "Mrs_Cadwallader"
+      }
+     }
+    }
+   ]
   }
  ]
 }

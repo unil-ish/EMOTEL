@@ -1,134 +1,65 @@
 {
  "FictionalCharacters": [
   {
-   "id": "texts/thebluecastle.txt#Valancy",
    "name": "Valancy",
    "feels": [
     {
      "name": "Fear",
      "hasIntensity": 0.9,
-     "quote": "She had to sit and listen to Dr. Redfern, who didn’t mind talking at all.",
-     "causedBy": {
-      "id": "texts/thebluecastle.txt#Dr_Redfern_s_unexpected_visit",
-      "name": "Dr_Redfern_s_unexpected_visit"
-     },
+     "quote": "She had trapped Barney. Trapped him into marrying her. And divorce was so hard to get in Ontario. So expensive. And Barney was poor.",
      "hasObject": {
-      "id": "texts/thebluecastle.txt#Dr_Redfern",
-      "name": "Dr_Redfern"
+      "name": "Divorce"
      },
-     "exactPlace": {
-      "id": "texts/thebluecastle.txt#Blue_Castle",
-      "name": "Blue_Castle"
-     },
-     "id": "Fear"
+     "causedBy": {
+      "name": "Realizing_the_difficulty_of_getting_a_divorce_and_Barney_s_financial_situation",
+      "takePlaceAt": {
+       "name": "Blue_Castle"
+      }
+     }
     },
     {
      "name": "Pity",
      "hasIntensity": 0.7,
      "quote": "Valancy felt a pang of pity for him.",
-     "causedBy": {
-      "id": "texts/thebluecastle.txt#Dr_Redfern_s_loneliness",
-      "name": "Dr_Redfern_s_loneliness"
-     },
      "hasObject": {
-      "id": "texts/thebluecastle.txt#Dr_Redfern",
       "name": "Dr_Redfern"
      },
-     "exactPlace": {
-      "id": "texts/thebluecastle.txt#Blue_Castle",
-      "name": "Blue_Castle"
-     },
-     "id": "Pity"
+     "causedBy": {
+      "name": "Dr_Redfern_s_emotional_recounting_of_Barney_s_past",
+      "takePlaceAt": {
+       "name": "Blue_Castle"
+      }
+     }
     },
     {
      "name": "Amusement",
-     "hasIntensity": 0.6,
+     "hasIntensity": 0.8,
      "quote": "Suddenly she laughed in Dr. Redfern’s face.",
-     "causedBy": {
-      "id": "texts/thebluecastle.txt#Realizing_the_situation_with_the_necklace",
-      "name": "Realizing_the_situation_with_the_necklace"
-     },
      "hasObject": {
-      "id": "texts/thebluecastle.txt#Necklace",
-      "name": "Necklace"
+      "name": "Situation"
      },
-     "exactPlace": {
-      "id": "texts/thebluecastle.txt#Blue_Castle",
-      "name": "Blue_Castle"
-     },
-     "id": "Amusement"
+     "causedBy": {
+      "name": "Realizing_the_irony_of_the_situation",
+      "takePlaceAt": {
+       "name": "Blue_Castle"
+      }
+     }
     },
     {
      "name": "Insensibility",
-     "hasIntensity": 0.8,
-     "quote": "She was thankful she no longer felt very bad.",
+     "hasIntensity": 0.9,
+     "quote": "When you are bludgeoned on the head repeatedly, you naturally and mercifully become more or less insensible and stupid.",
+     "hasObject": {
+      "name": "Emotional_turmoil"
+     },
      "causedBy": {
-      "id": "texts/thebluecastle.txt#Feeling_bludgeoned_by_events",
-      "name": "Feeling_bludgeoned_by_events"
-     },
-     "exactPlace": {
-      "id": "texts/thebluecastle.txt#Blue_Castle",
-      "name": "Blue_Castle"
-     },
-     "id": "Insensibility"
+      "name": "Mental_exhaustion_and_emotional_turmoil",
+      "takePlaceAt": {
+       "name": "Blue_Castle"
+      }
+     }
     }
    ]
-  }
- ],
- "Places": [
-  {
-   "id": "texts/thebluecastle.txt#Blue_Castle",
-   "name": "Blue_Castle",
-   "description": "Valancy stood briefly like a faded flower bitten by frost, by the hearth, looking down on the white ashes of the last fire that had blazed in the Blue Castle."
-  },
-  {
-   "id": "texts/thebluecastle.txt#Blue_Castle",
-   "name": "Blue_Castle",
-   "description": "Valancy had been thinking idly that Barney must resemble his mother. She had remained standing by the steps, but Dr. Redfern waved her to the swing seat."
-  },
-  {
-   "id": "texts/thebluecastle.txt#Blue_Castle",
-   "name": "Blue_Castle",
-   "description": "Valancy was fingering her necklace. She was wearing fifteen thousand dollars around her neck. And she had worried lest Barney had paid fifteen dollars for it and couldn’t afford it. Suddenly she laughed in Dr. Redfern’s face."
-  },
-  {
-   "id": "texts/thebluecastle.txt#Blue_Castle",
-   "name": "Blue_Castle",
-   "description": "She was thankful she no longer felt very bad. When you are bludgeoned on the head repeatedly, you naturally and mercifully become more or less insensible and stupid."
-  }
- ],
- "Events": [
-  {
-   "id": "texts/thebluecastle.txt#Dr_Redfern_s_unexpected_visit",
-   "name": "Dr_Redfern_s_unexpected_visit",
-   "takePlaceAt": {
-    "id": "texts/thebluecastle.txt#place1",
-    "name": "place1"
-   }
-  },
-  {
-   "id": "texts/thebluecastle.txt#Dr_Redfern_s_loneliness",
-   "name": "Dr_Redfern_s_loneliness",
-   "takePlaceAt": {
-    "id": "texts/thebluecastle.txt#place2",
-    "name": "place2"
-   }
-  },
-  {
-   "id": "texts/thebluecastle.txt#Realizing_the_situation_with_the_necklace",
-   "name": "Realizing_the_situation_with_the_necklace",
-   "takePlaceAt": {
-    "id": "texts/thebluecastle.txt#place3",
-    "name": "place3"
-   }
-  },
-  {
-   "id": "texts/thebluecastle.txt#Feeling_bludgeoned_by_events",
-   "name": "Feeling_bludgeoned_by_events",
-   "takePlaceAt": {
-    "id": "texts/thebluecastle.txt#place4",
-    "name": "place4"
-   }
   }
  ]
 }

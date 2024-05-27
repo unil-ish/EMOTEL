@@ -1,228 +1,84 @@
 {
  "FictionalCharacters": [
   {
-   "id": "texts/middlemarch.txt#Lydgate",
    "name": "Lydgate",
    "feels": [
     {
-     "name": "Trust",
-     "hasIntensity": 0.7,
-     "quote": "He had a youthful belief in his bread-winning work, not to be stifled by that initiation in makeshift called his ’prentice days.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Belief_in_his_breadwinning_work",
-      "name": "Belief_in_his_breadwinning_work"
-     },
-     "hasObject": {
-      "id": "texts/middlemarch.txt#Breadwinning_work",
-      "name": "Breadwinning_work"
-     },
-     "place": {
-      "id": "texts/middlemarch.txt#His_prentice_days",
-      "name": "His_prentice_days"
-     },
-     "id": "Trust"
-    },
-    {
-     "name": "Joy",
-     "hasIntensity": 0.6,
-     "quote": "He felt a triumphant delight in his studies.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#His_studies",
-      "name": "His_studies"
-     },
-     "hasObject": {
-      "id": "texts/middlemarch.txt#Studies",
-      "name": "Studies"
-     },
-     "place": {
-      "id": "texts/middlemarch.txt#His_mind",
-      "name": "His_mind"
-     },
-     "id": "Joy"
-    },
-    {
-     "name": "Anticipation",
-     "hasIntensity": 0.8,
-     "quote": "He wanted to pierce the obscurity of those minute processes which prepare human misery and joy.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Curiosity_about_human_processes",
-      "name": "Curiosity_about_human_processes"
-     },
-     "hasObject": {
-      "id": "texts/middlemarch.txt#Human_processes",
-      "name": "Human_processes"
-     },
-     "place": {
-      "id": "texts/middlemarch.txt#His_thoughts",
-      "name": "His_thoughts"
-     },
-     "id": "Anticipation"
-    },
-    {
      "name": "Admiration",
      "hasIntensity": 0.9,
-     "quote": "He admired Rosamond exceedingly.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Rosamond_s_beauty",
-      "name": "Rosamond_s_beauty"
-     },
+     "quote": "He admired Rosamond exceedingly; but that madness which had once beset him about Laure was not, he thought, likely to recur in relation to any other woman.",
      "hasObject": {
-      "id": "texts/middlemarch.txt#Rosamond",
       "name": "Rosamond"
      },
-     "place": {
-      "id": "texts/middlemarch.txt#His_admiration",
-      "name": "His_admiration"
+     "causedBy": {
+      "name": "Admiration_of_Rosamond_s_intelligence_and_beauty",
+      "takePlaceAt": {
+       "name": "Mr_Vincy_s_house"
+      }
+     }
+    },
+    {
+     "name": "Pity",
+     "hasIntensity": 0.8,
+     "quote": "He felt a triumphant delight in his studies, and something like pity for those less lucky men who were not of his profession.",
+     "hasObject": {
+      "name": "Less_lucky_men"
      },
-     "id": "Admiration"
+     "causedBy": {
+      "name": "Triumphant_delight_in_his_studies",
+      "takePlaceAt": {
+       "name": "His_home"
+      }
+     }
+    },
+    {
+     "name": "Delight",
+     "hasIntensity": 0.7,
+     "quote": "He was an ardent fellow, but at present his ardor was absorbed in love of his work and in the ambition of making his life recognized as a factor in the better life of mankind.",
+     "hasObject": {
+      "name": "Work_and_ambition"
+     },
+     "causedBy": {
+      "name": "Love_of_his_work_and_ambition",
+      "takePlaceAt": {
+       "name": "His_home"
+      }
+     }
     }
    ]
   },
   {
-   "id": "texts/middlemarch.txt#Rosamond",
    "name": "Rosamond",
    "feels": [
     {
      "name": "Pleasure",
-     "hasIntensity": 0.7,
-     "quote": "She blushed with pleasure.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Compliment_from_Lydgate",
-      "name": "Compliment_from_Lydgate"
-     },
-     "hasObject": {
-      "id": "texts/middlemarch.txt#Compliment",
-      "name": "Compliment"
-     },
-     "place": {
-      "id": "texts/middlemarch.txt#Her_feelings",
-      "name": "Her_feelings"
-     },
-     "id": "Pleasure"
-    },
-    {
-     "name": "Curiosity",
-     "hasIntensity": 0.6,
-     "quote": "She wanted to know whether Lydgate would feel insulted if he were asked to come to a dance.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Curiosity_about_Lydgate_s_feelings",
-      "name": "Curiosity_about_Lydgate_s_feelings"
-     },
-     "hasObject": {
-      "id": "texts/middlemarch.txt#Lydgate_s_feelings",
-      "name": "Lydgate_s_feelings"
-     },
-     "place": {
-      "id": "texts/middlemarch.txt#Her_thoughts",
-      "name": "Her_thoughts"
-     },
-     "id": "Curiosity"
-    },
-    {
-     "name": "Contentment",
      "hasIntensity": 0.8,
-     "quote": "She played admirably.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Her_musical_talent",
-      "name": "Her_musical_talent"
-     },
+     "quote": "She remained simply serious, turned her long neck a little, and put up her hand to touch her wondrous hair-plaits—an habitual gesture with her as pretty as any movements of a kitten’s paw.",
      "hasObject": {
-      "id": "texts/middlemarch.txt#Playing_music",
+      "name": "Lydgate_s_admiration"
+     },
+     "causedBy": {
+      "name": "Lydgate_s_admiration",
+      "takePlaceAt": {
+       "name": "Mr_Vincy_s_house"
+      }
+     }
+    },
+    {
+     "name": "Agreeableness",
+     "hasIntensity": 0.7,
+     "quote": "She played admirably. Her master at Mrs. Lemon’s school was one of those excellent musicians here and there to be found in our provinces, worthy to compare with many a noted Kapellmeister in a country which offers more plentiful conditions of musical celebrity.",
+     "hasObject": {
       "name": "Playing_music"
      },
-     "place": {
-      "id": "texts/middlemarch.txt#Playing_the_piano",
-      "name": "Playing_the_piano"
-     },
-     "id": "Contentment"
-    },
-    {
-     "name": "Satisfaction",
-     "hasIntensity": 0.7,
-     "quote": "She felt satisfaction in her music.",
      "causedBy": {
-      "id": "texts/middlemarch.txt#Her_musical_talent",
-      "name": "Her_musical_talent"
-     },
-     "hasObject": {
-      "id": "texts/middlemarch.txt#Music",
-      "name": "Music"
-     },
-     "place": {
-      "id": "texts/middlemarch.txt#Her_feelings",
-      "name": "Her_feelings"
-     },
-     "id": "Satisfaction"
+      "name": "Playing_music",
+      "takePlaceAt": {
+       "name": "Mr_Vincy_s_house"
+      }
+     }
     }
    ]
-  }
- ],
- "Places": [
-  {
-   "id": "texts/middlemarch.txt#His_prentice_days",
-   "name": "His_prentice_days"
-  },
-  {
-   "id": "texts/middlemarch.txt#His_mind",
-   "name": "His_mind"
-  },
-  {
-   "id": "texts/middlemarch.txt#His_thoughts",
-   "name": "His_thoughts"
-  },
-  {
-   "id": "texts/middlemarch.txt#His_admiration",
-   "name": "His_admiration"
-  },
-  {
-   "id": "texts/middlemarch.txt#Her_feelings",
-   "name": "Her_feelings"
-  },
-  {
-   "id": "texts/middlemarch.txt#Her_thoughts",
-   "name": "Her_thoughts"
-  },
-  {
-   "id": "texts/middlemarch.txt#Playing_the_piano",
-   "name": "Playing_the_piano"
-  },
-  {
-   "id": "texts/middlemarch.txt#Her_feelings",
-   "name": "Her_feelings"
-  }
- ],
- "Events": [
-  {
-   "id": "texts/middlemarch.txt#Belief_in_his_breadwinning_work",
-   "name": "Belief_in_his_breadwinning_work"
-  },
-  {
-   "id": "texts/middlemarch.txt#His_studies",
-   "name": "His_studies"
-  },
-  {
-   "id": "texts/middlemarch.txt#Curiosity_about_human_processes",
-   "name": "Curiosity_about_human_processes"
-  },
-  {
-   "id": "texts/middlemarch.txt#Rosamond_s_beauty",
-   "name": "Rosamond_s_beauty"
-  },
-  {
-   "id": "texts/middlemarch.txt#Compliment_from_Lydgate",
-   "name": "Compliment_from_Lydgate"
-  },
-  {
-   "id": "texts/middlemarch.txt#Curiosity_about_Lydgate_s_feelings",
-   "name": "Curiosity_about_Lydgate_s_feelings"
-  },
-  {
-   "id": "texts/middlemarch.txt#Her_musical_talent",
-   "name": "Her_musical_talent"
-  },
-  {
-   "id": "texts/middlemarch.txt#Her_musical_talent",
-   "name": "Her_musical_talent"
   }
  ]
 }

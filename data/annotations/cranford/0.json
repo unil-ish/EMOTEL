@@ -4,40 +4,119 @@
    "name": "Captain Brown",
    "feels": [
     {
-     "name": "Kindness",
-     "hasIntensity": 0.9,
-     "quote": "He had suddenly become like an old man; his deep bass voice had a quavering in it, his eyes looked dim, and the lines on his face were deep.",
-     "causedBy": {
-      "name": "Death of his daughter"
+     "name": "Joy",
+     "hasIntensity": 0.7,
+     "quote": "He had suddenly become like an old man; his deep bass voice had a quavering in it, his eyes looked dim, and the lines on his face were deep. He did not—could not—speak cheerfully of his daughter’s state, but he talked with manly, pious resignation, and not much.",
+     "causedByEvent": {
+      "name": "Receiving kindness from Miss Jenkyns",
+      "takePlaceAt": {
+       "name": "Miss Jenkyns' house"
+      },
+      "hasParticipant": [
+       {
+        "name": "Captain Brown"
+       },
+       {
+        "name": "Miss Jenkyns"
+       }
+      ]
      },
      "hasObject": {
-      "name": "His daughter"
+      "name": "Kindness"
+     }
+    },
+    {
+     "name": "Sadness",
+     "hasIntensity": 0.9,
+     "quote": "The great rough carter puckered up his manly face, and turned away to hide his tears.",
+     "causedByEvent": {
+      "name": "Hearing about Captain Brown's death",
+      "takePlaceAt": {
+       "name": "Miss Jenkyns' house"
+      },
+      "hasParticipant": [
+       {
+        "name": "Captain Brown"
+       },
+       {
+        "name": "the carter"
+       }
+      ]
      },
-     "exactPlace": "Drawing-room"
+     "hasObject": {
+      "name": "Death of Captain Brown"
+     }
     },
     {
      "name": "Grief",
-     "hasIntensity": 0.95,
-     "quote": "The great rough carter puckered up his manly face, and turned away to hide his tears.",
-     "causedBy": {
-      "name": "Death of Captain Brown"
+     "hasIntensity": 0.8,
+     "quote": "Miss Jessie had been feeling this all during the silence, I think; for the tears rolled down her cheeks like rain, at these words, and she could not answer at first.",
+     "causedByEvent": {
+      "name": "Miss Brown expressing her love for her family",
+      "takePlaceAt": {
+       "name": "Miss Jenkyns' house"
+      },
+      "hasParticipant": [
+       {
+        "name": "Miss Jessie"
+       },
+       {
+        "name": "Miss Brown"
+       }
+      ]
      },
      "hasObject": {
-      "name": "Captain Brown"
+      "name": "Love for family"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Miss Brown",
+   "feels": [
+    {
+     "name": "Acceptance",
+     "hasIntensity": 0.6,
+     "quote": "After this second funeral, Miss Jenkyns insisted that Miss Jessie should come to stay with her rather than go back to the desolate house.",
+     "causedByEvent": {
+      "name": "Miss Jenkyns offering Miss Jessie a place to stay",
+      "takePlaceAt": {
+       "name": "Miss Jenkyns' house"
+      },
+      "hasParticipant": [
+       {
+        "name": "Miss Jenkyns"
+       },
+       {
+        "name": "Miss Jessie"
+       }
+      ]
      },
-     "exactPlace": "Drawing-room"
+     "hasObject": {
+      "name": "Offer of a place to stay"
+     }
     },
     {
-     "name": "Sorrow",
+     "name": "Grief",
      "hasIntensity": 0.9,
-     "quote": "Miss Brown was dying. We hardly knew her voice, it was so devoid of the complaining tone we had always associated with it.",
-     "causedBy": {
-      "name": "Miss Brown's impending death"
+     "quote": "A strange look, which was not distress, came over Miss Brown’s face. She did not speak for some time, but then we saw her lips form the words, rather than heard the sound—“Father, mother, Harry, Archy;”—then, as if it were a new idea throwing a filmy shadow over her darkened mind—“But you will be alone, Jessie!”",
+     "causedByEvent": {
+      "name": "Realizing her family members are gone",
+      "takePlaceAt": {
+       "name": "Miss Jenkyns' house"
+      },
+      "hasParticipant": [
+       {
+        "name": "Miss Brown"
+       },
+       {
+        "name": "Miss Jessie"
+       }
+      ]
      },
      "hasObject": {
-      "name": "Miss Brown"
-     },
-     "exactPlace": "Room"
+      "name": "Loss of family members"
+     }
     }
    ]
   },
@@ -47,81 +126,46 @@
     {
      "name": "Grief",
      "hasIntensity": 0.9,
-     "quote": "She could even smile—a faint, sweet, wintry smile—as if to reassure us of her power to endure; but her look made our eyes fill suddenly with tears, more than if she had cried outright.",
-     "causedBy": {
-      "name": "Death of her father"
+     "quote": "Her voice quivered, but she steadied it into calmness—“Mary! he has gone before you to the place where the weary are at rest. He knows now how you loved him.”",
+     "causedByEvent": {
+      "name": "Miss Brown expressing her love for her family",
+      "takePlaceAt": {
+       "name": "Miss Jenkyns' house"
+      },
+      "hasParticipant": [
+       {
+        "name": "Miss Jessie"
+       },
+       {
+        "name": "Miss Brown"
+       }
+      ]
      },
      "hasObject": {
-      "name": "Her father"
-     },
-     "exactPlace": "Room"
+      "name": "Love for family"
+     }
     },
     {
-     "name": "Sorrow",
-     "hasIntensity": 0.95,
-     "quote": "Her voice quivered, but she steadied it into calmness—'Mary! he has gone before you to the place where the weary are at rest. He knows now how you loved him.'",
-     "causedBy": {
-      "name": "Miss Brown's impending death"
+     "name": "Acceptance",
+     "hasIntensity": 0.7,
+     "quote": "Miss Jenkyns insisted that Miss Jessie should come to stay with her rather than go back to the desolate house.",
+     "causedByEvent": {
+      "name": "Miss Jenkyns offering Miss Jessie a place to stay",
+      "takePlaceAt": {
+       "name": "Miss Jenkyns' house"
+      },
+      "hasParticipant": [
+       {
+        "name": "Miss Jenkyns"
+       },
+       {
+        "name": "Miss Jessie"
+       }
+      ]
      },
      "hasObject": {
-      "name": "Miss Brown"
-     },
-     "exactPlace": "Room"
-    }
-   ]
-  },
-  {
-   "name": "Miss Brown",
-   "feels": [
-    {
-     "name": "Remorse",
-     "hasIntensity": 0.9,
-     "quote": "Oh, Jessie! Jessie! How selfish I have been! God forgive me for letting you sacrifice yourself for me as you did!",
-     "causedBy": {
-      "name": "Realization of her selfishness"
-     },
-     "hasObject": {
-      "name": "Miss Jessie"
-     },
-     "exactPlace": "Room"
-    },
-    {
-     "name": "Grief",
-     "hasIntensity": 0.95,
-     "quote": "But you will be alone, Jessie!",
-     "causedBy": {
-      "name": "Impending separation from her sister"
-     },
-     "hasObject": {
-      "name": "Miss Jessie"
-     },
-     "exactPlace": "Room"
-    }
-   ]
-  }
- ],
- "Places": [
-  {
-   "name": "Drawing-room",
-   "description": "Where Captain Brown expressed his kindness and grief."
-  },
-  {
-   "name": "Room",
-   "description": "Where Miss Brown was dying and Miss Jessie expressed her grief and sorrow."
-  }
- ],
- "Events": [
-  {
-   "name": "Death of Miss Brown",
-   "takePlaceAt": {
-    "name": "Room"
-   },
-   "hasParticipant": [
-    {
-     "name": "Miss Brown"
-    },
-    {
-     "name": "Miss Jessie"
+      "name": "Offer of a place to stay"
+     }
     }
    ]
   }

@@ -1,263 +1,200 @@
 {
  "FictionalCharacters": [
   {
-   "id": "fc1",
-   "name": "Professor Bhaer",
+   "name": "Jo",
    "feels": [
     {
-     "name": "Admiration",
+     "name": "Sadness",
      "hasIntensity": 0.9,
-     "quote": "He knew that Jo wrote, and had met her down among the newspaper offices more than once; but as she never spoke of it, he asked no questions, in spite of a strong desire to see her work.",
-     "causedBy": {
-      "id": "event1",
-      "name": "Knowing that Jo wrote"
+     "quote": "She felt as if she had stabbed her dearest friend.",
+     "causedByEvent": {
+      "name": "Beth's confession",
+      "takePlaceAt": {
+       "name": "At the beach"
+      },
+      "hasParticipant": [
+       {
+        "name": "Jo"
+       },
+       {
+        "name": "Beth"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object1",
-      "name": "Jo's writing"
+      "name": "Beth's confession"
+     }
+    },
+    {
+     "name": "Rebellion",
+     "hasIntensity": 0.8,
+     "quote": "God won't be so cruel as to take you from me.",
+     "causedByEvent": {
+      "name": "Beth's confession",
+      "takePlaceAt": {
+       "name": "At the beach"
+      },
+      "hasParticipant": [
+       {
+        "name": "Jo"
+       },
+       {
+        "name": "Beth"
+       }
+      ]
      },
-     "place": {
-      "id": "place1",
-      "name": "Home",
-      "description": "In the living room"
+     "hasObject": {
+      "name": "Beth's confession"
+     }
+    },
+    {
+     "name": "Dedication",
+     "hasIntensity": 0.9,
+     "quote": "With that silent kiss, she dedicated herself soul and body to Beth.",
+     "causedByEvent": {
+      "name": "Beth's confession",
+      "takePlaceAt": {
+       "name": "At the beach"
+      },
+      "hasParticipant": [
+       {
+        "name": "Jo"
+       },
+       {
+        "name": "Beth"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Beth's confession"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Beth",
+   "feels": [
+    {
+     "name": "Acceptance",
+     "hasIntensity": 0.9,
+     "quote": "I try to be willing.",
+     "causedByEvent": {
+      "name": "Beth's confession",
+      "takePlaceAt": {
+       "name": "At the beach"
+      },
+      "hasParticipant": [
+       {
+        "name": "Jo"
+       },
+       {
+        "name": "Beth"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Beth's confession"
      }
     },
     {
      "name": "Serenity",
      "hasIntensity": 0.8,
-     "quote": "He did his best, and did it manfully; but I don't think he found that a pair of rampant boys, a pipe, or even the divine Plato, were very satisfactory substitutes for wife and child and home.",
-     "causedBy": {
-      "id": "event2",
-      "name": "Feeling homesick"
+     "quote": "I try to be willing.",
+     "causedByEvent": {
+      "name": "Beth's confession",
+      "takePlaceAt": {
+       "name": "At the beach"
+      },
+      "hasParticipant": [
+       {
+        "name": "Jo"
+       },
+       {
+        "name": "Beth"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object2",
-      "name": "Feeling of homesickness"
-     },
-     "place": {
-      "id": "place2",
-      "name": "Home",
-      "description": "In the living room"
-     }
-    },
-    {
-     "name": "Rebellion",
-     "hasIntensity": 0.7,
-     "quote": "I'll be hanged if I do!",
-     "causedBy": {
-      "id": "event3",
-      "name": "Feeling of indignation"
-     },
-     "hasObject": {
-      "id": "object3",
-      "name": "Being asked to go abroad"
-     },
-     "place": {
-      "id": "place3",
-      "name": "Home",
-      "description": "In the living room"
-     }
-    },
-    {
-     "name": "Desperation",
-     "hasIntensity": 0.9,
-     "quote": "To the devil!",
-     "causedBy": {
-      "id": "event4",
-      "name": "Feeling of despair"
-     },
-     "hasObject": {
-      "id": "object4",
-      "name": "Feeling of despair"
-     },
-     "place": {
-      "id": "place4",
-      "name": "Home",
-      "description": "In the living room"
-     }
-    },
-    {
-     "name": "Acceptance",
-     "hasIntensity": 0.9,
-     "quote": "It's all settled, and can be carried out at once",
-     "causedBy": {
-      "id": "event5",
-      "name": "Accepting the plan to go abroad"
-     },
-     "hasObject": {
-      "id": "object5",
-      "name": "Plan to go abroad"
-     },
-     "place": {
-      "id": "place5",
-      "name": "Home",
-      "description": "In the living room"
+      "name": "Beth's confession"
      }
     }
    ]
   },
   {
-   "id": "fc2",
-   "name": "Beth",
+   "name": "Laurie",
    "feels": [
     {
-     "name": "Sadness",
-     "hasIntensity": 0.9,
-     "quote": "It's like the tide, Jo, when it turns, it goes slowly, but it can't be stopped.",
-     "causedBy": {
-      "id": "event6",
-      "name": "Feeling of inevitability"
-     },
-     "hasObject": {
-      "id": "object6",
-      "name": "Feeling of inevitability"
-     },
-     "place": {
-      "id": "place6",
-      "name": "Home",
-      "description": "In the bedroom"
-     }
-    },
-    {
-     "name": "Acceptance",
+     "name": "Surprise",
      "hasIntensity": 0.8,
-     "quote": "I try to be willing",
-     "causedBy": {
-      "id": "event7",
-      "name": "Accepting the situation"
+     "quote": "O Laurie, is it really you? I thought you'd never come!",
+     "causedByEvent": {
+      "name": "Meeting Amy",
+      "takePlaceAt": {
+       "name": "On the street in Nice"
+      },
+      "hasParticipant": [
+       {
+        "name": "Laurie"
+       },
+       {
+        "name": "Amy"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object7",
-      "name": "Situation"
-     },
-     "place": {
-      "id": "place7",
-      "name": "Home",
-      "description": "In the bedroom"
+      "name": "Meeting Amy"
      }
     },
     {
-     "name": "Gratitude",
+     "name": "Excitement",
      "hasIntensity": 0.9,
-     "quote": "I'm glad you know it. I've tried to tell you, but I couldn't.",
-     "causedBy": {
-      "id": "event8",
-      "name": "Feeling of relief"
+     "quote": "I promised to spend Christmas with you, and here I am.",
+     "causedByEvent": {
+      "name": "Meeting Amy",
+      "takePlaceAt": {
+       "name": "On the street in Nice"
+      },
+      "hasParticipant": [
+       {
+        "name": "Laurie"
+       },
+       {
+        "name": "Amy"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object8",
-      "name": "Feeling of relief"
-     },
-     "place": {
-      "id": "place8",
-      "name": "Home",
-      "description": "In the bedroom"
-     }
-    },
-    {
-     "name": "Contentment",
-     "hasIntensity": 0.8,
-     "quote": "Dear little bird! See, Jo, how tame it is. I like peeps better than the gulls: they are not so wild and handsome, but they seem happy, confiding little things.",
-     "causedBy": {
-      "id": "event9",
-      "name": "Feeling of contentment"
-     },
-     "hasObject": {
-      "id": "object9",
-      "name": "Feeling of contentment"
-     },
-     "place": {
-      "id": "place9",
-      "name": "Seashore",
-      "description": "By the beach"
+      "name": "Meeting Amy"
      }
     }
    ]
-  }
- ],
- "Places": [
-  {
-   "id": "place1",
-   "name": "Home",
-   "description": "In the living room"
   },
   {
-   "id": "place2",
-   "name": "Home",
-   "description": "In the living room"
-  },
-  {
-   "id": "place3",
-   "name": "Home",
-   "description": "In the living room"
-  },
-  {
-   "id": "place4",
-   "name": "Home",
-   "description": "In the living room"
-  },
-  {
-   "id": "place5",
-   "name": "Home",
-   "description": "In the living room"
-  },
-  {
-   "id": "place6",
-   "name": "Home",
-   "description": "In the bedroom"
-  },
-  {
-   "id": "place7",
-   "name": "Home",
-   "description": "In the bedroom"
-  },
-  {
-   "id": "place8",
-   "name": "Home",
-   "description": "In the bedroom"
-  },
-  {
-   "id": "place9",
-   "name": "Seashore",
-   "description": "By the beach"
-  }
- ],
- "Events": [
-  {
-   "id": "event1",
-   "name": "Knowing that Jo wrote"
-  },
-  {
-   "id": "event2",
-   "name": "Feeling homesick"
-  },
-  {
-   "id": "event3",
-   "name": "Feeling of indignation"
-  },
-  {
-   "id": "event4",
-   "name": "Feeling of despair"
-  },
-  {
-   "id": "event5",
-   "name": "Accepting the plan to go abroad"
-  },
-  {
-   "id": "event6",
-   "name": "Feeling of inevitability"
-  },
-  {
-   "id": "event7",
-   "name": "Accepting the situation"
-  },
-  {
-   "id": "event8",
-   "name": "Feeling of relief"
-  },
-  {
-   "id": "event9",
-   "name": "Feeling of contentment"
+   "name": "Amy",
+   "feels": [
+    {
+     "name": "Joy",
+     "hasIntensity": 0.9,
+     "quote": "O Laurie, is it really you? I thought you'd never come!",
+     "causedByEvent": {
+      "name": "Meeting Laurie",
+      "takePlaceAt": {
+       "name": "On the street in Nice"
+      },
+      "hasParticipant": [
+       {
+        "name": "Laurie"
+       },
+       {
+        "name": "Amy"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Meeting Laurie"
+     }
+    }
+   ]
   }
  ]
 }

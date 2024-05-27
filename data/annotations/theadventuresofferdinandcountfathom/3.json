@@ -1,141 +1,79 @@
 {
  "FictionalCharacters": [
   {
-   "id": "fc1",
    "name": "Ferdinand",
    "feels": [
     {
      "name": "Satisfaction",
-     "hasIntensity": 0.8,
-     "quote": "Ferdinand made himself amends for the chagrin he had undergone by the exercise of those talents in which he excelled.",
-     "causedBy": {
-      "id": "event1",
-      "name": "Being in quarters of cantonment"
+     "hasIntensity": 0.9,
+     "quote": "Ferdinand made himself amends for the chagrin he had undergone, by the exercise of those talents in which he excelled.",
+     "causedByEvent": {
+      "name": "Being in quarters of cantonment",
+      "takePlaceAt": {
+       "name": "Winter"
+      }
      },
      "hasObject": {
-      "id": "object1",
       "name": "Exercise of talents"
-     },
-     "exactPlace": {
-      "id": "place1",
-      "name": "Quarters of cantonment"
      }
     },
     {
      "name": "Dissatisfaction",
-     "hasIntensity": 0.7,
-     "quote": "He saw that all his expectations of Count Melvil’s future favour were connected with his choice of a military life.",
-     "causedBy": {
-      "id": "event2",
-      "name": "Expectations of future favour"
+     "hasIntensity": 0.8,
+     "quote": "He saw that all his expectations of Count Melvil’s future favour were connected with his choice of a military life; and that his promotion in the service would, in a great measure, depend upon his personal behaviour in such emergencies as he did not at all wish to encounter.",
+     "causedByEvent": {
+      "name": "Expectations of future favour",
+      "takePlaceAt": {
+       "name": "Winter"
+      }
      },
      "hasObject": {
-      "id": "object2",
       "name": "Choice of a military life"
      }
     },
     {
      "name": "Ambition",
-     "hasIntensity": 0.9,
-     "quote": "He resolved to rear a splendid fortune for himself.",
-     "causedBy": {
-      "id": "event3",
-      "name": "Desire for a fixed and firm foundation"
+     "hasIntensity": 0.7,
+     "quote": "He confided so much in his own dexterity and address, that he never doubted of being able to rear a splendid fortune for himself.",
+     "causedByEvent": {
+      "name": "Reflections on his talents",
+      "takePlaceAt": {
+       "name": "Winter"
+      }
      },
      "hasObject": {
-      "id": "object3",
       "name": "Splendid fortune"
      }
     },
     {
      "name": "Fear",
-     "hasIntensity": 0.8,
+     "hasIntensity": 0.9,
      "quote": "He felt, by anticipation, the toils of hard duty upon the works, the horrors of night-alarms, cannonading, bombardment, sallies, and mines blown up.",
-     "causedBy": {
-      "id": "event4",
-      "name": "Anticipation of being besieged"
+     "causedByEvent": {
+      "name": "Expectation of being besieged",
+      "takePlaceAt": {
+       "name": "Winter"
+      }
      },
      "hasObject": {
-      "id": "object4",
       "name": "Toils of hard duty"
      }
     },
     {
      "name": "Relief",
-     "hasIntensity": 0.7,
-     "quote": "He resolved to submit himself to his destiny.",
-     "causedBy": {
-      "id": "event5",
-      "name": "Resolution to submit to destiny"
-     },
-     "hasObject": {
-      "id": "object5",
-      "name": "Destiny"
-     }
-    },
-    {
-     "name": "Deceit",
-     "hasIntensity": 0.9,
-     "quote": "Ferdinand resolved to finish what the fugitive had imperfectly performed.",
-     "causedBy": {
-      "id": "event6",
-      "name": "Desertion of Renaldo’s valet"
-     },
-     "hasObject": {
-      "id": "object6",
-      "name": "Finishing the theft"
-     }
-    },
-    {
-     "name": "Sneakiness",
      "hasIntensity": 0.8,
-     "quote": "Ferdinand immediately comprehended the whole adventure and resolved to finish what the fugitive had imperfectly performed.",
-     "causedBy": {
-      "id": "event7",
-      "name": "Discovering the theft"
+     "quote": "He immediately comprehended the whole adventure, and, taking it for granted that the delinquent would never return, resolved to finish what the fugitive had imperfectly performed.",
+     "causedByEvent": {
+      "name": "Discovery of the theft",
+      "takePlaceAt": {
+       "name": "Preparations for departure"
+      }
      },
      "hasObject": {
-      "id": "object7",
-      "name": "Completing the theft"
+      "name": "Completion of the theft"
      }
     }
    ]
-  }
- ],
- "Places": [
-  {
-   "id": "place1",
-   "name": "Quarters of cantonment"
-  }
- ],
- "Events": [
-  {
-   "id": "event1",
-   "name": "Being in quarters of cantonment"
-  },
-  {
-   "id": "event2",
-   "name": "Expectations of future favour"
-  },
-  {
-   "id": "event3",
-   "name": "Desire for a fixed and firm foundation"
-  },
-  {
-   "id": "event4",
-   "name": "Anticipation of being besieged"
-  },
-  {
-   "id": "event5",
-   "name": "Resolution to submit to destiny"
-  },
-  {
-   "id": "event6",
-   "name": "Desertion of Renaldo’s valet"
-  },
-  {
-   "id": "event7",
-   "name": "Discovering the theft"
   }
  ]
 }

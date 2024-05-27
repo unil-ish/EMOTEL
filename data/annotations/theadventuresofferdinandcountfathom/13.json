@@ -1,144 +1,79 @@
 {
  "FictionalCharacters": [
   {
-   "id": "fc1",
    "name": "Doctor Fathom",
    "feels": [
     {
      "name": "Trust",
      "hasIntensity": 0.6,
-     "quote": "He had such a manifest advantage, in point of personal accomplishments, over the young gentleman who was destined for her husband, that she did not disdain his proposals.",
-     "causedBy": {
-      "id": "event1",
-      "name": "Doctor Fathom's personal accomplishments"
+     "quote": "He now regretted the opportunities he had neglected, of marrying one of several women of moderate fortune, who had made advances to him in the zenith of his reputation.",
+     "causedByEvent": {
+      "name": "Missed opportunities for marriage",
+      "takePlaceAt": {
+       "name": "Various social events"
+      }
      },
      "hasObject": {
-      "id": "object1",
-      "name": "Young gentleman destined for her husband"
-     },
-     "place": "During the term of her residence in London"
+      "name": "Marriage prospects"
+     }
     },
     {
      "name": "Surprise",
      "hasIntensity": 0.8,
      "quote": "The doctor arrived at the inn, according to appointment, he was received by his worship in person, who gave him to understand, that his niece had changed her mind, and gone fifty miles farther into the country to visit a relation.",
-     "causedBy": {
-      "id": "event2",
-      "name": "Doctor Fathom's niece changing her mind"
+     "causedByEvent": {
+      "name": "Deception by the quack",
+      "takePlaceAt": {
+       "name": "Inn"
+      }
      },
      "hasObject": {
-      "id": "object2",
-      "name": "Doctor Fathom"
-     },
-     "place": "At the inn"
+      "name": "Misled information"
+     }
     },
     {
      "name": "Anger",
      "hasIntensity": 0.7,
      "quote": "The quack would advance the money upon no other condition, than that of knowing the scheme, which being explained, he complied with Ferdinand’s request; but, at the same time, privately despatched an express to the young lady’s uncle, with a full account of the whole conspiracy.",
-     "causedBy": {
-      "id": "event3",
-      "name": "Quack's condition for advancing money"
+     "causedByEvent": {
+      "name": "Betrayal by the quack",
+      "takePlaceAt": {
+       "name": "Inn"
+      }
      },
      "hasObject": {
-      "id": "object3",
-      "name": "Doctor Fathom"
-     },
-     "place": "At the quack's place"
+      "name": "Betrayal"
+     }
     },
     {
      "name": "Joy",
      "hasIntensity": 0.9,
-     "quote": "This recovery was so far beyond the husband’s expectation, that he began to make very serious reflections on the event, and even to wish he had not been quite so precipitate in pardoning the backslidings of his wife.",
-     "causedBy": {
-      "id": "event4",
-      "name": "Wife's recovery"
+     "quote": "The day was actually fixed for their nuptials, on which he faithfully promised to carry her off in a coach and six.",
+     "causedByEvent": {
+      "name": "Promise of marriage",
+      "takePlaceAt": {
+       "name": "Private residence"
+      }
      },
      "hasObject": {
-      "id": "object4",
-      "name": "Husband"
-     },
-     "place": "At home"
+      "name": "Marriage promise"
+     }
     },
     {
-     "name": "Anticipation",
-     "hasIntensity": 0.7,
-     "quote": "He resolved that the opportunity should not be lost, and applied himself with such assiduity to his practice, that, in all likelihood, he would have carried the palm from all his contemporaries.",
-     "causedBy": {
-      "id": "event5",
-      "name": "Opportunity for nuptials"
+     "name": "Disappointment",
+     "hasIntensity": 0.8,
+     "quote": "This was a grievous disappointment to Fathom, who really believed his mistress had forsaken him through mere levity and caprice.",
+     "causedByEvent": {
+      "name": "Rejection by the young lady",
+      "takePlaceAt": {
+       "name": "Inn"
+      }
      },
      "hasObject": {
-      "id": "object5",
-      "name": "Doctor Fathom"
-     },
-     "place": "At work"
+      "name": "Rejection"
+     }
     }
    ]
-  }
- ],
- "Places": [
-  {
-   "id": "place1",
-   "name": "During the term of her residence in London",
-   "description": "The lady's residence in London"
-  },
-  {
-   "id": "place2",
-   "name": "At the inn",
-   "description": "The inn where the doctor arrived"
-  },
-  {
-   "id": "place3",
-   "name": "At the quack's place",
-   "description": "The quack's place where the doctor asked for money"
-  },
-  {
-   "id": "place4",
-   "name": "At home",
-   "description": "The husband's home"
-  },
-  {
-   "id": "place5",
-   "name": "At work",
-   "description": "Doctor Fathom's workplace"
-  }
- ],
- "Events": [
-  {
-   "id": "event1",
-   "name": "Doctor Fathom's personal accomplishments",
-   "takePlaceAt": {
-    "id": "place1"
-   }
-  },
-  {
-   "id": "event2",
-   "name": "Doctor Fathom's niece changing her mind",
-   "takePlaceAt": {
-    "id": "place2"
-   }
-  },
-  {
-   "id": "event3",
-   "name": "Quack's condition for advancing money",
-   "takePlaceAt": {
-    "id": "place3"
-   }
-  },
-  {
-   "id": "event4",
-   "name": "Wife's recovery",
-   "takePlaceAt": {
-    "id": "place4"
-   }
-  },
-  {
-   "id": "event5",
-   "name": "Opportunity for nuptials",
-   "takePlaceAt": {
-    "id": "place5"
-   }
   }
  ]
 }

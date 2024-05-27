@@ -1,124 +1,126 @@
 {
  "FictionalCharacters": [
   {
-   "id": "Meg",
+   "name": "Meg",
    "feels": [
+    {
+     "name": "Joy",
+     "hasIntensity": 0.8,
+     "quote": "John laughed, and drew her round beside him, saying good-humoredly, 'Don't go and hide. I won't beat you if you have got a pair of killing boots; I'm rather proud of my wife's feet, and don't mind if she does pay eight or nine dollars for her boots, if they are good ones.'",
+     "causedByEvent": {
+      "name": "John's reaction to Meg's expenses",
+      "takePlaceAt": {
+       "name": "Home"
+      }
+     },
+     "hasObject": {
+      "name": "Pair of boots"
+     }
+    },
+    {
+     "name": "Fear",
+     "hasIntensity": 0.7,
+     "quote": "She ran to him and held him close, crying, with repentant tears, 'O John, my dear, kind, hard-working boy, I didn't mean it! It was so wicked, so untrue and ungrateful, how could I say it! Oh, how could I say it!'",
+     "causedByEvent": {
+      "name": "Realization of her mistake",
+      "takePlaceAt": {
+       "name": "Home"
+      }
+     },
+     "hasObject": {
+      "name": "Hurtful words"
+     }
+    },
     {
      "name": "Remorse",
      "hasIntensity": 0.9,
-     "quote": "Oh, John, my dear, kind, hard-working boy, I didn't mean it! It was so wicked, so untrue and ungrateful, how could I say it! Oh, how could I say it!",
-     "causedBy": {
-      "id": "event1",
-      "name": "Reproaching John with his poverty"
+     "quote": "A week of remorse nearly made Meg sick; and the discovery that John had countermanded the order for his new great-coat reduced her to a state of despair which was pathetic to behold.",
+     "causedByEvent": {
+      "name": "Realization of her actions",
+      "takePlaceAt": {
+       "name": "Home"
+      }
      },
      "hasObject": {
-      "id": "object1",
-      "name": "John"
-     },
-     "exactPlace": "In the hall, with her face buried in the old great-coat"
+      "name": "Countermanded order for great-coat"
+     }
     },
     {
      "name": "Despair",
      "hasIntensity": 0.8,
-     "quote": "The discovery that John had countermanded the order for his new great-coat reduced her to a state of despair which was pathetic to behold.",
-     "causedBy": {
-      "id": "event2",
-      "name": "Countermanding the order for the new great-coat"
+     "quote": "They had a long talk that night, and Meg learned to love her husband better for his poverty, because it seemed to have made a man of him, given him the strength and courage to fight his own way, and taught him a tender patience with which to bear and comfort the natural longings and failures of those he loved.",
+     "causedByEvent": {
+      "name": "Realization of John's actions",
+      "takePlaceAt": {
+       "name": "Home"
+      }
      },
      "hasObject": {
-      "id": "object2",
-      "name": "John"
-     },
-     "exactPlace": "In the hall, crying as if her heart would break"
-    },
-    {
-     "name": "Love",
-     "hasIntensity": 0.9,
-     "quote": "Meg learned to love her husband better for his poverty, because it seemed to have made a man of him, given him the strength and courage to fight his own way, and taught him a tender patience with which to bear and comfort the natural longings and failures of those he loved.",
-     "causedBy": {
-      "id": "event3",
-      "name": "Long talk about their relationship"
-     },
-     "hasObject": {
-      "id": "object3",
-      "name": "John"
-     },
-     "exactPlace": "During a long talk that night"
+      "name": "John's poverty"
+     }
     }
    ]
   },
   {
-   "id": "John",
+   "name": "John",
    "feels": [
     {
-     "name": "Hurt",
-     "hasIntensity": 0.9,
-     "quote": "I was afraid of this; I do my best, Meg.",
-     "causedBy": {
-      "id": "event4",
-      "name": "Meg's words of ingratitude"
+     "name": "Anger",
+     "hasIntensity": 0.7,
+     "quote": "John said slowly, but she could feel it cost him an effort to express no displeasure, 'Well, I don't know that fifty is much for a dress, with all the furbelows and notions you have to have to finish it off these days.'",
+     "causedByEvent": {
+      "name": "Meg's expenses",
+      "takePlaceAt": {
+       "name": "Home"
+      }
      },
      "hasObject": {
-      "id": "object4",
-      "name": "Meg"
+      "name": "Meg's dress"
+     }
+    },
+    {
+     "name": "Disappointment",
+     "hasIntensity": 0.8,
+     "quote": "He was very kind, forgave her readily, and did not utter one reproach; but Meg knew that she had done and said a thing which would not be forgotten soon, although he might never allude to it again.",
+     "causedByEvent": {
+      "name": "Meg's actions",
+      "takePlaceAt": {
+       "name": "Home"
+      }
      },
-     "exactPlace": "After Meg's words of ingratitude"
+     "hasObject": {
+      "name": "Meg's words"
+     }
+    },
+    {
+     "name": "Sadness",
+     "hasIntensity": 0.9,
+     "quote": "He had simply said, in answer to her surprised inquiries as to the change, 'I can't afford it, my dear.'",
+     "causedByEvent": {
+      "name": "Countermanded order for great-coat",
+      "takePlaceAt": {
+       "name": "Home"
+      }
+     },
+     "hasObject": {
+      "name": "Countermanded order for great-coat"
+     }
     },
     {
      "name": "Forgiveness",
-     "hasIntensity": 0.9,
-     "quote": "He was very kind, forgave her readily, and did not utter one reproach.",
-     "causedBy": {
-      "id": "event5",
-      "name": "Meg's repentant tears"
-     },
-     "hasObject": {
-      "id": "object5",
-      "name": "Meg"
-     },
-     "exactPlace": "After Meg's repentant tears"
-    },
-    {
-     "name": "Resentment",
      "hasIntensity": 0.8,
-     "quote": "He had simply said, 'I can't afford it, my dear.'",
-     "causedBy": {
-      "id": "event6",
-      "name": "Countermanding the order for the new great-coat"
+     "quote": "He was very kind, forgave her readily, and did not utter one reproach; but Meg knew that she had done and said a thing which would not be forgotten soon, although he might never allude to it again.",
+     "causedByEvent": {
+      "name": "Meg's actions",
+      "takePlaceAt": {
+       "name": "Home"
+      }
      },
      "hasObject": {
-      "id": "object6",
-      "name": "Meg"
-     },
-     "exactPlace": "In the hall, with Meg crying as if her heart would break"
+      "name": "Meg's words"
+     }
     }
    ]
-  }
- ],
- "Events": [
-  {
-   "id": "event1",
-   "name": "Reproaching John with his poverty"
-  },
-  {
-   "id": "event2",
-   "name": "Countermanding the order for the new great-coat"
-  },
-  {
-   "id": "event3",
-   "name": "Long talk about their relationship"
-  },
-  {
-   "id": "event4",
-   "name": "Meg's words of ingratitude"
-  },
-  {
-   "id": "event5",
-   "name": "Meg's repentant tears"
-  },
-  {
-   "id": "event6",
-   "name": "Countermanding the order for the new great-coat"
   }
  ]
 }

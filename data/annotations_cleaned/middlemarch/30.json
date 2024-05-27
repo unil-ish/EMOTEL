@@ -1,189 +1,84 @@
 {
  "FictionalCharacters": [
   {
-   "id": "texts/middlemarch.txt#Lydgate",
-   "name": "Lydgate",
-   "feels": [
-    {
-     "name": "Trust",
-     "hasIntensity": 0.2,
-     "quote": "But the danger is over; the debt is paid. I am out of my difficulties now: I shall be freed from debts, and able, I hope, to start afresh on a better plan.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Debt_being_paid_off",
-      "name": "Debt_being_paid_off"
-     },
-     "hasObject": {
-      "id": "texts/middlemarch.txt#Debt",
-      "name": "Debt"
-     },
-     "place": "Under the archway of the Green Dragon",
-     "id": "Trust"
-    },
-    {
-     "name": "Surprise",
-     "hasIntensity": 0.5,
-     "quote": "But the news that Lydgate had all at once become able not only to get rid of the execution in his house but to pay all his debts in Middlemarch was spreading fast, gathering round it conjectures and comments which gave it new body and impetus.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#News_of_debt_payment_spreading",
-      "name": "News_of_debt_payment_spreading"
-     },
-     "hasObject": {
-      "id": "texts/middlemarch.txt#Debt_payment",
-      "name": "Debt_payment"
-     },
-     "place": "Middlemarch",
-     "id": "Surprise"
-    },
-    {
-     "name": "Anxiety",
-     "hasIntensity": 0.3,
-     "quote": "He perceived that Mr. Hawley knew nothing at present of the sudden relief from debt, and he himself was careful to glide away from all approaches towards the subject.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Hawley_s_lack_of_knowledge_about_debt_relief",
-      "name": "Hawley_s_lack_of_knowledge_about_debt_relief"
-     },
-     "hasObject": {
-      "id": "texts/middlemarch.txt#Debt_relief",
-      "name": "Debt_relief"
-     },
-     "place": "Middlemarch",
-     "id": "Anxiety"
-    }
-   ]
-  },
-  {
-   "id": "texts/middlemarch.txt#Bulstrode",
    "name": "Bulstrode",
    "feels": [
     {
-     "name": "Dread",
-     "hasIntensity": 0.4,
-     "quote": "He perceived that Mr. Hawley knew nothing at present of the sudden relief from debt, and he himself was careful to glide away from all approaches towards the subject.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Hawley_s_lack_of_knowledge_about_debt_relief",
-      "name": "Hawley_s_lack_of_knowledge_about_debt_relief"
-     },
+     "name": "Fear",
+     "hasIntensity": 0.8,
+     "quote": "But this gossip about Bulstrode spread through Middlemarch like the smell of fire.",
      "hasObject": {
-      "id": "texts/middlemarch.txt#Debt_relief",
-      "name": "Debt_relief"
+      "name": "Gossip"
      },
-     "place": "Middlemarch",
-     "id": "Dread"
+     "causedBy": {
+      "name": "Gossip_spreading_about_Bulstrode_s_past",
+      "takePlaceAt": {
+       "name": "Middlemarch"
+      }
+     }
     },
     {
-     "name": "Relief",
-     "hasIntensity": 0.6,
-     "quote": "He had not confessed to himself yet that he had done anything in the way of contrivance to this end; he had accepted what seemed to have been offered.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Relief_from_Raffles_revelations",
-      "name": "Relief_from_Raffles_revelations"
-     },
+     "name": "Dread",
+     "hasIntensity": 0.9,
+     "quote": "But this vague conviction of indeterminable guilt, which was enough to keep up much head-shaking and biting innuendo even among substantial professional seniors, had for the general mind all the superior power of mystery over fact.",
      "hasObject": {
-      "id": "texts/middlemarch.txt#Relief",
-      "name": "Relief"
+      "name": "Gossip"
      },
-     "place": "Middlemarch",
-     "id": "Relief"
+     "causedBy": {
+      "name": "Gossip_about_Bulstrode_s_earlier_life",
+      "takePlaceAt": {
+       "name": "Middlemarch"
+      }
+     }
+    },
+    {
+     "name": "Anxiety",
+     "hasIntensity": 0.7,
+     "quote": "Hence, in spite of the negative as to any direct sign of guilt in relation to the death at Stone Court, Mr. Hawley’s select party broke up with the sense that the affair had 'an ugly look.'",
+     "hasObject": {
+      "name": "Affair"
+     },
+     "causedBy": {
+      "name": "Negative_sign_of_guilt_in_relation_to_Raffles_s_death",
+      "takePlaceAt": {
+       "name": "Middlemarch"
+      }
+     }
     }
    ]
   },
   {
-   "id": "texts/middlemarch.txt#Mr_Hawley",
-   "name": "Mr_Hawley",
+   "name": "Lydgate",
    "feels": [
     {
-     "name": "Satisfaction",
-     "hasIntensity": 0.7,
-     "quote": "Mr. Hawley was not slow to perceive that there was no handle for the law either in the revelations made by Raffles or in the circumstances of his death.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#No_legal_handle_in_Raffles_revelations",
-      "name": "No_legal_handle_in_Raffles_revelations"
-     },
+     "name": "Discomfort",
+     "hasIntensity": 0.6,
+     "quote": "Lydgate felt uncomfortable under these kindly suppositions.",
      "hasObject": {
-      "id": "texts/middlemarch.txt#Legal_handle",
-      "name": "Legal_handle"
+      "name": "Suppositions"
      },
-     "place": "Middlemarch",
-     "id": "Satisfaction"
+     "causedBy": {
+      "name": "Kindly_suppositions_about_Bulstrode_s_motives",
+      "takePlaceAt": {
+       "name": "Middlemarch"
+      }
+     }
     },
     {
-     "name": "Curiosity",
-     "hasIntensity": 0.8,
-     "quote": "Mr. Hawley followed up his information by sending a clerk whom he could trust to Stone Court on a pretext of inquiring about hay, but really to gather all that could be learned about Raffles and his illness from Mrs. Abel.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Desire_for_information_about_Raffles",
-      "name": "Desire_for_information_about_Raffles"
-     },
+     "name": "Sneered_at",
+     "hasIntensity": 0.7,
+     "quote": "Hence, in spite of the negative as to any direct sign of guilt in relation to the death at Stone Court, Mr. Hawley’s select party broke up with the sense that the affair had 'an ugly look.'",
      "hasObject": {
-      "id": "texts/middlemarch.txt#Information_about_Raffles",
-      "name": "Information_about_Raffles"
+      "name": "Affair"
      },
-     "place": "Middlemarch",
-     "id": "Curiosity"
+     "causedBy": {
+      "name": "Negative_sign_of_guilt_in_relation_to_Raffles_s_death",
+      "takePlaceAt": {
+       "name": "Middlemarch"
+      }
+     }
     }
    ]
-  }
- ],
- "Places": [
-  {
-   "id": "texts/middlemarch.txt#Under_the_archway_of_the_Green_Dragon",
-   "name": "Under_the_archway_of_the_Green_Dragon",
-   "description": "A public area where gossip and conversations take place."
-  },
-  {
-   "id": "texts/middlemarch.txt#Middlemarch",
-   "name": "Middlemarch",
-   "description": "The town where the events of the story unfold."
-  }
- ],
- "Events": [
-  {
-   "id": "texts/middlemarch.txt#Debt_being_paid_off",
-   "name": "Debt_being_paid_off",
-   "takePlaceAt": {
-    "id": "texts/middlemarch.txt#place1",
-    "name": "place1"
-   }
-  },
-  {
-   "id": "texts/middlemarch.txt#News_of_debt_payment_spreading",
-   "name": "News_of_debt_payment_spreading",
-   "takePlaceAt": {
-    "id": "texts/middlemarch.txt#place2",
-    "name": "place2"
-   }
-  },
-  {
-   "id": "texts/middlemarch.txt#Hawley_s_lack_of_knowledge_about_debt_relief",
-   "name": "Hawley_s_lack_of_knowledge_about_debt_relief",
-   "takePlaceAt": {
-    "id": "texts/middlemarch.txt#place2",
-    "name": "place2"
-   }
-  },
-  {
-   "id": "texts/middlemarch.txt#Relief_from_Raffles_revelations",
-   "name": "Relief_from_Raffles_revelations",
-   "takePlaceAt": {
-    "id": "texts/middlemarch.txt#place2",
-    "name": "place2"
-   }
-  },
-  {
-   "id": "texts/middlemarch.txt#No_legal_handle_in_Raffles_revelations",
-   "name": "No_legal_handle_in_Raffles_revelations",
-   "takePlaceAt": {
-    "id": "texts/middlemarch.txt#place2",
-    "name": "place2"
-   }
-  },
-  {
-   "id": "texts/middlemarch.txt#Desire_for_information_about_Raffles",
-   "name": "Desire_for_information_about_Raffles",
-   "takePlaceAt": {
-    "id": "texts/middlemarch.txt#place2",
-    "name": "place2"
-   }
   }
  ]
 }

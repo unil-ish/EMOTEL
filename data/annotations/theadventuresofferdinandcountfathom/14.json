@@ -1,110 +1,107 @@
 {
  "FictionalCharacters": [
   {
-   "id": "fc1",
-   "name": "Renaldo Melvil",
+   "name": "Ferdinand Fathom",
    "feels": [
     {
-     "name": "Anxiety",
-     "hasIntensity": 0.8,
-     "quote": "Renaldo's heart began to throb with great violence.",
-     "causedBy": {
-      "id": "event1",
-      "name": "Seeing the signal from his mother"
+     "name": "Fear",
+     "hasIntensity": 0.9,
+     "quote": "Fathom, struck with the description, soon perceived how this woman’s disease might be converted to his advantage...",
+     "causedByEvent": {
+      "name": "Description of the old gentlewoman's behavior",
+      "takePlaceAt": {
+       "name": "Coffee-house"
+      },
+      "hasParticipant": [
+       {
+        "name": "Ferdinand Fathom"
+       },
+       {
+        "name": "his friend"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object1",
-      "name": "Signal from his mother"
-     },
-     "exactPlace": {
-      "id": "place1",
-      "name": "Near the castle walls"
+      "name": "Old gentlewoman's avarice"
      }
     },
     {
-     "name": "Filial Love",
-     "hasIntensity": 0.9,
-     "quote": "He pressed the little image to his lips with the most filial fervour.",
-     "causedBy": {
-      "id": "event2",
-      "name": "Finding the miniature of his father"
+     "name": "Anger",
+     "hasIntensity": 0.8,
+     "quote": "Fathom, stung with these accusations, which he really did not deserve, replied with uncommon heat...",
+     "causedByEvent": {
+      "name": "Accusations of dishonesty",
+      "takePlaceAt": {
+       "name": "Conversation with the old gentlewoman"
+      },
+      "hasParticipant": [
+       {
+        "name": "Ferdinand Fathom"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object2",
-      "name": "Miniature of his father"
+      "name": "Accusations of dishonesty"
+     }
+    },
+    {
+     "name": "Remorse",
+     "hasIntensity": 0.9,
+     "quote": "These reflections, which, perhaps, the misery of his fellow-creatures would never have inspired, were now produced from the sensation of his own calamities...",
+     "causedByEvent": {
+      "name": "Reflection on past actions",
+      "takePlaceAt": {
+       "name": "Solitary mansion"
+      },
+      "hasParticipant": [
+       {
+        "name": "Ferdinand Fathom"
+       }
+      ]
      },
-     "exactPlace": {
-      "id": "place2",
-      "name": "Near the castle walls"
+     "hasObject": {
+      "name": "Past actions"
+     }
+    },
+    {
+     "name": "Filial Affection",
+     "hasIntensity": 0.9,
+     "quote": "He pressed the little image to his lips with the most filial fervour...",
+     "causedByEvent": {
+      "name": "Receiving a miniature picture of his father",
+      "takePlaceAt": {
+       "name": "Castle tower"
+      },
+      "hasParticipant": [
+       {
+        "name": "Renaldo Melvil"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Miniature picture of his father"
      }
     },
     {
      "name": "Indignation",
-     "hasIntensity": 0.7,
-     "quote": "The blood mounted into Renaldo’s cheeks, and his eyes began to lighten with eagerness and indignation.",
-     "causedBy": {
-      "id": "event3",
-      "name": "Encounter with Count Trebasi"
+     "hasIntensity": 0.8,
+     "quote": "At sight of this apparition, the blood mounted into Renaldo’s cheeks, and his eyes began to lighten with eagerness and indignation...",
+     "causedByEvent": {
+      "name": "Encounter with Count Trebasi",
+      "takePlaceAt": {
+       "name": "Castle grounds"
+      },
+      "hasParticipant": [
+       {
+        "name": "Renaldo Melvil"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object3",
-      "name": "Count Trebasi"
-     },
-     "exactPlace": {
-      "id": "place3",
-      "name": "Near the castle"
+      "name": "Encounter with Count Trebasi"
      }
     }
    ]
-  }
- ],
- "Places": [
-  {
-   "id": "place1",
-   "name": "Near the castle walls",
-   "description": "Area where Renaldo saw the signal from his mother"
-  },
-  {
-   "id": "place2",
-   "name": "Near the castle walls",
-   "description": "Area where Renaldo found the miniature of his father"
-  },
-  {
-   "id": "place3",
-   "name": "Near the castle",
-   "description": "Area where Renaldo encountered Count Trebasi"
-  }
- ],
- "Events": [
-  {
-   "id": "event1",
-   "name": "Seeing the signal from his mother",
-   "takePlaceAt": {
-    "id": "place1"
-   },
-   "hasParticipant": {
-    "id": "fc1"
-   }
-  },
-  {
-   "id": "event2",
-   "name": "Finding the miniature of his father",
-   "takePlaceAt": {
-    "id": "place2"
-   },
-   "hasParticipant": {
-    "id": "fc1"
-   }
-  },
-  {
-   "id": "event3",
-   "name": "Encounter with Count Trebasi",
-   "takePlaceAt": {
-    "id": "place3"
-   },
-   "hasParticipant": {
-    "id": "fc1"
-   }
   }
  ]
 }

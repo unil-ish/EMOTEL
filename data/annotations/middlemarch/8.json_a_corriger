@@ -1,0 +1,459 @@
+{
+  "FictionalCharacters": [
+    {
+      "name": "Dorothea",
+      "feels": [
+        {
+          "name": "Trust",
+          "hasIntensity": 0.5,
+          "quote": "But you do forgive me?",
+          "causedByEvent": {
+            "name": "Feeling guilty for speaking hastily",
+            "takePlaceAt": {
+              "name": "Home"
+            },
+            "hasParticipant": [
+              {"name": "Dorothea"},
+              {"name": "Mr. Casaubon"}
+            ]
+          },
+          "hasObject": {
+            "name": "Forgiveness"
+          }
+        },
+        {
+          "name": "Surprise",
+          "hasIntensity": 0.3,
+          "quote": "Mr. Casaubon felt a surprise which was quite unmixed with pleasure",
+          "causedByEvent": {
+            "name": "Seeing Will Ladislaw",
+            "takePlaceAt": {
+              "name": "Home"
+            },
+            "hasParticipant": [
+              {"name": "Dorothea"},
+              {"name": "Mr. Casaubon"},
+              {"name": "Will Ladislaw"}
+            ]
+          },
+          "hasObject": {
+            "name": "Unexpected visit"
+          }
+        },
+        {
+          "name": "Anger",
+          "hasIntensity": 0.4,
+          "quote": "Mr. Casaubon felt a surprise which was quite unmixed with pleasure",
+          "causedByEvent": {
+            "name": "Seeing Will Ladislaw",
+            "takePlaceAt": {
+              "name": "Home"
+            },
+            "hasParticipant": [
+              {"name": "Dorothea"},
+              {"name": "Mr. Casaubon"},
+              {"name": "Will Ladislaw"}
+            ]
+          },
+          "hasObject": {
+            "name": "Unexpected visit"
+          }
+        },
+        {
+          "name": "Joy",
+          "hasIntensity": 0.6,
+          "quote": "Dorothea's eyes followed her husband anxiously, while he sank down wearily at the end of a sofa, and resting his elbow supported his head and looked on the floor.",
+          "causedByEvent": {
+            "name": "Feeling pity and tenderness for Mr. Casaubon",
+            "takePlaceAt": {
+              "name": "Home"
+            },
+            "hasParticipant": [
+              {"name": "Dorothea"},
+              {"name": "Mr. Casaubon"}
+            ]
+          },
+          "hasObject": {
+            "name": "Pity and tenderness"
+          }
+        },
+        {
+          "name": "Anticipation",
+          "hasIntensity": 0.5,
+          "quote": "But it was only mingled with other causes in making her more conscious of that new alarm on his behalf which was the first stirring of a pitying tenderness fed by the realities of his lot and not by her own dreams.",
+          "causedByEvent": {
+            "name": "Feeling pity and tenderness for Mr. Casaubon",
+            "takePlaceAt": {
+              "name": "Home"
+            },
+            "hasParticipant": [
+              {"name": "Dorothea"},
+              {"name": "Mr. Casaubon"}
+            ]
+          },
+          "hasObject": {
+            "name": "Pity and tenderness"
+          }
+        },
+        {
+          "name": "Fear",
+          "hasIntensity": 0.4,
+          "quote": "But Dorothea remembered it to the last with the vividness with which we all remember epochs in our experience when some dear expectation dies, or some new motive is born.",
+          "causedByEvent": {
+            "name": "Realizing her expectations were not met",
+            "takePlaceAt": {
+              "name": "Home"
+            },
+            "hasParticipant": [
+              {"name": "Dorothea"}
+            ]
+          },
+          "hasObject": {
+            "name": "Unmet expectations"
+          }
+        },
+        {
+          "name": "Disgust",
+          "hasIntensity": 0.3,
+          "quote": "But the idea of this dried-up pedant, this elaborator of small explanations about as important as the surplus stock of false antiquities kept in a vendor’s back chamber, having first got this adorable young creature to marry him, and then passing his honeymoon away from her, groping after his mouldy futilities (Will was given to hyperbole)—this sudden picture stirred him with a sort of comic disgust",
+          "causedByEvent": {
+            "name": "Realizing Mr. Casaubon's lack of interest in German writers",
+            "takePlaceAt": {
+              "name": "Home"
+            },
+            "hasParticipant": [
+              {"name": "Will Ladislaw"}
+            ]
+          },
+          "hasObject": {
+            "name": "Mr. Casaubon's lack of interest"
+          }
+        },
+        {
+          "name": "Sadness",
+          "hasIntensity": 0.5,
+          "quote": "Dorothea remembered it to the last with the vividness with which we all remember epochs in our experience when some dear expectation dies, or some new motive is born.",
+          "causedByEvent": {
+            "name": "Realizing her expectations were not met",
+            "takePlaceAt": {
+              "name": "Home"
+            },
+            "hasParticipant": [
+              {"name": "Dorothea"}
+            ]
+          },
+          "hasObject": {
+            "name": "Unmet expectations"
+          }
+        },
+        {
+          "name": "Acceptance",
+          "hasIntensity": 0.4,
+          "quote": "But Dorothea remembered it to the last with the vividness with which we all remember epochs in our experience when some dear expectation dies, or some new motive is born.",
+          "causedByEvent": {
+            "name": "Realizing her expectations were not met",
+            "takePlaceAt": {
+              "name": "Home"
+            },
+            "hasParticipant": [
+              {"name": "Dorothea"}
+            ]
+          },
+          "hasObject": {
+            "name": "Unmet expectations"
+          }
+        },
+        {
+          "name": "Admiration",
+          "hasIntensity": 0.6,
+          "quote": "She was alive to anything that gave her an opportunity for active sympathy, and at this moment it seemed as if the visit had come to shake her out of her self-absorbed discontent—to remind her of her husband’s goodness, and make her feel that she had now the right to be his helpmate in all kind deeds.",
+          "causedByEvent": {
+            "name": "Feeling sympathy for Mr. Casaubon",
+            "takePlaceAt": {
+              "name": "Home"
+            },
+            "hasParticipant": [
+              {"name": "Dorothea"}
+            ]
+          },
+          "hasObject": {
+            "name": "Sympathy"
+          }
+        },
+        {
+          "name": "Amazement",
+          "hasIntensity": 0.4,
+          "quote": "There was a new light, but still a mysterious light, for Will in Dorothea’s last words.",
+          "causedByEvent": {
+            "name": "Dorothea expressing regret for not learning German",
+            "takePlaceAt": {
+              "name": "Home"
+            },
+            "hasParticipant": [
+              {"name": "Dorothea"},
+              {"name": "Will Ladislaw"}
+            ]
+          },
+          "hasObject": {
+            "name": "Regret"
+          }
+        },
+        {
+          "name": "Distraction",
+          "hasIntensity": 0.3,
+          "quote": "But Dorothea remembered it to the last with the vividness with which we all remember epochs in our experience when some dear expectation dies, or some new motive is born.",
+          "causedByEvent": {
+            "name": "Realizing her expectations were not met",
+            "takePlaceAt": {
+              "name": "Home"
+            },
+            "hasParticipant": [
+              {"name": "Dorothea"}
+            ]
+          },
+          "hasObject": {
+            "name": "Unmet expectations"
+          }
+        },
+        {
+          "name": "Terror",
+          "hasIntensity": 0.4,
+          "quote": "But Dorothea remembered it to the last with the vividness with which we all remember epochs in our experience when some dear expectation dies, or some new motive is born.",
+          "causedByEvent": {
+            "name": "Realizing her expectations were not met",
+            "takePlaceAt": {
+              "name": "Home"
+            },
+            "hasParticipant": [
+              {"name": "Dorothea"}
+            ]
+          },
+          "hasObject": {
+            "name": "Unmet expectations"
+          }
+        },
+        {
+          "name": "Apprehension",
+          "hasIntensity": 0.5,
+          "quote": "But Dorothea remembered it to the last with the vividness with which we all remember epochs in our experience when some dear expectation dies, or some new motive is born.",
+          "causedByEvent": {
+            "name": "Realizing her expectations were not met",
+            "takePlaceAt": {
+              "name": "Home"
+            },
+            "hasParticipant": [
+              {"name": "Dorothea"}
+            ]
+          },
+          "hasObject": {
+            "name": "Unmet expectations"
+          }
+        },
+        {
+          "name": "Boredom",
+          "hasIntensity": 0.3,
+          "quote": "But Dorothea remembered it to the last with the vividness with which we all remember epochs in our experience when some dear expectation dies, or some new motive is born.",
+          "causedByEvent": {
+            "name": "Realizing her expectations were not met",
+            "takePlaceAt": {
+              "name": "Home"
+            },
+            "hasParticipant": [
+              {"name": "Dorothea"}
+            ]
+          },
+          "hasObject": {
+            "name": "Unmet expectations"
+          }
+        },
+        {
+          "name": "Loathing",
+          "hasIntensity": 0.4,
+          "quote": "But the idea of this dried-up pedant, this elaborator of small explanations about as important as the surplus stock of false antiquities kept in a vendor’s back chamber, having first got this adorable young creature to marry him, and then passing his honeymoon away from her, groping after his mouldy futilities (Will was given to hyperbole)—this sudden picture stirred him with a sort of comic disgust",
+          "causedByEvent": {
+            "name": "Realizing Mr. Casaubon's lack of interest in German writers",
+            "takePlaceAt": {
+              "name": "Home"
+            },
+            "hasParticipant": [
+              {"name": "Will Ladislaw"}
+            ]
+          },
+          "hasObject": {
+            "name": "Mr. Casaubon's lack of interest"
+          }
+        },
+        {
+          "name": "Interest",
+          "hasIntensity": 0.6,
+          "quote": "She was alive to anything that gave her an opportunity for active sympathy, and at this moment it seemed as if the visit had come to shake her out of her self-absorbed discontent—to remind her of her husband’s goodness, and make her feel that she had now the right to be his helpmate in all kind deeds.",
+          "causedByEvent": {
+            "name": "Feeling sympathy for Mr. Casaubon",
+            "takePlaceAt": {
+              "name": "Home"
+            },
+            "hasParticipant": [
+              {"name": "Dorothea"}
+            ]
+          },
+          "hasObject": {
+            "name": "Sympathy"
+          }
+        },
+        {
+          "name": "Vigilance",
+          "hasIntensity": 0.4,
+          "quote": "But Dorothea remembered it to the last with the vividness with which we all remember epochs in our experience when some dear expectation dies, or some new motive is born.",
+          "causedByEvent": {
+            "name": "Realizing her expectations were not met",
+            "takePlaceAt": {
+              "name": "Home"
+            },
+            "hasParticipant": [
+              {"name": "Dorothea"}
+            ]
+          },
+          "hasObject": {
+            "name": "Unmet expectations"
+          }
+        },
+        {
+          "name": "Annoyance",
+          "hasIntensity": 0.4,
+          "quote": "But the idea of this dried-up pedant, this elaborator of small explanations about as important as the surplus stock of false antiquities kept in a vendor’s back chamber, having first got this adorable young creature to marry him, and then passing his honeymoon away from her, groping after his mouldy futilities (Will was given to hyperbole)—this sudden picture stirred him with a sort of comic disgust",
+          "causedByEvent": {
+            "name": "Realizing Mr. Casaubon's lack of interest in German writers",
+            "takePlaceAt": {
+              "name": "Home"
+            },
+            "hasParticipant": [
+              {"name": "Will Ladislaw"}
+            ]
+          },
+          "hasObject": {
+            "name": "Mr. Casaubon's lack of interest"
+          }
+        },
+        {
+          "name": "Rage",
+          "hasIntensity": 0.4,
+          "quote": "But the idea of this dried-up pedant, this elaborator of small explanations about as important as the surplus stock of false antiquities kept in a vendor’s back chamber, having first got this adorable young creature to marry him, and then passing his honeymoon away from her, groping after his mouldy futilities (Will was given to hyperbole)—this sudden picture stirred him with a sort of comic disgust",
+          "causedByEvent": {
+            "name": "Realizing Mr. Casaubon's lack of interest in German writers",
+            "takePlaceAt": {
+              "name": "Home"
+            },
+            "hasParticipant": [
+              {"name": "Will Ladislaw"}
+            ]
+          },
+          "hasObject": {
+            "name": "Mr. Casaubon's lack of interest"
+          }
+        },
+        {
+          "name": "Serenity",
+          "hasIntensity": 0.5,
+          "quote": "But Dorothea remembered it to the last with the vividness with which we all remember epochs in our experience when some dear expectation dies, or some new motive is born.",
+          "causedByEvent": {
+            "name": "Realizing her expectations were not met",
+            "takePlaceAt": {
+              "name": "Home"
+            },
+            "hasParticipant": [
+              {"name": "Dorothea"}
+            ]
+          },
+          "hasObject": {
+            "name": "Unmet expectations"
+          }
+        },
+        {
+          "name": "Ecstasy",
+          "hasIntensity": 0.6,
+          "quote": "She was alive to anything that gave her an opportunity for active sympathy, and at this moment it seemed as if the visit had come to shake her out of her self-absorbed discontent—to remind her of her husband’s goodness, and make her feel that she had now the right to be his helpmate in all kind deeds.",
+          "causedByEvent": {
+            "name": "Feeling sympathy for Mr. Casaubon",
+            "takePlaceAt": {
+              "name": "Home"
+            },
+            "hasParticipant": [
+              {"name": "Dorothea"}
+            ]
+          },
+          "hasObject": {
+            "name": "Sympathy"
+          }
+        },
+        {
+          "name": "Grief",
+          "hasIntensity": 0.5,
+          "quote": "But Dorothea remembered it to the last with the vividness with which we all remember epochs in our experience when some dear expectation dies, or some new motive is born.",
+          "causedByEvent": {
+            "name": "Realizing her expectations were not met",
+            "takePlaceAt": {
+              "name": "Home"
+            },
+            "hasParticipant": [
+              {"name": "Dorothea"}
+            ]
+          },
+          "hasObject": {
+            "name": "Unmet expectations"
+          }
+        },
+        {
+          "name": "Pensiveness",
+          "hasIntensity": 0.5,
+          "quote": "But Dorothea remembered it to the last with the vividness with which we all remember epochs in our experience when some dear expectation dies, or some new motive is born.",
+          "causedByEvent": {
+            "name": "Realizing her expectations were not met",
+            "takePlaceAt": {
+              "name": "Home"
+            },
+            "hasParticipant": [
+              {"name": "Dorothea"}
+            ]
+          },
+          "hasObject": {
+            "name": "Unmet expectations"
+          }
+        },
+        {
+          "name": "Contempt",
+          "hasIntensity": 0.4,
+          "quote": "But the idea of this dried-up pedant, this elaborator of small explanations about as important as the surplus stock of false antiquities kept in a vendor’s back chamber, having first got this adorable young creature to marry him, and then passing his honeymoon away from her, groping after his mouldy futilities (Will was given to hyperbole)—this sudden picture stirred him with a sort of comic disgust",
+          "causedByEvent": {
+            "name": "Realizing Mr. Casaubon's lack of interest in German writers",
+            "takePlaceAt": {
+              "name": "Home"
+            },
+            "hasParticipant": [
+              {"name": "Will Ladislaw"}
+            ]
+          },
+          "hasObject": {
+            "name": "Mr. Casaubon's lack of interest"
+          }
+        },
+        {
+          "name": "Aggressiveness",
+          "hasIntensity": 0.4,
+          "quote": "But the idea of this dried-up pedant, this elaborator of small explanations about as important as the surplus stock of false antiquities kept in a vendor’s back chamber, having first got this adorable young creature to marry him, and then passing his honeymoon away from her, groping after his mouldy futilities (Will was given to hyperbole)—this sudden picture stirred him with a sort of comic disgust",
+          "causedByEvent": {
+            "name": "Realizing Mr. Casaubon's lack of interest in German writers",
+            "takePlaceAt": {
+              "name": "Home"
+            },
+            "hasParticipant": [
+              {"name": "Will Ladislaw"}
+            ]
+          },
+          "hasObject": {
+            "name": "Mr. Casaubon's lack of interest"
+          }
+        },
+        {
+          "name": "Optimism",
+          "hasIntensity": 0.5,
+         

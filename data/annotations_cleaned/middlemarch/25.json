@@ -1,105 +1,51 @@
 {
  "FictionalCharacters": [
   {
-   "id": "texts/middlemarch.txt#Mr_Borthrop_Trumbull",
-   "name": "Mr_Borthrop_Trumbull",
-   "feels": [
-    {
-     "name": "Excitement",
-     "hasIntensity": 0.8,
-     "quote": "Mr. Trumbull was enjoying the utmost activity of his great faculties.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#The_auction_sale",
-      "name": "The_auction_sale"
-     },
-     "hasObject": {
-      "id": "texts/middlemarch.txt#Furniture_books_and_pictures",
-      "name": "Furniture_books_and_pictures"
-     },
-     "place": {
-      "id": "texts/middlemarch.txt#Mr_Larcher_s_house",
-      "name": "Mr_Larcher_s_house"
-     },
-     "id": "Excitement"
-    }
-   ]
-  },
-  {
-   "id": "texts/middlemarch.txt#Will_Ladislaw",
    "name": "Will_Ladislaw",
    "feels": [
     {
      "name": "Defiance",
-     "hasIntensity": 0.9,
-     "quote": "Will was in a defiant mood, his consciousness being deeply stung with the thought that the people who looked at him probably knew a fact tantamount to an accusation against him.",
+     "hasIntensity": 0.8,
+     "quote": "Will was in a defiant mood, his consciousness being deeply stung with the thought that the people who looked at him probably knew a fact tantamount to an accusation against him as a fellow with low designs which were to be frustrated by a disposal of property.",
+     "hasObject": {
+      "name": "Accusation"
+     },
      "causedBy": {
-      "id": "texts/middlemarch.txt#Being_at_the_auction_sale",
-      "name": "Being_at_the_auction_sale"
-     },
-     "place": {
-      "id": "texts/middlemarch.txt#The_auction_sale",
-      "name": "The_auction_sale"
-     },
-     "id": "Defiance"
+      "name": "Feeling_judged_by_others",
+      "takePlaceAt": {
+       "name": "Auction"
+      }
+     }
     },
     {
      "name": "Relief",
      "hasIntensity": 0.7,
-     "quote": "At length the 'Supper at Emmaus' was brought forward, to Will's immense relief.",
+     "quote": "At length the 'Supper at Emmaus' was brought forward, to Will’s immense relief, for he was getting so tired of the proceedings.",
+     "hasObject": {
+      "name": "Supper_at_Emmaus_painting"
+     },
      "causedBy": {
-      "id": "texts/middlemarch.txt#The_Supper_at_Emmaus_painting_being_brought_forwar",
-      "name": "The_Supper_at_Emmaus_painting_being_brought_forward"
+      "name": "Supper_at_Emmaus_painting_being_brought_forward",
+      "takePlaceAt": {
+       "name": "Auction"
+      }
+     }
+    },
+    {
+     "name": "Coolness",
+     "hasIntensity": 0.6,
+     "quote": "All eyes were for a moment turned towards Will, who said, coolly, 'Five pounds.'",
+     "hasObject": {
+      "name": "Bidding"
      },
-     "place": {
-      "id": "texts/middlemarch.txt#The_auction_sale",
-      "name": "The_auction_sale"
-     },
-     "id": "Relief"
+     "causedBy": {
+      "name": "Being_appealed_to_by_the_auctioneer",
+      "takePlaceAt": {
+       "name": "Auction"
+      }
+     }
     }
    ]
-  }
- ],
- "Places": [
-  {
-   "id": "texts/middlemarch.txt#Mr_Larcher_s_house",
-   "name": "Mr_Larcher_s_house",
-   "description": "The location of the auction sale"
-  },
-  {
-   "id": "texts/middlemarch.txt#The_auction_sale",
-   "name": "The_auction_sale",
-   "description": "The venue where the auction is taking place"
-  },
-  {
-   "id": "texts/middlemarch.txt#The_auction_sale",
-   "name": "The_auction_sale",
-   "description": "The venue where the auction is taking place"
-  }
- ],
- "Events": [
-  {
-   "id": "texts/middlemarch.txt#The_auction_sale",
-   "name": "The_auction_sale",
-   "takePlaceAt": {
-    "id": "texts/middlemarch.txt#place1",
-    "name": "place1"
-   }
-  },
-  {
-   "id": "texts/middlemarch.txt#Being_at_the_auction_sale",
-   "name": "Being_at_the_auction_sale",
-   "takePlaceAt": {
-    "id": "texts/middlemarch.txt#place2",
-    "name": "place2"
-   }
-  },
-  {
-   "id": "texts/middlemarch.txt#The_Supper_at_Emmaus_painting_being_brought_forwar",
-   "name": "The_Supper_at_Emmaus_painting_being_brought_forward",
-   "takePlaceAt": {
-    "id": "texts/middlemarch.txt#place3",
-    "name": "place3"
-   }
   }
  ]
 }

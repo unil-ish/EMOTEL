@@ -1,124 +1,192 @@
 {
  "FictionalCharacters": [
   {
-   "id": "fc1",
    "name": "Jo March",
    "feels": [
     {
-     "name": "Trust",
-     "hasIntensity": 0.8,
-     "quote": "No, I had father and mother to help me, the dear babies to comfort me, and the thought that you and Amy were safe and happy, to make the troubles here easier to bear.",
-     "causedBy": {
-      "id": "event1",
-      "name": "Having family support and knowing loved ones are safe"
+     "name": "Joy",
+     "hasIntensity": 0.9,
+     "quote": "It was good to see Laurie square his shoulders, and smile with masculine scorn at that insinuation, as he replied, with his 'high and mighty' air,--",
+     "causedByEvent": {
+      "name": "Laurie's declaration of love for Amy and friendship for Jo",
+      "takePlaceAt": {
+       "name": "Jo's home"
+      },
+      "hasParticipant": [
+       {
+        "name": "Jo March"
+       },
+       {
+        "name": "Laurie"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object1",
-      "name": "Father and mother, dear babies, and safe and happy loved ones"
-     },
-     "place": "Home"
+      "name": "Laurie's declaration"
+     }
     },
     {
-     "name": "Surprise",
-     "hasIntensity": 0.9,
-     "quote": "You are the same Jo still, dropping tears about one minute, and laughing the next. You look a little wicked now; what is it, grandma?",
-     "causedBy": {
-      "id": "event2",
-      "name": "Laurie's unexpected visit"
+     "name": "Sadness",
+     "hasIntensity": 0.7,
+     "quote": "No, I had father and mother to help me, the dear babies to comfort me, and the thought that you and Amy were safe and happy, to make the troubles here easier to bear. I am lonely, sometimes, but I dare say it's good for me, and--",
+     "causedByEvent": {
+      "name": "Feeling of loneliness and longing for the past",
+      "takePlaceAt": {
+       "name": "Jo's home"
+      },
+      "hasParticipant": [
+       {
+        "name": "Jo March"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object2",
-      "name": "Laurie's visit"
-     },
-     "place": "Home"
+      "name": "Feeling of loneliness"
+     }
     },
+    {
+     "name": "Contentment",
+     "hasIntensity": 0.8,
+     "quote": "It was good to see him beam at 'my children,' as he called the young pair; it was better still to see Amy pay him the daughterly duty and affection which completely won his old heart; and best of all, to watch Laurie revolve about the two, as if never tired of enjoying the pretty picture they made.",
+     "causedByEvent": {
+      "name": "Family reunion",
+      "takePlaceAt": {
+       "name": "Jo's home"
+      },
+      "hasParticipant": [
+       {
+        "name": "Jo March"
+       },
+       {
+        "name": "Laurie"
+       },
+       {
+        "name": "Amy"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Family reunion"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Laurie",
+   "feels": [
     {
      "name": "Joy",
      "hasIntensity": 0.9,
-     "quote": "You always were a comfort, Teddy;",
-     "causedBy": {
-      "id": "event3",
-      "name": "Reunion with Laurie"
+     "quote": "It was good to see Laurie square his shoulders, and smile with masculine scorn at that insinuation, as he replied, with his 'high and mighty' air,--",
+     "causedByEvent": {
+      "name": "Jo's teasing and banter",
+      "takePlaceAt": {
+       "name": "Jo's home"
+      },
+      "hasParticipant": [
+       {
+        "name": "Jo March"
+       },
+       {
+        "name": "Laurie"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object3",
-      "name": "Reunion with Laurie"
-     },
-     "place": "Home"
+      "name": "Jo's teasing"
+     }
     },
     {
-     "name": "Acceptance",
+     "name": "Contentment",
      "hasIntensity": 0.8,
-     "quote": "If I shouldn't be in the way, it would be very pleasant. I begin to feel quite young already; for, somehow, all my troubles seemed to fly away when you came.",
-     "causedBy": {
-      "id": "event4",
-      "name": "Feeling comforted by Laurie's presence"
+     "quote": "It was good to see him beam at 'my children,' as he called the young pair; it was better still to see Amy pay him the daughterly duty and affection which completely won his old heart; and best of all, to watch Laurie revolve about the two, as if never tired of enjoying the pretty picture they made.",
+     "causedByEvent": {
+      "name": "Family reunion",
+      "takePlaceAt": {
+       "name": "Jo's home"
+      },
+      "hasParticipant": [
+       {
+        "name": "Jo March"
+       },
+       {
+        "name": "Laurie"
+       },
+       {
+        "name": "Amy"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object4",
-      "name": "Laurie's presence"
+      "name": "Family reunion"
+     }
+    },
+    {
+     "name": "Remorse",
+     "hasIntensity": 0.7,
+     "quote": "How good it sounds to hear you say 'Teddy'! No one ever calls me that but you;",
+     "causedByEvent": {
+      "name": "Jo's forgiveness and acceptance of Laurie's changed feelings",
+      "takePlaceAt": {
+       "name": "Jo's home"
+      },
+      "hasParticipant": [
+       {
+        "name": "Jo March"
+       },
+       {
+        "name": "Laurie"
+       }
+      ]
      },
-     "place": "Home"
+     "hasObject": {
+      "name": "Jo's forgiveness"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Amy",
+   "feels": [
+    {
+     "name": "Contentment",
+     "hasIntensity": 0.9,
+     "quote": "For Amy's face was full of the soft brightness which betokens a peaceful heart, her voice had a new tenderness in it, and the cool, prim carriage was changed to a gentle dignity, both womanly and winning.",
+     "causedByEvent": {
+      "name": "Family reunion",
+      "takePlaceAt": {
+       "name": "Jo's home"
+      },
+      "hasParticipant": [
+       {
+        "name": "Amy"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Family reunion"
+     }
     },
     {
      "name": "Love",
-     "hasIntensity": 0.9,
-     "quote": "You are the same Jo still, dropping tears about one minute, and laughing the next. You look a little wicked now; what is it, grandma?",
-     "causedBy": {
-      "id": "event5",
-      "name": "Feeling comforted by Laurie's presence"
+     "hasIntensity": 0.8,
+     "quote": "Love has done much for our little girl,' said her mother softly.",
+     "causedByEvent": {
+      "name": "Family reunion",
+      "takePlaceAt": {
+       "name": "Jo's home"
+      },
+      "hasParticipant": [
+       {
+        "name": "Amy"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object5",
-      "name": "Laurie's presence"
-     },
-     "place": "Home"
+      "name": "Family reunion"
+     }
     }
    ]
-  }
- ],
- "Places": [
-  {
-   "id": "place1",
-   "name": "Home",
-   "description": "Jo's residence where the emotional interactions take place."
-  }
- ],
- "Events": [
-  {
-   "id": "event1",
-   "name": "Having family support and knowing loved ones are safe",
-   "takePlaceAt": {
-    "id": "place1"
-   }
-  },
-  {
-   "id": "event2",
-   "name": "Laurie's unexpected visit",
-   "takePlaceAt": {
-    "id": "place1"
-   }
-  },
-  {
-   "id": "event3",
-   "name": "Reunion with Laurie",
-   "takePlaceAt": {
-    "id": "place1"
-   }
-  },
-  {
-   "id": "event4",
-   "name": "Feeling comforted by Laurie's presence",
-   "takePlaceAt": {
-    "id": "place1"
-   }
-  },
-  {
-   "id": "event5",
-   "name": "Feeling comforted by Laurie's presence",
-   "takePlaceAt": {
-    "id": "place1"
-   }
   }
  ]
 }

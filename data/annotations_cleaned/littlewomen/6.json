@@ -1,182 +1,180 @@
 {
  "FictionalCharacters": [
   {
-   "id": "texts/littlewomen.txt#Jo_March",
    "name": "Jo_March",
    "feels": [
     {
-     "name": "Trust",
+     "name": "Pride",
      "hasIntensity": 0.9,
-     "quote": "I hate to borrow as much as mother does, and I knew Aunt March would croak; she always does, if you ask for a ninepence.",
-     "causedBy": {
-      "id": "texts/littlewomen.txt#Needing_money_for_father",
-      "name": "Needing_money_for_father"
-     },
-     "hasObject": {
-      "id": "texts/littlewomen.txt#Money",
-      "name": "Money"
-     },
-     "exactPlace": "In the barber's shop",
-     "id": "Trust"
-    },
-    {
-     "name": "Surprise",
-     "hasIntensity": 0.7,
-     "quote": "He rather stared, at first, as if he wasn't used to having girls bounce into his shop and ask him to buy their hair.",
-     "causedBy": {
-      "id": "texts/littlewomen.txt#Asking_the_barber_to_buy_her_hair",
-      "name": "Asking_the_barber_to_buy_her_hair"
-     },
-     "hasObject": {
-      "id": "texts/littlewomen.txt#Barber",
-      "name": "Barber"
-     },
-     "exactPlace": "In the barber's shop",
-     "id": "Surprise"
-    },
-    {
-     "name": "Anger",
-     "hasIntensity": 0.6,
-     "quote": "I hate to borrow as much as mother does, and I knew Aunt March would croak; she always does, if you ask for a ninepence.",
-     "causedBy": {
-      "id": "texts/littlewomen.txt#Needing_money_for_father",
-      "name": "Needing_money_for_father"
-     },
-     "hasObject": {
-      "id": "texts/littlewomen.txt#Money",
-      "name": "Money"
-     },
-     "exactPlace": "In the barber's shop",
-     "id": "Anger"
-    },
-    {
-     "name": "Joy",
-     "hasIntensity": 0.8,
      "quote": "That's my contribution towards making father comfortable and bringing him home!",
-     "causedBy": {
-      "id": "texts/littlewomen.txt#Contributing_money_for_father",
-      "name": "Contributing_money_for_father"
-     },
      "hasObject": {
-      "id": "texts/littlewomen.txt#Money",
       "name": "Money"
      },
-     "exactPlace": "At home",
-     "id": "Joy"
+     "causedBy": {
+      "name": "Selling_her_hair_to_earn_money_for_her_father_s_comfort",
+      "takePlaceAt": {
+       "name": "Home"
+      },
+      "hasParticipant": [
+       {
+        "name": "Jo_March"
+       },
+       {
+        "name": "Mrs_March"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Anxiety",
+     "hasIntensity": 0.8,
+     "quote": "I hate to borrow as much as mother does, and I knew Aunt March would croak; she always does, if you ask for a ninepence.",
+     "hasObject": {
+      "name": "Financial_pressure"
+     },
+     "causedBy": {
+      "name": "Feeling_the_pressure_to_contribute_financially",
+      "takePlaceAt": {
+       "name": "Home"
+      },
+      "hasParticipant": [
+       {
+        "name": "Jo_March"
+       },
+       {
+        "name": "Aunt_March"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Determination",
+     "hasIntensity": 0.7,
+     "quote": "I hate to borrow as much as mother does, and I knew Aunt March would croak; she always does, if you ask for a ninepence.",
+     "hasObject": {
+      "name": "Financial_pressure"
+     },
+     "causedBy": {
+      "name": "Feeling_the_pressure_to_contribute_financially",
+      "takePlaceAt": {
+       "name": "Home"
+      },
+      "hasParticipant": [
+       {
+        "name": "Jo_March"
+       },
+       {
+        "name": "Aunt_March"
+       }
+      ]
+     }
     },
     {
      "name": "Regret",
-     "hasIntensity": 0.7,
-     "quote": "It almost seemed as if I'd an arm or a leg off.",
-     "causedBy": {
-      "id": "texts/littlewomen.txt#Seeing_her_hair_cut_off",
-      "name": "Seeing_her_hair_cut_off"
-     },
+     "hasIntensity": 0.6,
+     "quote": "I'm afraid you will regret it, one of these days",
      "hasObject": {
-      "id": "texts/littlewomen.txt#Hair",
-      "name": "Hair"
+      "name": "Cutting_her_hair"
      },
-     "exactPlace": "In the barber's shop",
-     "id": "Regret"
+     "causedBy": {
+      "name": "Cutting_her_hair",
+      "takePlaceAt": {
+       "name": "Home"
+      },
+      "hasParticipant": {
+       "name": "Jo_March"
+      }
+     }
     }
    ]
   },
   {
-   "id": "texts/littlewomen.txt#Mrs_March",
    "name": "Mrs_March",
    "feels": [
     {
      "name": "Anxiety",
-     "hasIntensity": 0.8,
+     "hasIntensity": 0.9,
      "quote": "I shall go at once, but it may be too late. O children, children, help me to bear it!",
-     "causedBy": {
-      "id": "texts/littlewomen.txt#Receiving_a_telegram_about_her_husband_s_illness",
-      "name": "Receiving_a_telegram_about_her_husband_s_illness"
-     },
      "hasObject": {
-      "id": "texts/littlewomen.txt#Telegram",
-      "name": "Telegram"
+      "name": "Husband_s_illness"
      },
-     "exactPlace": "At home",
-     "id": "Anxiety"
+     "causedBy": {
+      "name": "Receiving_a_telegram_about_her_husband_s_illness",
+      "takePlaceAt": {
+       "name": "Home"
+      },
+      "hasParticipant": {
+       "name": "Mrs_March"
+      }
+     }
     },
     {
      "name": "Gratitude",
-     "hasIntensity": 0.9,
-     "quote": "How kind you all are! Mother will accept, I'm sure; and it will be such a relief to know that she has some one to take care of her.",
-     "causedBy": {
-      "id": "texts/littlewomen.txt#Mr_Brooke_offering_to_escort_her_to_Washington",
-      "name": "Mr_Brooke_offering_to_escort_her_to_Washington"
-     },
-     "hasObject": {
-      "id": "texts/littlewomen.txt#Mr_Brooke_s_offer",
-      "name": "Mr_Brooke_s_offer"
-     },
-     "exactPlace": "At home",
-     "id": "Gratitude"
-    },
-    {
-     "name": "Relief",
      "hasIntensity": 0.8,
-     "quote": "No, I won't!",
-     "causedBy": {
-      "id": "texts/littlewomen.txt#Jo_s_hair_being_cut_off",
-      "name": "Jo_s_hair_being_cut_off"
-     },
+     "quote": "How kind you all are! Mother will accept, I'm sure; and it will be such a relief to know that she has some one to take care of her.",
      "hasObject": {
-      "id": "texts/littlewomen.txt#Jo_s_hair",
-      "name": "Jo_s_hair"
+      "name": "Mr_Brooke_offering_to_escort_her"
      },
-     "exactPlace": "At home",
-     "id": "Relief"
+     "causedBy": {
+      "name": "Mr_Brooke_offering_to_escort_her_to_Washington",
+      "takePlaceAt": {
+       "name": "Home"
+      },
+      "hasParticipant": [
+       {
+        "name": "Mrs_March"
+       },
+       {
+        "name": "Mr_Brooke"
+       }
+      ]
+     }
     }
    ]
-  }
- ],
- "Places": [
-  {
-   "id": "texts/littlewomen.txt#Barber_s_shop",
-   "name": "Barber_s_shop",
-   "description": "Where Jo had her hair cut off"
   },
   {
-   "id": "texts/littlewomen.txt#At_home",
-   "name": "At_home",
-   "description": "Where Mrs. March received the telegram and made preparations"
-  }
- ],
- "Events": [
-  {
-   "id": "texts/littlewomen.txt#Needing_money_for_father",
-   "name": "Needing_money_for_father"
-  },
-  {
-   "id": "texts/littlewomen.txt#Asking_the_barber_to_buy_her_hair",
-   "name": "Asking_the_barber_to_buy_her_hair"
-  },
-  {
-   "id": "texts/littlewomen.txt#Needing_money_for_father",
-   "name": "Needing_money_for_father"
-  },
-  {
-   "id": "texts/littlewomen.txt#Contributing_money_for_father",
-   "name": "Contributing_money_for_father"
-  },
-  {
-   "id": "texts/littlewomen.txt#Seeing_her_hair_cut_off",
-   "name": "Seeing_her_hair_cut_off"
-  },
-  {
-   "id": "texts/littlewomen.txt#Receiving_a_telegram_about_her_husband_s_illness",
-   "name": "Receiving_a_telegram_about_her_husband_s_illness"
-  },
-  {
-   "id": "texts/littlewomen.txt#Mr_Brooke_offering_to_escort_her_to_Washington",
-   "name": "Mr_Brooke_offering_to_escort_her_to_Washington"
-  },
-  {
-   "id": "texts/littlewomen.txt#Jo_s_hair_being_cut_off",
-   "name": "Jo_s_hair_being_cut_off"
+   "name": "Meg",
+   "feels": [
+    {
+     "name": "Awe",
+     "hasIntensity": 0.7,
+     "quote": "Your hair! Your beautiful hair! O Jo, how could you? Your one beauty.",
+     "hasObject": {
+      "name": "Jo_cutting_her_hair"
+     },
+     "causedBy": {
+      "name": "Jo_cutting_her_hair",
+      "takePlaceAt": {
+       "name": "Home"
+      },
+      "hasParticipant": {
+       "name": "Jo_March"
+      }
+     }
+    },
+    {
+     "name": "Gratitude",
+     "hasIntensity": 0.8,
+     "quote": "How kind you all are! Mother will accept, I'm sure; and it will be such a relief to know that she has some one to take care of her.",
+     "hasObject": {
+      "name": "Mr_Brooke_offering_to_escort_her_mother"
+     },
+     "causedBy": {
+      "name": "Mr_Brooke_offering_to_escort_her_mother_to_Washington",
+      "takePlaceAt": {
+       "name": "Home"
+      },
+      "hasParticipant": [
+       {
+        "name": "Meg"
+       },
+       {
+        "name": "Mr_Brooke"
+       }
+      ]
+     }
+    }
+   ]
   }
  ]
 }

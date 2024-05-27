@@ -1,88 +1,103 @@
 {
  "FictionalCharacters": [
   {
-   "id": "Lucy",
+   "name": "Miss Lavish",
+   "feels": [
+    {
+     "name": "Excitement",
+     "hasIntensity": 0.7,
+     "quote": "“There goes my local-colour box! I must have a word with him!”",
+     "causedByEvent": {
+      "name": "Spotting a local-colour box",
+      "takePlaceAt": {
+       "name": "Santa Croce"
+      }
+     },
+     "hasObject": {
+      "name": "Local-colour box"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Lucy",
    "feels": [
     {
      "name": "Confusion",
-     "hasIntensity": 0.7,
-     "quote": "She was sure that she ought not to be with these men; but they had cast a spell over her.",
-     "causedBy": {
-      "id": "situation1",
-      "name": "Being in the presence of the Emersons"
+     "hasIntensity": 0.8,
+     "quote": "Lucy again felt that this did not do.",
+     "causedByEvent": {
+      "name": "Mr. Emerson's statement",
+      "takePlaceAt": {
+       "name": "Santa Croce"
+      }
      },
      "hasObject": {
-      "id": "object1",
-      "name": "Emersons"
-     },
-     "exactPlace": "Inside Santa Croce"
+      "name": "Mr. Emerson's statement"
+     }
     },
     {
      "name": "Pity",
      "hasIntensity": 0.6,
-     "quote": "She was no theologian, but she felt that here was a very foolish old man, as well as a very irreligious one.",
-     "causedBy": {
-      "id": "situation2",
-      "name": "Mr. Emerson's comments on his son"
+     "quote": "The old man’s face saddened, and he touched her gently with his hand.",
+     "causedByEvent": {
+      "name": "Mr. Emerson's reaction",
+      "takePlaceAt": {
+       "name": "Santa Croce"
+      }
      },
      "hasObject": {
-      "id": "object2",
       "name": "Mr. Emerson"
-     },
-     "exactPlace": "Inside Santa Croce"
+     }
     },
     {
      "name": "Amusement",
-     "hasIntensity": 0.8,
-     "quote": "Surely one ought to laugh. A young man melancholy because the universe wouldn’t fit, because life was a tangle or a wind, or a Yes, or something!",
-     "causedBy": {
-      "id": "situation3",
-      "name": "Mr. Emerson's philosophical musings"
+     "hasIntensity": 0.9,
+     "quote": "Suddenly she laughed; surely one ought to laugh.",
+     "causedByEvent": {
+      "name": "Mr. Emerson's statement",
+      "takePlaceAt": {
+       "name": "Santa Croce"
+      }
      },
      "hasObject": {
-      "id": "object3",
-      "name": "Mr. Emerson's musings"
-     },
-     "exactPlace": "Inside Santa Croce"
-    },
-    {
-     "name": "Maternal Concern",
-     "hasIntensity": 0.7,
-     "quote": "The dear George, now striding towards them over the tombstones, seemed both pitiable and absurd.",
-     "causedBy": {
-      "id": "situation4",
-      "name": "Mr. Emerson's demeanor"
-     },
-     "hasObject": {
-      "id": "object4",
-      "name": "George Emerson"
-     },
-     "exactPlace": "Inside Santa Croce"
+      "name": "Mr. Emerson's statement"
+     }
     }
    ]
-  }
- ],
- "Places": [
-  {
-   "id": "place1",
-   "name": "Santa Croce",
-   "description": "A church in Florence"
-  }
- ],
- "Events": [
-  {
-   "id": "event1",
-   "name": "Loss of Baedeker",
-   "takePlaceAt": {
-    "id": "place1"
-   }
   },
   {
-   "id": "event2",
-   "name": "Mr. Emerson's philosophical musings",
-   "takePlaceAt": {
-    "id": "place1"
-   }
+   "name": "Mr. Emerson",
+   "feels": [
+    {
+     "name": "Sorrow",
+     "hasIntensity": 0.7,
+     "quote": "The old man’s face saddened, and he touched her gently with his hand.",
+     "causedByEvent": {
+      "name": "Lucy's reaction",
+      "takePlaceAt": {
+       "name": "Santa Croce"
+      }
+     },
+     "hasObject": {
+      "name": "Lucy"
+     }
+    },
+    {
+     "name": "Anxiety",
+     "hasIntensity": 0.8,
+     "quote": "Why will he look at that fresco?” he said uneasily.",
+     "causedByEvent": {
+      "name": "Observing George's behavior",
+      "takePlaceAt": {
+       "name": "Santa Croce"
+      }
+     },
+     "hasObject": {
+      "name": "George's behavior"
+     }
+    }
+   ]
   }
  ]
 }

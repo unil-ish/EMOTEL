@@ -1,100 +1,140 @@
 {
  "FictionalCharacters": [
   {
-   "id": "Jo March",
+   "name": "Jo March",
    "feels": [
     {
-     "name": "Anticipation",
-     "hasIntensity": 0.8,
-     "quote": "I quite long to see the dear man.",
-     "causedBy": {
-      "id": "event1",
-      "name": "Desire to see Mr. Bhaer"
-     },
-     "hasObject": {
-      "id": "object1",
-      "name": "Mr. Bhaer"
-     },
-     "exactPlace": "At home"
-    },
-    {
-     "name": "Regret",
+     "name": "Surprise",
      "hasIntensity": 0.7,
-     "quote": "It serves me right! What business had I to put on all my best things and come philandering down here, hoping to see the Professor?",
-     "causedBy": {
-      "id": "event2",
-      "name": "Realization of her actions"
+     "quote": "When she met him she looked surprised, though it was impossible to help suspecting that she had come for that express purpose.",
+     "causedByEvent": {
+      "name": "Meeting Mr. Bhaer unexpectedly",
+      "takePlaceAt": {
+       "name": "City street"
+      }
      },
      "hasObject": {
-      "id": "object2",
-      "name": "Mr. Bhaer"
-     },
-     "exactPlace": "In the street"
+      "name": "Meeting Mr. Bhaer unexpectedly"
+     }
     },
     {
-     "name": "Happiness",
-     "hasIntensity": 0.9,
-     "quote": "feeling as if the sun had suddenly burst out with uncommon brilliancy, that the world was all right again, and that one thoroughly happy woman was paddling through the wet that day.",
-     "causedBy": {
-      "id": "event3",
-      "name": "Walking arm-in-arm with Mr. Bhaer"
+     "name": "Delight",
+     "hasIntensity": 0.8,
+     "quote": "When he offered her his arm, she took it with a look that filled him with delight.",
+     "causedByEvent": {
+      "name": "Offering his arm to Jo",
+      "takePlaceAt": {
+       "name": "City street"
+      }
      },
      "hasObject": {
-      "id": "object3",
-      "name": "Mr. Bhaer"
+      "name": "Offering his arm to Jo"
+     }
+    },
+    {
+     "name": "Despair",
+     "hasIntensity": 0.9,
+     "quote": "So far away!",
+     "causedByEvent": {
+      "name": "Learning about Mr. Bhaer's destination",
+      "takePlaceAt": {
+       "name": "City street"
+      }
      },
-     "exactPlace": "Walking together"
+     "hasObject": {
+      "name": "Learning about Mr. Bhaer's destination"
+     }
+    },
+    {
+     "name": "Confusion",
+     "hasIntensity": 0.7,
+     "quote": "But, owing to the flutter she was in, everything went amiss; she upset the tray of needles, forgot the silesia was to be 'twilled' till it was cut off, gave the wrong change, and covered herself with confusion by asking for lavender ribbon at the calico counter.",
+     "causedByEvent": {
+      "name": "Shopping mishaps",
+      "takePlaceAt": {
+       "name": "Dry-goods store"
+      }
+     },
+     "hasObject": {
+      "name": "Shopping mishaps"
+     }
+    },
+    {
+     "name": "Joy",
+     "hasIntensity": 0.8,
+     "quote": "What will we buy?",
+     "causedByEvent": {
+      "name": "Planning a farewell feast",
+      "takePlaceAt": {
+       "name": "City street"
+      }
+     },
+     "hasObject": {
+      "name": "Planning a farewell feast"
+     }
     }
    ]
-  }
- ],
- "Places": [
-  {
-   "id": "place1",
-   "name": "At home",
-   "description": "Jo's home where she longs to see Mr. Bhaer."
   },
   {
-   "id": "place2",
-   "name": "In the street",
-   "description": "Where Jo realizes her actions and feels regret."
-  },
-  {
-   "id": "place3",
-   "name": "Walking together",
-   "description": "Where Jo feels happiness walking arm-in-arm with Mr. Bhaer."
-  }
- ],
- "Events": [
-  {
-   "id": "event1",
-   "name": "Desire to see Mr. Bhaer",
-   "takePlaceAt": {
-    "id": "place1"
-   },
-   "hasParticipant": {
-    "id": "Jo March"
-   }
-  },
-  {
-   "id": "event2",
-   "name": "Realization of her actions",
-   "takePlaceAt": {
-    "id": "place2"
-   },
-   "hasParticipant": {
-    "id": "Jo March"
-   }
-  },
-  {
-   "id": "event3",
-   "name": "Walking arm-in-arm with Mr. Bhaer",
-   "takePlaceAt": {
-    "id": "place3"
-   },
-   "hasParticipant": {
-    "id": "Jo March"
-   }
+   "name": "Mr. Bhaer",
+   "feels": [
+    {
+     "name": "Reproach",
+     "hasIntensity": 0.8,
+     "quote": "Did you believe that I should go with no farewell to those who haf been so heavenly kind to me?",
+     "causedByEvent": {
+      "name": "Jo thinking he had gone without saying goodbye",
+      "takePlaceAt": {
+       "name": "City street"
+      }
+     },
+     "hasObject": {
+      "name": "Jo thinking he had gone without saying goodbye"
+     }
+    },
+    {
+     "name": "Delight",
+     "hasIntensity": 0.7,
+     "quote": "He offered her his arm, she took it with a look that filled him with delight.",
+     "causedByEvent": {
+      "name": "Offering his arm to Jo",
+      "takePlaceAt": {
+       "name": "City street"
+      }
+     },
+     "hasObject": {
+      "name": "Offering his arm to Jo"
+     }
+    },
+    {
+     "name": "Bewilderment",
+     "hasIntensity": 0.6,
+     "quote": "He was beginning to see that on some occasions women, like dreams, go by contraries.",
+     "causedByEvent": {
+      "name": "Observing Jo's behavior",
+      "takePlaceAt": {
+       "name": "City street"
+      }
+     },
+     "hasObject": {
+      "name": "Observing Jo's behavior"
+     }
+    },
+    {
+     "name": "Cheerfulness",
+     "hasIntensity": 0.7,
+     "quote": "He put the parcel under his arm with a more cheerful aspect, and splashed through the puddles as if he rather enjoyed it.",
+     "causedByEvent": {
+      "name": "Buying items for the farewell feast",
+      "takePlaceAt": {
+       "name": "City street"
+      }
+     },
+     "hasObject": {
+      "name": "Buying items for the farewell feast"
+     }
+    }
+   ]
   }
  ]
 }

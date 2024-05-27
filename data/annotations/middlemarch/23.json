@@ -1,103 +1,145 @@
 {
  "FictionalCharacters": [
   {
-   "id": "Fred Vincy",
+   "name": "Dorothea",
    "feels": [
     {
-     "name": "Love",
-     "hasIntensity": 0.9,
-     "quote": "I have always loved her better than any one else, and that I shall never love any one as I love her.",
-     "causedBy": {
-      "id": "Mary Garth"
+     "name": "Trust",
+     "hasIntensity": 0.7,
+     "quote": "Caleb had no cant at command, even if he could have chosen to use it; and he had been accustomed to meet all such difficulties in no other way than by doing his 'business' faithfully.",
+     "causedByEvent": {
+      "name": "Caleb's reliability and honesty",
+      "takePlaceAt": {
+       "name": "Conversation with Caleb"
+      }
      },
      "hasObject": {
-      "id": "Mary Garth"
-     },
-     "exactPlace": "In the gateway"
+      "name": "Caleb's honesty and reliability"
+     }
     },
     {
-     "name": "Hope",
+     "name": "Joy",
      "hasIntensity": 0.8,
-     "quote": "I shall be the most miserable devil in the world if I lose all hope of Mary.",
-     "causedBy": {
-      "id": "Uncertainty about his future"
+     "quote": "The young ones have always a claim on the old to help them forward. I was young myself once and had to do without much help; but help would have been welcome to me, if it had been only for the fellow-feeling's sake.",
+     "causedByEvent": {
+      "name": "Caleb's willingness to help Fred",
+      "takePlaceAt": {
+       "name": "Conversation with Caleb"
+      }
      },
      "hasObject": {
-      "id": "Mary Garth"
-     },
-     "exactPlace": "In the gateway"
-    }
-   ]
-  },
-  {
-   "id": "Caleb Garth",
-   "feels": [
-    {
-     "name": "Pride",
-     "hasIntensity": 0.9,
-     "quote": "You must have a pride in your own work and in learning to do it well.",
-     "causedBy": {
-      "id": "Work ethic"
-     },
-     "hasObject": {
-      "id": "Work"
-     },
-     "exactPlace": "In the field"
+      "name": "Caleb's willingness to help"
+     }
     },
     {
-     "name": "Fondness",
-     "hasIntensity": 0.8,
-     "quote": "The young ones have always a claim on the old to help them forward.",
-     "causedBy": {
-      "id": "Fred Vincy's situation"
-     },
-     "hasObject": {
-      "id": "Fred Vincy"
-     },
-     "exactPlace": "In the field"
-    }
-   ]
-  },
-  {
-   "id": "Mary Garth",
-   "feels": [
-    {
-     "name": "Love",
+     "name": "Acceptance",
      "hasIntensity": 0.9,
      "quote": "The children are fond of each other—I mean, Fred and Mary.",
-     "causedBy": {
-      "id": "Fred Vincy"
+     "causedByEvent": {
+      "name": "Fred and Mary's feelings for each other",
+      "takePlaceAt": {
+       "name": "Conversation with Caleb"
+      }
      },
      "hasObject": {
-      "id": "Fred Vincy"
-     },
-     "exactPlace": "At home"
+      "name": "Fred and Mary's feelings"
+     }
     }
    ]
-  }
- ],
- "Places": [
-  {
-   "id": "Field",
-   "name": "Field",
-   "description": "The field where Caleb Garth and Fred Vincy were working."
   },
   {
-   "id": "Gateway",
-   "name": "Gateway",
-   "description": "The gateway where Fred Vincy and Caleb Garth were talking."
-  }
- ],
- "Events": [
+   "name": "Fred Vincy",
+   "feels": [
+    {
+     "name": "Surprise",
+     "hasIntensity": 0.7,
+     "quote": "The accidents of the morning had helped his frustrated imagination to shape an employment for himself which had several attractions.",
+     "causedByEvent": {
+      "name": "Accidents of the morning",
+      "takePlaceAt": {
+       "name": "Encounter with the laborers"
+      }
+     },
+     "hasObject": {
+      "name": "Accidents of the morning"
+     }
+    },
+    {
+     "name": "Joy",
+     "hasIntensity": 0.8,
+     "quote": "His spirits had risen, and he heartily enjoyed a good slip in the moist earth under the hedgerow, which soiled his perfect summer trousers.",
+     "causedByEvent": {
+      "name": "Enjoying the slip in the earth",
+      "takePlaceAt": {
+       "name": "Helping Caleb with work"
+      }
+     },
+     "hasObject": {
+      "name": "Slip in the earth"
+     }
+    },
+    {
+     "name": "Anticipation",
+     "hasIntensity": 0.9,
+     "quote": "He can't bear to be a clergyman, and Mary says she won't have him if he is one; and the lad would like to be under me and give his mind to business. And I've determined to take him and make a man of him.",
+     "causedByEvent": {
+      "name": "Fred's decision to pursue business",
+      "takePlaceAt": {
+       "name": "Conversation with Caleb"
+      }
+     },
+     "hasObject": {
+      "name": "Fred's decision to pursue business"
+     }
+    }
+   ]
+  },
   {
-   "id": "Uncertainty about his future",
-   "name": "Fred Vincy's uncertainty about his future career",
-   "takePlaceAt": {
-    "id": "Field"
-   },
-   "hasParticipant": {
-    "id": "Fred Vincy"
-   }
+   "name": "Caleb Garth",
+   "feels": [
+    {
+     "name": "Acceptance",
+     "hasIntensity": 0.9,
+     "quote": "The children are fond of each other—I mean, Fred and Mary.",
+     "causedByEvent": {
+      "name": "Fred and Mary's feelings for each other",
+      "takePlaceAt": {
+       "name": "Conversation with Fred"
+      }
+     },
+     "hasObject": {
+      "name": "Fred and Mary's feelings"
+     }
+    },
+    {
+     "name": "Joy",
+     "hasIntensity": 0.8,
+     "quote": "The young ones have always a claim on the old to help them forward. I was young myself once and had to do without much help; but help would have been welcome to me, if it had been only for the fellow-feeling's sake.",
+     "causedByEvent": {
+      "name": "Fred's request for help",
+      "takePlaceAt": {
+       "name": "Conversation with Fred"
+      }
+     },
+     "hasObject": {
+      "name": "Fred's request for help"
+     }
+    },
+    {
+     "name": "Acceptance",
+     "hasIntensity": 0.9,
+     "quote": "The children are fond of each other—I mean, Fred and Mary.",
+     "causedByEvent": {
+      "name": "Fred and Mary's feelings for each other",
+      "takePlaceAt": {
+       "name": "Conversation with Fred"
+      }
+     },
+     "hasObject": {
+      "name": "Fred and Mary's feelings"
+     }
+    }
+   ]
   }
  ]
 }

@@ -1,127 +1,48 @@
 {
  "FictionalCharacters": [
   {
-   "id": "texts/theenchantedapril.txt#Rose_Arbuthnot",
    "name": "Rose_Arbuthnot",
    "feels": [
     {
-     "name": "Anticipation",
-     "hasIntensity": 0.7,
-     "quote": "Rose sat at her window considering her day.",
-     "causedBy": {
-      "id": "texts/theenchantedapril.txt#Thinking_of_Frederick",
-      "name": "Thinking_of_Frederick"
-     },
+     "name": "Joy",
+     "hasIntensity": 0.9,
+     "quote": "Lotty was delighted at more love being introduced into San Salvatore, even if it were only one-sided, and said that when once Rose’s husband was there she didn’t suppose, now that Mrs. Fisher too had at last come unglued—Rose protested at the expression, and Lotty retorted that it was in Keats—there would be another place in the world more swarming with happiness than San Salvatore.",
      "hasObject": {
-      "id": "texts/theenchantedapril.txt#Frederick",
-      "name": "Frederick"
+      "name": "Love_and_happiness_in_San_Salvatore"
      },
-     "exactPlace": "Window",
-     "id": "Anticipation"
+     "causedBy": {
+      "name": "Lotty_s_optimism_about_love_and_happiness_in_San_Salvatore",
+      "takePlaceAt": {
+       "name": "Wall_conversation_after_tea"
+      },
+      "hasParticipant": [
+       {
+        "name": "Rose_Arbuthnot"
+       },
+       {
+        "name": "Lotty"
+       }
+      ]
+     }
     },
     {
      "name": "Sadness",
-     "hasIntensity": 0.6,
-     "quote": "Rose, who between lunch and tea had left off thinking about Frederick, was now, between tea and dinner, thinking of him harder than ever.",
-     "causedBy": {
-      "id": "texts/theenchantedapril.txt#Thinking_of_Frederick",
-      "name": "Thinking_of_Frederick"
-     },
-     "hasObject": {
-      "id": "texts/theenchantedapril.txt#Frederick",
-      "name": "Frederick"
-     },
-     "exactPlace": "Window",
-     "id": "Sadness"
-    }
-   ]
-  },
-  {
-   "id": "texts/theenchantedapril.txt#Ferdinand_Arundel",
-   "name": "Ferdinand_Arundel",
-   "feels": [
-    {
-     "name": "Affection",
-     "hasIntensity": 0.8,
-     "quote": "He fathered some of the most entertaining ideas he had lately had on to Lady Droitwich, and also any charming funny things that had been done—or might have been done, for he could imagine almost anything.",
-     "causedBy": {
-      "id": "texts/theenchantedapril.txt#Entertaining_Scrap_with_invented_stories_about_her",
-      "name": "Entertaining_Scrap_with_invented_stories_about_her_mother"
-     },
-     "hasObject": {
-      "id": "texts/theenchantedapril.txt#Lady_Droitwich",
-      "name": "Lady_Droitwich"
-     },
-     "exactPlace": "Deep window-recess",
-     "id": "Affection"
-    }
-   ]
-  },
-  {
-   "id": "texts/theenchantedapril.txt#Scrap",
-   "name": "Scrap",
-   "feels": [
-    {
-     "name": "Wonder",
-     "hasIntensity": 0.9,
-     "quote": "Scrap’s eyes grew round with wonder and affectionate pride in her mother.",
-     "causedBy": {
-      "id": "texts/theenchantedapril.txt#Listening_to_invented_stories_about_her_mother",
-      "name": "Listening_to_invented_stories_about_her_mother"
-     },
-     "hasObject": {
-      "id": "texts/theenchantedapril.txt#Lady_Droitwich",
-      "name": "Lady_Droitwich"
-     },
-     "exactPlace": "Deep window-recess",
-     "id": "Wonder"
-    },
-    {
-     "name": "Melancholy",
      "hasIntensity": 0.7,
-     "quote": "Scrap, who had become melancholy at the sight of Briggs, became philosophical at the sight of Arundel.",
-     "causedBy": {
-      "id": "texts/theenchantedapril.txt#Seeing_Ferdinand_Arundel",
-      "name": "Seeing_Ferdinand_Arundel"
+     "quote": "For Rose, who between lunch and tea had left off thinking about Frederick, was now, between tea and dinner, thinking of him harder than ever.",
+     "hasObject": {
+      "name": "Thoughts_of_Frederick"
      },
-     "exactPlace": "Deep window-recess",
-     "id": "Melancholy"
+     "causedBy": {
+      "name": "Thinking_about_Frederick",
+      "takePlaceAt": {
+       "name": "Window_contemplation"
+      },
+      "hasParticipant": {
+       "name": "Rose_Arbuthnot"
+      }
+     }
     }
    ]
-  }
- ],
- "Places": [
-  {
-   "id": "texts/theenchantedapril.txt#Window",
-   "name": "Window",
-   "description": "Rose sat at her window considering her day."
-  },
-  {
-   "id": "texts/theenchantedapril.txt#Deep_windowrecess",
-   "name": "Deep_windowrecess",
-   "description": "Ferdinand Arundel stood in one of the deep window-recesses looking out at the distant lights of Mezzago."
-  }
- ],
- "Events": [
-  {
-   "id": "texts/theenchantedapril.txt#Thinking_of_Frederick",
-   "name": "Thinking_of_Frederick"
-  },
-  {
-   "id": "texts/theenchantedapril.txt#Thinking_of_Frederick",
-   "name": "Thinking_of_Frederick"
-  },
-  {
-   "id": "texts/theenchantedapril.txt#Entertaining_Scrap_with_invented_stories_about_her",
-   "name": "Entertaining_Scrap_with_invented_stories_about_her_mother"
-  },
-  {
-   "id": "texts/theenchantedapril.txt#Listening_to_invented_stories_about_her_mother",
-   "name": "Listening_to_invented_stories_about_her_mother"
-  },
-  {
-   "id": "texts/theenchantedapril.txt#Seeing_Ferdinand_Arundel",
-   "name": "Seeing_Ferdinand_Arundel"
   }
  ]
 }

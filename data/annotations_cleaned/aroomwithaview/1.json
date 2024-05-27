@@ -1,127 +1,117 @@
 {
  "FictionalCharacters": [
   {
-   "id": "texts/aroomwithaview.txt#Lucy",
+   "name": "Lucy_Honeychurch",
    "feels": [
     {
      "name": "Fear",
      "hasIntensity": 0.7,
-     "quote": "She had been a little frightened, both by Miss Lavish and by Mr. Eager, she knew not why.",
-     "causedBy": {
-      "id": "texts/aroomwithaview.txt#Encounter_with_Miss_Lavish_and_Mr_Eager",
-      "name": "Encounter_with_Miss_Lavish_and_Mr_Eager"
-     },
+     "quote": "She was a little frightened, both by Miss Lavish and by Mr. Eager, she knew not why.",
      "hasObject": {
-      "id": "texts/aroomwithaview.txt#Unknown",
       "name": "Unknown"
      },
-     "exactPlace": "In the newspaper-room at the English bank",
-     "id": "Fear"
+     "causedBy": {
+      "name": "Interaction_with_Miss_Lavish_and_Mr_Eager",
+      "takePlaceAt": {
+       "name": "Shopping_trip_and_conversation"
+      },
+      "hasParticipant": [
+       {
+        "name": "Lucy_Honeychurch"
+       },
+       {
+        "name": "Miss_Lavish"
+       },
+       {
+        "name": "Mr_Eager"
+       }
+      ]
+     }
     },
     {
      "name": "Rebellion",
      "hasIntensity": 0.8,
      "quote": "For the first time Lucy’s rebellious thoughts swept out in words—for the first time in her life.",
-     "causedBy": {
-      "id": "texts/aroomwithaview.txt#Conversation_with_Mr_Eager",
-      "name": "Conversation_with_Mr_Eager"
-     },
      "hasObject": {
-      "id": "texts/aroomwithaview.txt#Unknown",
-      "name": "Unknown"
+      "name": "Accusations"
      },
-     "exactPlace": "In the newspaper-room at the English bank",
-     "id": "Rebellion"
+     "causedBy": {
+      "name": "Mr_Eager_s_accusations",
+      "takePlaceAt": {
+       "name": "Conversation_in_the_shop"
+      },
+      "hasParticipant": [
+       {
+        "name": "Lucy_Honeychurch"
+       },
+       {
+        "name": "Mr_Eager"
+       }
+      ]
+     }
     },
     {
      "name": "Confusion",
      "hasIntensity": 0.6,
-     "quote": "Lucy was recalled to her manners, and after a little exertion the complacency of Mr. Eager was restored.",
-     "causedBy": {
-      "id": "texts/aroomwithaview.txt#Conversation_with_Mr_Eager",
-      "name": "Conversation_with_Mr_Eager"
-     },
+     "quote": "The well-known world had broken up, and there emerged Florence, a magic city where people thought and did the most extraordinary things.",
      "hasObject": {
-      "id": "texts/aroomwithaview.txt#Unknown",
-      "name": "Unknown"
+      "name": "Florence"
      },
-     "exactPlace": "In the newspaper-room at the English bank",
-     "id": "Confusion"
-    },
+     "causedBy": {
+      "name": "Realization_of_the_complexities_of_Florence",
+      "takePlaceAt": {
+       "name": "Newspaperroom_at_the_English_bank"
+      },
+      "hasParticipant": {
+       "name": "Lucy_Honeychurch"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "Miss_Bartlett",
+   "feels": [
     {
      "name": "Curiosity",
-     "hasIntensity": 0.9,
-     "quote": "Lucy stood by the central table, trying to answer, or at least to formulate the questions rioting in her brain.",
-     "causedBy": {
-      "id": "texts/aroomwithaview.txt#Thoughts_about_the_incidents_in_Florence",
-      "name": "Thoughts_about_the_incidents_in_Florence"
-     },
+     "hasIntensity": 0.7,
+     "quote": "Miss Bartlett was full of very natural curiosity.",
      "hasObject": {
-      "id": "texts/aroomwithaview.txt#Unknown",
-      "name": "Unknown"
+      "name": "Revelations"
      },
-     "exactPlace": "In the newspaper-room at the English bank",
-     "id": "Curiosity"
+     "causedBy": {
+      "name": "Mr_Eager_s_revelations",
+      "takePlaceAt": {
+       "name": "Conversation_in_the_shop"
+      },
+      "hasParticipant": {
+       "name": "Miss_Bartlett"
+      }
+     }
+    },
+    {
+     "name": "Discomfiture",
+     "hasIntensity": 0.6,
+     "quote": "How could you think she was defending them? said Miss Bartlett, much discomfited by the unpleasant scene.",
+     "hasObject": {
+      "name": "Unpleasant_scene"
+     },
+     "causedBy": {
+      "name": "Unpleasant_scene_with_Mr_Eager",
+      "takePlaceAt": {
+       "name": "Conversation_in_the_shop"
+      },
+      "hasParticipant": [
+       {
+        "name": "Miss_Bartlett"
+       },
+       {
+        "name": "Mr_Eager"
+       }
+      ]
+     }
     }
-   ],
-   "name": "Lucy"
-  }
- ],
- "Places": [
-  {
-   "id": "texts/aroomwithaview.txt#Newspaperroom_at_the_English_bank",
-   "name": "Newspaperroom_at_the_English_bank",
-   "description": "A room with a central table and newspapers like Punch and the Graphic."
-  }
- ],
- "Events": [
-  {
-   "id": "texts/aroomwithaview.txt#Encounter_with_Miss_Lavish_and_Mr_Eager",
-   "name": "Encounter_with_Miss_Lavish_and_Mr_Eager",
-   "takePlaceAt": {
-    "id": "texts/aroomwithaview.txt#newspaperroom1",
-    "name": "newspaperroom1"
-   },
-   "hasParticipant": {
-    "id": "texts/aroomwithaview.txt#Lucy",
-    "name": "Lucy"
-   }
-  },
-  {
-   "id": "texts/aroomwithaview.txt#Conversation_with_Mr_Eager",
-   "name": "Conversation_with_Mr_Eager",
-   "takePlaceAt": {
-    "id": "texts/aroomwithaview.txt#newspaperroom1",
-    "name": "newspaperroom1"
-   },
-   "hasParticipant": {
-    "id": "texts/aroomwithaview.txt#Lucy",
-    "name": "Lucy"
-   }
-  },
-  {
-   "id": "texts/aroomwithaview.txt#Conversation_with_Mr_Eager",
-   "name": "Conversation_with_Mr_Eager",
-   "takePlaceAt": {
-    "id": "texts/aroomwithaview.txt#newspaperroom1",
-    "name": "newspaperroom1"
-   },
-   "hasParticipant": {
-    "id": "texts/aroomwithaview.txt#Lucy",
-    "name": "Lucy"
-   }
-  },
-  {
-   "id": "texts/aroomwithaview.txt#Thoughts_about_the_incidents_in_Florence",
-   "name": "Thoughts_about_the_incidents_in_Florence",
-   "takePlaceAt": {
-    "id": "texts/aroomwithaview.txt#newspaperroom1",
-    "name": "newspaperroom1"
-   },
-   "hasParticipant": {
-    "id": "texts/aroomwithaview.txt#Lucy",
-    "name": "Lucy"
-   }
+   ]
   }
  ]
 }

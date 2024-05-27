@@ -6,38 +6,103 @@
     {
      "name": "Sadness",
      "hasIntensity": 0.9,
-     "quote": "Oh, my dear! the bitter, bitter crying she had when she was alone; and at last, as she grew weaker, she could not keep her tears in when Deborah or me was by.",
-     "causedBy": {
-      "name": "Peter's disappearance"
+     "quote": "Oh, my dear! the bitter, bitter crying she had when she was alone; and at last, as she grew weaker, she could not keep her tears in when Deborah or me was by, and would give us message after message for Peter...",
+     "causedByEvent": {
+      "name": "Peter's absence and presumed death",
+      "takePlaceAt": {
+       "name": "Rectory"
+      },
+      "hasParticipant": [
+       {
+        "name": "Miss Matty"
+       },
+       {
+        "name": "Deborah"
+       }
+      ]
      },
      "hasObject": {
       "name": "Peter"
+     }
+    },
+    {
+     "name": "Love",
+     "hasIntensity": 0.8,
+     "quote": "And she and Deborah sat by my bedside; I knew by the looks of each that there had been no news of Peter—no awful, ghastly news, which was what I most had dreaded in my dull state between sleeping and waking.",
+     "causedByEvent": {
+      "name": "Peter's absence and presumed death",
+      "takePlaceAt": {
+       "name": "Rectory"
+      },
+      "hasParticipant": [
+       {
+        "name": "Miss Matty"
+       },
+       {
+        "name": "Deborah"
+       }
+      ]
      },
-     "exactPlace": "In her room"
+     "hasObject": {
+      "name": "Peter"
+     }
     },
     {
      "name": "Grief",
-     "hasIntensity": 0.8,
+     "hasIntensity": 0.9,
      "quote": "That spring day was the last time he ever saw his mother’s face.",
-     "causedBy": {
-      "name": "Peter's departure"
-     },
-     "hasObject": {
-      "name": "Peter's departure"
-     },
-     "exactPlace": "In the house"
-    },
-    {
-     "name": "Remorse",
-     "hasIntensity": 0.7,
-     "quote": "‘Tell your mother I have flogged Peter, and that he richly deserved it.’",
-     "causedBy": {
-      "name": "Flogging Peter"
+     "causedByEvent": {
+      "name": "Peter's absence and presumed death",
+      "takePlaceAt": {
+       "name": "Rectory"
+      },
+      "hasParticipant": [
+       {
+        "name": "Miss Matty"
+       }
+      ]
      },
      "hasObject": {
       "name": "Peter"
+     }
+    },
+    {
+     "name": "Acceptance",
+     "hasIntensity": 0.7,
+     "quote": "And only think, love! the very day after her death—for she did not live quite a twelvemonth after Peter went away—the very day after—came a parcel for her from India—from her poor boy.",
+     "causedByEvent": {
+      "name": "Peter's absence and presumed death",
+      "takePlaceAt": {
+       "name": "Rectory"
+      },
+      "hasParticipant": [
+       {
+        "name": "Miss Matty"
+       }
+      ]
      },
-     "exactPlace": "In the house"
+     "hasObject": {
+      "name": "Peter"
+     }
+    },
+    {
+     "name": "Regret",
+     "hasIntensity": 0.8,
+     "quote": "And then again, when I sit by myself, and all the house is still, I think I hear his step coming up the street, and my heart begins to flutter and beat; but the sound always goes past—and Peter never comes.",
+     "causedByEvent": {
+      "name": "Peter's absence and presumed death",
+      "takePlaceAt": {
+       "name": "Rectory"
+      },
+      "hasParticipant": [
+       {
+        "name": "Miss Matty"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Peter"
+     }
     }
    ]
   },
@@ -47,64 +112,30 @@
     {
      "name": "Modesty",
      "hasIntensity": 0.6,
-     "quote": "she was very much absorbed in her errand, which she delivered herself of with an oppressive modesty that found vent in endless apologies.",
-     "causedBy": {
-      "name": "Visiting Miss Matty"
+     "quote": "She was quite unconscious of it herself, and looked at us, with bland satisfaction.",
+     "causedByEvent": {
+      "name": "Visiting Miss Matty and Miss Deborah",
+      "takePlaceAt": {
+       "name": "Miss Matty's house"
+      }
      },
      "hasObject": {
-      "name": "Visiting Miss Matty"
+      "name": "Miss Matty and Miss Deborah"
+     }
+    },
+    {
+     "name": "Embarrassment",
+     "hasIntensity": 0.7,
+     "quote": "She was very much absorbed in her errand, which she delivered herself of with an oppressive modesty that found vent in endless apologies.",
+     "causedByEvent": {
+      "name": "Visiting Miss Matty",
+      "takePlaceAt": {
+       "name": "Miss Matty's house"
+      }
      },
-     "exactPlace": "In Miss Matty's house"
-    }
-   ]
-  }
- ],
- "Places": [
-  {
-   "name": "Miss Matty's house",
-   "description": "A small house where Miss Matty and Miss Matty live."
-  }
- ],
- "Events": [
-  {
-   "name": "Peter's disappearance",
-   "takePlaceAt": {
-    "name": "Miss Matty's house"
-   },
-   "hasParticipant": [
-    {
-     "name": "Miss Matty"
-    },
-    {
-     "name": "Peter"
-    }
-   ]
-  },
-  {
-   "name": "Flogging Peter",
-   "takePlaceAt": {
-    "name": "Miss Matty's house"
-   },
-   "hasParticipant": [
-    {
-     "name": "Miss Matty"
-    },
-    {
-     "name": "Peter"
-    }
-   ]
-  },
-  {
-   "name": "Visiting Miss Matty",
-   "takePlaceAt": {
-    "name": "Miss Matty's house"
-   },
-   "hasParticipant": [
-    {
-     "name": "Miss Matty"
-    },
-    {
-     "name": "Miss Betty Barker"
+     "hasObject": {
+      "name": "Miss Matty"
+     }
     }
    ]
   }

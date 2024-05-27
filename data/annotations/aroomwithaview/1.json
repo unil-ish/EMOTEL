@@ -1,114 +1,121 @@
 {
  "FictionalCharacters": [
   {
-   "id": "Lucy",
+   "name": "Lucy Honeychurch",
    "feels": [
     {
      "name": "Fear",
      "hasIntensity": 0.7,
-     "quote": "She had been a little frightened, both by Miss Lavish and by Mr. Eager, she knew not why.",
-     "causedBy": {
-      "id": "encounter1",
-      "name": "Encounter with Miss Lavish and Mr. Eager"
+     "quote": "She was a little frightened, both by Miss Lavish and by Mr. Eager, she knew not why.",
+     "causedByEvent": {
+      "name": "Interaction with Miss Lavish and Mr. Eager",
+      "takePlaceAt": {
+       "name": "Shopping trip and conversation"
+      },
+      "hasParticipant": [
+       {
+        "name": "Lucy Honeychurch"
+       },
+       {
+        "name": "Miss Lavish"
+       },
+       {
+        "name": "Mr. Eager"
+       }
+      ]
      },
      "hasObject": {
-      "id": "unknown",
       "name": "Unknown"
-     },
-     "exactPlace": "In the newspaper-room at the English bank"
+     }
     },
     {
      "name": "Rebellion",
      "hasIntensity": 0.8,
      "quote": "For the first time Lucy’s rebellious thoughts swept out in words—for the first time in her life.",
-     "causedBy": {
-      "id": "conversation1",
-      "name": "Conversation with Mr. Eager"
+     "causedByEvent": {
+      "name": "Mr. Eager's accusations",
+      "takePlaceAt": {
+       "name": "Conversation in the shop"
+      },
+      "hasParticipant": [
+       {
+        "name": "Lucy Honeychurch"
+       },
+       {
+        "name": "Mr. Eager"
+       }
+      ]
      },
      "hasObject": {
-      "id": "unknown",
-      "name": "Unknown"
-     },
-     "exactPlace": "In the newspaper-room at the English bank"
+      "name": "Accusations"
+     }
     },
     {
      "name": "Confusion",
      "hasIntensity": 0.6,
-     "quote": "Lucy was recalled to her manners, and after a little exertion the complacency of Mr. Eager was restored.",
-     "causedBy": {
-      "id": "conversation2",
-      "name": "Conversation with Mr. Eager"
+     "quote": "The well-known world had broken up, and there emerged Florence, a magic city where people thought and did the most extraordinary things.",
+     "causedByEvent": {
+      "name": "Realization of the complexities of Florence",
+      "takePlaceAt": {
+       "name": "Newspaper-room at the English bank"
+      },
+      "hasParticipant": [
+       {
+        "name": "Lucy Honeychurch"
+       }
+      ]
      },
      "hasObject": {
-      "id": "unknown",
-      "name": "Unknown"
-     },
-     "exactPlace": "In the newspaper-room at the English bank"
-    },
-    {
-     "name": "Curiosity",
-     "hasIntensity": 0.9,
-     "quote": "Lucy stood by the central table, trying to answer, or at least to formulate the questions rioting in her brain.",
-     "causedBy": {
-      "id": "thoughts1",
-      "name": "Thoughts about the incidents in Florence"
-     },
-     "hasObject": {
-      "id": "unknown",
-      "name": "Unknown"
-     },
-     "exactPlace": "In the newspaper-room at the English bank"
+      "name": "Florence"
+     }
     }
    ]
-  }
- ],
- "Places": [
-  {
-   "id": "newspaperroom1",
-   "name": "Newspaper-room at the English bank",
-   "description": "A room with a central table and newspapers like Punch and the Graphic."
-  }
- ],
- "Events": [
-  {
-   "id": "encounter1",
-   "name": "Encounter with Miss Lavish and Mr. Eager",
-   "takePlaceAt": {
-    "id": "newspaperroom1"
-   },
-   "hasParticipant": {
-    "id": "Lucy"
-   }
   },
   {
-   "id": "conversation1",
-   "name": "Conversation with Mr. Eager",
-   "takePlaceAt": {
-    "id": "newspaperroom1"
-   },
-   "hasParticipant": {
-    "id": "Lucy"
-   }
-  },
-  {
-   "id": "conversation2",
-   "name": "Conversation with Mr. Eager",
-   "takePlaceAt": {
-    "id": "newspaperroom1"
-   },
-   "hasParticipant": {
-    "id": "Lucy"
-   }
-  },
-  {
-   "id": "thoughts1",
-   "name": "Thoughts about the incidents in Florence",
-   "takePlaceAt": {
-    "id": "newspaperroom1"
-   },
-   "hasParticipant": {
-    "id": "Lucy"
-   }
+   "name": "Miss Bartlett",
+   "feels": [
+    {
+     "name": "Curiosity",
+     "hasIntensity": 0.7,
+     "quote": "Miss Bartlett was full of very natural curiosity.",
+     "causedByEvent": {
+      "name": "Mr. Eager's revelations",
+      "takePlaceAt": {
+       "name": "Conversation in the shop"
+      },
+      "hasParticipant": [
+       {
+        "name": "Miss Bartlett"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Revelations"
+     }
+    },
+    {
+     "name": "Discomfiture",
+     "hasIntensity": 0.6,
+     "quote": "How could you think she was defending them? said Miss Bartlett, much discomfited by the unpleasant scene.",
+     "causedByEvent": {
+      "name": "Unpleasant scene with Mr. Eager",
+      "takePlaceAt": {
+       "name": "Conversation in the shop"
+      },
+      "hasParticipant": [
+       {
+        "name": "Miss Bartlett"
+       },
+       {
+        "name": "Mr. Eager"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Unpleasant scene"
+     }
+    }
+   ]
   }
  ]
 }

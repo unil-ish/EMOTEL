@@ -1,163 +1,117 @@
 {
  "FictionalCharacters": [
   {
-   "id": "texts/littlewomen.txt#Amy",
+   "name": "Amy",
    "feels": [
     {
      "name": "Determination",
      "hasIntensity": 0.9,
-     "quote": "I can't have it as I like, I don't care to have it at all.",
-     "causedBy": {
-      "id": "texts/littlewomen.txt#Opposition_from_Jo",
-      "name": "Opposition_from_Jo"
-     },
+     "quote": "If I can't have it as I like, I don't care to have it at all.",
      "hasObject": {
-      "id": "texts/littlewomen.txt#Lunch_for_the_girls",
-      "name": "Lunch_for_the_girls"
+      "name": "Arranging_an_artistic_fête_for_her_friends"
      },
-     "place": {
-      "id": "texts/littlewomen.txt#Home",
-      "name": "Home"
-     },
-     "id": "Determination"
+     "causedBy": {
+      "name": "Opposition_from_Jo",
+      "takePlaceAt": {
+       "name": "Home"
+      }
+     }
     },
     {
      "name": "Gratitude",
      "hasIntensity": 0.8,
      "quote": "If it hadn't been for mother I never should have got through.",
-     "causedBy": {
-      "id": "texts/littlewomen.txt#Mother_s_help",
-      "name": "Mother_s_help"
-     },
      "hasObject": {
-      "id": "texts/littlewomen.txt#Preparation_for_the_event",
-      "name": "Preparation_for_the_event"
+      "name": "Mother_s_support"
      },
-     "place": {
-      "id": "texts/littlewomen.txt#Home",
-      "name": "Home"
-     },
-     "id": "Gratitude"
+     "causedBy": {
+      "name": "Successful_completion_of_the_event",
+      "takePlaceAt": {
+       "name": "Home"
+      }
+     }
     },
     {
-     "name": "Disappointment",
+     "name": "Anxiety",
      "hasIntensity": 0.7,
-     "quote": "I can't get any lobsters, so you will have to do without salad today.",
-     "causedBy": {
-      "id": "texts/littlewomen.txt#Unavailability_of_lobsters",
-      "name": "Unavailability_of_lobsters"
-     },
+     "quote": "The lunch looked charmingly; and as she surveyed it, she sincerely hoped it would taste well.",
      "hasObject": {
-      "id": "texts/littlewomen.txt#Lunch_preparation",
-      "name": "Lunch_preparation"
+      "name": "Success_of_the_lunch"
      },
-     "place": {
-      "id": "texts/littlewomen.txt#Home",
-      "name": "Home"
-     },
-     "id": "Disappointment"
+     "causedBy": {
+      "name": "Preparation_for_the_event",
+      "takePlaceAt": {
+       "name": "Home"
+      }
+     }
     }
-   ],
-   "name": "Amy"
+   ]
   },
   {
-   "id": "texts/littlewomen.txt#Jo",
+   "name": "Jo",
    "feels": [
     {
-     "name": "Disapproval",
+     "name": "Defiance",
      "hasIntensity": 0.8,
      "quote": "Why in the world should you spend your money, worry your family, and turn the house upside down for a parcel of girls who don't care a sixpence for you?",
-     "causedBy": {
-      "id": "texts/littlewomen.txt#Amy_s_plan_for_the_event",
-      "name": "Amy_s_plan_for_the_event"
-     },
      "hasObject": {
-      "id": "texts/littlewomen.txt#Girls_visit",
-      "name": "Girls_visit"
+      "name": "Amy_s_plan"
      },
-     "place": {
-      "id": "texts/littlewomen.txt#Home",
-      "name": "Home"
-     },
-     "id": "Disapproval"
+     "causedBy": {
+      "name": "Opposition_to_Amy_s_plan",
+      "takePlaceAt": {
+       "name": "Home"
+      }
+     }
     },
     {
-     "name": "Reluctance",
+     "name": "Amusement",
      "hasIntensity": 0.7,
-     "quote": "I would have nothing to do with it at first.",
-     "causedBy": {
-      "id": "texts/littlewomen.txt#Amy_s_plan_for_the_event",
-      "name": "Amy_s_plan_for_the_event"
-     },
+     "quote": "Amy's definition of Jo's idea of independence was such a good hit that both burst out laughing.",
      "hasObject": {
-      "id": "texts/littlewomen.txt#Girls_visit",
-      "name": "Girls_visit"
+      "name": "Amy_s_witty_remark"
      },
-     "place": {
-      "id": "texts/littlewomen.txt#Home",
-      "name": "Home"
-     },
-     "id": "Reluctance"
+     "causedBy": {
+      "name": "Amy_s_witty_remark",
+      "takePlaceAt": {
+       "name": "Home"
+      }
+     }
     }
-   ],
-   "name": "Jo"
+   ]
   },
   {
-   "id": "texts/littlewomen.txt#Mrs_March",
+   "name": "Mrs_March",
    "feels": [
     {
      "name": "Resignation",
-     "hasIntensity": 0.7,
-     "quote": "If your heart is set upon it, and you see your way through without too great an outlay of money, time, and temper, I'll say no more.",
-     "causedBy": {
-      "id": "texts/littlewomen.txt#Amy_s_determination_to_proceed_with_the_event",
-      "name": "Amy_s_determination_to_proceed_with_the_event"
-     },
+     "hasIntensity": 0.8,
+     "quote": "Very well, Amy; if your heart is set upon it, and you see your way through without too great an outlay of money, time, and temper, I'll say no more.",
      "hasObject": {
-      "id": "texts/littlewomen.txt#Girls_visit",
-      "name": "Girls_visit"
+      "name": "Amy_s_determination"
      },
-     "place": {
-      "id": "texts/littlewomen.txt#Home",
-      "name": "Home"
+     "causedBy": {
+      "name": "Amy_s_determination",
+      "takePlaceAt": {
+       "name": "Home"
+      }
+     }
+    },
+    {
+     "name": "Amusement",
+     "hasIntensity": 0.7,
+     "quote": "Mrs. March laughed, and smoothed down her maternal pride as she asked,--",
+     "hasObject": {
+      "name": "Amy_s_witty_remark"
      },
-     "id": "Resignation"
+     "causedBy": {
+      "name": "Amy_s_witty_remark",
+      "takePlaceAt": {
+       "name": "Home"
+      }
+     }
     }
-   ],
-   "name": "Mrs_March"
-  }
- ],
- "Places": [
-  {
-   "id": "texts/littlewomen.txt#Home",
-   "name": "Home",
-   "description": "The setting for the preparations and discussions for the event."
-  }
- ],
- "Events": [
-  {
-   "id": "texts/littlewomen.txt#Opposition_from_Jo",
-   "name": "Opposition_from_Jo"
-  },
-  {
-   "id": "texts/littlewomen.txt#Mother_s_help",
-   "name": "Mother_s_help"
-  },
-  {
-   "id": "texts/littlewomen.txt#Unavailability_of_lobsters",
-   "name": "Unavailability_of_lobsters"
-  },
-  {
-   "id": "texts/littlewomen.txt#Amy_s_plan_for_the_event",
-   "name": "Amy_s_plan_for_the_event"
-  },
-  {
-   "id": "texts/littlewomen.txt#Amy_s_plan_for_the_event",
-   "name": "Amy_s_plan_for_the_event"
-  },
-  {
-   "id": "texts/littlewomen.txt#Amy_s_determination_to_proceed_with_the_event",
-   "name": "Amy_s_determination_to_proceed_with_the_event"
+   ]
   }
  ]
 }

@@ -1,116 +1,158 @@
 {
  "FictionalCharacters": [
   {
-   "id": "fc1",
    "name": "Dorothea",
    "feels": [
     {
      "name": "Love",
-     "hasIntensity": 1,
-     "quote": "Oh, I cannot bear it—my heart will break,” said Dorothea, starting from her seat, the flood of her young passion bearing down all the obstructions which had kept her silent—the great tears rising and falling in an instant: “I don’t mind about poverty—I hate my wealth.”",
-     "causedBy": {
-      "id": "event1",
-      "name": "Expressing her feelings for Will"
-     },
-     "hasObject": {
-      "id": "object1",
-      "name": "Will"
-     },
-     "exactPlace": "Library"
-    },
-    {
-     "name": "Sorrow",
      "hasIntensity": 0.9,
-     "quote": "It is impossible!” said Will, angrily. “It is cruel of you to speak in that way—as if there were any comfort. You may see beyond the misery of it, but I don’t. It is unkind—it is throwing back my love for you as if it were a trifle, to speak in that way in the face of the fact. We can never be married.”“Some time—we might,” said Dorothea, in a trembling voice.",
-     "causedBy": {
-      "id": "event2",
-      "name": "Realizing the impossibility of being with Will"
+     "quote": "Oh, I cannot bear it—my heart will break,” said Dorothea, starting from her seat, the flood of her young passion bearing down all the obstructions which had kept her silent—the great tears rising and falling in an instant: “I don’t mind about poverty—I hate my wealth.",
+     "causedByEvent": {
+      "name": "Learning about Will's return and marriage",
+      "takePlaceAt": {
+       "name": "Freshitt Hall"
+      },
+      "hasParticipant": [
+       {
+        "name": "Dorothea"
+       },
+       {
+        "name": "Will Ladislaw"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object1",
-      "name": "Will"
-     },
-     "exactPlace": "Library"
+      "name": "Marriage to Will Ladislaw"
+     }
     },
     {
-     "name": "Tenderness",
-     "hasIntensity": 0.95,
-     "quote": "She tripped off to meet her uncle, while Sir James and Mr. Cadwallader came forward to make one group with the ladies. Celia had slipped her arm through her uncle’s, and he patted her hand with a rather melancholy “Well, my dear!” As they approached, it was evident that Mr. Brooke was looking dejected, but this was fully accounted for by the state of politics; and as he was shaking hands all round without more greeting than a “Well, you’re all here, you know,” the Rector said, laughingly—“Don’t take the throwing out of the Bill so much to heart, Brooke; you’ve got all the riff-raff of the country on your side.”",
-     "causedBy": {
-      "id": "event3",
-      "name": "Feeling tenderness towards her uncle"
+     "name": "Sadness",
+     "hasIntensity": 0.8,
+     "quote": "It is very dreadful of Dodo, though,” said Celia, wishing to justify her husband. “She said she never would marry again—not anybody at all.",
+     "causedByEvent": {
+      "name": "Learning about Dorothea's marriage",
+      "takePlaceAt": {
+       "name": "Freshitt Hall"
+      },
+      "hasParticipant": [
+       {
+        "name": "Dorothea"
+       },
+       {
+        "name": "Celia"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object2",
-      "name": "Uncle"
+      "name": "Marriage to Will Ladislaw"
+     }
+    },
+    {
+     "name": "Determination",
+     "hasIntensity": 0.7,
+     "quote": "Dorothea is quite determined—it is no use opposing. I put it strongly to her. I did my duty, Chettam.",
+     "causedByEvent": {
+      "name": "Decision to marry Will Ladislaw",
+      "takePlaceAt": {
+       "name": "Freshitt Hall"
+      },
+      "hasParticipant": [
+       {
+        "name": "Dorothea"
+       }
+      ]
      },
-     "exactPlace": "Freshitt Hall"
+     "hasObject": {
+      "name": "Marriage to Will Ladislaw"
+     }
     }
    ]
   },
   {
-   "id": "fc2",
-   "name": "Will Ladislaw",
+   "name": "Sir James Chettam",
    "feels": [
     {
      "name": "Anger",
-     "hasIntensity": 0.9,
-     "quote": "It is impossible!” said Will, angrily. “It is cruel of you to speak in that way—as if there were any comfort. You may see beyond the misery of it, but I don’t. It is unkind—it is throwing back my love for you as if it were a trifle, to speak in that way in the face of the fact. We can never be married.”“Some time—we might,” said Dorothea, in a trembling voice.",
-     "causedBy": {
-      "id": "event2",
-      "name": "Realizing the impossibility of being with Dorothea"
+     "hasIntensity": 0.8,
+     "quote": "It is perfectly scandalous. If Ladislaw had had a spark of honor he would have gone out of the country at once, and never shown his face in it again.",
+     "causedByEvent": {
+      "name": "Learning about Dorothea's marriage to Ladislaw",
+      "takePlaceAt": {
+       "name": "Freshitt Hall"
+      },
+      "hasParticipant": [
+       {
+        "name": "Sir James Chettam"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object1",
-      "name": "Dorothea"
-     },
-     "exactPlace": "Library"
+      "name": "Dorothea's marriage to Ladislaw"
+     }
     },
     {
-     "name": "Love",
-     "hasIntensity": 1,
-     "quote": "In an instant Will was close to her and had his arms round her, but she drew her head back and held his away gently that she might go on speaking, her large tear-filled eyes looking at his very simply, while she said in a sobbing childlike way, “We could live quite well on my own fortune—it is too much—seven hundred a-year—I want so little—no new clothes—and I will learn what everything costs.”",
-     "causedBy": {
-      "id": "event4",
-      "name": "Feeling Dorothea's love and willingness to be with him"
+     "name": "Embarrassment",
+     "hasIntensity": 0.6,
+     "quote": "He had touched a motive of which Sir James was ashamed. The mass of his feeling about Dorothea’s marriage to Ladislaw was due partly to excusable prejudice, or even justifiable opinion, partly to a jealous repugnance hardly less in Ladislaw’s case than in Casaubon’s.",
+     "causedByEvent": {
+      "name": "Mention of the union of Tipton and Freshitt estates",
+      "takePlaceAt": {
+       "name": "Freshitt Hall"
+      },
+      "hasParticipant": [
+       {
+        "name": "Sir James Chettam"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object1",
-      "name": "Dorothea"
-     },
-     "exactPlace": "Library"
+      "name": "Dorothea's marriage to Ladislaw"
+     }
     }
    ]
-  }
- ],
- "Places": [
-  {
-   "id": "place1",
-   "name": "Library",
-   "description": "A room where Dorothea and Will have an emotional conversation."
   },
   {
-   "id": "place2",
-   "name": "Freshitt Hall",
-   "description": "The location where Dorothea's uncle is present and she feels tenderness towards him."
-  }
- ],
- "Events": [
-  {
-   "id": "event1",
-   "name": "Expressing her feelings for Will"
-  },
-  {
-   "id": "event2",
-   "name": "Realizing the impossibility of being with Will"
-  },
-  {
-   "id": "event3",
-   "name": "Feeling tenderness towards her uncle"
-  },
-  {
-   "id": "event4",
-   "name": "Feeling Dorothea's love and willingness to be with him"
+   "name": "Mrs. Cadwallader",
+   "feels": [
+    {
+     "name": "Satisfaction",
+     "hasIntensity": 0.7,
+     "quote": "The only wonder to me is, that any of you are surprised. You did nothing to hinder it.",
+     "causedByEvent": {
+      "name": "Learning about Dorothea's marriage to Ladislaw",
+      "takePlaceAt": {
+       "name": "Freshitt Hall"
+      },
+      "hasParticipant": [
+       {
+        "name": "Mrs. Cadwallader"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Dorothea's marriage to Ladislaw"
+     }
+    },
+    {
+     "name": "Sarcasm",
+     "hasIntensity": 0.8,
+     "quote": "The only wonder to me is, that any of you are surprised. You did nothing to hinder it.",
+     "causedByEvent": {
+      "name": "Learning about Dorothea's marriage to Ladislaw",
+      "takePlaceAt": {
+       "name": "Freshitt Hall"
+      },
+      "hasParticipant": [
+       {
+        "name": "Mrs. Cadwallader"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Dorothea's marriage to Ladislaw"
+     }
+    }
+   ]
   }
  ]
 }

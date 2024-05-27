@@ -1,161 +1,110 @@
 {
  "FictionalCharacters": [
   {
-   "id": "texts/middlemarch.txt#Lydgate",
+   "name": "Rosamond_Vincy",
    "feels": [
+    {
+     "name": "Trust",
+     "hasIntensity": 0.9,
+     "quote": "I never give up anything that I choose to do.",
+     "hasObject": {
+      "name": "Engagement"
+     },
+     "causedBy": {
+      "name": "Father_s_disapproval_of_engagement",
+      "takePlaceAt": {
+       "name": "Drawingroom"
+      }
+     }
+    },
+    {
+     "name": "Surprise",
+     "hasIntensity": 0.7,
+     "quote": "What original notions you clever men have!",
+     "hasObject": {
+      "name": "Wedding_clothes"
+     },
+     "causedBy": {
+      "name": "Lydgate_s_suggestion_of_buying_wedding_clothes_after_marriage",
+      "takePlaceAt": {
+       "name": "Drawingroom"
+      }
+     }
+    },
+    {
+     "name": "Joy",
+     "hasIntensity": 0.8,
+     "quote": "An unmistakable delight shone forth from the blue eyes that met his.",
+     "hasObject": {
+      "name": "Marriage"
+     },
+     "causedBy": {
+      "name": "Lydgate_s_proposal_of_a_speedy_marriage",
+      "takePlaceAt": {
+       "name": "Drawingroom"
+      }
+     }
+    },
+    {
+     "name": "Anticipation",
+     "hasIntensity": 0.9,
+     "quote": "I could certainly hasten the work.",
+     "hasObject": {
+      "name": "Honeymoon_preparations"
+     },
+     "causedBy": {
+      "name": "Planning_for_the_honeymoon",
+      "takePlaceAt": {
+       "name": "Drawingroom"
+      }
+     }
+    },
     {
      "name": "Love",
      "hasIntensity": 0.9,
-     "quote": "An unmistakable delight shone forth from the blue eyes that met his, and the radiance seemed to light up all his future with mild sunshine.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Engagement_with_Rosamond",
-      "name": "Engagement_with_Rosamond"
-     },
+     "quote": "She looked at her lover with some wondering remonstrance as she spoke.",
      "hasObject": {
-      "id": "texts/middlemarch.txt#Rosamond",
-      "name": "Rosamond"
+      "name": "Lydgate"
      },
-     "exactPlace": "Drawing-room",
-     "id": "Love"
-    },
-    {
-     "name": "Delight",
-     "hasIntensity": 0.8,
-     "quote": "An unmistakable delight shone forth from the blue eyes that met his, and the radiance seemed to light up all his future with mild sunshine.",
      "causedBy": {
-      "id": "texts/middlemarch.txt#Engagement_with_Rosamond",
-      "name": "Engagement_with_Rosamond"
-     },
-     "hasObject": {
-      "id": "texts/middlemarch.txt#Rosamond",
-      "name": "Rosamond"
-     },
-     "exactPlace": "Drawing-room",
-     "id": "Delight"
-    },
-    {
-     "name": "Happiness",
-     "hasIntensity": 0.9,
-     "quote": "Ideal happiness seemed to be an affair of a few weeks’ waiting, more or less.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Engagement_with_Rosamond",
-      "name": "Engagement_with_Rosamond"
-     },
-     "hasObject": {
-      "id": "texts/middlemarch.txt#Rosamond",
-      "name": "Rosamond"
-     },
-     "exactPlace": "Drawing-room",
-     "id": "Happiness"
-    },
-    {
-     "name": "Passion",
-     "hasIntensity": 0.9,
-     "quote": "He had never felt so passionately towards her as at this moment.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Engagement_with_Rosamond",
-      "name": "Engagement_with_Rosamond"
-     },
-     "hasObject": {
-      "id": "texts/middlemarch.txt#Rosamond",
-      "name": "Rosamond"
-     },
-     "exactPlace": "Drawing-room",
-     "id": "Passion"
+      "name": "Lydgate_s_earnest_pleading_for_a_quick_marriage",
+      "takePlaceAt": {
+       "name": "Drawingroom"
+      }
+     }
     }
-   ],
-   "name": "Lydgate"
+   ]
   },
   {
-   "id": "texts/middlemarch.txt#Rosamond",
+   "name": "Mr_Vincy",
    "feels": [
     {
-     "name": "Delight",
+     "name": "Annoyance",
      "hasIntensity": 0.8,
-     "quote": "An unmistakable delight shone forth from the blue eyes that met his, and the radiance seemed to light up all his future with mild sunshine.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Engagement_with_Lydgate",
-      "name": "Engagement_with_Lydgate"
-     },
+     "quote": "It is too late now for your father to say that our engagement must be given up.",
      "hasObject": {
-      "id": "texts/middlemarch.txt#Lydgate",
-      "name": "Lydgate"
+      "name": "Engagement"
      },
-     "exactPlace": "Drawing-room",
-     "id": "Delight"
+     "causedBy": {
+      "name": "Rosamond_s_father_s_disapproval_of_engagement",
+      "takePlaceAt": {
+       "name": "Drawingroom"
+      }
+     }
     },
     {
-     "name": "Happiness",
-     "hasIntensity": 0.9,
-     "quote": "Ideal happiness seemed to be an affair of a few weeks’ waiting, more or less.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Engagement_with_Lydgate",
-      "name": "Engagement_with_Lydgate"
-     },
+     "name": "Disapproval",
+     "hasIntensity": 0.7,
+     "quote": "I never give up anything that I choose to do.",
      "hasObject": {
-      "id": "texts/middlemarch.txt#Lydgate",
-      "name": "Lydgate"
+      "name": "Marriage"
      },
-     "exactPlace": "Drawing-room",
-     "id": "Happiness"
-    },
-    {
-     "name": "Love",
-     "hasIntensity": 0.9,
-     "quote": "An unmistakable delight shone forth from the blue eyes that met his, and the radiance seemed to light up all his future with mild sunshine.",
      "causedBy": {
-      "id": "texts/middlemarch.txt#Engagement_with_Lydgate",
-      "name": "Engagement_with_Lydgate"
-     },
-     "hasObject": {
-      "id": "texts/middlemarch.txt#Lydgate",
-      "name": "Lydgate"
-     },
-     "exactPlace": "Drawing-room",
-     "id": "Love"
-    },
-    {
-     "name": "Delight",
-     "hasIntensity": 0.8,
-     "quote": "An unmistakable delight shone forth from the blue eyes that met his, and the radiance seemed to light up all his future with mild sunshine.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Engagement_with_Lydgate",
-      "name": "Engagement_with_Lydgate"
-     },
-     "hasObject": {
-      "id": "texts/middlemarch.txt#Lydgate",
-      "name": "Lydgate"
-     },
-     "exactPlace": "Drawing-room",
-     "id": "Delight"
-    }
-   ],
-   "name": "Rosamond"
-  }
- ],
- "Places": [
-  {
-   "id": "texts/middlemarch.txt#Drawingroom",
-   "name": "Drawingroom",
-   "description": "The great old-fashioned window was opened to the summer scents of the garden at the back of the house."
-  }
- ],
- "Events": [
-  {
-   "id": "texts/middlemarch.txt#Engagement",
-   "name": "Engagement",
-   "takePlaceAt": {
-    "id": "texts/middlemarch.txt#Drawingroom",
-    "name": "Drawingroom"
-   },
-   "hasParticipant": [
-    {
-     "id": "texts/middlemarch.txt#Lydgate",
-     "name": "Lydgate"
-    },
-    {
-     "id": "texts/middlemarch.txt#Rosamond",
-     "name": "Rosamond"
+      "name": "Rosamond_s_determination_to_marry_Lydgate",
+      "takePlaceAt": {
+       "name": "Drawingroom"
+      }
+     }
     }
    ]
   }

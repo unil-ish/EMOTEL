@@ -1,173 +1,257 @@
 {
  "FictionalCharacters": [
   {
-   "id": "fc1",
-   "name": "Jo March",
+   "name": "Meg",
    "feels": [
     {
      "name": "Anxiety",
-     "hasIntensity": 0.9,
-     "quote": "Language cannot describe the anxieties, experiences, and exertions which Jo underwent that morning.",
-     "causedBy": {
-      "id": "event1",
-      "name": "Preparing dinner"
+     "hasIntensity": 0.8,
+     "quote": "Language cannot describe the anxieties, experiences, and exertions which Jo underwent that morning; and the dinner she served up became a standing joke.",
+     "causedByEvent": {
+      "name": "Preparing a disastrous dinner",
+      "takePlaceAt": {
+       "name": "Home kitchen"
+      },
+      "hasParticipant": [
+       {
+        "name": "Jo"
+       },
+       {
+        "name": "Laurie"
+       },
+       {
+        "name": "Miss Crocker"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object1",
       "name": "Dinner"
-     },
-     "exactPlace": "Kitchen"
+     }
     },
     {
-     "name": "Exhaustion",
-     "hasIntensity": 0.8,
-     "quote": "The unusual spectacle of her busy mother rocking comfortably, and reading, early in the morning, made Jo feel as if some natural phenomenon had occurred.",
-     "causedBy": {
-      "id": "event2",
-      "name": "Mother resting"
+     "name": "Relief",
+     "hasIntensity": 0.7,
+     "quote": "The walk revived her spirits; and, flattering herself that she had made good bargains, she trudged home again, after buying a very young lobster, some very old asparagus, and two boxes of acid strawberries.",
+     "causedByEvent": {
+      "name": "Successful shopping",
+      "takePlaceAt": {
+       "name": "Market"
+      }
      },
      "hasObject": {
-      "id": "object2",
-      "name": "Mother"
-     },
-     "exactPlace": "Home"
+      "name": "Shopping items"
+     }
     },
     {
      "name": "Embarrassment",
-     "hasIntensity": 0.7,
-     "quote": "Poor Jo would gladly have gone under the table, as one thing after another was tasted and left.",
-     "causedBy": {
-      "id": "event3",
-      "name": "Failed dinner"
+     "hasIntensity": 0.9,
+     "quote": "Poor Jo would gladly have gone under the table, as one thing after another was tasted and left; while Amy giggled, Meg looked distressed, Miss Crocker pursed up her lips, and Laurie talked and laughed with all his might, to give a cheerful tone to the festive scene.",
+     "causedByEvent": {
+      "name": "Failed dinner preparation",
+      "takePlaceAt": {
+       "name": "Dinner table"
+      },
+      "hasParticipant": [
+       {
+        "name": "Jo"
+       },
+       {
+        "name": "Amy"
+       },
+       {
+        "name": "Meg"
+       },
+       {
+        "name": "Miss Crocker"
+       },
+       {
+        "name": "Laurie"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object3",
       "name": "Dinner"
+     }
+    },
+    {
+     "name": "Gratitude",
+     "hasIntensity": 0.6,
+     "quote": "Poor Jo would gladly have gone under the table, as one thing after another was tasted and left; while Amy giggled, Meg looked distressed, Miss Crocker pursed up her lips, and Laurie talked and laughed with all his might, to give a cheerful tone to the festive scene.",
+     "causedByEvent": {
+      "name": "Laurie's efforts to cheer up the situation",
+      "takePlaceAt": {
+       "name": "Dinner table"
+      },
+      "hasParticipant": [
+       {
+        "name": "Jo"
+       },
+       {
+        "name": "Amy"
+       },
+       {
+        "name": "Meg"
+       },
+       {
+        "name": "Miss Crocker"
+       },
+       {
+        "name": "Laurie"
+       }
+      ]
      },
-     "exactPlace": "Dining room"
+     "hasObject": {
+      "name": "Dinner"
+     }
     }
    ]
   },
   {
-   "id": "fc2",
-   "name": "Beth March",
+   "name": "Jo",
    "feels": [
     {
-     "name": "Grief",
-     "hasIntensity": 0.9,
-     "quote": "Beth sobbing over Pip, the canary, who lay dead in the cage.",
-     "causedBy": {
-      "id": "event4",
-      "name": "Canary's death"
+     "name": "Anxiety",
+     "hasIntensity": 0.8,
+     "quote": "Language cannot describe the anxieties, experiences, and exertions which Jo underwent that morning; and the dinner she served up became a standing joke.",
+     "causedByEvent": {
+      "name": "Preparing a disastrous dinner",
+      "takePlaceAt": {
+       "name": "Home kitchen"
+      },
+      "hasParticipant": [
+       {
+        "name": "Meg"
+       },
+       {
+        "name": "Laurie"
+       },
+       {
+        "name": "Miss Crocker"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object4",
-      "name": "Canary"
+      "name": "Dinner"
+     }
+    },
+    {
+     "name": "Embarrassment",
+     "hasIntensity": 0.9,
+     "quote": "Poor Jo would gladly have gone under the table, as one thing after another was tasted and left; while Amy giggled, Meg looked distressed, Miss Crocker pursed up her lips, and Laurie talked and laughed with all his might, to give a cheerful tone to the festive scene.",
+     "causedByEvent": {
+      "name": "Failed dinner preparation",
+      "takePlaceAt": {
+       "name": "Dinner table"
+      },
+      "hasParticipant": [
+       {
+        "name": "Jo"
+       },
+       {
+        "name": "Amy"
+       },
+       {
+        "name": "Meg"
+       },
+       {
+        "name": "Miss Crocker"
+       },
+       {
+        "name": "Laurie"
+       }
+      ]
      },
-     "exactPlace": "Parlor"
-    }
-   ]
-  },
-  {
-   "id": "fc3",
-   "name": "Meg March",
-   "feels": [
+     "hasObject": {
+      "name": "Dinner"
+     }
+    },
     {
      "name": "Relief",
-     "hasIntensity": 0.8,
-     "quote": "Meg ran upstairs, and soon came back again, looking relieved, but rather bewildered, and a little ashamed.",
-     "causedBy": {
-      "id": "event5",
-      "name": "Mother resting"
+     "hasIntensity": 0.7,
+     "quote": "Having rekindled the fire, she thought she would go to market while the water heated. The walk revived her spirits; and, flattering herself that she had made good bargains, she trudged home again, after buying a very young lobster, some very old asparagus, and two boxes of acid strawberries.",
+     "causedByEvent": {
+      "name": "Successful shopping",
+      "takePlaceAt": {
+       "name": "Market"
+      }
      },
      "hasObject": {
-      "id": "object5",
-      "name": "Mother"
-     },
-     "exactPlace": "Home"
+      "name": "Shopping items"
+     }
     }
    ]
   },
   {
-   "id": "fc4",
-   "name": "Amy March",
+   "name": "Beth",
    "feels": [
     {
-     "name": "Disappointment",
+     "name": "Sadness",
      "hasIntensity": 0.8,
-     "quote": "Amy giggled, Meg looked distressed, Miss Crocker pursed up her lips, and Laurie talked and laughed with all his might, to give a cheerful tone to the festive scene.",
-     "causedBy": {
-      "id": "event6",
-      "name": "Failed dessert"
+     "quote": "Poor Jo would gladly have gone under the table, as one thing after another was tasted and left; while Amy giggled, Meg looked distressed, Miss Crocker pursed up her lips, and Laurie talked and laughed with all his might, to give a cheerful tone to the festive scene.",
+     "causedByEvent": {
+      "name": "Failed dinner preparation",
+      "takePlaceAt": {
+       "name": "Dinner table"
+      },
+      "hasParticipant": [
+       {
+        "name": "Jo"
+       },
+       {
+        "name": "Amy"
+       },
+       {
+        "name": "Meg"
+       },
+       {
+        "name": "Miss Crocker"
+       },
+       {
+        "name": "Laurie"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object6",
-      "name": "Dessert"
-     },
-     "exactPlace": "Dining room"
+      "name": "Dinner"
+     }
     }
    ]
-  }
- ],
- "Places": [
-  {
-   "id": "place1",
-   "name": "Kitchen",
-   "description": "In a most discouraging state of confusion."
   },
   {
-   "id": "place2",
-   "name": "Parlor",
-   "description": "Where Beth sobbed over the dead canary."
-  },
-  {
-   "id": "place3",
-   "name": "Dining room",
-   "description": "Where the failed dinner was served."
-  }
- ],
- "Events": [
-  {
-   "id": "event1",
-   "name": "Preparing dinner",
-   "takePlaceAt": {
-    "id": "place1"
-   }
-  },
-  {
-   "id": "event2",
-   "name": "Mother resting",
-   "takePlaceAt": {
-    "id": "place2"
-   }
-  },
-  {
-   "id": "event3",
-   "name": "Failed dinner",
-   "takePlaceAt": {
-    "id": "place3"
-   }
-  },
-  {
-   "id": "event4",
-   "name": "Canary's death",
-   "takePlaceAt": {
-    "id": "place2"
-   }
-  },
-  {
-   "id": "event5",
-   "name": "Mother resting",
-   "takePlaceAt": {
-    "id": "place2"
-   }
-  },
-  {
-   "id": "event6",
-   "name": "Failed dessert",
-   "takePlaceAt": {
-    "id": "place3"
-   }
+   "name": "Amy",
+   "feels": [
+    {
+     "name": "Embarrassment",
+     "hasIntensity": 0.9,
+     "quote": "Poor Jo would gladly have gone under the table, as one thing after another was tasted and left; while Amy giggled, Meg looked distressed, Miss Crocker pursed up her lips, and Laurie talked and laughed with all his might, to give a cheerful tone to the festive scene.",
+     "causedByEvent": {
+      "name": "Failed dinner preparation",
+      "takePlaceAt": {
+       "name": "Dinner table"
+      },
+      "hasParticipant": [
+       {
+        "name": "Jo"
+       },
+       {
+        "name": "Amy"
+       },
+       {
+        "name": "Meg"
+       },
+       {
+        "name": "Miss Crocker"
+       },
+       {
+        "name": "Laurie"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Dinner"
+     }
+    }
+   ]
   }
  ]
 }

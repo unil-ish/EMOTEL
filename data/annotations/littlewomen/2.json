@@ -1,90 +1,97 @@
 {
  "FictionalCharacters": [
   {
-   "id": "fc1",
    "name": "Amy March",
    "feels": [
     {
      "name": "Shame",
      "hasIntensity": 0.9,
-     "quote": "Amy set her teeth, threw back her head defiantly, and bore without flinching several tingling blows on her little palm.",
-     "causedBy": {
-      "id": "event1",
-      "name": "Being struck by Mr. Davis"
+     "quote": "Amy started, and put both hands behind her, turning on him an imploring look which pleaded for her better than the words she could not utter. She was rather a favorite with 'old Davis,' as, of course, he was called, and it's my private belief that he would have broken his word if the indignation of one irrepressible young lady had not found vent in a hiss. That hiss, faint as it was, irritated the irascible gentleman, and sealed the culprit's fate.",
+     "causedByEvent": {
+      "name": "Being publicly punished for having limes in her desk",
+      "takePlaceAt": {
+       "name": "School classroom"
+      },
+      "hasParticipant": [
+       {
+        "name": "Amy March"
+       },
+       {
+        "name": "Mr. Davis"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object1",
-      "name": "Mr. Davis"
-     },
-     "exactPlace": "In the classroom"
+      "name": "Limes"
+     }
     },
     {
-     "name": "Pride",
+     "name": "Defiance",
      "hasIntensity": 0.8,
-     "quote": "For the first time in her life she had been struck; and the disgrace, in her eyes, was as deep as if he had knocked her down.",
-     "causedBy": {
-      "id": "event2",
-      "name": "Being struck by Mr. Davis"
+     "quote": "Amy started, and put both hands behind her, turning on him an imploring look which pleaded for her better than the words she could not utter. She was rather a favorite with 'old Davis,' as, of course, he was called, and it's my private belief that he would have broken his word if the indignation of one irrepressible young lady had not found vent in a hiss. That hiss, faint as it was, irritated the irascible gentleman, and sealed the culprit's fate.",
+     "causedByEvent": {
+      "name": "Being publicly punished for having limes in her desk",
+      "takePlaceAt": {
+       "name": "School classroom"
+      },
+      "hasParticipant": [
+       {
+        "name": "Amy March"
+       },
+       {
+        "name": "Mr. Davis"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object1",
-      "name": "Mr. Davis"
-     },
-     "exactPlace": "In the classroom"
+      "name": "Limes"
+     }
     },
     {
-     "name": "Fear",
+     "name": "Pain",
      "hasIntensity": 0.7,
-     "quote": "A bitter sense of wrong, and the thought of Jenny Snow, helped her to bear it; and, taking the ignominious place, she fixed her eyes on the stove-funnel above what now seemed a sea of faces, and stood there, so motionless and white that the girls found it very hard to study, with that pathetic figure before them.",
-     "causedBy": {
-      "id": "event3",
-      "name": "Standing on the platform till recess"
+     "quote": "For the first time in her life she had been struck; and the disgrace, in her eyes, was as deep as if he had knocked her down.",
+     "causedByEvent": {
+      "name": "Being publicly punished for having limes in her desk",
+      "takePlaceAt": {
+       "name": "School classroom"
+      },
+      "hasParticipant": [
+       {
+        "name": "Amy March"
+       },
+       {
+        "name": "Mr. Davis"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object1",
-      "name": "Mr. Davis"
-     },
-     "exactPlace": "In the classroom"
+      "name": "Limes"
+     }
     },
     {
      "name": "Disappointment",
      "hasIntensity": 0.9,
      "quote": "The smart of her hand and the ache of her heart were forgotten in the sting of the thought,--'I shall have to tell at home, and they will be so disappointed in me!'",
-     "causedBy": {
-      "id": "event4",
-      "name": "Realizing she will have to tell at home about the incident"
+     "causedByEvent": {
+      "name": "Being publicly punished for having limes in her desk",
+      "takePlaceAt": {
+       "name": "School classroom"
+      },
+      "hasParticipant": [
+       {
+        "name": "Amy March"
+       },
+       {
+        "name": "Mr. Davis"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object1",
-      "name": "Mr. Davis"
-     },
-     "exactPlace": "In the classroom"
+      "name": "Limes"
+     }
     }
    ]
-  }
- ],
- "Events": [
-  {
-   "id": "event1",
-   "name": "Being struck by Mr. Davis"
-  },
-  {
-   "id": "event2",
-   "name": "Being struck by Mr. Davis"
-  },
-  {
-   "id": "event3",
-   "name": "Standing on the platform till recess"
-  },
-  {
-   "id": "event4",
-   "name": "Realizing she will have to tell at home about the incident"
-  }
- ],
- "Objects": [
-  {
-   "id": "object1",
-   "name": "Mr. Davis"
   }
  ]
 }

@@ -1,96 +1,65 @@
 {
  "FictionalCharacters": [
   {
-   "id": "texts/littlewomen.txt#Laurie",
+   "name": "Laurie",
    "feels": [
     {
      "name": "Trust",
      "hasIntensity": 0.7,
-     "quote": "He felt that his blighted affections were quite dead now; and, though he should never cease to be a faithful mourner, there was no occasion to wear his weeds ostentatiously.",
-     "causedBy": {
-      "id": "texts/littlewomen.txt#Realization_of_his_changed_feelings",
-      "name": "Realization_of_his_changed_feelings"
-     },
+     "quote": "He carefully stirred up the embers of his lost love, but they refused to burst into a blaze: there was only a comfortable glow that warmed and did him good without putting him into a fever.",
      "hasObject": {
-      "id": "texts/littlewomen.txt#Jo",
-      "name": "Jo"
+      "name": "Embers_of_his_lost_love"
      },
-     "exactPlace": "Vienna",
-     "id": "Trust"
+     "causedBy": {
+      "name": "Realizing_his_heart_wouldn_t_ache",
+      "takePlaceAt": {
+       "name": "His_desk"
+      }
+     }
     },
     {
      "name": "Joy",
      "hasIntensity": 0.8,
-     "quote": "He felt that his blighted affections were quite dead now; and, though he should never cease to be a faithful mourner, there was no occasion to wear his weeds ostentatiously.",
-     "causedBy": {
-      "id": "texts/littlewomen.txt#Realization_of_his_changed_feelings",
-      "name": "Realization_of_his_changed_feelings"
-     },
+     "quote": "The correspondence flourished famously, and letters flew to and fro, with unfailing regularity, all through the early spring.",
      "hasObject": {
-      "id": "texts/littlewomen.txt#Jo",
-      "name": "Jo"
+      "name": "Prompt_answer_to_his_letter"
      },
-     "exactPlace": "Vienna",
-     "id": "Joy"
+     "causedBy": {
+      "name": "Receiving_a_prompt_answer_to_his_letter",
+      "takePlaceAt": {
+       "name": "His_desk"
+      }
+     }
     },
     {
-     "name": "Acceptance",
-     "hasIntensity": 0.9,
-     "quote": "He carefully stirred up the embers of his lost love, but they refused to burst into a blaze: there was only a comfortable glow that warmed and did him good without putting him into a fever.",
-     "causedBy": {
-      "id": "texts/littlewomen.txt#Acceptance_of_his_changed_feelings",
-      "name": "Acceptance_of_his_changed_feelings"
-     },
+     "name": "Anticipation",
+     "hasIntensity": 0.6,
+     "quote": "He wanted desperately to go to Nice, but would not till he was asked; and Amy would not ask him, for just then she was having little experiences of her own, which made her rather wish to avoid the quizzical eyes of 'our boy.'",
      "hasObject": {
-      "id": "texts/littlewomen.txt#Jo",
-      "name": "Jo"
+      "name": "Desire_to_go_to_Nice"
      },
-     "exactPlace": "Vienna",
-     "id": "Acceptance"
+     "causedBy": {
+      "name": "Desire_to_go_to_Nice",
+      "takePlaceAt": {
+       "name": "Paris"
+      }
+     }
     },
     {
      "name": "Relief",
      "hasIntensity": 0.7,
      "quote": "He was disgusted with himself, surprised at his own fickleness, and full of a queer mixture of disappointment and relief that he could recover from such a tremendous blow so soon.",
-     "causedBy": {
-      "id": "texts/littlewomen.txt#Relief_from_the_intensity_of_his_feelings",
-      "name": "Relief_from_the_intensity_of_his_feelings"
-     },
      "hasObject": {
-      "id": "texts/littlewomen.txt#Jo",
-      "name": "Jo"
+      "name": "Recovery_from_lost_love"
      },
-     "exactPlace": "Vienna",
-     "id": "Relief"
+     "causedBy": {
+      "name": "Realizing_he_could_recover_from_his_lost_love",
+      "takePlaceAt": {
+       "name": "His_desk"
+      }
+     }
     }
-   ],
-   "name": "Laurie"
-  }
- ],
- "Events": [
-  {
-   "id": "texts/littlewomen.txt#Realization_of_his_changed_feelings",
-   "name": "Realization_of_his_changed_feelings",
-   "takePlaceAt": {
-    "id": "texts/littlewomen.txt#Vienna",
-    "name": "Vienna"
-   }
-  },
-  {
-   "id": "texts/littlewomen.txt#Acceptance_of_his_changed_feelings",
-   "name": "Acceptance_of_his_changed_feelings",
-   "takePlaceAt": {
-    "id": "texts/littlewomen.txt#Vienna",
-    "name": "Vienna"
-   }
-  },
-  {
-   "id": "texts/littlewomen.txt#Relief_from_the_intensity_of_his_feelings",
-   "name": "Relief_from_the_intensity_of_his_feelings",
-   "takePlaceAt": {
-    "id": "texts/littlewomen.txt#Vienna",
-    "name": "Vienna"
-   }
+   ]
   }
  ]
 }

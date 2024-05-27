@@ -1,113 +1,129 @@
 {
  "FictionalCharacters": [
   {
-   "id": "texts/theenchantedapril.txt#Mrs_Wilkins",
    "name": "Mrs_Wilkins",
    "feels": [
     {
      "name": "Joy",
      "hasIntensity": 1,
-     "quote": "Their happiness was then complete.",
-     "causedBy": {
-      "id": "texts/theenchantedapril.txt#Taking_off_shoes_and_stockings_and_letting_feet_ha",
-      "name": "Taking_off_shoes_and_stockings_and_letting_feet_hang_in_the_water"
-     },
+     "quote": "Their happiness was then complete. Their husbands would not have known them.",
      "hasObject": {
-      "id": "texts/theenchantedapril.txt#Feeling_of_completeness",
-      "name": "Feeling_of_completeness"
+      "name": "Feeling_of_complete_happiness"
      },
-     "place": {
-      "id": "texts/theenchantedapril.txt#Sitting_under_a_pine_tree_by_the_sea",
-      "name": "Sitting_under_a_pine_tree_by_the_sea"
-     },
-     "id": "Joy"
+     "causedBy": {
+      "name": "Taking_off_shoes_and_stockings_and_letting_feet_hang_in_the_water",
+      "takePlaceAt": {
+       "name": "Sitting_under_a_pine_tree_by_the_sea"
+      }
+     }
     },
     {
      "name": "Serene",
      "hasIntensity": 1,
-     "quote": "She was very serene; she could control her conversation; she was quite at her ease, and completely natural.",
-     "causedBy": {
-      "id": "texts/theenchantedapril.txt#Being_in_a_state_of_happiness",
-      "name": "Being_in_a_state_of_happiness"
-     },
+     "quote": "The disappointment of not going to be able to prepare a welcome for Mrs. Fisher had evaporated at once, for it was impossible to go on being disappointed in heaven.",
      "hasObject": {
-      "id": "texts/theenchantedapril.txt#Feeling_of_serenity",
       "name": "Feeling_of_serenity"
      },
-     "place": {
-      "id": "texts/theenchantedapril.txt#Sitting_under_a_pine_tree_by_the_sea",
-      "name": "Sitting_under_a_pine_tree_by_the_sea"
+     "causedBy": {
+      "name": "Realization_of_being_in_a_beautiful_place",
+      "takePlaceAt": {
+       "name": "Observing_the_beauty_of_the_garden"
+      }
+     }
+    },
+    {
+     "name": "Acceptance",
+     "hasIntensity": 1,
+     "quote": "They were just cups of acceptance.",
+     "hasObject": {
+      "name": "Feeling_of_acceptance"
      },
-     "id": "Serene"
+     "causedBy": {
+      "name": "Sitting_under_a_pine_tree_by_the_sea",
+      "takePlaceAt": {
+       "name": "Sitting_under_a_pine_tree_by_the_sea"
+      }
+     }
     }
    ]
   },
   {
-   "id": "texts/theenchantedapril.txt#Mrs_Arbuthnot",
    "name": "Mrs_Arbuthnot",
    "feels": [
     {
      "name": "Pensive",
      "hasIntensity": 0.8,
      "quote": "Mrs. Arbuthnot seemed pensive.",
-     "causedBy": {
-      "id": "texts/theenchantedapril.txt#Observing_the_beauty_of_the_surroundings",
-      "name": "Observing_the_beauty_of_the_surroundings"
-     },
      "hasObject": {
-      "id": "texts/theenchantedapril.txt#Beauty_of_the_surroundings",
-      "name": "Beauty_of_the_surroundings"
+      "name": "Feeling_of_pensiveness"
      },
-     "place": {
-      "id": "texts/theenchantedapril.txt#Sitting_under_a_pine_tree_by_the_sea",
-      "name": "Sitting_under_a_pine_tree_by_the_sea"
+     "causedBy": {
+      "name": "Observing_the_beauty_of_the_garden",
+      "takePlaceAt": {
+       "name": "Observing_the_beauty_of_the_garden"
+      }
+     }
+    },
+    {
+     "name": "Calm",
+     "hasIntensity": 0.9,
+     "quote": "The vicar, she knew, would have called Lotty’s talk levity, if not profanity. How old he seemed from here; an old, old vicar.",
+     "hasObject": {
+      "name": "Feeling_of_calm"
      },
-     "id": "Pensive"
+     "causedBy": {
+      "name": "Observing_the_beauty_of_the_garden",
+      "takePlaceAt": {
+       "name": "Observing_the_beauty_of_the_garden"
+      }
+     }
     }
    ]
   },
   {
-   "id": "texts/theenchantedapril.txt#Lady_Caroline",
    "name": "Lady_Caroline",
    "feels": [
     {
      "name": "Annoyance",
      "hasIntensity": 0.9,
      "quote": "Lady Caroline scowled at the cook.",
-     "causedBy": {
-      "id": "texts/theenchantedapril.txt#Encounter_with_the_cook",
-      "name": "Encounter_with_the_cook"
-     },
      "hasObject": {
-      "id": "texts/theenchantedapril.txt#Interaction_with_the_cook",
-      "name": "Interaction_with_the_cook"
+      "name": "Feeling_of_annoyance"
      },
-     "place": {
-      "id": "texts/theenchantedapril.txt#Sitting_under_a_pine_tree_by_the_sea",
-      "name": "Sitting_under_a_pine_tree_by_the_sea"
+     "causedBy": {
+      "name": "Interaction_with_the_cook",
+      "takePlaceAt": {
+       "name": "Interaction_with_the_cook"
+      }
+     }
+    },
+    {
+     "name": "Anger",
+     "hasIntensity": 0.8,
+     "quote": "Lady Caroline repudiated angrily the assumption that the cook was her mother.",
+     "hasObject": {
+      "name": "Feeling_of_anger"
      },
-     "id": "Annoyance"
+     "causedBy": {
+      "name": "Interaction_with_the_cook",
+      "takePlaceAt": {
+       "name": "Interaction_with_the_cook"
+      }
+     }
     },
     {
-     "name": "Icily",
-     "hasIntensity": 0.9,
-     "quote": "No,",
-     "id": "Icily"
-    },
-    "causedBy",
-    {
-     "id": "texts/theenchantedapril.txt#Discussion_about_husbands",
-     "name": "Discussion_about_husbands"
-    },
-    "hasObject",
-    {
-     "id": "texts/theenchantedapril.txt#Discussion_about_husbands",
-     "name": "Discussion_about_husbands"
-    },
-    "place",
-    {
-     "id": "texts/theenchantedapril.txt#Sitting_under_a_pine_tree_by_the_sea",
-     "name": "Sitting_under_a_pine_tree_by_the_sea"
+     "name": "Irritation",
+     "hasIntensity": 0.7,
+     "quote": "Lady Caroline countermanded the cream, feeling she had been extravagant.",
+     "hasObject": {
+      "name": "Feeling_of_irritation"
+     },
+     "causedBy": {
+      "name": "Realization_of_being_extravagant",
+      "takePlaceAt": {
+       "name": "Interaction_with_the_cook"
+      }
+     }
     }
    ]
   }

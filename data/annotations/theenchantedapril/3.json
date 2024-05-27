@@ -1,148 +1,112 @@
 {
  "FictionalCharacters": [
   {
-   "id": "LadyCaroline",
+   "name": "Scrap",
    "feels": [
     {
      "name": "Trust",
-     "hasIntensity": 0.2,
-     "quote": "She began to like Mrs. Fisher.",
-     "causedBy": {
-      "id": "event1",
-      "name": "Mrs. Fisher showing concern for her health"
+     "hasIntensity": 0.5,
+     "quote": "She began to like Mrs. Fisher. Perhaps the originals didn’t know anything about her either.",
+     "causedByEvent": {
+      "name": "Mrs. Fisher not knowing about her background",
+      "takePlaceAt": {
+       "name": "In the garden loop"
+      }
      },
      "hasObject": {
-      "id": "object1",
       "name": "Mrs. Fisher"
-     },
-     "place": {
-      "id": "place1",
-      "name": "Top garden loop"
      }
     },
     {
      "name": "Surprise",
-     "hasIntensity": 0.5,
+     "hasIntensity": 0.7,
      "quote": "A faint wonder came into Scrap’s eyes. Have you a mother?",
-     "causedBy": {
-      "id": "event2",
-      "name": "Mrs. Fisher asking about her mother"
+     "causedByEvent": {
+      "name": "Mrs. Fisher asking about her mother",
+      "takePlaceAt": {
+       "name": "In the garden loop"
+      }
      },
      "hasObject": {
-      "id": "object2",
-      "name": "Mrs. Fisher"
+      "name": "Mother"
+     }
+    },
+    {
+     "name": "Anger",
+     "hasIntensity": 0.8,
+     "quote": "I dislike very great people",
+     "causedByEvent": {
+      "name": "Mrs. Fisher mentioning great people",
+      "takePlaceAt": {
+       "name": "In the garden loop"
+      }
      },
-     "place": {
-      "id": "place2",
-      "name": "Top garden loop"
+     "hasObject": {
+      "name": "Great people"
      }
     },
     {
      "name": "Joy",
-     "hasIntensity": 0.7,
-     "quote": "Scrap began to cheer up.",
-     "causedBy": {
-      "id": "event3",
-      "name": "Realizing nobody at San Salvatore knew about her background"
+     "hasIntensity": 0.6,
+     "quote": "If only people would go away she didn’t in the least mind why they went.",
+     "causedByEvent": {
+      "name": "People leaving her alone",
+      "takePlaceAt": {
+       "name": "In the garden loop"
+      }
      },
      "hasObject": {
-      "id": "object3",
-      "name": "Anonymity"
-     },
-     "place": {
-      "id": "place3",
-      "name": "Top garden loop"
-     }
-    }
-   ]
-  },
-  {
-   "id": "MrsFisher",
-   "feels": [
-    {
-     "name": "Disapproval",
-     "hasIntensity": 0.8,
-     "quote": "What _I_ dislike is the pose of the modern young woman.",
-     "causedBy": {
-      "id": "event4",
-      "name": "Observing Scrap's attitude"
-     },
-     "hasObject": {
-      "id": "object4",
-      "name": "Modern young women"
-     },
-     "place": {
-      "id": "place4",
-      "name": "Top garden loop"
+      "name": "Being left alone"
      }
     },
     {
-     "name": "Sternness",
-     "hasIntensity": 0.6,
-     "quote": "Absurd. That’s what you are made for, young women like you.",
-     "causedBy": {
-      "id": "event5",
-      "name": "Discussing Scrap's purpose"
+     "name": "Disgust",
+     "hasIntensity": 0.9,
+     "quote": "Sheer silliness, these poses. She had no patience with them.",
+     "causedByEvent": {
+      "name": "Encountering poses she found silly",
+      "takePlaceAt": {
+       "name": "In the sitting-room"
+      }
      },
      "hasObject": {
-      "id": "object5",
-      "name": "Scrap"
-     },
-     "place": {
-      "id": "place5",
-      "name": "Top garden loop"
+      "name": "Poses"
      }
     }
    ]
-  }
- ],
- "Places": [
-  {
-   "id": "place1",
-   "name": "Top garden loop",
-   "description": "A secluded spot in the garden with daphne bushes for privacy."
   },
   {
-   "id": "place2",
-   "name": "Top garden loop",
-   "description": "A secluded spot in the garden with daphne bushes for privacy."
-  },
-  {
-   "id": "place3",
-   "name": "Top garden loop",
-   "description": "A secluded spot in the garden with daphne bushes for privacy."
-  },
-  {
-   "id": "place4",
-   "name": "Top garden loop",
-   "description": "A secluded spot in the garden with daphne bushes for privacy."
-  },
-  {
-   "id": "place5",
-   "name": "Top garden loop",
-   "description": "A secluded spot in the garden with daphne bushes for privacy."
-  }
- ],
- "Events": [
-  {
-   "id": "event1",
-   "name": "Mrs. Fisher showing concern for Lady Caroline's health"
-  },
-  {
-   "id": "event2",
-   "name": "Mrs. Fisher asking Lady Caroline about her mother"
-  },
-  {
-   "id": "event3",
-   "name": "Lady Caroline realizing nobody at San Salvatore knew about her background"
-  },
-  {
-   "id": "event4",
-   "name": "Mrs. Fisher observing Scrap's attitude"
-  },
-  {
-   "id": "event5",
-   "name": "Mrs. Fisher discussing Scrap's purpose"
+   "name": "Mrs. Fisher",
+   "feels": [
+    {
+     "name": "Annoyance",
+     "hasIntensity": 0.7,
+     "quote": "She was sorry she had bothered about Lady Caroline.",
+     "causedByEvent": {
+      "name": "Feeling her efforts were wasted",
+      "takePlaceAt": {
+       "name": "In the hall"
+      }
+     },
+     "hasObject": {
+      "name": "Lady Caroline"
+     }
+    },
+    {
+     "name": "Disapproval",
+     "hasIntensity": 0.8,
+     "quote": "Apes, thought Mrs. Fisher, roused. Apes. Apes.",
+     "causedByEvent": {
+      "name": "Observing behavior she disapproved of",
+      "takePlaceAt": {
+       "name": "In the sitting-room"
+      }
+     },
+     "hasObject": {
+      "name": "Behavior"
+     }
+    }
+   ]
   }
  ]
 }

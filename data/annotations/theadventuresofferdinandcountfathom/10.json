@@ -1,174 +1,89 @@
 {
  "FictionalCharacters": [
   {
-   "id": "Renaldo",
+   "name": "Renaldo",
    "feels": [
     {
      "name": "Distress",
      "hasIntensity": 0.9,
-     "quote": "Renaldo’s grief and mortification at this disappointment were unspeakable.",
-     "causedBy": {
-      "id": "event1",
-      "name": "Disappointment in seeking financial help"
+     "quote": "Well-nigh destitute of present support, and encompassed with unrelenting duns, he was obliged to keep within doors, and seek some comfort in the conversation of his charming mistress, and his faithful friend; yet, even there, he experienced the extremest rigour of adverse fate.",
+     "causedByEvent": {
+      "name": "Financial difficulties and unrelenting creditors",
+      "takePlaceAt": {
+       "name": "His home"
+      }
      },
      "hasObject": {
-      "id": "object1",
-      "name": "Financial help"
-     },
-     "place": {
-      "id": "place1",
-      "name": "His lodgings"
+      "name": "Lack of support and mounting debts"
      }
     },
     {
      "name": "Despair",
      "hasIntensity": 0.8,
      "quote": "He saw all that was amiable and perfect in woman, all that he held most dear and sacred upon earth, tottering on the brink of misery, without knowing the danger of her situation, and found himself unable to prevent her fall, or even to forewarn her of the peril.",
-     "causedBy": {
-      "id": "event2",
-      "name": "Feeling unable to help Monimia"
+     "causedByEvent": {
+      "name": "Feeling helpless in protecting Monimia",
+      "takePlaceAt": {
+       "name": "His home"
+      }
      },
      "hasObject": {
-      "id": "object2",
-      "name": "Monimia"
-     },
-     "place": {
-      "id": "place2",
-      "name": "His lodgings"
+      "name": "Monimia's perilous situation"
      }
-    },
+    }
+   ]
+  },
+  {
+   "name": "Monimia",
+   "feels": [
     {
      "name": "Jealousy",
      "hasIntensity": 0.7,
-     "quote": "He now saw demolished the last screen betwixt him and the extremity of indigence and woe; he beheld the mistress of his soul abandoned to the bleakest scenes of poverty and want; and he deeply resented the lofty strain of the letter, by which he conceived himself treated as a worthless spendthrift and importunate beggar.",
-     "causedBy": {
-      "id": "event3",
-      "name": "Feeling abandoned and disrespected"
+     "quote": "She was alarmed at the change, yet afraid to inquire into the source of it; for, being ignorant of his distress, she could impute it to no cause in which her happiness was not deeply interested.",
+     "causedByEvent": {
+      "name": "Noticing Renaldo's change in behaviour",
+      "takePlaceAt": {
+       "name": "Her home"
+      }
      },
      "hasObject": {
-      "id": "object3",
-      "name": "Letter"
+      "name": "Renaldo's change in behaviour"
+     }
+    },
+    {
+     "name": "Resentment",
+     "hasIntensity": 0.8,
+     "quote": "She was by birth, nature, and education inspired with that dignity of pride which ennobles the human heart; and this, by the circumstance of her present dependence, was rendered extremely jealous and susceptible.",
+     "causedByEvent": {
+      "name": "Feeling slighted and dependent",
+      "takePlaceAt": {
+       "name": "Her home"
+      }
      },
-     "place": {
-      "id": "place3",
-      "name": "His lodgings"
+     "hasObject": {
+      "name": "Feeling slighted and dependent"
      }
     }
    ]
   },
   {
-   "id": "Monimia",
+   "name": "Fathom",
    "feels": [
     {
-     "name": "Indignation",
-     "hasIntensity": 0.8,
-     "quote": "She was by birth, nature, and education inspired with that dignity of pride which ennobles the human heart; and this, by the circumstance of her present dependence, was rendered extremely jealous and susceptible; insomuch that she could not brook the least shadow of indifference, much less an injury of such a nature, from the man whom she had honoured with her affections.",
-     "causedBy": {
-      "id": "event4",
-      "name": "Feeling slighted and disrespected"
-     },
-     "hasObject": {
-      "id": "object4",
-      "name": "Renaldo"
-     },
-     "place": {
-      "id": "place4",
-      "name": "Her lodgings"
-     }
-    },
-    {
-     "name": "Jealousy",
+     "name": "Deceit",
      "hasIntensity": 0.9,
-     "quote": "She strove in vain to put the most favourable construction on what she saw; and, finally, imputed the effects of his despondence to the alienation of his heart.",
-     "causedBy": {
-      "id": "event5",
-      "name": "Feeling Renaldo's alienation"
+     "quote": "He pretended to share her distress with the most emphatic sympathy, and endeavoured to keep her resentment glowing by cunning insinuations, which, though apparently designed to apologise for his friend, served only to aggravate the guilt of his perfidy and dishonour.",
+     "causedByEvent": {
+      "name": "Manipulating Monimia's emotions",
+      "takePlaceAt": {
+       "name": "Her home"
+      }
      },
      "hasObject": {
-      "id": "object5",
-      "name": "Renaldo"
-     },
-     "place": {
-      "id": "place5",
-      "name": "Her lodgings"
-     }
-    },
-    {
-     "name": "Sorrow",
-     "hasIntensity": 0.9,
-     "quote": "With these words, a flood of tears gushed from her enchanting eyes, and she instantly withdrew into her own apartment, where she indulged her sorrow to excess.",
-     "causedBy": {
-      "id": "event6",
-      "name": "Feeling betrayed and hurt"
-     },
-     "hasObject": {
-      "id": "object6",
-      "name": "Renaldo"
-     },
-     "place": {
-      "id": "place6",
-      "name": "Her lodgings"
+      "name": "Manipulating Monimia's emotions"
      }
     }
    ]
-  }
- ],
- "Places": [
-  {
-   "id": "place1",
-   "name": "Renaldo's lodgings",
-   "description": "Where Renaldo experienced distress and disappointment."
-  },
-  {
-   "id": "place2",
-   "name": "Renaldo's lodgings",
-   "description": "Where Renaldo felt despair over not being able to help Monimia."
-  },
-  {
-   "id": "place3",
-   "name": "Renaldo's lodgings",
-   "description": "Where Renaldo felt jealousy and resentment."
-  },
-  {
-   "id": "place4",
-   "name": "Monimia's lodgings",
-   "description": "Where Monimia felt indignation and jealousy."
-  },
-  {
-   "id": "place5",
-   "name": "Monimia's lodgings",
-   "description": "Where Monimia felt jealousy and suspicion."
-  },
-  {
-   "id": "place6",
-   "name": "Monimia's lodgings",
-   "description": "Where Monimia felt sorrow and betrayal."
-  }
- ],
- "Events": [
-  {
-   "id": "event1",
-   "name": "Disappointment in seeking financial help"
-  },
-  {
-   "id": "event2",
-   "name": "Feeling unable to help Monimia"
-  },
-  {
-   "id": "event3",
-   "name": "Feeling abandoned and disrespected"
-  },
-  {
-   "id": "event4",
-   "name": "Feeling slighted and disrespected"
-  },
-  {
-   "id": "event5",
-   "name": "Feeling Renaldo's alienation"
-  },
-  {
-   "id": "event6",
-   "name": "Feeling betrayed and hurt"
   }
  ]
 }

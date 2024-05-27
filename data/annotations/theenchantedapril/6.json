@@ -1,222 +1,124 @@
 {
  "FictionalCharacters": [
   {
-   "id": "fc1",
-   "name": "Costanza",
-   "feels": [
-    {
-     "name": "Fear",
-     "hasIntensity": 0.7,
-     "quote": "Costanza had a very bad half-hour. She had not supposed it was in the English to be so mercenary.",
-     "causedBy": {
-      "id": "event1",
-      "name": "Receiving a large bill"
-     },
-     "hasObject": {
-      "id": "object1",
-      "name": "Large bill"
-     },
-     "place": {
-      "id": "place1",
-      "name": "Mrs. Fisher's sitting-room"
-     }
-    },
-    {
-     "name": "Sadness",
-     "hasIntensity": 0.8,
-     "quote": "Costanza wept, but Mrs. Fisher was unmoved.",
-     "causedBy": {
-      "id": "event2",
-      "name": "Being denied payment for bills"
-     },
-     "hasObject": {
-      "id": "object2",
-      "name": "Payment denial"
-     },
-     "place": {
-      "id": "place1",
-      "name": "Mrs. Fisher's sitting-room"
-     }
-    }
-   ]
-  },
-  {
-   "id": "fc2",
-   "name": "John Doe",
+   "name": "Rose Arbuthnot",
    "feels": [
     {
      "name": "Joy",
-     "hasIntensity": 0.9,
-     "quote": "John wons the prize and was full of joy.",
-     "causedBy": {
-      "id": "event3",
-      "name": "Winning a prize"
+     "hasIntensity": 1,
+     "quote": "She flew up the steps, red as the camellia she had just been fingering, and was in the hall and tearing open the telegram before Mr. Wilkins had finished his sentence.",
+     "causedByEvent": {
+      "name": "Receiving a telegram from Thomas Briggs",
+      "takePlaceAt": {
+       "name": "San Salvatore"
+      },
+      "hasParticipant": [
+       {
+        "name": "Rose Arbuthnot"
+       },
+       {
+        "name": "Thomas Briggs"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object3",
-      "name": "Prize"
-     },
-     "place": {
-      "id": "place2",
-      "name": "Award Ceremony"
+      "name": "Telegram"
      }
-    }
-   ]
-  },
-  {
-   "id": "fc3",
-   "name": "Rose",
-   "feels": [
+    },
     {
      "name": "Hope",
      "hasIntensity": 0.9,
-     "quote": "Bright and burning, Youth in that instant flashed down again on Rose.",
-     "causedBy": {
-      "id": "event4",
-      "name": "Receiving a telegram from Frederick"
+     "quote": "She tried to silence the absurd hope by jeering at it. Yet—if Mr. Wilkins had telegraphed, why not Frederick?",
+     "causedByEvent": {
+      "name": "Expecting a telegram from Frederick",
+      "takePlaceAt": {
+       "name": "San Salvatore"
+      },
+      "hasParticipant": [
+       {
+        "name": "Rose Arbuthnot"
+       },
+       {
+        "name": "Frederick"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object4",
-      "name": "Telegram from Frederick"
-     },
-     "place": {
-      "id": "place3",
-      "name": "Stone steps by the camellias"
+      "name": "Telegram"
      }
     },
     {
-     "name": "Disappointment",
+     "name": "Surprise",
      "hasIntensity": 0.8,
-     "quote": "She came slowly up through the pergola and between the camellias ranged on either side of the old stone steps.",
-     "causedBy": {
-      "id": "event5",
-      "name": "Not finding a telegram from Frederick"
-     },
-     "hasObject": {
-      "id": "object5",
-      "name": "Absence of telegram from Frederick"
-     },
-     "place": {
-      "id": "place4",
-      "name": "Stone steps by the camellias"
-     }
-    },
-    {
-     "name": "Excitement",
-     "hasIntensity": 0.9,
-     "quote": "She flew up the steps, red as the camellia she had just been fingering, and was in the hall and tearing open the telegram before Mr. Wilkins had finished his sentence.",
-     "causedBy": {
-      "id": "event6",
-      "name": "Receiving a telegram from Thomas Briggs"
-     },
-     "hasObject": {
-      "id": "object6",
-      "name": "Telegram from Thomas Briggs"
-     },
-     "place": {
-      "id": "place5",
-      "name": "Stone steps by the camellias"
-     }
-    },
-    {
-     "name": "Panic",
-     "hasIntensity": 0.7,
      "quote": "She stared at him, her mouth open.",
-     "causedBy": {
-      "id": "event7",
-      "name": "Being startled by Mr. Wilkins"
+     "causedByEvent": {
+      "name": "Thomas Briggs arriving at San Salvatore",
+      "takePlaceAt": {
+       "name": "San Salvatore"
+      },
+      "hasParticipant": [
+       {
+        "name": "Rose Arbuthnot"
+       },
+       {
+        "name": "Thomas Briggs"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object7",
-      "name": "Startling situation"
-     },
-     "place": {
-      "id": "place6",
-      "name": "Stone steps by the camellias"
-     }
-    },
-    {
-     "name": "Relief",
-     "hasIntensity": 0.8,
-     "quote": "She managed to smile. 'I’m going to have a visitor,' she said, holding out the telegram.",
-     "causedBy": {
-      "id": "event8",
-      "name": "Realizing the telegram is from Thomas Briggs"
-     },
-     "hasObject": {
-      "id": "object8",
-      "name": "Telegram from Thomas Briggs"
-     },
-     "place": {
-      "id": "place7",
-      "name": "Dining-room"
+      "name": "Thomas Briggs"
      }
     }
    ]
-  }
- ],
- "Places": [
-  {
-   "id": "place1",
-   "name": "Mrs. Fisher's sitting-room"
   },
   {
-   "id": "place2",
-   "name": "Award Ceremony"
-  },
-  {
-   "id": "place3",
-   "name": "Stone steps by the camellias"
-  },
-  {
-   "id": "place4",
-   "name": "Stone steps by the camellias"
-  },
-  {
-   "id": "place5",
-   "name": "Stone steps by the camellias"
-  },
-  {
-   "id": "place6",
-   "name": "Stone steps by the camellias"
-  },
-  {
-   "id": "place7",
-   "name": "Dining-room"
-  }
- ],
- "Events": [
-  {
-   "id": "event1",
-   "name": "Receiving a large bill"
-  },
-  {
-   "id": "event2",
-   "name": "Being denied payment for bills"
-  },
-  {
-   "id": "event3",
-   "name": "Winning a prize"
-  },
-  {
-   "id": "event4",
-   "name": "Receiving a telegram from Frederick"
-  },
-  {
-   "id": "event5",
-   "name": "Not finding a telegram from Frederick"
-  },
-  {
-   "id": "event6",
-   "name": "Receiving a telegram from Thomas Briggs"
-  },
-  {
-   "id": "event7",
-   "name": "Being startled by Mr. Wilkins"
-  },
-  {
-   "id": "event8",
-   "name": "Realizing the telegram is from Thomas Briggs"
+   "name": "Thomas Briggs",
+   "feels": [
+    {
+     "name": "Excitement",
+     "hasIntensity": 0.9,
+     "quote": "He longed to see her in his house. He longed to see it as her background, to see her sitting in his chairs, drinking out of his cups, using all his things.",
+     "causedByEvent": {
+      "name": "Thinking about Rose Arbuthnot",
+      "takePlaceAt": {
+       "name": "On the way to San Salvatore"
+      },
+      "hasParticipant": [
+       {
+        "name": "Thomas Briggs"
+       },
+       {
+        "name": "Rose Arbuthnot"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Imagining Rose in his house"
+     }
+    },
+    {
+     "name": "Curiosity",
+     "hasIntensity": 0.8,
+     "quote": "He stood examining the picture on the staircase of that Madonna by an early Italian painter, name unknown, picked up by him at Orvieto, who was so much like his tenant.",
+     "causedByEvent": {
+      "name": "Examining the picture of the Madonna",
+      "takePlaceAt": {
+       "name": "San Salvatore"
+      },
+      "hasParticipant": [
+       {
+        "name": "Thomas Briggs"
+       },
+       {
+        "name": "Madonna"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Picture of the Madonna"
+     }
+    }
+   ]
   }
  ]
 }

@@ -1,92 +1,49 @@
 {
  "FictionalCharacters": [
   {
-   "id": "Dorothea Brooke",
+   "name": "Dorothea Brooke",
    "feels": [
     {
      "name": "Trust",
      "hasIntensity": 0.9,
-     "quote": "He thinks with me,” said Dorothea to herself, “or rather, he thinks a whole world of which my thought is but a poor twopenny mirror.",
-     "causedBy": {
-      "id": "conversation",
-      "name": "Conversation with Mr. Casaubon"
+     "quote": "He thinks with me, or rather, he thinks a whole world of which my thought is but a poor twopenny mirror.",
+     "causedByEvent": {
+      "name": "Mr. Casaubon's agreement with her views",
+      "takePlaceAt": {
+       "name": "Conversation with Mr. Casaubon"
+      }
      },
      "hasObject": {
-      "id": "Mr. Casaubon",
-      "name": "Mr. Casaubon's mind"
-     },
-     "exactPlace": "During a conversation with Mr. Casaubon"
+      "name": "Mr. Casaubon's agreement"
+     }
     },
     {
      "name": "Joy",
      "hasIntensity": 0.8,
-     "quote": "Here was something beyond the shallows of ladies’ school literature: here was a living Bossuet, whose work would reconcile complete knowledge with devoted piety; here was a modern Augustine who united the glories of doctor and saint.",
-     "causedBy": {
-      "id": "conversation",
-      "name": "Conversation with Mr. Casaubon"
+     "quote": "Miss Brooke was hasty in her trust, it is not therefore clear that Mr. Casaubon was unworthy of it.",
+     "causedByEvent": {
+      "name": "Mr. Casaubon's trustworthiness",
+      "takePlaceAt": {
+       "name": "Conversation with Mr. Casaubon"
+      }
      },
      "hasObject": {
-      "id": "Mr. Casaubon's work",
-      "name": "Mr. Casaubon's work"
-     },
-     "exactPlace": "During a conversation with Mr. Casaubon"
+      "name": "Mr. Casaubon's trustworthiness"
+     }
     },
     {
-     "name": "Hope",
+     "name": "Anticipation",
      "hasIntensity": 0.9,
-     "quote": "It was three o’clock in the beautiful breezy autumn day when Mr. Casaubon drove off to his Rectory at Lowick, only five miles from Tipton; and Dorothea, who had on her bonnet and shawl, hurried along the shrubbery and across the park that she might wander through the bordering wood with no other visible companionship than that of Monk, the Great St. Bernard dog, who always took care of the young ladies in their walks.",
-     "causedBy": {
-      "id": "conversation",
-      "name": "Conversation with Mr. Casaubon"
+     "quote": "There had risen before her the girl’s vision of a possible future for herself to which she looked forward with trembling hope.",
+     "causedByEvent": {
+      "name": "Mr. Casaubon's statement of loneliness and need for companionship",
+      "takePlaceAt": {
+       "name": "Conversation with Mr. Casaubon"
+      }
      },
      "hasObject": {
-      "id": "Future",
-      "name": "Vision of a possible future"
-     },
-     "exactPlace": "After Mr. Casaubon left for his Rectory"
-    }
-   ]
-  },
-  {
-   "id": "Sir James Chettam",
-   "feels": [
-    {
-     "name": "Interest",
-     "hasIntensity": 0.7,
-     "quote": "Certainly he seemed more and more bent on making her talk to him, on drawing her out, as Celia remarked to herself; and in looking at her his face was often lit up by a smile like pale wintry sunshine.",
-     "causedBy": {
-      "id": "conversation",
-      "name": "Conversation with Dorothea"
-     },
-     "hasObject": {
-      "id": "Dorothea Brooke",
-      "name": "Dorothea Brooke"
-     },
-     "exactPlace": "During a conversation with Dorothea"
-    }
-   ]
-  }
- ],
- "Places": [
-  {
-   "id": "Tipton",
-   "name": "Tipton",
-   "description": "The setting of the story where the characters interact."
-  }
- ],
- "Events": [
-  {
-   "id": "conversation",
-   "name": "Conversation with Mr. Casaubon",
-   "takePlaceAt": {
-    "id": "Tipton"
-   },
-   "hasParticipant": [
-    {
-     "id": "Dorothea Brooke"
-    },
-    {
-     "id": "Mr. Casaubon"
+      "name": "Possible future with Mr. Casaubon"
+     }
     }
    ]
   }

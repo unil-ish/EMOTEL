@@ -1,163 +1,146 @@
 {
  "FictionalCharacters": [
   {
-   "id": "Renaldo",
+   "name": "Renaldo",
    "feels": [
     {
-     "name": "Surprise",
-     "hasIntensity": 0.9,
-     "quote": "At sight of these well-known features, seemingly improved with new celestial graces, the youth became a statue, expressing amazement, love, and awful adoration.",
-     "causedBy": {
-      "id": "event1",
-      "name": "Seeing Monimia's restored appearance"
+     "name": "Joy",
+     "hasIntensity": 1,
+     "quote": "O my Monimia! how will the pleasure of this hour be propagated! As yet thou knowest not all the bliss that is reserved for thy enjoyment!",
+     "causedByEvent": {
+      "name": "Reunion with Monimia",
+      "takePlaceAt": {
+       "name": "Madam Clement's house"
+      },
+      "hasParticipant": [
+       {
+        "name": "Renaldo"
+       },
+       {
+        "name": "Monimia"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object1",
-      "name": "Monimia"
-     },
-     "place": {
-      "id": "place1",
-      "name": "Church vestry"
+      "name": "Reunion with Monimia"
      }
     },
     {
-     "name": "Joy",
-     "hasIntensity": 0.95,
-     "quote": "He poured forth the dictates of his gratitude to the preservers of his happiness.",
-     "causedBy": {
-      "id": "event2",
-      "name": "Learning about the plan to reunite with Monimia"
+     "name": "Surprise",
+     "hasIntensity": 1,
+     "quote": "At length his agony was overcome. He recollected all his resolution, and, in a strain of awestruck rapture, thus addressed the heavenly visitant: 'Hast thou then heard, pure spirit! the wailings of my grief?'",
+     "causedByEvent": {
+      "name": "Seeing Monimia's apparition",
+      "takePlaceAt": {
+       "name": "Monimia's tomb"
+      },
+      "hasParticipant": [
+       {
+        "name": "Renaldo"
+       },
+       {
+        "name": "Monimia's apparition"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object2",
-      "name": "Preservers of his happiness"
-     },
-     "place": {
-      "id": "place2",
-      "name": "Church vestry"
+      "name": "Monimia's apparition"
      }
     },
     {
      "name": "Love",
-     "hasIntensity": 0.98,
-     "quote": "He sealed the assent which she had smiled, with a kiss imprinted on her polished forehead.",
-     "causedBy": {
-      "id": "event3",
-      "name": "Expressing affection towards Monimia"
+     "hasIntensity": 1,
+     "quote": "He poured forth the dictates of his gratitude to the preservers of his happiness.",
+     "causedByEvent": {
+      "name": "Feeling grateful for the reunion with Monimia",
+      "takePlaceAt": {
+       "name": "Madam Clement's house"
+      },
+      "hasParticipant": [
+       {
+        "name": "Renaldo"
+       },
+       {
+        "name": "Monimia"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object3",
-      "name": "Monimia"
-     },
-     "place": {
-      "id": "place3",
-      "name": "Church vestry"
-     }
-    }
-   ]
-  },
-  {
-   "id": "Monimia",
-   "feels": [
-    {
-     "name": "Joy",
-     "hasIntensity": 0.9,
-     "quote": "These are the joys which virtue calls her own.",
-     "causedBy": {
-      "id": "event4",
-      "name": "Reuniting with Renaldo"
-     },
-     "hasObject": {
-      "id": "object4",
-      "name": "Reuniting with Renaldo"
-     },
-     "place": {
-      "id": "place4",
-      "name": "Church vestry"
+      "name": "Reunion with Monimia"
      }
     },
     {
      "name": "Relief",
-     "hasIntensity": 0.85,
-     "quote": "begged leave to retire, that she might by repose recruit her exhausted spirits.",
-     "causedBy": {
-      "id": "event5",
-      "name": "Feeling fatigued and overwhelmed"
+     "hasIntensity": 1,
+     "quote": "In order to dissipate these interesting ideas, which, by being too long indulged, might have endangered his reason, Madam Clement entreated him to entertain the company with a detail of what had happened to him in his last journey to the empire.",
+     "causedByEvent": {
+      "name": "Madam Clement's request to share his journey details",
+      "takePlaceAt": {
+       "name": "Madam Clement's house"
+      },
+      "hasParticipant": [
+       {
+        "name": "Renaldo"
+       },
+       {
+        "name": "Madam Clement"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object5",
-      "name": "Feeling fatigued and overwhelmed"
-     },
-     "place": {
-      "id": "place5",
-      "name": "Madam Clement's house"
+      "name": "Sharing journey details"
      }
     }
    ]
-  }
- ],
- "Places": [
-  {
-   "id": "place1",
-   "name": "Church vestry",
-   "description": "Where Renaldo saw the restored appearance of Monimia"
   },
   {
-   "id": "place2",
-   "name": "Church vestry",
-   "description": "Where Renaldo expressed gratitude to the preservers of his happiness"
-  },
-  {
-   "id": "place3",
-   "name": "Church vestry",
-   "description": "Where Renaldo expressed affection towards Monimia"
-  },
-  {
-   "id": "place4",
-   "name": "Church vestry",
-   "description": "Where Monimia experienced joy from reuniting with Renaldo"
-  },
-  {
-   "id": "place5",
-   "name": "Madam Clement's house",
-   "description": "Where Monimia sought relief by retiring to rest"
-  }
- ],
- "Events": [
-  {
-   "id": "event1",
-   "name": "Seeing Monimia's restored appearance",
-   "takePlaceAt": {
-    "id": "place1"
-   }
-  },
-  {
-   "id": "event2",
-   "name": "Learning about the plan to reunite with Monimia",
-   "takePlaceAt": {
-    "id": "place2"
-   }
-  },
-  {
-   "id": "event3",
-   "name": "Expressing affection towards Monimia",
-   "takePlaceAt": {
-    "id": "place3"
-   }
-  },
-  {
-   "id": "event4",
-   "name": "Reuniting with Renaldo",
-   "takePlaceAt": {
-    "id": "place4"
-   }
-  },
-  {
-   "id": "event5",
-   "name": "Feeling fatigued and overwhelmed",
-   "takePlaceAt": {
-    "id": "place5"
-   }
+   "name": "Monimia",
+   "feels": [
+    {
+     "name": "Joy",
+     "hasIntensity": 1,
+     "quote": "O my dear lady! forgive the wild transports of a fond lover, who hath so unexpectedly retrieved the jewel of his soul!",
+     "causedByEvent": {
+      "name": "Reunion with Renaldo",
+      "takePlaceAt": {
+       "name": "Madam Clement's house"
+      },
+      "hasParticipant": [
+       {
+        "name": "Monimia"
+       },
+       {
+        "name": "Renaldo"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Reunion with Renaldo"
+     }
+    },
+    {
+     "name": "Relief",
+     "hasIntensity": 1,
+     "quote": "Monimia taking Madam Clement by the hand, 'Whatever joy,' said she, 'Renaldo derives from this occasion, is owing to the bounty, the compassion, and maternal care of this incomparable lady.'",
+     "causedByEvent": {
+      "name": "Feeling grateful for Madam Clement's care",
+      "takePlaceAt": {
+       "name": "Madam Clement's house"
+      },
+      "hasParticipant": [
+       {
+        "name": "Monimia"
+       },
+       {
+        "name": "Madam Clement"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Madam Clement's care"
+     }
+    }
+   ]
   }
  ]
 }

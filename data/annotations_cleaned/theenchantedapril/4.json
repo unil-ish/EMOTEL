@@ -1,169 +1,111 @@
 {
  "FictionalCharacters": [
   {
-   "id": "texts/theenchantedapril.txt#Mrs_Wilkins",
    "name": "Mrs_Wilkins",
    "feels": [
     {
      "name": "Joy",
      "hasIntensity": 0.9,
      "quote": "She, so to speak, at once flung off all her garments and dived straight into glory, unhesitatingly, with a cry of rapture.",
-     "causedBy": {
-      "id": "texts/theenchantedapril.txt#Experiencing_the_beauty_of_San_Salvatore",
-      "name": "Experiencing_the_beauty_of_San_Salvatore"
-     },
      "hasObject": {
-      "id": "texts/theenchantedapril.txt#Beauty_of_San_Salvatore",
-      "name": "Beauty_of_San_Salvatore"
+      "name": "Glory"
      },
-     "exactPlace": "San Salvatore",
-     "id": "Joy"
+     "causedBy": {
+      "name": "Arrival_at_San_Salvatore",
+      "takePlaceAt": {
+       "name": "San_Salvatore"
+      }
+     }
     },
     {
-     "name": "Regret",
+     "name": "Anticipation",
      "hasIntensity": 0.7,
-     "quote": "The morning after the first dinner together, she woke up in a condition of regret that she should have been so talkative to Mrs. Wilkins the night before.",
-     "causedBy": {
-      "id": "texts/theenchantedapril.txt#Feeling_talkative",
-      "name": "Feeling_talkative"
-     },
+     "quote": "She wasn’t usually interested in arrangements, in fact she wasn’t ever interested in them; so that Scrap considered she might be said almost to have gone out of her way to be agreeable to Mrs. Wilkins.",
      "hasObject": {
-      "id": "texts/theenchantedapril.txt#Being_talkative",
-      "name": "Being_talkative"
+      "name": "Mrs_Wilkins_s_spareroom_arrangements"
      },
-     "exactPlace": "Her room",
-     "id": "Regret"
+     "causedBy": {
+      "name": "Mrs_Wilkins_s_excessive_friendliness",
+      "takePlaceAt": {
+       "name": "San_Salvatore"
+      }
+     }
     }
    ]
   },
   {
-   "id": "texts/theenchantedapril.txt#Mrs_Fisher",
-   "name": "Mrs_Fisher",
-   "feels": [
-    {
-     "name": "Disapproval",
-     "hasIntensity": 0.8,
-     "quote": "But Mrs. Fisher, with even greater frostiness than that with which she had received Lady Caroline’s ignorance of the Blessed Damozel, said, “There is only one unoccupied bedroom in this house.”",
-     "causedBy": {
-      "id": "texts/theenchantedapril.txt#Realizing_there_is_only_one_spare_room",
-      "name": "Realizing_there_is_only_one_spare_room"
-     },
-     "hasObject": {
-      "id": "texts/theenchantedapril.txt#One_spare_room",
-      "name": "One_spare_room"
-     },
-     "exactPlace": "San Salvatore",
-     "id": "Disapproval"
-    },
-    {
-     "name": "Relief",
-     "hasIntensity": 0.7,
-     "quote": "Well, if nobody really wants that room, and wouldn’t use it anyhow, I shall be very glad if Mellersh may have it.",
-     "causedBy": {
-      "id": "texts/theenchantedapril.txt#No_one_wanting_the_spare_room",
-      "name": "No_one_wanting_the_spare_room"
-     },
-     "hasObject": {
-      "id": "texts/theenchantedapril.txt#Spare_room",
-      "name": "Spare_room"
-     },
-     "exactPlace": "San Salvatore",
-     "id": "Relief"
-    }
-   ]
-  },
-  {
-   "id": "texts/theenchantedapril.txt#Lady_Caroline",
    "name": "Lady_Caroline",
    "feels": [
     {
      "name": "Surprise",
      "hasIntensity": 0.8,
      "quote": "Even Lady Caroline, used all her life to beauty, who had been everywhere and seen everything, felt the surprise of it.",
-     "causedBy": {
-      "id": "texts/theenchantedapril.txt#Experiencing_the_beauty_of_San_Salvatore",
-      "name": "Experiencing_the_beauty_of_San_Salvatore"
-     },
      "hasObject": {
-      "id": "texts/theenchantedapril.txt#Beauty_of_San_Salvatore",
       "name": "Beauty_of_San_Salvatore"
      },
-     "exactPlace": "San Salvatore",
-     "id": "Surprise"
+     "causedBy": {
+      "name": "Arrival_at_San_Salvatore",
+      "takePlaceAt": {
+       "name": "San_Salvatore"
+      }
+     }
     },
     {
-     "name": "SelfReflection",
-     "hasIntensity": 0.7,
-     "quote": "It had made her, beginning on the very first evening, want to think, and acted on her curiously like a conscience.",
-     "causedBy": {
-      "id": "texts/theenchantedapril.txt#Feeling_the_influence_of_San_Salvatore",
-      "name": "Feeling_the_influence_of_San_Salvatore"
-     },
+     "name": "Regret",
+     "hasIntensity": 0.6,
+     "quote": "The morning after the first dinner together, she woke up in a condition of regret that she should have been so talkative to Mrs. Wilkins the night before.",
      "hasObject": {
-      "id": "texts/theenchantedapril.txt#Influence_of_San_Salvatore",
-      "name": "Influence_of_San_Salvatore"
+      "name": "Talkativeness"
      },
-     "exactPlace": "San Salvatore",
-     "id": "SelfReflection"
+     "causedBy": {
+      "name": "Excessive_friendliness_towards_Mrs_Wilkins",
+      "takePlaceAt": {
+       "name": "San_Salvatore"
+      }
+     }
     }
    ]
-  }
- ],
- "Places": [
-  {
-   "id": "texts/theenchantedapril.txt#San_Salvatore",
-   "name": "San_Salvatore",
-   "description": "A beautiful location with a castle and serene clear hills"
-  }
- ],
- "Events": [
-  {
-   "id": "texts/theenchantedapril.txt#Experiencing_the_beauty_of_San_Salvatore",
-   "name": "Experiencing_the_beauty_of_San_Salvatore",
-   "takePlaceAt": {
-    "id": "texts/theenchantedapril.txt#place1",
-    "name": "place1"
-   }
   },
   {
-   "id": "texts/theenchantedapril.txt#Feeling_talkative",
-   "name": "Feeling_talkative",
-   "takePlaceAt": {
-    "id": "texts/theenchantedapril.txt#place1",
-    "name": "place1"
-   }
-  },
-  {
-   "id": "texts/theenchantedapril.txt#Realizing_there_is_only_one_spare_room",
-   "name": "Realizing_there_is_only_one_spare_room",
-   "takePlaceAt": {
-    "id": "texts/theenchantedapril.txt#place1",
-    "name": "place1"
-   }
-  },
-  {
-   "id": "texts/theenchantedapril.txt#No_one_wanting_the_spare_room",
-   "name": "No_one_wanting_the_spare_room",
-   "takePlaceAt": {
-    "id": "texts/theenchantedapril.txt#place1",
-    "name": "place1"
-   }
-  },
-  {
-   "id": "texts/theenchantedapril.txt#Experiencing_the_beauty_of_San_Salvatore",
-   "name": "Experiencing_the_beauty_of_San_Salvatore",
-   "takePlaceAt": {
-    "id": "texts/theenchantedapril.txt#place1",
-    "name": "place1"
-   }
-  },
-  {
-   "id": "texts/theenchantedapril.txt#Feeling_the_influence_of_San_Salvatore",
-   "name": "Feeling_the_influence_of_San_Salvatore",
-   "takePlaceAt": {
-    "id": "texts/theenchantedapril.txt#place1",
-    "name": "place1"
-   }
+   "name": "Mrs_Fisher",
+   "feels": [
+    {
+     "name": "Disapproval",
+     "hasIntensity": 0.9,
+     "quote": "But Mrs. Fisher, as impervious to rebuke as Mrs. Fisher had feared, immediately repeated the tiresome formula and launched out into a long and excessively indelicate speech about the best place for the person she called Mellersh to sleep in.",
+     "hasObject": {
+      "name": "Mellersh_s_sleeping_arrangements"
+     },
+     "causedBy": {
+      "name": "Mrs_Wilkins_s_excessive_friendliness",
+      "takePlaceAt": {
+       "name": "San_Salvatore"
+      },
+      "hasParticipant": [
+       {
+        "name": "Mrs_Wilkins"
+       },
+       {
+        "name": "Lady_Caroline"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Relief",
+     "hasIntensity": 0.7,
+     "quote": "Well, if nobody really wants that room, and wouldn’t use it anyhow, I shall be very glad if Mellersh may have it.",
+     "hasObject": {
+      "name": "Mellersh_having_the_spareroom"
+     },
+     "causedBy": {
+      "name": "Decision_to_offer_spareroom_to_Mellersh",
+      "takePlaceAt": {
+       "name": "San_Salvatore"
+      }
+     }
+    }
+   ]
   }
  ]
 }

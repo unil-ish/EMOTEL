@@ -1,197 +1,180 @@
 {
  "FictionalCharacters": [
   {
-   "id": "fc1",
-   "name": "Ferdinand de Fathom",
+   "name": "Ferdinand",
    "feels": [
     {
      "name": "Reluctance",
      "hasIntensity": 0.7,
-     "quote": "He declined the generous proffer with affected earnestness of refusal.",
-     "causedBy": {
-      "id": "event1",
-      "name": "Offer of financial help"
+     "quote": "No, madam, whatever happens, I shall never part with that internal consolation, that conscious honour never fails to yield in the deepest scenes of solitary distress.",
+     "causedByEvent": {
+      "name": "Refusing the generous proffer of money",
+      "takePlaceAt": {
+       "name": "Appointment with the mother"
+      },
+      "hasParticipant": [
+       {
+        "name": "Ferdinand"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object1",
-      "name": "Money"
-     },
-     "place": "House of their female friend"
+      "name": "Internal consolation"
+     }
     },
     {
      "name": "Astonishment",
      "hasIntensity": 0.8,
-     "quote": "He expressed the utmost astonishment at this generous proffer.",
-     "causedBy": {
-      "id": "event2",
-      "name": "Generous proffer"
+     "quote": "He expressed the utmost astonishment at this generous proffer, which, however, he declined, with an affected earnestness of refusal.",
+     "causedByEvent": {
+      "name": "Generous proffer of money",
+      "takePlaceAt": {
+       "name": "Appointment with the mother"
+      },
+      "hasParticipant": [
+       {
+        "name": "Ferdinand"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object2",
       "name": "Generous proffer"
-     },
-     "place": "House of their female friend"
+     }
     },
     {
      "name": "Relief",
      "hasIntensity": 0.9,
-     "quote": "He was comforted with the promise that she would remember the rendezvous of next day.",
-     "causedBy": {
-      "id": "event3",
-      "name": "Promise of help"
+     "quote": "He was prevailed upon to tell her, that he had been, the preceding night, engaged with a company of his fellow-students, where he had made too free with the champagne, so that his caution forsook him, and he had been decoyed into play by a Tyrolese gamester, who stripped him of all his ready money, and obtained from him an obligation for two hundred florins, which he could not possibly pay without having recourse to his relation the Count de Melvil.",
+     "causedByEvent": {
+      "name": "Being able to discharge the debt",
+      "takePlaceAt": {
+       "name": "Appointment with the mother"
+      },
+      "hasParticipant": [
+       {
+        "name": "Ferdinand"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object3",
-      "name": "Promise of help"
-     },
-     "place": "House of their female friend"
+      "name": "Discharging the debt"
+     }
     },
     {
-     "name": "Distress",
+     "name": "Fear",
      "hasIntensity": 0.9,
-     "quote": "He was wrung with mortal anguish at the prospect of parting for ever from his lovely Wilhelmina.",
-     "causedBy": {
-      "id": "event4",
-      "name": "Dreadful resolution"
+     "quote": "Such a dreadful resolution could not fail to operate upon the tender passions of his Dulcinea; she was instantly seized with an agony of fear and distraction.",
+     "causedByEvent": {
+      "name": "Threatening to take his own life",
+      "takePlaceAt": {
+       "name": "Nocturnal rendezvous with Wilhelmina"
+      },
+      "hasParticipant": [
+       {
+        "name": "Ferdinand"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object4",
-      "name": "Parting from Wilhelmina"
-     },
-     "place": "Wilhelmina's chamber"
+      "name": "Threatening to take his own life"
+     }
     },
     {
-     "name": "Sorrow",
-     "hasIntensity": 0.9,
-     "quote": "He was instantly seized with an agony of fear and distraction.",
-     "causedBy": {
-      "id": "event5",
-      "name": "Dreadful resolution"
-     },
-     "hasObject": {
-      "id": "object5",
-      "name": "Dreadful resolution"
-     },
-     "place": "Wilhelmina's chamber"
-    },
-    {
-     "name": "Melancholy",
+     "name": "Relief",
      "hasIntensity": 0.8,
-     "quote": "He was wrung with mortal anguish at the prospect of parting for ever from his lovely Wilhelmina.",
-     "causedBy": {
-      "id": "event6",
-      "name": "Dreadful resolution"
+     "quote": "He was not deficient in expressions of reciprocal regard. He extolled her love and tenderness with a most extravagant eulogium, and seemed wrung with mortal anguish at the prospect of parting for ever from his lovely Wilhelmina.",
+     "causedByEvent": {
+      "name": "Promising to defer the execution of his baleful purpose",
+      "takePlaceAt": {
+       "name": "Nocturnal rendezvous with Wilhelmina"
+      },
+      "hasParticipant": [
+       {
+        "name": "Ferdinand"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object6",
-      "name": "Parting from Wilhelmina"
-     },
-     "place": "Wilhelmina's chamber"
+      "name": "Deferring the execution of his baleful purpose"
+     }
     },
     {
-     "name": "Hope",
+     "name": "Astonishment",
      "hasIntensity": 0.9,
-     "quote": "He yielded to her fervent request, rather with a view to calm the present transports of her sorrow.",
-     "causedBy": {
-      "id": "event7",
-      "name": "Fervent request from Wilhelmina"
+     "quote": "He expressed the utmost astonishment at this generous proffer, which, however, he declined, with an affected earnestness of refusal.",
+     "causedByEvent": {
+      "name": "Generous proffer of money",
+      "takePlaceAt": {
+       "name": "Appointment with Wilhelmina"
+      },
+      "hasParticipant": [
+       {
+        "name": "Ferdinand"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object7",
-      "name": "Fervent request"
-     },
-     "place": "Wilhelmina's chamber"
+      "name": "Generous proffer"
+     }
     },
     {
-     "name": "Anticipation",
+     "name": "Relief",
      "hasIntensity": 0.9,
-     "quote": "He did not doubt that the mine of his craft would take effect.",
-     "causedBy": {
-      "id": "event8",
-      "name": "Expectation of success"
+     "quote": "He was prevailed upon to tell her, that he had been, the preceding night, engaged with a company of his fellow-students, where he had made too free with the champagne, so that his caution forsook him, and he had been decoyed into play by a Tyrolese gamester, who stripped him of all his ready money, and obtained from him an obligation for two hundred florins, which he could not possibly pay without having recourse to his relation the Count de Melvil.",
+     "causedByEvent": {
+      "name": "Being able to discharge the debt",
+      "takePlaceAt": {
+       "name": "Appointment with Wilhelmina"
+      },
+      "hasParticipant": [
+       {
+        "name": "Ferdinand"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object8",
-      "name": "Success"
+      "name": "Discharging the debt"
+     }
+    },
+    {
+     "name": "Fear",
+     "hasIntensity": 0.9,
+     "quote": "Such a dreadful resolution could not fail to operate upon the tender passions of his Dulcinea; she was instantly seized with an agony of fear and distraction.",
+     "causedByEvent": {
+      "name": "Threatening to take his own life",
+      "takePlaceAt": {
+       "name": "Nocturnal rendezvous with Wilhelmina"
+      },
+      "hasParticipant": [
+       {
+        "name": "Ferdinand"
+       }
+      ]
      },
-     "place": "His own lodging"
+     "hasObject": {
+      "name": "Threatening to take his own life"
+     }
+    },
+    {
+     "name": "Relief",
+     "hasIntensity": 0.8,
+     "quote": "He was not deficient in expressions of reciprocal regard. He extolled her love and tenderness with a most extravagant eulogium, and seemed wrung with mortal anguish at the prospect of parting for ever from his lovely Wilhelmina.",
+     "causedByEvent": {
+      "name": "Promising to defer the execution of his baleful purpose",
+      "takePlaceAt": {
+       "name": "Nocturnal rendezvous with Wilhelmina"
+      },
+      "hasParticipant": [
+       {
+        "name": "Ferdinand"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Deferring the execution of his baleful purpose"
+     }
     }
    ]
-  }
- ],
- "Places": [
-  {
-   "id": "place1",
-   "name": "House of their female friend",
-   "description": "Location of the generous proffer"
-  },
-  {
-   "id": "place2",
-   "name": "Wilhelmina's chamber",
-   "description": "Location of the dreadful resolution and fervent request"
-  },
-  {
-   "id": "place3",
-   "name": "His own lodging",
-   "description": "Location of the expectation of success"
-  }
- ],
- "Events": [
-  {
-   "id": "event1",
-   "name": "Offer of financial help",
-   "takePlaceAt": {
-    "id": "place1"
-   }
-  },
-  {
-   "id": "event2",
-   "name": "Generous proffer",
-   "takePlaceAt": {
-    "id": "place1"
-   }
-  },
-  {
-   "id": "event3",
-   "name": "Promise of help",
-   "takePlaceAt": {
-    "id": "place1"
-   }
-  },
-  {
-   "id": "event4",
-   "name": "Dreadful resolution",
-   "takePlaceAt": {
-    "id": "place2"
-   }
-  },
-  {
-   "id": "event5",
-   "name": "Dreadful resolution",
-   "takePlaceAt": {
-    "id": "place2"
-   }
-  },
-  {
-   "id": "event6",
-   "name": "Dreadful resolution",
-   "takePlaceAt": {
-    "id": "place2"
-   }
-  },
-  {
-   "id": "event7",
-   "name": "Fervent request from Wilhelmina",
-   "takePlaceAt": {
-    "id": "place2"
-   }
-  },
-  {
-   "id": "event8",
-   "name": "Expectation of success",
-   "takePlaceAt": {
-    "id": "place3"
-   }
   }
  ]
 }

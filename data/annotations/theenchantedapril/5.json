@@ -1,179 +1,103 @@
 {
  "FictionalCharacters": [
   {
-   "id": "fc1",
    "name": "Scrap",
    "feels": [
     {
-     "name": "Amusement",
+     "name": "Indulgence",
      "hasIntensity": 0.8,
      "quote": "Scrap, whenever she looked at Mr. Wilkins, saw him in his towel, dripping water, and felt indulgent.",
-     "causedBy": {
-      "id": "event1",
-      "name": "Mr. Wilkins's appearance in a towel"
+     "causedByEvent": {
+      "name": "Mr. Wilkins's appearance in a towel",
+      "takePlaceAt": {
+       "name": "Dinner table"
+      }
      },
      "hasObject": {
-      "id": "object1",
       "name": "Mr. Wilkins"
-     },
-     "place": {
-      "id": "place1",
-      "name": "Dining room"
      }
     },
     {
-     "name": "Indulgence",
+     "name": "Amusement",
      "hasIntensity": 0.7,
-     "quote": "Scrap, whenever she looked at Mr. Wilkins, saw him in his towel, dripping water, and felt indulgent.",
-     "causedBy": {
-      "id": "event1",
-      "name": "Mr. Wilkins's appearance in a towel"
+     "quote": "And for the life of her she couldn’t help smiling. She couldn’t help it.",
+     "causedByEvent": {
+      "name": "Mr. Wilkins's behavior",
+      "takePlaceAt": {
+       "name": "Conversation"
+      }
      },
      "hasObject": {
-      "id": "object1",
       "name": "Mr. Wilkins"
-     },
-     "place": {
-      "id": "place1",
-      "name": "Dining room"
      }
     }
    ]
   },
   {
-   "id": "fc2",
    "name": "Mrs. Fisher",
    "feels": [
     {
-     "name": "Placation",
+     "name": "Delight",
      "hasIntensity": 0.9,
-     "quote": "What Mr. Wilkins said to her in reply, when reminded by what she was saying of his condition, was so handsome in its apology, so proper in its confusion, that she had ended by being quite sorry for him and completely placated.",
-     "causedBy": {
-      "id": "event2",
-      "name": "Mr. Wilkins's apology"
+     "quote": "Mrs. Fisher was delighted with him.",
+     "causedByEvent": {
+      "name": "Mr. Wilkins's behavior at dinner",
+      "takePlaceAt": {
+       "name": "Dinner table"
+      }
      },
      "hasObject": {
-      "id": "object2",
-      "name": "Mrs. Fisher"
-     },
-     "place": {
-      "id": "place2",
-      "name": "Dining room"
+      "name": "Mr. Wilkins"
      }
     },
     {
-     "name": "Admiration",
+     "name": "Secret understanding",
      "hasIntensity": 0.8,
-     "quote": "Mrs. Fisher was delighted with him.",
-     "causedBy": {
-      "id": "event3",
-      "name": "Mr. Wilkins's behavior at dinner"
+     "quote": "Mrs. Fisher and Lady Caroline had a singular feeling of secret understanding with Mr. Wilkins.",
+     "causedByEvent": {
+      "name": "Mr. Wilkins's behavior",
+      "takePlaceAt": {
+       "name": "Dinner table"
+      }
      },
      "hasObject": {
-      "id": "object3",
       "name": "Mr. Wilkins"
-     },
-     "place": {
-      "id": "place2",
-      "name": "Dining room"
      }
     }
    ]
   },
   {
-   "id": "fc3",
-   "name": "Lady Caroline",
-   "feels": [
-    {
-     "name": "Approval",
-     "hasIntensity": 0.9,
-     "quote": "Meanwhile Lady Caroline was all and more than all Mr. Wilkins had imagined, and had received his speeches, worked in skilfully between the courses, graciously.",
-     "causedBy": {
-      "id": "event4",
-      "name": "Mr. Wilkins's speeches"
-     },
-     "hasObject": {
-      "id": "object4",
-      "name": "Lady Caroline"
-     },
-     "place": {
-      "id": "place2",
-      "name": "Dining room"
-     }
-    }
-   ]
-  },
-  {
-   "id": "fc4",
    "name": "Lotty",
    "feels": [
     {
      "name": "Delight",
      "hasIntensity": 0.9,
      "quote": "Her face sparkled with delight at the instantaneous effect of San Salvatore.",
-     "causedBy": {
-      "id": "event5",
-      "name": "Mr. Wilkins's behavior"
+     "causedByEvent": {
+      "name": "Mr. Wilkins's behavior",
+      "takePlaceAt": {
+       "name": "Observing Mr. Wilkins"
+      }
      },
      "hasObject": {
-      "id": "object5",
       "name": "Mr. Wilkins"
+     }
+    },
+    {
+     "name": "Pride",
+     "hasIntensity": 0.8,
+     "quote": "Her face red with pride in him.",
+     "causedByEvent": {
+      "name": "Mr. Wilkins's reaction to her confession",
+      "takePlaceAt": {
+       "name": "Conversation"
+      }
      },
-     "place": {
-      "id": "place2",
-      "name": "Dining room"
+     "hasObject": {
+      "name": "Mr. Wilkins"
      }
     }
    ]
-  }
- ],
- "Places": [
-  {
-   "id": "place1",
-   "name": "Dining room",
-   "description": "Where the characters had dinner."
-  },
-  {
-   "id": "place2",
-   "name": "Dining room",
-   "description": "Where the characters interacted with Mr. Wilkins."
-  }
- ],
- "Events": [
-  {
-   "id": "event1",
-   "name": "Mr. Wilkins's appearance in a towel",
-   "takePlaceAt": {
-    "id": "place1"
-   }
-  },
-  {
-   "id": "event2",
-   "name": "Mr. Wilkins's apology",
-   "takePlaceAt": {
-    "id": "place2"
-   }
-  },
-  {
-   "id": "event3",
-   "name": "Mr. Wilkins's behavior at dinner",
-   "takePlaceAt": {
-    "id": "place2"
-   }
-  },
-  {
-   "id": "event4",
-   "name": "Mr. Wilkins's speeches",
-   "takePlaceAt": {
-    "id": "place2"
-   }
-  },
-  {
-   "id": "event5",
-   "name": "Mr. Wilkins's behavior",
-   "takePlaceAt": {
-    "id": "place2"
-   }
   }
  ]
 }

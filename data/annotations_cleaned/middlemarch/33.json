@@ -1,156 +1,58 @@
 {
  "FictionalCharacters": [
   {
-   "id": "texts/middlemarch.txt#Dorothea_Brooke",
+   "name": "Dorothea",
    "feels": [
     {
-     "name": "Trust",
+     "name": "Compassion",
      "hasIntensity": 0.9,
-     "quote": "She was vigorous enough to have borne that hard night without feeling ill in body, beyond some aching and fatigue; but she had waked to a new condition: she felt as if her soul had been liberated from its terrible conflict; she was no longer wrestling with her grief, but could sit down with it as a lasting companion and make it a sharer in her thoughts.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Feeling_liberated_from_her_terrible_conflict",
-      "name": "Feeling_liberated_from_her_terrible_conflict"
-     },
+     "quote": "Trouble is so hard to bear, is it not?— How can we live and think that any one has trouble—piercing trouble—and we could help them, and never try?",
      "hasObject": {
-      "id": "texts/middlemarch.txt#Her_soul",
-      "name": "Her_soul"
+      "name": "Rosamond_s_wellbeing"
      },
-     "exactPlace": "In her own home",
-     "id": "Trust"
-    },
-    {
-     "name": "Surprise",
-     "hasIntensity": 0.7,
-     "quote": "It was plain that Lydgate, as Dorothea had expected, knew nothing about the circumstances of her yesterday’s visit; nay, he appeared to imagine that she had carried it out according to her intention.",
      "causedBy": {
-      "id": "texts/middlemarch.txt#Lydgate_s_lack_of_knowledge_about_her_previous_vis",
-      "name": "Lydgate_s_lack_of_knowledge_about_her_previous_visit"
-     },
-     "hasObject": {
-      "id": "texts/middlemarch.txt#Lydgate_s_lack_of_knowledge",
-      "name": "Lydgate_s_lack_of_knowledge"
-     },
-     "exactPlace": "In Lydgate's drawing-room",
-     "id": "Surprise"
-    },
-    {
-     "name": "Anxiety",
-     "hasIntensity": 0.8,
-     "quote": "She had prepared a little note asking Rosamond to see her, which she would have given to the servant if he had not been in the way, but now she was in much anxiety as to the result of his announcement.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Uncertainty_about_the_outcome_of_the_servant_s_ann",
-      "name": "Uncertainty_about_the_outcome_of_the_servant_s_announcement"
-     },
-     "hasObject": {
-      "id": "texts/middlemarch.txt#The_servant_s_announcement",
-      "name": "The_servant_s_announcement"
-     },
-     "exactPlace": "In Lydgate's drawing-room",
-     "id": "Anxiety"
+      "name": "Empathy_towards_Rosamond_s_situation",
+      "takePlaceAt": {
+       "name": "Lydgate_s_house"
+      },
+      "hasParticipant": [
+       {
+        "name": "Dorothea"
+       },
+       {
+        "name": "Rosamond"
+       }
+      ]
+     }
     }
-   ],
-   "name": "Dorothea_Brooke"
+   ]
   },
   {
-   "id": "texts/middlemarch.txt#Tantripp",
+   "name": "Rosamond",
    "feels": [
     {
-     "name": "Confusion",
-     "hasIntensity": 0.6,
-     "quote": "Tantripp would never have found the clew to this mystery. Dorothea wished to acknowledge that she had not the less an active life before her because she had buried a private joy; and the tradition that fresh garments belonged to all initiation, haunting her mind, made her grasp after even that slight outward help towards calm resolve.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Dorothea_s_change_in_mourning_attire",
-      "name": "Dorothea_s_change_in_mourning_attire"
-     },
-     "hasObject": {
-      "id": "texts/middlemarch.txt#Dorothea_s_change_in_mourning_attire",
-      "name": "Dorothea_s_change_in_mourning_attire"
-     },
-     "exactPlace": "In Dorothea's room",
-     "id": "Confusion"
-    }
-   ],
-   "name": "Tantripp"
-  },
-  {
-   "id": "texts/middlemarch.txt#Lydgate",
-   "feels": [
-    {
-     "name": "Gratitude",
+     "name": "Relief",
      "hasIntensity": 0.8,
-     "quote": "When one is grateful for something too good for common thanks, writing is less unsatisfactory than speech—one does not at least hear how inadequate the words are.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Feeling_grateful_for_something_too_good_for_common",
-      "name": "Feeling_grateful_for_something_too_good_for_common_thanks"
-     },
+     "quote": "That relief was too great for Rosamond to feel much else at the moment.",
      "hasObject": {
-      "id": "texts/middlemarch.txt#The_act_of_writing_a_letter",
-      "name": "The_act_of_writing_a_letter"
+      "name": "Feeling_understood_and_not_judged"
      },
-     "exactPlace": "In the drawing-room",
-     "id": "Gratitude"
+     "causedBy": {
+      "name": "Dorothea_s_approach_and_kind_words",
+      "takePlaceAt": {
+       "name": "Lydgate_s_house"
+      },
+      "hasParticipant": [
+       {
+        "name": "Dorothea"
+       },
+       {
+        "name": "Rosamond"
+       }
+      ]
+     }
     }
-   ],
-   "name": "Lydgate"
-  }
- ],
- "Places": [
-  {
-   "id": "texts/middlemarch.txt#In_her_own_home",
-   "name": "In_her_own_home",
-   "description": "Dorothea's residence where she felt liberated from her terrible conflict."
-  },
-  {
-   "id": "texts/middlemarch.txt#In_Lydgate_s_drawingroom",
-   "name": "In_Lydgate_s_drawingroom",
-   "description": "The room where Dorothea experienced surprise and anxiety."
-  },
-  {
-   "id": "texts/middlemarch.txt#In_Dorothea_s_room",
-   "name": "In_Dorothea_s_room",
-   "description": "The location where Tantripp observed Dorothea's change in mourning attire."
-  }
- ],
- "Events": [
-  {
-   "id": "texts/middlemarch.txt#Feeling_liberated_from_her_terrible_conflict",
-   "name": "Feeling_liberated_from_her_terrible_conflict",
-   "takePlaceAt": {
-    "id": "texts/middlemarch.txt#place1",
-    "name": "place1"
-   }
-  },
-  {
-   "id": "texts/middlemarch.txt#Lydgate_s_lack_of_knowledge_about_her_previous_vis",
-   "name": "Lydgate_s_lack_of_knowledge_about_her_previous_visit",
-   "takePlaceAt": {
-    "id": "texts/middlemarch.txt#place2",
-    "name": "place2"
-   }
-  },
-  {
-   "id": "texts/middlemarch.txt#Uncertainty_about_the_outcome_of_the_servant_s_ann",
-   "name": "Uncertainty_about_the_outcome_of_the_servant_s_announcement",
-   "takePlaceAt": {
-    "id": "texts/middlemarch.txt#place2",
-    "name": "place2"
-   }
-  },
-  {
-   "id": "texts/middlemarch.txt#Dorothea_s_change_in_mourning_attire",
-   "name": "Dorothea_s_change_in_mourning_attire",
-   "takePlaceAt": {
-    "id": "texts/middlemarch.txt#place3",
-    "name": "place3"
-   }
-  },
-  {
-   "id": "texts/middlemarch.txt#Feeling_grateful_for_something_too_good_for_common",
-   "name": "Feeling_grateful_for_something_too_good_for_common_thanks",
-   "takePlaceAt": {
-    "id": "texts/middlemarch.txt#place2",
-    "name": "place2"
-   }
+   ]
   }
  ]
 }

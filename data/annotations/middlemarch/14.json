@@ -1,148 +1,110 @@
 {
  "FictionalCharacters": [
   {
-   "id": "Lydgate",
+   "name": "Rosamond Vincy",
    "feels": [
+    {
+     "name": "Trust",
+     "hasIntensity": 0.9,
+     "quote": "I never give up anything that I choose to do.",
+     "causedByEvent": {
+      "name": "Father's disapproval of engagement",
+      "takePlaceAt": {
+       "name": "Drawing-room"
+      }
+     },
+     "hasObject": {
+      "name": "Engagement"
+     }
+    },
+    {
+     "name": "Surprise",
+     "hasIntensity": 0.7,
+     "quote": "What original notions you clever men have!",
+     "causedByEvent": {
+      "name": "Lydgate's suggestion of buying wedding clothes after marriage",
+      "takePlaceAt": {
+       "name": "Drawing-room"
+      }
+     },
+     "hasObject": {
+      "name": "Wedding clothes"
+     }
+    },
+    {
+     "name": "Joy",
+     "hasIntensity": 0.8,
+     "quote": "An unmistakable delight shone forth from the blue eyes that met his.",
+     "causedByEvent": {
+      "name": "Lydgate's proposal of a speedy marriage",
+      "takePlaceAt": {
+       "name": "Drawing-room"
+      }
+     },
+     "hasObject": {
+      "name": "Marriage"
+     }
+    },
+    {
+     "name": "Anticipation",
+     "hasIntensity": 0.9,
+     "quote": "I could certainly hasten the work.",
+     "causedByEvent": {
+      "name": "Planning for the honeymoon",
+      "takePlaceAt": {
+       "name": "Drawing-room"
+      }
+     },
+     "hasObject": {
+      "name": "Honeymoon preparations"
+     }
+    },
     {
      "name": "Love",
      "hasIntensity": 0.9,
-     "quote": "An unmistakable delight shone forth from the blue eyes that met his, and the radiance seemed to light up all his future with mild sunshine.",
-     "causedBy": {
-      "id": "engagement",
-      "name": "Engagement with Rosamond"
+     "quote": "She looked at her lover with some wondering remonstrance as she spoke.",
+     "causedByEvent": {
+      "name": "Lydgate's earnest pleading for a quick marriage",
+      "takePlaceAt": {
+       "name": "Drawing-room"
+      }
      },
      "hasObject": {
-      "id": "Rosamond",
-      "name": "Rosamond"
-     },
-     "exactPlace": "Drawing-room"
-    },
-    {
-     "name": "Delight",
-     "hasIntensity": 0.8,
-     "quote": "An unmistakable delight shone forth from the blue eyes that met his, and the radiance seemed to light up all his future with mild sunshine.",
-     "causedBy": {
-      "id": "engagement",
-      "name": "Engagement with Rosamond"
-     },
-     "hasObject": {
-      "id": "Rosamond",
-      "name": "Rosamond"
-     },
-     "exactPlace": "Drawing-room"
-    },
-    {
-     "name": "Happiness",
-     "hasIntensity": 0.9,
-     "quote": "Ideal happiness seemed to be an affair of a few weeks’ waiting, more or less.",
-     "causedBy": {
-      "id": "engagement",
-      "name": "Engagement with Rosamond"
-     },
-     "hasObject": {
-      "id": "Rosamond",
-      "name": "Rosamond"
-     },
-     "exactPlace": "Drawing-room"
-    },
-    {
-     "name": "Passion",
-     "hasIntensity": 0.9,
-     "quote": "He had never felt so passionately towards her as at this moment.",
-     "causedBy": {
-      "id": "engagement",
-      "name": "Engagement with Rosamond"
-     },
-     "hasObject": {
-      "id": "Rosamond",
-      "name": "Rosamond"
-     },
-     "exactPlace": "Drawing-room"
+      "name": "Lydgate"
+     }
     }
    ]
   },
   {
-   "id": "Rosamond",
+   "name": "Mr. Vincy",
    "feels": [
     {
-     "name": "Delight",
+     "name": "Annoyance",
      "hasIntensity": 0.8,
-     "quote": "An unmistakable delight shone forth from the blue eyes that met his, and the radiance seemed to light up all his future with mild sunshine.",
-     "causedBy": {
-      "id": "engagement",
-      "name": "Engagement with Lydgate"
+     "quote": "It is too late now for your father to say that our engagement must be given up.",
+     "causedByEvent": {
+      "name": "Rosamond's father's disapproval of engagement",
+      "takePlaceAt": {
+       "name": "Drawing-room"
+      }
      },
      "hasObject": {
-      "id": "Lydgate",
-      "name": "Lydgate"
-     },
-     "exactPlace": "Drawing-room"
+      "name": "Engagement"
+     }
     },
     {
-     "name": "Happiness",
-     "hasIntensity": 0.9,
-     "quote": "Ideal happiness seemed to be an affair of a few weeks’ waiting, more or less.",
-     "causedBy": {
-      "id": "engagement",
-      "name": "Engagement with Lydgate"
+     "name": "Disapproval",
+     "hasIntensity": 0.7,
+     "quote": "I never give up anything that I choose to do.",
+     "causedByEvent": {
+      "name": "Rosamond's determination to marry Lydgate",
+      "takePlaceAt": {
+       "name": "Drawing-room"
+      }
      },
      "hasObject": {
-      "id": "Lydgate",
-      "name": "Lydgate"
-     },
-     "exactPlace": "Drawing-room"
-    },
-    {
-     "name": "Love",
-     "hasIntensity": 0.9,
-     "quote": "An unmistakable delight shone forth from the blue eyes that met his, and the radiance seemed to light up all his future with mild sunshine.",
-     "causedBy": {
-      "id": "engagement",
-      "name": "Engagement with Lydgate"
-     },
-     "hasObject": {
-      "id": "Lydgate",
-      "name": "Lydgate"
-     },
-     "exactPlace": "Drawing-room"
-    },
-    {
-     "name": "Delight",
-     "hasIntensity": 0.8,
-     "quote": "An unmistakable delight shone forth from the blue eyes that met his, and the radiance seemed to light up all his future with mild sunshine.",
-     "causedBy": {
-      "id": "engagement",
-      "name": "Engagement with Lydgate"
-     },
-     "hasObject": {
-      "id": "Lydgate",
-      "name": "Lydgate"
-     },
-     "exactPlace": "Drawing-room"
-    }
-   ]
-  }
- ],
- "Places": [
-  {
-   "id": "Drawing-room",
-   "name": "Drawing-room",
-   "description": "The great old-fashioned window was opened to the summer scents of the garden at the back of the house."
-  }
- ],
- "Events": [
-  {
-   "id": "engagement",
-   "name": "Engagement",
-   "takePlaceAt": {
-    "id": "Drawing-room"
-   },
-   "hasParticipant": [
-    {
-     "id": "Lydgate"
-    },
-    {
-     "id": "Rosamond"
+      "name": "Marriage"
+     }
     }
    ]
   }

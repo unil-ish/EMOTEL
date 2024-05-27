@@ -1,73 +1,102 @@
 {
  "FictionalCharacters": [
   {
-   "id": "fc1",
    "name": "Monimia",
    "feels": [
     {
      "name": "Sadness",
      "hasIntensity": 0.9,
      "quote": "Excuse me, Mr. Fathom, this, I hope, is the last agony I shall feel from my unhappy passion.",
-     "causedBy": {
-      "id": "event1",
-      "name": "Learning about Renaldo's departure"
+     "causedByEvent": {
+      "name": "Learning about Renaldo's departure",
+      "takePlaceAt": {
+       "name": "Monimia's residence"
+      },
+      "hasParticipant": [
+       {
+        "name": "Monimia"
+       },
+       {
+        "name": "Fathom"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object1",
-      "name": "Renaldo's departure"
-     },
-     "place": {
-      "id": "place1",
-      "name": "Monimia's residence"
+      "name": "Unhappy passion"
      }
     },
     {
      "name": "Resignation",
      "hasIntensity": 0.8,
-     "quote": "Then wiping the tears from her lovely eyes, she retrieved her tranquillity.",
-     "causedBy": {
-      "id": "event2",
-      "name": "Learning about Renaldo's departure"
+     "quote": "She was the picture of pious resignation, and sat like PATIENCE on a monument, smiling at grief.",
+     "causedByEvent": {
+      "name": "Fathom's visit",
+      "takePlaceAt": {
+       "name": "Monimia's residence"
+      },
+      "hasParticipant": [
+       {
+        "name": "Monimia"
+       },
+       {
+        "name": "Fathom"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object1",
-      "name": "Renaldo's departure"
-     },
-     "place": {
-      "id": "place1",
-      "name": "Monimia's residence"
+      "name": "Grief"
      }
     }
    ]
-  }
- ],
- "Places": [
-  {
-   "id": "place1",
-   "name": "Monimia's residence",
-   "description": "A serene and composed environment where Monimia resides."
-  }
- ],
- "Events": [
-  {
-   "id": "event1",
-   "name": "Learning about Renaldo's departure",
-   "takePlaceAt": {
-    "id": "place1"
-   },
-   "hasParticipant": {
-    "id": "fc1"
-   }
   },
   {
-   "id": "event2",
-   "name": "Learning about Renaldo's departure",
-   "takePlaceAt": {
-    "id": "place1"
-   },
-   "hasParticipant": {
-    "id": "fc1"
-   }
+   "name": "Fathom",
+   "feels": [
+    {
+     "name": "Reluctance",
+     "hasIntensity": 0.7,
+     "quote": "Although I was happy in being able to discharge my obligations to the house of Melvil, I could not help feeling the most sensible chagrin.",
+     "causedByEvent": {
+      "name": "Assisting Renaldo",
+      "takePlaceAt": {
+       "name": "Monimia's residence"
+      },
+      "hasParticipant": [
+       {
+        "name": "Fathom"
+       },
+       {
+        "name": "Renaldo"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Discharge of obligations"
+     }
+    },
+    {
+     "name": "Chagrin",
+     "hasIntensity": 0.8,
+     "quote": "Believe me, madam, I was so shocked at his conversation on that subject, and so much incensed at his want of delicacy, that my temper was scarce sufficient for the ceremony of parting.",
+     "causedByEvent": {
+      "name": "Renaldo's behavior towards Monimia",
+      "takePlaceAt": {
+       "name": "Monimia's residence"
+      },
+      "hasParticipant": [
+       {
+        "name": "Fathom"
+       },
+       {
+        "name": "Renaldo"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Renaldo's behavior"
+     }
+    }
+   ]
   }
  ]
 }

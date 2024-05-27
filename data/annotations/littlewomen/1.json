@@ -1,183 +1,147 @@
 {
-  "FictionalCharacters": [
+ "FictionalCharacters": [
+  {
+   "name": "Jo",
+   "feels": [
     {
-      "name": "Mother",
-      "feels": [
-        {
-          "name": "Anxiety",
-          "hasIntensity": 0.8,
-          "quote": "As I sat cutting out blue flannel jackets to-day, at the rooms, I felt very anxious about father, and thought how lonely and helpless we should be, if anything happened to him.",
-          "causedBy": {
-            "id": "event1",
-            "name": "Feeling anxious about father"
-          },
-          "hasObject": {
-            "id": "object1",
-            "name": "Father"
-          },
-          "feltAt": {
-            "id": "place1",
-            "name": "Cutting out blue flannel jackets"
-          }
-        }
+     "name": "Amusement",
+     "hasIntensity": 0.8,
+     "quote": "I was reading that everlasting Belsham, and droning away as I always do, for aunt soon drops off, and then I take out some nice book, and read like fury till she wakes up. I actually made myself sleepy; and, before she began to nod, I gave such a gape that she asked me what I meant by opening my mouth wide enough to take the whole book in at once.",
+     "causedByEvent": {
+      "name": "Reading Belsham",
+      "takePlaceAt": {
+       "name": "Home"
+      },
+      "hasParticipant": [
+       {
+        "name": "Jo"
+       },
+       {
+        "name": "Aunt"
+       }
       ]
+     },
+     "hasObject": {
+      "name": "Book"
+     }
     },
     {
-      "name": "Jo",
-      "feels": [
-        {
-          "name": "Joy",
-          "hasIntensity": 0.7,
-          "quote": "I actually made myself sleepy; and, before she began to nod, I gave such a gape that she asked me what I meant by opening my mouth wide enough to take the whole book in at once.",
-          "causedBy": {
-            "id": "event2",
-            "name": "Reading a book"
-          },
-          "hasObject": {
-            "id": "object2",
-            "name": "Book"
-          },
-          "feltAt": {
-            "id": "place2",
-            "name": "Reading the book"
-          }
-        },
-        {
-          "name": "Amusement",
-          "hasIntensity": 0.6,
-          "quote": "I saw something that I liked this morning, and I meant to tell it at dinner, but I forgot.",
-          "causedBy": {
-            "id": "event3",
-            "name": "Seeing something liked"
-          },
-          "hasObject": {
-            "id": "object3",
-            "name": "Something liked"
-          },
-          "feltAt": {
-            "id": "place3",
-            "name": "Telling the story at dinner"
-          }
-        }
+     "name": "Contentment",
+     "hasIntensity": 0.9,
+     "quote": "I believe they were never disappointed, or sorry that they took the old woman's advice.",
+     "causedByEvent": {
+      "name": "Following old woman's advice",
+      "takePlaceAt": {
+       "name": "Home"
+      },
+      "hasParticipant": [
+       {
+        "name": "Four girls"
+       }
       ]
+     },
+     "hasObject": {
+      "name": "Old woman's advice"
+     }
     },
     {
-      "name": "Meg",
-      "feels": [
-        {
-          "name": "Sympathy",
-          "hasIntensity": 0.7,
-          "quote": "I felt so sorry for them, and was rather glad I hadn't any wild brothers to do wicked things and disgrace the family.",
-          "causedBy": {
-            "id": "event4",
-            "name": "Feeling sorry for others"
-          },
-          "hasObject": {
-            "id": "object4",
-            "name": "Others"
-          },
-          "feltAt": {
-            "id": "place4",
-            "name": "Feeling sorry"
-          }
-        }
+     "name": "Mischievousness",
+     "hasIntensity": 0.7,
+     "quote": "Going out for exercise",
+     "causedByEvent": {
+      "name": "Going out for exercise",
+      "takePlaceAt": {
+       "name": "Home"
+      },
+      "hasParticipant": [
+       {
+        "name": "Jo"
+       }
       ]
-    },
-    {
-      "name": "Beth",
-      "feels": [
-        {
-          "name": "Gratitude",
-          "hasIntensity": 0.8,
-          "quote": "Wasn't it good of him? Oh, she did look so funny, hugging the big, slippery fish, and hoping Mr. Laurence's bed in heaven would be 'aisy.'",
-          "causedBy": {
-            "id": "event5",
-            "name": "Receiving a fish"
-          },
-          "hasObject": {
-            "id": "object5",
-            "name": "Fish"
-          },
-          "feltAt": {
-            "id": "place5",
-            "name": "Fish-shop"
-          }
-        }
-      ]
-    },
-    {
-      "name": "Amy",
-      "feels": [
-        {
-          "name": "Moral satisfaction",
-          "hasIntensity": 0.7,
-          "quote": "My only comfort is, that mother don't take tucks in my dresses whenever I'm naughty, as Maria Parks' mother does.",
-          "causedBy": {
-            "id": "event6",
-            "name": "Comparing situations"
-          },
-          "hasObject": {
-            "id": "object6",
-            "name": "Comparison"
-          },
-          "feltAt": {
-            "id": "place6",
-            "name": "Sewing together"
-          }
-        }
-      ]
+     },
+     "hasObject": {
+      "name": "Exercise"
+     }
     }
-  ],
-  "Places": [
+   ]
+  },
+  {
+   "name": "Meg",
+   "feels": [
     {
-      "id": "place1",
-      "name": "Cutting out blue flannel jackets"
-    },
-    {
-      "id": "place2",
-      "name": "Reading the book"
-    },
-    {
-      "id": "place3",
-      "name": "Telling the story at dinner"
-    },
-    {
-      "id": "place4",
-      "name": "Feeling sorry"
-    },
-    {
-      "id": "place5",
-      "name": "Fish-shop"
-    },
-    {
-      "id": "place6",
-      "name": "Sewing together"
+     "name": "Reflection",
+     "hasIntensity": 0.8,
+     "quote": "I've got something to tell. It isn't funny, like Jo's story, but I thought about it a good deal as I came home.",
+     "causedByEvent": {
+      "name": "Thinking about a story",
+      "takePlaceAt": {
+       "name": "Home"
+      },
+      "hasParticipant": [
+       {
+        "name": "Meg"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Story"
+     }
     }
-  ],
-  "Events": [
+   ]
+  },
+  {
+   "name": "Beth",
+   "feels": [
     {
-      "id": "event1",
-      "name": "Feeling anxious about father"
-    },
-    {
-      "id": "event2",
-      "name": "Reading a book"
-    },
-    {
-      "id": "event3",
-      "name": "Seeing something liked"
-    },
-    {
-      "id": "event4",
-      "name": "Feeling sorry for others"
-    },
-    {
-      "id": "event5",
-      "name": "Receiving a fish"
-    },
-    {
-      "id": "event6",
-      "name": "Comparing situations"
+     "name": "Compassion",
+     "hasIntensity": 0.9,
+     "quote": "When I went to get some oysters for Hannah, Mr. Laurence was in the fish-shop; but he didn't see me, for I kept behind a barrel, and he was busy with Mr. Cutter, the fish-man.",
+     "causedByEvent": {
+      "name": "Seeing Mr. Laurence's act of kindness",
+      "takePlaceAt": {
+       "name": "Fish-shop"
+      },
+      "hasParticipant": [
+       {
+        "name": "Beth"
+       },
+       {
+        "name": "Mr. Laurence"
+       },
+       {
+        "name": "Mr. Cutter"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Mr. Laurence's act of kindness"
+     }
     }
-  ]
+   ]
+  },
+  {
+   "name": "Amy",
+   "feels": [
+    {
+     "name": "Moral Upliftment",
+     "hasIntensity": 0.8,
+     "quote": "I never, never should have got over such a agonizing mortification.",
+     "causedByEvent": {
+      "name": "Feeling mortified",
+      "takePlaceAt": {
+       "name": "School"
+      },
+      "hasParticipant": [
+       {
+        "name": "Amy"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Mortification"
+     }
+    }
+   ]
+  }
+ ]
 }

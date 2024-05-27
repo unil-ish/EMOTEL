@@ -1,103 +1,117 @@
 {
  "FictionalCharacters": [
   {
-   "id": "fc1",
    "name": "Rosamond Vincy",
    "feels": [
     {
      "name": "Love",
      "hasIntensity": 1,
      "quote": "That moment of naturalness was the crystallizing feather-touch: it shook flirtation into love.",
-     "causedBy": {
-      "id": "event1",
-      "name": "Lydgate's comforting words and actions"
+     "causedByEvent": {
+      "name": "Lydgate's sudden belief that Rosamond depended on him for her joy",
+      "takePlaceAt": {
+       "name": "Rosamond's home"
+      }
      },
      "hasObject": {
-      "id": "object1",
       "name": "Lydgate"
-     },
-     "exactPlace": "Sitting room"
+     }
     },
     {
      "name": "Happiness",
      "hasIntensity": 0.8,
-     "quote": "Rosamond, who at the first moment felt as if her happiness were returning...",
-     "causedBy": {
-      "id": "event2",
-      "name": "Lydgate's visit"
+     "quote": "Rosamond became very unhappy. The uneasiness first stirred by her aunt’s questions grew and grew till at the end of ten days that she had not seen Lydgate, it grew into terror at the blank that might possibly come—into foreboding of that ready, fatal sponge which so cheaply wipes out the hopes of mortals.",
+     "causedByEvent": {
+      "name": "Not seeing Lydgate for ten days",
+      "takePlaceAt": {
+       "name": "Rosamond's home"
+      }
      },
      "hasObject": {
-      "id": "object2",
       "name": "Lydgate"
+     }
+    },
+    {
+     "name": "Mortification",
+     "hasIntensity": 0.7,
+     "quote": "Rosamond, who at the first moment felt as if her happiness were returning, was keenly hurt by Lydgate’s manner.",
+     "causedByEvent": {
+      "name": "Lydgate's cold manner",
+      "takePlaceAt": {
+       "name": "Rosamond's home"
+      }
      },
-     "exactPlace": "Sitting room"
+     "hasObject": {
+      "name": "Lydgate"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Mr. Lydgate",
+   "feels": [
+    {
+     "name": "Tenderness",
+     "hasIntensity": 0.9,
+     "quote": "He poured out words of gratitude and tenderness with impulsive lavishment.",
+     "causedByEvent": {
+      "name": "Rosamond's tears and vulnerability",
+      "takePlaceAt": {
+       "name": "Rosamond's home"
+      }
+     },
+     "hasObject": {
+      "name": "Rosamond"
+     }
     },
     {
      "name": "Embarrassment",
-     "hasIntensity": 0.7,
-     "quote": "Miss Vincy was alone, and blushed so deeply when Lydgate came in that he felt a corresponding embarrassment...",
-     "causedBy": {
-      "id": "event3",
-      "name": "Lydgate's unexpected visit"
+     "hasIntensity": 0.6,
+     "quote": "Miss Vincy was alone, and blushed so deeply when Lydgate came in that he felt a corresponding embarrassment.",
+     "causedByEvent": {
+      "name": "Rosamond's blushing",
+      "takePlaceAt": {
+       "name": "Rosamond's home"
+      }
      },
      "hasObject": {
-      "id": "object3",
-      "name": "Lydgate"
-     },
-     "exactPlace": "Sitting room"
+      "name": "Rosamond"
+     }
     },
     {
-     "name": "Terror",
-     "hasIntensity": 0.9,
-     "quote": "Rosamond became very unhappy. The uneasiness first stirred by her aunt’s questions grew and grew till at the end of ten days...",
-     "causedBy": {
-      "id": "event4",
-      "name": "Fear of Lydgate's indifference"
+     "name": "Anxiety",
+     "hasIntensity": 0.8,
+     "quote": "He was very near to a lovely little face set on a fair long neck which he had been used to see turning about under the most perfect management of self-contented grace. But as he raised his eyes now he saw a certain helpless quivering which touched him quite newly.",
+     "causedByEvent": {
+      "name": "Rosamond's vulnerability",
+      "takePlaceAt": {
+       "name": "Rosamond's home"
+      }
      },
      "hasObject": {
-      "id": "object4",
-      "name": "Lydgate"
-     },
-     "exactPlace": "Sitting room"
+      "name": "Rosamond"
+     }
     }
    ]
-  }
- ],
- "Places": [
-  {
-   "id": "place1",
-   "name": "Stone Court",
-   "description": "The residence of Mr. Featherstone"
-  }
- ],
- "Events": [
-  {
-   "id": "event1",
-   "name": "Lydgate's comforting words and actions",
-   "takePlaceAt": {
-    "id": "place1"
-   }
   },
   {
-   "id": "event2",
-   "name": "Lydgate's visit",
-   "takePlaceAt": {
-    "id": "place1"
-   }
-  },
-  {
-   "id": "event3",
-   "name": "Lydgate's unexpected visit",
-   "takePlaceAt": {
-    "id": "place1"
-   }
-  },
-  {
-   "id": "event4",
-   "name": "Fear of Lydgate's indifference",
-   "takePlaceAt": {
-    "id": "place1"
-   }
+   "name": "Mrs. Vincy",
+   "feels": [
+    {
+     "name": "Cheerfulness",
+     "hasIntensity": 0.9,
+     "quote": "Oh, my dear, you must do things handsomely where there’s last illness and a property. God knows, I don’t grudge them every ham in the house—only, save the best for the funeral.",
+     "causedByEvent": {
+      "name": "Consulting on extra consumption during Mr. Featherstone's illness",
+      "takePlaceAt": {
+       "name": "Vincy's home"
+      }
+     },
+     "hasObject": {
+      "name": "Mr. Featherstone's illness"
+     }
+    }
+   ]
   }
  ]
 }

@@ -1,206 +1,117 @@
 {
  "FictionalCharacters": [
   {
-   "id": "texts/middlemarch.txt#Lydgate",
-   "name": "Lydgate",
+   "name": "Mr_Bulstrode",
    "feels": [
-    {
-     "name": "Disgust",
-     "hasIntensity": 0.7,
-     "quote": "On the contrary, he felt unmixed disgust with himself the next day when he had to pay four or five pounds over and above his gains.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Losing_in_the_billiardroom",
-      "name": "Losing_in_the_billiardroom"
-     },
-     "hasObject": {
-      "id": "texts/middlemarch.txt#Himself",
-      "name": "Himself"
-     },
-     "place": {
-      "id": "texts/middlemarch.txt#Billiardroom",
-      "name": "Billiardroom"
-     },
-     "id": "Disgust"
-    },
-    {
-     "name": "Fear",
-     "hasIntensity": 0.6,
-     "quote": "He had begun to see that he should inevitably bend himself to ask help from somebody or other.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Financial_difficulties",
-      "name": "Financial_difficulties"
-     },
-     "hasObject": {
-      "id": "texts/middlemarch.txt#Asking_for_help",
-      "name": "Asking_for_help"
-     },
-     "place": {
-      "id": "texts/middlemarch.txt#Home",
-      "name": "Home"
-     },
-     "id": "Fear"
-    },
-    {
-     "name": "Anxiety",
-     "hasIntensity": 0.8,
-     "quote": "He longed for some confirmation of this hopeful conjecture.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Hope_for_secrecy",
-      "name": "Hope_for_secrecy"
-     },
-     "hasObject": {
-      "id": "texts/middlemarch.txt#Secrecy",
-      "name": "Secrecy"
-     },
-     "place": {
-      "id": "texts/middlemarch.txt#Home",
-      "name": "Home"
-     },
-     "id": "Anxiety"
-    }
-   ]
-  },
-  {
-   "id": "texts/middlemarch.txt#Bulstrode",
-   "name": "Bulstrode",
-   "feels": [
-    {
-     "name": "Fear",
-     "hasIntensity": 0.9,
-     "quote": "His mind was crowded with images and conjectures, which were a language to his hopes and fears.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Caleb_Garth_s_knowledge_and_rejection",
-      "name": "Caleb_Garth_s_knowledge_and_rejection"
-     },
-     "hasObject": {
-      "id": "texts/middlemarch.txt#Fear_of_disgrace",
-      "name": "Fear_of_disgrace"
-     },
-     "place": {
-      "id": "texts/middlemarch.txt#Manager_s_room_at_the_Bank",
-      "name": "Manager_s_room_at_the_Bank"
-     },
-     "id": "Fear"
-    },
-    {
-     "name": "Relief",
-     "hasIntensity": 0.7,
-     "quote": "It seemed to him a sort of earnest that Providence intended his rescue from worse consequences.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Caleb_Garth_being_the_only_one_Raffles_spoke_to",
-      "name": "Caleb_Garth_being_the_only_one_Raffles_spoke_to"
-     },
-     "hasObject": {
-      "id": "texts/middlemarch.txt#Rescue_from_disgrace",
-      "name": "Rescue_from_disgrace"
-     },
-     "place": {
-      "id": "texts/middlemarch.txt#Manager_s_room_at_the_Bank",
-      "name": "Manager_s_room_at_the_Bank"
-     },
-     "id": "Relief"
-    },
     {
      "name": "Humiliation",
      "hasIntensity": 0.8,
-     "quote": "The deep humiliation with which he had winced under Caleb Garth’s knowledge of his past and rejection of his patronage.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Caleb_Garth_s_knowledge_and_rejection",
-      "name": "Caleb_Garth_s_knowledge_and_rejection"
-     },
+     "quote": "His heart sank again at this sign that he could get no grasp over the wretched man’s mind, and that no word of Raffles could be trusted as to the fact which he most wanted to know.",
      "hasObject": {
-      "id": "texts/middlemarch.txt#Humiliation",
-      "name": "Humiliation"
+      "name": "Raffles"
      },
-     "place": {
-      "id": "texts/middlemarch.txt#Manager_s_room_at_the_Bank",
-      "name": "Manager_s_room_at_the_Bank"
+     "causedBy": {
+      "name": "Inability_to_control_the_situation",
+      "takePlaceAt": {
+       "name": "Stone_Court"
+      }
+     }
+    },
+    {
+     "name": "Fear",
+     "hasIntensity": 0.7,
+     "quote": "He had almost immediately mounted his horse and set off for Stone Court, being anxious to arrive there before Lydgate.",
+     "hasObject": {
+      "name": "Raffles"
      },
-     "id": "Humiliation"
+     "causedBy": {
+      "name": "Anxiety_about_the_situation_with_Raffles",
+      "takePlaceAt": {
+       "name": "Bank"
+      }
+     }
+    },
+    {
+     "name": "Relief",
+     "hasIntensity": 0.6,
+     "quote": "It seemed to him a sort of earnest that Providence intended his rescue from worse consequences; the way being thus left open for the hope of secrecy.",
+     "hasObject": {
+      "name": "Providence"
+     },
+     "causedBy": {
+      "name": "Hope_for_secrecy",
+      "takePlaceAt": {
+       "name": "Stone_Court"
+      }
+     }
     }
    ]
-  }
- ],
- "Places": [
-  {
-   "id": "texts/middlemarch.txt#Billiardroom",
-   "name": "Billiardroom",
-   "description": "Location where Lydgate felt disgust with himself."
   },
   {
-   "id": "texts/middlemarch.txt#Home",
-   "name": "Home",
-   "description": "Location where Lydgate felt fear and anxiety."
+   "name": "Caleb_Garth",
+   "feels": [
+    {
+     "name": "Pity",
+     "hasIntensity": 0.9,
+     "quote": "Caleb felt a deep pity for him, but he could have used no pretexts to account for his resolve, even if they would have been of any use.",
+     "hasObject": {
+      "name": "Bulstrode"
+     },
+     "causedBy": {
+      "name": "Bulstrode_s_humiliation",
+      "takePlaceAt": {
+       "name": "Stone_Court"
+      }
+     }
+    },
+    {
+     "name": "Resignation",
+     "hasIntensity": 0.8,
+     "quote": "I must beg you to seek another agent.",
+     "hasObject": {
+      "name": "Connection_with_Bulstrode"
+     },
+     "causedBy": {
+      "name": "Decision_to_give_up_the_connection_with_Bulstrode",
+      "takePlaceAt": {
+       "name": "Bank"
+      }
+     }
+    }
+   ]
   },
   {
-   "id": "texts/middlemarch.txt#Home",
-   "name": "Home",
-   "description": "Location where Lydgate felt anxiety."
-  },
-  {
-   "id": "texts/middlemarch.txt#Manager_s_room_at_the_Bank",
-   "name": "Manager_s_room_at_the_Bank",
-   "description": "Location where Bulstrode felt fear and humiliation."
-  },
-  {
-   "id": "texts/middlemarch.txt#Manager_s_room_at_the_Bank",
-   "name": "Manager_s_room_at_the_Bank",
-   "description": "Location where Bulstrode felt relief."
-  },
-  {
-   "id": "texts/middlemarch.txt#Manager_s_room_at_the_Bank",
-   "name": "Manager_s_room_at_the_Bank",
-   "description": "Location where Bulstrode felt humiliation."
-  }
- ],
- "Events": [
-  {
-   "id": "texts/middlemarch.txt#Losing_in_the_billiardroom",
-   "name": "Losing_in_the_billiardroom",
-   "takePlaceAt": {
-    "id": "texts/middlemarch.txt#place1",
-    "name": "place1"
-   }
-  },
-  {
-   "id": "texts/middlemarch.txt#Financial_difficulties",
-   "name": "Financial_difficulties",
-   "takePlaceAt": {
-    "id": "texts/middlemarch.txt#place2",
-    "name": "place2"
-   }
-  },
-  {
-   "id": "texts/middlemarch.txt#Hope_for_secrecy",
-   "name": "Hope_for_secrecy",
-   "takePlaceAt": {
-    "id": "texts/middlemarch.txt#place3",
-    "name": "place3"
-   }
-  },
-  {
-   "id": "texts/middlemarch.txt#Caleb_Garth_s_knowledge_and_rejection",
-   "name": "Caleb_Garth_s_knowledge_and_rejection",
-   "takePlaceAt": {
-    "id": "texts/middlemarch.txt#place4",
-    "name": "place4"
-   }
-  },
-  {
-   "id": "texts/middlemarch.txt#Caleb_Garth_being_the_only_one_Raffles_spoke_to",
-   "name": "Caleb_Garth_being_the_only_one_Raffles_spoke_to",
-   "takePlaceAt": {
-    "id": "texts/middlemarch.txt#place5",
-    "name": "place5"
-   }
-  },
-  {
-   "id": "texts/middlemarch.txt#Caleb_Garth_s_knowledge_and_rejection",
-   "name": "Caleb_Garth_s_knowledge_and_rejection",
-   "takePlaceAt": {
-    "id": "texts/middlemarch.txt#place6",
-    "name": "place6"
-   }
+   "name": "Lydgate",
+   "feels": [
+    {
+     "name": "Bitterness",
+     "hasIntensity": 0.7,
+     "quote": "This streak of bitterness came from a plenteous source, and kept widening in the current of his thought as he neared Lowick Gate.",
+     "hasObject": {
+      "name": "Situation"
+     },
+     "causedBy": {
+      "name": "Reflection_on_his_situation",
+      "takePlaceAt": {
+       "name": "Lowick_Gate"
+      }
+     }
+    },
+    {
+     "name": "Sadness",
+     "hasIntensity": 0.8,
+     "quote": "He got down from his horse in a very sad mood, and went into the house, not expecting to be cheered except by his dinner.",
+     "hasObject": {
+      "name": "Delivering_bad_news_to_Rosamond"
+     },
+     "causedBy": {
+      "name": "Anticipation_of_delivering_bad_news_to_Rosamond",
+      "takePlaceAt": {
+       "name": "Home"
+      }
+     }
+    }
+   ]
   }
  ]
 }

@@ -1,186 +1,148 @@
 {
  "FictionalCharacters": [
   {
-   "id": "fc1",
    "name": "Dorothea",
-   "feels": [
-    {
-     "name": "Interest",
-     "hasIntensity": 0.9,
-     "quote": "Dorothea was quite grateful to Lydgate for telling her about the New Hospital and expressed her willingness to help.",
-     "causedBy": {
-      "id": "conversation1",
-      "name": "Discussion about the New Hospital"
-     },
-     "hasObject": {
-      "id": "object1",
-      "name": "New Hospital"
-     },
-     "exactPlace": "Walking round the laurel-planted plots of the New Hospital"
-    },
-    {
-     "name": "Melancholy",
-     "hasIntensity": 0.7,
-     "quote": "Dorothea felt a melancholy cadence in her voice as she spoke about the trouble taken in the world.",
-     "causedBy": {
-      "id": "conversation2",
-      "name": "Discussion about the trouble taken in the world"
-     },
-     "exactPlace": "At home discussing the trouble taken in the world"
-    }
-   ]
-  },
-  {
-   "id": "fc2",
-   "name": "Mr. Mawmsey",
-   "feels": [
-    {
-     "name": "Perturbed",
-     "hasIntensity": 0.8,
-     "quote": "Mr. Mawmsey's views were perturbed after his conversation with Lydgate about the New Hospital.",
-     "causedBy": {
-      "id": "conversation3",
-      "name": "Conversation with Lydgate about the New Hospital"
-     },
-     "exactPlace": "Having an interview with Lydgate"
-    }
-   ]
-  },
-  {
-   "id": "fc3",
-   "name": "Mrs. Mawmsey",
    "feels": [
     {
      "name": "Indignation",
      "hasIntensity": 0.8,
-     "quote": "Mrs. Mawmsey expressed indignation at the opposition to the New Hospital.",
-     "causedBy": {
-      "id": "conversation4",
-      "name": "Discussion about the opposition to the New Hospital"
+     "quote": "How very petty!",
+     "causedByEvent": {
+      "name": "Opposition to the New Hospital",
+      "takePlaceAt": {
+       "name": "Middlemarch"
+      }
      },
-     "exactPlace": "In the drawing-room over the shop"
+     "hasObject": {
+      "name": "Opposition to the New Hospital"
+     }
     },
     {
-     "name": "Satisfaction",
+     "name": "Interest",
      "hasIntensity": 0.7,
-     "quote": "Mrs. Mawmsey had done this with satisfaction, including it among his responsibilities as a husband and father.",
-     "causedBy": {
-      "id": "conversation5",
-      "name": "Discussion about paying bills"
+     "quote": "I feel sure I can help a little. I have some money, and don’t know what to do with it—that is often an uncomfortable thought to me.",
+     "causedByEvent": {
+      "name": "Discussion about the New Hospital",
+      "takePlaceAt": {
+       "name": "Home"
+      }
      },
-     "exactPlace": "In the drawing-room over the shop"
+     "hasObject": {
+      "name": "Discussion about the New Hospital"
+     }
+    },
+    {
+     "name": "Melancholy",
+     "hasIntensity": 0.6,
+     "quote": "There seems to be so much trouble taken that one can hardly see the good of!",
+     "causedByEvent": {
+      "name": "Discussion about the New Hospital",
+      "takePlaceAt": {
+       "name": "Home"
+      }
+     },
+     "hasObject": {
+      "name": "Discussion about the New Hospital"
+     }
     }
    ]
   },
   {
-   "id": "fc4",
+   "name": "Mr. Mawmsey",
+   "feels": [
+    {
+     "name": "Perturbation",
+     "hasIntensity": 0.7,
+     "quote": "For years he had been paying bills with strictly made items, so that for every half-crown and eighteen-pence he was certain something measurable had been delivered.",
+     "causedByEvent": {
+      "name": "Discussion about Lydgate's new approach to medicine",
+      "takePlaceAt": {
+       "name": "The Tankard in Slaughter Lane"
+      }
+     },
+     "hasObject": {
+      "name": "Discussion about Lydgate's new approach to medicine"
+     }
+    },
+    {
+     "name": "Satisfaction",
+     "hasIntensity": 0.8,
+     "quote": "He had done this with satisfaction, including it among his responsibilities as a husband and father.",
+     "causedByEvent": {
+      "name": "Paying bills with strictly made items",
+      "takePlaceAt": {
+       "name": "Home"
+      }
+     },
+     "hasObject": {
+      "name": "Paying bills with strictly made items"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Mrs. Mawmsey",
+   "feels": [
+    {
+     "name": "Satisfaction",
+     "hasIntensity": 0.7,
+     "quote": "But what keeps me up best is the pink mixture, not the brown.",
+     "causedByEvent": {
+      "name": "Discussion about Lydgate's new approach to medicine",
+      "takePlaceAt": {
+       "name": "The Tankard in Slaughter Lane"
+      }
+     },
+     "hasObject": {
+      "name": "Discussion about Lydgate's new approach to medicine"
+     }
+    },
+    {
+     "name": "Disapproval",
+     "hasIntensity": 0.6,
+     "quote": "Not one that I would employ.",
+     "causedByEvent": {
+      "name": "Discussion about Lydgate's new approach to medicine",
+      "takePlaceAt": {
+       "name": "The Tankard in Slaughter Lane"
+      }
+     },
+     "hasObject": {
+      "name": "Discussion about Lydgate's new approach to medicine"
+     }
+    }
+   ]
+  },
+  {
    "name": "Mr. Gambit",
    "feels": [
     {
      "name": "Surprise",
-     "hasIntensity": 0.6,
-     "quote": "Mr. Gambit lifted his eyebrows with cautious surprise upon hearing Lydgate's views on medicine.",
-     "causedBy": {
-      "id": "conversation6",
-      "name": "Discussion about Lydgate's views on medicine"
+     "hasIntensity": 0.7,
+     "quote": "Indeed!",
+     "causedByEvent": {
+      "name": "Learning about Lydgate's views on medicine",
+      "takePlaceAt": {
+       "name": "The conversation with Mrs. Mawmsey"
+      }
      },
-     "exactPlace": "Upon hearing about Lydgate's views on medicine"
-    }
-   ]
-  }
- ],
- "Places": [
-  {
-   "id": "place1",
-   "name": "Walking round the laurel-planted plots of the New Hospital",
-   "description": "Area where Dorothea and Lydgate discussed the New Hospital"
-  },
-  {
-   "id": "place2",
-   "name": "At home discussing the trouble taken in the world",
-   "description": "Dorothea and Mr. Casaubon discussing the trouble taken in the world"
-  },
-  {
-   "id": "place3",
-   "name": "Having an interview with Lydgate",
-   "description": "Mr. Mawmsey having an interview with Lydgate"
-  },
-  {
-   "id": "place4",
-   "name": "In the drawing-room over the shop",
-   "description": "Mrs. Mawmsey discussing various topics in the drawing-room over the shop"
-  }
- ],
- "Events": [
-  {
-   "id": "conversation1",
-   "name": "Discussion about the New Hospital",
-   "takePlaceAt": {
-    "id": "place1"
-   },
-   "hasParticipant": [
+     "hasObject": {
+      "name": "Learning about Lydgate's views on medicine"
+     }
+    },
     {
-     "id": "fc1"
-    }
-   ]
-  },
-  {
-   "id": "conversation2",
-   "name": "Discussion about the trouble taken in the world",
-   "takePlaceAt": {
-    "id": "place2"
-   },
-   "hasParticipant": [
-    {
-     "id": "fc1"
-    }
-   ]
-  },
-  {
-   "id": "conversation3",
-   "name": "Conversation with Lydgate about the New Hospital",
-   "takePlaceAt": {
-    "id": "place3"
-   },
-   "hasParticipant": [
-    {
-     "id": "fc2"
-    }
-   ]
-  },
-  {
-   "id": "conversation4",
-   "name": "Discussion about the opposition to the New Hospital",
-   "takePlaceAt": {
-    "id": "place4"
-   },
-   "hasParticipant": [
-    {
-     "id": "fc3"
-    }
-   ]
-  },
-  {
-   "id": "conversation5",
-   "name": "Discussion about paying bills",
-   "takePlaceAt": {
-    "id": "place4"
-   },
-   "hasParticipant": [
-    {
-     "id": "fc3"
-    }
-   ]
-  },
-  {
-   "id": "conversation6",
-   "name": "Discussion about Lydgate's views on medicine",
-   "takePlaceAt": {
-    "id": "place4"
-   },
-   "hasParticipant": [
-    {
-     "id": "fc4"
+     "name": "Humor",
+     "hasIntensity": 0.8,
+     "quote": "Well, Lydgate is a good-looking young fellow, you know.",
+     "causedByEvent": {
+      "name": "Conversation with Mrs. Mawmsey",
+      "takePlaceAt": {
+       "name": "The conversation with Mrs. Mawmsey"
+      }
+     },
+     "hasObject": {
+      "name": "Conversation with Mrs. Mawmsey"
+     }
     }
    ]
   }

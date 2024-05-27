@@ -1,169 +1,145 @@
 {
  "FictionalCharacters": [
   {
-   "id": "texts/thebluecastle.txt#Valancy_Stirling",
    "name": "Valancy_Stirling",
    "feels": [
     {
      "name": "Anger",
      "hasIntensity": 0.7,
-     "quote": "Valancy smarted anew with the sting of that old recollection.",
-     "causedBy": {
-      "id": "texts/thebluecastle.txt#Being_called_an_old_maid_",
-      "name": "Being_called_an_old_maid_"
-     },
+     "quote": "The tears came into her eyes as she lay there alone in the faintly greying darkness.",
      "hasObject": {
-      "id": "texts/thebluecastle.txt#Being_called_an_old_maid_",
-      "name": "Being_called_an_old_maid_"
+      "name": "Feeling_unsought_by_any_man"
      },
-     "place": {
-      "id": "texts/thebluecastle.txt#Uncle_Benjamin_s_grocerystore",
-      "name": "Uncle_Benjamin_s_grocerystore"
+     "causedBy": {
+      "name": "Feeling_unsought_by_any_man",
+      "takePlaceAt": {
+       "name": "Valancy_s_bedroom"
+      },
+      "hasParticipant": {
+       "name": "Valancy_Stirling"
+      }
+     }
+    },
+    {
+     "name": "Sadness",
+     "hasIntensity": 0.8,
+     "quote": "The tears came into her eyes as she lay there alone in the faintly greying darkness.",
+     "hasObject": {
+      "name": "Feeling_unsought_by_any_man"
      },
-     "id": "Anger"
+     "causedBy": {
+      "name": "Feeling_unsought_by_any_man",
+      "takePlaceAt": {
+       "name": "Valancy_s_bedroom"
+      },
+      "hasParticipant": {
+       "name": "Valancy_Stirling"
+      }
+     }
+    },
+    {
+     "name": "Disgust",
+     "hasIntensity": 0.6,
+     "quote": "She knew the ugliness of that room by heart—knew it and hated it.",
+     "hasObject": {
+      "name": "Ugly_room"
+     },
+     "causedBy": {
+      "name": "Feeling_unsought_by_any_man",
+      "takePlaceAt": {
+       "name": "Valancy_s_bedroom"
+      },
+      "hasParticipant": {
+       "name": "Valancy_Stirling"
+      }
+     }
     },
     {
      "name": "Fear",
-     "hasIntensity": 0.8,
-     "quote": "Valancy was afraid of Dr. Stalling—had been afraid of him ever since the Sunday, twenty-three years before, when he had first come to St. Albans’.",
-     "causedBy": {
-      "id": "texts/thebluecastle.txt#Being_called_up_by_Dr_Stalling_in_church",
-      "name": "Being_called_up_by_Dr_Stalling_in_church"
-     },
+     "hasIntensity": 0.9,
+     "quote": "The room was bitterly cold with the raw, penetrating chill of a wet May morning.",
      "hasObject": {
-      "id": "texts/thebluecastle.txt#Being_called_up_by_Dr_Stalling_in_church",
-      "name": "Being_called_up_by_Dr_Stalling_in_church"
+      "name": "Cold_room"
      },
-     "place": {
-      "id": "texts/thebluecastle.txt#Church",
-      "name": "Church"
-     },
-     "id": "Fear"
+     "causedBy": {
+      "name": "Feeling_unsought_by_any_man",
+      "takePlaceAt": {
+       "name": "Valancy_s_bedroom"
+      },
+      "hasParticipant": {
+       "name": "Valancy_Stirling"
+      }
+     }
     },
     {
      "name": "Rebellion",
-     "hasIntensity": 0.9,
+     "hasIntensity": 0.7,
      "quote": "Valancy was once more seething with rebellion as she walked along.",
-     "causedBy": {
-      "id": "texts/thebluecastle.txt#Feeling_envious_of_Jennie_Lloyd_s_new_house",
-      "name": "Feeling_envious_of_Jennie_Lloyd_s_new_house"
-     },
      "hasObject": {
-      "id": "texts/thebluecastle.txt#Jennie_Lloyd_s_new_house",
-      "name": "Jennie_Lloyd_s_new_house"
+      "name": "Rebellion"
      },
-     "place": {
-      "id": "texts/thebluecastle.txt#Walking_along_the_street",
-      "name": "Walking_along_the_street"
-     },
-     "id": "Rebellion"
+     "causedBy": {
+      "name": "Feeling_unsought_by_any_man",
+      "takePlaceAt": {
+       "name": "Walking_along_the_street"
+      },
+      "hasParticipant": {
+       "name": "Valancy_Stirling"
+      }
+     }
     },
     {
-     "name": "Desire",
+     "name": "Regret",
      "hasIntensity": 0.8,
-     "quote": "Valancy stopped suddenly aghast at her own recklessness. She felt sure that Rev. Dr. Stalling, who passed her at this moment, read her thoughts and disapproved of them thoroughly.",
-     "causedBy": {
-      "id": "texts/thebluecastle.txt#Thinking_about_wanting_a_husband_a_house_and_child",
-      "name": "Thinking_about_wanting_a_husband_a_house_and_children"
-     },
+     "quote": "Valancy was sorry by the time she reached the next crossing.",
      "hasObject": {
-      "id": "texts/thebluecastle.txt#Wanting_a_husband_a_house_and_children",
-      "name": "Wanting_a_husband_a_house_and_children"
+      "name": "Feeling_sorry"
      },
-     "place": {
-      "id": "texts/thebluecastle.txt#Street_corner",
-      "name": "Street_corner"
+     "causedBy": {
+      "name": "Feeling_unsought_by_any_man",
+      "takePlaceAt": {
+       "name": "Next_crossing"
+      },
+      "hasParticipant": {
+       "name": "Valancy_Stirling"
+      }
+     }
+    },
+    {
+     "name": "Shame",
+     "hasIntensity": 0.7,
+     "quote": "Valancy smarted anew with the sting of that old recollection.",
+     "hasObject": {
+      "name": "Old_recollection"
      },
-     "id": "Desire"
+     "causedBy": {
+      "name": "Feeling_unsought_by_any_man",
+      "takePlaceAt": {
+       "name": "Walking_along_the_street"
+      },
+      "hasParticipant": {
+       "name": "Valancy_Stirling"
+      }
+     }
     },
     {
      "name": "Realization",
      "hasIntensity": 0.9,
      "quote": "Valancy shut _Magic of Wings_ and stood up. She would go and see Dr. Trent.",
-     "causedBy": {
-      "id": "texts/thebluecastle.txt#Reading_John_Foster_s_paragraph_about_fear",
-      "name": "Reading_John_Foster_s_paragraph_about_fear"
-     },
      "hasObject": {
-      "id": "texts/thebluecastle.txt#Reading_John_Foster_s_paragraph_about_fear",
-      "name": "Reading_John_Foster_s_paragraph_about_fear"
+      "name": "Going_to_see_Dr_Trent"
      },
-     "place": {
-      "id": "texts/thebluecastle.txt#Readingroom",
-      "name": "Readingroom"
-     },
-     "id": "Realization"
+     "causedBy": {
+      "name": "Reading_John_Foster_s_book",
+      "takePlaceAt": {
+       "name": "Library"
+      },
+      "hasParticipant": {
+       "name": "Valancy_Stirling"
+      }
+     }
     }
    ]
-  }
- ],
- "Places": [
-  {
-   "id": "texts/thebluecastle.txt#Uncle_Benjamin_s_grocerystore",
-   "name": "Uncle_Benjamin_s_grocerystore",
-   "description": "Where Valancy buys tea and beans"
-  },
-  {
-   "id": "texts/thebluecastle.txt#Church",
-   "name": "Church",
-   "description": "Where Valancy was called up by Dr. Stalling"
-  },
-  {
-   "id": "texts/thebluecastle.txt#Walking_along_the_street",
-   "name": "Walking_along_the_street",
-   "description": "Where Valancy felt rebellious"
-  },
-  {
-   "id": "texts/thebluecastle.txt#Street_corner",
-   "name": "Street_corner",
-   "description": "Where Valancy felt desire for a husband, a house, and children"
-  },
-  {
-   "id": "texts/thebluecastle.txt#Readingroom",
-   "name": "Readingroom",
-   "description": "Where Valancy reads John Foster's paragraph about fear"
-  }
- ],
- "Events": [
-  {
-   "id": "texts/thebluecastle.txt#Being_called_an_old_maid_",
-   "name": "Being_called_an_old_maid_",
-   "takePlaceAt": {
-    "id": "texts/thebluecastle.txt#place1",
-    "name": "place1"
-   }
-  },
-  {
-   "id": "texts/thebluecastle.txt#Being_called_up_by_Dr_Stalling_in_church",
-   "name": "Being_called_up_by_Dr_Stalling_in_church",
-   "takePlaceAt": {
-    "id": "texts/thebluecastle.txt#place2",
-    "name": "place2"
-   }
-  },
-  {
-   "id": "texts/thebluecastle.txt#Feeling_envious_of_Jennie_Lloyd_s_new_house",
-   "name": "Feeling_envious_of_Jennie_Lloyd_s_new_house",
-   "takePlaceAt": {
-    "id": "texts/thebluecastle.txt#place3",
-    "name": "place3"
-   }
-  },
-  {
-   "id": "texts/thebluecastle.txt#Thinking_about_wanting_a_husband_a_house_and_child",
-   "name": "Thinking_about_wanting_a_husband_a_house_and_children",
-   "takePlaceAt": {
-    "id": "texts/thebluecastle.txt#place4",
-    "name": "place4"
-   }
-  },
-  {
-   "id": "texts/thebluecastle.txt#Reading_John_Foster_s_paragraph_about_fear",
-   "name": "Reading_John_Foster_s_paragraph_about_fear",
-   "takePlaceAt": {
-    "id": "texts/thebluecastle.txt#place5",
-    "name": "place5"
-   }
   }
  ]
 }

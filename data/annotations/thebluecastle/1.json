@@ -1,102 +1,119 @@
 {
  "FictionalCharacters": [
   {
-   "id": "Valancy",
+   "name": "Valancy",
    "feels": [
+    {
+     "name": "Humiliation",
+     "hasIntensity": 0.6,
+     "quote": "She felt a little less humiliated.",
+     "causedByEvent": {
+      "name": "Being forgotten by Dr. Trent",
+      "takePlaceAt": {
+       "name": "Walking down the street"
+      },
+      "hasParticipant": [
+       {
+        "name": "Valancy"
+       },
+       {
+        "name": "Dr. Trent"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Being forgotten"
+     }
+    },
+    {
+     "name": "Envy",
+     "hasIntensity": 0.7,
+     "quote": "She was merely envious.",
+     "causedByEvent": {
+      "name": "Seeing a young couple walking together",
+      "takePlaceAt": {
+       "name": "Lover’s Lane"
+      },
+      "hasParticipant": [
+       {
+        "name": "Valancy"
+       },
+       {
+        "name": "Young couple"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Young couple walking together"
+     }
+    },
+    {
+     "name": "Joy",
+     "hasIntensity": 0.8,
+     "quote": "Valancy was enjoying herself.",
+     "causedByEvent": {
+      "name": "Attending Uncle Herbert's silver wedding",
+      "takePlaceAt": {
+       "name": "Uncle Herbert's house"
+      },
+      "hasParticipant": [
+       {
+        "name": "Valancy"
+       },
+       {
+        "name": "Uncle Herbert"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Attending the silver wedding"
+     }
+    },
     {
      "name": "Freedom",
      "hasIntensity": 0.9,
-     "quote": "She let herself go with a wild, inner exultation, as Uncle Herbert carved the turkey.",
-     "causedBy": {
-      "id": "Uncle Herbert carving the turkey",
-      "name": "Uncle Herbert carving the turkey"
+     "quote": "She was quite prepared to talk if occasion offered.",
+     "causedByEvent": {
+      "name": "Feeling unafraid of her family",
+      "takePlaceAt": {
+       "name": "Uncle Herbert's house"
+      },
+      "hasParticipant": [
+       {
+        "name": "Valancy"
+       },
+       {
+        "name": "Family members"
+       }
+      ]
      },
      "hasObject": {
-      "id": "Thanksgiving dinner",
-      "name": "Thanksgiving dinner"
-     },
-     "place": {
-      "id": "Uncle Herbert's house",
-      "name": "Uncle Herbert's house"
+      "name": "Feeling unafraid of her family"
      }
     },
     {
      "name": "Amusement",
-     "hasIntensity": 0.8,
-     "quote": "She was gazing around the table, examining relentlessly every one in this depressing assembly of sensible people and watching their little squirms with a detached, amused smile.",
-     "causedBy": {
-      "id": "Observing the guests at the table",
-      "name": "Observing the guests at the table"
+     "hasIntensity": 0.7,
+     "quote": "Watching their little squirms with a detached, amused smile.",
+     "causedByEvent": {
+      "name": "Observing family members at the dinner table",
+      "takePlaceAt": {
+       "name": "Uncle Herbert's house"
+      },
+      "hasParticipant": [
+       {
+        "name": "Valancy"
+       },
+       {
+        "name": "Family members"
+       }
+      ]
      },
      "hasObject": {
-      "id": "Family gathering",
-      "name": "Family gathering"
-     },
-     "place": {
-      "id": "Uncle Herbert's house",
-      "name": "Uncle Herbert's house"
-     }
-    },
-    {
-     "name": "Rebellion",
-     "hasIntensity": 0.9,
-     "quote": "She was giving herself such freedom of thought as she had never dared to take before. She let herself go with a wild, inner exultation.",
-     "causedBy": {
-      "id": "Feeling liberated",
-      "name": "Feeling liberated"
-     },
-     "hasObject": {
-      "id": "Family gathering",
-      "name": "Family gathering"
-     },
-     "place": {
-      "id": "Uncle Herbert's house",
-      "name": "Uncle Herbert's house"
+      "name": "Observing family members"
      }
     }
    ]
-  }
- ],
- "Places": [
-  {
-   "id": "Uncle Herbert's house",
-   "name": "Uncle Herbert's house",
-   "description": "A large, pretentious structure peppered with meaningless bay windows and excrescent porches."
-  }
- ],
- "Events": [
-  {
-   "id": "Uncle Herbert carving the turkey",
-   "name": "Uncle Herbert carving the turkey",
-   "takePlaceAt": {
-    "id": "Thanksgiving dinner",
-    "name": "Thanksgiving dinner"
-   },
-   "hasParticipant": {
-    "id": "Valancy"
-   }
-  },
-  {
-   "id": "Observing the guests at the table",
-   "name": "Observing the guests at the table",
-   "takePlaceAt": {
-    "id": "Family gathering",
-    "name": "Family gathering"
-   },
-   "hasParticipant": {
-    "id": "Valancy"
-   }
-  },
-  {
-   "id": "Feeling liberated",
-   "name": "Feeling liberated",
-   "takePlaceAt": {
-    "id": "Family gathering",
-    "name": "Family gathering"
-   },
-   "hasParticipant": {
-    "id": "Valancy"
-   }
   }
  ]
 }

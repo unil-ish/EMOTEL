@@ -1,138 +1,126 @@
 {
  "FictionalCharacters": [
   {
-   "id": "Rosamond",
+   "name": "Rosamond",
    "feels": [
     {
-     "name": "Exultation",
-     "hasIntensity": 0.9,
-     "quote": "She was intensely conscious of having a cousin who was a baronet’s son staying in the house, and she imagined the knowledge of what was implied by his presence to be diffused through all other minds.",
-     "causedBy": {
-      "id": "Captain Lydgate's visit",
-      "name": "Captain Lydgate's visit"
-     },
-     "hasObject": {
-      "id": "Cousin who is a baronet’s son",
-      "name": "Cousin who is a baronet’s son"
-     },
-     "exactPlace": "Her home"
-    },
-    {
      "name": "Satisfaction",
-     "hasIntensity": 0.8,
-     "quote": "The satisfaction was enough for the time to melt away some disappointment in the conditions of marriage with a medical man even of good birth.",
-     "causedBy": {
-      "id": "Captain Lydgate's visit",
-      "name": "Captain Lydgate's visit"
-     },
-     "hasObject": {
-      "id": "Social status improvement",
-      "name": "Social status improvement"
-     },
-     "exactPlace": "Her home"
-    },
-    {
-     "name": "Temptation",
-     "hasIntensity": 0.9,
-     "quote": "The temptation was certainly great: she was very fond of the exercise, and the gratification of riding on a fine horse, with Captain Lydgate, Sir Godwin’s son, on another fine horse by her side, and of being met in this position by any one but her husband, was something as good as her dreams before marriage.",
-     "causedBy": {
-      "id": "Captain Lydgate's visit",
-      "name": "Captain Lydgate's visit"
-     },
-     "hasObject": {
-      "id": "Riding with Captain Lydgate",
-      "name": "Riding with Captain Lydgate"
-     },
-     "exactPlace": "Her home"
-    },
-    {
-     "name": "Exquisite ornament",
-     "hasIntensity": 0.9,
-     "quote": "She knew that she was a much more exquisite ornament to the drawing-room there than any daughter of the family, and in reflecting that the gentlemen were aware of that, did not perhaps sufficiently consider whether the ladies would be eager to see themselves surpassed.",
-     "causedBy": {
-      "id": "Expectation of being invited to Quallingham",
-      "name": "Expectation of being invited to Quallingham"
-     },
-     "hasObject": {
-      "id": "Being an exquisite ornament",
-      "name": "Being an exquisite ornament"
-     },
-     "exactPlace": "Her home"
-    },
-    {
-     "name": "Lovely appearance",
      "hasIntensity": 0.9,
      "quote": "Rosamond was soon looking lovelier than ever at her worktable, enjoying drives in her father’s phaeton and thinking it likely that she might be invited to Quallingham.",
-     "causedBy": {
-      "id": "Expectation of being invited to Quallingham",
-      "name": "Expectation of being invited to Quallingham"
+     "causedByEvent": {
+      "name": "Enjoying drives and work",
+      "takePlaceAt": {
+       "name": "Worktable and father's phaeton"
+      },
+      "hasParticipant": [
+       {
+        "name": "Rosamond"
+       }
+      ]
      },
      "hasObject": {
-      "id": "Being invited to Quallingham",
       "name": "Being invited to Quallingham"
+     }
+    },
+    {
+     "name": "Vexation",
+     "hasIntensity": 0.8,
+     "quote": "Rosamond was much worried, and conscious of new elements in his life as noxious to him as an inlet of mud to a creature that has been used to breathe and bathe and dart after its illuminated prey in the clearest of waters.",
+     "causedByEvent": {
+      "name": "Feeling worried and conscious of new elements",
+      "takePlaceAt": {
+       "name": "Home"
+      },
+      "hasParticipant": [
+       {
+        "name": "Rosamond"
+       }
+      ]
      },
-     "exactPlace": "Her home"
+     "hasObject": {
+      "name": "New elements in his life"
+     }
+    },
+    {
+     "name": "Moodiness",
+     "hasIntensity": 0.7,
+     "quote": "Rosamond was soon looking lovelier than ever at her worktable, enjoying drives in her father’s phaeton and thinking it likely that she might be invited to Quallingham. She knew that she was a much more exquisite ornament to the drawing-room there than any daughter of the family, and in reflecting that the gentlemen were aware of that, did not perhaps sufficiently consider whether the ladies would be eager to see themselves surpassed.",
+     "causedByEvent": {
+      "name": "Feeling self-conscious and reflective",
+      "takePlaceAt": {
+       "name": "Worktable and father's phaeton"
+      },
+      "hasParticipant": [
+       {
+        "name": "Rosamond"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Being invited to Quallingham"
+     }
     }
    ]
   },
   {
-   "id": "Lydgate",
+   "name": "Lydgate",
    "feels": [
     {
-     "name": "Vexation",
-     "hasIntensity": 0.8,
-     "quote": "He was much worried, and conscious of new elements in his life as noxious to him as an inlet of mud to a creature that has been used to breathe and bathe and dart after its illuminated prey in the clearest of waters.",
-     "causedBy": {
-      "id": "Rosamond's actions",
-      "name": "Rosamond's actions"
-     },
-     "hasObject": {
-      "id": "Rosamond's actions",
-      "name": "Rosamond's actions"
-     },
-     "exactPlace": "His home"
-    },
-    {
-     "name": "Bitterness",
+     "name": "Anxiety",
      "hasIntensity": 0.9,
-     "quote": "He had regarded Rosamond’s cleverness as precisely of the receptive kind which became a woman. He was now beginning to find out what that cleverness was—what was the shape into which it had run as into a close network aloof and independent.",
-     "causedBy": {
-      "id": "Rosamond's actions",
-      "name": "Rosamond's actions"
+     "quote": "Lydgate was much worried, and conscious of new elements in his life as noxious to him as an inlet of mud to a creature that has been used to breathe and bathe and dart after its illuminated prey in the clearest of waters.",
+     "causedByEvent": {
+      "name": "Feeling worried and conscious of new elements",
+      "takePlaceAt": {
+       "name": "Home"
+      },
+      "hasParticipant": [
+       {
+        "name": "Lydgate"
+       }
+      ]
      },
      "hasObject": {
-      "id": "Rosamond's actions",
-      "name": "Rosamond's actions"
-     },
-     "exactPlace": "His home"
+      "name": "New elements in his life"
+     }
     },
     {
      "name": "Self-discontent",
-     "hasIntensity": 0.9,
+     "hasIntensity": 0.8,
      "quote": "Lydgate was aware that his concessions to Rosamond were often little more than the lapse of slackening resolution, the creeping paralysis apt to seize an enthusiasm which is out of adjustment to a constant portion of our lives.",
-     "causedBy": {
-      "id": "Rosamond's actions",
-      "name": "Rosamond's actions"
+     "causedByEvent": {
+      "name": "Feeling discontent with his concessions to Rosamond",
+      "takePlaceAt": {
+       "name": "Home"
+      },
+      "hasParticipant": [
+       {
+        "name": "Lydgate"
+       }
+      ]
      },
      "hasObject": {
-      "id": "Rosamond's actions",
-      "name": "Rosamond's actions"
-     },
-     "exactPlace": "His home"
+      "name": "Concessions to Rosamond"
+     }
     },
     {
      "name": "Vexation",
-     "hasIntensity": 0.8,
-     "quote": "There was gathering within him an amazed sense of his powerlessness over Rosamond.",
-     "causedBy": {
-      "id": "Rosamond's actions",
-      "name": "Rosamond's actions"
+     "hasIntensity": 0.7,
+     "quote": "And on Lydgate’s enthusiasm there was constantly pressing not a simple weight of sorrow, but the biting presence of a petty degrading care, such as casts the blight of irony over all higher effort.",
+     "causedByEvent": {
+      "name": "Feeling vexed with his enthusiasm being overshadowed by petty degrading care",
+      "takePlaceAt": {
+       "name": "Home"
+      },
+      "hasParticipant": [
+       {
+        "name": "Lydgate"
+       }
+      ]
      },
      "hasObject": {
-      "id": "Rosamond's actions",
-      "name": "Rosamond's actions"
-     },
-     "exactPlace": "His home"
+      "name": "Petty degrading care"
+     }
     }
    ]
   }

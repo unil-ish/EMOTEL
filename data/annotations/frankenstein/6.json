@@ -1,119 +1,95 @@
 {
  "FictionalCharacters": [
   {
-   "id": "Victor Frankenstein",
+   "name": "Victor Frankenstein",
    "feels": [
     {
      "name": "Trust",
      "hasIntensity": 0.7,
-     "quote": "My father's care and attentions were indefatigable.",
-     "causedBy": {
-      "id": "father",
+     "quote": "My father's care and attentions were indefatigable",
+     "causedByEvent": {
+      "name": "Father's care and attentions",
+      "takePlaceAt": {
+       "name": "During recovery from fever"
+      },
+      "hasParticipant": [
+       {
+        "name": "Victor Frankenstein"
+       },
+       {
+        "name": "Father"
+       }
+      ]
+     },
+     "hasObject": {
       "name": "Father's care and attentions"
-     },
-     "hasObject": {
-      "id": "father",
-      "name": "Father"
-     },
-     "exactPlace": "Prison"
+     }
     },
     {
-     "name": "Surprise",
-     "hasIntensity": 0.6,
-     "quote": "My father yielded at length to my desire to avoid society.",
-     "causedBy": {
-      "id": "father",
-      "name": "Father yielding to Victor's desire"
-     },
-     "hasObject": {
-      "id": "father",
-      "name": "Father"
-     },
-     "exactPlace": "Paris"
-    },
-    {
-     "name": "Anger",
-     "hasIntensity": 0.8,
-     "quote": "I cried energetically; 'I am the assassin of those most innocent victims.'",
-     "causedBy": {
-      "id": "selfAccusation",
-      "name": "Self-accusation"
-     },
-     "hasObject": {
-      "id": "innocentVictims",
-      "name": "Innocent victims"
-     },
-     "exactPlace": "Conversation with father"
-    },
-    {
-     "name": "Joy",
+     "name": "Sadness",
      "hasIntensity": 0.9,
-     "quote": "It gave me the greatest pleasure to receive a letter from my uncle.",
-     "causedBy": {
-      "id": "letterFromElizabeth",
-      "name": "Receiving a letter from Elizabeth"
+     "quote": "Misery had her dwelling in my heart",
+     "causedByEvent": {
+      "name": "Recollection of various misfortunes",
+      "takePlaceAt": {
+       "name": "Throughout the journey"
+      }
      },
      "hasObject": {
-      "id": "letterFromElizabeth",
-      "name": "Letter from Elizabeth"
+      "name": "Misfortunes"
+     }
+    },
+    {
+     "name": "Acceptance",
+     "hasIntensity": 0.6,
+     "quote": "Sufficient for me was the consciousness of them",
+     "causedByEvent": {
+      "name": "Self-realization of crimes",
+      "takePlaceAt": {
+       "name": "After time passed away"
+      }
      },
-     "exactPlace": "Paris"
+     "hasObject": {
+      "name": "Consciousness of crimes"
+     }
+    },
+    {
+     "name": "Tranquility",
+     "hasIntensity": 0.8,
+     "quote": "My manners were calmer and more composed",
+     "causedByEvent": {
+      "name": "Self-violence to curb wretchedness",
+      "takePlaceAt": {
+       "name": "After journey to the sea of ice"
+      }
+     },
+     "hasObject": {
+      "name": "Calm and composed manners"
+     }
+    },
+    {
+     "name": "Hope",
+     "hasIntensity": 0.7,
+     "quote": "I hope to see peace in your countenance",
+     "causedByEvent": {
+      "name": "Receiving a letter from Elizabeth",
+      "takePlaceAt": {
+       "name": "Before leaving Paris"
+      },
+      "hasParticipant": [
+       {
+        "name": "Victor Frankenstein"
+       },
+       {
+        "name": "Elizabeth"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Peace in countenance"
+     }
     }
    ]
-  }
- ],
- "Places": [
-  {
-   "id": "Prison",
-   "name": "Prison",
-   "description": "Victor Frankenstein's place of confinement"
-  },
-  {
-   "id": "Paris",
-   "name": "Paris",
-   "description": "City where Victor Frankenstein and his father stayed"
-  }
- ],
- "Events": [
-  {
-   "id": "father",
-   "name": "Father's care and attentions",
-   "takePlaceAt": {
-    "id": "Prison"
-   },
-   "hasParticipant": {
-    "id": "Victor Frankenstein"
-   }
-  },
-  {
-   "id": "father",
-   "name": "Father yielding to Victor's desire",
-   "takePlaceAt": {
-    "id": "Paris"
-   },
-   "hasParticipant": {
-    "id": "Victor Frankenstein"
-   }
-  },
-  {
-   "id": "selfAccusation",
-   "name": "Self-accusation",
-   "takePlaceAt": {
-    "id": "Conversation with father"
-   },
-   "hasParticipant": {
-    "id": "Victor Frankenstein"
-   }
-  },
-  {
-   "id": "letterFromElizabeth",
-   "name": "Receiving a letter from Elizabeth",
-   "takePlaceAt": {
-    "id": "Paris"
-   },
-   "hasParticipant": {
-    "id": "Victor Frankenstein"
-   }
   }
  ]
 }

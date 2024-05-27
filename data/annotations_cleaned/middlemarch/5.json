@@ -1,202 +1,127 @@
 {
  "FictionalCharacters": [
   {
-   "id": "texts/middlemarch.txt#Fred_Vincy",
    "name": "Fred_Vincy",
    "feels": [
     {
      "name": "Love",
      "hasIntensity": 0.9,
      "quote": "Fred was certainly very fond of his mother.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Fondness_for_his_mother",
-      "name": "Fondness_for_his_mother"
-     },
+     "exactPlace": "At home",
      "hasObject": {
-      "id": "texts/middlemarch.txt#Mother",
       "name": "Mother"
-     },
-     "exactPlace": "Home",
-     "id": "Love"
+     }
     },
     {
-     "name": "Disappointment",
-     "hasIntensity": 0.8,
-     "quote": "He had been left an orphan when he was fresh from a public school.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Being_orphaned",
-      "name": "Being_orphaned"
-     },
-     "hasObject": {
-      "id": "texts/middlemarch.txt#Orphanhood",
-      "name": "Orphanhood"
-     },
-     "exactPlace": "Home",
-     "id": "Disappointment"
-    },
-    {
-     "name": "Hope",
+     "name": "Submission",
      "hasIntensity": 0.7,
-     "quote": "He was a quick fellow, and when hot from play, would toss himself in a corner, and in five minutes be deep in any sort of book that he could lay his hands on.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Love_for_reading",
-      "name": "Love_for_reading"
-     },
+     "quote": "Fred was stung, and released her hand.",
+     "exactPlace": "In Mary's presence",
      "hasObject": {
-      "id": "texts/middlemarch.txt#Books",
-      "name": "Books"
-     },
-     "exactPlace": "Home",
-     "id": "Hope"
+      "name": "Mary"
+     }
+    },
+    {
+     "name": "Optimism",
+     "hasIntensity": 0.8,
+     "quote": "Fred was not utterly in despair.",
+     "exactPlace": "After receiving money from Mr. Featherstone",
+     "hasObject": {
+      "name": "Situation"
+     }
+    },
+    {
+     "name": "Remorse",
+     "hasIntensity": 0.6,
+     "quote": "Fred was sulkily, taking up his hat and whip.",
+     "exactPlace": "After Mary's rejection",
+     "hasObject": {
+      "name": "Rejection"
+     }
     }
    ]
   },
   {
-   "id": "texts/middlemarch.txt#Mary_Garth",
    "name": "Mary_Garth",
    "feels": [
     {
-     "name": "Vexation",
-     "hasIntensity": 0.8,
-     "quote": "Mary did not mean to betray any feeling, but in spite of herself she ended in a tremulous tone of vexation.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Feeling_misunderstood",
-      "name": "Feeling_misunderstood"
-     },
-     "hasObject": {
-      "id": "texts/middlemarch.txt#Feeling_misunderstood",
-      "name": "Feeling_misunderstood"
-     },
-     "exactPlace": "Home",
-     "id": "Vexation"
-    },
-    {
-     "name": "Affection",
+     "name": "Love",
      "hasIntensity": 0.9,
      "quote": "She doted on her eldest son and her youngest girl.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Motherly_love",
-      "name": "Motherly_love"
-     },
+     "exactPlace": "At home",
      "hasObject": {
-      "id": "texts/middlemarch.txt#Eldest_son_and_youngest_girl",
       "name": "Eldest_son_and_youngest_girl"
-     },
-     "exactPlace": "Home",
-     "id": "Affection"
+     }
+    },
+    {
+     "name": "Contempt",
+     "hasIntensity": 0.7,
+     "quote": "Mary was treating him with more indifference than usual.",
+     "exactPlace": "In conversation with Fred",
+     "hasObject": {
+      "name": "Fred"
+     }
+    },
+    {
+     "name": "Vigilance",
+     "hasIntensity": 0.8,
+     "quote": "Mary sat down again, and resumed her work.",
+     "exactPlace": "After Fred's attempt to engage her",
+     "hasObject": {
+      "name": "Work"
+     }
     },
     {
      "name": "Sarcasm",
-     "hasIntensity": 0.7,
-     "quote": "Mary was sewing swiftly, and seemed provokingly mistress of the situation.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Feeling_in_control",
-      "name": "Feeling_in_control"
-     },
+     "hasIntensity": 0.6,
+     "quote": "Mary looked up with some roguishness at Fred.",
+     "exactPlace": "During conversation with Fred",
      "hasObject": {
-      "id": "texts/middlemarch.txt#Feeling_in_control",
-      "name": "Feeling_in_control"
-     },
-     "exactPlace": "Home",
-     "id": "Sarcasm"
+      "name": "Fred"
+     }
     }
    ]
   },
   {
-   "id": "texts/middlemarch.txt#Tertius_Lydgate",
    "name": "Tertius_Lydgate",
    "feels": [
     {
-     "name": "Intellectual_passion",
+     "name": "Passion",
      "hasIntensity": 0.9,
      "quote": "From that hour Lydgate felt the growth of an intellectual passion.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Discovery_of_anatomy",
-      "name": "Discovery_of_anatomy"
-     },
+     "exactPlace": "After reading about the valves of the heart",
      "hasObject": {
-      "id": "texts/middlemarch.txt#Anatomy",
-      "name": "Anatomy"
-     },
-     "exactPlace": "Home library",
-     "id": "Intellectual_passion"
+      "name": "Intellectual_passion"
+     }
     },
     {
      "name": "Curiosity",
      "hasIntensity": 0.8,
      "quote": "He was a quick fellow, and when hot from play, would toss himself in a corner, and in five minutes be deep in any sort of book that he could lay his hands on.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Love_for_reading",
-      "name": "Love_for_reading"
-     },
+     "exactPlace": "During childhood",
      "hasObject": {
-      "id": "texts/middlemarch.txt#Books",
       "name": "Books"
-     },
-     "exactPlace": "Home library",
-     "id": "Curiosity"
+     }
     },
     {
-     "name": "Hope",
+     "name": "Disappointment",
      "hasIntensity": 0.7,
-     "quote": "He was but seven-and-twenty, an age at which many men are not quite common—at which they are hopeful of achievement.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Hope_for_achievement",
-      "name": "Hope_for_achievement"
-     },
+     "quote": "He was not pre-eminent in them.",
+     "exactPlace": "Regarding his school studies",
      "hasObject": {
-      "id": "texts/middlemarch.txt#Achievement",
-      "name": "Achievement"
-     },
-     "exactPlace": "Home library",
-     "id": "Hope"
+      "name": "Academic_performance"
+     }
+    },
+    {
+     "name": "Excitement",
+     "hasIntensity": 0.6,
+     "quote": "He was a vigorous animal with a ready understanding.",
+     "exactPlace": "Description of his character",
+     "hasObject": {
+      "name": "Vigorous_nature"
+     }
     }
    ]
-  }
- ],
- "Places": [
-  {
-   "id": "texts/middlemarch.txt#Home",
-   "name": "Home",
-   "description": "The setting where the characters experience various emotions and events."
-  }
- ],
- "Events": [
-  {
-   "id": "texts/middlemarch.txt#Fondness_for_his_mother",
-   "name": "Fondness_for_his_mother"
-  },
-  {
-   "id": "texts/middlemarch.txt#Being_orphaned",
-   "name": "Being_orphaned"
-  },
-  {
-   "id": "texts/middlemarch.txt#Love_for_reading",
-   "name": "Love_for_reading"
-  },
-  {
-   "id": "texts/middlemarch.txt#Feeling_misunderstood",
-   "name": "Feeling_misunderstood"
-  },
-  {
-   "id": "texts/middlemarch.txt#Motherly_love",
-   "name": "Motherly_love"
-  },
-  {
-   "id": "texts/middlemarch.txt#Feeling_in_control",
-   "name": "Feeling_in_control"
-  },
-  {
-   "id": "texts/middlemarch.txt#Discovery_of_anatomy",
-   "name": "Discovery_of_anatomy"
-  },
-  {
-   "id": "texts/middlemarch.txt#Love_for_reading",
-   "name": "Love_for_reading"
-  },
-  {
-   "id": "texts/middlemarch.txt#Hope_for_achievement",
-   "name": "Hope_for_achievement"
   }
  ]
 }

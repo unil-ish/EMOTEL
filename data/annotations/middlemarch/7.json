@@ -1,116 +1,148 @@
 {
  "FictionalCharacters": [
   {
-   "id": "fc1",
-   "name": "The Rev. Camden Farebrother",
+   "name": "Elderly gentlemen",
    "feels": [
     {
-     "name": "Trust",
-     "hasIntensity": 0.8,
-     "quote": "The Vicar of St. Botolph’s had certainly escaped the slightest tincture of the Pharisee, and by dint of admitting to himself that he was too much as other men were, he had become remarkably unlike them in this—that he could excuse others for thinking slightly of him, and could judge impartially of their conduct even when it told against him.",
-     "causedBy": {
-      "id": "event1",
-      "name": "Being unlike others"
-     },
-     "hasObject": {
-      "id": "object1",
-      "name": "Being impartial"
-     },
-     "place": {
-      "id": "place1",
-      "name": "St. Botolph’s"
-     }
-    },
-    {
-     "name": "Joy",
+     "name": "Admiration",
      "hasIntensity": 0.7,
-     "quote": "The Vicar of St. Botolph’s had certainly escaped the slightest tincture of the Pharisee, and by dint of admitting to himself that he was too much as other men were, he had become remarkably unlike them in this—that he could excuse others for thinking slightly of him, and could judge impartially of their conduct even when it told against him.",
-     "causedBy": {
-      "id": "event2",
-      "name": "Being unlike others"
+     "quote": "“The best girl in the world! He will be a happy fellow who gets her!”",
+     "causedByEvent": {
+      "name": "Visiting the Vincys",
+      "takePlaceAt": {
+       "name": "Vincys' house"
+      },
+      "hasParticipant": [
+       {
+        "name": "Elderly gentlemen"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object2",
-      "name": "Being impartial"
-     },
-     "place": {
-      "id": "place1",
-      "name": "St. Botolph’s"
-     }
-    },
-    {
-     "name": "Sadness",
-     "hasIntensity": 0.6,
-     "quote": "The Vicar’s talk was not always inspiriting: he had escaped being a Pharisee, but he had not escaped that low estimate of possibilities which we rather hastily arrive at as an inference from our own failure.",
-     "causedBy": {
-      "id": "event3",
-      "name": "Low estimate of possibilities"
-     },
-     "hasObject": {
-      "id": "object3",
-      "name": "Inferiority"
-     },
-     "place": {
-      "id": "place1",
-      "name": "St. Botolph’s"
-     }
-    },
-    {
-     "name": "Trust",
-     "hasIntensity": 0.8,
-     "quote": "The Vicar’s talk was not always inspiriting: he had escaped being a Pharisee, but he had not escaped that low estimate of possibilities which we rather hastily arrive at as an inference from our own failure.",
-     "causedBy": {
-      "id": "event3",
-      "name": "Low estimate of possibilities"
-     },
-     "hasObject": {
-      "id": "object3",
-      "name": "Inferiority"
-     },
-     "place": {
-      "id": "place1",
-      "name": "St. Botolph’s"
+      "name": "the girl"
      }
     }
    ]
-  }
- ],
- "Places": [
-  {
-   "id": "place1",
-   "name": "St. Botolph’s"
-  }
- ],
- "Events": [
-  {
-   "id": "event1",
-   "name": "Being unlike others",
-   "takePlaceAt": {
-    "id": "place1"
-   },
-   "hasParticipant": {
-    "id": "fc1"
-   }
   },
   {
-   "id": "event2",
-   "name": "Being unlike others",
-   "takePlaceAt": {
-    "id": "place1"
-   },
-   "hasParticipant": {
-    "id": "fc1"
-   }
+   "name": "Mrs. Plymdale",
+   "feels": [
+    {
+     "name": "Disapproval",
+     "hasIntensity": 0.6,
+     "quote": "But Mrs. Plymdale thought that Rosamond had been educated to a ridiculous pitch...",
+     "causedByEvent": {
+      "name": "Thinking Rosamond's education was excessive",
+      "takePlaceAt": {
+       "name": "Vincys' house"
+      },
+      "hasParticipant": [
+       {
+        "name": "Mrs. Plymdale"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Rosamond's education"
+     }
+    }
+   ]
   },
   {
-   "id": "event3",
-   "name": "Low estimate of possibilities",
-   "takePlaceAt": {
-    "id": "place1"
-   },
-   "hasParticipant": {
-    "id": "fc1"
-   }
+   "name": "Mr. Farebrother",
+   "feels": [
+    {
+     "name": "Acceptance",
+     "hasIntensity": 0.8,
+     "quote": "But the Vicar of St. Botolph’s had certainly escaped the slightest tincture of the Pharisee...",
+     "causedByEvent": {
+      "name": "Being accepted for who he is",
+      "takePlaceAt": {
+       "name": "Meeting Lydgate"
+      },
+      "hasParticipant": [
+       {
+        "name": "Mr. Farebrother"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Being accepted"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Mr. Bulstrode",
+   "feels": [
+    {
+     "name": "Optimism",
+     "hasIntensity": 0.7,
+     "quote": "But Mr. Bulstrode believed that everybody meant well in the matter...",
+     "causedByEvent": {
+      "name": "Believing in the good intentions of others",
+      "takePlaceAt": {
+       "name": "Meeting with the gentlemen"
+      },
+      "hasParticipant": [
+       {
+        "name": "Mr. Bulstrode"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Good intentions of others"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Mr. Brooke",
+   "feels": [
+    {
+     "name": "Vigilance",
+     "hasIntensity": 0.6,
+     "quote": "I regard my time as being at the disposal of the public—and, in short, my friends have convinced me that a chaplain with a salary—a salary, you know—is a very good thing...",
+     "causedByEvent": {
+      "name": "Being convinced by friends",
+      "takePlaceAt": {
+       "name": "Meeting with the gentlemen"
+      },
+      "hasParticipant": [
+       {
+        "name": "Mr. Brooke"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Chaplain with a salary"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Lydgate",
+   "feels": [
+    {
+     "name": "Anger",
+     "hasIntensity": 0.7,
+     "quote": "“I perceive that the votes are equally divided at present,” said Mr. Bulstrode, in a clear biting voice...",
+     "causedByEvent": {
+      "name": "Feeling pressured to vote a certain way",
+      "takePlaceAt": {
+       "name": "Meeting with the gentlemen"
+      },
+      "hasParticipant": [
+       {
+        "name": "Lydgate"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Pressure to vote"
+     }
+    }
+   ]
   }
  ]
 }

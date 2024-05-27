@@ -1,177 +1,141 @@
 {
  "FictionalCharacters": [
   {
-   "id": "fc1",
    "name": "Amy",
    "feels": [
     {
      "name": "Trust",
      "hasIntensity": 0.8,
-     "quote": "He's my child, and I can't have his spirit broken by harshness.",
-     "causedBy": {
-      "id": "event1",
-      "name": "John showing patience with Demi"
+     "quote": "He saw it at once, and said, with pleased surprise,--'Why, little mother, how gay we are to-night. Do you expect company?'",
+     "causedByEvent": {
+      "name": "John's reaction to Meg's appearance",
+      "takePlaceAt": {
+       "name": "Home"
+      },
+      "hasParticipant": [
+       {
+        "name": "Amy"
+       },
+       {
+        "name": "John"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object1",
-      "name": "Demi"
-     },
-     "exactPlace": "Nursery"
+      "name": "John"
+     }
     },
     {
      "name": "Surprise",
      "hasIntensity": 0.7,
-     "quote": "I never need fear that John will be too harsh with my babies: he does know how to manage them.",
-     "causedBy": {
-      "id": "event2",
-      "name": "John managing Demi"
+     "quote": "Never mind what John said, or what a very narrow escape the little bonnet had from utter ruin; all that we have any business to know, is that John did not appear to object, judging from the changes which gradually took place in the house and its inmates.",
+     "causedByEvent": {
+      "name": "John's reaction to Meg's request for change",
+      "takePlaceAt": {
+       "name": "Home"
+      },
+      "hasParticipant": [
+       {
+        "name": "Amy"
+       },
+       {
+        "name": "John"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object2",
-      "name": "Babies"
-     },
-     "exactPlace": "Nursery"
+      "name": "Changes in the house and its inmates"
+     }
     },
     {
      "name": "Joy",
      "hasIntensity": 0.9,
      "quote": "Home grew home-like again, and John had no wish to leave it, unless he took Meg with him.",
-     "causedBy": {
-      "id": "event3",
-      "name": "Household happiness"
+     "causedByEvent": {
+      "name": "Improvement in the household",
+      "takePlaceAt": {
+       "name": "Home"
+      },
+      "hasParticipant": [
+       {
+        "name": "Amy"
+       },
+       {
+        "name": "John"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object3",
       "name": "Home"
-     },
-     "exactPlace": "Home"
+     }
     },
     {
      "name": "Anticipation",
      "hasIntensity": 0.6,
-     "quote": "I want to try it for your sake as much as for mine, because I've neglected you shamefully lately, and I'm going to make home what it used to be, if I can.",
-     "causedBy": {
-      "id": "event4",
-      "name": "Meg's plan for change"
+     "quote": "Well, I really don't see what we are coming to.",
+     "causedByEvent": {
+      "name": "Meg's thoughts on politics",
+      "takePlaceAt": {
+       "name": "Home"
+      },
+      "hasParticipant": [
+       {
+        "name": "Amy"
+       },
+       {
+        "name": "John"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object4",
-      "name": "Home"
-     },
-     "exactPlace": "Home"
-    }
-   ]
-  },
-  {
-   "id": "fc2",
-   "name": "John",
-   "feels": [
-    {
-     "name": "Admiration",
-     "hasIntensity": 0.8,
-     "quote": "It's a love of a bonnet, but I prefer the face inside, for it looks young and happy again.",
-     "causedBy": {
-      "id": "event5",
-      "name": "Meg's bonnet"
-     },
-     "hasObject": {
-      "id": "object5",
-      "name": "Bonnet"
-     },
-     "exactPlace": "Home"
+      "name": "Politics"
+     }
     },
     {
-     "name": "Contentment",
+     "name": "Love",
      "hasIntensity": 0.9,
-     "quote": "This household happiness did not come all at once, but John and Meg had found the key to it.",
-     "causedBy": {
-      "id": "event6",
-      "name": "Household happiness"
+     "quote": "This household happiness did not come all at once, but every one was better for the division of labor system; the children throve under the paternal rule, for accurate, steadfast John brought order and obedience into Babydom, while Meg recovered her spirits and composed her nerves by plenty of wholesome exercise, a little pleasure, and much confidential conversation with her sensible husband.",
+     "causedByEvent": {
+      "name": "Division of labor system",
+      "takePlaceAt": {
+       "name": "Home"
+      },
+      "hasParticipant": [
+       {
+        "name": "Amy"
+       },
+       {
+        "name": "John"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object6",
-      "name": "Home"
-     },
-     "exactPlace": "Home"
+      "name": "Household happiness"
+     }
     },
     {
-     "name": "Satisfaction",
-     "hasIntensity": 0.7,
-     "quote": "I really don't see what we are coming to.",
-     "causedBy": {
-      "id": "event7",
-      "name": "Meg's bonnet"
+     "name": "Acceptance",
+     "hasIntensity": 0.8,
+     "quote": "This is the sort of shelf on which young wives and mothers may consent to be laid, safe from the restless fret and fever of the world, finding loyal lovers in the little sons and daughters who cling to them, undaunted by sorrow, poverty, or age; walking side by side, through fair and stormy weather, with a faithful friend, who is, in the true sense of the good old Saxon word, the 'house-band,' and learning, as Meg learned, that a woman's happiest kingdom is home, her highest honor the art of ruling it, not as a queen, but a wise wife and mother.",
+     "causedByEvent": {
+      "name": "Realization of the importance of home and family",
+      "takePlaceAt": {
+       "name": "Home"
+      },
+      "hasParticipant": [
+       {
+        "name": "Amy"
+       },
+       {
+        "name": "John"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object7",
-      "name": "Bonnet"
-     },
-     "exactPlace": "Home"
+      "name": "Home and family"
+     }
     }
    ]
-  }
- ],
- "Places": [
-  {
-   "id": "place1",
-   "name": "Nursery",
-   "description": "Where Demi is put to bed and managed by John and Meg."
-  },
-  {
-   "id": "place2",
-   "name": "Home",
-   "description": "Where the household happiness is achieved through changes made by John and Meg."
-  }
- ],
- "Events": [
-  {
-   "id": "event1",
-   "name": "John showing patience with Demi",
-   "takePlaceAt": {
-    "id": "place1"
-   }
-  },
-  {
-   "id": "event2",
-   "name": "John managing Demi",
-   "takePlaceAt": {
-    "id": "place1"
-   }
-  },
-  {
-   "id": "event3",
-   "name": "Household happiness",
-   "takePlaceAt": {
-    "id": "place2"
-   }
-  },
-  {
-   "id": "event4",
-   "name": "Meg's plan for change",
-   "takePlaceAt": {
-    "id": "place2"
-   }
-  },
-  {
-   "id": "event5",
-   "name": "Meg's bonnet",
-   "takePlaceAt": {
-    "id": "place2"
-   }
-  },
-  {
-   "id": "event6",
-   "name": "Household happiness",
-   "takePlaceAt": {
-    "id": "place2"
-   }
-  },
-  {
-   "id": "event7",
-   "name": "Meg's bonnet",
-   "takePlaceAt": {
-    "id": "place2"
-   }
   }
  ]
 }

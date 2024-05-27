@@ -1,159 +1,161 @@
 {
  "FictionalCharacters": [
   {
-   "id": "fc1",
    "name": "Valancy Stirling",
    "feels": [
     {
      "name": "Anger",
      "hasIntensity": 0.7,
-     "quote": "Valancy smarted anew with the sting of that old recollection.",
-     "causedBy": {
-      "id": "event1",
-      "name": "Being called an 'old maid'"
+     "quote": "The tears came into her eyes as she lay there alone in the faintly greying darkness.",
+     "causedByEvent": {
+      "name": "Feeling unsought by any man",
+      "takePlaceAt": {
+       "name": "Valancy's bedroom"
+      },
+      "hasParticipant": [
+       {
+        "name": "Valancy Stirling"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object1",
-      "name": "Being called an 'old maid'"
+      "name": "Feeling unsought by any man"
+     }
+    },
+    {
+     "name": "Sadness",
+     "hasIntensity": 0.8,
+     "quote": "The tears came into her eyes as she lay there alone in the faintly greying darkness.",
+     "causedByEvent": {
+      "name": "Feeling unsought by any man",
+      "takePlaceAt": {
+       "name": "Valancy's bedroom"
+      },
+      "hasParticipant": [
+       {
+        "name": "Valancy Stirling"
+       }
+      ]
      },
-     "place": {
-      "id": "place1",
-      "name": "Uncle Benjamin's grocery-store"
+     "hasObject": {
+      "name": "Feeling unsought by any man"
+     }
+    },
+    {
+     "name": "Disgust",
+     "hasIntensity": 0.6,
+     "quote": "She knew the ugliness of that room by heart—knew it and hated it.",
+     "causedByEvent": {
+      "name": "Feeling unsought by any man",
+      "takePlaceAt": {
+       "name": "Valancy's bedroom"
+      },
+      "hasParticipant": [
+       {
+        "name": "Valancy Stirling"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Ugly room"
      }
     },
     {
      "name": "Fear",
-     "hasIntensity": 0.8,
-     "quote": "Valancy was afraid of Dr. Stalling—had been afraid of him ever since the Sunday, twenty-three years before, when he had first come to St. Albans’.",
-     "causedBy": {
-      "id": "event2",
-      "name": "Being called up by Dr. Stalling in church"
+     "hasIntensity": 0.9,
+     "quote": "The room was bitterly cold with the raw, penetrating chill of a wet May morning.",
+     "causedByEvent": {
+      "name": "Feeling unsought by any man",
+      "takePlaceAt": {
+       "name": "Valancy's bedroom"
+      },
+      "hasParticipant": [
+       {
+        "name": "Valancy Stirling"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object2",
-      "name": "Being called up by Dr. Stalling in church"
-     },
-     "place": {
-      "id": "place2",
-      "name": "Church"
+      "name": "Cold room"
      }
     },
     {
      "name": "Rebellion",
-     "hasIntensity": 0.9,
+     "hasIntensity": 0.7,
      "quote": "Valancy was once more seething with rebellion as she walked along.",
-     "causedBy": {
-      "id": "event3",
-      "name": "Feeling envious of Jennie Lloyd's new house"
+     "causedByEvent": {
+      "name": "Feeling unsought by any man",
+      "takePlaceAt": {
+       "name": "Walking along the street"
+      },
+      "hasParticipant": [
+       {
+        "name": "Valancy Stirling"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object3",
-      "name": "Jennie Lloyd's new house"
-     },
-     "place": {
-      "id": "place3",
-      "name": "Walking along the street"
+      "name": "Rebellion"
      }
     },
     {
-     "name": "Desire",
+     "name": "Regret",
      "hasIntensity": 0.8,
-     "quote": "Valancy stopped suddenly aghast at her own recklessness. She felt sure that Rev. Dr. Stalling, who passed her at this moment, read her thoughts and disapproved of them thoroughly.",
-     "causedBy": {
-      "id": "event4",
-      "name": "Thinking about wanting a husband, a house, and children"
+     "quote": "Valancy was sorry by the time she reached the next crossing.",
+     "causedByEvent": {
+      "name": "Feeling unsought by any man",
+      "takePlaceAt": {
+       "name": "Next crossing"
+      },
+      "hasParticipant": [
+       {
+        "name": "Valancy Stirling"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object4",
-      "name": "Wanting a husband, a house, and children"
+      "name": "Feeling sorry"
+     }
+    },
+    {
+     "name": "Shame",
+     "hasIntensity": 0.7,
+     "quote": "Valancy smarted anew with the sting of that old recollection.",
+     "causedByEvent": {
+      "name": "Feeling unsought by any man",
+      "takePlaceAt": {
+       "name": "Walking along the street"
+      },
+      "hasParticipant": [
+       {
+        "name": "Valancy Stirling"
+       }
+      ]
      },
-     "place": {
-      "id": "place4",
-      "name": "Street corner"
+     "hasObject": {
+      "name": "Old recollection"
      }
     },
     {
      "name": "Realization",
      "hasIntensity": 0.9,
      "quote": "Valancy shut _Magic of Wings_ and stood up. She would go and see Dr. Trent.",
-     "causedBy": {
-      "id": "event5",
-      "name": "Reading John Foster's paragraph about fear"
+     "causedByEvent": {
+      "name": "Reading John Foster's book",
+      "takePlaceAt": {
+       "name": "Library"
+      },
+      "hasParticipant": [
+       {
+        "name": "Valancy Stirling"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object5",
-      "name": "Reading John Foster's paragraph about fear"
-     },
-     "place": {
-      "id": "place5",
-      "name": "Reading-room"
+      "name": "Going to see Dr. Trent"
      }
     }
    ]
-  }
- ],
- "Places": [
-  {
-   "id": "place1",
-   "name": "Uncle Benjamin's grocery-store",
-   "description": "Where Valancy buys tea and beans"
-  },
-  {
-   "id": "place2",
-   "name": "Church",
-   "description": "Where Valancy was called up by Dr. Stalling"
-  },
-  {
-   "id": "place3",
-   "name": "Walking along the street",
-   "description": "Where Valancy felt rebellious"
-  },
-  {
-   "id": "place4",
-   "name": "Street corner",
-   "description": "Where Valancy felt desire for a husband, a house, and children"
-  },
-  {
-   "id": "place5",
-   "name": "Reading-room",
-   "description": "Where Valancy reads John Foster's paragraph about fear"
-  }
- ],
- "Events": [
-  {
-   "id": "event1",
-   "name": "Being called an 'old maid'",
-   "takePlaceAt": {
-    "id": "place1"
-   }
-  },
-  {
-   "id": "event2",
-   "name": "Being called up by Dr. Stalling in church",
-   "takePlaceAt": {
-    "id": "place2"
-   }
-  },
-  {
-   "id": "event3",
-   "name": "Feeling envious of Jennie Lloyd's new house",
-   "takePlaceAt": {
-    "id": "place3"
-   }
-  },
-  {
-   "id": "event4",
-   "name": "Thinking about wanting a husband, a house, and children",
-   "takePlaceAt": {
-    "id": "place4"
-   }
-  },
-  {
-   "id": "event5",
-   "name": "Reading John Foster's paragraph about fear",
-   "takePlaceAt": {
-    "id": "place5"
-   }
   }
  ]
 }

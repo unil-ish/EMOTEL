@@ -1,230 +1,75 @@
 {
  "FictionalCharacters": [
   {
-   "id": "texts/littlewomen.txt#Amy",
+   "name": "Amy_March",
    "feels": [
     {
      "name": "Surprise",
      "hasIntensity": 0.7,
-     "quote": "To May's great delight, Mr. Laurence not only bought the vases, but pervaded the hall with one under each arm.",
-     "causedBy": {
-      "id": "texts/littlewomen.txt#Mr_Laurence_buying_the_vases",
-      "name": "Mr_Laurence_buying_the_vases"
-     },
+     "quote": "Amy felt that there was something behind this, but could not guess what, and said quietly, feeling hurt, and showing that she did,--'Perhaps you had rather I took no table at all?'",
      "hasObject": {
-      "id": "texts/littlewomen.txt#Vases",
-      "name": "Vases"
+      "name": "Table_at_the_fair"
      },
-     "place": {
-      "id": "texts/littlewomen.txt#Fair_hall",
-      "name": "Fair_hall"
-     },
-     "id": "Surprise"
+     "causedBy": {
+      "name": "Being_asked_to_give_up_her_table_at_the_fair",
+      "takePlaceAt": {
+       "name": "Mrs_Chester_s_fair"
+      },
+      "hasParticipant": [
+       {
+        "name": "Amy_March"
+       },
+       {
+        "name": "Mrs_Chester"
+       }
+      ]
+     }
     },
     {
-     "name": "Pride",
+     "name": "Gratitude",
      "hasIntensity": 0.8,
-     "quote": "That satisfied Amy; and when she got home she found the vases paraded on the parlor chimney-piece, with a great bouquet in each.",
-     "causedBy": {
-      "id": "texts/littlewomen.txt#Feeling_of_satisfaction",
-      "name": "Feeling_of_satisfaction"
-     },
+     "quote": "Amy often looked wistfully across, longing to be there, where she felt at home and happy, instead of in a corner with nothing to do. It might seem no hardship to some of us; but to a pretty, blithe young girl, it was not only tedious, but very trying; and the thought of being found there in the evening by her family, and Laurie and his friends, made it a real martyrdom.",
      "hasObject": {
-      "id": "texts/littlewomen.txt#Vases",
-      "name": "Vases"
+      "name": "Feeling_left_out"
      },
-     "place": {
-      "id": "texts/littlewomen.txt#Home",
-      "name": "Home"
-     },
-     "id": "Pride"
+     "causedBy": {
+      "name": "Feeling_left_out_at_the_fair",
+      "takePlaceAt": {
+       "name": "Mrs_Chester_s_fair"
+      },
+      "hasParticipant": [
+       {
+        "name": "Amy_March"
+       },
+       {
+        "name": "Laurie"
+       }
+      ]
+     }
     },
     {
-     "name": "Affection",
+     "name": "Magnanimity",
      "hasIntensity": 0.9,
-     "quote": "When May bade Amy good night, she did not 'gush' as usual, but gave her an affectionate kiss, and a look which said, 'Forgive and forget.'",
-     "causedBy": {
-      "id": "texts/littlewomen.txt#Good_night_gesture_from_May",
-      "name": "Good_night_gesture_from_May"
-     },
+     "quote": "Amy spoke earnestly, and Jo said, with a cordial hug,--'I understand now what you mean, and I'll never laugh at you again. You are getting on faster than you think, and I'll take lessons of you in true politeness, for you've learned the secret, I believe. Try away, deary; you'll get your reward some day, and no one will be more delighted than I shall.'",
      "hasObject": {
-      "id": "texts/littlewomen.txt#Kiss",
-      "name": "Kiss"
+      "name": "Generosity"
      },
-     "place": {
-      "id": "texts/littlewomen.txt#Fair_hall",
-      "name": "Fair_hall"
-     },
-     "id": "Affection"
+     "causedBy": {
+      "name": "Being_praised_for_her_generosity",
+      "takePlaceAt": {
+       "name": "Mrs_Chester_s_fair"
+      },
+      "hasParticipant": [
+       {
+        "name": "Amy_March"
+       },
+       {
+        "name": "Jo"
+       }
+      ]
+     }
     }
-   ],
-   "name": "Amy"
-  },
-  {
-   "id": "texts/littlewomen.txt#Jo",
-   "feels": [
-    {
-     "name": "Warmth",
-     "hasIntensity": 0.8,
-     "quote": "Laurie espoused her cause with warmth.",
-     "causedBy": {
-      "id": "texts/littlewomen.txt#Laurie_supporting_Amy",
-      "name": "Laurie_supporting_Amy"
-     },
-     "hasObject": {
-      "id": "texts/littlewomen.txt#Amy_s_cause",
-      "name": "Amy_s_cause"
-     },
-     "place": {
-      "id": "texts/littlewomen.txt#Fair_hall",
-      "name": "Fair_hall"
-     },
-     "id": "Warmth"
-    },
-    {
-     "name": "Warmth",
-     "hasIntensity": 0.9,
-     "quote": "Jo warmly praised Amy for her actions.",
-     "causedBy": {
-      "id": "texts/littlewomen.txt#Amy_s_actions",
-      "name": "Amy_s_actions"
-     },
-     "hasObject": {
-      "id": "texts/littlewomen.txt#Amy",
-      "name": "Amy"
-     },
-     "place": {
-      "id": "texts/littlewomen.txt#Home",
-      "name": "Home"
-     },
-     "id": "Warmth"
-    },
-    {
-     "name": "Warmth",
-     "hasIntensity": 0.8,
-     "quote": "Jo said warmly, 'I understand now what you mean, and I'll never laugh at you again.'",
-     "causedBy": {
-      "id": "texts/littlewomen.txt#Amy_s_explanation",
-      "name": "Amy_s_explanation"
-     },
-     "hasObject": {
-      "id": "texts/littlewomen.txt#Amy",
-      "name": "Amy"
-     },
-     "place": {
-      "id": "texts/littlewomen.txt#Home",
-      "name": "Home"
-     },
-     "id": "Warmth"
-    }
-   ],
-   "name": "Jo"
-  }
- ],
- "Places": [
-  {
-   "id": "texts/littlewomen.txt#Fair_hall",
-   "name": "Fair_hall",
-   "description": "Where the fair took place"
-  },
-  {
-   "id": "texts/littlewomen.txt#Home",
-   "name": "Home",
-   "description": "Amy's residence"
-  },
-  {
-   "id": "texts/littlewomen.txt#Fair_hall",
-   "name": "Fair_hall",
-   "description": "Where Amy bade good night to May"
-  },
-  {
-   "id": "texts/littlewomen.txt#Fair_hall",
-   "name": "Fair_hall",
-   "description": "Where Laurie supported Amy"
-  },
-  {
-   "id": "texts/littlewomen.txt#Home",
-   "name": "Home",
-   "description": "Jo and Amy's residence"
-  },
-  {
-   "id": "texts/littlewomen.txt#Home",
-   "name": "Home",
-   "description": "Jo and Amy's residence"
-  }
- ],
- "Events": [
-  {
-   "id": "texts/littlewomen.txt#Mr_Laurence_buying_the_vases",
-   "name": "Mr_Laurence_buying_the_vases",
-   "takePlaceAt": {
-    "id": "texts/littlewomen.txt#place1",
-    "name": "place1"
-   },
-   "hasParticipant": {
-    "id": "texts/littlewomen.txt#Amy",
-    "name": "Amy"
-   }
-  },
-  {
-   "id": "texts/littlewomen.txt#Feeling_of_satisfaction",
-   "name": "Feeling_of_satisfaction",
-   "takePlaceAt": {
-    "id": "texts/littlewomen.txt#place2",
-    "name": "place2"
-   },
-   "hasParticipant": {
-    "id": "texts/littlewomen.txt#Amy",
-    "name": "Amy"
-   }
-  },
-  {
-   "id": "texts/littlewomen.txt#Good_night_gesture_from_May",
-   "name": "Good_night_gesture_from_May",
-   "takePlaceAt": {
-    "id": "texts/littlewomen.txt#place3",
-    "name": "place3"
-   },
-   "hasParticipant": {
-    "id": "texts/littlewomen.txt#Amy",
-    "name": "Amy"
-   }
-  },
-  {
-   "id": "texts/littlewomen.txt#Laurie_supporting_Amy",
-   "name": "Laurie_supporting_Amy",
-   "takePlaceAt": {
-    "id": "texts/littlewomen.txt#place4",
-    "name": "place4"
-   },
-   "hasParticipant": {
-    "id": "texts/littlewomen.txt#Jo",
-    "name": "Jo"
-   }
-  },
-  {
-   "id": "texts/littlewomen.txt#Amy_s_actions",
-   "name": "Amy_s_actions",
-   "takePlaceAt": {
-    "id": "texts/littlewomen.txt#place5",
-    "name": "place5"
-   },
-   "hasParticipant": {
-    "id": "texts/littlewomen.txt#Jo",
-    "name": "Jo"
-   }
-  },
-  {
-   "id": "texts/littlewomen.txt#Amy_s_explanation",
-   "name": "Amy_s_explanation",
-   "takePlaceAt": {
-    "id": "texts/littlewomen.txt#place6",
-    "name": "place6"
-   },
-   "hasParticipant": {
-    "id": "texts/littlewomen.txt#Jo",
-    "name": "Jo"
-   }
+   ]
   }
  ]
 }

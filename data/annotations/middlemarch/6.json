@@ -1,220 +1,84 @@
 {
  "FictionalCharacters": [
   {
-   "id": "fc1",
    "name": "Lydgate",
    "feels": [
     {
-     "name": "Trust",
-     "hasIntensity": 0.7,
-     "quote": "He had a youthful belief in his bread-winning work, not to be stifled by that initiation in makeshift called his ’prentice days.",
-     "causedBy": {
-      "id": "belief1",
-      "name": "Belief in his bread-winning work"
-     },
-     "hasObject": {
-      "id": "work1",
-      "name": "Bread-winning work"
-     },
-     "place": {
-      "id": "place1",
-      "name": "His 'prentice days"
-     }
-    },
-    {
-     "name": "Joy",
-     "hasIntensity": 0.6,
-     "quote": "He felt a triumphant delight in his studies.",
-     "causedBy": {
-      "id": "studies1",
-      "name": "His studies"
-     },
-     "hasObject": {
-      "id": "object1",
-      "name": "Studies"
-     },
-     "place": {
-      "id": "place2",
-      "name": "His mind"
-     }
-    },
-    {
-     "name": "Anticipation",
-     "hasIntensity": 0.8,
-     "quote": "He wanted to pierce the obscurity of those minute processes which prepare human misery and joy.",
-     "causedBy": {
-      "id": "curiosity1",
-      "name": "Curiosity about human processes"
-     },
-     "hasObject": {
-      "id": "processes1",
-      "name": "Human processes"
-     },
-     "place": {
-      "id": "place3",
-      "name": "His thoughts"
-     }
-    },
-    {
      "name": "Admiration",
      "hasIntensity": 0.9,
-     "quote": "He admired Rosamond exceedingly.",
-     "causedBy": {
-      "id": "beauty1",
-      "name": "Rosamond's beauty"
+     "quote": "He admired Rosamond exceedingly; but that madness which had once beset him about Laure was not, he thought, likely to recur in relation to any other woman.",
+     "causedByEvent": {
+      "name": "Admiration of Rosamond's intelligence and beauty",
+      "takePlaceAt": {
+       "name": "Mr. Vincy's house"
+      }
      },
      "hasObject": {
-      "id": "object2",
       "name": "Rosamond"
+     }
+    },
+    {
+     "name": "Pity",
+     "hasIntensity": 0.8,
+     "quote": "He felt a triumphant delight in his studies, and something like pity for those less lucky men who were not of his profession.",
+     "causedByEvent": {
+      "name": "Triumphant delight in his studies",
+      "takePlaceAt": {
+       "name": "His home"
+      }
      },
-     "place": {
-      "id": "place4",
-      "name": "His admiration"
+     "hasObject": {
+      "name": "Less lucky men"
+     }
+    },
+    {
+     "name": "Delight",
+     "hasIntensity": 0.7,
+     "quote": "He was an ardent fellow, but at present his ardor was absorbed in love of his work and in the ambition of making his life recognized as a factor in the better life of mankind.",
+     "causedByEvent": {
+      "name": "Love of his work and ambition",
+      "takePlaceAt": {
+       "name": "His home"
+      }
+     },
+     "hasObject": {
+      "name": "Work and ambition"
      }
     }
    ]
   },
   {
-   "id": "fc2",
    "name": "Rosamond",
    "feels": [
     {
      "name": "Pleasure",
-     "hasIntensity": 0.7,
-     "quote": "She blushed with pleasure.",
-     "causedBy": {
-      "id": "compliment1",
-      "name": "Compliment from Lydgate"
-     },
-     "hasObject": {
-      "id": "object3",
-      "name": "Compliment"
-     },
-     "place": {
-      "id": "place5",
-      "name": "Her feelings"
-     }
-    },
-    {
-     "name": "Curiosity",
-     "hasIntensity": 0.6,
-     "quote": "She wanted to know whether Lydgate would feel insulted if he were asked to come to a dance.",
-     "causedBy": {
-      "id": "curiosity2",
-      "name": "Curiosity about Lydgate's feelings"
-     },
-     "hasObject": {
-      "id": "object4",
-      "name": "Lydgate's feelings"
-     },
-     "place": {
-      "id": "place6",
-      "name": "Her thoughts"
-     }
-    },
-    {
-     "name": "Contentment",
      "hasIntensity": 0.8,
-     "quote": "She played admirably.",
-     "causedBy": {
-      "id": "talent1",
-      "name": "Her musical talent"
+     "quote": "She remained simply serious, turned her long neck a little, and put up her hand to touch her wondrous hair-plaits—an habitual gesture with her as pretty as any movements of a kitten’s paw.",
+     "causedByEvent": {
+      "name": "Lydgate's admiration",
+      "takePlaceAt": {
+       "name": "Mr. Vincy's house"
+      }
      },
      "hasObject": {
-      "id": "object5",
-      "name": "Playing music"
-     },
-     "place": {
-      "id": "place7",
-      "name": "Playing the piano"
+      "name": "Lydgate's admiration"
      }
     },
     {
-     "name": "Satisfaction",
+     "name": "Agreeableness",
      "hasIntensity": 0.7,
-     "quote": "She felt satisfaction in her music.",
-     "causedBy": {
-      "id": "talent2",
-      "name": "Her musical talent"
+     "quote": "She played admirably. Her master at Mrs. Lemon’s school was one of those excellent musicians here and there to be found in our provinces, worthy to compare with many a noted Kapellmeister in a country which offers more plentiful conditions of musical celebrity.",
+     "causedByEvent": {
+      "name": "Playing music",
+      "takePlaceAt": {
+       "name": "Mr. Vincy's house"
+      }
      },
      "hasObject": {
-      "id": "object6",
-      "name": "Music"
-     },
-     "place": {
-      "id": "place8",
-      "name": "Her feelings"
+      "name": "Playing music"
      }
     }
    ]
-  }
- ],
- "Places": [
-  {
-   "id": "place1",
-   "name": "His 'prentice days"
-  },
-  {
-   "id": "place2",
-   "name": "His mind"
-  },
-  {
-   "id": "place3",
-   "name": "His thoughts"
-  },
-  {
-   "id": "place4",
-   "name": "His admiration"
-  },
-  {
-   "id": "place5",
-   "name": "Her feelings"
-  },
-  {
-   "id": "place6",
-   "name": "Her thoughts"
-  },
-  {
-   "id": "place7",
-   "name": "Playing the piano"
-  },
-  {
-   "id": "place8",
-   "name": "Her feelings"
-  }
- ],
- "Events": [
-  {
-   "id": "belief1",
-   "name": "Belief in his bread-winning work"
-  },
-  {
-   "id": "studies1",
-   "name": "His studies"
-  },
-  {
-   "id": "curiosity1",
-   "name": "Curiosity about human processes"
-  },
-  {
-   "id": "beauty1",
-   "name": "Rosamond's beauty"
-  },
-  {
-   "id": "compliment1",
-   "name": "Compliment from Lydgate"
-  },
-  {
-   "id": "curiosity2",
-   "name": "Curiosity about Lydgate's feelings"
-  },
-  {
-   "id": "talent1",
-   "name": "Her musical talent"
-  },
-  {
-   "id": "talent2",
-   "name": "Her musical talent"
   }
  ]
 }

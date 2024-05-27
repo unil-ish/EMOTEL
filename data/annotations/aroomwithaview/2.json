@@ -1,130 +1,112 @@
 {
  "FictionalCharacters": [
   {
-   "id": "fc1",
    "name": "Freddy",
-   "feels": [
-    {
-     "name": "Jealousy",
-     "hasIntensity": 0.8,
-     "quote": "I had to say no. He ought never to have asked me.",
-     "causedBy": {
-      "id": "event1",
-      "name": "Cecil's proposal to Lucy"
-     },
-     "hasObject": {
-      "id": "object1",
-      "name": "Cecil"
-     },
-     "exactPlace": "Drawing-room"
-    },
-    {
-     "name": "Anxiety",
-     "hasIntensity": 0.7,
-     "quote": "I feel my foot’s in it.",
-     "causedBy": {
-      "id": "event2",
-      "name": "Feeling uncomfortable about Cecil's proposal"
-     },
-     "hasObject": {
-      "id": "object2",
-      "name": "Cecil"
-     },
-     "exactPlace": "Drawing-room"
-    },
-    {
-     "name": "Confusion",
-     "hasIntensity": 0.6,
-     "quote": "I can’t explain—I do feel so uncomfortable.",
-     "causedBy": {
-      "id": "event3",
-      "name": "Feeling uncomfortable about Cecil's proposal"
-     },
-     "hasObject": {
-      "id": "object2",
-      "name": "Cecil"
-     },
-     "exactPlace": "Drawing-room"
-    }
-   ]
-  },
-  {
-   "id": "fc2",
-   "name": "Mrs. Honeychurch",
    "feels": [
     {
      "name": "Annoyance",
      "hasIntensity": 0.8,
-     "quote": "You think you’re so holy and truthful, but really it’s only abominable conceit.",
-     "causedBy": {
-      "id": "event4",
-      "name": "Freddy's behavior"
+     "quote": "‘I don’t see you ought to go peeping like that.’",
+     "causedByEvent": {
+      "name": "Mother peeping out of the window",
+      "takePlaceAt": {
+       "name": "Drawing-room"
+      }
      },
      "hasObject": {
-      "id": "object3",
-      "name": "Freddy"
-     },
-     "exactPlace": "Drawing-room"
+      "name": "Mother peeping out of the window"
+     }
     },
+    {
+     "name": "Discomfort",
+     "hasIntensity": 0.7,
+     "quote": "‘I feel—never mind.’",
+     "causedByEvent": {
+      "name": "Feeling uncomfortable about Lucy's situation",
+      "takePlaceAt": {
+       "name": "Drawing-room"
+      }
+     },
+     "hasObject": {
+      "name": "Lucy's situation"
+     }
+    },
+    {
+     "name": "Jealousy",
+     "hasIntensity": 0.9,
+     "quote": "‘I liked him till just now.’",
+     "causedByEvent": {
+      "name": "Cecil spoiling Lucy's first week at home",
+      "takePlaceAt": {
+       "name": "Home"
+      }
+     },
+     "hasObject": {
+      "name": "Cecil spoiling Lucy's first week at home"
+     }
+    },
+    {
+     "name": "Mistrust",
+     "hasIntensity": 0.6,
+     "quote": "‘At the back of his brain there lurked a dim mistrust.’",
+     "causedByEvent": {
+      "name": "Cecil's behavior and comments",
+      "takePlaceAt": {
+       "name": "Home"
+      }
+     },
+     "hasObject": {
+      "name": "Cecil's behavior and comments"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Mrs. Honeychurch",
+   "feels": [
     {
      "name": "Concern",
      "hasIntensity": 0.7,
-     "quote": "I shall not keep quiet.",
-     "causedBy": {
-      "id": "event5",
-      "name": "Worry about the situation with Cecil and Lucy"
+     "quote": "‘I hope you gave a careful answer, dear.’",
+     "causedByEvent": {
+      "name": "Freddy's interaction with Cecil",
+      "takePlaceAt": {
+       "name": "Home"
+      }
      },
      "hasObject": {
-      "id": "object4",
-      "name": "Cecil and Lucy"
+      "name": "Freddy's interaction with Cecil"
+     }
+    },
+    {
+     "name": "Dissatisfaction",
+     "hasIntensity": 0.8,
+     "quote": "‘But her face remained dissatisfied.’",
+     "causedByEvent": {
+      "name": "Freddy's behavior towards Cecil",
+      "takePlaceAt": {
+       "name": "Home"
+      }
      },
-     "exactPlace": "Drawing-room"
+     "hasObject": {
+      "name": "Freddy's behavior towards Cecil"
+     }
+    },
+    {
+     "name": "Interest",
+     "hasIntensity": 0.6,
+     "quote": "‘Mr. Beebe?’ said his mother, trying to conceal her interest.",
+     "causedByEvent": {
+      "name": "Mention of Mr. Beebe",
+      "takePlaceAt": {
+       "name": "Home"
+      }
+     },
+     "hasObject": {
+      "name": "Mention of Mr. Beebe"
+     }
     }
    ]
-  }
- ],
- "Places": [
-  {
-   "id": "place1",
-   "name": "Drawing-room",
-   "description": "Windy Corner drawing-room with heavy curtains and subdued light."
-  }
- ],
- "Events": [
-  {
-   "id": "event1",
-   "name": "Cecil's proposal to Lucy",
-   "takePlaceAt": {
-    "id": "place1"
-   }
-  },
-  {
-   "id": "event2",
-   "name": "Feeling uncomfortable about Cecil's proposal",
-   "takePlaceAt": {
-    "id": "place1"
-   }
-  },
-  {
-   "id": "event3",
-   "name": "Feeling uncomfortable about Cecil's proposal",
-   "takePlaceAt": {
-    "id": "place1"
-   }
-  },
-  {
-   "id": "event4",
-   "name": "Freddy's behavior",
-   "takePlaceAt": {
-    "id": "place1"
-   }
-  },
-  {
-   "id": "event5",
-   "name": "Worry about the situation with Cecil and Lucy",
-   "takePlaceAt": {
-    "id": "place1"
-   }
   }
  ]
 }

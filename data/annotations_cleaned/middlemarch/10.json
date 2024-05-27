@@ -1,183 +1,195 @@
 {
  "FictionalCharacters": [
   {
-   "id": "texts/middlemarch.txt#Fred_Vincy",
+   "name": "Fred_Vincy",
    "feels": [
     {
      "name": "Remorse",
      "hasIntensity": 0.9,
      "quote": "I am a good-for-nothing blackguard.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Inability_to_pay_back_money_borrowed",
-      "name": "Inability_to_pay_back_money_borrowed"
-     },
      "hasObject": {
-      "id": "texts/middlemarch.txt#Money",
-      "name": "Money"
+      "name": "Inability_to_pay_a_debt"
      },
-     "place": "Mary's house",
-     "id": "Remorse"
+     "causedBy": {
+      "name": "Inability_to_pay_a_debt",
+      "takePlaceAt": {
+       "name": "Stone_Court"
+      },
+      "hasParticipant": [
+       {
+        "name": "Fred_Vincy"
+       },
+       {
+        "name": "Mary_Garth"
+       }
+      ]
+     }
     },
     {
      "name": "Despair",
-     "hasIntensity": 0.7,
-     "quote": "I shall never speak to you about anything again. I'm very sorry for all the trouble I've caused—that's all.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Rejection_by_Mary",
-      "name": "Rejection_by_Mary"
-     },
+     "hasIntensity": 0.8,
+     "quote": "I am so miserable, Mary—if you knew how miserable I am, you would be sorry for me.",
      "hasObject": {
-      "id": "texts/middlemarch.txt#Relationship_with_Mary",
-      "name": "Relationship_with_Mary"
+      "name": "Inability_to_pay_a_debt"
      },
-     "place": "Mary's house",
-     "id": "Despair"
+     "causedBy": {
+      "name": "Inability_to_pay_a_debt",
+      "takePlaceAt": {
+       "name": "Stone_Court"
+      },
+      "hasParticipant": [
+       {
+        "name": "Fred_Vincy"
+       },
+       {
+        "name": "Mary_Garth"
+       }
+      ]
+     }
     },
     {
      "name": "Hope",
-     "hasIntensity": 0.8,
+     "hasIntensity": 0.7,
      "quote": "Fred secretly felt that his future was guaranteed against the fulfilment of Mary’s sarcastic prophecies.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Expectations_from_Mr_Featherstone",
-      "name": "Expectations_from_Mr_Featherstone"
-     },
      "hasObject": {
-      "id": "texts/middlemarch.txt#Future_prospects",
-      "name": "Future_prospects"
+      "name": "Future_inheritance"
      },
-     "place": "On his way home",
-     "id": "Hope"
+     "causedBy": {
+      "name": "Hope_for_future_inheritance",
+      "takePlaceAt": {
+       "name": "Stone_Court"
+      },
+      "hasParticipant": [
+       {
+        "name": "Fred_Vincy"
+       },
+       {
+        "name": "Mary_Garth"
+       }
+      ]
+     }
     }
-   ],
-   "name": "Fred_Vincy"
+   ]
   },
   {
-   "id": "texts/middlemarch.txt#Mary_Garth",
+   "name": "Mary_Garth",
    "feels": [
+    {
+     "name": "Sadness",
+     "hasIntensity": 0.9,
+     "quote": "Oh, poor mother, poor father!",
+     "hasObject": {
+      "name": "Inability_to_pay_a_debt"
+     },
+     "causedBy": {
+      "name": "Inability_to_pay_a_debt",
+      "takePlaceAt": {
+       "name": "Stone_Court"
+      },
+      "hasParticipant": [
+       {
+        "name": "Mary_Garth"
+       },
+       {
+        "name": "Fred_Vincy"
+       }
+      ]
+     }
+    },
     {
      "name": "Pity",
      "hasIntensity": 0.8,
-     "quote": "Her pity for him surmounted her anger and all her other anxieties.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Fred_s_despairing_glance",
-      "name": "Fred_s_despairing_glance"
-     },
+     "quote": "And when, looking up, her eyes met his dull despairing glance, her pity for him surmounted her anger and all her other anxieties.",
      "hasObject": {
-      "id": "texts/middlemarch.txt#Fred_Vincy",
-      "name": "Fred_Vincy"
+      "name": "Fred_s_despair"
      },
-     "place": "Mary's house",
-     "id": "Pity"
+     "causedBy": {
+      "name": "Fred_s_despair",
+      "takePlaceAt": {
+       "name": "Stone_Court"
+      },
+      "hasParticipant": [
+       {
+        "name": "Mary_Garth"
+       },
+       {
+        "name": "Fred_Vincy"
+       }
+      ]
+     }
     },
     {
-     "name": "Resentment",
-     "hasIntensity": 0.9,
-     "quote": "How can you bear to be so contemptible, when others are working and striving, and there are so many things to be done?",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Fred_s_irresponsibility",
-      "name": "Fred_s_irresponsibility"
-     },
-     "hasObject": {
-      "id": "texts/middlemarch.txt#Fred_Vincy",
-      "name": "Fred_Vincy"
-     },
-     "place": "Mary's house",
-     "id": "Resentment"
-    },
-    {
-     "name": "Love",
-     "hasIntensity": 0.9,
+     "name": "Resignation",
+     "hasIntensity": 0.7,
      "quote": "I consider my father and mother the best part of myself, sir.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Father_s_concern_for_her_savings",
-      "name": "Father_s_concern_for_her_savings"
-     },
      "hasObject": {
-      "id": "texts/middlemarch.txt#Family",
-      "name": "Family"
+      "name": "Inability_to_keep_her_earnings"
      },
-     "place": "Mary's house",
-     "id": "Love"
+     "causedBy": {
+      "name": "Inability_to_keep_her_earnings",
+      "takePlaceAt": {
+       "name": "Stone_Court"
+      },
+      "hasParticipant": [
+       {
+        "name": "Mary_Garth"
+       },
+       {
+        "name": "Mr_Featherstone"
+       }
+      ]
+     }
     }
-   ],
-   "name": "Mary_Garth"
+   ]
   },
   {
-   "id": "texts/middlemarch.txt#Caleb_Garth",
+   "name": "Caleb_Garth",
    "feels": [
     {
      "name": "Tenderness",
      "hasIntensity": 0.8,
-     "quote": "Caleb's voice became more tender; he had been pushing his hat about on the table and looking at it, but finally he turned his eyes on his daughter.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Concern_for_Mary_s_future",
-      "name": "Concern_for_Mary_s_future"
-     },
+     "quote": "But I was afraid there might be something between you and Fred, and I wanted to caution you.",
      "hasObject": {
-      "id": "texts/middlemarch.txt#Mary_Garth",
-      "name": "Mary_Garth"
+      "name": "Concern_for_Mary_s_wellbeing"
      },
-     "place": "Mary's house",
-     "id": "Tenderness"
+     "causedBy": {
+      "name": "Concern_for_Mary_s_wellbeing",
+      "takePlaceAt": {
+       "name": "Stone_Court"
+      },
+      "hasParticipant": [
+       {
+        "name": "Caleb_Garth"
+       },
+       {
+        "name": "Mary_Garth"
+       }
+      ]
+     }
     },
     {
-     "name": "Regret",
+     "name": "Pride",
      "hasIntensity": 0.7,
-     "quote": "I’ve been a bit of a fool again, and put my name to a bill, and now it comes to paying.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Financial_trouble",
-      "name": "Financial_trouble"
-     },
+     "quote": "I consider my father and mother the best part of myself, sir.",
      "hasObject": {
-      "id": "texts/middlemarch.txt#Money",
-      "name": "Money"
+      "name": "Inability_to_keep_Mary_s_earnings"
      },
-     "place": "Mary's house",
-     "id": "Regret"
+     "causedBy": {
+      "name": "Inability_to_keep_Mary_s_earnings",
+      "takePlaceAt": {
+       "name": "Stone_Court"
+      },
+      "hasParticipant": [
+       {
+        "name": "Caleb_Garth"
+       },
+       {
+        "name": "Mary_Garth"
+       }
+      ]
+     }
     }
-   ],
-   "name": "Caleb_Garth"
-  }
- ],
- "Places": [
-  {
-   "id": "texts/middlemarch.txt#Mary_s_house",
-   "name": "Mary_s_house",
-   "description": "The setting for emotional conversations and revelations between the characters."
-  }
- ],
- "Events": [
-  {
-   "id": "texts/middlemarch.txt#Inability_to_pay_back_money_borrowed",
-   "name": "Inability_to_pay_back_money_borrowed"
-  },
-  {
-   "id": "texts/middlemarch.txt#Rejection_by_Mary",
-   "name": "Rejection_by_Mary"
-  },
-  {
-   "id": "texts/middlemarch.txt#Expectations_from_Mr_Featherstone",
-   "name": "Expectations_from_Mr_Featherstone"
-  },
-  {
-   "id": "texts/middlemarch.txt#Fred_s_despairing_glance",
-   "name": "Fred_s_despairing_glance"
-  },
-  {
-   "id": "texts/middlemarch.txt#Fred_s_irresponsibility",
-   "name": "Fred_s_irresponsibility"
-  },
-  {
-   "id": "texts/middlemarch.txt#Father_s_concern_for_her_savings",
-   "name": "Father_s_concern_for_her_savings"
-  },
-  {
-   "id": "texts/middlemarch.txt#Concern_for_Mary_s_future",
-   "name": "Concern_for_Mary_s_future"
-  },
-  {
-   "id": "texts/middlemarch.txt#Financial_trouble",
-   "name": "Financial_trouble"
+   ]
   }
  ]
 }

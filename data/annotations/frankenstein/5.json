@@ -1,198 +1,159 @@
 {
  "FictionalCharacters": [
   {
-   "id": "fc1",
    "name": "Victor Frankenstein",
    "feels": [
     {
      "name": "Fear",
      "hasIntensity": 0.8,
      "quote": "During my absence I should leave my friends unconscious of the existence of their enemy and unprotected from his attacks, exasperated as he might be by my departure.",
-     "causedBy": {
-      "id": "event1",
-      "name": "Leaving his friends unprotected"
+     "causedByEvent": {
+      "name": "Leaving his friends unprotected from the creature",
+      "takePlaceAt": {
+       "name": "During his absence"
+      },
+      "hasParticipant": [
+       {
+        "name": "Victor Frankenstein"
+       },
+       {
+        "name": "his friends"
+       },
+       {
+        "name": "the creature"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object1",
-      "name": "Enemy"
-     },
-     "exactPlace": "During his journey"
+      "name": "Creature"
+     }
     },
     {
      "name": "Anguish",
      "hasIntensity": 0.9,
      "quote": "Every thought that was devoted to it was an extreme anguish, and every word that I spoke in allusion to it caused my lips to quiver, and my heart to palpitate.",
-     "causedBy": {
-      "id": "event2",
-      "name": "Collecting materials for his new creation"
+     "causedByEvent": {
+      "name": "Collecting materials for his new creation",
+      "takePlaceAt": {
+       "name": "During his journey"
+      },
+      "hasParticipant": [
+       {
+        "name": "Victor Frankenstein"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object2",
       "name": "New creation"
-     },
-     "exactPlace": "During his journey"
+     }
     },
     {
      "name": "Despair",
      "hasIntensity": 0.7,
-     "quote": "I saw an insurmountable barrier placed between me and my fellow men; this barrier was sealed with the blood of William and Justine, and to reflect on the events connected with those names filled my soul with anguish.",
-     "causedBy": {
-      "id": "event3",
-      "name": "Reflecting on the events connected with William and Justine"
+     "quote": "Company was irksome to me; when alone, I could fill my mind with the sights of heaven and earth; the voice of Henry soothed me, and I could thus cheat myself into a transitory peace. But busy, uninteresting, joyous faces brought back despair to my heart.",
+     "causedByEvent": {
+      "name": "Being in company",
+      "takePlaceAt": {
+       "name": "During his journey"
+      },
+      "hasParticipant": [
+       {
+        "name": "Victor Frankenstein"
+       },
+       {
+        "name": "Henry"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object3",
-      "name": "Events connected with William and Justine"
-     },
-     "exactPlace": "During his journey"
+      "name": "Being in company"
+     }
     },
     {
      "name": "Sorrow",
      "hasIntensity": 0.8,
      "quote": "Pardon this gush of sorrow; these ineffectual words are but a slight tribute to the unexampled worth of Henry, but they soothe my heart, overflowing with the anguish which his remembrance creates.",
-     "causedBy": {
-      "id": "event4",
-      "name": "Remembrance of Henry"
+     "causedByEvent": {
+      "name": "Remembering Henry",
+      "takePlaceAt": {
+       "name": "During his journey"
+      },
+      "hasParticipant": [
+       {
+        "name": "Victor Frankenstein"
+       },
+       {
+        "name": "Henry"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object4",
       "name": "Henry"
-     },
-     "exactPlace": "During his journey"
+     }
     },
     {
-     "name": "Hopelessness",
-     "hasIntensity": 0.9,
-     "quote": "But the iron had eaten into my flesh, and I sank again, trembling and hopeless, into my miserable self.",
-     "causedBy": {
-      "id": "event5",
-      "name": "Feeling of hopelessness"
+     "name": "Regret",
+     "hasIntensity": 0.7,
+     "quote": "We left Oxford with regret and proceeded to Matlock, which was our next place of rest.",
+     "causedByEvent": {
+      "name": "Leaving Oxford",
+      "takePlaceAt": {
+       "name": "During his journey"
+      },
+      "hasParticipant": [
+       {
+        "name": "Victor Frankenstein"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object5",
-      "name": "Hopelessness"
-     },
-     "exactPlace": "During his journey"
+      "name": "Leaving Oxford"
+     }
     }
    ]
   },
   {
-   "id": "fc2",
    "name": "Henry Clerval",
    "feels": [
     {
      "name": "Joy",
      "hasIntensity": 0.9,
-     "quote": "He felt as if he had been transported to Fairy-land and enjoyed a happiness seldom tasted by man.",
-     "causedBy": {
-      "id": "event6",
-      "name": "Being in new scenes of life"
-     },
-     "hasObject": {
-      "id": "object6",
-      "name": "New scenes of life"
-     },
-     "exactPlace": "During the journey"
-    },
-    {
-     "name": "Pleasure",
-     "hasIntensity": 0.8,
      "quote": "The delight of Clerval was proportionably greater than mine; his mind expanded in the company of men of talent, and he found in his own nature greater capacities and resources than he could have imagined himself to have possessed while he associated with his inferiors.",
-     "causedBy": {
-      "id": "event7",
-      "name": "Being in the company of men of talent"
+     "causedByEvent": {
+      "name": "Being in the company of men of talent",
+      "takePlaceAt": {
+       "name": "During his journey"
+      },
+      "hasParticipant": [
+       {
+        "name": "Henry Clerval"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object7",
-      "name": "Company of men of talent"
-     },
-     "exactPlace": "During the journey"
+      "name": "Being in the company of men of talent"
+     }
     },
     {
      "name": "Pain",
-     "hasIntensity": 0.7,
+     "hasIntensity": 0.8,
      "quote": "But he found that a traveller’s life is one that includes much pain amidst its enjoyments.",
-     "causedBy": {
-      "id": "event8",
-      "name": "Traveller's life"
+     "causedByEvent": {
+      "name": "Travelling",
+      "takePlaceAt": {
+       "name": "During his journey"
+      },
+      "hasParticipant": [
+       {
+        "name": "Henry Clerval"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object8",
-      "name": "Traveller's life"
-     },
-     "exactPlace": "During the journey"
+      "name": "Travelling"
+     }
     }
    ]
-  }
- ],
- "Places": [
-  {
-   "id": "place1",
-   "name": "England",
-   "description": "Various locations in England including London, Oxford, Matlock, Cumberland, and Westmorland."
-  },
-  {
-   "id": "place2",
-   "name": "Switzerland",
-   "description": "Victor Frankenstein's native country with majestic mountains and beautiful scenery."
-  }
- ],
- "Events": [
-  {
-   "id": "event1",
-   "name": "Leaving his friends unprotected",
-   "takePlaceAt": {
-    "id": "place1"
-   }
-  },
-  {
-   "id": "event2",
-   "name": "Collecting materials for his new creation",
-   "takePlaceAt": {
-    "id": "place1"
-   }
-  },
-  {
-   "id": "event3",
-   "name": "Reflecting on the events connected with William and Justine",
-   "takePlaceAt": {
-    "id": "place1"
-   }
-  },
-  {
-   "id": "event4",
-   "name": "Remembrance of Henry",
-   "takePlaceAt": {
-    "id": "place1"
-   }
-  },
-  {
-   "id": "event5",
-   "name": "Feeling of hopelessness",
-   "takePlaceAt": {
-    "id": "place1"
-   }
-  },
-  {
-   "id": "event6",
-   "name": "Being in new scenes of life",
-   "takePlaceAt": {
-    "id": "place1"
-   }
-  },
-  {
-   "id": "event7",
-   "name": "Being in the company of men of talent",
-   "takePlaceAt": {
-    "id": "place1"
-   }
-  },
-  {
-   "id": "event8",
-   "name": "Traveller's life",
-   "takePlaceAt": {
-    "id": "place1"
-   }
   }
  ]
 }

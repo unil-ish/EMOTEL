@@ -1,95 +1,189 @@
 {
  "FictionalCharacters": [
   {
-   "id": "fc1",
    "name": "Amy",
    "feels": [
     {
      "name": "Fear",
      "hasIntensity": 0.7,
      "quote": "I've been so scared and worried, I don't want to have anything to do with lovers for a long while,--perhaps never.",
-     "causedBy": {
-      "id": "event1",
-      "name": "Receiving a love letter"
+     "causedByEvent": {
+      "name": "Receiving a love letter",
+      "takePlaceAt": {
+       "name": "Home"
+      },
+      "hasParticipant": [
+       {
+        "name": "Amy"
+       },
+       {
+        "name": "Laurie"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object1",
       "name": "Love letter"
+     }
+    },
+    {
+     "name": "Shame",
+     "hasIntensity": 0.8,
+     "quote": "I've been so scared and worried, I don't want to have anything to do with lovers for a long while,--perhaps never.",
+     "causedByEvent": {
+      "name": "Receiving a love letter",
+      "takePlaceAt": {
+       "name": "Home"
+      },
+      "hasParticipant": [
+       {
+        "name": "Amy"
+       },
+       {
+        "name": "Laurie"
+       }
+      ]
      },
-     "exactPlace": "In the study"
+     "hasObject": {
+      "name": "Love letter"
+     }
     }
    ]
   },
   {
-   "id": "fc2",
    "name": "Laurie",
    "feels": [
     {
      "name": "Indignation",
-     "hasIntensity": 0.8,
+     "hasIntensity": 0.9,
      "quote": "I've been shaken, and I won't bear it!",
-     "causedBy": {
-      "id": "event2",
-      "name": "Being shaken by grandfather"
+     "causedByEvent": {
+      "name": "Being shaken by grandfather",
+      "takePlaceAt": {
+       "name": "Home"
+      },
+      "hasParticipant": [
+       {
+        "name": "Laurie"
+       },
+       {
+        "name": "Grandfather"
+       }
+      ]
      },
-     "exactPlace": "In the study"
+     "hasObject": {
+      "name": "Being shaken"
+     }
+    },
+    {
+     "name": "Shame",
+     "hasIntensity": 0.7,
+     "quote": "I was sorry about Meg, and begged pardon like a man; but I won't do it again, when I wasn't in the wrong.",
+     "causedByEvent": {
+      "name": "Apologizing to Meg",
+      "takePlaceAt": {
+       "name": "Home"
+      },
+      "hasParticipant": [
+       {
+        "name": "Laurie"
+       },
+       {
+        "name": "Meg"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Apologizing"
+     }
+    },
+    {
+     "name": "Defiance",
+     "hasIntensity": 0.8,
+     "quote": "I won't go down till he does.",
+     "causedByEvent": {
+      "name": "Refusing to apologize",
+      "takePlaceAt": {
+       "name": "Home"
+      },
+      "hasParticipant": [
+       {
+        "name": "Laurie"
+       },
+       {
+        "name": "Grandfather"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Apologizing"
+     }
     }
    ]
   },
   {
-   "id": "fc3",
    "name": "Jo",
    "feels": [
     {
-     "name": "Sorrow",
-     "hasIntensity": 0.7,
-     "quote": "Seeing that he really was out of temper, Jo, who knew how to manage him, assumed a contrite expression, and going artistically down upon her knees, said meekly, 'Please forgive me for being so cross. I came to make it up, and can't go away till I have.'",
-     "causedBy": {
-      "id": "event3",
-      "name": "Laurie being out of temper"
+     "name": "Loneliness",
+     "hasIntensity": 0.6,
+     "quote": "After resisting for some time, she yielded to the impulse, and, armed with a book to return, went over to the big house.",
+     "causedByEvent": {
+      "name": "Feeling lonely",
+      "takePlaceAt": {
+       "name": "Home"
+      },
+      "hasParticipant": [
+       {
+        "name": "Jo"
+       }
+      ]
      },
-     "exactPlace": "In the study"
+     "hasObject": {
+      "name": "Feeling lonely"
+     }
+    },
+    {
+     "name": "Temptation",
+     "hasIntensity": 0.8,
+     "quote": "What fun you'd have! I wish I could run off too.",
+     "causedByEvent": {
+      "name": "Feeling tempted to run away",
+      "takePlaceAt": {
+       "name": "Home"
+      },
+      "hasParticipant": [
+       {
+        "name": "Jo"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Running away"
+     }
+    },
+    {
+     "name": "Disapproval",
+     "hasIntensity": 0.7,
+     "quote": "That's nothing; I often shake you, and you don't mind.",
+     "causedByEvent": {
+      "name": "Being shaken by Laurie",
+      "takePlaceAt": {
+       "name": "Home"
+      },
+      "hasParticipant": [
+       {
+        "name": "Jo"
+       },
+       {
+        "name": "Laurie"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Being shaken"
+     }
     }
    ]
-  }
- ],
- "Places": [
-  {
-   "id": "place1",
-   "name": "The study",
-   "description": "A room in the house where discussions and conflicts take place."
-  }
- ],
- "Events": [
-  {
-   "id": "event1",
-   "name": "Receiving a love letter",
-   "takePlaceAt": {
-    "id": "place1"
-   },
-   "hasParticipant": {
-    "id": "fc1"
-   }
-  },
-  {
-   "id": "event2",
-   "name": "Being shaken by grandfather",
-   "takePlaceAt": {
-    "id": "place1"
-   },
-   "hasParticipant": {
-    "id": "fc2"
-   }
-  },
-  {
-   "id": "event3",
-   "name": "Laurie being out of temper",
-   "takePlaceAt": {
-    "id": "place1"
-   },
-   "hasParticipant": {
-    "id": "fc3"
-   }
   }
  ]
 }

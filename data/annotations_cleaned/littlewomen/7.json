@@ -1,91 +1,124 @@
 {
  "FictionalCharacters": [
   {
-   "id": "texts/littlewomen.txt#Jo",
-   "name": "Jo",
+   "name": "Jo_March",
    "feels": [
-    {
-     "name": "Relief",
-     "hasIntensity": 0.9,
-     "quote": "A dreadful fear passed coldly over Jo, as she thought, 'Beth is dead, and Meg is afraid to tell me.' She was back at her post in an instant, and to her excited eyes a great change seemed to have taken place.",
-     "place": "By the bed",
-     "causedBy": {
-      "name": "Seeing_Meg_kneeling_before_their_mother_s_easychair",
-      "id": "texts/littlewomen.txt#Seeing_Meg_kneeling_before_their_mother_s_easychai"
-     },
-     "id": "Relief"
-    },
-    {
-     "name": "Joy",
-     "hasIntensity": 0.95,
-     "quote": "Leaning low over this dearest of her sisters, she kissed the damp forehead with her heart on her lips, and softly whispered, 'Good-by, my Beth; good-by!'",
-     "place": "By the bed",
-     "causedBy": {
-      "name": "Seeing_the_peaceful_expression_on_Beth_s_face",
-      "id": "texts/littlewomen.txt#Seeing_the_peaceful_expression_on_Beth_s_face"
-     },
-     "id": "Joy"
-    },
     {
      "name": "Hope",
      "hasIntensity": 0.9,
-     "quote": "When they went back to be kissed and cuddled by faithful Hannah, they found Beth lying, as she used to do, with her cheek pillowed on her hand, the dreadful pallor gone, and breathing quietly, as if just fallen asleep.",
-     "place": "By the bed",
-     "causedBy": {
-      "name": "Confirmation_from_the_doctor_that_Beth_will_pull_through",
-      "id": "texts/littlewomen.txt#Confirmation_from_the_doctor_that_Beth_will_pull_t"
+     "quote": "If God spares Beth I never will complain again.",
+     "causeByEvent": {
+      "name": "Beth_s_recovery",
+      "takePlaceAt": {
+       "name": "Sickroom"
+      }
      },
-     "id": "Hope"
+     "hasObject": {
+      "name": "Beth_s_recovery"
+     }
     },
     {
      "name": "Gratitude",
-     "hasIntensity": 0.85,
-     "quote": "When they went back to be kissed and cuddled by faithful Hannah, they found Beth lying, as she used to do, with her cheek pillowed on her hand, the dreadful pallor gone, and breathing quietly, as if just fallen asleep.",
-     "place": "By the bed",
-     "causedBy": {
-      "name": "Confirmation_from_the_doctor_that_Beth_will_pull_through",
-      "id": "texts/littlewomen.txt#Confirmation_from_the_doctor_that_Beth_will_pull_t"
+     "hasIntensity": 0.8,
+     "quote": "O Laurie! O mother! I am so glad!",
+     "causeByEvent": {
+      "name": "Laurie_s_news_about_mother_s_arrival",
+      "takePlaceAt": {
+       "name": "Home"
+      }
      },
-     "id": "Gratitude"
+     "hasObject": {
+      "name": "Laurie_s_news_about_mother_s_arrival"
+     }
+    },
+    {
+     "name": "Relief",
+     "hasIntensity": 0.9,
+     "quote": "Good-by, my Beth; good-by!",
+     "causeByEvent": {
+      "name": "Beth_s_peaceful_repose",
+      "takePlaceAt": {
+       "name": "Sickroom"
+      }
+     },
+     "hasObject": {
+      "name": "Beth_s_peaceful_repose"
+     }
+    },
+    {
+     "name": "Joy",
+     "hasIntensity": 0.9,
+     "quote": "It looks like a fairy world.",
+     "causeByEvent": {
+      "name": "Seeing_the_beautiful_morning",
+      "takePlaceAt": {
+       "name": "Early_morning"
+      }
+     },
+     "hasObject": {
+      "name": "Seeing_the_beautiful_morning"
+     }
     }
    ]
   },
   {
-   "id": "texts/littlewomen.txt#Meg",
-   "name": "Meg",
+   "name": "Meg_March",
    "feels": [
     {
      "name": "Hope",
      "hasIntensity": 0.9,
-     "quote": "Before the girls could believe the happy truth, the doctor came to confirm it. He was a homely man, but they thought his face quite heavenly when he smiled, and said, with a fatherly look at them, 'Yes, my dears, I think the little girl will pull through this time.'",
-     "place": "By the bed",
-     "causedBy": {
-      "name": "Confirmation_from_the_doctor_that_Beth_will_pull_through",
-      "id": "texts/littlewomen.txt#Confirmation_from_the_doctor_that_Beth_will_pull_t"
+     "quote": "If God spares Beth I never will complain again.",
+     "causeByEvent": {
+      "name": "Beth_s_recovery",
+      "takePlaceAt": {
+       "name": "Sickroom"
+      }
      },
-     "id": "Hope"
+     "hasObject": {
+      "name": "Beth_s_recovery"
+     }
+    },
+    {
+     "name": "Gratitude",
+     "hasIntensity": 0.8,
+     "quote": "O Laurie! O mother! I am so glad!",
+     "causeByEvent": {
+      "name": "Laurie_s_news_about_mother_s_arrival",
+      "takePlaceAt": {
+       "name": "Home"
+      }
+     },
+     "hasObject": {
+      "name": "Laurie_s_news_about_mother_s_arrival"
+     }
+    },
+    {
+     "name": "Relief",
+     "hasIntensity": 0.9,
+     "quote": "Good-by, my Beth; good-by!",
+     "causeByEvent": {
+      "name": "Beth_s_peaceful_repose",
+      "takePlaceAt": {
+       "name": "Sickroom"
+      }
+     },
+     "hasObject": {
+      "name": "Beth_s_peaceful_repose"
+     }
     },
     {
      "name": "Joy",
      "hasIntensity": 0.9,
-     "quote": "Never had the sun risen so beautifully, and never had the world seemed so lovely, as it did to the heavy eyes of Meg and Jo, as they looked out in the early morning, when their long, sad vigil was done.",
-     "place": "Looking out in the early morning",
-     "causedBy": {
-      "name": "The_end_of_their_long_sad_vigil",
-      "id": "texts/littlewomen.txt#The_end_of_their_long_sad_vigil"
+     "quote": "It looks like a fairy world.",
+     "causeByEvent": {
+      "name": "Seeing_the_beautiful_morning",
+      "takePlaceAt": {
+       "name": "Early_morning"
+      }
      },
-     "id": "Joy"
-    },
-    {
-     "name": "Gratitude",
-     "hasIntensity": 0.85,
-     "quote": "When they went back to be kissed and cuddled by faithful Hannah, they found Beth lying, as she used to do, with her cheek pillowed on her hand, the dreadful pallor gone, and breathing quietly, as if just fallen asleep.",
-     "place": "By the bed",
-     "causedBy": {
-      "name": "Confirmation_from_the_doctor_that_Beth_will_pull_through",
-      "id": "texts/littlewomen.txt#Confirmation_from_the_doctor_that_Beth_will_pull_t"
-     },
-     "id": "Gratitude"
+     "hasObject": {
+      "name": "Seeing_the_beautiful_morning"
+     }
     }
    ]
   }

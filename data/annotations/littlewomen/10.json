@@ -1,154 +1,117 @@
 {
  "FictionalCharacters": [
   {
-   "id": "Amy",
+   "name": "Amy",
    "feels": [
     {
      "name": "Determination",
      "hasIntensity": 0.9,
-     "quote": "I can't have it as I like, I don't care to have it at all.",
-     "causedBy": {
-      "id": "event1",
-      "name": "Opposition from Jo"
+     "quote": "If I can't have it as I like, I don't care to have it at all.",
+     "causedByEvent": {
+      "name": "Opposition from Jo",
+      "takePlaceAt": {
+       "name": "Home"
+      }
      },
      "hasObject": {
-      "id": "object1",
-      "name": "Lunch for the girls"
-     },
-     "place": {
-      "id": "place1",
-      "name": "Home"
+      "name": "Arranging an artistic fête for her friends"
      }
     },
     {
      "name": "Gratitude",
      "hasIntensity": 0.8,
      "quote": "If it hadn't been for mother I never should have got through.",
-     "causedBy": {
-      "id": "event2",
-      "name": "Mother's help"
+     "causedByEvent": {
+      "name": "Successful completion of the event",
+      "takePlaceAt": {
+       "name": "Home"
+      }
      },
      "hasObject": {
-      "id": "object2",
-      "name": "Preparation for the event"
-     },
-     "place": {
-      "id": "place1",
-      "name": "Home"
+      "name": "Mother's support"
      }
     },
     {
-     "name": "Disappointment",
+     "name": "Anxiety",
      "hasIntensity": 0.7,
-     "quote": "I can't get any lobsters, so you will have to do without salad today.",
-     "causedBy": {
-      "id": "event3",
-      "name": "Unavailability of lobsters"
+     "quote": "The lunch looked charmingly; and as she surveyed it, she sincerely hoped it would taste well.",
+     "causedByEvent": {
+      "name": "Preparation for the event",
+      "takePlaceAt": {
+       "name": "Home"
+      }
      },
      "hasObject": {
-      "id": "object3",
-      "name": "Lunch preparation"
-     },
-     "place": {
-      "id": "place1",
-      "name": "Home"
+      "name": "Success of the lunch"
      }
     }
    ]
   },
   {
-   "id": "Jo",
+   "name": "Jo",
    "feels": [
     {
-     "name": "Disapproval",
+     "name": "Defiance",
      "hasIntensity": 0.8,
      "quote": "Why in the world should you spend your money, worry your family, and turn the house upside down for a parcel of girls who don't care a sixpence for you?",
-     "causedBy": {
-      "id": "event4",
-      "name": "Amy's plan for the event"
+     "causedByEvent": {
+      "name": "Opposition to Amy's plan",
+      "takePlaceAt": {
+       "name": "Home"
+      }
      },
      "hasObject": {
-      "id": "object4",
-      "name": "Girls' visit"
-     },
-     "place": {
-      "id": "place1",
-      "name": "Home"
+      "name": "Amy's plan"
      }
     },
     {
-     "name": "Reluctance",
+     "name": "Amusement",
      "hasIntensity": 0.7,
-     "quote": "I would have nothing to do with it at first.",
-     "causedBy": {
-      "id": "event5",
-      "name": "Amy's plan for the event"
+     "quote": "Amy's definition of Jo's idea of independence was such a good hit that both burst out laughing.",
+     "causedByEvent": {
+      "name": "Amy's witty remark",
+      "takePlaceAt": {
+       "name": "Home"
+      }
      },
      "hasObject": {
-      "id": "object5",
-      "name": "Girls' visit"
-     },
-     "place": {
-      "id": "place1",
-      "name": "Home"
+      "name": "Amy's witty remark"
      }
     }
    ]
   },
   {
-   "id": "Mrs. March",
+   "name": "Mrs. March",
    "feels": [
     {
      "name": "Resignation",
-     "hasIntensity": 0.7,
-     "quote": "If your heart is set upon it, and you see your way through without too great an outlay of money, time, and temper, I'll say no more.",
-     "causedBy": {
-      "id": "event6",
-      "name": "Amy's determination to proceed with the event"
+     "hasIntensity": 0.8,
+     "quote": "Very well, Amy; if your heart is set upon it, and you see your way through without too great an outlay of money, time, and temper, I'll say no more.",
+     "causedByEvent": {
+      "name": "Amy's determination",
+      "takePlaceAt": {
+       "name": "Home"
+      }
      },
      "hasObject": {
-      "id": "object6",
-      "name": "Girls' visit"
+      "name": "Amy's determination"
+     }
+    },
+    {
+     "name": "Amusement",
+     "hasIntensity": 0.7,
+     "quote": "Mrs. March laughed, and smoothed down her maternal pride as she asked,--",
+     "causedByEvent": {
+      "name": "Amy's witty remark",
+      "takePlaceAt": {
+       "name": "Home"
+      }
      },
-     "place": {
-      "id": "place1",
-      "name": "Home"
+     "hasObject": {
+      "name": "Amy's witty remark"
      }
     }
    ]
-  }
- ],
- "Places": [
-  {
-   "id": "place1",
-   "name": "Home",
-   "description": "The setting for the preparations and discussions for the event."
-  }
- ],
- "Events": [
-  {
-   "id": "event1",
-   "name": "Opposition from Jo"
-  },
-  {
-   "id": "event2",
-   "name": "Mother's help"
-  },
-  {
-   "id": "event3",
-   "name": "Unavailability of lobsters"
-  },
-  {
-   "id": "event4",
-   "name": "Amy's plan for the event"
-  },
-  {
-   "id": "event5",
-   "name": "Amy's plan for the event"
-  },
-  {
-   "id": "event6",
-   "name": "Amy's determination to proceed with the event"
   }
  ]
 }

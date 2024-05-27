@@ -1,181 +1,146 @@
 {
  "FictionalCharacters": [
   {
-   "id": "texts/middlemarch.txt#Lydgate",
+   "name": "Will",
    "feels": [
-    {
-     "name": "Trust",
-     "hasIntensity": 0.2,
-     "quote": "It was as if a fracture in delicate crystal had begun, and he was afraid of any movement that might make it fatal.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Discussion_with_his_wife_about_their_financial_sit",
-      "name": "Discussion_with_his_wife_about_their_financial_situation"
-     },
-     "hasObject": {
-      "id": "texts/middlemarch.txt#Relationship_with_his_wife",
-      "name": "Relationship_with_his_wife"
-     },
-     "exactPlace": "Within him",
-     "id": "Trust"
-    },
     {
      "name": "Anger",
-     "hasIntensity": 0.7,
-     "quote": "He wheeled round there, and turned towards her.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Rosamond_s_suggestion_to_part_with_the_house",
-      "name": "Rosamond_s_suggestion_to_part_with_the_house"
-     },
-     "hasObject": {
-      "id": "texts/middlemarch.txt#House",
-      "name": "House"
-     },
-     "exactPlace": "Within him",
-     "id": "Anger"
-    },
-    {
-     "name": "Joy",
-     "hasIntensity": 0.5,
-     "quote": "He tried that evening, by petting her, to heal the wound he had made in the morning.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Attempt_to_mend_the_situation_with_his_wife",
-      "name": "Attempt_to_mend_the_situation_with_his_wife"
-     },
-     "hasObject": {
-      "id": "texts/middlemarch.txt#Relationship_with_his_wife",
-      "name": "Relationship_with_his_wife"
-     },
-     "exactPlace": "Within him",
-     "id": "Joy"
-    }
-   ],
-   "name": "Lydgate"
-  },
-  {
-   "id": "texts/middlemarch.txt#Rosamond",
-   "feels": [
-    {
-     "name": "Dread",
-     "hasIntensity": 0.6,
-     "quote": "He felt that the chief result of the discussion was a deposit of dread within him at the idea of opening with his wife in future subjects which might again urge him to violent speech.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Discussion_with_her_husband_about_their_financial_",
-      "name": "Discussion_with_her_husband_about_their_financial_situation"
-     },
-     "hasObject": {
-      "id": "texts/middlemarch.txt#Future_discussions",
-      "name": "Future_discussions"
-     },
-     "exactPlace": "Within her",
-     "id": "Dread"
-    },
-    {
-     "name": "Bitterness",
      "hasIntensity": 0.8,
-     "quote": "It was a moment of more intense bitterness than she had ever felt before.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Realization_of_the_financial_situation",
-      "name": "Realization_of_the_financial_situation"
-     },
+     "quote": "He had really a movement of anger against her at that moment, and it impelled him to go away without pause.",
      "hasObject": {
-      "id": "texts/middlemarch.txt#Financial_situation",
-      "name": "Financial_situation"
+      "name": "Rosamond"
      },
-     "exactPlace": "Within her",
-     "id": "Bitterness"
+     "causedBy": {
+      "name": "Discussion_about_their_relationship",
+      "takePlaceAt": {
+       "name": "Their_home"
+      },
+      "hasParticipant": [
+       {
+        "name": "Will"
+       },
+       {
+        "name": "Dorothea"
+       }
+      ]
+     }
     },
     {
-     "name": "Determination",
-     "hasIntensity": 0.7,
-     "quote": "But this was something quite distinct from loving him. Lydgate would not have chosen soon to recur to the plan of parting with the house; he was resolved to carry it out, and say as little more about it as possible.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Decision_to_prevent_the_parting_with_the_house",
-      "name": "Decision_to_prevent_the_parting_with_the_house"
-     },
+     "name": "Disappointment",
+     "hasIntensity": 0.9,
+     "quote": "He was feeling bitter disappointment, as if he had opened a door out of a suffocating place and had found it walled up.",
      "hasObject": {
-      "id": "texts/middlemarch.txt#House",
-      "name": "House"
+      "name": "House_in_St_Peters_Place"
      },
-     "exactPlace": "Within her",
-     "id": "Determination"
-    }
-   ],
-   "name": "Rosamond"
-  }
- ],
- "Places": [
-  {
-   "id": "texts/middlemarch.txt#Middlemarch",
-   "name": "Middlemarch",
-   "description": "The town where the characters reside."
-  }
- ],
- "Events": [
-  {
-   "id": "texts/middlemarch.txt#Discussion_with_his_wife_about_their_financial_sit",
-   "name": "Discussion_with_his_wife_about_their_financial_situation",
-   "takePlaceAt": {
-    "id": "texts/middlemarch.txt#Middlemarch",
-    "name": "Middlemarch"
-   },
-   "hasParticipant": [
-    {
-     "id": "texts/middlemarch.txt#Lydgate",
-     "name": "Lydgate"
+     "causedBy": {
+      "name": "Finding_out_that_the_house_was_already_taken",
+      "takePlaceAt": {
+       "name": "Their_home"
+      },
+      "hasParticipant": [
+       {
+        "name": "Lydgate"
+       },
+       {
+        "name": "Rosamond"
+       }
+      ]
+     }
     },
     {
-     "id": "texts/middlemarch.txt#Rosamond",
-     "name": "Rosamond"
+     "name": "Vexation",
+     "hasIntensity": 0.8,
+     "quote": "He was feeling bitter disappointment, as if he had opened a door out of a suffocating place and had found it walled up.",
+     "hasObject": {
+      "name": "House_in_St_Peters_Place"
+     },
+     "causedBy": {
+      "name": "Finding_out_that_the_house_was_already_taken",
+      "takePlaceAt": {
+       "name": "Their_home"
+      },
+      "hasParticipant": [
+       {
+        "name": "Lydgate"
+       },
+       {
+        "name": "Rosamond"
+       }
+      ]
+     }
     }
    ]
   },
   {
-   "id": "texts/middlemarch.txt#Rosamond_s_suggestion_to_part_with_the_house",
-   "name": "Rosamond_s_suggestion_to_part_with_the_house",
-   "takePlaceAt": {
-    "id": "texts/middlemarch.txt#Middlemarch",
-    "name": "Middlemarch"
-   },
-   "hasParticipant": {
-    "id": "texts/middlemarch.txt#Lydgate",
-    "name": "Lydgate"
-   }
-  },
-  {
-   "id": "texts/middlemarch.txt#Attempt_to_mend_the_situation_with_his_wife",
-   "name": "Attempt_to_mend_the_situation_with_his_wife",
-   "takePlaceAt": {
-    "id": "texts/middlemarch.txt#Middlemarch",
-    "name": "Middlemarch"
-   },
-   "hasParticipant": {
-    "id": "texts/middlemarch.txt#Lydgate",
-    "name": "Lydgate"
-   }
-  },
-  {
-   "id": "texts/middlemarch.txt#Realization_of_the_financial_situation",
-   "name": "Realization_of_the_financial_situation",
-   "takePlaceAt": {
-    "id": "texts/middlemarch.txt#Middlemarch",
-    "name": "Middlemarch"
-   },
-   "hasParticipant": {
-    "id": "texts/middlemarch.txt#Rosamond",
-    "name": "Rosamond"
-   }
-  },
-  {
-   "id": "texts/middlemarch.txt#Decision_to_prevent_the_parting_with_the_house",
-   "name": "Decision_to_prevent_the_parting_with_the_house",
-   "takePlaceAt": {
-    "id": "texts/middlemarch.txt#Middlemarch",
-    "name": "Middlemarch"
-   },
-   "hasParticipant": {
-    "id": "texts/middlemarch.txt#Rosamond",
-    "name": "Rosamond"
-   }
+   "name": "Rosamond",
+   "feels": [
+    {
+     "name": "Satisfaction",
+     "hasIntensity": 0.7,
+     "quote": "He also felt sure that Rosamond was pleased with the cause of his disappointment.",
+     "hasObject": {
+      "name": "House_in_St_Peters_Place"
+     },
+     "causedBy": {
+      "name": "Finding_out_that_the_house_was_already_taken",
+      "takePlaceAt": {
+       "name": "Their_home"
+      },
+      "hasParticipant": [
+       {
+        "name": "Lydgate"
+       },
+       {
+        "name": "Rosamond"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Dread",
+     "hasIntensity": 0.8,
+     "quote": "That evening Lydgate was a little comforted by observing that Rosamond was more lively than she had usually been of late, and even seemed interested in doing what would please him without being asked.",
+     "hasObject": {
+      "name": "Lydgate_s_disappointment"
+     },
+     "causedBy": {
+      "name": "Lydgate_s_disappointment",
+      "takePlaceAt": {
+       "name": "Their_home"
+      },
+      "hasParticipant": [
+       {
+        "name": "Lydgate"
+       },
+       {
+        "name": "Rosamond"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Relief",
+     "hasIntensity": 0.7,
+     "quote": "She trusted to the chance that nothing more would pass between her husband and the auctioneer until some issue should have justified her interference.",
+     "hasObject": {
+      "name": "Preventing_further_discussion_about_the_house"
+     },
+     "causedBy": {
+      "name": "Preventing_further_discussion_about_the_house",
+      "takePlaceAt": {
+       "name": "Their_home"
+      },
+      "hasParticipant": [
+       {
+        "name": "Lydgate"
+       },
+       {
+        "name": "Rosamond"
+       }
+      ]
+     }
+    }
+   ]
   }
  ]
 }

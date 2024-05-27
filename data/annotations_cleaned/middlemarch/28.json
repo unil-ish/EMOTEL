@@ -1,126 +1,98 @@
 {
  "FictionalCharacters": [
   {
-   "id": "texts/middlemarch.txt#Lydgate",
    "name": "Lydgate",
    "feels": [
     {
-     "name": "Excitement",
+     "name": "Disgust",
      "hasIntensity": 0.8,
-     "quote": "He was acting, watching, speaking with that excited narrow consciousness which reminds one of an animal with fierce eyes and retractile claws.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Betting_on_his_own_strokes",
-      "name": "Betting_on_his_own_strokes"
-     },
+     "quote": "He felt unmixed disgust with himself the next day when he had to pay four or five pounds over and above his gains, and he carried about with him a most unpleasant vision of the figure he had made, not only rubbing elbows with the men at the Green Dragon but behaving just as they did.",
      "hasObject": {
-      "id": "texts/middlemarch.txt#Billiard_table",
-      "name": "Billiard_table"
+      "name": "Himself"
      },
-     "exactPlace": "Green Dragon billiard-room",
-     "id": "Excitement"
+     "causedBy": {
+      "name": "Losing_money_in_the_billiardroom",
+      "takePlaceAt": {
+       "name": "Green_Dragon_billiardroom"
+      }
+     }
     },
     {
-     "name": "Shame",
+     "name": "Regret",
      "hasIntensity": 0.7,
-     "quote": "Lydgate felt shame, but could not bear to act as if he felt it, by refusing to see Mr. Farebrother.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Betting_on_his_own_strokes",
-      "name": "Betting_on_his_own_strokes"
-     },
+     "quote": "He had so many times boasted both to himself and others that he was totally independent of Bulstrode, to whose plans he had lent himself solely because they enabled him to carry out his own ideas of professional work and public benefit—he had so constantly in their personal intercourse had his pride sustained by the sense that he was making a good social use of this predominating banker, whose opinions he thought contemptible and whose motives often seemed to him an absurd mixture of contradictory impressions—that he had been creating for himself strong ideal obstacles to the proffering of any considerable request to him on his own account.",
      "hasObject": {
-      "id": "texts/middlemarch.txt#Money",
-      "name": "Money"
+      "name": "Independence_from_Bulstrode"
      },
-     "exactPlace": "Green Dragon billiard-room",
-     "id": "Shame"
+     "causedBy": {
+      "name": "Realizing_he_may_need_to_ask_for_help_from_Mr_Bulstrode",
+      "takePlaceAt": {
+       "name": "Personal_reflection"
+      }
+     }
+    },
+    {
+     "name": "Anxiety",
+     "hasIntensity": 0.9,
+     "quote": "With Dover’s ugly security soon to be put in force, with the proceeds of his practice immediately absorbed in paying back debts, and with the chance, if the worst were known, of daily supplies being refused on credit, above all with the vision of Rosamond’s hopeless discontent continually haunting him, Lydgate had begun to see that he should inevitably bend himself to ask help from somebody or other.",
+     "hasObject": {
+      "name": "Financial_stability"
+     },
+     "causedBy": {
+      "name": "Financial_difficulties_and_impending_consequences",
+      "takePlaceAt": {
+       "name": "Personal_reflection"
+      }
+     }
     }
    ]
   },
   {
-   "id": "texts/middlemarch.txt#Fred_Vincy",
    "name": "Fred_Vincy",
    "feels": [
     {
-     "name": "Shock",
-     "hasIntensity": 0.6,
-     "quote": "Fred felt a shock greater than he could quite account for by the vague knowledge that Lydgate was in debt.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Seeing_Lydgate_betting",
-      "name": "Seeing_Lydgate_betting"
-     },
-     "hasObject": {
-      "id": "texts/middlemarch.txt#Betting",
-      "name": "Betting"
-     },
-     "exactPlace": "Green Dragon billiard-room",
-     "id": "Shock"
-    },
-    {
      "name": "Alarm",
      "hasIntensity": 0.8,
-     "quote": "Fred was moved quite newly. Some one highly susceptible to the contemplation of a fine act has said, that it produces a sort of regenerating shudder through the frame, and makes one feel ready to begin a new life.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Mr_Farebrother_s_warning",
-      "name": "Mr_Farebrother_s_warning"
-     },
+     "quote": "He dreaded to hear that something had been said to Mary—he felt as if he were listening to a threat rather than a warning.",
      "hasObject": {
-      "id": "texts/middlemarch.txt#Warning",
-      "name": "Warning"
+      "name": "Mary_s_feelings"
      },
-     "exactPlace": "St. Botolph’s road",
-     "id": "Alarm"
+     "causedBy": {
+      "name": "Mr_Farebrother_s_conversation",
+      "takePlaceAt": {
+       "name": "Conversation_with_Mr_Farebrother"
+      }
+     }
+    },
+    {
+     "name": "Regret",
+     "hasIntensity": 0.7,
+     "quote": "It certainly would have been a fine thing for her to marry Farebrother—but if she loves me best and I am a good husband?",
+     "hasObject": {
+      "name": "Mary_s_potential_marriage_to_Farebrother"
+     },
+     "causedBy": {
+      "name": "Mr_Farebrother_s_conversation",
+      "takePlaceAt": {
+       "name": "Conversation_with_Mr_Farebrother"
+      }
+     }
+    },
+    {
+     "name": "Gratitude",
+     "hasIntensity": 0.9,
+     "quote": "I shall never forget what you have done,” Fred answered. “I can’t say anything that seems worth saying—only I will try that your goodness shall not be thrown away.",
+     "hasObject": {
+      "name": "Mr_Farebrother_s_help"
+     },
+     "causedBy": {
+      "name": "Mr_Farebrother_s_advice_and_warning",
+      "takePlaceAt": {
+       "name": "Conversation_with_Mr_Farebrother"
+      }
+     }
     }
    ]
-  }
- ],
- "Places": [
-  {
-   "id": "texts/middlemarch.txt#Green_Dragon_billiardroom",
-   "name": "Green_Dragon_billiardroom",
-   "description": "A constant resort for a certain set, most of whom were regarded as men of pleasure."
-  },
-  {
-   "id": "texts/middlemarch.txt#St_Botolphs_road",
-   "name": "St_Botolphs_road",
-   "description": "A patch of green where the road diverged towards St. Botolph’s."
-  }
- ],
- "Events": [
-  {
-   "id": "texts/middlemarch.txt#Betting_on_his_own_strokes",
-   "name": "Betting_on_his_own_strokes",
-   "takePlaceAt": {
-    "id": "texts/middlemarch.txt#Green_Dragon_billiardroom",
-    "name": "Green_Dragon_billiardroom"
-   },
-   "hasParticipant": {
-    "id": "texts/middlemarch.txt#Lydgate",
-    "name": "Lydgate"
-   }
-  },
-  {
-   "id": "texts/middlemarch.txt#Seeing_Lydgate_betting",
-   "name": "Seeing_Lydgate_betting",
-   "takePlaceAt": {
-    "id": "texts/middlemarch.txt#Green_Dragon_billiardroom",
-    "name": "Green_Dragon_billiardroom"
-   },
-   "hasParticipant": {
-    "id": "texts/middlemarch.txt#Fred",
-    "name": "Fred"
-   }
-  },
-  {
-   "id": "texts/middlemarch.txt#Mr_Farebrother_s_warning",
-   "name": "Mr_Farebrother_s_warning",
-   "takePlaceAt": {
-    "id": "texts/middlemarch.txt#St_Botolphs_road",
-    "name": "St_Botolphs_road"
-   },
-   "hasParticipant": {
-    "id": "texts/middlemarch.txt#Fred",
-    "name": "Fred"
-   }
   }
  ]
 }

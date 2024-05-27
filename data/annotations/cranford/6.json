@@ -7,83 +7,81 @@
      "name": "Trust",
      "hasIntensity": 0.9,
      "quote": "Remember, dear, I’m the only one left—I mean, there’s no one to be hurt by what I do. I’m willing to do anything that’s right and honest; and I don’t think, if Deborah knows where she is, she’ll care so very much if I’m not genteel; because, you see, she’ll know all, dear. Only let me see what I can do, and pay the poor people as far as I’m able.",
-     "causedBy": {
-      "name": "Feeling responsible for the poor people"
+     "causedByEvent": {
+      "name": "Feeling responsible for the poor people",
+      "takePlaceAt": {
+       "name": "Miss Matty's house"
+      }
      },
      "hasObject": {
       "name": "Helping the poor people"
-     },
-     "exactPlace": "Before going out for a walk with Mary's father"
+     }
     },
     {
      "name": "Sadness",
      "hasIntensity": 0.8,
-     "quote": "She recovered herself into a slight degree of impatient anger, directed against me, as having set them all off; and, moreover, I think she was vexed that I could not make a speech back in return for hers; and if I had known beforehand what was to be said, and had a card on which to express the probable feelings that would rise in my heart, I would have tried to gratify her. As it was, Mrs Forrester was the person to speak when we had recovered our composure.",
-     "causedBy": {
-      "name": "Feeling unable to express her gratitude adequately"
+     "quote": "I had to be refreshed with a glass of cowslip wine before I could check the crying which had been repressed for the last two or three days. The worst was, all the ladies cried in concert.",
+     "causedByEvent": {
+      "name": "Feeling overwhelmed by emotions",
+      "takePlaceAt": {
+       "name": "Miss Pole's house"
+      }
      },
      "hasObject": {
-      "name": "Gratitude towards the ladies"
-     },
-     "exactPlace": "During the meeting with the Cranford ladies"
+      "name": "Overwhelming emotions"
+     }
     },
     {
      "name": "Anxiety",
      "hasIntensity": 0.7,
-     "quote": "Miss Matty and I sat assenting to accounts, and schemes, and reports, and documents, of which I do not believe we either of us understood a word; for my father was clear-headed and decisive, and a capital man of business, and if we made the slightest inquiry, or expressed the slightest want of comprehension, he had a sharp way of saying, “Eh? eh? it’s as clear as daylight. What’s your objection?”",
-     "causedBy": {
-      "name": "Feeling overwhelmed by the business discussions"
+     "quote": "It was evidently a relief to her to be doing something in the way of retrenchment, for, as she said, whenever she paused to think, the recollection of the poor fellow with his bad five-pound note came over her, and she felt quite dishonest.",
+     "causedByEvent": {
+      "name": "Feeling dishonest about the poor fellow's bad five-pound note",
+      "takePlaceAt": {
+       "name": "Miss Matty's house"
+      }
      },
      "hasObject": {
-      "name": "Understanding the financial matters"
+      "name": "Retrenchment"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Martha",
+   "feels": [
+    {
+     "name": "Joy",
+     "hasIntensity": 0.8,
+     "quote": "She did so wish she was rich, she said, and this wish she kept repeating, with no thought of herself in it, only with a longing, yearning desire to be able to heap up Miss Matty’s measure of comforts.",
+     "causedByEvent": {
+      "name": "Desire to provide comforts for Miss Matty",
+      "takePlaceAt": {
+       "name": "Miss Matty's house"
+      }
      },
-     "exactPlace": "During the business discussions with Mary's father"
-    }
-   ]
-  }
- ],
- "Places": [
-  {
-   "name": "Miss Pole's drawing-room",
-   "description": "Arranged for a secret meeting to discuss helping Miss Matty"
-  },
-  {
-   "name": "Miss Matty's house",
-   "description": "Preparing for retrenchment and giving up the house"
-  }
- ],
- "Events": [
-  {
-   "name": "Meeting of the Cranford ladies at Miss Pole's",
-   "takePlaceAt": {
-    "name": "Miss Pole's drawing-room"
-   },
-   "hasParticipant": [
-    {
-     "name": "Miss Pole"
-    },
-    {
-     "name": "Mrs Forrester"
-    },
-    {
-     "name": "Mrs Fitz-Adam"
+     "hasObject": {
+      "name": "Providing comforts for Miss Matty"
+     }
     }
    ]
   },
   {
-   "name": "Business discussions with Mary's father",
-   "takePlaceAt": {
-    "name": "Miss Matty's house"
-   },
-   "hasParticipant": [
+   "name": "Mrs Forrester",
+   "feels": [
     {
-     "name": "Miss Matty"
-    },
-    {
-     "name": "Mary"
-    },
-    {
-     "name": "Mary's father"
+     "name": "Gratitude",
+     "hasIntensity": 0.9,
+     "quote": "She had not liked to put down all that she could afford and was ready to give. She told me she thought she never could look Miss Matty in the face again if she presumed to be giving her so much as she should like to do.",
+     "causedByEvent": {
+      "name": "Desire to give more than she could afford",
+      "takePlaceAt": {
+       "name": "Miss Matty's house"
+      }
+     },
+     "hasObject": {
+      "name": "Giving more than she could afford"
+     }
     }
    ]
   }

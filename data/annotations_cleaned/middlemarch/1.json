@@ -1,197 +1,98 @@
 {
  "FictionalCharacters": [
   {
-   "id": "texts/middlemarch.txt#Dorothea_Brooke",
+   "name": "Dorothea_Brooke",
    "feels": [
     {
-     "name": "Gratitude",
+     "name": "Joy",
      "hasIntensity": 0.9,
-     "quote": "I am very grateful to you for loving me, and thinking me worthy to be your wife.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Mr_Casaubon_s_proposal",
-      "name": "Mr_Casaubon_s_proposal"
-     },
+     "quote": "In an hour’s tête-à-tête with Mr. Casaubon she talked to him with more freedom than she had ever felt before, even pouring out her joy at the thought of devoting herself to him, and of learning how she might best share and further all his great ends.",
      "hasObject": {
-      "id": "texts/middlemarch.txt#Mr_Casaubon",
-      "name": "Mr_Casaubon"
+      "name": "Devotion_to_Mr_Casaubon"
      },
-     "place": "Reading Mr. Casaubon's letter",
-     "id": "Gratitude"
+     "causedBy": {
+      "name": "Accepting_Mr_Casaubon_s_offer_of_marriage",
+      "takePlaceAt": {
+       "name": "Têteàtête_with_Mr_Casaubon"
+      }
+     }
     },
     {
-     "name": "Reverence",
-     "hasIntensity": 0.8,
-     "quote": "I admire and honor him more than any man I ever saw.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Mr_Casaubon_s_proposal",
-      "name": "Mr_Casaubon_s_proposal"
-     },
+     "name": "Sadness",
+     "hasIntensity": 0.7,
+     "quote": "Dorothea was still hurt and agitated.",
      "hasObject": {
-      "id": "texts/middlemarch.txt#Mr_Casaubon",
-      "name": "Mr_Casaubon"
+      "name": "Celia_s_reaction"
      },
-     "place": "Reading Mr. Casaubon's letter",
-     "id": "Reverence"
+     "causedBy": {
+      "name": "Celia_s_reaction_to_the_news_of_her_engagement",
+      "takePlaceAt": {
+       "name": "Sittingroom"
+      }
+     }
     },
     {
      "name": "Happiness",
-     "hasIntensity": 0.9,
-     "quote": "I am very, very happy.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Accepting_Mr_Casaubon_s_proposal",
-      "name": "Accepting_Mr_Casaubon_s_proposal"
-     },
+     "hasIntensity": 0.8,
+     "quote": "Nevertheless before the evening was at an end she was very happy.",
      "hasObject": {
-      "id": "texts/middlemarch.txt#Mr_Casaubon",
-      "name": "Mr_Casaubon"
+      "name": "Conversation_with_Mr_Casaubon"
      },
-     "place": "After accepting Mr. Casaubon's proposal",
-     "id": "Happiness"
+     "causedBy": {
+      "name": "Têteàtête_with_Mr_Casaubon",
+      "takePlaceAt": {
+       "name": "Evening"
+      }
+     }
     }
-   ],
-   "name": "Dorothea_Brooke"
+   ]
   },
   {
-   "id": "texts/middlemarch.txt#Celia_Brooke",
+   "name": "Celia_Brooke",
    "feels": [
     {
      "name": "Surprise",
-     "hasIntensity": 0.7,
-     "quote": "Perhaps Celia had never turned so pale before.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Learning_about_Dorothea_s_engagement_to_Mr_Casaubo",
-      "name": "Learning_about_Dorothea_s_engagement_to_Mr_Casaubon"
-     },
-     "hasObject": {
-      "id": "texts/middlemarch.txt#Dorothea_Brooke",
-      "name": "Dorothea_Brooke"
-     },
-     "place": "Learning about Dorothea's engagement to Mr. Casaubon",
-     "id": "Surprise"
-    },
-    {
-     "name": "Tenderness",
      "hasIntensity": 0.8,
-     "quote": "Oh, Dodo, I hope you will be happy.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Learning_about_Dorothea_s_engagement_to_Mr_Casaubo",
-      "name": "Learning_about_Dorothea_s_engagement_to_Mr_Casaubon"
-     },
+     "quote": "Perhaps Celia had never turned so pale before.",
      "hasObject": {
-      "id": "texts/middlemarch.txt#Dorothea_Brooke",
-      "name": "Dorothea_Brooke"
+      "name": "Dorothea_s_engagement"
      },
-     "place": "Learning about Dorothea's engagement to Mr. Casaubon",
-     "id": "Tenderness"
+     "causedBy": {
+      "name": "Hearing_about_Dorothea_s_engagement",
+      "takePlaceAt": {
+       "name": "Sittingroom"
+      }
+     }
     },
     {
      "name": "Fear",
-     "hasIntensity": 0.6,
-     "quote": "Her fears were the fears of affection.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Learning_about_Dorothea_s_engagement_to_Mr_Casaubo",
-      "name": "Learning_about_Dorothea_s_engagement_to_Mr_Casaubon"
-     },
+     "hasIntensity": 0.7,
+     "quote": "There was something funereal in the whole affair, and Mr. Casaubon seemed to be the officiating clergyman, about whom it would be indecent to make remarks.",
      "hasObject": {
-      "id": "texts/middlemarch.txt#Dorothea_Brooke",
-      "name": "Dorothea_Brooke"
+      "name": "Dorothea_s_engagement"
      },
-     "place": "Learning about Dorothea's engagement to Mr. Casaubon",
-     "id": "Fear"
+     "causedBy": {
+      "name": "Realization_of_Dorothea_s_engagement",
+      "takePlaceAt": {
+       "name": "Sittingroom"
+      }
+     }
+    },
+    {
+     "name": "Tenderness",
+     "hasIntensity": 0.9,
+     "quote": "Oh, Dodo, I hope you will be happy.",
+     "hasObject": {
+      "name": "Dorothea_s_happiness"
+     },
+     "causedBy": {
+      "name": "Dorothea_s_engagement",
+      "takePlaceAt": {
+       "name": "Sittingroom"
+      }
+     }
     }
-   ],
-   "name": "Celia_Brooke"
-  }
- ],
- "Places": [
-  {
-   "id": "texts/middlemarch.txt#Reading_Mr_Casaubon_s_letter",
-   "name": "Reading_Mr_Casaubon_s_letter",
-   "description": "Dorothea reads Mr. Casaubon's proposal letter."
-  },
-  {
-   "id": "texts/middlemarch.txt#After_accepting_Mr_Casaubon_s_proposal",
-   "name": "After_accepting_Mr_Casaubon_s_proposal",
-   "description": "Dorothea feels very happy after accepting Mr. Casaubon's proposal."
-  },
-  {
-   "id": "texts/middlemarch.txt#Learning_about_Dorothea_s_engagement_to_Mr_Casaubo",
-   "name": "Learning_about_Dorothea_s_engagement_to_Mr_Casaubon",
-   "description": "Celia learns about Dorothea's engagement to Mr. Casaubon."
-  }
- ],
- "Events": [
-  {
-   "id": "texts/middlemarch.txt#Mr_Casaubon_s_proposal",
-   "name": "Mr_Casaubon_s_proposal",
-   "takePlaceAt": {
-    "id": "texts/middlemarch.txt#Reading_Mr_Casaubon_s_letter",
-    "name": "Reading_Mr_Casaubon_s_letter"
-   },
-   "hasParticipant": {
-    "id": "texts/middlemarch.txt#Dorothea_Brooke",
-    "name": "Dorothea_Brooke"
-   }
-  },
-  {
-   "id": "texts/middlemarch.txt#Mr_Casaubon_s_proposal",
-   "name": "Mr_Casaubon_s_proposal",
-   "takePlaceAt": {
-    "id": "texts/middlemarch.txt#Reading_Mr_Casaubon_s_letter",
-    "name": "Reading_Mr_Casaubon_s_letter"
-   },
-   "hasParticipant": {
-    "id": "texts/middlemarch.txt#Dorothea_Brooke",
-    "name": "Dorothea_Brooke"
-   }
-  },
-  {
-   "id": "texts/middlemarch.txt#Accepting_Mr_Casaubon_s_proposal",
-   "name": "Accepting_Mr_Casaubon_s_proposal",
-   "takePlaceAt": {
-    "id": "texts/middlemarch.txt#After_accepting_Mr_Casaubon_s_proposal",
-    "name": "After_accepting_Mr_Casaubon_s_proposal"
-   },
-   "hasParticipant": {
-    "id": "texts/middlemarch.txt#Dorothea_Brooke",
-    "name": "Dorothea_Brooke"
-   }
-  },
-  {
-   "id": "texts/middlemarch.txt#Learning_about_Dorothea_s_engagement_to_Mr_Casaubo",
-   "name": "Learning_about_Dorothea_s_engagement_to_Mr_Casaubon",
-   "takePlaceAt": {
-    "id": "texts/middlemarch.txt#Learning_about_Dorothea_s_engagement_to_Mr_Casaubo",
-    "name": "Learning_about_Dorothea_s_engagement_to_Mr_Casaubon"
-   },
-   "hasParticipant": {
-    "id": "texts/middlemarch.txt#Celia_Brooke",
-    "name": "Celia_Brooke"
-   }
-  },
-  {
-   "id": "texts/middlemarch.txt#Learning_about_Dorothea_s_engagement_to_Mr_Casaubo",
-   "name": "Learning_about_Dorothea_s_engagement_to_Mr_Casaubon",
-   "takePlaceAt": {
-    "id": "texts/middlemarch.txt#Learning_about_Dorothea_s_engagement_to_Mr_Casaubo",
-    "name": "Learning_about_Dorothea_s_engagement_to_Mr_Casaubon"
-   },
-   "hasParticipant": {
-    "id": "texts/middlemarch.txt#Celia_Brooke",
-    "name": "Celia_Brooke"
-   }
-  },
-  {
-   "id": "texts/middlemarch.txt#Learning_about_Dorothea_s_engagement_to_Mr_Casaubo",
-   "name": "Learning_about_Dorothea_s_engagement_to_Mr_Casaubon",
-   "takePlaceAt": {
-    "id": "texts/middlemarch.txt#Learning_about_Dorothea_s_engagement_to_Mr_Casaubo",
-    "name": "Learning_about_Dorothea_s_engagement_to_Mr_Casaubon"
-   },
-   "hasParticipant": {
-    "id": "texts/middlemarch.txt#Celia_Brooke",
-    "name": "Celia_Brooke"
-   }
+   ]
   }
  ]
 }

@@ -1,176 +1,222 @@
 {
  "FictionalCharacters": [
   {
-   "id": "fc1",
+   "name": "Laurie",
+   "feels": [
+    {
+     "name": "Surprise",
+     "hasIntensity": 0.7,
+     "quote": "He was staring at her with undisguised surprise, and disapproval also, she thought.",
+     "causedByEvent": {
+      "name": "Seeing Meg in a fine lady outfit",
+      "takePlaceAt": {
+       "name": "Drawing-rooms"
+      },
+      "hasParticipant": [
+       {
+        "name": "Meg"
+       },
+       {
+        "name": "Laurie"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Meg in a fine lady outfit"
+     }
+    },
+    {
+     "name": "Disapproval",
+     "hasIntensity": 0.8,
+     "quote": "He was staring at her with undisguised surprise, and disapproval also, she thought.",
+     "causedByEvent": {
+      "name": "Seeing Meg in a fine lady outfit",
+      "takePlaceAt": {
+       "name": "Drawing-rooms"
+      },
+      "hasParticipant": [
+       {
+        "name": "Meg"
+       },
+       {
+        "name": "Laurie"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Meg in a fine lady outfit"
+     }
+    },
+    {
+     "name": "Embarrassment",
+     "hasIntensity": 0.9,
+     "quote": "He glanced at her frizzled head, bare shoulders, and fantastically trimmed dress, with an expression that abashed her more than his answer.",
+     "causedByEvent": {
+      "name": "Meg asking for his opinion on her appearance",
+      "takePlaceAt": {
+       "name": "Drawing-rooms"
+      },
+      "hasParticipant": [
+       {
+        "name": "Meg"
+       },
+       {
+        "name": "Laurie"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Meg's appearance"
+     }
+    },
+    {
+     "name": "Penitence",
+     "hasIntensity": 0.7,
+     "quote": "Please forgive my rudeness, and come and dance with me.",
+     "causedByEvent": {
+      "name": "Realizing his rudeness towards Meg",
+      "takePlaceAt": {
+       "name": "Drawing-rooms"
+      },
+      "hasParticipant": [
+       {
+        "name": "Meg"
+       },
+       {
+        "name": "Laurie"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Rudeness towards Meg"
+     }
+    },
+    {
+     "name": "Admiration",
+     "hasIntensity": 0.8,
+     "quote": "I do think you are--just splendid.",
+     "causedByEvent": {
+      "name": "Seeing Meg's true self",
+      "takePlaceAt": {
+       "name": "Drawing-rooms"
+      },
+      "hasParticipant": [
+       {
+        "name": "Meg"
+       },
+       {
+        "name": "Laurie"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Meg's true self"
+     }
+    }
+   ]
+  },
+  {
    "name": "Meg",
    "feels": [
     {
      "name": "Embarrassment",
-     "hasIntensity": 0.7,
-     "quote": "She was very glad when it was all over, and she was quiet in her bed, where she could think and wonder and fume till her head ached and her hot cheeks were cooled by a few natural tears.",
-     "causedBy": {
-      "id": "event1",
-      "name": "Overhearing gossip"
-     },
-     "hasObject": {
-      "id": "object1",
-      "name": "Gossip"
-     },
-     "exactPlace": {
-      "id": "place1",
-      "name": "Her bed"
-     }
-    },
-    {
-     "name": "Pride",
      "hasIntensity": 0.8,
-     "quote": "She was very glad when it was all over, and she was quiet in her bed, where she could think and wonder and fume till her head ached and her hot cheeks were cooled by a few natural tears.",
-     "causedBy": {
-      "id": "event1",
-      "name": "Overhearing gossip"
+     "quote": "She was flirting her fan and laughing at the feeble jokes of a young gentleman who tried to be witty, when she suddenly stopped laughing and looked confused.",
+     "causedByEvent": {
+      "name": "Seeing Laurie",
+      "takePlaceAt": {
+       "name": "Drawing-rooms"
+      },
+      "hasParticipant": [
+       {
+        "name": "Meg"
+       },
+       {
+        "name": "Laurie"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object1",
-      "name": "Gossip"
-     },
-     "exactPlace": {
-      "id": "place1",
-      "name": "Her bed"
-     }
-    },
-    {
-     "name": "Embarrassment",
-     "hasIntensity": 0.6,
-     "quote": "She heard Mrs. Moffat reply to one of them,--'Daisy March--father a colonel in the army--one of our first families, but reverses of fortune, you know; intimate friends of the Laurences; sweet creature, I assure you; my Ned is quite wild about her.'",
-     "causedBy": {
-      "id": "event2",
-      "name": "Mrs. Moffat's fibs"
-     },
-     "hasObject": {
-      "id": "object2",
-      "name": "Mrs. Moffat's fibs"
-     },
-     "exactPlace": {
-      "id": "place2",
-      "name": "Drawing-rooms"
+      "name": "Seeing Laurie"
      }
     },
     {
      "name": "Discomfort",
-     "hasIntensity": 0.7,
-     "quote": "That was altogether too much from a lad younger than herself; and Meg walked away, saying petulantly,--'You are the rudest boy I ever saw.'",
-     "causedBy": {
-      "id": "event3",
-      "name": "Laurie's blunt reply"
+     "hasIntensity": 0.9,
+     "quote": "The tight dress gave her an uncomfortably brilliant color.",
+     "causedByEvent": {
+      "name": "Wearing a tight dress",
+      "takePlaceAt": {
+       "name": "Drawing-rooms"
+      },
+      "hasParticipant": [
+       {
+        "name": "Meg"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object3",
-      "name": "Laurie's blunt reply"
-     },
-     "exactPlace": {
-      "id": "place3",
-      "name": "Drawing-rooms"
+      "name": "Tight dress"
      }
     },
     {
-     "name": "Embarrassment",
+     "name": "Regret",
      "hasIntensity": 0.8,
-     "quote": "Feeling very much ruffled, she went and stood at a quiet window, to cool her cheeks, for the tight dress gave her an uncomfortably brilliant color.",
-     "causedBy": {
-      "id": "event4",
-      "name": "Tight dress"
+     "quote": "I wish I'd been sensible, and worn my own things; then I should not have disgusted other people, or felt so uncomfortable and ashamed myself.",
+     "causedByEvent": {
+      "name": "Wearing borrowed clothes",
+      "takePlaceAt": {
+       "name": "Drawing-rooms"
+      },
+      "hasParticipant": [
+       {
+        "name": "Meg"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object4",
-      "name": "Tight dress"
-     },
-     "exactPlace": {
-      "id": "place4",
-      "name": "Drawing-rooms"
+      "name": "Borrowed clothes"
      }
     },
     {
      "name": "Embarrassment",
-     "hasIntensity": 0.7,
-     "quote": "She leaned her forehead on the cool pane, and stood half hidden by the curtains, never minding that her favorite waltz had begun, till some one touched her; and, turning, she saw Laurie, looking penitent, as he said, with his very best bow, and his hand out,--'Please forgive my rudeness, and come and dance with me.'",
-     "causedBy": {
-      "id": "event5",
-      "name": "Laurie's apology"
+     "hasIntensity": 0.9,
+     "quote": "I wish I'd been sensible, and worn my own things; then I should not have disgusted other people, or felt so uncomfortable and ashamed myself.",
+     "causedByEvent": {
+      "name": "Realizing the impact of her appearance",
+      "takePlaceAt": {
+       "name": "Drawing-rooms"
+      },
+      "hasParticipant": [
+       {
+        "name": "Meg"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object5",
-      "name": "Laurie's apology"
+      "name": "Impact of her appearance"
+     }
+    },
+    {
+     "name": "Discomfort",
+     "hasIntensity": 0.8,
+     "quote": "The tight dress gave her an uncomfortably brilliant color.",
+     "causedByEvent": {
+      "name": "Wearing a tight dress",
+      "takePlaceAt": {
+       "name": "Drawing-rooms"
+      },
+      "hasParticipant": [
+       {
+        "name": "Meg"
+       }
+      ]
      },
-     "exactPlace": {
-      "id": "place5",
-      "name": "Drawing-rooms"
+     "hasObject": {
+      "name": "Tight dress"
      }
     }
    ]
-  }
- ],
- "Places": [
-  {
-   "id": "place1",
-   "name": "Her bed",
-   "description": "Where she could think and wonder and fume till her head ached and her hot cheeks were cooled by a few natural tears."
-  },
-  {
-   "id": "place2",
-   "name": "Drawing-rooms",
-   "description": "Where she heard Mrs. Moffat's fibs."
-  },
-  {
-   "id": "place3",
-   "name": "Drawing-rooms",
-   "description": "Where she walked away after Laurie's blunt reply."
-  },
-  {
-   "id": "place4",
-   "name": "Drawing-rooms",
-   "description": "Where she stood at a quiet window to cool her cheeks due to the tight dress."
-  },
-  {
-   "id": "place5",
-   "name": "Drawing-rooms",
-   "description": "Where she leaned her forehead on the cool pane and stood half hidden by the curtains."
-  }
- ],
- "Events": [
-  {
-   "id": "event1",
-   "name": "Overhearing gossip",
-   "takePlaceAt": {
-    "id": "place1"
-   }
-  },
-  {
-   "id": "event2",
-   "name": "Mrs. Moffat's fibs",
-   "takePlaceAt": {
-    "id": "place2"
-   }
-  },
-  {
-   "id": "event3",
-   "name": "Laurie's blunt reply",
-   "takePlaceAt": {
-    "id": "place3"
-   }
-  },
-  {
-   "id": "event4",
-   "name": "Tight dress",
-   "takePlaceAt": {
-    "id": "place4"
-   }
-  },
-  {
-   "id": "event5",
-   "name": "Laurie's apology",
-   "takePlaceAt": {
-    "id": "place5"
-   }
   }
  ]
 }

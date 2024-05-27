@@ -1,272 +1,200 @@
 {
  "FictionalCharacters": [
   {
-   "id": "texts/littlewomen.txt#Professor_Bhaer",
-   "name": "Professor_Bhaer",
-   "feels": [
-    {
-     "name": "Admiration",
-     "hasIntensity": 0.9,
-     "quote": "He knew that Jo wrote, and had met her down among the newspaper offices more than once; but as she never spoke of it, he asked no questions, in spite of a strong desire to see her work.",
-     "causedBy": {
-      "id": "texts/littlewomen.txt#Knowing_that_Jo_wrote",
-      "name": "Knowing_that_Jo_wrote"
-     },
-     "hasObject": {
-      "id": "texts/littlewomen.txt#Jo_s_writing",
-      "name": "Jo_s_writing"
-     },
-     "place": {
-      "id": "texts/littlewomen.txt#Home",
-      "name": "Home",
-      "description": "In the living room"
-     },
-     "id": "Admiration"
-    },
-    {
-     "name": "Serenity",
-     "hasIntensity": 0.8,
-     "quote": "He did his best, and did it manfully; but I don't think he found that a pair of rampant boys, a pipe, or even the divine Plato, were very satisfactory substitutes for wife and child and home.",
-     "causedBy": {
-      "id": "texts/littlewomen.txt#Feeling_homesick",
-      "name": "Feeling_homesick"
-     },
-     "hasObject": {
-      "id": "texts/littlewomen.txt#Feeling_of_homesickness",
-      "name": "Feeling_of_homesickness"
-     },
-     "place": {
-      "id": "texts/littlewomen.txt#Home",
-      "name": "Home",
-      "description": "In the living room"
-     },
-     "id": "Serenity"
-    },
-    {
-     "name": "Rebellion",
-     "hasIntensity": 0.7,
-     "quote": "I'll be hanged if I do!",
-     "causedBy": {
-      "id": "texts/littlewomen.txt#Feeling_of_indignation",
-      "name": "Feeling_of_indignation"
-     },
-     "hasObject": {
-      "id": "texts/littlewomen.txt#Being_asked_to_go_abroad",
-      "name": "Being_asked_to_go_abroad"
-     },
-     "place": {
-      "id": "texts/littlewomen.txt#Home",
-      "name": "Home",
-      "description": "In the living room"
-     },
-     "id": "Rebellion"
-    },
-    {
-     "name": "Desperation",
-     "hasIntensity": 0.9,
-     "quote": "To the devil!",
-     "causedBy": {
-      "id": "texts/littlewomen.txt#Feeling_of_despair",
-      "name": "Feeling_of_despair"
-     },
-     "hasObject": {
-      "id": "texts/littlewomen.txt#Feeling_of_despair",
-      "name": "Feeling_of_despair"
-     },
-     "place": {
-      "id": "texts/littlewomen.txt#Home",
-      "name": "Home",
-      "description": "In the living room"
-     },
-     "id": "Desperation"
-    },
-    {
-     "name": "Acceptance",
-     "hasIntensity": 0.9,
-     "quote": "It's all settled, and can be carried out at once",
-     "causedBy": {
-      "id": "texts/littlewomen.txt#Accepting_the_plan_to_go_abroad",
-      "name": "Accepting_the_plan_to_go_abroad"
-     },
-     "hasObject": {
-      "id": "texts/littlewomen.txt#Plan_to_go_abroad",
-      "name": "Plan_to_go_abroad"
-     },
-     "place": {
-      "id": "texts/littlewomen.txt#Home",
-      "name": "Home",
-      "description": "In the living room"
-     },
-     "id": "Acceptance"
-    }
-   ]
-  },
-  {
-   "id": "texts/littlewomen.txt#Beth",
-   "name": "Beth",
+   "name": "Jo",
    "feels": [
     {
      "name": "Sadness",
      "hasIntensity": 0.9,
-     "quote": "It's like the tide, Jo, when it turns, it goes slowly, but it can't be stopped.",
-     "causedBy": {
-      "id": "texts/littlewomen.txt#Feeling_of_inevitability",
-      "name": "Feeling_of_inevitability"
-     },
+     "quote": "She felt as if she had stabbed her dearest friend.",
      "hasObject": {
-      "id": "texts/littlewomen.txt#Feeling_of_inevitability",
-      "name": "Feeling_of_inevitability"
+      "name": "Beth_s_confession"
      },
-     "place": {
-      "id": "texts/littlewomen.txt#Home",
-      "name": "Home",
-      "description": "In the bedroom"
-     },
-     "id": "Sadness"
+     "causedBy": {
+      "name": "Beth_s_confession",
+      "takePlaceAt": {
+       "name": "At_the_beach"
+      },
+      "hasParticipant": [
+       {
+        "name": "Jo"
+       },
+       {
+        "name": "Beth"
+       }
+      ]
+     }
     },
     {
-     "name": "Acceptance",
+     "name": "Rebellion",
      "hasIntensity": 0.8,
-     "quote": "I try to be willing",
-     "causedBy": {
-      "id": "texts/littlewomen.txt#Accepting_the_situation",
-      "name": "Accepting_the_situation"
-     },
+     "quote": "God won't be so cruel as to take you from me.",
      "hasObject": {
-      "id": "texts/littlewomen.txt#Situation",
-      "name": "Situation"
+      "name": "Beth_s_confession"
      },
-     "place": {
-      "id": "texts/littlewomen.txt#Home",
-      "name": "Home",
-      "description": "In the bedroom"
-     },
-     "id": "Acceptance"
+     "causedBy": {
+      "name": "Beth_s_confession",
+      "takePlaceAt": {
+       "name": "At_the_beach"
+      },
+      "hasParticipant": [
+       {
+        "name": "Jo"
+       },
+       {
+        "name": "Beth"
+       }
+      ]
+     }
     },
     {
-     "name": "Gratitude",
+     "name": "Dedication",
      "hasIntensity": 0.9,
-     "quote": "I'm glad you know it. I've tried to tell you, but I couldn't.",
-     "causedBy": {
-      "id": "texts/littlewomen.txt#Feeling_of_relief",
-      "name": "Feeling_of_relief"
-     },
+     "quote": "With that silent kiss, she dedicated herself soul and body to Beth.",
      "hasObject": {
-      "id": "texts/littlewomen.txt#Feeling_of_relief",
-      "name": "Feeling_of_relief"
+      "name": "Beth_s_confession"
      },
-     "place": {
-      "id": "texts/littlewomen.txt#Home",
-      "name": "Home",
-      "description": "In the bedroom"
-     },
-     "id": "Gratitude"
-    },
-    {
-     "name": "Contentment",
-     "hasIntensity": 0.8,
-     "quote": "Dear little bird! See, Jo, how tame it is. I like peeps better than the gulls: they are not so wild and handsome, but they seem happy, confiding little things.",
      "causedBy": {
-      "id": "texts/littlewomen.txt#Feeling_of_contentment",
-      "name": "Feeling_of_contentment"
-     },
-     "hasObject": {
-      "id": "texts/littlewomen.txt#Feeling_of_contentment",
-      "name": "Feeling_of_contentment"
-     },
-     "place": {
-      "id": "texts/littlewomen.txt#Seashore",
-      "name": "Seashore",
-      "description": "By the beach"
-     },
-     "id": "Contentment"
+      "name": "Beth_s_confession",
+      "takePlaceAt": {
+       "name": "At_the_beach"
+      },
+      "hasParticipant": [
+       {
+        "name": "Jo"
+       },
+       {
+        "name": "Beth"
+       }
+      ]
+     }
     }
    ]
-  }
- ],
- "Places": [
-  {
-   "id": "texts/littlewomen.txt#Home",
-   "name": "Home",
-   "description": "In the living room"
   },
   {
-   "id": "texts/littlewomen.txt#Home",
-   "name": "Home",
-   "description": "In the living room"
+   "name": "Beth",
+   "feels": [
+    {
+     "name": "Acceptance",
+     "hasIntensity": 0.9,
+     "quote": "I try to be willing.",
+     "hasObject": {
+      "name": "Beth_s_confession"
+     },
+     "causedBy": {
+      "name": "Beth_s_confession",
+      "takePlaceAt": {
+       "name": "At_the_beach"
+      },
+      "hasParticipant": [
+       {
+        "name": "Jo"
+       },
+       {
+        "name": "Beth"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Serenity",
+     "hasIntensity": 0.8,
+     "quote": "I try to be willing.",
+     "hasObject": {
+      "name": "Beth_s_confession"
+     },
+     "causedBy": {
+      "name": "Beth_s_confession",
+      "takePlaceAt": {
+       "name": "At_the_beach"
+      },
+      "hasParticipant": [
+       {
+        "name": "Jo"
+       },
+       {
+        "name": "Beth"
+       }
+      ]
+     }
+    }
+   ]
   },
   {
-   "id": "texts/littlewomen.txt#Home",
-   "name": "Home",
-   "description": "In the living room"
+   "name": "Laurie",
+   "feels": [
+    {
+     "name": "Surprise",
+     "hasIntensity": 0.8,
+     "quote": "O Laurie, is it really you? I thought you'd never come!",
+     "hasObject": {
+      "name": "Meeting_Amy"
+     },
+     "causedBy": {
+      "name": "Meeting_Amy",
+      "takePlaceAt": {
+       "name": "On_the_street_in_Nice"
+      },
+      "hasParticipant": [
+       {
+        "name": "Laurie"
+       },
+       {
+        "name": "Amy"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Excitement",
+     "hasIntensity": 0.9,
+     "quote": "I promised to spend Christmas with you, and here I am.",
+     "hasObject": {
+      "name": "Meeting_Amy"
+     },
+     "causedBy": {
+      "name": "Meeting_Amy",
+      "takePlaceAt": {
+       "name": "On_the_street_in_Nice"
+      },
+      "hasParticipant": [
+       {
+        "name": "Laurie"
+       },
+       {
+        "name": "Amy"
+       }
+      ]
+     }
+    }
+   ]
   },
   {
-   "id": "texts/littlewomen.txt#Home",
-   "name": "Home",
-   "description": "In the living room"
-  },
-  {
-   "id": "texts/littlewomen.txt#Home",
-   "name": "Home",
-   "description": "In the living room"
-  },
-  {
-   "id": "texts/littlewomen.txt#Home",
-   "name": "Home",
-   "description": "In the bedroom"
-  },
-  {
-   "id": "texts/littlewomen.txt#Home",
-   "name": "Home",
-   "description": "In the bedroom"
-  },
-  {
-   "id": "texts/littlewomen.txt#Home",
-   "name": "Home",
-   "description": "In the bedroom"
-  },
-  {
-   "id": "texts/littlewomen.txt#Seashore",
-   "name": "Seashore",
-   "description": "By the beach"
-  }
- ],
- "Events": [
-  {
-   "id": "texts/littlewomen.txt#Knowing_that_Jo_wrote",
-   "name": "Knowing_that_Jo_wrote"
-  },
-  {
-   "id": "texts/littlewomen.txt#Feeling_homesick",
-   "name": "Feeling_homesick"
-  },
-  {
-   "id": "texts/littlewomen.txt#Feeling_of_indignation",
-   "name": "Feeling_of_indignation"
-  },
-  {
-   "id": "texts/littlewomen.txt#Feeling_of_despair",
-   "name": "Feeling_of_despair"
-  },
-  {
-   "id": "texts/littlewomen.txt#Accepting_the_plan_to_go_abroad",
-   "name": "Accepting_the_plan_to_go_abroad"
-  },
-  {
-   "id": "texts/littlewomen.txt#Feeling_of_inevitability",
-   "name": "Feeling_of_inevitability"
-  },
-  {
-   "id": "texts/littlewomen.txt#Accepting_the_situation",
-   "name": "Accepting_the_situation"
-  },
-  {
-   "id": "texts/littlewomen.txt#Feeling_of_relief",
-   "name": "Feeling_of_relief"
-  },
-  {
-   "id": "texts/littlewomen.txt#Feeling_of_contentment",
-   "name": "Feeling_of_contentment"
+   "name": "Amy",
+   "feels": [
+    {
+     "name": "Joy",
+     "hasIntensity": 0.9,
+     "quote": "O Laurie, is it really you? I thought you'd never come!",
+     "hasObject": {
+      "name": "Meeting_Laurie"
+     },
+     "causedBy": {
+      "name": "Meeting_Laurie",
+      "takePlaceAt": {
+       "name": "On_the_street_in_Nice"
+      },
+      "hasParticipant": [
+       {
+        "name": "Laurie"
+       },
+       {
+        "name": "Amy"
+       }
+      ]
+     }
+    }
+   ]
   }
  ]
 }

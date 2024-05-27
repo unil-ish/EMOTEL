@@ -1,111 +1,117 @@
 {
  "FictionalCharacters": [
   {
-   "id": "texts/middlemarch.txt#Rosamond_Vincy",
    "name": "Rosamond_Vincy",
    "feels": [
     {
      "name": "Love",
      "hasIntensity": 1,
      "quote": "That moment of naturalness was the crystallizing feather-touch: it shook flirtation into love.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Lydgate_s_comforting_words_and_actions",
-      "name": "Lydgate_s_comforting_words_and_actions"
-     },
      "hasObject": {
-      "id": "texts/middlemarch.txt#Lydgate",
       "name": "Lydgate"
      },
-     "exactPlace": "Sitting room",
-     "id": "Love"
+     "causedBy": {
+      "name": "Lydgate_s_sudden_belief_that_Rosamond_depended_on_him_for_her_joy",
+      "takePlaceAt": {
+       "name": "Rosamond_s_home"
+      }
+     }
     },
     {
      "name": "Happiness",
      "hasIntensity": 0.8,
-     "quote": "Rosamond, who at the first moment felt as if her happiness were returning...",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Lydgate_s_visit",
-      "name": "Lydgate_s_visit"
-     },
+     "quote": "Rosamond became very unhappy. The uneasiness first stirred by her aunt’s questions grew and grew till at the end of ten days that she had not seen Lydgate, it grew into terror at the blank that might possibly come—into foreboding of that ready, fatal sponge which so cheaply wipes out the hopes of mortals.",
      "hasObject": {
-      "id": "texts/middlemarch.txt#Lydgate",
       "name": "Lydgate"
      },
-     "exactPlace": "Sitting room",
-     "id": "Happiness"
+     "causedBy": {
+      "name": "Not_seeing_Lydgate_for_ten_days",
+      "takePlaceAt": {
+       "name": "Rosamond_s_home"
+      }
+     }
+    },
+    {
+     "name": "Mortification",
+     "hasIntensity": 0.7,
+     "quote": "Rosamond, who at the first moment felt as if her happiness were returning, was keenly hurt by Lydgate’s manner.",
+     "hasObject": {
+      "name": "Lydgate"
+     },
+     "causedBy": {
+      "name": "Lydgate_s_cold_manner",
+      "takePlaceAt": {
+       "name": "Rosamond_s_home"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "Mr_Lydgate",
+   "feels": [
+    {
+     "name": "Tenderness",
+     "hasIntensity": 0.9,
+     "quote": "He poured out words of gratitude and tenderness with impulsive lavishment.",
+     "hasObject": {
+      "name": "Rosamond"
+     },
+     "causedBy": {
+      "name": "Rosamond_s_tears_and_vulnerability",
+      "takePlaceAt": {
+       "name": "Rosamond_s_home"
+      }
+     }
     },
     {
      "name": "Embarrassment",
-     "hasIntensity": 0.7,
-     "quote": "Miss Vincy was alone, and blushed so deeply when Lydgate came in that he felt a corresponding embarrassment...",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Lydgate_s_unexpected_visit",
-      "name": "Lydgate_s_unexpected_visit"
-     },
+     "hasIntensity": 0.6,
+     "quote": "Miss Vincy was alone, and blushed so deeply when Lydgate came in that he felt a corresponding embarrassment.",
      "hasObject": {
-      "id": "texts/middlemarch.txt#Lydgate",
-      "name": "Lydgate"
+      "name": "Rosamond"
      },
-     "exactPlace": "Sitting room",
-     "id": "Embarrassment"
+     "causedBy": {
+      "name": "Rosamond_s_blushing",
+      "takePlaceAt": {
+       "name": "Rosamond_s_home"
+      }
+     }
     },
     {
-     "name": "Terror",
-     "hasIntensity": 0.9,
-     "quote": "Rosamond became very unhappy. The uneasiness first stirred by her aunt’s questions grew and grew till at the end of ten days...",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Fear_of_Lydgate_s_indifference",
-      "name": "Fear_of_Lydgate_s_indifference"
-     },
+     "name": "Anxiety",
+     "hasIntensity": 0.8,
+     "quote": "He was very near to a lovely little face set on a fair long neck which he had been used to see turning about under the most perfect management of self-contented grace. But as he raised his eyes now he saw a certain helpless quivering which touched him quite newly.",
      "hasObject": {
-      "id": "texts/middlemarch.txt#Lydgate",
-      "name": "Lydgate"
+      "name": "Rosamond"
      },
-     "exactPlace": "Sitting room",
-     "id": "Terror"
+     "causedBy": {
+      "name": "Rosamond_s_vulnerability",
+      "takePlaceAt": {
+       "name": "Rosamond_s_home"
+      }
+     }
     }
    ]
-  }
- ],
- "Places": [
-  {
-   "id": "texts/middlemarch.txt#Stone_Court",
-   "name": "Stone_Court",
-   "description": "The residence of Mr. Featherstone"
-  }
- ],
- "Events": [
-  {
-   "id": "texts/middlemarch.txt#Lydgate_s_comforting_words_and_actions",
-   "name": "Lydgate_s_comforting_words_and_actions",
-   "takePlaceAt": {
-    "id": "texts/middlemarch.txt#place1",
-    "name": "place1"
-   }
   },
   {
-   "id": "texts/middlemarch.txt#Lydgate_s_visit",
-   "name": "Lydgate_s_visit",
-   "takePlaceAt": {
-    "id": "texts/middlemarch.txt#place1",
-    "name": "place1"
-   }
-  },
-  {
-   "id": "texts/middlemarch.txt#Lydgate_s_unexpected_visit",
-   "name": "Lydgate_s_unexpected_visit",
-   "takePlaceAt": {
-    "id": "texts/middlemarch.txt#place1",
-    "name": "place1"
-   }
-  },
-  {
-   "id": "texts/middlemarch.txt#Fear_of_Lydgate_s_indifference",
-   "name": "Fear_of_Lydgate_s_indifference",
-   "takePlaceAt": {
-    "id": "texts/middlemarch.txt#place1",
-    "name": "place1"
-   }
+   "name": "Mrs_Vincy",
+   "feels": [
+    {
+     "name": "Cheerfulness",
+     "hasIntensity": 0.9,
+     "quote": "Oh, my dear, you must do things handsomely where there’s last illness and a property. God knows, I don’t grudge them every ham in the house—only, save the best for the funeral.",
+     "hasObject": {
+      "name": "Mr_Featherstone_s_illness"
+     },
+     "causedBy": {
+      "name": "Consulting_on_extra_consumption_during_Mr_Featherstone_s_illness",
+      "takePlaceAt": {
+       "name": "Vincy_s_home"
+      }
+     }
+    }
+   ]
   }
  ]
 }

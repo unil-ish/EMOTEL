@@ -1,140 +1,112 @@
 {
  "FictionalCharacters": [
   {
-   "id": "texts/aroomwithaview.txt#Freddy",
    "name": "Freddy",
-   "feels": [
-    {
-     "name": "Jealousy",
-     "hasIntensity": 0.8,
-     "quote": "I had to say no. He ought never to have asked me.",
-     "causedBy": {
-      "id": "texts/aroomwithaview.txt#Cecil_s_proposal_to_Lucy",
-      "name": "Cecil_s_proposal_to_Lucy"
-     },
-     "hasObject": {
-      "id": "texts/aroomwithaview.txt#Cecil",
-      "name": "Cecil"
-     },
-     "exactPlace": "Drawing-room",
-     "id": "Jealousy"
-    },
-    {
-     "name": "Anxiety",
-     "hasIntensity": 0.7,
-     "quote": "I feel my foot’s in it.",
-     "causedBy": {
-      "id": "texts/aroomwithaview.txt#Feeling_uncomfortable_about_Cecil_s_proposal",
-      "name": "Feeling_uncomfortable_about_Cecil_s_proposal"
-     },
-     "hasObject": {
-      "id": "texts/aroomwithaview.txt#Cecil",
-      "name": "Cecil"
-     },
-     "exactPlace": "Drawing-room",
-     "id": "Anxiety"
-    },
-    {
-     "name": "Confusion",
-     "hasIntensity": 0.6,
-     "quote": "I can’t explain—I do feel so uncomfortable.",
-     "causedBy": {
-      "id": "texts/aroomwithaview.txt#Feeling_uncomfortable_about_Cecil_s_proposal",
-      "name": "Feeling_uncomfortable_about_Cecil_s_proposal"
-     },
-     "hasObject": {
-      "id": "texts/aroomwithaview.txt#Cecil",
-      "name": "Cecil"
-     },
-     "exactPlace": "Drawing-room",
-     "id": "Confusion"
-    }
-   ]
-  },
-  {
-   "id": "texts/aroomwithaview.txt#Mrs_Honeychurch",
-   "name": "Mrs_Honeychurch",
    "feels": [
     {
      "name": "Annoyance",
      "hasIntensity": 0.8,
-     "quote": "You think you’re so holy and truthful, but really it’s only abominable conceit.",
-     "causedBy": {
-      "id": "texts/aroomwithaview.txt#Freddy_s_behavior",
-      "name": "Freddy_s_behavior"
-     },
+     "quote": "‘I don’t see you ought to go peeping like that.’",
      "hasObject": {
-      "id": "texts/aroomwithaview.txt#Freddy",
-      "name": "Freddy"
+      "name": "Mother_peeping_out_of_the_window"
      },
-     "exactPlace": "Drawing-room",
-     "id": "Annoyance"
+     "causedBy": {
+      "name": "Mother_peeping_out_of_the_window",
+      "takePlaceAt": {
+       "name": "Drawingroom"
+      }
+     }
     },
+    {
+     "name": "Discomfort",
+     "hasIntensity": 0.7,
+     "quote": "‘I feel—never mind.’",
+     "hasObject": {
+      "name": "Lucy_s_situation"
+     },
+     "causedBy": {
+      "name": "Feeling_uncomfortable_about_Lucy_s_situation",
+      "takePlaceAt": {
+       "name": "Drawingroom"
+      }
+     }
+    },
+    {
+     "name": "Jealousy",
+     "hasIntensity": 0.9,
+     "quote": "‘I liked him till just now.’",
+     "hasObject": {
+      "name": "Cecil_spoiling_Lucy_s_first_week_at_home"
+     },
+     "causedBy": {
+      "name": "Cecil_spoiling_Lucy_s_first_week_at_home",
+      "takePlaceAt": {
+       "name": "Home"
+      }
+     }
+    },
+    {
+     "name": "Mistrust",
+     "hasIntensity": 0.6,
+     "quote": "‘At the back of his brain there lurked a dim mistrust.’",
+     "hasObject": {
+      "name": "Cecil_s_behavior_and_comments"
+     },
+     "causedBy": {
+      "name": "Cecil_s_behavior_and_comments",
+      "takePlaceAt": {
+       "name": "Home"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "Mrs_Honeychurch",
+   "feels": [
     {
      "name": "Concern",
      "hasIntensity": 0.7,
-     "quote": "I shall not keep quiet.",
-     "causedBy": {
-      "id": "texts/aroomwithaview.txt#Worry_about_the_situation_with_Cecil_and_Lucy",
-      "name": "Worry_about_the_situation_with_Cecil_and_Lucy"
-     },
+     "quote": "‘I hope you gave a careful answer, dear.’",
      "hasObject": {
-      "id": "texts/aroomwithaview.txt#Cecil_and_Lucy",
-      "name": "Cecil_and_Lucy"
+      "name": "Freddy_s_interaction_with_Cecil"
      },
-     "exactPlace": "Drawing-room",
-     "id": "Concern"
+     "causedBy": {
+      "name": "Freddy_s_interaction_with_Cecil",
+      "takePlaceAt": {
+       "name": "Home"
+      }
+     }
+    },
+    {
+     "name": "Dissatisfaction",
+     "hasIntensity": 0.8,
+     "quote": "‘But her face remained dissatisfied.’",
+     "hasObject": {
+      "name": "Freddy_s_behavior_towards_Cecil"
+     },
+     "causedBy": {
+      "name": "Freddy_s_behavior_towards_Cecil",
+      "takePlaceAt": {
+       "name": "Home"
+      }
+     }
+    },
+    {
+     "name": "Interest",
+     "hasIntensity": 0.6,
+     "quote": "‘Mr. Beebe?’ said his mother, trying to conceal her interest.",
+     "hasObject": {
+      "name": "Mention_of_Mr_Beebe"
+     },
+     "causedBy": {
+      "name": "Mention_of_Mr_Beebe",
+      "takePlaceAt": {
+       "name": "Home"
+      }
+     }
     }
    ]
-  }
- ],
- "Places": [
-  {
-   "id": "texts/aroomwithaview.txt#Drawingroom",
-   "name": "Drawingroom",
-   "description": "Windy Corner drawing-room with heavy curtains and subdued light."
-  }
- ],
- "Events": [
-  {
-   "id": "texts/aroomwithaview.txt#Cecil_s_proposal_to_Lucy",
-   "name": "Cecil_s_proposal_to_Lucy",
-   "takePlaceAt": {
-    "id": "texts/aroomwithaview.txt#place1",
-    "name": "place1"
-   }
-  },
-  {
-   "id": "texts/aroomwithaview.txt#Feeling_uncomfortable_about_Cecil_s_proposal",
-   "name": "Feeling_uncomfortable_about_Cecil_s_proposal",
-   "takePlaceAt": {
-    "id": "texts/aroomwithaview.txt#place1",
-    "name": "place1"
-   }
-  },
-  {
-   "id": "texts/aroomwithaview.txt#Feeling_uncomfortable_about_Cecil_s_proposal",
-   "name": "Feeling_uncomfortable_about_Cecil_s_proposal",
-   "takePlaceAt": {
-    "id": "texts/aroomwithaview.txt#place1",
-    "name": "place1"
-   }
-  },
-  {
-   "id": "texts/aroomwithaview.txt#Freddy_s_behavior",
-   "name": "Freddy_s_behavior",
-   "takePlaceAt": {
-    "id": "texts/aroomwithaview.txt#place1",
-    "name": "place1"
-   }
-  },
-  {
-   "id": "texts/aroomwithaview.txt#Worry_about_the_situation_with_Cecil_and_Lucy",
-   "name": "Worry_about_the_situation_with_Cecil_and_Lucy",
-   "takePlaceAt": {
-    "id": "texts/aroomwithaview.txt#place1",
-    "name": "place1"
-   }
   }
  ]
 }

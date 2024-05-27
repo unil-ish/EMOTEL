@@ -6,38 +6,16 @@
     {
      "name": "Fear",
      "hasIntensity": 0.9,
-     "quote": "She owned that, ever since she had been a girl, she had dreaded being caught by her last leg, just as she was getting into bed, by some one concealed under it.",
-     "causedBy": {
-      "name": "Fear of being caught by someone under the bed"
-     },
-     "hasObject": {
-      "name": "Someone concealed under the bed"
-     },
-     "exactPlace": "Getting into bed"
-    },
-    {
-     "name": "Fear",
-     "hasIntensity": 0.8,
-     "quote": "She had rather a leaning to ghosts, as I have mentioned before, and what little she did say was all on Mrs Forrester’s side, who, emboldened by sympathy, protested that ghosts were a part of her religion.",
-     "causedBy": {
-      "name": "Fear of ghosts"
+     "quote": "Miss Matty drew the curtains round the windows of the chair to shut out disagreeable sights, and the men set off at such a round and merry pace, that it was all Miss Pole and I could do to keep up with them. She had breath for nothing beyond an imploring 'Don't leave me!' uttered as she clutched my arm so tightly that I could not have quitted her, ghost or no ghost.",
+     "causedByEvent": {
+      "name": "Being in Darkness Lane",
+      "takePlaceAt": {
+       "name": "Darkness Lane"
+      }
      },
      "hasObject": {
       "name": "Ghosts"
-     },
-     "exactPlace": "During the conversation about ghosts"
-    },
-    {
-     "name": "Fear",
-     "hasIntensity": 0.7,
-     "quote": "She had breath for nothing beyond an imploring “Don’t leave me!” uttered as she clutched my arm so tightly that I could not have quitted her, ghost or no ghost.",
-     "causedBy": {
-      "name": "Fear of being left alone"
-     },
-     "hasObject": {
-      "name": "Being left alone"
-     },
-     "exactPlace": "Walking through Darkness Lane"
+     }
     }
    ]
   },
@@ -47,26 +25,16 @@
     {
      "name": "Fear",
      "hasIntensity": 0.8,
-     "quote": "She had rather a leaning to ghosts, as I have mentioned before, and what little she did say was all on Mrs Forrester’s side, who, emboldened by sympathy, protested that ghosts were a part of her religion.",
-     "causedBy": {
-      "name": "Fear of ghosts"
+     "quote": "She had breath for nothing beyond an imploring 'Don't leave me!' uttered as she clutched my arm so tightly that I could not have quitted her, ghost or no ghost.",
+     "causedByEvent": {
+      "name": "Being in Darkness Lane",
+      "takePlaceAt": {
+       "name": "Darkness Lane"
+      }
      },
      "hasObject": {
       "name": "Ghosts"
-     },
-     "exactPlace": "During the conversation about ghosts"
-    },
-    {
-     "name": "Fear",
-     "hasIntensity": 0.7,
-     "quote": "She had breath for nothing beyond an imploring “Don’t leave me!” uttered as she clutched my arm so tightly that I could not have quitted her, ghost or no ghost.",
-     "causedBy": {
-      "name": "Fear of being left alone"
-     },
-     "hasObject": {
-      "name": "Being left alone"
-     },
-     "exactPlace": "Walking through Darkness Lane"
+     }
     }
    ]
   },
@@ -74,58 +42,18 @@
    "name": "Mrs Forrester",
    "feels": [
     {
-     "name": "Fear",
-     "hasIntensity": 0.8,
-     "quote": "She had rather a leaning to ghosts, as I have mentioned before, and what little she did say was all on Mrs Forrester’s side, who, emboldened by sympathy, protested that ghosts were a part of her religion.",
-     "causedBy": {
-      "name": "Fear of ghosts"
-     },
-     "hasObject": {
-      "name": "Ghosts"
-     },
-     "exactPlace": "During the conversation about ghosts"
-    }
-   ]
-  },
-  {
-   "name": "Jenny",
-   "feels": [
-    {
-     "name": "Fear",
+     "name": "Triumph",
      "hasIntensity": 0.7,
-     "quote": "A lady all in white, and without her head, was what she deposed and adhered to, supported by a consciousness of the secret sympathy of her mistress under the withering scorn with which Miss Pole regarded her.",
-     "causedBy": {
-      "name": "Fear of seeing a headless lady"
+     "quote": "Mrs Forrester looked at us from time to time with an air of conscious triumph.",
+     "causedByEvent": {
+      "name": "Discussion about ghosts",
+      "takePlaceAt": {
+       "name": "Mrs Forrester's house"
+      }
      },
      "hasObject": {
-      "name": "Headless lady"
-     },
-     "exactPlace": "During the conversation about the headless lady"
-    }
-   ]
-  }
- ],
- "Places": [
-  {
-   "name": "Darkness Lane",
-   "description": "A dark and lonely lane where ghostly sightings were reported."
-  }
- ],
- "Events": [
-  {
-   "name": "Walking through Darkness Lane",
-   "takePlaceAt": {
-    "name": "Darkness Lane"
-   },
-   "hasParticipant": [
-    {
-     "name": "Miss Matty"
-    },
-    {
-     "name": "Miss Pole"
-    },
-    {
-     "name": "Jenny"
+      "name": "Being right about ghosts"
+     }
     }
    ]
   }

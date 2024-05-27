@@ -1,105 +1,97 @@
 {
  "FictionalCharacters": [
   {
-   "id": "texts/thebluecastle.txt#Valancy",
    "name": "Valancy",
    "feels": [
     {
-     "name": "Pity",
-     "hasIntensity": 0.9,
-     "quote": "Valancy's heart was wrung for Cecilia Gay.",
-     "causedBy": {
-      "id": "texts/thebluecastle.txt#Cecilia_s_situation",
-      "name": "Cecilia_s_situation"
-     },
-     "hasObject": {
-      "id": "texts/thebluecastle.txt#Cecilia_Gay",
-      "name": "Cecilia_Gay"
-     },
-     "exactPlace": "On the steps of Roaring Abel's house",
-     "id": "Pity"
-    },
-    {
      "name": "Compassion",
-     "hasIntensity": 0.8,
-     "quote": "Valancy's heart was wrung for Cecilia Gay.",
-     "causedBy": {
-      "id": "texts/thebluecastle.txt#Cecilia_s_situation",
-      "name": "Cecilia_s_situation"
-     },
+     "hasIntensity": 0.9,
+     "quote": "Her heart was wrung for Cecilia Gay.",
      "hasObject": {
-      "id": "texts/thebluecastle.txt#Cecilia_Gay",
       "name": "Cecilia_Gay"
      },
-     "exactPlace": "On the steps of Roaring Abel's house",
-     "id": "Compassion"
+     "causedBy": {
+      "name": "Learning_about_Cecilia_s_situation",
+      "takePlaceAt": {
+       "name": "Conversation_with_Roaring_Abel"
+      },
+      "hasParticipant": [
+       {
+        "name": "Valancy"
+       },
+       {
+        "name": "Roaring_Abel"
+       }
+      ]
+     }
     },
     {
      "name": "Determination",
-     "hasIntensity": 0.7,
-     "quote": "Valancy insisted that Cissy must have someone to look after her.",
-     "causedBy": {
-      "id": "texts/thebluecastle.txt#Cecilia_s_need_for_care",
-      "name": "Cecilia_s_need_for_care"
-     },
+     "hasIntensity": 0.8,
+     "quote": "Will I do?",
      "hasObject": {
-      "id": "texts/thebluecastle.txt#Cecilia_Gay",
-      "name": "Cecilia_Gay"
+      "name": "Assisting_Roaring_Abel"
      },
-     "exactPlace": "On the steps of Roaring Abel's house",
-     "id": "Determination"
+     "causedBy": {
+      "name": "Offering_to_help_Roaring_Abel",
+      "takePlaceAt": {
+       "name": "Conversation_with_Roaring_Abel"
+      },
+      "hasParticipant": [
+       {
+        "name": "Valancy"
+       },
+       {
+        "name": "Roaring_Abel"
+       }
+      ]
+     }
     },
     {
-     "name": "Empathy",
+     "name": "Concern",
      "hasIntensity": 0.9,
-     "quote": "Valancy's heart was wrung for Cecilia Gay.",
-     "causedBy": {
-      "id": "texts/thebluecastle.txt#Cecilia_s_situation",
-      "name": "Cecilia_s_situation"
-     },
+     "quote": "The point is—you must have a housekeeper.",
      "hasObject": {
-      "id": "texts/thebluecastle.txt#Cecilia_Gay",
       "name": "Cecilia_Gay"
      },
-     "exactPlace": "On the steps of Roaring Abel's house",
-     "id": "Empathy"
+     "causedBy": {
+      "name": "Realizing_the_need_to_care_for_Cecilia",
+      "takePlaceAt": {
+       "name": "Conversation_with_Roaring_Abel"
+      },
+      "hasParticipant": [
+       {
+        "name": "Valancy"
+       },
+       {
+        "name": "Roaring_Abel"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Resignation",
+     "hasIntensity": 0.7,
+     "quote": "I am going to look for my Blue Castle.",
+     "hasObject": {
+      "name": "Finding_her_Blue_Castle"
+     },
+     "causedBy": {
+      "name": "Decision_to_leave_and_help_Roaring_Abel",
+      "takePlaceAt": {
+       "name": "Conversation_with_Mrs_Frederick"
+      },
+      "hasParticipant": [
+       {
+        "name": "Valancy"
+       },
+       {
+        "name": "Mrs_Frederick"
+       }
+      ]
+     }
     }
    ]
-  }
- ],
- "Places": [
-  {
-   "id": "texts/thebluecastle.txt#On_the_steps_of_Roaring_Abel_s_house",
-   "name": "On_the_steps_of_Roaring_Abel_s_house",
-   "description": "Valancy sat on the steps, defiant of the chill breeze of this cold June."
-  }
- ],
- "Events": [
-  {
-   "id": "texts/thebluecastle.txt#Cecilia_s_situation",
-   "name": "Cecilia_s_situation",
-   "takePlaceAt": {
-    "id": "texts/thebluecastle.txt#place1",
-    "name": "place1"
-   }
-  },
-  {
-   "id": "texts/thebluecastle.txt#Cecilia_s_need_for_care",
-   "name": "Cecilia_s_need_for_care",
-   "takePlaceAt": {
-    "id": "texts/thebluecastle.txt#place1",
-    "name": "place1"
-   }
-  }
- ],
- "Objects": [
-  {
-   "id": "texts/thebluecastle.txt#Cecilia_Gay",
-   "name": "Cecilia_Gay"
-  },
-  {
-   "id": "texts/thebluecastle.txt#Cecilia_Gay",
-   "name": "Cecilia_Gay"
   }
  ]
 }

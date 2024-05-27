@@ -1,144 +1,79 @@
 {
  "FictionalCharacters": [
   {
-   "id": "fc1",
    "name": "Mr. Casaubon",
    "feels": [
     {
-     "name": "Trust",
-     "hasIntensity": 0.2,
-     "quote": "He had a sense of rectitude and an honorable pride in satisfying the requirements of honor.",
-     "causedBy": {
-      "id": "event1",
-      "name": "Sense of rectitude and honor"
-     },
-     "hasObject": {
-      "id": "object1",
-      "name": "Satisfying the requirements of honor"
-     },
-     "place": "Within himself"
-    },
-    {
-     "name": "Surprise",
-     "hasIntensity": 0.3,
-     "quote": "The human soul moves in many channels, and Mr. Casaubon had a sense of rectitude and an honorable pride in satisfying the requirements of honor, which compelled him to find other reasons for his conduct than those of jealousy and vindictiveness.",
-     "causedBy": {
-      "id": "event2",
-      "name": "Sense of rectitude and honor"
-     },
-     "hasObject": {
-      "id": "object2",
-      "name": "Satisfying the requirements of honor"
-     },
-     "place": "Within himself"
-    },
-    {
-     "name": "Anger",
+     "name": "Jealousy",
      "hasIntensity": 0.8,
      "quote": "He was quite sure that Dorothea was the cause of Will’s return from Rome, and his determination to settle in the neighborhood; and he was penetrating enough to imagine that Dorothea had innocently encouraged this course.",
-     "causedBy": {
-      "id": "event3",
-      "name": "Dorothea's actions"
+     "causedByEvent": {
+      "name": "Dorothea's actions and interactions with Will Ladislaw",
+      "takePlaceAt": {
+       "name": "Lowick Manor"
+      }
      },
      "hasObject": {
-      "id": "object3",
-      "name": "Dorothea"
-     },
-     "place": "Within himself"
+      "name": "Dorothea's attention and affection"
+     }
     },
     {
-     "name": "Joy",
-     "hasIntensity": 0.5,
-     "quote": "He had recovered all his usual power of work: the illness might have been mere fatigue, and there might still be twenty years of achievement before him, which would justify the thirty years of preparation.",
-     "causedBy": {
-      "id": "event4",
-      "name": "Recovery of health"
-     },
-     "hasObject": {
-      "id": "object4",
-      "name": "Recovery of health"
-     },
-     "place": "Within himself"
-    },
-    {
-     "name": "Anticipation",
+     "name": "Vindictiveness",
      "hasIntensity": 0.7,
-     "quote": "He had begun now to frame possibilities for the future which were somehow more embittering to him than anything his mind had dwelt on before.",
-     "causedBy": {
-      "id": "event5",
-      "name": "Framing possibilities for the future"
+     "quote": "To convince Carp of his mistake, so that he would have to eat his own words with a good deal of indigestion, would be an agreeable accident of triumphant authorship, which the prospect of living to future ages on earth and to all eternity in heaven could not exclude from contemplation.",
+     "causedByEvent": {
+      "name": "Desire for vindication and triumph",
+      "takePlaceAt": {
+       "name": "Lowick Manor"
+      }
      },
      "hasObject": {
-      "id": "object5",
-      "name": "Future possibilities"
-     },
-     "place": "Within himself"
+      "name": "Triumphant authorship"
+     }
     },
     {
-     "name": "Fear",
+     "name": "Suspicion",
      "hasIntensity": 0.9,
-     "quote": "To all the facts which he knew, he added imaginary facts both present and future which became more real to him than those because they called up a stronger dislike, a more predominating bitterness.",
-     "causedBy": {
-      "id": "event6",
-      "name": "Imaginary facts"
+     "quote": "He was quite sure that Dorothea was the cause of Will’s return from Rome, and his determination to settle in the neighborhood; and he was penetrating enough to imagine that Dorothea had innocently encouraged this course.",
+     "causedByEvent": {
+      "name": "Dorothea's actions and interactions with Will Ladislaw",
+      "takePlaceAt": {
+       "name": "Lowick Manor"
+      }
      },
      "hasObject": {
-      "id": "object6",
-      "name": "Imaginary facts"
-     },
-     "place": "Within himself"
+      "name": "Dorothea's intentions"
+     }
     },
     {
-     "name": "Disgust",
-     "hasIntensity": 0.6,
-     "quote": "He utterly distrusts Will Ladislaw's morals, and it is his duty to hinder to the utmost the fulfillment of his designs.",
-     "causedBy": {
-      "id": "event7",
-      "name": "Distrust of Will Ladislaw"
+     "name": "Anxiety",
+     "hasIntensity": 0.8,
+     "quote": "He was certainly much revived; he had recovered all his usual power of work: the illness might have been mere fatigue, and there might still be twenty years of achievement before him, which would justify the thirty years of preparation.",
+     "causedByEvent": {
+      "name": "Concerns about his health and future",
+      "takePlaceAt": {
+       "name": "Lowick Manor"
+      }
      },
      "hasObject": {
-      "id": "object7",
-      "name": "Will Ladislaw"
+      "name": "Future achievements"
+     }
+    },
+    {
+     "name": "Discontent",
+     "hasIntensity": 0.7,
+     "quote": "He was quite sure that Dorothea was the cause of Will’s return from Rome, and his determination to settle in the neighborhood; and he was penetrating enough to imagine that Dorothea had innocently encouraged this course.",
+     "causedByEvent": {
+      "name": "Dorothea's actions and interactions with Will Ladislaw",
+      "takePlaceAt": {
+       "name": "Lowick Manor"
+      }
      },
-     "place": "Within himself"
+     "hasObject": {
+      "name": "Dorothea's influence"
+     }
     }
    ]
-  }
- ],
- "Places": [
-  {
-   "id": "place1",
-   "name": "Within himself"
-  }
- ],
- "Events": [
-  {
-   "id": "event1",
-   "name": "Sense of rectitude and honor"
-  },
-  {
-   "id": "event2",
-   "name": "Sense of rectitude and honor"
-  },
-  {
-   "id": "event3",
-   "name": "Dorothea's actions"
-  },
-  {
-   "id": "event4",
-   "name": "Recovery of health"
-  },
-  {
-   "id": "event5",
-   "name": "Framing possibilities for the future"
-  },
-  {
-   "id": "event6",
-   "name": "Imaginary facts"
-  },
-  {
-   "id": "event7",
-   "name": "Distrust of Will Ladislaw"
   }
  ]
 }

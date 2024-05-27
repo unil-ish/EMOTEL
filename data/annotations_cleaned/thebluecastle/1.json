@@ -1,109 +1,119 @@
 {
  "FictionalCharacters": [
   {
-   "id": "texts/thebluecastle.txt#Valancy",
+   "name": "Valancy",
    "feels": [
+    {
+     "name": "Humiliation",
+     "hasIntensity": 0.6,
+     "quote": "She felt a little less humiliated.",
+     "hasObject": {
+      "name": "Being_forgotten"
+     },
+     "causedBy": {
+      "name": "Being_forgotten_by_Dr_Trent",
+      "takePlaceAt": {
+       "name": "Walking_down_the_street"
+      },
+      "hasParticipant": [
+       {
+        "name": "Valancy"
+       },
+       {
+        "name": "Dr_Trent"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Envy",
+     "hasIntensity": 0.7,
+     "quote": "She was merely envious.",
+     "hasObject": {
+      "name": "Young_couple_walking_together"
+     },
+     "causedBy": {
+      "name": "Seeing_a_young_couple_walking_together",
+      "takePlaceAt": {
+       "name": "Lovers_Lane"
+      },
+      "hasParticipant": [
+       {
+        "name": "Valancy"
+       },
+       {
+        "name": "Young_couple"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Joy",
+     "hasIntensity": 0.8,
+     "quote": "Valancy was enjoying herself.",
+     "hasObject": {
+      "name": "Attending_the_silver_wedding"
+     },
+     "causedBy": {
+      "name": "Attending_Uncle_Herbert_s_silver_wedding",
+      "takePlaceAt": {
+       "name": "Uncle_Herbert_s_house"
+      },
+      "hasParticipant": [
+       {
+        "name": "Valancy"
+       },
+       {
+        "name": "Uncle_Herbert"
+       }
+      ]
+     }
+    },
     {
      "name": "Freedom",
      "hasIntensity": 0.9,
-     "quote": "She let herself go with a wild, inner exultation, as Uncle Herbert carved the turkey.",
-     "causedBy": {
-      "id": "texts/thebluecastle.txt#Uncle_Herbert_carving_the_turkey",
-      "name": "Uncle_Herbert_carving_the_turkey"
-     },
+     "quote": "She was quite prepared to talk if occasion offered.",
      "hasObject": {
-      "id": "texts/thebluecastle.txt#Thanksgiving_dinner",
-      "name": "Thanksgiving_dinner"
+      "name": "Feeling_unafraid_of_her_family"
      },
-     "place": {
-      "id": "texts/thebluecastle.txt#Uncle_Herbert_s_house",
-      "name": "Uncle_Herbert_s_house"
-     },
-     "id": "Freedom"
+     "causedBy": {
+      "name": "Feeling_unafraid_of_her_family",
+      "takePlaceAt": {
+       "name": "Uncle_Herbert_s_house"
+      },
+      "hasParticipant": [
+       {
+        "name": "Valancy"
+       },
+       {
+        "name": "Family_members"
+       }
+      ]
+     }
     },
     {
      "name": "Amusement",
-     "hasIntensity": 0.8,
-     "quote": "She was gazing around the table, examining relentlessly every one in this depressing assembly of sensible people and watching their little squirms with a detached, amused smile.",
-     "causedBy": {
-      "id": "texts/thebluecastle.txt#Observing_the_guests_at_the_table",
-      "name": "Observing_the_guests_at_the_table"
-     },
+     "hasIntensity": 0.7,
+     "quote": "Watching their little squirms with a detached, amused smile.",
      "hasObject": {
-      "id": "texts/thebluecastle.txt#Family_gathering",
-      "name": "Family_gathering"
+      "name": "Observing_family_members"
      },
-     "place": {
-      "id": "texts/thebluecastle.txt#Uncle_Herbert_s_house",
-      "name": "Uncle_Herbert_s_house"
-     },
-     "id": "Amusement"
-    },
-    {
-     "name": "Rebellion",
-     "hasIntensity": 0.9,
-     "quote": "She was giving herself such freedom of thought as she had never dared to take before. She let herself go with a wild, inner exultation.",
      "causedBy": {
-      "id": "texts/thebluecastle.txt#Feeling_liberated",
-      "name": "Feeling_liberated"
-     },
-     "hasObject": {
-      "id": "texts/thebluecastle.txt#Family_gathering",
-      "name": "Family_gathering"
-     },
-     "place": {
-      "id": "texts/thebluecastle.txt#Uncle_Herbert_s_house",
-      "name": "Uncle_Herbert_s_house"
-     },
-     "id": "Rebellion"
+      "name": "Observing_family_members_at_the_dinner_table",
+      "takePlaceAt": {
+       "name": "Uncle_Herbert_s_house"
+      },
+      "hasParticipant": [
+       {
+        "name": "Valancy"
+       },
+       {
+        "name": "Family_members"
+       }
+      ]
+     }
     }
-   ],
-   "name": "Valancy"
-  }
- ],
- "Places": [
-  {
-   "id": "texts/thebluecastle.txt#Uncle_Herbert_s_house",
-   "name": "Uncle_Herbert_s_house",
-   "description": "A large, pretentious structure peppered with meaningless bay windows and excrescent porches."
-  }
- ],
- "Events": [
-  {
-   "id": "texts/thebluecastle.txt#Uncle_Herbert_carving_the_turkey",
-   "name": "Uncle_Herbert_carving_the_turkey",
-   "takePlaceAt": {
-    "id": "texts/thebluecastle.txt#Thanksgiving_dinner",
-    "name": "Thanksgiving_dinner"
-   },
-   "hasParticipant": {
-    "id": "texts/thebluecastle.txt#Valancy",
-    "name": "Valancy"
-   }
-  },
-  {
-   "id": "texts/thebluecastle.txt#Observing_the_guests_at_the_table",
-   "name": "Observing_the_guests_at_the_table",
-   "takePlaceAt": {
-    "id": "texts/thebluecastle.txt#Family_gathering",
-    "name": "Family_gathering"
-   },
-   "hasParticipant": {
-    "id": "texts/thebluecastle.txt#Valancy",
-    "name": "Valancy"
-   }
-  },
-  {
-   "id": "texts/thebluecastle.txt#Feeling_liberated",
-   "name": "Feeling_liberated",
-   "takePlaceAt": {
-    "id": "texts/thebluecastle.txt#Family_gathering",
-    "name": "Family_gathering"
-   },
-   "hasParticipant": {
-    "id": "texts/thebluecastle.txt#Valancy",
-    "name": "Valancy"
-   }
+   ]
   }
  ]
 }

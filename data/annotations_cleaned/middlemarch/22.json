@@ -1,100 +1,75 @@
 {
  "FictionalCharacters": [
   {
-   "id": "texts/middlemarch.txt#Dorothea_Brooke",
-   "name": "Dorothea_Brooke",
+   "name": "Dorothea",
    "feels": [
     {
      "name": "Longing",
      "hasIntensity": 0.9,
      "quote": "The longing was to see Will Ladislaw. She did not know any good that could come of their meeting: she was helpless; her hands had been tied from making up to him for any unfairness in his lot. But her soul thirsted to see him.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Desire_to_see_Will_Ladislaw",
-      "name": "Desire_to_see_Will_Ladislaw"
-     },
      "hasObject": {
-      "id": "texts/middlemarch.txt#Will_Ladislaw",
       "name": "Will_Ladislaw"
      },
-     "exactPlace": "Lowick Manor",
-     "id": "Longing"
+     "causedBy": {
+      "name": "Desire_to_see_Will_Ladislaw",
+      "takePlaceAt": {
+       "name": "Lowick_Manor"
+      },
+      "hasParticipant": [
+       {
+        "name": "Dorothea"
+       },
+       {
+        "name": "Will_Ladislaw"
+       }
+      ]
+     }
     },
     {
      "name": "Pity",
      "hasIntensity": 0.8,
      "quote": "The pity which had been the restraining compelling motive in her life with him still clung about his image, even while she remonstrated with him in indignant thought and told him that he was unjust.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Pity_for_Mr_Casaubon",
-      "name": "Pity_for_Mr_Casaubon"
-     },
      "hasObject": {
-      "id": "texts/middlemarch.txt#Mr_Casaubon",
-      "name": "Mr_Casaubon"
+      "name": "Late_husband"
      },
-     "exactPlace": "Lowick Manor",
-     "id": "Pity"
+     "causedBy": {
+      "name": "Feeling_of_pity_towards_her_late_husband",
+      "takePlaceAt": {
+       "name": "Lowick_Manor"
+      },
+      "hasParticipant": [
+       {
+        "name": "Dorothea"
+       },
+       {
+        "name": "Late_husband"
+       }
+      ]
+     }
     },
     {
-     "name": "Desire",
+     "name": "Anxiety",
      "hasIntensity": 0.7,
-     "quote": "But just now she could not see Lydgate without sending for him or going to seek him. Perhaps Will Ladislaw, having heard of that strange ban against him left by Mr. Casaubon, had felt it better that he and she should not meet again, and perhaps she was wrong to wish for a meeting that others might find many good reasons against.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Desire_to_see_Will_Ladislaw",
-      "name": "Desire_to_see_Will_Ladislaw"
-     },
+     "quote": "But the meeting did happen, but in a formal way quite unexpected by her.",
      "hasObject": {
-      "id": "texts/middlemarch.txt#Will_Ladislaw",
-      "name": "Will_Ladislaw"
+      "name": "Meeting_with_Will_Ladislaw"
      },
-     "exactPlace": "Lowick Manor",
-     "id": "Desire"
+     "causedBy": {
+      "name": "Unexpected_meeting_with_Will_Ladislaw",
+      "takePlaceAt": {
+       "name": "Lowick_Manor"
+      },
+      "hasParticipant": [
+       {
+        "name": "Dorothea"
+       },
+       {
+        "name": "Will_Ladislaw"
+       }
+      ]
+     }
     }
    ]
-  }
- ],
- "Places": [
-  {
-   "id": "texts/middlemarch.txt#Lowick_Manor",
-   "name": "Lowick_Manor",
-   "description": "The estate where Dorothea Brooke resides."
-  }
- ],
- "Events": [
-  {
-   "id": "texts/middlemarch.txt#Desire_to_see_Will_Ladislaw",
-   "name": "Desire_to_see_Will_Ladislaw",
-   "takePlaceAt": {
-    "id": "texts/middlemarch.txt#place1",
-    "name": "place1"
-   },
-   "hasParticipant": {
-    "id": "texts/middlemarch.txt#fc1",
-    "name": "fc1"
-   }
-  },
-  {
-   "id": "texts/middlemarch.txt#Pity_for_Mr_Casaubon",
-   "name": "Pity_for_Mr_Casaubon",
-   "takePlaceAt": {
-    "id": "texts/middlemarch.txt#place1",
-    "name": "place1"
-   },
-   "hasParticipant": {
-    "id": "texts/middlemarch.txt#fc1",
-    "name": "fc1"
-   }
-  },
-  {
-   "id": "texts/middlemarch.txt#Desire_to_see_Will_Ladislaw",
-   "name": "Desire_to_see_Will_Ladislaw",
-   "takePlaceAt": {
-    "id": "texts/middlemarch.txt#place1",
-    "name": "place1"
-   },
-   "hasParticipant": {
-    "id": "texts/middlemarch.txt#fc1",
-    "name": "fc1"
-   }
   }
  ]
 }

@@ -1,110 +1,138 @@
 {
  "FictionalCharacters": [
   {
-   "id": "fc1",
    "name": "Ferdinand Count Fathom",
    "feels": [
     {
      "name": "Trust",
      "hasIntensity": 0.9,
-     "quote": "He remained unaltered by all their efforts and expostulations, and allowed our adventurer to enjoy the triumph of his praise, while he himself was conscious of his own superiority in those qualifications which seemed of more real importance than the mere exteriors and forms of life.",
-     "causedBy": {
-      "id": "event1",
-      "name": "Being conscious of his own superiority"
+     "quote": "He did not, however, fail to lament the untimely fate of his mother, with such filial expressions of sorrow, as still more intimately recommended him to his patron.",
+     "causedByEvent": {
+      "name": "Mother's death",
+      "takePlaceAt": {
+       "name": "Battlefield"
+      },
+      "hasParticipant": [
+       {
+        "name": "Ferdinand Count Fathom"
+       },
+       {
+        "name": "Count Melvil"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object1",
-      "name": "Superiority in qualifications"
+      "name": "Patron"
+     }
+    },
+    {
+     "name": "Surprise",
+     "hasIntensity": 0.7,
+     "quote": "He was not, in all respects, entertained on the footing of his young master; yet he shared in all his education and amusements, as one whom the old gentleman was fully determined to qualify for the station of an officer in the service.",
+     "causedByEvent": {
+      "name": "Being presented to the Countess",
+      "takePlaceAt": {
+       "name": "Count's house at Presburg"
+      },
+      "hasParticipant": [
+       {
+        "name": "Ferdinand Count Fathom"
+       },
+       {
+        "name": "Count Melvil"
+       }
+      ]
      },
-     "place": {
-      "id": "place1",
-      "name": "Family home"
+     "hasObject": {
+      "name": "Education"
      }
     },
     {
      "name": "Joy",
-     "hasIntensity": 0.7,
-     "quote": "He was ravished with the prospect of enjoying such a companion.",
-     "causedBy": {
-      "id": "event2",
-      "name": "Being presented to the Countess"
+     "hasIntensity": 0.8,
+     "quote": "He was entered in the same academy; and the two lads proceeded equally in the paths of erudition; a mutual friendship and intimacy soon ensued.",
+     "causedByEvent": {
+      "name": "Entering the academy",
+      "takePlaceAt": {
+       "name": "School"
+      },
+      "hasParticipant": [
+       {
+        "name": "Ferdinand Count Fathom"
+       },
+       {
+        "name": "Young Count"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object2",
-      "name": "Prospect of enjoying a companion"
-     },
-     "place": {
-      "id": "place2",
-      "name": "Family home"
+      "name": "Friendship"
      }
     },
     {
-     "name": "Submission",
-     "hasIntensity": 0.8,
+     "name": "Anticipation",
+     "hasIntensity": 0.6,
      "quote": "His present ambition was not to make a figure at his father’s table, but to eclipse his rivals at school, and to acquire an influence and authority among these confederates.",
-     "causedBy": {
-      "id": "event3",
-      "name": "Ambition to excel at school"
+     "causedByEvent": {
+      "name": "Desire for influence at school",
+      "takePlaceAt": {
+       "name": "School"
+      },
+      "hasParticipant": [
+       {
+        "name": "Ferdinand Count Fathom"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object3",
-      "name": "Eclipsing rivals at school"
+      "name": "Influence"
+     }
+    },
+    {
+     "name": "Fear",
+     "hasIntensity": 0.7,
+     "quote": "The adventure, inconsiderable as it is, we shall record, as the first overt act of Ferdinand’s true character, as well as an illustration of the opinion we have advanced touching the blind and injudicious decisions of a right pedagogue.",
+     "causedByEvent": {
+      "name": "Almost losing the Count's friendship",
+      "takePlaceAt": {
+       "name": "School"
+      },
+      "hasParticipant": [
+       {
+        "name": "Ferdinand Count Fathom"
+       },
+       {
+        "name": "Young Count"
+       }
+      ]
      },
-     "place": {
-      "id": "place3",
-      "name": "School"
+     "hasObject": {
+      "name": "Friendship"
+     }
+    },
+    {
+     "name": "Disappointment",
+     "hasIntensity": 0.6,
+     "quote": "The adventure, inconsiderable as it is, we shall record, as the first overt act of Ferdinand’s true character, as well as an illustration of the opinion we have advanced touching the blind and injudicious decisions of a right pedagogue.",
+     "causedByEvent": {
+      "name": "Almost losing the Count's friendship",
+      "takePlaceAt": {
+       "name": "School"
+      },
+      "hasParticipant": [
+       {
+        "name": "Ferdinand Count Fathom"
+       },
+       {
+        "name": "Young Count"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Friendship"
      }
     }
    ]
-  }
- ],
- "Places": [
-  {
-   "id": "place1",
-   "name": "Family home",
-   "description": "The residence of Count Melvil and his family."
-  },
-  {
-   "id": "place2",
-   "name": "Family home",
-   "description": "The residence of Count Melvil and his family."
-  },
-  {
-   "id": "place3",
-   "name": "School",
-   "description": "The educational institution attended by Ferdinand and the young Count."
-  }
- ],
- "Events": [
-  {
-   "id": "event1",
-   "name": "Being conscious of his own superiority",
-   "takePlaceAt": {
-    "id": "place1"
-   },
-   "hasParticipant": {
-    "id": "fc1"
-   }
-  },
-  {
-   "id": "event2",
-   "name": "Being presented to the Countess",
-   "takePlaceAt": {
-    "id": "place2"
-   },
-   "hasParticipant": {
-    "id": "fc1"
-   }
-  },
-  {
-   "id": "event3",
-   "name": "Ambition to excel at school",
-   "takePlaceAt": {
-    "id": "place3"
-   },
-   "hasParticipant": {
-    "id": "fc1"
-   }
   }
  ]
 }

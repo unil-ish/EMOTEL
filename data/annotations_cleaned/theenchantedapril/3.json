@@ -1,155 +1,112 @@
 {
  "FictionalCharacters": [
   {
-   "id": "texts/theenchantedapril.txt#LadyCaroline",
+   "name": "Scrap",
    "feels": [
     {
      "name": "Trust",
-     "hasIntensity": 0.2,
-     "quote": "She began to like Mrs. Fisher.",
-     "causedBy": {
-      "id": "texts/theenchantedapril.txt#Mrs_Fisher_showing_concern_for_her_health",
-      "name": "Mrs_Fisher_showing_concern_for_her_health"
-     },
+     "hasIntensity": 0.5,
+     "quote": "She began to like Mrs. Fisher. Perhaps the originals didn’t know anything about her either.",
      "hasObject": {
-      "id": "texts/theenchantedapril.txt#Mrs_Fisher",
       "name": "Mrs_Fisher"
      },
-     "place": {
-      "id": "texts/theenchantedapril.txt#Top_garden_loop",
-      "name": "Top_garden_loop"
-     },
-     "id": "Trust"
+     "causedBy": {
+      "name": "Mrs_Fisher_not_knowing_about_her_background",
+      "takePlaceAt": {
+       "name": "In_the_garden_loop"
+      }
+     }
     },
     {
      "name": "Surprise",
-     "hasIntensity": 0.5,
+     "hasIntensity": 0.7,
      "quote": "A faint wonder came into Scrap’s eyes. Have you a mother?",
-     "causedBy": {
-      "id": "texts/theenchantedapril.txt#Mrs_Fisher_asking_about_her_mother",
-      "name": "Mrs_Fisher_asking_about_her_mother"
-     },
      "hasObject": {
-      "id": "texts/theenchantedapril.txt#Mrs_Fisher",
-      "name": "Mrs_Fisher"
+      "name": "Mother"
      },
-     "place": {
-      "id": "texts/theenchantedapril.txt#Top_garden_loop",
-      "name": "Top_garden_loop"
+     "causedBy": {
+      "name": "Mrs_Fisher_asking_about_her_mother",
+      "takePlaceAt": {
+       "name": "In_the_garden_loop"
+      }
+     }
+    },
+    {
+     "name": "Anger",
+     "hasIntensity": 0.8,
+     "quote": "I dislike very great people",
+     "hasObject": {
+      "name": "Great_people"
      },
-     "id": "Surprise"
+     "causedBy": {
+      "name": "Mrs_Fisher_mentioning_great_people",
+      "takePlaceAt": {
+       "name": "In_the_garden_loop"
+      }
+     }
     },
     {
      "name": "Joy",
-     "hasIntensity": 0.7,
-     "quote": "Scrap began to cheer up.",
-     "causedBy": {
-      "id": "texts/theenchantedapril.txt#Realizing_nobody_at_San_Salvatore_knew_about_her_b",
-      "name": "Realizing_nobody_at_San_Salvatore_knew_about_her_background"
-     },
+     "hasIntensity": 0.6,
+     "quote": "If only people would go away she didn’t in the least mind why they went.",
      "hasObject": {
-      "id": "texts/theenchantedapril.txt#Anonymity",
-      "name": "Anonymity"
+      "name": "Being_left_alone"
      },
-     "place": {
-      "id": "texts/theenchantedapril.txt#Top_garden_loop",
-      "name": "Top_garden_loop"
+     "causedBy": {
+      "name": "People_leaving_her_alone",
+      "takePlaceAt": {
+       "name": "In_the_garden_loop"
+      }
+     }
+    },
+    {
+     "name": "Disgust",
+     "hasIntensity": 0.9,
+     "quote": "Sheer silliness, these poses. She had no patience with them.",
+     "hasObject": {
+      "name": "Poses"
      },
-     "id": "Joy"
+     "causedBy": {
+      "name": "Encountering_poses_she_found_silly",
+      "takePlaceAt": {
+       "name": "In_the_sittingroom"
+      }
+     }
     }
-   ],
-   "name": "LadyCaroline"
+   ]
   },
   {
-   "id": "texts/theenchantedapril.txt#MrsFisher",
+   "name": "Mrs_Fisher",
    "feels": [
+    {
+     "name": "Annoyance",
+     "hasIntensity": 0.7,
+     "quote": "She was sorry she had bothered about Lady Caroline.",
+     "hasObject": {
+      "name": "Lady_Caroline"
+     },
+     "causedBy": {
+      "name": "Feeling_her_efforts_were_wasted",
+      "takePlaceAt": {
+       "name": "In_the_hall"
+      }
+     }
+    },
     {
      "name": "Disapproval",
      "hasIntensity": 0.8,
-     "quote": "What _I_ dislike is the pose of the modern young woman.",
-     "causedBy": {
-      "id": "texts/theenchantedapril.txt#Observing_Scrap_s_attitude",
-      "name": "Observing_Scrap_s_attitude"
-     },
+     "quote": "Apes, thought Mrs. Fisher, roused. Apes. Apes.",
      "hasObject": {
-      "id": "texts/theenchantedapril.txt#Modern_young_women",
-      "name": "Modern_young_women"
+      "name": "Behavior"
      },
-     "place": {
-      "id": "texts/theenchantedapril.txt#Top_garden_loop",
-      "name": "Top_garden_loop"
-     },
-     "id": "Disapproval"
-    },
-    {
-     "name": "Sternness",
-     "hasIntensity": 0.6,
-     "quote": "Absurd. That’s what you are made for, young women like you.",
      "causedBy": {
-      "id": "texts/theenchantedapril.txt#Discussing_Scrap_s_purpose",
-      "name": "Discussing_Scrap_s_purpose"
-     },
-     "hasObject": {
-      "id": "texts/theenchantedapril.txt#Scrap",
-      "name": "Scrap"
-     },
-     "place": {
-      "id": "texts/theenchantedapril.txt#Top_garden_loop",
-      "name": "Top_garden_loop"
-     },
-     "id": "Sternness"
+      "name": "Observing_behavior_she_disapproved_of",
+      "takePlaceAt": {
+       "name": "In_the_sittingroom"
+      }
+     }
     }
-   ],
-   "name": "MrsFisher"
-  }
- ],
- "Places": [
-  {
-   "id": "texts/theenchantedapril.txt#Top_garden_loop",
-   "name": "Top_garden_loop",
-   "description": "A secluded spot in the garden with daphne bushes for privacy."
-  },
-  {
-   "id": "texts/theenchantedapril.txt#Top_garden_loop",
-   "name": "Top_garden_loop",
-   "description": "A secluded spot in the garden with daphne bushes for privacy."
-  },
-  {
-   "id": "texts/theenchantedapril.txt#Top_garden_loop",
-   "name": "Top_garden_loop",
-   "description": "A secluded spot in the garden with daphne bushes for privacy."
-  },
-  {
-   "id": "texts/theenchantedapril.txt#Top_garden_loop",
-   "name": "Top_garden_loop",
-   "description": "A secluded spot in the garden with daphne bushes for privacy."
-  },
-  {
-   "id": "texts/theenchantedapril.txt#Top_garden_loop",
-   "name": "Top_garden_loop",
-   "description": "A secluded spot in the garden with daphne bushes for privacy."
-  }
- ],
- "Events": [
-  {
-   "id": "texts/theenchantedapril.txt#Mrs_Fisher_showing_concern_for_Lady_Caroline_s_hea",
-   "name": "Mrs_Fisher_showing_concern_for_Lady_Caroline_s_health"
-  },
-  {
-   "id": "texts/theenchantedapril.txt#Mrs_Fisher_asking_Lady_Caroline_about_her_mother",
-   "name": "Mrs_Fisher_asking_Lady_Caroline_about_her_mother"
-  },
-  {
-   "id": "texts/theenchantedapril.txt#Lady_Caroline_realizing_nobody_at_San_Salvatore_kn",
-   "name": "Lady_Caroline_realizing_nobody_at_San_Salvatore_knew_about_her_background"
-  },
-  {
-   "id": "texts/theenchantedapril.txt#Mrs_Fisher_observing_Scrap_s_attitude",
-   "name": "Mrs_Fisher_observing_Scrap_s_attitude"
-  },
-  {
-   "id": "texts/theenchantedapril.txt#Mrs_Fisher_discussing_Scrap_s_purpose",
-   "name": "Mrs_Fisher_discussing_Scrap_s_purpose"
+   ]
   }
  ]
 }

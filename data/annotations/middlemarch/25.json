@@ -1,99 +1,51 @@
 {
  "FictionalCharacters": [
   {
-   "id": "fc1",
-   "name": "Mr. Borthrop Trumbull",
-   "feels": [
-    {
-     "name": "Excitement",
-     "hasIntensity": 0.8,
-     "quote": "Mr. Trumbull was enjoying the utmost activity of his great faculties.",
-     "causedBy": {
-      "id": "event1",
-      "name": "The auction sale"
-     },
-     "hasObject": {
-      "id": "object1",
-      "name": "Furniture, books, and pictures"
-     },
-     "place": {
-      "id": "place1",
-      "name": "Mr. Larcher's house"
-     }
-    }
-   ]
-  },
-  {
-   "id": "fc2",
    "name": "Will Ladislaw",
    "feels": [
     {
      "name": "Defiance",
-     "hasIntensity": 0.9,
-     "quote": "Will was in a defiant mood, his consciousness being deeply stung with the thought that the people who looked at him probably knew a fact tantamount to an accusation against him.",
-     "causedBy": {
-      "id": "event2",
-      "name": "Being at the auction sale"
+     "hasIntensity": 0.8,
+     "quote": "Will was in a defiant mood, his consciousness being deeply stung with the thought that the people who looked at him probably knew a fact tantamount to an accusation against him as a fellow with low designs which were to be frustrated by a disposal of property.",
+     "causedByEvent": {
+      "name": "Feeling judged by others",
+      "takePlaceAt": {
+       "name": "Auction"
+      }
      },
-     "place": {
-      "id": "place2",
-      "name": "The auction sale"
+     "hasObject": {
+      "name": "Accusation"
      }
     },
     {
      "name": "Relief",
      "hasIntensity": 0.7,
-     "quote": "At length the 'Supper at Emmaus' was brought forward, to Will's immense relief.",
-     "causedBy": {
-      "id": "event3",
-      "name": "The 'Supper at Emmaus' painting being brought forward"
+     "quote": "At length the 'Supper at Emmaus' was brought forward, to Will’s immense relief, for he was getting so tired of the proceedings.",
+     "causedByEvent": {
+      "name": "Supper at Emmaus painting being brought forward",
+      "takePlaceAt": {
+       "name": "Auction"
+      }
      },
-     "place": {
-      "id": "place3",
-      "name": "The auction sale"
+     "hasObject": {
+      "name": "Supper at Emmaus painting"
+     }
+    },
+    {
+     "name": "Coolness",
+     "hasIntensity": 0.6,
+     "quote": "All eyes were for a moment turned towards Will, who said, coolly, 'Five pounds.'",
+     "causedByEvent": {
+      "name": "Being appealed to by the auctioneer",
+      "takePlaceAt": {
+       "name": "Auction"
+      }
+     },
+     "hasObject": {
+      "name": "Bidding"
      }
     }
    ]
-  }
- ],
- "Places": [
-  {
-   "id": "place1",
-   "name": "Mr. Larcher's house",
-   "description": "The location of the auction sale"
-  },
-  {
-   "id": "place2",
-   "name": "The auction sale",
-   "description": "The venue where the auction is taking place"
-  },
-  {
-   "id": "place3",
-   "name": "The auction sale",
-   "description": "The venue where the auction is taking place"
-  }
- ],
- "Events": [
-  {
-   "id": "event1",
-   "name": "The auction sale",
-   "takePlaceAt": {
-    "id": "place1"
-   }
-  },
-  {
-   "id": "event2",
-   "name": "Being at the auction sale",
-   "takePlaceAt": {
-    "id": "place2"
-   }
-  },
-  {
-   "id": "event3",
-   "name": "The 'Supper at Emmaus' painting being brought forward",
-   "takePlaceAt": {
-    "id": "place3"
-   }
   }
  ]
 }

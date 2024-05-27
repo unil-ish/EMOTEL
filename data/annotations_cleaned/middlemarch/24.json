@@ -1,151 +1,116 @@
 {
  "FictionalCharacters": [
   {
-   "id": "texts/middlemarch.txt#Rosamond",
+   "name": "Rosamond",
    "feels": [
-    {
-     "name": "Exultation",
-     "hasIntensity": 0.9,
-     "quote": "She was intensely conscious of having a cousin who was a baronet’s son staying in the house, and she imagined the knowledge of what was implied by his presence to be diffused through all other minds.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Captain_Lydgate_s_visit",
-      "name": "Captain_Lydgate_s_visit"
-     },
-     "hasObject": {
-      "id": "texts/middlemarch.txt#Cousin_who_is_a_baronets_son",
-      "name": "Cousin_who_is_a_baronets_son"
-     },
-     "exactPlace": "Her home",
-     "id": "Exultation"
-    },
     {
      "name": "Satisfaction",
-     "hasIntensity": 0.8,
-     "quote": "The satisfaction was enough for the time to melt away some disappointment in the conditions of marriage with a medical man even of good birth.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Captain_Lydgate_s_visit",
-      "name": "Captain_Lydgate_s_visit"
-     },
-     "hasObject": {
-      "id": "texts/middlemarch.txt#Social_status_improvement",
-      "name": "Social_status_improvement"
-     },
-     "exactPlace": "Her home",
-     "id": "Satisfaction"
-    },
-    {
-     "name": "Temptation",
-     "hasIntensity": 0.9,
-     "quote": "The temptation was certainly great: she was very fond of the exercise, and the gratification of riding on a fine horse, with Captain Lydgate, Sir Godwin’s son, on another fine horse by her side, and of being met in this position by any one but her husband, was something as good as her dreams before marriage.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Captain_Lydgate_s_visit",
-      "name": "Captain_Lydgate_s_visit"
-     },
-     "hasObject": {
-      "id": "texts/middlemarch.txt#Riding_with_Captain_Lydgate",
-      "name": "Riding_with_Captain_Lydgate"
-     },
-     "exactPlace": "Her home",
-     "id": "Temptation"
-    },
-    {
-     "name": "Exquisite_ornament",
-     "hasIntensity": 0.9,
-     "quote": "She knew that she was a much more exquisite ornament to the drawing-room there than any daughter of the family, and in reflecting that the gentlemen were aware of that, did not perhaps sufficiently consider whether the ladies would be eager to see themselves surpassed.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Expectation_of_being_invited_to_Quallingham",
-      "name": "Expectation_of_being_invited_to_Quallingham"
-     },
-     "hasObject": {
-      "id": "texts/middlemarch.txt#Being_an_exquisite_ornament",
-      "name": "Being_an_exquisite_ornament"
-     },
-     "exactPlace": "Her home",
-     "id": "Exquisite_ornament"
-    },
-    {
-     "name": "Lovely_appearance",
      "hasIntensity": 0.9,
      "quote": "Rosamond was soon looking lovelier than ever at her worktable, enjoying drives in her father’s phaeton and thinking it likely that she might be invited to Quallingham.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Expectation_of_being_invited_to_Quallingham",
-      "name": "Expectation_of_being_invited_to_Quallingham"
-     },
      "hasObject": {
-      "id": "texts/middlemarch.txt#Being_invited_to_Quallingham",
       "name": "Being_invited_to_Quallingham"
      },
-     "exactPlace": "Her home",
-     "id": "Lovely_appearance"
-    }
-   ],
-   "name": "Rosamond"
-  },
-  {
-   "id": "texts/middlemarch.txt#Lydgate",
-   "feels": [
+     "causedBy": {
+      "name": "Enjoying_drives_and_work",
+      "takePlaceAt": {
+       "name": "Worktable_and_father_s_phaeton"
+      },
+      "hasParticipant": {
+       "name": "Rosamond"
+      }
+     }
+    },
     {
      "name": "Vexation",
      "hasIntensity": 0.8,
-     "quote": "He was much worried, and conscious of new elements in his life as noxious to him as an inlet of mud to a creature that has been used to breathe and bathe and dart after its illuminated prey in the clearest of waters.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Rosamond_s_actions",
-      "name": "Rosamond_s_actions"
-     },
+     "quote": "Rosamond was much worried, and conscious of new elements in his life as noxious to him as an inlet of mud to a creature that has been used to breathe and bathe and dart after its illuminated prey in the clearest of waters.",
      "hasObject": {
-      "id": "texts/middlemarch.txt#Rosamond_s_actions",
-      "name": "Rosamond_s_actions"
+      "name": "New_elements_in_his_life"
      },
-     "exactPlace": "His home",
-     "id": "Vexation"
+     "causedBy": {
+      "name": "Feeling_worried_and_conscious_of_new_elements",
+      "takePlaceAt": {
+       "name": "Home"
+      },
+      "hasParticipant": {
+       "name": "Rosamond"
+      }
+     }
     },
     {
-     "name": "Bitterness",
-     "hasIntensity": 0.9,
-     "quote": "He had regarded Rosamond’s cleverness as precisely of the receptive kind which became a woman. He was now beginning to find out what that cleverness was—what was the shape into which it had run as into a close network aloof and independent.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Rosamond_s_actions",
-      "name": "Rosamond_s_actions"
-     },
+     "name": "Moodiness",
+     "hasIntensity": 0.7,
+     "quote": "Rosamond was soon looking lovelier than ever at her worktable, enjoying drives in her father’s phaeton and thinking it likely that she might be invited to Quallingham. She knew that she was a much more exquisite ornament to the drawing-room there than any daughter of the family, and in reflecting that the gentlemen were aware of that, did not perhaps sufficiently consider whether the ladies would be eager to see themselves surpassed.",
      "hasObject": {
-      "id": "texts/middlemarch.txt#Rosamond_s_actions",
-      "name": "Rosamond_s_actions"
+      "name": "Being_invited_to_Quallingham"
      },
-     "exactPlace": "His home",
-     "id": "Bitterness"
+     "causedBy": {
+      "name": "Feeling_selfconscious_and_reflective",
+      "takePlaceAt": {
+       "name": "Worktable_and_father_s_phaeton"
+      },
+      "hasParticipant": {
+       "name": "Rosamond"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "Lydgate",
+   "feels": [
+    {
+     "name": "Anxiety",
+     "hasIntensity": 0.9,
+     "quote": "Lydgate was much worried, and conscious of new elements in his life as noxious to him as an inlet of mud to a creature that has been used to breathe and bathe and dart after its illuminated prey in the clearest of waters.",
+     "hasObject": {
+      "name": "New_elements_in_his_life"
+     },
+     "causedBy": {
+      "name": "Feeling_worried_and_conscious_of_new_elements",
+      "takePlaceAt": {
+       "name": "Home"
+      },
+      "hasParticipant": {
+       "name": "Lydgate"
+      }
+     }
     },
     {
      "name": "Selfdiscontent",
-     "hasIntensity": 0.9,
+     "hasIntensity": 0.8,
      "quote": "Lydgate was aware that his concessions to Rosamond were often little more than the lapse of slackening resolution, the creeping paralysis apt to seize an enthusiasm which is out of adjustment to a constant portion of our lives.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Rosamond_s_actions",
-      "name": "Rosamond_s_actions"
-     },
      "hasObject": {
-      "id": "texts/middlemarch.txt#Rosamond_s_actions",
-      "name": "Rosamond_s_actions"
+      "name": "Concessions_to_Rosamond"
      },
-     "exactPlace": "His home",
-     "id": "Selfdiscontent"
+     "causedBy": {
+      "name": "Feeling_discontent_with_his_concessions_to_Rosamond",
+      "takePlaceAt": {
+       "name": "Home"
+      },
+      "hasParticipant": {
+       "name": "Lydgate"
+      }
+     }
     },
     {
      "name": "Vexation",
-     "hasIntensity": 0.8,
-     "quote": "There was gathering within him an amazed sense of his powerlessness over Rosamond.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Rosamond_s_actions",
-      "name": "Rosamond_s_actions"
-     },
+     "hasIntensity": 0.7,
+     "quote": "And on Lydgate’s enthusiasm there was constantly pressing not a simple weight of sorrow, but the biting presence of a petty degrading care, such as casts the blight of irony over all higher effort.",
      "hasObject": {
-      "id": "texts/middlemarch.txt#Rosamond_s_actions",
-      "name": "Rosamond_s_actions"
+      "name": "Petty_degrading_care"
      },
-     "exactPlace": "His home",
-     "id": "Vexation"
+     "causedBy": {
+      "name": "Feeling_vexed_with_his_enthusiasm_being_overshadowed_by_petty_degrading_care",
+      "takePlaceAt": {
+       "name": "Home"
+      },
+      "hasParticipant": {
+       "name": "Lydgate"
+      }
+     }
     }
-   ],
-   "name": "Lydgate"
+   ]
   }
  ]
 }

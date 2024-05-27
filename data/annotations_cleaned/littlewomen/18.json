@@ -1,134 +1,186 @@
 {
  "FictionalCharacters": [
   {
-   "id": "texts/littlewomen.txt#Jo_March",
    "name": "Jo_March",
    "feels": [
     {
-     "name": "Trust",
-     "hasIntensity": 0.8,
-     "quote": "No, I had father and mother to help me, the dear babies to comfort me, and the thought that you and Amy were safe and happy, to make the troubles here easier to bear.",
-     "causedBy": {
-      "id": "texts/littlewomen.txt#Having_family_support_and_knowing_loved_ones_are_s",
-      "name": "Having_family_support_and_knowing_loved_ones_are_safe"
-     },
+     "name": "Joy",
+     "hasIntensity": 0.9,
+     "quote": "It was good to see Laurie square his shoulders, and smile with masculine scorn at that insinuation, as he replied, with his 'high and mighty' air,--",
      "hasObject": {
-      "id": "texts/littlewomen.txt#Father_and_mother_dear_babies_and_safe_and_happy_l",
-      "name": "Father_and_mother_dear_babies_and_safe_and_happy_loved_ones"
+      "name": "Laurie_s_declaration"
      },
-     "place": "Home",
-     "id": "Trust"
+     "causedBy": {
+      "name": "Laurie_s_declaration_of_love_for_Amy_and_friendship_for_Jo",
+      "takePlaceAt": {
+       "name": "Jo_s_home"
+      },
+      "hasParticipant": [
+       {
+        "name": "Jo_March"
+       },
+       {
+        "name": "Laurie"
+       }
+      ]
+     }
     },
     {
-     "name": "Surprise",
-     "hasIntensity": 0.9,
-     "quote": "You are the same Jo still, dropping tears about one minute, and laughing the next. You look a little wicked now; what is it, grandma?",
-     "causedBy": {
-      "id": "texts/littlewomen.txt#Laurie_s_unexpected_visit",
-      "name": "Laurie_s_unexpected_visit"
-     },
+     "name": "Sadness",
+     "hasIntensity": 0.7,
+     "quote": "No, I had father and mother to help me, the dear babies to comfort me, and the thought that you and Amy were safe and happy, to make the troubles here easier to bear. I am lonely, sometimes, but I dare say it's good for me, and--",
      "hasObject": {
-      "id": "texts/littlewomen.txt#Laurie_s_visit",
-      "name": "Laurie_s_visit"
+      "name": "Feeling_of_loneliness"
      },
-     "place": "Home",
-     "id": "Surprise"
+     "causedBy": {
+      "name": "Feeling_of_loneliness_and_longing_for_the_past",
+      "takePlaceAt": {
+       "name": "Jo_s_home"
+      },
+      "hasParticipant": {
+       "name": "Jo_March"
+      }
+     }
     },
+    {
+     "name": "Contentment",
+     "hasIntensity": 0.8,
+     "quote": "It was good to see him beam at 'my children,' as he called the young pair; it was better still to see Amy pay him the daughterly duty and affection which completely won his old heart; and best of all, to watch Laurie revolve about the two, as if never tired of enjoying the pretty picture they made.",
+     "hasObject": {
+      "name": "Family_reunion"
+     },
+     "causedBy": {
+      "name": "Family_reunion",
+      "takePlaceAt": {
+       "name": "Jo_s_home"
+      },
+      "hasParticipant": [
+       {
+        "name": "Jo_March"
+       },
+       {
+        "name": "Laurie"
+       },
+       {
+        "name": "Amy"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "name": "Laurie",
+   "feels": [
     {
      "name": "Joy",
      "hasIntensity": 0.9,
-     "quote": "You always were a comfort, Teddy;",
-     "causedBy": {
-      "id": "texts/littlewomen.txt#Reunion_with_Laurie",
-      "name": "Reunion_with_Laurie"
-     },
+     "quote": "It was good to see Laurie square his shoulders, and smile with masculine scorn at that insinuation, as he replied, with his 'high and mighty' air,--",
      "hasObject": {
-      "id": "texts/littlewomen.txt#Reunion_with_Laurie",
-      "name": "Reunion_with_Laurie"
+      "name": "Jo_s_teasing"
      },
-     "place": "Home",
-     "id": "Joy"
+     "causedBy": {
+      "name": "Jo_s_teasing_and_banter",
+      "takePlaceAt": {
+       "name": "Jo_s_home"
+      },
+      "hasParticipant": [
+       {
+        "name": "Jo_March"
+       },
+       {
+        "name": "Laurie"
+       }
+      ]
+     }
     },
     {
-     "name": "Acceptance",
+     "name": "Contentment",
      "hasIntensity": 0.8,
-     "quote": "If I shouldn't be in the way, it would be very pleasant. I begin to feel quite young already; for, somehow, all my troubles seemed to fly away when you came.",
-     "causedBy": {
-      "id": "texts/littlewomen.txt#Feeling_comforted_by_Laurie_s_presence",
-      "name": "Feeling_comforted_by_Laurie_s_presence"
-     },
+     "quote": "It was good to see him beam at 'my children,' as he called the young pair; it was better still to see Amy pay him the daughterly duty and affection which completely won his old heart; and best of all, to watch Laurie revolve about the two, as if never tired of enjoying the pretty picture they made.",
      "hasObject": {
-      "id": "texts/littlewomen.txt#Laurie_s_presence",
-      "name": "Laurie_s_presence"
+      "name": "Family_reunion"
      },
-     "place": "Home",
-     "id": "Acceptance"
+     "causedBy": {
+      "name": "Family_reunion",
+      "takePlaceAt": {
+       "name": "Jo_s_home"
+      },
+      "hasParticipant": [
+       {
+        "name": "Jo_March"
+       },
+       {
+        "name": "Laurie"
+       },
+       {
+        "name": "Amy"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Remorse",
+     "hasIntensity": 0.7,
+     "quote": "How good it sounds to hear you say 'Teddy'! No one ever calls me that but you;",
+     "hasObject": {
+      "name": "Jo_s_forgiveness"
+     },
+     "causedBy": {
+      "name": "Jo_s_forgiveness_and_acceptance_of_Laurie_s_changed_feelings",
+      "takePlaceAt": {
+       "name": "Jo_s_home"
+      },
+      "hasParticipant": [
+       {
+        "name": "Jo_March"
+       },
+       {
+        "name": "Laurie"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "name": "Amy",
+   "feels": [
+    {
+     "name": "Contentment",
+     "hasIntensity": 0.9,
+     "quote": "For Amy's face was full of the soft brightness which betokens a peaceful heart, her voice had a new tenderness in it, and the cool, prim carriage was changed to a gentle dignity, both womanly and winning.",
+     "hasObject": {
+      "name": "Family_reunion"
+     },
+     "causedBy": {
+      "name": "Family_reunion",
+      "takePlaceAt": {
+       "name": "Jo_s_home"
+      },
+      "hasParticipant": {
+       "name": "Amy"
+      }
+     }
     },
     {
      "name": "Love",
-     "hasIntensity": 0.9,
-     "quote": "You are the same Jo still, dropping tears about one minute, and laughing the next. You look a little wicked now; what is it, grandma?",
-     "causedBy": {
-      "id": "texts/littlewomen.txt#Feeling_comforted_by_Laurie_s_presence",
-      "name": "Feeling_comforted_by_Laurie_s_presence"
-     },
+     "hasIntensity": 0.8,
+     "quote": "Love has done much for our little girl,' said her mother softly.",
      "hasObject": {
-      "id": "texts/littlewomen.txt#Laurie_s_presence",
-      "name": "Laurie_s_presence"
+      "name": "Family_reunion"
      },
-     "place": "Home",
-     "id": "Love"
+     "causedBy": {
+      "name": "Family_reunion",
+      "takePlaceAt": {
+       "name": "Jo_s_home"
+      },
+      "hasParticipant": {
+       "name": "Amy"
+      }
+     }
     }
    ]
-  }
- ],
- "Places": [
-  {
-   "id": "texts/littlewomen.txt#Home",
-   "name": "Home",
-   "description": "Jo's residence where the emotional interactions take place."
-  }
- ],
- "Events": [
-  {
-   "id": "texts/littlewomen.txt#Having_family_support_and_knowing_loved_ones_are_s",
-   "name": "Having_family_support_and_knowing_loved_ones_are_safe",
-   "takePlaceAt": {
-    "id": "texts/littlewomen.txt#place1",
-    "name": "place1"
-   }
-  },
-  {
-   "id": "texts/littlewomen.txt#Laurie_s_unexpected_visit",
-   "name": "Laurie_s_unexpected_visit",
-   "takePlaceAt": {
-    "id": "texts/littlewomen.txt#place1",
-    "name": "place1"
-   }
-  },
-  {
-   "id": "texts/littlewomen.txt#Reunion_with_Laurie",
-   "name": "Reunion_with_Laurie",
-   "takePlaceAt": {
-    "id": "texts/littlewomen.txt#place1",
-    "name": "place1"
-   }
-  },
-  {
-   "id": "texts/littlewomen.txt#Feeling_comforted_by_Laurie_s_presence",
-   "name": "Feeling_comforted_by_Laurie_s_presence",
-   "takePlaceAt": {
-    "id": "texts/littlewomen.txt#place1",
-    "name": "place1"
-   }
-  },
-  {
-   "id": "texts/littlewomen.txt#Feeling_comforted_by_Laurie_s_presence",
-   "name": "Feeling_comforted_by_Laurie_s_presence",
-   "takePlaceAt": {
-    "id": "texts/littlewomen.txt#place1",
-    "name": "place1"
-   }
   }
  ]
 }

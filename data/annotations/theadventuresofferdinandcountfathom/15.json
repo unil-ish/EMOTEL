@@ -1,117 +1,107 @@
 {
  "FictionalCharacters": [
   {
-   "id": "fc1",
    "name": "Renaldo",
    "feels": [
     {
      "name": "Grief",
      "hasIntensity": 1,
-     "quote": "Over these pictures he dwelt with a sort of pleasing anguish, until he became so enamoured of her tomb, that he could no longer resist the desire that compelled him to make a pilgrimage to the dear hallowed spot, where all his once gay hopes lay buried.",
-     "causedBy": {
-      "id": "event1",
-      "name": "Reflections on Monimia"
+     "quote": "Unutterable was the joy that took possession of his mother and sister when Farrel flew into her apartment to intimate this happy turn. Scarce could they be restrained from pouring forth their transports in the presence of Renaldo, who was still too feeble to endure such communication; indeed, he was extremely mortified and dejected at this event, which had diffused such pleasure and satisfaction among his friends, for though his distemper was mastered, the fatal cause of it still rankled at his heart, and he considered this respite from death as a protraction of his misery.",
+     "causedByEvent": {
+      "name": "Recovery from illness",
+      "takePlaceAt": {
+       "name": "Luxemburg fortress"
+      },
+      "hasParticipant": [
+       {
+        "name": "Renaldo"
+       },
+       {
+        "name": "Farrel"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object1",
-      "name": "Monimia's tomb"
-     },
-     "exactPlace": {
-      "id": "place1",
-      "name": "Monimia's tomb"
+      "name": "Recovery"
      }
     },
     {
-     "name": "Indignation",
-     "hasIntensity": 0.8,
-     "quote": "At mention of this detested name, Renaldo’s heart began to throb with indignation; yet he suppressed the emotion, and desired to know the meaning of that splendid encomium which he had bestowed upon his confederate.",
-     "causedBy": {
-      "id": "event2",
-      "name": "Mention of Fathom"
-     },
-     "hasObject": {
-      "id": "object2",
-      "name": "Fathom"
-     }
+     "name": "Melvil",
+     "feels": [
+      {
+       "name": "Surprise",
+       "hasIntensity": 0.8,
+       "quote": "Surprised at this address, which was attended with the clanking of chains, Renaldo lifted up his eyes, and perceived the person who spoke to be one of two malefactors shackled together, who had been sentenced for some crime to work as labourers on the fortifications.",
+       "causedByEvent": {
+        "name": "Encounter with Ratchcali",
+        "takePlaceAt": {
+         "name": "Luxemburg fortress"
+        },
+        "hasParticipant": [
+         {
+          "name": "Renaldo"
+         },
+         {
+          "name": "Ratchcali"
+         }
+        ]
+       },
+       "hasObject": {
+        "name": "Encounter"
+       }
+      },
+      {
+       "name": "Indignation",
+       "hasIntensity": 0.9,
+       "quote": "At mention of this detested name, Renaldo’s heart began to throb with indignation; yet he suppressed the emotion, and desired to know the meaning of that splendid encomium which he had bestowed upon his confederate.",
+       "causedByEvent": {
+        "name": "Discussion about Fathom",
+        "takePlaceAt": {
+         "name": "Luxemburg fortress"
+        },
+        "hasParticipant": [
+         {
+          "name": "Renaldo"
+         },
+         {
+          "name": "Ratchcali"
+         }
+        ]
+       },
+       "hasObject": {
+        "name": "Discussion"
+       }
+      }
+     ]
     },
     {
-     "name": "Concern",
-     "hasIntensity": 0.9,
-     "quote": "Renaldo immediately recognised his fellow-student at Vienna, and his brother-volunteer upon the Rhine, and expressed equal surprise and concern at seeing him in such a deplorable situation.",
-     "causedBy": {
-      "id": "event3",
-      "name": "Seeing Ratchcali in a deplorable situation"
-     },
-     "hasObject": {
-      "id": "object3",
-      "name": "Ratchcali"
-     }
+     "name": "Ratchcali",
+     "feels": [
+      {
+       "name": "Indifference",
+       "hasIntensity": 0.7,
+       "quote": "Nothing renders the soul so callous and insensible as the searing brands of infamy and disgrace. Without betraying the least symptoms of shame or confusion, “Count,” says he, “this is the fate of war, at least of the war in which I have been engaged, ever since I took leave of the Imperial army, and retreated with your old companion Fathom.",
+       "causedByEvent": {
+        "name": "Discussion about his situation",
+        "takePlaceAt": {
+         "name": "Luxemburg fortress"
+        },
+        "hasParticipant": [
+         {
+          "name": "Ratchcali"
+         },
+         {
+          "name": "Renaldo"
+         }
+        ]
+       },
+       "hasObject": {
+        "name": "Discussion"
+       }
+      }
+     ]
     }
    ]
-  },
-  {
-   "id": "fc2",
-   "name": "Ratchcali",
-   "feels": [
-    {
-     "name": "Resignation",
-     "hasIntensity": 0.7,
-     "quote": "Nothing renders the soul so callous and insensible as the searing brands of infamy and disgrace.",
-     "causedBy": {
-      "id": "event4",
-      "name": "Being sentenced to hard labour for life"
-     },
-     "hasObject": {
-      "id": "object4",
-      "name": "Hard labour sentence"
-     }
-    },
-    {
-     "name": "Admiration",
-     "hasIntensity": 0.6,
-     "quote": "Long life to that original genius! If he is not unhappily eclipsed by some unfortunate interposition, before his terrene parts are purified, I foresee that he will shine a star of the first magnitude in the world of adventure.",
-     "causedBy": {
-      "id": "event5",
-      "name": "Mentioning Fathom"
-     },
-     "hasObject": {
-      "id": "object5",
-      "name": "Fathom"
-     }
-    }
-   ]
-  }
- ],
- "Places": [
-  {
-   "id": "place1",
-   "name": "Monimia's tomb",
-   "description": "The hallowed spot where all Renaldo's once gay hopes lay buried."
-  }
- ],
- "Events": [
-  {
-   "id": "event1",
-   "name": "Reflections on Monimia",
-   "takePlaceAt": {
-    "id": "place1"
-   }
-  },
-  {
-   "id": "event2",
-   "name": "Mention of Fathom"
-  },
-  {
-   "id": "event3",
-   "name": "Seeing Ratchcali in a deplorable situation"
-  },
-  {
-   "id": "event4",
-   "name": "Being sentenced to hard labour for life"
-  },
-  {
-   "id": "event5",
-   "name": "Mentioning Fathom"
   }
  ]
 }

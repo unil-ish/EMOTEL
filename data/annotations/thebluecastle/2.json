@@ -1,99 +1,97 @@
 {
  "FictionalCharacters": [
   {
-   "id": "fc1",
    "name": "Valancy",
    "feels": [
     {
-     "name": "Pity",
-     "hasIntensity": 0.9,
-     "quote": "Valancy's heart was wrung for Cecilia Gay.",
-     "causedBy": {
-      "id": "situation1",
-      "name": "Cecilia's situation"
-     },
-     "hasObject": {
-      "id": "object1",
-      "name": "Cecilia Gay"
-     },
-     "exactPlace": "On the steps of Roaring Abel's house"
-    },
-    {
      "name": "Compassion",
-     "hasIntensity": 0.8,
-     "quote": "Valancy's heart was wrung for Cecilia Gay.",
-     "causedBy": {
-      "id": "situation1",
-      "name": "Cecilia's situation"
+     "hasIntensity": 0.9,
+     "quote": "Her heart was wrung for Cecilia Gay.",
+     "causedByEvent": {
+      "name": "Learning about Cecilia's situation",
+      "takePlaceAt": {
+       "name": "Conversation with Roaring Abel"
+      },
+      "hasParticipant": [
+       {
+        "name": "Valancy"
+       },
+       {
+        "name": "Roaring Abel"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object1",
       "name": "Cecilia Gay"
-     },
-     "exactPlace": "On the steps of Roaring Abel's house"
+     }
     },
     {
      "name": "Determination",
-     "hasIntensity": 0.7,
-     "quote": "Valancy insisted that Cissy must have someone to look after her.",
-     "causedBy": {
-      "id": "situation2",
-      "name": "Cecilia's need for care"
+     "hasIntensity": 0.8,
+     "quote": "Will I do?",
+     "causedByEvent": {
+      "name": "Offering to help Roaring Abel",
+      "takePlaceAt": {
+       "name": "Conversation with Roaring Abel"
+      },
+      "hasParticipant": [
+       {
+        "name": "Valancy"
+       },
+       {
+        "name": "Roaring Abel"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object2",
-      "name": "Cecilia Gay"
-     },
-     "exactPlace": "On the steps of Roaring Abel's house"
+      "name": "Assisting Roaring Abel"
+     }
     },
     {
-     "name": "Empathy",
+     "name": "Concern",
      "hasIntensity": 0.9,
-     "quote": "Valancy's heart was wrung for Cecilia Gay.",
-     "causedBy": {
-      "id": "situation1",
-      "name": "Cecilia's situation"
+     "quote": "The point is—you must have a housekeeper.",
+     "causedByEvent": {
+      "name": "Realizing the need to care for Cecilia",
+      "takePlaceAt": {
+       "name": "Conversation with Roaring Abel"
+      },
+      "hasParticipant": [
+       {
+        "name": "Valancy"
+       },
+       {
+        "name": "Roaring Abel"
+       }
+      ]
      },
      "hasObject": {
-      "id": "object1",
       "name": "Cecilia Gay"
+     }
+    },
+    {
+     "name": "Resignation",
+     "hasIntensity": 0.7,
+     "quote": "I am going to look for my Blue Castle.",
+     "causedByEvent": {
+      "name": "Decision to leave and help Roaring Abel",
+      "takePlaceAt": {
+       "name": "Conversation with Mrs. Frederick"
+      },
+      "hasParticipant": [
+       {
+        "name": "Valancy"
+       },
+       {
+        "name": "Mrs. Frederick"
+       }
+      ]
      },
-     "exactPlace": "On the steps of Roaring Abel's house"
+     "hasObject": {
+      "name": "Finding her Blue Castle"
+     }
     }
    ]
-  }
- ],
- "Places": [
-  {
-   "id": "place1",
-   "name": "On the steps of Roaring Abel's house",
-   "description": "Valancy sat on the steps, defiant of the chill breeze of this cold June."
-  }
- ],
- "Events": [
-  {
-   "id": "situation1",
-   "name": "Cecilia's situation",
-   "takePlaceAt": {
-    "id": "place1"
-   }
-  },
-  {
-   "id": "situation2",
-   "name": "Cecilia's need for care",
-   "takePlaceAt": {
-    "id": "place1"
-   }
-  }
- ],
- "Objects": [
-  {
-   "id": "object1",
-   "name": "Cecilia Gay"
-  },
-  {
-   "id": "object2",
-   "name": "Cecilia Gay"
   }
  ]
 }

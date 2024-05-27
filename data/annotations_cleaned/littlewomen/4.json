@@ -1,185 +1,257 @@
 {
  "FictionalCharacters": [
   {
-   "id": "texts/littlewomen.txt#Jo_March",
-   "name": "Jo_March",
+   "name": "Meg",
    "feels": [
     {
      "name": "Anxiety",
-     "hasIntensity": 0.9,
-     "quote": "Language cannot describe the anxieties, experiences, and exertions which Jo underwent that morning.",
-     "causedBy": {
-      "id": "texts/littlewomen.txt#Preparing_dinner",
-      "name": "Preparing_dinner"
-     },
+     "hasIntensity": 0.8,
+     "quote": "Language cannot describe the anxieties, experiences, and exertions which Jo underwent that morning; and the dinner she served up became a standing joke.",
      "hasObject": {
-      "id": "texts/littlewomen.txt#Dinner",
       "name": "Dinner"
      },
-     "exactPlace": "Kitchen",
-     "id": "Anxiety"
+     "causedBy": {
+      "name": "Preparing_a_disastrous_dinner",
+      "takePlaceAt": {
+       "name": "Home_kitchen"
+      },
+      "hasParticipant": [
+       {
+        "name": "Jo"
+       },
+       {
+        "name": "Laurie"
+       },
+       {
+        "name": "Miss_Crocker"
+       }
+      ]
+     }
     },
     {
-     "name": "Exhaustion",
-     "hasIntensity": 0.8,
-     "quote": "The unusual spectacle of her busy mother rocking comfortably, and reading, early in the morning, made Jo feel as if some natural phenomenon had occurred.",
-     "causedBy": {
-      "id": "texts/littlewomen.txt#Mother_resting",
-      "name": "Mother_resting"
-     },
+     "name": "Relief",
+     "hasIntensity": 0.7,
+     "quote": "The walk revived her spirits; and, flattering herself that she had made good bargains, she trudged home again, after buying a very young lobster, some very old asparagus, and two boxes of acid strawberries.",
      "hasObject": {
-      "id": "texts/littlewomen.txt#Mother",
-      "name": "Mother"
+      "name": "Shopping_items"
      },
-     "exactPlace": "Home",
-     "id": "Exhaustion"
+     "causedBy": {
+      "name": "Successful_shopping",
+      "takePlaceAt": {
+       "name": "Market"
+      }
+     }
     },
     {
      "name": "Embarrassment",
-     "hasIntensity": 0.7,
-     "quote": "Poor Jo would gladly have gone under the table, as one thing after another was tasted and left.",
-     "causedBy": {
-      "id": "texts/littlewomen.txt#Failed_dinner",
-      "name": "Failed_dinner"
-     },
+     "hasIntensity": 0.9,
+     "quote": "Poor Jo would gladly have gone under the table, as one thing after another was tasted and left; while Amy giggled, Meg looked distressed, Miss Crocker pursed up her lips, and Laurie talked and laughed with all his might, to give a cheerful tone to the festive scene.",
      "hasObject": {
-      "id": "texts/littlewomen.txt#Dinner",
       "name": "Dinner"
      },
-     "exactPlace": "Dining room",
-     "id": "Embarrassment"
+     "causedBy": {
+      "name": "Failed_dinner_preparation",
+      "takePlaceAt": {
+       "name": "Dinner_table"
+      },
+      "hasParticipant": [
+       {
+        "name": "Jo"
+       },
+       {
+        "name": "Amy"
+       },
+       {
+        "name": "Meg"
+       },
+       {
+        "name": "Miss_Crocker"
+       },
+       {
+        "name": "Laurie"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Gratitude",
+     "hasIntensity": 0.6,
+     "quote": "Poor Jo would gladly have gone under the table, as one thing after another was tasted and left; while Amy giggled, Meg looked distressed, Miss Crocker pursed up her lips, and Laurie talked and laughed with all his might, to give a cheerful tone to the festive scene.",
+     "hasObject": {
+      "name": "Dinner"
+     },
+     "causedBy": {
+      "name": "Laurie_s_efforts_to_cheer_up_the_situation",
+      "takePlaceAt": {
+       "name": "Dinner_table"
+      },
+      "hasParticipant": [
+       {
+        "name": "Jo"
+       },
+       {
+        "name": "Amy"
+       },
+       {
+        "name": "Meg"
+       },
+       {
+        "name": "Miss_Crocker"
+       },
+       {
+        "name": "Laurie"
+       }
+      ]
+     }
     }
    ]
   },
   {
-   "id": "texts/littlewomen.txt#Beth_March",
-   "name": "Beth_March",
+   "name": "Jo",
    "feels": [
     {
-     "name": "Grief",
-     "hasIntensity": 0.9,
-     "quote": "Beth sobbing over Pip, the canary, who lay dead in the cage.",
-     "causedBy": {
-      "id": "texts/littlewomen.txt#Canary_s_death",
-      "name": "Canary_s_death"
-     },
+     "name": "Anxiety",
+     "hasIntensity": 0.8,
+     "quote": "Language cannot describe the anxieties, experiences, and exertions which Jo underwent that morning; and the dinner she served up became a standing joke.",
      "hasObject": {
-      "id": "texts/littlewomen.txt#Canary",
-      "name": "Canary"
+      "name": "Dinner"
      },
-     "exactPlace": "Parlor",
-     "id": "Grief"
-    }
-   ]
-  },
-  {
-   "id": "texts/littlewomen.txt#Meg_March",
-   "name": "Meg_March",
-   "feels": [
+     "causedBy": {
+      "name": "Preparing_a_disastrous_dinner",
+      "takePlaceAt": {
+       "name": "Home_kitchen"
+      },
+      "hasParticipant": [
+       {
+        "name": "Meg"
+       },
+       {
+        "name": "Laurie"
+       },
+       {
+        "name": "Miss_Crocker"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Embarrassment",
+     "hasIntensity": 0.9,
+     "quote": "Poor Jo would gladly have gone under the table, as one thing after another was tasted and left; while Amy giggled, Meg looked distressed, Miss Crocker pursed up her lips, and Laurie talked and laughed with all his might, to give a cheerful tone to the festive scene.",
+     "hasObject": {
+      "name": "Dinner"
+     },
+     "causedBy": {
+      "name": "Failed_dinner_preparation",
+      "takePlaceAt": {
+       "name": "Dinner_table"
+      },
+      "hasParticipant": [
+       {
+        "name": "Jo"
+       },
+       {
+        "name": "Amy"
+       },
+       {
+        "name": "Meg"
+       },
+       {
+        "name": "Miss_Crocker"
+       },
+       {
+        "name": "Laurie"
+       }
+      ]
+     }
+    },
     {
      "name": "Relief",
-     "hasIntensity": 0.8,
-     "quote": "Meg ran upstairs, and soon came back again, looking relieved, but rather bewildered, and a little ashamed.",
-     "causedBy": {
-      "id": "texts/littlewomen.txt#Mother_resting",
-      "name": "Mother_resting"
-     },
+     "hasIntensity": 0.7,
+     "quote": "Having rekindled the fire, she thought she would go to market while the water heated. The walk revived her spirits; and, flattering herself that she had made good bargains, she trudged home again, after buying a very young lobster, some very old asparagus, and two boxes of acid strawberries.",
      "hasObject": {
-      "id": "texts/littlewomen.txt#Mother",
-      "name": "Mother"
+      "name": "Shopping_items"
      },
-     "exactPlace": "Home",
-     "id": "Relief"
+     "causedBy": {
+      "name": "Successful_shopping",
+      "takePlaceAt": {
+       "name": "Market"
+      }
+     }
     }
    ]
   },
   {
-   "id": "texts/littlewomen.txt#Amy_March",
-   "name": "Amy_March",
+   "name": "Beth",
    "feels": [
     {
-     "name": "Disappointment",
+     "name": "Sadness",
      "hasIntensity": 0.8,
-     "quote": "Amy giggled, Meg looked distressed, Miss Crocker pursed up her lips, and Laurie talked and laughed with all his might, to give a cheerful tone to the festive scene.",
-     "causedBy": {
-      "id": "texts/littlewomen.txt#Failed_dessert",
-      "name": "Failed_dessert"
-     },
+     "quote": "Poor Jo would gladly have gone under the table, as one thing after another was tasted and left; while Amy giggled, Meg looked distressed, Miss Crocker pursed up her lips, and Laurie talked and laughed with all his might, to give a cheerful tone to the festive scene.",
      "hasObject": {
-      "id": "texts/littlewomen.txt#Dessert",
-      "name": "Dessert"
+      "name": "Dinner"
      },
-     "exactPlace": "Dining room",
-     "id": "Disappointment"
+     "causedBy": {
+      "name": "Failed_dinner_preparation",
+      "takePlaceAt": {
+       "name": "Dinner_table"
+      },
+      "hasParticipant": [
+       {
+        "name": "Jo"
+       },
+       {
+        "name": "Amy"
+       },
+       {
+        "name": "Meg"
+       },
+       {
+        "name": "Miss_Crocker"
+       },
+       {
+        "name": "Laurie"
+       }
+      ]
+     }
     }
    ]
-  }
- ],
- "Places": [
-  {
-   "id": "texts/littlewomen.txt#Kitchen",
-   "name": "Kitchen",
-   "description": "In a most discouraging state of confusion."
   },
   {
-   "id": "texts/littlewomen.txt#Parlor",
-   "name": "Parlor",
-   "description": "Where Beth sobbed over the dead canary."
-  },
-  {
-   "id": "texts/littlewomen.txt#Dining_room",
-   "name": "Dining_room",
-   "description": "Where the failed dinner was served."
-  }
- ],
- "Events": [
-  {
-   "id": "texts/littlewomen.txt#Preparing_dinner",
-   "name": "Preparing_dinner",
-   "takePlaceAt": {
-    "id": "texts/littlewomen.txt#place1",
-    "name": "place1"
-   }
-  },
-  {
-   "id": "texts/littlewomen.txt#Mother_resting",
-   "name": "Mother_resting",
-   "takePlaceAt": {
-    "id": "texts/littlewomen.txt#place2",
-    "name": "place2"
-   }
-  },
-  {
-   "id": "texts/littlewomen.txt#Failed_dinner",
-   "name": "Failed_dinner",
-   "takePlaceAt": {
-    "id": "texts/littlewomen.txt#place3",
-    "name": "place3"
-   }
-  },
-  {
-   "id": "texts/littlewomen.txt#Canary_s_death",
-   "name": "Canary_s_death",
-   "takePlaceAt": {
-    "id": "texts/littlewomen.txt#place2",
-    "name": "place2"
-   }
-  },
-  {
-   "id": "texts/littlewomen.txt#Mother_resting",
-   "name": "Mother_resting",
-   "takePlaceAt": {
-    "id": "texts/littlewomen.txt#place2",
-    "name": "place2"
-   }
-  },
-  {
-   "id": "texts/littlewomen.txt#Failed_dessert",
-   "name": "Failed_dessert",
-   "takePlaceAt": {
-    "id": "texts/littlewomen.txt#place3",
-    "name": "place3"
-   }
+   "name": "Amy",
+   "feels": [
+    {
+     "name": "Embarrassment",
+     "hasIntensity": 0.9,
+     "quote": "Poor Jo would gladly have gone under the table, as one thing after another was tasted and left; while Amy giggled, Meg looked distressed, Miss Crocker pursed up her lips, and Laurie talked and laughed with all his might, to give a cheerful tone to the festive scene.",
+     "hasObject": {
+      "name": "Dinner"
+     },
+     "causedBy": {
+      "name": "Failed_dinner_preparation",
+      "takePlaceAt": {
+       "name": "Dinner_table"
+      },
+      "hasParticipant": [
+       {
+        "name": "Jo"
+       },
+       {
+        "name": "Amy"
+       },
+       {
+        "name": "Meg"
+       },
+       {
+        "name": "Miss_Crocker"
+       },
+       {
+        "name": "Laurie"
+       }
+      ]
+     }
+    }
+   ]
   }
  ]
 }

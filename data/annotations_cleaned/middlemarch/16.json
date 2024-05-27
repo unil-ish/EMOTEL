@@ -1,119 +1,61 @@
 {
  "FictionalCharacters": [
   {
-   "id": "texts/middlemarch.txt#Mr_Brooke",
    "name": "Mr_Brooke",
    "feels": [
     {
      "name": "Surprise",
      "hasIntensity": 0.7,
      "quote": "He had never been insulted on his own land before, and had been inclined to regard himself as a general favorite.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Being_insulted_by_Mr_Dagley",
-      "name": "Being_insulted_by_Mr_Dagley"
-     },
      "hasObject": {
-      "id": "texts/middlemarch.txt#Being_insulted",
       "name": "Being_insulted"
      },
-     "place": {
-      "id": "texts/middlemarch.txt#His_own_land",
-      "name": "His_own_land"
-     },
-     "id": "Surprise"
+     "causedBy": {
+      "name": "Being_insulted_by_Mr_Dagley",
+      "takePlaceAt": {
+       "name": "Dagley_s_homestead"
+      }
+     }
     }
    ]
   },
   {
-   "id": "texts/middlemarch.txt#Mr_Dagley",
    "name": "Mr_Dagley",
    "feels": [
     {
      "name": "Anger",
      "hasIntensity": 0.9,
      "quote": "‘I’m no more drunk nor you are, nor so much,’ said Dagley. ‘I can carry my liquor, an’ I know what I meean.’",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Feeling_insulted_by_Mr_Brooke",
-      "name": "Feeling_insulted_by_Mr_Brooke"
-     },
      "hasObject": {
-      "id": "texts/middlemarch.txt#Feeling_insulted",
       "name": "Feeling_insulted"
      },
-     "place": {
-      "id": "texts/middlemarch.txt#His_own_farmyard",
-      "name": "His_own_farmyard"
-     },
-     "id": "Anger"
+     "causedBy": {
+      "name": "Feeling_insulted_by_Mr_Brooke",
+      "takePlaceAt": {
+       "name": "Dagley_s_homestead"
+      }
+     }
     }
    ]
   },
   {
-   "id": "texts/middlemarch.txt#Mary_Garth",
    "name": "Mary_Garth",
    "feels": [
     {
      "name": "Amusement",
      "hasIntensity": 0.8,
      "quote": "Mary ended merrily, amused with the last notion.",
-     "causedBy": {
-      "id": "texts/middlemarch.txt#Finding_the_idea_of_Rosamond_Vincy_needing_a_handk",
-      "name": "Finding_the_idea_of_Rosamond_Vincy_needing_a_handkerchief_for_her_wedding_amusing"
-     },
      "hasObject": {
-      "id": "texts/middlemarch.txt#Idea_of_Rosamond_Vincy_needing_a_handkerchief_for_",
-      "name": "Idea_of_Rosamond_Vincy_needing_a_handkerchief_for_her_wedding"
+      "name": "Talking_about_Rosamond_Vincy_s_wedding"
      },
-     "place": {
-      "id": "texts/middlemarch.txt#Caleb_Garth_s_breakfasttable",
-      "name": "Caleb_Garth_s_breakfasttable"
-     },
-     "id": "Amusement"
+     "causedBy": {
+      "name": "Talking_about_Rosamond_Vincy_s_wedding",
+      "takePlaceAt": {
+       "name": "Garth_s_breakfasttable"
+      }
+     }
     }
    ]
-  }
- ],
- "Places": [
-  {
-   "id": "texts/middlemarch.txt#His_own_land",
-   "name": "His_own_land",
-   "description": "Mr. Brooke's own land where he was insulted for the first time."
-  },
-  {
-   "id": "texts/middlemarch.txt#Mr_Dagley_s_farmyard",
-   "name": "Mr_Dagley_s_farmyard",
-   "description": "Mr. Dagley's farmyard where he felt insulted by Mr. Brooke."
-  },
-  {
-   "id": "texts/middlemarch.txt#Caleb_Garth_s_breakfasttable",
-   "name": "Caleb_Garth_s_breakfasttable",
-   "description": "The breakfast-table where Mary Garth found the idea of Rosamond Vincy needing a handkerchief for her wedding amusing."
-  }
- ],
- "Events": [
-  {
-   "id": "texts/middlemarch.txt#Being_insulted_by_Mr_Dagley",
-   "name": "Being_insulted_by_Mr_Dagley",
-   "takePlaceAt": {
-    "id": "texts/middlemarch.txt#place1",
-    "name": "place1"
-   }
-  },
-  {
-   "id": "texts/middlemarch.txt#Feeling_insulted_by_Mr_Brooke",
-   "name": "Feeling_insulted_by_Mr_Brooke",
-   "takePlaceAt": {
-    "id": "texts/middlemarch.txt#place2",
-    "name": "place2"
-   }
-  },
-  {
-   "id": "texts/middlemarch.txt#Finding_the_idea_of_Rosamond_Vincy_needing_a_handk",
-   "name": "Finding_the_idea_of_Rosamond_Vincy_needing_a_handkerchief_for_her_wedding_amusing",
-   "takePlaceAt": {
-    "id": "texts/middlemarch.txt#place3",
-    "name": "place3"
-   }
   }
  ]
 }

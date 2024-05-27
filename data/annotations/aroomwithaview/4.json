@@ -1,148 +1,80 @@
 {
  "FictionalCharacters": [
   {
-   "id": "Lucy Honeychurch",
+   "name": "Lucy Honeychurch",
    "feels": [
     {
      "name": "Anxiety",
      "hasIntensity": 0.7,
      "quote": "The ghosts were returning; they filled Italy, they were even usurping the places she had known as a child. The Sacred Lake would never be the same again, and, on Sunday week, something would even happen to Windy Corner. How would she fight against ghosts? For a moment the visible world faded away, and memories and emotions alone seemed real.",
-     "causedBy": {
-      "id": "event1",
-      "name": "Return of ghosts and memories"
-     },
-     "hasObject": {
-      "id": "object1",
-      "name": "Italy, Sacred Lake, Windy Corner"
-     },
-     "exactPlace": "Italy, Sacred Lake, Windy Corner"
+     "causedByEvent": {
+      "name": "Memories of past experiences",
+      "takePlaceAt": {
+       "name": "Italy and familiar places"
+      }
+     }
     },
     {
-     "name": "Regret",
+     "name": "Resentment",
      "hasIntensity": 0.6,
-     "quote": "How dreadful if she really wished to remain near him! Of course, the wish was due to nerves, which love to play such perverse tricks upon us.",
-     "causedBy": {
-      "id": "event2",
-      "name": "Wishing to remain near George"
-     },
-     "hasObject": {
-      "id": "object2",
-      "name": "George Emerson"
-     },
-     "exactPlace": "Rectory"
+     "quote": "It was more than her nerves could stand. And she could not protest violently after her mother’s goodness to her upstairs.",
+     "causedByEvent": {
+      "name": "Mother's insistence on inviting Miss Bartlett",
+      "takePlaceAt": {
+       "name": "Home"
+      }
+     }
     },
     {
-     "name": "Nostalgia",
+     "name": "Dread",
      "hasIntensity": 0.8,
-     "quote": "The Sacred Lake would never be the same again, and, on Sunday week, something would even happen to Windy Corner.",
-     "causedBy": {
-      "id": "event3",
-      "name": "Changes in familiar places"
-     },
-     "hasObject": {
-      "id": "object3",
-      "name": "Sacred Lake, Windy Corner"
-     },
-     "exactPlace": "Sacred Lake, Windy Corner"
+     "quote": "How dreadful if she really wished to remain near him! Of course, the wish was due to nerves, which love to play such perverse tricks upon us.",
+     "causedByEvent": {
+      "name": "Feeling drawn to George Emerson",
+      "takePlaceAt": {
+       "name": "Rectory"
+      }
+     }
+    },
+    {
+     "name": "Relief",
+     "hasIntensity": 0.5,
+     "quote": "Lucy faced the situation bravely, though, like most of us, she only faced the situation that encompassed her.",
+     "causedByEvent": {
+      "name": "Accepting Miss Bartlett's visit and George Emerson's invitation to tennis",
+      "takePlaceAt": {
+       "name": "Home and Rectory"
+      }
+     }
     }
    ]
   },
   {
-   "id": "Cecil",
+   "name": "Cecil Vyse",
    "feels": [
     {
      "name": "Irritation",
      "hasIntensity": 0.7,
      "quote": "Cecil frowned again. Oh, these Honeychurches! Eggs, boilers, hydrangeas, maids—of such were their lives compact.",
-     "causedBy": {
-      "id": "event4",
-      "name": "Discussion about Miss Bartlett"
-     },
-     "hasObject": {
-      "id": "object4",
-      "name": "Honeychurches"
-     },
-     "exactPlace": "Dining room"
+     "causedByEvent": {
+      "name": "Discussion about Miss Bartlett and the Honeychurches' lives",
+      "takePlaceAt": {
+       "name": "Dinner table"
+      }
+     }
     },
     {
-     "name": "Discomfort",
+     "name": "Displeasure",
      "hasIntensity": 0.6,
-     "quote": "Cecil crumbled his bread.",
-     "causedBy": {
-      "id": "event5",
-      "name": "Discussion about Miss Bartlett"
-     },
-     "hasObject": {
-      "id": "object5",
-      "name": "Miss Bartlett"
-     },
-     "exactPlace": "Dining room"
+     "quote": "“May me and Lucy get down from our chairs?” he asked, with scarcely veiled insolence. “We don’t want no dessert.”",
+     "causedByEvent": {
+      "name": "Feeling annoyed at the conversation and situation at dinner",
+      "takePlaceAt": {
+       "name": "Dinner table"
+      }
+     }
     }
    ]
-  }
- ],
- "Places": [
-  {
-   "id": "Italy",
-   "name": "Italy",
-   "description": "Setting for memories and ghosts"
-  },
-  {
-   "id": "Sacred Lake",
-   "name": "Sacred Lake",
-   "description": "Location of past experiences"
-  },
-  {
-   "id": "Windy Corner",
-   "name": "Windy Corner",
-   "description": "Familiar place with upcoming changes"
-  },
-  {
-   "id": "Rectory",
-   "name": "Rectory",
-   "description": "Meeting place with George"
-  },
-  {
-   "id": "Dining room",
-   "name": "Dining room",
-   "description": "Location of discussion about Miss Bartlett"
-  }
- ],
- "Events": [
-  {
-   "id": "event1",
-   "name": "Return of ghosts and memories",
-   "takePlaceAt": {
-    "id": "Italy"
-   }
-  },
-  {
-   "id": "event2",
-   "name": "Wishing to remain near George",
-   "takePlaceAt": {
-    "id": "Rectory"
-   }
-  },
-  {
-   "id": "event3",
-   "name": "Changes in familiar places",
-   "takePlaceAt": {
-    "id": "Sacred Lake, Windy Corner"
-   }
-  },
-  {
-   "id": "event4",
-   "name": "Discussion about Miss Bartlett",
-   "takePlaceAt": {
-    "id": "Dining room"
-   }
-  },
-  {
-   "id": "event5",
-   "name": "Discussion about Miss Bartlett",
-   "takePlaceAt": {
-    "id": "Dining room"
-   }
   }
  ]
 }

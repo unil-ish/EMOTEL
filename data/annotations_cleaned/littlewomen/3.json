@@ -1,187 +1,214 @@
 {
  "FictionalCharacters": [
   {
-   "id": "texts/littlewomen.txt#Meg",
+   "name": "Laurie",
+   "feels": [
+    {
+     "name": "Surprise",
+     "hasIntensity": 0.7,
+     "quote": "He was staring at her with undisguised surprise, and disapproval also, she thought.",
+     "hasObject": {
+      "name": "Meg_in_a_fine_lady_outfit"
+     },
+     "causedBy": {
+      "name": "Seeing_Meg_in_a_fine_lady_outfit",
+      "takePlaceAt": {
+       "name": "Drawingrooms"
+      },
+      "hasParticipant": [
+       {
+        "name": "Meg"
+       },
+       {
+        "name": "Laurie"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Disapproval",
+     "hasIntensity": 0.8,
+     "quote": "He was staring at her with undisguised surprise, and disapproval also, she thought.",
+     "hasObject": {
+      "name": "Meg_in_a_fine_lady_outfit"
+     },
+     "causedBy": {
+      "name": "Seeing_Meg_in_a_fine_lady_outfit",
+      "takePlaceAt": {
+       "name": "Drawingrooms"
+      },
+      "hasParticipant": [
+       {
+        "name": "Meg"
+       },
+       {
+        "name": "Laurie"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Embarrassment",
+     "hasIntensity": 0.9,
+     "quote": "He glanced at her frizzled head, bare shoulders, and fantastically trimmed dress, with an expression that abashed her more than his answer.",
+     "hasObject": {
+      "name": "Meg_s_appearance"
+     },
+     "causedBy": {
+      "name": "Meg_asking_for_his_opinion_on_her_appearance",
+      "takePlaceAt": {
+       "name": "Drawingrooms"
+      },
+      "hasParticipant": [
+       {
+        "name": "Meg"
+       },
+       {
+        "name": "Laurie"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Penitence",
+     "hasIntensity": 0.7,
+     "quote": "Please forgive my rudeness, and come and dance with me.",
+     "hasObject": {
+      "name": "Rudeness_towards_Meg"
+     },
+     "causedBy": {
+      "name": "Realizing_his_rudeness_towards_Meg",
+      "takePlaceAt": {
+       "name": "Drawingrooms"
+      },
+      "hasParticipant": [
+       {
+        "name": "Meg"
+       },
+       {
+        "name": "Laurie"
+       }
+      ]
+     }
+    },
+    {
+     "name": "Admiration",
+     "hasIntensity": 0.8,
+     "quote": "I do think you are--just splendid.",
+     "hasObject": {
+      "name": "Meg_s_true_self"
+     },
+     "causedBy": {
+      "name": "Seeing_Meg_s_true_self",
+      "takePlaceAt": {
+       "name": "Drawingrooms"
+      },
+      "hasParticipant": [
+       {
+        "name": "Meg"
+       },
+       {
+        "name": "Laurie"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
    "name": "Meg",
    "feels": [
     {
      "name": "Embarrassment",
-     "hasIntensity": 0.7,
-     "quote": "She was very glad when it was all over, and she was quiet in her bed, where she could think and wonder and fume till her head ached and her hot cheeks were cooled by a few natural tears.",
-     "causedBy": {
-      "id": "texts/littlewomen.txt#Overhearing_gossip",
-      "name": "Overhearing_gossip"
-     },
-     "hasObject": {
-      "id": "texts/littlewomen.txt#Gossip",
-      "name": "Gossip"
-     },
-     "exactPlace": {
-      "id": "texts/littlewomen.txt#Her_bed",
-      "name": "Her_bed"
-     },
-     "id": "Embarrassment"
-    },
-    {
-     "name": "Pride",
      "hasIntensity": 0.8,
-     "quote": "She was very glad when it was all over, and she was quiet in her bed, where she could think and wonder and fume till her head ached and her hot cheeks were cooled by a few natural tears.",
-     "causedBy": {
-      "id": "texts/littlewomen.txt#Overhearing_gossip",
-      "name": "Overhearing_gossip"
-     },
+     "quote": "She was flirting her fan and laughing at the feeble jokes of a young gentleman who tried to be witty, when she suddenly stopped laughing and looked confused.",
      "hasObject": {
-      "id": "texts/littlewomen.txt#Gossip",
-      "name": "Gossip"
+      "name": "Seeing_Laurie"
      },
-     "exactPlace": {
-      "id": "texts/littlewomen.txt#Her_bed",
-      "name": "Her_bed"
-     },
-     "id": "Pride"
-    },
-    {
-     "name": "Embarrassment",
-     "hasIntensity": 0.6,
-     "quote": "She heard Mrs. Moffat reply to one of them,--'Daisy March--father a colonel in the army--one of our first families, but reverses of fortune, you know; intimate friends of the Laurences; sweet creature, I assure you; my Ned is quite wild about her.'",
      "causedBy": {
-      "id": "texts/littlewomen.txt#Mrs_Moffat_s_fibs",
-      "name": "Mrs_Moffat_s_fibs"
-     },
-     "hasObject": {
-      "id": "texts/littlewomen.txt#Mrs_Moffat_s_fibs",
-      "name": "Mrs_Moffat_s_fibs"
-     },
-     "exactPlace": {
-      "id": "texts/littlewomen.txt#Drawingrooms",
-      "name": "Drawingrooms"
-     },
-     "id": "Embarrassment"
+      "name": "Seeing_Laurie",
+      "takePlaceAt": {
+       "name": "Drawingrooms"
+      },
+      "hasParticipant": [
+       {
+        "name": "Meg"
+       },
+       {
+        "name": "Laurie"
+       }
+      ]
+     }
     },
     {
      "name": "Discomfort",
-     "hasIntensity": 0.7,
-     "quote": "That was altogether too much from a lad younger than herself; and Meg walked away, saying petulantly,--'You are the rudest boy I ever saw.'",
-     "causedBy": {
-      "id": "texts/littlewomen.txt#Laurie_s_blunt_reply",
-      "name": "Laurie_s_blunt_reply"
-     },
+     "hasIntensity": 0.9,
+     "quote": "The tight dress gave her an uncomfortably brilliant color.",
      "hasObject": {
-      "id": "texts/littlewomen.txt#Laurie_s_blunt_reply",
-      "name": "Laurie_s_blunt_reply"
+      "name": "Tight_dress"
      },
-     "exactPlace": {
-      "id": "texts/littlewomen.txt#Drawingrooms",
-      "name": "Drawingrooms"
-     },
-     "id": "Discomfort"
+     "causedBy": {
+      "name": "Wearing_a_tight_dress",
+      "takePlaceAt": {
+       "name": "Drawingrooms"
+      },
+      "hasParticipant": {
+       "name": "Meg"
+      }
+     }
     },
     {
-     "name": "Embarrassment",
+     "name": "Regret",
      "hasIntensity": 0.8,
-     "quote": "Feeling very much ruffled, she went and stood at a quiet window, to cool her cheeks, for the tight dress gave her an uncomfortably brilliant color.",
-     "causedBy": {
-      "id": "texts/littlewomen.txt#Tight_dress",
-      "name": "Tight_dress"
-     },
+     "quote": "I wish I'd been sensible, and worn my own things; then I should not have disgusted other people, or felt so uncomfortable and ashamed myself.",
      "hasObject": {
-      "id": "texts/littlewomen.txt#Tight_dress",
-      "name": "Tight_dress"
+      "name": "Borrowed_clothes"
      },
-     "exactPlace": {
-      "id": "texts/littlewomen.txt#Drawingrooms",
-      "name": "Drawingrooms"
-     },
-     "id": "Embarrassment"
+     "causedBy": {
+      "name": "Wearing_borrowed_clothes",
+      "takePlaceAt": {
+       "name": "Drawingrooms"
+      },
+      "hasParticipant": {
+       "name": "Meg"
+      }
+     }
     },
     {
      "name": "Embarrassment",
-     "hasIntensity": 0.7,
-     "quote": "She leaned her forehead on the cool pane, and stood half hidden by the curtains, never minding that her favorite waltz had begun, till some one touched her; and, turning, she saw Laurie, looking penitent, as he said, with his very best bow, and his hand out,--'Please forgive my rudeness, and come and dance with me.'",
-     "causedBy": {
-      "id": "texts/littlewomen.txt#Laurie_s_apology",
-      "name": "Laurie_s_apology"
-     },
+     "hasIntensity": 0.9,
+     "quote": "I wish I'd been sensible, and worn my own things; then I should not have disgusted other people, or felt so uncomfortable and ashamed myself.",
      "hasObject": {
-      "id": "texts/littlewomen.txt#Laurie_s_apology",
-      "name": "Laurie_s_apology"
+      "name": "Impact_of_her_appearance"
      },
-     "exactPlace": {
-      "id": "texts/littlewomen.txt#Drawingrooms",
-      "name": "Drawingrooms"
+     "causedBy": {
+      "name": "Realizing_the_impact_of_her_appearance",
+      "takePlaceAt": {
+       "name": "Drawingrooms"
+      },
+      "hasParticipant": {
+       "name": "Meg"
+      }
+     }
+    },
+    {
+     "name": "Discomfort",
+     "hasIntensity": 0.8,
+     "quote": "The tight dress gave her an uncomfortably brilliant color.",
+     "hasObject": {
+      "name": "Tight_dress"
      },
-     "id": "Embarrassment"
+     "causedBy": {
+      "name": "Wearing_a_tight_dress",
+      "takePlaceAt": {
+       "name": "Drawingrooms"
+      },
+      "hasParticipant": {
+       "name": "Meg"
+      }
+     }
     }
    ]
-  }
- ],
- "Places": [
-  {
-   "id": "texts/littlewomen.txt#Her_bed",
-   "name": "Her_bed",
-   "description": "Where she could think and wonder and fume till her head ached and her hot cheeks were cooled by a few natural tears."
-  },
-  {
-   "id": "texts/littlewomen.txt#Drawingrooms",
-   "name": "Drawingrooms",
-   "description": "Where she heard Mrs. Moffat's fibs."
-  },
-  {
-   "id": "texts/littlewomen.txt#Drawingrooms",
-   "name": "Drawingrooms",
-   "description": "Where she walked away after Laurie's blunt reply."
-  },
-  {
-   "id": "texts/littlewomen.txt#Drawingrooms",
-   "name": "Drawingrooms",
-   "description": "Where she stood at a quiet window to cool her cheeks due to the tight dress."
-  },
-  {
-   "id": "texts/littlewomen.txt#Drawingrooms",
-   "name": "Drawingrooms",
-   "description": "Where she leaned her forehead on the cool pane and stood half hidden by the curtains."
-  }
- ],
- "Events": [
-  {
-   "id": "texts/littlewomen.txt#Overhearing_gossip",
-   "name": "Overhearing_gossip",
-   "takePlaceAt": {
-    "id": "texts/littlewomen.txt#place1",
-    "name": "place1"
-   }
-  },
-  {
-   "id": "texts/littlewomen.txt#Mrs_Moffat_s_fibs",
-   "name": "Mrs_Moffat_s_fibs",
-   "takePlaceAt": {
-    "id": "texts/littlewomen.txt#place2",
-    "name": "place2"
-   }
-  },
-  {
-   "id": "texts/littlewomen.txt#Laurie_s_blunt_reply",
-   "name": "Laurie_s_blunt_reply",
-   "takePlaceAt": {
-    "id": "texts/littlewomen.txt#place3",
-    "name": "place3"
-   }
-  },
-  {
-   "id": "texts/littlewomen.txt#Tight_dress",
-   "name": "Tight_dress",
-   "takePlaceAt": {
-    "id": "texts/littlewomen.txt#place4",
-    "name": "place4"
-   }
-  },
-  {
-   "id": "texts/littlewomen.txt#Laurie_s_apology",
-   "name": "Laurie_s_apology",
-   "takePlaceAt": {
-    "id": "texts/littlewomen.txt#place5",
-    "name": "place5"
-   }
   }
  ]
 }

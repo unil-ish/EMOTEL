@@ -1,104 +1,112 @@
 {
  "FictionalCharacters": [
   {
-   "id": "fc1",
    "name": "Fred Vincy",
    "feels": [
     {
      "name": "Anxiety",
-     "hasIntensity": 0.7,
+     "hasIntensity": 0.8,
      "quote": "Fred found himself close upon the term of payment with no money at command beyond the eighty pounds which he had deposited with his mother.",
-     "causedBy": {
-      "id": "debt",
-      "name": "Debt repayment deadline approaching"
+     "causedByEvent": {
+      "name": "Imminent bill payment",
+      "takePlaceAt": {
+       "name": "Home"
+      }
      },
      "hasObject": {
-      "id": "money",
       "name": "Money"
-     },
-     "exactPlace": "Middlemarch"
+     }
     },
     {
      "name": "Hopefulness",
-     "hasIntensity": 0.8,
+     "hasIntensity": 0.7,
      "quote": "Hopefulness has a pleasure in making a throw of any kind, because the prospect of success is certain.",
-     "causedBy": {
-      "id": "gambling",
-      "name": "Desire for winning"
+     "causedByEvent": {
+      "name": "Desire to win",
+      "takePlaceAt": {
+       "name": "Various locations"
+      }
      },
      "hasObject": {
-      "id": "gambling",
-      "name": "Gambling"
-     },
-     "exactPlace": "Middlemarch"
+      "name": "Success"
+     }
     },
     {
      "name": "Heroism",
-     "hasIntensity": 0.6,
+     "hasIntensity": 0.9,
      "quote": "He made the resolution with a sense of heroism—heroism forced on him by the dread of breaking his word to Mr. Garth, by his love for Mary and awe of her opinion.",
-     "causedBy": {
-      "id": "debt",
-      "name": "Fear of breaking his word"
+     "causedByEvent": {
+      "name": "Need to meet imminent bill payment",
+      "takePlaceAt": {
+       "name": "Home"
+      }
      },
      "hasObject": {
-      "id": "horse",
-      "name": "Horse"
-     },
-     "exactPlace": "Middlemarch"
+      "name": "Sense of duty"
+     }
     },
     {
      "name": "Dissipation",
-     "hasIntensity": 0.5,
+     "hasIntensity": 0.6,
      "quote": "Considering that Fred was not at all coarse, that he rather looked down on the manners and speech of young men who had not been to the university, and that he had written stanzas as pastoral and unvoluptuous as his flute-playing, his attraction towards Bambridge and Horrock was an interesting fact which even the love of horse-flesh would not wholly account for without that mysterious influence of Naming which determinates so much of mortal choice.",
-     "causedBy": {
-      "id": "company",
-      "name": "Company of Bambridge and Horrock"
+     "causedByEvent": {
+      "name": "Riding out with Bambridge and Horrock",
+      "takePlaceAt": {
+       "name": "Middlemarch"
+      }
      },
      "hasObject": {
-      "id": "pleasure",
       "name": "Pleasure-seeking"
-     },
-     "exactPlace": "Middlemarch"
+     }
     }
    ]
-  }
- ],
- "Events": [
-  {
-   "id": "debt",
-   "name": "Debt repayment deadline approaching"
   },
   {
-   "id": "gambling",
-   "name": "Desire for winning"
-  },
-  {
-   "id": "company",
-   "name": "Company of Bambridge and Horrock"
-  }
- ],
- "Objects": [
-  {
-   "id": "money",
-   "name": "Money"
-  },
-  {
-   "id": "gambling",
-   "name": "Gambling"
-  },
-  {
-   "id": "horse",
-   "name": "Horse"
-  },
-  {
-   "id": "pleasure",
-   "name": "Pleasure-seeking"
-  }
- ],
- "Places": [
-  {
-   "id": "Middlemarch",
-   "name": "Middlemarch"
+   "name": "Caleb Garth",
+   "feels": [
+    {
+     "name": "Affection",
+     "hasIntensity": 0.9,
+     "quote": "The Garths were very fond of Fred, as he was of them; for when he and Rosamond were little ones, and the Garths were better off, the slight connection between the two families through Mr. Featherstone’s double marriage had led to an acquaintance which was carried on between the children rather than the parents.",
+     "causedByEvent": {
+      "name": "Past relationship with Fred",
+      "takePlaceAt": {
+       "name": "Middlemarch"
+      }
+     },
+     "hasObject": {
+      "name": "Fred Vincy"
+     }
+    },
+    {
+     "name": "Generosity",
+     "hasIntensity": 0.8,
+     "quote": "He had the highest opinion of Fred, was 'sure the lad would turn out well—an open affectionate fellow, with a good bottom to his character—you might trust him for anything.'",
+     "causedByEvent": {
+      "name": "Fred's request for help",
+      "takePlaceAt": {
+       "name": "Caleb's office"
+      }
+     },
+     "hasObject": {
+      "name": "Fred Vincy"
+     }
+    },
+    {
+     "name": "Admonition",
+     "hasIntensity": 0.7,
+     "quote": "He felt that it was an occasion for a friendly hint as to conduct, and that before giving his signature he must give a rather strong admonition.",
+     "causedByEvent": {
+      "name": "Fred's request for help",
+      "takePlaceAt": {
+       "name": "Caleb's office"
+      }
+     },
+     "hasObject": {
+      "name": "Fred Vincy's conduct"
+     }
+    }
+   ]
   }
  ]
 }
