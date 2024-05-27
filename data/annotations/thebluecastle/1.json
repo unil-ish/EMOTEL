@@ -1,0 +1,102 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "Valancy",
+   "feels": [
+    {
+     "name": "Freedom",
+     "hasIntensity": 0.9,
+     "quote": "She let herself go with a wild, inner exultation, as Uncle Herbert carved the turkey.",
+     "causedBy": {
+      "id": "Uncle Herbert carving the turkey",
+      "name": "Uncle Herbert carving the turkey"
+     },
+     "hasObject": {
+      "id": "Thanksgiving dinner",
+      "name": "Thanksgiving dinner"
+     },
+     "place": {
+      "id": "Uncle Herbert's house",
+      "name": "Uncle Herbert's house"
+     }
+    },
+    {
+     "name": "Amusement",
+     "hasIntensity": 0.8,
+     "quote": "She was gazing around the table, examining relentlessly every one in this depressing assembly of sensible people and watching their little squirms with a detached, amused smile.",
+     "causedBy": {
+      "id": "Observing the guests at the table",
+      "name": "Observing the guests at the table"
+     },
+     "hasObject": {
+      "id": "Family gathering",
+      "name": "Family gathering"
+     },
+     "place": {
+      "id": "Uncle Herbert's house",
+      "name": "Uncle Herbert's house"
+     }
+    },
+    {
+     "name": "Rebellion",
+     "hasIntensity": 0.9,
+     "quote": "She was giving herself such freedom of thought as she had never dared to take before. She let herself go with a wild, inner exultation.",
+     "causedBy": {
+      "id": "Feeling liberated",
+      "name": "Feeling liberated"
+     },
+     "hasObject": {
+      "id": "Family gathering",
+      "name": "Family gathering"
+     },
+     "place": {
+      "id": "Uncle Herbert's house",
+      "name": "Uncle Herbert's house"
+     }
+    }
+   ]
+  }
+ ],
+ "Places": [
+  {
+   "id": "Uncle Herbert's house",
+   "name": "Uncle Herbert's house",
+   "description": "A large, pretentious structure peppered with meaningless bay windows and excrescent porches."
+  }
+ ],
+ "Events": [
+  {
+   "id": "Uncle Herbert carving the turkey",
+   "name": "Uncle Herbert carving the turkey",
+   "takePlaceAt": {
+    "id": "Thanksgiving dinner",
+    "name": "Thanksgiving dinner"
+   },
+   "hasParticipant": {
+    "id": "Valancy"
+   }
+  },
+  {
+   "id": "Observing the guests at the table",
+   "name": "Observing the guests at the table",
+   "takePlaceAt": {
+    "id": "Family gathering",
+    "name": "Family gathering"
+   },
+   "hasParticipant": {
+    "id": "Valancy"
+   }
+  },
+  {
+   "id": "Feeling liberated",
+   "name": "Feeling liberated",
+   "takePlaceAt": {
+    "id": "Family gathering",
+    "name": "Family gathering"
+   },
+   "hasParticipant": {
+    "id": "Valancy"
+   }
+  }
+ ]
+}

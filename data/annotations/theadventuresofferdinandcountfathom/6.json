@@ -1,0 +1,59 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "Ferdinand",
+   "feels": [
+    {
+     "name": "Surprise",
+     "hasIntensity": 0.8,
+     "quote": "Fathom being thus informed of the suspicion under which he stood, could not help smiling at the eagerness with which the spectators flew upon him.",
+     "causedBy": {
+      "id": "accusation1",
+      "name": "Being mistaken for the Young Pretender"
+     },
+     "hasObject": {
+      "id": "crowd",
+      "name": "Spectators"
+     },
+     "place": {
+      "id": "inn1",
+      "name": "Inn"
+     }
+    },
+    {
+     "name": "Amusement",
+     "hasIntensity": 0.7,
+     "quote": "Fathom being thus informed of the suspicion under which he stood, could not help smiling at the eagerness with which the spectators flew upon him.",
+     "causedBy": {
+      "id": "accusation1",
+      "name": "Being mistaken for the Young Pretender"
+     },
+     "hasObject": {
+      "id": "spectators",
+      "name": "Spectators"
+     },
+     "place": {
+      "id": "inn1",
+      "name": "Inn"
+     }
+    }
+   ]
+  }
+ ],
+ "Places": [
+  {
+   "id": "inn1",
+   "name": "Inn",
+   "description": "The inn where the passengers used to eat their breakfasts."
+  }
+ ],
+ "Events": [
+  {
+   "id": "accusation1",
+   "name": "Being mistaken for the Young Pretender",
+   "takePlaceAt": {
+    "id": "inn1"
+   }
+  }
+ ]
+}

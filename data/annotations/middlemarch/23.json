@@ -1,0 +1,103 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "Fred Vincy",
+   "feels": [
+    {
+     "name": "Love",
+     "hasIntensity": 0.9,
+     "quote": "I have always loved her better than any one else, and that I shall never love any one as I love her.",
+     "causedBy": {
+      "id": "Mary Garth"
+     },
+     "hasObject": {
+      "id": "Mary Garth"
+     },
+     "exactPlace": "In the gateway"
+    },
+    {
+     "name": "Hope",
+     "hasIntensity": 0.8,
+     "quote": "I shall be the most miserable devil in the world if I lose all hope of Mary.",
+     "causedBy": {
+      "id": "Uncertainty about his future"
+     },
+     "hasObject": {
+      "id": "Mary Garth"
+     },
+     "exactPlace": "In the gateway"
+    }
+   ]
+  },
+  {
+   "id": "Caleb Garth",
+   "feels": [
+    {
+     "name": "Pride",
+     "hasIntensity": 0.9,
+     "quote": "You must have a pride in your own work and in learning to do it well.",
+     "causedBy": {
+      "id": "Work ethic"
+     },
+     "hasObject": {
+      "id": "Work"
+     },
+     "exactPlace": "In the field"
+    },
+    {
+     "name": "Fondness",
+     "hasIntensity": 0.8,
+     "quote": "The young ones have always a claim on the old to help them forward.",
+     "causedBy": {
+      "id": "Fred Vincy's situation"
+     },
+     "hasObject": {
+      "id": "Fred Vincy"
+     },
+     "exactPlace": "In the field"
+    }
+   ]
+  },
+  {
+   "id": "Mary Garth",
+   "feels": [
+    {
+     "name": "Love",
+     "hasIntensity": 0.9,
+     "quote": "The children are fond of each other—I mean, Fred and Mary.",
+     "causedBy": {
+      "id": "Fred Vincy"
+     },
+     "hasObject": {
+      "id": "Fred Vincy"
+     },
+     "exactPlace": "At home"
+    }
+   ]
+  }
+ ],
+ "Places": [
+  {
+   "id": "Field",
+   "name": "Field",
+   "description": "The field where Caleb Garth and Fred Vincy were working."
+  },
+  {
+   "id": "Gateway",
+   "name": "Gateway",
+   "description": "The gateway where Fred Vincy and Caleb Garth were talking."
+  }
+ ],
+ "Events": [
+  {
+   "id": "Uncertainty about his future",
+   "name": "Fred Vincy's uncertainty about his future career",
+   "takePlaceAt": {
+    "id": "Field"
+   },
+   "hasParticipant": {
+    "id": "Fred Vincy"
+   }
+  }
+ ]
+}

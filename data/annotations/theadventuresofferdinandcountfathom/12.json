@@ -1,0 +1,91 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "fc1",
+   "name": "Doctor Fathom",
+   "feels": [
+    {
+     "name": "Disappointment",
+     "hasIntensity": 0.7,
+     "quote": "In cultivating the fiddler, they utterly neglected the physician.",
+     "causedBy": {
+      "id": "event1",
+      "name": "Lack of recognition for medical capacity"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Medical capacity"
+     },
+     "place": {
+      "id": "place1",
+      "name": "Tunbridge"
+     }
+    },
+    {
+     "name": "Hope",
+     "hasIntensity": 0.8,
+     "quote": "The patient...was not altogether without hope.",
+     "causedBy": {
+      "id": "event2",
+      "name": "Hope for the return of her admirer"
+     },
+     "hasObject": {
+      "id": "object2",
+      "name": "Return of her admirer"
+     },
+     "place": {
+      "id": "place1",
+      "name": "Tunbridge"
+     }
+    },
+    {
+     "name": "Chagrin",
+     "hasIntensity": 0.9,
+     "quote": "The patient, though violently chagrined at the levity of her quondam admirer...",
+     "causedBy": {
+      "id": "event3",
+      "name": "Forsaking of the patient by her admirer"
+     },
+     "hasObject": {
+      "id": "object3",
+      "name": "Forsaking of the patient"
+     },
+     "place": {
+      "id": "place1",
+      "name": "Tunbridge"
+     }
+    }
+   ]
+  }
+ ],
+ "Places": [
+  {
+   "id": "place1",
+   "name": "Tunbridge",
+   "description": "A location where Doctor Fathom was trying to establish himself as a physician."
+  }
+ ],
+ "Events": [
+  {
+   "id": "event1",
+   "name": "Lack of recognition for medical capacity",
+   "takePlaceAt": {
+    "id": "place1"
+   }
+  },
+  {
+   "id": "event2",
+   "name": "Hope for the return of her admirer",
+   "takePlaceAt": {
+    "id": "place1"
+   }
+  },
+  {
+   "id": "event3",
+   "name": "Forsaking of the patient by her admirer",
+   "takePlaceAt": {
+    "id": "place1"
+   }
+  }
+ ]
+}

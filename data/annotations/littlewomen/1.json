@@ -1,0 +1,150 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "fc1",
+   "name": "Jo March",
+   "feels": [
+    {
+     "name": "Joy",
+     "hasIntensity": 0.8,
+     "quote": "She gave such a gape that Aunt March asked her what she meant by opening her mouth wide enough to take the whole book in at once.",
+     "causedBy": {
+      "id": "event1",
+      "name": "Reading a book"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Book"
+     },
+     "place": "Aunt March's house"
+    },
+    {
+     "name": "Surprise",
+     "hasIntensity": 0.7,
+     "quote": "Mr. Laurence hooked up a big fish with the crooked end of his cane and held it out to a poor woman, who was so glad and surprised that she took it right in her arms and thanked him over and over.",
+     "causedBy": {
+      "id": "event2",
+      "name": "Mr. Laurence giving a fish to a poor woman"
+     },
+     "hasObject": {
+      "id": "object2",
+      "name": "Fish"
+     },
+     "place": "Fish-shop"
+    },
+    {
+     "name": "Gratitude",
+     "hasIntensity": 0.9,
+     "quote": "The poor woman was so glad and surprised, she took the fish right in her arms and thanked him over and over.",
+     "causedBy": {
+      "id": "event2",
+      "name": "Mr. Laurence giving a fish to a poor woman"
+     },
+     "hasObject": {
+      "id": "object2",
+      "name": "Fish"
+     },
+     "place": "Fish-shop"
+    }
+   ]
+  },
+  {
+   "id": "fc2",
+   "name": "Meg March",
+   "feels": [
+    {
+     "name": "Anxiety",
+     "hasIntensity": 0.7,
+     "quote": "As I sat cutting out blue flannel jackets to-day, I felt very anxious about father, and thought how lonely and helpless we should be if anything happened to him.",
+     "causedBy": {
+      "id": "event3",
+      "name": "Cutting out blue flannel jackets"
+     },
+     "place": "The rooms"
+    }
+   ]
+  },
+  {
+   "id": "fc3",
+   "name": "Beth March",
+   "feels": [
+    {
+     "name": "Contentment",
+     "hasIntensity": 0.8,
+     "quote": "Beth decided to try the old woman's advice and was surprised to see how well off they were.",
+     "causedBy": {
+      "id": "event4",
+      "name": "Trying the old woman's advice"
+     },
+     "place": "Home"
+    }
+   ]
+  },
+  {
+   "id": "fc4",
+   "name": "Amy March",
+   "feels": [
+    {
+     "name": "Moral Satisfaction",
+     "hasIntensity": 0.7,
+     "quote": "Amy went on with her work in the proud consciousness of virtue and the successful utterance of two long words in a breath.",
+     "causedBy": {
+      "id": "event5",
+      "name": "Successfully uttering two long words"
+     },
+     "place": "Home"
+    }
+   ]
+  }
+ ],
+ "Events": [
+  {
+   "id": "event1",
+   "name": "Reading a book"
+  },
+  {
+   "id": "event2",
+   "name": "Mr. Laurence giving a fish to a poor woman"
+  },
+  {
+   "id": "event3",
+   "name": "Cutting out blue flannel jackets"
+  },
+  {
+   "id": "event4",
+   "name": "Trying the old woman's advice"
+  },
+  {
+   "id": "event5",
+   "name": "Successfully uttering two long words"
+  }
+ ],
+ "Objects": [
+  {
+   "id": "object1",
+   "name": "Book"
+  },
+  {
+   "id": "object2",
+   "name": "Fish"
+  }
+ ],
+ "Places": [
+  {
+   "id": "place1",
+   "name": "Aunt March's house"
+  },
+  {
+   "id": "place2",
+   "name": "Fish-shop"
+  },
+  {
+   "id": "place3",
+   "name": "The rooms"
+  },
+  {
+   "id": "place4",
+   "name": "Home"
+  }
+ ]
+}

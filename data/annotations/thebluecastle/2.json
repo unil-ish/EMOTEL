@@ -1,0 +1,99 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "fc1",
+   "name": "Valancy",
+   "feels": [
+    {
+     "name": "Pity",
+     "hasIntensity": 0.9,
+     "quote": "Valancy's heart was wrung for Cecilia Gay.",
+     "causedBy": {
+      "id": "situation1",
+      "name": "Cecilia's situation"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Cecilia Gay"
+     },
+     "exactPlace": "On the steps of Roaring Abel's house"
+    },
+    {
+     "name": "Compassion",
+     "hasIntensity": 0.8,
+     "quote": "Valancy's heart was wrung for Cecilia Gay.",
+     "causedBy": {
+      "id": "situation1",
+      "name": "Cecilia's situation"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Cecilia Gay"
+     },
+     "exactPlace": "On the steps of Roaring Abel's house"
+    },
+    {
+     "name": "Determination",
+     "hasIntensity": 0.7,
+     "quote": "Valancy insisted that Cissy must have someone to look after her.",
+     "causedBy": {
+      "id": "situation2",
+      "name": "Cecilia's need for care"
+     },
+     "hasObject": {
+      "id": "object2",
+      "name": "Cecilia Gay"
+     },
+     "exactPlace": "On the steps of Roaring Abel's house"
+    },
+    {
+     "name": "Empathy",
+     "hasIntensity": 0.9,
+     "quote": "Valancy's heart was wrung for Cecilia Gay.",
+     "causedBy": {
+      "id": "situation1",
+      "name": "Cecilia's situation"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Cecilia Gay"
+     },
+     "exactPlace": "On the steps of Roaring Abel's house"
+    }
+   ]
+  }
+ ],
+ "Places": [
+  {
+   "id": "place1",
+   "name": "On the steps of Roaring Abel's house",
+   "description": "Valancy sat on the steps, defiant of the chill breeze of this cold June."
+  }
+ ],
+ "Events": [
+  {
+   "id": "situation1",
+   "name": "Cecilia's situation",
+   "takePlaceAt": {
+    "id": "place1"
+   }
+  },
+  {
+   "id": "situation2",
+   "name": "Cecilia's need for care",
+   "takePlaceAt": {
+    "id": "place1"
+   }
+  }
+ ],
+ "Objects": [
+  {
+   "id": "object1",
+   "name": "Cecilia Gay"
+  },
+  {
+   "id": "object2",
+   "name": "Cecilia Gay"
+  }
+ ]
+}
