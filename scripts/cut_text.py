@@ -41,10 +41,14 @@ parser.add_argument(
 
 
 def cut_text_on_paragraph(fp, limit=2000):
-    """Coupe un texte tout les n caractères, sans couper au milieu des paragraphes.
+    """Coupe un texte tous les n caractères, sans couper au milieu des paragraphes.
 
-    `fp`: le chemin du fichier à découper.
-    `limit`: le nombre de caractères maximal. celui-ci est outrepassé si un paragraphe est plus long que la limite.
+    Args:
+        fp (str): Chemin vers le fichier à découper.
+        limit (int): Nombre maximal de caractères par morceau. (Ce nombre est est outrepassé si un paragraphe est plus long que la limite.)
+
+    Returns:
+        list[str]: Liste de morceaux de texte découpés.
     """
 
     with open(fp) as f:
@@ -71,13 +75,15 @@ def cut_text_on_paragraph(fp, limit=2000):
 
 
 def cut_to_messages(prompt_file, chunks, limit=50000):
-    """Construit des listes de messages pour le chat completion de chatgpt.
+    """Construit des listes de messages pour le chat completion de ChatGPT.
 
-    `prompt_file`: le chemin du fichier qui contient le prompt initial, celui dans lequel sont données les consignes d'annotations
+    Args:
+        prompt_file (str): Chemin vers le fichier contenant le prompt initial.
+        chunks (list[str]): Liste des morceaux de texte découpés.
+        limit (int, optional): Limite de caractères par message. Par défaut à 50000.
 
-    `chunks`: les morceaux de textes, découpés en messages.
-
-    `limit`: la limite de caractères que doit avoir l'ensemble des messages (chatgpt limite par défaut à 60'000 caractères par requests).
+    Returns:
+        list[list[dict]]: Liste de listes de messages pour l'API ChatGPT.
     """
 
     with open(prompt_file, "r") as f:
@@ -111,7 +117,11 @@ def cut_to_messages(prompt_file, chunks, limit=50000):
 
 
 def cut(args):
-    """découpe un texte pour construire des messages à envoyer à chatgpt."""
+    """Découpe un fichier texte en morceaux et les sauvegarde en fichiers texte ou JSON.
+
+    Args:
+        args (argparse.Namespace): Arguments passés en ligne de commande.
+    """
 
     fp = args.file
     n = args.character_number
@@ -126,6 +136,17 @@ def cut(args):
     dest_dir = create_dest_dir(args.file)
 
     def new_filepath(fp, dest_dir, n, ext):
+        """Génère un nouveau chemin de fichier avec un numéro de séquence et une extension.
+
+        Args:
+            fp (str): Chemin vers le fichier d'origine.
+            dest_dir (str): Répertoire de destination.
+            n (int): Numéro de séquence.
+            ext (str): Extension de fichier.
+
+        Returns:
+            str: Nouveau chemin de fichier.
+        """
         dest_fp = os.path.join(
             dest_dir,
             str(n) + "." + ext,
@@ -159,9 +180,15 @@ def cut(args):
 
 
 def create_dest_dir(fp):
-    """créer un répertoire pour les morceaux du fichier découper.
+    """Crée un répertoire de destination basé sur le nom du fichier d'origine.
 
-    ex:
+    Args:
+        fp (str): Chemin vers le fichier d'origine.
+
+    Returns:
+        str: Chemin vers le répertoire de destination.
+
+    Exemple:
         fichier initial:
             project/data/texts/mobydick.txt
 

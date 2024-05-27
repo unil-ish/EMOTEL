@@ -4,8 +4,15 @@ import unicodedata
 import re
 
 
-def clean_name(s):
-    """character's name -> character_s_name"""
+def url_conformize(s) -> str:
+    """Normalise une chaîne de caractère pour qu'elle puisse être integrée à une URI.
+
+    Args:
+        s (str): Le nom à nettoyer.
+
+    Returns:
+        str: Le nom nettoyé.
+    """
 
     s = unicodedata.normalize("NFC", s)
     s = re.sub("[_' ]+", "_", s)
@@ -13,10 +20,14 @@ def clean_name(s):
 
 
 def clean_obj(obj) -> None:
-    """normalise le nom d'un objet."""
+    """Normalise les attributs 'name' et 'id' d'un objet (dict).
+
+    Args:
+        obj (dict): L'objet à nettoyer.
+    """
 
     if "id" in obj:
-        obj["id"] = clean_name(obj["id"])
+        obj["id"] = url_conformize(obj["id"])
 
     if "name" in obj:
         name = obj["name"]
@@ -26,14 +37,21 @@ def clean_obj(obj) -> None:
     else:
         name = "undefined"
     # la fonction qui enlève notamment les espaces.
-    name = clean_name(name)
-    # normalisation supplémentaires, pour essayer d'éliminer au maximum les erreurs.
+    name = url_conformize(name)
+
     obj["name"] = name
     return
 
 
-def clean_annotation_names(annotations):
-    """clean les clés 'name' de tous les objets concernés."""
+def clean_annotation_names(annotations) -> None:
+    """Normalise les clés 'name' de tous les objets concernés dans les annotations.
+
+    Args:
+        annotations (dict): Les annotations à normaliser.
+
+    Returns:
+        None
+    """
 
     # les objets qui se trouvent directement dans 'Places', 'Events', 'FictionalCharacters' sont facile à traiter, on utilise donc simplement la fonction 'clean_obj'.
     for key in ("Places", "Events", "FictionalCharacters"):
@@ -74,7 +92,7 @@ def clean_annotation_names(annotations):
             c["feels"] = emotions
     if "Events" in annotations.keys():
         normalise_events(annotations["Events"])
-    return annotations
+    return
 
 
 def normalise_events(events):

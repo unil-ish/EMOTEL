@@ -7,7 +7,14 @@ import time
 
 
 def send_req(messages) -> str:
-    """Envoie une requête avec une liste de messages à chatpgt, et récupère le contenu de la réponse."""
+    """Envoie une requête avec une liste de messages à l'API OpenAI et récupère le contenu de la réponse.
+
+    Args:
+        messages (list): Liste de messages à envoyer à l'API.
+
+    Returns:
+        str: Contenu de la réponse de l'API, sous forme de chaîne de caractères.
+    """
 
     client = openai.OpenAI()
     response = client.chat.completions.create(
@@ -21,6 +28,7 @@ def send_req(messages) -> str:
         response_format={"type": "json_object"},
     )
     result = "\n".join([i.message.content for i in response.choices])
+
     # parfois, chatgpt retourne le JSON dans un format markdown (blockCode):
     # ```json
     # [...]
@@ -28,15 +36,17 @@ def send_req(messages) -> str:
     # les enlever si elles sont là.
     if result.startswith("```json"):
         result = result[6:-3]
+
     return result
 
 
 def annotate_directory(chunks_dir) -> None:
     """Annote les séquences de messages qui se trouvent dans un dossier.
 
-    Le processus est répété si certains textes n'ont pas été correctement analysés et que la réponse est vide (10 répétitions maximum).
+    Le processus est répété si certains textes n'ont pas été correctement analysés et que la réponse est vide (10 répétitions maximum). Si le JSON est mal formé, il est placé tel quel mais au nom de fichier est ajouté le suffixe '_a_corriger'.
 
-    Si le JSON est mal formé, (ce qui arrive), il est placé tel quel mais au nom de fichier est ajouté le suffixe '_a_corriger'. normalement, il ne devrait pas y en avoir trop.
+    Args:
+        chunks_dir (str): Chemin vers le répertoire contenant les séquences de messages.
     """
 
     # le dossier contenant les séquences de messages
@@ -50,7 +60,11 @@ def annotate_directory(chunks_dir) -> None:
     def get_not_yet_annotated() -> list[str]:
         """Dresse la liste des fichiers qu'il reste à annoter.
 
-        Simplement obtenue par la liste de fichiers de l'oeuvre, à laquelle est soustraire la liste des fichiers annotés.
+        Simplement obtenue par la liste de fichiers du répertoire de chunks, à laquelle est soustraite
+        la liste des fichiers annotés.
+
+        Returns:
+            list[str]: Liste des fichiers non encore annotés.
         """
 
         chunk_files = set(os.listdir(chunks_dir))
