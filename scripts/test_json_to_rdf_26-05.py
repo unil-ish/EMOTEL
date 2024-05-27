@@ -1,9 +1,9 @@
-""" MARCHE PAS ENCORE """
-from rdflib import Graph, Literal, RDF, URIRef, Namespace
-from rdflib.namespace import OWL, RDFS, XSD
 import json
 import os
+from rdflib import Graph, Literal, RDF, URIRef, Namespace
+from rdflib.namespace import OWL, RDFS, XSD
 
+# Root
 dirname = "data/annotations"
 ext = ('.json')
 
@@ -14,7 +14,7 @@ EMOTEL = Namespace("https://github.com/unil-ish/EMOTEL#")
 
 # Initialize the graph
 g = Graph()
-# Chargement de l'ontologie depuis le fichier RDF
+# Loading and parsing ontology
 g.parse("ontology/ontology.owl", format="xml")
 g.bind("emotel", EMOTEL)
 
@@ -93,12 +93,12 @@ def add_event(event):
             g.add((event_uri, EMOTEL.hasParticipant, participant_uri))
 
 
-# iterating over all files
+# Iterating over all files
 for folder in os.listdir(dirname):
     for files in os.listdir(f"{dirname}/{folder}"):
         if files.endswith(ext):
 
-            # Chargement du fichier JSON
+            # Loading JSON file
             with open(f"{dirname}/{folder}/{files}", "r") as f:
                 data = json.load(f)
             # Add data to the graph
