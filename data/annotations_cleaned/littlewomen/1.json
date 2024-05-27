@@ -8,58 +8,45 @@
      "hasIntensity": 0.8,
      "quote": "I was reading that everlasting Belsham, and droning away as I always do, for aunt soon drops off, and then I take out some nice book, and read like fury till she wakes up. I actually made myself sleepy; and, before she began to nod, I gave such a gape that she asked me what I meant by opening my mouth wide enough to take the whole book in at once.",
      "hasObject": {
-      "name": "Book"
+      "name": "Book",
+      "id": "texts/littlewomen.txt#Book"
      },
      "causedBy": {
       "name": "Reading_Belsham",
-      "takePlaceAt": {
-       "name": "Home"
-      },
-      "hasParticipant": [
-       {
-        "name": "Jo"
-       },
-       {
-        "name": "Aunt"
-       }
-      ]
-     }
+      "id": "texts/littlewomen.txt#Reading_Belsham"
+     },
+     "id": "Amusement"
     },
     {
      "name": "Contentment",
      "hasIntensity": 0.9,
      "quote": "I believe they were never disappointed, or sorry that they took the old woman's advice.",
      "hasObject": {
-      "name": "Old_woman_s_advice"
+      "name": "Old_woman_s_advice",
+      "id": "texts/littlewomen.txt#Old_woman_s_advice"
      },
      "causedBy": {
       "name": "Following_old_woman_s_advice",
-      "takePlaceAt": {
-       "name": "Home"
-      },
-      "hasParticipant": {
-       "name": "Four_girls"
-      }
-     }
+      "id": "texts/littlewomen.txt#Following_old_woman_s_advice"
+     },
+     "id": "Contentment"
     },
     {
      "name": "Mischievousness",
      "hasIntensity": 0.7,
      "quote": "Going out for exercise",
      "hasObject": {
-      "name": "Exercise"
+      "name": "Exercise",
+      "id": "texts/littlewomen.txt#Exercise"
      },
      "causedBy": {
       "name": "Going_out_for_exercise",
-      "takePlaceAt": {
-       "name": "Home"
-      },
-      "hasParticipant": {
-       "name": "Jo"
-      }
-     }
+      "id": "texts/littlewomen.txt#Going_out_for_exercise"
+     },
+     "id": "Mischievousness"
     }
-   ]
+   ],
+   "id": "texts/littlewomen.txt#Jo"
   },
   {
    "name": "Meg",
@@ -69,19 +56,17 @@
      "hasIntensity": 0.8,
      "quote": "I've got something to tell. It isn't funny, like Jo's story, but I thought about it a good deal as I came home.",
      "hasObject": {
-      "name": "Story"
+      "name": "Story",
+      "id": "texts/littlewomen.txt#Story"
      },
      "causedBy": {
       "name": "Thinking_about_a_story",
-      "takePlaceAt": {
-       "name": "Home"
-      },
-      "hasParticipant": {
-       "name": "Meg"
-      }
-     }
+      "id": "texts/littlewomen.txt#Thinking_about_a_story"
+     },
+     "id": "Reflection"
     }
-   ]
+   ],
+   "id": "texts/littlewomen.txt#Meg"
   },
   {
    "name": "Beth",
@@ -91,27 +76,17 @@
      "hasIntensity": 0.9,
      "quote": "When I went to get some oysters for Hannah, Mr. Laurence was in the fish-shop; but he didn't see me, for I kept behind a barrel, and he was busy with Mr. Cutter, the fish-man.",
      "hasObject": {
-      "name": "Mr_Laurence_s_act_of_kindness"
+      "name": "Mr_Laurence_s_act_of_kindness",
+      "id": "texts/littlewomen.txt#Mr_Laurence_s_act_of_kindness"
      },
      "causedBy": {
       "name": "Seeing_Mr_Laurence_s_act_of_kindness",
-      "takePlaceAt": {
-       "name": "Fishshop"
-      },
-      "hasParticipant": [
-       {
-        "name": "Beth"
-       },
-       {
-        "name": "Mr_Laurence"
-       },
-       {
-        "name": "Mr_Cutter"
-       }
-      ]
-     }
+      "id": "texts/littlewomen.txt#Seeing_Mr_Laurence_s_act_of_kindness"
+     },
+     "id": "Compassion"
     }
-   ]
+   ],
+   "id": "texts/littlewomen.txt#Beth"
   },
   {
    "name": "Amy",
@@ -121,19 +96,133 @@
      "hasIntensity": 0.8,
      "quote": "I never, never should have got over such a agonizing mortification.",
      "hasObject": {
-      "name": "Mortification"
+      "name": "Mortification",
+      "id": "texts/littlewomen.txt#Mortification"
      },
      "causedBy": {
       "name": "Feeling_mortified",
-      "takePlaceAt": {
-       "name": "School"
-      },
-      "hasParticipant": {
-       "name": "Amy"
-      }
-     }
+      "id": "texts/littlewomen.txt#Feeling_mortified"
+     },
+     "id": "Moral_Upliftment"
     }
-   ]
+   ],
+   "id": "texts/littlewomen.txt#Amy"
+  }
+ ],
+ "Events": [
+  {
+   "name": "Reading_Belsham",
+   "takePlaceAt": {
+    "name": "Reading_Belsham",
+    "id": "texts/littlewomen.txt#Reading_Belsham"
+   },
+   "hasParticipant": [
+    {
+     "name": "Jo",
+     "id": "texts/littlewomen.txt#Jo"
+    },
+    {
+     "name": "Aunt",
+     "id": "texts/littlewomen.txt#Aunt"
+    }
+   ],
+   "id": "texts/littlewomen.txt#Reading_Belsham"
+  },
+  {
+   "name": "Following_old_woman_s_advice",
+   "takePlaceAt": {
+    "name": "Following_old_woman_s_advice",
+    "id": "texts/littlewomen.txt#Following_old_woman_s_advice"
+   },
+   "hasParticipant": {
+    "name": "Four_girls",
+    "id": "texts/littlewomen.txt#Four_girls"
+   },
+   "id": "texts/littlewomen.txt#Following_old_woman_s_advice"
+  },
+  {
+   "name": "Going_out_for_exercise",
+   "takePlaceAt": {
+    "name": "Going_out_for_exercise",
+    "id": "texts/littlewomen.txt#Going_out_for_exercise"
+   },
+   "hasParticipant": {
+    "name": "Jo",
+    "id": "texts/littlewomen.txt#Jo"
+   },
+   "id": "texts/littlewomen.txt#Going_out_for_exercise"
+  },
+  {
+   "name": "Thinking_about_a_story",
+   "takePlaceAt": {
+    "name": "Thinking_about_a_story",
+    "id": "texts/littlewomen.txt#Thinking_about_a_story"
+   },
+   "hasParticipant": {
+    "name": "Meg",
+    "id": "texts/littlewomen.txt#Meg"
+   },
+   "id": "texts/littlewomen.txt#Thinking_about_a_story"
+  },
+  {
+   "name": "Seeing_Mr_Laurence_s_act_of_kindness",
+   "takePlaceAt": {
+    "name": "Seeing_Mr_Laurence_s_act_of_kindness",
+    "id": "texts/littlewomen.txt#Seeing_Mr_Laurence_s_act_of_kindness"
+   },
+   "hasParticipant": [
+    {
+     "name": "Beth",
+     "id": "texts/littlewomen.txt#Beth"
+    },
+    {
+     "name": "Mr_Laurence",
+     "id": "texts/littlewomen.txt#Mr_Laurence"
+    },
+    {
+     "name": "Mr_Cutter",
+     "id": "texts/littlewomen.txt#Mr_Cutter"
+    }
+   ],
+   "id": "texts/littlewomen.txt#Seeing_Mr_Laurence_s_act_of_kindness"
+  },
+  {
+   "name": "Feeling_mortified",
+   "takePlaceAt": {
+    "name": "Feeling_mortified",
+    "id": "texts/littlewomen.txt#Feeling_mortified"
+   },
+   "hasParticipant": {
+    "name": "Amy",
+    "id": "texts/littlewomen.txt#Amy"
+   },
+   "id": "texts/littlewomen.txt#Feeling_mortified"
+  }
+ ],
+ "Places": [
+  {
+   "name": "Home",
+   "id": "texts/littlewomen.txt#Home"
+  },
+  {
+   "name": "Home",
+   "id": "texts/littlewomen.txt#Home"
+  },
+  {
+   "name": "Home",
+   "id": "texts/littlewomen.txt#Home"
+  },
+  {
+   "name": "Home",
+   "id": "texts/littlewomen.txt#Home"
+  },
+  {
+   "name": "Fishshop",
+   "id": "texts/littlewomen.txt#Fishshop"
+  },
+  {
+   "name": "School",
+   "id": "texts/littlewomen.txt#School"
   }
  ]
 }

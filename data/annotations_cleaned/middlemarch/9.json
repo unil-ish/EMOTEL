@@ -8,58 +8,59 @@
      "hasIntensity": 0.8,
      "quote": "Fred found himself close upon the term of payment with no money at command beyond the eighty pounds which he had deposited with his mother.",
      "hasObject": {
-      "name": "Money"
+      "name": "Money",
+      "id": "texts/middlemarch.txt#Money"
      },
      "causedBy": {
       "name": "Imminent_bill_payment",
-      "takePlaceAt": {
-       "name": "Home"
-      }
-     }
+      "id": "texts/middlemarch.txt#Imminent_bill_payment"
+     },
+     "id": "Anxiety"
     },
     {
      "name": "Hopefulness",
      "hasIntensity": 0.7,
      "quote": "Hopefulness has a pleasure in making a throw of any kind, because the prospect of success is certain.",
      "hasObject": {
-      "name": "Success"
+      "name": "Success",
+      "id": "texts/middlemarch.txt#Success"
      },
      "causedBy": {
       "name": "Desire_to_win",
-      "takePlaceAt": {
-       "name": "Various_locations"
-      }
-     }
+      "id": "texts/middlemarch.txt#Desire_to_win"
+     },
+     "id": "Hopefulness"
     },
     {
      "name": "Heroism",
      "hasIntensity": 0.9,
      "quote": "He made the resolution with a sense of heroism—heroism forced on him by the dread of breaking his word to Mr. Garth, by his love for Mary and awe of her opinion.",
      "hasObject": {
-      "name": "Sense_of_duty"
+      "name": "Sense_of_duty",
+      "id": "texts/middlemarch.txt#Sense_of_duty"
      },
      "causedBy": {
       "name": "Need_to_meet_imminent_bill_payment",
-      "takePlaceAt": {
-       "name": "Home"
-      }
-     }
+      "id": "texts/middlemarch.txt#Need_to_meet_imminent_bill_payment"
+     },
+     "id": "Heroism"
     },
     {
      "name": "Dissipation",
      "hasIntensity": 0.6,
      "quote": "Considering that Fred was not at all coarse, that he rather looked down on the manners and speech of young men who had not been to the university, and that he had written stanzas as pastoral and unvoluptuous as his flute-playing, his attraction towards Bambridge and Horrock was an interesting fact which even the love of horse-flesh would not wholly account for without that mysterious influence of Naming which determinates so much of mortal choice.",
      "hasObject": {
-      "name": "Pleasureseeking"
+      "name": "Pleasureseeking",
+      "id": "texts/middlemarch.txt#Pleasureseeking"
      },
      "causedBy": {
       "name": "Riding_out_with_Bambridge_and_Horrock",
-      "takePlaceAt": {
-       "name": "Middlemarch"
-      }
-     }
+      "id": "texts/middlemarch.txt#Riding_out_with_Bambridge_and_Horrock"
+     },
+     "id": "Dissipation"
     }
-   ]
+   ],
+   "id": "texts/middlemarch.txt#Fred_Vincy"
   },
   {
    "name": "Caleb_Garth",
@@ -69,44 +70,133 @@
      "hasIntensity": 0.9,
      "quote": "The Garths were very fond of Fred, as he was of them; for when he and Rosamond were little ones, and the Garths were better off, the slight connection between the two families through Mr. Featherstone’s double marriage had led to an acquaintance which was carried on between the children rather than the parents.",
      "hasObject": {
-      "name": "Fred_Vincy"
+      "name": "Fred_Vincy",
+      "id": "texts/middlemarch.txt#Fred_Vincy"
      },
      "causedBy": {
       "name": "Past_relationship_with_Fred",
-      "takePlaceAt": {
-       "name": "Middlemarch"
-      }
-     }
+      "id": "texts/middlemarch.txt#Past_relationship_with_Fred"
+     },
+     "id": "Affection"
     },
     {
      "name": "Generosity",
      "hasIntensity": 0.8,
      "quote": "He had the highest opinion of Fred, was 'sure the lad would turn out well—an open affectionate fellow, with a good bottom to his character—you might trust him for anything.'",
      "hasObject": {
-      "name": "Fred_Vincy"
+      "name": "Fred_Vincy",
+      "id": "texts/middlemarch.txt#Fred_Vincy"
      },
      "causedBy": {
       "name": "Fred_s_request_for_help",
-      "takePlaceAt": {
-       "name": "Caleb_s_office"
-      }
-     }
+      "id": "texts/middlemarch.txt#Fred_s_request_for_help"
+     },
+     "id": "Generosity"
     },
     {
      "name": "Admonition",
      "hasIntensity": 0.7,
      "quote": "He felt that it was an occasion for a friendly hint as to conduct, and that before giving his signature he must give a rather strong admonition.",
      "hasObject": {
-      "name": "Fred_Vincy_s_conduct"
+      "name": "Fred_Vincy_s_conduct",
+      "id": "texts/middlemarch.txt#Fred_Vincy_s_conduct"
      },
      "causedBy": {
       "name": "Fred_s_request_for_help",
-      "takePlaceAt": {
-       "name": "Caleb_s_office"
-      }
-     }
+      "id": "texts/middlemarch.txt#Fred_s_request_for_help"
+     },
+     "id": "Admonition"
     }
-   ]
+   ],
+   "id": "texts/middlemarch.txt#Caleb_Garth"
+  }
+ ],
+ "Events": [
+  {
+   "name": "Imminent_bill_payment",
+   "takePlaceAt": {
+    "name": "Imminent_bill_payment",
+    "id": "texts/middlemarch.txt#Imminent_bill_payment"
+   },
+   "id": "texts/middlemarch.txt#Imminent_bill_payment"
+  },
+  {
+   "name": "Desire_to_win",
+   "takePlaceAt": {
+    "name": "Desire_to_win",
+    "id": "texts/middlemarch.txt#Desire_to_win"
+   },
+   "id": "texts/middlemarch.txt#Desire_to_win"
+  },
+  {
+   "name": "Need_to_meet_imminent_bill_payment",
+   "takePlaceAt": {
+    "name": "Need_to_meet_imminent_bill_payment",
+    "id": "texts/middlemarch.txt#Need_to_meet_imminent_bill_payment"
+   },
+   "id": "texts/middlemarch.txt#Need_to_meet_imminent_bill_payment"
+  },
+  {
+   "name": "Riding_out_with_Bambridge_and_Horrock",
+   "takePlaceAt": {
+    "name": "Riding_out_with_Bambridge_and_Horrock",
+    "id": "texts/middlemarch.txt#Riding_out_with_Bambridge_and_Horrock"
+   },
+   "id": "texts/middlemarch.txt#Riding_out_with_Bambridge_and_Horrock"
+  },
+  {
+   "name": "Past_relationship_with_Fred",
+   "takePlaceAt": {
+    "name": "Past_relationship_with_Fred",
+    "id": "texts/middlemarch.txt#Past_relationship_with_Fred"
+   },
+   "id": "texts/middlemarch.txt#Past_relationship_with_Fred"
+  },
+  {
+   "name": "Fred_s_request_for_help",
+   "takePlaceAt": {
+    "name": "Fred_s_request_for_help",
+    "id": "texts/middlemarch.txt#Fred_s_request_for_help"
+   },
+   "id": "texts/middlemarch.txt#Fred_s_request_for_help"
+  },
+  {
+   "name": "Fred_s_request_for_help",
+   "takePlaceAt": {
+    "name": "Fred_s_request_for_help",
+    "id": "texts/middlemarch.txt#Fred_s_request_for_help"
+   },
+   "id": "texts/middlemarch.txt#Fred_s_request_for_help"
+  }
+ ],
+ "Places": [
+  {
+   "name": "Home",
+   "id": "texts/middlemarch.txt#Home"
+  },
+  {
+   "name": "Various_locations",
+   "id": "texts/middlemarch.txt#Various_locations"
+  },
+  {
+   "name": "Home",
+   "id": "texts/middlemarch.txt#Home"
+  },
+  {
+   "name": "Middlemarch",
+   "id": "texts/middlemarch.txt#Middlemarch"
+  },
+  {
+   "name": "Middlemarch",
+   "id": "texts/middlemarch.txt#Middlemarch"
+  },
+  {
+   "name": "Caleb_s_office",
+   "id": "texts/middlemarch.txt#Caleb_s_office"
+  },
+  {
+   "name": "Caleb_s_office",
+   "id": "texts/middlemarch.txt#Caleb_s_office"
   }
  ]
 }

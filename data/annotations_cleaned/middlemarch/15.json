@@ -8,85 +8,145 @@
      "hasIntensity": 0.2,
      "quote": "But surely we should regard his claim as a much greater one, even to the half of that property which I know that you have destined for me.",
      "hasObject": {
-      "name": "Property"
+      "name": "Property",
+      "id": "texts/middlemarch.txt#Property"
      },
      "causedBy": {
       "name": "Thinking_about_Will_Ladislaw_s_family_history_and_his_claim_to_property",
-      "takePlaceAt": {
-       "name": "Boudoir"
-      },
-      "hasParticipant": [
-       {
-        "name": "Dorothea"
-       },
-       {
-        "name": "Will_Ladislaw"
-       }
-      ]
-     }
+      "id": "texts/middlemarch.txt#Thinking_about_Will_Ladislaw_s_family_history_and_"
+     },
+     "id": "Trust"
     },
     {
      "name": "Surprise",
      "hasIntensity": 0.3,
      "quote": "But if one has too much in consequence of others being wronged, it seems to me that the divine voice which tells us to set that wrong right must be obeyed.",
      "hasObject": {
-      "name": "Money_and_property"
+      "name": "Money_and_property",
+      "id": "texts/middlemarch.txt#Money_and_property"
      },
      "causedBy": {
       "name": "Thinking_about_money_and_property",
-      "takePlaceAt": {
-       "name": "Boudoir"
-      },
-      "hasParticipant": {
-       "name": "Dorothea"
-      }
-     }
+      "id": "texts/middlemarch.txt#Thinking_about_money_and_property"
+     },
+     "id": "Surprise"
     },
     {
      "name": "Anger",
      "hasIntensity": 0.6,
      "quote": "Poor Dorothea, shrouded in the darkness, was in a tumult of conflicting emotions.",
      "hasObject": {
-      "name": "Response_from_Mr_Casaubon"
+      "name": "Response_from_Mr_Casaubon",
+      "id": "texts/middlemarch.txt#Response_from_Mr_Casaubon"
      },
      "causedBy": {
       "name": "Receiving_a_strong_response_from_Mr_Casaubon",
-      "takePlaceAt": {
-       "name": "Bedroom"
-      },
-      "hasParticipant": [
-       {
-        "name": "Dorothea"
-       },
-       {
-        "name": "Mr_Casaubon"
-       }
-      ]
-     }
+      "id": "texts/middlemarch.txt#Receiving_a_strong_response_from_Mr_Casaubon"
+     },
+     "id": "Anger"
     },
     {
      "name": "Resentment",
      "hasIntensity": 0.5,
      "quote": "Poor Dorothea, shrouded in the darkness, was in a tumult of conflicting emotions.",
      "hasObject": {
-      "name": "Response_from_Mr_Casaubon"
+      "name": "Response_from_Mr_Casaubon",
+      "id": "texts/middlemarch.txt#Response_from_Mr_Casaubon"
      },
      "causedBy": {
       "name": "Feeling_conflicted_after_Mr_Casaubon_s_response",
-      "takePlaceAt": {
-       "name": "Bedroom"
-      },
-      "hasParticipant": [
-       {
-        "name": "Dorothea"
-       },
-       {
-        "name": "Mr_Casaubon"
-       }
-      ]
-     }
+      "id": "texts/middlemarch.txt#Feeling_conflicted_after_Mr_Casaubon_s_response"
+     },
+     "id": "Resentment"
     }
-   ]
+   ],
+   "id": "texts/middlemarch.txt#Dorothea"
+  }
+ ],
+ "Events": [
+  {
+   "name": "Thinking_about_Will_Ladislaw_s_family_history_and_his_claim_to_property",
+   "takePlaceAt": {
+    "name": "Thinking_about_Will_Ladislaw_s_family_history_and_his_claim_to_property",
+    "id": "texts/middlemarch.txt#Thinking_about_Will_Ladislaw_s_family_history_and_"
+   },
+   "hasParticipant": [
+    {
+     "name": "Dorothea",
+     "id": "texts/middlemarch.txt#Dorothea"
+    },
+    {
+     "name": "Will_Ladislaw",
+     "id": "texts/middlemarch.txt#Will_Ladislaw"
+    }
+   ],
+   "id": "texts/middlemarch.txt#Thinking_about_Will_Ladislaw_s_family_history_and_"
+  },
+  {
+   "name": "Thinking_about_money_and_property",
+   "takePlaceAt": {
+    "name": "Thinking_about_money_and_property",
+    "id": "texts/middlemarch.txt#Thinking_about_money_and_property"
+   },
+   "hasParticipant": {
+    "name": "Dorothea",
+    "id": "texts/middlemarch.txt#Dorothea"
+   },
+   "id": "texts/middlemarch.txt#Thinking_about_money_and_property"
+  },
+  {
+   "name": "Receiving_a_strong_response_from_Mr_Casaubon",
+   "takePlaceAt": {
+    "name": "Receiving_a_strong_response_from_Mr_Casaubon",
+    "id": "texts/middlemarch.txt#Receiving_a_strong_response_from_Mr_Casaubon"
+   },
+   "hasParticipant": [
+    {
+     "name": "Dorothea",
+     "id": "texts/middlemarch.txt#Dorothea"
+    },
+    {
+     "name": "Mr_Casaubon",
+     "id": "texts/middlemarch.txt#Mr_Casaubon"
+    }
+   ],
+   "id": "texts/middlemarch.txt#Receiving_a_strong_response_from_Mr_Casaubon"
+  },
+  {
+   "name": "Feeling_conflicted_after_Mr_Casaubon_s_response",
+   "takePlaceAt": {
+    "name": "Feeling_conflicted_after_Mr_Casaubon_s_response",
+    "id": "texts/middlemarch.txt#Feeling_conflicted_after_Mr_Casaubon_s_response"
+   },
+   "hasParticipant": [
+    {
+     "name": "Dorothea",
+     "id": "texts/middlemarch.txt#Dorothea"
+    },
+    {
+     "name": "Mr_Casaubon",
+     "id": "texts/middlemarch.txt#Mr_Casaubon"
+    }
+   ],
+   "id": "texts/middlemarch.txt#Feeling_conflicted_after_Mr_Casaubon_s_response"
+  }
+ ],
+ "Places": [
+  {
+   "name": "Boudoir",
+   "id": "texts/middlemarch.txt#Boudoir"
+  },
+  {
+   "name": "Boudoir",
+   "id": "texts/middlemarch.txt#Boudoir"
+  },
+  {
+   "name": "Bedroom",
+   "id": "texts/middlemarch.txt#Bedroom"
+  },
+  {
+   "name": "Bedroom",
+   "id": "texts/middlemarch.txt#Bedroom"
   }
  ]
 }

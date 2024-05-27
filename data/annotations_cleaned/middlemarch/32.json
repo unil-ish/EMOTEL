@@ -8,23 +8,15 @@
      "hasIntensity": 0.9,
      "quote": "Of late she had never gone beyond her own house and garden, except to church, and once to see her papa, to whom she said, 'If Tertius goes away, you will help us to move, will you not, papa? I suppose we shall have very little money. I am sure I hope some one will help us.' And Mr. Vincy had said, 'Yes, child, I don’t mind a hundred or two. I can see the end of that.' With these exceptions she had sat at home in languid melancholy and suspense, fixing her mind on Will Ladislaw’s coming as the one point of hope and interest, and associating this with some new urgency on Lydgate to make immediate arrangements for leaving Middlemarch and going to London, till she felt assured that the coming would be a potent cause of the going, without at all seeing how.",
      "hasObject": {
-      "name": "Letter_to_Mr_Ladislaw"
+      "name": "Letter_to_Mr_Ladislaw",
+      "id": "texts/middlemarch.txt#Letter_to_Mr_Ladislaw"
      },
      "exactPlace": "Home",
      "causedBy": {
       "name": "Lydgate_s_departure_and_Will_Ladislaw_s_arrival",
-      "takePlaceAt": {
-       "name": "Home"
-      },
-      "hasParticipant": [
-       {
-        "name": "Rosamond"
-       },
-       {
-        "name": "Mr_Vincy"
-       }
-      ]
-     }
+      "id": "texts/middlemarch.txt#Lydgate_s_departure_and_Will_Ladislaw_s_arrival"
+     },
+     "id": "Anticipation"
     },
     {
      "name": "Rosamond",
@@ -34,22 +26,55 @@
        "hasIntensity": 0.9,
        "quote": "But this morning Rosamond descended from her room upstairs—where she sometimes sat the whole day when Lydgate was out—equipped for a walk in the town. She had a letter to post—a letter addressed to Mr. Ladislaw and written with charming discretion, but intended to hasten his arrival by a hint of trouble.",
        "hasObject": {
-        "name": "Letter_to_Mr_Ladislaw"
+        "name": "Letter_to_Mr_Ladislaw",
+        "id": "texts/middlemarch.txt#Letter_to_Mr_Ladislaw"
        },
        "exactPlace": "Home",
        "causedBy": {
         "name": "Posting_a_letter_to_Mr_Ladislaw",
         "takePlaceAt": {
-         "name": "Home"
+         "name": "Home",
+         "id": "texts/middlemarch.txt#Home"
         },
         "hasParticipant": {
-         "name": "Rosamond"
-        }
-       }
+         "name": "Rosamond",
+         "id": "texts/middlemarch.txt#Rosamond"
+        },
+        "id": "texts/middlemarch.txt#Posting_a_letter_to_Mr_Ladislaw"
+       },
+       "id": "texts/middlemarch.txt#Anticipation"
       }
-     ]
+     ],
+     "id": "Rosamond"
     }
-   ]
+   ],
+   "id": "texts/middlemarch.txt#Rosamond"
+  }
+ ],
+ "Events": [
+  {
+   "name": "Lydgate_s_departure_and_Will_Ladislaw_s_arrival",
+   "takePlaceAt": {
+    "name": "Lydgate_s_departure_and_Will_Ladislaw_s_arrival",
+    "id": "texts/middlemarch.txt#Lydgate_s_departure_and_Will_Ladislaw_s_arrival"
+   },
+   "hasParticipant": [
+    {
+     "name": "Rosamond",
+     "id": "texts/middlemarch.txt#Rosamond"
+    },
+    {
+     "name": "Mr_Vincy",
+     "id": "texts/middlemarch.txt#Mr_Vincy"
+    }
+   ],
+   "id": "texts/middlemarch.txt#Lydgate_s_departure_and_Will_Ladislaw_s_arrival"
+  }
+ ],
+ "Places": [
+  {
+   "name": "Home",
+   "id": "texts/middlemarch.txt#Home"
   }
  ]
 }

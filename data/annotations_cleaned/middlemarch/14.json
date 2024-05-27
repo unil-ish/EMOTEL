@@ -8,72 +8,73 @@
      "hasIntensity": 0.9,
      "quote": "I never give up anything that I choose to do.",
      "hasObject": {
-      "name": "Engagement"
+      "name": "Engagement",
+      "id": "texts/middlemarch.txt#Engagement"
      },
      "causedBy": {
       "name": "Father_s_disapproval_of_engagement",
-      "takePlaceAt": {
-       "name": "Drawingroom"
-      }
-     }
+      "id": "texts/middlemarch.txt#Father_s_disapproval_of_engagement"
+     },
+     "id": "Trust"
     },
     {
      "name": "Surprise",
      "hasIntensity": 0.7,
      "quote": "What original notions you clever men have!",
      "hasObject": {
-      "name": "Wedding_clothes"
+      "name": "Wedding_clothes",
+      "id": "texts/middlemarch.txt#Wedding_clothes"
      },
      "causedBy": {
       "name": "Lydgate_s_suggestion_of_buying_wedding_clothes_after_marriage",
-      "takePlaceAt": {
-       "name": "Drawingroom"
-      }
-     }
+      "id": "texts/middlemarch.txt#Lydgate_s_suggestion_of_buying_wedding_clothes_aft"
+     },
+     "id": "Surprise"
     },
     {
      "name": "Joy",
      "hasIntensity": 0.8,
      "quote": "An unmistakable delight shone forth from the blue eyes that met his.",
      "hasObject": {
-      "name": "Marriage"
+      "name": "Marriage",
+      "id": "texts/middlemarch.txt#Marriage"
      },
      "causedBy": {
       "name": "Lydgate_s_proposal_of_a_speedy_marriage",
-      "takePlaceAt": {
-       "name": "Drawingroom"
-      }
-     }
+      "id": "texts/middlemarch.txt#Lydgate_s_proposal_of_a_speedy_marriage"
+     },
+     "id": "Joy"
     },
     {
      "name": "Anticipation",
      "hasIntensity": 0.9,
      "quote": "I could certainly hasten the work.",
      "hasObject": {
-      "name": "Honeymoon_preparations"
+      "name": "Honeymoon_preparations",
+      "id": "texts/middlemarch.txt#Honeymoon_preparations"
      },
      "causedBy": {
       "name": "Planning_for_the_honeymoon",
-      "takePlaceAt": {
-       "name": "Drawingroom"
-      }
-     }
+      "id": "texts/middlemarch.txt#Planning_for_the_honeymoon"
+     },
+     "id": "Anticipation"
     },
     {
      "name": "Love",
      "hasIntensity": 0.9,
      "quote": "She looked at her lover with some wondering remonstrance as she spoke.",
      "hasObject": {
-      "name": "Lydgate"
+      "name": "Lydgate",
+      "id": "texts/middlemarch.txt#Lydgate"
      },
      "causedBy": {
       "name": "Lydgate_s_earnest_pleading_for_a_quick_marriage",
-      "takePlaceAt": {
-       "name": "Drawingroom"
-      }
-     }
+      "id": "texts/middlemarch.txt#Lydgate_s_earnest_pleading_for_a_quick_marriage"
+     },
+     "id": "Love"
     }
-   ]
+   ],
+   "id": "texts/middlemarch.txt#Rosamond_Vincy"
   },
   {
    "name": "Mr_Vincy",
@@ -83,30 +84,119 @@
      "hasIntensity": 0.8,
      "quote": "It is too late now for your father to say that our engagement must be given up.",
      "hasObject": {
-      "name": "Engagement"
+      "name": "Engagement",
+      "id": "texts/middlemarch.txt#Engagement"
      },
      "causedBy": {
       "name": "Rosamond_s_father_s_disapproval_of_engagement",
-      "takePlaceAt": {
-       "name": "Drawingroom"
-      }
-     }
+      "id": "texts/middlemarch.txt#Rosamond_s_father_s_disapproval_of_engagement"
+     },
+     "id": "Annoyance"
     },
     {
      "name": "Disapproval",
      "hasIntensity": 0.7,
      "quote": "I never give up anything that I choose to do.",
      "hasObject": {
-      "name": "Marriage"
+      "name": "Marriage",
+      "id": "texts/middlemarch.txt#Marriage"
      },
      "causedBy": {
       "name": "Rosamond_s_determination_to_marry_Lydgate",
-      "takePlaceAt": {
-       "name": "Drawingroom"
-      }
-     }
+      "id": "texts/middlemarch.txt#Rosamond_s_determination_to_marry_Lydgate"
+     },
+     "id": "Disapproval"
     }
-   ]
+   ],
+   "id": "texts/middlemarch.txt#Mr_Vincy"
+  }
+ ],
+ "Events": [
+  {
+   "name": "Father_s_disapproval_of_engagement",
+   "takePlaceAt": {
+    "name": "Father_s_disapproval_of_engagement",
+    "id": "texts/middlemarch.txt#Father_s_disapproval_of_engagement"
+   },
+   "id": "texts/middlemarch.txt#Father_s_disapproval_of_engagement"
+  },
+  {
+   "name": "Lydgate_s_suggestion_of_buying_wedding_clothes_after_marriage",
+   "takePlaceAt": {
+    "name": "Lydgate_s_suggestion_of_buying_wedding_clothes_after_marriage",
+    "id": "texts/middlemarch.txt#Lydgate_s_suggestion_of_buying_wedding_clothes_aft"
+   },
+   "id": "texts/middlemarch.txt#Lydgate_s_suggestion_of_buying_wedding_clothes_aft"
+  },
+  {
+   "name": "Lydgate_s_proposal_of_a_speedy_marriage",
+   "takePlaceAt": {
+    "name": "Lydgate_s_proposal_of_a_speedy_marriage",
+    "id": "texts/middlemarch.txt#Lydgate_s_proposal_of_a_speedy_marriage"
+   },
+   "id": "texts/middlemarch.txt#Lydgate_s_proposal_of_a_speedy_marriage"
+  },
+  {
+   "name": "Planning_for_the_honeymoon",
+   "takePlaceAt": {
+    "name": "Planning_for_the_honeymoon",
+    "id": "texts/middlemarch.txt#Planning_for_the_honeymoon"
+   },
+   "id": "texts/middlemarch.txt#Planning_for_the_honeymoon"
+  },
+  {
+   "name": "Lydgate_s_earnest_pleading_for_a_quick_marriage",
+   "takePlaceAt": {
+    "name": "Lydgate_s_earnest_pleading_for_a_quick_marriage",
+    "id": "texts/middlemarch.txt#Lydgate_s_earnest_pleading_for_a_quick_marriage"
+   },
+   "id": "texts/middlemarch.txt#Lydgate_s_earnest_pleading_for_a_quick_marriage"
+  },
+  {
+   "name": "Rosamond_s_father_s_disapproval_of_engagement",
+   "takePlaceAt": {
+    "name": "Rosamond_s_father_s_disapproval_of_engagement",
+    "id": "texts/middlemarch.txt#Rosamond_s_father_s_disapproval_of_engagement"
+   },
+   "id": "texts/middlemarch.txt#Rosamond_s_father_s_disapproval_of_engagement"
+  },
+  {
+   "name": "Rosamond_s_determination_to_marry_Lydgate",
+   "takePlaceAt": {
+    "name": "Rosamond_s_determination_to_marry_Lydgate",
+    "id": "texts/middlemarch.txt#Rosamond_s_determination_to_marry_Lydgate"
+   },
+   "id": "texts/middlemarch.txt#Rosamond_s_determination_to_marry_Lydgate"
+  }
+ ],
+ "Places": [
+  {
+   "name": "Drawingroom",
+   "id": "texts/middlemarch.txt#Drawingroom"
+  },
+  {
+   "name": "Drawingroom",
+   "id": "texts/middlemarch.txt#Drawingroom"
+  },
+  {
+   "name": "Drawingroom",
+   "id": "texts/middlemarch.txt#Drawingroom"
+  },
+  {
+   "name": "Drawingroom",
+   "id": "texts/middlemarch.txt#Drawingroom"
+  },
+  {
+   "name": "Drawingroom",
+   "id": "texts/middlemarch.txt#Drawingroom"
+  },
+  {
+   "name": "Drawingroom",
+   "id": "texts/middlemarch.txt#Drawingroom"
+  },
+  {
+   "name": "Drawingroom",
+   "id": "texts/middlemarch.txt#Drawingroom"
   }
  ]
 }

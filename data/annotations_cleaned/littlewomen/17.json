@@ -8,58 +8,111 @@
      "hasIntensity": 0.7,
      "quote": "He carefully stirred up the embers of his lost love, but they refused to burst into a blaze: there was only a comfortable glow that warmed and did him good without putting him into a fever.",
      "hasObject": {
-      "name": "Embers_of_his_lost_love"
+      "name": "Embers_of_his_lost_love",
+      "id": "texts/littlewomen.txt#Embers_of_his_lost_love"
      },
      "causedBy": {
       "name": "Realizing_his_heart_wouldn_t_ache",
-      "takePlaceAt": {
-       "name": "His_desk"
-      }
-     }
+      "id": "texts/littlewomen.txt#Realizing_his_heart_wouldn_t_ache"
+     },
+     "id": "Trust"
     },
     {
      "name": "Joy",
      "hasIntensity": 0.8,
      "quote": "The correspondence flourished famously, and letters flew to and fro, with unfailing regularity, all through the early spring.",
      "hasObject": {
-      "name": "Prompt_answer_to_his_letter"
+      "name": "Prompt_answer_to_his_letter",
+      "id": "texts/littlewomen.txt#Prompt_answer_to_his_letter"
      },
      "causedBy": {
       "name": "Receiving_a_prompt_answer_to_his_letter",
-      "takePlaceAt": {
-       "name": "His_desk"
-      }
-     }
+      "id": "texts/littlewomen.txt#Receiving_a_prompt_answer_to_his_letter"
+     },
+     "id": "Joy"
     },
     {
      "name": "Anticipation",
      "hasIntensity": 0.6,
      "quote": "He wanted desperately to go to Nice, but would not till he was asked; and Amy would not ask him, for just then she was having little experiences of her own, which made her rather wish to avoid the quizzical eyes of 'our boy.'",
      "hasObject": {
-      "name": "Desire_to_go_to_Nice"
+      "name": "Desire_to_go_to_Nice",
+      "id": "texts/littlewomen.txt#Desire_to_go_to_Nice"
      },
      "causedBy": {
       "name": "Desire_to_go_to_Nice",
-      "takePlaceAt": {
-       "name": "Paris"
-      }
-     }
+      "id": "texts/littlewomen.txt#Desire_to_go_to_Nice"
+     },
+     "id": "Anticipation"
     },
     {
      "name": "Relief",
      "hasIntensity": 0.7,
      "quote": "He was disgusted with himself, surprised at his own fickleness, and full of a queer mixture of disappointment and relief that he could recover from such a tremendous blow so soon.",
      "hasObject": {
-      "name": "Recovery_from_lost_love"
+      "name": "Recovery_from_lost_love",
+      "id": "texts/littlewomen.txt#Recovery_from_lost_love"
      },
      "causedBy": {
       "name": "Realizing_he_could_recover_from_his_lost_love",
-      "takePlaceAt": {
-       "name": "His_desk"
-      }
-     }
+      "id": "texts/littlewomen.txt#Realizing_he_could_recover_from_his_lost_love"
+     },
+     "id": "Relief"
     }
-   ]
+   ],
+   "id": "texts/littlewomen.txt#Laurie"
+  }
+ ],
+ "Events": [
+  {
+   "name": "Realizing_his_heart_wouldn_t_ache",
+   "takePlaceAt": {
+    "name": "Realizing_his_heart_wouldn_t_ache",
+    "id": "texts/littlewomen.txt#Realizing_his_heart_wouldn_t_ache"
+   },
+   "id": "texts/littlewomen.txt#Realizing_his_heart_wouldn_t_ache"
+  },
+  {
+   "name": "Receiving_a_prompt_answer_to_his_letter",
+   "takePlaceAt": {
+    "name": "Receiving_a_prompt_answer_to_his_letter",
+    "id": "texts/littlewomen.txt#Receiving_a_prompt_answer_to_his_letter"
+   },
+   "id": "texts/littlewomen.txt#Receiving_a_prompt_answer_to_his_letter"
+  },
+  {
+   "name": "Desire_to_go_to_Nice",
+   "takePlaceAt": {
+    "name": "Desire_to_go_to_Nice",
+    "id": "texts/littlewomen.txt#Desire_to_go_to_Nice"
+   },
+   "id": "texts/littlewomen.txt#Desire_to_go_to_Nice"
+  },
+  {
+   "name": "Realizing_he_could_recover_from_his_lost_love",
+   "takePlaceAt": {
+    "name": "Realizing_he_could_recover_from_his_lost_love",
+    "id": "texts/littlewomen.txt#Realizing_he_could_recover_from_his_lost_love"
+   },
+   "id": "texts/littlewomen.txt#Realizing_he_could_recover_from_his_lost_love"
+  }
+ ],
+ "Places": [
+  {
+   "name": "His_desk",
+   "id": "texts/littlewomen.txt#His_desk"
+  },
+  {
+   "name": "His_desk",
+   "id": "texts/littlewomen.txt#His_desk"
+  },
+  {
+   "name": "Paris",
+   "id": "texts/littlewomen.txt#Paris"
+  },
+  {
+   "name": "His_desk",
+   "id": "texts/littlewomen.txt#His_desk"
   }
  ]
 }

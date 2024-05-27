@@ -8,103 +8,59 @@
      "hasIntensity": 0.8,
      "quote": "Language cannot describe the anxieties, experiences, and exertions which Jo underwent that morning; and the dinner she served up became a standing joke.",
      "hasObject": {
-      "name": "Dinner"
+      "name": "Dinner",
+      "id": "texts/littlewomen.txt#Dinner"
      },
      "causedBy": {
       "name": "Preparing_a_disastrous_dinner",
-      "takePlaceAt": {
-       "name": "Home_kitchen"
-      },
-      "hasParticipant": [
-       {
-        "name": "Jo"
-       },
-       {
-        "name": "Laurie"
-       },
-       {
-        "name": "Miss_Crocker"
-       }
-      ]
-     }
+      "id": "texts/littlewomen.txt#Preparing_a_disastrous_dinner"
+     },
+     "id": "Anxiety"
     },
     {
      "name": "Relief",
      "hasIntensity": 0.7,
      "quote": "The walk revived her spirits; and, flattering herself that she had made good bargains, she trudged home again, after buying a very young lobster, some very old asparagus, and two boxes of acid strawberries.",
      "hasObject": {
-      "name": "Shopping_items"
+      "name": "Shopping_items",
+      "id": "texts/littlewomen.txt#Shopping_items"
      },
      "causedBy": {
       "name": "Successful_shopping",
-      "takePlaceAt": {
-       "name": "Market"
-      }
-     }
+      "id": "texts/littlewomen.txt#Successful_shopping"
+     },
+     "id": "Relief"
     },
     {
      "name": "Embarrassment",
      "hasIntensity": 0.9,
      "quote": "Poor Jo would gladly have gone under the table, as one thing after another was tasted and left; while Amy giggled, Meg looked distressed, Miss Crocker pursed up her lips, and Laurie talked and laughed with all his might, to give a cheerful tone to the festive scene.",
      "hasObject": {
-      "name": "Dinner"
+      "name": "Dinner",
+      "id": "texts/littlewomen.txt#Dinner"
      },
      "causedBy": {
       "name": "Failed_dinner_preparation",
-      "takePlaceAt": {
-       "name": "Dinner_table"
-      },
-      "hasParticipant": [
-       {
-        "name": "Jo"
-       },
-       {
-        "name": "Amy"
-       },
-       {
-        "name": "Meg"
-       },
-       {
-        "name": "Miss_Crocker"
-       },
-       {
-        "name": "Laurie"
-       }
-      ]
-     }
+      "id": "texts/littlewomen.txt#Failed_dinner_preparation"
+     },
+     "id": "Embarrassment"
     },
     {
      "name": "Gratitude",
      "hasIntensity": 0.6,
      "quote": "Poor Jo would gladly have gone under the table, as one thing after another was tasted and left; while Amy giggled, Meg looked distressed, Miss Crocker pursed up her lips, and Laurie talked and laughed with all his might, to give a cheerful tone to the festive scene.",
      "hasObject": {
-      "name": "Dinner"
+      "name": "Dinner",
+      "id": "texts/littlewomen.txt#Dinner"
      },
      "causedBy": {
       "name": "Laurie_s_efforts_to_cheer_up_the_situation",
-      "takePlaceAt": {
-       "name": "Dinner_table"
-      },
-      "hasParticipant": [
-       {
-        "name": "Jo"
-       },
-       {
-        "name": "Amy"
-       },
-       {
-        "name": "Meg"
-       },
-       {
-        "name": "Miss_Crocker"
-       },
-       {
-        "name": "Laurie"
-       }
-      ]
-     }
+      "id": "texts/littlewomen.txt#Laurie_s_efforts_to_cheer_up_the_situation"
+     },
+     "id": "Gratitude"
     }
-   ]
+   ],
+   "id": "texts/littlewomen.txt#Meg"
   },
   {
    "name": "Jo",
@@ -114,72 +70,45 @@
      "hasIntensity": 0.8,
      "quote": "Language cannot describe the anxieties, experiences, and exertions which Jo underwent that morning; and the dinner she served up became a standing joke.",
      "hasObject": {
-      "name": "Dinner"
+      "name": "Dinner",
+      "id": "texts/littlewomen.txt#Dinner"
      },
      "causedBy": {
       "name": "Preparing_a_disastrous_dinner",
-      "takePlaceAt": {
-       "name": "Home_kitchen"
-      },
-      "hasParticipant": [
-       {
-        "name": "Meg"
-       },
-       {
-        "name": "Laurie"
-       },
-       {
-        "name": "Miss_Crocker"
-       }
-      ]
-     }
+      "id": "texts/littlewomen.txt#Preparing_a_disastrous_dinner"
+     },
+     "id": "Anxiety"
     },
     {
      "name": "Embarrassment",
      "hasIntensity": 0.9,
      "quote": "Poor Jo would gladly have gone under the table, as one thing after another was tasted and left; while Amy giggled, Meg looked distressed, Miss Crocker pursed up her lips, and Laurie talked and laughed with all his might, to give a cheerful tone to the festive scene.",
      "hasObject": {
-      "name": "Dinner"
+      "name": "Dinner",
+      "id": "texts/littlewomen.txt#Dinner"
      },
      "causedBy": {
       "name": "Failed_dinner_preparation",
-      "takePlaceAt": {
-       "name": "Dinner_table"
-      },
-      "hasParticipant": [
-       {
-        "name": "Jo"
-       },
-       {
-        "name": "Amy"
-       },
-       {
-        "name": "Meg"
-       },
-       {
-        "name": "Miss_Crocker"
-       },
-       {
-        "name": "Laurie"
-       }
-      ]
-     }
+      "id": "texts/littlewomen.txt#Failed_dinner_preparation"
+     },
+     "id": "Embarrassment"
     },
     {
      "name": "Relief",
      "hasIntensity": 0.7,
      "quote": "Having rekindled the fire, she thought she would go to market while the water heated. The walk revived her spirits; and, flattering herself that she had made good bargains, she trudged home again, after buying a very young lobster, some very old asparagus, and two boxes of acid strawberries.",
      "hasObject": {
-      "name": "Shopping_items"
+      "name": "Shopping_items",
+      "id": "texts/littlewomen.txt#Shopping_items"
      },
      "causedBy": {
       "name": "Successful_shopping",
-      "takePlaceAt": {
-       "name": "Market"
-      }
-     }
+      "id": "texts/littlewomen.txt#Successful_shopping"
+     },
+     "id": "Relief"
     }
-   ]
+   ],
+   "id": "texts/littlewomen.txt#Jo"
   },
   {
    "name": "Beth",
@@ -189,33 +118,17 @@
      "hasIntensity": 0.8,
      "quote": "Poor Jo would gladly have gone under the table, as one thing after another was tasted and left; while Amy giggled, Meg looked distressed, Miss Crocker pursed up her lips, and Laurie talked and laughed with all his might, to give a cheerful tone to the festive scene.",
      "hasObject": {
-      "name": "Dinner"
+      "name": "Dinner",
+      "id": "texts/littlewomen.txt#Dinner"
      },
      "causedBy": {
       "name": "Failed_dinner_preparation",
-      "takePlaceAt": {
-       "name": "Dinner_table"
-      },
-      "hasParticipant": [
-       {
-        "name": "Jo"
-       },
-       {
-        "name": "Amy"
-       },
-       {
-        "name": "Meg"
-       },
-       {
-        "name": "Miss_Crocker"
-       },
-       {
-        "name": "Laurie"
-       }
-      ]
-     }
+      "id": "texts/littlewomen.txt#Failed_dinner_preparation"
+     },
+     "id": "Sadness"
     }
-   ]
+   ],
+   "id": "texts/littlewomen.txt#Beth"
   },
   {
    "name": "Amy",
@@ -225,33 +138,267 @@
      "hasIntensity": 0.9,
      "quote": "Poor Jo would gladly have gone under the table, as one thing after another was tasted and left; while Amy giggled, Meg looked distressed, Miss Crocker pursed up her lips, and Laurie talked and laughed with all his might, to give a cheerful tone to the festive scene.",
      "hasObject": {
-      "name": "Dinner"
+      "name": "Dinner",
+      "id": "texts/littlewomen.txt#Dinner"
      },
      "causedBy": {
       "name": "Failed_dinner_preparation",
-      "takePlaceAt": {
-       "name": "Dinner_table"
-      },
-      "hasParticipant": [
-       {
-        "name": "Jo"
-       },
-       {
-        "name": "Amy"
-       },
-       {
-        "name": "Meg"
-       },
-       {
-        "name": "Miss_Crocker"
-       },
-       {
-        "name": "Laurie"
-       }
-      ]
-     }
+      "id": "texts/littlewomen.txt#Failed_dinner_preparation"
+     },
+     "id": "Embarrassment"
     }
-   ]
+   ],
+   "id": "texts/littlewomen.txt#Amy"
+  }
+ ],
+ "Events": [
+  {
+   "name": "Preparing_a_disastrous_dinner",
+   "takePlaceAt": {
+    "name": "Preparing_a_disastrous_dinner",
+    "id": "texts/littlewomen.txt#Preparing_a_disastrous_dinner"
+   },
+   "hasParticipant": [
+    {
+     "name": "Jo",
+     "id": "texts/littlewomen.txt#Jo"
+    },
+    {
+     "name": "Laurie",
+     "id": "texts/littlewomen.txt#Laurie"
+    },
+    {
+     "name": "Miss_Crocker",
+     "id": "texts/littlewomen.txt#Miss_Crocker"
+    }
+   ],
+   "id": "texts/littlewomen.txt#Preparing_a_disastrous_dinner"
+  },
+  {
+   "name": "Successful_shopping",
+   "takePlaceAt": {
+    "name": "Successful_shopping",
+    "id": "texts/littlewomen.txt#Successful_shopping"
+   },
+   "id": "texts/littlewomen.txt#Successful_shopping"
+  },
+  {
+   "name": "Failed_dinner_preparation",
+   "takePlaceAt": {
+    "name": "Failed_dinner_preparation",
+    "id": "texts/littlewomen.txt#Failed_dinner_preparation"
+   },
+   "hasParticipant": [
+    {
+     "name": "Jo",
+     "id": "texts/littlewomen.txt#Jo"
+    },
+    {
+     "name": "Amy",
+     "id": "texts/littlewomen.txt#Amy"
+    },
+    {
+     "name": "Meg",
+     "id": "texts/littlewomen.txt#Meg"
+    },
+    {
+     "name": "Miss_Crocker",
+     "id": "texts/littlewomen.txt#Miss_Crocker"
+    },
+    {
+     "name": "Laurie",
+     "id": "texts/littlewomen.txt#Laurie"
+    }
+   ],
+   "id": "texts/littlewomen.txt#Failed_dinner_preparation"
+  },
+  {
+   "name": "Laurie_s_efforts_to_cheer_up_the_situation",
+   "takePlaceAt": {
+    "name": "Laurie_s_efforts_to_cheer_up_the_situation",
+    "id": "texts/littlewomen.txt#Laurie_s_efforts_to_cheer_up_the_situation"
+   },
+   "hasParticipant": [
+    {
+     "name": "Jo",
+     "id": "texts/littlewomen.txt#Jo"
+    },
+    {
+     "name": "Amy",
+     "id": "texts/littlewomen.txt#Amy"
+    },
+    {
+     "name": "Meg",
+     "id": "texts/littlewomen.txt#Meg"
+    },
+    {
+     "name": "Miss_Crocker",
+     "id": "texts/littlewomen.txt#Miss_Crocker"
+    },
+    {
+     "name": "Laurie",
+     "id": "texts/littlewomen.txt#Laurie"
+    }
+   ],
+   "id": "texts/littlewomen.txt#Laurie_s_efforts_to_cheer_up_the_situation"
+  },
+  {
+   "name": "Preparing_a_disastrous_dinner",
+   "takePlaceAt": {
+    "name": "Preparing_a_disastrous_dinner",
+    "id": "texts/littlewomen.txt#Preparing_a_disastrous_dinner"
+   },
+   "hasParticipant": [
+    {
+     "name": "Meg",
+     "id": "texts/littlewomen.txt#Meg"
+    },
+    {
+     "name": "Laurie",
+     "id": "texts/littlewomen.txt#Laurie"
+    },
+    {
+     "name": "Miss_Crocker",
+     "id": "texts/littlewomen.txt#Miss_Crocker"
+    }
+   ],
+   "id": "texts/littlewomen.txt#Preparing_a_disastrous_dinner"
+  },
+  {
+   "name": "Failed_dinner_preparation",
+   "takePlaceAt": {
+    "name": "Failed_dinner_preparation",
+    "id": "texts/littlewomen.txt#Failed_dinner_preparation"
+   },
+   "hasParticipant": [
+    {
+     "name": "Jo",
+     "id": "texts/littlewomen.txt#Jo"
+    },
+    {
+     "name": "Amy",
+     "id": "texts/littlewomen.txt#Amy"
+    },
+    {
+     "name": "Meg",
+     "id": "texts/littlewomen.txt#Meg"
+    },
+    {
+     "name": "Miss_Crocker",
+     "id": "texts/littlewomen.txt#Miss_Crocker"
+    },
+    {
+     "name": "Laurie",
+     "id": "texts/littlewomen.txt#Laurie"
+    }
+   ],
+   "id": "texts/littlewomen.txt#Failed_dinner_preparation"
+  },
+  {
+   "name": "Successful_shopping",
+   "takePlaceAt": {
+    "name": "Successful_shopping",
+    "id": "texts/littlewomen.txt#Successful_shopping"
+   },
+   "id": "texts/littlewomen.txt#Successful_shopping"
+  },
+  {
+   "name": "Failed_dinner_preparation",
+   "takePlaceAt": {
+    "name": "Failed_dinner_preparation",
+    "id": "texts/littlewomen.txt#Failed_dinner_preparation"
+   },
+   "hasParticipant": [
+    {
+     "name": "Jo",
+     "id": "texts/littlewomen.txt#Jo"
+    },
+    {
+     "name": "Amy",
+     "id": "texts/littlewomen.txt#Amy"
+    },
+    {
+     "name": "Meg",
+     "id": "texts/littlewomen.txt#Meg"
+    },
+    {
+     "name": "Miss_Crocker",
+     "id": "texts/littlewomen.txt#Miss_Crocker"
+    },
+    {
+     "name": "Laurie",
+     "id": "texts/littlewomen.txt#Laurie"
+    }
+   ],
+   "id": "texts/littlewomen.txt#Failed_dinner_preparation"
+  },
+  {
+   "name": "Failed_dinner_preparation",
+   "takePlaceAt": {
+    "name": "Failed_dinner_preparation",
+    "id": "texts/littlewomen.txt#Failed_dinner_preparation"
+   },
+   "hasParticipant": [
+    {
+     "name": "Jo",
+     "id": "texts/littlewomen.txt#Jo"
+    },
+    {
+     "name": "Amy",
+     "id": "texts/littlewomen.txt#Amy"
+    },
+    {
+     "name": "Meg",
+     "id": "texts/littlewomen.txt#Meg"
+    },
+    {
+     "name": "Miss_Crocker",
+     "id": "texts/littlewomen.txt#Miss_Crocker"
+    },
+    {
+     "name": "Laurie",
+     "id": "texts/littlewomen.txt#Laurie"
+    }
+   ],
+   "id": "texts/littlewomen.txt#Failed_dinner_preparation"
+  }
+ ],
+ "Places": [
+  {
+   "name": "Home_kitchen",
+   "id": "texts/littlewomen.txt#Home_kitchen"
+  },
+  {
+   "name": "Market",
+   "id": "texts/littlewomen.txt#Market"
+  },
+  {
+   "name": "Dinner_table",
+   "id": "texts/littlewomen.txt#Dinner_table"
+  },
+  {
+   "name": "Dinner_table",
+   "id": "texts/littlewomen.txt#Dinner_table"
+  },
+  {
+   "name": "Home_kitchen",
+   "id": "texts/littlewomen.txt#Home_kitchen"
+  },
+  {
+   "name": "Dinner_table",
+   "id": "texts/littlewomen.txt#Dinner_table"
+  },
+  {
+   "name": "Market",
+   "id": "texts/littlewomen.txt#Market"
+  },
+  {
+   "name": "Dinner_table",
+   "id": "texts/littlewomen.txt#Dinner_table"
+  },
+  {
+   "name": "Dinner_table",
+   "id": "texts/littlewomen.txt#Dinner_table"
   }
  ]
 }

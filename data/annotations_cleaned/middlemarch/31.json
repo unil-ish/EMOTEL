@@ -8,44 +8,45 @@
      "hasIntensity": 0.7,
      "quote": "The calm was disturbed when Lydgate had brought him home ill from the meeting, and in spite of comforting assurances during the next few days, she cried in private from the conviction that her husband was not suffering from bodily illness merely, but from something that afflicted his mind.",
      "hasObject": {
-      "name": "Mr_Bulstrode_s_wellbeing"
+      "name": "Mr_Bulstrode_s_wellbeing",
+      "id": "texts/middlemarch.txt#Mr_Bulstrode_s_wellbeing"
      },
      "causedBy": {
       "name": "Mr_Bulstrode_s_illness_and_secretive_behavior",
-      "takePlaceAt": {
-       "name": "Home"
-      }
-     }
+      "id": "texts/middlemarch.txt#Mr_Bulstrode_s_illness_and_secretive_behavior"
+     },
+     "id": "Anxiety"
     },
     {
      "name": "Suspicion",
      "hasIntensity": 0.8,
      "quote": "Not daring to question her husband, she said to Lydgate, on the fifth day after the meeting, when she had not left home except to go to church—“Mr. Lydgate, pray be open with me: I like to know the truth. Has anything happened to Mr. Bulstrode?”",
      "hasObject": {
-      "name": "Mr_Bulstrode_s_wellbeing"
+      "name": "Mr_Bulstrode_s_wellbeing",
+      "id": "texts/middlemarch.txt#Mr_Bulstrode_s_wellbeing"
      },
      "causedBy": {
       "name": "Mr_Bulstrode_s_secretive_behavior",
-      "takePlaceAt": {
-       "name": "Home"
-      }
-     }
+      "id": "texts/middlemarch.txt#Mr_Bulstrode_s_secretive_behavior"
+     },
+     "id": "Suspicion"
     },
     {
      "name": "Fear",
      "hasIntensity": 0.6,
      "quote": "Mrs. Bulstrode felt suddenly rather chill and trembling: there was evidently something unusual behind this speech of Mrs. Hackbutt’s; but though she had set out with the desire to be fully informed, she found herself unable now to pursue her brave purpose.",
      "hasObject": {
-      "name": "Unusual_situation"
+      "name": "Unusual_situation",
+      "id": "texts/middlemarch.txt#Unusual_situation"
      },
      "causedBy": {
       "name": "Mrs_Hackbutt_s_cryptic_speech",
-      "takePlaceAt": {
-       "name": "Mrs_Hackbutt_s_house"
-      }
-     }
+      "id": "texts/middlemarch.txt#Mrs_Hackbutt_s_cryptic_speech"
+     },
+     "id": "Fear"
     }
-   ]
+   ],
+   "id": "texts/middlemarch.txt#Mrs_Bulstrode"
   },
   {
    "name": "Mrs_Hackbutt",
@@ -55,44 +56,121 @@
      "hasIntensity": 0.7,
      "quote": "Hence Mrs. Bulstrode was shown into the drawing-room, and Mrs. Hackbutt went to her, with more tightness of lip and rubbing of her hands than was usually observable in her, these being precautions adopted against freedom of speech.",
      "hasObject": {
-      "name": "Conversation_with_Mrs_Bulstrode"
+      "name": "Conversation_with_Mrs_Bulstrode",
+      "id": "texts/middlemarch.txt#Conversation_with_Mrs_Bulstrode"
      },
      "causedBy": {
       "name": "Mrs_Bulstrode_s_visit",
-      "takePlaceAt": {
-       "name": "Mrs_Hackbutt_s_house"
-      }
-     }
+      "id": "texts/middlemarch.txt#Mrs_Bulstrode_s_visit"
+     },
+     "id": "Tension"
     },
     {
      "name": "Reluctance",
      "hasIntensity": 0.8,
      "quote": "Hence Mrs. Bulstrode was shown into the drawing-room, and Mrs. Hackbutt went to her, with more tightness of lip and rubbing of her hands than was usually observable in her, these being precautions adopted against freedom of speech.",
      "hasObject": {
-      "name": "Conversation_with_Mrs_Bulstrode"
+      "name": "Conversation_with_Mrs_Bulstrode",
+      "id": "texts/middlemarch.txt#Conversation_with_Mrs_Bulstrode"
      },
      "causedBy": {
       "name": "Mrs_Bulstrode_s_visit",
-      "takePlaceAt": {
-       "name": "Mrs_Hackbutt_s_house"
-      }
-     }
+      "id": "texts/middlemarch.txt#Mrs_Bulstrode_s_visit"
+     },
+     "id": "Reluctance"
     },
     {
      "name": "Deception",
      "hasIntensity": 0.6,
      "quote": "Hence Mrs. Bulstrode was shown into the drawing-room, and Mrs. Hackbutt went to her, with more tightness of lip and rubbing of her hands than was usually observable in her, these being precautions adopted against freedom of speech.",
      "hasObject": {
-      "name": "Concealing_information"
+      "name": "Concealing_information",
+      "id": "texts/middlemarch.txt#Concealing_information"
      },
      "causedBy": {
       "name": "Mrs_Bulstrode_s_visit",
-      "takePlaceAt": {
-       "name": "Mrs_Hackbutt_s_house"
-      }
-     }
+      "id": "texts/middlemarch.txt#Mrs_Bulstrode_s_visit"
+     },
+     "id": "Deception"
     }
-   ]
+   ],
+   "id": "texts/middlemarch.txt#Mrs_Hackbutt"
+  }
+ ],
+ "Events": [
+  {
+   "name": "Mr_Bulstrode_s_illness_and_secretive_behavior",
+   "takePlaceAt": {
+    "name": "Mr_Bulstrode_s_illness_and_secretive_behavior",
+    "id": "texts/middlemarch.txt#Mr_Bulstrode_s_illness_and_secretive_behavior"
+   },
+   "id": "texts/middlemarch.txt#Mr_Bulstrode_s_illness_and_secretive_behavior"
+  },
+  {
+   "name": "Mr_Bulstrode_s_secretive_behavior",
+   "takePlaceAt": {
+    "name": "Mr_Bulstrode_s_secretive_behavior",
+    "id": "texts/middlemarch.txt#Mr_Bulstrode_s_secretive_behavior"
+   },
+   "id": "texts/middlemarch.txt#Mr_Bulstrode_s_secretive_behavior"
+  },
+  {
+   "name": "Mrs_Hackbutt_s_cryptic_speech",
+   "takePlaceAt": {
+    "name": "Mrs_Hackbutt_s_cryptic_speech",
+    "id": "texts/middlemarch.txt#Mrs_Hackbutt_s_cryptic_speech"
+   },
+   "id": "texts/middlemarch.txt#Mrs_Hackbutt_s_cryptic_speech"
+  },
+  {
+   "name": "Mrs_Bulstrode_s_visit",
+   "takePlaceAt": {
+    "name": "Mrs_Bulstrode_s_visit",
+    "id": "texts/middlemarch.txt#Mrs_Bulstrode_s_visit"
+   },
+   "id": "texts/middlemarch.txt#Mrs_Bulstrode_s_visit"
+  },
+  {
+   "name": "Mrs_Bulstrode_s_visit",
+   "takePlaceAt": {
+    "name": "Mrs_Bulstrode_s_visit",
+    "id": "texts/middlemarch.txt#Mrs_Bulstrode_s_visit"
+   },
+   "id": "texts/middlemarch.txt#Mrs_Bulstrode_s_visit"
+  },
+  {
+   "name": "Mrs_Bulstrode_s_visit",
+   "takePlaceAt": {
+    "name": "Mrs_Bulstrode_s_visit",
+    "id": "texts/middlemarch.txt#Mrs_Bulstrode_s_visit"
+   },
+   "id": "texts/middlemarch.txt#Mrs_Bulstrode_s_visit"
+  }
+ ],
+ "Places": [
+  {
+   "name": "Home",
+   "id": "texts/middlemarch.txt#Home"
+  },
+  {
+   "name": "Home",
+   "id": "texts/middlemarch.txt#Home"
+  },
+  {
+   "name": "Mrs_Hackbutt_s_house",
+   "id": "texts/middlemarch.txt#Mrs_Hackbutt_s_house"
+  },
+  {
+   "name": "Mrs_Hackbutt_s_house",
+   "id": "texts/middlemarch.txt#Mrs_Hackbutt_s_house"
+  },
+  {
+   "name": "Mrs_Hackbutt_s_house",
+   "id": "texts/middlemarch.txt#Mrs_Hackbutt_s_house"
+  },
+  {
+   "name": "Mrs_Hackbutt_s_house",
+   "id": "texts/middlemarch.txt#Mrs_Hackbutt_s_house"
   }
  ]
 }

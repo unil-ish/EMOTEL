@@ -8,46 +8,31 @@
      "hasIntensity": 0.7,
      "quote": "I've been so scared and worried, I don't want to have anything to do with lovers for a long while,--perhaps never.",
      "hasObject": {
-      "name": "Love_letter"
+      "name": "Love_letter",
+      "id": "texts/littlewomen.txt#Love_letter"
      },
      "causedBy": {
       "name": "Receiving_a_love_letter",
-      "takePlaceAt": {
-       "name": "Home"
-      },
-      "hasParticipant": [
-       {
-        "name": "Amy"
-       },
-       {
-        "name": "Laurie"
-       }
-      ]
-     }
+      "id": "texts/littlewomen.txt#Receiving_a_love_letter"
+     },
+     "id": "Fear"
     },
     {
      "name": "Shame",
      "hasIntensity": 0.8,
      "quote": "I've been so scared and worried, I don't want to have anything to do with lovers for a long while,--perhaps never.",
      "hasObject": {
-      "name": "Love_letter"
+      "name": "Love_letter",
+      "id": "texts/littlewomen.txt#Love_letter"
      },
      "causedBy": {
       "name": "Receiving_a_love_letter",
-      "takePlaceAt": {
-       "name": "Home"
-      },
-      "hasParticipant": [
-       {
-        "name": "Amy"
-       },
-       {
-        "name": "Laurie"
-       }
-      ]
-     }
+      "id": "texts/littlewomen.txt#Receiving_a_love_letter"
+     },
+     "id": "Shame"
     }
-   ]
+   ],
+   "id": "texts/littlewomen.txt#Amy"
   },
   {
    "name": "Laurie",
@@ -57,68 +42,45 @@
      "hasIntensity": 0.9,
      "quote": "I've been shaken, and I won't bear it!",
      "hasObject": {
-      "name": "Being_shaken"
+      "name": "Being_shaken",
+      "id": "texts/littlewomen.txt#Being_shaken"
      },
      "causedBy": {
       "name": "Being_shaken_by_grandfather",
-      "takePlaceAt": {
-       "name": "Home"
-      },
-      "hasParticipant": [
-       {
-        "name": "Laurie"
-       },
-       {
-        "name": "Grandfather"
-       }
-      ]
-     }
+      "id": "texts/littlewomen.txt#Being_shaken_by_grandfather"
+     },
+     "id": "Indignation"
     },
     {
      "name": "Shame",
      "hasIntensity": 0.7,
      "quote": "I was sorry about Meg, and begged pardon like a man; but I won't do it again, when I wasn't in the wrong.",
      "hasObject": {
-      "name": "Apologizing"
+      "name": "Apologizing",
+      "id": "texts/littlewomen.txt#Apologizing"
      },
      "causedBy": {
       "name": "Apologizing_to_Meg",
-      "takePlaceAt": {
-       "name": "Home"
-      },
-      "hasParticipant": [
-       {
-        "name": "Laurie"
-       },
-       {
-        "name": "Meg"
-       }
-      ]
-     }
+      "id": "texts/littlewomen.txt#Apologizing_to_Meg"
+     },
+     "id": "Shame"
     },
     {
      "name": "Defiance",
      "hasIntensity": 0.8,
      "quote": "I won't go down till he does.",
      "hasObject": {
-      "name": "Apologizing"
+      "name": "Apologizing",
+      "id": "texts/littlewomen.txt#Apologizing"
      },
      "causedBy": {
       "name": "Refusing_to_apologize",
-      "takePlaceAt": {
-       "name": "Home"
-      },
-      "hasParticipant": [
-       {
-        "name": "Laurie"
-       },
-       {
-        "name": "Grandfather"
-       }
-      ]
-     }
+      "id": "texts/littlewomen.txt#Refusing_to_apologize"
+     },
+     "id": "Defiance"
     }
-   ]
+   ],
+   "id": "texts/littlewomen.txt#Laurie"
   },
   {
    "name": "Jo",
@@ -128,58 +90,213 @@
      "hasIntensity": 0.6,
      "quote": "After resisting for some time, she yielded to the impulse, and, armed with a book to return, went over to the big house.",
      "hasObject": {
-      "name": "Feeling_lonely"
+      "name": "Feeling_lonely",
+      "id": "texts/littlewomen.txt#Feeling_lonely"
      },
      "causedBy": {
       "name": "Feeling_lonely",
-      "takePlaceAt": {
-       "name": "Home"
-      },
-      "hasParticipant": {
-       "name": "Jo"
-      }
-     }
+      "id": "texts/littlewomen.txt#Feeling_lonely"
+     },
+     "id": "Loneliness"
     },
     {
      "name": "Temptation",
      "hasIntensity": 0.8,
      "quote": "What fun you'd have! I wish I could run off too.",
      "hasObject": {
-      "name": "Running_away"
+      "name": "Running_away",
+      "id": "texts/littlewomen.txt#Running_away"
      },
      "causedBy": {
       "name": "Feeling_tempted_to_run_away",
-      "takePlaceAt": {
-       "name": "Home"
-      },
-      "hasParticipant": {
-       "name": "Jo"
-      }
-     }
+      "id": "texts/littlewomen.txt#Feeling_tempted_to_run_away"
+     },
+     "id": "Temptation"
     },
     {
      "name": "Disapproval",
      "hasIntensity": 0.7,
      "quote": "That's nothing; I often shake you, and you don't mind.",
      "hasObject": {
-      "name": "Being_shaken"
+      "name": "Being_shaken",
+      "id": "texts/littlewomen.txt#Being_shaken"
      },
      "causedBy": {
       "name": "Being_shaken_by_Laurie",
-      "takePlaceAt": {
-       "name": "Home"
-      },
-      "hasParticipant": [
-       {
-        "name": "Jo"
-       },
-       {
-        "name": "Laurie"
-       }
-      ]
-     }
+      "id": "texts/littlewomen.txt#Being_shaken_by_Laurie"
+     },
+     "id": "Disapproval"
     }
-   ]
+   ],
+   "id": "texts/littlewomen.txt#Jo"
+  }
+ ],
+ "Events": [
+  {
+   "name": "Receiving_a_love_letter",
+   "takePlaceAt": {
+    "name": "Receiving_a_love_letter",
+    "id": "texts/littlewomen.txt#Receiving_a_love_letter"
+   },
+   "hasParticipant": [
+    {
+     "name": "Amy",
+     "id": "texts/littlewomen.txt#Amy"
+    },
+    {
+     "name": "Laurie",
+     "id": "texts/littlewomen.txt#Laurie"
+    }
+   ],
+   "id": "texts/littlewomen.txt#Receiving_a_love_letter"
+  },
+  {
+   "name": "Receiving_a_love_letter",
+   "takePlaceAt": {
+    "name": "Receiving_a_love_letter",
+    "id": "texts/littlewomen.txt#Receiving_a_love_letter"
+   },
+   "hasParticipant": [
+    {
+     "name": "Amy",
+     "id": "texts/littlewomen.txt#Amy"
+    },
+    {
+     "name": "Laurie",
+     "id": "texts/littlewomen.txt#Laurie"
+    }
+   ],
+   "id": "texts/littlewomen.txt#Receiving_a_love_letter"
+  },
+  {
+   "name": "Being_shaken_by_grandfather",
+   "takePlaceAt": {
+    "name": "Being_shaken_by_grandfather",
+    "id": "texts/littlewomen.txt#Being_shaken_by_grandfather"
+   },
+   "hasParticipant": [
+    {
+     "name": "Laurie",
+     "id": "texts/littlewomen.txt#Laurie"
+    },
+    {
+     "name": "Grandfather",
+     "id": "texts/littlewomen.txt#Grandfather"
+    }
+   ],
+   "id": "texts/littlewomen.txt#Being_shaken_by_grandfather"
+  },
+  {
+   "name": "Apologizing_to_Meg",
+   "takePlaceAt": {
+    "name": "Apologizing_to_Meg",
+    "id": "texts/littlewomen.txt#Apologizing_to_Meg"
+   },
+   "hasParticipant": [
+    {
+     "name": "Laurie",
+     "id": "texts/littlewomen.txt#Laurie"
+    },
+    {
+     "name": "Meg",
+     "id": "texts/littlewomen.txt#Meg"
+    }
+   ],
+   "id": "texts/littlewomen.txt#Apologizing_to_Meg"
+  },
+  {
+   "name": "Refusing_to_apologize",
+   "takePlaceAt": {
+    "name": "Refusing_to_apologize",
+    "id": "texts/littlewomen.txt#Refusing_to_apologize"
+   },
+   "hasParticipant": [
+    {
+     "name": "Laurie",
+     "id": "texts/littlewomen.txt#Laurie"
+    },
+    {
+     "name": "Grandfather",
+     "id": "texts/littlewomen.txt#Grandfather"
+    }
+   ],
+   "id": "texts/littlewomen.txt#Refusing_to_apologize"
+  },
+  {
+   "name": "Feeling_lonely",
+   "takePlaceAt": {
+    "name": "Feeling_lonely",
+    "id": "texts/littlewomen.txt#Feeling_lonely"
+   },
+   "hasParticipant": {
+    "name": "Jo",
+    "id": "texts/littlewomen.txt#Jo"
+   },
+   "id": "texts/littlewomen.txt#Feeling_lonely"
+  },
+  {
+   "name": "Feeling_tempted_to_run_away",
+   "takePlaceAt": {
+    "name": "Feeling_tempted_to_run_away",
+    "id": "texts/littlewomen.txt#Feeling_tempted_to_run_away"
+   },
+   "hasParticipant": {
+    "name": "Jo",
+    "id": "texts/littlewomen.txt#Jo"
+   },
+   "id": "texts/littlewomen.txt#Feeling_tempted_to_run_away"
+  },
+  {
+   "name": "Being_shaken_by_Laurie",
+   "takePlaceAt": {
+    "name": "Being_shaken_by_Laurie",
+    "id": "texts/littlewomen.txt#Being_shaken_by_Laurie"
+   },
+   "hasParticipant": [
+    {
+     "name": "Jo",
+     "id": "texts/littlewomen.txt#Jo"
+    },
+    {
+     "name": "Laurie",
+     "id": "texts/littlewomen.txt#Laurie"
+    }
+   ],
+   "id": "texts/littlewomen.txt#Being_shaken_by_Laurie"
+  }
+ ],
+ "Places": [
+  {
+   "name": "Home",
+   "id": "texts/littlewomen.txt#Home"
+  },
+  {
+   "name": "Home",
+   "id": "texts/littlewomen.txt#Home"
+  },
+  {
+   "name": "Home",
+   "id": "texts/littlewomen.txt#Home"
+  },
+  {
+   "name": "Home",
+   "id": "texts/littlewomen.txt#Home"
+  },
+  {
+   "name": "Home",
+   "id": "texts/littlewomen.txt#Home"
+  },
+  {
+   "name": "Home",
+   "id": "texts/littlewomen.txt#Home"
+  },
+  {
+   "name": "Home",
+   "id": "texts/littlewomen.txt#Home"
+  },
+  {
+   "name": "Home",
+   "id": "texts/littlewomen.txt#Home"
   }
  ]
 }

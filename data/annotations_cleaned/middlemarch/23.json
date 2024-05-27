@@ -8,44 +8,45 @@
      "hasIntensity": 0.7,
      "quote": "Caleb had no cant at command, even if he could have chosen to use it; and he had been accustomed to meet all such difficulties in no other way than by doing his 'business' faithfully.",
      "hasObject": {
-      "name": "Caleb_s_honesty_and_reliability"
+      "name": "Caleb_s_honesty_and_reliability",
+      "id": "texts/middlemarch.txt#Caleb_s_honesty_and_reliability"
      },
      "causedBy": {
       "name": "Caleb_s_reliability_and_honesty",
-      "takePlaceAt": {
-       "name": "Conversation_with_Caleb"
-      }
-     }
+      "id": "texts/middlemarch.txt#Caleb_s_reliability_and_honesty"
+     },
+     "id": "Trust"
     },
     {
      "name": "Joy",
      "hasIntensity": 0.8,
      "quote": "The young ones have always a claim on the old to help them forward. I was young myself once and had to do without much help; but help would have been welcome to me, if it had been only for the fellow-feeling's sake.",
      "hasObject": {
-      "name": "Caleb_s_willingness_to_help"
+      "name": "Caleb_s_willingness_to_help",
+      "id": "texts/middlemarch.txt#Caleb_s_willingness_to_help"
      },
      "causedBy": {
       "name": "Caleb_s_willingness_to_help_Fred",
-      "takePlaceAt": {
-       "name": "Conversation_with_Caleb"
-      }
-     }
+      "id": "texts/middlemarch.txt#Caleb_s_willingness_to_help_Fred"
+     },
+     "id": "Joy"
     },
     {
      "name": "Acceptance",
      "hasIntensity": 0.9,
      "quote": "The children are fond of each other—I mean, Fred and Mary.",
      "hasObject": {
-      "name": "Fred_and_Mary_s_feelings"
+      "name": "Fred_and_Mary_s_feelings",
+      "id": "texts/middlemarch.txt#Fred_and_Mary_s_feelings"
      },
      "causedBy": {
       "name": "Fred_and_Mary_s_feelings_for_each_other",
-      "takePlaceAt": {
-       "name": "Conversation_with_Caleb"
-      }
-     }
+      "id": "texts/middlemarch.txt#Fred_and_Mary_s_feelings_for_each_other"
+     },
+     "id": "Acceptance"
     }
-   ]
+   ],
+   "id": "texts/middlemarch.txt#Dorothea"
   },
   {
    "name": "Fred_Vincy",
@@ -55,44 +56,45 @@
      "hasIntensity": 0.7,
      "quote": "The accidents of the morning had helped his frustrated imagination to shape an employment for himself which had several attractions.",
      "hasObject": {
-      "name": "Accidents_of_the_morning"
+      "name": "Accidents_of_the_morning",
+      "id": "texts/middlemarch.txt#Accidents_of_the_morning"
      },
      "causedBy": {
       "name": "Accidents_of_the_morning",
-      "takePlaceAt": {
-       "name": "Encounter_with_the_laborers"
-      }
-     }
+      "id": "texts/middlemarch.txt#Accidents_of_the_morning"
+     },
+     "id": "Surprise"
     },
     {
      "name": "Joy",
      "hasIntensity": 0.8,
      "quote": "His spirits had risen, and he heartily enjoyed a good slip in the moist earth under the hedgerow, which soiled his perfect summer trousers.",
      "hasObject": {
-      "name": "Slip_in_the_earth"
+      "name": "Slip_in_the_earth",
+      "id": "texts/middlemarch.txt#Slip_in_the_earth"
      },
      "causedBy": {
       "name": "Enjoying_the_slip_in_the_earth",
-      "takePlaceAt": {
-       "name": "Helping_Caleb_with_work"
-      }
-     }
+      "id": "texts/middlemarch.txt#Enjoying_the_slip_in_the_earth"
+     },
+     "id": "Joy"
     },
     {
      "name": "Anticipation",
      "hasIntensity": 0.9,
      "quote": "He can't bear to be a clergyman, and Mary says she won't have him if he is one; and the lad would like to be under me and give his mind to business. And I've determined to take him and make a man of him.",
      "hasObject": {
-      "name": "Fred_s_decision_to_pursue_business"
+      "name": "Fred_s_decision_to_pursue_business",
+      "id": "texts/middlemarch.txt#Fred_s_decision_to_pursue_business"
      },
      "causedBy": {
       "name": "Fred_s_decision_to_pursue_business",
-      "takePlaceAt": {
-       "name": "Conversation_with_Caleb"
-      }
-     }
+      "id": "texts/middlemarch.txt#Fred_s_decision_to_pursue_business"
+     },
+     "id": "Anticipation"
     }
-   ]
+   ],
+   "id": "texts/middlemarch.txt#Fred_Vincy"
   },
   {
    "name": "Caleb_Garth",
@@ -102,44 +104,157 @@
      "hasIntensity": 0.9,
      "quote": "The children are fond of each other—I mean, Fred and Mary.",
      "hasObject": {
-      "name": "Fred_and_Mary_s_feelings"
+      "name": "Fred_and_Mary_s_feelings",
+      "id": "texts/middlemarch.txt#Fred_and_Mary_s_feelings"
      },
      "causedBy": {
       "name": "Fred_and_Mary_s_feelings_for_each_other",
-      "takePlaceAt": {
-       "name": "Conversation_with_Fred"
-      }
-     }
+      "id": "texts/middlemarch.txt#Fred_and_Mary_s_feelings_for_each_other"
+     },
+     "id": "Acceptance"
     },
     {
      "name": "Joy",
      "hasIntensity": 0.8,
      "quote": "The young ones have always a claim on the old to help them forward. I was young myself once and had to do without much help; but help would have been welcome to me, if it had been only for the fellow-feeling's sake.",
      "hasObject": {
-      "name": "Fred_s_request_for_help"
+      "name": "Fred_s_request_for_help",
+      "id": "texts/middlemarch.txt#Fred_s_request_for_help"
      },
      "causedBy": {
       "name": "Fred_s_request_for_help",
-      "takePlaceAt": {
-       "name": "Conversation_with_Fred"
-      }
-     }
+      "id": "texts/middlemarch.txt#Fred_s_request_for_help"
+     },
+     "id": "Joy"
     },
     {
      "name": "Acceptance",
      "hasIntensity": 0.9,
      "quote": "The children are fond of each other—I mean, Fred and Mary.",
      "hasObject": {
-      "name": "Fred_and_Mary_s_feelings"
+      "name": "Fred_and_Mary_s_feelings",
+      "id": "texts/middlemarch.txt#Fred_and_Mary_s_feelings"
      },
      "causedBy": {
       "name": "Fred_and_Mary_s_feelings_for_each_other",
-      "takePlaceAt": {
-       "name": "Conversation_with_Fred"
-      }
-     }
+      "id": "texts/middlemarch.txt#Fred_and_Mary_s_feelings_for_each_other"
+     },
+     "id": "Acceptance"
     }
-   ]
+   ],
+   "id": "texts/middlemarch.txt#Caleb_Garth"
+  }
+ ],
+ "Events": [
+  {
+   "name": "Caleb_s_reliability_and_honesty",
+   "takePlaceAt": {
+    "name": "Caleb_s_reliability_and_honesty",
+    "id": "texts/middlemarch.txt#Caleb_s_reliability_and_honesty"
+   },
+   "id": "texts/middlemarch.txt#Caleb_s_reliability_and_honesty"
+  },
+  {
+   "name": "Caleb_s_willingness_to_help_Fred",
+   "takePlaceAt": {
+    "name": "Caleb_s_willingness_to_help_Fred",
+    "id": "texts/middlemarch.txt#Caleb_s_willingness_to_help_Fred"
+   },
+   "id": "texts/middlemarch.txt#Caleb_s_willingness_to_help_Fred"
+  },
+  {
+   "name": "Fred_and_Mary_s_feelings_for_each_other",
+   "takePlaceAt": {
+    "name": "Fred_and_Mary_s_feelings_for_each_other",
+    "id": "texts/middlemarch.txt#Fred_and_Mary_s_feelings_for_each_other"
+   },
+   "id": "texts/middlemarch.txt#Fred_and_Mary_s_feelings_for_each_other"
+  },
+  {
+   "name": "Accidents_of_the_morning",
+   "takePlaceAt": {
+    "name": "Accidents_of_the_morning",
+    "id": "texts/middlemarch.txt#Accidents_of_the_morning"
+   },
+   "id": "texts/middlemarch.txt#Accidents_of_the_morning"
+  },
+  {
+   "name": "Enjoying_the_slip_in_the_earth",
+   "takePlaceAt": {
+    "name": "Enjoying_the_slip_in_the_earth",
+    "id": "texts/middlemarch.txt#Enjoying_the_slip_in_the_earth"
+   },
+   "id": "texts/middlemarch.txt#Enjoying_the_slip_in_the_earth"
+  },
+  {
+   "name": "Fred_s_decision_to_pursue_business",
+   "takePlaceAt": {
+    "name": "Fred_s_decision_to_pursue_business",
+    "id": "texts/middlemarch.txt#Fred_s_decision_to_pursue_business"
+   },
+   "id": "texts/middlemarch.txt#Fred_s_decision_to_pursue_business"
+  },
+  {
+   "name": "Fred_and_Mary_s_feelings_for_each_other",
+   "takePlaceAt": {
+    "name": "Fred_and_Mary_s_feelings_for_each_other",
+    "id": "texts/middlemarch.txt#Fred_and_Mary_s_feelings_for_each_other"
+   },
+   "id": "texts/middlemarch.txt#Fred_and_Mary_s_feelings_for_each_other"
+  },
+  {
+   "name": "Fred_s_request_for_help",
+   "takePlaceAt": {
+    "name": "Fred_s_request_for_help",
+    "id": "texts/middlemarch.txt#Fred_s_request_for_help"
+   },
+   "id": "texts/middlemarch.txt#Fred_s_request_for_help"
+  },
+  {
+   "name": "Fred_and_Mary_s_feelings_for_each_other",
+   "takePlaceAt": {
+    "name": "Fred_and_Mary_s_feelings_for_each_other",
+    "id": "texts/middlemarch.txt#Fred_and_Mary_s_feelings_for_each_other"
+   },
+   "id": "texts/middlemarch.txt#Fred_and_Mary_s_feelings_for_each_other"
+  }
+ ],
+ "Places": [
+  {
+   "name": "Conversation_with_Caleb",
+   "id": "texts/middlemarch.txt#Conversation_with_Caleb"
+  },
+  {
+   "name": "Conversation_with_Caleb",
+   "id": "texts/middlemarch.txt#Conversation_with_Caleb"
+  },
+  {
+   "name": "Conversation_with_Caleb",
+   "id": "texts/middlemarch.txt#Conversation_with_Caleb"
+  },
+  {
+   "name": "Encounter_with_the_laborers",
+   "id": "texts/middlemarch.txt#Encounter_with_the_laborers"
+  },
+  {
+   "name": "Helping_Caleb_with_work",
+   "id": "texts/middlemarch.txt#Helping_Caleb_with_work"
+  },
+  {
+   "name": "Conversation_with_Caleb",
+   "id": "texts/middlemarch.txt#Conversation_with_Caleb"
+  },
+  {
+   "name": "Conversation_with_Fred",
+   "id": "texts/middlemarch.txt#Conversation_with_Fred"
+  },
+  {
+   "name": "Conversation_with_Fred",
+   "id": "texts/middlemarch.txt#Conversation_with_Fred"
+  },
+  {
+   "name": "Conversation_with_Fred",
+   "id": "texts/middlemarch.txt#Conversation_with_Fred"
   }
  ]
 }

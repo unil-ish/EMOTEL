@@ -8,77 +8,45 @@
      "hasIntensity": 0.8,
      "quote": "Going in to exult over a fallen enemy, and to praise a strong-minded sister for the banishment of an objectionable lover, it certainly was a shock to behold the aforesaid enemy serenely sitting on the sofa, with the strong-minded sister enthroned upon his knee, and wearing an expression of the most abject submission.",
      "hasObject": {
-      "name": "Sofa"
+      "name": "Sofa",
+      "id": "texts/littlewomen.txt#Sofa"
      },
      "causedBy": {
       "name": "Unexpected_sight_of_Meg_and_Mr_Brooke_together",
-      "takePlaceAt": {
-       "name": "Parlor"
-      },
-      "hasParticipant": [
-       {
-        "name": "Jo_March"
-       },
-       {
-        "name": "Meg"
-       },
-       {
-        "name": "Mr_Brooke"
-       }
-      ]
-     }
+      "id": "texts/littlewomen.txt#Unexpected_sight_of_Meg_and_Mr_Brooke_together"
+     },
+     "id": "Surprise"
     },
     {
      "name": "Jealousy",
      "hasIntensity": 0.7,
      "quote": "Poor Jo never got her laugh, for she was transfixed upon the threshold by a spectacle which held her there, staring with her mouth nearly as wide open as her eyes.",
      "hasObject": {
-      "name": "Threshold"
+      "name": "Threshold",
+      "id": "texts/littlewomen.txt#Threshold"
      },
      "causedBy": {
       "name": "Seeing_Meg_and_Mr_Brooke_together",
-      "takePlaceAt": {
-       "name": "Parlor"
-      },
-      "hasParticipant": [
-       {
-        "name": "Jo_March"
-       },
-       {
-        "name": "Meg"
-       },
-       {
-        "name": "Mr_Brooke"
-       }
-      ]
-     }
+      "id": "texts/littlewomen.txt#Seeing_Meg_and_Mr_Brooke_together"
+     },
+     "id": "Jealousy"
     },
     {
      "name": "Sadness",
      "hasIntensity": 0.9,
      "quote": "Rushing upstairs, she startled the invalids by exclaiming tragically, as she burst into the room, 'Oh do somebody go down quick; John Brooke is acting dreadfully, and Meg likes it!'",
      "hasObject": {
-      "name": "Room"
+      "name": "Room",
+      "id": "texts/littlewomen.txt#Room"
      },
      "causedBy": {
       "name": "Feeling_of_being_left_out",
-      "takePlaceAt": {
-       "name": "Upstairs_room"
-      },
-      "hasParticipant": [
-       {
-        "name": "Jo_March"
-       },
-       {
-        "name": "Meg"
-       },
-       {
-        "name": "Mr_Brooke"
-       }
-      ]
-     }
+      "id": "texts/littlewomen.txt#Feeling_of_being_left_out"
+     },
+     "id": "Sadness"
     }
-   ]
+   ],
+   "id": "texts/littlewomen.txt#Jo_March"
   },
   {
    "name": "Meg_March",
@@ -88,63 +56,187 @@
      "hasIntensity": 0.9,
      "quote": "Perfectly resigned to his discharge, he devoted himself to getting well, preparing for business, and earning a home for Meg.",
      "hasObject": {
-      "name": "Home"
+      "name": "Home",
+      "id": "texts/littlewomen.txt#Home"
      },
      "causedBy": {
       "name": "John_Brooke_s_dedication_to_Meg",
-      "takePlaceAt": {
-       "name": "Home"
-      },
-      "hasParticipant": [
-       {
-        "name": "Meg_March"
-       },
-       {
-        "name": "John_Brooke"
-       }
-      ]
-     }
+      "id": "texts/littlewomen.txt#John_Brooke_s_dedication_to_Meg"
+     },
+     "id": "Love"
     },
     {
      "name": "Happiness",
      "hasIntensity": 0.8,
      "quote": "The light of which touched their faces with a grace the little artist could not copy.",
      "hasObject": {
-      "name": "Parlor"
+      "name": "Parlor",
+      "id": "texts/littlewomen.txt#Parlor"
      },
      "causedBy": {
       "name": "Sitting_with_John_Brooke",
-      "takePlaceAt": {
-       "name": "Parlor"
-      },
-      "hasParticipant": [
-       {
-        "name": "Meg_March"
-       },
-       {
-        "name": "John_Brooke"
-       }
-      ]
-     }
+      "id": "texts/littlewomen.txt#Sitting_with_John_Brooke"
+     },
+     "id": "Happiness"
     },
     {
      "name": "Contentment",
      "hasIntensity": 0.7,
      "quote": "How much has happened since I said that! It seems a year ago.",
      "hasObject": {
-      "name": "Parlor"
+      "name": "Parlor",
+      "id": "texts/littlewomen.txt#Parlor"
      },
      "causedBy": {
       "name": "Reflecting_on_past_events",
-      "takePlaceAt": {
-       "name": "Parlor"
-      },
-      "hasParticipant": {
-       "name": "Meg_March"
-      }
-     }
+      "id": "texts/littlewomen.txt#Reflecting_on_past_events"
+     },
+     "id": "Contentment"
     }
-   ]
+   ],
+   "id": "texts/littlewomen.txt#Meg_March"
+  }
+ ],
+ "Events": [
+  {
+   "name": "Unexpected_sight_of_Meg_and_Mr_Brooke_together",
+   "takePlaceAt": {
+    "name": "Unexpected_sight_of_Meg_and_Mr_Brooke_together",
+    "id": "texts/littlewomen.txt#Unexpected_sight_of_Meg_and_Mr_Brooke_together"
+   },
+   "hasParticipant": [
+    {
+     "name": "Jo_March",
+     "id": "texts/littlewomen.txt#Jo_March"
+    },
+    {
+     "name": "Meg",
+     "id": "texts/littlewomen.txt#Meg"
+    },
+    {
+     "name": "Mr_Brooke",
+     "id": "texts/littlewomen.txt#Mr_Brooke"
+    }
+   ],
+   "id": "texts/littlewomen.txt#Unexpected_sight_of_Meg_and_Mr_Brooke_together"
+  },
+  {
+   "name": "Seeing_Meg_and_Mr_Brooke_together",
+   "takePlaceAt": {
+    "name": "Seeing_Meg_and_Mr_Brooke_together",
+    "id": "texts/littlewomen.txt#Seeing_Meg_and_Mr_Brooke_together"
+   },
+   "hasParticipant": [
+    {
+     "name": "Jo_March",
+     "id": "texts/littlewomen.txt#Jo_March"
+    },
+    {
+     "name": "Meg",
+     "id": "texts/littlewomen.txt#Meg"
+    },
+    {
+     "name": "Mr_Brooke",
+     "id": "texts/littlewomen.txt#Mr_Brooke"
+    }
+   ],
+   "id": "texts/littlewomen.txt#Seeing_Meg_and_Mr_Brooke_together"
+  },
+  {
+   "name": "Feeling_of_being_left_out",
+   "takePlaceAt": {
+    "name": "Feeling_of_being_left_out",
+    "id": "texts/littlewomen.txt#Feeling_of_being_left_out"
+   },
+   "hasParticipant": [
+    {
+     "name": "Jo_March",
+     "id": "texts/littlewomen.txt#Jo_March"
+    },
+    {
+     "name": "Meg",
+     "id": "texts/littlewomen.txt#Meg"
+    },
+    {
+     "name": "Mr_Brooke",
+     "id": "texts/littlewomen.txt#Mr_Brooke"
+    }
+   ],
+   "id": "texts/littlewomen.txt#Feeling_of_being_left_out"
+  },
+  {
+   "name": "John_Brooke_s_dedication_to_Meg",
+   "takePlaceAt": {
+    "name": "John_Brooke_s_dedication_to_Meg",
+    "id": "texts/littlewomen.txt#John_Brooke_s_dedication_to_Meg"
+   },
+   "hasParticipant": [
+    {
+     "name": "Meg_March",
+     "id": "texts/littlewomen.txt#Meg_March"
+    },
+    {
+     "name": "John_Brooke",
+     "id": "texts/littlewomen.txt#John_Brooke"
+    }
+   ],
+   "id": "texts/littlewomen.txt#John_Brooke_s_dedication_to_Meg"
+  },
+  {
+   "name": "Sitting_with_John_Brooke",
+   "takePlaceAt": {
+    "name": "Sitting_with_John_Brooke",
+    "id": "texts/littlewomen.txt#Sitting_with_John_Brooke"
+   },
+   "hasParticipant": [
+    {
+     "name": "Meg_March",
+     "id": "texts/littlewomen.txt#Meg_March"
+    },
+    {
+     "name": "John_Brooke",
+     "id": "texts/littlewomen.txt#John_Brooke"
+    }
+   ],
+   "id": "texts/littlewomen.txt#Sitting_with_John_Brooke"
+  },
+  {
+   "name": "Reflecting_on_past_events",
+   "takePlaceAt": {
+    "name": "Reflecting_on_past_events",
+    "id": "texts/littlewomen.txt#Reflecting_on_past_events"
+   },
+   "hasParticipant": {
+    "name": "Meg_March",
+    "id": "texts/littlewomen.txt#Meg_March"
+   },
+   "id": "texts/littlewomen.txt#Reflecting_on_past_events"
+  }
+ ],
+ "Places": [
+  {
+   "name": "Parlor",
+   "id": "texts/littlewomen.txt#Parlor"
+  },
+  {
+   "name": "Parlor",
+   "id": "texts/littlewomen.txt#Parlor"
+  },
+  {
+   "name": "Upstairs_room",
+   "id": "texts/littlewomen.txt#Upstairs_room"
+  },
+  {
+   "name": "Home",
+   "id": "texts/littlewomen.txt#Home"
+  },
+  {
+   "name": "Parlor",
+   "id": "texts/littlewomen.txt#Parlor"
+  },
+  {
+   "name": "Parlor",
+   "id": "texts/littlewomen.txt#Parlor"
   }
  ]
 }

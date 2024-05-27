@@ -8,112 +8,187 @@
      "hasIntensity": 0.7,
      "quote": "“Brooke has taken him up,” said Mr. Hawley, “because that is what no man in his senses could have expected. Casaubon has devilish good reasons, you may be sure, for turning the cold shoulder on a young fellow whose bringing-up he paid for. Just like Brooke—one of those fellows who would praise a cat to sell a horse.”",
      "hasObject": {
-      "name": "Will_Ladislaw"
+      "name": "Will_Ladislaw",
+      "id": "texts/middlemarch.txt#Will_Ladislaw"
      },
      "causedBy": {
       "name": "Mr_Brooke_taking_up_Will_Ladislaw",
-      "takePlaceAt": {
-       "name": "Conversation_between_Mr_Hawley_and_Mr_Toller"
-      },
-      "hasParticipant": [
-       {
-        "name": "Mr_Hawley"
-       },
-       {
-        "name": "Mr_Toller"
-       }
-      ]
-     }
+      "id": "texts/middlemarch.txt#Mr_Brooke_taking_up_Will_Ladislaw"
+     },
+     "id": "Disapproval"
     },
     {
      "name": "Loathing",
      "hasIntensity": 0.6,
      "quote": "“That was a rattling article yesterday, Keck,” said Dr. Sprague, with sarcastic intentions. “But what is an energumen?”“Oh, a term that came up in the French Revolution,” said Keck.",
      "hasObject": {
-      "name": "Will_Ladislaw"
+      "name": "Will_Ladislaw",
+      "id": "texts/middlemarch.txt#Will_Ladislaw"
      },
      "causedBy": {
       "name": "Conversation_between_Dr_Sprague_and_Keck",
-      "takePlaceAt": {
-       "name": "Conversation"
-      },
-      "hasParticipant": [
-       {
-        "name": "Dr_Sprague"
-       },
-       {
-        "name": "Keck"
-       }
-      ]
-     }
+      "id": "texts/middlemarch.txt#Conversation_between_Dr_Sprague_and_Keck"
+     },
+     "id": "Loathing"
     },
     {
      "name": "Disapproval",
      "hasIntensity": 0.8,
      "quote": "“That general talk about a particular case is mere question begging, Ladislaw. When I say, I go in for the dose that cures, it doesn’t follow that I go in for opium in a given case of gout.”“I am not begging the question we are upon—whether we are to try for nothing till we find immaculate men to work with. Should you go on that plan? If there were one man who would carry you a medical reform and another who would oppose it, should you inquire which had the better motives or even the better brains?”",
      "hasObject": {
-      "name": "Lydgate"
+      "name": "Lydgate",
+      "id": "texts/middlemarch.txt#Lydgate"
      },
      "causedBy": {
       "name": "Discussion_between_Lydgate_and_Will_Ladislaw",
-      "takePlaceAt": {
-       "name": "Conversation"
-      },
-      "hasParticipant": [
-       {
-        "name": "Lydgate"
-       },
-       {
-        "name": "Will_Ladislaw"
-       }
-      ]
-     }
+      "id": "texts/middlemarch.txt#Discussion_between_Lydgate_and_Will_Ladislaw"
+     },
+     "id": "Disapproval"
     },
     {
      "name": "Loathing",
      "hasIntensity": 0.7,
      "quote": "“That is no excuse for encouraging the superstitious exaggeration of hopes about this particular measure, helping the cry to swallow it whole and to send up voting popinjays who are good for nothing but to carry it. You go against rottenness, and there is nothing more thoroughly rotten than making people believe that society can be cured by a political hocus-pocus.”“That’s very fine, my dear fellow. But your cure must begin somewhere, and put it that a thousand things which debase a population can never be reformed without this particular reform to begin with. Look what Stanley said the other day—that the House had been tinkering long enough at small questions of bribery, inquiring whether this or that voter has had a guinea when everybody knows that the seats have been sold wholesale. Wait for wisdom and conscience in public agents—fiddlestick! The only conscience we can trust to is the massive sense of wrong in a class, and the best wisdom that will work is the wisdom of balancing claims. That’s my text—which side is injured? I support the man who supports their claims; not the virtuous upholder of the wrong.”“That is the way with you political writers, Ladislaw—crying up a measure as if it were a universal cure, and crying up men who are a part of the very disease that wants curing.”",
      "hasObject": {
-      "name": "Will_Ladislaw"
+      "name": "Will_Ladislaw",
+      "id": "texts/middlemarch.txt#Will_Ladislaw"
      },
      "causedBy": {
       "name": "Discussion_between_Lydgate_and_Will_Ladislaw",
-      "takePlaceAt": {
-       "name": "Conversation"
-      },
-      "hasParticipant": [
-       {
-        "name": "Lydgate"
-       },
-       {
-        "name": "Will_Ladislaw"
-       }
-      ]
-     }
+      "id": "texts/middlemarch.txt#Discussion_between_Lydgate_and_Will_Ladislaw"
+     },
+     "id": "Loathing"
     },
     {
      "name": "Loathing",
      "hasIntensity": 0.6,
      "quote": "“Then, why don’t you extend your liberality to others?” said Will, still nettled. “My personal independence is as important to me as yours is to you. You have no more reason to imagine that I have personal expectations from Brooke, than I have to imagine that you have personal expectations from Bulstrode. Motives are points of honor, I suppose—nobody can prove them. But as to money and place in the world,” Will ended, tossing back his head, “I think it is pretty clear that I am not determined by considerations of that sort.”“You quite mistake me, Ladislaw,” said Lydgate, surprised. He had been preoccupied with his own vindication, and had been blind to what Ladislaw might infer on his own account. “I beg your pardon for unintentionally annoying you. In fact, I should rather attribute to you a romantic disregard of your own worldly interests. On the political question, I referred simply to intellectual bias.”“How very unpleasant you both are this evening!” said Rosamond. “I cannot conceive why money should have been referred to. Politics and Medicine are sufficiently disagreeable to quarrel upon. You can both of you go on quarrelling with all the world and with each other on those two topics.”",
      "hasObject": {
-      "name": "Will_Ladislaw"
+      "name": "Will_Ladislaw",
+      "id": "texts/middlemarch.txt#Will_Ladislaw"
      },
      "causedBy": {
       "name": "Discussion_between_Lydgate_and_Will_Ladislaw",
-      "takePlaceAt": {
-       "name": "Conversation"
-      },
-      "hasParticipant": [
-       {
-        "name": "Lydgate"
-       },
-       {
-        "name": "Will_Ladislaw"
-       }
-      ]
-     }
+      "id": "texts/middlemarch.txt#Discussion_between_Lydgate_and_Will_Ladislaw"
+     },
+     "id": "Loathing"
     }
-   ]
+   ],
+   "id": "texts/middlemarch.txt#Mr_Toller"
+  }
+ ],
+ "Events": [
+  {
+   "name": "Mr_Brooke_taking_up_Will_Ladislaw",
+   "takePlaceAt": {
+    "name": "Mr_Brooke_taking_up_Will_Ladislaw",
+    "id": "texts/middlemarch.txt#Mr_Brooke_taking_up_Will_Ladislaw"
+   },
+   "hasParticipant": [
+    {
+     "name": "Mr_Hawley",
+     "id": "texts/middlemarch.txt#Mr_Hawley"
+    },
+    {
+     "name": "Mr_Toller",
+     "id": "texts/middlemarch.txt#Mr_Toller"
+    }
+   ],
+   "id": "texts/middlemarch.txt#Mr_Brooke_taking_up_Will_Ladislaw"
+  },
+  {
+   "name": "Conversation_between_Dr_Sprague_and_Keck",
+   "takePlaceAt": {
+    "name": "Conversation_between_Dr_Sprague_and_Keck",
+    "id": "texts/middlemarch.txt#Conversation_between_Dr_Sprague_and_Keck"
+   },
+   "hasParticipant": [
+    {
+     "name": "Dr_Sprague",
+     "id": "texts/middlemarch.txt#Dr_Sprague"
+    },
+    {
+     "name": "Keck",
+     "id": "texts/middlemarch.txt#Keck"
+    }
+   ],
+   "id": "texts/middlemarch.txt#Conversation_between_Dr_Sprague_and_Keck"
+  },
+  {
+   "name": "Discussion_between_Lydgate_and_Will_Ladislaw",
+   "takePlaceAt": {
+    "name": "Discussion_between_Lydgate_and_Will_Ladislaw",
+    "id": "texts/middlemarch.txt#Discussion_between_Lydgate_and_Will_Ladislaw"
+   },
+   "hasParticipant": [
+    {
+     "name": "Lydgate",
+     "id": "texts/middlemarch.txt#Lydgate"
+    },
+    {
+     "name": "Will_Ladislaw",
+     "id": "texts/middlemarch.txt#Will_Ladislaw"
+    }
+   ],
+   "id": "texts/middlemarch.txt#Discussion_between_Lydgate_and_Will_Ladislaw"
+  },
+  {
+   "name": "Discussion_between_Lydgate_and_Will_Ladislaw",
+   "takePlaceAt": {
+    "name": "Discussion_between_Lydgate_and_Will_Ladislaw",
+    "id": "texts/middlemarch.txt#Discussion_between_Lydgate_and_Will_Ladislaw"
+   },
+   "hasParticipant": [
+    {
+     "name": "Lydgate",
+     "id": "texts/middlemarch.txt#Lydgate"
+    },
+    {
+     "name": "Will_Ladislaw",
+     "id": "texts/middlemarch.txt#Will_Ladislaw"
+    }
+   ],
+   "id": "texts/middlemarch.txt#Discussion_between_Lydgate_and_Will_Ladislaw"
+  },
+  {
+   "name": "Discussion_between_Lydgate_and_Will_Ladislaw",
+   "takePlaceAt": {
+    "name": "Discussion_between_Lydgate_and_Will_Ladislaw",
+    "id": "texts/middlemarch.txt#Discussion_between_Lydgate_and_Will_Ladislaw"
+   },
+   "hasParticipant": [
+    {
+     "name": "Lydgate",
+     "id": "texts/middlemarch.txt#Lydgate"
+    },
+    {
+     "name": "Will_Ladislaw",
+     "id": "texts/middlemarch.txt#Will_Ladislaw"
+    }
+   ],
+   "id": "texts/middlemarch.txt#Discussion_between_Lydgate_and_Will_Ladislaw"
+  }
+ ],
+ "Places": [
+  {
+   "name": "Conversation_between_Mr_Hawley_and_Mr_Toller",
+   "id": "texts/middlemarch.txt#Conversation_between_Mr_Hawley_and_Mr_Toller"
+  },
+  {
+   "name": "Conversation",
+   "id": "texts/middlemarch.txt#Conversation"
+  },
+  {
+   "name": "Conversation",
+   "id": "texts/middlemarch.txt#Conversation"
+  },
+  {
+   "name": "Conversation",
+   "id": "texts/middlemarch.txt#Conversation"
+  },
+  {
+   "name": "Conversation",
+   "id": "texts/middlemarch.txt#Conversation"
   }
  ]
 }

@@ -8,100 +8,189 @@
      "hasIntensity": 0.9,
      "quote": "Valancy shivered like a tree the wind stirs suddenly. Something seemed to sweep over her soul. 'My Blue Castle!' she said. 'Oh, my Blue Castle!'",
      "hasObject": {
-      "name": "Blue_Castle"
+      "name": "Blue_Castle",
+      "id": "texts/thebluecastle.txt#Blue_Castle"
      },
      "causedBy": {
       "name": "Arriving_at_the_enchanted_island",
-      "takePlaceAt": {
-       "name": "Mistawis"
-      }
-     }
+      "id": "texts/thebluecastle.txt#Arriving_at_the_enchanted_island"
+     },
+     "id": "Joy"
     },
     {
      "name": "Love",
      "hasIntensity": 0.95,
      "quote": "Valancy found herself shivering with the rapture of her first kiss.",
      "hasObject": {
-      "name": "Barney"
+      "name": "Barney",
+      "id": "texts/thebluecastle.txt#Barney"
      },
      "causedBy": {
       "name": "Barney_kissing_her",
-      "takePlaceAt": {
-       "name": "Enchanted_island"
-      }
-     }
+      "id": "texts/thebluecastle.txt#Barney_kissing_her"
+     },
+     "id": "Love"
     },
     {
      "name": "Surprise",
      "hasIntensity": 0.8,
      "quote": "Valancy stared at Cousin Georgiana for a moment. Then she wanted to go off into a peal of laughter. But she only said: 'Me?'",
      "hasObject": {
-      "name": "Edward_Beck_s_proposal"
+      "name": "Edward_Beck_s_proposal",
+      "id": "texts/thebluecastle.txt#Edward_Beck_s_proposal"
      },
      "causedBy": {
       "name": "Cousin_Georgiana_revealing_Edward_Beck_s_proposal",
-      "takePlaceAt": {
-       "name": "Deerwood"
-      }
-     }
+      "id": "texts/thebluecastle.txt#Cousin_Georgiana_revealing_Edward_Beck_s_proposal"
+     },
+     "id": "Surprise"
     },
     {
      "name": "Amusement",
      "hasIntensity": 0.7,
      "quote": "Valancy wanted to go off into a peal of laughter. But she only said: 'Me?'",
      "hasObject": {
-      "name": "Edward_Beck_s_proposal"
+      "name": "Edward_Beck_s_proposal",
+      "id": "texts/thebluecastle.txt#Edward_Beck_s_proposal"
      },
      "causedBy": {
       "name": "Cousin_Georgiana_revealing_Edward_Beck_s_proposal",
-      "takePlaceAt": {
-       "name": "Deerwood"
-      }
-     }
+      "id": "texts/thebluecastle.txt#Cousin_Georgiana_revealing_Edward_Beck_s_proposal"
+     },
+     "id": "Amusement"
     },
     {
      "name": "Contentment",
      "hasIntensity": 0.85,
      "quote": "Valancy was so happy that she could have smiled at anybody—even Uncle James.",
      "hasObject": {
-      "name": "Barney_and_the_Blue_Castle"
+      "name": "Barney_and_the_Blue_Castle",
+      "id": "texts/thebluecastle.txt#Barney_and_the_Blue_Castle"
      },
      "causedBy": {
       "name": "Thinking_about_Barney_and_the_Blue_Castle",
-      "takePlaceAt": {
-       "name": "Enchanted_island"
-      }
-     }
+      "id": "texts/thebluecastle.txt#Thinking_about_Barney_and_the_Blue_Castle"
+     },
+     "id": "Contentment"
     },
     {
      "name": "Shock",
      "hasIntensity": 0.9,
      "quote": "Valancy stared at Cousin Georgiana. 'Married!' she said. 'Yes. I was married to Barney Snaith last Tuesday evening in Port Lawrence.'",
      "hasObject": {
-      "name": "Marriage_to_Barney_Snaith"
+      "name": "Marriage_to_Barney_Snaith",
+      "id": "texts/thebluecastle.txt#Marriage_to_Barney_Snaith"
      },
      "causedBy": {
       "name": "Revealing_her_marriage_to_Cousin_Georgiana",
-      "takePlaceAt": {
-       "name": "Deerwood"
-      }
-     }
+      "id": "texts/thebluecastle.txt#Revealing_her_marriage_to_Cousin_Georgiana"
+     },
+     "id": "Shock"
     },
     {
      "name": "Despair",
      "hasIntensity": 0.95,
      "quote": "Cousin Georgiana choked back the tears and gave a little moan of despair instead. 'Oh, Doss, what have you done? What have you done?'",
      "hasObject": {
-      "name": "Valancy_s_marriage"
+      "name": "Valancy_s_marriage",
+      "id": "texts/thebluecastle.txt#Valancy_s_marriage"
      },
      "causedBy": {
       "name": "Learning_about_Valancy_s_marriage",
-      "takePlaceAt": {
-       "name": "Deerwood"
-      }
-     }
+      "id": "texts/thebluecastle.txt#Learning_about_Valancy_s_marriage"
+     },
+     "id": "Despair"
     }
-   ]
+   ],
+   "id": "texts/thebluecastle.txt#Valancy_Stirling"
+  }
+ ],
+ "Events": [
+  {
+   "name": "Arriving_at_the_enchanted_island",
+   "takePlaceAt": {
+    "name": "Arriving_at_the_enchanted_island",
+    "id": "texts/thebluecastle.txt#Arriving_at_the_enchanted_island"
+   },
+   "id": "texts/thebluecastle.txt#Arriving_at_the_enchanted_island"
+  },
+  {
+   "name": "Barney_kissing_her",
+   "takePlaceAt": {
+    "name": "Barney_kissing_her",
+    "id": "texts/thebluecastle.txt#Barney_kissing_her"
+   },
+   "id": "texts/thebluecastle.txt#Barney_kissing_her"
+  },
+  {
+   "name": "Cousin_Georgiana_revealing_Edward_Beck_s_proposal",
+   "takePlaceAt": {
+    "name": "Cousin_Georgiana_revealing_Edward_Beck_s_proposal",
+    "id": "texts/thebluecastle.txt#Cousin_Georgiana_revealing_Edward_Beck_s_proposal"
+   },
+   "id": "texts/thebluecastle.txt#Cousin_Georgiana_revealing_Edward_Beck_s_proposal"
+  },
+  {
+   "name": "Cousin_Georgiana_revealing_Edward_Beck_s_proposal",
+   "takePlaceAt": {
+    "name": "Cousin_Georgiana_revealing_Edward_Beck_s_proposal",
+    "id": "texts/thebluecastle.txt#Cousin_Georgiana_revealing_Edward_Beck_s_proposal"
+   },
+   "id": "texts/thebluecastle.txt#Cousin_Georgiana_revealing_Edward_Beck_s_proposal"
+  },
+  {
+   "name": "Thinking_about_Barney_and_the_Blue_Castle",
+   "takePlaceAt": {
+    "name": "Thinking_about_Barney_and_the_Blue_Castle",
+    "id": "texts/thebluecastle.txt#Thinking_about_Barney_and_the_Blue_Castle"
+   },
+   "id": "texts/thebluecastle.txt#Thinking_about_Barney_and_the_Blue_Castle"
+  },
+  {
+   "name": "Revealing_her_marriage_to_Cousin_Georgiana",
+   "takePlaceAt": {
+    "name": "Revealing_her_marriage_to_Cousin_Georgiana",
+    "id": "texts/thebluecastle.txt#Revealing_her_marriage_to_Cousin_Georgiana"
+   },
+   "id": "texts/thebluecastle.txt#Revealing_her_marriage_to_Cousin_Georgiana"
+  },
+  {
+   "name": "Learning_about_Valancy_s_marriage",
+   "takePlaceAt": {
+    "name": "Learning_about_Valancy_s_marriage",
+    "id": "texts/thebluecastle.txt#Learning_about_Valancy_s_marriage"
+   },
+   "id": "texts/thebluecastle.txt#Learning_about_Valancy_s_marriage"
+  }
+ ],
+ "Places": [
+  {
+   "name": "Mistawis",
+   "id": "texts/thebluecastle.txt#Mistawis"
+  },
+  {
+   "name": "Enchanted_island",
+   "id": "texts/thebluecastle.txt#Enchanted_island"
+  },
+  {
+   "name": "Deerwood",
+   "id": "texts/thebluecastle.txt#Deerwood"
+  },
+  {
+   "name": "Deerwood",
+   "id": "texts/thebluecastle.txt#Deerwood"
+  },
+  {
+   "name": "Enchanted_island",
+   "id": "texts/thebluecastle.txt#Enchanted_island"
+  },
+  {
+   "name": "Deerwood",
+   "id": "texts/thebluecastle.txt#Deerwood"
+  },
+  {
+   "name": "Deerwood",
+   "id": "texts/thebluecastle.txt#Deerwood"
   }
  ]
 }

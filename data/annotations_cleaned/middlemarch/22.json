@@ -8,68 +8,115 @@
      "hasIntensity": 0.9,
      "quote": "The longing was to see Will Ladislaw. She did not know any good that could come of their meeting: she was helpless; her hands had been tied from making up to him for any unfairness in his lot. But her soul thirsted to see him.",
      "hasObject": {
-      "name": "Will_Ladislaw"
+      "name": "Will_Ladislaw",
+      "id": "texts/middlemarch.txt#Will_Ladislaw"
      },
      "causedBy": {
       "name": "Desire_to_see_Will_Ladislaw",
-      "takePlaceAt": {
-       "name": "Lowick_Manor"
-      },
-      "hasParticipant": [
-       {
-        "name": "Dorothea"
-       },
-       {
-        "name": "Will_Ladislaw"
-       }
-      ]
-     }
+      "id": "texts/middlemarch.txt#Desire_to_see_Will_Ladislaw"
+     },
+     "id": "Longing"
     },
     {
      "name": "Pity",
      "hasIntensity": 0.8,
      "quote": "The pity which had been the restraining compelling motive in her life with him still clung about his image, even while she remonstrated with him in indignant thought and told him that he was unjust.",
      "hasObject": {
-      "name": "Late_husband"
+      "name": "Late_husband",
+      "id": "texts/middlemarch.txt#Late_husband"
      },
      "causedBy": {
       "name": "Feeling_of_pity_towards_her_late_husband",
-      "takePlaceAt": {
-       "name": "Lowick_Manor"
-      },
-      "hasParticipant": [
-       {
-        "name": "Dorothea"
-       },
-       {
-        "name": "Late_husband"
-       }
-      ]
-     }
+      "id": "texts/middlemarch.txt#Feeling_of_pity_towards_her_late_husband"
+     },
+     "id": "Pity"
     },
     {
      "name": "Anxiety",
      "hasIntensity": 0.7,
      "quote": "But the meeting did happen, but in a formal way quite unexpected by her.",
      "hasObject": {
-      "name": "Meeting_with_Will_Ladislaw"
+      "name": "Meeting_with_Will_Ladislaw",
+      "id": "texts/middlemarch.txt#Meeting_with_Will_Ladislaw"
      },
      "causedBy": {
       "name": "Unexpected_meeting_with_Will_Ladislaw",
-      "takePlaceAt": {
-       "name": "Lowick_Manor"
-      },
-      "hasParticipant": [
-       {
-        "name": "Dorothea"
-       },
-       {
-        "name": "Will_Ladislaw"
-       }
-      ]
-     }
+      "id": "texts/middlemarch.txt#Unexpected_meeting_with_Will_Ladislaw"
+     },
+     "id": "Anxiety"
     }
-   ]
+   ],
+   "id": "texts/middlemarch.txt#Dorothea"
+  }
+ ],
+ "Events": [
+  {
+   "name": "Desire_to_see_Will_Ladislaw",
+   "takePlaceAt": {
+    "name": "Desire_to_see_Will_Ladislaw",
+    "id": "texts/middlemarch.txt#Desire_to_see_Will_Ladislaw"
+   },
+   "hasParticipant": [
+    {
+     "name": "Dorothea",
+     "id": "texts/middlemarch.txt#Dorothea"
+    },
+    {
+     "name": "Will_Ladislaw",
+     "id": "texts/middlemarch.txt#Will_Ladislaw"
+    }
+   ],
+   "id": "texts/middlemarch.txt#Desire_to_see_Will_Ladislaw"
+  },
+  {
+   "name": "Feeling_of_pity_towards_her_late_husband",
+   "takePlaceAt": {
+    "name": "Feeling_of_pity_towards_her_late_husband",
+    "id": "texts/middlemarch.txt#Feeling_of_pity_towards_her_late_husband"
+   },
+   "hasParticipant": [
+    {
+     "name": "Dorothea",
+     "id": "texts/middlemarch.txt#Dorothea"
+    },
+    {
+     "name": "Late_husband",
+     "id": "texts/middlemarch.txt#Late_husband"
+    }
+   ],
+   "id": "texts/middlemarch.txt#Feeling_of_pity_towards_her_late_husband"
+  },
+  {
+   "name": "Unexpected_meeting_with_Will_Ladislaw",
+   "takePlaceAt": {
+    "name": "Unexpected_meeting_with_Will_Ladislaw",
+    "id": "texts/middlemarch.txt#Unexpected_meeting_with_Will_Ladislaw"
+   },
+   "hasParticipant": [
+    {
+     "name": "Dorothea",
+     "id": "texts/middlemarch.txt#Dorothea"
+    },
+    {
+     "name": "Will_Ladislaw",
+     "id": "texts/middlemarch.txt#Will_Ladislaw"
+    }
+   ],
+   "id": "texts/middlemarch.txt#Unexpected_meeting_with_Will_Ladislaw"
+  }
+ ],
+ "Places": [
+  {
+   "name": "Lowick_Manor",
+   "id": "texts/middlemarch.txt#Lowick_Manor"
+  },
+  {
+   "name": "Lowick_Manor",
+   "id": "texts/middlemarch.txt#Lowick_Manor"
+  },
+  {
+   "name": "Lowick_Manor",
+   "id": "texts/middlemarch.txt#Lowick_Manor"
   }
  ]
 }

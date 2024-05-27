@@ -8,44 +8,45 @@
      "hasIntensity": 0.8,
      "quote": "He felt unmixed disgust with himself the next day when he had to pay four or five pounds over and above his gains, and he carried about with him a most unpleasant vision of the figure he had made, not only rubbing elbows with the men at the Green Dragon but behaving just as they did.",
      "hasObject": {
-      "name": "Himself"
+      "name": "Himself",
+      "id": "texts/middlemarch.txt#Himself"
      },
      "causedBy": {
       "name": "Losing_money_in_the_billiardroom",
-      "takePlaceAt": {
-       "name": "Green_Dragon_billiardroom"
-      }
-     }
+      "id": "texts/middlemarch.txt#Losing_money_in_the_billiardroom"
+     },
+     "id": "Disgust"
     },
     {
      "name": "Regret",
      "hasIntensity": 0.7,
      "quote": "He had so many times boasted both to himself and others that he was totally independent of Bulstrode, to whose plans he had lent himself solely because they enabled him to carry out his own ideas of professional work and public benefit—he had so constantly in their personal intercourse had his pride sustained by the sense that he was making a good social use of this predominating banker, whose opinions he thought contemptible and whose motives often seemed to him an absurd mixture of contradictory impressions—that he had been creating for himself strong ideal obstacles to the proffering of any considerable request to him on his own account.",
      "hasObject": {
-      "name": "Independence_from_Bulstrode"
+      "name": "Independence_from_Bulstrode",
+      "id": "texts/middlemarch.txt#Independence_from_Bulstrode"
      },
      "causedBy": {
       "name": "Realizing_he_may_need_to_ask_for_help_from_Mr_Bulstrode",
-      "takePlaceAt": {
-       "name": "Personal_reflection"
-      }
-     }
+      "id": "texts/middlemarch.txt#Realizing_he_may_need_to_ask_for_help_from_Mr_Buls"
+     },
+     "id": "Regret"
     },
     {
      "name": "Anxiety",
      "hasIntensity": 0.9,
      "quote": "With Dover’s ugly security soon to be put in force, with the proceeds of his practice immediately absorbed in paying back debts, and with the chance, if the worst were known, of daily supplies being refused on credit, above all with the vision of Rosamond’s hopeless discontent continually haunting him, Lydgate had begun to see that he should inevitably bend himself to ask help from somebody or other.",
      "hasObject": {
-      "name": "Financial_stability"
+      "name": "Financial_stability",
+      "id": "texts/middlemarch.txt#Financial_stability"
      },
      "causedBy": {
       "name": "Financial_difficulties_and_impending_consequences",
-      "takePlaceAt": {
-       "name": "Personal_reflection"
-      }
-     }
+      "id": "texts/middlemarch.txt#Financial_difficulties_and_impending_consequences"
+     },
+     "id": "Anxiety"
     }
-   ]
+   ],
+   "id": "texts/middlemarch.txt#Lydgate"
   },
   {
    "name": "Fred_Vincy",
@@ -55,44 +56,121 @@
      "hasIntensity": 0.8,
      "quote": "He dreaded to hear that something had been said to Mary—he felt as if he were listening to a threat rather than a warning.",
      "hasObject": {
-      "name": "Mary_s_feelings"
+      "name": "Mary_s_feelings",
+      "id": "texts/middlemarch.txt#Mary_s_feelings"
      },
      "causedBy": {
       "name": "Mr_Farebrother_s_conversation",
-      "takePlaceAt": {
-       "name": "Conversation_with_Mr_Farebrother"
-      }
-     }
+      "id": "texts/middlemarch.txt#Mr_Farebrother_s_conversation"
+     },
+     "id": "Alarm"
     },
     {
      "name": "Regret",
      "hasIntensity": 0.7,
      "quote": "It certainly would have been a fine thing for her to marry Farebrother—but if she loves me best and I am a good husband?",
      "hasObject": {
-      "name": "Mary_s_potential_marriage_to_Farebrother"
+      "name": "Mary_s_potential_marriage_to_Farebrother",
+      "id": "texts/middlemarch.txt#Mary_s_potential_marriage_to_Farebrother"
      },
      "causedBy": {
       "name": "Mr_Farebrother_s_conversation",
-      "takePlaceAt": {
-       "name": "Conversation_with_Mr_Farebrother"
-      }
-     }
+      "id": "texts/middlemarch.txt#Mr_Farebrother_s_conversation"
+     },
+     "id": "Regret"
     },
     {
      "name": "Gratitude",
      "hasIntensity": 0.9,
      "quote": "I shall never forget what you have done,” Fred answered. “I can’t say anything that seems worth saying—only I will try that your goodness shall not be thrown away.",
      "hasObject": {
-      "name": "Mr_Farebrother_s_help"
+      "name": "Mr_Farebrother_s_help",
+      "id": "texts/middlemarch.txt#Mr_Farebrother_s_help"
      },
      "causedBy": {
       "name": "Mr_Farebrother_s_advice_and_warning",
-      "takePlaceAt": {
-       "name": "Conversation_with_Mr_Farebrother"
-      }
-     }
+      "id": "texts/middlemarch.txt#Mr_Farebrother_s_advice_and_warning"
+     },
+     "id": "Gratitude"
     }
-   ]
+   ],
+   "id": "texts/middlemarch.txt#Fred_Vincy"
+  }
+ ],
+ "Events": [
+  {
+   "name": "Losing_money_in_the_billiardroom",
+   "takePlaceAt": {
+    "name": "Losing_money_in_the_billiardroom",
+    "id": "texts/middlemarch.txt#Losing_money_in_the_billiardroom"
+   },
+   "id": "texts/middlemarch.txt#Losing_money_in_the_billiardroom"
+  },
+  {
+   "name": "Realizing_he_may_need_to_ask_for_help_from_Mr_Bulstrode",
+   "takePlaceAt": {
+    "name": "Realizing_he_may_need_to_ask_for_help_from_Mr_Bulstrode",
+    "id": "texts/middlemarch.txt#Realizing_he_may_need_to_ask_for_help_from_Mr_Buls"
+   },
+   "id": "texts/middlemarch.txt#Realizing_he_may_need_to_ask_for_help_from_Mr_Buls"
+  },
+  {
+   "name": "Financial_difficulties_and_impending_consequences",
+   "takePlaceAt": {
+    "name": "Financial_difficulties_and_impending_consequences",
+    "id": "texts/middlemarch.txt#Financial_difficulties_and_impending_consequences"
+   },
+   "id": "texts/middlemarch.txt#Financial_difficulties_and_impending_consequences"
+  },
+  {
+   "name": "Mr_Farebrother_s_conversation",
+   "takePlaceAt": {
+    "name": "Mr_Farebrother_s_conversation",
+    "id": "texts/middlemarch.txt#Mr_Farebrother_s_conversation"
+   },
+   "id": "texts/middlemarch.txt#Mr_Farebrother_s_conversation"
+  },
+  {
+   "name": "Mr_Farebrother_s_conversation",
+   "takePlaceAt": {
+    "name": "Mr_Farebrother_s_conversation",
+    "id": "texts/middlemarch.txt#Mr_Farebrother_s_conversation"
+   },
+   "id": "texts/middlemarch.txt#Mr_Farebrother_s_conversation"
+  },
+  {
+   "name": "Mr_Farebrother_s_advice_and_warning",
+   "takePlaceAt": {
+    "name": "Mr_Farebrother_s_advice_and_warning",
+    "id": "texts/middlemarch.txt#Mr_Farebrother_s_advice_and_warning"
+   },
+   "id": "texts/middlemarch.txt#Mr_Farebrother_s_advice_and_warning"
+  }
+ ],
+ "Places": [
+  {
+   "name": "Green_Dragon_billiardroom",
+   "id": "texts/middlemarch.txt#Green_Dragon_billiardroom"
+  },
+  {
+   "name": "Personal_reflection",
+   "id": "texts/middlemarch.txt#Personal_reflection"
+  },
+  {
+   "name": "Personal_reflection",
+   "id": "texts/middlemarch.txt#Personal_reflection"
+  },
+  {
+   "name": "Conversation_with_Mr_Farebrother",
+   "id": "texts/middlemarch.txt#Conversation_with_Mr_Farebrother"
+  },
+  {
+   "name": "Conversation_with_Mr_Farebrother",
+   "id": "texts/middlemarch.txt#Conversation_with_Mr_Farebrother"
+  },
+  {
+   "name": "Conversation_with_Mr_Farebrother",
+   "id": "texts/middlemarch.txt#Conversation_with_Mr_Farebrother"
   }
  ]
 }

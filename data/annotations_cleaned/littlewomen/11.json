@@ -8,58 +8,59 @@
      "hasIntensity": 0.8,
      "quote": "John laughed, and drew her round beside him, saying good-humoredly, 'Don't go and hide. I won't beat you if you have got a pair of killing boots; I'm rather proud of my wife's feet, and don't mind if she does pay eight or nine dollars for her boots, if they are good ones.'",
      "hasObject": {
-      "name": "Pair_of_boots"
+      "name": "Pair_of_boots",
+      "id": "texts/littlewomen.txt#Pair_of_boots"
      },
      "causedBy": {
       "name": "John_s_reaction_to_Meg_s_expenses",
-      "takePlaceAt": {
-       "name": "Home"
-      }
-     }
+      "id": "texts/littlewomen.txt#John_s_reaction_to_Meg_s_expenses"
+     },
+     "id": "Joy"
     },
     {
      "name": "Fear",
      "hasIntensity": 0.7,
      "quote": "She ran to him and held him close, crying, with repentant tears, 'O John, my dear, kind, hard-working boy, I didn't mean it! It was so wicked, so untrue and ungrateful, how could I say it! Oh, how could I say it!'",
      "hasObject": {
-      "name": "Hurtful_words"
+      "name": "Hurtful_words",
+      "id": "texts/littlewomen.txt#Hurtful_words"
      },
      "causedBy": {
       "name": "Realization_of_her_mistake",
-      "takePlaceAt": {
-       "name": "Home"
-      }
-     }
+      "id": "texts/littlewomen.txt#Realization_of_her_mistake"
+     },
+     "id": "Fear"
     },
     {
      "name": "Remorse",
      "hasIntensity": 0.9,
      "quote": "A week of remorse nearly made Meg sick; and the discovery that John had countermanded the order for his new great-coat reduced her to a state of despair which was pathetic to behold.",
      "hasObject": {
-      "name": "Countermanded_order_for_greatcoat"
+      "name": "Countermanded_order_for_greatcoat",
+      "id": "texts/littlewomen.txt#Countermanded_order_for_greatcoat"
      },
      "causedBy": {
       "name": "Realization_of_her_actions",
-      "takePlaceAt": {
-       "name": "Home"
-      }
-     }
+      "id": "texts/littlewomen.txt#Realization_of_her_actions"
+     },
+     "id": "Remorse"
     },
     {
      "name": "Despair",
      "hasIntensity": 0.8,
      "quote": "They had a long talk that night, and Meg learned to love her husband better for his poverty, because it seemed to have made a man of him, given him the strength and courage to fight his own way, and taught him a tender patience with which to bear and comfort the natural longings and failures of those he loved.",
      "hasObject": {
-      "name": "John_s_poverty"
+      "name": "John_s_poverty",
+      "id": "texts/littlewomen.txt#John_s_poverty"
      },
      "causedBy": {
       "name": "Realization_of_John_s_actions",
-      "takePlaceAt": {
-       "name": "Home"
-      }
-     }
+      "id": "texts/littlewomen.txt#Realization_of_John_s_actions"
+     },
+     "id": "Despair"
     }
-   ]
+   ],
+   "id": "texts/littlewomen.txt#Meg"
   },
   {
    "name": "John",
@@ -69,58 +70,159 @@
      "hasIntensity": 0.7,
      "quote": "John said slowly, but she could feel it cost him an effort to express no displeasure, 'Well, I don't know that fifty is much for a dress, with all the furbelows and notions you have to have to finish it off these days.'",
      "hasObject": {
-      "name": "Meg_s_dress"
+      "name": "Meg_s_dress",
+      "id": "texts/littlewomen.txt#Meg_s_dress"
      },
      "causedBy": {
       "name": "Meg_s_expenses",
-      "takePlaceAt": {
-       "name": "Home"
-      }
-     }
+      "id": "texts/littlewomen.txt#Meg_s_expenses"
+     },
+     "id": "Anger"
     },
     {
      "name": "Disappointment",
      "hasIntensity": 0.8,
      "quote": "He was very kind, forgave her readily, and did not utter one reproach; but Meg knew that she had done and said a thing which would not be forgotten soon, although he might never allude to it again.",
      "hasObject": {
-      "name": "Meg_s_words"
+      "name": "Meg_s_words",
+      "id": "texts/littlewomen.txt#Meg_s_words"
      },
      "causedBy": {
       "name": "Meg_s_actions",
-      "takePlaceAt": {
-       "name": "Home"
-      }
-     }
+      "id": "texts/littlewomen.txt#Meg_s_actions"
+     },
+     "id": "Disappointment"
     },
     {
      "name": "Sadness",
      "hasIntensity": 0.9,
      "quote": "He had simply said, in answer to her surprised inquiries as to the change, 'I can't afford it, my dear.'",
      "hasObject": {
-      "name": "Countermanded_order_for_greatcoat"
+      "name": "Countermanded_order_for_greatcoat",
+      "id": "texts/littlewomen.txt#Countermanded_order_for_greatcoat"
      },
      "causedBy": {
       "name": "Countermanded_order_for_greatcoat",
-      "takePlaceAt": {
-       "name": "Home"
-      }
-     }
+      "id": "texts/littlewomen.txt#Countermanded_order_for_greatcoat"
+     },
+     "id": "Sadness"
     },
     {
      "name": "Forgiveness",
      "hasIntensity": 0.8,
      "quote": "He was very kind, forgave her readily, and did not utter one reproach; but Meg knew that she had done and said a thing which would not be forgotten soon, although he might never allude to it again.",
      "hasObject": {
-      "name": "Meg_s_words"
+      "name": "Meg_s_words",
+      "id": "texts/littlewomen.txt#Meg_s_words"
      },
      "causedBy": {
       "name": "Meg_s_actions",
-      "takePlaceAt": {
-       "name": "Home"
-      }
-     }
+      "id": "texts/littlewomen.txt#Meg_s_actions"
+     },
+     "id": "Forgiveness"
     }
-   ]
+   ],
+   "id": "texts/littlewomen.txt#John"
+  }
+ ],
+ "Events": [
+  {
+   "name": "John_s_reaction_to_Meg_s_expenses",
+   "takePlaceAt": {
+    "name": "John_s_reaction_to_Meg_s_expenses",
+    "id": "texts/littlewomen.txt#John_s_reaction_to_Meg_s_expenses"
+   },
+   "id": "texts/littlewomen.txt#John_s_reaction_to_Meg_s_expenses"
+  },
+  {
+   "name": "Realization_of_her_mistake",
+   "takePlaceAt": {
+    "name": "Realization_of_her_mistake",
+    "id": "texts/littlewomen.txt#Realization_of_her_mistake"
+   },
+   "id": "texts/littlewomen.txt#Realization_of_her_mistake"
+  },
+  {
+   "name": "Realization_of_her_actions",
+   "takePlaceAt": {
+    "name": "Realization_of_her_actions",
+    "id": "texts/littlewomen.txt#Realization_of_her_actions"
+   },
+   "id": "texts/littlewomen.txt#Realization_of_her_actions"
+  },
+  {
+   "name": "Realization_of_John_s_actions",
+   "takePlaceAt": {
+    "name": "Realization_of_John_s_actions",
+    "id": "texts/littlewomen.txt#Realization_of_John_s_actions"
+   },
+   "id": "texts/littlewomen.txt#Realization_of_John_s_actions"
+  },
+  {
+   "name": "Meg_s_expenses",
+   "takePlaceAt": {
+    "name": "Meg_s_expenses",
+    "id": "texts/littlewomen.txt#Meg_s_expenses"
+   },
+   "id": "texts/littlewomen.txt#Meg_s_expenses"
+  },
+  {
+   "name": "Meg_s_actions",
+   "takePlaceAt": {
+    "name": "Meg_s_actions",
+    "id": "texts/littlewomen.txt#Meg_s_actions"
+   },
+   "id": "texts/littlewomen.txt#Meg_s_actions"
+  },
+  {
+   "name": "Countermanded_order_for_greatcoat",
+   "takePlaceAt": {
+    "name": "Countermanded_order_for_greatcoat",
+    "id": "texts/littlewomen.txt#Countermanded_order_for_greatcoat"
+   },
+   "id": "texts/littlewomen.txt#Countermanded_order_for_greatcoat"
+  },
+  {
+   "name": "Meg_s_actions",
+   "takePlaceAt": {
+    "name": "Meg_s_actions",
+    "id": "texts/littlewomen.txt#Meg_s_actions"
+   },
+   "id": "texts/littlewomen.txt#Meg_s_actions"
+  }
+ ],
+ "Places": [
+  {
+   "name": "Home",
+   "id": "texts/littlewomen.txt#Home"
+  },
+  {
+   "name": "Home",
+   "id": "texts/littlewomen.txt#Home"
+  },
+  {
+   "name": "Home",
+   "id": "texts/littlewomen.txt#Home"
+  },
+  {
+   "name": "Home",
+   "id": "texts/littlewomen.txt#Home"
+  },
+  {
+   "name": "Home",
+   "id": "texts/littlewomen.txt#Home"
+  },
+  {
+   "name": "Home",
+   "id": "texts/littlewomen.txt#Home"
+  },
+  {
+   "name": "Home",
+   "id": "texts/littlewomen.txt#Home"
+  },
+  {
+   "name": "Home",
+   "id": "texts/littlewomen.txt#Home"
   }
  ]
 }

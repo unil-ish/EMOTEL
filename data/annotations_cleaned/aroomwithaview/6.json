@@ -8,58 +8,111 @@
      "hasIntensity": 0.8,
      "quote": "Oh, mother, what rubbish you talk! Of course I’m not tired of Windy Corner.",
      "hasObject": {
-      "name": "Mother"
+      "name": "Mother",
+      "id": "texts/aroomwithaview.txt#Mother"
      },
      "causedBy": {
       "name": "Mother_s_accusations",
-      "takePlaceAt": {
-       "name": "In_the_carriage"
-      }
-     }
+      "id": "texts/aroomwithaview.txt#Mother_s_accusations"
+     },
+     "id": "Annoyance"
     },
     {
      "name": "Disappointment",
      "hasIntensity": 0.9,
      "quote": "Waste! That word seemed to sum up the whole of life. Wasted plans, wasted money, wasted love, and she had wounded her mother.",
      "hasObject": {
-      "name": "Emersons"
+      "name": "Emersons",
+      "id": "texts/aroomwithaview.txt#Emersons"
      },
      "causedBy": {
       "name": "Realizing_the_Emersons_had_left",
-      "takePlaceAt": {
-       "name": "In_the_carriage"
-      }
-     }
+      "id": "texts/aroomwithaview.txt#Realizing_the_Emersons_had_left"
+     },
+     "id": "Disappointment"
     },
     {
      "name": "Confusion",
      "hasIntensity": 0.7,
      "quote": "Not a word would come to her lips. Lucy selected a book—a volume of Old Testament commentaries. Holding it up to her eyes, she said: “I have no wish to discuss Italy or any subject connected with your son.”",
      "hasObject": {
-      "name": "Mr_Emerson"
+      "name": "Mr_Emerson",
+      "id": "texts/aroomwithaview.txt#Mr_Emerson"
      },
      "causedBy": {
       "name": "Meeting_Mr_Emerson",
-      "takePlaceAt": {
-       "name": "In_Mr_Beebe_s_study"
-      }
-     }
+      "id": "texts/aroomwithaview.txt#Meeting_Mr_Emerson"
+     },
+     "id": "Confusion"
     },
     {
      "name": "Disgust",
      "hasIntensity": 0.8,
      "quote": "Feeling a little steadier, she put the book back and turned round to him. His face was drooping and swollen, but his eyes, though they were sunken deep, gleamed with a child’s courage.",
      "hasObject": {
-      "name": "Mr_Emerson"
+      "name": "Mr_Emerson",
+      "id": "texts/aroomwithaview.txt#Mr_Emerson"
      },
      "causedBy": {
       "name": "Mr_Emerson_s_behavior",
-      "takePlaceAt": {
-       "name": "In_Mr_Beebe_s_study"
-      }
-     }
+      "id": "texts/aroomwithaview.txt#Mr_Emerson_s_behavior"
+     },
+     "id": "Disgust"
     }
-   ]
+   ],
+   "id": "texts/aroomwithaview.txt#Lucy_Honeychurch"
+  }
+ ],
+ "Events": [
+  {
+   "name": "Mother_s_accusations",
+   "takePlaceAt": {
+    "name": "Mother_s_accusations",
+    "id": "texts/aroomwithaview.txt#Mother_s_accusations"
+   },
+   "id": "texts/aroomwithaview.txt#Mother_s_accusations"
+  },
+  {
+   "name": "Realizing_the_Emersons_had_left",
+   "takePlaceAt": {
+    "name": "Realizing_the_Emersons_had_left",
+    "id": "texts/aroomwithaview.txt#Realizing_the_Emersons_had_left"
+   },
+   "id": "texts/aroomwithaview.txt#Realizing_the_Emersons_had_left"
+  },
+  {
+   "name": "Meeting_Mr_Emerson",
+   "takePlaceAt": {
+    "name": "Meeting_Mr_Emerson",
+    "id": "texts/aroomwithaview.txt#Meeting_Mr_Emerson"
+   },
+   "id": "texts/aroomwithaview.txt#Meeting_Mr_Emerson"
+  },
+  {
+   "name": "Mr_Emerson_s_behavior",
+   "takePlaceAt": {
+    "name": "Mr_Emerson_s_behavior",
+    "id": "texts/aroomwithaview.txt#Mr_Emerson_s_behavior"
+   },
+   "id": "texts/aroomwithaview.txt#Mr_Emerson_s_behavior"
+  }
+ ],
+ "Places": [
+  {
+   "name": "In_the_carriage",
+   "id": "texts/aroomwithaview.txt#In_the_carriage"
+  },
+  {
+   "name": "In_the_carriage",
+   "id": "texts/aroomwithaview.txt#In_the_carriage"
+  },
+  {
+   "name": "In_Mr_Beebe_s_study",
+   "id": "texts/aroomwithaview.txt#In_Mr_Beebe_s_study"
+  },
+  {
+   "name": "In_Mr_Beebe_s_study",
+   "id": "texts/aroomwithaview.txt#In_Mr_Beebe_s_study"
   }
  ]
 }

@@ -8,77 +8,127 @@
      "hasIntensity": 0.9,
      "quote": "They had a lovely Christmas. No rush. No scramble. No niggling attempts to make ends meet. No wild effort to remember whether she hadn’t given the same kind of present to the same person two Christmases before—no mob of last-minute shoppers—no dreary family “reunions” where she sat mute and unimportant—no attacks of “nerves.” They decorated the Blue Castle with pine boughs, and Valancy made delightful little tinsel stars and hung them up amid the greenery. She cooked a dinner to which Barney did full justice, while Good Luck and Banjo picked the bones.",
      "hasObject": {
-      "name": "Necklace_of_pearl_beads"
+      "name": "Necklace_of_pearl_beads",
+      "id": "texts/thebluecastle.txt#Necklace_of_pearl_beads"
      },
      "causedBy": {
       "name": "Christmas_celebration",
-      "takePlaceAt": {
-       "name": "Blue_Castle"
-      },
-      "hasParticipant": [
-       {
-        "name": "Valancy"
-       },
-       {
-        "name": "Barney"
-       },
-       {
-        "name": "Good_Luck"
-       },
-       {
-        "name": "Banjo"
-       }
-      ]
-     }
+      "id": "texts/thebluecastle.txt#Christmas_celebration"
+     },
+     "id": "Joy"
     },
     {
      "name": "Acceptance",
      "hasIntensity": 0.8,
      "quote": "Valancy had taken some of her two hundred dollars out of the bank and spent it in pretty clothes. She had a little smoke-blue chiffon which she always put on when they spent the evening at home—smoke-blue with touches of silver about it. It was after she began wearing it that Barney began calling her Moonlight.",
      "hasObject": {
-      "name": "Smokeblue_chiffon_dress"
+      "name": "Smokeblue_chiffon_dress",
+      "id": "texts/thebluecastle.txt#Smokeblue_chiffon_dress"
      },
      "causedBy": {
       "name": "Buying_pretty_clothes",
-      "takePlaceAt": {
-       "name": "Blue_Castle"
-      },
-      "hasParticipant": [
-       {
-        "name": "Valancy"
-       },
-       {
-        "name": "Barney"
-       }
-      ]
-     }
+      "id": "texts/thebluecastle.txt#Buying_pretty_clothes"
+     },
+     "id": "Acceptance"
     },
     {
      "name": "Love",
      "hasIntensity": 0.9,
      "quote": "It was very nice to feel a little Lucky cat jump up on your bed in the darkness and snuggle down at your feet, purring; but Banjo would be sitting dourly by himself out in front of the fire like a brooding demon. At such moments Banjo was anything but canny, but Valancy loved his uncanniness.",
      "hasObject": {
-      "name": "Feeling_of_companionship_and_comfort"
+      "name": "Feeling_of_companionship_and_comfort",
+      "id": "texts/thebluecastle.txt#Feeling_of_companionship_and_comfort"
      },
      "causedBy": {
       "name": "Feeling_comfort_and_companionship",
-      "takePlaceAt": {
-       "name": "Blue_Castle"
-      },
-      "hasParticipant": [
-       {
-        "name": "Valancy"
-       },
-       {
-        "name": "Lucky_cat"
-       },
-       {
-        "name": "Banjo"
-       }
-      ]
-     }
+      "id": "texts/thebluecastle.txt#Feeling_comfort_and_companionship"
+     },
+     "id": "Love"
     }
-   ]
+   ],
+   "id": "texts/thebluecastle.txt#Valancy"
+  }
+ ],
+ "Events": [
+  {
+   "name": "Christmas_celebration",
+   "takePlaceAt": {
+    "name": "Christmas_celebration",
+    "id": "texts/thebluecastle.txt#Christmas_celebration"
+   },
+   "hasParticipant": [
+    {
+     "name": "Valancy",
+     "id": "texts/thebluecastle.txt#Valancy"
+    },
+    {
+     "name": "Barney",
+     "id": "texts/thebluecastle.txt#Barney"
+    },
+    {
+     "name": "Good_Luck",
+     "id": "texts/thebluecastle.txt#Good_Luck"
+    },
+    {
+     "name": "Banjo",
+     "id": "texts/thebluecastle.txt#Banjo"
+    }
+   ],
+   "id": "texts/thebluecastle.txt#Christmas_celebration"
+  },
+  {
+   "name": "Buying_pretty_clothes",
+   "takePlaceAt": {
+    "name": "Buying_pretty_clothes",
+    "id": "texts/thebluecastle.txt#Buying_pretty_clothes"
+   },
+   "hasParticipant": [
+    {
+     "name": "Valancy",
+     "id": "texts/thebluecastle.txt#Valancy"
+    },
+    {
+     "name": "Barney",
+     "id": "texts/thebluecastle.txt#Barney"
+    }
+   ],
+   "id": "texts/thebluecastle.txt#Buying_pretty_clothes"
+  },
+  {
+   "name": "Feeling_comfort_and_companionship",
+   "takePlaceAt": {
+    "name": "Feeling_comfort_and_companionship",
+    "id": "texts/thebluecastle.txt#Feeling_comfort_and_companionship"
+   },
+   "hasParticipant": [
+    {
+     "name": "Valancy",
+     "id": "texts/thebluecastle.txt#Valancy"
+    },
+    {
+     "name": "Lucky_cat",
+     "id": "texts/thebluecastle.txt#Lucky_cat"
+    },
+    {
+     "name": "Banjo",
+     "id": "texts/thebluecastle.txt#Banjo"
+    }
+   ],
+   "id": "texts/thebluecastle.txt#Feeling_comfort_and_companionship"
+  }
+ ],
+ "Places": [
+  {
+   "name": "Blue_Castle",
+   "id": "texts/thebluecastle.txt#Blue_Castle"
+  },
+  {
+   "name": "Blue_Castle",
+   "id": "texts/thebluecastle.txt#Blue_Castle"
+  },
+  {
+   "name": "Blue_Castle",
+   "id": "texts/thebluecastle.txt#Blue_Castle"
   }
  ]
 }

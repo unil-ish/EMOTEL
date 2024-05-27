@@ -8,30 +8,31 @@
      "hasIntensity": 0.7,
      "quote": "Italy had quickened Cecil, not to tolerance, but to irritation. He saw that the local society was narrow, but, instead of saying, 'Does that very much matter?' he rebelled, and tried to substitute for it the society he called broad.",
      "hasObject": {
-      "name": "Local_society"
+      "name": "Local_society",
+      "id": "texts/aroomwithaview.txt#Local_society"
      },
      "causedBy": {
       "name": "Italy_quickening_Cecil",
-      "takePlaceAt": {
-       "name": "Italy"
-      }
-     }
+      "id": "texts/aroomwithaview.txt#Italy_quickening_Cecil"
+     },
+     "id": "Irritation"
     },
     {
      "name": "Disgust",
      "hasIntensity": 0.8,
      "quote": "He hated the physical violence of the young. How right it was! Sure enough it ended in a cry.",
      "hasObject": {
-      "name": "Physical_violence"
+      "name": "Physical_violence",
+      "id": "texts/aroomwithaview.txt#Physical_violence"
      },
      "causedBy": {
       "name": "Physical_violence_of_the_young",
-      "takePlaceAt": {
-       "name": "Playing_bumblepuppy"
-      }
-     }
+      "id": "texts/aroomwithaview.txt#Physical_violence_of_the_young"
+     },
+     "id": "Disgust"
     }
-   ]
+   ],
+   "id": "texts/aroomwithaview.txt#Cecil_Vyse"
   },
   {
    "name": "Lucy_Honeychurch",
@@ -41,30 +42,31 @@
      "hasIntensity": 0.6,
      "quote": "She was as scarlet as if he had put the thing most indelicately.",
      "hasObject": {
-      "name": "Cecil_asking_to_kiss_her"
+      "name": "Cecil_asking_to_kiss_her",
+      "id": "texts/aroomwithaview.txt#Cecil_asking_to_kiss_her"
      },
      "causedBy": {
       "name": "Cecil_asking_to_kiss_her",
-      "takePlaceAt": {
-       "name": "In_the_woods"
-      }
-     }
+      "id": "texts/aroomwithaview.txt#Cecil_asking_to_kiss_her"
+     },
+     "id": "Confusion"
     },
     {
      "name": "Anxiety",
      "hasIntensity": 0.7,
      "quote": "For instance, Freddy. Freddy was neither clever, nor subtle, nor beautiful, and what prevented Cecil from saying, any minute, 'It would be wrong not to loathe Freddy'?",
      "hasObject": {
-      "name": "Cecil_s_opinion_of_Freddy"
+      "name": "Cecil_s_opinion_of_Freddy",
+      "id": "texts/aroomwithaview.txt#Cecil_s_opinion_of_Freddy"
      },
      "causedBy": {
       "name": "Concern_about_Cecil_s_opinion_of_Freddy",
-      "takePlaceAt": {
-       "name": "In_the_woods"
-      }
-     }
+      "id": "texts/aroomwithaview.txt#Concern_about_Cecil_s_opinion_of_Freddy"
+     },
+     "id": "Anxiety"
     }
-   ]
+   ],
+   "id": "texts/aroomwithaview.txt#Lucy_Honeychurch"
   },
   {
    "name": "Mrs_Honeychurch",
@@ -74,16 +76,81 @@
      "hasIntensity": 0.8,
      "quote": "I'm quite uneasy at being always right so often.",
      "hasObject": {
-      "name": "Being_always_right"
+      "name": "Being_always_right",
+      "id": "texts/aroomwithaview.txt#Being_always_right"
      },
      "causedBy": {
       "name": "Feeling_always_right",
-      "takePlaceAt": {
-       "name": "Playing_bumblepuppy"
-      }
-     }
+      "id": "texts/aroomwithaview.txt#Feeling_always_right"
+     },
+     "id": "Uneasiness"
     }
-   ]
+   ],
+   "id": "texts/aroomwithaview.txt#Mrs_Honeychurch"
+  }
+ ],
+ "Events": [
+  {
+   "name": "Italy_quickening_Cecil",
+   "takePlaceAt": {
+    "name": "Italy_quickening_Cecil",
+    "id": "texts/aroomwithaview.txt#Italy_quickening_Cecil"
+   },
+   "id": "texts/aroomwithaview.txt#Italy_quickening_Cecil"
+  },
+  {
+   "name": "Physical_violence_of_the_young",
+   "takePlaceAt": {
+    "name": "Physical_violence_of_the_young",
+    "id": "texts/aroomwithaview.txt#Physical_violence_of_the_young"
+   },
+   "id": "texts/aroomwithaview.txt#Physical_violence_of_the_young"
+  },
+  {
+   "name": "Cecil_asking_to_kiss_her",
+   "takePlaceAt": {
+    "name": "Cecil_asking_to_kiss_her",
+    "id": "texts/aroomwithaview.txt#Cecil_asking_to_kiss_her"
+   },
+   "id": "texts/aroomwithaview.txt#Cecil_asking_to_kiss_her"
+  },
+  {
+   "name": "Concern_about_Cecil_s_opinion_of_Freddy",
+   "takePlaceAt": {
+    "name": "Concern_about_Cecil_s_opinion_of_Freddy",
+    "id": "texts/aroomwithaview.txt#Concern_about_Cecil_s_opinion_of_Freddy"
+   },
+   "id": "texts/aroomwithaview.txt#Concern_about_Cecil_s_opinion_of_Freddy"
+  },
+  {
+   "name": "Feeling_always_right",
+   "takePlaceAt": {
+    "name": "Feeling_always_right",
+    "id": "texts/aroomwithaview.txt#Feeling_always_right"
+   },
+   "id": "texts/aroomwithaview.txt#Feeling_always_right"
+  }
+ ],
+ "Places": [
+  {
+   "name": "Italy",
+   "id": "texts/aroomwithaview.txt#Italy"
+  },
+  {
+   "name": "Playing_bumblepuppy",
+   "id": "texts/aroomwithaview.txt#Playing_bumblepuppy"
+  },
+  {
+   "name": "In_the_woods",
+   "id": "texts/aroomwithaview.txt#In_the_woods"
+  },
+  {
+   "name": "In_the_woods",
+   "id": "texts/aroomwithaview.txt#In_the_woods"
+  },
+  {
+   "name": "Playing_bumblepuppy",
+   "id": "texts/aroomwithaview.txt#Playing_bumblepuppy"
   }
  ]
 }

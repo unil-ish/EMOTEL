@@ -8,138 +8,247 @@
      "hasIntensity": 0.7,
      "quote": "The tears came into her eyes as she lay there alone in the faintly greying darkness.",
      "hasObject": {
-      "name": "Feeling_unsought_by_any_man"
+      "name": "Feeling_unsought_by_any_man",
+      "id": "texts/thebluecastle.txt#Feeling_unsought_by_any_man"
      },
      "causedBy": {
       "name": "Feeling_unsought_by_any_man",
-      "takePlaceAt": {
-       "name": "Valancy_s_bedroom"
-      },
-      "hasParticipant": {
-       "name": "Valancy_Stirling"
-      }
-     }
+      "id": "texts/thebluecastle.txt#Feeling_unsought_by_any_man"
+     },
+     "id": "Anger"
     },
     {
      "name": "Sadness",
      "hasIntensity": 0.8,
      "quote": "The tears came into her eyes as she lay there alone in the faintly greying darkness.",
      "hasObject": {
-      "name": "Feeling_unsought_by_any_man"
+      "name": "Feeling_unsought_by_any_man",
+      "id": "texts/thebluecastle.txt#Feeling_unsought_by_any_man"
      },
      "causedBy": {
       "name": "Feeling_unsought_by_any_man",
-      "takePlaceAt": {
-       "name": "Valancy_s_bedroom"
-      },
-      "hasParticipant": {
-       "name": "Valancy_Stirling"
-      }
-     }
+      "id": "texts/thebluecastle.txt#Feeling_unsought_by_any_man"
+     },
+     "id": "Sadness"
     },
     {
      "name": "Disgust",
      "hasIntensity": 0.6,
      "quote": "She knew the ugliness of that room by heart—knew it and hated it.",
      "hasObject": {
-      "name": "Ugly_room"
+      "name": "Ugly_room",
+      "id": "texts/thebluecastle.txt#Ugly_room"
      },
      "causedBy": {
       "name": "Feeling_unsought_by_any_man",
-      "takePlaceAt": {
-       "name": "Valancy_s_bedroom"
-      },
-      "hasParticipant": {
-       "name": "Valancy_Stirling"
-      }
-     }
+      "id": "texts/thebluecastle.txt#Feeling_unsought_by_any_man"
+     },
+     "id": "Disgust"
     },
     {
      "name": "Fear",
      "hasIntensity": 0.9,
      "quote": "The room was bitterly cold with the raw, penetrating chill of a wet May morning.",
      "hasObject": {
-      "name": "Cold_room"
+      "name": "Cold_room",
+      "id": "texts/thebluecastle.txt#Cold_room"
      },
      "causedBy": {
       "name": "Feeling_unsought_by_any_man",
-      "takePlaceAt": {
-       "name": "Valancy_s_bedroom"
-      },
-      "hasParticipant": {
-       "name": "Valancy_Stirling"
-      }
-     }
+      "id": "texts/thebluecastle.txt#Feeling_unsought_by_any_man"
+     },
+     "id": "Fear"
     },
     {
      "name": "Rebellion",
      "hasIntensity": 0.7,
      "quote": "Valancy was once more seething with rebellion as she walked along.",
      "hasObject": {
-      "name": "Rebellion"
+      "name": "Rebellion",
+      "id": "texts/thebluecastle.txt#Rebellion"
      },
      "causedBy": {
       "name": "Feeling_unsought_by_any_man",
-      "takePlaceAt": {
-       "name": "Walking_along_the_street"
-      },
-      "hasParticipant": {
-       "name": "Valancy_Stirling"
-      }
-     }
+      "id": "texts/thebluecastle.txt#Feeling_unsought_by_any_man"
+     },
+     "id": "Rebellion"
     },
     {
      "name": "Regret",
      "hasIntensity": 0.8,
      "quote": "Valancy was sorry by the time she reached the next crossing.",
      "hasObject": {
-      "name": "Feeling_sorry"
+      "name": "Feeling_sorry",
+      "id": "texts/thebluecastle.txt#Feeling_sorry"
      },
      "causedBy": {
       "name": "Feeling_unsought_by_any_man",
-      "takePlaceAt": {
-       "name": "Next_crossing"
-      },
-      "hasParticipant": {
-       "name": "Valancy_Stirling"
-      }
-     }
+      "id": "texts/thebluecastle.txt#Feeling_unsought_by_any_man"
+     },
+     "id": "Regret"
     },
     {
      "name": "Shame",
      "hasIntensity": 0.7,
      "quote": "Valancy smarted anew with the sting of that old recollection.",
      "hasObject": {
-      "name": "Old_recollection"
+      "name": "Old_recollection",
+      "id": "texts/thebluecastle.txt#Old_recollection"
      },
      "causedBy": {
       "name": "Feeling_unsought_by_any_man",
-      "takePlaceAt": {
-       "name": "Walking_along_the_street"
-      },
-      "hasParticipant": {
-       "name": "Valancy_Stirling"
-      }
-     }
+      "id": "texts/thebluecastle.txt#Feeling_unsought_by_any_man"
+     },
+     "id": "Shame"
     },
     {
      "name": "Realization",
      "hasIntensity": 0.9,
      "quote": "Valancy shut _Magic of Wings_ and stood up. She would go and see Dr. Trent.",
      "hasObject": {
-      "name": "Going_to_see_Dr_Trent"
+      "name": "Going_to_see_Dr_Trent",
+      "id": "texts/thebluecastle.txt#Going_to_see_Dr_Trent"
      },
      "causedBy": {
       "name": "Reading_John_Foster_s_book",
-      "takePlaceAt": {
-       "name": "Library"
-      },
-      "hasParticipant": {
-       "name": "Valancy_Stirling"
-      }
-     }
+      "id": "texts/thebluecastle.txt#Reading_John_Foster_s_book"
+     },
+     "id": "Realization"
     }
-   ]
+   ],
+   "id": "texts/thebluecastle.txt#Valancy_Stirling"
+  }
+ ],
+ "Events": [
+  {
+   "name": "Feeling_unsought_by_any_man",
+   "takePlaceAt": {
+    "name": "Feeling_unsought_by_any_man",
+    "id": "texts/thebluecastle.txt#Feeling_unsought_by_any_man"
+   },
+   "hasParticipant": {
+    "name": "Valancy_Stirling",
+    "id": "texts/thebluecastle.txt#Valancy_Stirling"
+   },
+   "id": "texts/thebluecastle.txt#Feeling_unsought_by_any_man"
+  },
+  {
+   "name": "Feeling_unsought_by_any_man",
+   "takePlaceAt": {
+    "name": "Feeling_unsought_by_any_man",
+    "id": "texts/thebluecastle.txt#Feeling_unsought_by_any_man"
+   },
+   "hasParticipant": {
+    "name": "Valancy_Stirling",
+    "id": "texts/thebluecastle.txt#Valancy_Stirling"
+   },
+   "id": "texts/thebluecastle.txt#Feeling_unsought_by_any_man"
+  },
+  {
+   "name": "Feeling_unsought_by_any_man",
+   "takePlaceAt": {
+    "name": "Feeling_unsought_by_any_man",
+    "id": "texts/thebluecastle.txt#Feeling_unsought_by_any_man"
+   },
+   "hasParticipant": {
+    "name": "Valancy_Stirling",
+    "id": "texts/thebluecastle.txt#Valancy_Stirling"
+   },
+   "id": "texts/thebluecastle.txt#Feeling_unsought_by_any_man"
+  },
+  {
+   "name": "Feeling_unsought_by_any_man",
+   "takePlaceAt": {
+    "name": "Feeling_unsought_by_any_man",
+    "id": "texts/thebluecastle.txt#Feeling_unsought_by_any_man"
+   },
+   "hasParticipant": {
+    "name": "Valancy_Stirling",
+    "id": "texts/thebluecastle.txt#Valancy_Stirling"
+   },
+   "id": "texts/thebluecastle.txt#Feeling_unsought_by_any_man"
+  },
+  {
+   "name": "Feeling_unsought_by_any_man",
+   "takePlaceAt": {
+    "name": "Feeling_unsought_by_any_man",
+    "id": "texts/thebluecastle.txt#Feeling_unsought_by_any_man"
+   },
+   "hasParticipant": {
+    "name": "Valancy_Stirling",
+    "id": "texts/thebluecastle.txt#Valancy_Stirling"
+   },
+   "id": "texts/thebluecastle.txt#Feeling_unsought_by_any_man"
+  },
+  {
+   "name": "Feeling_unsought_by_any_man",
+   "takePlaceAt": {
+    "name": "Feeling_unsought_by_any_man",
+    "id": "texts/thebluecastle.txt#Feeling_unsought_by_any_man"
+   },
+   "hasParticipant": {
+    "name": "Valancy_Stirling",
+    "id": "texts/thebluecastle.txt#Valancy_Stirling"
+   },
+   "id": "texts/thebluecastle.txt#Feeling_unsought_by_any_man"
+  },
+  {
+   "name": "Feeling_unsought_by_any_man",
+   "takePlaceAt": {
+    "name": "Feeling_unsought_by_any_man",
+    "id": "texts/thebluecastle.txt#Feeling_unsought_by_any_man"
+   },
+   "hasParticipant": {
+    "name": "Valancy_Stirling",
+    "id": "texts/thebluecastle.txt#Valancy_Stirling"
+   },
+   "id": "texts/thebluecastle.txt#Feeling_unsought_by_any_man"
+  },
+  {
+   "name": "Reading_John_Foster_s_book",
+   "takePlaceAt": {
+    "name": "Reading_John_Foster_s_book",
+    "id": "texts/thebluecastle.txt#Reading_John_Foster_s_book"
+   },
+   "hasParticipant": {
+    "name": "Valancy_Stirling",
+    "id": "texts/thebluecastle.txt#Valancy_Stirling"
+   },
+   "id": "texts/thebluecastle.txt#Reading_John_Foster_s_book"
+  }
+ ],
+ "Places": [
+  {
+   "name": "Valancy_s_bedroom",
+   "id": "texts/thebluecastle.txt#Valancy_s_bedroom"
+  },
+  {
+   "name": "Valancy_s_bedroom",
+   "id": "texts/thebluecastle.txt#Valancy_s_bedroom"
+  },
+  {
+   "name": "Valancy_s_bedroom",
+   "id": "texts/thebluecastle.txt#Valancy_s_bedroom"
+  },
+  {
+   "name": "Valancy_s_bedroom",
+   "id": "texts/thebluecastle.txt#Valancy_s_bedroom"
+  },
+  {
+   "name": "Walking_along_the_street",
+   "id": "texts/thebluecastle.txt#Walking_along_the_street"
+  },
+  {
+   "name": "Next_crossing",
+   "id": "texts/thebluecastle.txt#Next_crossing"
+  },
+  {
+   "name": "Walking_along_the_street",
+   "id": "texts/thebluecastle.txt#Walking_along_the_street"
+  },
+  {
+   "name": "Library",
+   "id": "texts/thebluecastle.txt#Library"
   }
  ]
 }

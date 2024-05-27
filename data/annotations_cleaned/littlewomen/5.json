@@ -8,44 +8,45 @@
      "hasIntensity": 0.7,
      "quote": "There was a queer smile about Mr. Brooke's mouth as he opened at poor Mary's lament.",
      "hasObject": {
-      "name": "Frank"
+      "name": "Frank",
+      "id": "texts/littlewomen.txt#Frank"
      },
      "causedBy": {
       "name": "Beth_s_innocent_blunder",
-      "takePlaceAt": {
-       "name": "Conversation_with_Frank"
-      }
-     }
+      "id": "texts/littlewomen.txt#Beth_s_innocent_blunder"
+     },
+     "id": "Embarrassment"
     },
     {
      "name": "Shyness",
      "hasIntensity": 0.8,
      "quote": "I'm afraid you are tired; can I do anything for you?",
      "hasObject": {
-      "name": "Frank"
+      "name": "Frank",
+      "id": "texts/littlewomen.txt#Frank"
      },
      "causedBy": {
       "name": "Feeling_sorry_for_Frank",
-      "takePlaceAt": {
-       "name": "Conversation_with_Frank"
-      }
-     }
+      "id": "texts/littlewomen.txt#Feeling_sorry_for_Frank"
+     },
+     "id": "Shyness"
     },
     {
      "name": "Friendliness",
      "hasIntensity": 0.9,
      "quote": "I'm afraid you are tired; can I do anything for you?",
      "hasObject": {
-      "name": "Frank"
+      "name": "Frank",
+      "id": "texts/littlewomen.txt#Frank"
      },
      "causedBy": {
       "name": "Feeling_sorry_for_Frank",
-      "takePlaceAt": {
-       "name": "Conversation_with_Frank"
-      }
-     }
+      "id": "texts/littlewomen.txt#Feeling_sorry_for_Frank"
+     },
+     "id": "Friendliness"
     }
-   ]
+   ],
+   "id": "texts/littlewomen.txt#Beth"
   },
   {
    "name": "Meg",
@@ -55,44 +56,45 @@
      "hasIntensity": 0.7,
      "quote": "Meg's lips asked that question, but her eyes added, 'And what becomes of you?'",
      "hasObject": {
-      "name": "Mr_Brooke"
+      "name": "Mr_Brooke",
+      "id": "texts/littlewomen.txt#Mr_Brooke"
      },
      "causedBy": {
       "name": "Feeling_annoyed_by_Mr_Brooke_s_plans",
-      "takePlaceAt": {
-       "name": "Conversation_with_Mr_Brooke"
-      }
-     }
+      "id": "texts/littlewomen.txt#Feeling_annoyed_by_Mr_Brooke_s_plans"
+     },
+     "id": "Annoyance"
     },
     {
      "name": "Pride",
      "hasIntensity": 0.8,
      "quote": "Meg's lips asked that question, but her eyes added, 'And what becomes of you?'",
      "hasObject": {
-      "name": "Mr_Brooke"
+      "name": "Mr_Brooke",
+      "id": "texts/littlewomen.txt#Mr_Brooke"
      },
      "causedBy": {
       "name": "Feeling_proud_of_her_own_independence",
-      "takePlaceAt": {
-       "name": "Conversation_with_Mr_Brooke"
-      }
-     }
+      "id": "texts/littlewomen.txt#Feeling_proud_of_her_own_independence"
+     },
+     "id": "Pride"
     },
     {
      "name": "Satisfaction",
      "hasIntensity": 0.9,
      "quote": "Oh, yes! it was very sweet, and I'm much obliged to whoever translated it for me;",
      "hasObject": {
-      "name": "German_song_translation"
+      "name": "German_song_translation",
+      "id": "texts/littlewomen.txt#German_song_translation"
      },
      "causedBy": {
       "name": "Feeling_satisfied_with_the_German_song_translation",
-      "takePlaceAt": {
-       "name": "Conversation_with_Mr_Brooke"
-      }
-     }
+      "id": "texts/littlewomen.txt#Feeling_satisfied_with_the_German_song_translation"
+     },
+     "id": "Satisfaction"
     }
-   ]
+   ],
+   "id": "texts/littlewomen.txt#Meg"
   },
   {
    "name": "Laurie",
@@ -102,44 +104,157 @@
      "hasIntensity": 0.8,
      "quote": "He was in one of his moods; for the day had been both unprofitable and unsatisfactory, and he was wishing he could live it over again.",
      "hasObject": {
-      "name": "Day"
+      "name": "Day",
+      "id": "texts/littlewomen.txt#Day"
      },
      "causedBy": {
       "name": "Feeling_lazy_and_unproductive",
-      "takePlaceAt": {
-       "name": "Afternoon_in_the_hammock"
-      }
-     }
+      "id": "texts/littlewomen.txt#Feeling_lazy_and_unproductive"
+     },
+     "id": "Indolence"
     },
     {
      "name": "Curiosity",
      "hasIntensity": 0.9,
      "quote": "What in the world are those girls about now?",
      "hasObject": {
-      "name": "Marches_activities"
+      "name": "Marches_activities",
+      "id": "texts/littlewomen.txt#Marches_activities"
      },
      "causedBy": {
       "name": "Curiosity_about_the_Marches_activities",
-      "takePlaceAt": {
-       "name": "Observing_the_Marches"
-      }
-     }
+      "id": "texts/littlewomen.txt#Curiosity_about_the_Marches_activities"
+     },
+     "id": "Curiosity"
     },
     {
      "name": "Disappointment",
      "hasIntensity": 0.7,
      "quote": "They can't be going in the boat, for they haven't got the key. Perhaps they forgot it; I'll take it to them, and see what's going on.",
      "hasObject": {
-      "name": "Picnic"
+      "name": "Picnic",
+      "id": "texts/littlewomen.txt#Picnic"
      },
      "causedBy": {
       "name": "Feeling_left_out_of_the_picnic",
-      "takePlaceAt": {
-       "name": "Observing_the_Marches"
-      }
-     }
+      "id": "texts/littlewomen.txt#Feeling_left_out_of_the_picnic"
+     },
+     "id": "Disappointment"
     }
-   ]
+   ],
+   "id": "texts/littlewomen.txt#Laurie"
+  }
+ ],
+ "Events": [
+  {
+   "name": "Beth_s_innocent_blunder",
+   "takePlaceAt": {
+    "name": "Beth_s_innocent_blunder",
+    "id": "texts/littlewomen.txt#Beth_s_innocent_blunder"
+   },
+   "id": "texts/littlewomen.txt#Beth_s_innocent_blunder"
+  },
+  {
+   "name": "Feeling_sorry_for_Frank",
+   "takePlaceAt": {
+    "name": "Feeling_sorry_for_Frank",
+    "id": "texts/littlewomen.txt#Feeling_sorry_for_Frank"
+   },
+   "id": "texts/littlewomen.txt#Feeling_sorry_for_Frank"
+  },
+  {
+   "name": "Feeling_sorry_for_Frank",
+   "takePlaceAt": {
+    "name": "Feeling_sorry_for_Frank",
+    "id": "texts/littlewomen.txt#Feeling_sorry_for_Frank"
+   },
+   "id": "texts/littlewomen.txt#Feeling_sorry_for_Frank"
+  },
+  {
+   "name": "Feeling_annoyed_by_Mr_Brooke_s_plans",
+   "takePlaceAt": {
+    "name": "Feeling_annoyed_by_Mr_Brooke_s_plans",
+    "id": "texts/littlewomen.txt#Feeling_annoyed_by_Mr_Brooke_s_plans"
+   },
+   "id": "texts/littlewomen.txt#Feeling_annoyed_by_Mr_Brooke_s_plans"
+  },
+  {
+   "name": "Feeling_proud_of_her_own_independence",
+   "takePlaceAt": {
+    "name": "Feeling_proud_of_her_own_independence",
+    "id": "texts/littlewomen.txt#Feeling_proud_of_her_own_independence"
+   },
+   "id": "texts/littlewomen.txt#Feeling_proud_of_her_own_independence"
+  },
+  {
+   "name": "Feeling_satisfied_with_the_German_song_translation",
+   "takePlaceAt": {
+    "name": "Feeling_satisfied_with_the_German_song_translation",
+    "id": "texts/littlewomen.txt#Feeling_satisfied_with_the_German_song_translation"
+   },
+   "id": "texts/littlewomen.txt#Feeling_satisfied_with_the_German_song_translation"
+  },
+  {
+   "name": "Feeling_lazy_and_unproductive",
+   "takePlaceAt": {
+    "name": "Feeling_lazy_and_unproductive",
+    "id": "texts/littlewomen.txt#Feeling_lazy_and_unproductive"
+   },
+   "id": "texts/littlewomen.txt#Feeling_lazy_and_unproductive"
+  },
+  {
+   "name": "Curiosity_about_the_Marches_activities",
+   "takePlaceAt": {
+    "name": "Curiosity_about_the_Marches_activities",
+    "id": "texts/littlewomen.txt#Curiosity_about_the_Marches_activities"
+   },
+   "id": "texts/littlewomen.txt#Curiosity_about_the_Marches_activities"
+  },
+  {
+   "name": "Feeling_left_out_of_the_picnic",
+   "takePlaceAt": {
+    "name": "Feeling_left_out_of_the_picnic",
+    "id": "texts/littlewomen.txt#Feeling_left_out_of_the_picnic"
+   },
+   "id": "texts/littlewomen.txt#Feeling_left_out_of_the_picnic"
+  }
+ ],
+ "Places": [
+  {
+   "name": "Conversation_with_Frank",
+   "id": "texts/littlewomen.txt#Conversation_with_Frank"
+  },
+  {
+   "name": "Conversation_with_Frank",
+   "id": "texts/littlewomen.txt#Conversation_with_Frank"
+  },
+  {
+   "name": "Conversation_with_Frank",
+   "id": "texts/littlewomen.txt#Conversation_with_Frank"
+  },
+  {
+   "name": "Conversation_with_Mr_Brooke",
+   "id": "texts/littlewomen.txt#Conversation_with_Mr_Brooke"
+  },
+  {
+   "name": "Conversation_with_Mr_Brooke",
+   "id": "texts/littlewomen.txt#Conversation_with_Mr_Brooke"
+  },
+  {
+   "name": "Conversation_with_Mr_Brooke",
+   "id": "texts/littlewomen.txt#Conversation_with_Mr_Brooke"
+  },
+  {
+   "name": "Afternoon_in_the_hammock",
+   "id": "texts/littlewomen.txt#Afternoon_in_the_hammock"
+  },
+  {
+   "name": "Observing_the_Marches",
+   "id": "texts/littlewomen.txt#Observing_the_Marches"
+  },
+  {
+   "name": "Observing_the_Marches",
+   "id": "texts/littlewomen.txt#Observing_the_Marches"
   }
  ]
 }

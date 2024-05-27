@@ -8,66 +8,45 @@
      "hasIntensity": 0.9,
      "quote": "It was good to see Laurie square his shoulders, and smile with masculine scorn at that insinuation, as he replied, with his 'high and mighty' air,--",
      "hasObject": {
-      "name": "Laurie_s_declaration"
+      "name": "Laurie_s_declaration",
+      "id": "texts/littlewomen.txt#Laurie_s_declaration"
      },
      "causedBy": {
       "name": "Laurie_s_declaration_of_love_for_Amy_and_friendship_for_Jo",
-      "takePlaceAt": {
-       "name": "Jo_s_home"
-      },
-      "hasParticipant": [
-       {
-        "name": "Jo_March"
-       },
-       {
-        "name": "Laurie"
-       }
-      ]
-     }
+      "id": "texts/littlewomen.txt#Laurie_s_declaration_of_love_for_Amy_and_friendshi"
+     },
+     "id": "Joy"
     },
     {
      "name": "Sadness",
      "hasIntensity": 0.7,
      "quote": "No, I had father and mother to help me, the dear babies to comfort me, and the thought that you and Amy were safe and happy, to make the troubles here easier to bear. I am lonely, sometimes, but I dare say it's good for me, and--",
      "hasObject": {
-      "name": "Feeling_of_loneliness"
+      "name": "Feeling_of_loneliness",
+      "id": "texts/littlewomen.txt#Feeling_of_loneliness"
      },
      "causedBy": {
       "name": "Feeling_of_loneliness_and_longing_for_the_past",
-      "takePlaceAt": {
-       "name": "Jo_s_home"
-      },
-      "hasParticipant": {
-       "name": "Jo_March"
-      }
-     }
+      "id": "texts/littlewomen.txt#Feeling_of_loneliness_and_longing_for_the_past"
+     },
+     "id": "Sadness"
     },
     {
      "name": "Contentment",
      "hasIntensity": 0.8,
      "quote": "It was good to see him beam at 'my children,' as he called the young pair; it was better still to see Amy pay him the daughterly duty and affection which completely won his old heart; and best of all, to watch Laurie revolve about the two, as if never tired of enjoying the pretty picture they made.",
      "hasObject": {
-      "name": "Family_reunion"
+      "name": "Family_reunion",
+      "id": "texts/littlewomen.txt#Family_reunion"
      },
      "causedBy": {
       "name": "Family_reunion",
-      "takePlaceAt": {
-       "name": "Jo_s_home"
-      },
-      "hasParticipant": [
-       {
-        "name": "Jo_March"
-       },
-       {
-        "name": "Laurie"
-       },
-       {
-        "name": "Amy"
-       }
-      ]
-     }
+      "id": "texts/littlewomen.txt#Family_reunion"
+     },
+     "id": "Contentment"
     }
-   ]
+   ],
+   "id": "texts/littlewomen.txt#Jo_March"
   },
   {
    "name": "Laurie",
@@ -77,71 +56,45 @@
      "hasIntensity": 0.9,
      "quote": "It was good to see Laurie square his shoulders, and smile with masculine scorn at that insinuation, as he replied, with his 'high and mighty' air,--",
      "hasObject": {
-      "name": "Jo_s_teasing"
+      "name": "Jo_s_teasing",
+      "id": "texts/littlewomen.txt#Jo_s_teasing"
      },
      "causedBy": {
       "name": "Jo_s_teasing_and_banter",
-      "takePlaceAt": {
-       "name": "Jo_s_home"
-      },
-      "hasParticipant": [
-       {
-        "name": "Jo_March"
-       },
-       {
-        "name": "Laurie"
-       }
-      ]
-     }
+      "id": "texts/littlewomen.txt#Jo_s_teasing_and_banter"
+     },
+     "id": "Joy"
     },
     {
      "name": "Contentment",
      "hasIntensity": 0.8,
      "quote": "It was good to see him beam at 'my children,' as he called the young pair; it was better still to see Amy pay him the daughterly duty and affection which completely won his old heart; and best of all, to watch Laurie revolve about the two, as if never tired of enjoying the pretty picture they made.",
      "hasObject": {
-      "name": "Family_reunion"
+      "name": "Family_reunion",
+      "id": "texts/littlewomen.txt#Family_reunion"
      },
      "causedBy": {
       "name": "Family_reunion",
-      "takePlaceAt": {
-       "name": "Jo_s_home"
-      },
-      "hasParticipant": [
-       {
-        "name": "Jo_March"
-       },
-       {
-        "name": "Laurie"
-       },
-       {
-        "name": "Amy"
-       }
-      ]
-     }
+      "id": "texts/littlewomen.txt#Family_reunion"
+     },
+     "id": "Contentment"
     },
     {
      "name": "Remorse",
      "hasIntensity": 0.7,
      "quote": "How good it sounds to hear you say 'Teddy'! No one ever calls me that but you;",
      "hasObject": {
-      "name": "Jo_s_forgiveness"
+      "name": "Jo_s_forgiveness",
+      "id": "texts/littlewomen.txt#Jo_s_forgiveness"
      },
      "causedBy": {
       "name": "Jo_s_forgiveness_and_acceptance_of_Laurie_s_changed_feelings",
-      "takePlaceAt": {
-       "name": "Jo_s_home"
-      },
-      "hasParticipant": [
-       {
-        "name": "Jo_March"
-       },
-       {
-        "name": "Laurie"
-       }
-      ]
-     }
+      "id": "texts/littlewomen.txt#Jo_s_forgiveness_and_acceptance_of_Laurie_s_change"
+     },
+     "id": "Remorse"
     }
-   ]
+   ],
+   "id": "texts/littlewomen.txt#Laurie"
   },
   {
    "name": "Amy",
@@ -151,36 +104,201 @@
      "hasIntensity": 0.9,
      "quote": "For Amy's face was full of the soft brightness which betokens a peaceful heart, her voice had a new tenderness in it, and the cool, prim carriage was changed to a gentle dignity, both womanly and winning.",
      "hasObject": {
-      "name": "Family_reunion"
+      "name": "Family_reunion",
+      "id": "texts/littlewomen.txt#Family_reunion"
      },
      "causedBy": {
       "name": "Family_reunion",
-      "takePlaceAt": {
-       "name": "Jo_s_home"
-      },
-      "hasParticipant": {
-       "name": "Amy"
-      }
-     }
+      "id": "texts/littlewomen.txt#Family_reunion"
+     },
+     "id": "Contentment"
     },
     {
      "name": "Love",
      "hasIntensity": 0.8,
      "quote": "Love has done much for our little girl,' said her mother softly.",
      "hasObject": {
-      "name": "Family_reunion"
+      "name": "Family_reunion",
+      "id": "texts/littlewomen.txt#Family_reunion"
      },
      "causedBy": {
       "name": "Family_reunion",
-      "takePlaceAt": {
-       "name": "Jo_s_home"
-      },
-      "hasParticipant": {
-       "name": "Amy"
-      }
-     }
+      "id": "texts/littlewomen.txt#Family_reunion"
+     },
+     "id": "Love"
     }
-   ]
+   ],
+   "id": "texts/littlewomen.txt#Amy"
+  }
+ ],
+ "Events": [
+  {
+   "name": "Laurie_s_declaration_of_love_for_Amy_and_friendship_for_Jo",
+   "takePlaceAt": {
+    "name": "Laurie_s_declaration_of_love_for_Amy_and_friendship_for_Jo",
+    "id": "texts/littlewomen.txt#Laurie_s_declaration_of_love_for_Amy_and_friendshi"
+   },
+   "hasParticipant": [
+    {
+     "name": "Jo_March",
+     "id": "texts/littlewomen.txt#Jo_March"
+    },
+    {
+     "name": "Laurie",
+     "id": "texts/littlewomen.txt#Laurie"
+    }
+   ],
+   "id": "texts/littlewomen.txt#Laurie_s_declaration_of_love_for_Amy_and_friendshi"
+  },
+  {
+   "name": "Feeling_of_loneliness_and_longing_for_the_past",
+   "takePlaceAt": {
+    "name": "Feeling_of_loneliness_and_longing_for_the_past",
+    "id": "texts/littlewomen.txt#Feeling_of_loneliness_and_longing_for_the_past"
+   },
+   "hasParticipant": {
+    "name": "Jo_March",
+    "id": "texts/littlewomen.txt#Jo_March"
+   },
+   "id": "texts/littlewomen.txt#Feeling_of_loneliness_and_longing_for_the_past"
+  },
+  {
+   "name": "Family_reunion",
+   "takePlaceAt": {
+    "name": "Family_reunion",
+    "id": "texts/littlewomen.txt#Family_reunion"
+   },
+   "hasParticipant": [
+    {
+     "name": "Jo_March",
+     "id": "texts/littlewomen.txt#Jo_March"
+    },
+    {
+     "name": "Laurie",
+     "id": "texts/littlewomen.txt#Laurie"
+    },
+    {
+     "name": "Amy",
+     "id": "texts/littlewomen.txt#Amy"
+    }
+   ],
+   "id": "texts/littlewomen.txt#Family_reunion"
+  },
+  {
+   "name": "Jo_s_teasing_and_banter",
+   "takePlaceAt": {
+    "name": "Jo_s_teasing_and_banter",
+    "id": "texts/littlewomen.txt#Jo_s_teasing_and_banter"
+   },
+   "hasParticipant": [
+    {
+     "name": "Jo_March",
+     "id": "texts/littlewomen.txt#Jo_March"
+    },
+    {
+     "name": "Laurie",
+     "id": "texts/littlewomen.txt#Laurie"
+    }
+   ],
+   "id": "texts/littlewomen.txt#Jo_s_teasing_and_banter"
+  },
+  {
+   "name": "Family_reunion",
+   "takePlaceAt": {
+    "name": "Family_reunion",
+    "id": "texts/littlewomen.txt#Family_reunion"
+   },
+   "hasParticipant": [
+    {
+     "name": "Jo_March",
+     "id": "texts/littlewomen.txt#Jo_March"
+    },
+    {
+     "name": "Laurie",
+     "id": "texts/littlewomen.txt#Laurie"
+    },
+    {
+     "name": "Amy",
+     "id": "texts/littlewomen.txt#Amy"
+    }
+   ],
+   "id": "texts/littlewomen.txt#Family_reunion"
+  },
+  {
+   "name": "Jo_s_forgiveness_and_acceptance_of_Laurie_s_changed_feelings",
+   "takePlaceAt": {
+    "name": "Jo_s_forgiveness_and_acceptance_of_Laurie_s_changed_feelings",
+    "id": "texts/littlewomen.txt#Jo_s_forgiveness_and_acceptance_of_Laurie_s_change"
+   },
+   "hasParticipant": [
+    {
+     "name": "Jo_March",
+     "id": "texts/littlewomen.txt#Jo_March"
+    },
+    {
+     "name": "Laurie",
+     "id": "texts/littlewomen.txt#Laurie"
+    }
+   ],
+   "id": "texts/littlewomen.txt#Jo_s_forgiveness_and_acceptance_of_Laurie_s_change"
+  },
+  {
+   "name": "Family_reunion",
+   "takePlaceAt": {
+    "name": "Family_reunion",
+    "id": "texts/littlewomen.txt#Family_reunion"
+   },
+   "hasParticipant": {
+    "name": "Amy",
+    "id": "texts/littlewomen.txt#Amy"
+   },
+   "id": "texts/littlewomen.txt#Family_reunion"
+  },
+  {
+   "name": "Family_reunion",
+   "takePlaceAt": {
+    "name": "Family_reunion",
+    "id": "texts/littlewomen.txt#Family_reunion"
+   },
+   "hasParticipant": {
+    "name": "Amy",
+    "id": "texts/littlewomen.txt#Amy"
+   },
+   "id": "texts/littlewomen.txt#Family_reunion"
+  }
+ ],
+ "Places": [
+  {
+   "name": "Jo_s_home",
+   "id": "texts/littlewomen.txt#Jo_s_home"
+  },
+  {
+   "name": "Jo_s_home",
+   "id": "texts/littlewomen.txt#Jo_s_home"
+  },
+  {
+   "name": "Jo_s_home",
+   "id": "texts/littlewomen.txt#Jo_s_home"
+  },
+  {
+   "name": "Jo_s_home",
+   "id": "texts/littlewomen.txt#Jo_s_home"
+  },
+  {
+   "name": "Jo_s_home",
+   "id": "texts/littlewomen.txt#Jo_s_home"
+  },
+  {
+   "name": "Jo_s_home",
+   "id": "texts/littlewomen.txt#Jo_s_home"
+  },
+  {
+   "name": "Jo_s_home",
+   "id": "texts/littlewomen.txt#Jo_s_home"
+  },
+  {
+   "name": "Jo_s_home",
+   "id": "texts/littlewomen.txt#Jo_s_home"
   }
  ]
 }
