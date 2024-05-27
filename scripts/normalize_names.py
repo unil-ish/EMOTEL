@@ -56,10 +56,6 @@ def normalize_obj_name(obj) -> None:
     return
 
 
-def has_id_or_name_key(d):
-    return set(["id", "name"]).intersection(d.keys())
-
-
 def clean_annotation_names(annotations) -> None:
     """Normalise les clés 'name' de tous les objets concernés dans les annotations.
 
@@ -69,6 +65,9 @@ def clean_annotation_names(annotations) -> None:
     Returns:
         None
     """
+
+    def has_id_or_name_key(d):
+        return set(["id", "name"]).intersection(d.keys())
 
     # utilisation d'une fonction (récursive) qui trouve tous les objets JSON (dict) qui ont au moins l'une des clés ['id', 'name'], et applique sur ces objets la fonction de normalisation.
     dict_iter_rec(
@@ -97,7 +96,8 @@ def clean_annotation_names(annotations) -> None:
             fn_apply=replace_ersatz_with_key,
         )
 
-    # enfin, dernière modification: certaines propriétés qui devraient être des objets JSON (des dicts) n'en sont pas (par exemple, sont des str). les enlever tout simplement, pour éviter des erreurs futurs.
+    # enfin, dernière modification: certaines propriétés qui devraient être des objets JSON (des dicts) n'en sont pas (par exemple, sont des str). s'il s'agit d'une string, on la remplace par un dict qui associe sa valeur à la clé 'name', s'il s'agit d'une liste et qu'il n'y a qu'un élément, alors on la remplace par ce premier élément.
+    # les autres très rares cas sont des listes à plusieurs éléments, en fait, ce qui aurait été intéressant est d'en avoir d'avantage, en particulier pour 'hasParticipant' qui devrait souvent avoir une liste comme valeur. c'est probablement une amélioration possible de notre prompt.
     properties = set(
         [
             "hasObject",
@@ -112,8 +112,17 @@ def clean_annotation_names(annotations) -> None:
 
     def remove_nodict_prop(d):
         for p in properties:
-            if p in d.keys() and not isinstance(d[p], dict):
-                d.pop(p)
+            if p in d.keys():
+                obj = d[p]
+                if isinstance(obj, list):
+                    if len(obj) == 1:
+                        d[p] = obj[0]
+                    else:
+                        pass
+                elif isinstance(obj, str):
+                    d[p] = {"name": obj}
+                else:
+                    d.pop(p)
 
     dict_iter_rec(
         obj=annotations,
@@ -131,20 +140,28 @@ def add_missing_names(annote):
         if key in annote:
             obj = annote[key]
             for i in obj:
-                if set(["name", "id"]).issubset(set(i.keys())):
+                if "name" in i.keys():
                     name = i["name"]
-                    _id = i["id"]
-                    ids[_id] = name
+                    if "id" in i.keys():
+                        _id = i["id"]
+                        ids[_id] = name
+                    else:
+                        ids[name] = name
                 else:
-                    print(i.keys())
+                    pass
+
     # deuxième étape: mettre ces noms là où ils manquent
-    if "Events" in annote:
-        for ev in annote["Events"]:
-            for key in ("hasParticipant", "takePlaceAt"):
-                if key in ev:
-                    obj = ev[key]
-                    if isinstance(obj, dict):
-                        obj["name"] = ids[obj["id"]]
+    def missing_name(d):
+        return "name" not in d.keys() and "id" in d.keys()
+
+    def add_name(d):
+        d["name"] = ids[d["id"]]
+
+    dict_iter_rec(
+        obj=annote,
+        fn_condition=missing_name,
+        fn_apply=add_name,
+    )
     return
 
 
@@ -166,7 +183,7 @@ if __name__ == "__main__":
             # première fonction: clean les noms
             clean_annotation_names(annote)
             # seconde fonction: ajouter les noms là où ils manquent, en utilisant les ids.
-            # add_missing_names(annote)
+            add_missing_names(annote)
 
             d2 = os.path.join(dir_target, dirname)
             if not os.path.isdir(d2):
