@@ -8610,4 +8610,64 @@
   <emotel:FictionalEvent rdf:about="https://github.com/unil-ish/EMOTEL/texts/theenchantedapril.txt#Realizing_the_telegram_is_from_Thomas_Briggs">
     <emotel:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Realizing_the_telegram_is_from_Thomas_Briggs</emotel:hasName>
   </emotel:FictionalEvent>
+    <owl:NamedIndividual rdf:about="https://github.com/unil-ish/EMOTEL/blob/master/texts/aroomwithaview.txt">
+        <rdf:type rdf:resource="https://github.com/unil-ish/EMOTEL#Story"/>
+        <hasAuthor>E. M. Forster</hasAuthor>
+        <hasName>A Room with a View</hasName>
+        <hasPubYear rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2001</hasPubYear>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://github.com/unil-ish/EMOTEL/blob/master/texts/frankenstein.txt">
+        <rdf:type rdf:resource="https://github.com/unil-ish/EMOTEL#Story"/>
+        <hasAuthor>Mary Wollstonecraft Shelley</hasAuthor>
+        <hasName>Frankenstein; Or, The Modern Prometheus</hasName>
+        <hasPubYear rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1993</hasPubYear>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://github.com/unil-ish/EMOTEL/blob/master/texts/littlewomen.txt">
+        <rdf:type rdf:resource="https://github.com/unil-ish/EMOTEL#Story"/>
+        <hasAuthor>Louisa May Alcott</hasAuthor>
+        <hasName>Little Women; Or, Meg, Jo, Beth, and Amy</hasName>
+        <hasPubYear rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2011</hasPubYear>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://github.com/unil-ish/EMOTEL/blob/master/texts/middlemarch.txt">
+        <rdf:type rdf:resource="https://github.com/unil-ish/EMOTEL#Story"/>
+        <hasAuthor>George Eliot</hasAuthor>
+        <hasName>Middlemarch</hasName>
+        <hasPubYear rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1994</hasPubYear>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://github.com/unil-ish/EMOTEL/blob/master/texts/mobydick.txt">
+        <rdf:type rdf:resource="https://github.com/unil-ish/EMOTEL#Story"/>
+        <hasAuthor>Herman Melville</hasAuthor>
+        <hasName>Moby Dick; Or, The Whale</hasName>
+        <hasPubYear rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2001</hasPubYear>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://github.com/unil-ish/EMOTEL/blob/master/texts/prideandprejudice.txt">
+        <rdf:type rdf:resource="https://github.com/unil-ish/EMOTEL#Story"/>
+        <hasAuthor>Jane Austen</hasAuthor>
+        <hasName>Pride and Prejudice</hasName>
+        <hasPubYear rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1998</hasPubYear>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://github.com/unil-ish/EMOTEL/blob/master/texts/romeoandjuliet.txt">
+        <rdf:type rdf:resource="https://github.com/unil-ish/EMOTEL#Story"/>
+        <hasAuthor>William Shakespeare</hasAuthor>
+        <hasName>Romeo and Juliet</hasName>
+        <hasPubYear rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1998</hasPubYear>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://github.com/unil-ish/EMOTEL/blob/master/texts/theadventuresofferdinandcountfathom.txt">
+        <rdf:type rdf:resource="https://github.com/unil-ish/EMOTEL#Story"/>
+        <hasAuthor>T. Smollet</hasAuthor>
+        <hasName>The Adventures of Ferdinand Count Fathom</hasName>
+        <hasPubYear rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2004</hasPubYear>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://github.com/unil-ish/EMOTEL/blob/master/texts/thebluecastle.txt">
+        <rdf:type rdf:resource="https://github.com/unil-ish/EMOTEL#Story"/>
+        <hasAuthor>L. M. Montgomery</hasAuthor>
+        <hasName>The Blue Castle: a novel</hasName>
+        <hasPubYear rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2022</hasPubYear>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://github.com/unil-ish/EMOTEL/blob/master/texts/theenchantedapril.txt">
+        <rdf:type rdf:resource="https://github.com/unil-ish/EMOTEL#Story"/>
+        <hasAuthor>Elizabeth Von Arnim</hasAuthor>
+        <hasName>The Enchanted April</hasName>
+        <hasPubYear rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2005</hasPubYear>
+    </owl:NamedIndividual>
 </rdf:RDF>
