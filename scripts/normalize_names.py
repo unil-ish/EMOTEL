@@ -167,6 +167,35 @@ def rename_causedBy(annotations: dict) -> None:
     )
 
 
+def unnest_places_events(annotations):
+    """déplie et aggrège les JSONS:
+
+    la structure des JSONS produits par ChatGPT est constituée d'objets et d'arrays imbriquées. ce script les 'déplie', applatit la structure pour faciliter les scripts qui peuplent l'ontologie.
+    """
+
+    d = {}
+    events = []
+    places = []
+    characters = annotations.get("FictionalCharacters")
+    if characters is not None:
+        for c in characters:
+            if "feels" in c.keys():
+                for emotions in c["feels"]:
+                    if "causedBy" in emotions.keys():
+                        ev = emotions["causedBy"]
+                        events.append(ev)
+                        emotions["causedBy"] = {"name": ev["name"]}
+        d["FictionalCharacters"] = characters
+    for ev in events:
+        if "takePlaceAt" in ev.keys():
+            pl = ev["takePlaceAt"]
+            places.append(pl)
+            ev["takePlaceAt"] = {"name": ev["name"]}
+    annotations["Events"] = events
+    annotations["Places"] = places
+    return
+
+
 if __name__ == "__main__":
     dir_source = "../data/annotations"
     dir_target = "../data/annotations_cleaned"
@@ -184,6 +213,7 @@ if __name__ == "__main__":
 
             rename_causedBy(annote)
             clean_annotation_names(annote)
+            unnest_places_events(annote)
 
             d2 = os.path.join(dir_target, dirname)
             if not os.path.isdir(d2):
