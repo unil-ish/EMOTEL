@@ -1,6 +1,6 @@
 import json
 import os
-from normalize_names import dict_iter_rec
+from clean_prepare_for_rdf import dict_iter_rec
 
 
 class Lookup:
