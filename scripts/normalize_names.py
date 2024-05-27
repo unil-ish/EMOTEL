@@ -7,12 +7,16 @@ import re
 def clean_name(s):
     """character's name -> character_s_name"""
 
+    s = unicodedata.normalize("NFC", s)
     s = re.sub("[_' ]+", "_", s)
-    return "".join([c for c in s if c.isalpha() or c == "_"])
+    return "".join([c for c in s if c.isalnum() or c == "_"])
 
 
 def clean_obj(obj) -> None:
     """normalise le nom d'un objet."""
+
+    if "id" in obj:
+        obj["id"] = clean_name(obj["id"])
 
     if "name" in obj:
         name = obj["name"]
@@ -24,7 +28,7 @@ def clean_obj(obj) -> None:
     # la fonction qui enlève notamment les espaces.
     name = clean_name(name)
     # normalisation supplémentaires, pour essayer d'éliminer au maximum les erreurs.
-    obj["name"] = unicodedata.normalize("NFC", name)
+    obj["name"] = name
     return
 
 
@@ -68,7 +72,47 @@ def clean_annotation_names(annotations):
                     else:
                         em.pop(key)
             c["feels"] = emotions
+    if "Events" in annotations.keys():
+        normalise_events(annotations["Events"])
     return annotations
+
+
+def normalise_events(events):
+    for ev in events:
+        for key in ("takePlaceAt", "hasParticipant"):
+            if key in ev:
+                pass
+            else:
+                continue
+            if isinstance(ev[key], dict):
+                clean_obj(ev[key])
+            else:
+                ev.pop(key)
+    return
+
+
+def add_missing_names(annote):
+    ids = {}
+    # d'abord, récupérer les ids de ce qui se trouve dans le fichiers d'annotations, à savoir: les ids des Places et FictionalCharacters, afin de pouvoir mettre les 'name' correspondant dans les sous-sous-clés de Events.
+    for key in ("FictionalCharacters", "Places"):
+        if key in annote:
+            obj = annote[key]
+            for i in obj:
+                if set(["name", "id"]).issubset(set(i.keys())):
+                    name = i["name"]
+                    _id = i["id"]
+                    ids[_id] = name
+                else:
+                    print(i.keys())
+    # deuxième étape: mettre ces noms là où ils manquent
+    if "Events" in annote:
+        for ev in annote["Events"]:
+            for key in ("hasParticipant", "takePlaceAt"):
+                if key in ev:
+                    obj = ev[key]
+                    if isinstance(obj, dict):
+                        obj["name"] = ids[obj["id"]]
+    return
 
 
 if __name__ == "__main__":
@@ -82,13 +126,18 @@ if __name__ == "__main__":
             fp1 = os.path.join(d1, filename)
             with open(fp1, "r") as f:
                 try:
-                    c = json.load(f)
+                    annote = json.load(f)
                 except json.decoder.JSONDecodeError:
                     continue
-            clean_annotation_names(c)
+
+            # première fonction: clean les noms
+            clean_annotation_names(annote)
+            # seconde fonction: ajouter les noms là où ils manquent, en utilisant les ids.
+            # add_missing_names(annote)
+
             d2 = os.path.join(dir_target, dirname)
             if not os.path.isdir(d2):
                 os.mkdir(d2)
             fp2 = os.path.join(d2, filename)
             with open(fp2, "w") as f:
-                json.dump(obj=c, fp=f, indent=1, ensure_ascii=False)
+                json.dump(obj=annote, fp=f, indent=1, ensure_ascii=False)
