@@ -1,7 +1,7 @@
 {
  "FictionalCharacters": [
   {
-   "id": "textstheadventuresofferdinandcountfathom.txt#Count_Fathom",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Count_Fathom",
    "name": "Count_Fathom",
    "feels": [
     {
@@ -9,15 +9,15 @@
      "hasIntensity": 0.9,
      "quote": "Fathom was pleased with the success of his schemes and the admiration he received.",
      "causedBy": {
-      "id": "textstheadventuresofferdinandcountfathom.txt#Success_in_his_schemes_and_admiration_received",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Success_in_his_schemes_and_admiration_received",
       "name": "Success_in_his_schemes_and_admiration_received"
      },
      "hasObject": {
-      "id": "textstheadventuresofferdinandcountfathom.txt#Success_and_admiration",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Success_and_admiration",
       "name": "Success_and_admiration"
      },
      "place": {
-      "id": "textstheadventuresofferdinandcountfathom.txt#Coffeehouse",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Coffeehouse",
       "name": "Coffeehouse"
      },
      "id": "Joy"
@@ -27,15 +27,15 @@
      "hasIntensity": 0.8,
      "quote": "The chevalier became jaundiced with terror and dismay upon seeing Fathom's bloody sword.",
      "causedBy": {
-      "id": "textstheadventuresofferdinandcountfathom.txt#Fathom_displaying_his_bloody_sword",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Fathom_displaying_his_bloody_sword",
       "name": "Fathom_displaying_his_bloody_sword"
      },
      "hasObject": {
-      "id": "textstheadventuresofferdinandcountfathom.txt#Bloody_sword",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Bloody_sword",
       "name": "Bloody_sword"
      },
      "place": {
-      "id": "textstheadventuresofferdinandcountfathom.txt#Count_s_lodgings",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Count_s_lodgings",
       "name": "Count_s_lodgings"
      },
      "id": "Fear"
@@ -45,15 +45,15 @@
      "hasIntensity": 0.7,
      "quote": "Fathom was resolved to chastise the chevalier for his insolent behaviour.",
      "causedBy": {
-      "id": "textstheadventuresofferdinandcountfathom.txt#Chevalier_s_insolent_behaviour",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Chevalier_s_insolent_behaviour",
       "name": "Chevalier_s_insolent_behaviour"
      },
      "hasObject": {
-      "id": "textstheadventuresofferdinandcountfathom.txt#Chevalier_s_insolent_behaviour",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Chevalier_s_insolent_behaviour",
       "name": "Chevalier_s_insolent_behaviour"
      },
      "place": {
-      "id": "textstheadventuresofferdinandcountfathom.txt#Count_s_lodgings",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Count_s_lodgings",
       "name": "Count_s_lodgings"
      },
      "id": "Anger"
@@ -63,15 +63,15 @@
      "hasIntensity": 0.6,
      "quote": "Fathom was surprised by the unexpected demand from the stranger regarding the lady.",
      "causedBy": {
-      "id": "textstheadventuresofferdinandcountfathom.txt#Stranger_s_demand_regarding_the_lady",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Stranger_s_demand_regarding_the_lady",
       "name": "Stranger_s_demand_regarding_the_lady"
      },
      "hasObject": {
-      "id": "textstheadventuresofferdinandcountfathom.txt#Stranger_s_demand",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Stranger_s_demand",
       "name": "Stranger_s_demand"
      },
      "place": {
-      "id": "textstheadventuresofferdinandcountfathom.txt#Count_s_lodgings",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Count_s_lodgings",
       "name": "Count_s_lodgings"
      },
      "id": "Surprise"
@@ -81,37 +81,37 @@
  ],
  "Places": [
   {
-   "id": "textstheadventuresofferdinandcountfathom.txt#Coffeehouse",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Coffeehouse",
    "name": "Coffeehouse"
   },
   {
-   "id": "textstheadventuresofferdinandcountfathom.txt#Count_s_lodgings",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Count_s_lodgings",
    "name": "Count_s_lodgings"
   },
   {
-   "id": "textstheadventuresofferdinandcountfathom.txt#Count_s_lodgings",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Count_s_lodgings",
    "name": "Count_s_lodgings"
   },
   {
-   "id": "textstheadventuresofferdinandcountfathom.txt#Count_s_lodgings",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Count_s_lodgings",
    "name": "Count_s_lodgings"
   }
  ],
  "Events": [
   {
-   "id": "textstheadventuresofferdinandcountfathom.txt#Success_in_his_schemes_and_admiration_received",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Success_in_his_schemes_and_admiration_received",
    "name": "Success_in_his_schemes_and_admiration_received"
   },
   {
-   "id": "textstheadventuresofferdinandcountfathom.txt#Fathom_displaying_his_bloody_sword",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Fathom_displaying_his_bloody_sword",
    "name": "Fathom_displaying_his_bloody_sword"
   },
   {
-   "id": "textstheadventuresofferdinandcountfathom.txt#Chevalier_s_insolent_behaviour",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Chevalier_s_insolent_behaviour",
    "name": "Chevalier_s_insolent_behaviour"
   },
   {
-   "id": "textstheadventuresofferdinandcountfathom.txt#Stranger_s_demand_regarding_the_lady",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Stranger_s_demand_regarding_the_lady",
    "name": "Stranger_s_demand_regarding_the_lady"
   }
  ]

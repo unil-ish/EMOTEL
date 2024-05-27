@@ -1,7 +1,7 @@
 {
  "FictionalCharacters": [
   {
-   "id": "textsmiddlemarch.txt#Lydgate",
+   "id": "texts/middlemarch.txt#Lydgate",
    "name": "Lydgate",
    "feels": [
     {
@@ -9,15 +9,15 @@
      "hasIntensity": 0.7,
      "quote": "He had a youthful belief in his bread-winning work, not to be stifled by that initiation in makeshift called his ’prentice days.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Belief_in_his_breadwinning_work",
+      "id": "texts/middlemarch.txt#Belief_in_his_breadwinning_work",
       "name": "Belief_in_his_breadwinning_work"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Breadwinning_work",
+      "id": "texts/middlemarch.txt#Breadwinning_work",
       "name": "Breadwinning_work"
      },
      "place": {
-      "id": "textsmiddlemarch.txt#His_prentice_days",
+      "id": "texts/middlemarch.txt#His_prentice_days",
       "name": "His_prentice_days"
      },
      "id": "Trust"
@@ -27,15 +27,15 @@
      "hasIntensity": 0.6,
      "quote": "He felt a triumphant delight in his studies.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#His_studies",
+      "id": "texts/middlemarch.txt#His_studies",
       "name": "His_studies"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Studies",
+      "id": "texts/middlemarch.txt#Studies",
       "name": "Studies"
      },
      "place": {
-      "id": "textsmiddlemarch.txt#His_mind",
+      "id": "texts/middlemarch.txt#His_mind",
       "name": "His_mind"
      },
      "id": "Joy"
@@ -45,15 +45,15 @@
      "hasIntensity": 0.8,
      "quote": "He wanted to pierce the obscurity of those minute processes which prepare human misery and joy.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Curiosity_about_human_processes",
+      "id": "texts/middlemarch.txt#Curiosity_about_human_processes",
       "name": "Curiosity_about_human_processes"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Human_processes",
+      "id": "texts/middlemarch.txt#Human_processes",
       "name": "Human_processes"
      },
      "place": {
-      "id": "textsmiddlemarch.txt#His_thoughts",
+      "id": "texts/middlemarch.txt#His_thoughts",
       "name": "His_thoughts"
      },
      "id": "Anticipation"
@@ -63,15 +63,15 @@
      "hasIntensity": 0.9,
      "quote": "He admired Rosamond exceedingly.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Rosamond_s_beauty",
+      "id": "texts/middlemarch.txt#Rosamond_s_beauty",
       "name": "Rosamond_s_beauty"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Rosamond",
+      "id": "texts/middlemarch.txt#Rosamond",
       "name": "Rosamond"
      },
      "place": {
-      "id": "textsmiddlemarch.txt#His_admiration",
+      "id": "texts/middlemarch.txt#His_admiration",
       "name": "His_admiration"
      },
      "id": "Admiration"
@@ -79,7 +79,7 @@
    ]
   },
   {
-   "id": "textsmiddlemarch.txt#Rosamond",
+   "id": "texts/middlemarch.txt#Rosamond",
    "name": "Rosamond",
    "feels": [
     {
@@ -87,15 +87,15 @@
      "hasIntensity": 0.7,
      "quote": "She blushed with pleasure.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Compliment_from_Lydgate",
+      "id": "texts/middlemarch.txt#Compliment_from_Lydgate",
       "name": "Compliment_from_Lydgate"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Compliment",
+      "id": "texts/middlemarch.txt#Compliment",
       "name": "Compliment"
      },
      "place": {
-      "id": "textsmiddlemarch.txt#Her_feelings",
+      "id": "texts/middlemarch.txt#Her_feelings",
       "name": "Her_feelings"
      },
      "id": "Pleasure"
@@ -105,15 +105,15 @@
      "hasIntensity": 0.6,
      "quote": "She wanted to know whether Lydgate would feel insulted if he were asked to come to a dance.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Curiosity_about_Lydgate_s_feelings",
+      "id": "texts/middlemarch.txt#Curiosity_about_Lydgate_s_feelings",
       "name": "Curiosity_about_Lydgate_s_feelings"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Lydgate_s_feelings",
+      "id": "texts/middlemarch.txt#Lydgate_s_feelings",
       "name": "Lydgate_s_feelings"
      },
      "place": {
-      "id": "textsmiddlemarch.txt#Her_thoughts",
+      "id": "texts/middlemarch.txt#Her_thoughts",
       "name": "Her_thoughts"
      },
      "id": "Curiosity"
@@ -123,15 +123,15 @@
      "hasIntensity": 0.8,
      "quote": "She played admirably.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Her_musical_talent",
+      "id": "texts/middlemarch.txt#Her_musical_talent",
       "name": "Her_musical_talent"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Playing_music",
+      "id": "texts/middlemarch.txt#Playing_music",
       "name": "Playing_music"
      },
      "place": {
-      "id": "textsmiddlemarch.txt#Playing_the_piano",
+      "id": "texts/middlemarch.txt#Playing_the_piano",
       "name": "Playing_the_piano"
      },
      "id": "Contentment"
@@ -141,15 +141,15 @@
      "hasIntensity": 0.7,
      "quote": "She felt satisfaction in her music.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Her_musical_talent",
+      "id": "texts/middlemarch.txt#Her_musical_talent",
       "name": "Her_musical_talent"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Music",
+      "id": "texts/middlemarch.txt#Music",
       "name": "Music"
      },
      "place": {
-      "id": "textsmiddlemarch.txt#Her_feelings",
+      "id": "texts/middlemarch.txt#Her_feelings",
       "name": "Her_feelings"
      },
      "id": "Satisfaction"
@@ -159,69 +159,69 @@
  ],
  "Places": [
   {
-   "id": "textsmiddlemarch.txt#His_prentice_days",
+   "id": "texts/middlemarch.txt#His_prentice_days",
    "name": "His_prentice_days"
   },
   {
-   "id": "textsmiddlemarch.txt#His_mind",
+   "id": "texts/middlemarch.txt#His_mind",
    "name": "His_mind"
   },
   {
-   "id": "textsmiddlemarch.txt#His_thoughts",
+   "id": "texts/middlemarch.txt#His_thoughts",
    "name": "His_thoughts"
   },
   {
-   "id": "textsmiddlemarch.txt#His_admiration",
+   "id": "texts/middlemarch.txt#His_admiration",
    "name": "His_admiration"
   },
   {
-   "id": "textsmiddlemarch.txt#Her_feelings",
+   "id": "texts/middlemarch.txt#Her_feelings",
    "name": "Her_feelings"
   },
   {
-   "id": "textsmiddlemarch.txt#Her_thoughts",
+   "id": "texts/middlemarch.txt#Her_thoughts",
    "name": "Her_thoughts"
   },
   {
-   "id": "textsmiddlemarch.txt#Playing_the_piano",
+   "id": "texts/middlemarch.txt#Playing_the_piano",
    "name": "Playing_the_piano"
   },
   {
-   "id": "textsmiddlemarch.txt#Her_feelings",
+   "id": "texts/middlemarch.txt#Her_feelings",
    "name": "Her_feelings"
   }
  ],
  "Events": [
   {
-   "id": "textsmiddlemarch.txt#Belief_in_his_breadwinning_work",
+   "id": "texts/middlemarch.txt#Belief_in_his_breadwinning_work",
    "name": "Belief_in_his_breadwinning_work"
   },
   {
-   "id": "textsmiddlemarch.txt#His_studies",
+   "id": "texts/middlemarch.txt#His_studies",
    "name": "His_studies"
   },
   {
-   "id": "textsmiddlemarch.txt#Curiosity_about_human_processes",
+   "id": "texts/middlemarch.txt#Curiosity_about_human_processes",
    "name": "Curiosity_about_human_processes"
   },
   {
-   "id": "textsmiddlemarch.txt#Rosamond_s_beauty",
+   "id": "texts/middlemarch.txt#Rosamond_s_beauty",
    "name": "Rosamond_s_beauty"
   },
   {
-   "id": "textsmiddlemarch.txt#Compliment_from_Lydgate",
+   "id": "texts/middlemarch.txt#Compliment_from_Lydgate",
    "name": "Compliment_from_Lydgate"
   },
   {
-   "id": "textsmiddlemarch.txt#Curiosity_about_Lydgate_s_feelings",
+   "id": "texts/middlemarch.txt#Curiosity_about_Lydgate_s_feelings",
    "name": "Curiosity_about_Lydgate_s_feelings"
   },
   {
-   "id": "textsmiddlemarch.txt#Her_musical_talent",
+   "id": "texts/middlemarch.txt#Her_musical_talent",
    "name": "Her_musical_talent"
   },
   {
-   "id": "textsmiddlemarch.txt#Her_musical_talent",
+   "id": "texts/middlemarch.txt#Her_musical_talent",
    "name": "Her_musical_talent"
   }
  ]

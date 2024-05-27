@@ -1,7 +1,7 @@
 {
  "FictionalCharacters": [
   {
-   "id": "textslittlewomen.txt#Professor_Bhaer",
+   "id": "texts/littlewomen.txt#Professor_Bhaer",
    "name": "Professor_Bhaer",
    "feels": [
     {
@@ -9,15 +9,15 @@
      "hasIntensity": 0.9,
      "quote": "He knew that Jo wrote, and had met her down among the newspaper offices more than once; but as she never spoke of it, he asked no questions, in spite of a strong desire to see her work.",
      "causedBy": {
-      "id": "textslittlewomen.txt#Knowing_that_Jo_wrote",
+      "id": "texts/littlewomen.txt#Knowing_that_Jo_wrote",
       "name": "Knowing_that_Jo_wrote"
      },
      "hasObject": {
-      "id": "textslittlewomen.txt#Jo_s_writing",
+      "id": "texts/littlewomen.txt#Jo_s_writing",
       "name": "Jo_s_writing"
      },
      "place": {
-      "id": "textslittlewomen.txt#Home",
+      "id": "texts/littlewomen.txt#Home",
       "name": "Home",
       "description": "In the living room"
      },
@@ -28,15 +28,15 @@
      "hasIntensity": 0.8,
      "quote": "He did his best, and did it manfully; but I don't think he found that a pair of rampant boys, a pipe, or even the divine Plato, were very satisfactory substitutes for wife and child and home.",
      "causedBy": {
-      "id": "textslittlewomen.txt#Feeling_homesick",
+      "id": "texts/littlewomen.txt#Feeling_homesick",
       "name": "Feeling_homesick"
      },
      "hasObject": {
-      "id": "textslittlewomen.txt#Feeling_of_homesickness",
+      "id": "texts/littlewomen.txt#Feeling_of_homesickness",
       "name": "Feeling_of_homesickness"
      },
      "place": {
-      "id": "textslittlewomen.txt#Home",
+      "id": "texts/littlewomen.txt#Home",
       "name": "Home",
       "description": "In the living room"
      },
@@ -47,15 +47,15 @@
      "hasIntensity": 0.7,
      "quote": "I'll be hanged if I do!",
      "causedBy": {
-      "id": "textslittlewomen.txt#Feeling_of_indignation",
+      "id": "texts/littlewomen.txt#Feeling_of_indignation",
       "name": "Feeling_of_indignation"
      },
      "hasObject": {
-      "id": "textslittlewomen.txt#Being_asked_to_go_abroad",
+      "id": "texts/littlewomen.txt#Being_asked_to_go_abroad",
       "name": "Being_asked_to_go_abroad"
      },
      "place": {
-      "id": "textslittlewomen.txt#Home",
+      "id": "texts/littlewomen.txt#Home",
       "name": "Home",
       "description": "In the living room"
      },
@@ -66,15 +66,15 @@
      "hasIntensity": 0.9,
      "quote": "To the devil!",
      "causedBy": {
-      "id": "textslittlewomen.txt#Feeling_of_despair",
+      "id": "texts/littlewomen.txt#Feeling_of_despair",
       "name": "Feeling_of_despair"
      },
      "hasObject": {
-      "id": "textslittlewomen.txt#Feeling_of_despair",
+      "id": "texts/littlewomen.txt#Feeling_of_despair",
       "name": "Feeling_of_despair"
      },
      "place": {
-      "id": "textslittlewomen.txt#Home",
+      "id": "texts/littlewomen.txt#Home",
       "name": "Home",
       "description": "In the living room"
      },
@@ -85,15 +85,15 @@
      "hasIntensity": 0.9,
      "quote": "It's all settled, and can be carried out at once",
      "causedBy": {
-      "id": "textslittlewomen.txt#Accepting_the_plan_to_go_abroad",
+      "id": "texts/littlewomen.txt#Accepting_the_plan_to_go_abroad",
       "name": "Accepting_the_plan_to_go_abroad"
      },
      "hasObject": {
-      "id": "textslittlewomen.txt#Plan_to_go_abroad",
+      "id": "texts/littlewomen.txt#Plan_to_go_abroad",
       "name": "Plan_to_go_abroad"
      },
      "place": {
-      "id": "textslittlewomen.txt#Home",
+      "id": "texts/littlewomen.txt#Home",
       "name": "Home",
       "description": "In the living room"
      },
@@ -102,7 +102,7 @@
    ]
   },
   {
-   "id": "textslittlewomen.txt#Beth",
+   "id": "texts/littlewomen.txt#Beth",
    "name": "Beth",
    "feels": [
     {
@@ -110,15 +110,15 @@
      "hasIntensity": 0.9,
      "quote": "It's like the tide, Jo, when it turns, it goes slowly, but it can't be stopped.",
      "causedBy": {
-      "id": "textslittlewomen.txt#Feeling_of_inevitability",
+      "id": "texts/littlewomen.txt#Feeling_of_inevitability",
       "name": "Feeling_of_inevitability"
      },
      "hasObject": {
-      "id": "textslittlewomen.txt#Feeling_of_inevitability",
+      "id": "texts/littlewomen.txt#Feeling_of_inevitability",
       "name": "Feeling_of_inevitability"
      },
      "place": {
-      "id": "textslittlewomen.txt#Home",
+      "id": "texts/littlewomen.txt#Home",
       "name": "Home",
       "description": "In the bedroom"
      },
@@ -129,15 +129,15 @@
      "hasIntensity": 0.8,
      "quote": "I try to be willing",
      "causedBy": {
-      "id": "textslittlewomen.txt#Accepting_the_situation",
+      "id": "texts/littlewomen.txt#Accepting_the_situation",
       "name": "Accepting_the_situation"
      },
      "hasObject": {
-      "id": "textslittlewomen.txt#Situation",
+      "id": "texts/littlewomen.txt#Situation",
       "name": "Situation"
      },
      "place": {
-      "id": "textslittlewomen.txt#Home",
+      "id": "texts/littlewomen.txt#Home",
       "name": "Home",
       "description": "In the bedroom"
      },
@@ -148,15 +148,15 @@
      "hasIntensity": 0.9,
      "quote": "I'm glad you know it. I've tried to tell you, but I couldn't.",
      "causedBy": {
-      "id": "textslittlewomen.txt#Feeling_of_relief",
+      "id": "texts/littlewomen.txt#Feeling_of_relief",
       "name": "Feeling_of_relief"
      },
      "hasObject": {
-      "id": "textslittlewomen.txt#Feeling_of_relief",
+      "id": "texts/littlewomen.txt#Feeling_of_relief",
       "name": "Feeling_of_relief"
      },
      "place": {
-      "id": "textslittlewomen.txt#Home",
+      "id": "texts/littlewomen.txt#Home",
       "name": "Home",
       "description": "In the bedroom"
      },
@@ -167,15 +167,15 @@
      "hasIntensity": 0.8,
      "quote": "Dear little bird! See, Jo, how tame it is. I like peeps better than the gulls: they are not so wild and handsome, but they seem happy, confiding little things.",
      "causedBy": {
-      "id": "textslittlewomen.txt#Feeling_of_contentment",
+      "id": "texts/littlewomen.txt#Feeling_of_contentment",
       "name": "Feeling_of_contentment"
      },
      "hasObject": {
-      "id": "textslittlewomen.txt#Feeling_of_contentment",
+      "id": "texts/littlewomen.txt#Feeling_of_contentment",
       "name": "Feeling_of_contentment"
      },
      "place": {
-      "id": "textslittlewomen.txt#Seashore",
+      "id": "texts/littlewomen.txt#Seashore",
       "name": "Seashore",
       "description": "By the beach"
      },
@@ -186,86 +186,86 @@
  ],
  "Places": [
   {
-   "id": "textslittlewomen.txt#Home",
+   "id": "texts/littlewomen.txt#Home",
    "name": "Home",
    "description": "In the living room"
   },
   {
-   "id": "textslittlewomen.txt#Home",
+   "id": "texts/littlewomen.txt#Home",
    "name": "Home",
    "description": "In the living room"
   },
   {
-   "id": "textslittlewomen.txt#Home",
+   "id": "texts/littlewomen.txt#Home",
    "name": "Home",
    "description": "In the living room"
   },
   {
-   "id": "textslittlewomen.txt#Home",
+   "id": "texts/littlewomen.txt#Home",
    "name": "Home",
    "description": "In the living room"
   },
   {
-   "id": "textslittlewomen.txt#Home",
+   "id": "texts/littlewomen.txt#Home",
    "name": "Home",
    "description": "In the living room"
   },
   {
-   "id": "textslittlewomen.txt#Home",
+   "id": "texts/littlewomen.txt#Home",
    "name": "Home",
    "description": "In the bedroom"
   },
   {
-   "id": "textslittlewomen.txt#Home",
+   "id": "texts/littlewomen.txt#Home",
    "name": "Home",
    "description": "In the bedroom"
   },
   {
-   "id": "textslittlewomen.txt#Home",
+   "id": "texts/littlewomen.txt#Home",
    "name": "Home",
    "description": "In the bedroom"
   },
   {
-   "id": "textslittlewomen.txt#Seashore",
+   "id": "texts/littlewomen.txt#Seashore",
    "name": "Seashore",
    "description": "By the beach"
   }
  ],
  "Events": [
   {
-   "id": "textslittlewomen.txt#Knowing_that_Jo_wrote",
+   "id": "texts/littlewomen.txt#Knowing_that_Jo_wrote",
    "name": "Knowing_that_Jo_wrote"
   },
   {
-   "id": "textslittlewomen.txt#Feeling_homesick",
+   "id": "texts/littlewomen.txt#Feeling_homesick",
    "name": "Feeling_homesick"
   },
   {
-   "id": "textslittlewomen.txt#Feeling_of_indignation",
+   "id": "texts/littlewomen.txt#Feeling_of_indignation",
    "name": "Feeling_of_indignation"
   },
   {
-   "id": "textslittlewomen.txt#Feeling_of_despair",
+   "id": "texts/littlewomen.txt#Feeling_of_despair",
    "name": "Feeling_of_despair"
   },
   {
-   "id": "textslittlewomen.txt#Accepting_the_plan_to_go_abroad",
+   "id": "texts/littlewomen.txt#Accepting_the_plan_to_go_abroad",
    "name": "Accepting_the_plan_to_go_abroad"
   },
   {
-   "id": "textslittlewomen.txt#Feeling_of_inevitability",
+   "id": "texts/littlewomen.txt#Feeling_of_inevitability",
    "name": "Feeling_of_inevitability"
   },
   {
-   "id": "textslittlewomen.txt#Accepting_the_situation",
+   "id": "texts/littlewomen.txt#Accepting_the_situation",
    "name": "Accepting_the_situation"
   },
   {
-   "id": "textslittlewomen.txt#Feeling_of_relief",
+   "id": "texts/littlewomen.txt#Feeling_of_relief",
    "name": "Feeling_of_relief"
   },
   {
-   "id": "textslittlewomen.txt#Feeling_of_contentment",
+   "id": "texts/littlewomen.txt#Feeling_of_contentment",
    "name": "Feeling_of_contentment"
   }
  ]

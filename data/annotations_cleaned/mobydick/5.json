@@ -1,18 +1,18 @@
 {
  "FictionalCharacters": [
   {
-   "id": "textsmobydick.txt#Ahab",
+   "id": "texts/mobydick.txt#Ahab",
    "feels": [
     {
      "name": "Anger",
      "hasIntensity": 0.8,
      "quote": "“Am I a cannon-ball, Stubb,” said Ahab, “that thou wouldst wad me that fashion? But go thy ways; I had forgot. Below to thy nightly grave; where such as ye sleep between shrouds, to use ye to the filling one at last.—Down, dog, and kennel!”",
      "causedBy": {
-      "id": "textsmobydick.txt#Interaction_with_Stubb",
+      "id": "texts/mobydick.txt#Interaction_with_Stubb",
       "name": "Interaction_with_Stubb"
      },
      "hasObject": {
-      "id": "textsmobydick.txt#Stubb",
+      "id": "texts/mobydick.txt#Stubb",
       "name": "Stubb"
      },
      "place": "On the deck",
@@ -23,11 +23,11 @@
      "hasIntensity": 0.7,
      "quote": "“May be; may be. But it’s made a wise man of me, Flask. D’ye see Ahab standing there, sideways looking over the stern? Well, the best thing you can do, Flask, is to let the old man alone; never speak to him, whatever he says.",
      "causedBy": {
-      "id": "textsmobydick.txt#Reflecting_on_Ahab_s_behavior",
+      "id": "texts/mobydick.txt#Reflecting_on_Ahab_s_behavior",
       "name": "Reflecting_on_Ahab_s_behavior"
      },
      "hasObject": {
-      "id": "textsmobydick.txt#Ahab",
+      "id": "texts/mobydick.txt#Ahab",
       "name": "Ahab"
      },
      "place": "On the deck",
@@ -38,11 +38,11 @@
      "hasIntensity": 0.9,
      "quote": "“Mast-head, there! Look sharp, all of ye! There are whales hereabouts! If ye see a white one, split your lungs for him! What do you think of that now, Flask? ain’t there a small drop of something queer about that, eh? A white whale—did ye mark that, man? Look ye—there’s something special in the wind. Stand by for it, Flask. Ahab has that that’s bloody on his mind. But, mum; he comes this way.”",
      "causedBy": {
-      "id": "textsmobydick.txt#Spotting_whales",
+      "id": "texts/mobydick.txt#Spotting_whales",
       "name": "Spotting_whales"
      },
      "hasObject": {
-      "id": "textsmobydick.txt#Whales",
+      "id": "texts/mobydick.txt#Whales",
       "name": "Whales"
      },
      "place": "On the deck",
@@ -52,18 +52,18 @@
    "name": "Ahab"
   },
   {
-   "id": "textsmobydick.txt#Stubb",
+   "id": "texts/mobydick.txt#Stubb",
    "feels": [
     {
      "name": "Confusion",
      "hasIntensity": 0.7,
      "quote": "“I don’t know; it seems a sort of foolish to me, tho.’”",
      "causedBy": {
-      "id": "textsmobydick.txt#Reflecting_on_Ahab_s_dream",
+      "id": "texts/mobydick.txt#Reflecting_on_Ahab_s_dream",
       "name": "Reflecting_on_Ahab_s_dream"
      },
      "hasObject": {
-      "id": "textsmobydick.txt#Ahab_s_dream",
+      "id": "texts/mobydick.txt#Ahab_s_dream",
       "name": "Ahab_s_dream"
      },
      "place": "On the deck",
@@ -75,41 +75,41 @@
  ],
  "Places": [
   {
-   "id": "textsmobydick.txt#On_the_deck",
+   "id": "texts/mobydick.txt#On_the_deck",
    "name": "On_the_deck",
    "description": "The main deck of the ship where the characters interact and observe"
   }
  ],
  "Events": [
   {
-   "id": "textsmobydick.txt#Interaction_with_Stubb",
+   "id": "texts/mobydick.txt#Interaction_with_Stubb",
    "name": "Interaction_with_Stubb",
    "takePlaceAt": {
-    "id": "textsmobydick.txt#deck",
+    "id": "texts/mobydick.txt#deck",
     "name": "deck"
    }
   },
   {
-   "id": "textsmobydick.txt#Reflecting_on_Ahab_s_behavior",
+   "id": "texts/mobydick.txt#Reflecting_on_Ahab_s_behavior",
    "name": "Reflecting_on_Ahab_s_behavior",
    "takePlaceAt": {
-    "id": "textsmobydick.txt#deck",
+    "id": "texts/mobydick.txt#deck",
     "name": "deck"
    }
   },
   {
-   "id": "textsmobydick.txt#Spotting_whales",
+   "id": "texts/mobydick.txt#Spotting_whales",
    "name": "Spotting_whales",
    "takePlaceAt": {
-    "id": "textsmobydick.txt#deck",
+    "id": "texts/mobydick.txt#deck",
     "name": "deck"
    }
   },
   {
-   "id": "textsmobydick.txt#Reflecting_on_Ahab_s_dream",
+   "id": "texts/mobydick.txt#Reflecting_on_Ahab_s_dream",
    "name": "Reflecting_on_Ahab_s_dream",
    "takePlaceAt": {
-    "id": "textsmobydick.txt#deck",
+    "id": "texts/mobydick.txt#deck",
     "name": "deck"
    }
   }

@@ -1,7 +1,7 @@
 {
  "FictionalCharacters": [
   {
-   "id": "textsmobydick.txt#Ishmael",
+   "id": "texts/mobydick.txt#Ishmael",
    "name": "Ishmael",
    "feels": [
     {
@@ -9,11 +9,11 @@
      "hasIntensity": 0.9,
      "quote": "But still another inquiry remains; one often agitated by the more recondite Nantucketers.",
      "causedBy": {
-      "id": "textsmobydick.txt#Contemplating_the_vastness_of_the_whale",
+      "id": "texts/mobydick.txt#Contemplating_the_vastness_of_the_whale",
       "name": "Contemplating_the_vastness_of_the_whale"
      },
      "hasObject": {
-      "id": "textsmobydick.txt#Whale",
+      "id": "texts/mobydick.txt#Whale",
       "name": "Whale"
      },
      "exactPlace": "In the presence of the Leviathan skeletons",
@@ -24,11 +24,11 @@
      "hasIntensity": 0.8,
      "quote": "But as perhaps fifty of these whale-bone whales are harpooned for one cachalot, some philosophers of the forecastle have concluded that this positive havoc has already very seriously diminished their battalions.",
      "causedBy": {
-      "id": "textsmobydick.txt#Considering_the_resilience_of_the_whale_population",
+      "id": "texts/mobydick.txt#Considering_the_resilience_of_the_whale_population",
       "name": "Considering_the_resilience_of_the_whale_population"
      },
      "hasObject": {
-      "id": "textsmobydick.txt#Whale_population",
+      "id": "texts/mobydick.txt#Whale_population",
       "name": "Whale_population"
      },
      "exactPlace": "In the forecastle",
@@ -39,11 +39,11 @@
      "hasIntensity": 0.7,
      "quote": "But you must look at this matter in every light.",
      "causedBy": {
-      "id": "textsmobydick.txt#Reflecting_on_the_whale_population_decline",
+      "id": "texts/mobydick.txt#Reflecting_on_the_whale_population_decline",
       "name": "Reflecting_on_the_whale_population_decline"
      },
      "hasObject": {
-      "id": "textsmobydick.txt#Whale_population_decline",
+      "id": "texts/mobydick.txt#Whale_population_decline",
       "name": "Whale_population_decline"
      },
      "exactPlace": "In the forecastle",
@@ -54,50 +54,50 @@
  ],
  "Places": [
   {
-   "id": "textsmobydick.txt#Leviathan_skeletons_exhibition",
+   "id": "texts/mobydick.txt#Leviathan_skeletons_exhibition",
    "name": "Leviathan_skeletons_exhibition",
    "description": "The place where the Leviathan skeletons are displayed."
   },
   {
-   "id": "textsmobydick.txt#The_forecastle",
+   "id": "texts/mobydick.txt#The_forecastle",
    "name": "The_forecastle",
    "description": "The front part of a ship below the deck, traditionally used as the crew's living quarters."
   }
  ],
  "Events": [
   {
-   "id": "textsmobydick.txt#Contemplating_the_vastness_of_the_whale",
+   "id": "texts/mobydick.txt#Contemplating_the_vastness_of_the_whale",
    "name": "Contemplating_the_vastness_of_the_whale",
    "takePlaceAt": {
-    "id": "textsmobydick.txt#place1",
+    "id": "texts/mobydick.txt#place1",
     "name": "place1"
    },
    "hasParticipant": {
-    "id": "textsmobydick.txt#fc1",
+    "id": "texts/mobydick.txt#fc1",
     "name": "fc1"
    }
   },
   {
-   "id": "textsmobydick.txt#Considering_the_resilience_of_the_whale_population",
+   "id": "texts/mobydick.txt#Considering_the_resilience_of_the_whale_population",
    "name": "Considering_the_resilience_of_the_whale_population",
    "takePlaceAt": {
-    "id": "textsmobydick.txt#place2",
+    "id": "texts/mobydick.txt#place2",
     "name": "place2"
    },
    "hasParticipant": {
-    "id": "textsmobydick.txt#fc1",
+    "id": "texts/mobydick.txt#fc1",
     "name": "fc1"
    }
   },
   {
-   "id": "textsmobydick.txt#Reflecting_on_the_whale_population_decline",
+   "id": "texts/mobydick.txt#Reflecting_on_the_whale_population_decline",
    "name": "Reflecting_on_the_whale_population_decline",
    "takePlaceAt": {
-    "id": "textsmobydick.txt#place2",
+    "id": "texts/mobydick.txt#place2",
     "name": "place2"
    },
    "hasParticipant": {
-    "id": "textsmobydick.txt#fc1",
+    "id": "texts/mobydick.txt#fc1",
     "name": "fc1"
    }
   }

@@ -1,22 +1,22 @@
 {
  "FictionalCharacters": [
   {
-   "id": "textsprideandprejudice.txt#Mr_Collins",
+   "id": "texts/prideandprejudice.txt#Mr_Collins",
    "feels": [
     {
      "name": "Gratitude",
      "hasIntensity": 0.7,
      "quote": "Mr. Collins speaks highly both of Lady Catherine and her daughter; but, from some particulars that he has related of her Ladyship, I suspect his gratitude misleads him.",
      "causedBy": {
-      "id": "textsprideandprejudice.txt#Lady_Catherine_and_her_daughter",
+      "id": "texts/prideandprejudice.txt#Lady_Catherine_and_her_daughter",
       "name": "Lady_Catherine_and_her_daughter"
      },
      "hasObject": {
-      "id": "textsprideandprejudice.txt#Lady_Catherine_and_her_daughter",
+      "id": "texts/prideandprejudice.txt#Lady_Catherine_and_her_daughter",
       "name": "Lady_Catherine_and_her_daughter"
      },
      "place": {
-      "id": "textsprideandprejudice.txt#supper_party",
+      "id": "texts/prideandprejudice.txt#supper_party",
       "name": "supper_party"
      },
      "id": "Gratitude"
@@ -26,15 +26,15 @@
      "hasIntensity": 0.8,
      "quote": "They continued talking together with mutual satisfaction till supper put an end to cards.",
      "causedBy": {
-      "id": "textsprideandprejudice.txt#Conversation",
+      "id": "texts/prideandprejudice.txt#Conversation",
       "name": "Conversation"
      },
      "hasObject": {
-      "id": "textsprideandprejudice.txt#Conversation",
+      "id": "texts/prideandprejudice.txt#Conversation",
       "name": "Conversation"
      },
      "place": {
-      "id": "textsprideandprejudice.txt#supper_party",
+      "id": "texts/prideandprejudice.txt#supper_party",
       "name": "supper_party"
      },
      "id": "Satisfaction"
@@ -43,22 +43,22 @@
    "name": "Mr_Collins"
   },
   {
-   "id": "textsprideandprejudice.txt#Elizabeth",
+   "id": "texts/prideandprejudice.txt#Elizabeth",
    "feels": [
     {
      "name": "Astonishment",
      "hasIntensity": 0.7,
      "quote": "“How strange!” cried Elizabeth. “How abominable!",
      "causedBy": {
-      "id": "textsprideandprejudice.txt#Mr_Darcy_s_actions",
+      "id": "texts/prideandprejudice.txt#Mr_Darcy_s_actions",
       "name": "Mr_Darcy_s_actions"
      },
      "hasObject": {
-      "id": "textsprideandprejudice.txt#Mr_Darcy",
+      "id": "texts/prideandprejudice.txt#Mr_Darcy",
       "name": "Mr_Darcy"
      },
      "place": {
-      "id": "textsprideandprejudice.txt#supper_party",
+      "id": "texts/prideandprejudice.txt#supper_party",
       "name": "supper_party"
      },
      "id": "Astonishment"
@@ -68,15 +68,15 @@
      "hasIntensity": 0.8,
      "quote": "Elizabeth went away with her head full of him.",
      "causedBy": {
-      "id": "textsprideandprejudice.txt#Mr_Wickham",
+      "id": "texts/prideandprejudice.txt#Mr_Wickham",
       "name": "Mr_Wickham"
      },
      "hasObject": {
-      "id": "textsprideandprejudice.txt#Mr_Wickham",
+      "id": "texts/prideandprejudice.txt#Mr_Wickham",
       "name": "Mr_Wickham"
      },
      "place": {
-      "id": "textsprideandprejudice.txt#supper_party",
+      "id": "texts/prideandprejudice.txt#supper_party",
       "name": "supper_party"
      },
      "id": "Interest"
@@ -87,26 +87,26 @@
  ],
  "Places": [
   {
-   "id": "textsprideandprejudice.txt#supper_party",
+   "id": "texts/prideandprejudice.txt#supper_party",
    "name": "supper_party",
    "description": "Mrs. Philips's supper party"
   }
  ],
  "Events": [
   {
-   "id": "textsprideandprejudice.txt#Conversation",
+   "id": "texts/prideandprejudice.txt#Conversation",
    "name": "Conversation",
    "takePlaceAt": {
-    "id": "textsprideandprejudice.txt#supper_party",
+    "id": "texts/prideandprejudice.txt#supper_party",
     "name": "supper_party"
    },
    "hasParticipant": [
     {
-     "id": "textsprideandprejudice.txt#Mr_Collins",
+     "id": "texts/prideandprejudice.txt#Mr_Collins",
      "name": "Mr_Collins"
     },
     {
-     "id": "textsprideandprejudice.txt#Elizabeth",
+     "id": "texts/prideandprejudice.txt#Elizabeth",
      "name": "Elizabeth"
     }
    ]

@@ -1,7 +1,7 @@
 {
  "FictionalCharacters": [
   {
-   "id": "textstheadventuresofferdinandcountfathom.txt#Ferdinand_de_Fathom",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Ferdinand_de_Fathom",
    "name": "Ferdinand_de_Fathom",
    "feels": [
     {
@@ -9,11 +9,11 @@
      "hasIntensity": 0.7,
      "quote": "He declined the generous proffer with affected earnestness of refusal.",
      "causedBy": {
-      "id": "textstheadventuresofferdinandcountfathom.txt#Offer_of_financial_help",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Offer_of_financial_help",
       "name": "Offer_of_financial_help"
      },
      "hasObject": {
-      "id": "textstheadventuresofferdinandcountfathom.txt#Money",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Money",
       "name": "Money"
      },
      "place": "House of their female friend",
@@ -24,11 +24,11 @@
      "hasIntensity": 0.8,
      "quote": "He expressed the utmost astonishment at this generous proffer.",
      "causedBy": {
-      "id": "textstheadventuresofferdinandcountfathom.txt#Generous_proffer",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Generous_proffer",
       "name": "Generous_proffer"
      },
      "hasObject": {
-      "id": "textstheadventuresofferdinandcountfathom.txt#Generous_proffer",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Generous_proffer",
       "name": "Generous_proffer"
      },
      "place": "House of their female friend",
@@ -39,11 +39,11 @@
      "hasIntensity": 0.9,
      "quote": "He was comforted with the promise that she would remember the rendezvous of next day.",
      "causedBy": {
-      "id": "textstheadventuresofferdinandcountfathom.txt#Promise_of_help",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Promise_of_help",
       "name": "Promise_of_help"
      },
      "hasObject": {
-      "id": "textstheadventuresofferdinandcountfathom.txt#Promise_of_help",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Promise_of_help",
       "name": "Promise_of_help"
      },
      "place": "House of their female friend",
@@ -54,11 +54,11 @@
      "hasIntensity": 0.9,
      "quote": "He was wrung with mortal anguish at the prospect of parting for ever from his lovely Wilhelmina.",
      "causedBy": {
-      "id": "textstheadventuresofferdinandcountfathom.txt#Dreadful_resolution",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Dreadful_resolution",
       "name": "Dreadful_resolution"
      },
      "hasObject": {
-      "id": "textstheadventuresofferdinandcountfathom.txt#Parting_from_Wilhelmina",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Parting_from_Wilhelmina",
       "name": "Parting_from_Wilhelmina"
      },
      "place": "Wilhelmina's chamber",
@@ -69,11 +69,11 @@
      "hasIntensity": 0.9,
      "quote": "He was instantly seized with an agony of fear and distraction.",
      "causedBy": {
-      "id": "textstheadventuresofferdinandcountfathom.txt#Dreadful_resolution",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Dreadful_resolution",
       "name": "Dreadful_resolution"
      },
      "hasObject": {
-      "id": "textstheadventuresofferdinandcountfathom.txt#Dreadful_resolution",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Dreadful_resolution",
       "name": "Dreadful_resolution"
      },
      "place": "Wilhelmina's chamber",
@@ -84,11 +84,11 @@
      "hasIntensity": 0.8,
      "quote": "He was wrung with mortal anguish at the prospect of parting for ever from his lovely Wilhelmina.",
      "causedBy": {
-      "id": "textstheadventuresofferdinandcountfathom.txt#Dreadful_resolution",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Dreadful_resolution",
       "name": "Dreadful_resolution"
      },
      "hasObject": {
-      "id": "textstheadventuresofferdinandcountfathom.txt#Parting_from_Wilhelmina",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Parting_from_Wilhelmina",
       "name": "Parting_from_Wilhelmina"
      },
      "place": "Wilhelmina's chamber",
@@ -99,11 +99,11 @@
      "hasIntensity": 0.9,
      "quote": "He yielded to her fervent request, rather with a view to calm the present transports of her sorrow.",
      "causedBy": {
-      "id": "textstheadventuresofferdinandcountfathom.txt#Fervent_request_from_Wilhelmina",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Fervent_request_from_Wilhelmina",
       "name": "Fervent_request_from_Wilhelmina"
      },
      "hasObject": {
-      "id": "textstheadventuresofferdinandcountfathom.txt#Fervent_request",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Fervent_request",
       "name": "Fervent_request"
      },
      "place": "Wilhelmina's chamber",
@@ -114,11 +114,11 @@
      "hasIntensity": 0.9,
      "quote": "He did not doubt that the mine of his craft would take effect.",
      "causedBy": {
-      "id": "textstheadventuresofferdinandcountfathom.txt#Expectation_of_success",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Expectation_of_success",
       "name": "Expectation_of_success"
      },
      "hasObject": {
-      "id": "textstheadventuresofferdinandcountfathom.txt#Success",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Success",
       "name": "Success"
      },
      "place": "His own lodging",
@@ -129,83 +129,83 @@
  ],
  "Places": [
   {
-   "id": "textstheadventuresofferdinandcountfathom.txt#House_of_their_female_friend",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#House_of_their_female_friend",
    "name": "House_of_their_female_friend",
    "description": "Location of the generous proffer"
   },
   {
-   "id": "textstheadventuresofferdinandcountfathom.txt#Wilhelmina_s_chamber",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Wilhelmina_s_chamber",
    "name": "Wilhelmina_s_chamber",
    "description": "Location of the dreadful resolution and fervent request"
   },
   {
-   "id": "textstheadventuresofferdinandcountfathom.txt#His_own_lodging",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#His_own_lodging",
    "name": "His_own_lodging",
    "description": "Location of the expectation of success"
   }
  ],
  "Events": [
   {
-   "id": "textstheadventuresofferdinandcountfathom.txt#Offer_of_financial_help",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Offer_of_financial_help",
    "name": "Offer_of_financial_help",
    "takePlaceAt": {
-    "id": "textstheadventuresofferdinandcountfathom.txt#place1",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#place1",
     "name": "place1"
    }
   },
   {
-   "id": "textstheadventuresofferdinandcountfathom.txt#Generous_proffer",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Generous_proffer",
    "name": "Generous_proffer",
    "takePlaceAt": {
-    "id": "textstheadventuresofferdinandcountfathom.txt#place1",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#place1",
     "name": "place1"
    }
   },
   {
-   "id": "textstheadventuresofferdinandcountfathom.txt#Promise_of_help",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Promise_of_help",
    "name": "Promise_of_help",
    "takePlaceAt": {
-    "id": "textstheadventuresofferdinandcountfathom.txt#place1",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#place1",
     "name": "place1"
    }
   },
   {
-   "id": "textstheadventuresofferdinandcountfathom.txt#Dreadful_resolution",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Dreadful_resolution",
    "name": "Dreadful_resolution",
    "takePlaceAt": {
-    "id": "textstheadventuresofferdinandcountfathom.txt#place2",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#place2",
     "name": "place2"
    }
   },
   {
-   "id": "textstheadventuresofferdinandcountfathom.txt#Dreadful_resolution",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Dreadful_resolution",
    "name": "Dreadful_resolution",
    "takePlaceAt": {
-    "id": "textstheadventuresofferdinandcountfathom.txt#place2",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#place2",
     "name": "place2"
    }
   },
   {
-   "id": "textstheadventuresofferdinandcountfathom.txt#Dreadful_resolution",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Dreadful_resolution",
    "name": "Dreadful_resolution",
    "takePlaceAt": {
-    "id": "textstheadventuresofferdinandcountfathom.txt#place2",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#place2",
     "name": "place2"
    }
   },
   {
-   "id": "textstheadventuresofferdinandcountfathom.txt#Fervent_request_from_Wilhelmina",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Fervent_request_from_Wilhelmina",
    "name": "Fervent_request_from_Wilhelmina",
    "takePlaceAt": {
-    "id": "textstheadventuresofferdinandcountfathom.txt#place2",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#place2",
     "name": "place2"
    }
   },
   {
-   "id": "textstheadventuresofferdinandcountfathom.txt#Expectation_of_success",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Expectation_of_success",
    "name": "Expectation_of_success",
    "takePlaceAt": {
-    "id": "textstheadventuresofferdinandcountfathom.txt#place3",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#place3",
     "name": "place3"
    }
   }

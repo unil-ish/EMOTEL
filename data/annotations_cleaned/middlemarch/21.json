@@ -1,7 +1,7 @@
 {
  "FictionalCharacters": [
   {
-   "id": "textsmiddlemarch.txt#Dorothea_Brooke",
+   "id": "texts/middlemarch.txt#Dorothea_Brooke",
    "name": "Dorothea_Brooke",
    "feels": [
     {
@@ -9,15 +9,15 @@
      "hasIntensity": 0.9,
      "quote": "I felt that I ought not to let it be used by some one else instead of me.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Having_patronage",
+      "id": "texts/middlemarch.txt#Having_patronage",
       "name": "Having_patronage"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Patronage",
+      "id": "texts/middlemarch.txt#Patronage",
       "name": "Patronage"
      },
      "place": {
-      "id": "textsmiddlemarch.txt#Lowick_Rectory",
+      "id": "texts/middlemarch.txt#Lowick_Rectory",
       "name": "Lowick_Rectory"
      },
      "id": "Trust"
@@ -27,15 +27,15 @@
      "hasIntensity": 0.8,
      "quote": "I shall try and do my duty, though I mayn’t like it.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Being_obliged_to_be_a_clergyman",
+      "id": "texts/middlemarch.txt#Being_obliged_to_be_a_clergyman",
       "name": "Being_obliged_to_be_a_clergyman"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Being_a_clergyman",
+      "id": "texts/middlemarch.txt#Being_a_clergyman",
       "name": "Being_a_clergyman"
      },
      "place": {
-      "id": "textsmiddlemarch.txt#Lowick_Rectory",
+      "id": "texts/middlemarch.txt#Lowick_Rectory",
       "name": "Lowick_Rectory"
      },
      "id": "Acceptance"
@@ -45,15 +45,15 @@
      "hasIntensity": 0.9,
      "quote": "I have loved her ever since we were children.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Loving_Mary_Garth",
+      "id": "texts/middlemarch.txt#Loving_Mary_Garth",
       "name": "Loving_Mary_Garth"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Mary_Garth",
+      "id": "texts/middlemarch.txt#Mary_Garth",
       "name": "Mary_Garth"
      },
      "place": {
-      "id": "textsmiddlemarch.txt#Lowick_Rectory",
+      "id": "texts/middlemarch.txt#Lowick_Rectory",
       "name": "Lowick_Rectory"
      },
      "id": "Love"
@@ -61,7 +61,7 @@
    ]
   },
   {
-   "id": "textsmiddlemarch.txt#Fred_Vincy",
+   "id": "texts/middlemarch.txt#Fred_Vincy",
    "name": "Fred_Vincy",
    "feels": [
     {
@@ -69,15 +69,15 @@
      "hasIntensity": 0.7,
      "quote": "I am ashamed to trouble you, Mr. Farebrother.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Being_ashamed_to_ask_for_help",
+      "id": "texts/middlemarch.txt#Being_ashamed_to_ask_for_help",
       "name": "Being_ashamed_to_ask_for_help"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Asking_for_help",
+      "id": "texts/middlemarch.txt#Asking_for_help",
       "name": "Asking_for_help"
      },
      "place": {
-      "id": "textsmiddlemarch.txt#Lowick_Rectory",
+      "id": "texts/middlemarch.txt#Lowick_Rectory",
       "name": "Lowick_Rectory"
      },
      "id": "Anxiety"
@@ -87,15 +87,15 @@
      "hasIntensity": 0.9,
      "quote": "There is somebody I am very fond of: I have loved her ever since we were children.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Loving_Mary_Garth",
+      "id": "texts/middlemarch.txt#Loving_Mary_Garth",
       "name": "Loving_Mary_Garth"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Mary_Garth",
+      "id": "texts/middlemarch.txt#Mary_Garth",
       "name": "Mary_Garth"
      },
      "place": {
-      "id": "textsmiddlemarch.txt#Lowick_Rectory",
+      "id": "texts/middlemarch.txt#Lowick_Rectory",
       "name": "Lowick_Rectory"
      },
      "id": "Love"
@@ -105,15 +105,15 @@
      "hasIntensity": 0.8,
      "quote": "I don’t like it, but I know it’s uncommonly hard on my father to say so.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Feeling_it_s_hard_on_his_father",
+      "id": "texts/middlemarch.txt#Feeling_it_s_hard_on_his_father",
       "name": "Feeling_it_s_hard_on_his_father"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Saying_he_wants_to_go_into_the_Church",
+      "id": "texts/middlemarch.txt#Saying_he_wants_to_go_into_the_Church",
       "name": "Saying_he_wants_to_go_into_the_Church"
      },
      "place": {
-      "id": "textsmiddlemarch.txt#Lowick_Rectory",
+      "id": "texts/middlemarch.txt#Lowick_Rectory",
       "name": "Lowick_Rectory"
      },
      "id": "Anxiety"
@@ -121,7 +121,7 @@
    ]
   },
   {
-   "id": "textsmiddlemarch.txt#Mary_Garth",
+   "id": "texts/middlemarch.txt#Mary_Garth",
    "name": "Mary_Garth",
    "feels": [
     {
@@ -129,15 +129,15 @@
      "hasIntensity": 0.7,
      "quote": "I am glad of that admission, because I want at this very moment to interest you in a young gentleman.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Being_asked_to_be_interested_in_Fred_Vincy",
+      "id": "texts/middlemarch.txt#Being_asked_to_be_interested_in_Fred_Vincy",
       "name": "Being_asked_to_be_interested_in_Fred_Vincy"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Being_interested_in_Fred_Vincy",
+      "id": "texts/middlemarch.txt#Being_interested_in_Fred_Vincy",
       "name": "Being_interested_in_Fred_Vincy"
      },
      "place": {
-      "id": "textsmiddlemarch.txt#Lowick_Rectory",
+      "id": "texts/middlemarch.txt#Lowick_Rectory",
       "name": "Lowick_Rectory"
      },
      "id": "Surprise"
@@ -147,15 +147,15 @@
      "hasIntensity": 0.8,
      "quote": "I think I do.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Realizing_who_Fred_Vincy_is",
+      "id": "texts/middlemarch.txt#Realizing_who_Fred_Vincy_is",
       "name": "Realizing_who_Fred_Vincy_is"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Realizing_who_Fred_Vincy_is",
+      "id": "texts/middlemarch.txt#Realizing_who_Fred_Vincy_is",
       "name": "Realizing_who_Fred_Vincy_is"
      },
      "place": {
-      "id": "textsmiddlemarch.txt#Lowick_Rectory",
+      "id": "texts/middlemarch.txt#Lowick_Rectory",
       "name": "Lowick_Rectory"
      },
      "id": "Seriousness"
@@ -165,15 +165,15 @@
      "hasIntensity": 0.9,
      "quote": "It must be Fred Vincy.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Realizing_it_s_about_Fred_Vincy",
+      "id": "texts/middlemarch.txt#Realizing_it_s_about_Fred_Vincy",
       "name": "Realizing_it_s_about_Fred_Vincy"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Realizing_it_s_about_Fred_Vincy",
+      "id": "texts/middlemarch.txt#Realizing_it_s_about_Fred_Vincy",
       "name": "Realizing_it_s_about_Fred_Vincy"
      },
      "place": {
-      "id": "textsmiddlemarch.txt#Lowick_Rectory",
+      "id": "texts/middlemarch.txt#Lowick_Rectory",
       "name": "Lowick_Rectory"
      },
      "id": "Anxiety"
@@ -183,77 +183,77 @@
  ],
  "Places": [
   {
-   "id": "textsmiddlemarch.txt#Lowick_Rectory",
+   "id": "texts/middlemarch.txt#Lowick_Rectory",
    "name": "Lowick_Rectory"
   },
   {
-   "id": "textsmiddlemarch.txt#Lowick_Rectory",
+   "id": "texts/middlemarch.txt#Lowick_Rectory",
    "name": "Lowick_Rectory"
   },
   {
-   "id": "textsmiddlemarch.txt#Lowick_Rectory",
+   "id": "texts/middlemarch.txt#Lowick_Rectory",
    "name": "Lowick_Rectory"
   },
   {
-   "id": "textsmiddlemarch.txt#Lowick_Rectory",
+   "id": "texts/middlemarch.txt#Lowick_Rectory",
    "name": "Lowick_Rectory"
   },
   {
-   "id": "textsmiddlemarch.txt#Lowick_Rectory",
+   "id": "texts/middlemarch.txt#Lowick_Rectory",
    "name": "Lowick_Rectory"
   },
   {
-   "id": "textsmiddlemarch.txt#Lowick_Rectory",
+   "id": "texts/middlemarch.txt#Lowick_Rectory",
    "name": "Lowick_Rectory"
   },
   {
-   "id": "textsmiddlemarch.txt#Lowick_Rectory",
+   "id": "texts/middlemarch.txt#Lowick_Rectory",
    "name": "Lowick_Rectory"
   },
   {
-   "id": "textsmiddlemarch.txt#Lowick_Rectory",
+   "id": "texts/middlemarch.txt#Lowick_Rectory",
    "name": "Lowick_Rectory"
   },
   {
-   "id": "textsmiddlemarch.txt#Lowick_Rectory",
+   "id": "texts/middlemarch.txt#Lowick_Rectory",
    "name": "Lowick_Rectory"
   }
  ],
  "Events": [
   {
-   "id": "textsmiddlemarch.txt#Having_patronage",
+   "id": "texts/middlemarch.txt#Having_patronage",
    "name": "Having_patronage"
   },
   {
-   "id": "textsmiddlemarch.txt#Being_obliged_to_be_a_clergyman",
+   "id": "texts/middlemarch.txt#Being_obliged_to_be_a_clergyman",
    "name": "Being_obliged_to_be_a_clergyman"
   },
   {
-   "id": "textsmiddlemarch.txt#Loving_Mary_Garth",
+   "id": "texts/middlemarch.txt#Loving_Mary_Garth",
    "name": "Loving_Mary_Garth"
   },
   {
-   "id": "textsmiddlemarch.txt#Being_ashamed_to_ask_for_help",
+   "id": "texts/middlemarch.txt#Being_ashamed_to_ask_for_help",
    "name": "Being_ashamed_to_ask_for_help"
   },
   {
-   "id": "textsmiddlemarch.txt#Loving_Mary_Garth",
+   "id": "texts/middlemarch.txt#Loving_Mary_Garth",
    "name": "Loving_Mary_Garth"
   },
   {
-   "id": "textsmiddlemarch.txt#Feeling_it_s_hard_on_his_father",
+   "id": "texts/middlemarch.txt#Feeling_it_s_hard_on_his_father",
    "name": "Feeling_it_s_hard_on_his_father"
   },
   {
-   "id": "textsmiddlemarch.txt#Being_asked_to_be_interested_in_Fred_Vincy",
+   "id": "texts/middlemarch.txt#Being_asked_to_be_interested_in_Fred_Vincy",
    "name": "Being_asked_to_be_interested_in_Fred_Vincy"
   },
   {
-   "id": "textsmiddlemarch.txt#Realizing_who_Fred_Vincy_is",
+   "id": "texts/middlemarch.txt#Realizing_who_Fred_Vincy_is",
    "name": "Realizing_who_Fred_Vincy_is"
   },
   {
-   "id": "textsmiddlemarch.txt#Realizing_it_s_about_Fred_Vincy",
+   "id": "texts/middlemarch.txt#Realizing_it_s_about_Fred_Vincy",
    "name": "Realizing_it_s_about_Fred_Vincy"
   }
  ]

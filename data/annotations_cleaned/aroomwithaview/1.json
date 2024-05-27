@@ -1,18 +1,18 @@
 {
  "FictionalCharacters": [
   {
-   "id": "textsaroomwithaview.txt#Lucy",
+   "id": "texts/aroomwithaview.txt#Lucy",
    "feels": [
     {
      "name": "Fear",
      "hasIntensity": 0.7,
      "quote": "She had been a little frightened, both by Miss Lavish and by Mr. Eager, she knew not why.",
      "causedBy": {
-      "id": "textsaroomwithaview.txt#Encounter_with_Miss_Lavish_and_Mr_Eager",
+      "id": "texts/aroomwithaview.txt#Encounter_with_Miss_Lavish_and_Mr_Eager",
       "name": "Encounter_with_Miss_Lavish_and_Mr_Eager"
      },
      "hasObject": {
-      "id": "textsaroomwithaview.txt#Unknown",
+      "id": "texts/aroomwithaview.txt#Unknown",
       "name": "Unknown"
      },
      "exactPlace": "In the newspaper-room at the English bank",
@@ -23,11 +23,11 @@
      "hasIntensity": 0.8,
      "quote": "For the first time Lucy’s rebellious thoughts swept out in words—for the first time in her life.",
      "causedBy": {
-      "id": "textsaroomwithaview.txt#Conversation_with_Mr_Eager",
+      "id": "texts/aroomwithaview.txt#Conversation_with_Mr_Eager",
       "name": "Conversation_with_Mr_Eager"
      },
      "hasObject": {
-      "id": "textsaroomwithaview.txt#Unknown",
+      "id": "texts/aroomwithaview.txt#Unknown",
       "name": "Unknown"
      },
      "exactPlace": "In the newspaper-room at the English bank",
@@ -38,11 +38,11 @@
      "hasIntensity": 0.6,
      "quote": "Lucy was recalled to her manners, and after a little exertion the complacency of Mr. Eager was restored.",
      "causedBy": {
-      "id": "textsaroomwithaview.txt#Conversation_with_Mr_Eager",
+      "id": "texts/aroomwithaview.txt#Conversation_with_Mr_Eager",
       "name": "Conversation_with_Mr_Eager"
      },
      "hasObject": {
-      "id": "textsaroomwithaview.txt#Unknown",
+      "id": "texts/aroomwithaview.txt#Unknown",
       "name": "Unknown"
      },
      "exactPlace": "In the newspaper-room at the English bank",
@@ -53,11 +53,11 @@
      "hasIntensity": 0.9,
      "quote": "Lucy stood by the central table, trying to answer, or at least to formulate the questions rioting in her brain.",
      "causedBy": {
-      "id": "textsaroomwithaview.txt#Thoughts_about_the_incidents_in_Florence",
+      "id": "texts/aroomwithaview.txt#Thoughts_about_the_incidents_in_Florence",
       "name": "Thoughts_about_the_incidents_in_Florence"
      },
      "hasObject": {
-      "id": "textsaroomwithaview.txt#Unknown",
+      "id": "texts/aroomwithaview.txt#Unknown",
       "name": "Unknown"
      },
      "exactPlace": "In the newspaper-room at the English bank",
@@ -69,57 +69,57 @@
  ],
  "Places": [
   {
-   "id": "textsaroomwithaview.txt#Newspaperroom_at_the_English_bank",
+   "id": "texts/aroomwithaview.txt#Newspaperroom_at_the_English_bank",
    "name": "Newspaperroom_at_the_English_bank",
    "description": "A room with a central table and newspapers like Punch and the Graphic."
   }
  ],
  "Events": [
   {
-   "id": "textsaroomwithaview.txt#Encounter_with_Miss_Lavish_and_Mr_Eager",
+   "id": "texts/aroomwithaview.txt#Encounter_with_Miss_Lavish_and_Mr_Eager",
    "name": "Encounter_with_Miss_Lavish_and_Mr_Eager",
    "takePlaceAt": {
-    "id": "textsaroomwithaview.txt#newspaperroom1",
+    "id": "texts/aroomwithaview.txt#newspaperroom1",
     "name": "newspaperroom1"
    },
    "hasParticipant": {
-    "id": "textsaroomwithaview.txt#Lucy",
+    "id": "texts/aroomwithaview.txt#Lucy",
     "name": "Lucy"
    }
   },
   {
-   "id": "textsaroomwithaview.txt#Conversation_with_Mr_Eager",
+   "id": "texts/aroomwithaview.txt#Conversation_with_Mr_Eager",
    "name": "Conversation_with_Mr_Eager",
    "takePlaceAt": {
-    "id": "textsaroomwithaview.txt#newspaperroom1",
+    "id": "texts/aroomwithaview.txt#newspaperroom1",
     "name": "newspaperroom1"
    },
    "hasParticipant": {
-    "id": "textsaroomwithaview.txt#Lucy",
+    "id": "texts/aroomwithaview.txt#Lucy",
     "name": "Lucy"
    }
   },
   {
-   "id": "textsaroomwithaview.txt#Conversation_with_Mr_Eager",
+   "id": "texts/aroomwithaview.txt#Conversation_with_Mr_Eager",
    "name": "Conversation_with_Mr_Eager",
    "takePlaceAt": {
-    "id": "textsaroomwithaview.txt#newspaperroom1",
+    "id": "texts/aroomwithaview.txt#newspaperroom1",
     "name": "newspaperroom1"
    },
    "hasParticipant": {
-    "id": "textsaroomwithaview.txt#Lucy",
+    "id": "texts/aroomwithaview.txt#Lucy",
     "name": "Lucy"
    }
   },
   {
-   "id": "textsaroomwithaview.txt#Thoughts_about_the_incidents_in_Florence",
+   "id": "texts/aroomwithaview.txt#Thoughts_about_the_incidents_in_Florence",
    "name": "Thoughts_about_the_incidents_in_Florence",
    "takePlaceAt": {
-    "id": "textsaroomwithaview.txt#newspaperroom1",
+    "id": "texts/aroomwithaview.txt#newspaperroom1",
     "name": "newspaperroom1"
    },
    "hasParticipant": {
-    "id": "textsaroomwithaview.txt#Lucy",
+    "id": "texts/aroomwithaview.txt#Lucy",
     "name": "Lucy"
    }
   }

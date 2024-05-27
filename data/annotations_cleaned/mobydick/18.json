@@ -1,22 +1,22 @@
 {
  "FictionalCharacters": [
   {
-   "id": "textsmobydick.txt#Ahab",
+   "id": "texts/mobydick.txt#Ahab",
    "feels": [
     {
      "name": "Irritation",
      "hasIntensity": 0.8,
      "quote": "every little untoward circumstance that befell him, and which indirectly sprang from his luckless mishap, almost invariably irritated or exasperated Ahab.",
      "causedBy": {
-      "id": "textsmobydick.txt#Luckless_mishap",
+      "id": "texts/mobydick.txt#Luckless_mishap",
       "name": "Luckless_mishap"
      },
      "hasObject": {
-      "id": "textsmobydick.txt#Untoward_circumstance",
+      "id": "texts/mobydick.txt#Untoward_circumstance",
       "name": "Untoward_circumstance"
      },
      "place": {
-      "id": "textsmobydick.txt#Ship",
+      "id": "texts/mobydick.txt#Ship",
       "name": "Ship"
      },
      "id": "Irritation"
@@ -26,15 +26,15 @@
      "hasIntensity": 0.7,
      "quote": "every little untoward circumstance that befell him, and which indirectly sprang from his luckless mishap, almost invariably irritated or exasperated Ahab.",
      "causedBy": {
-      "id": "textsmobydick.txt#Luckless_mishap",
+      "id": "texts/mobydick.txt#Luckless_mishap",
       "name": "Luckless_mishap"
      },
      "hasObject": {
-      "id": "textsmobydick.txt#Untoward_circumstance",
+      "id": "texts/mobydick.txt#Untoward_circumstance",
       "name": "Untoward_circumstance"
      },
      "place": {
-      "id": "textsmobydick.txt#Ship",
+      "id": "texts/mobydick.txt#Ship",
       "name": "Ship"
      },
      "id": "Exasperation"
@@ -44,15 +44,15 @@
      "hasIntensity": 0.9,
      "quote": "Aye, aye—they were mine—my irons—cried Ahab, exultingly—but on!",
      "causedBy": {
-      "id": "textsmobydick.txt#Success_in_harpooning_the_whale",
+      "id": "texts/mobydick.txt#Success_in_harpooning_the_whale",
       "name": "Success_in_harpooning_the_whale"
      },
      "hasObject": {
-      "id": "textsmobydick.txt#Harpoons",
+      "id": "texts/mobydick.txt#Harpoons",
       "name": "Harpoons"
      },
      "place": {
-      "id": "textsmobydick.txt#Sea",
+      "id": "texts/mobydick.txt#Sea",
       "name": "Sea"
      },
      "id": "Exultation"
@@ -61,22 +61,22 @@
    "name": "Ahab"
   },
   {
-   "id": "textsmobydick.txt#Englishman",
+   "id": "texts/mobydick.txt#Englishman",
    "feels": [
     {
      "name": "Goodhumoredness",
      "hasIntensity": 0.8,
      "quote": "Shall I call that wise or foolish, now; if it be really wise it has a foolish look to it; yet, if it be really foolish, then has it a sort of wiseish look to it. But, avast; here comes our old Manxman—the old hearse-driver, he must have been, that is, before he took to the sea.",
      "causedBy": {
-      "id": "textsmobydick.txt#Observing_Ahab_s_actions",
+      "id": "texts/mobydick.txt#Observing_Ahab_s_actions",
       "name": "Observing_Ahab_s_actions"
      },
      "hasObject": {
-      "id": "textsmobydick.txt#Ahab",
+      "id": "texts/mobydick.txt#Ahab",
       "name": "Ahab"
      },
      "place": {
-      "id": "textsmobydick.txt#Ship",
+      "id": "texts/mobydick.txt#Ship",
       "name": "Ship"
      },
      "id": "Goodhumoredness"
@@ -87,49 +87,49 @@
  ],
  "Places": [
   {
-   "id": "textsmobydick.txt#Ship",
+   "id": "texts/mobydick.txt#Ship",
    "name": "Ship",
    "description": "A vessel at sea"
   },
   {
-   "id": "textsmobydick.txt#Sea",
+   "id": "texts/mobydick.txt#Sea",
    "name": "Sea",
    "description": "The open ocean"
   }
  ],
  "Events": [
   {
-   "id": "textsmobydick.txt#Luckless_mishap",
+   "id": "texts/mobydick.txt#Luckless_mishap",
    "name": "Luckless_mishap",
    "takePlaceAt": {
-    "id": "textsmobydick.txt#Ship1",
+    "id": "texts/mobydick.txt#Ship1",
     "name": "Ship1"
    }
   },
   {
-   "id": "textsmobydick.txt#Success_in_harpooning_the_whale",
+   "id": "texts/mobydick.txt#Success_in_harpooning_the_whale",
    "name": "Success_in_harpooning_the_whale",
    "takePlaceAt": {
-    "id": "textsmobydick.txt#Sea1",
+    "id": "texts/mobydick.txt#Sea1",
     "name": "Sea1"
    }
   },
   {
-   "id": "textsmobydick.txt#Observing_Ahab_s_actions",
+   "id": "texts/mobydick.txt#Observing_Ahab_s_actions",
    "name": "Observing_Ahab_s_actions",
    "takePlaceAt": {
-    "id": "textsmobydick.txt#Ship1",
+    "id": "texts/mobydick.txt#Ship1",
     "name": "Ship1"
    }
   }
  ],
  "Objects": [
   {
-   "id": "textsmobydick.txt#Untoward_circumstance",
+   "id": "texts/mobydick.txt#Untoward_circumstance",
    "name": "Untoward_circumstance"
   },
   {
-   "id": "textsmobydick.txt#Harpoons",
+   "id": "texts/mobydick.txt#Harpoons",
    "name": "Harpoons"
   }
  ]

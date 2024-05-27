@@ -1,18 +1,18 @@
 {
  "FictionalCharacters": [
   {
-   "id": "textsmiddlemarch.txt#Fred_Vincy",
+   "id": "texts/middlemarch.txt#Fred_Vincy",
    "feels": [
     {
      "name": "Love",
      "hasIntensity": 0.9,
      "quote": "I have always loved her better than any one else, and that I shall never love any one as I love her.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Mary_Garth",
+      "id": "texts/middlemarch.txt#Mary_Garth",
       "name": "Mary_Garth"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Mary_Garth",
+      "id": "texts/middlemarch.txt#Mary_Garth",
       "name": "Mary_Garth"
      },
      "exactPlace": "In the gateway",
@@ -23,11 +23,11 @@
      "hasIntensity": 0.8,
      "quote": "I shall be the most miserable devil in the world if I lose all hope of Mary.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Uncertainty_about_his_future",
+      "id": "texts/middlemarch.txt#Uncertainty_about_his_future",
       "name": "Uncertainty_about_his_future"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Mary_Garth",
+      "id": "texts/middlemarch.txt#Mary_Garth",
       "name": "Mary_Garth"
      },
      "exactPlace": "In the gateway",
@@ -37,18 +37,18 @@
    "name": "Fred_Vincy"
   },
   {
-   "id": "textsmiddlemarch.txt#Caleb_Garth",
+   "id": "texts/middlemarch.txt#Caleb_Garth",
    "feels": [
     {
      "name": "Pride",
      "hasIntensity": 0.9,
      "quote": "You must have a pride in your own work and in learning to do it well.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Work_ethic",
+      "id": "texts/middlemarch.txt#Work_ethic",
       "name": "Work_ethic"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Work",
+      "id": "texts/middlemarch.txt#Work",
       "name": "Work"
      },
      "exactPlace": "In the field",
@@ -59,11 +59,11 @@
      "hasIntensity": 0.8,
      "quote": "The young ones have always a claim on the old to help them forward.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Fred_Vincy_s_situation",
+      "id": "texts/middlemarch.txt#Fred_Vincy_s_situation",
       "name": "Fred_Vincy_s_situation"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Fred_Vincy",
+      "id": "texts/middlemarch.txt#Fred_Vincy",
       "name": "Fred_Vincy"
      },
      "exactPlace": "In the field",
@@ -73,18 +73,18 @@
    "name": "Caleb_Garth"
   },
   {
-   "id": "textsmiddlemarch.txt#Mary_Garth",
+   "id": "texts/middlemarch.txt#Mary_Garth",
    "feels": [
     {
      "name": "Love",
      "hasIntensity": 0.9,
      "quote": "The children are fond of each other—I mean, Fred and Mary.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Fred_Vincy",
+      "id": "texts/middlemarch.txt#Fred_Vincy",
       "name": "Fred_Vincy"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Fred_Vincy",
+      "id": "texts/middlemarch.txt#Fred_Vincy",
       "name": "Fred_Vincy"
      },
      "exactPlace": "At home",
@@ -96,26 +96,26 @@
  ],
  "Places": [
   {
-   "id": "textsmiddlemarch.txt#Field",
+   "id": "texts/middlemarch.txt#Field",
    "name": "Field",
    "description": "The field where Caleb Garth and Fred Vincy were working."
   },
   {
-   "id": "textsmiddlemarch.txt#Gateway",
+   "id": "texts/middlemarch.txt#Gateway",
    "name": "Gateway",
    "description": "The gateway where Fred Vincy and Caleb Garth were talking."
   }
  ],
  "Events": [
   {
-   "id": "textsmiddlemarch.txt#Fred_Vincy_s_uncertainty_about_his_future_career",
+   "id": "texts/middlemarch.txt#Fred_Vincy_s_uncertainty_about_his_future_career",
    "name": "Fred_Vincy_s_uncertainty_about_his_future_career",
    "takePlaceAt": {
-    "id": "textsmiddlemarch.txt#Field",
+    "id": "texts/middlemarch.txt#Field",
     "name": "Field"
    },
    "hasParticipant": {
-    "id": "textsmiddlemarch.txt#Fred_Vincy",
+    "id": "texts/middlemarch.txt#Fred_Vincy",
     "name": "Fred_Vincy"
    }
   }

@@ -1,18 +1,18 @@
 {
  "FictionalCharacters": [
   {
-   "id": "textsfrankenstein.txt#Victor_Frankenstein",
+   "id": "texts/frankenstein.txt#Victor_Frankenstein",
    "feels": [
     {
      "name": "Fear",
      "hasIntensity": 0.9,
      "quote": "I could not sustain the horror of my situation, and when I perceived that the popular voice and the countenances of the judges had already condemned my unhappy victim, I rushed out of the court in agony.",
      "causedBy": {
-      "id": "textsfrankenstein.txt#Perception_of_Justine_s_condemnation",
+      "id": "texts/frankenstein.txt#Perception_of_Justine_s_condemnation",
       "name": "Perception_of_Justine_s_condemnation"
      },
      "hasObject": {
-      "id": "textsfrankenstein.txt#Situation",
+      "id": "texts/frankenstein.txt#Situation",
       "name": "Situation"
      },
      "exactPlace": "Courtroom",
@@ -23,11 +23,11 @@
      "hasIntensity": 0.8,
      "quote": "Despair! Who dared talk of that? The poor victim, who on the morrow was to pass the awful boundary between life and death, felt not, as I did, such deep and bitter agony. I gnashed my teeth and ground them together, uttering a groan that came from my inmost soul.",
      "causedBy": {
-      "id": "textsfrankenstein.txt#Feeling_of_despair",
+      "id": "texts/frankenstein.txt#Feeling_of_despair",
       "name": "Feeling_of_despair"
      },
      "hasObject": {
-      "id": "textsfrankenstein.txt#Victim_s_fate",
+      "id": "texts/frankenstein.txt#Victim_s_fate",
       "name": "Victim_s_fate"
      },
      "exactPlace": "Prison room",
@@ -38,11 +38,11 @@
      "hasIntensity": 0.9,
      "quote": "I passed a night of unmingled wretchedness.",
      "causedBy": {
-      "id": "textsfrankenstein.txt#Night_of_wretchedness",
+      "id": "texts/frankenstein.txt#Night_of_wretchedness",
       "name": "Night_of_wretchedness"
      },
      "hasObject": {
-      "id": "textsfrankenstein.txt#Personal_situation",
+      "id": "texts/frankenstein.txt#Personal_situation",
       "name": "Personal_situation"
      },
      "exactPlace": "Personal space",
@@ -52,18 +52,18 @@
    "name": "Victor_Frankenstein"
   },
   {
-   "id": "textsfrankenstein.txt#Elizabeth_Lavenza",
+   "id": "texts/frankenstein.txt#Elizabeth_Lavenza",
    "feels": [
     {
      "name": "Despair",
      "hasIntensity": 0.9,
      "quote": "Alas! How shall I ever again believe in human goodness?",
      "causedBy": {
-      "id": "textsfrankenstein.txt#Loss_of_faith_in_human_goodness",
+      "id": "texts/frankenstein.txt#Loss_of_faith_in_human_goodness",
       "name": "Loss_of_faith_in_human_goodness"
      },
      "hasObject": {
-      "id": "textsfrankenstein.txt#Human_goodness",
+      "id": "texts/frankenstein.txt#Human_goodness",
       "name": "Human_goodness"
      },
      "exactPlace": "Home",
@@ -74,11 +74,11 @@
      "hasIntensity": 0.8,
      "quote": "Oh, Justine! Forgive me for having for one moment distrusted you.",
      "causedBy": {
-      "id": "textsfrankenstein.txt#Distrust_towards_Justine",
+      "id": "texts/frankenstein.txt#Distrust_towards_Justine",
       "name": "Distrust_towards_Justine"
      },
      "hasObject": {
-      "id": "textsfrankenstein.txt#Distrust",
+      "id": "texts/frankenstein.txt#Distrust",
       "name": "Distrust"
      },
      "exactPlace": "Prison chamber",
@@ -88,18 +88,18 @@
    "name": "Elizabeth_Lavenza"
   },
   {
-   "id": "textsfrankenstein.txt#Justine_Moritz",
+   "id": "texts/frankenstein.txt#Justine_Moritz",
    "feels": [
     {
      "name": "Remorse",
      "hasIntensity": 0.9,
      "quote": "I did confess, but I confessed a lie. I confessed, that I might obtain absolution; but now that falsehood lies heavier at my heart than all my other sins.",
      "causedBy": {
-      "id": "textsfrankenstein.txt#Confession_of_a_lie",
+      "id": "texts/frankenstein.txt#Confession_of_a_lie",
       "name": "Confession_of_a_lie"
      },
      "hasObject": {
-      "id": "textsfrankenstein.txt#Falsehood",
+      "id": "texts/frankenstein.txt#Falsehood",
       "name": "Falsehood"
      },
      "exactPlace": "Prison chamber",
@@ -110,11 +110,11 @@
      "hasIntensity": 0.8,
      "quote": "God raises my weakness and gives me courage to endure the worst. I leave a sad and bitter world; and if you remember me and think of me as of one unjustly condemned, I am resigned to the fate awaiting me.",
      "causedBy": {
-      "id": "textsfrankenstein.txt#Acceptance_of_fate",
+      "id": "texts/frankenstein.txt#Acceptance_of_fate",
       "name": "Acceptance_of_fate"
      },
      "hasObject": {
-      "id": "textsfrankenstein.txt#Fate",
+      "id": "texts/frankenstein.txt#Fate",
       "name": "Fate"
      },
      "exactPlace": "Prison chamber",
@@ -126,53 +126,53 @@
  ],
  "Places": [
   {
-   "id": "textsfrankenstein.txt#Courtroom",
+   "id": "texts/frankenstein.txt#Courtroom",
    "name": "Courtroom",
    "description": "Where the trial of Justine Moritz took place."
   },
   {
-   "id": "textsfrankenstein.txt#Prison_room",
+   "id": "texts/frankenstein.txt#Prison_room",
    "name": "Prison_room",
    "description": "Where Justine Moritz was held in prison."
   },
   {
-   "id": "textsfrankenstein.txt#Personal_space",
+   "id": "texts/frankenstein.txt#Personal_space",
    "name": "Personal_space",
    "description": "Where Victor Frankenstein experienced personal anguish."
   },
   {
-   "id": "textsfrankenstein.txt#Home",
+   "id": "texts/frankenstein.txt#Home",
    "name": "Home",
    "description": "Where Elizabeth Lavenza expressed despair."
   }
  ],
  "Events": [
   {
-   "id": "textsfrankenstein.txt#Perception_of_Justine_s_condemnation",
+   "id": "texts/frankenstein.txt#Perception_of_Justine_s_condemnation",
    "name": "Perception_of_Justine_s_condemnation"
   },
   {
-   "id": "textsfrankenstein.txt#Feeling_of_despair",
+   "id": "texts/frankenstein.txt#Feeling_of_despair",
    "name": "Feeling_of_despair"
   },
   {
-   "id": "textsfrankenstein.txt#Night_of_wretchedness",
+   "id": "texts/frankenstein.txt#Night_of_wretchedness",
    "name": "Night_of_wretchedness"
   },
   {
-   "id": "textsfrankenstein.txt#Loss_of_faith_in_human_goodness",
+   "id": "texts/frankenstein.txt#Loss_of_faith_in_human_goodness",
    "name": "Loss_of_faith_in_human_goodness"
   },
   {
-   "id": "textsfrankenstein.txt#Distrust_towards_Justine",
+   "id": "texts/frankenstein.txt#Distrust_towards_Justine",
    "name": "Distrust_towards_Justine"
   },
   {
-   "id": "textsfrankenstein.txt#Confession_of_a_lie",
+   "id": "texts/frankenstein.txt#Confession_of_a_lie",
    "name": "Confession_of_a_lie"
   },
   {
-   "id": "textsfrankenstein.txt#Acceptance_of_fate",
+   "id": "texts/frankenstein.txt#Acceptance_of_fate",
    "name": "Acceptance_of_fate"
   }
  ]

@@ -1,7 +1,7 @@
 {
  "FictionalCharacters": [
   {
-   "id": "textslittlewomen.txt#Jo",
+   "id": "texts/littlewomen.txt#Jo",
    "name": "Jo",
    "feels": [
     {
@@ -9,11 +9,11 @@
      "hasIntensity": 0.9,
      "quote": "A universal shriek arose as the russet boots waved wildly from the wreck, and a golden head emerged, exclaiming, 'I told you so! I told you so!'",
      "causedBy": {
-      "id": "textslittlewomen.txt#Successful_performance_of_the_Operatic_Tragedy",
+      "id": "texts/littlewomen.txt#Successful_performance_of_the_Operatic_Tragedy",
       "name": "Successful_performance_of_the_Operatic_Tragedy"
      },
      "hasObject": {
-      "id": "textslittlewomen.txt#Russet_boots",
+      "id": "texts/littlewomen.txt#Russet_boots",
       "name": "Russet_boots"
      },
      "exactPlace": "During the performance of the Operatic Tragedy",
@@ -24,11 +24,11 @@
      "hasIntensity": 0.8,
      "quote": "A good deal of hammering went on before the curtain rose again; but when it became evident what a masterpiece of stage-carpentering had been got up, no one murmured at the delay.",
      "causedBy": {
-      "id": "textslittlewomen.txt#Impressive_stagecarpentering",
+      "id": "texts/littlewomen.txt#Impressive_stagecarpentering",
       "name": "Impressive_stagecarpentering"
      },
      "hasObject": {
-      "id": "textslittlewomen.txt#Stage_set",
+      "id": "texts/littlewomen.txt#Stage_set",
       "name": "Stage_set"
      },
      "exactPlace": "During the preparation for the evening festivities",
@@ -39,11 +39,11 @@
      "hasIntensity": 0.9,
      "quote": "It was like Marmee to get up a little treat for them; but anything so fine as this was unheard-of since the departed days of plenty.",
      "causedBy": {
-      "id": "textslittlewomen.txt#Surprise_supper",
+      "id": "texts/littlewomen.txt#Surprise_supper",
       "name": "Surprise_supper"
      },
      "hasObject": {
-      "id": "textslittlewomen.txt#Supper_treats",
+      "id": "texts/littlewomen.txt#Supper_treats",
       "name": "Supper_treats"
      },
      "exactPlace": "During the surprise supper",
@@ -52,7 +52,7 @@
    ]
   },
   {
-   "id": "textslittlewomen.txt#Meg",
+   "id": "texts/littlewomen.txt#Meg",
    "name": "Meg",
    "feels": [
     {
@@ -60,11 +60,11 @@
      "hasIntensity": 0.8,
      "quote": "A good deal of hammering went on before the curtain rose again; but when it became evident what a masterpiece of stage-carpentering had been got up, no one murmured at the delay.",
      "causedBy": {
-      "id": "textslittlewomen.txt#Impressive_stagecarpentering",
+      "id": "texts/littlewomen.txt#Impressive_stagecarpentering",
       "name": "Impressive_stagecarpentering"
      },
      "hasObject": {
-      "id": "textslittlewomen.txt#Stage_set",
+      "id": "texts/littlewomen.txt#Stage_set",
       "name": "Stage_set"
      },
      "exactPlace": "During the preparation for the evening festivities",
@@ -75,11 +75,11 @@
      "hasIntensity": 0.9,
      "quote": "It was like Marmee to get up a little treat for them; but anything so fine as this was unheard-of since the departed days of plenty.",
      "causedBy": {
-      "id": "textslittlewomen.txt#Surprise_supper",
+      "id": "texts/littlewomen.txt#Surprise_supper",
       "name": "Surprise_supper"
      },
      "hasObject": {
-      "id": "textslittlewomen.txt#Supper_treats",
+      "id": "texts/littlewomen.txt#Supper_treats",
       "name": "Supper_treats"
      },
      "exactPlace": "During the surprise supper",
@@ -88,7 +88,7 @@
    ]
   },
   {
-   "id": "textslittlewomen.txt#Amy",
+   "id": "texts/littlewomen.txt#Amy",
    "name": "Amy",
    "feels": [
     {
@@ -96,11 +96,11 @@
      "hasIntensity": 0.9,
      "quote": "A good deal of hammering went on before the curtain rose again; but when it became evident what a masterpiece of stage-carpentering had been got up, no one murmured at the delay.",
      "causedBy": {
-      "id": "textslittlewomen.txt#Impressive_stagecarpentering",
+      "id": "texts/littlewomen.txt#Impressive_stagecarpentering",
       "name": "Impressive_stagecarpentering"
      },
      "hasObject": {
-      "id": "textslittlewomen.txt#Stage_set",
+      "id": "texts/littlewomen.txt#Stage_set",
       "name": "Stage_set"
      },
      "exactPlace": "During the preparation for the evening festivities",
@@ -111,11 +111,11 @@
      "hasIntensity": 0.9,
      "quote": "It was like Marmee to get up a little treat for them; but anything so fine as this was unheard-of since the departed days of plenty.",
      "causedBy": {
-      "id": "textslittlewomen.txt#Surprise_supper",
+      "id": "texts/littlewomen.txt#Surprise_supper",
       "name": "Surprise_supper"
      },
      "hasObject": {
-      "id": "textslittlewomen.txt#Supper_treats",
+      "id": "texts/littlewomen.txt#Supper_treats",
       "name": "Supper_treats"
      },
      "exactPlace": "During the surprise supper",
@@ -124,7 +124,7 @@
    ]
   },
   {
-   "id": "textslittlewomen.txt#Beth",
+   "id": "texts/littlewomen.txt#Beth",
    "name": "Beth",
    "feels": [
     {
@@ -132,11 +132,11 @@
      "hasIntensity": 0.9,
      "quote": "A good deal of hammering went on before the curtain rose again; but when it became evident what a masterpiece of stage-carpentering had been got up, no one murmured at the delay.",
      "causedBy": {
-      "id": "textslittlewomen.txt#Impressive_stagecarpentering",
+      "id": "texts/littlewomen.txt#Impressive_stagecarpentering",
       "name": "Impressive_stagecarpentering"
      },
      "hasObject": {
-      "id": "textslittlewomen.txt#Stage_set",
+      "id": "texts/littlewomen.txt#Stage_set",
       "name": "Stage_set"
      },
      "exactPlace": "During the preparation for the evening festivities",
@@ -147,11 +147,11 @@
      "hasIntensity": 0.9,
      "quote": "It was like Marmee to get up a little treat for them; but anything so fine as this was unheard-of since the departed days of plenty.",
      "causedBy": {
-      "id": "textslittlewomen.txt#Surprise_supper",
+      "id": "texts/littlewomen.txt#Surprise_supper",
       "name": "Surprise_supper"
      },
      "hasObject": {
-      "id": "textslittlewomen.txt#Supper_treats",
+      "id": "texts/littlewomen.txt#Supper_treats",
       "name": "Supper_treats"
      },
      "exactPlace": "During the surprise supper",

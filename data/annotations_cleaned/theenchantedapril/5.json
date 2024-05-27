@@ -1,7 +1,7 @@
 {
  "FictionalCharacters": [
   {
-   "id": "textstheenchantedapril.txt#Scrap",
+   "id": "texts/theenchantedapril.txt#Scrap",
    "name": "Scrap",
    "feels": [
     {
@@ -9,15 +9,15 @@
      "hasIntensity": 0.8,
      "quote": "Scrap, whenever she looked at Mr. Wilkins, saw him in his towel, dripping water, and felt indulgent.",
      "causedBy": {
-      "id": "textstheenchantedapril.txt#Mr_Wilkins_s_appearance_in_a_towel",
+      "id": "texts/theenchantedapril.txt#Mr_Wilkins_s_appearance_in_a_towel",
       "name": "Mr_Wilkins_s_appearance_in_a_towel"
      },
      "hasObject": {
-      "id": "textstheenchantedapril.txt#Mr_Wilkins",
+      "id": "texts/theenchantedapril.txt#Mr_Wilkins",
       "name": "Mr_Wilkins"
      },
      "place": {
-      "id": "textstheenchantedapril.txt#Dining_room",
+      "id": "texts/theenchantedapril.txt#Dining_room",
       "name": "Dining_room"
      },
      "id": "Amusement"
@@ -27,15 +27,15 @@
      "hasIntensity": 0.7,
      "quote": "Scrap, whenever she looked at Mr. Wilkins, saw him in his towel, dripping water, and felt indulgent.",
      "causedBy": {
-      "id": "textstheenchantedapril.txt#Mr_Wilkins_s_appearance_in_a_towel",
+      "id": "texts/theenchantedapril.txt#Mr_Wilkins_s_appearance_in_a_towel",
       "name": "Mr_Wilkins_s_appearance_in_a_towel"
      },
      "hasObject": {
-      "id": "textstheenchantedapril.txt#Mr_Wilkins",
+      "id": "texts/theenchantedapril.txt#Mr_Wilkins",
       "name": "Mr_Wilkins"
      },
      "place": {
-      "id": "textstheenchantedapril.txt#Dining_room",
+      "id": "texts/theenchantedapril.txt#Dining_room",
       "name": "Dining_room"
      },
      "id": "Indulgence"
@@ -43,7 +43,7 @@
    ]
   },
   {
-   "id": "textstheenchantedapril.txt#Mrs_Fisher",
+   "id": "texts/theenchantedapril.txt#Mrs_Fisher",
    "name": "Mrs_Fisher",
    "feels": [
     {
@@ -51,15 +51,15 @@
      "hasIntensity": 0.9,
      "quote": "What Mr. Wilkins said to her in reply, when reminded by what she was saying of his condition, was so handsome in its apology, so proper in its confusion, that she had ended by being quite sorry for him and completely placated.",
      "causedBy": {
-      "id": "textstheenchantedapril.txt#Mr_Wilkins_s_apology",
+      "id": "texts/theenchantedapril.txt#Mr_Wilkins_s_apology",
       "name": "Mr_Wilkins_s_apology"
      },
      "hasObject": {
-      "id": "textstheenchantedapril.txt#Mrs_Fisher",
+      "id": "texts/theenchantedapril.txt#Mrs_Fisher",
       "name": "Mrs_Fisher"
      },
      "place": {
-      "id": "textstheenchantedapril.txt#Dining_room",
+      "id": "texts/theenchantedapril.txt#Dining_room",
       "name": "Dining_room"
      },
      "id": "Placation"
@@ -69,15 +69,15 @@
      "hasIntensity": 0.8,
      "quote": "Mrs. Fisher was delighted with him.",
      "causedBy": {
-      "id": "textstheenchantedapril.txt#Mr_Wilkins_s_behavior_at_dinner",
+      "id": "texts/theenchantedapril.txt#Mr_Wilkins_s_behavior_at_dinner",
       "name": "Mr_Wilkins_s_behavior_at_dinner"
      },
      "hasObject": {
-      "id": "textstheenchantedapril.txt#Mr_Wilkins",
+      "id": "texts/theenchantedapril.txt#Mr_Wilkins",
       "name": "Mr_Wilkins"
      },
      "place": {
-      "id": "textstheenchantedapril.txt#Dining_room",
+      "id": "texts/theenchantedapril.txt#Dining_room",
       "name": "Dining_room"
      },
      "id": "Admiration"
@@ -85,7 +85,7 @@
    ]
   },
   {
-   "id": "textstheenchantedapril.txt#Lady_Caroline",
+   "id": "texts/theenchantedapril.txt#Lady_Caroline",
    "name": "Lady_Caroline",
    "feels": [
     {
@@ -93,15 +93,15 @@
      "hasIntensity": 0.9,
      "quote": "Meanwhile Lady Caroline was all and more than all Mr. Wilkins had imagined, and had received his speeches, worked in skilfully between the courses, graciously.",
      "causedBy": {
-      "id": "textstheenchantedapril.txt#Mr_Wilkins_s_speeches",
+      "id": "texts/theenchantedapril.txt#Mr_Wilkins_s_speeches",
       "name": "Mr_Wilkins_s_speeches"
      },
      "hasObject": {
-      "id": "textstheenchantedapril.txt#Lady_Caroline",
+      "id": "texts/theenchantedapril.txt#Lady_Caroline",
       "name": "Lady_Caroline"
      },
      "place": {
-      "id": "textstheenchantedapril.txt#Dining_room",
+      "id": "texts/theenchantedapril.txt#Dining_room",
       "name": "Dining_room"
      },
      "id": "Approval"
@@ -109,7 +109,7 @@
    ]
   },
   {
-   "id": "textstheenchantedapril.txt#Lotty",
+   "id": "texts/theenchantedapril.txt#Lotty",
    "name": "Lotty",
    "feels": [
     {
@@ -117,15 +117,15 @@
      "hasIntensity": 0.9,
      "quote": "Her face sparkled with delight at the instantaneous effect of San Salvatore.",
      "causedBy": {
-      "id": "textstheenchantedapril.txt#Mr_Wilkins_s_behavior",
+      "id": "texts/theenchantedapril.txt#Mr_Wilkins_s_behavior",
       "name": "Mr_Wilkins_s_behavior"
      },
      "hasObject": {
-      "id": "textstheenchantedapril.txt#Mr_Wilkins",
+      "id": "texts/theenchantedapril.txt#Mr_Wilkins",
       "name": "Mr_Wilkins"
      },
      "place": {
-      "id": "textstheenchantedapril.txt#Dining_room",
+      "id": "texts/theenchantedapril.txt#Dining_room",
       "name": "Dining_room"
      },
      "id": "Delight"
@@ -135,54 +135,54 @@
  ],
  "Places": [
   {
-   "id": "textstheenchantedapril.txt#Dining_room",
+   "id": "texts/theenchantedapril.txt#Dining_room",
    "name": "Dining_room",
    "description": "Where the characters had dinner."
   },
   {
-   "id": "textstheenchantedapril.txt#Dining_room",
+   "id": "texts/theenchantedapril.txt#Dining_room",
    "name": "Dining_room",
    "description": "Where the characters interacted with Mr. Wilkins."
   }
  ],
  "Events": [
   {
-   "id": "textstheenchantedapril.txt#Mr_Wilkins_s_appearance_in_a_towel",
+   "id": "texts/theenchantedapril.txt#Mr_Wilkins_s_appearance_in_a_towel",
    "name": "Mr_Wilkins_s_appearance_in_a_towel",
    "takePlaceAt": {
-    "id": "textstheenchantedapril.txt#place1",
+    "id": "texts/theenchantedapril.txt#place1",
     "name": "place1"
    }
   },
   {
-   "id": "textstheenchantedapril.txt#Mr_Wilkins_s_apology",
+   "id": "texts/theenchantedapril.txt#Mr_Wilkins_s_apology",
    "name": "Mr_Wilkins_s_apology",
    "takePlaceAt": {
-    "id": "textstheenchantedapril.txt#place2",
+    "id": "texts/theenchantedapril.txt#place2",
     "name": "place2"
    }
   },
   {
-   "id": "textstheenchantedapril.txt#Mr_Wilkins_s_behavior_at_dinner",
+   "id": "texts/theenchantedapril.txt#Mr_Wilkins_s_behavior_at_dinner",
    "name": "Mr_Wilkins_s_behavior_at_dinner",
    "takePlaceAt": {
-    "id": "textstheenchantedapril.txt#place2",
+    "id": "texts/theenchantedapril.txt#place2",
     "name": "place2"
    }
   },
   {
-   "id": "textstheenchantedapril.txt#Mr_Wilkins_s_speeches",
+   "id": "texts/theenchantedapril.txt#Mr_Wilkins_s_speeches",
    "name": "Mr_Wilkins_s_speeches",
    "takePlaceAt": {
-    "id": "textstheenchantedapril.txt#place2",
+    "id": "texts/theenchantedapril.txt#place2",
     "name": "place2"
    }
   },
   {
-   "id": "textstheenchantedapril.txt#Mr_Wilkins_s_behavior",
+   "id": "texts/theenchantedapril.txt#Mr_Wilkins_s_behavior",
    "name": "Mr_Wilkins_s_behavior",
    "takePlaceAt": {
-    "id": "textstheenchantedapril.txt#place2",
+    "id": "texts/theenchantedapril.txt#place2",
     "name": "place2"
    }
   }

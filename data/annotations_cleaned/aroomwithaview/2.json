@@ -1,7 +1,7 @@
 {
  "FictionalCharacters": [
   {
-   "id": "textsaroomwithaview.txt#Freddy",
+   "id": "texts/aroomwithaview.txt#Freddy",
    "name": "Freddy",
    "feels": [
     {
@@ -9,11 +9,11 @@
      "hasIntensity": 0.8,
      "quote": "I had to say no. He ought never to have asked me.",
      "causedBy": {
-      "id": "textsaroomwithaview.txt#Cecil_s_proposal_to_Lucy",
+      "id": "texts/aroomwithaview.txt#Cecil_s_proposal_to_Lucy",
       "name": "Cecil_s_proposal_to_Lucy"
      },
      "hasObject": {
-      "id": "textsaroomwithaview.txt#Cecil",
+      "id": "texts/aroomwithaview.txt#Cecil",
       "name": "Cecil"
      },
      "exactPlace": "Drawing-room",
@@ -24,11 +24,11 @@
      "hasIntensity": 0.7,
      "quote": "I feel my foot’s in it.",
      "causedBy": {
-      "id": "textsaroomwithaview.txt#Feeling_uncomfortable_about_Cecil_s_proposal",
+      "id": "texts/aroomwithaview.txt#Feeling_uncomfortable_about_Cecil_s_proposal",
       "name": "Feeling_uncomfortable_about_Cecil_s_proposal"
      },
      "hasObject": {
-      "id": "textsaroomwithaview.txt#Cecil",
+      "id": "texts/aroomwithaview.txt#Cecil",
       "name": "Cecil"
      },
      "exactPlace": "Drawing-room",
@@ -39,11 +39,11 @@
      "hasIntensity": 0.6,
      "quote": "I can’t explain—I do feel so uncomfortable.",
      "causedBy": {
-      "id": "textsaroomwithaview.txt#Feeling_uncomfortable_about_Cecil_s_proposal",
+      "id": "texts/aroomwithaview.txt#Feeling_uncomfortable_about_Cecil_s_proposal",
       "name": "Feeling_uncomfortable_about_Cecil_s_proposal"
      },
      "hasObject": {
-      "id": "textsaroomwithaview.txt#Cecil",
+      "id": "texts/aroomwithaview.txt#Cecil",
       "name": "Cecil"
      },
      "exactPlace": "Drawing-room",
@@ -52,7 +52,7 @@
    ]
   },
   {
-   "id": "textsaroomwithaview.txt#Mrs_Honeychurch",
+   "id": "texts/aroomwithaview.txt#Mrs_Honeychurch",
    "name": "Mrs_Honeychurch",
    "feels": [
     {
@@ -60,11 +60,11 @@
      "hasIntensity": 0.8,
      "quote": "You think you’re so holy and truthful, but really it’s only abominable conceit.",
      "causedBy": {
-      "id": "textsaroomwithaview.txt#Freddy_s_behavior",
+      "id": "texts/aroomwithaview.txt#Freddy_s_behavior",
       "name": "Freddy_s_behavior"
      },
      "hasObject": {
-      "id": "textsaroomwithaview.txt#Freddy",
+      "id": "texts/aroomwithaview.txt#Freddy",
       "name": "Freddy"
      },
      "exactPlace": "Drawing-room",
@@ -75,11 +75,11 @@
      "hasIntensity": 0.7,
      "quote": "I shall not keep quiet.",
      "causedBy": {
-      "id": "textsaroomwithaview.txt#Worry_about_the_situation_with_Cecil_and_Lucy",
+      "id": "texts/aroomwithaview.txt#Worry_about_the_situation_with_Cecil_and_Lucy",
       "name": "Worry_about_the_situation_with_Cecil_and_Lucy"
      },
      "hasObject": {
-      "id": "textsaroomwithaview.txt#Cecil_and_Lucy",
+      "id": "texts/aroomwithaview.txt#Cecil_and_Lucy",
       "name": "Cecil_and_Lucy"
      },
      "exactPlace": "Drawing-room",
@@ -90,49 +90,49 @@
  ],
  "Places": [
   {
-   "id": "textsaroomwithaview.txt#Drawingroom",
+   "id": "texts/aroomwithaview.txt#Drawingroom",
    "name": "Drawingroom",
    "description": "Windy Corner drawing-room with heavy curtains and subdued light."
   }
  ],
  "Events": [
   {
-   "id": "textsaroomwithaview.txt#Cecil_s_proposal_to_Lucy",
+   "id": "texts/aroomwithaview.txt#Cecil_s_proposal_to_Lucy",
    "name": "Cecil_s_proposal_to_Lucy",
    "takePlaceAt": {
-    "id": "textsaroomwithaview.txt#place1",
+    "id": "texts/aroomwithaview.txt#place1",
     "name": "place1"
    }
   },
   {
-   "id": "textsaroomwithaview.txt#Feeling_uncomfortable_about_Cecil_s_proposal",
+   "id": "texts/aroomwithaview.txt#Feeling_uncomfortable_about_Cecil_s_proposal",
    "name": "Feeling_uncomfortable_about_Cecil_s_proposal",
    "takePlaceAt": {
-    "id": "textsaroomwithaview.txt#place1",
+    "id": "texts/aroomwithaview.txt#place1",
     "name": "place1"
    }
   },
   {
-   "id": "textsaroomwithaview.txt#Feeling_uncomfortable_about_Cecil_s_proposal",
+   "id": "texts/aroomwithaview.txt#Feeling_uncomfortable_about_Cecil_s_proposal",
    "name": "Feeling_uncomfortable_about_Cecil_s_proposal",
    "takePlaceAt": {
-    "id": "textsaroomwithaview.txt#place1",
+    "id": "texts/aroomwithaview.txt#place1",
     "name": "place1"
    }
   },
   {
-   "id": "textsaroomwithaview.txt#Freddy_s_behavior",
+   "id": "texts/aroomwithaview.txt#Freddy_s_behavior",
    "name": "Freddy_s_behavior",
    "takePlaceAt": {
-    "id": "textsaroomwithaview.txt#place1",
+    "id": "texts/aroomwithaview.txt#place1",
     "name": "place1"
    }
   },
   {
-   "id": "textsaroomwithaview.txt#Worry_about_the_situation_with_Cecil_and_Lucy",
+   "id": "texts/aroomwithaview.txt#Worry_about_the_situation_with_Cecil_and_Lucy",
    "name": "Worry_about_the_situation_with_Cecil_and_Lucy",
    "takePlaceAt": {
-    "id": "textsaroomwithaview.txt#place1",
+    "id": "texts/aroomwithaview.txt#place1",
     "name": "place1"
    }
   }

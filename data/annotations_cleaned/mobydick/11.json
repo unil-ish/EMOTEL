@@ -1,7 +1,7 @@
 {
  "FictionalCharacters": [
   {
-   "id": "textsmobydick.txt#Crippled_Beggar",
+   "id": "texts/mobydick.txt#Crippled_Beggar",
    "name": "Crippled_Beggar",
    "feels": [
     {
@@ -9,11 +9,11 @@
      "hasIntensity": 0.7,
      "quote": "But the time of his justification has now come.",
      "causedBy": {
-      "id": "textsmobydick.txt#Holding_up_the_painted_board",
+      "id": "texts/mobydick.txt#Holding_up_the_painted_board",
       "name": "Holding_up_the_painted_board"
      },
      "hasObject": {
-      "id": "textsmobydick.txt#Painted_board",
+      "id": "texts/mobydick.txt#Painted_board",
       "name": "Painted_board"
      },
      "place": "London docks",
@@ -22,7 +22,7 @@
    ]
   },
   {
-   "id": "textsmobydick.txt#SailorSavage",
+   "id": "texts/mobydick.txt#SailorSavage",
    "name": "SailorSavage",
    "feels": [
     {
@@ -30,7 +30,7 @@
      "hasIntensity": 0.8,
      "quote": "Your true whale-hunter is as much a savage as an Iroquois. I myself am a savage, owning no allegiance but to the King of the Cannibals; and ready at any moment to rebel against him.",
      "causedBy": {
-      "id": "textsmobydick.txt#Long_exile_from_Christendom_and_civilization",
+      "id": "texts/mobydick.txt#Long_exile_from_Christendom_and_civilization",
       "name": "Long_exile_from_Christendom_and_civilization"
      },
      "place": "Unknown",
@@ -41,33 +41,33 @@
  ],
  "Places": [
   {
-   "id": "textsmobydick.txt#London_docks",
+   "id": "texts/mobydick.txt#London_docks",
    "name": "London_docks",
    "description": "A place where a crippled beggar holds up a painted board."
   }
  ],
  "Events": [
   {
-   "id": "textsmobydick.txt#Holding_up_the_painted_board",
+   "id": "texts/mobydick.txt#Holding_up_the_painted_board",
    "name": "Holding_up_the_painted_board",
    "takePlaceAt": {
-    "id": "textsmobydick.txt#place1",
+    "id": "texts/mobydick.txt#place1",
     "name": "place1"
    },
    "hasParticipant": {
-    "id": "textsmobydick.txt#whaleman1",
+    "id": "texts/mobydick.txt#whaleman1",
     "name": "whaleman1"
    }
   },
   {
-   "id": "textsmobydick.txt#Long_exile_from_Christendom_and_civilization",
+   "id": "texts/mobydick.txt#Long_exile_from_Christendom_and_civilization",
    "name": "Long_exile_from_Christendom_and_civilization",
    "takePlaceAt": {
-    "id": "textsmobydick.txt#place2",
+    "id": "texts/mobydick.txt#place2",
     "name": "place2"
    },
    "hasParticipant": {
-    "id": "textsmobydick.txt#whaleman2",
+    "id": "texts/mobydick.txt#whaleman2",
     "name": "whaleman2"
    }
   }

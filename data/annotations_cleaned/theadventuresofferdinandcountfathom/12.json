@@ -1,7 +1,7 @@
 {
  "FictionalCharacters": [
   {
-   "id": "textstheadventuresofferdinandcountfathom.txt#Doctor_Fathom",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Doctor_Fathom",
    "name": "Doctor_Fathom",
    "feels": [
     {
@@ -9,15 +9,15 @@
      "hasIntensity": 0.7,
      "quote": "In cultivating the fiddler, they utterly neglected the physician.",
      "causedBy": {
-      "id": "textstheadventuresofferdinandcountfathom.txt#Lack_of_recognition_for_medical_capacity",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Lack_of_recognition_for_medical_capacity",
       "name": "Lack_of_recognition_for_medical_capacity"
      },
      "hasObject": {
-      "id": "textstheadventuresofferdinandcountfathom.txt#Medical_capacity",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Medical_capacity",
       "name": "Medical_capacity"
      },
      "place": {
-      "id": "textstheadventuresofferdinandcountfathom.txt#Tunbridge",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Tunbridge",
       "name": "Tunbridge"
      },
      "id": "Disappointment"
@@ -27,15 +27,15 @@
      "hasIntensity": 0.8,
      "quote": "The patient...was not altogether without hope.",
      "causedBy": {
-      "id": "textstheadventuresofferdinandcountfathom.txt#Hope_for_the_return_of_her_admirer",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Hope_for_the_return_of_her_admirer",
       "name": "Hope_for_the_return_of_her_admirer"
      },
      "hasObject": {
-      "id": "textstheadventuresofferdinandcountfathom.txt#Return_of_her_admirer",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Return_of_her_admirer",
       "name": "Return_of_her_admirer"
      },
      "place": {
-      "id": "textstheadventuresofferdinandcountfathom.txt#Tunbridge",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Tunbridge",
       "name": "Tunbridge"
      },
      "id": "Hope"
@@ -45,15 +45,15 @@
      "hasIntensity": 0.9,
      "quote": "The patient, though violently chagrined at the levity of her quondam admirer...",
      "causedBy": {
-      "id": "textstheadventuresofferdinandcountfathom.txt#Forsaking_of_the_patient_by_her_admirer",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Forsaking_of_the_patient_by_her_admirer",
       "name": "Forsaking_of_the_patient_by_her_admirer"
      },
      "hasObject": {
-      "id": "textstheadventuresofferdinandcountfathom.txt#Forsaking_of_the_patient",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Forsaking_of_the_patient",
       "name": "Forsaking_of_the_patient"
      },
      "place": {
-      "id": "textstheadventuresofferdinandcountfathom.txt#Tunbridge",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Tunbridge",
       "name": "Tunbridge"
      },
      "id": "Chagrin"
@@ -63,33 +63,33 @@
  ],
  "Places": [
   {
-   "id": "textstheadventuresofferdinandcountfathom.txt#Tunbridge",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Tunbridge",
    "name": "Tunbridge",
    "description": "A location where Doctor Fathom was trying to establish himself as a physician."
   }
  ],
  "Events": [
   {
-   "id": "textstheadventuresofferdinandcountfathom.txt#Lack_of_recognition_for_medical_capacity",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Lack_of_recognition_for_medical_capacity",
    "name": "Lack_of_recognition_for_medical_capacity",
    "takePlaceAt": {
-    "id": "textstheadventuresofferdinandcountfathom.txt#place1",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#place1",
     "name": "place1"
    }
   },
   {
-   "id": "textstheadventuresofferdinandcountfathom.txt#Hope_for_the_return_of_her_admirer",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Hope_for_the_return_of_her_admirer",
    "name": "Hope_for_the_return_of_her_admirer",
    "takePlaceAt": {
-    "id": "textstheadventuresofferdinandcountfathom.txt#place1",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#place1",
     "name": "place1"
    }
   },
   {
-   "id": "textstheadventuresofferdinandcountfathom.txt#Forsaking_of_the_patient_by_her_admirer",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Forsaking_of_the_patient_by_her_admirer",
    "name": "Forsaking_of_the_patient_by_her_admirer",
    "takePlaceAt": {
-    "id": "textstheadventuresofferdinandcountfathom.txt#place1",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#place1",
     "name": "place1"
    }
   }

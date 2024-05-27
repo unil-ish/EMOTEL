@@ -1,7 +1,7 @@
 {
  "FictionalCharacters": [
   {
-   "id": "textsmiddlemarch.txt#Dorothea_Brooke",
+   "id": "texts/middlemarch.txt#Dorothea_Brooke",
    "name": "Dorothea_Brooke",
    "feels": [
     {
@@ -9,11 +9,11 @@
      "hasIntensity": 0.9,
      "quote": "The longing was to see Will Ladislaw. She did not know any good that could come of their meeting: she was helpless; her hands had been tied from making up to him for any unfairness in his lot. But her soul thirsted to see him.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Desire_to_see_Will_Ladislaw",
+      "id": "texts/middlemarch.txt#Desire_to_see_Will_Ladislaw",
       "name": "Desire_to_see_Will_Ladislaw"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Will_Ladislaw",
+      "id": "texts/middlemarch.txt#Will_Ladislaw",
       "name": "Will_Ladislaw"
      },
      "exactPlace": "Lowick Manor",
@@ -24,11 +24,11 @@
      "hasIntensity": 0.8,
      "quote": "The pity which had been the restraining compelling motive in her life with him still clung about his image, even while she remonstrated with him in indignant thought and told him that he was unjust.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Pity_for_Mr_Casaubon",
+      "id": "texts/middlemarch.txt#Pity_for_Mr_Casaubon",
       "name": "Pity_for_Mr_Casaubon"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Mr_Casaubon",
+      "id": "texts/middlemarch.txt#Mr_Casaubon",
       "name": "Mr_Casaubon"
      },
      "exactPlace": "Lowick Manor",
@@ -39,11 +39,11 @@
      "hasIntensity": 0.7,
      "quote": "But just now she could not see Lydgate without sending for him or going to seek him. Perhaps Will Ladislaw, having heard of that strange ban against him left by Mr. Casaubon, had felt it better that he and she should not meet again, and perhaps she was wrong to wish for a meeting that others might find many good reasons against.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Desire_to_see_Will_Ladislaw",
+      "id": "texts/middlemarch.txt#Desire_to_see_Will_Ladislaw",
       "name": "Desire_to_see_Will_Ladislaw"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Will_Ladislaw",
+      "id": "texts/middlemarch.txt#Will_Ladislaw",
       "name": "Will_Ladislaw"
      },
      "exactPlace": "Lowick Manor",
@@ -54,45 +54,45 @@
  ],
  "Places": [
   {
-   "id": "textsmiddlemarch.txt#Lowick_Manor",
+   "id": "texts/middlemarch.txt#Lowick_Manor",
    "name": "Lowick_Manor",
    "description": "The estate where Dorothea Brooke resides."
   }
  ],
  "Events": [
   {
-   "id": "textsmiddlemarch.txt#Desire_to_see_Will_Ladislaw",
+   "id": "texts/middlemarch.txt#Desire_to_see_Will_Ladislaw",
    "name": "Desire_to_see_Will_Ladislaw",
    "takePlaceAt": {
-    "id": "textsmiddlemarch.txt#place1",
+    "id": "texts/middlemarch.txt#place1",
     "name": "place1"
    },
    "hasParticipant": {
-    "id": "textsmiddlemarch.txt#fc1",
+    "id": "texts/middlemarch.txt#fc1",
     "name": "fc1"
    }
   },
   {
-   "id": "textsmiddlemarch.txt#Pity_for_Mr_Casaubon",
+   "id": "texts/middlemarch.txt#Pity_for_Mr_Casaubon",
    "name": "Pity_for_Mr_Casaubon",
    "takePlaceAt": {
-    "id": "textsmiddlemarch.txt#place1",
+    "id": "texts/middlemarch.txt#place1",
     "name": "place1"
    },
    "hasParticipant": {
-    "id": "textsmiddlemarch.txt#fc1",
+    "id": "texts/middlemarch.txt#fc1",
     "name": "fc1"
    }
   },
   {
-   "id": "textsmiddlemarch.txt#Desire_to_see_Will_Ladislaw",
+   "id": "texts/middlemarch.txt#Desire_to_see_Will_Ladislaw",
    "name": "Desire_to_see_Will_Ladislaw",
    "takePlaceAt": {
-    "id": "textsmiddlemarch.txt#place1",
+    "id": "texts/middlemarch.txt#place1",
     "name": "place1"
    },
    "hasParticipant": {
-    "id": "textsmiddlemarch.txt#fc1",
+    "id": "texts/middlemarch.txt#fc1",
     "name": "fc1"
    }
   }

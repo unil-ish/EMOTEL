@@ -1,7 +1,7 @@
 {
  "FictionalCharacters": [
   {
-   "id": "textslittlewomen.txt#Jo",
+   "id": "texts/littlewomen.txt#Jo",
    "name": "Jo",
    "feels": [
     {
@@ -11,7 +11,7 @@
      "place": "By the bed",
      "causedBy": {
       "name": "Seeing_Meg_kneeling_before_their_mother_s_easychair",
-      "id": "textslittlewomen.txt#Seeing_Meg_kneeling_before_their_mother_s_easychai"
+      "id": "texts/littlewomen.txt#Seeing_Meg_kneeling_before_their_mother_s_easychai"
      },
      "id": "Relief"
     },
@@ -22,7 +22,7 @@
      "place": "By the bed",
      "causedBy": {
       "name": "Seeing_the_peaceful_expression_on_Beth_s_face",
-      "id": "textslittlewomen.txt#Seeing_the_peaceful_expression_on_Beth_s_face"
+      "id": "texts/littlewomen.txt#Seeing_the_peaceful_expression_on_Beth_s_face"
      },
      "id": "Joy"
     },
@@ -33,7 +33,7 @@
      "place": "By the bed",
      "causedBy": {
       "name": "Confirmation_from_the_doctor_that_Beth_will_pull_through",
-      "id": "textslittlewomen.txt#Confirmation_from_the_doctor_that_Beth_will_pull_t"
+      "id": "texts/littlewomen.txt#Confirmation_from_the_doctor_that_Beth_will_pull_t"
      },
      "id": "Hope"
     },
@@ -44,14 +44,14 @@
      "place": "By the bed",
      "causedBy": {
       "name": "Confirmation_from_the_doctor_that_Beth_will_pull_through",
-      "id": "textslittlewomen.txt#Confirmation_from_the_doctor_that_Beth_will_pull_t"
+      "id": "texts/littlewomen.txt#Confirmation_from_the_doctor_that_Beth_will_pull_t"
      },
      "id": "Gratitude"
     }
    ]
   },
   {
-   "id": "textslittlewomen.txt#Meg",
+   "id": "texts/littlewomen.txt#Meg",
    "name": "Meg",
    "feels": [
     {
@@ -61,7 +61,7 @@
      "place": "By the bed",
      "causedBy": {
       "name": "Confirmation_from_the_doctor_that_Beth_will_pull_through",
-      "id": "textslittlewomen.txt#Confirmation_from_the_doctor_that_Beth_will_pull_t"
+      "id": "texts/littlewomen.txt#Confirmation_from_the_doctor_that_Beth_will_pull_t"
      },
      "id": "Hope"
     },
@@ -72,7 +72,7 @@
      "place": "Looking out in the early morning",
      "causedBy": {
       "name": "The_end_of_their_long_sad_vigil",
-      "id": "textslittlewomen.txt#The_end_of_their_long_sad_vigil"
+      "id": "texts/littlewomen.txt#The_end_of_their_long_sad_vigil"
      },
      "id": "Joy"
     },
@@ -83,7 +83,7 @@
      "place": "By the bed",
      "causedBy": {
       "name": "Confirmation_from_the_doctor_that_Beth_will_pull_through",
-      "id": "textslittlewomen.txt#Confirmation_from_the_doctor_that_Beth_will_pull_t"
+      "id": "texts/littlewomen.txt#Confirmation_from_the_doctor_that_Beth_will_pull_t"
      },
      "id": "Gratitude"
     }

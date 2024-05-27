@@ -1,18 +1,18 @@
 {
  "FictionalCharacters": [
   {
-   "id": "textsthebluecastle.txt#Valancy",
+   "id": "texts/thebluecastle.txt#Valancy",
    "feels": [
     {
      "name": "Annoyance",
      "hasIntensity": 0.9,
      "quote": "She was being dragged out into the maze of shouting, stamping, yelling dancers.",
      "causedBy": {
-      "id": "textsthebluecastle.txt#Tall_broadshouldered_man",
+      "id": "texts/thebluecastle.txt#Tall_broadshouldered_man",
       "name": "Tall_broadshouldered_man"
      },
      "hasObject": {
-      "id": "textsthebluecastle.txt#dance",
+      "id": "texts/thebluecastle.txt#dance",
       "name": "dance"
      },
      "exactPlace": "Dance floor",
@@ -23,11 +23,11 @@
      "hasIntensity": 0.8,
      "quote": "Valancy ran as she had never run before, clinging tight to Barney’s hand, wondering why she did not drop dead in such a mad scamper.",
      "causedBy": {
-      "id": "textsthebluecastle.txt#Tall_broadshouldered_man",
+      "id": "texts/thebluecastle.txt#Tall_broadshouldered_man",
       "name": "Tall_broadshouldered_man"
      },
      "hasObject": {
-      "id": "textsthebluecastle.txt#dance",
+      "id": "texts/thebluecastle.txt#dance",
       "name": "dance"
      },
      "exactPlace": "Dance floor",
@@ -38,11 +38,11 @@
      "hasIntensity": 0.9,
      "quote": "It was at this moment that she saw Barney Snaith looking in over the heads of the crowd at the doorway.",
      "causedBy": {
-      "id": "textsthebluecastle.txt#Barney_Snaith",
+      "id": "texts/thebluecastle.txt#Barney_Snaith",
       "name": "Barney_Snaith"
      },
      "hasObject": {
-      "id": "textsthebluecastle.txt#dance",
+      "id": "texts/thebluecastle.txt#dance",
       "name": "dance"
      },
      "exactPlace": "Dance floor",
@@ -53,11 +53,11 @@
      "hasIntensity": 0.9,
      "quote": "Valancy was feeling disgusted and repentant. Why had she ever come to such a place?",
      "causedBy": {
-      "id": "textsthebluecastle.txt#dance",
+      "id": "texts/thebluecastle.txt#dance",
       "name": "dance"
      },
      "hasObject": {
-      "id": "textsthebluecastle.txt#dance",
+      "id": "texts/thebluecastle.txt#dance",
       "name": "dance"
      },
      "exactPlace": "Dance floor",
@@ -68,11 +68,11 @@
      "hasIntensity": 0.9,
      "quote": "She was ashamed of the whole affair—ashamed of her folly in going—ashamed of being found in such a place by Barney Snaith.",
      "causedBy": {
-      "id": "textsthebluecastle.txt#dance",
+      "id": "texts/thebluecastle.txt#dance",
       "name": "dance"
      },
      "hasObject": {
-      "id": "textsthebluecastle.txt#dance",
+      "id": "texts/thebluecastle.txt#dance",
       "name": "dance"
      },
      "exactPlace": "Dance floor",
@@ -83,11 +83,11 @@
      "hasIntensity": 0.9,
      "quote": "So he had actually come up to look after her.",
      "causedBy": {
-      "id": "textsthebluecastle.txt#Barney_Snaith",
+      "id": "texts/thebluecastle.txt#Barney_Snaith",
       "name": "Barney_Snaith"
      },
      "hasObject": {
-      "id": "textsthebluecastle.txt#dance",
+      "id": "texts/thebluecastle.txt#dance",
       "name": "dance"
      },
      "exactPlace": "Pine woods",
@@ -99,38 +99,38 @@
  ],
  "Places": [
   {
-   "id": "textsthebluecastle.txt#Chidley_Corners_Dance",
+   "id": "texts/thebluecastle.txt#Chidley_Corners_Dance",
    "name": "Chidley_Corners_Dance",
    "description": "A rowdy dance event at Chidley Corners."
   },
   {
-   "id": "textsthebluecastle.txt#Pine_Woods",
+   "id": "texts/thebluecastle.txt#Pine_Woods",
    "name": "Pine_Woods",
    "description": "A quiet corner in the pine woods where Valancy and Barney sought refuge."
   }
  ],
  "Events": [
   {
-   "id": "textsthebluecastle.txt#Tall_broadshouldered_man_s_aggressive_behavior",
+   "id": "texts/thebluecastle.txt#Tall_broadshouldered_man_s_aggressive_behavior",
    "name": "Tall_broadshouldered_man_s_aggressive_behavior",
    "takePlaceAt": {
-    "id": "textsthebluecastle.txt#dance",
+    "id": "texts/thebluecastle.txt#dance",
     "name": "dance"
    },
    "hasParticipant": {
-    "id": "textsthebluecastle.txt#Valancy",
+    "id": "texts/thebluecastle.txt#Valancy",
     "name": "Valancy"
    }
   },
   {
-   "id": "textsthebluecastle.txt#Barney_Snaith_s_protective_action",
+   "id": "texts/thebluecastle.txt#Barney_Snaith_s_protective_action",
    "name": "Barney_Snaith_s_protective_action",
    "takePlaceAt": {
-    "id": "textsthebluecastle.txt#Pine_woods",
+    "id": "texts/thebluecastle.txt#Pine_woods",
     "name": "Pine_woods"
    },
    "hasParticipant": {
-    "id": "textsthebluecastle.txt#Valancy",
+    "id": "texts/thebluecastle.txt#Valancy",
     "name": "Valancy"
    }
   }

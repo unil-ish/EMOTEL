@@ -1,7 +1,7 @@
 {
  "FictionalCharacters": [
   {
-   "id": "textsfrankenstein.txt#Victor_Frankenstein",
+   "id": "texts/frankenstein.txt#Victor_Frankenstein",
    "name": "Victor_Frankenstein",
    "feels": [
     {
@@ -9,15 +9,15 @@
      "hasIntensity": 0.9,
      "quote": "I imagined that the monster seized me; I struggled furiously and fell down in a fit.",
      "causedBy": {
-      "id": "textsfrankenstein.txt#Seeing_the_monster_in_his_room",
+      "id": "texts/frankenstein.txt#Seeing_the_monster_in_his_room",
       "name": "Seeing_the_monster_in_his_room"
      },
      "hasObject": {
-      "id": "textsfrankenstein.txt#The_monster",
+      "id": "texts/frankenstein.txt#The_monster",
       "name": "The_monster"
      },
      "place": {
-      "id": "textsfrankenstein.txt#Victor_s_room",
+      "id": "texts/frankenstein.txt#Victor_s_room",
       "name": "Victor_s_room"
      },
      "id": "Fear"
@@ -27,15 +27,15 @@
      "hasIntensity": 0.8,
      "quote": "I clapped my hands for joy and ran down to Clerval.",
      "causedBy": {
-      "id": "textsfrankenstein.txt#Realizing_the_monster_had_fled",
+      "id": "texts/frankenstein.txt#Realizing_the_monster_had_fled",
       "name": "Realizing_the_monster_had_fled"
      },
      "hasObject": {
-      "id": "textsfrankenstein.txt#The_monster",
+      "id": "texts/frankenstein.txt#The_monster",
       "name": "The_monster"
      },
      "place": {
-      "id": "textsfrankenstein.txt#Victor_s_room",
+      "id": "texts/frankenstein.txt#Victor_s_room",
       "name": "Victor_s_room"
      },
      "id": "Joy"
@@ -45,7 +45,7 @@
      "hasIntensity": 0.7,
      "quote": "I feel the greatest remorse for the disappointment of which I have been the occasion.",
      "causedBy": {
-      "id": "textsfrankenstein.txt#Reflecting_on_his_actions",
+      "id": "texts/frankenstein.txt#Reflecting_on_his_actions",
       "name": "Reflecting_on_his_actions"
      },
      "id": "Remorse"
@@ -55,11 +55,11 @@
      "hasIntensity": 0.9,
      "quote": "how kind, how very good you are to me.",
      "causedBy": {
-      "id": "textsfrankenstein.txt#Henry_Clerval_s_care_and_attention",
+      "id": "texts/frankenstein.txt#Henry_Clerval_s_care_and_attention",
       "name": "Henry_Clerval_s_care_and_attention"
      },
      "hasObject": {
-      "id": "textsfrankenstein.txt#Henry_Clerval",
+      "id": "texts/frankenstein.txt#Henry_Clerval",
       "name": "Henry_Clerval"
      },
      "id": "Gratitude"
@@ -69,7 +69,7 @@
      "hasIntensity": 0.8,
      "quote": "I felt my flesh tingle with excess of sensitiveness, and my pulse beat rapidly.",
      "causedBy": {
-      "id": "textsfrankenstein.txt#Realizing_the_monster_had_fled",
+      "id": "texts/frankenstein.txt#Realizing_the_monster_had_fled",
       "name": "Realizing_the_monster_had_fled"
      },
      "id": "Relief"
@@ -79,7 +79,7 @@
      "hasIntensity": 0.9,
      "quote": "I hope, I sincerely hope, that all these employments are now at an end and that I am at length free.",
      "causedBy": {
-      "id": "textsfrankenstein.txt#Reflecting_on_his_future",
+      "id": "texts/frankenstein.txt#Reflecting_on_his_future",
       "name": "Reflecting_on_his_future"
      },
      "id": "Hope"
@@ -89,7 +89,7 @@
      "hasIntensity": 0.8,
      "quote": "I remember the first time I became capable of observing outward objects with any kind of pleasure, I perceived that the fallen leaves had disappeared and that the young buds were shooting forth from the trees that shaded my window.",
      "causedBy": {
-      "id": "textsfrankenstein.txt#Recovering_from_illness",
+      "id": "texts/frankenstein.txt#Recovering_from_illness",
       "name": "Recovering_from_illness"
      },
      "id": "Grief"
@@ -99,47 +99,47 @@
  ],
  "Events": [
   {
-   "id": "textsfrankenstein.txt#Seeing_the_monster_in_his_room",
+   "id": "texts/frankenstein.txt#Seeing_the_monster_in_his_room",
    "name": "Seeing_the_monster_in_his_room"
   },
   {
-   "id": "textsfrankenstein.txt#Realizing_the_monster_had_fled",
+   "id": "texts/frankenstein.txt#Realizing_the_monster_had_fled",
    "name": "Realizing_the_monster_had_fled"
   },
   {
-   "id": "textsfrankenstein.txt#Reflecting_on_his_actions",
+   "id": "texts/frankenstein.txt#Reflecting_on_his_actions",
    "name": "Reflecting_on_his_actions"
   },
   {
-   "id": "textsfrankenstein.txt#Henry_Clerval_s_care_and_attention",
+   "id": "texts/frankenstein.txt#Henry_Clerval_s_care_and_attention",
    "name": "Henry_Clerval_s_care_and_attention"
   },
   {
-   "id": "textsfrankenstein.txt#Realizing_the_monster_had_fled",
+   "id": "texts/frankenstein.txt#Realizing_the_monster_had_fled",
    "name": "Realizing_the_monster_had_fled"
   },
   {
-   "id": "textsfrankenstein.txt#Reflecting_on_his_future",
+   "id": "texts/frankenstein.txt#Reflecting_on_his_future",
    "name": "Reflecting_on_his_future"
   },
   {
-   "id": "textsfrankenstein.txt#Recovering_from_illness",
+   "id": "texts/frankenstein.txt#Recovering_from_illness",
    "name": "Recovering_from_illness"
   }
  ],
  "Objects": [
   {
-   "id": "textsfrankenstein.txt#The_monster",
+   "id": "texts/frankenstein.txt#The_monster",
    "name": "The_monster"
   },
   {
-   "id": "textsfrankenstein.txt#Henry_Clerval",
+   "id": "texts/frankenstein.txt#Henry_Clerval",
    "name": "Henry_Clerval"
   }
  ],
  "Places": [
   {
-   "id": "textsfrankenstein.txt#Victor_s_room",
+   "id": "texts/frankenstein.txt#Victor_s_room",
    "name": "Victor_s_room"
   }
  ]

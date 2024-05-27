@@ -1,7 +1,7 @@
 {
  "FictionalCharacters": [
   {
-   "id": "textsmiddlemarch.txt#Fred_Vincy",
+   "id": "texts/middlemarch.txt#Fred_Vincy",
    "name": "Fred_Vincy",
    "feels": [
     {
@@ -9,11 +9,11 @@
      "hasIntensity": 0.7,
      "quote": "Fred found himself close upon the term of payment with no money at command beyond the eighty pounds which he had deposited with his mother.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Debt_repayment_deadline_approaching",
+      "id": "texts/middlemarch.txt#Debt_repayment_deadline_approaching",
       "name": "Debt_repayment_deadline_approaching"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Money",
+      "id": "texts/middlemarch.txt#Money",
       "name": "Money"
      },
      "exactPlace": "Middlemarch",
@@ -24,11 +24,11 @@
      "hasIntensity": 0.8,
      "quote": "Hopefulness has a pleasure in making a throw of any kind, because the prospect of success is certain.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Desire_for_winning",
+      "id": "texts/middlemarch.txt#Desire_for_winning",
       "name": "Desire_for_winning"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Gambling",
+      "id": "texts/middlemarch.txt#Gambling",
       "name": "Gambling"
      },
      "exactPlace": "Middlemarch",
@@ -39,11 +39,11 @@
      "hasIntensity": 0.6,
      "quote": "He made the resolution with a sense of heroism—heroism forced on him by the dread of breaking his word to Mr. Garth, by his love for Mary and awe of her opinion.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Fear_of_breaking_his_word",
+      "id": "texts/middlemarch.txt#Fear_of_breaking_his_word",
       "name": "Fear_of_breaking_his_word"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Horse",
+      "id": "texts/middlemarch.txt#Horse",
       "name": "Horse"
      },
      "exactPlace": "Middlemarch",
@@ -54,11 +54,11 @@
      "hasIntensity": 0.5,
      "quote": "Considering that Fred was not at all coarse, that he rather looked down on the manners and speech of young men who had not been to the university, and that he had written stanzas as pastoral and unvoluptuous as his flute-playing, his attraction towards Bambridge and Horrock was an interesting fact which even the love of horse-flesh would not wholly account for without that mysterious influence of Naming which determinates so much of mortal choice.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Company_of_Bambridge_and_Horrock",
+      "id": "texts/middlemarch.txt#Company_of_Bambridge_and_Horrock",
       "name": "Company_of_Bambridge_and_Horrock"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Pleasureseeking",
+      "id": "texts/middlemarch.txt#Pleasureseeking",
       "name": "Pleasureseeking"
      },
      "exactPlace": "Middlemarch",
@@ -69,39 +69,39 @@
  ],
  "Events": [
   {
-   "id": "textsmiddlemarch.txt#Debt_repayment_deadline_approaching",
+   "id": "texts/middlemarch.txt#Debt_repayment_deadline_approaching",
    "name": "Debt_repayment_deadline_approaching"
   },
   {
-   "id": "textsmiddlemarch.txt#Desire_for_winning",
+   "id": "texts/middlemarch.txt#Desire_for_winning",
    "name": "Desire_for_winning"
   },
   {
-   "id": "textsmiddlemarch.txt#Company_of_Bambridge_and_Horrock",
+   "id": "texts/middlemarch.txt#Company_of_Bambridge_and_Horrock",
    "name": "Company_of_Bambridge_and_Horrock"
   }
  ],
  "Objects": [
   {
-   "id": "textsmiddlemarch.txt#Money",
+   "id": "texts/middlemarch.txt#Money",
    "name": "Money"
   },
   {
-   "id": "textsmiddlemarch.txt#Gambling",
+   "id": "texts/middlemarch.txt#Gambling",
    "name": "Gambling"
   },
   {
-   "id": "textsmiddlemarch.txt#Horse",
+   "id": "texts/middlemarch.txt#Horse",
    "name": "Horse"
   },
   {
-   "id": "textsmiddlemarch.txt#Pleasureseeking",
+   "id": "texts/middlemarch.txt#Pleasureseeking",
    "name": "Pleasureseeking"
   }
  ],
  "Places": [
   {
-   "id": "textsmiddlemarch.txt#Middlemarch",
+   "id": "texts/middlemarch.txt#Middlemarch",
    "name": "Middlemarch"
   }
  ]

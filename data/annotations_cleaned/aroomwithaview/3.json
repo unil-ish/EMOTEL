@@ -1,7 +1,7 @@
 {
  "FictionalCharacters": [
   {
-   "id": "textsaroomwithaview.txt#Cecil_Vyse",
+   "id": "texts/aroomwithaview.txt#Cecil_Vyse",
    "name": "Cecil_Vyse",
    "feels": [
     {
@@ -9,11 +9,11 @@
      "hasIntensity": 0.7,
      "quote": "He saw that the local society was narrow, but, instead of saying, 'Does that very much matter?' he rebelled, and tried to substitute for it the society he called broad.",
      "causedBy": {
-      "id": "textsaroomwithaview.txt#Perception_of_narrow_local_society",
+      "id": "texts/aroomwithaview.txt#Perception_of_narrow_local_society",
       "name": "Perception_of_narrow_local_society"
      },
      "hasObject": {
-      "id": "textsaroomwithaview.txt#Local_society",
+      "id": "texts/aroomwithaview.txt#Local_society",
       "name": "Local_society"
      },
      "place": "Italy",
@@ -24,11 +24,11 @@
      "hasIntensity": 0.8,
      "quote": "He was not a coward and bore necessary pain as well as any man. But he hated the physical violence of the young.",
      "causedBy": {
-      "id": "textsaroomwithaview.txt#Physical_violence_of_the_young",
+      "id": "texts/aroomwithaview.txt#Physical_violence_of_the_young",
       "name": "Physical_violence_of_the_young"
      },
      "hasObject": {
-      "id": "textsaroomwithaview.txt#Physical_violence",
+      "id": "texts/aroomwithaview.txt#Physical_violence",
       "name": "Physical_violence"
      },
      "place": "Tennis court",
@@ -37,7 +37,7 @@
    ]
   },
   {
-   "id": "textsaroomwithaview.txt#Lucy_Honeychurch",
+   "id": "texts/aroomwithaview.txt#Lucy_Honeychurch",
    "name": "Lucy_Honeychurch",
    "feels": [
     {
@@ -45,11 +45,11 @@
      "hasIntensity": 0.6,
      "quote": "She was as scarlet as if he had put the thing most indelicately.",
      "causedBy": {
-      "id": "textsaroomwithaview.txt#Cecil_s_request_to_kiss_her",
+      "id": "texts/aroomwithaview.txt#Cecil_s_request_to_kiss_her",
       "name": "Cecil_s_request_to_kiss_her"
      },
      "hasObject": {
-      "id": "textsaroomwithaview.txt#Cecil_s_request",
+      "id": "texts/aroomwithaview.txt#Cecil_s_request",
       "name": "Cecil_s_request"
      },
      "place": "By the pool",
@@ -60,11 +60,11 @@
      "hasIntensity": 0.7,
      "quote": "For instance, Freddy. Freddy was neither clever, nor subtle, nor beautiful, and what prevented Cecil from saying, any minute, 'It would be wrong not to loathe Freddy'?",
      "causedBy": {
-      "id": "textsaroomwithaview.txt#Concern_about_Cecil_s_opinion_of_Freddy",
+      "id": "texts/aroomwithaview.txt#Concern_about_Cecil_s_opinion_of_Freddy",
       "name": "Concern_about_Cecil_s_opinion_of_Freddy"
      },
      "hasObject": {
-      "id": "textsaroomwithaview.txt#Freddy",
+      "id": "texts/aroomwithaview.txt#Freddy",
       "name": "Freddy"
      },
      "place": "Windy Corner",
@@ -73,7 +73,7 @@
    ]
   },
   {
-   "id": "textsaroomwithaview.txt#Freddy",
+   "id": "texts/aroomwithaview.txt#Freddy",
    "name": "Freddy",
    "feels": [
     {
@@ -81,11 +81,11 @@
      "hasIntensity": 0.9,
      "quote": "Freddy possessed to a high degree the power of lashing little girls to fury, and in half a minute he had transformed Minnie from a well-mannered child into a howling wilderness.",
      "causedBy": {
-      "id": "textsaroomwithaview.txt#Playing_bumblepuppy_with_Minnie_Beebe",
+      "id": "texts/aroomwithaview.txt#Playing_bumblepuppy_with_Minnie_Beebe",
       "name": "Playing_bumblepuppy_with_Minnie_Beebe"
      },
      "hasObject": {
-      "id": "textsaroomwithaview.txt#Playing_bumblepuppy",
+      "id": "texts/aroomwithaview.txt#Playing_bumblepuppy",
       "name": "Playing_bumblepuppy"
      },
      "place": "Tennis-court",
@@ -96,11 +96,11 @@
      "hasIntensity": 0.8,
      "quote": "Here his foot slipped, and they all fell most agreeably on to the grass.",
      "causedBy": {
-      "id": "textsaroomwithaview.txt#Slipping_and_falling_on_the_grass",
+      "id": "texts/aroomwithaview.txt#Slipping_and_falling_on_the_grass",
       "name": "Slipping_and_falling_on_the_grass"
      },
      "hasObject": {
-      "id": "textsaroomwithaview.txt#Slipping",
+      "id": "texts/aroomwithaview.txt#Slipping",
       "name": "Slipping"
      },
      "place": "Tennis-court",
@@ -111,38 +111,38 @@
  ],
  "Places": [
   {
-   "id": "textsaroomwithaview.txt#Italy",
+   "id": "texts/aroomwithaview.txt#Italy",
    "name": "Italy",
    "description": "Country where Lucy expanded her senses and perception of life"
   },
   {
-   "id": "textsaroomwithaview.txt#Tennis_court",
+   "id": "texts/aroomwithaview.txt#Tennis_court",
    "name": "Tennis_court",
    "description": "Location where the characters were playing bumble-puppy"
   }
  ],
  "Events": [
   {
-   "id": "textsaroomwithaview.txt#Physical_violence_of_the_young",
+   "id": "texts/aroomwithaview.txt#Physical_violence_of_the_young",
    "name": "Physical_violence_of_the_young",
    "takePlaceAt": {
-    "id": "textsaroomwithaview.txt#place2",
+    "id": "texts/aroomwithaview.txt#place2",
     "name": "place2"
    }
   },
   {
-   "id": "textsaroomwithaview.txt#Cecil_s_request_to_kiss_her",
+   "id": "texts/aroomwithaview.txt#Cecil_s_request_to_kiss_her",
    "name": "Cecil_s_request_to_kiss_her",
    "takePlaceAt": {
-    "id": "textsaroomwithaview.txt#place1",
+    "id": "texts/aroomwithaview.txt#place1",
     "name": "place1"
    }
   },
   {
-   "id": "textsaroomwithaview.txt#Slipping_and_falling_on_the_grass",
+   "id": "texts/aroomwithaview.txt#Slipping_and_falling_on_the_grass",
    "name": "Slipping_and_falling_on_the_grass",
    "takePlaceAt": {
-    "id": "textsaroomwithaview.txt#place2",
+    "id": "texts/aroomwithaview.txt#place2",
     "name": "place2"
    }
   }

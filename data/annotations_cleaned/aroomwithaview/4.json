@@ -1,18 +1,18 @@
 {
  "FictionalCharacters": [
   {
-   "id": "textsaroomwithaview.txt#Lucy_Honeychurch",
+   "id": "texts/aroomwithaview.txt#Lucy_Honeychurch",
    "feels": [
     {
      "name": "Anxiety",
      "hasIntensity": 0.7,
      "quote": "The ghosts were returning; they filled Italy, they were even usurping the places she had known as a child. The Sacred Lake would never be the same again, and, on Sunday week, something would even happen to Windy Corner. How would she fight against ghosts? For a moment the visible world faded away, and memories and emotions alone seemed real.",
      "causedBy": {
-      "id": "textsaroomwithaview.txt#Return_of_ghosts_and_memories",
+      "id": "texts/aroomwithaview.txt#Return_of_ghosts_and_memories",
       "name": "Return_of_ghosts_and_memories"
      },
      "hasObject": {
-      "id": "textsaroomwithaview.txt#Italy_Sacred_Lake_Windy_Corner",
+      "id": "texts/aroomwithaview.txt#Italy_Sacred_Lake_Windy_Corner",
       "name": "Italy_Sacred_Lake_Windy_Corner"
      },
      "exactPlace": "Italy, Sacred Lake, Windy Corner",
@@ -23,11 +23,11 @@
      "hasIntensity": 0.6,
      "quote": "How dreadful if she really wished to remain near him! Of course, the wish was due to nerves, which love to play such perverse tricks upon us.",
      "causedBy": {
-      "id": "textsaroomwithaview.txt#Wishing_to_remain_near_George",
+      "id": "texts/aroomwithaview.txt#Wishing_to_remain_near_George",
       "name": "Wishing_to_remain_near_George"
      },
      "hasObject": {
-      "id": "textsaroomwithaview.txt#George_Emerson",
+      "id": "texts/aroomwithaview.txt#George_Emerson",
       "name": "George_Emerson"
      },
      "exactPlace": "Rectory",
@@ -38,11 +38,11 @@
      "hasIntensity": 0.8,
      "quote": "The Sacred Lake would never be the same again, and, on Sunday week, something would even happen to Windy Corner.",
      "causedBy": {
-      "id": "textsaroomwithaview.txt#Changes_in_familiar_places",
+      "id": "texts/aroomwithaview.txt#Changes_in_familiar_places",
       "name": "Changes_in_familiar_places"
      },
      "hasObject": {
-      "id": "textsaroomwithaview.txt#Sacred_Lake_Windy_Corner",
+      "id": "texts/aroomwithaview.txt#Sacred_Lake_Windy_Corner",
       "name": "Sacred_Lake_Windy_Corner"
      },
      "exactPlace": "Sacred Lake, Windy Corner",
@@ -52,18 +52,18 @@
    "name": "Lucy_Honeychurch"
   },
   {
-   "id": "textsaroomwithaview.txt#Cecil",
+   "id": "texts/aroomwithaview.txt#Cecil",
    "feels": [
     {
      "name": "Irritation",
      "hasIntensity": 0.7,
      "quote": "Cecil frowned again. Oh, these Honeychurches! Eggs, boilers, hydrangeas, maids—of such were their lives compact.",
      "causedBy": {
-      "id": "textsaroomwithaview.txt#Discussion_about_Miss_Bartlett",
+      "id": "texts/aroomwithaview.txt#Discussion_about_Miss_Bartlett",
       "name": "Discussion_about_Miss_Bartlett"
      },
      "hasObject": {
-      "id": "textsaroomwithaview.txt#Honeychurches",
+      "id": "texts/aroomwithaview.txt#Honeychurches",
       "name": "Honeychurches"
      },
      "exactPlace": "Dining room",
@@ -74,11 +74,11 @@
      "hasIntensity": 0.6,
      "quote": "Cecil crumbled his bread.",
      "causedBy": {
-      "id": "textsaroomwithaview.txt#Discussion_about_Miss_Bartlett",
+      "id": "texts/aroomwithaview.txt#Discussion_about_Miss_Bartlett",
       "name": "Discussion_about_Miss_Bartlett"
      },
      "hasObject": {
-      "id": "textsaroomwithaview.txt#Miss_Bartlett",
+      "id": "texts/aroomwithaview.txt#Miss_Bartlett",
       "name": "Miss_Bartlett"
      },
      "exactPlace": "Dining room",
@@ -90,69 +90,69 @@
  ],
  "Places": [
   {
-   "id": "textsaroomwithaview.txt#Italy",
+   "id": "texts/aroomwithaview.txt#Italy",
    "name": "Italy",
    "description": "Setting for memories and ghosts"
   },
   {
-   "id": "textsaroomwithaview.txt#Sacred_Lake",
+   "id": "texts/aroomwithaview.txt#Sacred_Lake",
    "name": "Sacred_Lake",
    "description": "Location of past experiences"
   },
   {
-   "id": "textsaroomwithaview.txt#Windy_Corner",
+   "id": "texts/aroomwithaview.txt#Windy_Corner",
    "name": "Windy_Corner",
    "description": "Familiar place with upcoming changes"
   },
   {
-   "id": "textsaroomwithaview.txt#Rectory",
+   "id": "texts/aroomwithaview.txt#Rectory",
    "name": "Rectory",
    "description": "Meeting place with George"
   },
   {
-   "id": "textsaroomwithaview.txt#Dining_room",
+   "id": "texts/aroomwithaview.txt#Dining_room",
    "name": "Dining_room",
    "description": "Location of discussion about Miss Bartlett"
   }
  ],
  "Events": [
   {
-   "id": "textsaroomwithaview.txt#Return_of_ghosts_and_memories",
+   "id": "texts/aroomwithaview.txt#Return_of_ghosts_and_memories",
    "name": "Return_of_ghosts_and_memories",
    "takePlaceAt": {
-    "id": "textsaroomwithaview.txt#Italy",
+    "id": "texts/aroomwithaview.txt#Italy",
     "name": "Italy"
    }
   },
   {
-   "id": "textsaroomwithaview.txt#Wishing_to_remain_near_George",
+   "id": "texts/aroomwithaview.txt#Wishing_to_remain_near_George",
    "name": "Wishing_to_remain_near_George",
    "takePlaceAt": {
-    "id": "textsaroomwithaview.txt#Rectory",
+    "id": "texts/aroomwithaview.txt#Rectory",
     "name": "Rectory"
    }
   },
   {
-   "id": "textsaroomwithaview.txt#Changes_in_familiar_places",
+   "id": "texts/aroomwithaview.txt#Changes_in_familiar_places",
    "name": "Changes_in_familiar_places",
    "takePlaceAt": {
-    "id": "textsaroomwithaview.txt#Sacred_Lake_Windy_Corner",
+    "id": "texts/aroomwithaview.txt#Sacred_Lake_Windy_Corner",
     "name": "Sacred_Lake_Windy_Corner"
    }
   },
   {
-   "id": "textsaroomwithaview.txt#Discussion_about_Miss_Bartlett",
+   "id": "texts/aroomwithaview.txt#Discussion_about_Miss_Bartlett",
    "name": "Discussion_about_Miss_Bartlett",
    "takePlaceAt": {
-    "id": "textsaroomwithaview.txt#Dining_room",
+    "id": "texts/aroomwithaview.txt#Dining_room",
     "name": "Dining_room"
    }
   },
   {
-   "id": "textsaroomwithaview.txt#Discussion_about_Miss_Bartlett",
+   "id": "texts/aroomwithaview.txt#Discussion_about_Miss_Bartlett",
    "name": "Discussion_about_Miss_Bartlett",
    "takePlaceAt": {
-    "id": "textsaroomwithaview.txt#Dining_room",
+    "id": "texts/aroomwithaview.txt#Dining_room",
     "name": "Dining_room"
    }
   }

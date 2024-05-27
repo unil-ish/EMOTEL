@@ -1,7 +1,7 @@
 {
  "FictionalCharacters": [
   {
-   "id": "textslittlewomen.txt#Jo_March",
+   "id": "texts/littlewomen.txt#Jo_March",
    "name": "Jo_March",
    "feels": [
     {
@@ -9,11 +9,11 @@
      "hasIntensity": 0.9,
      "quote": "I hate to borrow as much as mother does, and I knew Aunt March would croak; she always does, if you ask for a ninepence.",
      "causedBy": {
-      "id": "textslittlewomen.txt#Needing_money_for_father",
+      "id": "texts/littlewomen.txt#Needing_money_for_father",
       "name": "Needing_money_for_father"
      },
      "hasObject": {
-      "id": "textslittlewomen.txt#Money",
+      "id": "texts/littlewomen.txt#Money",
       "name": "Money"
      },
      "exactPlace": "In the barber's shop",
@@ -24,11 +24,11 @@
      "hasIntensity": 0.7,
      "quote": "He rather stared, at first, as if he wasn't used to having girls bounce into his shop and ask him to buy their hair.",
      "causedBy": {
-      "id": "textslittlewomen.txt#Asking_the_barber_to_buy_her_hair",
+      "id": "texts/littlewomen.txt#Asking_the_barber_to_buy_her_hair",
       "name": "Asking_the_barber_to_buy_her_hair"
      },
      "hasObject": {
-      "id": "textslittlewomen.txt#Barber",
+      "id": "texts/littlewomen.txt#Barber",
       "name": "Barber"
      },
      "exactPlace": "In the barber's shop",
@@ -39,11 +39,11 @@
      "hasIntensity": 0.6,
      "quote": "I hate to borrow as much as mother does, and I knew Aunt March would croak; she always does, if you ask for a ninepence.",
      "causedBy": {
-      "id": "textslittlewomen.txt#Needing_money_for_father",
+      "id": "texts/littlewomen.txt#Needing_money_for_father",
       "name": "Needing_money_for_father"
      },
      "hasObject": {
-      "id": "textslittlewomen.txt#Money",
+      "id": "texts/littlewomen.txt#Money",
       "name": "Money"
      },
      "exactPlace": "In the barber's shop",
@@ -54,11 +54,11 @@
      "hasIntensity": 0.8,
      "quote": "That's my contribution towards making father comfortable and bringing him home!",
      "causedBy": {
-      "id": "textslittlewomen.txt#Contributing_money_for_father",
+      "id": "texts/littlewomen.txt#Contributing_money_for_father",
       "name": "Contributing_money_for_father"
      },
      "hasObject": {
-      "id": "textslittlewomen.txt#Money",
+      "id": "texts/littlewomen.txt#Money",
       "name": "Money"
      },
      "exactPlace": "At home",
@@ -69,11 +69,11 @@
      "hasIntensity": 0.7,
      "quote": "It almost seemed as if I'd an arm or a leg off.",
      "causedBy": {
-      "id": "textslittlewomen.txt#Seeing_her_hair_cut_off",
+      "id": "texts/littlewomen.txt#Seeing_her_hair_cut_off",
       "name": "Seeing_her_hair_cut_off"
      },
      "hasObject": {
-      "id": "textslittlewomen.txt#Hair",
+      "id": "texts/littlewomen.txt#Hair",
       "name": "Hair"
      },
      "exactPlace": "In the barber's shop",
@@ -82,7 +82,7 @@
    ]
   },
   {
-   "id": "textslittlewomen.txt#Mrs_March",
+   "id": "texts/littlewomen.txt#Mrs_March",
    "name": "Mrs_March",
    "feels": [
     {
@@ -90,11 +90,11 @@
      "hasIntensity": 0.8,
      "quote": "I shall go at once, but it may be too late. O children, children, help me to bear it!",
      "causedBy": {
-      "id": "textslittlewomen.txt#Receiving_a_telegram_about_her_husband_s_illness",
+      "id": "texts/littlewomen.txt#Receiving_a_telegram_about_her_husband_s_illness",
       "name": "Receiving_a_telegram_about_her_husband_s_illness"
      },
      "hasObject": {
-      "id": "textslittlewomen.txt#Telegram",
+      "id": "texts/littlewomen.txt#Telegram",
       "name": "Telegram"
      },
      "exactPlace": "At home",
@@ -105,11 +105,11 @@
      "hasIntensity": 0.9,
      "quote": "How kind you all are! Mother will accept, I'm sure; and it will be such a relief to know that she has some one to take care of her.",
      "causedBy": {
-      "id": "textslittlewomen.txt#Mr_Brooke_offering_to_escort_her_to_Washington",
+      "id": "texts/littlewomen.txt#Mr_Brooke_offering_to_escort_her_to_Washington",
       "name": "Mr_Brooke_offering_to_escort_her_to_Washington"
      },
      "hasObject": {
-      "id": "textslittlewomen.txt#Mr_Brooke_s_offer",
+      "id": "texts/littlewomen.txt#Mr_Brooke_s_offer",
       "name": "Mr_Brooke_s_offer"
      },
      "exactPlace": "At home",
@@ -120,11 +120,11 @@
      "hasIntensity": 0.8,
      "quote": "No, I won't!",
      "causedBy": {
-      "id": "textslittlewomen.txt#Jo_s_hair_being_cut_off",
+      "id": "texts/littlewomen.txt#Jo_s_hair_being_cut_off",
       "name": "Jo_s_hair_being_cut_off"
      },
      "hasObject": {
-      "id": "textslittlewomen.txt#Jo_s_hair",
+      "id": "texts/littlewomen.txt#Jo_s_hair",
       "name": "Jo_s_hair"
      },
      "exactPlace": "At home",
@@ -135,47 +135,47 @@
  ],
  "Places": [
   {
-   "id": "textslittlewomen.txt#Barber_s_shop",
+   "id": "texts/littlewomen.txt#Barber_s_shop",
    "name": "Barber_s_shop",
    "description": "Where Jo had her hair cut off"
   },
   {
-   "id": "textslittlewomen.txt#At_home",
+   "id": "texts/littlewomen.txt#At_home",
    "name": "At_home",
    "description": "Where Mrs. March received the telegram and made preparations"
   }
  ],
  "Events": [
   {
-   "id": "textslittlewomen.txt#Needing_money_for_father",
+   "id": "texts/littlewomen.txt#Needing_money_for_father",
    "name": "Needing_money_for_father"
   },
   {
-   "id": "textslittlewomen.txt#Asking_the_barber_to_buy_her_hair",
+   "id": "texts/littlewomen.txt#Asking_the_barber_to_buy_her_hair",
    "name": "Asking_the_barber_to_buy_her_hair"
   },
   {
-   "id": "textslittlewomen.txt#Needing_money_for_father",
+   "id": "texts/littlewomen.txt#Needing_money_for_father",
    "name": "Needing_money_for_father"
   },
   {
-   "id": "textslittlewomen.txt#Contributing_money_for_father",
+   "id": "texts/littlewomen.txt#Contributing_money_for_father",
    "name": "Contributing_money_for_father"
   },
   {
-   "id": "textslittlewomen.txt#Seeing_her_hair_cut_off",
+   "id": "texts/littlewomen.txt#Seeing_her_hair_cut_off",
    "name": "Seeing_her_hair_cut_off"
   },
   {
-   "id": "textslittlewomen.txt#Receiving_a_telegram_about_her_husband_s_illness",
+   "id": "texts/littlewomen.txt#Receiving_a_telegram_about_her_husband_s_illness",
    "name": "Receiving_a_telegram_about_her_husband_s_illness"
   },
   {
-   "id": "textslittlewomen.txt#Mr_Brooke_offering_to_escort_her_to_Washington",
+   "id": "texts/littlewomen.txt#Mr_Brooke_offering_to_escort_her_to_Washington",
    "name": "Mr_Brooke_offering_to_escort_her_to_Washington"
   },
   {
-   "id": "textslittlewomen.txt#Jo_s_hair_being_cut_off",
+   "id": "texts/littlewomen.txt#Jo_s_hair_being_cut_off",
    "name": "Jo_s_hair_being_cut_off"
   }
  ]

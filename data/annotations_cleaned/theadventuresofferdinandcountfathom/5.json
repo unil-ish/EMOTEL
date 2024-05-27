@@ -1,18 +1,18 @@
 {
  "FictionalCharacters": [
   {
-   "id": "textstheadventuresofferdinandcountfathom.txt#Don_Diego_de_Zelos",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Don_Diego_de_Zelos",
    "feels": [
     {
      "name": "Joy",
      "hasIntensity": 0.9,
      "quote": "I professed myself extremely happy in having met with an opportunity of acquiring such a degree of my colonel’s esteem.",
      "causedBy": {
-      "id": "textstheadventuresofferdinandcountfathom.txt#Receiving_esteem_from_his_colonel",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Receiving_esteem_from_his_colonel",
       "name": "Receiving_esteem_from_his_colonel"
      },
      "hasObject": {
-      "id": "textstheadventuresofferdinandcountfathom.txt#Esteem",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Esteem",
       "name": "Esteem"
      },
      "exactPlace": "Dining-room",
@@ -23,11 +23,11 @@
      "hasIntensity": 0.95,
      "quote": "I had been ravished with her first appearance, which far exceeded my imagination, and my faculties were so disordered by this address, that I answered her compliment with the most awkward confusion.",
      "causedBy": {
-      "id": "textstheadventuresofferdinandcountfathom.txt#Seeing_Antonia_for_the_first_time",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Seeing_Antonia_for_the_first_time",
       "name": "Seeing_Antonia_for_the_first_time"
      },
      "hasObject": {
-      "id": "textstheadventuresofferdinandcountfathom.txt#Antonia",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Antonia",
       "name": "Antonia"
      },
      "exactPlace": "Dining-room",
@@ -38,11 +38,11 @@
      "hasIntensity": 0.8,
      "quote": "Wretch that I am! to survive the loss of such an excellent woman, endeared to my remembrance by the most tender offices of wedlock, happily exercised for the space of five-and-twenty years!",
      "causedBy": {
-      "id": "textstheadventuresofferdinandcountfathom.txt#Surviving_the_loss_of_his_wife",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Surviving_the_loss_of_his_wife",
       "name": "Surviving_the_loss_of_his_wife"
      },
      "hasObject": {
-      "id": "textstheadventuresofferdinandcountfathom.txt#Wife",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Wife",
       "name": "Wife"
      },
      "exactPlace": "Present time",
@@ -54,45 +54,45 @@
  ],
  "Places": [
   {
-   "id": "textstheadventuresofferdinandcountfathom.txt#Diningroom",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Diningroom",
    "name": "Diningroom",
    "description": "An elegant dining-room where a magnificent entertainment was served up."
   }
  ],
  "Events": [
   {
-   "id": "textstheadventuresofferdinandcountfathom.txt#Receiving_esteem_from_his_colonel",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Receiving_esteem_from_his_colonel",
    "name": "Receiving_esteem_from_his_colonel",
    "takePlaceAt": {
-    "id": "textstheadventuresofferdinandcountfathom.txt#Diningroom",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Diningroom",
     "name": "Diningroom"
    },
    "hasParticipant": {
-    "id": "textstheadventuresofferdinandcountfathom.txt#Don_Diego_de_Zelos",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Don_Diego_de_Zelos",
     "name": "Don_Diego_de_Zelos"
    }
   },
   {
-   "id": "textstheadventuresofferdinandcountfathom.txt#Seeing_Antonia_for_the_first_time",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Seeing_Antonia_for_the_first_time",
    "name": "Seeing_Antonia_for_the_first_time",
    "takePlaceAt": {
-    "id": "textstheadventuresofferdinandcountfathom.txt#Diningroom",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Diningroom",
     "name": "Diningroom"
    },
    "hasParticipant": {
-    "id": "textstheadventuresofferdinandcountfathom.txt#Don_Diego_de_Zelos",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Don_Diego_de_Zelos",
     "name": "Don_Diego_de_Zelos"
    }
   },
   {
-   "id": "textstheadventuresofferdinandcountfathom.txt#Surviving_the_loss_of_his_wife",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Surviving_the_loss_of_his_wife",
    "name": "Surviving_the_loss_of_his_wife",
    "takePlaceAt": {
-    "id": "textstheadventuresofferdinandcountfathom.txt#Present_time",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Present_time",
     "name": "Present_time"
    },
    "hasParticipant": {
-    "id": "textstheadventuresofferdinandcountfathom.txt#Don_Diego_de_Zelos",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Don_Diego_de_Zelos",
     "name": "Don_Diego_de_Zelos"
    }
   }

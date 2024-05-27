@@ -1,7 +1,7 @@
 {
  "FictionalCharacters": [
   {
-   "id": "textsprideandprejudice.txt#Mr_Bennet",
+   "id": "texts/prideandprejudice.txt#Mr_Bennet",
    "name": "Mr_Bennet",
    "feels": [
     {
@@ -9,11 +9,11 @@
      "hasIntensity": 0.7,
      "quote": "The loss of her daughter made Mrs. Bennet very dull for several days.",
      "causedBy": {
-      "id": "textsprideandprejudice.txt#Daughter_s_departure",
+      "id": "texts/prideandprejudice.txt#Daughter_s_departure",
       "name": "Daughter_s_departure"
      },
      "hasObject": {
-      "id": "textsprideandprejudice.txt#Daughter",
+      "id": "texts/prideandprejudice.txt#Daughter",
       "name": "Daughter"
      },
      "exactPlace": "Home",
@@ -24,11 +24,11 @@
      "hasIntensity": 0.9,
      "quote": "He is as fine a fellow as ever I saw. He simpers, and smirks, and makes love to us all. I am prodigiously proud of him.",
      "causedBy": {
-      "id": "textsprideandprejudice.txt#Mr_Wickham_s_departure",
+      "id": "texts/prideandprejudice.txt#Mr_Wickham_s_departure",
       "name": "Mr_Wickham_s_departure"
      },
      "hasObject": {
-      "id": "textsprideandprejudice.txt#Mr_Wickham",
+      "id": "texts/prideandprejudice.txt#Mr_Wickham",
       "name": "Mr_Wickham"
      },
      "exactPlace": "Home",
@@ -39,11 +39,11 @@
      "hasIntensity": 0.8,
      "quote": "I begin to be sorry that he comes at all.",
      "causedBy": {
-      "id": "textsprideandprejudice.txt#Mr_Bingley_s_arrival",
+      "id": "texts/prideandprejudice.txt#Mr_Bingley_s_arrival",
       "name": "Mr_Bingley_s_arrival"
      },
      "hasObject": {
-      "id": "textsprideandprejudice.txt#Mr_Bingley",
+      "id": "texts/prideandprejudice.txt#Mr_Bingley",
       "name": "Mr_Bingley"
      },
      "exactPlace": "Home",
@@ -52,7 +52,7 @@
    ]
   },
   {
-   "id": "textsprideandprejudice.txt#Mrs_Bennet",
+   "id": "texts/prideandprejudice.txt#Mrs_Bennet",
    "name": "Mrs_Bennet",
    "feels": [
     {
@@ -60,11 +60,11 @@
      "hasIntensity": 0.7,
      "quote": "The loss of her daughter made Mrs. Bennet very dull for several days.",
      "causedBy": {
-      "id": "textsprideandprejudice.txt#Daughter_s_departure",
+      "id": "texts/prideandprejudice.txt#Daughter_s_departure",
       "name": "Daughter_s_departure"
      },
      "hasObject": {
-      "id": "textsprideandprejudice.txt#Daughter",
+      "id": "texts/prideandprejudice.txt#Daughter",
       "name": "Daughter"
      },
      "exactPlace": "Home",
@@ -75,11 +75,11 @@
      "hasIntensity": 0.8,
      "quote": "The housekeeper at Netherfield had received orders to prepare for the arrival of her master, who was coming down in a day or two, to shoot there for several weeks.",
      "causedBy": {
-      "id": "textsprideandprejudice.txt#Mr_Bingley_s_arrival",
+      "id": "texts/prideandprejudice.txt#Mr_Bingley_s_arrival",
       "name": "Mr_Bingley_s_arrival"
      },
      "hasObject": {
-      "id": "textsprideandprejudice.txt#Mr_Bingley",
+      "id": "texts/prideandprejudice.txt#Mr_Bingley",
       "name": "Mr_Bingley"
      },
      "exactPlace": "Home",
@@ -88,7 +88,7 @@
    ]
   },
   {
-   "id": "textsprideandprejudice.txt#Jane_Bennet",
+   "id": "texts/prideandprejudice.txt#Jane_Bennet",
    "name": "Jane_Bennet",
    "feels": [
     {
@@ -96,11 +96,11 @@
      "hasIntensity": 0.8,
      "quote": "I begin to be sorry that he comes at all.",
      "causedBy": {
-      "id": "textsprideandprejudice.txt#Mr_Bingley_s_arrival",
+      "id": "texts/prideandprejudice.txt#Mr_Bingley_s_arrival",
       "name": "Mr_Bingley_s_arrival"
      },
      "hasObject": {
-      "id": "textsprideandprejudice.txt#Mr_Bingley",
+      "id": "texts/prideandprejudice.txt#Mr_Bingley",
       "name": "Mr_Bingley"
      },
      "exactPlace": "Home",
@@ -109,7 +109,7 @@
    ]
   },
   {
-   "id": "textsprideandprejudice.txt#Elizabeth_Bennet",
+   "id": "texts/prideandprejudice.txt#Elizabeth_Bennet",
    "name": "Elizabeth_Bennet",
    "feels": [
     {
@@ -117,11 +117,11 @@
      "hasIntensity": 0.7,
      "quote": "I saw you look at me to-day, Lizzy, when my aunt told us of the present report; and I know I appeared distressed; but don’t imagine it was from any silly cause.",
      "causedBy": {
-      "id": "textsprideandprejudice.txt#Mr_Bingley_s_arrival",
+      "id": "texts/prideandprejudice.txt#Mr_Bingley_s_arrival",
       "name": "Mr_Bingley_s_arrival"
      },
      "hasObject": {
-      "id": "textsprideandprejudice.txt#Mr_Bingley",
+      "id": "texts/prideandprejudice.txt#Mr_Bingley",
       "name": "Mr_Bingley"
      },
      "exactPlace": "Home",
@@ -132,49 +132,49 @@
  ],
  "Places": [
   {
-   "id": "textsprideandprejudice.txt#Home",
+   "id": "texts/prideandprejudice.txt#Home",
    "name": "Home",
    "description": "The Bennet family residence"
   }
  ],
  "Events": [
   {
-   "id": "textsprideandprejudice.txt#Daughter_s_departure",
+   "id": "texts/prideandprejudice.txt#Daughter_s_departure",
    "name": "Daughter_s_departure",
    "takePlaceAt": {
-    "id": "textsprideandprejudice.txt#place1",
+    "id": "texts/prideandprejudice.txt#place1",
     "name": "place1"
    }
   },
   {
-   "id": "textsprideandprejudice.txt#Mr_Wickham_s_departure",
+   "id": "texts/prideandprejudice.txt#Mr_Wickham_s_departure",
    "name": "Mr_Wickham_s_departure",
    "takePlaceAt": {
-    "id": "textsprideandprejudice.txt#place1",
+    "id": "texts/prideandprejudice.txt#place1",
     "name": "place1"
    }
   },
   {
-   "id": "textsprideandprejudice.txt#Mr_Bingley_s_arrival",
+   "id": "texts/prideandprejudice.txt#Mr_Bingley_s_arrival",
    "name": "Mr_Bingley_s_arrival",
    "takePlaceAt": {
-    "id": "textsprideandprejudice.txt#place1",
+    "id": "texts/prideandprejudice.txt#place1",
     "name": "place1"
    }
   },
   {
-   "id": "textsprideandprejudice.txt#Daughter_s_departure",
+   "id": "texts/prideandprejudice.txt#Daughter_s_departure",
    "name": "Daughter_s_departure",
    "takePlaceAt": {
-    "id": "textsprideandprejudice.txt#place1",
+    "id": "texts/prideandprejudice.txt#place1",
     "name": "place1"
    }
   },
   {
-   "id": "textsprideandprejudice.txt#Mr_Bingley_s_arrival",
+   "id": "texts/prideandprejudice.txt#Mr_Bingley_s_arrival",
    "name": "Mr_Bingley_s_arrival",
    "takePlaceAt": {
-    "id": "textsprideandprejudice.txt#place1",
+    "id": "texts/prideandprejudice.txt#place1",
     "name": "place1"
    }
   }

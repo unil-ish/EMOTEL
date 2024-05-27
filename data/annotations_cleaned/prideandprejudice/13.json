@@ -1,22 +1,22 @@
 {
  "FictionalCharacters": [
   {
-   "id": "textsprideandprejudice.txt#Elizabeth_Bennet",
+   "id": "texts/prideandprejudice.txt#Elizabeth_Bennet",
    "feels": [
     {
      "name": "Joy",
      "hasIntensity": 0.9,
      "quote": "I am the happiest creature in the world.",
      "causedBy": {
-      "id": "textsprideandprejudice.txt#Marriage_to_Mr_Darcy",
+      "id": "texts/prideandprejudice.txt#Marriage_to_Mr_Darcy",
       "name": "Marriage_to_Mr_Darcy"
      },
      "hasObject": {
-      "id": "textsprideandprejudice.txt#Marriage",
+      "id": "texts/prideandprejudice.txt#Marriage",
       "name": "Marriage"
      },
      "place": {
-      "id": "textsprideandprejudice.txt#Pemberley",
+      "id": "texts/prideandprejudice.txt#Pemberley",
       "name": "Pemberley"
      },
      "id": "Joy"
@@ -26,15 +26,15 @@
      "hasIntensity": 0.8,
      "quote": "Elizabeth's mind was now relieved from a very heavy weight.",
      "causedBy": {
-      "id": "textsprideandprejudice.txt#Getting_rid_of_her_two_most_deserving_daughters",
+      "id": "texts/prideandprejudice.txt#Getting_rid_of_her_two_most_deserving_daughters",
       "name": "Getting_rid_of_her_two_most_deserving_daughters"
      },
      "hasObject": {
-      "id": "textsprideandprejudice.txt#Relief",
+      "id": "texts/prideandprejudice.txt#Relief",
       "name": "Relief"
      },
      "place": {
-      "id": "textsprideandprejudice.txt#Home",
+      "id": "texts/prideandprejudice.txt#Home",
       "name": "Home"
      },
      "id": "Relief"
@@ -44,15 +44,15 @@
      "hasIntensity": 0.7,
      "quote": "It added to the hope of the future.",
      "causedBy": {
-      "id": "textsprideandprejudice.txt#Looking_forward_to_being_removed_from_society",
+      "id": "texts/prideandprejudice.txt#Looking_forward_to_being_removed_from_society",
       "name": "Looking_forward_to_being_removed_from_society"
      },
      "hasObject": {
-      "id": "textsprideandprejudice.txt#Future",
+      "id": "texts/prideandprejudice.txt#Future",
       "name": "Future"
      },
      "place": {
-      "id": "textsprideandprejudice.txt#Pemberley",
+      "id": "texts/prideandprejudice.txt#Pemberley",
       "name": "Pemberley"
      },
      "id": "Hope"
@@ -61,22 +61,22 @@
    "name": "Elizabeth_Bennet"
   },
   {
-   "id": "textsprideandprejudice.txt#Mr_Darcy",
+   "id": "texts/prideandprejudice.txt#Mr_Darcy",
    "feels": [
     {
      "name": "Calmness",
      "hasIntensity": 0.8,
      "quote": "He bore it, however, with admirable calmness.",
      "causedBy": {
-      "id": "textsprideandprejudice.txt#Exposure_to_parading_and_obsequious_civility",
+      "id": "texts/prideandprejudice.txt#Exposure_to_parading_and_obsequious_civility",
       "name": "Exposure_to_parading_and_obsequious_civility"
      },
      "hasObject": {
-      "id": "textsprideandprejudice.txt#Calmness",
+      "id": "texts/prideandprejudice.txt#Calmness",
       "name": "Calmness"
      },
      "place": {
-      "id": "textsprideandprejudice.txt#Lucas_Lodge",
+      "id": "texts/prideandprejudice.txt#Lucas_Lodge",
       "name": "Lucas_Lodge"
      },
      "id": "Calmness"
@@ -86,15 +86,15 @@
      "hasIntensity": 0.6,
      "quote": "He was not wholly without hope that Darcy might yet be prevailed on to make his fortune.",
      "causedBy": {
-      "id": "textsprideandprejudice.txt#Hope_for_Darcy_s_fortune",
+      "id": "texts/prideandprejudice.txt#Hope_for_Darcy_s_fortune",
       "name": "Hope_for_Darcy_s_fortune"
      },
      "hasObject": {
-      "id": "textsprideandprejudice.txt#Fortune",
+      "id": "texts/prideandprejudice.txt#Fortune",
       "name": "Fortune"
      },
      "place": {
-      "id": "textsprideandprejudice.txt#Unknown",
+      "id": "texts/prideandprejudice.txt#Unknown",
       "name": "Unknown"
      },
      "id": "Hope"
@@ -103,22 +103,22 @@
    "name": "Mr_Darcy"
   },
   {
-   "id": "textsprideandprejudice.txt#Mrs_Bennet",
+   "id": "texts/prideandprejudice.txt#Mrs_Bennet",
    "feels": [
     {
      "name": "Pride",
      "hasIntensity": 0.9,
      "quote": "With what delighted pride she afterwards visited Mrs. Bingley, and talked of Mrs. Darcy, may be guessed.",
      "causedBy": {
-      "id": "textsprideandprejudice.txt#Visiting_Mrs_Bingley_and_talking_of_Mrs_Darcy",
+      "id": "texts/prideandprejudice.txt#Visiting_Mrs_Bingley_and_talking_of_Mrs_Darcy",
       "name": "Visiting_Mrs_Bingley_and_talking_of_Mrs_Darcy"
      },
      "hasObject": {
-      "id": "textsprideandprejudice.txt#Pride",
+      "id": "texts/prideandprejudice.txt#Pride",
       "name": "Pride"
      },
      "place": {
-      "id": "textsprideandprejudice.txt#Mrs_Bingley_s_house",
+      "id": "texts/prideandprejudice.txt#Mrs_Bingley_s_house",
       "name": "Mrs_Bingley_s_house"
      },
      "id": "Pride"
@@ -128,15 +128,15 @@
      "hasIntensity": 0.7,
      "quote": "She still was occasionally nervous and invariably silly.",
      "causedBy": {
-      "id": "textsprideandprejudice.txt#Occasional_nervousness",
+      "id": "texts/prideandprejudice.txt#Occasional_nervousness",
       "name": "Occasional_nervousness"
      },
      "hasObject": {
-      "id": "textsprideandprejudice.txt#Nervousness",
+      "id": "texts/prideandprejudice.txt#Nervousness",
       "name": "Nervousness"
      },
      "place": {
-      "id": "textsprideandprejudice.txt#Home",
+      "id": "texts/prideandprejudice.txt#Home",
       "name": "Home"
      },
      "id": "Nervousness"
@@ -147,61 +147,61 @@
  ],
  "Places": [
   {
-   "id": "textsprideandprejudice.txt#Pemberley",
+   "id": "texts/prideandprejudice.txt#Pemberley",
    "name": "Pemberley"
   },
   {
-   "id": "textsprideandprejudice.txt#Home",
+   "id": "texts/prideandprejudice.txt#Home",
    "name": "Home"
   },
   {
-   "id": "textsprideandprejudice.txt#Pemberley",
+   "id": "texts/prideandprejudice.txt#Pemberley",
    "name": "Pemberley"
   },
   {
-   "id": "textsprideandprejudice.txt#Lucas_Lodge",
+   "id": "texts/prideandprejudice.txt#Lucas_Lodge",
    "name": "Lucas_Lodge"
   },
   {
-   "id": "textsprideandprejudice.txt#Unknown",
+   "id": "texts/prideandprejudice.txt#Unknown",
    "name": "Unknown"
   },
   {
-   "id": "textsprideandprejudice.txt#Mrs_Bingley_s_house",
+   "id": "texts/prideandprejudice.txt#Mrs_Bingley_s_house",
    "name": "Mrs_Bingley_s_house"
   },
   {
-   "id": "textsprideandprejudice.txt#Home",
+   "id": "texts/prideandprejudice.txt#Home",
    "name": "Home"
   }
  ],
  "Events": [
   {
-   "id": "textsprideandprejudice.txt#Marriage_to_Mr_Darcy",
+   "id": "texts/prideandprejudice.txt#Marriage_to_Mr_Darcy",
    "name": "Marriage_to_Mr_Darcy"
   },
   {
-   "id": "textsprideandprejudice.txt#Getting_rid_of_her_two_most_deserving_daughters",
+   "id": "texts/prideandprejudice.txt#Getting_rid_of_her_two_most_deserving_daughters",
    "name": "Getting_rid_of_her_two_most_deserving_daughters"
   },
   {
-   "id": "textsprideandprejudice.txt#Looking_forward_to_being_removed_from_society",
+   "id": "texts/prideandprejudice.txt#Looking_forward_to_being_removed_from_society",
    "name": "Looking_forward_to_being_removed_from_society"
   },
   {
-   "id": "textsprideandprejudice.txt#Exposure_to_parading_and_obsequious_civility",
+   "id": "texts/prideandprejudice.txt#Exposure_to_parading_and_obsequious_civility",
    "name": "Exposure_to_parading_and_obsequious_civility"
   },
   {
-   "id": "textsprideandprejudice.txt#Hope_for_Darcy_s_fortune",
+   "id": "texts/prideandprejudice.txt#Hope_for_Darcy_s_fortune",
    "name": "Hope_for_Darcy_s_fortune"
   },
   {
-   "id": "textsprideandprejudice.txt#Visiting_Mrs_Bingley_and_talking_of_Mrs_Darcy",
+   "id": "texts/prideandprejudice.txt#Visiting_Mrs_Bingley_and_talking_of_Mrs_Darcy",
    "name": "Visiting_Mrs_Bingley_and_talking_of_Mrs_Darcy"
   },
   {
-   "id": "textsprideandprejudice.txt#Occasional_nervousness",
+   "id": "texts/prideandprejudice.txt#Occasional_nervousness",
    "name": "Occasional_nervousness"
   }
  ]

@@ -1,7 +1,7 @@
 {
  "FictionalCharacters": [
   {
-   "id": "textslittlewomen.txt#Amy",
+   "id": "texts/littlewomen.txt#Amy",
    "name": "Amy",
    "feels": [
     {
@@ -9,11 +9,11 @@
      "hasIntensity": 0.7,
      "quote": "I've been so scared and worried, I don't want to have anything to do with lovers for a long while,--perhaps never.",
      "causedBy": {
-      "id": "textslittlewomen.txt#Receiving_a_love_letter",
+      "id": "texts/littlewomen.txt#Receiving_a_love_letter",
       "name": "Receiving_a_love_letter"
      },
      "hasObject": {
-      "id": "textslittlewomen.txt#Love_letter",
+      "id": "texts/littlewomen.txt#Love_letter",
       "name": "Love_letter"
      },
      "exactPlace": "In the study",
@@ -22,7 +22,7 @@
    ]
   },
   {
-   "id": "textslittlewomen.txt#Laurie",
+   "id": "texts/littlewomen.txt#Laurie",
    "name": "Laurie",
    "feels": [
     {
@@ -30,7 +30,7 @@
      "hasIntensity": 0.8,
      "quote": "I've been shaken, and I won't bear it!",
      "causedBy": {
-      "id": "textslittlewomen.txt#Being_shaken_by_grandfather",
+      "id": "texts/littlewomen.txt#Being_shaken_by_grandfather",
       "name": "Being_shaken_by_grandfather"
      },
      "exactPlace": "In the study",
@@ -39,7 +39,7 @@
    ]
   },
   {
-   "id": "textslittlewomen.txt#Jo",
+   "id": "texts/littlewomen.txt#Jo",
    "name": "Jo",
    "feels": [
     {
@@ -47,7 +47,7 @@
      "hasIntensity": 0.7,
      "quote": "Seeing that he really was out of temper, Jo, who knew how to manage him, assumed a contrite expression, and going artistically down upon her knees, said meekly, 'Please forgive me for being so cross. I came to make it up, and can't go away till I have.'",
      "causedBy": {
-      "id": "textslittlewomen.txt#Laurie_being_out_of_temper",
+      "id": "texts/littlewomen.txt#Laurie_being_out_of_temper",
       "name": "Laurie_being_out_of_temper"
      },
      "exactPlace": "In the study",
@@ -58,45 +58,45 @@
  ],
  "Places": [
   {
-   "id": "textslittlewomen.txt#The_study",
+   "id": "texts/littlewomen.txt#The_study",
    "name": "The_study",
    "description": "A room in the house where discussions and conflicts take place."
   }
  ],
  "Events": [
   {
-   "id": "textslittlewomen.txt#Receiving_a_love_letter",
+   "id": "texts/littlewomen.txt#Receiving_a_love_letter",
    "name": "Receiving_a_love_letter",
    "takePlaceAt": {
-    "id": "textslittlewomen.txt#place1",
+    "id": "texts/littlewomen.txt#place1",
     "name": "place1"
    },
    "hasParticipant": {
-    "id": "textslittlewomen.txt#fc1",
+    "id": "texts/littlewomen.txt#fc1",
     "name": "fc1"
    }
   },
   {
-   "id": "textslittlewomen.txt#Being_shaken_by_grandfather",
+   "id": "texts/littlewomen.txt#Being_shaken_by_grandfather",
    "name": "Being_shaken_by_grandfather",
    "takePlaceAt": {
-    "id": "textslittlewomen.txt#place1",
+    "id": "texts/littlewomen.txt#place1",
     "name": "place1"
    },
    "hasParticipant": {
-    "id": "textslittlewomen.txt#fc2",
+    "id": "texts/littlewomen.txt#fc2",
     "name": "fc2"
    }
   },
   {
-   "id": "textslittlewomen.txt#Laurie_being_out_of_temper",
+   "id": "texts/littlewomen.txt#Laurie_being_out_of_temper",
    "name": "Laurie_being_out_of_temper",
    "takePlaceAt": {
-    "id": "textslittlewomen.txt#place1",
+    "id": "texts/littlewomen.txt#place1",
     "name": "place1"
    },
    "hasParticipant": {
-    "id": "textslittlewomen.txt#fc3",
+    "id": "texts/littlewomen.txt#fc3",
     "name": "fc3"
    }
   }

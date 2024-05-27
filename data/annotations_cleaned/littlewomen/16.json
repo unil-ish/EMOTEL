@@ -1,7 +1,7 @@
 {
  "FictionalCharacters": [
   {
-   "id": "textslittlewomen.txt#Amy",
+   "id": "texts/littlewomen.txt#Amy",
    "name": "Amy",
    "feels": [
     {
@@ -9,11 +9,11 @@
      "hasIntensity": 0.8,
      "quote": "He's my child, and I can't have his spirit broken by harshness.",
      "causedBy": {
-      "id": "textslittlewomen.txt#John_showing_patience_with_Demi",
+      "id": "texts/littlewomen.txt#John_showing_patience_with_Demi",
       "name": "John_showing_patience_with_Demi"
      },
      "hasObject": {
-      "id": "textslittlewomen.txt#Demi",
+      "id": "texts/littlewomen.txt#Demi",
       "name": "Demi"
      },
      "exactPlace": "Nursery",
@@ -24,11 +24,11 @@
      "hasIntensity": 0.7,
      "quote": "I never need fear that John will be too harsh with my babies: he does know how to manage them.",
      "causedBy": {
-      "id": "textslittlewomen.txt#John_managing_Demi",
+      "id": "texts/littlewomen.txt#John_managing_Demi",
       "name": "John_managing_Demi"
      },
      "hasObject": {
-      "id": "textslittlewomen.txt#Babies",
+      "id": "texts/littlewomen.txt#Babies",
       "name": "Babies"
      },
      "exactPlace": "Nursery",
@@ -39,11 +39,11 @@
      "hasIntensity": 0.9,
      "quote": "Home grew home-like again, and John had no wish to leave it, unless he took Meg with him.",
      "causedBy": {
-      "id": "textslittlewomen.txt#Household_happiness",
+      "id": "texts/littlewomen.txt#Household_happiness",
       "name": "Household_happiness"
      },
      "hasObject": {
-      "id": "textslittlewomen.txt#Home",
+      "id": "texts/littlewomen.txt#Home",
       "name": "Home"
      },
      "exactPlace": "Home",
@@ -54,11 +54,11 @@
      "hasIntensity": 0.6,
      "quote": "I want to try it for your sake as much as for mine, because I've neglected you shamefully lately, and I'm going to make home what it used to be, if I can.",
      "causedBy": {
-      "id": "textslittlewomen.txt#Meg_s_plan_for_change",
+      "id": "texts/littlewomen.txt#Meg_s_plan_for_change",
       "name": "Meg_s_plan_for_change"
      },
      "hasObject": {
-      "id": "textslittlewomen.txt#Home",
+      "id": "texts/littlewomen.txt#Home",
       "name": "Home"
      },
      "exactPlace": "Home",
@@ -67,7 +67,7 @@
    ]
   },
   {
-   "id": "textslittlewomen.txt#John",
+   "id": "texts/littlewomen.txt#John",
    "name": "John",
    "feels": [
     {
@@ -75,11 +75,11 @@
      "hasIntensity": 0.8,
      "quote": "It's a love of a bonnet, but I prefer the face inside, for it looks young and happy again.",
      "causedBy": {
-      "id": "textslittlewomen.txt#Meg_s_bonnet",
+      "id": "texts/littlewomen.txt#Meg_s_bonnet",
       "name": "Meg_s_bonnet"
      },
      "hasObject": {
-      "id": "textslittlewomen.txt#Bonnet",
+      "id": "texts/littlewomen.txt#Bonnet",
       "name": "Bonnet"
      },
      "exactPlace": "Home",
@@ -90,11 +90,11 @@
      "hasIntensity": 0.9,
      "quote": "This household happiness did not come all at once, but John and Meg had found the key to it.",
      "causedBy": {
-      "id": "textslittlewomen.txt#Household_happiness",
+      "id": "texts/littlewomen.txt#Household_happiness",
       "name": "Household_happiness"
      },
      "hasObject": {
-      "id": "textslittlewomen.txt#Home",
+      "id": "texts/littlewomen.txt#Home",
       "name": "Home"
      },
      "exactPlace": "Home",
@@ -105,11 +105,11 @@
      "hasIntensity": 0.7,
      "quote": "I really don't see what we are coming to.",
      "causedBy": {
-      "id": "textslittlewomen.txt#Meg_s_bonnet",
+      "id": "texts/littlewomen.txt#Meg_s_bonnet",
       "name": "Meg_s_bonnet"
      },
      "hasObject": {
-      "id": "textslittlewomen.txt#Bonnet",
+      "id": "texts/littlewomen.txt#Bonnet",
       "name": "Bonnet"
      },
      "exactPlace": "Home",
@@ -120,70 +120,70 @@
  ],
  "Places": [
   {
-   "id": "textslittlewomen.txt#Nursery",
+   "id": "texts/littlewomen.txt#Nursery",
    "name": "Nursery",
    "description": "Where Demi is put to bed and managed by John and Meg."
   },
   {
-   "id": "textslittlewomen.txt#Home",
+   "id": "texts/littlewomen.txt#Home",
    "name": "Home",
    "description": "Where the household happiness is achieved through changes made by John and Meg."
   }
  ],
  "Events": [
   {
-   "id": "textslittlewomen.txt#John_showing_patience_with_Demi",
+   "id": "texts/littlewomen.txt#John_showing_patience_with_Demi",
    "name": "John_showing_patience_with_Demi",
    "takePlaceAt": {
-    "id": "textslittlewomen.txt#place1",
+    "id": "texts/littlewomen.txt#place1",
     "name": "place1"
    }
   },
   {
-   "id": "textslittlewomen.txt#John_managing_Demi",
+   "id": "texts/littlewomen.txt#John_managing_Demi",
    "name": "John_managing_Demi",
    "takePlaceAt": {
-    "id": "textslittlewomen.txt#place1",
+    "id": "texts/littlewomen.txt#place1",
     "name": "place1"
    }
   },
   {
-   "id": "textslittlewomen.txt#Household_happiness",
+   "id": "texts/littlewomen.txt#Household_happiness",
    "name": "Household_happiness",
    "takePlaceAt": {
-    "id": "textslittlewomen.txt#place2",
+    "id": "texts/littlewomen.txt#place2",
     "name": "place2"
    }
   },
   {
-   "id": "textslittlewomen.txt#Meg_s_plan_for_change",
+   "id": "texts/littlewomen.txt#Meg_s_plan_for_change",
    "name": "Meg_s_plan_for_change",
    "takePlaceAt": {
-    "id": "textslittlewomen.txt#place2",
+    "id": "texts/littlewomen.txt#place2",
     "name": "place2"
    }
   },
   {
-   "id": "textslittlewomen.txt#Meg_s_bonnet",
+   "id": "texts/littlewomen.txt#Meg_s_bonnet",
    "name": "Meg_s_bonnet",
    "takePlaceAt": {
-    "id": "textslittlewomen.txt#place2",
+    "id": "texts/littlewomen.txt#place2",
     "name": "place2"
    }
   },
   {
-   "id": "textslittlewomen.txt#Household_happiness",
+   "id": "texts/littlewomen.txt#Household_happiness",
    "name": "Household_happiness",
    "takePlaceAt": {
-    "id": "textslittlewomen.txt#place2",
+    "id": "texts/littlewomen.txt#place2",
     "name": "place2"
    }
   },
   {
-   "id": "textslittlewomen.txt#Meg_s_bonnet",
+   "id": "texts/littlewomen.txt#Meg_s_bonnet",
    "name": "Meg_s_bonnet",
    "takePlaceAt": {
-    "id": "textslittlewomen.txt#place2",
+    "id": "texts/littlewomen.txt#place2",
     "name": "place2"
    }
   }

@@ -1,22 +1,22 @@
 {
  "FictionalCharacters": [
   {
-   "id": "textsthebluecastle.txt#Valancy",
+   "id": "texts/thebluecastle.txt#Valancy",
    "feels": [
     {
      "name": "Freedom",
      "hasIntensity": 0.9,
      "quote": "She let herself go with a wild, inner exultation, as Uncle Herbert carved the turkey.",
      "causedBy": {
-      "id": "textsthebluecastle.txt#Uncle_Herbert_carving_the_turkey",
+      "id": "texts/thebluecastle.txt#Uncle_Herbert_carving_the_turkey",
       "name": "Uncle_Herbert_carving_the_turkey"
      },
      "hasObject": {
-      "id": "textsthebluecastle.txt#Thanksgiving_dinner",
+      "id": "texts/thebluecastle.txt#Thanksgiving_dinner",
       "name": "Thanksgiving_dinner"
      },
      "place": {
-      "id": "textsthebluecastle.txt#Uncle_Herbert_s_house",
+      "id": "texts/thebluecastle.txt#Uncle_Herbert_s_house",
       "name": "Uncle_Herbert_s_house"
      },
      "id": "Freedom"
@@ -26,15 +26,15 @@
      "hasIntensity": 0.8,
      "quote": "She was gazing around the table, examining relentlessly every one in this depressing assembly of sensible people and watching their little squirms with a detached, amused smile.",
      "causedBy": {
-      "id": "textsthebluecastle.txt#Observing_the_guests_at_the_table",
+      "id": "texts/thebluecastle.txt#Observing_the_guests_at_the_table",
       "name": "Observing_the_guests_at_the_table"
      },
      "hasObject": {
-      "id": "textsthebluecastle.txt#Family_gathering",
+      "id": "texts/thebluecastle.txt#Family_gathering",
       "name": "Family_gathering"
      },
      "place": {
-      "id": "textsthebluecastle.txt#Uncle_Herbert_s_house",
+      "id": "texts/thebluecastle.txt#Uncle_Herbert_s_house",
       "name": "Uncle_Herbert_s_house"
      },
      "id": "Amusement"
@@ -44,15 +44,15 @@
      "hasIntensity": 0.9,
      "quote": "She was giving herself such freedom of thought as she had never dared to take before. She let herself go with a wild, inner exultation.",
      "causedBy": {
-      "id": "textsthebluecastle.txt#Feeling_liberated",
+      "id": "texts/thebluecastle.txt#Feeling_liberated",
       "name": "Feeling_liberated"
      },
      "hasObject": {
-      "id": "textsthebluecastle.txt#Family_gathering",
+      "id": "texts/thebluecastle.txt#Family_gathering",
       "name": "Family_gathering"
      },
      "place": {
-      "id": "textsthebluecastle.txt#Uncle_Herbert_s_house",
+      "id": "texts/thebluecastle.txt#Uncle_Herbert_s_house",
       "name": "Uncle_Herbert_s_house"
      },
      "id": "Rebellion"
@@ -63,45 +63,45 @@
  ],
  "Places": [
   {
-   "id": "textsthebluecastle.txt#Uncle_Herbert_s_house",
+   "id": "texts/thebluecastle.txt#Uncle_Herbert_s_house",
    "name": "Uncle_Herbert_s_house",
    "description": "A large, pretentious structure peppered with meaningless bay windows and excrescent porches."
   }
  ],
  "Events": [
   {
-   "id": "textsthebluecastle.txt#Uncle_Herbert_carving_the_turkey",
+   "id": "texts/thebluecastle.txt#Uncle_Herbert_carving_the_turkey",
    "name": "Uncle_Herbert_carving_the_turkey",
    "takePlaceAt": {
-    "id": "textsthebluecastle.txt#Thanksgiving_dinner",
+    "id": "texts/thebluecastle.txt#Thanksgiving_dinner",
     "name": "Thanksgiving_dinner"
    },
    "hasParticipant": {
-    "id": "textsthebluecastle.txt#Valancy",
+    "id": "texts/thebluecastle.txt#Valancy",
     "name": "Valancy"
    }
   },
   {
-   "id": "textsthebluecastle.txt#Observing_the_guests_at_the_table",
+   "id": "texts/thebluecastle.txt#Observing_the_guests_at_the_table",
    "name": "Observing_the_guests_at_the_table",
    "takePlaceAt": {
-    "id": "textsthebluecastle.txt#Family_gathering",
+    "id": "texts/thebluecastle.txt#Family_gathering",
     "name": "Family_gathering"
    },
    "hasParticipant": {
-    "id": "textsthebluecastle.txt#Valancy",
+    "id": "texts/thebluecastle.txt#Valancy",
     "name": "Valancy"
    }
   },
   {
-   "id": "textsthebluecastle.txt#Feeling_liberated",
+   "id": "texts/thebluecastle.txt#Feeling_liberated",
    "name": "Feeling_liberated",
    "takePlaceAt": {
-    "id": "textsthebluecastle.txt#Family_gathering",
+    "id": "texts/thebluecastle.txt#Family_gathering",
     "name": "Family_gathering"
    },
    "hasParticipant": {
-    "id": "textsthebluecastle.txt#Valancy",
+    "id": "texts/thebluecastle.txt#Valancy",
     "name": "Valancy"
    }
   }

@@ -1,7 +1,7 @@
 {
  "FictionalCharacters": [
   {
-   "id": "textsfrankenstein.txt#Victor_Frankenstein",
+   "id": "texts/frankenstein.txt#Victor_Frankenstein",
    "name": "Victor_Frankenstein",
    "feels": [
     {
@@ -9,15 +9,15 @@
      "hasIntensity": 0.7,
      "quote": "I quickly destroyed part of my sledge to construct oars, and by these means was enabled, with infinite fatigue, to move my ice raft in the direction of your ship.",
      "causedBy": {
-      "id": "textsfrankenstein.txt#Seeing_Walton_s_ship_as_a_sign_of_hope",
+      "id": "texts/frankenstein.txt#Seeing_Walton_s_ship_as_a_sign_of_hope",
       "name": "Seeing_Walton_s_ship_as_a_sign_of_hope"
      },
      "hasObject": {
-      "id": "textsfrankenstein.txt#Walton_s_ship",
+      "id": "texts/frankenstein.txt#Walton_s_ship",
       "name": "Walton_s_ship"
      },
      "exactPlace": {
-      "id": "textsfrankenstein.txt#Frozen_Ocean",
+      "id": "texts/frankenstein.txt#Frozen_Ocean",
       "name": "Frozen_Ocean"
      },
      "id": "Trust"
@@ -27,15 +27,15 @@
      "hasIntensity": 0.8,
      "quote": "Such a monster has, then, really existence! I cannot doubt it, yet I am lost in surprise and admiration.",
      "causedBy": {
-      "id": "textsfrankenstein.txt#Seeing_the_monster_from_the_ship",
+      "id": "texts/frankenstein.txt#Seeing_the_monster_from_the_ship",
       "name": "Seeing_the_monster_from_the_ship"
      },
      "hasObject": {
-      "id": "textsfrankenstein.txt#The_monster",
+      "id": "texts/frankenstein.txt#The_monster",
       "name": "The_monster"
      },
      "exactPlace": {
-      "id": "textsfrankenstein.txt#Walton_s_ship",
+      "id": "texts/frankenstein.txt#Walton_s_ship",
       "name": "Walton_s_ship"
      },
      "id": "Surprise"
@@ -45,15 +45,15 @@
      "hasIntensity": 0.9,
      "quote": "I darted towards the spot from which the sound proceeded, but the devil eluded my grasp.",
      "causedBy": {
-      "id": "textsfrankenstein.txt#Hearing_the_fiend_s_laugh",
+      "id": "texts/frankenstein.txt#Hearing_the_fiend_s_laugh",
       "name": "Hearing_the_fiend_s_laugh"
      },
      "hasObject": {
-      "id": "textsfrankenstein.txt#The_fiend",
+      "id": "texts/frankenstein.txt#The_fiend",
       "name": "The_fiend"
      },
      "exactPlace": {
-      "id": "textsfrankenstein.txt#Frozen_Ocean",
+      "id": "texts/frankenstein.txt#Frozen_Ocean",
       "name": "Frozen_Ocean"
      },
      "id": "Anger"
@@ -63,15 +63,15 @@
      "hasIntensity": 0.7,
      "quote": "Warm tears filled my eyes, which I hastily wiped away, that they might not intercept the view I had of the dæmon; but still my sight was dimmed by the burning drops, until, giving way to the emotions that oppressed me, I wept aloud.",
      "causedBy": {
-      "id": "textsfrankenstein.txt#Spotting_the_fiend_after_a_long_search",
+      "id": "texts/frankenstein.txt#Spotting_the_fiend_after_a_long_search",
       "name": "Spotting_the_fiend_after_a_long_search"
      },
      "hasObject": {
-      "id": "textsfrankenstein.txt#The_fiend",
+      "id": "texts/frankenstein.txt#The_fiend",
       "name": "The_fiend"
      },
      "exactPlace": {
-      "id": "textsfrankenstein.txt#Frozen_Ocean",
+      "id": "texts/frankenstein.txt#Frozen_Ocean",
       "name": "Frozen_Ocean"
      },
      "id": "Joy"
@@ -81,15 +81,15 @@
      "hasIntensity": 0.8,
      "quote": "I hoped to induce you to grant me a boat with which I could pursue my enemy.",
      "causedBy": {
-      "id": "textsfrankenstein.txt#Seeing_Walton_s_ship_as_a_potential_aid",
+      "id": "texts/frankenstein.txt#Seeing_Walton_s_ship_as_a_potential_aid",
       "name": "Seeing_Walton_s_ship_as_a_potential_aid"
      },
      "hasObject": {
-      "id": "textsfrankenstein.txt#Walton_s_ship",
+      "id": "texts/frankenstein.txt#Walton_s_ship",
       "name": "Walton_s_ship"
      },
      "exactPlace": {
-      "id": "textsfrankenstein.txt#Frozen_Ocean",
+      "id": "texts/frankenstein.txt#Frozen_Ocean",
       "name": "Frozen_Ocean"
      },
      "id": "Anticipation"
@@ -99,15 +99,15 @@
      "hasIntensity": 0.9,
      "quote": "The work was soon finished; in a few minutes a tumultuous sea rolled between me and my enemy, and I was left drifting on a scattered piece of ice that was continually lessening and thus preparing for me a hideous death.",
      "causedBy": {
-      "id": "textsfrankenstein.txt#Losing_sight_of_the_fiend_and_facing_imminent_dang",
+      "id": "texts/frankenstein.txt#Losing_sight_of_the_fiend_and_facing_imminent_dang",
       "name": "Losing_sight_of_the_fiend_and_facing_imminent_danger"
      },
      "hasObject": {
-      "id": "textsfrankenstein.txt#The_fiend",
+      "id": "texts/frankenstein.txt#The_fiend",
       "name": "The_fiend"
      },
      "exactPlace": {
-      "id": "textsfrankenstein.txt#Frozen_Ocean",
+      "id": "texts/frankenstein.txt#Frozen_Ocean",
       "name": "Frozen_Ocean"
      },
      "id": "Fear"
@@ -117,15 +117,15 @@
      "hasIntensity": 0.8,
      "quote": "On hearing this information I suffered a temporary access of despair. He had escaped me, and I must commence a destructive and almost endless journey across the mountainous ices of the ocean, amidst cold that few of the inhabitants could long endure and which I, the native of a genial and sunny climate, could not hope to survive.",
      "causedBy": {
-      "id": "textsfrankenstein.txt#Learning_that_the_fiend_had_escaped",
+      "id": "texts/frankenstein.txt#Learning_that_the_fiend_had_escaped",
       "name": "Learning_that_the_fiend_had_escaped"
      },
      "hasObject": {
-      "id": "textsfrankenstein.txt#The_fiend",
+      "id": "texts/frankenstein.txt#The_fiend",
       "name": "The_fiend"
      },
      "exactPlace": {
-      "id": "textsfrankenstein.txt#Frozen_Ocean",
+      "id": "texts/frankenstein.txt#Frozen_Ocean",
       "name": "Frozen_Ocean"
      },
      "id": "Disappointment"
@@ -135,15 +135,15 @@
      "hasIntensity": 0.9,
      "quote": "Despair had indeed almost secured her prey, and I should soon have sunk beneath this misery.",
      "causedBy": {
-      "id": "textsfrankenstein.txt#Facing_hopelessness_and_exhaustion",
+      "id": "texts/frankenstein.txt#Facing_hopelessness_and_exhaustion",
       "name": "Facing_hopelessness_and_exhaustion"
      },
      "hasObject": {
-      "id": "textsfrankenstein.txt#Hopelessness",
+      "id": "texts/frankenstein.txt#Hopelessness",
       "name": "Hopelessness"
      },
      "exactPlace": {
-      "id": "textsfrankenstein.txt#Frozen_Ocean",
+      "id": "texts/frankenstein.txt#Frozen_Ocean",
       "name": "Frozen_Ocean"
      },
      "id": "Despair"
@@ -153,69 +153,69 @@
  ],
  "Places": [
   {
-   "id": "textsfrankenstein.txt#Frozen_Ocean",
+   "id": "texts/frankenstein.txt#Frozen_Ocean",
    "name": "Frozen_Ocean"
   },
   {
-   "id": "textsfrankenstein.txt#Walton_s_ship",
+   "id": "texts/frankenstein.txt#Walton_s_ship",
    "name": "Walton_s_ship"
   },
   {
-   "id": "textsfrankenstein.txt#Frozen_Ocean",
+   "id": "texts/frankenstein.txt#Frozen_Ocean",
    "name": "Frozen_Ocean"
   },
   {
-   "id": "textsfrankenstein.txt#Frozen_Ocean",
+   "id": "texts/frankenstein.txt#Frozen_Ocean",
    "name": "Frozen_Ocean"
   },
   {
-   "id": "textsfrankenstein.txt#Frozen_Ocean",
+   "id": "texts/frankenstein.txt#Frozen_Ocean",
    "name": "Frozen_Ocean"
   },
   {
-   "id": "textsfrankenstein.txt#Frozen_Ocean",
+   "id": "texts/frankenstein.txt#Frozen_Ocean",
    "name": "Frozen_Ocean"
   },
   {
-   "id": "textsfrankenstein.txt#Frozen_Ocean",
+   "id": "texts/frankenstein.txt#Frozen_Ocean",
    "name": "Frozen_Ocean"
   },
   {
-   "id": "textsfrankenstein.txt#Frozen_Ocean",
+   "id": "texts/frankenstein.txt#Frozen_Ocean",
    "name": "Frozen_Ocean"
   }
  ],
  "Events": [
   {
-   "id": "textsfrankenstein.txt#Seeing_Walton_s_ship_as_a_sign_of_hope",
+   "id": "texts/frankenstein.txt#Seeing_Walton_s_ship_as_a_sign_of_hope",
    "name": "Seeing_Walton_s_ship_as_a_sign_of_hope"
   },
   {
-   "id": "textsfrankenstein.txt#Seeing_the_monster_from_the_ship",
+   "id": "texts/frankenstein.txt#Seeing_the_monster_from_the_ship",
    "name": "Seeing_the_monster_from_the_ship"
   },
   {
-   "id": "textsfrankenstein.txt#Hearing_the_fiend_s_laugh",
+   "id": "texts/frankenstein.txt#Hearing_the_fiend_s_laugh",
    "name": "Hearing_the_fiend_s_laugh"
   },
   {
-   "id": "textsfrankenstein.txt#Spotting_the_fiend_after_a_long_search",
+   "id": "texts/frankenstein.txt#Spotting_the_fiend_after_a_long_search",
    "name": "Spotting_the_fiend_after_a_long_search"
   },
   {
-   "id": "textsfrankenstein.txt#Seeing_Walton_s_ship_as_a_potential_aid",
+   "id": "texts/frankenstein.txt#Seeing_Walton_s_ship_as_a_potential_aid",
    "name": "Seeing_Walton_s_ship_as_a_potential_aid"
   },
   {
-   "id": "textsfrankenstein.txt#Losing_sight_of_the_fiend_and_facing_imminent_dang",
+   "id": "texts/frankenstein.txt#Losing_sight_of_the_fiend_and_facing_imminent_dang",
    "name": "Losing_sight_of_the_fiend_and_facing_imminent_danger"
   },
   {
-   "id": "textsfrankenstein.txt#Learning_that_the_fiend_had_escaped",
+   "id": "texts/frankenstein.txt#Learning_that_the_fiend_had_escaped",
    "name": "Learning_that_the_fiend_had_escaped"
   },
   {
-   "id": "textsfrankenstein.txt#Facing_hopelessness_and_exhaustion",
+   "id": "texts/frankenstein.txt#Facing_hopelessness_and_exhaustion",
    "name": "Facing_hopelessness_and_exhaustion"
   }
  ]

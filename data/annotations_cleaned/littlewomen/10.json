@@ -1,22 +1,22 @@
 {
  "FictionalCharacters": [
   {
-   "id": "textslittlewomen.txt#Amy",
+   "id": "texts/littlewomen.txt#Amy",
    "feels": [
     {
      "name": "Determination",
      "hasIntensity": 0.9,
      "quote": "I can't have it as I like, I don't care to have it at all.",
      "causedBy": {
-      "id": "textslittlewomen.txt#Opposition_from_Jo",
+      "id": "texts/littlewomen.txt#Opposition_from_Jo",
       "name": "Opposition_from_Jo"
      },
      "hasObject": {
-      "id": "textslittlewomen.txt#Lunch_for_the_girls",
+      "id": "texts/littlewomen.txt#Lunch_for_the_girls",
       "name": "Lunch_for_the_girls"
      },
      "place": {
-      "id": "textslittlewomen.txt#Home",
+      "id": "texts/littlewomen.txt#Home",
       "name": "Home"
      },
      "id": "Determination"
@@ -26,15 +26,15 @@
      "hasIntensity": 0.8,
      "quote": "If it hadn't been for mother I never should have got through.",
      "causedBy": {
-      "id": "textslittlewomen.txt#Mother_s_help",
+      "id": "texts/littlewomen.txt#Mother_s_help",
       "name": "Mother_s_help"
      },
      "hasObject": {
-      "id": "textslittlewomen.txt#Preparation_for_the_event",
+      "id": "texts/littlewomen.txt#Preparation_for_the_event",
       "name": "Preparation_for_the_event"
      },
      "place": {
-      "id": "textslittlewomen.txt#Home",
+      "id": "texts/littlewomen.txt#Home",
       "name": "Home"
      },
      "id": "Gratitude"
@@ -44,15 +44,15 @@
      "hasIntensity": 0.7,
      "quote": "I can't get any lobsters, so you will have to do without salad today.",
      "causedBy": {
-      "id": "textslittlewomen.txt#Unavailability_of_lobsters",
+      "id": "texts/littlewomen.txt#Unavailability_of_lobsters",
       "name": "Unavailability_of_lobsters"
      },
      "hasObject": {
-      "id": "textslittlewomen.txt#Lunch_preparation",
+      "id": "texts/littlewomen.txt#Lunch_preparation",
       "name": "Lunch_preparation"
      },
      "place": {
-      "id": "textslittlewomen.txt#Home",
+      "id": "texts/littlewomen.txt#Home",
       "name": "Home"
      },
      "id": "Disappointment"
@@ -61,22 +61,22 @@
    "name": "Amy"
   },
   {
-   "id": "textslittlewomen.txt#Jo",
+   "id": "texts/littlewomen.txt#Jo",
    "feels": [
     {
      "name": "Disapproval",
      "hasIntensity": 0.8,
      "quote": "Why in the world should you spend your money, worry your family, and turn the house upside down for a parcel of girls who don't care a sixpence for you?",
      "causedBy": {
-      "id": "textslittlewomen.txt#Amy_s_plan_for_the_event",
+      "id": "texts/littlewomen.txt#Amy_s_plan_for_the_event",
       "name": "Amy_s_plan_for_the_event"
      },
      "hasObject": {
-      "id": "textslittlewomen.txt#Girls_visit",
+      "id": "texts/littlewomen.txt#Girls_visit",
       "name": "Girls_visit"
      },
      "place": {
-      "id": "textslittlewomen.txt#Home",
+      "id": "texts/littlewomen.txt#Home",
       "name": "Home"
      },
      "id": "Disapproval"
@@ -86,15 +86,15 @@
      "hasIntensity": 0.7,
      "quote": "I would have nothing to do with it at first.",
      "causedBy": {
-      "id": "textslittlewomen.txt#Amy_s_plan_for_the_event",
+      "id": "texts/littlewomen.txt#Amy_s_plan_for_the_event",
       "name": "Amy_s_plan_for_the_event"
      },
      "hasObject": {
-      "id": "textslittlewomen.txt#Girls_visit",
+      "id": "texts/littlewomen.txt#Girls_visit",
       "name": "Girls_visit"
      },
      "place": {
-      "id": "textslittlewomen.txt#Home",
+      "id": "texts/littlewomen.txt#Home",
       "name": "Home"
      },
      "id": "Reluctance"
@@ -103,22 +103,22 @@
    "name": "Jo"
   },
   {
-   "id": "textslittlewomen.txt#Mrs_March",
+   "id": "texts/littlewomen.txt#Mrs_March",
    "feels": [
     {
      "name": "Resignation",
      "hasIntensity": 0.7,
      "quote": "If your heart is set upon it, and you see your way through without too great an outlay of money, time, and temper, I'll say no more.",
      "causedBy": {
-      "id": "textslittlewomen.txt#Amy_s_determination_to_proceed_with_the_event",
+      "id": "texts/littlewomen.txt#Amy_s_determination_to_proceed_with_the_event",
       "name": "Amy_s_determination_to_proceed_with_the_event"
      },
      "hasObject": {
-      "id": "textslittlewomen.txt#Girls_visit",
+      "id": "texts/littlewomen.txt#Girls_visit",
       "name": "Girls_visit"
      },
      "place": {
-      "id": "textslittlewomen.txt#Home",
+      "id": "texts/littlewomen.txt#Home",
       "name": "Home"
      },
      "id": "Resignation"
@@ -129,34 +129,34 @@
  ],
  "Places": [
   {
-   "id": "textslittlewomen.txt#Home",
+   "id": "texts/littlewomen.txt#Home",
    "name": "Home",
    "description": "The setting for the preparations and discussions for the event."
   }
  ],
  "Events": [
   {
-   "id": "textslittlewomen.txt#Opposition_from_Jo",
+   "id": "texts/littlewomen.txt#Opposition_from_Jo",
    "name": "Opposition_from_Jo"
   },
   {
-   "id": "textslittlewomen.txt#Mother_s_help",
+   "id": "texts/littlewomen.txt#Mother_s_help",
    "name": "Mother_s_help"
   },
   {
-   "id": "textslittlewomen.txt#Unavailability_of_lobsters",
+   "id": "texts/littlewomen.txt#Unavailability_of_lobsters",
    "name": "Unavailability_of_lobsters"
   },
   {
-   "id": "textslittlewomen.txt#Amy_s_plan_for_the_event",
+   "id": "texts/littlewomen.txt#Amy_s_plan_for_the_event",
    "name": "Amy_s_plan_for_the_event"
   },
   {
-   "id": "textslittlewomen.txt#Amy_s_plan_for_the_event",
+   "id": "texts/littlewomen.txt#Amy_s_plan_for_the_event",
    "name": "Amy_s_plan_for_the_event"
   },
   {
-   "id": "textslittlewomen.txt#Amy_s_determination_to_proceed_with_the_event",
+   "id": "texts/littlewomen.txt#Amy_s_determination_to_proceed_with_the_event",
    "name": "Amy_s_determination_to_proceed_with_the_event"
   }
  ]

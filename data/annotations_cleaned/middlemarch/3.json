@@ -1,22 +1,22 @@
 {
  "FictionalCharacters": [
   {
-   "id": "textsmiddlemarch.txt#Dorothea_Brooke",
+   "id": "texts/middlemarch.txt#Dorothea_Brooke",
    "feels": [
     {
      "name": "Trust",
      "hasIntensity": 0.8,
      "quote": "Dorothea walked about the house with delightful emotion. Everything seemed hallowed to her: this was to be the home of her wifehood, and she looked up with eyes full of confidence to Mr. Casaubon when he drew her attention specially to some actual arrangement and asked her if she would like an alteration.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Being_asked_about_an_alteration_in_the_house",
+      "id": "texts/middlemarch.txt#Being_asked_about_an_alteration_in_the_house",
       "name": "Being_asked_about_an_alteration_in_the_house"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Home_of_her_wifehood",
+      "id": "texts/middlemarch.txt#Home_of_her_wifehood",
       "name": "Home_of_her_wifehood"
      },
      "place": {
-      "id": "textsmiddlemarch.txt#House",
+      "id": "texts/middlemarch.txt#House",
       "name": "House"
      },
      "id": "Trust"
@@ -26,15 +26,15 @@
      "hasIntensity": 0.9,
      "quote": "Dorothea was glad of a reason for moving away at once on the sound of the bell, as if she needed more than her usual amount of preparation. She was ashamed of being irritated from some cause she could not define even to herself; for though she had no intention to be untruthful, her reply had not touched the real hurt within her.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Having_a_reason_to_move_away",
+      "id": "texts/middlemarch.txt#Having_a_reason_to_move_away",
       "name": "Having_a_reason_to_move_away"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Moving_away",
+      "id": "texts/middlemarch.txt#Moving_away",
       "name": "Moving_away"
      },
      "place": {
-      "id": "textsmiddlemarch.txt#Diningroom",
+      "id": "texts/middlemarch.txt#Diningroom",
       "name": "Diningroom"
      },
      "id": "Joy"
@@ -44,15 +44,15 @@
      "hasIntensity": 0.7,
      "quote": "Having convinced herself that Mr. Casaubon was altogether right, she recovered her equanimity, and was an agreeable image of serene dignity when she came into the drawing-room in her silver-gray dress.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Convincing_herself_that_Mr_Casaubon_was_right",
+      "id": "texts/middlemarch.txt#Convincing_herself_that_Mr_Casaubon_was_right",
       "name": "Convincing_herself_that_Mr_Casaubon_was_right"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Equanimity",
+      "id": "texts/middlemarch.txt#Equanimity",
       "name": "Equanimity"
      },
      "place": {
-      "id": "textsmiddlemarch.txt#Drawingroom",
+      "id": "texts/middlemarch.txt#Drawingroom",
       "name": "Drawingroom"
      },
      "id": "Acceptance"
@@ -62,15 +62,15 @@
      "hasIntensity": 0.6,
      "quote": "Certainly nothing at present could seem much less important to Lydgate than the turn of Miss Brooke’s mind, or to Miss Brooke than the qualities of the woman who had attracted this young surgeon.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Realizing_the_unimportance_of_Miss_Brooke_s_mind",
+      "id": "texts/middlemarch.txt#Realizing_the_unimportance_of_Miss_Brooke_s_mind",
       "name": "Realizing_the_unimportance_of_Miss_Brooke_s_mind"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Unimportance_of_Miss_Brooke_s_mind",
+      "id": "texts/middlemarch.txt#Unimportance_of_Miss_Brooke_s_mind",
       "name": "Unimportance_of_Miss_Brooke_s_mind"
      },
      "place": {
-      "id": "textsmiddlemarch.txt#Unknown",
+      "id": "texts/middlemarch.txt#Unknown",
       "name": "Unknown"
      },
      "id": "Submission"
@@ -79,22 +79,22 @@
    "name": "Dorothea_Brooke"
   },
   {
-   "id": "textsmiddlemarch.txt#Mr_Casaubon",
+   "id": "texts/middlemarch.txt#Mr_Casaubon",
    "feels": [
     {
      "name": "Annoyance",
      "hasIntensity": 0.7,
      "quote": "The words “I should feel more at liberty” grated on Dorothea. For the first time in speaking to Mr. Casaubon she colored from annoyance.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Hearing_the_words_I_should_feel_more_at_liberty_",
+      "id": "texts/middlemarch.txt#Hearing_the_words_I_should_feel_more_at_liberty_",
       "name": "Hearing_the_words_I_should_feel_more_at_liberty_"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Feeling_of_annoyance",
+      "id": "texts/middlemarch.txt#Feeling_of_annoyance",
       "name": "Feeling_of_annoyance"
      },
      "place": {
-      "id": "textsmiddlemarch.txt#Diningroom",
+      "id": "texts/middlemarch.txt#Diningroom",
       "name": "Diningroom"
      },
      "id": "Annoyance"
@@ -104,15 +104,15 @@
      "hasIntensity": 0.8,
      "quote": "He did not confess to himself, still less could he have breathed to another, his surprise that though he had won a lovely and noble-hearted girl he had not won delight.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Realizing_he_had_not_won_delight",
+      "id": "texts/middlemarch.txt#Realizing_he_had_not_won_delight",
       "name": "Realizing_he_had_not_won_delight"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Not_winning_delight",
+      "id": "texts/middlemarch.txt#Not_winning_delight",
       "name": "Not_winning_delight"
      },
      "place": {
-      "id": "textsmiddlemarch.txt#Diningroom",
+      "id": "texts/middlemarch.txt#Diningroom",
       "name": "Diningroom"
      },
      "id": "Disapproval"
@@ -122,15 +122,15 @@
      "hasIntensity": 0.7,
      "quote": "Certainly nothing at present could seem much less important to Lydgate than the turn of Miss Brooke’s mind, or to Miss Brooke than the qualities of the woman who had attracted this young surgeon.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Realizing_the_unimportance_of_Miss_Brooke_s_mind",
+      "id": "texts/middlemarch.txt#Realizing_the_unimportance_of_Miss_Brooke_s_mind",
       "name": "Realizing_the_unimportance_of_Miss_Brooke_s_mind"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Unimportance_of_Miss_Brooke_s_mind",
+      "id": "texts/middlemarch.txt#Unimportance_of_Miss_Brooke_s_mind",
       "name": "Unimportance_of_Miss_Brooke_s_mind"
      },
      "place": {
-      "id": "textsmiddlemarch.txt#Unknown",
+      "id": "texts/middlemarch.txt#Unknown",
       "name": "Unknown"
      },
      "id": "Indifference"
@@ -139,22 +139,22 @@
    "name": "Mr_Casaubon"
   },
   {
-   "id": "textsmiddlemarch.txt#Mr_Lydgate",
+   "id": "texts/middlemarch.txt#Mr_Lydgate",
    "feels": [
     {
      "name": "Fascination",
      "hasIntensity": 0.8,
      "quote": "Lydgate, in fact, was already conscious of being fascinated by a woman strikingly different from Miss Brooke: he did not in the least suppose that he had lost his balance and fallen in love, but he had said of that particular woman, “She is grace itself; she is perfectly lovely and accomplished. That is what a woman ought to be: she ought to produce the effect of exquisite music.”",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Being_fascinated_by_a_woman_strikingly_different_f",
+      "id": "texts/middlemarch.txt#Being_fascinated_by_a_woman_strikingly_different_f",
       "name": "Being_fascinated_by_a_woman_strikingly_different_from_Miss_Brooke"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Woman_strikingly_different_from_Miss_Brooke",
+      "id": "texts/middlemarch.txt#Woman_strikingly_different_from_Miss_Brooke",
       "name": "Woman_strikingly_different_from_Miss_Brooke"
      },
      "place": {
-      "id": "textsmiddlemarch.txt#Unknown",
+      "id": "texts/middlemarch.txt#Unknown",
       "name": "Unknown"
      },
      "id": "Fascination"
@@ -165,108 +165,108 @@
  ],
  "Places": [
   {
-   "id": "textsmiddlemarch.txt#House",
+   "id": "texts/middlemarch.txt#House",
    "name": "House",
    "description": "Unknown"
   },
   {
-   "id": "textsmiddlemarch.txt#Diningroom",
+   "id": "texts/middlemarch.txt#Diningroom",
    "name": "Diningroom",
    "description": "Unknown"
   },
   {
-   "id": "textsmiddlemarch.txt#Drawingroom",
+   "id": "texts/middlemarch.txt#Drawingroom",
    "name": "Drawingroom",
    "description": "Unknown"
   },
   {
-   "id": "textsmiddlemarch.txt#Unknown",
+   "id": "texts/middlemarch.txt#Unknown",
    "name": "Unknown",
    "description": "Unknown"
   },
   {
-   "id": "textsmiddlemarch.txt#Diningroom",
+   "id": "texts/middlemarch.txt#Diningroom",
    "name": "Diningroom",
    "description": "Unknown"
   },
   {
-   "id": "textsmiddlemarch.txt#Diningroom",
+   "id": "texts/middlemarch.txt#Diningroom",
    "name": "Diningroom",
    "description": "Unknown"
   },
   {
-   "id": "textsmiddlemarch.txt#Unknown",
+   "id": "texts/middlemarch.txt#Unknown",
    "name": "Unknown",
    "description": "Unknown"
   },
   {
-   "id": "textsmiddlemarch.txt#Unknown",
+   "id": "texts/middlemarch.txt#Unknown",
    "name": "Unknown",
    "description": "Unknown"
   }
  ],
  "Events": [
   {
-   "id": "textsmiddlemarch.txt#Being_asked_about_an_alteration_in_the_house",
+   "id": "texts/middlemarch.txt#Being_asked_about_an_alteration_in_the_house",
    "name": "Being_asked_about_an_alteration_in_the_house",
    "takePlaceAt": {
-    "id": "textsmiddlemarch.txt#place1",
+    "id": "texts/middlemarch.txt#place1",
     "name": "place1"
    }
   },
   {
-   "id": "textsmiddlemarch.txt#Having_a_reason_to_move_away",
+   "id": "texts/middlemarch.txt#Having_a_reason_to_move_away",
    "name": "Having_a_reason_to_move_away",
    "takePlaceAt": {
-    "id": "textsmiddlemarch.txt#place2",
+    "id": "texts/middlemarch.txt#place2",
     "name": "place2"
    }
   },
   {
-   "id": "textsmiddlemarch.txt#Convincing_herself_that_Mr_Casaubon_was_right",
+   "id": "texts/middlemarch.txt#Convincing_herself_that_Mr_Casaubon_was_right",
    "name": "Convincing_herself_that_Mr_Casaubon_was_right",
    "takePlaceAt": {
-    "id": "textsmiddlemarch.txt#place3",
+    "id": "texts/middlemarch.txt#place3",
     "name": "place3"
    }
   },
   {
-   "id": "textsmiddlemarch.txt#Realizing_the_unimportance_of_Miss_Brooke_s_mind",
+   "id": "texts/middlemarch.txt#Realizing_the_unimportance_of_Miss_Brooke_s_mind",
    "name": "Realizing_the_unimportance_of_Miss_Brooke_s_mind",
    "takePlaceAt": {
-    "id": "textsmiddlemarch.txt#place4",
+    "id": "texts/middlemarch.txt#place4",
     "name": "place4"
    }
   },
   {
-   "id": "textsmiddlemarch.txt#Hearing_the_words_I_should_feel_more_at_liberty_",
+   "id": "texts/middlemarch.txt#Hearing_the_words_I_should_feel_more_at_liberty_",
    "name": "Hearing_the_words_I_should_feel_more_at_liberty_",
    "takePlaceAt": {
-    "id": "textsmiddlemarch.txt#place5",
+    "id": "texts/middlemarch.txt#place5",
     "name": "place5"
    }
   },
   {
-   "id": "textsmiddlemarch.txt#Realizing_he_had_not_won_delight",
+   "id": "texts/middlemarch.txt#Realizing_he_had_not_won_delight",
    "name": "Realizing_he_had_not_won_delight",
    "takePlaceAt": {
-    "id": "textsmiddlemarch.txt#place6",
+    "id": "texts/middlemarch.txt#place6",
     "name": "place6"
    }
   },
   {
-   "id": "textsmiddlemarch.txt#Realizing_the_unimportance_of_Miss_Brooke_s_mind",
+   "id": "texts/middlemarch.txt#Realizing_the_unimportance_of_Miss_Brooke_s_mind",
    "name": "Realizing_the_unimportance_of_Miss_Brooke_s_mind",
    "takePlaceAt": {
-    "id": "textsmiddlemarch.txt#place7",
+    "id": "texts/middlemarch.txt#place7",
     "name": "place7"
    }
   },
   {
-   "id": "textsmiddlemarch.txt#Being_fascinated_by_a_woman_strikingly_different_f",
+   "id": "texts/middlemarch.txt#Being_fascinated_by_a_woman_strikingly_different_f",
    "name": "Being_fascinated_by_a_woman_strikingly_different_from_Miss_Brooke",
    "takePlaceAt": {
-    "id": "textsmiddlemarch.txt#place8",
+    "id": "texts/middlemarch.txt#place8",
     "name": "place8"
    }
   }

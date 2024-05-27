@@ -1,22 +1,22 @@
 {
  "FictionalCharacters": [
   {
-   "id": "textsmobydick.txt#Pip",
+   "id": "texts/mobydick.txt#Pip",
    "feels": [
     {
      "name": "Nervousness",
      "hasIntensity": 0.6,
      "quote": "The first time Stubb lowered with him, Pip evinced much nervousness.",
      "causedBy": {
-      "id": "textsmobydick.txt#First_time_lowering_with_Stubb",
+      "id": "texts/mobydick.txt#First_time_lowering_with_Stubb",
       "name": "First_time_lowering_with_Stubb"
      },
      "hasObject": {
-      "id": "textsmobydick.txt#Whale",
+      "id": "texts/mobydick.txt#Whale",
       "name": "Whale"
      },
      "place": {
-      "id": "textsmobydick.txt#Boat",
+      "id": "texts/mobydick.txt#Boat",
       "name": "Boat"
      },
      "id": "Nervousness"
@@ -26,15 +26,15 @@
      "hasIntensity": 0.8,
      "quote": "The involuntary consternation of the moment caused him to leap, paddle in hand, out of the boat.",
      "causedBy": {
-      "id": "textsmobydick.txt#Whale_receiving_the_darted_iron",
+      "id": "texts/mobydick.txt#Whale_receiving_the_darted_iron",
       "name": "Whale_receiving_the_darted_iron"
      },
      "hasObject": {
-      "id": "textsmobydick.txt#Whale",
+      "id": "texts/mobydick.txt#Whale",
       "name": "Whale"
      },
      "place": {
-      "id": "textsmobydick.txt#Boat",
+      "id": "texts/mobydick.txt#Boat",
       "name": "Boat"
      },
      "id": "Fear"
@@ -44,15 +44,15 @@
      "hasIntensity": 0.9,
      "quote": "Alas! Stubb was but too true to his word. It was a beautiful, bounteous, blue day; the spangled sea calm and cool, and flatly stretching away, all round, to the horizon, like gold-beater’s skin hammered out to the extremest.",
      "causedBy": {
-      "id": "textsmobydick.txt#Being_left_behind_on_the_sea",
+      "id": "texts/mobydick.txt#Being_left_behind_on_the_sea",
       "name": "Being_left_behind_on_the_sea"
      },
      "hasObject": {
-      "id": "textsmobydick.txt#Sea",
+      "id": "texts/mobydick.txt#Sea",
       "name": "Sea"
      },
      "place": {
-      "id": "textsmobydick.txt#Sea",
+      "id": "texts/mobydick.txt#Sea",
       "name": "Sea"
      },
      "id": "Loneliness"
@@ -62,15 +62,15 @@
      "hasIntensity": 0.7,
      "quote": "But the awful lonesomeness is intolerable. The intense concentration of self in the middle of such a heartless immensity, my God! who can tell it?",
      "causedBy": {
-      "id": "textsmobydick.txt#Being_a_castaway_in_the_sea",
+      "id": "texts/mobydick.txt#Being_a_castaway_in_the_sea",
       "name": "Being_a_castaway_in_the_sea"
      },
      "hasObject": {
-      "id": "textsmobydick.txt#Heartless_immensity",
+      "id": "texts/mobydick.txt#Heartless_immensity",
       "name": "Heartless_immensity"
      },
      "place": {
-      "id": "textsmobydick.txt#Sea",
+      "id": "texts/mobydick.txt#Sea",
       "name": "Sea"
      },
      "id": "Desperation"
@@ -80,15 +80,15 @@
      "hasIntensity": 0.8,
      "quote": "But had Stubb really abandoned the poor little negro to his fate? No; he did not mean to, at least.",
      "causedBy": {
-      "id": "textsmobydick.txt#Being_left_behind_on_the_sea",
+      "id": "texts/mobydick.txt#Being_left_behind_on_the_sea",
       "name": "Being_left_behind_on_the_sea"
      },
      "hasObject": {
-      "id": "textsmobydick.txt#Sea",
+      "id": "texts/mobydick.txt#Sea",
       "name": "Sea"
      },
      "place": {
-      "id": "textsmobydick.txt#Sea",
+      "id": "texts/mobydick.txt#Sea",
       "name": "Sea"
      },
      "id": "Abandonment"
@@ -99,67 +99,67 @@
  ],
  "Events": [
   {
-   "id": "textsmobydick.txt#First_time_lowering_with_Stubb",
+   "id": "texts/mobydick.txt#First_time_lowering_with_Stubb",
    "name": "First_time_lowering_with_Stubb",
    "takePlaceAt": {
-    "id": "textsmobydick.txt#Boat",
+    "id": "texts/mobydick.txt#Boat",
     "name": "Boat"
    }
   },
   {
-   "id": "textsmobydick.txt#Whale_receiving_the_darted_iron",
+   "id": "texts/mobydick.txt#Whale_receiving_the_darted_iron",
    "name": "Whale_receiving_the_darted_iron",
    "takePlaceAt": {
-    "id": "textsmobydick.txt#Boat",
+    "id": "texts/mobydick.txt#Boat",
     "name": "Boat"
    }
   },
   {
-   "id": "textsmobydick.txt#Being_left_behind_on_the_sea",
+   "id": "texts/mobydick.txt#Being_left_behind_on_the_sea",
    "name": "Being_left_behind_on_the_sea",
    "takePlaceAt": {
-    "id": "textsmobydick.txt#Sea",
+    "id": "texts/mobydick.txt#Sea",
     "name": "Sea"
    }
   },
   {
-   "id": "textsmobydick.txt#Being_a_castaway_in_the_sea",
+   "id": "texts/mobydick.txt#Being_a_castaway_in_the_sea",
    "name": "Being_a_castaway_in_the_sea",
    "takePlaceAt": {
-    "id": "textsmobydick.txt#Sea",
+    "id": "texts/mobydick.txt#Sea",
     "name": "Sea"
    }
   },
   {
-   "id": "textsmobydick.txt#Being_left_behind_on_the_sea",
+   "id": "texts/mobydick.txt#Being_left_behind_on_the_sea",
    "name": "Being_left_behind_on_the_sea",
    "takePlaceAt": {
-    "id": "textsmobydick.txt#Sea",
+    "id": "texts/mobydick.txt#Sea",
     "name": "Sea"
    }
   }
  ],
  "Objects": [
   {
-   "id": "textsmobydick.txt#Whale",
+   "id": "texts/mobydick.txt#Whale",
    "name": "Whale"
   },
   {
-   "id": "textsmobydick.txt#Sea",
+   "id": "texts/mobydick.txt#Sea",
    "name": "Sea"
   },
   {
-   "id": "textsmobydick.txt#Heartless_immensity",
+   "id": "texts/mobydick.txt#Heartless_immensity",
    "name": "Heartless_immensity"
   }
  ],
  "Places": [
   {
-   "id": "textsmobydick.txt#Boat",
+   "id": "texts/mobydick.txt#Boat",
    "name": "Boat"
   },
   {
-   "id": "textsmobydick.txt#Sea",
+   "id": "texts/mobydick.txt#Sea",
    "name": "Sea"
   }
  ]

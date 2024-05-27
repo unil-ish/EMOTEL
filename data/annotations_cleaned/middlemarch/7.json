@@ -1,7 +1,7 @@
 {
  "FictionalCharacters": [
   {
-   "id": "textsmiddlemarch.txt#The_Rev_Camden_Farebrother",
+   "id": "texts/middlemarch.txt#The_Rev_Camden_Farebrother",
    "name": "The_Rev_Camden_Farebrother",
    "feels": [
     {
@@ -9,15 +9,15 @@
      "hasIntensity": 0.8,
      "quote": "The Vicar of St. Botolph’s had certainly escaped the slightest tincture of the Pharisee, and by dint of admitting to himself that he was too much as other men were, he had become remarkably unlike them in this—that he could excuse others for thinking slightly of him, and could judge impartially of their conduct even when it told against him.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Being_unlike_others",
+      "id": "texts/middlemarch.txt#Being_unlike_others",
       "name": "Being_unlike_others"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Being_impartial",
+      "id": "texts/middlemarch.txt#Being_impartial",
       "name": "Being_impartial"
      },
      "place": {
-      "id": "textsmiddlemarch.txt#St_Botolphs",
+      "id": "texts/middlemarch.txt#St_Botolphs",
       "name": "St_Botolphs"
      },
      "id": "Trust"
@@ -27,15 +27,15 @@
      "hasIntensity": 0.7,
      "quote": "The Vicar of St. Botolph’s had certainly escaped the slightest tincture of the Pharisee, and by dint of admitting to himself that he was too much as other men were, he had become remarkably unlike them in this—that he could excuse others for thinking slightly of him, and could judge impartially of their conduct even when it told against him.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Being_unlike_others",
+      "id": "texts/middlemarch.txt#Being_unlike_others",
       "name": "Being_unlike_others"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Being_impartial",
+      "id": "texts/middlemarch.txt#Being_impartial",
       "name": "Being_impartial"
      },
      "place": {
-      "id": "textsmiddlemarch.txt#St_Botolphs",
+      "id": "texts/middlemarch.txt#St_Botolphs",
       "name": "St_Botolphs"
      },
      "id": "Joy"
@@ -45,15 +45,15 @@
      "hasIntensity": 0.6,
      "quote": "The Vicar’s talk was not always inspiriting: he had escaped being a Pharisee, but he had not escaped that low estimate of possibilities which we rather hastily arrive at as an inference from our own failure.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Low_estimate_of_possibilities",
+      "id": "texts/middlemarch.txt#Low_estimate_of_possibilities",
       "name": "Low_estimate_of_possibilities"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Inferiority",
+      "id": "texts/middlemarch.txt#Inferiority",
       "name": "Inferiority"
      },
      "place": {
-      "id": "textsmiddlemarch.txt#St_Botolphs",
+      "id": "texts/middlemarch.txt#St_Botolphs",
       "name": "St_Botolphs"
      },
      "id": "Sadness"
@@ -63,15 +63,15 @@
      "hasIntensity": 0.8,
      "quote": "The Vicar’s talk was not always inspiriting: he had escaped being a Pharisee, but he had not escaped that low estimate of possibilities which we rather hastily arrive at as an inference from our own failure.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Low_estimate_of_possibilities",
+      "id": "texts/middlemarch.txt#Low_estimate_of_possibilities",
       "name": "Low_estimate_of_possibilities"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Inferiority",
+      "id": "texts/middlemarch.txt#Inferiority",
       "name": "Inferiority"
      },
      "place": {
-      "id": "textsmiddlemarch.txt#St_Botolphs",
+      "id": "texts/middlemarch.txt#St_Botolphs",
       "name": "St_Botolphs"
      },
      "id": "Trust"
@@ -81,44 +81,44 @@
  ],
  "Places": [
   {
-   "id": "textsmiddlemarch.txt#St_Botolphs",
+   "id": "texts/middlemarch.txt#St_Botolphs",
    "name": "St_Botolphs"
   }
  ],
  "Events": [
   {
-   "id": "textsmiddlemarch.txt#Being_unlike_others",
+   "id": "texts/middlemarch.txt#Being_unlike_others",
    "name": "Being_unlike_others",
    "takePlaceAt": {
-    "id": "textsmiddlemarch.txt#place1",
+    "id": "texts/middlemarch.txt#place1",
     "name": "place1"
    },
    "hasParticipant": {
-    "id": "textsmiddlemarch.txt#fc1",
+    "id": "texts/middlemarch.txt#fc1",
     "name": "fc1"
    }
   },
   {
-   "id": "textsmiddlemarch.txt#Being_unlike_others",
+   "id": "texts/middlemarch.txt#Being_unlike_others",
    "name": "Being_unlike_others",
    "takePlaceAt": {
-    "id": "textsmiddlemarch.txt#place1",
+    "id": "texts/middlemarch.txt#place1",
     "name": "place1"
    },
    "hasParticipant": {
-    "id": "textsmiddlemarch.txt#fc1",
+    "id": "texts/middlemarch.txt#fc1",
     "name": "fc1"
    }
   },
   {
-   "id": "textsmiddlemarch.txt#Low_estimate_of_possibilities",
+   "id": "texts/middlemarch.txt#Low_estimate_of_possibilities",
    "name": "Low_estimate_of_possibilities",
    "takePlaceAt": {
-    "id": "textsmiddlemarch.txt#place1",
+    "id": "texts/middlemarch.txt#place1",
     "name": "place1"
    },
    "hasParticipant": {
-    "id": "textsmiddlemarch.txt#fc1",
+    "id": "texts/middlemarch.txt#fc1",
     "name": "fc1"
    }
   }

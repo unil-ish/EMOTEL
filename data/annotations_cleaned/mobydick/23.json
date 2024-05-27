@@ -1,18 +1,18 @@
 {
  "FictionalCharacters": [
   {
-   "id": "textsmobydick.txt#Ahab",
+   "id": "texts/mobydick.txt#Ahab",
    "feels": [
     {
      "name": "Determination",
      "hasIntensity": 0.9,
      "quote": "Ahab's hawser tows his purpose yet.",
      "causedBy": {
-      "id": "textsmobydick.txt#The_pursuit_of_Moby_Dick",
+      "id": "texts/mobydick.txt#The_pursuit_of_Moby_Dick",
       "name": "The_pursuit_of_Moby_Dick"
      },
      "hasObject": {
-      "id": "textsmobydick.txt#Purpose",
+      "id": "texts/mobydick.txt#Purpose",
       "name": "Purpose"
      },
      "place": "On the deck of the ship",
@@ -23,11 +23,11 @@
      "hasIntensity": 0.8,
      "quote": "Ahab never thinks; he only feels, feels, feels; that’s tingling enough for mortal man!",
      "causedBy": {
-      "id": "textsmobydick.txt#The_pursuit_of_Moby_Dick",
+      "id": "texts/mobydick.txt#The_pursuit_of_Moby_Dick",
       "name": "The_pursuit_of_Moby_Dick"
      },
      "hasObject": {
-      "id": "textsmobydick.txt#Feelings",
+      "id": "texts/mobydick.txt#Feelings",
       "name": "Feelings"
      },
      "place": "On the deck of the ship",
@@ -38,11 +38,11 @@
      "hasIntensity": 0.7,
      "quote": "Ahab is for ever Ahab, man. This whole act’s immutably decreed.",
      "causedBy": {
-      "id": "textsmobydick.txt#Acceptance_of_fate",
+      "id": "texts/mobydick.txt#Acceptance_of_fate",
       "name": "Acceptance_of_fate"
      },
      "hasObject": {
-      "id": "textsmobydick.txt#Fate",
+      "id": "texts/mobydick.txt#Fate",
       "name": "Fate"
      },
      "place": "On the deck of the ship",
@@ -52,18 +52,18 @@
    "name": "Ahab"
   },
   {
-   "id": "textsmobydick.txt#Starbuck",
+   "id": "texts/mobydick.txt#Starbuck",
    "feels": [
     {
      "name": "Concern",
      "hasIntensity": 0.8,
      "quote": "True concern for Ahab's well-being.",
      "causedBy": {
-      "id": "textsmobydick.txt#Ahab_s_injury",
+      "id": "texts/mobydick.txt#Ahab_s_injury",
       "name": "Ahab_s_injury"
      },
      "hasObject": {
-      "id": "textsmobydick.txt#Ahab_s_wellbeing",
+      "id": "texts/mobydick.txt#Ahab_s_wellbeing",
       "name": "Ahab_s_wellbeing"
      },
      "place": "On the deck of the ship",
@@ -73,18 +73,18 @@
    "name": "Starbuck"
   },
   {
-   "id": "textsmobydick.txt#Stubb",
+   "id": "texts/mobydick.txt#Stubb",
    "feels": [
     {
      "name": "Confusion",
      "hasIntensity": 0.7,
      "quote": "The Parsee—the Parsee!—gone, gone? and he was to go before:—but still was to be seen again ere I could perish—How’s that?",
      "causedBy": {
-      "id": "textsmobydick.txt#The_Parsee_s_disappearance",
+      "id": "texts/mobydick.txt#The_Parsee_s_disappearance",
       "name": "The_Parsee_s_disappearance"
      },
      "hasObject": {
-      "id": "textsmobydick.txt#The_Parsee_s_fate",
+      "id": "texts/mobydick.txt#The_Parsee_s_fate",
       "name": "The_Parsee_s_fate"
      },
      "place": "On the deck of the ship",
@@ -96,49 +96,49 @@
  ],
  "Places": [
   {
-   "id": "textsmobydick.txt#Deck_of_the_ship",
+   "id": "texts/mobydick.txt#Deck_of_the_ship",
    "name": "Deck_of_the_ship",
    "description": "The location where the characters are interacting and experiencing various emotions."
   }
  ],
  "Events": [
   {
-   "id": "textsmobydick.txt#The_pursuit_of_Moby_Dick",
+   "id": "texts/mobydick.txt#The_pursuit_of_Moby_Dick",
    "name": "The_pursuit_of_Moby_Dick",
    "takePlaceAt": {
-    "id": "textsmobydick.txt#deck",
+    "id": "texts/mobydick.txt#deck",
     "name": "deck"
    }
   },
   {
-   "id": "textsmobydick.txt#The_pursuit_of_Moby_Dick",
+   "id": "texts/mobydick.txt#The_pursuit_of_Moby_Dick",
    "name": "The_pursuit_of_Moby_Dick",
    "takePlaceAt": {
-    "id": "textsmobydick.txt#deck",
+    "id": "texts/mobydick.txt#deck",
     "name": "deck"
    }
   },
   {
-   "id": "textsmobydick.txt#Acceptance_of_fate",
+   "id": "texts/mobydick.txt#Acceptance_of_fate",
    "name": "Acceptance_of_fate",
    "takePlaceAt": {
-    "id": "textsmobydick.txt#deck",
+    "id": "texts/mobydick.txt#deck",
     "name": "deck"
    }
   },
   {
-   "id": "textsmobydick.txt#Ahab_s_injury",
+   "id": "texts/mobydick.txt#Ahab_s_injury",
    "name": "Ahab_s_injury",
    "takePlaceAt": {
-    "id": "textsmobydick.txt#deck",
+    "id": "texts/mobydick.txt#deck",
     "name": "deck"
    }
   },
   {
-   "id": "textsmobydick.txt#The_Parsee_s_disappearance",
+   "id": "texts/mobydick.txt#The_Parsee_s_disappearance",
    "name": "The_Parsee_s_disappearance",
    "takePlaceAt": {
-    "id": "textsmobydick.txt#deck",
+    "id": "texts/mobydick.txt#deck",
     "name": "deck"
    }
   }

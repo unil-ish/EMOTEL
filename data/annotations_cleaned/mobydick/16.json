@@ -1,7 +1,7 @@
 {
  "FictionalCharacters": [
   {
-   "id": "textsmobydick.txt#Narrator",
+   "id": "texts/mobydick.txt#Narrator",
    "name": "Narrator",
    "feels": [
     {
@@ -9,11 +9,11 @@
      "hasIntensity": 0.7,
      "quote": "But even so, amid the tornadoed Atlantic of my being, do I myself still for ever centrally disport in mute calm; and while ponderous planets of unwaning woe revolve round me, deep down and deep inland there I still bathe me in eternal mildness of joy.",
      "causedBy": {
-      "id": "textsmobydick.txt#Surrounded_by_circle_upon_circle_of_consternations",
+      "id": "texts/mobydick.txt#Surrounded_by_circle_upon_circle_of_consternations",
       "name": "Surrounded_by_circle_upon_circle_of_consternations_and_affrights"
      },
      "hasObject": {
-      "id": "textsmobydick.txt#Tornadoed_Atlantic_of_my_being",
+      "id": "texts/mobydick.txt#Tornadoed_Atlantic_of_my_being",
       "name": "Tornadoed_Atlantic_of_my_being"
      },
      "exactPlace": "Deep down and deep inland",
@@ -24,11 +24,11 @@
      "hasIntensity": 0.8,
      "quote": "But thoughts like these troubled very few of the reckless crew; and when, after steadily dropping and dropping the pirates astern, the Pequod at last shot by the vivid green Cockatoo Point on the Sumatra side, emerging at last upon the broad waters beyond; then, the harpooneers seemed more to grieve that the swift whales had been gaining upon the ship, than to rejoice that the ship had so victoriously gained upon the Malays.",
      "causedBy": {
-      "id": "textsmobydick.txt#Pirates_chasing_the_ship",
+      "id": "texts/mobydick.txt#Pirates_chasing_the_ship",
       "name": "Pirates_chasing_the_ship"
      },
      "hasObject": {
-      "id": "textsmobydick.txt#Pirates",
+      "id": "texts/mobydick.txt#Pirates",
       "name": "Pirates"
      },
      "exactPlace": "On the ship",
@@ -39,11 +39,11 @@
      "hasIntensity": 0.6,
      "quote": "Further pursuit was useless; but the boats still lingered in their wake to pick up what drugged whales might be dropped astern, and likewise to secure one which Flask had killed and waifed.",
      "causedBy": {
-      "id": "textsmobydick.txt#End_of_pursuit",
+      "id": "texts/mobydick.txt#End_of_pursuit",
       "name": "End_of_pursuit"
      },
      "hasObject": {
-      "id": "textsmobydick.txt#End_of_pursuit",
+      "id": "texts/mobydick.txt#End_of_pursuit",
       "name": "End_of_pursuit"
      },
      "exactPlace": "On the boats",
@@ -52,7 +52,7 @@
    ]
   },
   {
-   "id": "textsmobydick.txt#Queequeg",
+   "id": "texts/mobydick.txt#Queequeg",
    "name": "Queequeg",
    "feels": [
     {
@@ -60,11 +60,11 @@
      "hasIntensity": 0.7,
      "quote": "“Oars! Oars!” he intensely whispered, seizing the helm—“gripe your oars, and clutch your souls, now! My God, men, stand by! Shove him off, you Queequeg—the whale there!—prick him!—hit him! Stand up—stand up, and stay so! Spring, men—pull, men; never mind their backs—scrape them!—scrape away!”",
      "causedBy": {
-      "id": "textsmobydick.txt#Whale_attack",
+      "id": "texts/mobydick.txt#Whale_attack",
       "name": "Whale_attack"
      },
      "hasObject": {
-      "id": "textsmobydick.txt#Whale",
+      "id": "texts/mobydick.txt#Whale",
       "name": "Whale"
      },
      "exactPlace": "On the boat",
@@ -75,11 +75,11 @@
      "hasIntensity": 0.5,
      "quote": "This lucky salvation was cheaply purchased by the loss of Queequeg’s hat, who, while standing in the bows to prick the fugitive whales, had his hat taken clean from his head by the air-eddy made by the sudden tossing of a pair of broad flukes close by.",
      "causedBy": {
-      "id": "textsmobydick.txt#Loss_of_hat",
+      "id": "texts/mobydick.txt#Loss_of_hat",
       "name": "Loss_of_hat"
      },
      "hasObject": {
-      "id": "textsmobydick.txt#Hat",
+      "id": "texts/mobydick.txt#Hat",
       "name": "Hat"
      },
      "exactPlace": "On the boat",
@@ -90,54 +90,54 @@
  ],
  "Places": [
   {
-   "id": "textsmobydick.txt#On_the_ship",
+   "id": "texts/mobydick.txt#On_the_ship",
    "name": "On_the_ship",
    "description": "Deck of the Pequod"
   },
   {
-   "id": "textsmobydick.txt#On_the_boats",
+   "id": "texts/mobydick.txt#On_the_boats",
    "name": "On_the_boats",
    "description": "Whaleboats used for hunting"
   }
  ],
  "Events": [
   {
-   "id": "textsmobydick.txt#Surrounded_by_circle_upon_circle_of_consternations",
+   "id": "texts/mobydick.txt#Surrounded_by_circle_upon_circle_of_consternations",
    "name": "Surrounded_by_circle_upon_circle_of_consternations_and_affrights",
    "takePlaceAt": {
-    "id": "textsmobydick.txt#place1",
+    "id": "texts/mobydick.txt#place1",
     "name": "place1"
    }
   },
   {
-   "id": "textsmobydick.txt#Pirates_chasing_the_ship",
+   "id": "texts/mobydick.txt#Pirates_chasing_the_ship",
    "name": "Pirates_chasing_the_ship",
    "takePlaceAt": {
-    "id": "textsmobydick.txt#place1",
+    "id": "texts/mobydick.txt#place1",
     "name": "place1"
    }
   },
   {
-   "id": "textsmobydick.txt#End_of_pursuit",
+   "id": "texts/mobydick.txt#End_of_pursuit",
    "name": "End_of_pursuit",
    "takePlaceAt": {
-    "id": "textsmobydick.txt#place2",
+    "id": "texts/mobydick.txt#place2",
     "name": "place2"
    }
   },
   {
-   "id": "textsmobydick.txt#Whale_attack",
+   "id": "texts/mobydick.txt#Whale_attack",
    "name": "Whale_attack",
    "takePlaceAt": {
-    "id": "textsmobydick.txt#place2",
+    "id": "texts/mobydick.txt#place2",
     "name": "place2"
    }
   },
   {
-   "id": "textsmobydick.txt#Loss_of_hat",
+   "id": "texts/mobydick.txt#Loss_of_hat",
    "name": "Loss_of_hat",
    "takePlaceAt": {
-    "id": "textsmobydick.txt#place2",
+    "id": "texts/mobydick.txt#place2",
     "name": "place2"
    }
   }

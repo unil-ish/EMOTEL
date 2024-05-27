@@ -1,7 +1,7 @@
 {
  "FictionalCharacters": [
   {
-   "id": "textslittlewomen.txt#Beth",
+   "id": "texts/littlewomen.txt#Beth",
    "name": "Beth",
    "feels": [
     {
@@ -9,15 +9,15 @@
      "hasIntensity": 0.7,
      "quote": "Buffaloes proved soothing and satisfactory; and, in her eagerness to amuse another, Beth forgot herself, and was quite unconscious of her sisters' surprise and delight at the unusual spectacle of Beth talking away to one of the dreadful boys, against whom she had begged protection.",
      "causedBy": {
-      "id": "textslittlewomen.txt#Talking_to_Frank",
+      "id": "texts/littlewomen.txt#Talking_to_Frank",
       "name": "Talking_to_Frank"
      },
      "hasObject": {
-      "id": "textslittlewomen.txt#Authorcards",
+      "id": "texts/littlewomen.txt#Authorcards",
       "name": "Authorcards"
      },
      "place": {
-      "id": "textslittlewomen.txt#Croquetground",
+      "id": "texts/littlewomen.txt#Croquetground",
       "name": "Croquetground"
      },
      "id": "Embarrassment"
@@ -25,7 +25,7 @@
    ]
   },
   {
-   "id": "textslittlewomen.txt#Meg",
+   "id": "texts/littlewomen.txt#Meg",
    "name": "Meg",
    "feels": [
     {
@@ -33,11 +33,11 @@
      "hasIntensity": 0.6,
      "quote": "Meg, passing over the first part of his reproach; for it was quite true that she had shunned him, remembering the Moffat party and the talk after it.",
      "causedBy": {
-      "id": "textslittlewomen.txt#Shunning_Ned",
+      "id": "texts/littlewomen.txt#Shunning_Ned",
       "name": "Shunning_Ned"
      },
      "place": {
-      "id": "textslittlewomen.txt#Croquetground",
+      "id": "texts/littlewomen.txt#Croquetground",
       "name": "Croquetground"
      },
      "id": "Annoyance"
@@ -45,7 +45,7 @@
    ]
   },
   {
-   "id": "textslittlewomen.txt#Laurie",
+   "id": "texts/littlewomen.txt#Laurie",
    "name": "Laurie",
    "feels": [
     {
@@ -53,11 +53,11 @@
      "hasIntensity": 0.8,
      "quote": "Well, that's cool! to have a picnic and never ask me. They can't be going in the boat, for they haven't got the key. Perhaps they forgot it; I'll take it to them, and see what's going on.",
      "causedBy": {
-      "id": "textslittlewomen.txt#Not_being_invited_to_the_picnic",
+      "id": "texts/littlewomen.txt#Not_being_invited_to_the_picnic",
       "name": "Not_being_invited_to_the_picnic"
      },
      "place": {
-      "id": "textslittlewomen.txt#Hammock",
+      "id": "texts/littlewomen.txt#Hammock",
       "name": "Hammock"
      },
      "id": "Curiosity"
@@ -67,52 +67,52 @@
  ],
  "Places": [
   {
-   "id": "textslittlewomen.txt#Croquetground",
+   "id": "texts/littlewomen.txt#Croquetground",
    "name": "Croquetground"
   },
   {
-   "id": "textslittlewomen.txt#Croquetground",
+   "id": "texts/littlewomen.txt#Croquetground",
    "name": "Croquetground"
   },
   {
-   "id": "textslittlewomen.txt#Hammock",
+   "id": "texts/littlewomen.txt#Hammock",
    "name": "Hammock"
   }
  ],
  "Events": [
   {
-   "id": "textslittlewomen.txt#Talking_to_Frank",
+   "id": "texts/littlewomen.txt#Talking_to_Frank",
    "name": "Talking_to_Frank",
    "takePlaceAt": {
-    "id": "textslittlewomen.txt#place1",
+    "id": "texts/littlewomen.txt#place1",
     "name": "place1"
    },
    "hasParticipant": {
-    "id": "textslittlewomen.txt#fc1",
+    "id": "texts/littlewomen.txt#fc1",
     "name": "fc1"
    }
   },
   {
-   "id": "textslittlewomen.txt#Shunning_Ned",
+   "id": "texts/littlewomen.txt#Shunning_Ned",
    "name": "Shunning_Ned",
    "takePlaceAt": {
-    "id": "textslittlewomen.txt#place2",
+    "id": "texts/littlewomen.txt#place2",
     "name": "place2"
    },
    "hasParticipant": {
-    "id": "textslittlewomen.txt#fc2",
+    "id": "texts/littlewomen.txt#fc2",
     "name": "fc2"
    }
   },
   {
-   "id": "textslittlewomen.txt#Not_being_invited_to_the_picnic",
+   "id": "texts/littlewomen.txt#Not_being_invited_to_the_picnic",
    "name": "Not_being_invited_to_the_picnic",
    "takePlaceAt": {
-    "id": "textslittlewomen.txt#place3",
+    "id": "texts/littlewomen.txt#place3",
     "name": "place3"
    },
    "hasParticipant": {
-    "id": "textslittlewomen.txt#fc3",
+    "id": "texts/littlewomen.txt#fc3",
     "name": "fc3"
    }
   }

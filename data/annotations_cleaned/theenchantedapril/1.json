@@ -1,7 +1,7 @@
 {
  "FictionalCharacters": [
   {
-   "id": "textstheenchantedapril.txt#Mrs_Wilkins",
+   "id": "texts/theenchantedapril.txt#Mrs_Wilkins",
    "name": "Mrs_Wilkins",
    "feels": [
     {
@@ -9,11 +9,11 @@
      "hasIntensity": 1,
      "quote": "She lay with her arms clasped round her head thinking how happy she was, her lips curved upwards in a delighted smile.",
      "causedBy": {
-      "id": "textstheenchantedapril.txt#Adorable_condition",
+      "id": "texts/theenchantedapril.txt#Adorable_condition",
       "name": "Adorable_condition"
      },
      "hasObject": {
-      "id": "textstheenchantedapril.txt#Adorable_condition",
+      "id": "texts/theenchantedapril.txt#Adorable_condition",
       "name": "Adorable_condition"
      },
      "exactPlace": "In bed",
@@ -24,11 +24,11 @@
      "hasIntensity": 1,
      "quote": "She lay with her arms clasped round her head thinking how happy she was, her lips curved upwards in a delighted smile.",
      "causedBy": {
-      "id": "textstheenchantedapril.txt#Adorable_condition",
+      "id": "texts/theenchantedapril.txt#Adorable_condition",
       "name": "Adorable_condition"
      },
      "hasObject": {
-      "id": "textstheenchantedapril.txt#Adorable_condition",
+      "id": "texts/theenchantedapril.txt#Adorable_condition",
       "name": "Adorable_condition"
      },
      "exactPlace": "In bed",
@@ -39,11 +39,11 @@
      "hasIntensity": 1,
      "quote": "She lay with her arms clasped round her head thinking how happy she was, her lips curved upwards in a delighted smile.",
      "causedBy": {
-      "id": "textstheenchantedapril.txt#Adorable_condition",
+      "id": "texts/theenchantedapril.txt#Adorable_condition",
       "name": "Adorable_condition"
      },
      "hasObject": {
-      "id": "textstheenchantedapril.txt#Adorable_condition",
+      "id": "texts/theenchantedapril.txt#Adorable_condition",
       "name": "Adorable_condition"
      },
      "exactPlace": "In bed",
@@ -54,11 +54,11 @@
      "hasIntensity": 1,
      "quote": "_Oh!_ cried Mrs. Wilkins.",
      "causedBy": {
-      "id": "textstheenchantedapril.txt#View_outside_the_window",
+      "id": "texts/theenchantedapril.txt#View_outside_the_window",
       "name": "View_outside_the_window"
      },
      "hasObject": {
-      "id": "textstheenchantedapril.txt#View_outside_the_window",
+      "id": "texts/theenchantedapril.txt#View_outside_the_window",
       "name": "View_outside_the_window"
      },
      "exactPlace": "By the window",
@@ -69,25 +69,25 @@
  ],
  "Places": [
   {
-   "id": "textstheenchantedapril.txt#San_Salvatore",
+   "id": "texts/theenchantedapril.txt#San_Salvatore",
    "name": "San_Salvatore",
    "description": "A mediaeval castle on top of a hill in Italy."
   }
  ],
  "Events": [
   {
-   "id": "textstheenchantedapril.txt#Adorable_condition",
+   "id": "texts/theenchantedapril.txt#Adorable_condition",
    "name": "Adorable_condition",
    "takePlaceAt": {
-    "id": "textstheenchantedapril.txt#MrsWilkins",
+    "id": "texts/theenchantedapril.txt#MrsWilkins",
     "name": "MrsWilkins"
    }
   },
   {
-   "id": "textstheenchantedapril.txt#View_outside_the_window",
+   "id": "texts/theenchantedapril.txt#View_outside_the_window",
    "name": "View_outside_the_window",
    "takePlaceAt": {
-    "id": "textstheenchantedapril.txt#MrsWilkins",
+    "id": "texts/theenchantedapril.txt#MrsWilkins",
     "name": "MrsWilkins"
    }
   }

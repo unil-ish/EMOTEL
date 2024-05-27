@@ -1,7 +1,7 @@
 {
  "FictionalCharacters": [
   {
-   "id": "textstheadventuresofferdinandcountfathom.txt#Doctor_Fathom",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Doctor_Fathom",
    "name": "Doctor_Fathom",
    "feels": [
     {
@@ -9,11 +9,11 @@
      "hasIntensity": 0.6,
      "quote": "He had such a manifest advantage, in point of personal accomplishments, over the young gentleman who was destined for her husband, that she did not disdain his proposals.",
      "causedBy": {
-      "id": "textstheadventuresofferdinandcountfathom.txt#Doctor_Fathom_s_personal_accomplishments",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Doctor_Fathom_s_personal_accomplishments",
       "name": "Doctor_Fathom_s_personal_accomplishments"
      },
      "hasObject": {
-      "id": "textstheadventuresofferdinandcountfathom.txt#Young_gentleman_destined_for_her_husband",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Young_gentleman_destined_for_her_husband",
       "name": "Young_gentleman_destined_for_her_husband"
      },
      "place": "During the term of her residence in London",
@@ -24,11 +24,11 @@
      "hasIntensity": 0.8,
      "quote": "The doctor arrived at the inn, according to appointment, he was received by his worship in person, who gave him to understand, that his niece had changed her mind, and gone fifty miles farther into the country to visit a relation.",
      "causedBy": {
-      "id": "textstheadventuresofferdinandcountfathom.txt#Doctor_Fathom_s_niece_changing_her_mind",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Doctor_Fathom_s_niece_changing_her_mind",
       "name": "Doctor_Fathom_s_niece_changing_her_mind"
      },
      "hasObject": {
-      "id": "textstheadventuresofferdinandcountfathom.txt#Doctor_Fathom",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Doctor_Fathom",
       "name": "Doctor_Fathom"
      },
      "place": "At the inn",
@@ -39,11 +39,11 @@
      "hasIntensity": 0.7,
      "quote": "The quack would advance the money upon no other condition, than that of knowing the scheme, which being explained, he complied with Ferdinand’s request; but, at the same time, privately despatched an express to the young lady’s uncle, with a full account of the whole conspiracy.",
      "causedBy": {
-      "id": "textstheadventuresofferdinandcountfathom.txt#Quack_s_condition_for_advancing_money",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Quack_s_condition_for_advancing_money",
       "name": "Quack_s_condition_for_advancing_money"
      },
      "hasObject": {
-      "id": "textstheadventuresofferdinandcountfathom.txt#Doctor_Fathom",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Doctor_Fathom",
       "name": "Doctor_Fathom"
      },
      "place": "At the quack's place",
@@ -54,11 +54,11 @@
      "hasIntensity": 0.9,
      "quote": "This recovery was so far beyond the husband’s expectation, that he began to make very serious reflections on the event, and even to wish he had not been quite so precipitate in pardoning the backslidings of his wife.",
      "causedBy": {
-      "id": "textstheadventuresofferdinandcountfathom.txt#Wife_s_recovery",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Wife_s_recovery",
       "name": "Wife_s_recovery"
      },
      "hasObject": {
-      "id": "textstheadventuresofferdinandcountfathom.txt#Husband",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Husband",
       "name": "Husband"
      },
      "place": "At home",
@@ -69,11 +69,11 @@
      "hasIntensity": 0.7,
      "quote": "He resolved that the opportunity should not be lost, and applied himself with such assiduity to his practice, that, in all likelihood, he would have carried the palm from all his contemporaries.",
      "causedBy": {
-      "id": "textstheadventuresofferdinandcountfathom.txt#Opportunity_for_nuptials",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Opportunity_for_nuptials",
       "name": "Opportunity_for_nuptials"
      },
      "hasObject": {
-      "id": "textstheadventuresofferdinandcountfathom.txt#Doctor_Fathom",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Doctor_Fathom",
       "name": "Doctor_Fathom"
      },
      "place": "At work",
@@ -84,69 +84,69 @@
  ],
  "Places": [
   {
-   "id": "textstheadventuresofferdinandcountfathom.txt#During_the_term_of_her_residence_in_London",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#During_the_term_of_her_residence_in_London",
    "name": "During_the_term_of_her_residence_in_London",
    "description": "The lady's residence in London"
   },
   {
-   "id": "textstheadventuresofferdinandcountfathom.txt#At_the_inn",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#At_the_inn",
    "name": "At_the_inn",
    "description": "The inn where the doctor arrived"
   },
   {
-   "id": "textstheadventuresofferdinandcountfathom.txt#At_the_quack_s_place",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#At_the_quack_s_place",
    "name": "At_the_quack_s_place",
    "description": "The quack's place where the doctor asked for money"
   },
   {
-   "id": "textstheadventuresofferdinandcountfathom.txt#At_home",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#At_home",
    "name": "At_home",
    "description": "The husband's home"
   },
   {
-   "id": "textstheadventuresofferdinandcountfathom.txt#At_work",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#At_work",
    "name": "At_work",
    "description": "Doctor Fathom's workplace"
   }
  ],
  "Events": [
   {
-   "id": "textstheadventuresofferdinandcountfathom.txt#Doctor_Fathom_s_personal_accomplishments",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Doctor_Fathom_s_personal_accomplishments",
    "name": "Doctor_Fathom_s_personal_accomplishments",
    "takePlaceAt": {
-    "id": "textstheadventuresofferdinandcountfathom.txt#place1",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#place1",
     "name": "place1"
    }
   },
   {
-   "id": "textstheadventuresofferdinandcountfathom.txt#Doctor_Fathom_s_niece_changing_her_mind",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Doctor_Fathom_s_niece_changing_her_mind",
    "name": "Doctor_Fathom_s_niece_changing_her_mind",
    "takePlaceAt": {
-    "id": "textstheadventuresofferdinandcountfathom.txt#place2",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#place2",
     "name": "place2"
    }
   },
   {
-   "id": "textstheadventuresofferdinandcountfathom.txt#Quack_s_condition_for_advancing_money",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Quack_s_condition_for_advancing_money",
    "name": "Quack_s_condition_for_advancing_money",
    "takePlaceAt": {
-    "id": "textstheadventuresofferdinandcountfathom.txt#place3",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#place3",
     "name": "place3"
    }
   },
   {
-   "id": "textstheadventuresofferdinandcountfathom.txt#Wife_s_recovery",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Wife_s_recovery",
    "name": "Wife_s_recovery",
    "takePlaceAt": {
-    "id": "textstheadventuresofferdinandcountfathom.txt#place4",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#place4",
     "name": "place4"
    }
   },
   {
-   "id": "textstheadventuresofferdinandcountfathom.txt#Opportunity_for_nuptials",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Opportunity_for_nuptials",
    "name": "Opportunity_for_nuptials",
    "takePlaceAt": {
-    "id": "textstheadventuresofferdinandcountfathom.txt#place5",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#place5",
     "name": "place5"
    }
   }

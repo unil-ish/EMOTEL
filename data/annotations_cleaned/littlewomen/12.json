@@ -1,22 +1,22 @@
 {
  "FictionalCharacters": [
   {
-   "id": "textslittlewomen.txt#Amy",
+   "id": "texts/littlewomen.txt#Amy",
    "feels": [
     {
      "name": "Surprise",
      "hasIntensity": 0.7,
      "quote": "To May's great delight, Mr. Laurence not only bought the vases, but pervaded the hall with one under each arm.",
      "causedBy": {
-      "id": "textslittlewomen.txt#Mr_Laurence_buying_the_vases",
+      "id": "texts/littlewomen.txt#Mr_Laurence_buying_the_vases",
       "name": "Mr_Laurence_buying_the_vases"
      },
      "hasObject": {
-      "id": "textslittlewomen.txt#Vases",
+      "id": "texts/littlewomen.txt#Vases",
       "name": "Vases"
      },
      "place": {
-      "id": "textslittlewomen.txt#Fair_hall",
+      "id": "texts/littlewomen.txt#Fair_hall",
       "name": "Fair_hall"
      },
      "id": "Surprise"
@@ -26,15 +26,15 @@
      "hasIntensity": 0.8,
      "quote": "That satisfied Amy; and when she got home she found the vases paraded on the parlor chimney-piece, with a great bouquet in each.",
      "causedBy": {
-      "id": "textslittlewomen.txt#Feeling_of_satisfaction",
+      "id": "texts/littlewomen.txt#Feeling_of_satisfaction",
       "name": "Feeling_of_satisfaction"
      },
      "hasObject": {
-      "id": "textslittlewomen.txt#Vases",
+      "id": "texts/littlewomen.txt#Vases",
       "name": "Vases"
      },
      "place": {
-      "id": "textslittlewomen.txt#Home",
+      "id": "texts/littlewomen.txt#Home",
       "name": "Home"
      },
      "id": "Pride"
@@ -44,15 +44,15 @@
      "hasIntensity": 0.9,
      "quote": "When May bade Amy good night, she did not 'gush' as usual, but gave her an affectionate kiss, and a look which said, 'Forgive and forget.'",
      "causedBy": {
-      "id": "textslittlewomen.txt#Good_night_gesture_from_May",
+      "id": "texts/littlewomen.txt#Good_night_gesture_from_May",
       "name": "Good_night_gesture_from_May"
      },
      "hasObject": {
-      "id": "textslittlewomen.txt#Kiss",
+      "id": "texts/littlewomen.txt#Kiss",
       "name": "Kiss"
      },
      "place": {
-      "id": "textslittlewomen.txt#Fair_hall",
+      "id": "texts/littlewomen.txt#Fair_hall",
       "name": "Fair_hall"
      },
      "id": "Affection"
@@ -61,22 +61,22 @@
    "name": "Amy"
   },
   {
-   "id": "textslittlewomen.txt#Jo",
+   "id": "texts/littlewomen.txt#Jo",
    "feels": [
     {
      "name": "Warmth",
      "hasIntensity": 0.8,
      "quote": "Laurie espoused her cause with warmth.",
      "causedBy": {
-      "id": "textslittlewomen.txt#Laurie_supporting_Amy",
+      "id": "texts/littlewomen.txt#Laurie_supporting_Amy",
       "name": "Laurie_supporting_Amy"
      },
      "hasObject": {
-      "id": "textslittlewomen.txt#Amy_s_cause",
+      "id": "texts/littlewomen.txt#Amy_s_cause",
       "name": "Amy_s_cause"
      },
      "place": {
-      "id": "textslittlewomen.txt#Fair_hall",
+      "id": "texts/littlewomen.txt#Fair_hall",
       "name": "Fair_hall"
      },
      "id": "Warmth"
@@ -86,15 +86,15 @@
      "hasIntensity": 0.9,
      "quote": "Jo warmly praised Amy for her actions.",
      "causedBy": {
-      "id": "textslittlewomen.txt#Amy_s_actions",
+      "id": "texts/littlewomen.txt#Amy_s_actions",
       "name": "Amy_s_actions"
      },
      "hasObject": {
-      "id": "textslittlewomen.txt#Amy",
+      "id": "texts/littlewomen.txt#Amy",
       "name": "Amy"
      },
      "place": {
-      "id": "textslittlewomen.txt#Home",
+      "id": "texts/littlewomen.txt#Home",
       "name": "Home"
      },
      "id": "Warmth"
@@ -104,15 +104,15 @@
      "hasIntensity": 0.8,
      "quote": "Jo said warmly, 'I understand now what you mean, and I'll never laugh at you again.'",
      "causedBy": {
-      "id": "textslittlewomen.txt#Amy_s_explanation",
+      "id": "texts/littlewomen.txt#Amy_s_explanation",
       "name": "Amy_s_explanation"
      },
      "hasObject": {
-      "id": "textslittlewomen.txt#Amy",
+      "id": "texts/littlewomen.txt#Amy",
       "name": "Amy"
      },
      "place": {
-      "id": "textslittlewomen.txt#Home",
+      "id": "texts/littlewomen.txt#Home",
       "name": "Home"
      },
      "id": "Warmth"
@@ -123,106 +123,106 @@
  ],
  "Places": [
   {
-   "id": "textslittlewomen.txt#Fair_hall",
+   "id": "texts/littlewomen.txt#Fair_hall",
    "name": "Fair_hall",
    "description": "Where the fair took place"
   },
   {
-   "id": "textslittlewomen.txt#Home",
+   "id": "texts/littlewomen.txt#Home",
    "name": "Home",
    "description": "Amy's residence"
   },
   {
-   "id": "textslittlewomen.txt#Fair_hall",
+   "id": "texts/littlewomen.txt#Fair_hall",
    "name": "Fair_hall",
    "description": "Where Amy bade good night to May"
   },
   {
-   "id": "textslittlewomen.txt#Fair_hall",
+   "id": "texts/littlewomen.txt#Fair_hall",
    "name": "Fair_hall",
    "description": "Where Laurie supported Amy"
   },
   {
-   "id": "textslittlewomen.txt#Home",
+   "id": "texts/littlewomen.txt#Home",
    "name": "Home",
    "description": "Jo and Amy's residence"
   },
   {
-   "id": "textslittlewomen.txt#Home",
+   "id": "texts/littlewomen.txt#Home",
    "name": "Home",
    "description": "Jo and Amy's residence"
   }
  ],
  "Events": [
   {
-   "id": "textslittlewomen.txt#Mr_Laurence_buying_the_vases",
+   "id": "texts/littlewomen.txt#Mr_Laurence_buying_the_vases",
    "name": "Mr_Laurence_buying_the_vases",
    "takePlaceAt": {
-    "id": "textslittlewomen.txt#place1",
+    "id": "texts/littlewomen.txt#place1",
     "name": "place1"
    },
    "hasParticipant": {
-    "id": "textslittlewomen.txt#Amy",
+    "id": "texts/littlewomen.txt#Amy",
     "name": "Amy"
    }
   },
   {
-   "id": "textslittlewomen.txt#Feeling_of_satisfaction",
+   "id": "texts/littlewomen.txt#Feeling_of_satisfaction",
    "name": "Feeling_of_satisfaction",
    "takePlaceAt": {
-    "id": "textslittlewomen.txt#place2",
+    "id": "texts/littlewomen.txt#place2",
     "name": "place2"
    },
    "hasParticipant": {
-    "id": "textslittlewomen.txt#Amy",
+    "id": "texts/littlewomen.txt#Amy",
     "name": "Amy"
    }
   },
   {
-   "id": "textslittlewomen.txt#Good_night_gesture_from_May",
+   "id": "texts/littlewomen.txt#Good_night_gesture_from_May",
    "name": "Good_night_gesture_from_May",
    "takePlaceAt": {
-    "id": "textslittlewomen.txt#place3",
+    "id": "texts/littlewomen.txt#place3",
     "name": "place3"
    },
    "hasParticipant": {
-    "id": "textslittlewomen.txt#Amy",
+    "id": "texts/littlewomen.txt#Amy",
     "name": "Amy"
    }
   },
   {
-   "id": "textslittlewomen.txt#Laurie_supporting_Amy",
+   "id": "texts/littlewomen.txt#Laurie_supporting_Amy",
    "name": "Laurie_supporting_Amy",
    "takePlaceAt": {
-    "id": "textslittlewomen.txt#place4",
+    "id": "texts/littlewomen.txt#place4",
     "name": "place4"
    },
    "hasParticipant": {
-    "id": "textslittlewomen.txt#Jo",
+    "id": "texts/littlewomen.txt#Jo",
     "name": "Jo"
    }
   },
   {
-   "id": "textslittlewomen.txt#Amy_s_actions",
+   "id": "texts/littlewomen.txt#Amy_s_actions",
    "name": "Amy_s_actions",
    "takePlaceAt": {
-    "id": "textslittlewomen.txt#place5",
+    "id": "texts/littlewomen.txt#place5",
     "name": "place5"
    },
    "hasParticipant": {
-    "id": "textslittlewomen.txt#Jo",
+    "id": "texts/littlewomen.txt#Jo",
     "name": "Jo"
    }
   },
   {
-   "id": "textslittlewomen.txt#Amy_s_explanation",
+   "id": "texts/littlewomen.txt#Amy_s_explanation",
    "name": "Amy_s_explanation",
    "takePlaceAt": {
-    "id": "textslittlewomen.txt#place6",
+    "id": "texts/littlewomen.txt#place6",
     "name": "place6"
    },
    "hasParticipant": {
-    "id": "textslittlewomen.txt#Jo",
+    "id": "texts/littlewomen.txt#Jo",
     "name": "Jo"
    }
   }

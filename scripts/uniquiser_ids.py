@@ -41,7 +41,7 @@ class Lookup:
             suffix = suffix[:50]
 
         # format: texts/mobydick#captain_ahab
-        return f"texts{self.story}.txt#{suffix}"
+        return f"texts/{self.story}.txt#{suffix}"
 
     def get_or_set_id(self, obj) -> None:
         name = obj["name"]

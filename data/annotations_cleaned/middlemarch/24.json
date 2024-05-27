@@ -1,18 +1,18 @@
 {
  "FictionalCharacters": [
   {
-   "id": "textsmiddlemarch.txt#Rosamond",
+   "id": "texts/middlemarch.txt#Rosamond",
    "feels": [
     {
      "name": "Exultation",
      "hasIntensity": 0.9,
      "quote": "She was intensely conscious of having a cousin who was a baronet’s son staying in the house, and she imagined the knowledge of what was implied by his presence to be diffused through all other minds.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Captain_Lydgate_s_visit",
+      "id": "texts/middlemarch.txt#Captain_Lydgate_s_visit",
       "name": "Captain_Lydgate_s_visit"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Cousin_who_is_a_baronets_son",
+      "id": "texts/middlemarch.txt#Cousin_who_is_a_baronets_son",
       "name": "Cousin_who_is_a_baronets_son"
      },
      "exactPlace": "Her home",
@@ -23,11 +23,11 @@
      "hasIntensity": 0.8,
      "quote": "The satisfaction was enough for the time to melt away some disappointment in the conditions of marriage with a medical man even of good birth.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Captain_Lydgate_s_visit",
+      "id": "texts/middlemarch.txt#Captain_Lydgate_s_visit",
       "name": "Captain_Lydgate_s_visit"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Social_status_improvement",
+      "id": "texts/middlemarch.txt#Social_status_improvement",
       "name": "Social_status_improvement"
      },
      "exactPlace": "Her home",
@@ -38,11 +38,11 @@
      "hasIntensity": 0.9,
      "quote": "The temptation was certainly great: she was very fond of the exercise, and the gratification of riding on a fine horse, with Captain Lydgate, Sir Godwin’s son, on another fine horse by her side, and of being met in this position by any one but her husband, was something as good as her dreams before marriage.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Captain_Lydgate_s_visit",
+      "id": "texts/middlemarch.txt#Captain_Lydgate_s_visit",
       "name": "Captain_Lydgate_s_visit"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Riding_with_Captain_Lydgate",
+      "id": "texts/middlemarch.txt#Riding_with_Captain_Lydgate",
       "name": "Riding_with_Captain_Lydgate"
      },
      "exactPlace": "Her home",
@@ -53,11 +53,11 @@
      "hasIntensity": 0.9,
      "quote": "She knew that she was a much more exquisite ornament to the drawing-room there than any daughter of the family, and in reflecting that the gentlemen were aware of that, did not perhaps sufficiently consider whether the ladies would be eager to see themselves surpassed.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Expectation_of_being_invited_to_Quallingham",
+      "id": "texts/middlemarch.txt#Expectation_of_being_invited_to_Quallingham",
       "name": "Expectation_of_being_invited_to_Quallingham"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Being_an_exquisite_ornament",
+      "id": "texts/middlemarch.txt#Being_an_exquisite_ornament",
       "name": "Being_an_exquisite_ornament"
      },
      "exactPlace": "Her home",
@@ -68,11 +68,11 @@
      "hasIntensity": 0.9,
      "quote": "Rosamond was soon looking lovelier than ever at her worktable, enjoying drives in her father’s phaeton and thinking it likely that she might be invited to Quallingham.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Expectation_of_being_invited_to_Quallingham",
+      "id": "texts/middlemarch.txt#Expectation_of_being_invited_to_Quallingham",
       "name": "Expectation_of_being_invited_to_Quallingham"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Being_invited_to_Quallingham",
+      "id": "texts/middlemarch.txt#Being_invited_to_Quallingham",
       "name": "Being_invited_to_Quallingham"
      },
      "exactPlace": "Her home",
@@ -82,18 +82,18 @@
    "name": "Rosamond"
   },
   {
-   "id": "textsmiddlemarch.txt#Lydgate",
+   "id": "texts/middlemarch.txt#Lydgate",
    "feels": [
     {
      "name": "Vexation",
      "hasIntensity": 0.8,
      "quote": "He was much worried, and conscious of new elements in his life as noxious to him as an inlet of mud to a creature that has been used to breathe and bathe and dart after its illuminated prey in the clearest of waters.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Rosamond_s_actions",
+      "id": "texts/middlemarch.txt#Rosamond_s_actions",
       "name": "Rosamond_s_actions"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Rosamond_s_actions",
+      "id": "texts/middlemarch.txt#Rosamond_s_actions",
       "name": "Rosamond_s_actions"
      },
      "exactPlace": "His home",
@@ -104,11 +104,11 @@
      "hasIntensity": 0.9,
      "quote": "He had regarded Rosamond’s cleverness as precisely of the receptive kind which became a woman. He was now beginning to find out what that cleverness was—what was the shape into which it had run as into a close network aloof and independent.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Rosamond_s_actions",
+      "id": "texts/middlemarch.txt#Rosamond_s_actions",
       "name": "Rosamond_s_actions"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Rosamond_s_actions",
+      "id": "texts/middlemarch.txt#Rosamond_s_actions",
       "name": "Rosamond_s_actions"
      },
      "exactPlace": "His home",
@@ -119,11 +119,11 @@
      "hasIntensity": 0.9,
      "quote": "Lydgate was aware that his concessions to Rosamond were often little more than the lapse of slackening resolution, the creeping paralysis apt to seize an enthusiasm which is out of adjustment to a constant portion of our lives.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Rosamond_s_actions",
+      "id": "texts/middlemarch.txt#Rosamond_s_actions",
       "name": "Rosamond_s_actions"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Rosamond_s_actions",
+      "id": "texts/middlemarch.txt#Rosamond_s_actions",
       "name": "Rosamond_s_actions"
      },
      "exactPlace": "His home",
@@ -134,11 +134,11 @@
      "hasIntensity": 0.8,
      "quote": "There was gathering within him an amazed sense of his powerlessness over Rosamond.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Rosamond_s_actions",
+      "id": "texts/middlemarch.txt#Rosamond_s_actions",
       "name": "Rosamond_s_actions"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Rosamond_s_actions",
+      "id": "texts/middlemarch.txt#Rosamond_s_actions",
       "name": "Rosamond_s_actions"
      },
      "exactPlace": "His home",

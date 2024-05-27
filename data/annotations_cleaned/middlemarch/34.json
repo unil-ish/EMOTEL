@@ -1,7 +1,7 @@
 {
  "FictionalCharacters": [
   {
-   "id": "textsmiddlemarch.txt#Dorothea",
+   "id": "texts/middlemarch.txt#Dorothea",
    "name": "Dorothea",
    "feels": [
     {
@@ -9,11 +9,11 @@
      "hasIntensity": 1,
      "quote": "Oh, I cannot bear it—my heart will break,” said Dorothea, starting from her seat, the flood of her young passion bearing down all the obstructions which had kept her silent—the great tears rising and falling in an instant: “I don’t mind about poverty—I hate my wealth.”",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Expressing_her_feelings_for_Will",
+      "id": "texts/middlemarch.txt#Expressing_her_feelings_for_Will",
       "name": "Expressing_her_feelings_for_Will"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Will",
+      "id": "texts/middlemarch.txt#Will",
       "name": "Will"
      },
      "exactPlace": "Library",
@@ -24,11 +24,11 @@
      "hasIntensity": 0.9,
      "quote": "It is impossible!” said Will, angrily. “It is cruel of you to speak in that way—as if there were any comfort. You may see beyond the misery of it, but I don’t. It is unkind—it is throwing back my love for you as if it were a trifle, to speak in that way in the face of the fact. We can never be married.”“Some time—we might,” said Dorothea, in a trembling voice.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Realizing_the_impossibility_of_being_with_Will",
+      "id": "texts/middlemarch.txt#Realizing_the_impossibility_of_being_with_Will",
       "name": "Realizing_the_impossibility_of_being_with_Will"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Will",
+      "id": "texts/middlemarch.txt#Will",
       "name": "Will"
      },
      "exactPlace": "Library",
@@ -39,11 +39,11 @@
      "hasIntensity": 0.95,
      "quote": "She tripped off to meet her uncle, while Sir James and Mr. Cadwallader came forward to make one group with the ladies. Celia had slipped her arm through her uncle’s, and he patted her hand with a rather melancholy “Well, my dear!” As they approached, it was evident that Mr. Brooke was looking dejected, but this was fully accounted for by the state of politics; and as he was shaking hands all round without more greeting than a “Well, you’re all here, you know,” the Rector said, laughingly—“Don’t take the throwing out of the Bill so much to heart, Brooke; you’ve got all the riff-raff of the country on your side.”",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Feeling_tenderness_towards_her_uncle",
+      "id": "texts/middlemarch.txt#Feeling_tenderness_towards_her_uncle",
       "name": "Feeling_tenderness_towards_her_uncle"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Uncle",
+      "id": "texts/middlemarch.txt#Uncle",
       "name": "Uncle"
      },
      "exactPlace": "Freshitt Hall",
@@ -52,7 +52,7 @@
    ]
   },
   {
-   "id": "textsmiddlemarch.txt#Will_Ladislaw",
+   "id": "texts/middlemarch.txt#Will_Ladislaw",
    "name": "Will_Ladislaw",
    "feels": [
     {
@@ -60,11 +60,11 @@
      "hasIntensity": 0.9,
      "quote": "It is impossible!” said Will, angrily. “It is cruel of you to speak in that way—as if there were any comfort. You may see beyond the misery of it, but I don’t. It is unkind—it is throwing back my love for you as if it were a trifle, to speak in that way in the face of the fact. We can never be married.”“Some time—we might,” said Dorothea, in a trembling voice.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Realizing_the_impossibility_of_being_with_Dorothea",
+      "id": "texts/middlemarch.txt#Realizing_the_impossibility_of_being_with_Dorothea",
       "name": "Realizing_the_impossibility_of_being_with_Dorothea"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Dorothea",
+      "id": "texts/middlemarch.txt#Dorothea",
       "name": "Dorothea"
      },
      "exactPlace": "Library",
@@ -75,11 +75,11 @@
      "hasIntensity": 1,
      "quote": "In an instant Will was close to her and had his arms round her, but she drew her head back and held his away gently that she might go on speaking, her large tear-filled eyes looking at his very simply, while she said in a sobbing childlike way, “We could live quite well on my own fortune—it is too much—seven hundred a-year—I want so little—no new clothes—and I will learn what everything costs.”",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Feeling_Dorothea_s_love_and_willingness_to_be_with",
+      "id": "texts/middlemarch.txt#Feeling_Dorothea_s_love_and_willingness_to_be_with",
       "name": "Feeling_Dorothea_s_love_and_willingness_to_be_with_him"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Dorothea",
+      "id": "texts/middlemarch.txt#Dorothea",
       "name": "Dorothea"
      },
      "exactPlace": "Library",
@@ -90,31 +90,31 @@
  ],
  "Places": [
   {
-   "id": "textsmiddlemarch.txt#Library",
+   "id": "texts/middlemarch.txt#Library",
    "name": "Library",
    "description": "A room where Dorothea and Will have an emotional conversation."
   },
   {
-   "id": "textsmiddlemarch.txt#Freshitt_Hall",
+   "id": "texts/middlemarch.txt#Freshitt_Hall",
    "name": "Freshitt_Hall",
    "description": "The location where Dorothea's uncle is present and she feels tenderness towards him."
   }
  ],
  "Events": [
   {
-   "id": "textsmiddlemarch.txt#Expressing_her_feelings_for_Will",
+   "id": "texts/middlemarch.txt#Expressing_her_feelings_for_Will",
    "name": "Expressing_her_feelings_for_Will"
   },
   {
-   "id": "textsmiddlemarch.txt#Realizing_the_impossibility_of_being_with_Will",
+   "id": "texts/middlemarch.txt#Realizing_the_impossibility_of_being_with_Will",
    "name": "Realizing_the_impossibility_of_being_with_Will"
   },
   {
-   "id": "textsmiddlemarch.txt#Feeling_tenderness_towards_her_uncle",
+   "id": "texts/middlemarch.txt#Feeling_tenderness_towards_her_uncle",
    "name": "Feeling_tenderness_towards_her_uncle"
   },
   {
-   "id": "textsmiddlemarch.txt#Feeling_Dorothea_s_love_and_willingness_to_be_with",
+   "id": "texts/middlemarch.txt#Feeling_Dorothea_s_love_and_willingness_to_be_with",
    "name": "Feeling_Dorothea_s_love_and_willingness_to_be_with_him"
   }
  ]

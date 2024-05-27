@@ -1,7 +1,7 @@
 {
  "FictionalCharacters": [
   {
-   "id": "textsmiddlemarch.txt#Lydgate",
+   "id": "texts/middlemarch.txt#Lydgate",
    "name": "Lydgate",
    "feels": [
     {
@@ -9,11 +9,11 @@
      "hasIntensity": 0.8,
      "quote": "He was acting, watching, speaking with that excited narrow consciousness which reminds one of an animal with fierce eyes and retractile claws.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Betting_on_his_own_strokes",
+      "id": "texts/middlemarch.txt#Betting_on_his_own_strokes",
       "name": "Betting_on_his_own_strokes"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Billiard_table",
+      "id": "texts/middlemarch.txt#Billiard_table",
       "name": "Billiard_table"
      },
      "exactPlace": "Green Dragon billiard-room",
@@ -24,11 +24,11 @@
      "hasIntensity": 0.7,
      "quote": "Lydgate felt shame, but could not bear to act as if he felt it, by refusing to see Mr. Farebrother.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Betting_on_his_own_strokes",
+      "id": "texts/middlemarch.txt#Betting_on_his_own_strokes",
       "name": "Betting_on_his_own_strokes"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Money",
+      "id": "texts/middlemarch.txt#Money",
       "name": "Money"
      },
      "exactPlace": "Green Dragon billiard-room",
@@ -37,7 +37,7 @@
    ]
   },
   {
-   "id": "textsmiddlemarch.txt#Fred_Vincy",
+   "id": "texts/middlemarch.txt#Fred_Vincy",
    "name": "Fred_Vincy",
    "feels": [
     {
@@ -45,11 +45,11 @@
      "hasIntensity": 0.6,
      "quote": "Fred felt a shock greater than he could quite account for by the vague knowledge that Lydgate was in debt.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Seeing_Lydgate_betting",
+      "id": "texts/middlemarch.txt#Seeing_Lydgate_betting",
       "name": "Seeing_Lydgate_betting"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Betting",
+      "id": "texts/middlemarch.txt#Betting",
       "name": "Betting"
      },
      "exactPlace": "Green Dragon billiard-room",
@@ -60,11 +60,11 @@
      "hasIntensity": 0.8,
      "quote": "Fred was moved quite newly. Some one highly susceptible to the contemplation of a fine act has said, that it produces a sort of regenerating shudder through the frame, and makes one feel ready to begin a new life.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Mr_Farebrother_s_warning",
+      "id": "texts/middlemarch.txt#Mr_Farebrother_s_warning",
       "name": "Mr_Farebrother_s_warning"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Warning",
+      "id": "texts/middlemarch.txt#Warning",
       "name": "Warning"
      },
      "exactPlace": "St. Botolph’s road",
@@ -75,50 +75,50 @@
  ],
  "Places": [
   {
-   "id": "textsmiddlemarch.txt#Green_Dragon_billiardroom",
+   "id": "texts/middlemarch.txt#Green_Dragon_billiardroom",
    "name": "Green_Dragon_billiardroom",
    "description": "A constant resort for a certain set, most of whom were regarded as men of pleasure."
   },
   {
-   "id": "textsmiddlemarch.txt#St_Botolphs_road",
+   "id": "texts/middlemarch.txt#St_Botolphs_road",
    "name": "St_Botolphs_road",
    "description": "A patch of green where the road diverged towards St. Botolph’s."
   }
  ],
  "Events": [
   {
-   "id": "textsmiddlemarch.txt#Betting_on_his_own_strokes",
+   "id": "texts/middlemarch.txt#Betting_on_his_own_strokes",
    "name": "Betting_on_his_own_strokes",
    "takePlaceAt": {
-    "id": "textsmiddlemarch.txt#Green_Dragon_billiardroom",
+    "id": "texts/middlemarch.txt#Green_Dragon_billiardroom",
     "name": "Green_Dragon_billiardroom"
    },
    "hasParticipant": {
-    "id": "textsmiddlemarch.txt#Lydgate",
+    "id": "texts/middlemarch.txt#Lydgate",
     "name": "Lydgate"
    }
   },
   {
-   "id": "textsmiddlemarch.txt#Seeing_Lydgate_betting",
+   "id": "texts/middlemarch.txt#Seeing_Lydgate_betting",
    "name": "Seeing_Lydgate_betting",
    "takePlaceAt": {
-    "id": "textsmiddlemarch.txt#Green_Dragon_billiardroom",
+    "id": "texts/middlemarch.txt#Green_Dragon_billiardroom",
     "name": "Green_Dragon_billiardroom"
    },
    "hasParticipant": {
-    "id": "textsmiddlemarch.txt#Fred",
+    "id": "texts/middlemarch.txt#Fred",
     "name": "Fred"
    }
   },
   {
-   "id": "textsmiddlemarch.txt#Mr_Farebrother_s_warning",
+   "id": "texts/middlemarch.txt#Mr_Farebrother_s_warning",
    "name": "Mr_Farebrother_s_warning",
    "takePlaceAt": {
-    "id": "textsmiddlemarch.txt#St_Botolphs_road",
+    "id": "texts/middlemarch.txt#St_Botolphs_road",
     "name": "St_Botolphs_road"
    },
    "hasParticipant": {
-    "id": "textsmiddlemarch.txt#Fred",
+    "id": "texts/middlemarch.txt#Fred",
     "name": "Fred"
    }
   }

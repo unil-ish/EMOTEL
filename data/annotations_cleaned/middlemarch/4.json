@@ -1,18 +1,18 @@
 {
  "FictionalCharacters": [
   {
-   "id": "textsmiddlemarch.txt#Rosamond_Vincy",
+   "id": "texts/middlemarch.txt#Rosamond_Vincy",
    "feels": [
     {
      "name": "Trust",
      "hasIntensity": 0.8,
      "quote": "Rosamond, with her gravest mildness; 'I would not tell mamma for the world.'",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Uncle_s_inappropriate_introduction",
+      "id": "texts/middlemarch.txt#Uncle_s_inappropriate_introduction",
       "name": "Uncle_s_inappropriate_introduction"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Uncle",
+      "id": "texts/middlemarch.txt#Uncle",
       "name": "Uncle"
      },
      "exactPlace": "Sitting room",
@@ -23,11 +23,11 @@
      "hasIntensity": 0.7,
      "quote": "Rosamond blushed deeply and felt a certain astonishment.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Meeting_Lydgate",
+      "id": "texts/middlemarch.txt#Meeting_Lydgate",
       "name": "Meeting_Lydgate"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Lydgate",
+      "id": "texts/middlemarch.txt#Lydgate",
       "name": "Lydgate"
      },
      "exactPlace": "Sitting room",
@@ -38,11 +38,11 @@
      "hasIntensity": 0.9,
      "quote": "Rosamond could not doubt that this was the great epoch of her life.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Meeting_Lydgate",
+      "id": "texts/middlemarch.txt#Meeting_Lydgate",
       "name": "Meeting_Lydgate"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Lydgate",
+      "id": "texts/middlemarch.txt#Lydgate",
       "name": "Lydgate"
      },
      "exactPlace": "Sitting room",
@@ -53,11 +53,11 @@
      "hasIntensity": 0.8,
      "quote": "Rosamond, though no older than Mary, was rather used to being fallen in love with; but she, for her part, had remained indifferent and fastidiously critical towards both fresh sprig and faded bachelor.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Imagining_her_future_with_Lydgate",
+      "id": "texts/middlemarch.txt#Imagining_her_future_with_Lydgate",
       "name": "Imagining_her_future_with_Lydgate"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Lydgate",
+      "id": "texts/middlemarch.txt#Lydgate",
       "name": "Lydgate"
      },
      "exactPlace": "On the way home",
@@ -67,18 +67,18 @@
    "name": "Rosamond_Vincy"
   },
   {
-   "id": "textsmiddlemarch.txt#Mary_Garth",
+   "id": "texts/middlemarch.txt#Mary_Garth",
    "feels": [
     {
      "name": "Annoyance",
      "hasIntensity": 0.7,
      "quote": "Mary, from some cause, looked rather out of temper.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Rosamond_s_comments",
+      "id": "texts/middlemarch.txt#Rosamond_s_comments",
       "name": "Rosamond_s_comments"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Rosamond",
+      "id": "texts/middlemarch.txt#Rosamond",
       "name": "Rosamond"
      },
      "exactPlace": "Sitting room",
@@ -89,11 +89,11 @@
      "hasIntensity": 0.8,
      "quote": "Mary spoke from a girlish impulse which got the better of her judgment.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Rosamond_s_comments",
+      "id": "texts/middlemarch.txt#Rosamond_s_comments",
       "name": "Rosamond_s_comments"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Rosamond",
+      "id": "texts/middlemarch.txt#Rosamond",
       "name": "Rosamond"
      },
      "exactPlace": "Sitting room",
@@ -103,18 +103,18 @@
    "name": "Mary_Garth"
   },
   {
-   "id": "textsmiddlemarch.txt#Fred_Vincy",
+   "id": "texts/middlemarch.txt#Fred_Vincy",
    "feels": [
     {
      "name": "Fear",
      "hasIntensity": 0.7,
      "quote": "Fred, who had his own reasons for not being in the best spirits, and wanted to get away.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Being_in_the_presence_of_Lydgate",
+      "id": "texts/middlemarch.txt#Being_in_the_presence_of_Lydgate",
       "name": "Being_in_the_presence_of_Lydgate"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Lydgate",
+      "id": "texts/middlemarch.txt#Lydgate",
       "name": "Lydgate"
      },
      "exactPlace": "Sitting room",
@@ -124,18 +124,18 @@
    "name": "Fred_Vincy"
   },
   {
-   "id": "textsmiddlemarch.txt#Mr_Lydgate",
+   "id": "texts/middlemarch.txt#Mr_Lydgate",
    "feels": [
     {
      "name": "Admiration",
      "hasIntensity": 0.9,
      "quote": "He reached the whip before she did, and turned to present it to her. She bowed and looked at him: he of course was looking at her, and their eyes met with that peculiar meeting which is never arrived at by effort, but seems like a sudden divine clearance of haze.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Seeing_Rosamond",
+      "id": "texts/middlemarch.txt#Seeing_Rosamond",
       "name": "Seeing_Rosamond"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Rosamond",
+      "id": "texts/middlemarch.txt#Rosamond",
       "name": "Rosamond"
      },
      "exactPlace": "Sitting room",
@@ -147,12 +147,12 @@
  ],
  "Places": [
   {
-   "id": "textsmiddlemarch.txt#Sitting_Room",
+   "id": "texts/middlemarch.txt#Sitting_Room",
    "name": "Sitting_Room",
    "description": "The room where the characters gathered and interacted."
   },
   {
-   "id": "textsmiddlemarch.txt#On_the_way_home",
+   "id": "texts/middlemarch.txt#On_the_way_home",
    "name": "On_the_way_home",
    "description": "The setting where Rosamond was contemplating her future."
   }

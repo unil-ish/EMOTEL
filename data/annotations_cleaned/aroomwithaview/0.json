@@ -1,18 +1,18 @@
 {
  "FictionalCharacters": [
   {
-   "id": "textsaroomwithaview.txt#Lucy",
+   "id": "texts/aroomwithaview.txt#Lucy",
    "feels": [
     {
      "name": "Confusion",
      "hasIntensity": 0.7,
      "quote": "She was sure that she ought not to be with these men; but they had cast a spell over her.",
      "causedBy": {
-      "id": "textsaroomwithaview.txt#Being_in_the_presence_of_the_Emersons",
+      "id": "texts/aroomwithaview.txt#Being_in_the_presence_of_the_Emersons",
       "name": "Being_in_the_presence_of_the_Emersons"
      },
      "hasObject": {
-      "id": "textsaroomwithaview.txt#Emersons",
+      "id": "texts/aroomwithaview.txt#Emersons",
       "name": "Emersons"
      },
      "exactPlace": "Inside Santa Croce",
@@ -23,11 +23,11 @@
      "hasIntensity": 0.6,
      "quote": "She was no theologian, but she felt that here was a very foolish old man, as well as a very irreligious one.",
      "causedBy": {
-      "id": "textsaroomwithaview.txt#Mr_Emerson_s_comments_on_his_son",
+      "id": "texts/aroomwithaview.txt#Mr_Emerson_s_comments_on_his_son",
       "name": "Mr_Emerson_s_comments_on_his_son"
      },
      "hasObject": {
-      "id": "textsaroomwithaview.txt#Mr_Emerson",
+      "id": "texts/aroomwithaview.txt#Mr_Emerson",
       "name": "Mr_Emerson"
      },
      "exactPlace": "Inside Santa Croce",
@@ -38,11 +38,11 @@
      "hasIntensity": 0.8,
      "quote": "Surely one ought to laugh. A young man melancholy because the universe wouldn’t fit, because life was a tangle or a wind, or a Yes, or something!",
      "causedBy": {
-      "id": "textsaroomwithaview.txt#Mr_Emerson_s_philosophical_musings",
+      "id": "texts/aroomwithaview.txt#Mr_Emerson_s_philosophical_musings",
       "name": "Mr_Emerson_s_philosophical_musings"
      },
      "hasObject": {
-      "id": "textsaroomwithaview.txt#Mr_Emerson_s_musings",
+      "id": "texts/aroomwithaview.txt#Mr_Emerson_s_musings",
       "name": "Mr_Emerson_s_musings"
      },
      "exactPlace": "Inside Santa Croce",
@@ -53,11 +53,11 @@
      "hasIntensity": 0.7,
      "quote": "The dear George, now striding towards them over the tombstones, seemed both pitiable and absurd.",
      "causedBy": {
-      "id": "textsaroomwithaview.txt#Mr_Emerson_s_demeanor",
+      "id": "texts/aroomwithaview.txt#Mr_Emerson_s_demeanor",
       "name": "Mr_Emerson_s_demeanor"
      },
      "hasObject": {
-      "id": "textsaroomwithaview.txt#George_Emerson",
+      "id": "texts/aroomwithaview.txt#George_Emerson",
       "name": "George_Emerson"
      },
      "exactPlace": "Inside Santa Croce",
@@ -69,25 +69,25 @@
  ],
  "Places": [
   {
-   "id": "textsaroomwithaview.txt#Santa_Croce",
+   "id": "texts/aroomwithaview.txt#Santa_Croce",
    "name": "Santa_Croce",
    "description": "A church in Florence"
   }
  ],
  "Events": [
   {
-   "id": "textsaroomwithaview.txt#Loss_of_Baedeker",
+   "id": "texts/aroomwithaview.txt#Loss_of_Baedeker",
    "name": "Loss_of_Baedeker",
    "takePlaceAt": {
-    "id": "textsaroomwithaview.txt#place1",
+    "id": "texts/aroomwithaview.txt#place1",
     "name": "place1"
    }
   },
   {
-   "id": "textsaroomwithaview.txt#Mr_Emerson_s_philosophical_musings",
+   "id": "texts/aroomwithaview.txt#Mr_Emerson_s_philosophical_musings",
    "name": "Mr_Emerson_s_philosophical_musings",
    "takePlaceAt": {
-    "id": "textsaroomwithaview.txt#place1",
+    "id": "texts/aroomwithaview.txt#place1",
     "name": "place1"
    }
   }

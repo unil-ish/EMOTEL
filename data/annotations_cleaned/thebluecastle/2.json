@@ -1,7 +1,7 @@
 {
  "FictionalCharacters": [
   {
-   "id": "textsthebluecastle.txt#Valancy",
+   "id": "texts/thebluecastle.txt#Valancy",
    "name": "Valancy",
    "feels": [
     {
@@ -9,11 +9,11 @@
      "hasIntensity": 0.9,
      "quote": "Valancy's heart was wrung for Cecilia Gay.",
      "causedBy": {
-      "id": "textsthebluecastle.txt#Cecilia_s_situation",
+      "id": "texts/thebluecastle.txt#Cecilia_s_situation",
       "name": "Cecilia_s_situation"
      },
      "hasObject": {
-      "id": "textsthebluecastle.txt#Cecilia_Gay",
+      "id": "texts/thebluecastle.txt#Cecilia_Gay",
       "name": "Cecilia_Gay"
      },
      "exactPlace": "On the steps of Roaring Abel's house",
@@ -24,11 +24,11 @@
      "hasIntensity": 0.8,
      "quote": "Valancy's heart was wrung for Cecilia Gay.",
      "causedBy": {
-      "id": "textsthebluecastle.txt#Cecilia_s_situation",
+      "id": "texts/thebluecastle.txt#Cecilia_s_situation",
       "name": "Cecilia_s_situation"
      },
      "hasObject": {
-      "id": "textsthebluecastle.txt#Cecilia_Gay",
+      "id": "texts/thebluecastle.txt#Cecilia_Gay",
       "name": "Cecilia_Gay"
      },
      "exactPlace": "On the steps of Roaring Abel's house",
@@ -39,11 +39,11 @@
      "hasIntensity": 0.7,
      "quote": "Valancy insisted that Cissy must have someone to look after her.",
      "causedBy": {
-      "id": "textsthebluecastle.txt#Cecilia_s_need_for_care",
+      "id": "texts/thebluecastle.txt#Cecilia_s_need_for_care",
       "name": "Cecilia_s_need_for_care"
      },
      "hasObject": {
-      "id": "textsthebluecastle.txt#Cecilia_Gay",
+      "id": "texts/thebluecastle.txt#Cecilia_Gay",
       "name": "Cecilia_Gay"
      },
      "exactPlace": "On the steps of Roaring Abel's house",
@@ -54,11 +54,11 @@
      "hasIntensity": 0.9,
      "quote": "Valancy's heart was wrung for Cecilia Gay.",
      "causedBy": {
-      "id": "textsthebluecastle.txt#Cecilia_s_situation",
+      "id": "texts/thebluecastle.txt#Cecilia_s_situation",
       "name": "Cecilia_s_situation"
      },
      "hasObject": {
-      "id": "textsthebluecastle.txt#Cecilia_Gay",
+      "id": "texts/thebluecastle.txt#Cecilia_Gay",
       "name": "Cecilia_Gay"
      },
      "exactPlace": "On the steps of Roaring Abel's house",
@@ -69,36 +69,36 @@
  ],
  "Places": [
   {
-   "id": "textsthebluecastle.txt#On_the_steps_of_Roaring_Abel_s_house",
+   "id": "texts/thebluecastle.txt#On_the_steps_of_Roaring_Abel_s_house",
    "name": "On_the_steps_of_Roaring_Abel_s_house",
    "description": "Valancy sat on the steps, defiant of the chill breeze of this cold June."
   }
  ],
  "Events": [
   {
-   "id": "textsthebluecastle.txt#Cecilia_s_situation",
+   "id": "texts/thebluecastle.txt#Cecilia_s_situation",
    "name": "Cecilia_s_situation",
    "takePlaceAt": {
-    "id": "textsthebluecastle.txt#place1",
+    "id": "texts/thebluecastle.txt#place1",
     "name": "place1"
    }
   },
   {
-   "id": "textsthebluecastle.txt#Cecilia_s_need_for_care",
+   "id": "texts/thebluecastle.txt#Cecilia_s_need_for_care",
    "name": "Cecilia_s_need_for_care",
    "takePlaceAt": {
-    "id": "textsthebluecastle.txt#place1",
+    "id": "texts/thebluecastle.txt#place1",
     "name": "place1"
    }
   }
  ],
  "Objects": [
   {
-   "id": "textsthebluecastle.txt#Cecilia_Gay",
+   "id": "texts/thebluecastle.txt#Cecilia_Gay",
    "name": "Cecilia_Gay"
   },
   {
-   "id": "textsthebluecastle.txt#Cecilia_Gay",
+   "id": "texts/thebluecastle.txt#Cecilia_Gay",
    "name": "Cecilia_Gay"
   }
  ]

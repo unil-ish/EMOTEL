@@ -1,7 +1,7 @@
 {
  "FictionalCharacters": [
   {
-   "id": "textsmiddlemarch.txt#Rosamond_Vincy",
+   "id": "texts/middlemarch.txt#Rosamond_Vincy",
    "name": "Rosamond_Vincy",
    "feels": [
     {
@@ -9,11 +9,11 @@
      "hasIntensity": 1,
      "quote": "That moment of naturalness was the crystallizing feather-touch: it shook flirtation into love.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Lydgate_s_comforting_words_and_actions",
+      "id": "texts/middlemarch.txt#Lydgate_s_comforting_words_and_actions",
       "name": "Lydgate_s_comforting_words_and_actions"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Lydgate",
+      "id": "texts/middlemarch.txt#Lydgate",
       "name": "Lydgate"
      },
      "exactPlace": "Sitting room",
@@ -24,11 +24,11 @@
      "hasIntensity": 0.8,
      "quote": "Rosamond, who at the first moment felt as if her happiness were returning...",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Lydgate_s_visit",
+      "id": "texts/middlemarch.txt#Lydgate_s_visit",
       "name": "Lydgate_s_visit"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Lydgate",
+      "id": "texts/middlemarch.txt#Lydgate",
       "name": "Lydgate"
      },
      "exactPlace": "Sitting room",
@@ -39,11 +39,11 @@
      "hasIntensity": 0.7,
      "quote": "Miss Vincy was alone, and blushed so deeply when Lydgate came in that he felt a corresponding embarrassment...",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Lydgate_s_unexpected_visit",
+      "id": "texts/middlemarch.txt#Lydgate_s_unexpected_visit",
       "name": "Lydgate_s_unexpected_visit"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Lydgate",
+      "id": "texts/middlemarch.txt#Lydgate",
       "name": "Lydgate"
      },
      "exactPlace": "Sitting room",
@@ -54,11 +54,11 @@
      "hasIntensity": 0.9,
      "quote": "Rosamond became very unhappy. The uneasiness first stirred by her aunt’s questions grew and grew till at the end of ten days...",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Fear_of_Lydgate_s_indifference",
+      "id": "texts/middlemarch.txt#Fear_of_Lydgate_s_indifference",
       "name": "Fear_of_Lydgate_s_indifference"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Lydgate",
+      "id": "texts/middlemarch.txt#Lydgate",
       "name": "Lydgate"
      },
      "exactPlace": "Sitting room",
@@ -69,41 +69,41 @@
  ],
  "Places": [
   {
-   "id": "textsmiddlemarch.txt#Stone_Court",
+   "id": "texts/middlemarch.txt#Stone_Court",
    "name": "Stone_Court",
    "description": "The residence of Mr. Featherstone"
   }
  ],
  "Events": [
   {
-   "id": "textsmiddlemarch.txt#Lydgate_s_comforting_words_and_actions",
+   "id": "texts/middlemarch.txt#Lydgate_s_comforting_words_and_actions",
    "name": "Lydgate_s_comforting_words_and_actions",
    "takePlaceAt": {
-    "id": "textsmiddlemarch.txt#place1",
+    "id": "texts/middlemarch.txt#place1",
     "name": "place1"
    }
   },
   {
-   "id": "textsmiddlemarch.txt#Lydgate_s_visit",
+   "id": "texts/middlemarch.txt#Lydgate_s_visit",
    "name": "Lydgate_s_visit",
    "takePlaceAt": {
-    "id": "textsmiddlemarch.txt#place1",
+    "id": "texts/middlemarch.txt#place1",
     "name": "place1"
    }
   },
   {
-   "id": "textsmiddlemarch.txt#Lydgate_s_unexpected_visit",
+   "id": "texts/middlemarch.txt#Lydgate_s_unexpected_visit",
    "name": "Lydgate_s_unexpected_visit",
    "takePlaceAt": {
-    "id": "textsmiddlemarch.txt#place1",
+    "id": "texts/middlemarch.txt#place1",
     "name": "place1"
    }
   },
   {
-   "id": "textsmiddlemarch.txt#Fear_of_Lydgate_s_indifference",
+   "id": "texts/middlemarch.txt#Fear_of_Lydgate_s_indifference",
    "name": "Fear_of_Lydgate_s_indifference",
    "takePlaceAt": {
-    "id": "textsmiddlemarch.txt#place1",
+    "id": "texts/middlemarch.txt#place1",
     "name": "place1"
    }
   }

@@ -1,7 +1,7 @@
 {
  "FictionalCharacters": [
   {
-   "id": "textsmobydick.txt#Narrator",
+   "id": "texts/mobydick.txt#Narrator",
    "name": "Narrator",
    "feels": [
     {
@@ -9,15 +9,15 @@
      "hasIntensity": 0.6,
      "quote": "Affected by the solemnity of the scene, there was a wondering gaze of incredulous curiosity in his countenance.",
      "causedBy": {
-      "id": "textsmobydick.txt#Entering_the_Whaleman_s_Chapel",
+      "id": "texts/mobydick.txt#Entering_the_Whaleman_s_Chapel",
       "name": "Entering_the_Whaleman_s_Chapel"
      },
      "hasObject": {
-      "id": "textsmobydick.txt#Solemnity_of_the_scene",
+      "id": "texts/mobydick.txt#Solemnity_of_the_scene",
       "name": "Solemnity_of_the_scene"
      },
      "place": {
-      "id": "textsmobydick.txt#Whaleman_s_Chapel",
+      "id": "texts/mobydick.txt#Whaleman_s_Chapel",
       "name": "Whaleman_s_Chapel"
      },
      "id": "Surprise"
@@ -27,15 +27,15 @@
      "hasIntensity": 0.7,
      "quote": "This savage was the only person present who seemed to notice my entrance; because he was the only one who could not read, and, therefore, was not reading those frigid inscriptions on the wall.",
      "causedBy": {
-      "id": "textsmobydick.txt#Not_being_able_to_read_the_inscriptions",
+      "id": "texts/mobydick.txt#Not_being_able_to_read_the_inscriptions",
       "name": "Not_being_able_to_read_the_inscriptions"
      },
      "hasObject": {
-      "id": "textsmobydick.txt#Inscriptions_on_the_wall",
+      "id": "texts/mobydick.txt#Inscriptions_on_the_wall",
       "name": "Inscriptions_on_the_wall"
      },
      "place": {
-      "id": "textsmobydick.txt#Whaleman_s_Chapel",
+      "id": "texts/mobydick.txt#Whaleman_s_Chapel",
       "name": "Whaleman_s_Chapel"
      },
      "id": "Curiosity"
@@ -45,15 +45,15 @@
      "hasIntensity": 0.8,
      "quote": "I feel sure that here before me were assembled those, in whose unhealing hearts the sight of those bleak tablets sympathetically caused the old wounds to bleed afresh.",
      "causedBy": {
-      "id": "textsmobydick.txt#Seeing_the_bleak_tablets",
+      "id": "texts/mobydick.txt#Seeing_the_bleak_tablets",
       "name": "Seeing_the_bleak_tablets"
      },
      "hasObject": {
-      "id": "textsmobydick.txt#Bleak_tablets",
+      "id": "texts/mobydick.txt#Bleak_tablets",
       "name": "Bleak_tablets"
      },
      "place": {
-      "id": "textsmobydick.txt#Whaleman_s_Chapel",
+      "id": "texts/mobydick.txt#Whaleman_s_Chapel",
       "name": "Whaleman_s_Chapel"
      },
      "id": "Sympathy"
@@ -61,7 +61,7 @@
    ]
   },
   {
-   "id": "textsmobydick.txt#Queequeg",
+   "id": "texts/mobydick.txt#Queequeg",
    "name": "Queequeg",
    "feels": [
     {
@@ -69,15 +69,15 @@
      "hasIntensity": 0.6,
      "quote": "Affected by the solemnity of the scene, there was a wondering gaze of incredulous curiosity in his countenance.",
      "causedBy": {
-      "id": "textsmobydick.txt#Entering_the_Whaleman_s_Chapel",
+      "id": "texts/mobydick.txt#Entering_the_Whaleman_s_Chapel",
       "name": "Entering_the_Whaleman_s_Chapel"
      },
      "hasObject": {
-      "id": "textsmobydick.txt#Solemnity_of_the_scene",
+      "id": "texts/mobydick.txt#Solemnity_of_the_scene",
       "name": "Solemnity_of_the_scene"
      },
      "place": {
-      "id": "textsmobydick.txt#Whaleman_s_Chapel",
+      "id": "texts/mobydick.txt#Whaleman_s_Chapel",
       "name": "Whaleman_s_Chapel"
      },
      "id": "Curiosity"
@@ -87,33 +87,33 @@
  ],
  "Places": [
   {
-   "id": "textsmobydick.txt#Whaleman_s_Chapel",
+   "id": "texts/mobydick.txt#Whaleman_s_Chapel",
    "name": "Whaleman_s_Chapel",
    "description": "A small scattered congregation of sailors, and sailors’ wives and widows."
   }
  ],
  "Events": [
   {
-   "id": "textsmobydick.txt#Entering_the_Whaleman_s_Chapel",
+   "id": "texts/mobydick.txt#Entering_the_Whaleman_s_Chapel",
    "name": "Entering_the_Whaleman_s_Chapel",
    "takePlaceAt": {
-    "id": "textsmobydick.txt#place1",
+    "id": "texts/mobydick.txt#place1",
     "name": "place1"
    }
   },
   {
-   "id": "textsmobydick.txt#Not_being_able_to_read_the_inscriptions",
+   "id": "texts/mobydick.txt#Not_being_able_to_read_the_inscriptions",
    "name": "Not_being_able_to_read_the_inscriptions",
    "takePlaceAt": {
-    "id": "textsmobydick.txt#place1",
+    "id": "texts/mobydick.txt#place1",
     "name": "place1"
    }
   },
   {
-   "id": "textsmobydick.txt#Seeing_the_bleak_tablets",
+   "id": "texts/mobydick.txt#Seeing_the_bleak_tablets",
    "name": "Seeing_the_bleak_tablets",
    "takePlaceAt": {
-    "id": "textsmobydick.txt#place1",
+    "id": "texts/mobydick.txt#place1",
     "name": "place1"
    }
   }

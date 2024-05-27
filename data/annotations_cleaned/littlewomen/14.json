@@ -1,7 +1,7 @@
 {
  "FictionalCharacters": [
   {
-   "id": "textslittlewomen.txt#Jo_March",
+   "id": "texts/littlewomen.txt#Jo_March",
    "name": "Jo_March",
    "feels": [
     {
@@ -9,11 +9,11 @@
      "hasIntensity": 0.8,
      "quote": "She felt proud to know that he was an honored Professor in Berlin, though only a poor language-master in America; and his homely, hard-working life was much beautified by the spice of romance which this discovery gave it.",
      "causedBy": {
-      "id": "textslittlewomen.txt#Discovery_of_Mr_Bhaer_s_background",
+      "id": "texts/littlewomen.txt#Discovery_of_Mr_Bhaer_s_background",
       "name": "Discovery_of_Mr_Bhaer_s_background"
      },
      "hasObject": {
-      "id": "textslittlewomen.txt#Mr_Bhaer",
+      "id": "texts/littlewomen.txt#Mr_Bhaer",
       "name": "Mr_Bhaer"
      },
      "place": "America",
@@ -24,11 +24,11 @@
      "hasIntensity": 0.7,
      "quote": "Imagine her dismay, on stealing a glance of timid admiration at the poet whose lines suggested an ethereal being fed on 'spirit, fire, and dew,' to behold him devouring his supper with an ardor which flushed his intellectual countenance.",
      "causedBy": {
-      "id": "textslittlewomen.txt#Discovering_the_true_nature_of_the_celebrities",
+      "id": "texts/littlewomen.txt#Discovering_the_true_nature_of_the_celebrities",
       "name": "Discovering_the_true_nature_of_the_celebrities"
      },
      "hasObject": {
-      "id": "textslittlewomen.txt#Poet",
+      "id": "texts/littlewomen.txt#Poet",
       "name": "Poet"
      },
      "place": "Symposium",
@@ -39,11 +39,11 @@
      "hasIntensity": 0.6,
      "quote": "Mr. Dashwood rejected any but thrilling tales; and, as thrills could not be produced except by harrowing up the souls of the readers, history and romance, land and sea, science and art, police records and lunatic asylums, had to be ransacked for the purpose.",
      "causedBy": {
-      "id": "textslittlewomen.txt#Rejection_of_Jo_s_stories",
+      "id": "texts/littlewomen.txt#Rejection_of_Jo_s_stories",
       "name": "Rejection_of_Jo_s_stories"
      },
      "hasObject": {
-      "id": "textslittlewomen.txt#Mr_Dashwood",
+      "id": "texts/littlewomen.txt#Mr_Dashwood",
       "name": "Mr_Dashwood"
      },
      "place": "Office",
@@ -54,11 +54,11 @@
      "hasIntensity": 0.9,
      "quote": "Jo soon found that her innocent experience had given her but few glimpses of the tragic world which underlies society; so, regarding it in a business light, she set about supplying her deficiencies with characteristic energy.",
      "causedBy": {
-      "id": "textslittlewomen.txt#Finding_material_for_stories",
+      "id": "texts/littlewomen.txt#Finding_material_for_stories",
       "name": "Finding_material_for_stories"
      },
      "hasObject": {
-      "id": "textslittlewomen.txt#Writing",
+      "id": "texts/littlewomen.txt#Writing",
       "name": "Writing"
      },
      "place": "Home",
@@ -69,11 +69,11 @@
      "hasIntensity": 0.7,
      "quote": "She thought it would do her no harm, for she sincerely meant to write nothing of which she should be ashamed, and quieted all pricks of conscience by anticipations of the happy minute when she should show her earnings and laugh over her well-kept secret.",
      "causedBy": {
-      "id": "textslittlewomen.txt#Anticipating_the_success_of_her_writing",
+      "id": "texts/littlewomen.txt#Anticipating_the_success_of_her_writing",
       "name": "Anticipating_the_success_of_her_writing"
      },
      "hasObject": {
-      "id": "textslittlewomen.txt#Success",
+      "id": "texts/littlewomen.txt#Success",
       "name": "Success"
      },
      "place": "Home",
@@ -84,11 +84,11 @@
      "hasIntensity": 0.6,
      "quote": "She was beginning to feel rather than see this, for much describing of other people's passions and feelings set her to studying and speculating about her own,--a morbid amusement, in which healthy young minds do not voluntarily indulge.",
      "causedBy": {
-      "id": "textslittlewomen.txt#Studying_other_people_s_passions",
+      "id": "texts/littlewomen.txt#Studying_other_people_s_passions",
       "name": "Studying_other_people_s_passions"
      },
      "hasObject": {
-      "id": "textslittlewomen.txt#Passions",
+      "id": "texts/littlewomen.txt#Passions",
       "name": "Passions"
      },
      "place": "Home",
@@ -99,11 +99,11 @@
      "hasIntensity": 0.8,
      "quote": "Before the evening was half over, Jo felt so completely _désillusionée_, that she sat down in a corner to recover herself.",
      "causedBy": {
-      "id": "textslittlewomen.txt#Discovering_the_true_nature_of_the_celebrities",
+      "id": "texts/littlewomen.txt#Discovering_the_true_nature_of_the_celebrities",
       "name": "Discovering_the_true_nature_of_the_celebrities"
      },
      "hasObject": {
-      "id": "textslittlewomen.txt#Celebrities",
+      "id": "texts/littlewomen.txt#Celebrities",
       "name": "Celebrities"
      },
      "place": "Symposium",
@@ -112,7 +112,7 @@
    ]
   },
   {
-   "id": "textslittlewomen.txt#Mr_Bhaer",
+   "id": "texts/littlewomen.txt#Mr_Bhaer",
    "name": "Mr_Bhaer",
    "feels": [
     {
@@ -120,11 +120,11 @@
      "hasIntensity": 0.9,
      "quote": "His very clothes seemed to partake of the hospitable nature of the wearer. They looked as if they were at ease, and liked to make him comfortable; his capacious waistcoat was suggestive of a large heart underneath; his rusty coat had a social air, and the baggy pockets plainly proved that little hands often went in empty and came out full; his very boots were benevolent, and his collars never stiff and raspy like other people's.",
      "causedBy": {
-      "id": "textslittlewomen.txt#Observing_Mr_Bhaer_s_character",
+      "id": "texts/littlewomen.txt#Observing_Mr_Bhaer_s_character",
       "name": "Observing_Mr_Bhaer_s_character"
      },
      "hasObject": {
-      "id": "textslittlewomen.txt#Mr_Bhaer",
+      "id": "texts/littlewomen.txt#Mr_Bhaer",
       "name": "Mr_Bhaer"
      },
      "place": "America",
@@ -135,11 +135,11 @@
      "hasIntensity": 0.8,
      "quote": "His very clothes seemed to partake of the hospitable nature of the wearer. They looked as if they were at ease, and liked to make him comfortable; his capacious waistcoat was suggestive of a large heart underneath; his rusty coat had a social air, and the baggy pockets plainly proved that little hands often went in empty and came out full; his very boots were benevolent, and his collars never stiff and raspy like other people's.",
      "causedBy": {
-      "id": "textslittlewomen.txt#Observing_Mr_Bhaer_s_character",
+      "id": "texts/littlewomen.txt#Observing_Mr_Bhaer_s_character",
       "name": "Observing_Mr_Bhaer_s_character"
      },
      "hasObject": {
-      "id": "textslittlewomen.txt#Mr_Bhaer",
+      "id": "texts/littlewomen.txt#Mr_Bhaer",
       "name": "Mr_Bhaer"
      },
      "place": "America",
@@ -150,88 +150,88 @@
  ],
  "Places": [
   {
-   "id": "textslittlewomen.txt#America",
+   "id": "texts/littlewomen.txt#America",
    "name": "America",
    "description": "Setting where Jo and Mr. Bhaer interact and observe each other"
   },
   {
-   "id": "textslittlewomen.txt#Symposium",
+   "id": "texts/littlewomen.txt#Symposium",
    "name": "Symposium",
    "description": "Gathering of celebrities where Jo's illusions are shattered"
   },
   {
-   "id": "textslittlewomen.txt#Home",
+   "id": "texts/littlewomen.txt#Home",
    "name": "Home",
    "description": "Location where Jo writes and anticipates success"
   },
   {
-   "id": "textslittlewomen.txt#Office",
+   "id": "texts/littlewomen.txt#Office",
    "name": "Office",
    "description": "Where Jo's stories are rejected by Mr. Dashwood"
   }
  ],
  "Events": [
   {
-   "id": "textslittlewomen.txt#Discovery_of_Mr_Bhaer_s_background",
+   "id": "texts/littlewomen.txt#Discovery_of_Mr_Bhaer_s_background",
    "name": "Discovery_of_Mr_Bhaer_s_background",
    "takePlaceAt": {
-    "id": "textslittlewomen.txt#place1",
+    "id": "texts/littlewomen.txt#place1",
     "name": "place1"
    }
   },
   {
-   "id": "textslittlewomen.txt#Discovering_the_true_nature_of_the_celebrities",
+   "id": "texts/littlewomen.txt#Discovering_the_true_nature_of_the_celebrities",
    "name": "Discovering_the_true_nature_of_the_celebrities",
    "takePlaceAt": {
-    "id": "textslittlewomen.txt#place2",
+    "id": "texts/littlewomen.txt#place2",
     "name": "place2"
    }
   },
   {
-   "id": "textslittlewomen.txt#Rejection_of_Jo_s_stories",
+   "id": "texts/littlewomen.txt#Rejection_of_Jo_s_stories",
    "name": "Rejection_of_Jo_s_stories",
    "takePlaceAt": {
-    "id": "textslittlewomen.txt#place4",
+    "id": "texts/littlewomen.txt#place4",
     "name": "place4"
    }
   },
   {
-   "id": "textslittlewomen.txt#Finding_material_for_stories",
+   "id": "texts/littlewomen.txt#Finding_material_for_stories",
    "name": "Finding_material_for_stories",
    "takePlaceAt": {
-    "id": "textslittlewomen.txt#place3",
+    "id": "texts/littlewomen.txt#place3",
     "name": "place3"
    }
   },
   {
-   "id": "textslittlewomen.txt#Anticipating_the_success_of_her_writing",
+   "id": "texts/littlewomen.txt#Anticipating_the_success_of_her_writing",
    "name": "Anticipating_the_success_of_her_writing",
    "takePlaceAt": {
-    "id": "textslittlewomen.txt#place3",
+    "id": "texts/littlewomen.txt#place3",
     "name": "place3"
    }
   },
   {
-   "id": "textslittlewomen.txt#Studying_other_people_s_passions",
+   "id": "texts/littlewomen.txt#Studying_other_people_s_passions",
    "name": "Studying_other_people_s_passions",
    "takePlaceAt": {
-    "id": "textslittlewomen.txt#place3",
+    "id": "texts/littlewomen.txt#place3",
     "name": "place3"
    }
   },
   {
-   "id": "textslittlewomen.txt#Discovering_the_true_nature_of_the_celebrities",
+   "id": "texts/littlewomen.txt#Discovering_the_true_nature_of_the_celebrities",
    "name": "Discovering_the_true_nature_of_the_celebrities",
    "takePlaceAt": {
-    "id": "textslittlewomen.txt#place2",
+    "id": "texts/littlewomen.txt#place2",
     "name": "place2"
    }
   },
   {
-   "id": "textslittlewomen.txt#Observing_Mr_Bhaer_s_character",
+   "id": "texts/littlewomen.txt#Observing_Mr_Bhaer_s_character",
    "name": "Observing_Mr_Bhaer_s_character",
    "takePlaceAt": {
-    "id": "textslittlewomen.txt#place1",
+    "id": "texts/littlewomen.txt#place1",
     "name": "place1"
    }
   }

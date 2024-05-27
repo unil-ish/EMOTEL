@@ -1,18 +1,18 @@
 {
  "FictionalCharacters": [
   {
-   "id": "textsmiddlemarch.txt#Lydgate",
+   "id": "texts/middlemarch.txt#Lydgate",
    "feels": [
     {
      "name": "Love",
      "hasIntensity": 0.9,
      "quote": "An unmistakable delight shone forth from the blue eyes that met his, and the radiance seemed to light up all his future with mild sunshine.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Engagement_with_Rosamond",
+      "id": "texts/middlemarch.txt#Engagement_with_Rosamond",
       "name": "Engagement_with_Rosamond"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Rosamond",
+      "id": "texts/middlemarch.txt#Rosamond",
       "name": "Rosamond"
      },
      "exactPlace": "Drawing-room",
@@ -23,11 +23,11 @@
      "hasIntensity": 0.8,
      "quote": "An unmistakable delight shone forth from the blue eyes that met his, and the radiance seemed to light up all his future with mild sunshine.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Engagement_with_Rosamond",
+      "id": "texts/middlemarch.txt#Engagement_with_Rosamond",
       "name": "Engagement_with_Rosamond"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Rosamond",
+      "id": "texts/middlemarch.txt#Rosamond",
       "name": "Rosamond"
      },
      "exactPlace": "Drawing-room",
@@ -38,11 +38,11 @@
      "hasIntensity": 0.9,
      "quote": "Ideal happiness seemed to be an affair of a few weeks’ waiting, more or less.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Engagement_with_Rosamond",
+      "id": "texts/middlemarch.txt#Engagement_with_Rosamond",
       "name": "Engagement_with_Rosamond"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Rosamond",
+      "id": "texts/middlemarch.txt#Rosamond",
       "name": "Rosamond"
      },
      "exactPlace": "Drawing-room",
@@ -53,11 +53,11 @@
      "hasIntensity": 0.9,
      "quote": "He had never felt so passionately towards her as at this moment.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Engagement_with_Rosamond",
+      "id": "texts/middlemarch.txt#Engagement_with_Rosamond",
       "name": "Engagement_with_Rosamond"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Rosamond",
+      "id": "texts/middlemarch.txt#Rosamond",
       "name": "Rosamond"
      },
      "exactPlace": "Drawing-room",
@@ -67,18 +67,18 @@
    "name": "Lydgate"
   },
   {
-   "id": "textsmiddlemarch.txt#Rosamond",
+   "id": "texts/middlemarch.txt#Rosamond",
    "feels": [
     {
      "name": "Delight",
      "hasIntensity": 0.8,
      "quote": "An unmistakable delight shone forth from the blue eyes that met his, and the radiance seemed to light up all his future with mild sunshine.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Engagement_with_Lydgate",
+      "id": "texts/middlemarch.txt#Engagement_with_Lydgate",
       "name": "Engagement_with_Lydgate"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Lydgate",
+      "id": "texts/middlemarch.txt#Lydgate",
       "name": "Lydgate"
      },
      "exactPlace": "Drawing-room",
@@ -89,11 +89,11 @@
      "hasIntensity": 0.9,
      "quote": "Ideal happiness seemed to be an affair of a few weeks’ waiting, more or less.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Engagement_with_Lydgate",
+      "id": "texts/middlemarch.txt#Engagement_with_Lydgate",
       "name": "Engagement_with_Lydgate"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Lydgate",
+      "id": "texts/middlemarch.txt#Lydgate",
       "name": "Lydgate"
      },
      "exactPlace": "Drawing-room",
@@ -104,11 +104,11 @@
      "hasIntensity": 0.9,
      "quote": "An unmistakable delight shone forth from the blue eyes that met his, and the radiance seemed to light up all his future with mild sunshine.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Engagement_with_Lydgate",
+      "id": "texts/middlemarch.txt#Engagement_with_Lydgate",
       "name": "Engagement_with_Lydgate"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Lydgate",
+      "id": "texts/middlemarch.txt#Lydgate",
       "name": "Lydgate"
      },
      "exactPlace": "Drawing-room",
@@ -119,11 +119,11 @@
      "hasIntensity": 0.8,
      "quote": "An unmistakable delight shone forth from the blue eyes that met his, and the radiance seemed to light up all his future with mild sunshine.",
      "causedBy": {
-      "id": "textsmiddlemarch.txt#Engagement_with_Lydgate",
+      "id": "texts/middlemarch.txt#Engagement_with_Lydgate",
       "name": "Engagement_with_Lydgate"
      },
      "hasObject": {
-      "id": "textsmiddlemarch.txt#Lydgate",
+      "id": "texts/middlemarch.txt#Lydgate",
       "name": "Lydgate"
      },
      "exactPlace": "Drawing-room",
@@ -135,26 +135,26 @@
  ],
  "Places": [
   {
-   "id": "textsmiddlemarch.txt#Drawingroom",
+   "id": "texts/middlemarch.txt#Drawingroom",
    "name": "Drawingroom",
    "description": "The great old-fashioned window was opened to the summer scents of the garden at the back of the house."
   }
  ],
  "Events": [
   {
-   "id": "textsmiddlemarch.txt#Engagement",
+   "id": "texts/middlemarch.txt#Engagement",
    "name": "Engagement",
    "takePlaceAt": {
-    "id": "textsmiddlemarch.txt#Drawingroom",
+    "id": "texts/middlemarch.txt#Drawingroom",
     "name": "Drawingroom"
    },
    "hasParticipant": [
     {
-     "id": "textsmiddlemarch.txt#Lydgate",
+     "id": "texts/middlemarch.txt#Lydgate",
      "name": "Lydgate"
     },
     {
-     "id": "textsmiddlemarch.txt#Rosamond",
+     "id": "texts/middlemarch.txt#Rosamond",
      "name": "Rosamond"
     }
    ]
