@@ -1,13 +1,21 @@
 {
  "FictionalCharacters": [
   {
-   "id": "data/texts/prideandprejudice#Elizabeth_Bennet",
+   "id": "textsprideandprejudice.txt#Elizabeth_Bennet",
    "name": "Elizabeth_Bennet",
    "feels": [
     {
      "name": "Surprise",
      "hasIntensity": 0.6,
      "quote": "Elizabeth was surprised, but agreed to it immediately.",
+     "causedBy": {
+      "id": "textsprideandprejudice.txt#Miss_Bingley_s_invitation_to_walk",
+      "name": "Miss_Bingley_s_invitation_to_walk"
+     },
+     "hasObject": {
+      "id": "textsprideandprejudice.txt#Miss_Bingley_s_invitation",
+      "name": "Miss_Bingley_s_invitation"
+     },
      "exactPlace": "Drawing-room",
      "id": "Surprise"
     },
@@ -15,6 +23,14 @@
      "name": "Delight",
      "hasIntensity": 0.8,
      "quote": "Elizabeth, at work in the opposite corner, saw it all with great delight.",
+     "causedBy": {
+      "id": "textsprideandprejudice.txt#Mr_Bingley_s_attention_to_Jane",
+      "name": "Mr_Bingley_s_attention_to_Jane"
+     },
+     "hasObject": {
+      "id": "textsprideandprejudice.txt#Mr_Bingley_s_attention",
+      "name": "Mr_Bingley_s_attention"
+     },
      "exactPlace": "Drawing-room",
      "id": "Delight"
     },
@@ -22,6 +38,14 @@
      "name": "Amusement",
      "hasIntensity": 0.7,
      "quote": "Elizabeth could not help observing, as she turned over some music-books that lay on the instrument, how frequently Mr. Darcy’s eyes were fixed on her.",
+     "causedBy": {
+      "id": "textsprideandprejudice.txt#Mr_Darcy_s_attention_to_Elizabeth",
+      "name": "Mr_Darcy_s_attention_to_Elizabeth"
+     },
+     "hasObject": {
+      "id": "textsprideandprejudice.txt#Mr_Darcy_s_attention",
+      "name": "Mr_Darcy_s_attention"
+     },
      "exactPlace": "Drawing-room",
      "id": "Amusement"
     },
@@ -29,19 +53,35 @@
      "name": "Gallantry",
      "hasIntensity": 0.9,
      "quote": "Elizabeth was amazed at his gallantry.",
+     "causedBy": {
+      "id": "textsprideandprejudice.txt#Mr_Darcy_s_behavior",
+      "name": "Mr_Darcy_s_behavior"
+     },
+     "hasObject": {
+      "id": "textsprideandprejudice.txt#Mr_Darcy_s_behavior",
+      "name": "Mr_Darcy_s_behavior"
+     },
      "exactPlace": "Drawing-room",
      "id": "Gallantry"
     }
    ]
   },
   {
-   "id": "data/texts/prideandprejudice#Miss_Bingley",
+   "id": "textsprideandprejudice.txt#Miss_Bingley",
    "name": "Miss_Bingley",
    "feels": [
     {
      "name": "Jealousy",
      "hasIntensity": 0.7,
      "quote": "Miss Bingley saw, or suspected, enough to be jealous.",
+     "causedBy": {
+      "id": "textsprideandprejudice.txt#Mr_Darcy_s_attention_to_Elizabeth",
+      "name": "Mr_Darcy_s_attention_to_Elizabeth"
+     },
+     "hasObject": {
+      "id": "textsprideandprejudice.txt#Mr_Darcy_s_attention",
+      "name": "Mr_Darcy_s_attention"
+     },
      "exactPlace": "Drawing-room",
      "id": "Jealousy"
     },
@@ -49,19 +89,35 @@
      "name": "Annoyance",
      "hasIntensity": 0.8,
      "quote": "Miss Bingley warmly resented the indignity he had received.",
+     "causedBy": {
+      "id": "textsprideandprejudice.txt#Mr_Darcy_s_behavior",
+      "name": "Mr_Darcy_s_behavior"
+     },
+     "hasObject": {
+      "id": "textsprideandprejudice.txt#Mr_Darcy_s_behavior",
+      "name": "Mr_Darcy_s_behavior"
+     },
      "exactPlace": "Drawing-room",
      "id": "Annoyance"
     }
    ]
   },
   {
-   "id": "data/texts/prideandprejudice#Mr_Darcy",
+   "id": "textsprideandprejudice.txt#Mr_Darcy",
    "name": "Mr_Darcy",
    "feels": [
     {
      "name": "Offended",
      "hasIntensity": 0.7,
      "quote": "Elizabeth thought she could perceive that he was rather offended.",
+     "causedBy": {
+      "id": "textsprideandprejudice.txt#Miss_Bingley_s_behavior",
+      "name": "Miss_Bingley_s_behavior"
+     },
+     "hasObject": {
+      "id": "textsprideandprejudice.txt#Miss_Bingley_s_behavior",
+      "name": "Miss_Bingley_s_behavior"
+     },
      "exactPlace": "Drawing-room",
      "id": "Offended"
     },
@@ -69,6 +125,14 @@
      "name": "Curiosity",
      "hasIntensity": 0.8,
      "quote": "He was dying to know what could be his meaning.",
+     "causedBy": {
+      "id": "textsprideandprejudice.txt#Miss_Bingley_s_behavior",
+      "name": "Miss_Bingley_s_behavior"
+     },
+     "hasObject": {
+      "id": "textsprideandprejudice.txt#Miss_Bingley_s_behavior",
+      "name": "Miss_Bingley_s_behavior"
+     },
      "exactPlace": "Drawing-room",
      "id": "Curiosity"
     },
@@ -76,6 +140,14 @@
      "name": "Bewitched",
      "hasIntensity": 0.9,
      "quote": "Darcy had never been so bewitched by any woman as he was by her.",
+     "causedBy": {
+      "id": "textsprideandprejudice.txt#Elizabeth_s_behavior",
+      "name": "Elizabeth_s_behavior"
+     },
+     "hasObject": {
+      "id": "textsprideandprejudice.txt#Elizabeth_s_behavior",
+      "name": "Elizabeth_s_behavior"
+     },
      "exactPlace": "Drawing-room",
      "id": "Bewitched"
     }
@@ -84,46 +156,46 @@
  ],
  "Places": [
   {
-   "id": "data/texts/prideandprejudice#Drawingroom",
+   "id": "textsprideandprejudice.txt#Drawingroom",
    "name": "Drawingroom",
    "description": "Where the characters interacted and displayed their emotions."
   }
  ],
  "Events": [
   {
-   "id": "data/texts/prideandprejudice#Miss_Bingley_s_invitation_to_walk",
+   "id": "textsprideandprejudice.txt#Miss_Bingley_s_invitation_to_walk",
    "name": "Miss_Bingley_s_invitation_to_walk"
   },
   {
-   "id": "data/texts/prideandprejudice#Mr_Bingley_s_attention_to_Jane",
+   "id": "textsprideandprejudice.txt#Mr_Bingley_s_attention_to_Jane",
    "name": "Mr_Bingley_s_attention_to_Jane"
   },
   {
-   "id": "data/texts/prideandprejudice#Mr_Darcy_s_attention_to_Elizabeth",
+   "id": "textsprideandprejudice.txt#Mr_Darcy_s_attention_to_Elizabeth",
    "name": "Mr_Darcy_s_attention_to_Elizabeth"
   },
   {
-   "id": "data/texts/prideandprejudice#Mr_Darcy_s_behavior",
+   "id": "textsprideandprejudice.txt#Mr_Darcy_s_behavior",
    "name": "Mr_Darcy_s_behavior"
   },
   {
-   "id": "data/texts/prideandprejudice#Mr_Darcy_s_attention_to_Elizabeth",
+   "id": "textsprideandprejudice.txt#Mr_Darcy_s_attention_to_Elizabeth",
    "name": "Mr_Darcy_s_attention_to_Elizabeth"
   },
   {
-   "id": "data/texts/prideandprejudice#Mr_Darcy_s_behavior",
+   "id": "textsprideandprejudice.txt#Mr_Darcy_s_behavior",
    "name": "Mr_Darcy_s_behavior"
   },
   {
-   "id": "data/texts/prideandprejudice#Miss_Bingley_s_behavior",
+   "id": "textsprideandprejudice.txt#Miss_Bingley_s_behavior",
    "name": "Miss_Bingley_s_behavior"
   },
   {
-   "id": "data/texts/prideandprejudice#Miss_Bingley_s_behavior",
+   "id": "textsprideandprejudice.txt#Miss_Bingley_s_behavior",
    "name": "Miss_Bingley_s_behavior"
   },
   {
-   "id": "data/texts/prideandprejudice#Elizabeth_s_behavior",
+   "id": "textsprideandprejudice.txt#Elizabeth_s_behavior",
    "name": "Elizabeth_s_behavior"
   }
  ]

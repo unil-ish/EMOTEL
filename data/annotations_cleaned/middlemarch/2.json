@@ -1,12 +1,20 @@
 {
  "FictionalCharacters": [
   {
-   "id": "data/texts/middlemarch#SirJamesChettam",
+   "id": "textsmiddlemarch.txt#SirJamesChettam",
    "feels": [
     {
      "name": "Disapproval",
      "hasIntensity": 0.8,
      "quote": "But, my dear Chettam, why should I use my influence to Casaubon’s disadvantage, unless I were much surer than I am that I should be acting for the advantage of Miss Brooke? I know no harm of Casaubon.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Disapproval_of_Mr_Casaubon",
+      "name": "Disapproval_of_Mr_Casaubon"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Mr_Casaubon",
+      "name": "Mr_Casaubon"
+     },
      "place": "Rectory study",
      "id": "Disapproval"
     },
@@ -14,6 +22,14 @@
      "name": "Sadness",
      "hasIntensity": 0.7,
      "quote": "Clearly, there would be no interference with Miss Brooke’s marriage through Mr. Cadwallader; and Sir James felt with some sadness that she was to have perfect liberty of misjudgment.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Realization_of_lack_of_interference_in_Miss_Brooke",
+      "name": "Realization_of_lack_of_interference_in_Miss_Brooke_s_marriage"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Miss_Brooke_s_marriage",
+      "name": "Miss_Brooke_s_marriage"
+     },
      "place": "Rectory study",
      "id": "Sadness"
     },
@@ -21,6 +37,14 @@
      "name": "Pride",
      "hasIntensity": 0.9,
      "quote": "Doubtless this persistence was the best course for his own dignity: but pride only helps us to be generous; it never makes us so, any more than vanity makes us witty.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Persistence_in_carrying_out_Dorotheas_design_of_th",
+      "name": "Persistence_in_carrying_out_Dorotheas_design_of_the_cottages"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Dorotheas_design_of_the_cottages",
+      "name": "Dorotheas_design_of_the_cottages"
+     },
      "place": "Rectory study",
      "id": "Pride"
     },
@@ -28,6 +52,14 @@
      "name": "Delight",
      "hasIntensity": 0.8,
      "quote": "He was gradually discovering the delight there is in frank kindness and companionship between a man and a woman who have no passion to hide or confess.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Discovery_of_delight_in_companionship_with_Dorothe",
+      "name": "Discovery_of_delight_in_companionship_with_Dorothea"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Companionship_with_Dorothea",
+      "name": "Companionship_with_Dorothea"
+     },
      "place": "Dorothea's home",
      "id": "Delight"
     }
@@ -37,32 +69,64 @@
  ],
  "Places": [
   {
-   "id": "data/texts/middlemarch#Rectory_study",
+   "id": "textsmiddlemarch.txt#Rectory_study",
    "name": "Rectory_study",
    "description": "A room where the Rector and Sir James Chettam have a conversation."
   },
   {
-   "id": "data/texts/middlemarch#Dorothea_s_home",
+   "id": "textsmiddlemarch.txt#Dorothea_s_home",
    "name": "Dorothea_s_home",
    "description": "The future home of Dorothea where she dictates changes."
   }
  ],
  "Events": [
   {
-   "id": "data/texts/middlemarch#Disapproval_of_Mr_Casaubon",
-   "name": "Disapproval_of_Mr_Casaubon"
+   "id": "textsmiddlemarch.txt#Disapproval_of_Mr_Casaubon",
+   "name": "Disapproval_of_Mr_Casaubon",
+   "takePlaceAt": {
+    "id": "textsmiddlemarch.txt#Rectory_study",
+    "name": "Rectory_study"
+   },
+   "hasParticipant": {
+    "id": "textsmiddlemarch.txt#SirJamesChettam",
+    "name": "SirJamesChettam"
+   }
   },
   {
-   "id": "data/texts/middlemarch#Realization_of_lack_of_interference_in_Miss_Brooke",
-   "name": "Realization_of_lack_of_interference_in_Miss_Brooke_s_marriage"
+   "id": "textsmiddlemarch.txt#Realization_of_lack_of_interference_in_Miss_Brooke",
+   "name": "Realization_of_lack_of_interference_in_Miss_Brooke_s_marriage",
+   "takePlaceAt": {
+    "id": "textsmiddlemarch.txt#Rectory_study",
+    "name": "Rectory_study"
+   },
+   "hasParticipant": {
+    "id": "textsmiddlemarch.txt#SirJamesChettam",
+    "name": "SirJamesChettam"
+   }
   },
   {
-   "id": "data/texts/middlemarch#Persistence_in_carrying_out_Dorotheas_design_of_th",
-   "name": "Persistence_in_carrying_out_Dorotheas_design_of_the_cottages"
+   "id": "textsmiddlemarch.txt#Persistence_in_carrying_out_Dorotheas_design_of_th",
+   "name": "Persistence_in_carrying_out_Dorotheas_design_of_the_cottages",
+   "takePlaceAt": {
+    "id": "textsmiddlemarch.txt#Rectory_study",
+    "name": "Rectory_study"
+   },
+   "hasParticipant": {
+    "id": "textsmiddlemarch.txt#SirJamesChettam",
+    "name": "SirJamesChettam"
+   }
   },
   {
-   "id": "data/texts/middlemarch#Discovery_of_delight_in_companionship_with_Dorothe",
-   "name": "Discovery_of_delight_in_companionship_with_Dorothea"
+   "id": "textsmiddlemarch.txt#Discovery_of_delight_in_companionship_with_Dorothe",
+   "name": "Discovery_of_delight_in_companionship_with_Dorothea",
+   "takePlaceAt": {
+    "id": "textsmiddlemarch.txt#Dorothea_s_home",
+    "name": "Dorothea_s_home"
+   },
+   "hasParticipant": {
+    "id": "textsmiddlemarch.txt#SirJamesChettam",
+    "name": "SirJamesChettam"
+   }
   }
  ]
 }

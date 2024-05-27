@@ -1,13 +1,21 @@
 {
  "FictionalCharacters": [
   {
-   "id": "data/texts/middlemarch#Mr_Casaubon",
+   "id": "textsmiddlemarch.txt#Mr_Casaubon",
    "name": "Mr_Casaubon",
    "feels": [
     {
      "name": "Trust",
      "hasIntensity": 0.2,
      "quote": "He had a sense of rectitude and an honorable pride in satisfying the requirements of honor.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Sense_of_rectitude_and_honor",
+      "name": "Sense_of_rectitude_and_honor"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Satisfying_the_requirements_of_honor",
+      "name": "Satisfying_the_requirements_of_honor"
+     },
      "place": "Within himself",
      "id": "Trust"
     },
@@ -15,6 +23,14 @@
      "name": "Surprise",
      "hasIntensity": 0.3,
      "quote": "The human soul moves in many channels, and Mr. Casaubon had a sense of rectitude and an honorable pride in satisfying the requirements of honor, which compelled him to find other reasons for his conduct than those of jealousy and vindictiveness.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Sense_of_rectitude_and_honor",
+      "name": "Sense_of_rectitude_and_honor"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Satisfying_the_requirements_of_honor",
+      "name": "Satisfying_the_requirements_of_honor"
+     },
      "place": "Within himself",
      "id": "Surprise"
     },
@@ -22,6 +38,14 @@
      "name": "Anger",
      "hasIntensity": 0.8,
      "quote": "He was quite sure that Dorothea was the cause of Will’s return from Rome, and his determination to settle in the neighborhood; and he was penetrating enough to imagine that Dorothea had innocently encouraged this course.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Dorothea_s_actions",
+      "name": "Dorothea_s_actions"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Dorothea",
+      "name": "Dorothea"
+     },
      "place": "Within himself",
      "id": "Anger"
     },
@@ -29,6 +53,14 @@
      "name": "Joy",
      "hasIntensity": 0.5,
      "quote": "He had recovered all his usual power of work: the illness might have been mere fatigue, and there might still be twenty years of achievement before him, which would justify the thirty years of preparation.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Recovery_of_health",
+      "name": "Recovery_of_health"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Recovery_of_health",
+      "name": "Recovery_of_health"
+     },
      "place": "Within himself",
      "id": "Joy"
     },
@@ -36,6 +68,14 @@
      "name": "Anticipation",
      "hasIntensity": 0.7,
      "quote": "He had begun now to frame possibilities for the future which were somehow more embittering to him than anything his mind had dwelt on before.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Framing_possibilities_for_the_future",
+      "name": "Framing_possibilities_for_the_future"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Future_possibilities",
+      "name": "Future_possibilities"
+     },
      "place": "Within himself",
      "id": "Anticipation"
     },
@@ -43,6 +83,14 @@
      "name": "Fear",
      "hasIntensity": 0.9,
      "quote": "To all the facts which he knew, he added imaginary facts both present and future which became more real to him than those because they called up a stronger dislike, a more predominating bitterness.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Imaginary_facts",
+      "name": "Imaginary_facts"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Imaginary_facts",
+      "name": "Imaginary_facts"
+     },
      "place": "Within himself",
      "id": "Fear"
     },
@@ -50,6 +98,14 @@
      "name": "Disgust",
      "hasIntensity": 0.6,
      "quote": "He utterly distrusts Will Ladislaw's morals, and it is his duty to hinder to the utmost the fulfillment of his designs.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Distrust_of_Will_Ladislaw",
+      "name": "Distrust_of_Will_Ladislaw"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Will_Ladislaw",
+      "name": "Will_Ladislaw"
+     },
      "place": "Within himself",
      "id": "Disgust"
     }
@@ -58,37 +114,37 @@
  ],
  "Places": [
   {
-   "id": "data/texts/middlemarch#Within_himself",
+   "id": "textsmiddlemarch.txt#Within_himself",
    "name": "Within_himself"
   }
  ],
  "Events": [
   {
-   "id": "data/texts/middlemarch#Sense_of_rectitude_and_honor",
+   "id": "textsmiddlemarch.txt#Sense_of_rectitude_and_honor",
    "name": "Sense_of_rectitude_and_honor"
   },
   {
-   "id": "data/texts/middlemarch#Sense_of_rectitude_and_honor",
+   "id": "textsmiddlemarch.txt#Sense_of_rectitude_and_honor",
    "name": "Sense_of_rectitude_and_honor"
   },
   {
-   "id": "data/texts/middlemarch#Dorothea_s_actions",
+   "id": "textsmiddlemarch.txt#Dorothea_s_actions",
    "name": "Dorothea_s_actions"
   },
   {
-   "id": "data/texts/middlemarch#Recovery_of_health",
+   "id": "textsmiddlemarch.txt#Recovery_of_health",
    "name": "Recovery_of_health"
   },
   {
-   "id": "data/texts/middlemarch#Framing_possibilities_for_the_future",
+   "id": "textsmiddlemarch.txt#Framing_possibilities_for_the_future",
    "name": "Framing_possibilities_for_the_future"
   },
   {
-   "id": "data/texts/middlemarch#Imaginary_facts",
+   "id": "textsmiddlemarch.txt#Imaginary_facts",
    "name": "Imaginary_facts"
   },
   {
-   "id": "data/texts/middlemarch#Distrust_of_Will_Ladislaw",
+   "id": "textsmiddlemarch.txt#Distrust_of_Will_Ladislaw",
    "name": "Distrust_of_Will_Ladislaw"
   }
  ]

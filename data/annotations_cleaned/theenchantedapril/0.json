@@ -1,12 +1,20 @@
 {
  "FictionalCharacters": [
   {
-   "id": "data/texts/theenchantedapril#Mrs_Wilkins",
+   "id": "textstheenchantedapril.txt#Mrs_Wilkins",
    "feels": [
     {
      "name": "Trust",
      "hasIntensity": 0.9,
      "quote": "Mrs. Wilkins asserted that it would be quite true.",
+     "causedBy": {
+      "id": "textstheenchantedapril.txt#Mrs_Arbuthnot_s_plan_to_give_out_a_false_explanati",
+      "name": "Mrs_Arbuthnot_s_plan_to_give_out_a_false_explanation"
+     },
+     "hasObject": {
+      "id": "textstheenchantedapril.txt#mediaeval_castle",
+      "name": "mediaeval_castle"
+     },
      "exactPlace": "In their minds",
      "id": "Trust"
     },
@@ -14,6 +22,14 @@
      "name": "Surprise",
      "hasIntensity": 0.7,
      "quote": "It staggered them.",
+     "causedBy": {
+      "id": "textstheenchantedapril.txt#Mr_Briggs_s_letter_stating_the_rent",
+      "name": "Mr_Briggs_s_letter_stating_the_rent"
+     },
+     "hasObject": {
+      "id": "textstheenchantedapril.txt#rent",
+      "name": "rent"
+     },
      "exactPlace": "Before Mrs. Arbuthnot’s eyes",
      "id": "Surprise"
     },
@@ -21,6 +37,14 @@
      "name": "Joy",
      "hasIntensity": 0.8,
      "quote": "They did, both of them, for a whole day feel that the only thing to be done was to renounce the mediaeval castle; and it was in arriving at this bitter decision that they really realised how acute had been their longing for it.",
+     "causedBy": {
+      "id": "textstheenchantedapril.txt#Realization_of_longing_for_the_castle",
+      "name": "Realization_of_longing_for_the_castle"
+     },
+     "hasObject": {
+      "id": "textstheenchantedapril.txt#mediaeval_castle",
+      "name": "mediaeval_castle"
+     },
      "exactPlace": "In arriving at this bitter decision",
      "id": "Joy"
     }
@@ -28,12 +52,20 @@
    "name": "Mrs_Wilkins"
   },
   {
-   "id": "data/texts/theenchantedapril#Mrs_Arbuthnot",
+   "id": "textstheenchantedapril.txt#Mrs_Arbuthnot",
    "feels": [
     {
      "name": "Fear",
      "hasIntensity": 0.6,
      "quote": "She felt happy, and she felt guilty, and she felt afraid.",
+     "causedBy": {
+      "id": "textstheenchantedapril.txt#Secret_visions_of_the_castle",
+      "name": "Secret_visions_of_the_castle"
+     },
+     "hasObject": {
+      "id": "textstheenchantedapril.txt#castle",
+      "name": "castle"
+     },
      "exactPlace": "At the end of the meeting",
      "id": "Fear"
     },
@@ -41,6 +73,14 @@
      "name": "Guilty",
      "hasIntensity": 0.7,
      "quote": "She felt happy, and she felt guilty, and she felt afraid.",
+     "causedBy": {
+      "id": "textstheenchantedapril.txt#Secret_visions_of_the_castle",
+      "name": "Secret_visions_of_the_castle"
+     },
+     "hasObject": {
+      "id": "textstheenchantedapril.txt#castle",
+      "name": "castle"
+     },
      "exactPlace": "At the end of the meeting",
      "id": "Guilty"
     },
@@ -48,6 +88,14 @@
      "name": "Happiness",
      "hasIntensity": 0.8,
      "quote": "She felt happy, and she felt guilty, and she felt afraid.",
+     "causedBy": {
+      "id": "textstheenchantedapril.txt#Secret_visions_of_the_castle",
+      "name": "Secret_visions_of_the_castle"
+     },
+     "hasObject": {
+      "id": "textstheenchantedapril.txt#castle",
+      "name": "castle"
+     },
      "exactPlace": "At the end of the meeting",
      "id": "Happiness"
     }
@@ -57,23 +105,47 @@
  ],
  "Places": [
   {
-   "id": "data/texts/theenchantedapril#Brompton_Oratory",
+   "id": "textstheenchantedapril.txt#Brompton_Oratory",
    "name": "Brompton_Oratory",
    "description": "Address near where the owner lived"
   }
  ],
  "Events": [
   {
-   "id": "data/texts/theenchantedapril#Mrs_Arbuthnot_s_plan_to_give_out_a_false_explanati",
-   "name": "Mrs_Arbuthnot_s_plan_to_give_out_a_false_explanation"
+   "id": "textstheenchantedapril.txt#Mrs_Arbuthnot_s_plan_to_give_out_a_false_explanati",
+   "name": "Mrs_Arbuthnot_s_plan_to_give_out_a_false_explanation",
+   "takePlaceAt": {
+    "id": "textstheenchantedapril.txt#mediaeval_castle",
+    "name": "mediaeval_castle"
+   },
+   "hasParticipant": {
+    "id": "textstheenchantedapril.txt#Mrs_Wilkins",
+    "name": "Mrs_Wilkins"
+   }
   },
   {
-   "id": "data/texts/theenchantedapril#Mr_Briggs_s_letter_stating_the_rent",
-   "name": "Mr_Briggs_s_letter_stating_the_rent"
+   "id": "textstheenchantedapril.txt#Mr_Briggs_s_letter_stating_the_rent",
+   "name": "Mr_Briggs_s_letter_stating_the_rent",
+   "takePlaceAt": {
+    "id": "textstheenchantedapril.txt#mediaeval_castle",
+    "name": "mediaeval_castle"
+   },
+   "hasParticipant": {
+    "id": "textstheenchantedapril.txt#Mrs_Wilkins",
+    "name": "Mrs_Wilkins"
+   }
   },
   {
-   "id": "data/texts/theenchantedapril#Realization_of_longing_for_the_castle",
-   "name": "Realization_of_longing_for_the_castle"
+   "id": "textstheenchantedapril.txt#Realization_of_longing_for_the_castle",
+   "name": "Realization_of_longing_for_the_castle",
+   "takePlaceAt": {
+    "id": "textstheenchantedapril.txt#mediaeval_castle",
+    "name": "mediaeval_castle"
+   },
+   "hasParticipant": {
+    "id": "textstheenchantedapril.txt#Mrs_Wilkins",
+    "name": "Mrs_Wilkins"
+   }
   }
  ]
 }

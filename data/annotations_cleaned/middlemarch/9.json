@@ -1,13 +1,21 @@
 {
  "FictionalCharacters": [
   {
-   "id": "data/texts/middlemarch#Fred_Vincy",
+   "id": "textsmiddlemarch.txt#Fred_Vincy",
    "name": "Fred_Vincy",
    "feels": [
     {
      "name": "Anxiety",
      "hasIntensity": 0.7,
      "quote": "Fred found himself close upon the term of payment with no money at command beyond the eighty pounds which he had deposited with his mother.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Debt_repayment_deadline_approaching",
+      "name": "Debt_repayment_deadline_approaching"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Money",
+      "name": "Money"
+     },
      "exactPlace": "Middlemarch",
      "id": "Anxiety"
     },
@@ -15,6 +23,14 @@
      "name": "Hopefulness",
      "hasIntensity": 0.8,
      "quote": "Hopefulness has a pleasure in making a throw of any kind, because the prospect of success is certain.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Desire_for_winning",
+      "name": "Desire_for_winning"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Gambling",
+      "name": "Gambling"
+     },
      "exactPlace": "Middlemarch",
      "id": "Hopefulness"
     },
@@ -22,6 +38,14 @@
      "name": "Heroism",
      "hasIntensity": 0.6,
      "quote": "He made the resolution with a sense of heroism—heroism forced on him by the dread of breaking his word to Mr. Garth, by his love for Mary and awe of her opinion.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Fear_of_breaking_his_word",
+      "name": "Fear_of_breaking_his_word"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Horse",
+      "name": "Horse"
+     },
      "exactPlace": "Middlemarch",
      "id": "Heroism"
     },
@@ -29,6 +53,14 @@
      "name": "Dissipation",
      "hasIntensity": 0.5,
      "quote": "Considering that Fred was not at all coarse, that he rather looked down on the manners and speech of young men who had not been to the university, and that he had written stanzas as pastoral and unvoluptuous as his flute-playing, his attraction towards Bambridge and Horrock was an interesting fact which even the love of horse-flesh would not wholly account for without that mysterious influence of Naming which determinates so much of mortal choice.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Company_of_Bambridge_and_Horrock",
+      "name": "Company_of_Bambridge_and_Horrock"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Pleasureseeking",
+      "name": "Pleasureseeking"
+     },
      "exactPlace": "Middlemarch",
      "id": "Dissipation"
     }
@@ -37,39 +69,39 @@
  ],
  "Events": [
   {
-   "id": "data/texts/middlemarch#Debt_repayment_deadline_approaching",
+   "id": "textsmiddlemarch.txt#Debt_repayment_deadline_approaching",
    "name": "Debt_repayment_deadline_approaching"
   },
   {
-   "id": "data/texts/middlemarch#Desire_for_winning",
+   "id": "textsmiddlemarch.txt#Desire_for_winning",
    "name": "Desire_for_winning"
   },
   {
-   "id": "data/texts/middlemarch#Company_of_Bambridge_and_Horrock",
+   "id": "textsmiddlemarch.txt#Company_of_Bambridge_and_Horrock",
    "name": "Company_of_Bambridge_and_Horrock"
   }
  ],
  "Objects": [
   {
-   "id": "data/texts/middlemarch#Money",
+   "id": "textsmiddlemarch.txt#Money",
    "name": "Money"
   },
   {
-   "id": "data/texts/middlemarch#Gambling",
+   "id": "textsmiddlemarch.txt#Gambling",
    "name": "Gambling"
   },
   {
-   "id": "data/texts/middlemarch#Horse",
+   "id": "textsmiddlemarch.txt#Horse",
    "name": "Horse"
   },
   {
-   "id": "data/texts/middlemarch#Pleasureseeking",
+   "id": "textsmiddlemarch.txt#Pleasureseeking",
    "name": "Pleasureseeking"
   }
  ],
  "Places": [
   {
-   "id": "data/texts/middlemarch#Middlemarch",
+   "id": "textsmiddlemarch.txt#Middlemarch",
    "name": "Middlemarch"
   }
  ]

@@ -1,15 +1,23 @@
 {
  "FictionalCharacters": [
   {
-   "id": "data/texts/frankenstein#The_Creature",
+   "id": "textsfrankenstein.txt#The_Creature",
    "name": "The_Creature",
    "feels": [
     {
      "name": "Trust",
      "hasIntensity": 0.2,
      "quote": "‘Do not trouble yourself, my kind host; I have food; it is warmth and rest only that I need.’",
+     "causedBy": {
+      "id": "textsfrankenstein.txt#Old_man_offering_help",
+      "name": "Old_man_offering_help"
+     },
+     "hasObject": {
+      "id": "textsfrankenstein.txt#Food",
+      "name": "Food"
+     },
      "place": {
-      "id": "data/texts/frankenstein#Cottage",
+      "id": "textsfrankenstein.txt#Cottage",
       "name": "Cottage"
      },
      "id": "Trust"
@@ -18,8 +26,16 @@
      "name": "Surprise",
      "hasIntensity": 0.8,
      "quote": "‘Great God!’ exclaimed the old man. ‘Who are you?’",
+     "causedBy": {
+      "id": "textsfrankenstein.txt#Old_man_seeing_the_Creature",
+      "name": "Old_man_seeing_the_Creature"
+     },
+     "hasObject": {
+      "id": "textsfrankenstein.txt#The_Creature",
+      "name": "The_Creature"
+     },
      "place": {
-      "id": "data/texts/frankenstein#Cottage",
+      "id": "textsfrankenstein.txt#Cottage",
       "name": "Cottage"
      },
      "id": "Surprise"
@@ -28,8 +44,16 @@
      "name": "Anger",
      "hasIntensity": 0.9,
      "quote": "Felix darted forward, and with supernatural force tore me from his father, to whose knees I clung, in a transport of fury, he dashed me to the ground and struck me violently with a stick.",
+     "causedBy": {
+      "id": "textsfrankenstein.txt#Felix_attacking_the_Creature",
+      "name": "Felix_attacking_the_Creature"
+     },
+     "hasObject": {
+      "id": "textsfrankenstein.txt#The_Creature",
+      "name": "The_Creature"
+     },
      "place": {
-      "id": "data/texts/frankenstein#Cottage",
+      "id": "textsfrankenstein.txt#Cottage",
       "name": "Cottage"
      },
      "id": "Anger"
@@ -38,8 +62,16 @@
      "name": "Joy",
      "hasIntensity": 0.3,
      "quote": "The pleasant sunshine and the pure air of day restored me to some degree of tranquillity",
+     "causedBy": {
+      "id": "textsfrankenstein.txt#Sunshine_and_fresh_air",
+      "name": "Sunshine_and_fresh_air"
+     },
+     "hasObject": {
+      "id": "textsfrankenstein.txt#Sunshine_and_fresh_air",
+      "name": "Sunshine_and_fresh_air"
+     },
      "place": {
-      "id": "data/texts/frankenstein#Forest",
+      "id": "textsfrankenstein.txt#Forest",
       "name": "Forest"
      },
      "id": "Joy"
@@ -48,8 +80,16 @@
      "name": "Anticipation",
      "hasIntensity": 0.5,
      "quote": "I resolved to return to the cottage, seek the old man, and by my representations win him to my party.",
+     "causedBy": {
+      "id": "textsfrankenstein.txt#Planning_to_return_to_the_cottage",
+      "name": "Planning_to_return_to_the_cottage"
+     },
+     "hasObject": {
+      "id": "textsfrankenstein.txt#Return_to_the_cottage",
+      "name": "Return_to_the_cottage"
+     },
      "place": {
-      "id": "data/texts/frankenstein#Hovel",
+      "id": "textsfrankenstein.txt#Hovel",
       "name": "Hovel"
      },
      "id": "Anticipation"
@@ -58,8 +98,16 @@
      "name": "Fear",
      "hasIntensity": 0.7,
      "quote": "I trembled violently, apprehending some dreadful misfortune.",
+     "causedBy": {
+      "id": "textsfrankenstein.txt#Feeling_of_dread",
+      "name": "Feeling_of_dread"
+     },
+     "hasObject": {
+      "id": "textsfrankenstein.txt#Dreadful_misfortune",
+      "name": "Dreadful_misfortune"
+     },
      "place": {
-      "id": "data/texts/frankenstein#Hovel",
+      "id": "textsfrankenstein.txt#Hovel",
       "name": "Hovel"
      },
      "id": "Fear"
@@ -69,46 +117,94 @@
  ],
  "Places": [
   {
-   "id": "data/texts/frankenstein#Cottage",
+   "id": "textsfrankenstein.txt#Cottage",
    "name": "Cottage"
   },
   {
-   "id": "data/texts/frankenstein#Forest",
+   "id": "textsfrankenstein.txt#Forest",
    "name": "Forest"
   },
   {
-   "id": "data/texts/frankenstein#Hovel",
+   "id": "textsfrankenstein.txt#Hovel",
    "name": "Hovel"
   },
   {
-   "id": "data/texts/frankenstein#Hovel",
+   "id": "textsfrankenstein.txt#Hovel",
    "name": "Hovel"
   }
  ],
  "Events": [
   {
-   "id": "data/texts/frankenstein#Old_man_offering_help",
-   "name": "Old_man_offering_help"
+   "id": "textsfrankenstein.txt#Old_man_offering_help",
+   "name": "Old_man_offering_help",
+   "takePlaceAt": {
+    "id": "textsfrankenstein.txt#place1",
+    "name": "place1"
+   },
+   "hasParticipant": {
+    "id": "textsfrankenstein.txt#fc1",
+    "name": "fc1"
+   }
   },
   {
-   "id": "data/texts/frankenstein#Old_man_seeing_the_Creature",
-   "name": "Old_man_seeing_the_Creature"
+   "id": "textsfrankenstein.txt#Old_man_seeing_the_Creature",
+   "name": "Old_man_seeing_the_Creature",
+   "takePlaceAt": {
+    "id": "textsfrankenstein.txt#place1",
+    "name": "place1"
+   },
+   "hasParticipant": {
+    "id": "textsfrankenstein.txt#fc1",
+    "name": "fc1"
+   }
   },
   {
-   "id": "data/texts/frankenstein#Felix_attacking_the_Creature",
-   "name": "Felix_attacking_the_Creature"
+   "id": "textsfrankenstein.txt#Felix_attacking_the_Creature",
+   "name": "Felix_attacking_the_Creature",
+   "takePlaceAt": {
+    "id": "textsfrankenstein.txt#place1",
+    "name": "place1"
+   },
+   "hasParticipant": {
+    "id": "textsfrankenstein.txt#fc1",
+    "name": "fc1"
+   }
   },
   {
-   "id": "data/texts/frankenstein#Sunshine_and_fresh_air",
-   "name": "Sunshine_and_fresh_air"
+   "id": "textsfrankenstein.txt#Sunshine_and_fresh_air",
+   "name": "Sunshine_and_fresh_air",
+   "takePlaceAt": {
+    "id": "textsfrankenstein.txt#place2",
+    "name": "place2"
+   },
+   "hasParticipant": {
+    "id": "textsfrankenstein.txt#fc1",
+    "name": "fc1"
+   }
   },
   {
-   "id": "data/texts/frankenstein#Planning_to_return_to_the_cottage",
-   "name": "Planning_to_return_to_the_cottage"
+   "id": "textsfrankenstein.txt#Planning_to_return_to_the_cottage",
+   "name": "Planning_to_return_to_the_cottage",
+   "takePlaceAt": {
+    "id": "textsfrankenstein.txt#place3",
+    "name": "place3"
+   },
+   "hasParticipant": {
+    "id": "textsfrankenstein.txt#fc1",
+    "name": "fc1"
+   }
   },
   {
-   "id": "data/texts/frankenstein#Feeling_of_dread",
-   "name": "Feeling_of_dread"
+   "id": "textsfrankenstein.txt#Feeling_of_dread",
+   "name": "Feeling_of_dread",
+   "takePlaceAt": {
+    "id": "textsfrankenstein.txt#place4",
+    "name": "place4"
+   },
+   "hasParticipant": {
+    "id": "textsfrankenstein.txt#fc1",
+    "name": "fc1"
+   }
   }
  ]
 }

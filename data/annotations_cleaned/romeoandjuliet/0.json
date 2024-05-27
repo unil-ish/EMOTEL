@@ -1,12 +1,20 @@
 {
  "FictionalCharacters": [
   {
-   "id": "data/texts/romeoandjuliet#Romeo",
+   "id": "textsromeoandjuliet.txt#Romeo",
    "feels": [
     {
      "name": "Love",
      "hasIntensity": 1,
      "quote": "It is the east, and Juliet is the sun!",
+     "causedBy": {
+      "id": "textsromeoandjuliet.txt#Seeing_Juliet_at_the_window",
+      "name": "Seeing_Juliet_at_the_window"
+     },
+     "hasObject": {
+      "id": "textsromeoandjuliet.txt#Juliet",
+      "name": "Juliet"
+     },
      "exactPlace": "Capulet's Garden",
      "id": "Love"
     },
@@ -14,6 +22,14 @@
      "name": "Joy",
      "hasIntensity": 0.9,
      "quote": "O blessed, blessed night. I am afeard, Being in night, all this is but a dream, Too flattering sweet to be substantial.",
+     "causedBy": {
+      "id": "textsromeoandjuliet.txt#Juliet_s_affection",
+      "name": "Juliet_s_affection"
+     },
+     "hasObject": {
+      "id": "textsromeoandjuliet.txt#Juliet",
+      "name": "Juliet"
+     },
      "exactPlace": "Capulet's Garden",
      "id": "Joy"
     }
@@ -21,12 +37,20 @@
    "name": "Romeo"
   },
   {
-   "id": "data/texts/romeoandjuliet#Juliet",
+   "id": "textsromeoandjuliet.txt#Juliet",
    "feels": [
     {
      "name": "Love",
      "hasIntensity": 1,
      "quote": "My bounty is as boundless as the sea, My love as deep; the more I give to thee, The more I have, for both are infinite.",
+     "causedBy": {
+      "id": "textsromeoandjuliet.txt#Romeo_s_love",
+      "name": "Romeo_s_love"
+     },
+     "hasObject": {
+      "id": "textsromeoandjuliet.txt#Romeo",
+      "name": "Romeo"
+     },
      "exactPlace": "Capulet's Garden",
      "id": "Love"
     },
@@ -34,6 +58,14 @@
      "name": "Sorrow",
      "hasIntensity": 0.8,
      "quote": "Parting is such sweet sorrow That I shall say good night till it be morrow.",
+     "causedBy": {
+      "id": "textsromeoandjuliet.txt#Romeo_leaving",
+      "name": "Romeo_leaving"
+     },
+     "hasObject": {
+      "id": "textsromeoandjuliet.txt#Romeo",
+      "name": "Romeo"
+     },
      "exactPlace": "Capulet's Garden",
      "id": "Sorrow"
     }
@@ -43,7 +75,7 @@
  ],
  "Places": [
   {
-   "id": "data/texts/romeoandjuliet#Capulet_s_Garden",
+   "id": "textsromeoandjuliet.txt#Capulet_s_Garden",
    "name": "Capulet_s_Garden",
    "description": "A romantic setting where Romeo and Juliet express their love for each other."
   }

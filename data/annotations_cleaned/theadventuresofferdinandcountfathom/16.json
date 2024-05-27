@@ -1,14 +1,22 @@
 {
  "FictionalCharacters": [
   {
-   "id": "data/texts/theadventuresofferdinandcountfathom#Renaldo",
+   "id": "textstheadventuresofferdinandcountfathom.txt#Renaldo",
    "feels": [
     {
      "name": "Surprise",
      "hasIntensity": 0.9,
      "quote": "At sight of these well-known features, seemingly improved with new celestial graces, the youth became a statue, expressing amazement, love, and awful adoration.",
+     "causedBy": {
+      "id": "textstheadventuresofferdinandcountfathom.txt#Seeing_Monimia_s_restored_appearance",
+      "name": "Seeing_Monimia_s_restored_appearance"
+     },
+     "hasObject": {
+      "id": "textstheadventuresofferdinandcountfathom.txt#Monimia",
+      "name": "Monimia"
+     },
      "place": {
-      "id": "data/texts/theadventuresofferdinandcountfathom#Church_vestry",
+      "id": "textstheadventuresofferdinandcountfathom.txt#Church_vestry",
       "name": "Church_vestry"
      },
      "id": "Surprise"
@@ -17,8 +25,16 @@
      "name": "Joy",
      "hasIntensity": 0.95,
      "quote": "He poured forth the dictates of his gratitude to the preservers of his happiness.",
+     "causedBy": {
+      "id": "textstheadventuresofferdinandcountfathom.txt#Learning_about_the_plan_to_reunite_with_Monimia",
+      "name": "Learning_about_the_plan_to_reunite_with_Monimia"
+     },
+     "hasObject": {
+      "id": "textstheadventuresofferdinandcountfathom.txt#Preservers_of_his_happiness",
+      "name": "Preservers_of_his_happiness"
+     },
      "place": {
-      "id": "data/texts/theadventuresofferdinandcountfathom#Church_vestry",
+      "id": "textstheadventuresofferdinandcountfathom.txt#Church_vestry",
       "name": "Church_vestry"
      },
      "id": "Joy"
@@ -27,8 +43,16 @@
      "name": "Love",
      "hasIntensity": 0.98,
      "quote": "He sealed the assent which she had smiled, with a kiss imprinted on her polished forehead.",
+     "causedBy": {
+      "id": "textstheadventuresofferdinandcountfathom.txt#Expressing_affection_towards_Monimia",
+      "name": "Expressing_affection_towards_Monimia"
+     },
+     "hasObject": {
+      "id": "textstheadventuresofferdinandcountfathom.txt#Monimia",
+      "name": "Monimia"
+     },
      "place": {
-      "id": "data/texts/theadventuresofferdinandcountfathom#Church_vestry",
+      "id": "textstheadventuresofferdinandcountfathom.txt#Church_vestry",
       "name": "Church_vestry"
      },
      "id": "Love"
@@ -37,14 +61,22 @@
    "name": "Renaldo"
   },
   {
-   "id": "data/texts/theadventuresofferdinandcountfathom#Monimia",
+   "id": "textstheadventuresofferdinandcountfathom.txt#Monimia",
    "feels": [
     {
      "name": "Joy",
      "hasIntensity": 0.9,
      "quote": "These are the joys which virtue calls her own.",
+     "causedBy": {
+      "id": "textstheadventuresofferdinandcountfathom.txt#Reuniting_with_Renaldo",
+      "name": "Reuniting_with_Renaldo"
+     },
+     "hasObject": {
+      "id": "textstheadventuresofferdinandcountfathom.txt#Reuniting_with_Renaldo",
+      "name": "Reuniting_with_Renaldo"
+     },
      "place": {
-      "id": "data/texts/theadventuresofferdinandcountfathom#Church_vestry",
+      "id": "textstheadventuresofferdinandcountfathom.txt#Church_vestry",
       "name": "Church_vestry"
      },
      "id": "Joy"
@@ -53,8 +85,16 @@
      "name": "Relief",
      "hasIntensity": 0.85,
      "quote": "begged leave to retire, that she might by repose recruit her exhausted spirits.",
+     "causedBy": {
+      "id": "textstheadventuresofferdinandcountfathom.txt#Feeling_fatigued_and_overwhelmed",
+      "name": "Feeling_fatigued_and_overwhelmed"
+     },
+     "hasObject": {
+      "id": "textstheadventuresofferdinandcountfathom.txt#Feeling_fatigued_and_overwhelmed",
+      "name": "Feeling_fatigued_and_overwhelmed"
+     },
      "place": {
-      "id": "data/texts/theadventuresofferdinandcountfathom#Madam_Clement_s_house",
+      "id": "textstheadventuresofferdinandcountfathom.txt#Madam_Clement_s_house",
       "name": "Madam_Clement_s_house"
      },
      "id": "Relief"
@@ -65,51 +105,71 @@
  ],
  "Places": [
   {
-   "id": "data/texts/theadventuresofferdinandcountfathom#Church_vestry",
+   "id": "textstheadventuresofferdinandcountfathom.txt#Church_vestry",
    "name": "Church_vestry",
    "description": "Where Renaldo saw the restored appearance of Monimia"
   },
   {
-   "id": "data/texts/theadventuresofferdinandcountfathom#Church_vestry",
+   "id": "textstheadventuresofferdinandcountfathom.txt#Church_vestry",
    "name": "Church_vestry",
    "description": "Where Renaldo expressed gratitude to the preservers of his happiness"
   },
   {
-   "id": "data/texts/theadventuresofferdinandcountfathom#Church_vestry",
+   "id": "textstheadventuresofferdinandcountfathom.txt#Church_vestry",
    "name": "Church_vestry",
    "description": "Where Renaldo expressed affection towards Monimia"
   },
   {
-   "id": "data/texts/theadventuresofferdinandcountfathom#Church_vestry",
+   "id": "textstheadventuresofferdinandcountfathom.txt#Church_vestry",
    "name": "Church_vestry",
    "description": "Where Monimia experienced joy from reuniting with Renaldo"
   },
   {
-   "id": "data/texts/theadventuresofferdinandcountfathom#Madam_Clement_s_house",
+   "id": "textstheadventuresofferdinandcountfathom.txt#Madam_Clement_s_house",
    "name": "Madam_Clement_s_house",
    "description": "Where Monimia sought relief by retiring to rest"
   }
  ],
  "Events": [
   {
-   "id": "data/texts/theadventuresofferdinandcountfathom#Seeing_Monimia_s_restored_appearance",
-   "name": "Seeing_Monimia_s_restored_appearance"
+   "id": "textstheadventuresofferdinandcountfathom.txt#Seeing_Monimia_s_restored_appearance",
+   "name": "Seeing_Monimia_s_restored_appearance",
+   "takePlaceAt": {
+    "id": "textstheadventuresofferdinandcountfathom.txt#place1",
+    "name": "place1"
+   }
   },
   {
-   "id": "data/texts/theadventuresofferdinandcountfathom#Learning_about_the_plan_to_reunite_with_Monimia",
-   "name": "Learning_about_the_plan_to_reunite_with_Monimia"
+   "id": "textstheadventuresofferdinandcountfathom.txt#Learning_about_the_plan_to_reunite_with_Monimia",
+   "name": "Learning_about_the_plan_to_reunite_with_Monimia",
+   "takePlaceAt": {
+    "id": "textstheadventuresofferdinandcountfathom.txt#place2",
+    "name": "place2"
+   }
   },
   {
-   "id": "data/texts/theadventuresofferdinandcountfathom#Expressing_affection_towards_Monimia",
-   "name": "Expressing_affection_towards_Monimia"
+   "id": "textstheadventuresofferdinandcountfathom.txt#Expressing_affection_towards_Monimia",
+   "name": "Expressing_affection_towards_Monimia",
+   "takePlaceAt": {
+    "id": "textstheadventuresofferdinandcountfathom.txt#place3",
+    "name": "place3"
+   }
   },
   {
-   "id": "data/texts/theadventuresofferdinandcountfathom#Reuniting_with_Renaldo",
-   "name": "Reuniting_with_Renaldo"
+   "id": "textstheadventuresofferdinandcountfathom.txt#Reuniting_with_Renaldo",
+   "name": "Reuniting_with_Renaldo",
+   "takePlaceAt": {
+    "id": "textstheadventuresofferdinandcountfathom.txt#place4",
+    "name": "place4"
+   }
   },
   {
-   "id": "data/texts/theadventuresofferdinandcountfathom#Feeling_fatigued_and_overwhelmed",
-   "name": "Feeling_fatigued_and_overwhelmed"
+   "id": "textstheadventuresofferdinandcountfathom.txt#Feeling_fatigued_and_overwhelmed",
+   "name": "Feeling_fatigued_and_overwhelmed",
+   "takePlaceAt": {
+    "id": "textstheadventuresofferdinandcountfathom.txt#place5",
+    "name": "place5"
+   }
   }
  ]
 }

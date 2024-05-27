@@ -1,12 +1,20 @@
 {
  "FictionalCharacters": [
   {
-   "id": "data/texts/mobydick#Bulkington",
+   "id": "textsmobydick.txt#Bulkington",
    "feels": [
     {
      "name": "Resignation",
      "hasIntensity": 0.9,
      "quote": "But as in landlessness alone resides highest truth, shoreless, indefinite as God—so, better is it to perish in that howling infinite, than be ingloriously dashed upon the lee, even if that were safety!",
+     "causedBy": {
+      "id": "textsmobydick.txt#Facing_the_storm",
+      "name": "Facing_the_storm"
+     },
+     "hasObject": {
+      "id": "textsmobydick.txt#Ocean",
+      "name": "Ocean"
+     },
      "exactPlace": "On the ship's deck",
      "id": "Resignation"
     }
@@ -14,12 +22,20 @@
    "name": "Bulkington"
   },
   {
-   "id": "data/texts/mobydick#CaptainPeleg",
+   "id": "textsmobydick.txt#CaptainPeleg",
    "feels": [
     {
      "name": "Anxiety",
      "hasIntensity": 0.8,
      "quote": "As Queequeg and I are now fairly embarked in this business of whaling; and as this business of whaling has somehow come to be regarded among landsmen as a rather unpoetical and disreputable pursuit; therefore, I am all anxiety to convince ye, ye landsmen, of the injustice hereby done to us hunters of whales.",
+     "causedBy": {
+      "id": "textsmobydick.txt#Embarking_on_the_whaling_business",
+      "name": "Embarking_on_the_whaling_business"
+     },
+     "hasObject": {
+      "id": "textsmobydick.txt#Whaling",
+      "name": "Whaling"
+     },
      "exactPlace": "On the ship's deck",
      "id": "Anxiety"
     }
@@ -27,12 +43,20 @@
    "name": "CaptainPeleg"
   },
   {
-   "id": "data/texts/mobydick#CaptainBildad",
+   "id": "textsmobydick.txt#CaptainBildad",
    "feels": [
     {
      "name": "Incoherence",
      "hasIntensity": 0.7,
      "quote": "“God bless ye, and have ye in His holy keeping, men,” murmured old Bildad, almost incoherently.",
+     "causedBy": {
+      "id": "textsmobydick.txt#Departing_from_the_ship",
+      "name": "Departing_from_the_ship"
+     },
+     "hasObject": {
+      "id": "textsmobydick.txt#Ship",
+      "name": "Ship"
+     },
      "exactPlace": "On the ship's deck",
      "id": "Incoherence"
     }
@@ -42,23 +66,35 @@
  ],
  "Places": [
   {
-   "id": "data/texts/mobydick#Ship_s_Deck",
+   "id": "textsmobydick.txt#Ship_s_Deck",
    "name": "Ship_s_Deck",
    "description": "The main deck of the whaling ship Pequod."
   }
  ],
  "Events": [
   {
-   "id": "data/texts/mobydick#Facing_the_storm",
-   "name": "Facing_the_storm"
+   "id": "textsmobydick.txt#Facing_the_storm",
+   "name": "Facing_the_storm",
+   "takePlaceAt": {
+    "id": "textsmobydick.txt#shipDeck",
+    "name": "shipDeck"
+   }
   },
   {
-   "id": "data/texts/mobydick#Embarking_on_the_whaling_business",
-   "name": "Embarking_on_the_whaling_business"
+   "id": "textsmobydick.txt#Embarking_on_the_whaling_business",
+   "name": "Embarking_on_the_whaling_business",
+   "takePlaceAt": {
+    "id": "textsmobydick.txt#shipDeck",
+    "name": "shipDeck"
+   }
   },
   {
-   "id": "data/texts/mobydick#Departing_from_the_ship",
-   "name": "Departing_from_the_ship"
+   "id": "textsmobydick.txt#Departing_from_the_ship",
+   "name": "Departing_from_the_ship",
+   "takePlaceAt": {
+    "id": "textsmobydick.txt#shipDeck",
+    "name": "shipDeck"
+   }
   }
  ]
 }

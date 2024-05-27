@@ -1,14 +1,22 @@
 {
  "FictionalCharacters": [
   {
-   "id": "data/texts/mobydick#Ahab",
+   "id": "textsmobydick.txt#Ahab",
    "feels": [
     {
      "name": "Anger",
      "hasIntensity": 0.9,
      "quote": "But as the strange captain, leaning over the pallid bulwarks, was in the act of putting his trumpet to his mouth, it somehow fell from his hand into the sea; and the wind now rising amain, he in vain strove to make himself heard without it.",
+     "causedBy": {
+      "id": "textsmobydick.txt#Losing_the_trumpet",
+      "name": "Losing_the_trumpet"
+     },
+     "hasObject": {
+      "id": "textsmobydick.txt#Trumpet",
+      "name": "Trumpet"
+     },
      "place": {
-      "id": "data/texts/mobydick#On_the_ship_s_deck",
+      "id": "textsmobydick.txt#On_the_ship_s_deck",
       "name": "On_the_ship_s_deck"
      },
      "id": "Anger"
@@ -17,8 +25,16 @@
      "name": "Fear",
      "hasIntensity": 0.8,
      "quote": "But there was more than this: the order about the shovel was almost as plainly meant to sting and insult Steelkilt, as though Radney had spat in his face.",
+     "causedBy": {
+      "id": "textsmobydick.txt#Ordering_Steelkilt_to_sweep_the_deck",
+      "name": "Ordering_Steelkilt_to_sweep_the_deck"
+     },
+     "hasObject": {
+      "id": "textsmobydick.txt#Shovel",
+      "name": "Shovel"
+     },
      "place": {
-      "id": "data/texts/mobydick#On_the_ship_s_deck",
+      "id": "textsmobydick.txt#On_the_ship_s_deck",
       "name": "On_the_ship_s_deck"
      },
      "id": "Fear"
@@ -27,14 +43,22 @@
    "name": "Ahab"
   },
   {
-   "id": "data/texts/mobydick#Steelkilt",
+   "id": "textsmobydick.txt#Steelkilt",
    "feels": [
     {
      "name": "Anger",
      "hasIntensity": 0.9,
      "quote": "‘Mr. Radney, I will not obey you. Take that hammer away, or look to yourself.’",
+     "causedBy": {
+      "id": "textsmobydick.txt#Radney_commanding_Steelkilt_to_sweep_the_deck",
+      "name": "Radney_commanding_Steelkilt_to_sweep_the_deck"
+     },
+     "hasObject": {
+      "id": "textsmobydick.txt#Hammer",
+      "name": "Hammer"
+     },
      "place": {
-      "id": "data/texts/mobydick#On_the_ship_s_deck",
+      "id": "textsmobydick.txt#On_the_ship_s_deck",
       "name": "On_the_ship_s_deck"
      },
      "id": "Anger"
@@ -43,8 +67,16 @@
      "name": "Fear",
      "hasIntensity": 0.8,
      "quote": "‘Heated and irritated as he was by his spasmodic toil at the pumps, for all his first nameless feeling of forbearance the sweating Steelkilt could but ill brook this bearing in the mate; but somehow still smothering the conflagration within him, without speaking he remained doggedly rooted to his seat, till at last the incensed Radney shook the hammer within a few inches of his face, furiously commanding him to do his bidding.’",
+     "causedBy": {
+      "id": "textsmobydick.txt#Radney_shaking_the_hammer_at_Steelkilt",
+      "name": "Radney_shaking_the_hammer_at_Steelkilt"
+     },
+     "hasObject": {
+      "id": "textsmobydick.txt#Hammer",
+      "name": "Hammer"
+     },
      "place": {
-      "id": "data/texts/mobydick#On_the_ship_s_deck",
+      "id": "textsmobydick.txt#On_the_ship_s_deck",
       "name": "On_the_ship_s_deck"
      },
      "id": "Fear"
@@ -55,38 +87,70 @@
  ],
  "Places": [
   {
-   "id": "data/texts/mobydick#On_the_ship_s_deck",
+   "id": "textsmobydick.txt#On_the_ship_s_deck",
    "name": "On_the_ship_s_deck"
   },
   {
-   "id": "data/texts/mobydick#On_the_ship_s_deck",
+   "id": "textsmobydick.txt#On_the_ship_s_deck",
    "name": "On_the_ship_s_deck"
   },
   {
-   "id": "data/texts/mobydick#On_the_ship_s_deck",
+   "id": "textsmobydick.txt#On_the_ship_s_deck",
    "name": "On_the_ship_s_deck"
   },
   {
-   "id": "data/texts/mobydick#On_the_ship_s_deck",
+   "id": "textsmobydick.txt#On_the_ship_s_deck",
    "name": "On_the_ship_s_deck"
   }
  ],
  "Events": [
   {
-   "id": "data/texts/mobydick#Losing_the_trumpet",
-   "name": "Losing_the_trumpet"
+   "id": "textsmobydick.txt#Losing_the_trumpet",
+   "name": "Losing_the_trumpet",
+   "takePlaceAt": {
+    "id": "textsmobydick.txt#place1",
+    "name": "place1"
+   },
+   "hasParticipant": {
+    "id": "textsmobydick.txt#Ahab",
+    "name": "Ahab"
+   }
   },
   {
-   "id": "data/texts/mobydick#Ordering_Steelkilt_to_sweep_the_deck",
-   "name": "Ordering_Steelkilt_to_sweep_the_deck"
+   "id": "textsmobydick.txt#Ordering_Steelkilt_to_sweep_the_deck",
+   "name": "Ordering_Steelkilt_to_sweep_the_deck",
+   "takePlaceAt": {
+    "id": "textsmobydick.txt#place2",
+    "name": "place2"
+   },
+   "hasParticipant": {
+    "id": "textsmobydick.txt#Ahab",
+    "name": "Ahab"
+   }
   },
   {
-   "id": "data/texts/mobydick#Radney_commanding_Steelkilt_to_sweep_the_deck",
-   "name": "Radney_commanding_Steelkilt_to_sweep_the_deck"
+   "id": "textsmobydick.txt#Radney_commanding_Steelkilt_to_sweep_the_deck",
+   "name": "Radney_commanding_Steelkilt_to_sweep_the_deck",
+   "takePlaceAt": {
+    "id": "textsmobydick.txt#place3",
+    "name": "place3"
+   },
+   "hasParticipant": {
+    "id": "textsmobydick.txt#Steelkilt",
+    "name": "Steelkilt"
+   }
   },
   {
-   "id": "data/texts/mobydick#Radney_shaking_the_hammer_at_Steelkilt",
-   "name": "Radney_shaking_the_hammer_at_Steelkilt"
+   "id": "textsmobydick.txt#Radney_shaking_the_hammer_at_Steelkilt",
+   "name": "Radney_shaking_the_hammer_at_Steelkilt",
+   "takePlaceAt": {
+    "id": "textsmobydick.txt#place4",
+    "name": "place4"
+   },
+   "hasParticipant": {
+    "id": "textsmobydick.txt#Steelkilt",
+    "name": "Steelkilt"
+   }
   }
  ]
 }

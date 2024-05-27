@@ -1,13 +1,21 @@
 {
  "FictionalCharacters": [
   {
-   "id": "data/texts/littlewomen#Jo_March",
+   "id": "textslittlewomen.txt#Jo_March",
    "name": "Jo_March",
    "feels": [
     {
      "name": "Trust",
      "hasIntensity": 0.8,
      "quote": "No, I had father and mother to help me, the dear babies to comfort me, and the thought that you and Amy were safe and happy, to make the troubles here easier to bear.",
+     "causedBy": {
+      "id": "textslittlewomen.txt#Having_family_support_and_knowing_loved_ones_are_s",
+      "name": "Having_family_support_and_knowing_loved_ones_are_safe"
+     },
+     "hasObject": {
+      "id": "textslittlewomen.txt#Father_and_mother_dear_babies_and_safe_and_happy_l",
+      "name": "Father_and_mother_dear_babies_and_safe_and_happy_loved_ones"
+     },
      "place": "Home",
      "id": "Trust"
     },
@@ -15,6 +23,14 @@
      "name": "Surprise",
      "hasIntensity": 0.9,
      "quote": "You are the same Jo still, dropping tears about one minute, and laughing the next. You look a little wicked now; what is it, grandma?",
+     "causedBy": {
+      "id": "textslittlewomen.txt#Laurie_s_unexpected_visit",
+      "name": "Laurie_s_unexpected_visit"
+     },
+     "hasObject": {
+      "id": "textslittlewomen.txt#Laurie_s_visit",
+      "name": "Laurie_s_visit"
+     },
      "place": "Home",
      "id": "Surprise"
     },
@@ -22,6 +38,14 @@
      "name": "Joy",
      "hasIntensity": 0.9,
      "quote": "You always were a comfort, Teddy;",
+     "causedBy": {
+      "id": "textslittlewomen.txt#Reunion_with_Laurie",
+      "name": "Reunion_with_Laurie"
+     },
+     "hasObject": {
+      "id": "textslittlewomen.txt#Reunion_with_Laurie",
+      "name": "Reunion_with_Laurie"
+     },
      "place": "Home",
      "id": "Joy"
     },
@@ -29,6 +53,14 @@
      "name": "Acceptance",
      "hasIntensity": 0.8,
      "quote": "If I shouldn't be in the way, it would be very pleasant. I begin to feel quite young already; for, somehow, all my troubles seemed to fly away when you came.",
+     "causedBy": {
+      "id": "textslittlewomen.txt#Feeling_comforted_by_Laurie_s_presence",
+      "name": "Feeling_comforted_by_Laurie_s_presence"
+     },
+     "hasObject": {
+      "id": "textslittlewomen.txt#Laurie_s_presence",
+      "name": "Laurie_s_presence"
+     },
      "place": "Home",
      "id": "Acceptance"
     },
@@ -36,6 +68,14 @@
      "name": "Love",
      "hasIntensity": 0.9,
      "quote": "You are the same Jo still, dropping tears about one minute, and laughing the next. You look a little wicked now; what is it, grandma?",
+     "causedBy": {
+      "id": "textslittlewomen.txt#Feeling_comforted_by_Laurie_s_presence",
+      "name": "Feeling_comforted_by_Laurie_s_presence"
+     },
+     "hasObject": {
+      "id": "textslittlewomen.txt#Laurie_s_presence",
+      "name": "Laurie_s_presence"
+     },
      "place": "Home",
      "id": "Love"
     }
@@ -44,31 +84,51 @@
  ],
  "Places": [
   {
-   "id": "data/texts/littlewomen#Home",
+   "id": "textslittlewomen.txt#Home",
    "name": "Home",
    "description": "Jo's residence where the emotional interactions take place."
   }
  ],
  "Events": [
   {
-   "id": "data/texts/littlewomen#Having_family_support_and_knowing_loved_ones_are_s",
-   "name": "Having_family_support_and_knowing_loved_ones_are_safe"
+   "id": "textslittlewomen.txt#Having_family_support_and_knowing_loved_ones_are_s",
+   "name": "Having_family_support_and_knowing_loved_ones_are_safe",
+   "takePlaceAt": {
+    "id": "textslittlewomen.txt#place1",
+    "name": "place1"
+   }
   },
   {
-   "id": "data/texts/littlewomen#Laurie_s_unexpected_visit",
-   "name": "Laurie_s_unexpected_visit"
+   "id": "textslittlewomen.txt#Laurie_s_unexpected_visit",
+   "name": "Laurie_s_unexpected_visit",
+   "takePlaceAt": {
+    "id": "textslittlewomen.txt#place1",
+    "name": "place1"
+   }
   },
   {
-   "id": "data/texts/littlewomen#Reunion_with_Laurie",
-   "name": "Reunion_with_Laurie"
+   "id": "textslittlewomen.txt#Reunion_with_Laurie",
+   "name": "Reunion_with_Laurie",
+   "takePlaceAt": {
+    "id": "textslittlewomen.txt#place1",
+    "name": "place1"
+   }
   },
   {
-   "id": "data/texts/littlewomen#Feeling_comforted_by_Laurie_s_presence",
-   "name": "Feeling_comforted_by_Laurie_s_presence"
+   "id": "textslittlewomen.txt#Feeling_comforted_by_Laurie_s_presence",
+   "name": "Feeling_comforted_by_Laurie_s_presence",
+   "takePlaceAt": {
+    "id": "textslittlewomen.txt#place1",
+    "name": "place1"
+   }
   },
   {
-   "id": "data/texts/littlewomen#Feeling_comforted_by_Laurie_s_presence",
-   "name": "Feeling_comforted_by_Laurie_s_presence"
+   "id": "textslittlewomen.txt#Feeling_comforted_by_Laurie_s_presence",
+   "name": "Feeling_comforted_by_Laurie_s_presence",
+   "takePlaceAt": {
+    "id": "textslittlewomen.txt#place1",
+    "name": "place1"
+   }
   }
  ]
 }

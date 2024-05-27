@@ -1,13 +1,21 @@
 {
  "FictionalCharacters": [
   {
-   "id": "data/texts/prideandprejudice#Elizabeth_Bennet",
+   "id": "textsprideandprejudice.txt#Elizabeth_Bennet",
    "name": "Elizabeth_Bennet",
    "feels": [
     {
      "name": "Perplexity",
      "hasIntensity": 0.7,
      "quote": "though a day seldom passed in which Elizabeth did not account for it clearly, there seemed little chance of her ever considering it with less perplexity.",
+     "causedBy": {
+      "id": "textsprideandprejudice.txt#Mr_Bingley_s_absence",
+      "name": "Mr_Bingley_s_absence"
+     },
+     "hasObject": {
+      "id": "textsprideandprejudice.txt#Mr_Bingley_s_absence",
+      "name": "Mr_Bingley_s_absence"
+     },
      "exactPlace": "Her own thoughts",
      "id": "Perplexity"
     },
@@ -15,6 +23,14 @@
      "name": "Indignation",
      "hasIntensity": 0.8,
      "quote": "heard it in silent indignation.",
+     "causedBy": {
+      "id": "textsprideandprejudice.txt#Miss_Bingley_s_letter",
+      "name": "Miss_Bingley_s_letter"
+     },
+     "hasObject": {
+      "id": "textsprideandprejudice.txt#Miss_Bingley_s_letter",
+      "name": "Miss_Bingley_s_letter"
+     },
      "exactPlace": "Upon hearing Miss Bingley's letter",
      "id": "Indignation"
     },
@@ -22,19 +38,35 @@
      "name": "Resentment",
      "hasIntensity": 0.9,
      "quote": "Her heart was divided between concern for her sister and resentment against all others.",
+     "causedBy": {
+      "id": "textsprideandprejudice.txt#Miss_Bingley_s_letter",
+      "name": "Miss_Bingley_s_letter"
+     },
+     "hasObject": {
+      "id": "textsprideandprejudice.txt#Miss_Bingley_s_letter",
+      "name": "Miss_Bingley_s_letter"
+     },
      "exactPlace": "Upon hearing Miss Bingley's letter",
      "id": "Resentment"
     }
    ]
   },
   {
-   "id": "data/texts/prideandprejudice#Jane_Bennet",
+   "id": "textsprideandprejudice.txt#Jane_Bennet",
    "name": "Jane_Bennet",
    "feels": [
     {
      "name": "Concern",
      "hasIntensity": 0.7,
      "quote": "Her daughter endeavoured to convince her of what she did not believe herself, that his attentions to Jane had been merely the effect of a common and transient liking.",
+     "causedBy": {
+      "id": "textsprideandprejudice.txt#Mr_Bingley_s_absence",
+      "name": "Mr_Bingley_s_absence"
+     },
+     "hasObject": {
+      "id": "textsprideandprejudice.txt#Mr_Bingley_s_absence",
+      "name": "Mr_Bingley_s_absence"
+     },
      "exactPlace": "During conversations with Elizabeth",
      "id": "Concern"
     },
@@ -42,6 +74,14 @@
      "name": "Distress",
      "hasIntensity": 0.8,
      "quote": "Her peace equally wounded.",
+     "causedBy": {
+      "id": "textsprideandprejudice.txt#Mr_Bingley_s_absence",
+      "name": "Mr_Bingley_s_absence"
+     },
+     "hasObject": {
+      "id": "textsprideandprejudice.txt#Mr_Bingley_s_absence",
+      "name": "Mr_Bingley_s_absence"
+     },
      "exactPlace": "During conversations with Elizabeth",
      "id": "Distress"
     }
@@ -50,41 +90,61 @@
  ],
  "Places": [
   {
-   "id": "data/texts/prideandprejudice#Her_own_thoughts",
+   "id": "textsprideandprejudice.txt#Her_own_thoughts",
    "name": "Her_own_thoughts",
    "description": "Where Elizabeth felt perplexity."
   },
   {
-   "id": "data/texts/prideandprejudice#Upon_hearing_Miss_Bingley_s_letter",
+   "id": "textsprideandprejudice.txt#Upon_hearing_Miss_Bingley_s_letter",
    "name": "Upon_hearing_Miss_Bingley_s_letter",
    "description": "Where Elizabeth felt indignation and resentment."
   },
   {
-   "id": "data/texts/prideandprejudice#During_conversations_with_Elizabeth",
+   "id": "textsprideandprejudice.txt#During_conversations_with_Elizabeth",
    "name": "During_conversations_with_Elizabeth",
    "description": "Where Jane felt concern and distress."
   }
  ],
  "Events": [
   {
-   "id": "data/texts/prideandprejudice#Mr_Bingley_s_absence",
-   "name": "Mr_Bingley_s_absence"
+   "id": "textsprideandprejudice.txt#Mr_Bingley_s_absence",
+   "name": "Mr_Bingley_s_absence",
+   "takePlaceAt": {
+    "id": "textsprideandprejudice.txt#place1",
+    "name": "place1"
+   }
   },
   {
-   "id": "data/texts/prideandprejudice#Miss_Bingley_s_letter",
-   "name": "Miss_Bingley_s_letter"
+   "id": "textsprideandprejudice.txt#Miss_Bingley_s_letter",
+   "name": "Miss_Bingley_s_letter",
+   "takePlaceAt": {
+    "id": "textsprideandprejudice.txt#place2",
+    "name": "place2"
+   }
   },
   {
-   "id": "data/texts/prideandprejudice#Miss_Bingley_s_letter",
-   "name": "Miss_Bingley_s_letter"
+   "id": "textsprideandprejudice.txt#Miss_Bingley_s_letter",
+   "name": "Miss_Bingley_s_letter",
+   "takePlaceAt": {
+    "id": "textsprideandprejudice.txt#place2",
+    "name": "place2"
+   }
   },
   {
-   "id": "data/texts/prideandprejudice#Mr_Bingley_s_absence",
-   "name": "Mr_Bingley_s_absence"
+   "id": "textsprideandprejudice.txt#Mr_Bingley_s_absence",
+   "name": "Mr_Bingley_s_absence",
+   "takePlaceAt": {
+    "id": "textsprideandprejudice.txt#place3",
+    "name": "place3"
+   }
   },
   {
-   "id": "data/texts/prideandprejudice#Mr_Bingley_s_absence",
-   "name": "Mr_Bingley_s_absence"
+   "id": "textsprideandprejudice.txt#Mr_Bingley_s_absence",
+   "name": "Mr_Bingley_s_absence",
+   "takePlaceAt": {
+    "id": "textsprideandprejudice.txt#place3",
+    "name": "place3"
+   }
   }
  ]
 }

@@ -1,12 +1,20 @@
 {
  "FictionalCharacters": [
   {
-   "id": "data/texts/middlemarch#Dorothea_Brooke",
+   "id": "textsmiddlemarch.txt#Dorothea_Brooke",
    "feels": [
     {
      "name": "Compassion",
      "hasIntensity": 1,
      "quote": "I know the unhappy mistakes about you. I knew them from the first moment to be mistakes. You have never done anything vile. You would not do anything dishonorable.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Lydgate_s_situation",
+      "name": "Lydgate_s_situation"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Lydgate",
+      "name": "Lydgate"
+     },
      "exactPlace": "Library",
      "id": "Compassion"
     },
@@ -14,6 +22,14 @@
      "name": "Empathy",
      "hasIntensity": 1,
      "quote": "I would take any pains to clear you. I have very little to do. There is nothing better that I can do in the world.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Desire_to_help_Lydgate",
+      "name": "Desire_to_help_Lydgate"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Lydgate",
+      "name": "Lydgate"
+     },
      "exactPlace": "Library",
      "id": "Empathy"
     },
@@ -21,6 +37,14 @@
      "name": "Hope",
      "hasIntensity": 1,
      "quote": "I think you see now that you spoke too scrupulously. The hospital would be one good; and making your life quite whole and well again would be another.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Desire_to_support_Lydgate",
+      "name": "Desire_to_support_Lydgate"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Lydgate",
+      "name": "Lydgate"
+     },
      "exactPlace": "Library",
      "id": "Hope"
     },
@@ -28,6 +52,14 @@
      "name": "Sympathy",
      "hasIntensity": 1,
      "quote": "May I go and see her? Would she accept my sympathy? I would tell her that you have not been blamable before any one’s judgment but your own.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Desire_to_comfort_Rosamond",
+      "name": "Desire_to_comfort_Rosamond"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Rosamond",
+      "name": "Rosamond"
+     },
      "exactPlace": "Library",
      "id": "Sympathy"
     }
@@ -35,12 +67,20 @@
    "name": "Dorothea_Brooke"
   },
   {
-   "id": "data/texts/middlemarch#Tertius_Lydgate",
+   "id": "textsmiddlemarch.txt#Tertius_Lydgate",
    "feels": [
     {
      "name": "Despair",
      "hasIntensity": 1,
      "quote": "I have lost all spirit about carrying on my life here.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Feeling_trapped_by_circumstances",
+      "name": "Feeling_trapped_by_circumstances"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Life_situation",
+      "name": "Life_situation"
+     },
      "exactPlace": "Library",
      "id": "Despair"
     },
@@ -48,6 +88,14 @@
      "name": "Relief",
      "hasIntensity": 1,
      "quote": "The fact is, this trouble has come upon her confusedly. We have not been able to speak to each other about it. I am not sure what is in her mind about it: she may fear that I have really done something base.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Dorothea_s_understanding",
+      "name": "Dorothea_s_understanding"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Rosamond",
+      "name": "Rosamond"
+     },
      "exactPlace": "Library",
      "id": "Relief"
     },
@@ -55,6 +103,14 @@
      "name": "Gratitude",
      "hasIntensity": 1,
      "quote": "Thank you.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Dorothea_s_belief_in_his_innocence",
+      "name": "Dorothea_s_belief_in_his_innocence"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Dorothea",
+      "name": "Dorothea"
+     },
      "exactPlace": "Library",
      "id": "Gratitude"
     },
@@ -62,6 +118,14 @@
      "name": "Vulnerability",
      "hasIntensity": 1,
      "quote": "The thing that I might like to do if I were alone, is become impossible to me. I can’t see her miserable.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Concern_for_Rosamond",
+      "name": "Concern_for_Rosamond"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Rosamond",
+      "name": "Rosamond"
+     },
      "exactPlace": "Library",
      "id": "Vulnerability"
     }
@@ -71,27 +135,59 @@
  ],
  "Places": [
   {
-   "id": "data/texts/middlemarch#Library",
+   "id": "textsmiddlemarch.txt#Library",
    "name": "Library",
    "description": "A room in the house where Dorothea and Lydgate are having a conversation."
   }
  ],
  "Events": [
   {
-   "id": "data/texts/middlemarch#Dorothea_s_desire_to_support_Lydgate",
-   "name": "Dorothea_s_desire_to_support_Lydgate"
+   "id": "textsmiddlemarch.txt#Dorothea_s_desire_to_support_Lydgate",
+   "name": "Dorothea_s_desire_to_support_Lydgate",
+   "takePlaceAt": {
+    "id": "textsmiddlemarch.txt#Library",
+    "name": "Library"
+   },
+   "hasParticipant": {
+    "id": "textsmiddlemarch.txt#Dorothea_Brooke",
+    "name": "Dorothea_Brooke"
+   }
   },
   {
-   "id": "data/texts/middlemarch#Dorothea_s_desire_to_comfort_Rosamond",
-   "name": "Dorothea_s_desire_to_comfort_Rosamond"
+   "id": "textsmiddlemarch.txt#Dorothea_s_desire_to_comfort_Rosamond",
+   "name": "Dorothea_s_desire_to_comfort_Rosamond",
+   "takePlaceAt": {
+    "id": "textsmiddlemarch.txt#Library",
+    "name": "Library"
+   },
+   "hasParticipant": {
+    "id": "textsmiddlemarch.txt#Dorothea_Brooke",
+    "name": "Dorothea_Brooke"
+   }
   },
   {
-   "id": "data/texts/middlemarch#Lydgate_feeling_trapped_by_circumstances",
-   "name": "Lydgate_feeling_trapped_by_circumstances"
+   "id": "textsmiddlemarch.txt#Lydgate_feeling_trapped_by_circumstances",
+   "name": "Lydgate_feeling_trapped_by_circumstances",
+   "takePlaceAt": {
+    "id": "textsmiddlemarch.txt#Library",
+    "name": "Library"
+   },
+   "hasParticipant": {
+    "id": "textsmiddlemarch.txt#Tertius_Lydgate",
+    "name": "Tertius_Lydgate"
+   }
   },
   {
-   "id": "data/texts/middlemarch#Dorothea_s_understanding_of_Lydgate_s_situation",
-   "name": "Dorothea_s_understanding_of_Lydgate_s_situation"
+   "id": "textsmiddlemarch.txt#Dorothea_s_understanding_of_Lydgate_s_situation",
+   "name": "Dorothea_s_understanding_of_Lydgate_s_situation",
+   "takePlaceAt": {
+    "id": "textsmiddlemarch.txt#Library",
+    "name": "Library"
+   },
+   "hasParticipant": {
+    "id": "textsmiddlemarch.txt#Dorothea_Brooke",
+    "name": "Dorothea_Brooke"
+   }
   }
  ]
 }

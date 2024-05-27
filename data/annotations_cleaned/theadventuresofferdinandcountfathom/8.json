@@ -1,15 +1,23 @@
 {
  "FictionalCharacters": [
   {
-   "id": "data/texts/theadventuresofferdinandcountfathom#Ferdinand_Fathom",
+   "id": "textstheadventuresofferdinandcountfathom.txt#Ferdinand_Fathom",
    "name": "Ferdinand_Fathom",
    "feels": [
     {
      "name": "Trust",
      "hasIntensity": 0.2,
      "quote": "He was prevailed upon to take a hand at whist or piquet, and even to wield the hazard-box; though he had hitherto declared himself an irreconcilable enemy to all sorts of play.",
+     "causedBy": {
+      "id": "textstheadventuresofferdinandcountfathom.txt#Being_prevailed_upon_to_play_games_of_chance",
+      "name": "Being_prevailed_upon_to_play_games_of_chance"
+     },
+     "hasObject": {
+      "id": "textstheadventuresofferdinandcountfathom.txt#Playing_games_of_chance",
+      "name": "Playing_games_of_chance"
+     },
      "place": {
-      "id": "data/texts/theadventuresofferdinandcountfathom#Unknown_location",
+      "id": "textstheadventuresofferdinandcountfathom.txt#Unknown_location",
       "name": "Unknown_location"
      },
      "id": "Trust"
@@ -18,8 +26,16 @@
      "name": "Surprise",
      "hasIntensity": 0.5,
      "quote": "He was deeply touched with these marks of alienation in the behaviour of his friends.",
+     "causedBy": {
+      "id": "textstheadventuresofferdinandcountfathom.txt#Alienation_of_friends",
+      "name": "Alienation_of_friends"
+     },
+     "hasObject": {
+      "id": "textstheadventuresofferdinandcountfathom.txt#Alienation_of_friends",
+      "name": "Alienation_of_friends"
+     },
      "place": {
-      "id": "data/texts/theadventuresofferdinandcountfathom#Social_gatherings",
+      "id": "textstheadventuresofferdinandcountfathom.txt#Social_gatherings",
       "name": "Social_gatherings"
      },
      "id": "Surprise"
@@ -28,8 +44,16 @@
      "name": "Anger",
      "hasIntensity": 0.3,
      "quote": "He was not a little confounded when he found himself charged with 350 attendances.",
+     "causedBy": {
+      "id": "textstheadventuresofferdinandcountfathom.txt#Excessive_charges_by_the_solicitor",
+      "name": "Excessive_charges_by_the_solicitor"
+     },
+     "hasObject": {
+      "id": "textstheadventuresofferdinandcountfathom.txt#Excessive_charges",
+      "name": "Excessive_charges"
+     },
      "place": {
-      "id": "data/texts/theadventuresofferdinandcountfathom#Solicitor_s_office",
+      "id": "textstheadventuresofferdinandcountfathom.txt#Solicitor_s_office",
       "name": "Solicitor_s_office"
      },
      "id": "Anger"
@@ -39,30 +63,54 @@
  ],
  "Places": [
   {
-   "id": "data/texts/theadventuresofferdinandcountfathom#Unknown_location",
+   "id": "textstheadventuresofferdinandcountfathom.txt#Unknown_location",
    "name": "Unknown_location"
   },
   {
-   "id": "data/texts/theadventuresofferdinandcountfathom#Social_gatherings",
+   "id": "textstheadventuresofferdinandcountfathom.txt#Social_gatherings",
    "name": "Social_gatherings"
   },
   {
-   "id": "data/texts/theadventuresofferdinandcountfathom#Solicitor_s_office",
+   "id": "textstheadventuresofferdinandcountfathom.txt#Solicitor_s_office",
    "name": "Solicitor_s_office"
   }
  ],
  "Events": [
   {
-   "id": "data/texts/theadventuresofferdinandcountfathom#Being_prevailed_upon_to_play_games_of_chance",
-   "name": "Being_prevailed_upon_to_play_games_of_chance"
+   "id": "textstheadventuresofferdinandcountfathom.txt#Being_prevailed_upon_to_play_games_of_chance",
+   "name": "Being_prevailed_upon_to_play_games_of_chance",
+   "takePlaceAt": {
+    "id": "textstheadventuresofferdinandcountfathom.txt#place1",
+    "name": "place1"
+   },
+   "hasParticipant": {
+    "id": "textstheadventuresofferdinandcountfathom.txt#Fathom",
+    "name": "Fathom"
+   }
   },
   {
-   "id": "data/texts/theadventuresofferdinandcountfathom#Alienation_of_friends",
-   "name": "Alienation_of_friends"
+   "id": "textstheadventuresofferdinandcountfathom.txt#Alienation_of_friends",
+   "name": "Alienation_of_friends",
+   "takePlaceAt": {
+    "id": "textstheadventuresofferdinandcountfathom.txt#place2",
+    "name": "place2"
+   },
+   "hasParticipant": {
+    "id": "textstheadventuresofferdinandcountfathom.txt#Fathom",
+    "name": "Fathom"
+   }
   },
   {
-   "id": "data/texts/theadventuresofferdinandcountfathom#Excessive_charges_by_the_solicitor",
-   "name": "Excessive_charges_by_the_solicitor"
+   "id": "textstheadventuresofferdinandcountfathom.txt#Excessive_charges_by_the_solicitor",
+   "name": "Excessive_charges_by_the_solicitor",
+   "takePlaceAt": {
+    "id": "textstheadventuresofferdinandcountfathom.txt#place3",
+    "name": "place3"
+   },
+   "hasParticipant": {
+    "id": "textstheadventuresofferdinandcountfathom.txt#Fathom",
+    "name": "Fathom"
+   }
   }
  ]
 }

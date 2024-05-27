@@ -1,15 +1,23 @@
 {
  "FictionalCharacters": [
   {
-   "id": "data/texts/middlemarch#Mr_Borthrop_Trumbull",
+   "id": "textsmiddlemarch.txt#Mr_Borthrop_Trumbull",
    "name": "Mr_Borthrop_Trumbull",
    "feels": [
     {
      "name": "Excitement",
      "hasIntensity": 0.8,
      "quote": "Mr. Trumbull was enjoying the utmost activity of his great faculties.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#The_auction_sale",
+      "name": "The_auction_sale"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Furniture_books_and_pictures",
+      "name": "Furniture_books_and_pictures"
+     },
      "place": {
-      "id": "data/texts/middlemarch#Mr_Larcher_s_house",
+      "id": "textsmiddlemarch.txt#Mr_Larcher_s_house",
       "name": "Mr_Larcher_s_house"
      },
      "id": "Excitement"
@@ -17,15 +25,19 @@
    ]
   },
   {
-   "id": "data/texts/middlemarch#Will_Ladislaw",
+   "id": "textsmiddlemarch.txt#Will_Ladislaw",
    "name": "Will_Ladislaw",
    "feels": [
     {
      "name": "Defiance",
      "hasIntensity": 0.9,
      "quote": "Will was in a defiant mood, his consciousness being deeply stung with the thought that the people who looked at him probably knew a fact tantamount to an accusation against him.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Being_at_the_auction_sale",
+      "name": "Being_at_the_auction_sale"
+     },
      "place": {
-      "id": "data/texts/middlemarch#The_auction_sale",
+      "id": "textsmiddlemarch.txt#The_auction_sale",
       "name": "The_auction_sale"
      },
      "id": "Defiance"
@@ -34,8 +46,12 @@
      "name": "Relief",
      "hasIntensity": 0.7,
      "quote": "At length the 'Supper at Emmaus' was brought forward, to Will's immense relief.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#The_Supper_at_Emmaus_painting_being_brought_forwar",
+      "name": "The_Supper_at_Emmaus_painting_being_brought_forward"
+     },
      "place": {
-      "id": "data/texts/middlemarch#The_auction_sale",
+      "id": "textsmiddlemarch.txt#The_auction_sale",
       "name": "The_auction_sale"
      },
      "id": "Relief"
@@ -45,33 +61,45 @@
  ],
  "Places": [
   {
-   "id": "data/texts/middlemarch#Mr_Larcher_s_house",
+   "id": "textsmiddlemarch.txt#Mr_Larcher_s_house",
    "name": "Mr_Larcher_s_house",
    "description": "The location of the auction sale"
   },
   {
-   "id": "data/texts/middlemarch#The_auction_sale",
+   "id": "textsmiddlemarch.txt#The_auction_sale",
    "name": "The_auction_sale",
    "description": "The venue where the auction is taking place"
   },
   {
-   "id": "data/texts/middlemarch#The_auction_sale",
+   "id": "textsmiddlemarch.txt#The_auction_sale",
    "name": "The_auction_sale",
    "description": "The venue where the auction is taking place"
   }
  ],
  "Events": [
   {
-   "id": "data/texts/middlemarch#The_auction_sale",
-   "name": "The_auction_sale"
+   "id": "textsmiddlemarch.txt#The_auction_sale",
+   "name": "The_auction_sale",
+   "takePlaceAt": {
+    "id": "textsmiddlemarch.txt#place1",
+    "name": "place1"
+   }
   },
   {
-   "id": "data/texts/middlemarch#Being_at_the_auction_sale",
-   "name": "Being_at_the_auction_sale"
+   "id": "textsmiddlemarch.txt#Being_at_the_auction_sale",
+   "name": "Being_at_the_auction_sale",
+   "takePlaceAt": {
+    "id": "textsmiddlemarch.txt#place2",
+    "name": "place2"
+   }
   },
   {
-   "id": "data/texts/middlemarch#The_Supper_at_Emmaus_painting_being_brought_forwar",
-   "name": "The_Supper_at_Emmaus_painting_being_brought_forward"
+   "id": "textsmiddlemarch.txt#The_Supper_at_Emmaus_painting_being_brought_forwar",
+   "name": "The_Supper_at_Emmaus_painting_being_brought_forward",
+   "takePlaceAt": {
+    "id": "textsmiddlemarch.txt#place3",
+    "name": "place3"
+   }
   }
  ]
 }

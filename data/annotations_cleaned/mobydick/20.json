@@ -1,14 +1,22 @@
 {
  "FictionalCharacters": [
   {
-   "id": "data/texts/mobydick#Ahab",
+   "id": "textsmobydick.txt#Ahab",
    "feels": [
     {
      "name": "Anger",
      "hasIntensity": 0.7,
      "quote": "Oh, devilish tantalization of the gods!",
+     "causedBy": {
+      "id": "textsmobydick.txt#Observing_Queequeg_s_coffin",
+      "name": "Observing_Queequeg_s_coffin"
+     },
+     "hasObject": {
+      "id": "textsmobydick.txt#Queequeg_s_coffin",
+      "name": "Queequeg_s_coffin"
+     },
      "place": {
-      "id": "data/texts/mobydick#Beside_the_mizen_rigging",
+      "id": "textsmobydick.txt#Beside_the_mizen_rigging",
       "name": "Beside_the_mizen_rigging"
      },
      "id": "Anger"
@@ -17,8 +25,16 @@
      "name": "Joy",
      "hasIntensity": 0.6,
      "quote": "Aye, I come!",
+     "causedBy": {
+      "id": "textsmobydick.txt#Hearing_the_call_of_the_ocean",
+      "name": "Hearing_the_call_of_the_ocean"
+     },
+     "hasObject": {
+      "id": "textsmobydick.txt#Call_of_the_ocean",
+      "name": "Call_of_the_ocean"
+     },
      "place": {
-      "id": "data/texts/mobydick#By_the_ocean",
+      "id": "textsmobydick.txt#By_the_ocean",
       "name": "By_the_ocean"
      },
      "id": "Joy"
@@ -27,8 +43,16 @@
      "name": "Impatience",
      "hasIntensity": 0.8,
      "quote": "In no Paradise myself, I am impatient of all misery in others that is not mad.",
+     "causedBy": {
+      "id": "textsmobydick.txt#Feeling_disconnected_from_others_misery",
+      "name": "Feeling_disconnected_from_others_misery"
+     },
+     "hasObject": {
+      "id": "textsmobydick.txt#Others_misery",
+      "name": "Others_misery"
+     },
      "place": {
-      "id": "data/texts/mobydick#By_the_forge",
+      "id": "textsmobydick.txt#By_the_forge",
       "name": "By_the_forge"
      },
      "id": "Impatience"
@@ -37,14 +61,22 @@
    "name": "Ahab"
   },
   {
-   "id": "data/texts/mobydick#Perth",
+   "id": "textsmobydick.txt#Perth",
    "feels": [
     {
      "name": "Resignation",
      "hasIntensity": 0.9,
      "quote": "I am past scorching; not easily can’st thou scorch a scar.",
+     "causedBy": {
+      "id": "textsmobydick.txt#Reflecting_on_past_experiences",
+      "name": "Reflecting_on_past_experiences"
+     },
+     "hasObject": {
+      "id": "textsmobydick.txt#Past_experiences",
+      "name": "Past_experiences"
+     },
      "place": {
-      "id": "data/texts/mobydick#By_the_forge",
+      "id": "textsmobydick.txt#By_the_forge",
       "name": "By_the_forge"
      },
      "id": "Resignation"
@@ -55,42 +87,58 @@
  ],
  "Places": [
   {
-   "id": "data/texts/mobydick#Beside_the_mizen_rigging",
+   "id": "textsmobydick.txt#Beside_the_mizen_rigging",
    "name": "Beside_the_mizen_rigging",
    "description": "Aboard the ship, near the mizen rigging."
   },
   {
-   "id": "data/texts/mobydick#By_the_ocean",
+   "id": "textsmobydick.txt#By_the_ocean",
    "name": "By_the_ocean",
    "description": "Standing near the ocean, hearing the call of the sea."
   },
   {
-   "id": "data/texts/mobydick#By_the_forge",
+   "id": "textsmobydick.txt#By_the_forge",
    "name": "By_the_forge",
    "description": "Standing between the forge and anvil."
   },
   {
-   "id": "data/texts/mobydick#By_the_forge",
+   "id": "textsmobydick.txt#By_the_forge",
    "name": "By_the_forge",
    "description": "Standing between the forge and anvil."
   }
  ],
  "Events": [
   {
-   "id": "data/texts/mobydick#Observing_Queequeg_s_coffin",
-   "name": "Observing_Queequeg_s_coffin"
+   "id": "textsmobydick.txt#Observing_Queequeg_s_coffin",
+   "name": "Observing_Queequeg_s_coffin",
+   "takePlaceAt": {
+    "id": "textsmobydick.txt#place1",
+    "name": "place1"
+   }
   },
   {
-   "id": "data/texts/mobydick#Hearing_the_call_of_the_ocean",
-   "name": "Hearing_the_call_of_the_ocean"
+   "id": "textsmobydick.txt#Hearing_the_call_of_the_ocean",
+   "name": "Hearing_the_call_of_the_ocean",
+   "takePlaceAt": {
+    "id": "textsmobydick.txt#place2",
+    "name": "place2"
+   }
   },
   {
-   "id": "data/texts/mobydick#Feeling_disconnected_from_others_misery",
-   "name": "Feeling_disconnected_from_others_misery"
+   "id": "textsmobydick.txt#Feeling_disconnected_from_others_misery",
+   "name": "Feeling_disconnected_from_others_misery",
+   "takePlaceAt": {
+    "id": "textsmobydick.txt#place3",
+    "name": "place3"
+   }
   },
   {
-   "id": "data/texts/mobydick#Reflecting_on_past_experiences",
-   "name": "Reflecting_on_past_experiences"
+   "id": "textsmobydick.txt#Reflecting_on_past_experiences",
+   "name": "Reflecting_on_past_experiences",
+   "takePlaceAt": {
+    "id": "textsmobydick.txt#place4",
+    "name": "place4"
+   }
   }
  ]
 }

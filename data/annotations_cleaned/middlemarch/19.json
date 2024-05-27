@@ -1,15 +1,23 @@
 {
  "FictionalCharacters": [
   {
-   "id": "data/texts/middlemarch#Mr_Toller",
+   "id": "textsmiddlemarch.txt#Mr_Toller",
    "name": "Mr_Toller",
    "feels": [
     {
      "name": "Contempt",
      "hasIntensity": 0.7,
      "quote": "Brooke has taken him up, because that is what no man in his senses could have expected.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Mr_Brooke_taking_up_Ladislaw",
+      "name": "Mr_Brooke_taking_up_Ladislaw"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Will_Ladislaw",
+      "name": "Will_Ladislaw"
+     },
      "place": {
-      "id": "data/texts/middlemarch#Middlemarch",
+      "id": "textsmiddlemarch.txt#Middlemarch",
       "name": "Middlemarch"
      },
      "id": "Contempt"
@@ -18,8 +26,16 @@
      "name": "Disgust",
      "hasIntensity": 0.6,
      "quote": "That is fine, my dear fellow. But your cure must begin somewhere, and put it that a thousand things which debase a population can never be reformed without this particular reform to begin with.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Discussion_on_reform",
+      "name": "Discussion_on_reform"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Reform",
+      "name": "Reform"
+     },
      "place": {
-      "id": "data/texts/middlemarch#Lydgate_s_house",
+      "id": "textsmiddlemarch.txt#Lydgate_s_house",
       "name": "Lydgate_s_house"
      },
      "id": "Disgust"
@@ -28,8 +44,16 @@
      "name": "Annoyance",
      "hasIntensity": 0.8,
      "quote": "How very unpleasant you both are this evening!",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Disagreement_between_Lydgate_and_Ladislaw",
+      "name": "Disagreement_between_Lydgate_and_Ladislaw"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Disagreement",
+      "name": "Disagreement"
+     },
      "place": {
-      "id": "data/texts/middlemarch#Lydgate_s_house",
+      "id": "textsmiddlemarch.txt#Lydgate_s_house",
       "name": "Lydgate_s_house"
      },
      "id": "Annoyance"
@@ -37,15 +61,23 @@
    ]
   },
   {
-   "id": "data/texts/middlemarch#Will_Ladislaw",
+   "id": "textsmiddlemarch.txt#Will_Ladislaw",
    "name": "Will_Ladislaw",
    "feels": [
     {
      "name": "Surprise",
      "hasIntensity": 0.7,
      "quote": "Its effect when he went to his own rooms was to make him sit up half the night, thinking over again, under a new irritation, all that he had before thought of his having settled in Middlemarch and harnessed himself with Mr. Brooke.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Discussion_with_Lydgate",
+      "name": "Discussion_with_Lydgate"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Discussion",
+      "name": "Discussion"
+     },
      "place": {
-      "id": "data/texts/middlemarch#Lydgate_s_house",
+      "id": "textsmiddlemarch.txt#Lydgate_s_house",
       "name": "Lydgate_s_house"
      },
      "id": "Surprise"
@@ -54,8 +86,16 @@
      "name": "Restlessness",
      "hasIntensity": 0.8,
      "quote": "Its effect when he went to his own rooms was to make him sit up half the night, thinking over again, under a new irritation, all that he had before thought of his having settled in Middlemarch and harnessed himself with Mr. Brooke.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Discussion_with_Lydgate",
+      "name": "Discussion_with_Lydgate"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Discussion",
+      "name": "Discussion"
+     },
      "place": {
-      "id": "data/texts/middlemarch#Lydgate_s_house",
+      "id": "textsmiddlemarch.txt#Lydgate_s_house",
       "name": "Lydgate_s_house"
      },
      "id": "Restlessness"
@@ -64,8 +104,16 @@
      "name": "Irritation",
      "hasIntensity": 0.9,
      "quote": "Its effect when he went to his own rooms was to make him sit up half the night, thinking over again, under a new irritation, all that he had before thought of his having settled in Middlemarch and harnessed himself with Mr. Brooke.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Discussion_with_Lydgate",
+      "name": "Discussion_with_Lydgate"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Discussion",
+      "name": "Discussion"
+     },
      "place": {
-      "id": "data/texts/middlemarch#Lydgate_s_house",
+      "id": "textsmiddlemarch.txt#Lydgate_s_house",
       "name": "Lydgate_s_house"
      },
      "id": "Irritation"
@@ -73,15 +121,23 @@
    ]
   },
   {
-   "id": "data/texts/middlemarch#Rosamond",
+   "id": "textsmiddlemarch.txt#Rosamond",
    "name": "Rosamond",
    "feels": [
     {
      "name": "Mild_Neutrality",
      "hasIntensity": 0.6,
      "quote": "“Poor Rosy!” said Lydgate, putting out his hand to her as she was passing him. “Disputation is not amusing to cherubs. Have some music. Ask Ladislaw to sing with you.”",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Disagreement_between_Lydgate_and_Ladislaw",
+      "name": "Disagreement_between_Lydgate_and_Ladislaw"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Disagreement",
+      "name": "Disagreement"
+     },
      "place": {
-      "id": "data/texts/middlemarch#Lydgate_s_house",
+      "id": "textsmiddlemarch.txt#Lydgate_s_house",
       "name": "Lydgate_s_house"
      },
      "id": "Mild_Neutrality"
@@ -91,45 +147,45 @@
  ],
  "Places": [
   {
-   "id": "data/texts/middlemarch#Middlemarch",
+   "id": "textsmiddlemarch.txt#Middlemarch",
    "name": "Middlemarch"
   },
   {
-   "id": "data/texts/middlemarch#Lydgate_s_house",
+   "id": "textsmiddlemarch.txt#Lydgate_s_house",
    "name": "Lydgate_s_house"
   },
   {
-   "id": "data/texts/middlemarch#Lydgate_s_house",
+   "id": "textsmiddlemarch.txt#Lydgate_s_house",
    "name": "Lydgate_s_house"
   },
   {
-   "id": "data/texts/middlemarch#Lydgate_s_house",
+   "id": "textsmiddlemarch.txt#Lydgate_s_house",
    "name": "Lydgate_s_house"
   },
   {
-   "id": "data/texts/middlemarch#Lydgate_s_house",
+   "id": "textsmiddlemarch.txt#Lydgate_s_house",
    "name": "Lydgate_s_house"
   }
  ],
  "Events": [
   {
-   "id": "data/texts/middlemarch#Mr_Brooke_taking_up_Ladislaw",
+   "id": "textsmiddlemarch.txt#Mr_Brooke_taking_up_Ladislaw",
    "name": "Mr_Brooke_taking_up_Ladislaw"
   },
   {
-   "id": "data/texts/middlemarch#Discussion_on_reform",
+   "id": "textsmiddlemarch.txt#Discussion_on_reform",
    "name": "Discussion_on_reform"
   },
   {
-   "id": "data/texts/middlemarch#Disagreement_between_Lydgate_and_Ladislaw",
+   "id": "textsmiddlemarch.txt#Disagreement_between_Lydgate_and_Ladislaw",
    "name": "Disagreement_between_Lydgate_and_Ladislaw"
   },
   {
-   "id": "data/texts/middlemarch#Discussion_with_Lydgate",
+   "id": "textsmiddlemarch.txt#Discussion_with_Lydgate",
    "name": "Discussion_with_Lydgate"
   },
   {
-   "id": "data/texts/middlemarch#Disagreement_between_Lydgate_and_Ladislaw",
+   "id": "textsmiddlemarch.txt#Disagreement_between_Lydgate_and_Ladislaw",
    "name": "Disagreement_between_Lydgate_and_Ladislaw"
   }
  ]

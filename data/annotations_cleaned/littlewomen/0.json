@@ -1,13 +1,21 @@
 {
  "FictionalCharacters": [
   {
-   "id": "data/texts/littlewomen#Jo",
+   "id": "textslittlewomen.txt#Jo",
    "name": "Jo",
    "feels": [
     {
      "name": "Joy",
      "hasIntensity": 0.9,
      "quote": "A universal shriek arose as the russet boots waved wildly from the wreck, and a golden head emerged, exclaiming, 'I told you so! I told you so!'",
+     "causedBy": {
+      "id": "textslittlewomen.txt#Successful_performance_of_the_Operatic_Tragedy",
+      "name": "Successful_performance_of_the_Operatic_Tragedy"
+     },
+     "hasObject": {
+      "id": "textslittlewomen.txt#Russet_boots",
+      "name": "Russet_boots"
+     },
      "exactPlace": "During the performance of the Operatic Tragedy",
      "id": "Joy"
     },
@@ -15,6 +23,14 @@
      "name": "Joy",
      "hasIntensity": 0.8,
      "quote": "A good deal of hammering went on before the curtain rose again; but when it became evident what a masterpiece of stage-carpentering had been got up, no one murmured at the delay.",
+     "causedBy": {
+      "id": "textslittlewomen.txt#Impressive_stagecarpentering",
+      "name": "Impressive_stagecarpentering"
+     },
+     "hasObject": {
+      "id": "textslittlewomen.txt#Stage_set",
+      "name": "Stage_set"
+     },
      "exactPlace": "During the preparation for the evening festivities",
      "id": "Joy"
     },
@@ -22,19 +38,35 @@
      "name": "Joy",
      "hasIntensity": 0.9,
      "quote": "It was like Marmee to get up a little treat for them; but anything so fine as this was unheard-of since the departed days of plenty.",
+     "causedBy": {
+      "id": "textslittlewomen.txt#Surprise_supper",
+      "name": "Surprise_supper"
+     },
+     "hasObject": {
+      "id": "textslittlewomen.txt#Supper_treats",
+      "name": "Supper_treats"
+     },
      "exactPlace": "During the surprise supper",
      "id": "Joy"
     }
    ]
   },
   {
-   "id": "data/texts/littlewomen#Meg",
+   "id": "textslittlewomen.txt#Meg",
    "name": "Meg",
    "feels": [
     {
      "name": "Joy",
      "hasIntensity": 0.8,
      "quote": "A good deal of hammering went on before the curtain rose again; but when it became evident what a masterpiece of stage-carpentering had been got up, no one murmured at the delay.",
+     "causedBy": {
+      "id": "textslittlewomen.txt#Impressive_stagecarpentering",
+      "name": "Impressive_stagecarpentering"
+     },
+     "hasObject": {
+      "id": "textslittlewomen.txt#Stage_set",
+      "name": "Stage_set"
+     },
      "exactPlace": "During the preparation for the evening festivities",
      "id": "Joy"
     },
@@ -42,19 +74,35 @@
      "name": "Joy",
      "hasIntensity": 0.9,
      "quote": "It was like Marmee to get up a little treat for them; but anything so fine as this was unheard-of since the departed days of plenty.",
+     "causedBy": {
+      "id": "textslittlewomen.txt#Surprise_supper",
+      "name": "Surprise_supper"
+     },
+     "hasObject": {
+      "id": "textslittlewomen.txt#Supper_treats",
+      "name": "Supper_treats"
+     },
      "exactPlace": "During the surprise supper",
      "id": "Joy"
     }
    ]
   },
   {
-   "id": "data/texts/littlewomen#Amy",
+   "id": "textslittlewomen.txt#Amy",
    "name": "Amy",
    "feels": [
     {
      "name": "Joy",
      "hasIntensity": 0.9,
      "quote": "A good deal of hammering went on before the curtain rose again; but when it became evident what a masterpiece of stage-carpentering had been got up, no one murmured at the delay.",
+     "causedBy": {
+      "id": "textslittlewomen.txt#Impressive_stagecarpentering",
+      "name": "Impressive_stagecarpentering"
+     },
+     "hasObject": {
+      "id": "textslittlewomen.txt#Stage_set",
+      "name": "Stage_set"
+     },
      "exactPlace": "During the preparation for the evening festivities",
      "id": "Joy"
     },
@@ -62,19 +110,35 @@
      "name": "Joy",
      "hasIntensity": 0.9,
      "quote": "It was like Marmee to get up a little treat for them; but anything so fine as this was unheard-of since the departed days of plenty.",
+     "causedBy": {
+      "id": "textslittlewomen.txt#Surprise_supper",
+      "name": "Surprise_supper"
+     },
+     "hasObject": {
+      "id": "textslittlewomen.txt#Supper_treats",
+      "name": "Supper_treats"
+     },
      "exactPlace": "During the surprise supper",
      "id": "Joy"
     }
    ]
   },
   {
-   "id": "data/texts/littlewomen#Beth",
+   "id": "textslittlewomen.txt#Beth",
    "name": "Beth",
    "feels": [
     {
      "name": "Joy",
      "hasIntensity": 0.9,
      "quote": "A good deal of hammering went on before the curtain rose again; but when it became evident what a masterpiece of stage-carpentering had been got up, no one murmured at the delay.",
+     "causedBy": {
+      "id": "textslittlewomen.txt#Impressive_stagecarpentering",
+      "name": "Impressive_stagecarpentering"
+     },
+     "hasObject": {
+      "id": "textslittlewomen.txt#Stage_set",
+      "name": "Stage_set"
+     },
      "exactPlace": "During the preparation for the evening festivities",
      "id": "Joy"
     },
@@ -82,6 +146,14 @@
      "name": "Joy",
      "hasIntensity": 0.9,
      "quote": "It was like Marmee to get up a little treat for them; but anything so fine as this was unheard-of since the departed days of plenty.",
+     "causedBy": {
+      "id": "textslittlewomen.txt#Surprise_supper",
+      "name": "Surprise_supper"
+     },
+     "hasObject": {
+      "id": "textslittlewomen.txt#Supper_treats",
+      "name": "Supper_treats"
+     },
      "exactPlace": "During the surprise supper",
      "id": "Joy"
     }

@@ -1,15 +1,23 @@
 {
  "FictionalCharacters": [
   {
-   "id": "data/texts/prideandprejudice#Elizabeth_Bennet",
+   "id": "textsprideandprejudice.txt#Elizabeth_Bennet",
    "name": "Elizabeth_Bennet",
    "feels": [
     {
      "name": "Surprise",
      "hasIntensity": 0.6,
      "quote": "Before Elizabeth had time for anything but a blush of surprise, Mrs. Bennet instantly answered...",
+     "causedBy": {
+      "id": "textsprideandprejudice.txt#Mrs_Bennet_s_quick_response",
+      "name": "Mrs_Bennet_s_quick_response"
+     },
+     "hasObject": {
+      "id": "textsprideandprejudice.txt#Mrs_Bennet_s_reaction",
+      "name": "Mrs_Bennet_s_reaction"
+     },
      "place": {
-      "id": "data/texts/prideandprejudice#Longbourn_estate",
+      "id": "textsprideandprejudice.txt#Longbourn_estate",
       "name": "Longbourn_estate"
      },
      "id": "Surprise"
@@ -18,8 +26,16 @@
      "name": "Joy",
      "hasIntensity": 0.7,
      "quote": "Elizabeth now began to revive...",
+     "causedBy": {
+      "id": "textsprideandprejudice.txt#The_interval_of_tranquillity",
+      "name": "The_interval_of_tranquillity"
+     },
+     "hasObject": {
+      "id": "textsprideandprejudice.txt#Tranquillity",
+      "name": "Tranquillity"
+     },
      "place": {
-      "id": "data/texts/prideandprejudice#Longbourn_estate",
+      "id": "textsprideandprejudice.txt#Longbourn_estate",
       "name": "Longbourn_estate"
      },
      "id": "Joy"
@@ -28,8 +44,16 @@
      "name": "Distress",
      "hasIntensity": 0.8,
      "quote": "she tried to conceal, by incessant employment, the feelings which were divided between distress and diversion...",
+     "causedBy": {
+      "id": "textsprideandprejudice.txt#Feeling_divided_between_distress_and_diversion",
+      "name": "Feeling_divided_between_distress_and_diversion"
+     },
+     "hasObject": {
+      "id": "textsprideandprejudice.txt#Feelings",
+      "name": "Feelings"
+     },
      "place": {
-      "id": "data/texts/prideandprejudice#Longbourn_estate",
+      "id": "textsprideandprejudice.txt#Longbourn_estate",
       "name": "Longbourn_estate"
      },
      "id": "Distress"
@@ -38,8 +62,16 @@
      "name": "Disbelief",
      "hasIntensity": 0.9,
      "quote": "To such perseverance in wilful self-deception Elizabeth would make no reply...",
+     "causedBy": {
+      "id": "textsprideandprejudice.txt#Mr_Collins_selfdeception",
+      "name": "Mr_Collins_selfdeception"
+     },
+     "hasObject": {
+      "id": "textsprideandprejudice.txt#Selfdeception",
+      "name": "Selfdeception"
+     },
      "place": {
-      "id": "data/texts/prideandprejudice#Longbourn_estate",
+      "id": "textsprideandprejudice.txt#Longbourn_estate",
       "name": "Longbourn_estate"
      },
      "id": "Disbelief"
@@ -47,15 +79,23 @@
    ]
   },
   {
-   "id": "data/texts/prideandprejudice#Mr_Collins",
+   "id": "textsprideandprejudice.txt#Mr_Collins",
    "name": "Mr_Collins",
    "feels": [
     {
      "name": "Hope",
      "hasIntensity": 0.7,
      "quote": "“Upon my word, sir,” cried Elizabeth, “your hope is rather an extraordinary one after my declaration...",
+     "causedBy": {
+      "id": "textsprideandprejudice.txt#Hope_for_a_favourable_answer",
+      "name": "Hope_for_a_favourable_answer"
+     },
+     "hasObject": {
+      "id": "textsprideandprejudice.txt#Hope",
+      "name": "Hope"
+     },
      "place": {
-      "id": "data/texts/prideandprejudice#Longbourn_estate",
+      "id": "textsprideandprejudice.txt#Longbourn_estate",
       "name": "Longbourn_estate"
      },
      "id": "Hope"
@@ -64,8 +104,16 @@
      "name": "Pleasure",
      "hasIntensity": 0.8,
      "quote": "Mr. Collins received and returned these felicitations with equal pleasure...",
+     "causedBy": {
+      "id": "textsprideandprejudice.txt#Felicitations_from_Mrs_Bennet",
+      "name": "Felicitations_from_Mrs_Bennet"
+     },
+     "hasObject": {
+      "id": "textsprideandprejudice.txt#Felicitations",
+      "name": "Felicitations"
+     },
      "place": {
-      "id": "data/texts/prideandprejudice#Longbourn_estate",
+      "id": "textsprideandprejudice.txt#Longbourn_estate",
       "name": "Longbourn_estate"
      },
      "id": "Pleasure"
@@ -74,8 +122,16 @@
      "name": "Satisfaction",
      "hasIntensity": 0.9,
      "quote": "Mr. Collins proceeded to relate the particulars of their interview, with the result of which he trusted he had every reason to be satisfied...",
+     "causedBy": {
+      "id": "textsprideandprejudice.txt#Satisfaction_with_the_interview",
+      "name": "Satisfaction_with_the_interview"
+     },
+     "hasObject": {
+      "id": "textsprideandprejudice.txt#Interview_result",
+      "name": "Interview_result"
+     },
      "place": {
-      "id": "data/texts/prideandprejudice#Longbourn_estate",
+      "id": "textsprideandprejudice.txt#Longbourn_estate",
       "name": "Longbourn_estate"
      },
      "id": "Satisfaction"
@@ -84,8 +140,16 @@
      "name": "Determination",
      "hasIntensity": 0.8,
      "quote": "“But depend upon it, Mr. Collins,” she added, “that Lizzy shall be brought to reason...",
+     "causedBy": {
+      "id": "textsprideandprejudice.txt#Determination_to_bring_Elizabeth_to_reason",
+      "name": "Determination_to_bring_Elizabeth_to_reason"
+     },
+     "hasObject": {
+      "id": "textsprideandprejudice.txt#Bringing_Elizabeth_to_reason",
+      "name": "Bringing_Elizabeth_to_reason"
+     },
      "place": {
-      "id": "data/texts/prideandprejudice#Longbourn_estate",
+      "id": "textsprideandprejudice.txt#Longbourn_estate",
       "name": "Longbourn_estate"
      },
      "id": "Determination"
@@ -95,41 +159,41 @@
  ],
  "Places": [
   {
-   "id": "data/texts/prideandprejudice#Longbourn_estate",
+   "id": "textsprideandprejudice.txt#Longbourn_estate",
    "name": "Longbourn_estate"
   }
  ],
  "Events": [
   {
-   "id": "data/texts/prideandprejudice#Mrs_Bennet_s_quick_response",
+   "id": "textsprideandprejudice.txt#Mrs_Bennet_s_quick_response",
    "name": "Mrs_Bennet_s_quick_response"
   },
   {
-   "id": "data/texts/prideandprejudice#The_interval_of_tranquillity",
+   "id": "textsprideandprejudice.txt#The_interval_of_tranquillity",
    "name": "The_interval_of_tranquillity"
   },
   {
-   "id": "data/texts/prideandprejudice#Feeling_divided_between_distress_and_diversion",
+   "id": "textsprideandprejudice.txt#Feeling_divided_between_distress_and_diversion",
    "name": "Feeling_divided_between_distress_and_diversion"
   },
   {
-   "id": "data/texts/prideandprejudice#Mr_Collins_selfdeception",
+   "id": "textsprideandprejudice.txt#Mr_Collins_selfdeception",
    "name": "Mr_Collins_selfdeception"
   },
   {
-   "id": "data/texts/prideandprejudice#Hope_for_a_favourable_answer",
+   "id": "textsprideandprejudice.txt#Hope_for_a_favourable_answer",
    "name": "Hope_for_a_favourable_answer"
   },
   {
-   "id": "data/texts/prideandprejudice#Felicitations_from_Mrs_Bennet",
+   "id": "textsprideandprejudice.txt#Felicitations_from_Mrs_Bennet",
    "name": "Felicitations_from_Mrs_Bennet"
   },
   {
-   "id": "data/texts/prideandprejudice#Satisfaction_with_the_interview",
+   "id": "textsprideandprejudice.txt#Satisfaction_with_the_interview",
    "name": "Satisfaction_with_the_interview"
   },
   {
-   "id": "data/texts/prideandprejudice#Determination_to_bring_Elizabeth_to_reason",
+   "id": "textsprideandprejudice.txt#Determination_to_bring_Elizabeth_to_reason",
    "name": "Determination_to_bring_Elizabeth_to_reason"
   }
  ]

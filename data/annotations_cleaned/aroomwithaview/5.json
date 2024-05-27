@@ -1,12 +1,20 @@
 {
  "FictionalCharacters": [
   {
-   "id": "data/texts/aroomwithaview#LucyHoneychurch",
+   "id": "textsaroomwithaview.txt#LucyHoneychurch",
    "feels": [
     {
      "name": "Anger",
      "hasIntensity": 0.8,
      "quote": "I am very sorry about it,” she said; “I have carefully thought things over. We are too different. I must ask you to release me, and try to forget that there ever was such a foolish girl.",
+     "causedBy": {
+      "id": "textsaroomwithaview.txt#Cecil_s_reaction_to_her_breaking_off_the_engagemen",
+      "name": "Cecil_s_reaction_to_her_breaking_off_the_engagement"
+     },
+     "hasObject": {
+      "id": "textsaroomwithaview.txt#Engagement_ring",
+      "name": "Engagement_ring"
+     },
      "exactPlace": "By the sideboard",
      "id": "Anger"
     },
@@ -14,6 +22,14 @@
      "name": "Disgust",
      "hasIntensity": 0.7,
      "quote": "Different—how—how—”",
+     "causedBy": {
+      "id": "textsaroomwithaview.txt#Cecil_s_reaction_to_her_breaking_off_the_engagemen",
+      "name": "Cecil_s_reaction_to_her_breaking_off_the_engagement"
+     },
+     "hasObject": {
+      "id": "textsaroomwithaview.txt#Engagement",
+      "name": "Engagement"
+     },
      "exactPlace": "By the sideboard",
      "id": "Disgust"
     },
@@ -21,6 +37,14 @@
      "name": "Anger",
      "hasIntensity": 0.9,
      "quote": "You always think women don’t mean what they say.",
+     "causedBy": {
+      "id": "textsaroomwithaview.txt#Cecil_s_reaction_to_her_breaking_off_the_engagemen",
+      "name": "Cecil_s_reaction_to_her_breaking_off_the_engagement"
+     },
+     "hasObject": {
+      "id": "textsaroomwithaview.txt#Engagement",
+      "name": "Engagement"
+     },
      "exactPlace": "By the sideboard",
      "id": "Anger"
     },
@@ -28,6 +52,14 @@
      "name": "Disgust",
      "hasIntensity": 0.8,
      "quote": "You aren’t like yourself. You’re tired, Lucy.",
+     "causedBy": {
+      "id": "textsaroomwithaview.txt#Cecil_s_reaction_to_her_breaking_off_the_engagemen",
+      "name": "Cecil_s_reaction_to_her_breaking_off_the_engagement"
+     },
+     "hasObject": {
+      "id": "textsaroomwithaview.txt#Engagement",
+      "name": "Engagement"
+     },
      "exactPlace": "By the sideboard",
      "id": "Disgust"
     },
@@ -35,6 +67,14 @@
      "name": "Anger",
      "hasIntensity": 0.9,
      "quote": "You sound tired, as if something has worried you.",
+     "causedBy": {
+      "id": "textsaroomwithaview.txt#Cecil_s_reaction_to_her_breaking_off_the_engagemen",
+      "name": "Cecil_s_reaction_to_her_breaking_off_the_engagement"
+     },
+     "hasObject": {
+      "id": "textsaroomwithaview.txt#Engagement",
+      "name": "Engagement"
+     },
      "exactPlace": "By the sideboard",
      "id": "Anger"
     },
@@ -42,6 +82,14 @@
      "name": "Disgust",
      "hasIntensity": 0.7,
      "quote": "You must excuse me if I say stupid things, but my brain has gone to pieces.",
+     "causedBy": {
+      "id": "textsaroomwithaview.txt#Cecil_s_reaction_to_her_breaking_off_the_engagemen",
+      "name": "Cecil_s_reaction_to_her_breaking_off_the_engagement"
+     },
+     "hasObject": {
+      "id": "textsaroomwithaview.txt#Engagement",
+      "name": "Engagement"
+     },
      "exactPlace": "By the sideboard",
      "id": "Disgust"
     }
@@ -49,12 +97,20 @@
    "name": "LucyHoneychurch"
   },
   {
-   "id": "data/texts/aroomwithaview#CecilVyse",
+   "id": "textsaroomwithaview.txt#CecilVyse",
    "feels": [
     {
      "name": "Confusion",
      "hasIntensity": 0.8,
      "quote": "I don’t understand you. You aren’t like yourself. You’re tired, Lucy.",
+     "causedBy": {
+      "id": "textsaroomwithaview.txt#Lucy_breaking_off_the_engagement",
+      "name": "Lucy_breaking_off_the_engagement"
+     },
+     "hasObject": {
+      "id": "textsaroomwithaview.txt#Engagement",
+      "name": "Engagement"
+     },
      "exactPlace": "By the sideboard",
      "id": "Confusion"
     },
@@ -62,6 +118,14 @@
      "name": "Confusion",
      "hasIntensity": 0.9,
      "quote": "Well, you sound tired, as if something has worried you.",
+     "causedBy": {
+      "id": "textsaroomwithaview.txt#Lucy_breaking_off_the_engagement",
+      "name": "Lucy_breaking_off_the_engagement"
+     },
+     "hasObject": {
+      "id": "textsaroomwithaview.txt#Engagement",
+      "name": "Engagement"
+     },
      "exactPlace": "By the sideboard",
      "id": "Confusion"
     },
@@ -69,6 +133,14 @@
      "name": "Confusion",
      "hasIntensity": 0.7,
      "quote": "You had that bad headache yesterday—All right",
+     "causedBy": {
+      "id": "textsaroomwithaview.txt#Lucy_breaking_off_the_engagement",
+      "name": "Lucy_breaking_off_the_engagement"
+     },
+     "hasObject": {
+      "id": "textsaroomwithaview.txt#Engagement",
+      "name": "Engagement"
+     },
      "exactPlace": "By the sideboard",
      "id": "Confusion"
     }

@@ -66,16 +66,6 @@ def clean_annotation_names(annotations) -> None:
         None
     """
 
-    def has_id_or_name_key(d):
-        return set(["id", "name"]).intersection(d.keys())
-
-    # utilisation d'une fonction (récursive) qui trouve tous les objets JSON (dict) qui ont au moins l'une des clés ['id', 'name'], et applique sur ces objets la fonction de normalisation.
-    dict_iter_rec(
-        obj=annotations,
-        fn_condition=has_id_or_name_key,
-        fn_apply=normalize_obj_name,
-    )
-
     # certaines clés sont remplacés par d'autres (ici appelés 'ersatz'). l'itération suivante assignes, dans les objets concernés, la valeur de l'ersatz (ex. 'cause') à la clé manquante (ex. 'causedBy').
     for key, ersatz in [
         ("feels", "emotions"),
@@ -96,7 +86,7 @@ def clean_annotation_names(annotations) -> None:
             fn_apply=replace_ersatz_with_key,
         )
 
-    # enfin, dernière modification: certaines propriétés qui devraient être des objets JSON (des dicts) n'en sont pas (par exemple, sont des str). s'il s'agit d'une string, on la remplace par un dict qui associe sa valeur à la clé 'name', s'il s'agit d'une liste et qu'il n'y a qu'un élément, alors on la remplace par ce premier élément.
+    # certaines propriétés qui devraient être des objets JSON (des dicts) n'en sont pas (par exemple, sont des str). s'il s'agit d'une string, on la remplace par un dict qui associe sa valeur à la clé 'name', s'il s'agit d'une liste et qu'il n'y a qu'un élément, alors on la remplace par ce premier élément.
     # les autres très rares cas sont des listes à plusieurs éléments, en fait, ce qui aurait été intéressant est d'en avoir d'avantage, en particulier pour 'hasParticipant' qui devrait souvent avoir une liste comme valeur. c'est probablement une amélioration possible de notre prompt.
     properties = set(
         [
@@ -111,6 +101,7 @@ def clean_annotation_names(annotations) -> None:
         return properties.intersection(d.keys())
 
     def remove_nodict_prop(d):
+
         for p in properties:
             if p in d.keys():
                 obj = d[p]
@@ -121,6 +112,8 @@ def clean_annotation_names(annotations) -> None:
                         pass
                 elif isinstance(obj, str):
                     d[p] = {"name": obj}
+                elif isinstance(obj, dict):
+                    pass
                 else:
                     d.pop(p)
 
@@ -128,6 +121,16 @@ def clean_annotation_names(annotations) -> None:
         obj=annotations,
         fn_condition=has_any_prop,
         fn_apply=remove_nodict_prop,
+    )
+
+    def has_id_or_name_key(d):
+        return set(["id", "name"]).intersection(d.keys())
+
+    # utilisation d'une fonction (récursive) qui trouve tous les objets JSON (dict) qui ont au moins l'une des clés ['id', 'name'], et applique sur ces objets la fonction de normalisation.
+    dict_iter_rec(
+        obj=annotations,
+        fn_condition=has_id_or_name_key,
+        fn_apply=normalize_obj_name,
     )
 
     return

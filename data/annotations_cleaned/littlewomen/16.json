@@ -1,13 +1,21 @@
 {
  "FictionalCharacters": [
   {
-   "id": "data/texts/littlewomen#Amy",
+   "id": "textslittlewomen.txt#Amy",
    "name": "Amy",
    "feels": [
     {
      "name": "Trust",
      "hasIntensity": 0.8,
      "quote": "He's my child, and I can't have his spirit broken by harshness.",
+     "causedBy": {
+      "id": "textslittlewomen.txt#John_showing_patience_with_Demi",
+      "name": "John_showing_patience_with_Demi"
+     },
+     "hasObject": {
+      "id": "textslittlewomen.txt#Demi",
+      "name": "Demi"
+     },
      "exactPlace": "Nursery",
      "id": "Trust"
     },
@@ -15,6 +23,14 @@
      "name": "Surprise",
      "hasIntensity": 0.7,
      "quote": "I never need fear that John will be too harsh with my babies: he does know how to manage them.",
+     "causedBy": {
+      "id": "textslittlewomen.txt#John_managing_Demi",
+      "name": "John_managing_Demi"
+     },
+     "hasObject": {
+      "id": "textslittlewomen.txt#Babies",
+      "name": "Babies"
+     },
      "exactPlace": "Nursery",
      "id": "Surprise"
     },
@@ -22,6 +38,14 @@
      "name": "Joy",
      "hasIntensity": 0.9,
      "quote": "Home grew home-like again, and John had no wish to leave it, unless he took Meg with him.",
+     "causedBy": {
+      "id": "textslittlewomen.txt#Household_happiness",
+      "name": "Household_happiness"
+     },
+     "hasObject": {
+      "id": "textslittlewomen.txt#Home",
+      "name": "Home"
+     },
      "exactPlace": "Home",
      "id": "Joy"
     },
@@ -29,19 +53,35 @@
      "name": "Anticipation",
      "hasIntensity": 0.6,
      "quote": "I want to try it for your sake as much as for mine, because I've neglected you shamefully lately, and I'm going to make home what it used to be, if I can.",
+     "causedBy": {
+      "id": "textslittlewomen.txt#Meg_s_plan_for_change",
+      "name": "Meg_s_plan_for_change"
+     },
+     "hasObject": {
+      "id": "textslittlewomen.txt#Home",
+      "name": "Home"
+     },
      "exactPlace": "Home",
      "id": "Anticipation"
     }
    ]
   },
   {
-   "id": "data/texts/littlewomen#John",
+   "id": "textslittlewomen.txt#John",
    "name": "John",
    "feels": [
     {
      "name": "Admiration",
      "hasIntensity": 0.8,
      "quote": "It's a love of a bonnet, but I prefer the face inside, for it looks young and happy again.",
+     "causedBy": {
+      "id": "textslittlewomen.txt#Meg_s_bonnet",
+      "name": "Meg_s_bonnet"
+     },
+     "hasObject": {
+      "id": "textslittlewomen.txt#Bonnet",
+      "name": "Bonnet"
+     },
      "exactPlace": "Home",
      "id": "Admiration"
     },
@@ -49,6 +89,14 @@
      "name": "Contentment",
      "hasIntensity": 0.9,
      "quote": "This household happiness did not come all at once, but John and Meg had found the key to it.",
+     "causedBy": {
+      "id": "textslittlewomen.txt#Household_happiness",
+      "name": "Household_happiness"
+     },
+     "hasObject": {
+      "id": "textslittlewomen.txt#Home",
+      "name": "Home"
+     },
      "exactPlace": "Home",
      "id": "Contentment"
     },
@@ -56,6 +104,14 @@
      "name": "Satisfaction",
      "hasIntensity": 0.7,
      "quote": "I really don't see what we are coming to.",
+     "causedBy": {
+      "id": "textslittlewomen.txt#Meg_s_bonnet",
+      "name": "Meg_s_bonnet"
+     },
+     "hasObject": {
+      "id": "textslittlewomen.txt#Bonnet",
+      "name": "Bonnet"
+     },
      "exactPlace": "Home",
      "id": "Satisfaction"
     }
@@ -64,44 +120,72 @@
  ],
  "Places": [
   {
-   "id": "data/texts/littlewomen#Nursery",
+   "id": "textslittlewomen.txt#Nursery",
    "name": "Nursery",
    "description": "Where Demi is put to bed and managed by John and Meg."
   },
   {
-   "id": "data/texts/littlewomen#Home",
+   "id": "textslittlewomen.txt#Home",
    "name": "Home",
    "description": "Where the household happiness is achieved through changes made by John and Meg."
   }
  ],
  "Events": [
   {
-   "id": "data/texts/littlewomen#John_showing_patience_with_Demi",
-   "name": "John_showing_patience_with_Demi"
+   "id": "textslittlewomen.txt#John_showing_patience_with_Demi",
+   "name": "John_showing_patience_with_Demi",
+   "takePlaceAt": {
+    "id": "textslittlewomen.txt#place1",
+    "name": "place1"
+   }
   },
   {
-   "id": "data/texts/littlewomen#John_managing_Demi",
-   "name": "John_managing_Demi"
+   "id": "textslittlewomen.txt#John_managing_Demi",
+   "name": "John_managing_Demi",
+   "takePlaceAt": {
+    "id": "textslittlewomen.txt#place1",
+    "name": "place1"
+   }
   },
   {
-   "id": "data/texts/littlewomen#Household_happiness",
-   "name": "Household_happiness"
+   "id": "textslittlewomen.txt#Household_happiness",
+   "name": "Household_happiness",
+   "takePlaceAt": {
+    "id": "textslittlewomen.txt#place2",
+    "name": "place2"
+   }
   },
   {
-   "id": "data/texts/littlewomen#Meg_s_plan_for_change",
-   "name": "Meg_s_plan_for_change"
+   "id": "textslittlewomen.txt#Meg_s_plan_for_change",
+   "name": "Meg_s_plan_for_change",
+   "takePlaceAt": {
+    "id": "textslittlewomen.txt#place2",
+    "name": "place2"
+   }
   },
   {
-   "id": "data/texts/littlewomen#Meg_s_bonnet",
-   "name": "Meg_s_bonnet"
+   "id": "textslittlewomen.txt#Meg_s_bonnet",
+   "name": "Meg_s_bonnet",
+   "takePlaceAt": {
+    "id": "textslittlewomen.txt#place2",
+    "name": "place2"
+   }
   },
   {
-   "id": "data/texts/littlewomen#Household_happiness",
-   "name": "Household_happiness"
+   "id": "textslittlewomen.txt#Household_happiness",
+   "name": "Household_happiness",
+   "takePlaceAt": {
+    "id": "textslittlewomen.txt#place2",
+    "name": "place2"
+   }
   },
   {
-   "id": "data/texts/littlewomen#Meg_s_bonnet",
-   "name": "Meg_s_bonnet"
+   "id": "textslittlewomen.txt#Meg_s_bonnet",
+   "name": "Meg_s_bonnet",
+   "takePlaceAt": {
+    "id": "textslittlewomen.txt#place2",
+    "name": "place2"
+   }
   }
  ]
 }

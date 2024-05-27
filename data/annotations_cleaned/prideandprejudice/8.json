@@ -1,13 +1,21 @@
 {
  "FictionalCharacters": [
   {
-   "id": "data/texts/prideandprejudice#Elizabeth_Bennet",
-   "name": "Elizabeth_Bennet",
+   "id": "textsprideandprejudice.txt#Elizabeth_Bennet",
    "feels": [
     {
      "name": "Embarrassment",
      "hasIntensity": 0.9,
      "quote": "She had instinctively turned away; but stopping on his approach, received his compliments with an embarrassment impossible to be overcome.",
+     "causedBy": {
+      "id": "textsprideandprejudice.txt#Meeting_Mr_Darcy_unexpectedly",
+      "description": "Seeing Mr. Darcy unexpectedly at Pemberley",
+      "name": "Meeting_Mr_Darcy_unexpectedly"
+     },
+     "hasObject": {
+      "id": "textsprideandprejudice.txt#Mr_Darcy",
+      "name": "Mr_Darcy"
+     },
      "exactPlace": "Pemberley House",
      "id": "Embarrassment"
     },
@@ -15,6 +23,15 @@
      "name": "Gratitude",
      "hasIntensity": 0.8,
      "quote": "she thought of his regard with a deeper sentiment of gratitude than it had ever raised before",
+     "causedBy": {
+      "id": "textsprideandprejudice.txt#Housekeeper_s_praise_of_Mr_Darcy",
+      "description": "Praise of Mr. Darcy by the housekeeper",
+      "name": "Housekeeper_s_praise_of_Mr_Darcy"
+     },
+     "hasObject": {
+      "id": "textsprideandprejudice.txt#Mr_Darcy",
+      "name": "Mr_Darcy"
+     },
      "exactPlace": "Pemberley House",
      "id": "Gratitude"
     },
@@ -22,6 +39,15 @@
      "name": "Shame",
      "hasIntensity": 0.9,
      "quote": "She was overpowered by shame and vexation.",
+     "causedBy": {
+      "id": "textsprideandprejudice.txt#Unexpected_meeting_with_Mr_Darcy",
+      "description": "Unexpected meeting with Mr. Darcy at Pemberley",
+      "name": "Unexpected_meeting_with_Mr_Darcy"
+     },
+     "hasObject": {
+      "id": "textsprideandprejudice.txt#Mr_Darcy",
+      "name": "Mr_Darcy"
+     },
      "exactPlace": "Pemberley House",
      "id": "Shame"
     },
@@ -29,31 +55,53 @@
      "name": "Curiosity",
      "hasIntensity": 0.7,
      "quote": "she longed to know what at that moment was passing in his mind",
+     "causedBy": {
+      "id": "textsprideandprejudice.txt#Unexpected_meeting_with_Mr_Darcy",
+      "description": "Unexpected meeting with Mr. Darcy at Pemberley",
+      "name": "Unexpected_meeting_with_Mr_Darcy"
+     },
+     "hasObject": {
+      "id": "textsprideandprejudice.txt#Mr_Darcy",
+      "name": "Mr_Darcy"
+     },
      "exactPlace": "Pemberley House",
      "id": "Curiosity"
     }
-   ]
+   ],
+   "name": "Elizabeth_Bennet"
   }
  ],
  "Places": [
   {
-   "id": "data/texts/prideandprejudice#Pemberley_House",
+   "id": "textsprideandprejudice.txt#Pemberley_House",
    "name": "Pemberley_House",
    "description": "The estate of Mr. Darcy"
   }
  ],
  "Events": [
   {
-   "id": "data/texts/prideandprejudice#Meeting_Mr_Darcy_unexpectedly",
-   "name": "Meeting_Mr_Darcy_unexpectedly"
+   "id": "textsprideandprejudice.txt#Meeting_Mr_Darcy_unexpectedly",
+   "name": "Meeting_Mr_Darcy_unexpectedly",
+   "takePlaceAt": {
+    "id": "textsprideandprejudice.txt#Pemberley_House",
+    "name": "Pemberley_House"
+   }
   },
   {
-   "id": "data/texts/prideandprejudice#Housekeeper_s_praise_of_Mr_Darcy",
-   "name": "Housekeeper_s_praise_of_Mr_Darcy"
+   "id": "textsprideandprejudice.txt#Housekeeper_s_praise_of_Mr_Darcy",
+   "name": "Housekeeper_s_praise_of_Mr_Darcy",
+   "takePlaceAt": {
+    "id": "textsprideandprejudice.txt#Pemberley_House",
+    "name": "Pemberley_House"
+   }
   },
   {
-   "id": "data/texts/prideandprejudice#Unexpected_meeting_with_Mr_Darcy",
-   "name": "Unexpected_meeting_with_Mr_Darcy"
+   "id": "textsprideandprejudice.txt#Unexpected_meeting_with_Mr_Darcy",
+   "name": "Unexpected_meeting_with_Mr_Darcy",
+   "takePlaceAt": {
+    "id": "textsprideandprejudice.txt#Pemberley_House",
+    "name": "Pemberley_House"
+   }
   }
  ]
 }

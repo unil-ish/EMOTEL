@@ -1,12 +1,20 @@
 {
  "FictionalCharacters": [
   {
-   "id": "data/texts/mobydick#Starbuck",
+   "id": "textsmobydick.txt#Starbuck",
    "feels": [
     {
      "name": "Fear",
      "hasIntensity": 0.9,
      "quote": "Strange, that I, who have handled so many deadly lances, strange, that I should shake so now.",
+     "causedBy": {
+      "id": "textsmobydick.txt#Seeing_the_muskets_in_the_rack",
+      "name": "Seeing_the_muskets_in_the_rack"
+     },
+     "hasObject": {
+      "id": "textsmobydick.txt#Muskets_in_the_rack",
+      "name": "Muskets_in_the_rack"
+     },
      "place": "Cabin",
      "id": "Fear"
     },
@@ -14,6 +22,14 @@
      "name": "Evil_Thought",
      "hasIntensity": 0.7,
      "quote": "out of Starbuck’s heart, at that instant when he saw the muskets, there strangely evolved an evil thought",
+     "causedBy": {
+      "id": "textsmobydick.txt#Seeing_the_muskets_in_the_rack",
+      "name": "Seeing_the_muskets_in_the_rack"
+     },
+     "hasObject": {
+      "id": "textsmobydick.txt#Muskets_in_the_rack",
+      "name": "Muskets_in_the_rack"
+     },
      "place": "Cabin",
      "id": "Evil_Thought"
     },
@@ -21,6 +37,14 @@
      "name": "Fear",
      "hasIntensity": 0.8,
      "quote": "Loaded? I must see. Aye, aye; and powder in the pan;—that’s not good. Best spill it?—wait. I’ll cure myself of this.",
+     "causedBy": {
+      "id": "textsmobydick.txt#Seeing_the_musket",
+      "name": "Seeing_the_musket"
+     },
+     "hasObject": {
+      "id": "textsmobydick.txt#Musket",
+      "name": "Musket"
+     },
      "place": "Cabin",
      "id": "Fear"
     },
@@ -28,6 +52,14 @@
      "name": "Fear",
      "hasIntensity": 0.9,
      "quote": "I can’t withstand thee, then, old man. Not reasoning; not remonstrance; not entreaty wilt thou hearken to; all this thou scornest.",
+     "causedBy": {
+      "id": "textsmobydick.txt#Ahab_s_behavior",
+      "name": "Ahab_s_behavior"
+     },
+     "hasObject": {
+      "id": "textsmobydick.txt#Ahab",
+      "name": "Ahab"
+     },
      "place": "Cabin",
      "id": "Fear"
     }
@@ -37,14 +69,14 @@
  ],
  "Places": [
   {
-   "id": "data/texts/mobydick#Cabin",
+   "id": "textsmobydick.txt#Cabin",
    "name": "Cabin",
    "description": "Isolated subterraneousness, humming silence, loaded muskets in the rack, cabin lamp burning fitfully."
   }
  ],
  "Objects": [
   {
-   "id": "data/texts/mobydick#Musket",
+   "id": "textsmobydick.txt#Musket",
    "name": "Musket",
    "description": "The musket that Starbuck pointed at him."
   }

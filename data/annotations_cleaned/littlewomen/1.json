@@ -7,14 +7,22 @@
      "name": "Anxiety",
      "hasIntensity": 0.8,
      "quote": "As I sat cutting out blue flannel jackets to-day, at the rooms, I felt very anxious about father, and thought how lonely and helpless we should be, if anything happened to him.",
+     "causedBy": {
+      "id": "textslittlewomen.txt#Feeling_anxious_about_father",
+      "name": "Feeling_anxious_about_father"
+     },
+     "hasObject": {
+      "id": "textslittlewomen.txt#Father",
+      "name": "Father"
+     },
      "feltAt": {
-      "id": "data/texts/littlewomen#Cutting_out_blue_flannel_jackets",
+      "id": "textslittlewomen.txt#Cutting_out_blue_flannel_jackets",
       "name": "Cutting_out_blue_flannel_jackets"
      },
      "id": "Anxiety"
     }
    ],
-   "id": "data/texts/littlewomen#Mother"
+   "id": "textslittlewomen.txt#Mother"
   },
   {
    "name": "Jo",
@@ -23,8 +31,16 @@
      "name": "Joy",
      "hasIntensity": 0.7,
      "quote": "I actually made myself sleepy; and, before she began to nod, I gave such a gape that she asked me what I meant by opening my mouth wide enough to take the whole book in at once.",
+     "causedBy": {
+      "id": "textslittlewomen.txt#Reading_a_book",
+      "name": "Reading_a_book"
+     },
+     "hasObject": {
+      "id": "textslittlewomen.txt#Book",
+      "name": "Book"
+     },
      "feltAt": {
-      "id": "data/texts/littlewomen#Reading_the_book",
+      "id": "textslittlewomen.txt#Reading_the_book",
       "name": "Reading_the_book"
      },
      "id": "Joy"
@@ -33,14 +49,22 @@
      "name": "Amusement",
      "hasIntensity": 0.6,
      "quote": "I saw something that I liked this morning, and I meant to tell it at dinner, but I forgot.",
+     "causedBy": {
+      "id": "textslittlewomen.txt#Seeing_something_liked",
+      "name": "Seeing_something_liked"
+     },
+     "hasObject": {
+      "id": "textslittlewomen.txt#Something_liked",
+      "name": "Something_liked"
+     },
      "feltAt": {
-      "id": "data/texts/littlewomen#Telling_the_story_at_dinner",
+      "id": "textslittlewomen.txt#Telling_the_story_at_dinner",
       "name": "Telling_the_story_at_dinner"
      },
      "id": "Amusement"
     }
    ],
-   "id": "data/texts/littlewomen#Jo"
+   "id": "textslittlewomen.txt#Jo"
   },
   {
    "name": "Meg",
@@ -49,14 +73,22 @@
      "name": "Sympathy",
      "hasIntensity": 0.7,
      "quote": "I felt so sorry for them, and was rather glad I hadn't any wild brothers to do wicked things and disgrace the family.",
+     "causedBy": {
+      "id": "textslittlewomen.txt#Feeling_sorry_for_others",
+      "name": "Feeling_sorry_for_others"
+     },
+     "hasObject": {
+      "id": "textslittlewomen.txt#Others",
+      "name": "Others"
+     },
      "feltAt": {
-      "id": "data/texts/littlewomen#Feeling_sorry",
+      "id": "textslittlewomen.txt#Feeling_sorry",
       "name": "Feeling_sorry"
      },
      "id": "Sympathy"
     }
    ],
-   "id": "data/texts/littlewomen#Meg"
+   "id": "textslittlewomen.txt#Meg"
   },
   {
    "name": "Beth",
@@ -65,14 +97,22 @@
      "name": "Gratitude",
      "hasIntensity": 0.8,
      "quote": "Wasn't it good of him? Oh, she did look so funny, hugging the big, slippery fish, and hoping Mr. Laurence's bed in heaven would be 'aisy.'",
+     "causedBy": {
+      "id": "textslittlewomen.txt#Receiving_a_fish",
+      "name": "Receiving_a_fish"
+     },
+     "hasObject": {
+      "id": "textslittlewomen.txt#Fish",
+      "name": "Fish"
+     },
      "feltAt": {
-      "id": "data/texts/littlewomen#Fishshop",
+      "id": "textslittlewomen.txt#Fishshop",
       "name": "Fishshop"
      },
      "id": "Gratitude"
     }
    ],
-   "id": "data/texts/littlewomen#Beth"
+   "id": "textslittlewomen.txt#Beth"
   },
   {
    "name": "Amy",
@@ -81,65 +121,73 @@
      "name": "Moral_satisfaction",
      "hasIntensity": 0.7,
      "quote": "My only comfort is, that mother don't take tucks in my dresses whenever I'm naughty, as Maria Parks' mother does.",
+     "causedBy": {
+      "id": "textslittlewomen.txt#Comparing_situations",
+      "name": "Comparing_situations"
+     },
+     "hasObject": {
+      "id": "textslittlewomen.txt#Comparison",
+      "name": "Comparison"
+     },
      "feltAt": {
-      "id": "data/texts/littlewomen#Sewing_together",
+      "id": "textslittlewomen.txt#Sewing_together",
       "name": "Sewing_together"
      },
      "id": "Moral_satisfaction"
     }
    ],
-   "id": "data/texts/littlewomen#Amy"
+   "id": "textslittlewomen.txt#Amy"
   }
  ],
  "Places": [
   {
-   "id": "data/texts/littlewomen#Cutting_out_blue_flannel_jackets",
+   "id": "textslittlewomen.txt#Cutting_out_blue_flannel_jackets",
    "name": "Cutting_out_blue_flannel_jackets"
   },
   {
-   "id": "data/texts/littlewomen#Reading_the_book",
+   "id": "textslittlewomen.txt#Reading_the_book",
    "name": "Reading_the_book"
   },
   {
-   "id": "data/texts/littlewomen#Telling_the_story_at_dinner",
+   "id": "textslittlewomen.txt#Telling_the_story_at_dinner",
    "name": "Telling_the_story_at_dinner"
   },
   {
-   "id": "data/texts/littlewomen#Feeling_sorry",
+   "id": "textslittlewomen.txt#Feeling_sorry",
    "name": "Feeling_sorry"
   },
   {
-   "id": "data/texts/littlewomen#Fishshop",
+   "id": "textslittlewomen.txt#Fishshop",
    "name": "Fishshop"
   },
   {
-   "id": "data/texts/littlewomen#Sewing_together",
+   "id": "textslittlewomen.txt#Sewing_together",
    "name": "Sewing_together"
   }
  ],
  "Events": [
   {
-   "id": "data/texts/littlewomen#Feeling_anxious_about_father",
+   "id": "textslittlewomen.txt#Feeling_anxious_about_father",
    "name": "Feeling_anxious_about_father"
   },
   {
-   "id": "data/texts/littlewomen#Reading_a_book",
+   "id": "textslittlewomen.txt#Reading_a_book",
    "name": "Reading_a_book"
   },
   {
-   "id": "data/texts/littlewomen#Seeing_something_liked",
+   "id": "textslittlewomen.txt#Seeing_something_liked",
    "name": "Seeing_something_liked"
   },
   {
-   "id": "data/texts/littlewomen#Feeling_sorry_for_others",
+   "id": "textslittlewomen.txt#Feeling_sorry_for_others",
    "name": "Feeling_sorry_for_others"
   },
   {
-   "id": "data/texts/littlewomen#Receiving_a_fish",
+   "id": "textslittlewomen.txt#Receiving_a_fish",
    "name": "Receiving_a_fish"
   },
   {
-   "id": "data/texts/littlewomen#Comparing_situations",
+   "id": "textslittlewomen.txt#Comparing_situations",
    "name": "Comparing_situations"
   }
  ]

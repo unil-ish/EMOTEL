@@ -1,13 +1,21 @@
 {
  "FictionalCharacters": [
   {
-   "id": "data/texts/theenchantedapril#Rose_Arbuthnot",
+   "id": "textstheenchantedapril.txt#Rose_Arbuthnot",
    "name": "Rose_Arbuthnot",
    "feels": [
     {
      "name": "Anticipation",
      "hasIntensity": 0.7,
      "quote": "Rose sat at her window considering her day.",
+     "causedBy": {
+      "id": "textstheenchantedapril.txt#Thinking_of_Frederick",
+      "name": "Thinking_of_Frederick"
+     },
+     "hasObject": {
+      "id": "textstheenchantedapril.txt#Frederick",
+      "name": "Frederick"
+     },
      "exactPlace": "Window",
      "id": "Anticipation"
     },
@@ -15,32 +23,56 @@
      "name": "Sadness",
      "hasIntensity": 0.6,
      "quote": "Rose, who between lunch and tea had left off thinking about Frederick, was now, between tea and dinner, thinking of him harder than ever.",
+     "causedBy": {
+      "id": "textstheenchantedapril.txt#Thinking_of_Frederick",
+      "name": "Thinking_of_Frederick"
+     },
+     "hasObject": {
+      "id": "textstheenchantedapril.txt#Frederick",
+      "name": "Frederick"
+     },
      "exactPlace": "Window",
      "id": "Sadness"
     }
    ]
   },
   {
-   "id": "data/texts/theenchantedapril#Ferdinand_Arundel",
+   "id": "textstheenchantedapril.txt#Ferdinand_Arundel",
    "name": "Ferdinand_Arundel",
    "feels": [
     {
      "name": "Affection",
      "hasIntensity": 0.8,
      "quote": "He fathered some of the most entertaining ideas he had lately had on to Lady Droitwich, and also any charming funny things that had been done—or might have been done, for he could imagine almost anything.",
+     "causedBy": {
+      "id": "textstheenchantedapril.txt#Entertaining_Scrap_with_invented_stories_about_her",
+      "name": "Entertaining_Scrap_with_invented_stories_about_her_mother"
+     },
+     "hasObject": {
+      "id": "textstheenchantedapril.txt#Lady_Droitwich",
+      "name": "Lady_Droitwich"
+     },
      "exactPlace": "Deep window-recess",
      "id": "Affection"
     }
    ]
   },
   {
-   "id": "data/texts/theenchantedapril#Scrap",
+   "id": "textstheenchantedapril.txt#Scrap",
    "name": "Scrap",
    "feels": [
     {
      "name": "Wonder",
      "hasIntensity": 0.9,
      "quote": "Scrap’s eyes grew round with wonder and affectionate pride in her mother.",
+     "causedBy": {
+      "id": "textstheenchantedapril.txt#Listening_to_invented_stories_about_her_mother",
+      "name": "Listening_to_invented_stories_about_her_mother"
+     },
+     "hasObject": {
+      "id": "textstheenchantedapril.txt#Lady_Droitwich",
+      "name": "Lady_Droitwich"
+     },
      "exactPlace": "Deep window-recess",
      "id": "Wonder"
     },
@@ -48,6 +80,10 @@
      "name": "Melancholy",
      "hasIntensity": 0.7,
      "quote": "Scrap, who had become melancholy at the sight of Briggs, became philosophical at the sight of Arundel.",
+     "causedBy": {
+      "id": "textstheenchantedapril.txt#Seeing_Ferdinand_Arundel",
+      "name": "Seeing_Ferdinand_Arundel"
+     },
      "exactPlace": "Deep window-recess",
      "id": "Melancholy"
     }
@@ -56,35 +92,35 @@
  ],
  "Places": [
   {
-   "id": "data/texts/theenchantedapril#Window",
+   "id": "textstheenchantedapril.txt#Window",
    "name": "Window",
    "description": "Rose sat at her window considering her day."
   },
   {
-   "id": "data/texts/theenchantedapril#Deep_windowrecess",
+   "id": "textstheenchantedapril.txt#Deep_windowrecess",
    "name": "Deep_windowrecess",
    "description": "Ferdinand Arundel stood in one of the deep window-recesses looking out at the distant lights of Mezzago."
   }
  ],
  "Events": [
   {
-   "id": "data/texts/theenchantedapril#Thinking_of_Frederick",
+   "id": "textstheenchantedapril.txt#Thinking_of_Frederick",
    "name": "Thinking_of_Frederick"
   },
   {
-   "id": "data/texts/theenchantedapril#Thinking_of_Frederick",
+   "id": "textstheenchantedapril.txt#Thinking_of_Frederick",
    "name": "Thinking_of_Frederick"
   },
   {
-   "id": "data/texts/theenchantedapril#Entertaining_Scrap_with_invented_stories_about_her",
+   "id": "textstheenchantedapril.txt#Entertaining_Scrap_with_invented_stories_about_her",
    "name": "Entertaining_Scrap_with_invented_stories_about_her_mother"
   },
   {
-   "id": "data/texts/theenchantedapril#Listening_to_invented_stories_about_her_mother",
+   "id": "textstheenchantedapril.txt#Listening_to_invented_stories_about_her_mother",
    "name": "Listening_to_invented_stories_about_her_mother"
   },
   {
-   "id": "data/texts/theenchantedapril#Seeing_Ferdinand_Arundel",
+   "id": "textstheenchantedapril.txt#Seeing_Ferdinand_Arundel",
    "name": "Seeing_Ferdinand_Arundel"
   }
  ]

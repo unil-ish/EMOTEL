@@ -1,12 +1,20 @@
 {
  "FictionalCharacters": [
   {
-   "id": "data/texts/mobydick#Ahab",
+   "id": "textsmobydick.txt#Ahab",
    "feels": [
     {
      "name": "Isolation",
      "hasIntensity": 0.9,
      "quote": "Ahab's soul, shut up in the caved trunk of his body, there fed upon the sullen paws of its gloom!",
+     "causedBy": {
+      "id": "textsmobydick.txt#Loneliness_and_isolation",
+      "name": "Loneliness_and_isolation"
+     },
+     "hasObject": {
+      "id": "textsmobydick.txt#Masthead",
+      "name": "Masthead"
+     },
      "exactPlace": "Mast-head",
      "id": "Isolation"
     },
@@ -14,6 +22,14 @@
      "name": "Despair",
      "hasIntensity": 0.8,
      "quote": "Ahab's soul, shut up in the caved trunk of his body, there fed upon the sullen paws of its gloom!",
+     "causedBy": {
+      "id": "textsmobydick.txt#Loneliness_and_isolation",
+      "name": "Loneliness_and_isolation"
+     },
+     "hasObject": {
+      "id": "textsmobydick.txt#Masthead",
+      "name": "Masthead"
+     },
      "exactPlace": "Mast-head",
      "id": "Despair"
     }
@@ -21,12 +37,20 @@
    "name": "Ahab"
   },
   {
-   "id": "data/texts/mobydick#DoughBoy",
+   "id": "textsmobydick.txt#DoughBoy",
    "feels": [
     {
      "name": "Fear",
      "hasIntensity": 0.7,
      "quote": "Dough-Boy's whole life was one continual lip-quiver.",
+     "causedBy": {
+      "id": "textsmobydick.txt#Intimidation_by_the_harpooneers",
+      "name": "Intimidation_by_the_harpooneers"
+     },
+     "hasObject": {
+      "id": "textsmobydick.txt#Harpooneers",
+      "name": "Harpooneers"
+     },
      "exactPlace": "Cabin",
      "id": "Fear"
     }
@@ -34,12 +58,20 @@
    "name": "DoughBoy"
   },
   {
-   "id": "data/texts/mobydick#Queequeg",
+   "id": "textsmobydick.txt#Queequeg",
    "feels": [
     {
      "name": "Contentment",
      "hasIntensity": 0.8,
      "quote": "Such portentous appetites had Queequeg and Tashtego, that to fill out the vacancies made by the previous repast, often the pale Dough-Boy was fain to bring on a great baron of salt-junk.",
+     "causedBy": {
+      "id": "textsmobydick.txt#Satisfaction_with_the_meal",
+      "name": "Satisfaction_with_the_meal"
+     },
+     "hasObject": {
+      "id": "textsmobydick.txt#Meal",
+      "name": "Meal"
+     },
      "exactPlace": "Cabin",
      "id": "Contentment"
     }
@@ -49,38 +81,50 @@
  ],
  "Places": [
   {
-   "id": "data/texts/mobydick#Masthead",
+   "id": "textsmobydick.txt#Masthead",
    "name": "Masthead",
    "description": "The top of the mast on a ship"
   },
   {
-   "id": "data/texts/mobydick#Cabin",
+   "id": "textsmobydick.txt#Cabin",
    "name": "Cabin",
    "description": "Living quarters on a ship"
   }
  ],
  "Events": [
   {
-   "id": "data/texts/mobydick#Loneliness_and_isolation",
+   "id": "textsmobydick.txt#Loneliness_and_isolation",
    "name": "Loneliness_and_isolation",
+   "takePlaceAt": {
+    "id": "textsmobydick.txt#masthead",
+    "name": "masthead"
+   },
    "hasParticipant": {
-    "id": "data/texts/mobydick#Ahab",
+    "id": "textsmobydick.txt#Ahab",
     "name": "Ahab"
    }
   },
   {
-   "id": "data/texts/mobydick#Intimidation_by_the_harpooneers",
+   "id": "textsmobydick.txt#Intimidation_by_the_harpooneers",
    "name": "Intimidation_by_the_harpooneers",
+   "takePlaceAt": {
+    "id": "textsmobydick.txt#Cabin",
+    "name": "Cabin"
+   },
    "hasParticipant": {
-    "id": "data/texts/mobydick#DoughBoy",
+    "id": "textsmobydick.txt#DoughBoy",
     "name": "DoughBoy"
    }
   },
   {
-   "id": "data/texts/mobydick#Satisfaction_with_the_meal",
+   "id": "textsmobydick.txt#Satisfaction_with_the_meal",
    "name": "Satisfaction_with_the_meal",
+   "takePlaceAt": {
+    "id": "textsmobydick.txt#Cabin",
+    "name": "Cabin"
+   },
    "hasParticipant": {
-    "id": "data/texts/mobydick#Queequeg",
+    "id": "textsmobydick.txt#Queequeg",
     "name": "Queequeg"
    }
   }

@@ -1,12 +1,20 @@
 {
  "FictionalCharacters": [
   {
-   "id": "data/texts/mobydick#Ahab",
+   "id": "textsmobydick.txt#Ahab",
    "feels": [
     {
      "name": "Anger",
      "hasIntensity": 0.9,
      "quote": "Ahab would mutter to himself, as after poring over his charts till long after midnight he would throw himself back in reveries—tallied him, and shall he escape?",
+     "causedBy": {
+      "id": "textsmobydick.txt#Failing_to_capture_Moby_Dick",
+      "name": "Failing_to_capture_Moby_Dick"
+     },
+     "hasObject": {
+      "id": "textsmobydick.txt#Moby_Dick",
+      "name": "Moby_Dick"
+     },
      "place": "Cabin",
      "id": "Anger"
     },
@@ -14,6 +22,14 @@
      "name": "Fear",
      "hasIntensity": 0.8,
      "quote": "A wild cry would be heard through the ship; and with glaring eyes Ahab would burst from his state room, as though escaping from a bed that was on fire.",
+     "causedBy": {
+      "id": "textsmobydick.txt#Intense_dreams",
+      "name": "Intense_dreams"
+     },
+     "hasObject": {
+      "id": "textsmobydick.txt#Dreams",
+      "name": "Dreams"
+     },
      "place": "State room",
      "id": "Fear"
     },
@@ -21,6 +37,14 @@
      "name": "Torment",
      "hasIntensity": 0.9,
      "quote": "God help thee, old man, thy thoughts have created a creature in thee; and he whose intense thinking thus makes him a Prometheus; a vulture feeds upon that heart for ever; that vulture the very creature he creates.",
+     "causedBy": {
+      "id": "textsmobydick.txt#Unachieved_revengeful_desire",
+      "name": "Unachieved_revengeful_desire"
+     },
+     "hasObject": {
+      "id": "textsmobydick.txt#Revengeful_desire",
+      "name": "Revengeful_desire"
+     },
      "place": "State room",
      "id": "Torment"
     }
@@ -30,28 +54,40 @@
  ],
  "Places": [
   {
-   "id": "data/texts/mobydick#Ahab_s_cabin",
+   "id": "textsmobydick.txt#Ahab_s_cabin",
    "name": "Ahab_s_cabin",
    "description": "A room where Ahab studies sea charts and plans his hunt for Moby Dick."
   },
   {
-   "id": "data/texts/mobydick#State_room",
+   "id": "textsmobydick.txt#State_room",
    "name": "State_room",
    "description": "A room where Ahab experiences intense dreams and bursts out in fear."
   }
  ],
  "Events": [
   {
-   "id": "data/texts/mobydick#Failing_to_capture_Moby_Dick",
-   "name": "Failing_to_capture_Moby_Dick"
+   "id": "textsmobydick.txt#Failing_to_capture_Moby_Dick",
+   "name": "Failing_to_capture_Moby_Dick",
+   "takePlaceAt": {
+    "id": "textsmobydick.txt#Cabin",
+    "name": "Cabin"
+   }
   },
   {
-   "id": "data/texts/mobydick#Intense_dreams",
-   "name": "Intense_dreams"
+   "id": "textsmobydick.txt#Intense_dreams",
+   "name": "Intense_dreams",
+   "takePlaceAt": {
+    "id": "textsmobydick.txt#State_room",
+    "name": "State_room"
+   }
   },
   {
-   "id": "data/texts/mobydick#Unachieved_revengeful_desire",
-   "name": "Unachieved_revengeful_desire"
+   "id": "textsmobydick.txt#Unachieved_revengeful_desire",
+   "name": "Unachieved_revengeful_desire",
+   "takePlaceAt": {
+    "id": "textsmobydick.txt#State_room",
+    "name": "State_room"
+   }
   }
  ]
 }

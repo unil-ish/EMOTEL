@@ -1,14 +1,22 @@
 {
  "FictionalCharacters": [
   {
-   "id": "data/texts/thebluecastle#Valancy",
+   "id": "textsthebluecastle.txt#Valancy",
    "feels": [
     {
      "name": "Joy",
      "hasIntensity": 0.9,
      "quote": "Valancy shivered like a tree the wind stirs suddenly. Something seemed to sweep over her soul. 'My Blue Castle!' she said. 'Oh, my Blue Castle!'",
+     "causedBy": {
+      "id": "textsthebluecastle.txt#Barney_s_proposal",
+      "name": "Barney_s_proposal"
+     },
+     "hasObject": {
+      "id": "textsthebluecastle.txt#Blue_Castle",
+      "name": "Blue_Castle"
+     },
      "place": {
-      "id": "data/texts/thebluecastle#Mistawis",
+      "id": "textsthebluecastle.txt#Mistawis",
       "name": "Mistawis"
      },
      "id": "Joy"
@@ -17,8 +25,16 @@
      "name": "Fear",
      "hasIntensity": 0.7,
      "quote": "Valancy shivered like a tree the wind stirs suddenly. Something seemed to sweep over her soul.",
+     "causedBy": {
+      "id": "textsthebluecastle.txt#Cousin_Georgiana_s_reaction",
+      "name": "Cousin_Georgiana_s_reaction"
+     },
+     "hasObject": {
+      "id": "textsthebluecastle.txt#Truth_about_her_marriage",
+      "name": "Truth_about_her_marriage"
+     },
      "place": {
-      "id": "data/texts/thebluecastle#Deerwood",
+      "id": "textsthebluecastle.txt#Deerwood",
       "name": "Deerwood"
      },
      "id": "Fear"
@@ -27,8 +43,16 @@
      "name": "Laughter",
      "hasIntensity": 0.8,
      "quote": "Valancy wanted to go off into a peal of laughter. But she only said: 'Me?'",
+     "causedBy": {
+      "id": "textsthebluecastle.txt#Cousin_Georgiana_s_revelation",
+      "name": "Cousin_Georgiana_s_revelation"
+     },
+     "hasObject": {
+      "id": "textsthebluecastle.txt#Proposal_from_Edward_Beck",
+      "name": "Proposal_from_Edward_Beck"
+     },
      "place": {
-      "id": "data/texts/thebluecastle#Deerwood",
+      "id": "textsthebluecastle.txt#Deerwood",
       "name": "Deerwood"
      },
      "id": "Laughter"
@@ -37,8 +61,16 @@
      "name": "Surprise",
      "hasIntensity": 0.9,
      "quote": "Valancy stared at Cousin Georgiana for a moment. Then she wanted to go off into a peal of laughter. But she only said: 'Me?'",
+     "causedBy": {
+      "id": "textsthebluecastle.txt#Cousin_Georgiana_s_revelation",
+      "name": "Cousin_Georgiana_s_revelation"
+     },
+     "hasObject": {
+      "id": "textsthebluecastle.txt#Proposal_from_Edward_Beck",
+      "name": "Proposal_from_Edward_Beck"
+     },
      "place": {
-      "id": "data/texts/thebluecastle#Deerwood",
+      "id": "textsthebluecastle.txt#Deerwood",
       "name": "Deerwood"
      },
      "id": "Surprise"
@@ -47,8 +79,16 @@
      "name": "Relief",
      "hasIntensity": 0.8,
      "quote": "Valancy smiled very radiantly at Cousin Georgiana, who, she remembered, as of some one known a long time ago, had really been not a bad little creature.",
+     "causedBy": {
+      "id": "textsthebluecastle.txt#Meeting_Cousin_Georgiana",
+      "name": "Meeting_Cousin_Georgiana"
+     },
+     "hasObject": {
+      "id": "textsthebluecastle.txt#Cousin_Georgiana",
+      "name": "Cousin_Georgiana"
+     },
      "place": {
-      "id": "data/texts/thebluecastle#Deerwood",
+      "id": "textsthebluecastle.txt#Deerwood",
       "name": "Deerwood"
      },
      "id": "Relief"
@@ -57,14 +97,22 @@
    "name": "Valancy"
   },
   {
-   "id": "data/texts/thebluecastle#Cousin_Georgiana",
+   "id": "textsthebluecastle.txt#Cousin_Georgiana",
    "feels": [
     {
      "name": "Surprise",
      "hasIntensity": 0.9,
      "quote": "Cousin Georgiana stared. 'Surely you remember Edward Beck,' she said reproachfully. 'He lives in that lovely house on the Port Lawrence road and he comes to our church—regularly. You must remember him.'",
+     "causedBy": {
+      "id": "textsthebluecastle.txt#Valancy_s_forgetfulness",
+      "name": "Valancy_s_forgetfulness"
+     },
+     "hasObject": {
+      "id": "textsthebluecastle.txt#Edward_Beck",
+      "name": "Edward_Beck"
+     },
      "place": {
-      "id": "data/texts/thebluecastle#Deerwood",
+      "id": "textsthebluecastle.txt#Deerwood",
       "name": "Deerwood"
      },
      "id": "Surprise"
@@ -73,8 +121,16 @@
      "name": "Disbelief",
      "hasIntensity": 0.9,
      "quote": "Cousin Georgiana stopped stock-still and stared at Valancy. 'Married!' she said vacantly. 'Married!'",
+     "causedBy": {
+      "id": "textsthebluecastle.txt#Valancy_s_revelation",
+      "name": "Valancy_s_revelation"
+     },
+     "hasObject": {
+      "id": "textsthebluecastle.txt#Valancy_s_marriage",
+      "name": "Valancy_s_marriage"
+     },
      "place": {
-      "id": "data/texts/thebluecastle#Deerwood",
+      "id": "textsthebluecastle.txt#Deerwood",
       "name": "Deerwood"
      },
      "id": "Disbelief"
@@ -83,8 +139,16 @@
      "name": "Despair",
      "hasIntensity": 0.8,
      "quote": "'Oh, Doss, what have you done? What have you done?'",
+     "causedBy": {
+      "id": "textsthebluecastle.txt#Valancy_s_revelation",
+      "name": "Valancy_s_revelation"
+     },
+     "hasObject": {
+      "id": "textsthebluecastle.txt#Valancy_s_marriage",
+      "name": "Valancy_s_marriage"
+     },
      "place": {
-      "id": "data/texts/thebluecastle#Deerwood",
+      "id": "textsthebluecastle.txt#Deerwood",
       "name": "Deerwood"
      },
      "id": "Despair"
@@ -93,8 +157,16 @@
      "name": "Anxiety",
      "hasIntensity": 0.9,
      "quote": "'Doss, dear—I’m an old woman—are you trying to make fun of me?'",
+     "causedBy": {
+      "id": "textsthebluecastle.txt#Valancy_s_revelation",
+      "name": "Valancy_s_revelation"
+     },
+     "hasObject": {
+      "id": "textsthebluecastle.txt#Valancy_s_marriage",
+      "name": "Valancy_s_marriage"
+     },
      "place": {
-      "id": "data/texts/thebluecastle#Deerwood",
+      "id": "textsthebluecastle.txt#Deerwood",
       "name": "Deerwood"
      },
      "id": "Anxiety"
@@ -105,12 +177,12 @@
  ],
  "Places": [
   {
-   "id": "data/texts/thebluecastle#Mistawis",
+   "id": "textsthebluecastle.txt#Mistawis",
    "name": "Mistawis",
    "description": "Valancy's enchanted island"
   },
   {
-   "id": "data/texts/thebluecastle#Deerwood",
+   "id": "textsthebluecastle.txt#Deerwood",
    "name": "Deerwood",
    "description": "Valancy's hometown"
   }

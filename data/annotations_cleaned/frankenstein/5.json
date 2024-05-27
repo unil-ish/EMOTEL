@@ -1,13 +1,21 @@
 {
  "FictionalCharacters": [
   {
-   "id": "data/texts/frankenstein#Victor_Frankenstein",
+   "id": "textsfrankenstein.txt#Victor_Frankenstein",
    "name": "Victor_Frankenstein",
    "feels": [
     {
      "name": "Fear",
      "hasIntensity": 0.8,
      "quote": "During my absence I should leave my friends unconscious of the existence of their enemy and unprotected from his attacks, exasperated as he might be by my departure.",
+     "causedBy": {
+      "id": "textsfrankenstein.txt#Leaving_his_friends_unprotected",
+      "name": "Leaving_his_friends_unprotected"
+     },
+     "hasObject": {
+      "id": "textsfrankenstein.txt#Enemy",
+      "name": "Enemy"
+     },
      "exactPlace": "During his journey",
      "id": "Fear"
     },
@@ -15,6 +23,14 @@
      "name": "Anguish",
      "hasIntensity": 0.9,
      "quote": "Every thought that was devoted to it was an extreme anguish, and every word that I spoke in allusion to it caused my lips to quiver, and my heart to palpitate.",
+     "causedBy": {
+      "id": "textsfrankenstein.txt#Collecting_materials_for_his_new_creation",
+      "name": "Collecting_materials_for_his_new_creation"
+     },
+     "hasObject": {
+      "id": "textsfrankenstein.txt#New_creation",
+      "name": "New_creation"
+     },
      "exactPlace": "During his journey",
      "id": "Anguish"
     },
@@ -22,6 +38,14 @@
      "name": "Despair",
      "hasIntensity": 0.7,
      "quote": "I saw an insurmountable barrier placed between me and my fellow men; this barrier was sealed with the blood of William and Justine, and to reflect on the events connected with those names filled my soul with anguish.",
+     "causedBy": {
+      "id": "textsfrankenstein.txt#Reflecting_on_the_events_connected_with_William_an",
+      "name": "Reflecting_on_the_events_connected_with_William_and_Justine"
+     },
+     "hasObject": {
+      "id": "textsfrankenstein.txt#Events_connected_with_William_and_Justine",
+      "name": "Events_connected_with_William_and_Justine"
+     },
      "exactPlace": "During his journey",
      "id": "Despair"
     },
@@ -29,6 +53,14 @@
      "name": "Sorrow",
      "hasIntensity": 0.8,
      "quote": "Pardon this gush of sorrow; these ineffectual words are but a slight tribute to the unexampled worth of Henry, but they soothe my heart, overflowing with the anguish which his remembrance creates.",
+     "causedBy": {
+      "id": "textsfrankenstein.txt#Remembrance_of_Henry",
+      "name": "Remembrance_of_Henry"
+     },
+     "hasObject": {
+      "id": "textsfrankenstein.txt#Henry",
+      "name": "Henry"
+     },
      "exactPlace": "During his journey",
      "id": "Sorrow"
     },
@@ -36,19 +68,35 @@
      "name": "Hopelessness",
      "hasIntensity": 0.9,
      "quote": "But the iron had eaten into my flesh, and I sank again, trembling and hopeless, into my miserable self.",
+     "causedBy": {
+      "id": "textsfrankenstein.txt#Feeling_of_hopelessness",
+      "name": "Feeling_of_hopelessness"
+     },
+     "hasObject": {
+      "id": "textsfrankenstein.txt#Hopelessness",
+      "name": "Hopelessness"
+     },
      "exactPlace": "During his journey",
      "id": "Hopelessness"
     }
    ]
   },
   {
-   "id": "data/texts/frankenstein#Henry_Clerval",
+   "id": "textsfrankenstein.txt#Henry_Clerval",
    "name": "Henry_Clerval",
    "feels": [
     {
      "name": "Joy",
      "hasIntensity": 0.9,
      "quote": "He felt as if he had been transported to Fairy-land and enjoyed a happiness seldom tasted by man.",
+     "causedBy": {
+      "id": "textsfrankenstein.txt#Being_in_new_scenes_of_life",
+      "name": "Being_in_new_scenes_of_life"
+     },
+     "hasObject": {
+      "id": "textsfrankenstein.txt#New_scenes_of_life",
+      "name": "New_scenes_of_life"
+     },
      "exactPlace": "During the journey",
      "id": "Joy"
     },
@@ -56,6 +104,14 @@
      "name": "Pleasure",
      "hasIntensity": 0.8,
      "quote": "The delight of Clerval was proportionably greater than mine; his mind expanded in the company of men of talent, and he found in his own nature greater capacities and resources than he could have imagined himself to have possessed while he associated with his inferiors.",
+     "causedBy": {
+      "id": "textsfrankenstein.txt#Being_in_the_company_of_men_of_talent",
+      "name": "Being_in_the_company_of_men_of_talent"
+     },
+     "hasObject": {
+      "id": "textsfrankenstein.txt#Company_of_men_of_talent",
+      "name": "Company_of_men_of_talent"
+     },
      "exactPlace": "During the journey",
      "id": "Pleasure"
     },
@@ -63,6 +119,14 @@
      "name": "Pain",
      "hasIntensity": 0.7,
      "quote": "But he found that a traveller’s life is one that includes much pain amidst its enjoyments.",
+     "causedBy": {
+      "id": "textsfrankenstein.txt#Traveller_s_life",
+      "name": "Traveller_s_life"
+     },
+     "hasObject": {
+      "id": "textsfrankenstein.txt#Traveller_s_life",
+      "name": "Traveller_s_life"
+     },
      "exactPlace": "During the journey",
      "id": "Pain"
     }
@@ -71,48 +135,80 @@
  ],
  "Places": [
   {
-   "id": "data/texts/frankenstein#England",
+   "id": "textsfrankenstein.txt#England",
    "name": "England",
    "description": "Various locations in England including London, Oxford, Matlock, Cumberland, and Westmorland."
   },
   {
-   "id": "data/texts/frankenstein#Switzerland",
+   "id": "textsfrankenstein.txt#Switzerland",
    "name": "Switzerland",
    "description": "Victor Frankenstein's native country with majestic mountains and beautiful scenery."
   }
  ],
  "Events": [
   {
-   "id": "data/texts/frankenstein#Leaving_his_friends_unprotected",
-   "name": "Leaving_his_friends_unprotected"
+   "id": "textsfrankenstein.txt#Leaving_his_friends_unprotected",
+   "name": "Leaving_his_friends_unprotected",
+   "takePlaceAt": {
+    "id": "textsfrankenstein.txt#place1",
+    "name": "place1"
+   }
   },
   {
-   "id": "data/texts/frankenstein#Collecting_materials_for_his_new_creation",
-   "name": "Collecting_materials_for_his_new_creation"
+   "id": "textsfrankenstein.txt#Collecting_materials_for_his_new_creation",
+   "name": "Collecting_materials_for_his_new_creation",
+   "takePlaceAt": {
+    "id": "textsfrankenstein.txt#place1",
+    "name": "place1"
+   }
   },
   {
-   "id": "data/texts/frankenstein#Reflecting_on_the_events_connected_with_William_an",
-   "name": "Reflecting_on_the_events_connected_with_William_and_Justine"
+   "id": "textsfrankenstein.txt#Reflecting_on_the_events_connected_with_William_an",
+   "name": "Reflecting_on_the_events_connected_with_William_and_Justine",
+   "takePlaceAt": {
+    "id": "textsfrankenstein.txt#place1",
+    "name": "place1"
+   }
   },
   {
-   "id": "data/texts/frankenstein#Remembrance_of_Henry",
-   "name": "Remembrance_of_Henry"
+   "id": "textsfrankenstein.txt#Remembrance_of_Henry",
+   "name": "Remembrance_of_Henry",
+   "takePlaceAt": {
+    "id": "textsfrankenstein.txt#place1",
+    "name": "place1"
+   }
   },
   {
-   "id": "data/texts/frankenstein#Feeling_of_hopelessness",
-   "name": "Feeling_of_hopelessness"
+   "id": "textsfrankenstein.txt#Feeling_of_hopelessness",
+   "name": "Feeling_of_hopelessness",
+   "takePlaceAt": {
+    "id": "textsfrankenstein.txt#place1",
+    "name": "place1"
+   }
   },
   {
-   "id": "data/texts/frankenstein#Being_in_new_scenes_of_life",
-   "name": "Being_in_new_scenes_of_life"
+   "id": "textsfrankenstein.txt#Being_in_new_scenes_of_life",
+   "name": "Being_in_new_scenes_of_life",
+   "takePlaceAt": {
+    "id": "textsfrankenstein.txt#place1",
+    "name": "place1"
+   }
   },
   {
-   "id": "data/texts/frankenstein#Being_in_the_company_of_men_of_talent",
-   "name": "Being_in_the_company_of_men_of_talent"
+   "id": "textsfrankenstein.txt#Being_in_the_company_of_men_of_talent",
+   "name": "Being_in_the_company_of_men_of_talent",
+   "takePlaceAt": {
+    "id": "textsfrankenstein.txt#place1",
+    "name": "place1"
+   }
   },
   {
-   "id": "data/texts/frankenstein#Traveller_s_life",
-   "name": "Traveller_s_life"
+   "id": "textsfrankenstein.txt#Traveller_s_life",
+   "name": "Traveller_s_life",
+   "takePlaceAt": {
+    "id": "textsfrankenstein.txt#place1",
+    "name": "place1"
+   }
   }
  ]
 }

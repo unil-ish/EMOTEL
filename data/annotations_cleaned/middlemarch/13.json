@@ -1,13 +1,21 @@
 {
  "FictionalCharacters": [
   {
-   "id": "data/texts/middlemarch#Dorothea",
+   "id": "textsmiddlemarch.txt#Dorothea",
    "name": "Dorothea",
    "feels": [
     {
      "name": "Alarm",
      "hasIntensity": 0.8,
      "quote": "Dorothea felt a shock of alarm: every one noticed her sudden paleness as she looked up immediately at her uncle.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Mention_of_Mr_Ladislaw_s_presence",
+      "name": "Mention_of_Mr_Ladislaw_s_presence"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Mr_Ladislaw",
+      "name": "Mr_Ladislaw"
+     },
      "exactPlace": "In the presence of her uncle and Mr. Casaubon",
      "id": "Alarm"
     },
@@ -15,32 +23,56 @@
      "name": "Unpleasantness",
      "hasIntensity": 0.7,
      "quote": "Dorothea felt that every word of her uncle’s was about as pleasant as a grain of sand in the eye to Mr. Casaubon.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Uncle_s_comments_on_Mr_Ladislaw",
+      "name": "Uncle_s_comments_on_Mr_Ladislaw"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Uncle_s_comments",
+      "name": "Uncle_s_comments"
+     },
      "exactPlace": "In the presence of her uncle and Mr. Casaubon",
      "id": "Unpleasantness"
     }
    ]
   },
   {
-   "id": "data/texts/middlemarch#Mr_Casaubon",
+   "id": "textsmiddlemarch.txt#Mr_Casaubon",
    "name": "Mr_Casaubon",
    "feels": [
     {
      "name": "Irritation",
      "hasIntensity": 0.9,
      "quote": "Mr. Casaubon bowed with cold politeness, mastering his irritation.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Uncle_s_comments_on_Mr_Ladislaw",
+      "name": "Uncle_s_comments_on_Mr_Ladislaw"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Uncle_s_comments",
+      "name": "Uncle_s_comments"
+     },
      "exactPlace": "In the presence of Mr. Brooke and Dorothea",
      "id": "Irritation"
     }
    ]
   },
   {
-   "id": "data/texts/middlemarch#Mrs_Cadwallader",
+   "id": "textsmiddlemarch.txt#Mrs_Cadwallader",
    "name": "Mrs_Cadwallader",
    "feels": [
     {
      "name": "Curiosity",
      "hasIntensity": 0.8,
      "quote": "Mrs. Cadwallader’s eyes, diverted from the churchyard, saw a good deal of dumb show which was not so intelligible to her as she could have desired.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Observing_the_scene",
+      "name": "Observing_the_scene"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Scene_at_the_funeral",
+      "name": "Scene_at_the_funeral"
+     },
      "exactPlace": "At the manor window",
      "id": "Curiosity"
     }
@@ -49,32 +81,64 @@
  ],
  "Places": [
   {
-   "id": "data/texts/middlemarch#Lowick_churchyard",
+   "id": "textsmiddlemarch.txt#Lowick_churchyard",
    "name": "Lowick_churchyard",
    "description": "The setting for the funeral"
   },
   {
-   "id": "data/texts/middlemarch#The_manor_window",
+   "id": "textsmiddlemarch.txt#The_manor_window",
    "name": "The_manor_window",
    "description": "Where Mrs. Cadwallader observed the funeral"
   }
  ],
  "Events": [
   {
-   "id": "data/texts/middlemarch#Mention_of_Mr_Ladislaw_s_presence",
-   "name": "Mention_of_Mr_Ladislaw_s_presence"
+   "id": "textsmiddlemarch.txt#Mention_of_Mr_Ladislaw_s_presence",
+   "name": "Mention_of_Mr_Ladislaw_s_presence",
+   "takePlaceAt": {
+    "id": "textsmiddlemarch.txt#place2",
+    "name": "place2"
+   },
+   "hasParticipant": {
+    "id": "textsmiddlemarch.txt#fc1",
+    "name": "fc1"
+   }
   },
   {
-   "id": "data/texts/middlemarch#Uncle_s_comments_on_Mr_Ladislaw",
-   "name": "Uncle_s_comments_on_Mr_Ladislaw"
+   "id": "textsmiddlemarch.txt#Uncle_s_comments_on_Mr_Ladislaw",
+   "name": "Uncle_s_comments_on_Mr_Ladislaw",
+   "takePlaceAt": {
+    "id": "textsmiddlemarch.txt#place2",
+    "name": "place2"
+   },
+   "hasParticipant": {
+    "id": "textsmiddlemarch.txt#fc1",
+    "name": "fc1"
+   }
   },
   {
-   "id": "data/texts/middlemarch#Uncle_s_comments_on_Mr_Ladislaw",
-   "name": "Uncle_s_comments_on_Mr_Ladislaw"
+   "id": "textsmiddlemarch.txt#Uncle_s_comments_on_Mr_Ladislaw",
+   "name": "Uncle_s_comments_on_Mr_Ladislaw",
+   "takePlaceAt": {
+    "id": "textsmiddlemarch.txt#place2",
+    "name": "place2"
+   },
+   "hasParticipant": {
+    "id": "textsmiddlemarch.txt#fc2",
+    "name": "fc2"
+   }
   },
   {
-   "id": "data/texts/middlemarch#Observing_the_scene",
-   "name": "Observing_the_scene"
+   "id": "textsmiddlemarch.txt#Observing_the_scene",
+   "name": "Observing_the_scene",
+   "takePlaceAt": {
+    "id": "textsmiddlemarch.txt#place2",
+    "name": "place2"
+   },
+   "hasParticipant": {
+    "id": "textsmiddlemarch.txt#fc3",
+    "name": "fc3"
+   }
   }
  ]
 }

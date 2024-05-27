@@ -1,15 +1,23 @@
 {
  "FictionalCharacters": [
   {
-   "id": "data/texts/theadventuresofferdinandcountfathom#Captain_Minikin",
+   "id": "textstheadventuresofferdinandcountfathom.txt#Captain_Minikin",
    "name": "Captain_Minikin",
    "feels": [
     {
      "name": "Indignation",
      "hasIntensity": 0.9,
      "quote": "his eyes seemed bursting from their spheres, he swelled to twice his natural dimensions, and, raising himself on his tiptoes, pronounced, in a strain that emulated thunder",
+     "causedBy": {
+      "id": "textstheadventuresofferdinandcountfathom.txt#Feeling_affronted_by_the_situation_with_his_wife",
+      "name": "Feeling_affronted_by_the_situation_with_his_wife"
+     },
+     "hasObject": {
+      "id": "textstheadventuresofferdinandcountfathom.txt#The_situation_with_his_wife",
+      "name": "The_situation_with_his_wife"
+     },
      "place": {
-      "id": "data/texts/theadventuresofferdinandcountfathom#Count_s_apartment",
+      "id": "textstheadventuresofferdinandcountfathom.txt#Count_s_apartment",
       "name": "Count_s_apartment"
      },
      "id": "Indignation"
@@ -17,15 +25,23 @@
    ]
   },
   {
-   "id": "data/texts/theadventuresofferdinandcountfathom#Sir_Mungo_Barebones",
+   "id": "textstheadventuresofferdinandcountfathom.txt#Sir_Mungo_Barebones",
    "name": "Sir_Mungo_Barebones",
    "feels": [
     {
      "name": "Indignation",
      "hasIntensity": 0.8,
      "quote": "his eyes gleamed like lightning, he sprung from his seat with the agility of a grasshopper, and, darting himself out at the door like an arrow from a bow, reappeared in a moment with a long rusty weapon",
+     "causedBy": {
+      "id": "textstheadventuresofferdinandcountfathom.txt#Being_called_out_by_the_French_chevalier",
+      "name": "Being_called_out_by_the_French_chevalier"
+     },
+     "hasObject": {
+      "id": "textstheadventuresofferdinandcountfathom.txt#Being_called_out_by_the_French_chevalier",
+      "name": "Being_called_out_by_the_French_chevalier"
+     },
      "place": {
-      "id": "data/texts/theadventuresofferdinandcountfathom#General_rendezvous",
+      "id": "textstheadventuresofferdinandcountfathom.txt#General_rendezvous",
       "name": "General_rendezvous"
      },
      "id": "Indignation"
@@ -33,15 +49,23 @@
    ]
   },
   {
-   "id": "data/texts/theadventuresofferdinandcountfathom#Captain_Minikin",
+   "id": "textstheadventuresofferdinandcountfathom.txt#Captain_Minikin",
    "name": "Captain_Minikin",
    "feels": [
     {
      "name": "Indignation",
      "hasIntensity": 0.9,
      "quote": "his eyes seemed bursting from their spheres, he swelled to twice his natural dimensions, and, raising himself on his tiptoes, pronounced, in a strain that emulated thunder",
+     "causedBy": {
+      "id": "textstheadventuresofferdinandcountfathom.txt#Feeling_affronted_by_the_situation_with_his_wife",
+      "name": "Feeling_affronted_by_the_situation_with_his_wife"
+     },
+     "hasObject": {
+      "id": "textstheadventuresofferdinandcountfathom.txt#The_situation_with_his_wife",
+      "name": "The_situation_with_his_wife"
+     },
      "place": {
-      "id": "data/texts/theadventuresofferdinandcountfathom#Count_s_apartment",
+      "id": "textstheadventuresofferdinandcountfathom.txt#Count_s_apartment",
       "name": "Count_s_apartment"
      },
      "id": "Indignation"
@@ -49,15 +73,23 @@
    ]
   },
   {
-   "id": "data/texts/theadventuresofferdinandcountfathom#Major_Macleaver",
+   "id": "textstheadventuresofferdinandcountfathom.txt#Major_Macleaver",
    "name": "Major_Macleaver",
    "feels": [
     {
      "name": "Readiness",
      "hasIntensity": 0.7,
      "quote": "I am ready to please him in his own way.",
+     "causedBy": {
+      "id": "textstheadventuresofferdinandcountfathom.txt#Receiving_the_challenge_from_Captain_Minikin",
+      "name": "Receiving_the_challenge_from_Captain_Minikin"
+     },
+     "hasObject": {
+      "id": "textstheadventuresofferdinandcountfathom.txt#Challenge_from_Captain_Minikin",
+      "name": "Challenge_from_Captain_Minikin"
+     },
      "place": {
-      "id": "data/texts/theadventuresofferdinandcountfathom#Major_s_lodgings",
+      "id": "textstheadventuresofferdinandcountfathom.txt#Major_s_lodgings",
       "name": "Major_s_lodgings"
      },
      "id": "Readiness"
@@ -67,42 +99,74 @@
  ],
  "Places": [
   {
-   "id": "data/texts/theadventuresofferdinandcountfathom#Count_s_apartment",
+   "id": "textstheadventuresofferdinandcountfathom.txt#Count_s_apartment",
    "name": "Count_s_apartment",
    "description": "Where Captain Minikin felt indignation."
   },
   {
-   "id": "data/texts/theadventuresofferdinandcountfathom#General_rendezvous",
+   "id": "textstheadventuresofferdinandcountfathom.txt#General_rendezvous",
    "name": "General_rendezvous",
    "description": "Where Sir Mungo Barebones felt indignation."
   },
   {
-   "id": "data/texts/theadventuresofferdinandcountfathom#Count_s_apartment",
+   "id": "textstheadventuresofferdinandcountfathom.txt#Count_s_apartment",
    "name": "Count_s_apartment",
    "description": "Where Captain Minikin felt indignation."
   },
   {
-   "id": "data/texts/theadventuresofferdinandcountfathom#Major_s_lodgings",
+   "id": "textstheadventuresofferdinandcountfathom.txt#Major_s_lodgings",
    "name": "Major_s_lodgings",
    "description": "Where Major Macleaver felt readiness."
   }
  ],
  "Events": [
   {
-   "id": "data/texts/theadventuresofferdinandcountfathom#Feeling_affronted_by_the_situation_with_his_wife",
-   "name": "Feeling_affronted_by_the_situation_with_his_wife"
+   "id": "textstheadventuresofferdinandcountfathom.txt#Feeling_affronted_by_the_situation_with_his_wife",
+   "name": "Feeling_affronted_by_the_situation_with_his_wife",
+   "takePlaceAt": {
+    "id": "textstheadventuresofferdinandcountfathom.txt#place1",
+    "name": "place1"
+   },
+   "hasParticipant": {
+    "id": "textstheadventuresofferdinandcountfathom.txt#fc1",
+    "name": "fc1"
+   }
   },
   {
-   "id": "data/texts/theadventuresofferdinandcountfathom#Being_called_out_by_the_French_chevalier",
-   "name": "Being_called_out_by_the_French_chevalier"
+   "id": "textstheadventuresofferdinandcountfathom.txt#Being_called_out_by_the_French_chevalier",
+   "name": "Being_called_out_by_the_French_chevalier",
+   "takePlaceAt": {
+    "id": "textstheadventuresofferdinandcountfathom.txt#place2",
+    "name": "place2"
+   },
+   "hasParticipant": {
+    "id": "textstheadventuresofferdinandcountfathom.txt#fc2",
+    "name": "fc2"
+   }
   },
   {
-   "id": "data/texts/theadventuresofferdinandcountfathom#Feeling_affronted_by_the_situation_with_his_wife",
-   "name": "Feeling_affronted_by_the_situation_with_his_wife"
+   "id": "textstheadventuresofferdinandcountfathom.txt#Feeling_affronted_by_the_situation_with_his_wife",
+   "name": "Feeling_affronted_by_the_situation_with_his_wife",
+   "takePlaceAt": {
+    "id": "textstheadventuresofferdinandcountfathom.txt#place3",
+    "name": "place3"
+   },
+   "hasParticipant": {
+    "id": "textstheadventuresofferdinandcountfathom.txt#fc3",
+    "name": "fc3"
+   }
   },
   {
-   "id": "data/texts/theadventuresofferdinandcountfathom#Receiving_the_challenge_from_Captain_Minikin",
-   "name": "Receiving_the_challenge_from_Captain_Minikin"
+   "id": "textstheadventuresofferdinandcountfathom.txt#Receiving_the_challenge_from_Captain_Minikin",
+   "name": "Receiving_the_challenge_from_Captain_Minikin",
+   "takePlaceAt": {
+    "id": "textstheadventuresofferdinandcountfathom.txt#place4",
+    "name": "place4"
+   },
+   "hasParticipant": {
+    "id": "textstheadventuresofferdinandcountfathom.txt#fc4",
+    "name": "fc4"
+   }
   }
  ]
 }

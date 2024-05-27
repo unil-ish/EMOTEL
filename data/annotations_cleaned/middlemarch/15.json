@@ -1,13 +1,21 @@
 {
  "FictionalCharacters": [
   {
-   "id": "data/texts/middlemarch#Dorothea",
+   "id": "textsmiddlemarch.txt#Dorothea",
    "name": "Dorothea",
    "feels": [
     {
      "name": "Determination",
      "hasIntensity": 0.9,
      "quote": "But surely we should regard his claim as a much greater one, even to the half of that property which I know that you have destined for me. And I think he ought at once to be provided for on that understanding.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Realization_of_injustice_towards_Will_Ladislaw",
+      "name": "Realization_of_injustice_towards_Will_Ladislaw"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Property",
+      "name": "Property"
+     },
      "place": "Boudoir",
      "id": "Determination"
     },
@@ -15,6 +23,14 @@
      "name": "Anxiety",
      "hasIntensity": 0.8,
      "quote": "Poor Dorothea, shrouded in the darkness, was in a tumult of conflicting emotions. Alarm at the possible effect on himself of her husband’s strongly manifested anger, would have checked any expression of her own resentment, even if she had been quite free from doubt and compunction under the consciousness that there might be some justice in his last insinuation.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Mr_Casaubon_s_anger",
+      "name": "Mr_Casaubon_s_anger"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Herself",
+      "name": "Herself"
+     },
      "place": "Bedroom",
      "id": "Anxiety"
     },
@@ -22,19 +38,35 @@
      "name": "Fear",
      "hasIntensity": 0.7,
      "quote": "But nothing else happened, except that they both remained a long while sleepless, without speaking again.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Mr_Casaubon_s_silence",
+      "name": "Mr_Casaubon_s_silence"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Confrontation",
+      "name": "Confrontation"
+     },
      "place": "Bedroom",
      "id": "Fear"
     }
    ]
   },
   {
-   "id": "data/texts/middlemarch#Mr_Casaubon",
+   "id": "textsmiddlemarch.txt#Mr_Casaubon",
    "name": "Mr_Casaubon",
    "feels": [
     {
      "name": "Irritation",
      "hasIntensity": 0.9,
      "quote": "Dorothea, my love, this is not the first occasion, but it were well that it should be the last, on which you have assumed a judgment on subjects beyond your scope.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Dorothea_s_suggestion",
+      "name": "Dorothea_s_suggestion"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Dorothea_s_interference",
+      "name": "Dorothea_s_interference"
+     },
      "place": "Bedroom",
      "id": "Irritation"
     },
@@ -42,6 +74,14 @@
      "name": "Anger",
      "hasIntensity": 0.8,
      "quote": "Dorothea, my love, this is not the first occasion, but it were well that it should be the last, on which you have assumed a judgment on subjects beyond your scope.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Dorothea_s_suggestion",
+      "name": "Dorothea_s_suggestion"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Dorothea_s_interference",
+      "name": "Dorothea_s_interference"
+     },
      "place": "Bedroom",
      "id": "Anger"
     },
@@ -49,6 +89,14 @@
      "name": "Anxiety",
      "hasIntensity": 0.7,
      "quote": "But nothing else happened, except that they both remained a long while sleepless, without speaking again.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Dorothea_s_silence",
+      "name": "Dorothea_s_silence"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Confrontation",
+      "name": "Confrontation"
+     },
      "place": "Bedroom",
      "id": "Anxiety"
     }
@@ -57,31 +105,31 @@
  ],
  "Places": [
   {
-   "id": "data/texts/middlemarch#Boudoir",
+   "id": "textsmiddlemarch.txt#Boudoir",
    "name": "Boudoir",
    "description": "Dorothea's blue-green boudoir"
   },
   {
-   "id": "data/texts/middlemarch#Bedroom",
+   "id": "textsmiddlemarch.txt#Bedroom",
    "name": "Bedroom",
    "description": "Dark bedroom where Dorothea and Mr. Casaubon had a conversation"
   }
  ],
  "Events": [
   {
-   "id": "data/texts/middlemarch#Realization_of_injustice_towards_Will_Ladislaw",
+   "id": "textsmiddlemarch.txt#Realization_of_injustice_towards_Will_Ladislaw",
    "name": "Realization_of_injustice_towards_Will_Ladislaw"
   },
   {
-   "id": "data/texts/middlemarch#Mr_Casaubon_s_anger",
+   "id": "textsmiddlemarch.txt#Mr_Casaubon_s_anger",
    "name": "Mr_Casaubon_s_anger"
   },
   {
-   "id": "data/texts/middlemarch#Confrontation",
+   "id": "textsmiddlemarch.txt#Confrontation",
    "name": "Confrontation"
   },
   {
-   "id": "data/texts/middlemarch#Dorothea_s_suggestion",
+   "id": "textsmiddlemarch.txt#Dorothea_s_suggestion",
    "name": "Dorothea_s_suggestion"
   }
  ]

@@ -1,15 +1,23 @@
 {
  "FictionalCharacters": [
   {
-   "id": "data/texts/middlemarch#Mr_Brooke",
+   "id": "textsmiddlemarch.txt#Mr_Brooke",
    "name": "Mr_Brooke",
    "feels": [
     {
      "name": "Surprise",
      "hasIntensity": 0.7,
      "quote": "He had never been insulted on his own land before, and had been inclined to regard himself as a general favorite.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Being_insulted_by_Mr_Dagley",
+      "name": "Being_insulted_by_Mr_Dagley"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Being_insulted",
+      "name": "Being_insulted"
+     },
      "place": {
-      "id": "data/texts/middlemarch#His_own_land",
+      "id": "textsmiddlemarch.txt#His_own_land",
       "name": "His_own_land"
      },
      "id": "Surprise"
@@ -17,15 +25,23 @@
    ]
   },
   {
-   "id": "data/texts/middlemarch#Mr_Dagley",
+   "id": "textsmiddlemarch.txt#Mr_Dagley",
    "name": "Mr_Dagley",
    "feels": [
     {
      "name": "Anger",
      "hasIntensity": 0.9,
      "quote": "‘I’m no more drunk nor you are, nor so much,’ said Dagley. ‘I can carry my liquor, an’ I know what I meean.’",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Feeling_insulted_by_Mr_Brooke",
+      "name": "Feeling_insulted_by_Mr_Brooke"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Feeling_insulted",
+      "name": "Feeling_insulted"
+     },
      "place": {
-      "id": "data/texts/middlemarch#His_own_farmyard",
+      "id": "textsmiddlemarch.txt#His_own_farmyard",
       "name": "His_own_farmyard"
      },
      "id": "Anger"
@@ -33,15 +49,23 @@
    ]
   },
   {
-   "id": "data/texts/middlemarch#Mary_Garth",
+   "id": "textsmiddlemarch.txt#Mary_Garth",
    "name": "Mary_Garth",
    "feels": [
     {
      "name": "Amusement",
      "hasIntensity": 0.8,
      "quote": "Mary ended merrily, amused with the last notion.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Finding_the_idea_of_Rosamond_Vincy_needing_a_handk",
+      "name": "Finding_the_idea_of_Rosamond_Vincy_needing_a_handkerchief_for_her_wedding_amusing"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Idea_of_Rosamond_Vincy_needing_a_handkerchief_for_",
+      "name": "Idea_of_Rosamond_Vincy_needing_a_handkerchief_for_her_wedding"
+     },
      "place": {
-      "id": "data/texts/middlemarch#Caleb_Garth_s_breakfasttable",
+      "id": "textsmiddlemarch.txt#Caleb_Garth_s_breakfasttable",
       "name": "Caleb_Garth_s_breakfasttable"
      },
      "id": "Amusement"
@@ -51,33 +75,45 @@
  ],
  "Places": [
   {
-   "id": "data/texts/middlemarch#His_own_land",
+   "id": "textsmiddlemarch.txt#His_own_land",
    "name": "His_own_land",
    "description": "Mr. Brooke's own land where he was insulted for the first time."
   },
   {
-   "id": "data/texts/middlemarch#Mr_Dagley_s_farmyard",
+   "id": "textsmiddlemarch.txt#Mr_Dagley_s_farmyard",
    "name": "Mr_Dagley_s_farmyard",
    "description": "Mr. Dagley's farmyard where he felt insulted by Mr. Brooke."
   },
   {
-   "id": "data/texts/middlemarch#Caleb_Garth_s_breakfasttable",
+   "id": "textsmiddlemarch.txt#Caleb_Garth_s_breakfasttable",
    "name": "Caleb_Garth_s_breakfasttable",
    "description": "The breakfast-table where Mary Garth found the idea of Rosamond Vincy needing a handkerchief for her wedding amusing."
   }
  ],
  "Events": [
   {
-   "id": "data/texts/middlemarch#Being_insulted_by_Mr_Dagley",
-   "name": "Being_insulted_by_Mr_Dagley"
+   "id": "textsmiddlemarch.txt#Being_insulted_by_Mr_Dagley",
+   "name": "Being_insulted_by_Mr_Dagley",
+   "takePlaceAt": {
+    "id": "textsmiddlemarch.txt#place1",
+    "name": "place1"
+   }
   },
   {
-   "id": "data/texts/middlemarch#Feeling_insulted_by_Mr_Brooke",
-   "name": "Feeling_insulted_by_Mr_Brooke"
+   "id": "textsmiddlemarch.txt#Feeling_insulted_by_Mr_Brooke",
+   "name": "Feeling_insulted_by_Mr_Brooke",
+   "takePlaceAt": {
+    "id": "textsmiddlemarch.txt#place2",
+    "name": "place2"
+   }
   },
   {
-   "id": "data/texts/middlemarch#Finding_the_idea_of_Rosamond_Vincy_needing_a_handk",
-   "name": "Finding_the_idea_of_Rosamond_Vincy_needing_a_handkerchief_for_her_wedding_amusing"
+   "id": "textsmiddlemarch.txt#Finding_the_idea_of_Rosamond_Vincy_needing_a_handk",
+   "name": "Finding_the_idea_of_Rosamond_Vincy_needing_a_handkerchief_for_her_wedding_amusing",
+   "takePlaceAt": {
+    "id": "textsmiddlemarch.txt#place3",
+    "name": "place3"
+   }
   }
  ]
 }

@@ -1,12 +1,20 @@
 {
  "FictionalCharacters": [
   {
-   "id": "data/texts/frankenstein#Victor_Frankenstein",
+   "id": "textsfrankenstein.txt#Victor_Frankenstein",
    "feels": [
     {
      "name": "Trust",
      "hasIntensity": 0.7,
      "quote": "My father's care and attentions were indefatigable.",
+     "causedBy": {
+      "id": "textsfrankenstein.txt#Father_s_care_and_attentions",
+      "name": "Father_s_care_and_attentions"
+     },
+     "hasObject": {
+      "id": "textsfrankenstein.txt#Father",
+      "name": "Father"
+     },
      "exactPlace": "Prison",
      "id": "Trust"
     },
@@ -14,6 +22,14 @@
      "name": "Surprise",
      "hasIntensity": 0.6,
      "quote": "My father yielded at length to my desire to avoid society.",
+     "causedBy": {
+      "id": "textsfrankenstein.txt#Father_yielding_to_Victor_s_desire",
+      "name": "Father_yielding_to_Victor_s_desire"
+     },
+     "hasObject": {
+      "id": "textsfrankenstein.txt#Father",
+      "name": "Father"
+     },
      "exactPlace": "Paris",
      "id": "Surprise"
     },
@@ -21,6 +37,14 @@
      "name": "Anger",
      "hasIntensity": 0.8,
      "quote": "I cried energetically; 'I am the assassin of those most innocent victims.'",
+     "causedBy": {
+      "id": "textsfrankenstein.txt#Selfaccusation",
+      "name": "Selfaccusation"
+     },
+     "hasObject": {
+      "id": "textsfrankenstein.txt#Innocent_victims",
+      "name": "Innocent_victims"
+     },
      "exactPlace": "Conversation with father",
      "id": "Anger"
     },
@@ -28,6 +52,14 @@
      "name": "Joy",
      "hasIntensity": 0.9,
      "quote": "It gave me the greatest pleasure to receive a letter from my uncle.",
+     "causedBy": {
+      "id": "textsfrankenstein.txt#Receiving_a_letter_from_Elizabeth",
+      "name": "Receiving_a_letter_from_Elizabeth"
+     },
+     "hasObject": {
+      "id": "textsfrankenstein.txt#Letter_from_Elizabeth",
+      "name": "Letter_from_Elizabeth"
+     },
      "exactPlace": "Paris",
      "id": "Joy"
     }
@@ -37,32 +69,64 @@
  ],
  "Places": [
   {
-   "id": "data/texts/frankenstein#Prison",
+   "id": "textsfrankenstein.txt#Prison",
    "name": "Prison",
    "description": "Victor Frankenstein's place of confinement"
   },
   {
-   "id": "data/texts/frankenstein#Paris",
+   "id": "textsfrankenstein.txt#Paris",
    "name": "Paris",
    "description": "City where Victor Frankenstein and his father stayed"
   }
  ],
  "Events": [
   {
-   "id": "data/texts/frankenstein#Father_s_care_and_attentions",
-   "name": "Father_s_care_and_attentions"
+   "id": "textsfrankenstein.txt#Father_s_care_and_attentions",
+   "name": "Father_s_care_and_attentions",
+   "takePlaceAt": {
+    "id": "textsfrankenstein.txt#Prison",
+    "name": "Prison"
+   },
+   "hasParticipant": {
+    "id": "textsfrankenstein.txt#Victor_Frankenstein",
+    "name": "Victor_Frankenstein"
+   }
   },
   {
-   "id": "data/texts/frankenstein#Father_yielding_to_Victor_s_desire",
-   "name": "Father_yielding_to_Victor_s_desire"
+   "id": "textsfrankenstein.txt#Father_yielding_to_Victor_s_desire",
+   "name": "Father_yielding_to_Victor_s_desire",
+   "takePlaceAt": {
+    "id": "textsfrankenstein.txt#Paris",
+    "name": "Paris"
+   },
+   "hasParticipant": {
+    "id": "textsfrankenstein.txt#Victor_Frankenstein",
+    "name": "Victor_Frankenstein"
+   }
   },
   {
-   "id": "data/texts/frankenstein#Selfaccusation",
-   "name": "Selfaccusation"
+   "id": "textsfrankenstein.txt#Selfaccusation",
+   "name": "Selfaccusation",
+   "takePlaceAt": {
+    "id": "textsfrankenstein.txt#Conversation_with_father",
+    "name": "Conversation_with_father"
+   },
+   "hasParticipant": {
+    "id": "textsfrankenstein.txt#Victor_Frankenstein",
+    "name": "Victor_Frankenstein"
+   }
   },
   {
-   "id": "data/texts/frankenstein#Receiving_a_letter_from_Elizabeth",
-   "name": "Receiving_a_letter_from_Elizabeth"
+   "id": "textsfrankenstein.txt#Receiving_a_letter_from_Elizabeth",
+   "name": "Receiving_a_letter_from_Elizabeth",
+   "takePlaceAt": {
+    "id": "textsfrankenstein.txt#Paris",
+    "name": "Paris"
+   },
+   "hasParticipant": {
+    "id": "textsfrankenstein.txt#Victor_Frankenstein",
+    "name": "Victor_Frankenstein"
+   }
   }
  ]
 }

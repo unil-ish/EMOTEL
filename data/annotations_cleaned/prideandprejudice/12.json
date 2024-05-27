@@ -1,13 +1,21 @@
 {
  "FictionalCharacters": [
   {
-   "id": "data/texts/prideandprejudice#Elizabeth_Bennet",
+   "id": "textsprideandprejudice.txt#Elizabeth_Bennet",
    "name": "Elizabeth_Bennet",
    "feels": [
     {
      "name": "Surprise",
      "hasIntensity": 0.8,
      "quote": "Elizabeth looked with unaffected astonishment.",
+     "causedBy": {
+      "id": "textsprideandprejudice.txt#Lady_Catherine_s_unexpected_visit",
+      "name": "Lady_Catherine_s_unexpected_visit"
+     },
+     "hasObject": {
+      "id": "textsprideandprejudice.txt#Lady_Catherine_de_Bourgh",
+      "name": "Lady_Catherine_de_Bourgh"
+     },
      "place": "Longbourn dining-room",
      "id": "Surprise"
     },
@@ -15,6 +23,14 @@
      "name": "Disdain",
      "hasIntensity": 0.7,
      "quote": "Elizabeth would not, for the mere purpose of obliging Lady Catherine, have answered this question.",
+     "causedBy": {
+      "id": "textsprideandprejudice.txt#Lady_Catherine_s_interrogation",
+      "name": "Lady_Catherine_s_interrogation"
+     },
+     "hasObject": {
+      "id": "textsprideandprejudice.txt#Lady_Catherine_de_Bourgh",
+      "name": "Lady_Catherine_de_Bourgh"
+     },
      "place": "Longbourn dining-room",
      "id": "Disdain"
     },
@@ -22,6 +38,14 @@
      "name": "Resentment",
      "hasIntensity": 0.9,
      "quote": "You have insulted me, in every possible method.",
+     "causedBy": {
+      "id": "textsprideandprejudice.txt#Lady_Catherine_s_accusations",
+      "name": "Lady_Catherine_s_accusations"
+     },
+     "hasObject": {
+      "id": "textsprideandprejudice.txt#Lady_Catherine_de_Bourgh",
+      "name": "Lady_Catherine_de_Bourgh"
+     },
      "place": "Longbourn dining-room",
      "id": "Resentment"
     },
@@ -29,6 +53,14 @@
      "name": "Defiance",
      "hasIntensity": 0.8,
      "quote": "I shall now know how to act. Do not imagine, Miss Bennet, that your ambition will ever be gratified.",
+     "causedBy": {
+      "id": "textsprideandprejudice.txt#Elizabeth_s_refusal_to_promise_not_to_marry_Mr_Dar",
+      "name": "Elizabeth_s_refusal_to_promise_not_to_marry_Mr_Darcy"
+     },
+     "hasObject": {
+      "id": "textsprideandprejudice.txt#Lady_Catherine_de_Bourgh",
+      "name": "Lady_Catherine_de_Bourgh"
+     },
      "place": "Longbourn dining-room",
      "id": "Defiance"
     },
@@ -36,19 +68,35 @@
      "name": "Discomfort",
      "hasIntensity": 0.9,
      "quote": "The discomposure of spirits which this extraordinary visit threw Elizabeth into could not be easily overcome.",
+     "causedBy": {
+      "id": "textsprideandprejudice.txt#Lady_Catherine_s_visit",
+      "name": "Lady_Catherine_s_visit"
+     },
+     "hasObject": {
+      "id": "textsprideandprejudice.txt#Lady_Catherine_de_Bourgh",
+      "name": "Lady_Catherine_de_Bourgh"
+     },
      "place": "Longbourn",
      "id": "Discomfort"
     }
    ]
   },
   {
-   "id": "data/texts/prideandprejudice#Lady_Catherine_de_Bourgh",
+   "id": "textsprideandprejudice.txt#Lady_Catherine_de_Bourgh",
    "name": "Lady_Catherine_de_Bourgh",
    "feels": [
     {
      "name": "Anger",
      "hasIntensity": 0.9,
      "quote": "Miss Bennet, I insist on being satisfied.",
+     "causedBy": {
+      "id": "textsprideandprejudice.txt#Elizabeth_s_refusal_to_promise_never_to_enter_into",
+      "name": "Elizabeth_s_refusal_to_promise_never_to_enter_into_an_engagement_with_Mr_Darcy"
+     },
+     "hasObject": {
+      "id": "textsprideandprejudice.txt#Elizabeth_Bennet",
+      "name": "Elizabeth_Bennet"
+     },
      "place": "Longbourn dining-room",
      "id": "Anger"
     },
@@ -56,6 +104,14 @@
      "name": "Displeasure",
      "hasIntensity": 0.9,
      "quote": "I am most seriously displeased.",
+     "causedBy": {
+      "id": "textsprideandprejudice.txt#Elizabeth_s_refusal_to_promise_never_to_enter_into",
+      "name": "Elizabeth_s_refusal_to_promise_never_to_enter_into_an_engagement_with_Mr_Darcy"
+     },
+     "hasObject": {
+      "id": "textsprideandprejudice.txt#Elizabeth_Bennet",
+      "name": "Elizabeth_Bennet"
+     },
      "place": "Longbourn dining-room",
      "id": "Displeasure"
     }
@@ -64,43 +120,43 @@
  ],
  "Places": [
   {
-   "id": "data/texts/prideandprejudice#Longbourn_diningroom",
+   "id": "textsprideandprejudice.txt#Longbourn_diningroom",
    "name": "Longbourn_diningroom",
    "description": "The main dining area in the Bennet household."
   },
   {
-   "id": "data/texts/prideandprejudice#Longbourn",
+   "id": "textsprideandprejudice.txt#Longbourn",
    "name": "Longbourn",
    "description": "The Bennet family estate."
   }
  ],
  "Events": [
   {
-   "id": "data/texts/prideandprejudice#Lady_Catherine_s_unexpected_visit",
+   "id": "textsprideandprejudice.txt#Lady_Catherine_s_unexpected_visit",
    "name": "Lady_Catherine_s_unexpected_visit"
   },
   {
-   "id": "data/texts/prideandprejudice#Lady_Catherine_s_interrogation",
+   "id": "textsprideandprejudice.txt#Lady_Catherine_s_interrogation",
    "name": "Lady_Catherine_s_interrogation"
   },
   {
-   "id": "data/texts/prideandprejudice#Lady_Catherine_s_accusations",
+   "id": "textsprideandprejudice.txt#Lady_Catherine_s_accusations",
    "name": "Lady_Catherine_s_accusations"
   },
   {
-   "id": "data/texts/prideandprejudice#Elizabeth_s_refusal_to_promise_not_to_marry_Mr_Dar",
+   "id": "textsprideandprejudice.txt#Elizabeth_s_refusal_to_promise_not_to_marry_Mr_Dar",
    "name": "Elizabeth_s_refusal_to_promise_not_to_marry_Mr_Darcy"
   },
   {
-   "id": "data/texts/prideandprejudice#Lady_Catherine_s_visit",
+   "id": "textsprideandprejudice.txt#Lady_Catherine_s_visit",
    "name": "Lady_Catherine_s_visit"
   },
   {
-   "id": "data/texts/prideandprejudice#Elizabeth_s_refusal_to_promise_never_to_enter_into",
+   "id": "textsprideandprejudice.txt#Elizabeth_s_refusal_to_promise_never_to_enter_into",
    "name": "Elizabeth_s_refusal_to_promise_never_to_enter_into_an_engagement_with_Mr_Darcy"
   },
   {
-   "id": "data/texts/prideandprejudice#Elizabeth_s_refusal_to_promise_never_to_enter_into",
+   "id": "textsprideandprejudice.txt#Elizabeth_s_refusal_to_promise_never_to_enter_into",
    "name": "Elizabeth_s_refusal_to_promise_never_to_enter_into_an_engagement_with_Mr_Darcy"
   }
  ]

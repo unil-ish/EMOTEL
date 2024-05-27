@@ -1,15 +1,23 @@
 {
  "FictionalCharacters": [
   {
-   "id": "data/texts/middlemarch#Mr_Lydgate",
+   "id": "textsmiddlemarch.txt#Mr_Lydgate",
    "name": "Mr_Lydgate",
    "feels": [
     {
      "name": "Anger",
      "hasIntensity": 0.8,
      "quote": "He was ready to curse the day on which he had come to Middlemarch.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Feeling_stigmatized_and_misunderstood_by_the_town",
+      "name": "Feeling_stigmatized_and_misunderstood_by_the_town"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Town_of_Middlemarch",
+      "name": "Town_of_Middlemarch"
+     },
      "place": {
-      "id": "data/texts/middlemarch#Middlemarch",
+      "id": "textsmiddlemarch.txt#Middlemarch",
       "name": "Middlemarch"
      },
      "id": "Anger"
@@ -18,8 +26,16 @@
      "name": "Defiance",
      "hasIntensity": 0.9,
      "quote": "He resolved not to shrink from showing his sense of obligation to Bulstrode.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Decision_to_face_the_situation_with_defiance",
+      "name": "Decision_to_face_the_situation_with_defiance"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Sense_of_obligation_to_Bulstrode",
+      "name": "Sense_of_obligation_to_Bulstrode"
+     },
      "place": {
-      "id": "data/texts/middlemarch#Middlemarch",
+      "id": "textsmiddlemarch.txt#Middlemarch",
       "name": "Middlemarch"
      },
      "id": "Defiance"
@@ -28,8 +44,16 @@
      "name": "Resentment",
      "hasIntensity": 0.7,
      "quote": "He was setting his mind on remaining in Middlemarch in spite of the worst that could be done against him.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Decision_to_stay_in_Middlemarch_despite_the_town_s",
+      "name": "Decision_to_stay_in_Middlemarch_despite_the_town_s_opinion"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Town_of_Middlemarch",
+      "name": "Town_of_Middlemarch"
+     },
      "place": {
-      "id": "data/texts/middlemarch#Middlemarch",
+      "id": "textsmiddlemarch.txt#Middlemarch",
       "name": "Middlemarch"
      },
      "id": "Resentment"
@@ -37,15 +61,23 @@
    ]
   },
   {
-   "id": "data/texts/middlemarch#Mrs_Bulstrode",
+   "id": "textsmiddlemarch.txt#Mrs_Bulstrode",
    "name": "Mrs_Bulstrode",
    "feels": [
     {
      "name": "Pity",
      "hasIntensity": 0.6,
      "quote": "Women who were intimate with her talked much of 'poor Harriet,' imagined what her feelings must be, and conjectured how much she had already come to know.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Sympathy_towards_Mrs_Bulstrode_s_situation",
+      "name": "Sympathy_towards_Mrs_Bulstrode_s_situation"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Mrs_Bulstrode",
+      "name": "Mrs_Bulstrode"
+     },
      "place": {
-      "id": "data/texts/middlemarch#Middlemarch",
+      "id": "textsmiddlemarch.txt#Middlemarch",
       "name": "Middlemarch"
      },
      "id": "Pity"
@@ -53,15 +85,23 @@
    ]
   },
   {
-   "id": "data/texts/middlemarch#Rosamond_Vincy",
+   "id": "textsmiddlemarch.txt#Rosamond_Vincy",
    "name": "Rosamond_Vincy",
    "feels": [
     {
      "name": "Criticism",
      "hasIntensity": 0.8,
      "quote": "Rosamond was more severely criticized and less pitied.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Being_associated_with_her_husband_s_situation",
+      "name": "Being_associated_with_her_husband_s_situation"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Association_with_Bulstrode",
+      "name": "Association_with_Bulstrode"
+     },
      "place": {
-      "id": "data/texts/middlemarch#Middlemarch",
+      "id": "textsmiddlemarch.txt#Middlemarch",
       "name": "Middlemarch"
      },
      "id": "Criticism"
@@ -71,34 +111,54 @@
  ],
  "Places": [
   {
-   "id": "data/texts/middlemarch#Middlemarch",
+   "id": "textsmiddlemarch.txt#Middlemarch",
    "name": "Middlemarch"
   },
   {
-   "id": "data/texts/middlemarch#Middlemarch",
+   "id": "textsmiddlemarch.txt#Middlemarch",
    "name": "Middlemarch"
   }
  ],
  "Events": [
   {
-   "id": "data/texts/middlemarch#Feeling_stigmatized_and_misunderstood_by_the_town",
-   "name": "Feeling_stigmatized_and_misunderstood_by_the_town"
+   "id": "textsmiddlemarch.txt#Feeling_stigmatized_and_misunderstood_by_the_town",
+   "name": "Feeling_stigmatized_and_misunderstood_by_the_town",
+   "takePlaceAt": {
+    "id": "textsmiddlemarch.txt#place1",
+    "name": "place1"
+   }
   },
   {
-   "id": "data/texts/middlemarch#Decision_to_face_the_situation_with_defiance",
-   "name": "Decision_to_face_the_situation_with_defiance"
+   "id": "textsmiddlemarch.txt#Decision_to_face_the_situation_with_defiance",
+   "name": "Decision_to_face_the_situation_with_defiance",
+   "takePlaceAt": {
+    "id": "textsmiddlemarch.txt#place1",
+    "name": "place1"
+   }
   },
   {
-   "id": "data/texts/middlemarch#Decision_to_stay_in_Middlemarch_despite_the_town_s",
-   "name": "Decision_to_stay_in_Middlemarch_despite_the_town_s_opinion"
+   "id": "textsmiddlemarch.txt#Decision_to_stay_in_Middlemarch_despite_the_town_s",
+   "name": "Decision_to_stay_in_Middlemarch_despite_the_town_s_opinion",
+   "takePlaceAt": {
+    "id": "textsmiddlemarch.txt#place1",
+    "name": "place1"
+   }
   },
   {
-   "id": "data/texts/middlemarch#Sympathy_towards_Mrs_Bulstrode_s_situation",
-   "name": "Sympathy_towards_Mrs_Bulstrode_s_situation"
+   "id": "textsmiddlemarch.txt#Sympathy_towards_Mrs_Bulstrode_s_situation",
+   "name": "Sympathy_towards_Mrs_Bulstrode_s_situation",
+   "takePlaceAt": {
+    "id": "textsmiddlemarch.txt#place2",
+    "name": "place2"
+   }
   },
   {
-   "id": "data/texts/middlemarch#Being_associated_with_her_husband_s_situation",
-   "name": "Being_associated_with_her_husband_s_situation"
+   "id": "textsmiddlemarch.txt#Being_associated_with_her_husband_s_situation",
+   "name": "Being_associated_with_her_husband_s_situation",
+   "takePlaceAt": {
+    "id": "textsmiddlemarch.txt#place1",
+    "name": "place1"
+   }
   }
  ]
 }

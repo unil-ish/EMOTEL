@@ -1,15 +1,23 @@
 {
  "FictionalCharacters": [
   {
-   "id": "data/texts/theadventuresofferdinandcountfathom#Renaldo",
+   "id": "textstheadventuresofferdinandcountfathom.txt#Renaldo",
    "name": "Renaldo",
    "feels": [
     {
      "name": "Grief",
      "hasIntensity": 1,
      "quote": "Over these pictures he dwelt with a sort of pleasing anguish, until he became so enamoured of her tomb, that he could no longer resist the desire that compelled him to make a pilgrimage to the dear hallowed spot, where all his once gay hopes lay buried.",
+     "causedBy": {
+      "id": "textstheadventuresofferdinandcountfathom.txt#Reflections_on_Monimia",
+      "name": "Reflections_on_Monimia"
+     },
+     "hasObject": {
+      "id": "textstheadventuresofferdinandcountfathom.txt#Monimia_s_tomb",
+      "name": "Monimia_s_tomb"
+     },
      "exactPlace": {
-      "id": "data/texts/theadventuresofferdinandcountfathom#Monimia_s_tomb",
+      "id": "textstheadventuresofferdinandcountfathom.txt#Monimia_s_tomb",
       "name": "Monimia_s_tomb"
      },
      "id": "Grief"
@@ -18,30 +26,62 @@
      "name": "Indignation",
      "hasIntensity": 0.8,
      "quote": "At mention of this detested name, Renaldo’s heart began to throb with indignation; yet he suppressed the emotion, and desired to know the meaning of that splendid encomium which he had bestowed upon his confederate.",
+     "causedBy": {
+      "id": "textstheadventuresofferdinandcountfathom.txt#Mention_of_Fathom",
+      "name": "Mention_of_Fathom"
+     },
+     "hasObject": {
+      "id": "textstheadventuresofferdinandcountfathom.txt#Fathom",
+      "name": "Fathom"
+     },
      "id": "Indignation"
     },
     {
      "name": "Concern",
      "hasIntensity": 0.9,
      "quote": "Renaldo immediately recognised his fellow-student at Vienna, and his brother-volunteer upon the Rhine, and expressed equal surprise and concern at seeing him in such a deplorable situation.",
+     "causedBy": {
+      "id": "textstheadventuresofferdinandcountfathom.txt#Seeing_Ratchcali_in_a_deplorable_situation",
+      "name": "Seeing_Ratchcali_in_a_deplorable_situation"
+     },
+     "hasObject": {
+      "id": "textstheadventuresofferdinandcountfathom.txt#Ratchcali",
+      "name": "Ratchcali"
+     },
      "id": "Concern"
     }
    ]
   },
   {
-   "id": "data/texts/theadventuresofferdinandcountfathom#Ratchcali",
+   "id": "textstheadventuresofferdinandcountfathom.txt#Ratchcali",
    "name": "Ratchcali",
    "feels": [
     {
      "name": "Resignation",
      "hasIntensity": 0.7,
      "quote": "Nothing renders the soul so callous and insensible as the searing brands of infamy and disgrace.",
+     "causedBy": {
+      "id": "textstheadventuresofferdinandcountfathom.txt#Being_sentenced_to_hard_labour_for_life",
+      "name": "Being_sentenced_to_hard_labour_for_life"
+     },
+     "hasObject": {
+      "id": "textstheadventuresofferdinandcountfathom.txt#Hard_labour_sentence",
+      "name": "Hard_labour_sentence"
+     },
      "id": "Resignation"
     },
     {
      "name": "Admiration",
      "hasIntensity": 0.6,
      "quote": "Long life to that original genius! If he is not unhappily eclipsed by some unfortunate interposition, before his terrene parts are purified, I foresee that he will shine a star of the first magnitude in the world of adventure.",
+     "causedBy": {
+      "id": "textstheadventuresofferdinandcountfathom.txt#Mentioning_Fathom",
+      "name": "Mentioning_Fathom"
+     },
+     "hasObject": {
+      "id": "textstheadventuresofferdinandcountfathom.txt#Fathom",
+      "name": "Fathom"
+     },
      "id": "Admiration"
     }
    ]
@@ -49,30 +89,34 @@
  ],
  "Places": [
   {
-   "id": "data/texts/theadventuresofferdinandcountfathom#Monimia_s_tomb",
+   "id": "textstheadventuresofferdinandcountfathom.txt#Monimia_s_tomb",
    "name": "Monimia_s_tomb",
    "description": "The hallowed spot where all Renaldo's once gay hopes lay buried."
   }
  ],
  "Events": [
   {
-   "id": "data/texts/theadventuresofferdinandcountfathom#Reflections_on_Monimia",
-   "name": "Reflections_on_Monimia"
+   "id": "textstheadventuresofferdinandcountfathom.txt#Reflections_on_Monimia",
+   "name": "Reflections_on_Monimia",
+   "takePlaceAt": {
+    "id": "textstheadventuresofferdinandcountfathom.txt#place1",
+    "name": "place1"
+   }
   },
   {
-   "id": "data/texts/theadventuresofferdinandcountfathom#Mention_of_Fathom",
+   "id": "textstheadventuresofferdinandcountfathom.txt#Mention_of_Fathom",
    "name": "Mention_of_Fathom"
   },
   {
-   "id": "data/texts/theadventuresofferdinandcountfathom#Seeing_Ratchcali_in_a_deplorable_situation",
+   "id": "textstheadventuresofferdinandcountfathom.txt#Seeing_Ratchcali_in_a_deplorable_situation",
    "name": "Seeing_Ratchcali_in_a_deplorable_situation"
   },
   {
-   "id": "data/texts/theadventuresofferdinandcountfathom#Being_sentenced_to_hard_labour_for_life",
+   "id": "textstheadventuresofferdinandcountfathom.txt#Being_sentenced_to_hard_labour_for_life",
    "name": "Being_sentenced_to_hard_labour_for_life"
   },
   {
-   "id": "data/texts/theadventuresofferdinandcountfathom#Mentioning_Fathom",
+   "id": "textstheadventuresofferdinandcountfathom.txt#Mentioning_Fathom",
    "name": "Mentioning_Fathom"
   }
  ]

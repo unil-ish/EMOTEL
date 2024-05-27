@@ -1,12 +1,20 @@
 {
  "FictionalCharacters": [
   {
-   "id": "data/texts/littlewomen#Laurie",
+   "id": "textslittlewomen.txt#Laurie",
    "feels": [
     {
      "name": "Trust",
      "hasIntensity": 0.7,
      "quote": "He felt that his blighted affections were quite dead now; and, though he should never cease to be a faithful mourner, there was no occasion to wear his weeds ostentatiously.",
+     "causedBy": {
+      "id": "textslittlewomen.txt#Realization_of_his_changed_feelings",
+      "name": "Realization_of_his_changed_feelings"
+     },
+     "hasObject": {
+      "id": "textslittlewomen.txt#Jo",
+      "name": "Jo"
+     },
      "exactPlace": "Vienna",
      "id": "Trust"
     },
@@ -14,6 +22,14 @@
      "name": "Joy",
      "hasIntensity": 0.8,
      "quote": "He felt that his blighted affections were quite dead now; and, though he should never cease to be a faithful mourner, there was no occasion to wear his weeds ostentatiously.",
+     "causedBy": {
+      "id": "textslittlewomen.txt#Realization_of_his_changed_feelings",
+      "name": "Realization_of_his_changed_feelings"
+     },
+     "hasObject": {
+      "id": "textslittlewomen.txt#Jo",
+      "name": "Jo"
+     },
      "exactPlace": "Vienna",
      "id": "Joy"
     },
@@ -21,6 +37,14 @@
      "name": "Acceptance",
      "hasIntensity": 0.9,
      "quote": "He carefully stirred up the embers of his lost love, but they refused to burst into a blaze: there was only a comfortable glow that warmed and did him good without putting him into a fever.",
+     "causedBy": {
+      "id": "textslittlewomen.txt#Acceptance_of_his_changed_feelings",
+      "name": "Acceptance_of_his_changed_feelings"
+     },
+     "hasObject": {
+      "id": "textslittlewomen.txt#Jo",
+      "name": "Jo"
+     },
      "exactPlace": "Vienna",
      "id": "Acceptance"
     },
@@ -28,6 +52,14 @@
      "name": "Relief",
      "hasIntensity": 0.7,
      "quote": "He was disgusted with himself, surprised at his own fickleness, and full of a queer mixture of disappointment and relief that he could recover from such a tremendous blow so soon.",
+     "causedBy": {
+      "id": "textslittlewomen.txt#Relief_from_the_intensity_of_his_feelings",
+      "name": "Relief_from_the_intensity_of_his_feelings"
+     },
+     "hasObject": {
+      "id": "textslittlewomen.txt#Jo",
+      "name": "Jo"
+     },
      "exactPlace": "Vienna",
      "id": "Relief"
     }
@@ -37,16 +69,28 @@
  ],
  "Events": [
   {
-   "id": "data/texts/littlewomen#Realization_of_his_changed_feelings",
-   "name": "Realization_of_his_changed_feelings"
+   "id": "textslittlewomen.txt#Realization_of_his_changed_feelings",
+   "name": "Realization_of_his_changed_feelings",
+   "takePlaceAt": {
+    "id": "textslittlewomen.txt#Vienna",
+    "name": "Vienna"
+   }
   },
   {
-   "id": "data/texts/littlewomen#Acceptance_of_his_changed_feelings",
-   "name": "Acceptance_of_his_changed_feelings"
+   "id": "textslittlewomen.txt#Acceptance_of_his_changed_feelings",
+   "name": "Acceptance_of_his_changed_feelings",
+   "takePlaceAt": {
+    "id": "textslittlewomen.txt#Vienna",
+    "name": "Vienna"
+   }
   },
   {
-   "id": "data/texts/littlewomen#Relief_from_the_intensity_of_his_feelings",
-   "name": "Relief_from_the_intensity_of_his_feelings"
+   "id": "textslittlewomen.txt#Relief_from_the_intensity_of_his_feelings",
+   "name": "Relief_from_the_intensity_of_his_feelings",
+   "takePlaceAt": {
+    "id": "textslittlewomen.txt#Vienna",
+    "name": "Vienna"
+   }
   }
  ]
 }

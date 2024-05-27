@@ -1,14 +1,22 @@
 {
  "FictionalCharacters": [
   {
-   "id": "data/texts/theadventuresofferdinandcountfathom#Ferdinand",
+   "id": "textstheadventuresofferdinandcountfathom.txt#Ferdinand",
    "feels": [
     {
      "name": "Surprise",
      "hasIntensity": 0.8,
      "quote": "Fathom being thus informed of the suspicion under which he stood, could not help smiling at the eagerness with which the spectators flew upon him.",
+     "causedBy": {
+      "id": "textstheadventuresofferdinandcountfathom.txt#Being_mistaken_for_the_Young_Pretender",
+      "name": "Being_mistaken_for_the_Young_Pretender"
+     },
+     "hasObject": {
+      "id": "textstheadventuresofferdinandcountfathom.txt#Spectators",
+      "name": "Spectators"
+     },
      "place": {
-      "id": "data/texts/theadventuresofferdinandcountfathom#Inn",
+      "id": "textstheadventuresofferdinandcountfathom.txt#Inn",
       "name": "Inn"
      },
      "id": "Surprise"
@@ -17,8 +25,16 @@
      "name": "Amusement",
      "hasIntensity": 0.7,
      "quote": "Fathom being thus informed of the suspicion under which he stood, could not help smiling at the eagerness with which the spectators flew upon him.",
+     "causedBy": {
+      "id": "textstheadventuresofferdinandcountfathom.txt#Being_mistaken_for_the_Young_Pretender",
+      "name": "Being_mistaken_for_the_Young_Pretender"
+     },
+     "hasObject": {
+      "id": "textstheadventuresofferdinandcountfathom.txt#Spectators",
+      "name": "Spectators"
+     },
      "place": {
-      "id": "data/texts/theadventuresofferdinandcountfathom#Inn",
+      "id": "textstheadventuresofferdinandcountfathom.txt#Inn",
       "name": "Inn"
      },
      "id": "Amusement"
@@ -29,15 +45,19 @@
  ],
  "Places": [
   {
-   "id": "data/texts/theadventuresofferdinandcountfathom#Inn",
+   "id": "textstheadventuresofferdinandcountfathom.txt#Inn",
    "name": "Inn",
    "description": "The inn where the passengers used to eat their breakfasts."
   }
  ],
  "Events": [
   {
-   "id": "data/texts/theadventuresofferdinandcountfathom#Being_mistaken_for_the_Young_Pretender",
-   "name": "Being_mistaken_for_the_Young_Pretender"
+   "id": "textstheadventuresofferdinandcountfathom.txt#Being_mistaken_for_the_Young_Pretender",
+   "name": "Being_mistaken_for_the_Young_Pretender",
+   "takePlaceAt": {
+    "id": "textstheadventuresofferdinandcountfathom.txt#inn1",
+    "name": "inn1"
+   }
   }
  ]
 }

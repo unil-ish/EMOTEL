@@ -1,14 +1,22 @@
 {
  "FictionalCharacters": [
   {
-   "id": "data/texts/mobydick#Queequeg",
+   "id": "textsmobydick.txt#Queequeg",
    "feels": [
     {
      "name": "Presentiment",
      "hasIntensity": 0.7,
      "quote": "He seemed to be working in obedience to some particular presentiment.",
+     "causedBy": {
+      "id": "textsmobydick.txt#Anointing_his_boat",
+      "name": "Anointing_his_boat"
+     },
+     "hasObject": {
+      "id": "textsmobydick.txt#Boat",
+      "name": "Boat"
+     },
      "place": {
-      "id": "data/texts/mobydick#On_the_boat",
+      "id": "textsmobydick.txt#On_the_boat",
       "name": "On_the_boat"
      },
      "id": "Presentiment"
@@ -17,14 +25,22 @@
    "name": "Queequeg"
   },
   {
-   "id": "data/texts/mobydick#Stubb",
+   "id": "textsmobydick.txt#Stubb",
    "feels": [
     {
      "name": "Excitement",
      "hasIntensity": 0.9,
      "quote": "That drove the spigot out of him!",
+     "causedBy": {
+      "id": "textsmobydick.txt#Successfully_pitchpoling_the_whale",
+      "name": "Successfully_pitchpoling_the_whale"
+     },
+     "hasObject": {
+      "id": "textsmobydick.txt#Whale",
+      "name": "Whale"
+     },
      "place": {
-      "id": "data/texts/mobydick#On_the_boat",
+      "id": "textsmobydick.txt#On_the_boat",
       "name": "On_the_boat"
      },
      "id": "Excitement"
@@ -33,8 +49,16 @@
      "name": "Playfulness",
      "hasIntensity": 0.8,
      "quote": "Yea, verily, hearts alive, we’d brew choice punch in the spread of his spout-hole there, and from that live punch-bowl quaff the living stuff.",
+     "causedBy": {
+      "id": "textsmobydick.txt#Successfully_pitchpoling_the_whale",
+      "name": "Successfully_pitchpoling_the_whale"
+     },
+     "hasObject": {
+      "id": "textsmobydick.txt#Whale",
+      "name": "Whale"
+     },
      "place": {
-      "id": "data/texts/mobydick#On_the_boat",
+      "id": "textsmobydick.txt#On_the_boat",
       "name": "On_the_boat"
      },
      "id": "Playfulness"
@@ -43,8 +67,16 @@
      "name": "Amusement",
      "hasIntensity": 0.7,
      "quote": "Again and again to such gamesome talk, the dexterous dart is repeated.",
+     "causedBy": {
+      "id": "textsmobydick.txt#Successfully_pitchpoling_the_whale",
+      "name": "Successfully_pitchpoling_the_whale"
+     },
+     "hasObject": {
+      "id": "textsmobydick.txt#Whale",
+      "name": "Whale"
+     },
      "place": {
-      "id": "data/texts/mobydick#On_the_boat",
+      "id": "textsmobydick.txt#On_the_boat",
       "name": "On_the_boat"
      },
      "id": "Amusement"
@@ -55,30 +87,62 @@
  ],
  "Places": [
   {
-   "id": "data/texts/mobydick#Under_the_boat",
+   "id": "textsmobydick.txt#Under_the_boat",
    "name": "Under_the_boat"
   },
   {
-   "id": "data/texts/mobydick#On_the_boat",
+   "id": "textsmobydick.txt#On_the_boat",
    "name": "On_the_boat"
   }
  ],
  "Events": [
   {
-   "id": "data/texts/mobydick#Anointing_his_boat",
-   "name": "Anointing_his_boat"
+   "id": "textsmobydick.txt#Anointing_his_boat",
+   "name": "Anointing_his_boat",
+   "takePlaceAt": {
+    "id": "textsmobydick.txt#place1",
+    "name": "place1"
+   },
+   "hasParticipant": {
+    "id": "textsmobydick.txt#Queequeg",
+    "name": "Queequeg"
+   }
   },
   {
-   "id": "data/texts/mobydick#Successfully_pitchpoling_the_whale",
-   "name": "Successfully_pitchpoling_the_whale"
+   "id": "textsmobydick.txt#Successfully_pitchpoling_the_whale",
+   "name": "Successfully_pitchpoling_the_whale",
+   "takePlaceAt": {
+    "id": "textsmobydick.txt#place2",
+    "name": "place2"
+   },
+   "hasParticipant": {
+    "id": "textsmobydick.txt#Stubb",
+    "name": "Stubb"
+   }
   },
   {
-   "id": "data/texts/mobydick#Successfully_pitchpoling_the_whale",
-   "name": "Successfully_pitchpoling_the_whale"
+   "id": "textsmobydick.txt#Successfully_pitchpoling_the_whale",
+   "name": "Successfully_pitchpoling_the_whale",
+   "takePlaceAt": {
+    "id": "textsmobydick.txt#place2",
+    "name": "place2"
+   },
+   "hasParticipant": {
+    "id": "textsmobydick.txt#Stubb",
+    "name": "Stubb"
+   }
   },
   {
-   "id": "data/texts/mobydick#Successfully_pitchpoling_the_whale",
-   "name": "Successfully_pitchpoling_the_whale"
+   "id": "textsmobydick.txt#Successfully_pitchpoling_the_whale",
+   "name": "Successfully_pitchpoling_the_whale",
+   "takePlaceAt": {
+    "id": "textsmobydick.txt#place2",
+    "name": "place2"
+   },
+   "hasParticipant": {
+    "id": "textsmobydick.txt#Stubb",
+    "name": "Stubb"
+   }
   }
  ]
 }

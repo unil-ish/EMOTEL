@@ -1,15 +1,23 @@
 {
  "FictionalCharacters": [
   {
-   "id": "data/texts/thebluecastle#Valancy",
+   "id": "textsthebluecastle.txt#Valancy",
    "name": "Valancy",
    "feels": [
     {
      "name": "Fear",
      "hasIntensity": 0.9,
      "quote": "She had to sit and listen to Dr. Redfern, who didn’t mind talking at all.",
+     "causedBy": {
+      "id": "textsthebluecastle.txt#Dr_Redfern_s_unexpected_visit",
+      "name": "Dr_Redfern_s_unexpected_visit"
+     },
+     "hasObject": {
+      "id": "textsthebluecastle.txt#Dr_Redfern",
+      "name": "Dr_Redfern"
+     },
      "exactPlace": {
-      "id": "data/texts/thebluecastle#Blue_Castle",
+      "id": "textsthebluecastle.txt#Blue_Castle",
       "name": "Blue_Castle"
      },
      "id": "Fear"
@@ -18,8 +26,16 @@
      "name": "Pity",
      "hasIntensity": 0.7,
      "quote": "Valancy felt a pang of pity for him.",
+     "causedBy": {
+      "id": "textsthebluecastle.txt#Dr_Redfern_s_loneliness",
+      "name": "Dr_Redfern_s_loneliness"
+     },
+     "hasObject": {
+      "id": "textsthebluecastle.txt#Dr_Redfern",
+      "name": "Dr_Redfern"
+     },
      "exactPlace": {
-      "id": "data/texts/thebluecastle#Blue_Castle",
+      "id": "textsthebluecastle.txt#Blue_Castle",
       "name": "Blue_Castle"
      },
      "id": "Pity"
@@ -28,8 +44,16 @@
      "name": "Amusement",
      "hasIntensity": 0.6,
      "quote": "Suddenly she laughed in Dr. Redfern’s face.",
+     "causedBy": {
+      "id": "textsthebluecastle.txt#Realizing_the_situation_with_the_necklace",
+      "name": "Realizing_the_situation_with_the_necklace"
+     },
+     "hasObject": {
+      "id": "textsthebluecastle.txt#Necklace",
+      "name": "Necklace"
+     },
      "exactPlace": {
-      "id": "data/texts/thebluecastle#Blue_Castle",
+      "id": "textsthebluecastle.txt#Blue_Castle",
       "name": "Blue_Castle"
      },
      "id": "Amusement"
@@ -38,8 +62,12 @@
      "name": "Insensibility",
      "hasIntensity": 0.8,
      "quote": "She was thankful she no longer felt very bad.",
+     "causedBy": {
+      "id": "textsthebluecastle.txt#Feeling_bludgeoned_by_events",
+      "name": "Feeling_bludgeoned_by_events"
+     },
      "exactPlace": {
-      "id": "data/texts/thebluecastle#Blue_Castle",
+      "id": "textsthebluecastle.txt#Blue_Castle",
       "name": "Blue_Castle"
      },
      "id": "Insensibility"
@@ -49,42 +77,58 @@
  ],
  "Places": [
   {
-   "id": "data/texts/thebluecastle#Blue_Castle",
+   "id": "textsthebluecastle.txt#Blue_Castle",
    "name": "Blue_Castle",
    "description": "Valancy stood briefly like a faded flower bitten by frost, by the hearth, looking down on the white ashes of the last fire that had blazed in the Blue Castle."
   },
   {
-   "id": "data/texts/thebluecastle#Blue_Castle",
+   "id": "textsthebluecastle.txt#Blue_Castle",
    "name": "Blue_Castle",
    "description": "Valancy had been thinking idly that Barney must resemble his mother. She had remained standing by the steps, but Dr. Redfern waved her to the swing seat."
   },
   {
-   "id": "data/texts/thebluecastle#Blue_Castle",
+   "id": "textsthebluecastle.txt#Blue_Castle",
    "name": "Blue_Castle",
    "description": "Valancy was fingering her necklace. She was wearing fifteen thousand dollars around her neck. And she had worried lest Barney had paid fifteen dollars for it and couldn’t afford it. Suddenly she laughed in Dr. Redfern’s face."
   },
   {
-   "id": "data/texts/thebluecastle#Blue_Castle",
+   "id": "textsthebluecastle.txt#Blue_Castle",
    "name": "Blue_Castle",
    "description": "She was thankful she no longer felt very bad. When you are bludgeoned on the head repeatedly, you naturally and mercifully become more or less insensible and stupid."
   }
  ],
  "Events": [
   {
-   "id": "data/texts/thebluecastle#Dr_Redfern_s_unexpected_visit",
-   "name": "Dr_Redfern_s_unexpected_visit"
+   "id": "textsthebluecastle.txt#Dr_Redfern_s_unexpected_visit",
+   "name": "Dr_Redfern_s_unexpected_visit",
+   "takePlaceAt": {
+    "id": "textsthebluecastle.txt#place1",
+    "name": "place1"
+   }
   },
   {
-   "id": "data/texts/thebluecastle#Dr_Redfern_s_loneliness",
-   "name": "Dr_Redfern_s_loneliness"
+   "id": "textsthebluecastle.txt#Dr_Redfern_s_loneliness",
+   "name": "Dr_Redfern_s_loneliness",
+   "takePlaceAt": {
+    "id": "textsthebluecastle.txt#place2",
+    "name": "place2"
+   }
   },
   {
-   "id": "data/texts/thebluecastle#Realizing_the_situation_with_the_necklace",
-   "name": "Realizing_the_situation_with_the_necklace"
+   "id": "textsthebluecastle.txt#Realizing_the_situation_with_the_necklace",
+   "name": "Realizing_the_situation_with_the_necklace",
+   "takePlaceAt": {
+    "id": "textsthebluecastle.txt#place3",
+    "name": "place3"
+   }
   },
   {
-   "id": "data/texts/thebluecastle#Feeling_bludgeoned_by_events",
-   "name": "Feeling_bludgeoned_by_events"
+   "id": "textsthebluecastle.txt#Feeling_bludgeoned_by_events",
+   "name": "Feeling_bludgeoned_by_events",
+   "takePlaceAt": {
+    "id": "textsthebluecastle.txt#place4",
+    "name": "place4"
+   }
   }
  ]
 }

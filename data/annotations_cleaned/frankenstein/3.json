@@ -1,15 +1,23 @@
 {
  "FictionalCharacters": [
   {
-   "id": "data/texts/frankenstein#Victor_Frankenstein",
+   "id": "textsfrankenstein.txt#Victor_Frankenstein",
    "name": "Victor_Frankenstein",
    "feels": [
     {
      "name": "Remorse",
      "hasIntensity": 0.9,
      "quote": "This also was my doing! And my father’s woe, and the desolation of that late so smiling home all was the work of my thrice-accursed hands!",
+     "causedBy": {
+      "id": "textsfrankenstein.txt#Realization_of_the_consequences_of_his_actions",
+      "name": "Realization_of_the_consequences_of_his_actions"
+     },
+     "hasObject": {
+      "id": "textsfrankenstein.txt#Actions_leading_to_grief",
+      "name": "Actions_leading_to_grief"
+     },
      "place": {
-      "id": "data/texts/frankenstein#Mental_state",
+      "id": "textsfrankenstein.txt#Mental_state",
       "name": "Mental_state"
      },
      "id": "Remorse"
@@ -18,8 +26,16 @@
      "name": "Despair",
      "hasIntensity": 0.8,
      "quote": "I was seized by remorse and the sense of guilt, which hurried me away to a hell of intense tortures such as no language can describe.",
+     "causedBy": {
+      "id": "textsfrankenstein.txt#Sense_of_guilt",
+      "name": "Sense_of_guilt"
+     },
+     "hasObject": {
+      "id": "textsfrankenstein.txt#Guilt",
+      "name": "Guilt"
+     },
      "place": {
-      "id": "data/texts/frankenstein#Mental_state",
+      "id": "textsfrankenstein.txt#Mental_state",
       "name": "Mental_state"
      },
      "id": "Despair"
@@ -28,8 +44,16 @@
      "name": "Fear",
      "hasIntensity": 0.7,
      "quote": "I was restrained, when I thought of the heroic and suffering Elizabeth, whom I tenderly loved, and whose existence was bound up in mine.",
+     "causedBy": {
+      "id": "textsfrankenstein.txt#Fear_of_losing_loved_ones",
+      "name": "Fear_of_losing_loved_ones"
+     },
+     "hasObject": {
+      "id": "textsfrankenstein.txt#Loved_ones",
+      "name": "Loved_ones"
+     },
      "place": {
-      "id": "data/texts/frankenstein#Thoughts_of_loved_ones",
+      "id": "textsfrankenstein.txt#Thoughts_of_loved_ones",
       "name": "Thoughts_of_loved_ones"
      },
      "id": "Fear"
@@ -38,8 +62,16 @@
      "name": "Anger",
      "hasIntensity": 0.8,
      "quote": "Devil,” I exclaimed, “do you dare approach me? And do not you fear the fierce vengeance of my arm wreaked on your miserable head?",
+     "causedBy": {
+      "id": "textsfrankenstein.txt#Encounter_with_the_creature",
+      "name": "Encounter_with_the_creature"
+     },
+     "hasObject": {
+      "id": "textsfrankenstein.txt#Creature",
+      "name": "Creature"
+     },
      "place": {
-      "id": "data/texts/frankenstein#Encounter_location",
+      "id": "textsfrankenstein.txt#Encounter_location",
       "name": "Encounter_location"
      },
      "id": "Anger"
@@ -48,8 +80,16 @@
      "name": "Curiosity",
      "hasIntensity": 0.6,
      "quote": "I was partly urged by curiosity, and compassion confirmed my resolution.",
+     "causedBy": {
+      "id": "textsfrankenstein.txt#Desire_to_understand_the_creature",
+      "name": "Desire_to_understand_the_creature"
+     },
+     "hasObject": {
+      "id": "textsfrankenstein.txt#Creature",
+      "name": "Creature"
+     },
      "place": {
-      "id": "data/texts/frankenstein#Desire_to_understand",
+      "id": "textsfrankenstein.txt#Desire_to_understand",
       "name": "Desire_to_understand"
      },
      "id": "Curiosity"
@@ -58,8 +98,16 @@
      "name": "Compassion",
      "hasIntensity": 0.7,
      "quote": "I was deeply affected by it. If such lovely creatures were miserable, it was less strange that I, an imperfect and solitary being, should be wretched.",
+     "causedBy": {
+      "id": "textsfrankenstein.txt#Empathy_towards_the_cottagers",
+      "name": "Empathy_towards_the_cottagers"
+     },
+     "hasObject": {
+      "id": "textsfrankenstein.txt#Cottagers",
+      "name": "Cottagers"
+     },
      "place": {
-      "id": "data/texts/frankenstein#Observing_the_cottagers",
+      "id": "textsfrankenstein.txt#Observing_the_cottagers",
       "name": "Observing_the_cottagers"
      },
      "id": "Compassion"
@@ -69,49 +117,49 @@
  ],
  "Places": [
   {
-   "id": "data/texts/frankenstein#Mental_state",
+   "id": "textsfrankenstein.txt#Mental_state",
    "name": "Mental_state"
   },
   {
-   "id": "data/texts/frankenstein#Thoughts_of_loved_ones",
+   "id": "textsfrankenstein.txt#Thoughts_of_loved_ones",
    "name": "Thoughts_of_loved_ones"
   },
   {
-   "id": "data/texts/frankenstein#Encounter_location",
+   "id": "textsfrankenstein.txt#Encounter_location",
    "name": "Encounter_location"
   },
   {
-   "id": "data/texts/frankenstein#Desire_to_understand",
+   "id": "textsfrankenstein.txt#Desire_to_understand",
    "name": "Desire_to_understand"
   },
   {
-   "id": "data/texts/frankenstein#Observing_the_cottagers",
+   "id": "textsfrankenstein.txt#Observing_the_cottagers",
    "name": "Observing_the_cottagers"
   }
  ],
  "Events": [
   {
-   "id": "data/texts/frankenstein#Realization_of_the_consequences_of_his_actions",
+   "id": "textsfrankenstein.txt#Realization_of_the_consequences_of_his_actions",
    "name": "Realization_of_the_consequences_of_his_actions"
   },
   {
-   "id": "data/texts/frankenstein#Sense_of_guilt",
+   "id": "textsfrankenstein.txt#Sense_of_guilt",
    "name": "Sense_of_guilt"
   },
   {
-   "id": "data/texts/frankenstein#Fear_of_losing_loved_ones",
+   "id": "textsfrankenstein.txt#Fear_of_losing_loved_ones",
    "name": "Fear_of_losing_loved_ones"
   },
   {
-   "id": "data/texts/frankenstein#Encounter_with_the_creature",
+   "id": "textsfrankenstein.txt#Encounter_with_the_creature",
    "name": "Encounter_with_the_creature"
   },
   {
-   "id": "data/texts/frankenstein#Desire_to_understand_the_creature",
+   "id": "textsfrankenstein.txt#Desire_to_understand_the_creature",
    "name": "Desire_to_understand_the_creature"
   },
   {
-   "id": "data/texts/frankenstein#Empathy_towards_the_cottagers",
+   "id": "textsfrankenstein.txt#Empathy_towards_the_cottagers",
    "name": "Empathy_towards_the_cottagers"
   }
  ]

@@ -1,15 +1,23 @@
 {
  "FictionalCharacters": [
   {
-   "id": "data/texts/mobydick#Father_Mapple",
+   "id": "textsmobydick.txt#Father_Mapple",
    "name": "Father_Mapple",
    "feels": [
     {
      "name": "Joy",
      "hasIntensity": 0.8,
      "quote": "Father Mapple cast a look upwards, and then with a truly sailor-like but still reverential dexterity, hand over hand, mounted the steps as if ascending the main-top of his vessel.",
+     "causedBy": {
+      "id": "textsmobydick.txt#Ascending_the_pulpit",
+      "name": "Ascending_the_pulpit"
+     },
+     "hasObject": {
+      "id": "textsmobydick.txt#Pulpit",
+      "name": "Pulpit"
+     },
      "place": {
-      "id": "data/texts/mobydick#Chapel",
+      "id": "textsmobydick.txt#Chapel",
       "name": "Chapel"
      },
      "id": "Joy"
@@ -18,8 +26,16 @@
      "name": "Anticipation",
      "hasIntensity": 0.7,
      "quote": "Father Mapple enjoyed such a wide reputation for sincerity and sanctity, that I could not suspect him of courting notoriety by any mere tricks of the stage.",
+     "causedBy": {
+      "id": "textsmobydick.txt#Reputation_for_sincerity_and_sanctity",
+      "name": "Reputation_for_sincerity_and_sanctity"
+     },
+     "hasObject": {
+      "id": "textsmobydick.txt#Reputation",
+      "name": "Reputation"
+     },
      "place": {
-      "id": "data/texts/mobydick#Chapel",
+      "id": "textsmobydick.txt#Chapel",
       "name": "Chapel"
      },
      "id": "Anticipation"
@@ -28,8 +44,16 @@
      "name": "Fear",
      "hasIntensity": 0.9,
      "quote": "He paused a little; then kneeling in the pulpit’s bows, folded his large brown hands across his chest, uplifted his closed eyes, and offered a prayer so deeply devout that he seemed kneeling and praying at the bottom of the sea.",
+     "causedBy": {
+      "id": "textsmobydick.txt#Offering_a_prayer",
+      "name": "Offering_a_prayer"
+     },
+     "hasObject": {
+      "id": "textsmobydick.txt#Prayer",
+      "name": "Prayer"
+     },
      "place": {
-      "id": "data/texts/mobydick#Chapel",
+      "id": "textsmobydick.txt#Chapel",
       "name": "Chapel"
      },
      "id": "Fear"
@@ -38,8 +62,16 @@
      "name": "Sadness",
      "hasIntensity": 0.6,
      "quote": "His deep chest heaved as with a ground-swell; his tossed arms seemed the warring elements at work; and the thunders that rolled away from off his swarthy brow, and the light leaping from his eye, made all his simple hearers look on him with a quick fear that was strange to them.",
+     "causedBy": {
+      "id": "textsmobydick.txt#Describing_Jonahs_seastorm",
+      "name": "Describing_Jonahs_seastorm"
+     },
+     "hasObject": {
+      "id": "textsmobydick.txt#Describing_the_seastorm",
+      "name": "Describing_the_seastorm"
+     },
      "place": {
-      "id": "data/texts/mobydick#Chapel",
+      "id": "textsmobydick.txt#Chapel",
       "name": "Chapel"
      },
      "id": "Sadness"
@@ -48,8 +80,16 @@
      "name": "Love",
      "hasIntensity": 0.9,
      "quote": "His story being ended with his pipe’s last dying puff, Queequeg embraced me, pressed his forehead against mine, and blowing out the light, we rolled over from each other, this way and that, and very soon were sleeping.",
+     "causedBy": {
+      "id": "textsmobydick.txt#Embracing_and_sleeping",
+      "name": "Embracing_and_sleeping"
+     },
+     "hasObject": {
+      "id": "textsmobydick.txt#Embracing",
+      "name": "Embracing"
+     },
      "place": {
-      "id": "data/texts/mobydick#Bedroom",
+      "id": "textsmobydick.txt#Bedroom",
       "name": "Bedroom"
      },
      "id": "Love"
@@ -57,15 +97,23 @@
    ]
   },
   {
-   "id": "data/texts/mobydick#Queequeg",
+   "id": "textsmobydick.txt#Queequeg",
    "name": "Queequeg",
    "feels": [
     {
      "name": "Interest",
      "hasIntensity": 0.8,
      "quote": "With much interest I sat watching him.",
+     "causedBy": {
+      "id": "textsmobydick.txt#Watching_him",
+      "name": "Watching_him"
+     },
+     "hasObject": {
+      "id": "textsmobydick.txt#Watching",
+      "name": "Watching"
+     },
      "place": {
-      "id": "data/texts/mobydick#Inn",
+      "id": "textsmobydick.txt#Inn",
       "name": "Inn"
      },
      "id": "Interest"
@@ -74,8 +122,16 @@
      "name": "Acceptance",
      "hasIntensity": 0.7,
      "quote": "He at once resolved to accompany me to that island, ship aboard the same vessel, get into the same watch, the same boat, the same mess with me, in short to share my every hap; with both my hands in his, boldly dip into the Potluck of both worlds.",
+     "causedBy": {
+      "id": "textsmobydick.txt#Resolving_to_accompany",
+      "name": "Resolving_to_accompany"
+     },
+     "hasObject": {
+      "id": "textsmobydick.txt#Accompanying",
+      "name": "Accompanying"
+     },
      "place": {
-      "id": "data/texts/mobydick#Schooner",
+      "id": "textsmobydick.txt#Schooner",
       "name": "Schooner"
      },
      "id": "Acceptance"
@@ -84,8 +140,16 @@
      "name": "Joy",
      "hasIntensity": 0.8,
      "quote": "Hoisting sail, it glided down the Acushnet river.",
+     "causedBy": {
+      "id": "textsmobydick.txt#Gliding_down_the_river",
+      "name": "Gliding_down_the_river"
+     },
+     "hasObject": {
+      "id": "textsmobydick.txt#Gliding",
+      "name": "Gliding"
+     },
      "place": {
-      "id": "data/texts/mobydick#Schooner",
+      "id": "textsmobydick.txt#Schooner",
       "name": "Schooner"
      },
      "id": "Joy"
@@ -95,58 +159,90 @@
  ],
  "Places": [
   {
-   "id": "data/texts/mobydick#Chapel",
+   "id": "textsmobydick.txt#Chapel",
    "name": "Chapel"
   },
   {
-   "id": "data/texts/mobydick#Bedroom",
+   "id": "textsmobydick.txt#Bedroom",
    "name": "Bedroom"
   },
   {
-   "id": "data/texts/mobydick#Inn",
+   "id": "textsmobydick.txt#Inn",
    "name": "Inn"
   },
   {
-   "id": "data/texts/mobydick#Schooner",
+   "id": "textsmobydick.txt#Schooner",
    "name": "Schooner"
   },
   {
-   "id": "data/texts/mobydick#Acushnet_river",
+   "id": "textsmobydick.txt#Acushnet_river",
    "name": "Acushnet_river"
   }
  ],
  "Events": [
   {
-   "id": "data/texts/mobydick#Ascending_the_pulpit",
-   "name": "Ascending_the_pulpit"
+   "id": "textsmobydick.txt#Ascending_the_pulpit",
+   "name": "Ascending_the_pulpit",
+   "takePlaceAt": {
+    "id": "textsmobydick.txt#place1",
+    "name": "place1"
+   }
   },
   {
-   "id": "data/texts/mobydick#Reputation_for_sincerity_and_sanctity",
-   "name": "Reputation_for_sincerity_and_sanctity"
+   "id": "textsmobydick.txt#Reputation_for_sincerity_and_sanctity",
+   "name": "Reputation_for_sincerity_and_sanctity",
+   "takePlaceAt": {
+    "id": "textsmobydick.txt#place1",
+    "name": "place1"
+   }
   },
   {
-   "id": "data/texts/mobydick#Offering_a_prayer",
-   "name": "Offering_a_prayer"
+   "id": "textsmobydick.txt#Offering_a_prayer",
+   "name": "Offering_a_prayer",
+   "takePlaceAt": {
+    "id": "textsmobydick.txt#place1",
+    "name": "place1"
+   }
   },
   {
-   "id": "data/texts/mobydick#Describing_Jonahs_seastorm",
-   "name": "Describing_Jonahs_seastorm"
+   "id": "textsmobydick.txt#Describing_Jonahs_seastorm",
+   "name": "Describing_Jonahs_seastorm",
+   "takePlaceAt": {
+    "id": "textsmobydick.txt#place1",
+    "name": "place1"
+   }
   },
   {
-   "id": "data/texts/mobydick#Embracing_and_sleeping",
-   "name": "Embracing_and_sleeping"
+   "id": "textsmobydick.txt#Embracing_and_sleeping",
+   "name": "Embracing_and_sleeping",
+   "takePlaceAt": {
+    "id": "textsmobydick.txt#place2",
+    "name": "place2"
+   }
   },
   {
-   "id": "data/texts/mobydick#Watching_him",
-   "name": "Watching_him"
+   "id": "textsmobydick.txt#Watching_him",
+   "name": "Watching_him",
+   "takePlaceAt": {
+    "id": "textsmobydick.txt#place3",
+    "name": "place3"
+   }
   },
   {
-   "id": "data/texts/mobydick#Resolving_to_accompany",
-   "name": "Resolving_to_accompany"
+   "id": "textsmobydick.txt#Resolving_to_accompany",
+   "name": "Resolving_to_accompany",
+   "takePlaceAt": {
+    "id": "textsmobydick.txt#place4",
+    "name": "place4"
+   }
   },
   {
-   "id": "data/texts/mobydick#Gliding_down_the_river",
-   "name": "Gliding_down_the_river"
+   "id": "textsmobydick.txt#Gliding_down_the_river",
+   "name": "Gliding_down_the_river",
+   "takePlaceAt": {
+    "id": "textsmobydick.txt#place5",
+    "name": "place5"
+   }
   }
  ]
 }

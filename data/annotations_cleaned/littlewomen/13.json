@@ -1,13 +1,21 @@
 {
  "FictionalCharacters": [
   {
-   "id": "data/texts/littlewomen#Beth",
+   "id": "textslittlewomen.txt#Beth",
    "name": "Beth",
    "feels": [
     {
      "name": "Sadness",
      "hasIntensity": 0.9,
      "quote": "I thought you were asleep,' sobbed Beth.",
+     "causedBy": {
+      "id": "textslittlewomen.txt#Unknown_cause",
+      "name": "Unknown_cause"
+     },
+     "hasObject": {
+      "id": "textslittlewomen.txt#Unknown",
+      "name": "Unknown"
+     },
      "exactPlace": "Bedroom",
      "id": "Sadness"
     },
@@ -15,19 +23,35 @@
      "name": "Despair",
      "hasIntensity": 0.8,
      "quote": "No; it's a new one; but I can bear it,' and Beth tried to check her tears.",
+     "causedBy": {
+      "id": "textslittlewomen.txt#Unknown_cause",
+      "name": "Unknown_cause"
+     },
+     "hasObject": {
+      "id": "textslittlewomen.txt#Unknown",
+      "name": "Unknown"
+     },
      "exactPlace": "Bedroom",
      "id": "Despair"
     }
    ]
   },
   {
-   "id": "data/texts/littlewomen#Jo",
+   "id": "textslittlewomen.txt#Jo",
    "name": "Jo",
    "feels": [
     {
      "name": "Restlessness",
      "hasIntensity": 0.7,
      "quote": "I feel restless, and anxious to be seeing, doing, and learning more than I am.",
+     "causedBy": {
+      "id": "textslittlewomen.txt#Desire_for_change",
+      "name": "Desire_for_change"
+     },
+     "hasObject": {
+      "id": "textslittlewomen.txt#New_experiences",
+      "name": "New_experiences"
+     },
      "exactPlace": "Living room",
      "id": "Restlessness"
     },
@@ -35,6 +59,14 @@
      "name": "Anxiety",
      "hasIntensity": 0.6,
      "quote": "I'm afraid--Laurie is getting too fond of me.",
+     "causedBy": {
+      "id": "textslittlewomen.txt#Laurie_s_growing_affection",
+      "name": "Laurie_s_growing_affection"
+     },
+     "hasObject": {
+      "id": "textslittlewomen.txt#Laurie",
+      "name": "Laurie"
+     },
      "exactPlace": "Living room",
      "id": "Anxiety"
     }
@@ -43,32 +75,64 @@
  ],
  "Places": [
   {
-   "id": "data/texts/littlewomen#Bedroom",
+   "id": "textslittlewomen.txt#Bedroom",
    "name": "Bedroom",
    "description": "Beth's bedroom where she confides in Jo about her pain."
   },
   {
-   "id": "data/texts/littlewomen#Living_room",
+   "id": "textslittlewomen.txt#Living_room",
    "name": "Living_room",
    "description": "The room where Jo discusses her desire for change and anxiety about Laurie."
   }
  ],
  "Events": [
   {
-   "id": "data/texts/littlewomen#Unknown_cause",
-   "name": "Unknown_cause"
+   "id": "textslittlewomen.txt#Unknown_cause",
+   "name": "Unknown_cause",
+   "takePlaceAt": {
+    "id": "textslittlewomen.txt#place1",
+    "name": "place1"
+   },
+   "hasParticipant": {
+    "id": "textslittlewomen.txt#fc1",
+    "name": "fc1"
+   }
   },
   {
-   "id": "data/texts/littlewomen#Unknown_cause",
-   "name": "Unknown_cause"
+   "id": "textslittlewomen.txt#Unknown_cause",
+   "name": "Unknown_cause",
+   "takePlaceAt": {
+    "id": "textslittlewomen.txt#place1",
+    "name": "place1"
+   },
+   "hasParticipant": {
+    "id": "textslittlewomen.txt#fc1",
+    "name": "fc1"
+   }
   },
   {
-   "id": "data/texts/littlewomen#Desire_for_change",
-   "name": "Desire_for_change"
+   "id": "textslittlewomen.txt#Desire_for_change",
+   "name": "Desire_for_change",
+   "takePlaceAt": {
+    "id": "textslittlewomen.txt#place2",
+    "name": "place2"
+   },
+   "hasParticipant": {
+    "id": "textslittlewomen.txt#fc2",
+    "name": "fc2"
+   }
   },
   {
-   "id": "data/texts/littlewomen#Laurie_s_growing_affection",
-   "name": "Laurie_s_growing_affection"
+   "id": "textslittlewomen.txt#Laurie_s_growing_affection",
+   "name": "Laurie_s_growing_affection",
+   "takePlaceAt": {
+    "id": "textslittlewomen.txt#place2",
+    "name": "place2"
+   },
+   "hasParticipant": {
+    "id": "textslittlewomen.txt#fc2",
+    "name": "fc2"
+   }
   }
  ]
 }

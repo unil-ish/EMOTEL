@@ -1,15 +1,23 @@
 {
  "FictionalCharacters": [
   {
-   "id": "data/texts/littlewomen#Professor_Bhaer",
+   "id": "textslittlewomen.txt#Professor_Bhaer",
    "name": "Professor_Bhaer",
    "feels": [
     {
      "name": "Admiration",
      "hasIntensity": 0.9,
      "quote": "He knew that Jo wrote, and had met her down among the newspaper offices more than once; but as she never spoke of it, he asked no questions, in spite of a strong desire to see her work.",
+     "causedBy": {
+      "id": "textslittlewomen.txt#Knowing_that_Jo_wrote",
+      "name": "Knowing_that_Jo_wrote"
+     },
+     "hasObject": {
+      "id": "textslittlewomen.txt#Jo_s_writing",
+      "name": "Jo_s_writing"
+     },
      "place": {
-      "id": "data/texts/littlewomen#Home",
+      "id": "textslittlewomen.txt#Home",
       "name": "Home",
       "description": "In the living room"
      },
@@ -19,8 +27,16 @@
      "name": "Serenity",
      "hasIntensity": 0.8,
      "quote": "He did his best, and did it manfully; but I don't think he found that a pair of rampant boys, a pipe, or even the divine Plato, were very satisfactory substitutes for wife and child and home.",
+     "causedBy": {
+      "id": "textslittlewomen.txt#Feeling_homesick",
+      "name": "Feeling_homesick"
+     },
+     "hasObject": {
+      "id": "textslittlewomen.txt#Feeling_of_homesickness",
+      "name": "Feeling_of_homesickness"
+     },
      "place": {
-      "id": "data/texts/littlewomen#Home",
+      "id": "textslittlewomen.txt#Home",
       "name": "Home",
       "description": "In the living room"
      },
@@ -30,8 +46,16 @@
      "name": "Rebellion",
      "hasIntensity": 0.7,
      "quote": "I'll be hanged if I do!",
+     "causedBy": {
+      "id": "textslittlewomen.txt#Feeling_of_indignation",
+      "name": "Feeling_of_indignation"
+     },
+     "hasObject": {
+      "id": "textslittlewomen.txt#Being_asked_to_go_abroad",
+      "name": "Being_asked_to_go_abroad"
+     },
      "place": {
-      "id": "data/texts/littlewomen#Home",
+      "id": "textslittlewomen.txt#Home",
       "name": "Home",
       "description": "In the living room"
      },
@@ -41,8 +65,16 @@
      "name": "Desperation",
      "hasIntensity": 0.9,
      "quote": "To the devil!",
+     "causedBy": {
+      "id": "textslittlewomen.txt#Feeling_of_despair",
+      "name": "Feeling_of_despair"
+     },
+     "hasObject": {
+      "id": "textslittlewomen.txt#Feeling_of_despair",
+      "name": "Feeling_of_despair"
+     },
      "place": {
-      "id": "data/texts/littlewomen#Home",
+      "id": "textslittlewomen.txt#Home",
       "name": "Home",
       "description": "In the living room"
      },
@@ -52,8 +84,16 @@
      "name": "Acceptance",
      "hasIntensity": 0.9,
      "quote": "It's all settled, and can be carried out at once",
+     "causedBy": {
+      "id": "textslittlewomen.txt#Accepting_the_plan_to_go_abroad",
+      "name": "Accepting_the_plan_to_go_abroad"
+     },
+     "hasObject": {
+      "id": "textslittlewomen.txt#Plan_to_go_abroad",
+      "name": "Plan_to_go_abroad"
+     },
      "place": {
-      "id": "data/texts/littlewomen#Home",
+      "id": "textslittlewomen.txt#Home",
       "name": "Home",
       "description": "In the living room"
      },
@@ -62,15 +102,23 @@
    ]
   },
   {
-   "id": "data/texts/littlewomen#Beth",
+   "id": "textslittlewomen.txt#Beth",
    "name": "Beth",
    "feels": [
     {
      "name": "Sadness",
      "hasIntensity": 0.9,
      "quote": "It's like the tide, Jo, when it turns, it goes slowly, but it can't be stopped.",
+     "causedBy": {
+      "id": "textslittlewomen.txt#Feeling_of_inevitability",
+      "name": "Feeling_of_inevitability"
+     },
+     "hasObject": {
+      "id": "textslittlewomen.txt#Feeling_of_inevitability",
+      "name": "Feeling_of_inevitability"
+     },
      "place": {
-      "id": "data/texts/littlewomen#Home",
+      "id": "textslittlewomen.txt#Home",
       "name": "Home",
       "description": "In the bedroom"
      },
@@ -80,8 +128,16 @@
      "name": "Acceptance",
      "hasIntensity": 0.8,
      "quote": "I try to be willing",
+     "causedBy": {
+      "id": "textslittlewomen.txt#Accepting_the_situation",
+      "name": "Accepting_the_situation"
+     },
+     "hasObject": {
+      "id": "textslittlewomen.txt#Situation",
+      "name": "Situation"
+     },
      "place": {
-      "id": "data/texts/littlewomen#Home",
+      "id": "textslittlewomen.txt#Home",
       "name": "Home",
       "description": "In the bedroom"
      },
@@ -91,8 +147,16 @@
      "name": "Gratitude",
      "hasIntensity": 0.9,
      "quote": "I'm glad you know it. I've tried to tell you, but I couldn't.",
+     "causedBy": {
+      "id": "textslittlewomen.txt#Feeling_of_relief",
+      "name": "Feeling_of_relief"
+     },
+     "hasObject": {
+      "id": "textslittlewomen.txt#Feeling_of_relief",
+      "name": "Feeling_of_relief"
+     },
      "place": {
-      "id": "data/texts/littlewomen#Home",
+      "id": "textslittlewomen.txt#Home",
       "name": "Home",
       "description": "In the bedroom"
      },
@@ -102,8 +166,16 @@
      "name": "Contentment",
      "hasIntensity": 0.8,
      "quote": "Dear little bird! See, Jo, how tame it is. I like peeps better than the gulls: they are not so wild and handsome, but they seem happy, confiding little things.",
+     "causedBy": {
+      "id": "textslittlewomen.txt#Feeling_of_contentment",
+      "name": "Feeling_of_contentment"
+     },
+     "hasObject": {
+      "id": "textslittlewomen.txt#Feeling_of_contentment",
+      "name": "Feeling_of_contentment"
+     },
      "place": {
-      "id": "data/texts/littlewomen#Seashore",
+      "id": "textslittlewomen.txt#Seashore",
       "name": "Seashore",
       "description": "By the beach"
      },
@@ -114,86 +186,86 @@
  ],
  "Places": [
   {
-   "id": "data/texts/littlewomen#Home",
+   "id": "textslittlewomen.txt#Home",
    "name": "Home",
    "description": "In the living room"
   },
   {
-   "id": "data/texts/littlewomen#Home",
+   "id": "textslittlewomen.txt#Home",
    "name": "Home",
    "description": "In the living room"
   },
   {
-   "id": "data/texts/littlewomen#Home",
+   "id": "textslittlewomen.txt#Home",
    "name": "Home",
    "description": "In the living room"
   },
   {
-   "id": "data/texts/littlewomen#Home",
+   "id": "textslittlewomen.txt#Home",
    "name": "Home",
    "description": "In the living room"
   },
   {
-   "id": "data/texts/littlewomen#Home",
+   "id": "textslittlewomen.txt#Home",
    "name": "Home",
    "description": "In the living room"
   },
   {
-   "id": "data/texts/littlewomen#Home",
+   "id": "textslittlewomen.txt#Home",
    "name": "Home",
    "description": "In the bedroom"
   },
   {
-   "id": "data/texts/littlewomen#Home",
+   "id": "textslittlewomen.txt#Home",
    "name": "Home",
    "description": "In the bedroom"
   },
   {
-   "id": "data/texts/littlewomen#Home",
+   "id": "textslittlewomen.txt#Home",
    "name": "Home",
    "description": "In the bedroom"
   },
   {
-   "id": "data/texts/littlewomen#Seashore",
+   "id": "textslittlewomen.txt#Seashore",
    "name": "Seashore",
    "description": "By the beach"
   }
  ],
  "Events": [
   {
-   "id": "data/texts/littlewomen#Knowing_that_Jo_wrote",
+   "id": "textslittlewomen.txt#Knowing_that_Jo_wrote",
    "name": "Knowing_that_Jo_wrote"
   },
   {
-   "id": "data/texts/littlewomen#Feeling_homesick",
+   "id": "textslittlewomen.txt#Feeling_homesick",
    "name": "Feeling_homesick"
   },
   {
-   "id": "data/texts/littlewomen#Feeling_of_indignation",
+   "id": "textslittlewomen.txt#Feeling_of_indignation",
    "name": "Feeling_of_indignation"
   },
   {
-   "id": "data/texts/littlewomen#Feeling_of_despair",
+   "id": "textslittlewomen.txt#Feeling_of_despair",
    "name": "Feeling_of_despair"
   },
   {
-   "id": "data/texts/littlewomen#Accepting_the_plan_to_go_abroad",
+   "id": "textslittlewomen.txt#Accepting_the_plan_to_go_abroad",
    "name": "Accepting_the_plan_to_go_abroad"
   },
   {
-   "id": "data/texts/littlewomen#Feeling_of_inevitability",
+   "id": "textslittlewomen.txt#Feeling_of_inevitability",
    "name": "Feeling_of_inevitability"
   },
   {
-   "id": "data/texts/littlewomen#Accepting_the_situation",
+   "id": "textslittlewomen.txt#Accepting_the_situation",
    "name": "Accepting_the_situation"
   },
   {
-   "id": "data/texts/littlewomen#Feeling_of_relief",
+   "id": "textslittlewomen.txt#Feeling_of_relief",
    "name": "Feeling_of_relief"
   },
   {
-   "id": "data/texts/littlewomen#Feeling_of_contentment",
+   "id": "textslittlewomen.txt#Feeling_of_contentment",
    "name": "Feeling_of_contentment"
   }
  ]

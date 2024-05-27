@@ -1,12 +1,20 @@
 {
  "FictionalCharacters": [
   {
-   "id": "data/texts/mobydick#Ishmael",
+   "id": "textsmobydick.txt#Ishmael",
    "feels": [
     {
      "name": "Sympathy",
      "hasIntensity": 0.7,
      "quote": "Alarmed at this terrible outburst between the two principal and responsible owners of the ship, and feeling half a mind to give up all idea of sailing in a vessel so questionably owned and temporarily commanded, I stepped aside from the door to give egress to Bildad, who, I made no doubt, was all eagerness to vanish from before the awakened wrath of Peleg.",
+     "causedBy": {
+      "id": "textsmobydick.txt#Outburst_between_Peleg_and_Bildad",
+      "name": "Outburst_between_Peleg_and_Bildad"
+     },
+     "hasObject": {
+      "id": "textsmobydick.txt#Captain_Ahab",
+      "name": "Captain_Ahab"
+     },
      "place": "Cabin",
      "id": "Sympathy"
     },
@@ -14,6 +22,14 @@
      "name": "Awe",
      "hasIntensity": 0.8,
      "quote": "Towards evening, when I felt assured that all his performances and rituals must be over, I went up to his room and knocked at the door; but no answer. I tried to open it, but it was fastened inside.",
+     "causedBy": {
+      "id": "textsmobydick.txt#Queequeg_s_silence",
+      "name": "Queequeg_s_silence"
+     },
+     "hasObject": {
+      "id": "textsmobydick.txt#Queequeg",
+      "name": "Queequeg"
+     },
      "place": "Room",
      "id": "Awe"
     },
@@ -21,6 +37,14 @@
      "name": "Alarm",
      "hasIntensity": 0.9,
      "quote": "I began to grow alarmed. I had allowed him such abundant time; I thought he might have had an apoplectic fit.",
+     "causedBy": {
+      "id": "textsmobydick.txt#Queequeg_s_silence",
+      "name": "Queequeg_s_silence"
+     },
+     "hasObject": {
+      "id": "textsmobydick.txt#Queequeg",
+      "name": "Queequeg"
+     },
      "place": "Room",
      "id": "Alarm"
     }
@@ -28,12 +52,20 @@
    "name": "Ishmael"
   },
   {
-   "id": "data/texts/mobydick#Queequeg",
+   "id": "textsmobydick.txt#Queequeg",
    "feels": [
     {
      "name": "Silence",
      "hasIntensity": 0.8,
      "quote": "Towards evening, when I felt assured that all his performances and rituals must be over, I went up to his room and knocked at the door; but no answer. I tried to open it, but it was fastened inside.",
+     "causedBy": {
+      "id": "textsmobydick.txt#Fasting_and_Humiliation",
+      "name": "Fasting_and_Humiliation"
+     },
+     "hasObject": {
+      "id": "textsmobydick.txt#Ishmael",
+      "name": "Ishmael"
+     },
      "place": "Room",
      "id": "Silence"
     }
@@ -41,12 +73,20 @@
    "name": "Queequeg"
   },
   {
-   "id": "data/texts/mobydick#Mrs_Hussey",
+   "id": "textsmobydick.txt#Mrs_Hussey",
    "feels": [
     {
      "name": "Alarm",
      "hasIntensity": 0.9,
      "quote": "Wood-house! cried I, which way to it? Run for God's sake, and fetch something to pry open the door—the axe!—the axe! he's had a stroke; depend upon it!—and so saying I was unmethodically rushing up stairs again empty-handed, when Mrs. Hussey interposed the mustard-pot and vinegar-cruet, and the entire castor of her countenance.",
+     "causedBy": {
+      "id": "textsmobydick.txt#Ishmael_s_urgency",
+      "name": "Ishmael_s_urgency"
+     },
+     "hasObject": {
+      "id": "textsmobydick.txt#Ishmael",
+      "name": "Ishmael"
+     },
      "place": "House",
      "id": "Alarm"
     }
@@ -56,51 +96,67 @@
  ],
  "Places": [
   {
-   "id": "data/texts/mobydick#Ship_s_cabin",
+   "id": "textsmobydick.txt#Ship_s_cabin",
    "name": "Ship_s_cabin",
    "description": "Where the owners of the ship, Peleg and Bildad, are having a discussion."
   },
   {
-   "id": "data/texts/mobydick#Queequeg_s_room",
+   "id": "textsmobydick.txt#Queequeg_s_room",
    "name": "Queequeg_s_room",
    "description": "Where Ishmael goes to check on Queequeg."
   },
   {
-   "id": "data/texts/mobydick#Mrs_Hussey_s_house",
+   "id": "textsmobydick.txt#Mrs_Hussey_s_house",
    "name": "Mrs_Hussey_s_house",
    "description": "Where Ishmael seeks help from Mrs. Hussey."
   }
  ],
  "Events": [
   {
-   "id": "data/texts/mobydick#Outburst_between_Captain_Peleg_and_Captain_Bildad",
+   "id": "textsmobydick.txt#Outburst_between_Captain_Peleg_and_Captain_Bildad",
    "name": "Outburst_between_Captain_Peleg_and_Captain_Bildad",
+   "takePlaceAt": {
+    "id": "textsmobydick.txt#Cabin",
+    "name": "Cabin"
+   },
    "hasParticipant": {
-    "id": "data/texts/mobydick#Ishmael",
+    "id": "textsmobydick.txt#Ishmael",
     "name": "Ishmael"
    }
   },
   {
-   "id": "data/texts/mobydick#Queequeg_s_silence",
+   "id": "textsmobydick.txt#Queequeg_s_silence",
    "name": "Queequeg_s_silence",
+   "takePlaceAt": {
+    "id": "textsmobydick.txt#Room",
+    "name": "Room"
+   },
    "hasParticipant": {
-    "id": "data/texts/mobydick#Ishmael",
+    "id": "textsmobydick.txt#Ishmael",
     "name": "Ishmael"
    }
   },
   {
-   "id": "data/texts/mobydick#Queequeg_s_Fasting_and_Humiliation",
+   "id": "textsmobydick.txt#Queequeg_s_Fasting_and_Humiliation",
    "name": "Queequeg_s_Fasting_and_Humiliation",
+   "takePlaceAt": {
+    "id": "textsmobydick.txt#Room",
+    "name": "Room"
+   },
    "hasParticipant": {
-    "id": "data/texts/mobydick#Ishmael",
+    "id": "textsmobydick.txt#Ishmael",
     "name": "Ishmael"
    }
   },
   {
-   "id": "data/texts/mobydick#Ishmael_s_urgency",
+   "id": "textsmobydick.txt#Ishmael_s_urgency",
    "name": "Ishmael_s_urgency",
+   "takePlaceAt": {
+    "id": "textsmobydick.txt#House",
+    "name": "House"
+   },
    "hasParticipant": {
-    "id": "data/texts/mobydick#Ishmael",
+    "id": "textsmobydick.txt#Ishmael",
     "name": "Ishmael"
    }
   }

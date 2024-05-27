@@ -1,13 +1,21 @@
 {
  "FictionalCharacters": [
   {
-   "id": "data/texts/middlemarch#Fred_Vincy",
+   "id": "textsmiddlemarch.txt#Fred_Vincy",
    "name": "Fred_Vincy",
    "feels": [
     {
      "name": "Love",
      "hasIntensity": 0.9,
      "quote": "Fred was certainly very fond of his mother.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Fondness_for_his_mother",
+      "name": "Fondness_for_his_mother"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Mother",
+      "name": "Mother"
+     },
      "exactPlace": "Home",
      "id": "Love"
     },
@@ -15,6 +23,14 @@
      "name": "Disappointment",
      "hasIntensity": 0.8,
      "quote": "He had been left an orphan when he was fresh from a public school.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Being_orphaned",
+      "name": "Being_orphaned"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Orphanhood",
+      "name": "Orphanhood"
+     },
      "exactPlace": "Home",
      "id": "Disappointment"
     },
@@ -22,19 +38,35 @@
      "name": "Hope",
      "hasIntensity": 0.7,
      "quote": "He was a quick fellow, and when hot from play, would toss himself in a corner, and in five minutes be deep in any sort of book that he could lay his hands on.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Love_for_reading",
+      "name": "Love_for_reading"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Books",
+      "name": "Books"
+     },
      "exactPlace": "Home",
      "id": "Hope"
     }
    ]
   },
   {
-   "id": "data/texts/middlemarch#Mary_Garth",
+   "id": "textsmiddlemarch.txt#Mary_Garth",
    "name": "Mary_Garth",
    "feels": [
     {
      "name": "Vexation",
      "hasIntensity": 0.8,
      "quote": "Mary did not mean to betray any feeling, but in spite of herself she ended in a tremulous tone of vexation.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Feeling_misunderstood",
+      "name": "Feeling_misunderstood"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Feeling_misunderstood",
+      "name": "Feeling_misunderstood"
+     },
      "exactPlace": "Home",
      "id": "Vexation"
     },
@@ -42,6 +74,14 @@
      "name": "Affection",
      "hasIntensity": 0.9,
      "quote": "She doted on her eldest son and her youngest girl.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Motherly_love",
+      "name": "Motherly_love"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Eldest_son_and_youngest_girl",
+      "name": "Eldest_son_and_youngest_girl"
+     },
      "exactPlace": "Home",
      "id": "Affection"
     },
@@ -49,19 +89,35 @@
      "name": "Sarcasm",
      "hasIntensity": 0.7,
      "quote": "Mary was sewing swiftly, and seemed provokingly mistress of the situation.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Feeling_in_control",
+      "name": "Feeling_in_control"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Feeling_in_control",
+      "name": "Feeling_in_control"
+     },
      "exactPlace": "Home",
      "id": "Sarcasm"
     }
    ]
   },
   {
-   "id": "data/texts/middlemarch#Tertius_Lydgate",
+   "id": "textsmiddlemarch.txt#Tertius_Lydgate",
    "name": "Tertius_Lydgate",
    "feels": [
     {
      "name": "Intellectual_passion",
      "hasIntensity": 0.9,
      "quote": "From that hour Lydgate felt the growth of an intellectual passion.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Discovery_of_anatomy",
+      "name": "Discovery_of_anatomy"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Anatomy",
+      "name": "Anatomy"
+     },
      "exactPlace": "Home library",
      "id": "Intellectual_passion"
     },
@@ -69,6 +125,14 @@
      "name": "Curiosity",
      "hasIntensity": 0.8,
      "quote": "He was a quick fellow, and when hot from play, would toss himself in a corner, and in five minutes be deep in any sort of book that he could lay his hands on.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Love_for_reading",
+      "name": "Love_for_reading"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Books",
+      "name": "Books"
+     },
      "exactPlace": "Home library",
      "id": "Curiosity"
     },
@@ -76,6 +140,14 @@
      "name": "Hope",
      "hasIntensity": 0.7,
      "quote": "He was but seven-and-twenty, an age at which many men are not quite common—at which they are hopeful of achievement.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Hope_for_achievement",
+      "name": "Hope_for_achievement"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Achievement",
+      "name": "Achievement"
+     },
      "exactPlace": "Home library",
      "id": "Hope"
     }
@@ -84,46 +156,46 @@
  ],
  "Places": [
   {
-   "id": "data/texts/middlemarch#Home",
+   "id": "textsmiddlemarch.txt#Home",
    "name": "Home",
    "description": "The setting where the characters experience various emotions and events."
   }
  ],
  "Events": [
   {
-   "id": "data/texts/middlemarch#Fondness_for_his_mother",
+   "id": "textsmiddlemarch.txt#Fondness_for_his_mother",
    "name": "Fondness_for_his_mother"
   },
   {
-   "id": "data/texts/middlemarch#Being_orphaned",
+   "id": "textsmiddlemarch.txt#Being_orphaned",
    "name": "Being_orphaned"
   },
   {
-   "id": "data/texts/middlemarch#Love_for_reading",
+   "id": "textsmiddlemarch.txt#Love_for_reading",
    "name": "Love_for_reading"
   },
   {
-   "id": "data/texts/middlemarch#Feeling_misunderstood",
+   "id": "textsmiddlemarch.txt#Feeling_misunderstood",
    "name": "Feeling_misunderstood"
   },
   {
-   "id": "data/texts/middlemarch#Motherly_love",
+   "id": "textsmiddlemarch.txt#Motherly_love",
    "name": "Motherly_love"
   },
   {
-   "id": "data/texts/middlemarch#Feeling_in_control",
+   "id": "textsmiddlemarch.txt#Feeling_in_control",
    "name": "Feeling_in_control"
   },
   {
-   "id": "data/texts/middlemarch#Discovery_of_anatomy",
+   "id": "textsmiddlemarch.txt#Discovery_of_anatomy",
    "name": "Discovery_of_anatomy"
   },
   {
-   "id": "data/texts/middlemarch#Love_for_reading",
+   "id": "textsmiddlemarch.txt#Love_for_reading",
    "name": "Love_for_reading"
   },
   {
-   "id": "data/texts/middlemarch#Hope_for_achievement",
+   "id": "textsmiddlemarch.txt#Hope_for_achievement",
    "name": "Hope_for_achievement"
   }
  ]

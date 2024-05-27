@@ -1,12 +1,20 @@
 {
  "FictionalCharacters": [
   {
-   "id": "data/texts/mobydick#Ishmael",
+   "id": "textsmobydick.txt#Ishmael",
    "feels": [
     {
      "name": "Curiosity",
      "hasIntensity": 0.9,
      "quote": "Such a portentous and mysterious monster roused all my curiosity.",
+     "causedBy": {
+      "id": "textsmobydick.txt#Great_whale",
+      "name": "Great_whale"
+     },
+     "hasObject": {
+      "id": "textsmobydick.txt#Great_whale",
+      "name": "Great_whale"
+     },
      "exactPlace": "Mind",
      "id": "Curiosity"
     },
@@ -14,6 +22,14 @@
      "name": "Wonder",
      "hasIntensity": 0.8,
      "quote": "But what most puzzled and confounded you was a long, limber, portentous, black mass of something hovering in the centre of the picture over three blue, dim, perpendicular lines floating in a nameless yeast.",
+     "causedBy": {
+      "id": "textsmobydick.txt#Painting",
+      "name": "Painting"
+     },
+     "hasObject": {
+      "id": "textsmobydick.txt#Painting",
+      "name": "Painting"
+     },
      "exactPlace": "Mind",
      "id": "Wonder"
     },
@@ -21,6 +37,14 @@
      "name": "Awe",
      "hasIntensity": 0.7,
      "quote": "But at last all these fancies yielded to that one portentous something in the picture’s midst.",
+     "causedBy": {
+      "id": "textsmobydick.txt#Painting",
+      "name": "Painting"
+     },
+     "hasObject": {
+      "id": "textsmobydick.txt#Painting",
+      "name": "Painting"
+     },
      "exactPlace": "Mind",
      "id": "Awe"
     }
@@ -30,14 +54,14 @@
  ],
  "Objects": [
   {
-   "id": "data/texts/mobydick#Great_whale",
+   "id": "textsmobydick.txt#Great_whale",
    "name": "Great_whale",
    "associatedEmotions": [
     "Curiosity"
    ]
   },
   {
-   "id": "data/texts/mobydick#Painting",
+   "id": "textsmobydick.txt#Painting",
    "name": "Painting",
    "associatedEmotions": [
     "Wonder",
@@ -47,7 +71,7 @@
  ],
  "Places": [
   {
-   "id": "data/texts/mobydick#Spouter_Inn",
+   "id": "textsmobydick.txt#Spouter_Inn",
    "name": "Spouter_Inn",
    "description": "A gable-ended old house, one side palsied as it were, and leaning over sadly."
   }

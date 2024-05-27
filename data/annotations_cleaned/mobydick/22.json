@@ -1,12 +1,20 @@
 {
  "FictionalCharacters": [
   {
-   "id": "data/texts/mobydick#Ahab",
+   "id": "textsmobydick.txt#Ahab",
    "feels": [
     {
      "name": "Trust",
      "hasIntensity": 0.7,
      "quote": "I will have the first sight of the whale myself.",
+     "causedBy": {
+      "id": "textsmobydick.txt#Desire_to_see_the_whale",
+      "name": "Desire_to_see_the_whale"
+     },
+     "hasObject": {
+      "id": "textsmobydick.txt#Whale",
+      "name": "Whale"
+     },
      "place": "On deck",
      "id": "Trust"
     },
@@ -14,6 +22,14 @@
      "name": "Surprise",
      "hasIntensity": 0.6,
      "quote": "Not forged!",
+     "causedBy": {
+      "id": "textsmobydick.txt#Discovery_of_the_wrecked_whaleboat",
+      "name": "Discovery_of_the_wrecked_whaleboat"
+     },
+     "hasObject": {
+      "id": "textsmobydick.txt#Wrecked_whaleboat",
+      "name": "Wrecked_whaleboat"
+     },
      "place": "On deck",
      "id": "Surprise"
     },
@@ -21,6 +37,14 @@
      "name": "Anger",
      "hasIntensity": 0.8,
      "quote": "Brace forward! Up helm!",
+     "causedBy": {
+      "id": "textsmobydick.txt#The_corpse_hitting_the_sea",
+      "name": "The_corpse_hitting_the_sea"
+     },
+     "hasObject": {
+      "id": "textsmobydick.txt#Corpse",
+      "name": "Corpse"
+     },
      "place": "On deck",
      "id": "Anger"
     },
@@ -28,6 +52,14 @@
      "name": "Joy",
      "hasIntensity": 0.5,
      "quote": "It was a clear steel-blue day.",
+     "causedBy": {
+      "id": "textsmobydick.txt#Clear_day",
+      "name": "Clear_day"
+     },
+     "hasObject": {
+      "id": "textsmobydick.txt#Clear_day",
+      "name": "Clear_day"
+     },
      "place": "On deck",
      "id": "Joy"
     }
@@ -35,12 +67,20 @@
    "name": "Ahab"
   },
   {
-   "id": "data/texts/mobydick#Sicilian_Seaman",
+   "id": "textsmobydick.txt#Sicilian_Seaman",
    "feels": [
     {
      "name": "Surprise",
      "hasIntensity": 0.7,
      "quote": "Your hat, your hat, sir!",
+     "causedBy": {
+      "id": "textsmobydick.txt#The_hawk_taking_Ahab_s_hat",
+      "name": "The_hawk_taking_Ahab_s_hat"
+     },
+     "hasObject": {
+      "id": "textsmobydick.txt#Ahab_s_hat",
+      "name": "Ahab_s_hat"
+     },
      "place": "Mizen-mast-head",
      "id": "Surprise"
     }
@@ -50,36 +90,76 @@
  ],
  "Places": [
   {
-   "id": "data/texts/mobydick#On_deck",
+   "id": "textsmobydick.txt#On_deck",
    "name": "On_deck",
    "description": "The main deck of the ship where the crew and captain are present."
   },
   {
-   "id": "data/texts/mobydick#Mizenmasthead",
+   "id": "textsmobydick.txt#Mizenmasthead",
    "name": "Mizenmasthead",
    "description": "The top of the mizen mast where the Sicilian seaman is stationed."
   }
  ],
  "Events": [
   {
-   "id": "data/texts/mobydick#Desire_to_see_the_whale",
-   "name": "Desire_to_see_the_whale"
+   "id": "textsmobydick.txt#Desire_to_see_the_whale",
+   "name": "Desire_to_see_the_whale",
+   "takePlaceAt": {
+    "id": "textsmobydick.txt#deck",
+    "name": "deck"
+   },
+   "hasParticipant": {
+    "id": "textsmobydick.txt#Ahab",
+    "name": "Ahab"
+   }
   },
   {
-   "id": "data/texts/mobydick#Discovery_of_the_wrecked_whaleboat",
-   "name": "Discovery_of_the_wrecked_whaleboat"
+   "id": "textsmobydick.txt#Discovery_of_the_wrecked_whaleboat",
+   "name": "Discovery_of_the_wrecked_whaleboat",
+   "takePlaceAt": {
+    "id": "textsmobydick.txt#deck",
+    "name": "deck"
+   },
+   "hasParticipant": {
+    "id": "textsmobydick.txt#Ahab",
+    "name": "Ahab"
+   }
   },
   {
-   "id": "data/texts/mobydick#The_corpse_hitting_the_sea",
-   "name": "The_corpse_hitting_the_sea"
+   "id": "textsmobydick.txt#The_corpse_hitting_the_sea",
+   "name": "The_corpse_hitting_the_sea",
+   "takePlaceAt": {
+    "id": "textsmobydick.txt#deck",
+    "name": "deck"
+   },
+   "hasParticipant": {
+    "id": "textsmobydick.txt#Ahab",
+    "name": "Ahab"
+   }
   },
   {
-   "id": "data/texts/mobydick#Clear_day",
-   "name": "Clear_day"
+   "id": "textsmobydick.txt#Clear_day",
+   "name": "Clear_day",
+   "takePlaceAt": {
+    "id": "textsmobydick.txt#deck",
+    "name": "deck"
+   },
+   "hasParticipant": {
+    "id": "textsmobydick.txt#Ahab",
+    "name": "Ahab"
+   }
   },
   {
-   "id": "data/texts/mobydick#The_hawk_taking_Ahab_s_hat",
-   "name": "The_hawk_taking_Ahab_s_hat"
+   "id": "textsmobydick.txt#The_hawk_taking_Ahab_s_hat",
+   "name": "The_hawk_taking_Ahab_s_hat",
+   "takePlaceAt": {
+    "id": "textsmobydick.txt#mizenmasthead",
+    "name": "mizenmasthead"
+   },
+   "hasParticipant": {
+    "id": "textsmobydick.txt#Sicilian_Seaman",
+    "name": "Sicilian_Seaman"
+   }
   }
  ]
 }

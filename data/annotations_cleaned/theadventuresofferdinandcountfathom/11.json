@@ -1,15 +1,23 @@
 {
  "FictionalCharacters": [
   {
-   "id": "data/texts/theadventuresofferdinandcountfathom#Monimia",
+   "id": "textstheadventuresofferdinandcountfathom.txt#Monimia",
    "name": "Monimia",
    "feels": [
     {
      "name": "Sadness",
      "hasIntensity": 0.9,
      "quote": "Excuse me, Mr. Fathom, this, I hope, is the last agony I shall feel from my unhappy passion.",
+     "causedBy": {
+      "id": "textstheadventuresofferdinandcountfathom.txt#Learning_about_Renaldo_s_departure",
+      "name": "Learning_about_Renaldo_s_departure"
+     },
+     "hasObject": {
+      "id": "textstheadventuresofferdinandcountfathom.txt#Renaldo_s_departure",
+      "name": "Renaldo_s_departure"
+     },
      "place": {
-      "id": "data/texts/theadventuresofferdinandcountfathom#Monimia_s_residence",
+      "id": "textstheadventuresofferdinandcountfathom.txt#Monimia_s_residence",
       "name": "Monimia_s_residence"
      },
      "id": "Sadness"
@@ -18,8 +26,16 @@
      "name": "Resignation",
      "hasIntensity": 0.8,
      "quote": "Then wiping the tears from her lovely eyes, she retrieved her tranquillity.",
+     "causedBy": {
+      "id": "textstheadventuresofferdinandcountfathom.txt#Learning_about_Renaldo_s_departure",
+      "name": "Learning_about_Renaldo_s_departure"
+     },
+     "hasObject": {
+      "id": "textstheadventuresofferdinandcountfathom.txt#Renaldo_s_departure",
+      "name": "Renaldo_s_departure"
+     },
      "place": {
-      "id": "data/texts/theadventuresofferdinandcountfathom#Monimia_s_residence",
+      "id": "textstheadventuresofferdinandcountfathom.txt#Monimia_s_residence",
       "name": "Monimia_s_residence"
      },
      "id": "Resignation"
@@ -29,19 +45,35 @@
  ],
  "Places": [
   {
-   "id": "data/texts/theadventuresofferdinandcountfathom#Monimia_s_residence",
+   "id": "textstheadventuresofferdinandcountfathom.txt#Monimia_s_residence",
    "name": "Monimia_s_residence",
    "description": "A serene and composed environment where Monimia resides."
   }
  ],
  "Events": [
   {
-   "id": "data/texts/theadventuresofferdinandcountfathom#Learning_about_Renaldo_s_departure",
-   "name": "Learning_about_Renaldo_s_departure"
+   "id": "textstheadventuresofferdinandcountfathom.txt#Learning_about_Renaldo_s_departure",
+   "name": "Learning_about_Renaldo_s_departure",
+   "takePlaceAt": {
+    "id": "textstheadventuresofferdinandcountfathom.txt#place1",
+    "name": "place1"
+   },
+   "hasParticipant": {
+    "id": "textstheadventuresofferdinandcountfathom.txt#fc1",
+    "name": "fc1"
+   }
   },
   {
-   "id": "data/texts/theadventuresofferdinandcountfathom#Learning_about_Renaldo_s_departure",
-   "name": "Learning_about_Renaldo_s_departure"
+   "id": "textstheadventuresofferdinandcountfathom.txt#Learning_about_Renaldo_s_departure",
+   "name": "Learning_about_Renaldo_s_departure",
+   "takePlaceAt": {
+    "id": "textstheadventuresofferdinandcountfathom.txt#place1",
+    "name": "place1"
+   },
+   "hasParticipant": {
+    "id": "textstheadventuresofferdinandcountfathom.txt#fc1",
+    "name": "fc1"
+   }
   }
  ]
 }

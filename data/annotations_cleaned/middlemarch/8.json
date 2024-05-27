@@ -1,15 +1,23 @@
 {
  "FictionalCharacters": [
   {
-   "id": "data/texts/middlemarch#Dorothea",
+   "id": "textsmiddlemarch.txt#Dorothea",
    "name": "Dorothea",
    "feels": [
     {
      "name": "Trust",
      "hasIntensity": 0.6,
      "quote": "Dorothea had early begun to emerge from that stupidity, but yet it had been easier to her to imagine how she would devote herself to Mr. Casaubon, and become wise and strong in his strength and wisdom.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Imagining_a_devoted_relationship_with_Mr_Casaubon",
+      "name": "Imagining_a_devoted_relationship_with_Mr_Casaubon"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Mr_Casaubon",
+      "name": "Mr_Casaubon"
+     },
      "place": {
-      "id": "data/texts/middlemarch#Home",
+      "id": "textsmiddlemarch.txt#Home",
       "name": "Home"
      },
      "id": "Trust"
@@ -18,8 +26,16 @@
      "name": "Surprise",
      "hasIntensity": 0.4,
      "quote": "Mr. Casaubon felt a surprise which was quite unmixed with pleasure.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Seeing_Will_Ladislaw",
+      "name": "Seeing_Will_Ladislaw"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Will_Ladislaw",
+      "name": "Will_Ladislaw"
+     },
      "place": {
-      "id": "data/texts/middlemarch#Home",
+      "id": "textsmiddlemarch.txt#Home",
       "name": "Home"
      },
      "id": "Surprise"
@@ -28,8 +44,16 @@
      "name": "Anger",
      "hasIntensity": 0.7,
      "quote": "Mr. Casaubon felt a surprise which was quite unmixed with pleasure.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Seeing_Will_Ladislaw",
+      "name": "Seeing_Will_Ladislaw"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Will_Ladislaw",
+      "name": "Will_Ladislaw"
+     },
      "place": {
-      "id": "data/texts/middlemarch#Home",
+      "id": "textsmiddlemarch.txt#Home",
       "name": "Home"
      },
      "id": "Anger"
@@ -38,8 +62,16 @@
      "name": "Joy",
      "hasIntensity": 0.5,
      "quote": "Dorothea's eyes followed her husband anxiously, while he sank down wearily at the end of a sofa, and resting his elbow supported his head and looked on the floor.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Feeling_a_new_alarm_for_Mr_Casaubon",
+      "name": "Feeling_a_new_alarm_for_Mr_Casaubon"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Mr_Casaubon",
+      "name": "Mr_Casaubon"
+     },
      "place": {
-      "id": "data/texts/middlemarch#Home",
+      "id": "textsmiddlemarch.txt#Home",
       "name": "Home"
      },
      "id": "Joy"
@@ -48,8 +80,16 @@
      "name": "Anticipation",
      "hasIntensity": 0.6,
      "quote": "Dorothea's eyes followed her husband anxiously, while he sank down wearily at the end of a sofa, and resting his elbow supported his head and looked on the floor.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Feeling_a_new_alarm_for_Mr_Casaubon",
+      "name": "Feeling_a_new_alarm_for_Mr_Casaubon"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Mr_Casaubon",
+      "name": "Mr_Casaubon"
+     },
      "place": {
-      "id": "data/texts/middlemarch#Home",
+      "id": "textsmiddlemarch.txt#Home",
       "name": "Home"
      },
      "id": "Anticipation"
@@ -58,8 +98,16 @@
      "name": "Fear",
      "hasIntensity": 0.4,
      "quote": "Dorothea's eyes followed her husband anxiously, while he sank down wearily at the end of a sofa, and resting his elbow supported his head and looked on the floor.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Feeling_a_new_alarm_for_Mr_Casaubon",
+      "name": "Feeling_a_new_alarm_for_Mr_Casaubon"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Mr_Casaubon",
+      "name": "Mr_Casaubon"
+     },
      "place": {
-      "id": "data/texts/middlemarch#Home",
+      "id": "textsmiddlemarch.txt#Home",
       "name": "Home"
      },
      "id": "Fear"
@@ -68,8 +116,16 @@
      "name": "Disgust",
      "hasIntensity": 0.5,
      "quote": "But Dorothea remembered it to the last with the vividness with which we all remember epochs in our experience when some dear expectation dies, or some new motive is born.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Realizing_the_disillusionment_in_her_marriage",
+      "name": "Realizing_the_disillusionment_in_her_marriage"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Marriage",
+      "name": "Marriage"
+     },
      "place": {
-      "id": "data/texts/middlemarch#Home",
+      "id": "textsmiddlemarch.txt#Home",
       "name": "Home"
      },
      "id": "Disgust"
@@ -78,8 +134,16 @@
      "name": "Sadness",
      "hasIntensity": 0.7,
      "quote": "But Dorothea remembered it to the last with the vividness with which we all remember epochs in our experience when some dear expectation dies, or some new motive is born.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Realizing_the_disillusionment_in_her_marriage",
+      "name": "Realizing_the_disillusionment_in_her_marriage"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Marriage",
+      "name": "Marriage"
+     },
      "place": {
-      "id": "data/texts/middlemarch#Home",
+      "id": "textsmiddlemarch.txt#Home",
       "name": "Home"
      },
      "id": "Sadness"
@@ -88,8 +152,16 @@
      "name": "Acceptance",
      "hasIntensity": 0.6,
      "quote": "But Dorothea remembered it to the last with the vividness with which we all remember epochs in our experience when some dear expectation dies, or some new motive is born.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Realizing_the_disillusionment_in_her_marriage",
+      "name": "Realizing_the_disillusionment_in_her_marriage"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Marriage",
+      "name": "Marriage"
+     },
      "place": {
-      "id": "data/texts/middlemarch#Home",
+      "id": "textsmiddlemarch.txt#Home",
       "name": "Home"
      },
      "id": "Acceptance"
@@ -97,15 +169,23 @@
    ]
   },
   {
-   "id": "data/texts/middlemarch#Mr_Casaubon",
+   "id": "textsmiddlemarch.txt#Mr_Casaubon",
    "name": "Mr_Casaubon",
    "feels": [
     {
      "name": "Surprise",
      "hasIntensity": 0.4,
      "quote": "Mr. Casaubon felt a surprise which was quite unmixed with pleasure.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Seeing_Will_Ladislaw",
+      "name": "Seeing_Will_Ladislaw"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Will_Ladislaw",
+      "name": "Will_Ladislaw"
+     },
      "place": {
-      "id": "data/texts/middlemarch#Home",
+      "id": "textsmiddlemarch.txt#Home",
       "name": "Home"
      },
      "id": "Surprise"
@@ -114,8 +194,16 @@
      "name": "Anger",
      "hasIntensity": 0.7,
      "quote": "Mr. Casaubon felt a surprise which was quite unmixed with pleasure.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Seeing_Will_Ladislaw",
+      "name": "Seeing_Will_Ladislaw"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Will_Ladislaw",
+      "name": "Will_Ladislaw"
+     },
      "place": {
-      "id": "data/texts/middlemarch#Home",
+      "id": "textsmiddlemarch.txt#Home",
       "name": "Home"
      },
      "id": "Anger"
@@ -124,8 +212,16 @@
      "name": "Joy",
      "hasIntensity": 0.5,
      "quote": "Dorothea's eyes followed her husband anxiously, while he sank down wearily at the end of a sofa, and resting his elbow supported his head and looked on the floor.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Feeling_a_new_alarm_for_Mr_Casaubon",
+      "name": "Feeling_a_new_alarm_for_Mr_Casaubon"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Mr_Casaubon",
+      "name": "Mr_Casaubon"
+     },
      "place": {
-      "id": "data/texts/middlemarch#Home",
+      "id": "textsmiddlemarch.txt#Home",
       "name": "Home"
      },
      "id": "Joy"
@@ -134,8 +230,16 @@
      "name": "Anticipation",
      "hasIntensity": 0.6,
      "quote": "Dorothea's eyes followed her husband anxiously, while he sank down wearily at the end of a sofa, and resting his elbow supported his head and looked on the floor.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Feeling_a_new_alarm_for_Mr_Casaubon",
+      "name": "Feeling_a_new_alarm_for_Mr_Casaubon"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Mr_Casaubon",
+      "name": "Mr_Casaubon"
+     },
      "place": {
-      "id": "data/texts/middlemarch#Home",
+      "id": "textsmiddlemarch.txt#Home",
       "name": "Home"
      },
      "id": "Anticipation"
@@ -144,8 +248,16 @@
      "name": "Fear",
      "hasIntensity": 0.4,
      "quote": "Dorothea's eyes followed her husband anxiously, while he sank down wearily at the end of a sofa, and resting his elbow supported his head and looked on the floor.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Feeling_a_new_alarm_for_Mr_Casaubon",
+      "name": "Feeling_a_new_alarm_for_Mr_Casaubon"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Mr_Casaubon",
+      "name": "Mr_Casaubon"
+     },
      "place": {
-      "id": "data/texts/middlemarch#Home",
+      "id": "textsmiddlemarch.txt#Home",
       "name": "Home"
      },
      "id": "Fear"
@@ -154,8 +266,16 @@
      "name": "Disgust",
      "hasIntensity": 0.5,
      "quote": "But Dorothea remembered it to the last with the vividness with which we all remember epochs in our experience when some dear expectation dies, or some new motive is born.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Realizing_the_disillusionment_in_her_marriage",
+      "name": "Realizing_the_disillusionment_in_her_marriage"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Marriage",
+      "name": "Marriage"
+     },
      "place": {
-      "id": "data/texts/middlemarch#Home",
+      "id": "textsmiddlemarch.txt#Home",
       "name": "Home"
      },
      "id": "Disgust"
@@ -164,8 +284,16 @@
      "name": "Sadness",
      "hasIntensity": 0.7,
      "quote": "But Dorothea remembered it to the last with the vividness with which we all remember epochs in our experience when some dear expectation dies, or some new motive is born.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Realizing_the_disillusionment_in_her_marriage",
+      "name": "Realizing_the_disillusionment_in_her_marriage"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Marriage",
+      "name": "Marriage"
+     },
      "place": {
-      "id": "data/texts/middlemarch#Home",
+      "id": "textsmiddlemarch.txt#Home",
       "name": "Home"
      },
      "id": "Sadness"
@@ -174,8 +302,16 @@
      "name": "Acceptance",
      "hasIntensity": 0.6,
      "quote": "But Dorothea remembered it to the last with the vividness with which we all remember epochs in our experience when some dear expectation dies, or some new motive is born.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Realizing_the_disillusionment_in_her_marriage",
+      "name": "Realizing_the_disillusionment_in_her_marriage"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#Marriage",
+      "name": "Marriage"
+     },
      "place": {
-      "id": "data/texts/middlemarch#Home",
+      "id": "textsmiddlemarch.txt#Home",
       "name": "Home"
      },
      "id": "Acceptance"
@@ -185,37 +321,37 @@
  ],
  "Places": [
   {
-   "id": "data/texts/middlemarch#Home",
+   "id": "textsmiddlemarch.txt#Home",
    "name": "Home"
   },
   {
-   "id": "data/texts/middlemarch#Home",
+   "id": "textsmiddlemarch.txt#Home",
    "name": "Home"
   },
   {
-   "id": "data/texts/middlemarch#Home",
+   "id": "textsmiddlemarch.txt#Home",
    "name": "Home"
   },
   {
-   "id": "data/texts/middlemarch#Home",
+   "id": "textsmiddlemarch.txt#Home",
    "name": "Home"
   }
  ],
  "Events": [
   {
-   "id": "data/texts/middlemarch#Imagining_a_devoted_relationship_with_Mr_Casaubon",
+   "id": "textsmiddlemarch.txt#Imagining_a_devoted_relationship_with_Mr_Casaubon",
    "name": "Imagining_a_devoted_relationship_with_Mr_Casaubon"
   },
   {
-   "id": "data/texts/middlemarch#Seeing_Will_Ladislaw",
+   "id": "textsmiddlemarch.txt#Seeing_Will_Ladislaw",
    "name": "Seeing_Will_Ladislaw"
   },
   {
-   "id": "data/texts/middlemarch#Feeling_a_new_alarm_for_Mr_Casaubon",
+   "id": "textsmiddlemarch.txt#Feeling_a_new_alarm_for_Mr_Casaubon",
    "name": "Feeling_a_new_alarm_for_Mr_Casaubon"
   },
   {
-   "id": "data/texts/middlemarch#Realizing_the_disillusionment_in_her_marriage",
+   "id": "textsmiddlemarch.txt#Realizing_the_disillusionment_in_her_marriage",
    "name": "Realizing_the_disillusionment_in_her_marriage"
   }
  ]

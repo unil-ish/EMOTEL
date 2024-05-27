@@ -1,12 +1,20 @@
 {
  "FictionalCharacters": [
   {
-   "id": "data/texts/thebluecastle#Valancy",
+   "id": "textsthebluecastle.txt#Valancy",
    "feels": [
     {
      "name": "Joy",
      "hasIntensity": 0.9,
      "quote": "Valancy had taken some of her two hundred dollars out of the bank and spent it in pretty clothes. She had a little smoke-blue chiffon which she always put on when they spent the evening at home—smoke-blue with touches of silver about it. It was after she began wearing it that Barney began calling her Moonlight.",
+     "causedBy": {
+      "id": "textsthebluecastle.txt#Buying_pretty_clothes",
+      "name": "Buying_pretty_clothes"
+     },
+     "hasObject": {
+      "id": "textsthebluecastle.txt#Smokeblue_chiffon_dress",
+      "name": "Smokeblue_chiffon_dress"
+     },
      "place": "Home",
      "id": "Joy"
     },
@@ -14,6 +22,14 @@
      "name": "Trust",
      "hasIntensity": 0.8,
      "quote": "Valancy had refused to let him buy any of her clothes—she had enough for that, she told him, as long as she would need clothes.",
+     "causedBy": {
+      "id": "textsthebluecastle.txt#Refusing_to_let_Barney_buy_her_clothes",
+      "name": "Refusing_to_let_Barney_buy_her_clothes"
+     },
+     "hasObject": {
+      "id": "textsthebluecastle.txt#Clothes",
+      "name": "Clothes"
+     },
      "place": "Home",
      "id": "Trust"
     },
@@ -21,6 +37,14 @@
      "name": "Love",
      "hasIntensity": 0.9,
      "quote": "Valancy had wanted a string of milky pearl beads—like congealed moonshine—all her life. And these were so pretty.",
+     "causedBy": {
+      "id": "textsthebluecastle.txt#Receiving_pearl_necklace_as_a_Christmas_present",
+      "name": "Receiving_pearl_necklace_as_a_Christmas_present"
+     },
+     "hasObject": {
+      "id": "textsthebluecastle.txt#Pearl_necklace",
+      "name": "Pearl_necklace"
+     },
      "place": "Home",
      "id": "Love"
     },
@@ -28,6 +52,14 @@
      "name": "Happiness",
      "hasIntensity": 0.9,
      "quote": "Valancy had heaped up the sand in the little island cove in a tremendous cone and stuck a gay little Union Jack on top of it.",
+     "causedBy": {
+      "id": "textsthebluecastle.txt#Celebrating_by_heaping_up_sand_with_a_Union_Jack",
+      "name": "Celebrating_by_heaping_up_sand_with_a_Union_Jack"
+     },
+     "hasObject": {
+      "id": "textsthebluecastle.txt#Sand_cone_with_Union_Jack",
+      "name": "Sand_cone_with_Union_Jack"
+     },
      "place": "Island cove",
      "id": "Happiness"
     }
@@ -35,12 +67,20 @@
    "name": "Valancy"
   },
   {
-   "id": "data/texts/thebluecastle#Barney",
+   "id": "textsthebluecastle.txt#Barney",
    "feels": [
     {
      "name": "Joy",
      "hasIntensity": 0.8,
      "quote": "Barney had asked Valancy what she wanted for a Christmas present.",
+     "causedBy": {
+      "id": "textsthebluecastle.txt#Asking_Valancy_what_she_wanted_for_Christmas",
+      "name": "Asking_Valancy_what_she_wanted_for_Christmas"
+     },
+     "hasObject": {
+      "id": "textsthebluecastle.txt#Christmas_present",
+      "name": "Christmas_present"
+     },
      "place": "Home",
      "id": "Joy"
     },
@@ -48,6 +88,14 @@
      "name": "Trust",
      "hasIntensity": 0.8,
      "quote": "Barney had once promised her a pair of skates for Christmas, but when Christmas came he had given her rubbers instead.",
+     "causedBy": {
+      "id": "textsthebluecastle.txt#Giving_Valancy_rubbers_instead_of_skates_for_Chris",
+      "name": "Giving_Valancy_rubbers_instead_of_skates_for_Christmas"
+     },
+     "hasObject": {
+      "id": "textsthebluecastle.txt#Rubbers",
+      "name": "Rubbers"
+     },
      "place": "Home",
      "id": "Trust"
     }
@@ -57,40 +105,64 @@
  ],
  "Places": [
   {
-   "id": "data/texts/thebluecastle#Home",
+   "id": "textsthebluecastle.txt#Home",
    "name": "Home",
    "description": "Their cozy living space in the Blue Castle on the island"
   },
   {
-   "id": "data/texts/thebluecastle#Island_cove",
+   "id": "textsthebluecastle.txt#Island_cove",
    "name": "Island_cove",
    "description": "The little island cove where Valancy heaped up sand with a Union Jack"
   }
  ],
  "Events": [
   {
-   "id": "data/texts/thebluecastle#Buying_pretty_clothes",
-   "name": "Buying_pretty_clothes"
+   "id": "textsthebluecastle.txt#Buying_pretty_clothes",
+   "name": "Buying_pretty_clothes",
+   "takePlaceAt": {
+    "id": "textsthebluecastle.txt#Home",
+    "name": "Home"
+   }
   },
   {
-   "id": "data/texts/thebluecastle#Refusing_to_let_Barney_buy_her_clothes",
-   "name": "Refusing_to_let_Barney_buy_her_clothes"
+   "id": "textsthebluecastle.txt#Refusing_to_let_Barney_buy_her_clothes",
+   "name": "Refusing_to_let_Barney_buy_her_clothes",
+   "takePlaceAt": {
+    "id": "textsthebluecastle.txt#Home",
+    "name": "Home"
+   }
   },
   {
-   "id": "data/texts/thebluecastle#Receiving_pearl_necklace_as_a_Christmas_present",
-   "name": "Receiving_pearl_necklace_as_a_Christmas_present"
+   "id": "textsthebluecastle.txt#Receiving_pearl_necklace_as_a_Christmas_present",
+   "name": "Receiving_pearl_necklace_as_a_Christmas_present",
+   "takePlaceAt": {
+    "id": "textsthebluecastle.txt#Home",
+    "name": "Home"
+   }
   },
   {
-   "id": "data/texts/thebluecastle#Celebrating_by_heaping_up_sand_with_a_Union_Jack",
-   "name": "Celebrating_by_heaping_up_sand_with_a_Union_Jack"
+   "id": "textsthebluecastle.txt#Celebrating_by_heaping_up_sand_with_a_Union_Jack",
+   "name": "Celebrating_by_heaping_up_sand_with_a_Union_Jack",
+   "takePlaceAt": {
+    "id": "textsthebluecastle.txt#Island_cove",
+    "name": "Island_cove"
+   }
   },
   {
-   "id": "data/texts/thebluecastle#Asking_Valancy_what_she_wanted_for_Christmas",
-   "name": "Asking_Valancy_what_she_wanted_for_Christmas"
+   "id": "textsthebluecastle.txt#Asking_Valancy_what_she_wanted_for_Christmas",
+   "name": "Asking_Valancy_what_she_wanted_for_Christmas",
+   "takePlaceAt": {
+    "id": "textsthebluecastle.txt#Home",
+    "name": "Home"
+   }
   },
   {
-   "id": "data/texts/thebluecastle#Giving_Valancy_rubbers_instead_of_skates_for_Chris",
-   "name": "Giving_Valancy_rubbers_instead_of_skates_for_Christmas"
+   "id": "textsthebluecastle.txt#Giving_Valancy_rubbers_instead_of_skates_for_Chris",
+   "name": "Giving_Valancy_rubbers_instead_of_skates_for_Christmas",
+   "takePlaceAt": {
+    "id": "textsthebluecastle.txt#Home",
+    "name": "Home"
+   }
   }
  ]
 }

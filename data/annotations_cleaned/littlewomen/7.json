@@ -1,7 +1,7 @@
 {
  "FictionalCharacters": [
   {
-   "id": "data/texts/littlewomen#Jo",
+   "id": "textslittlewomen.txt#Jo",
    "name": "Jo",
    "feels": [
     {
@@ -10,8 +10,8 @@
      "quote": "A dreadful fear passed coldly over Jo, as she thought, 'Beth is dead, and Meg is afraid to tell me.' She was back at her post in an instant, and to her excited eyes a great change seemed to have taken place.",
      "place": "By the bed",
      "causedBy": {
-      "name": "Seeing Meg kneeling before their mother's easy-chair",
-      "id": "data/texts/littlewomen#Seeing Meg kneeling before their mother's easy-cha"
+      "name": "Seeing_Meg_kneeling_before_their_mother_s_easychair",
+      "id": "textslittlewomen.txt#Seeing_Meg_kneeling_before_their_mother_s_easychai"
      },
      "id": "Relief"
     },
@@ -21,8 +21,8 @@
      "quote": "Leaning low over this dearest of her sisters, she kissed the damp forehead with her heart on her lips, and softly whispered, 'Good-by, my Beth; good-by!'",
      "place": "By the bed",
      "causedBy": {
-      "name": "Seeing the peaceful expression on Beth's face",
-      "id": "data/texts/littlewomen#Seeing the peaceful expression on Beth's face"
+      "name": "Seeing_the_peaceful_expression_on_Beth_s_face",
+      "id": "textslittlewomen.txt#Seeing_the_peaceful_expression_on_Beth_s_face"
      },
      "id": "Joy"
     },
@@ -32,8 +32,8 @@
      "quote": "When they went back to be kissed and cuddled by faithful Hannah, they found Beth lying, as she used to do, with her cheek pillowed on her hand, the dreadful pallor gone, and breathing quietly, as if just fallen asleep.",
      "place": "By the bed",
      "causedBy": {
-      "name": "Confirmation from the doctor that Beth will pull through",
-      "id": "data/texts/littlewomen#Confirmation from the doctor that Beth will pull t"
+      "name": "Confirmation_from_the_doctor_that_Beth_will_pull_through",
+      "id": "textslittlewomen.txt#Confirmation_from_the_doctor_that_Beth_will_pull_t"
      },
      "id": "Hope"
     },
@@ -43,15 +43,15 @@
      "quote": "When they went back to be kissed and cuddled by faithful Hannah, they found Beth lying, as she used to do, with her cheek pillowed on her hand, the dreadful pallor gone, and breathing quietly, as if just fallen asleep.",
      "place": "By the bed",
      "causedBy": {
-      "name": "Confirmation from the doctor that Beth will pull through",
-      "id": "data/texts/littlewomen#Confirmation from the doctor that Beth will pull t"
+      "name": "Confirmation_from_the_doctor_that_Beth_will_pull_through",
+      "id": "textslittlewomen.txt#Confirmation_from_the_doctor_that_Beth_will_pull_t"
      },
      "id": "Gratitude"
     }
    ]
   },
   {
-   "id": "data/texts/littlewomen#Meg",
+   "id": "textslittlewomen.txt#Meg",
    "name": "Meg",
    "feels": [
     {
@@ -60,8 +60,8 @@
      "quote": "Before the girls could believe the happy truth, the doctor came to confirm it. He was a homely man, but they thought his face quite heavenly when he smiled, and said, with a fatherly look at them, 'Yes, my dears, I think the little girl will pull through this time.'",
      "place": "By the bed",
      "causedBy": {
-      "name": "Confirmation from the doctor that Beth will pull through",
-      "id": "data/texts/littlewomen#Confirmation from the doctor that Beth will pull t"
+      "name": "Confirmation_from_the_doctor_that_Beth_will_pull_through",
+      "id": "textslittlewomen.txt#Confirmation_from_the_doctor_that_Beth_will_pull_t"
      },
      "id": "Hope"
     },
@@ -71,8 +71,8 @@
      "quote": "Never had the sun risen so beautifully, and never had the world seemed so lovely, as it did to the heavy eyes of Meg and Jo, as they looked out in the early morning, when their long, sad vigil was done.",
      "place": "Looking out in the early morning",
      "causedBy": {
-      "name": "The end of their long, sad vigil",
-      "id": "data/texts/littlewomen#The end of their long, sad vigil"
+      "name": "The_end_of_their_long_sad_vigil",
+      "id": "textslittlewomen.txt#The_end_of_their_long_sad_vigil"
      },
      "id": "Joy"
     },
@@ -82,8 +82,8 @@
      "quote": "When they went back to be kissed and cuddled by faithful Hannah, they found Beth lying, as she used to do, with her cheek pillowed on her hand, the dreadful pallor gone, and breathing quietly, as if just fallen asleep.",
      "place": "By the bed",
      "causedBy": {
-      "name": "Confirmation from the doctor that Beth will pull through",
-      "id": "data/texts/littlewomen#Confirmation from the doctor that Beth will pull t"
+      "name": "Confirmation_from_the_doctor_that_Beth_will_pull_through",
+      "id": "textslittlewomen.txt#Confirmation_from_the_doctor_that_Beth_will_pull_t"
      },
      "id": "Gratitude"
     }

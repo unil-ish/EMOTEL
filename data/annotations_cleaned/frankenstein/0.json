@@ -1,14 +1,22 @@
 {
  "FictionalCharacters": [
   {
-   "id": "data/texts/frankenstein#Victor_Frankenstein",
+   "id": "textsfrankenstein.txt#Victor_Frankenstein",
    "feels": [
     {
      "name": "Joy",
      "hasIntensity": 0.9,
      "quote": "I was their plaything and their idol, and something better—their child, the innocent and helpless creature bestowed on them by Heaven, whom to bring up to good, and whose future lot it was in their hands to direct to happiness or misery, according as they fulfilled their duties towards me.",
+     "causedBy": {
+      "id": "textsfrankenstein.txt#Being_the_only_child_and_receiving_love_and_care_f",
+      "name": "Being_the_only_child_and_receiving_love_and_care_from_his_parents"
+     },
+     "hasObject": {
+      "id": "textsfrankenstein.txt#Love_and_care_from_parents",
+      "name": "Love_and_care_from_parents"
+     },
      "place": {
-      "id": "data/texts/frankenstein#Geneva",
+      "id": "textsfrankenstein.txt#Geneva",
       "name": "Geneva"
      },
      "id": "Joy"
@@ -17,8 +25,16 @@
      "name": "Gratitude",
      "hasIntensity": 0.8,
      "quote": "I distinctly discerned how peculiarly fortunate my lot was, and gratitude assisted the development of filial love.",
+     "causedBy": {
+      "id": "textsfrankenstein.txt#Feeling_fortunate_compared_to_others",
+      "name": "Feeling_fortunate_compared_to_others"
+     },
+     "hasObject": {
+      "id": "textsfrankenstein.txt#Feeling_fortunate",
+      "name": "Feeling_fortunate"
+     },
      "place": {
-      "id": "data/texts/frankenstein#Geneva",
+      "id": "textsfrankenstein.txt#Geneva",
       "name": "Geneva"
      },
      "id": "Gratitude"
@@ -27,8 +43,16 @@
      "name": "Curiosity",
      "hasIntensity": 0.9,
      "quote": "Curiosity, earnest research to learn, and not to learn all things indiscriminately.",
+     "causedBy": {
+      "id": "textsfrankenstein.txt#Desire_to_learn_the_secrets_of_heaven_and_earth",
+      "name": "Desire_to_learn_the_secrets_of_heaven_and_earth"
+     },
+     "hasObject": {
+      "id": "textsfrankenstein.txt#Secrets_of_heaven_and_earth",
+      "name": "Secrets_of_heaven_and_earth"
+     },
      "place": {
-      "id": "data/texts/frankenstein#Geneva",
+      "id": "textsfrankenstein.txt#Geneva",
       "name": "Geneva"
      },
      "id": "Curiosity"
@@ -37,8 +61,16 @@
      "name": "Enthusiasm",
      "hasIntensity": 0.9,
      "quote": "The theory which he attempts to demonstrate and the wonderful facts which he relates soon changed this feeling into enthusiasm.",
+     "causedBy": {
+      "id": "textsfrankenstein.txt#Discovery_of_Cornelius_Agrippa_s_works",
+      "name": "Discovery_of_Cornelius_Agrippa_s_works"
+     },
+     "hasObject": {
+      "id": "textsfrankenstein.txt#Works_of_Cornelius_Agrippa",
+      "name": "Works_of_Cornelius_Agrippa"
+     },
      "place": {
-      "id": "data/texts/frankenstein#Thonon",
+      "id": "textsfrankenstein.txt#Thonon",
       "name": "Thonon"
      },
      "id": "Enthusiasm"
@@ -47,14 +79,22 @@
    "name": "Victor_Frankenstein"
   },
   {
-   "id": "data/texts/frankenstein#Elizabeth_Lavenza",
+   "id": "textsfrankenstein.txt#Elizabeth_Lavenza",
    "feels": [
     {
      "name": "Love",
      "hasIntensity": 0.9,
      "quote": "Everyone loved Elizabeth. The passionate and almost reverential attachment with which all regarded her became, while I shared it, my pride and my delight.",
+     "causedBy": {
+      "id": "textsfrankenstein.txt#Kindness_and_affection_from_others",
+      "name": "Kindness_and_affection_from_others"
+     },
+     "hasObject": {
+      "id": "textsfrankenstein.txt#Kindness_and_affection",
+      "name": "Kindness_and_affection"
+     },
      "place": {
-      "id": "data/texts/frankenstein#Geneva",
+      "id": "textsfrankenstein.txt#Geneva",
       "name": "Geneva"
      },
      "id": "Love"
@@ -63,14 +103,22 @@
    "name": "Elizabeth_Lavenza"
   },
   {
-   "id": "data/texts/frankenstein#Henry_Clerval",
+   "id": "textsfrankenstein.txt#Henry_Clerval",
    "feels": [
     {
      "name": "Hope",
      "hasIntensity": 0.8,
      "quote": "The busy stage of life, the virtues of heroes, and the actions of men were his theme; and his hope and his dream was to become one among those whose names are recorded in story as the gallant and adventurous benefactors of our species.",
+     "causedBy": {
+      "id": "textsfrankenstein.txt#Desire_to_become_a_benefactor",
+      "name": "Desire_to_become_a_benefactor"
+     },
+     "hasObject": {
+      "id": "textsfrankenstein.txt#Gallant_and_adventurous_benefactors",
+      "name": "Gallant_and_adventurous_benefactors"
+     },
      "place": {
-      "id": "data/texts/frankenstein#Geneva",
+      "id": "textsfrankenstein.txt#Geneva",
       "name": "Geneva"
      },
      "id": "Hope"
@@ -81,44 +129,100 @@
  ],
  "Places": [
   {
-   "id": "data/texts/frankenstein#Geneva",
+   "id": "textsfrankenstein.txt#Geneva",
    "name": "Geneva",
    "description": "City in Switzerland where Victor Frankenstein and his family resided."
   },
   {
-   "id": "data/texts/frankenstein#Thonon",
+   "id": "textsfrankenstein.txt#Thonon",
    "name": "Thonon",
    "description": "Location near the baths where Victor Frankenstein found a volume of Cornelius Agrippa's works."
   }
  ],
  "Events": [
   {
-   "id": "data/texts/frankenstein#Birth_and_upbringing",
-   "name": "Birth_and_upbringing"
+   "id": "textsfrankenstein.txt#Birth_and_upbringing",
+   "name": "Birth_and_upbringing",
+   "takePlaceAt": {
+    "id": "textsfrankenstein.txt#Geneva",
+    "name": "Geneva"
+   },
+   "hasParticipant": {
+    "id": "textsfrankenstein.txt#Victor_Frankenstein",
+    "name": "Victor_Frankenstein"
+   }
   },
   {
-   "id": "data/texts/frankenstein#Being_the_only_child_and_receiving_love_and_care_f",
-   "name": "Being_the_only_child_and_receiving_love_and_care_from_his_parents"
+   "id": "textsfrankenstein.txt#Being_the_only_child_and_receiving_love_and_care_f",
+   "name": "Being_the_only_child_and_receiving_love_and_care_from_his_parents",
+   "takePlaceAt": {
+    "id": "textsfrankenstein.txt#Geneva",
+    "name": "Geneva"
+   },
+   "hasParticipant": {
+    "id": "textsfrankenstein.txt#Victor_Frankenstein",
+    "name": "Victor_Frankenstein"
+   }
   },
   {
-   "id": "data/texts/frankenstein#Feeling_fortunate_compared_to_others",
-   "name": "Feeling_fortunate_compared_to_others"
+   "id": "textsfrankenstein.txt#Feeling_fortunate_compared_to_others",
+   "name": "Feeling_fortunate_compared_to_others",
+   "takePlaceAt": {
+    "id": "textsfrankenstein.txt#Geneva",
+    "name": "Geneva"
+   },
+   "hasParticipant": {
+    "id": "textsfrankenstein.txt#Victor_Frankenstein",
+    "name": "Victor_Frankenstein"
+   }
   },
   {
-   "id": "data/texts/frankenstein#Desire_for_knowledge",
-   "name": "Desire_for_knowledge"
+   "id": "textsfrankenstein.txt#Desire_for_knowledge",
+   "name": "Desire_for_knowledge",
+   "takePlaceAt": {
+    "id": "textsfrankenstein.txt#Geneva",
+    "name": "Geneva"
+   },
+   "hasParticipant": {
+    "id": "textsfrankenstein.txt#Victor_Frankenstein",
+    "name": "Victor_Frankenstein"
+   }
   },
   {
-   "id": "data/texts/frankenstein#Discovery_of_Cornelius_Agrippa_s_works",
-   "name": "Discovery_of_Cornelius_Agrippa_s_works"
+   "id": "textsfrankenstein.txt#Discovery_of_Cornelius_Agrippa_s_works",
+   "name": "Discovery_of_Cornelius_Agrippa_s_works",
+   "takePlaceAt": {
+    "id": "textsfrankenstein.txt#Thonon",
+    "name": "Thonon"
+   },
+   "hasParticipant": {
+    "id": "textsfrankenstein.txt#Victor_Frankenstein",
+    "name": "Victor_Frankenstein"
+   }
   },
   {
-   "id": "data/texts/frankenstein#Kindness_and_affection",
-   "name": "Kindness_and_affection"
+   "id": "textsfrankenstein.txt#Kindness_and_affection",
+   "name": "Kindness_and_affection",
+   "takePlaceAt": {
+    "id": "textsfrankenstein.txt#Geneva",
+    "name": "Geneva"
+   },
+   "hasParticipant": {
+    "id": "textsfrankenstein.txt#Elizabeth_Lavenza",
+    "name": "Elizabeth_Lavenza"
+   }
   },
   {
-   "id": "data/texts/frankenstein#Desire_for_adventure",
-   "name": "Desire_for_adventure"
+   "id": "textsfrankenstein.txt#Desire_for_adventure",
+   "name": "Desire_for_adventure",
+   "takePlaceAt": {
+    "id": "textsfrankenstein.txt#Geneva",
+    "name": "Geneva"
+   },
+   "hasParticipant": {
+    "id": "textsfrankenstein.txt#Henry_Clerval",
+    "name": "Henry_Clerval"
+   }
   }
  ]
 }

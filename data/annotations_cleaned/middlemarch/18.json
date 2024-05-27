@@ -1,13 +1,21 @@
 {
  "FictionalCharacters": [
   {
-   "id": "data/texts/middlemarch#Dorothea",
+   "id": "textsmiddlemarch.txt#Dorothea",
    "name": "Dorothea",
    "feels": [
     {
      "name": "Interest",
      "hasIntensity": 0.9,
      "quote": "Dorothea was quite grateful to Lydgate for telling her about the New Hospital and expressed her willingness to help.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Discussion_about_the_New_Hospital",
+      "name": "Discussion_about_the_New_Hospital"
+     },
+     "hasObject": {
+      "id": "textsmiddlemarch.txt#New_Hospital",
+      "name": "New_Hospital"
+     },
      "exactPlace": "Walking round the laurel-planted plots of the New Hospital",
      "id": "Interest"
     },
@@ -15,32 +23,44 @@
      "name": "Melancholy",
      "hasIntensity": 0.7,
      "quote": "Dorothea felt a melancholy cadence in her voice as she spoke about the trouble taken in the world.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Discussion_about_the_trouble_taken_in_the_world",
+      "name": "Discussion_about_the_trouble_taken_in_the_world"
+     },
      "exactPlace": "At home discussing the trouble taken in the world",
      "id": "Melancholy"
     }
    ]
   },
   {
-   "id": "data/texts/middlemarch#Mr_Mawmsey",
+   "id": "textsmiddlemarch.txt#Mr_Mawmsey",
    "name": "Mr_Mawmsey",
    "feels": [
     {
      "name": "Perturbed",
      "hasIntensity": 0.8,
      "quote": "Mr. Mawmsey's views were perturbed after his conversation with Lydgate about the New Hospital.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Conversation_with_Lydgate_about_the_New_Hospital",
+      "name": "Conversation_with_Lydgate_about_the_New_Hospital"
+     },
      "exactPlace": "Having an interview with Lydgate",
      "id": "Perturbed"
     }
    ]
   },
   {
-   "id": "data/texts/middlemarch#Mrs_Mawmsey",
+   "id": "textsmiddlemarch.txt#Mrs_Mawmsey",
    "name": "Mrs_Mawmsey",
    "feels": [
     {
      "name": "Indignation",
      "hasIntensity": 0.8,
      "quote": "Mrs. Mawmsey expressed indignation at the opposition to the New Hospital.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Discussion_about_the_opposition_to_the_New_Hospita",
+      "name": "Discussion_about_the_opposition_to_the_New_Hospital"
+     },
      "exactPlace": "In the drawing-room over the shop",
      "id": "Indignation"
     },
@@ -48,19 +68,27 @@
      "name": "Satisfaction",
      "hasIntensity": 0.7,
      "quote": "Mrs. Mawmsey had done this with satisfaction, including it among his responsibilities as a husband and father.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Discussion_about_paying_bills",
+      "name": "Discussion_about_paying_bills"
+     },
      "exactPlace": "In the drawing-room over the shop",
      "id": "Satisfaction"
     }
    ]
   },
   {
-   "id": "data/texts/middlemarch#Mr_Gambit",
+   "id": "textsmiddlemarch.txt#Mr_Gambit",
    "name": "Mr_Gambit",
    "feels": [
     {
      "name": "Surprise",
      "hasIntensity": 0.6,
      "quote": "Mr. Gambit lifted his eyebrows with cautious surprise upon hearing Lydgate's views on medicine.",
+     "causedBy": {
+      "id": "textsmiddlemarch.txt#Discussion_about_Lydgate_s_views_on_medicine",
+      "name": "Discussion_about_Lydgate_s_views_on_medicine"
+     },
      "exactPlace": "Upon hearing about Lydgate's views on medicine",
      "id": "Surprise"
     }
@@ -69,72 +97,96 @@
  ],
  "Places": [
   {
-   "id": "data/texts/middlemarch#Walking_round_the_laurelplanted_plots_of_the_New_H",
+   "id": "textsmiddlemarch.txt#Walking_round_the_laurelplanted_plots_of_the_New_H",
    "name": "Walking_round_the_laurelplanted_plots_of_the_New_Hospital",
    "description": "Area where Dorothea and Lydgate discussed the New Hospital"
   },
   {
-   "id": "data/texts/middlemarch#At_home_discussing_the_trouble_taken_in_the_world",
+   "id": "textsmiddlemarch.txt#At_home_discussing_the_trouble_taken_in_the_world",
    "name": "At_home_discussing_the_trouble_taken_in_the_world",
    "description": "Dorothea and Mr. Casaubon discussing the trouble taken in the world"
   },
   {
-   "id": "data/texts/middlemarch#Having_an_interview_with_Lydgate",
+   "id": "textsmiddlemarch.txt#Having_an_interview_with_Lydgate",
    "name": "Having_an_interview_with_Lydgate",
    "description": "Mr. Mawmsey having an interview with Lydgate"
   },
   {
-   "id": "data/texts/middlemarch#In_the_drawingroom_over_the_shop",
+   "id": "textsmiddlemarch.txt#In_the_drawingroom_over_the_shop",
    "name": "In_the_drawingroom_over_the_shop",
    "description": "Mrs. Mawmsey discussing various topics in the drawing-room over the shop"
   }
  ],
  "Events": [
   {
-   "id": "data/texts/middlemarch#Discussion_about_the_New_Hospital",
+   "id": "textsmiddlemarch.txt#Discussion_about_the_New_Hospital",
    "name": "Discussion_about_the_New_Hospital",
+   "takePlaceAt": {
+    "id": "textsmiddlemarch.txt#place1",
+    "name": "place1"
+   },
    "hasParticipant": {
-    "id": "data/texts/middlemarch#fc1",
+    "id": "textsmiddlemarch.txt#fc1",
     "name": "fc1"
    }
   },
   {
-   "id": "data/texts/middlemarch#Discussion_about_the_trouble_taken_in_the_world",
+   "id": "textsmiddlemarch.txt#Discussion_about_the_trouble_taken_in_the_world",
    "name": "Discussion_about_the_trouble_taken_in_the_world",
+   "takePlaceAt": {
+    "id": "textsmiddlemarch.txt#place2",
+    "name": "place2"
+   },
    "hasParticipant": {
-    "id": "data/texts/middlemarch#fc1",
+    "id": "textsmiddlemarch.txt#fc1",
     "name": "fc1"
    }
   },
   {
-   "id": "data/texts/middlemarch#Conversation_with_Lydgate_about_the_New_Hospital",
+   "id": "textsmiddlemarch.txt#Conversation_with_Lydgate_about_the_New_Hospital",
    "name": "Conversation_with_Lydgate_about_the_New_Hospital",
+   "takePlaceAt": {
+    "id": "textsmiddlemarch.txt#place3",
+    "name": "place3"
+   },
    "hasParticipant": {
-    "id": "data/texts/middlemarch#fc2",
+    "id": "textsmiddlemarch.txt#fc2",
     "name": "fc2"
    }
   },
   {
-   "id": "data/texts/middlemarch#Discussion_about_the_opposition_to_the_New_Hospita",
+   "id": "textsmiddlemarch.txt#Discussion_about_the_opposition_to_the_New_Hospita",
    "name": "Discussion_about_the_opposition_to_the_New_Hospital",
+   "takePlaceAt": {
+    "id": "textsmiddlemarch.txt#place4",
+    "name": "place4"
+   },
    "hasParticipant": {
-    "id": "data/texts/middlemarch#fc3",
+    "id": "textsmiddlemarch.txt#fc3",
     "name": "fc3"
    }
   },
   {
-   "id": "data/texts/middlemarch#Discussion_about_paying_bills",
+   "id": "textsmiddlemarch.txt#Discussion_about_paying_bills",
    "name": "Discussion_about_paying_bills",
+   "takePlaceAt": {
+    "id": "textsmiddlemarch.txt#place4",
+    "name": "place4"
+   },
    "hasParticipant": {
-    "id": "data/texts/middlemarch#fc3",
+    "id": "textsmiddlemarch.txt#fc3",
     "name": "fc3"
    }
   },
   {
-   "id": "data/texts/middlemarch#Discussion_about_Lydgate_s_views_on_medicine",
+   "id": "textsmiddlemarch.txt#Discussion_about_Lydgate_s_views_on_medicine",
    "name": "Discussion_about_Lydgate_s_views_on_medicine",
+   "takePlaceAt": {
+    "id": "textsmiddlemarch.txt#place4",
+    "name": "place4"
+   },
    "hasParticipant": {
-    "id": "data/texts/middlemarch#fc4",
+    "id": "textsmiddlemarch.txt#fc4",
     "name": "fc4"
    }
   }
