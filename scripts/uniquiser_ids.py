@@ -67,17 +67,18 @@ class Lookup:
         return
 
 
-l = Lookup()
+if __name__ == "__main__":
 
+    l = Lookup()
 
-root_directory = "../data/annotations_cleaned"
-for directory_name in os.listdir(root_directory):
-    directory_path = os.path.join(root_directory, directory_name)
-    l.new_story(directory_name)
-    for filename in os.listdir(directory_path):
-        fp = os.path.join(directory_path, filename)
-        with open(fp, "r") as f:
-            annote = json.load(f)
-        l.add_all_ids(annote)
-        with open(fp, "w") as f:
-            json.dump(obj=annote, fp=f, indent=1, ensure_ascii=False)
+    root_directory = "../data/annotations_cleaned"
+    for directory_name in os.listdir(root_directory):
+        directory_path = os.path.join(root_directory, directory_name)
+        l.new_story(directory_name)
+        for filename in os.listdir(directory_path):
+            fp = os.path.join(directory_path, filename)
+            with open(fp, "r") as f:
+                annote = json.load(f)
+            l.add_all_ids(annote)
+            with open(fp, "w") as f:
+                json.dump(obj=annote, fp=f, indent=1, ensure_ascii=False)
