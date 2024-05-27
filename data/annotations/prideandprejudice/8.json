@@ -1,0 +1,103 @@
+{
+ "FictionalCharacters": [
+  {
+   "name": "Elizabeth Bennet",
+   "feels": [
+    {
+     "name": "Surprise",
+     "hasIntensity": 0.8,
+     "quote": "Miss Darcy and her brother appeared, and this formidable introduction took place. With astonishment did Elizabeth see that her new acquaintance was at least as much embarrassed as herself.",
+     "causedByEvent": {
+      "name": "Introduction of Miss Darcy and her brother",
+      "takePlaceAt": {
+       "name": "Inn at Lambton"
+      },
+      "hasParticipant": [
+       {
+        "name": "Elizabeth Bennet"
+       },
+       {
+        "name": "Miss Darcy"
+       },
+       {
+        "name": "Mr. Darcy"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Introduction"
+     }
+    },
+    {
+     "name": "Embarrassment",
+     "hasIntensity": 0.9,
+     "quote": "She retreated from the window, fearful of being seen; and as she walked up and down the room, endeavouring to compose herself, saw such looks of inquiring surprise in her uncle and aunt as made everything worse.",
+     "causedByEvent": {
+      "name": "Unexpected arrival of Miss Darcy and Mr. Darcy",
+      "takePlaceAt": {
+       "name": "Inn at Lambton"
+      },
+      "hasParticipant": [
+       {
+        "name": "Elizabeth Bennet"
+       },
+       {
+        "name": "Miss Darcy"
+       },
+       {
+        "name": "Mr. Darcy"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Unexpected arrival"
+     }
+    },
+    {
+     "name": "Relief",
+     "hasIntensity": 0.7,
+     "quote": "Elizabeth, who had expected to find in her as acute and unembarrassed an observer as ever Mr. Darcy had been, was much relieved by discerning such different feelings.",
+     "causedByEvent": {
+      "name": "Observing Miss Darcy's shyness",
+      "takePlaceAt": {
+       "name": "Inn at Lambton"
+      },
+      "hasParticipant": [
+       {
+        "name": "Elizabeth Bennet"
+       },
+       {
+        "name": "Miss Darcy"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Miss Darcy's shyness"
+     }
+    },
+    {
+     "name": "Cordiality",
+     "hasIntensity": 0.8,
+     "quote": "All Elizabeth’s anger against him had been long done away; but had she still felt any, it could hardly have stood its ground against the unaffected cordiality with which he expressed himself on seeing her again.",
+     "causedByEvent": {
+      "name": "Bingley's friendly visit",
+      "takePlaceAt": {
+       "name": "Inn at Lambton"
+      },
+      "hasParticipant": [
+       {
+        "name": "Elizabeth Bennet"
+       },
+       {
+        "name": "Bingley"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Bingley's friendly visit"
+     }
+    }
+   ]
+  }
+ ]
+}

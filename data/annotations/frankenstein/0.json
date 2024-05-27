@@ -1,0 +1,171 @@
+{
+ "FictionalCharacters": [
+  {
+   "name": "Robert Walton",
+   "feels": [
+    {
+     "name": "Joy",
+     "hasIntensity": 0.9,
+     "quote": "He is going to unexplored regions, to 'the land of mist and snow,' with the joy a child feels when he embarks in a little boat.",
+     "causedByEvent": {
+      "name": "Embarking on a voyage to the North Pole",
+      "takePlaceAt": {
+       "name": "Geneva"
+      },
+      "hasParticipant": [
+       {
+        "name": "Robert Walton"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Embarking on a voyage"
+     }
+    },
+    {
+     "name": "Trust",
+     "hasIntensity": 0.8,
+     "quote": "He trusted the stranger to reveal his tale and was grateful for the offered communication.",
+     "causedByEvent": {
+      "name": "Stranger's promise to reveal his narrative",
+      "takePlaceAt": {
+       "name": "Geneva"
+      },
+      "hasParticipant": [
+       {
+        "name": "Robert Walton"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Stranger's narrative"
+     }
+    },
+    {
+     "name": "Admiration",
+     "hasIntensity": 0.9,
+     "quote": "He feels exquisite pleasure in dwelling on the recollections of childhood and the virtues of his parents.",
+     "causedByEvent": {
+      "name": "Recollections of childhood",
+      "takePlaceAt": {
+       "name": "Geneva"
+      },
+      "hasParticipant": [
+       {
+        "name": "Robert Walton"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Childhood memories"
+     }
+    },
+    {
+     "name": "Interest",
+     "hasIntensity": 0.8,
+     "quote": "He feels a desire to learn the secrets of heaven and earth and is eager to investigate the causes of things.",
+     "causedByEvent": {
+      "name": "Desire for knowledge",
+      "takePlaceAt": {
+       "name": "Geneva"
+      },
+      "hasParticipant": [
+       {
+        "name": "Robert Walton"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Secrets of heaven and earth"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Elizabeth Lavenza",
+   "feels": [
+    {
+     "name": "Love",
+     "hasIntensity": 0.9,
+     "quote": "Everyone loved Elizabeth, and the attachment with which all regarded her became Robert's pride and delight.",
+     "causedByEvent": {
+      "name": "Elizabeth's arrival as a gift",
+      "takePlaceAt": {
+       "name": "Geneva"
+      },
+      "hasParticipant": [
+       {
+        "name": "Robert Walton"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Elizabeth"
+     }
+    },
+    {
+     "name": "Sympathy",
+     "hasIntensity": 0.9,
+     "quote": "Her sympathy was a blessing to all and her presence was a living spirit of love.",
+     "causedByEvent": {
+      "name": "Elizabeth's presence",
+      "takePlaceAt": {
+       "name": "Geneva"
+      },
+      "hasParticipant": [
+       {
+        "name": "Robert Walton"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Sympathy"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Henry Clerval",
+   "feels": [
+    {
+     "name": "Adventurousness",
+     "hasIntensity": 0.8,
+     "quote": "He loved enterprise, hardship, and danger for its own sake and was deeply read in books of chivalry and romance.",
+     "causedByEvent": {
+      "name": "Love for adventure",
+      "takePlaceAt": {
+       "name": "Geneva"
+      },
+      "hasParticipant": [
+       {
+        "name": "Henry Clerval"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Adventure"
+     }
+    },
+    {
+     "name": "Generosity",
+     "hasIntensity": 0.9,
+     "quote": "He was thoughtful in his generosity and full of kindness and tenderness amidst his passion for adventurous exploits.",
+     "causedByEvent": {
+      "name": "Generosity and kindness",
+      "takePlaceAt": {
+       "name": "Geneva"
+      },
+      "hasParticipant": [
+       {
+        "name": "Henry Clerval"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Kindness"
+     }
+    }
+   ]
+  }
+ ]
+}

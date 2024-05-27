@@ -1,0 +1,85 @@
+{
+ "FictionalCharacters": [
+  {
+   "name": "Pip",
+   "feels": [
+    {
+     "name": "Fear",
+     "hasIntensity": 0.9,
+     "quote": "The involuntary consternation of the moment caused him to leap, paddle in hand, out of the boat; and in such a way, that part of the slack whale line coming against his chest, he breasted it overboard with him, so as to become entangled in it, when at last plumping into the water.",
+     "causedByEvent": {
+      "name": "Being entangled in the whale line and falling into the water",
+      "takePlaceAt": {
+       "name": "On the boat"
+      },
+      "hasParticipant": [
+       {
+        "name": "Pip"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Whale line"
+     }
+    },
+    {
+     "name": "Sadness",
+     "hasIntensity": 0.8,
+     "quote": "Alas! Stubb was but too true to his word. It was a beautiful, bounteous, blue day; the spangled sea calm and cool, and flatly stretching away, all round, to the horizon, like gold-beater’s skin hammered out to the extremest. Bobbing up and down in that sea, Pip’s ebon head showed like a head of cloves.",
+     "causedByEvent": {
+      "name": "Being left behind in the sea",
+      "takePlaceAt": {
+       "name": "In the sea"
+      },
+      "hasParticipant": [
+       {
+        "name": "Pip"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Sea"
+     }
+    },
+    {
+     "name": "Insanity",
+     "hasIntensity": 0.7,
+     "quote": "Squeeze! squeeze! squeeze! all the morning long; I squeezed that sperm till I myself almost melted into it; I squeezed that sperm till a strange sort of insanity came over me; and I found myself unwittingly squeezing my co-laborers’ hands in it, mistaking their hands for the gentle globules.",
+     "causedByEvent": {
+      "name": "Squeezing sperm",
+      "takePlaceAt": {
+       "name": "On the deck"
+      },
+      "hasParticipant": [
+       {
+        "name": "Pip"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Sperm"
+     }
+    },
+    {
+     "name": "Affection",
+     "hasIntensity": 0.9,
+     "quote": "Such an abounding, affectionate, friendly, loving feeling did this avocation beget; that at last I was continually squeezing their hands, and looking up into their eyes sentimentally; as much as to say,—Oh! my dear fellow beings, why should we longer cherish any social acerbities, or know the slightest ill-humor or envy!",
+     "causedByEvent": {
+      "name": "Squeezing hands",
+      "takePlaceAt": {
+       "name": "On the deck"
+      },
+      "hasParticipant": [
+       {
+        "name": "Pip"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Hands"
+     }
+    }
+   ]
+  }
+ ]
+}

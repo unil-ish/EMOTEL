@@ -1,0 +1,117 @@
+{
+ "FictionalCharacters": [
+  {
+   "name": "Elizabeth Bennet",
+   "feels": [
+    {
+     "name": "Annoyance",
+     "hasIntensity": 0.7,
+     "quote": "Elizabeth found herself quite equal to the scene, and could observe the three ladies before her composedly.",
+     "causedByEvent": {
+      "name": "Lady Catherine's manner",
+      "takePlaceAt": {
+       "name": "Rosings dining room"
+      }
+     },
+     "hasObject": {
+      "name": "Lady Catherine's manner"
+     }
+    },
+    {
+     "name": "Interest",
+     "hasIntensity": 0.8,
+     "quote": "Elizabeth soon perceived, that though this great lady was not in the commission of the peace for the county, she was a most active magistrate in her own parish, the minutest concerns of which were carried to her by Mr. Collins.",
+     "causedByEvent": {
+      "name": "Lady Catherine's involvement in parish matters",
+      "takePlaceAt": {
+       "name": "Rosings"
+      }
+     },
+     "hasObject": {
+      "name": "Lady Catherine's involvement in parish matters"
+     }
+    },
+    {
+     "name": "Comfort",
+     "hasIntensity": 0.9,
+     "quote": "Her favourite walk, and where she frequently went while the others were calling on Lady Catherine, was along the open grove which edged that side of the park, where there was a nice sheltered path, which no one seemed to value but herself, and where she felt beyond the reach of Lady Catherine’s curiosity.",
+     "causedByEvent": {
+      "name": "Walking in the park",
+      "takePlaceAt": {
+       "name": "Park grove"
+      }
+     },
+     "hasObject": {
+      "name": "Walking in the park"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Mr. Collins",
+   "feels": [
+    {
+     "name": "Delight",
+     "hasIntensity": 0.9,
+     "quote": "He carved and ate and praised with delighted alacrity; and every dish was commended first by him, and then by Sir William.",
+     "causedByEvent": {
+      "name": "Dinner at Rosings",
+      "takePlaceAt": {
+       "name": "Rosings dining room"
+      }
+     },
+     "hasObject": {
+      "name": "Dinner at Rosings"
+     }
+    },
+    {
+     "name": "Pride",
+     "hasIntensity": 0.8,
+     "quote": "The power of displaying the grandeur of his patroness to his wondering visitors, and of letting them see her civility towards himself and his wife, was exactly what he had wished for.",
+     "causedByEvent": {
+      "name": "Displaying Lady Catherine's grandeur",
+      "takePlaceAt": {
+       "name": "Rosings"
+      }
+     },
+     "hasObject": {
+      "name": "Displaying Lady Catherine's grandeur"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Lady Catherine",
+   "feels": [
+    {
+     "name": "Satisfaction",
+     "hasIntensity": 0.9,
+     "quote": "Lady Catherine seemed gratified by their excessive admiration, and gave most gracious smiles, especially when any dish on the table proved a novelty to them.",
+     "causedByEvent": {
+      "name": "Receiving admiration at dinner",
+      "takePlaceAt": {
+       "name": "Rosings dining room"
+      }
+     },
+     "hasObject": {
+      "name": "Receiving admiration at dinner"
+     }
+    },
+    {
+     "name": "Impertinence",
+     "hasIntensity": 0.8,
+     "quote": "Elizabeth suspected herself to be the first creature who had ever dared to trifle with so much dignified impertinence.",
+     "causedByEvent": {
+      "name": "Elizabeth's response",
+      "takePlaceAt": {
+       "name": "Rosings dining room"
+      }
+     },
+     "hasObject": {
+      "name": "Elizabeth's response"
+     }
+    }
+   ]
+  }
+ ]
+}

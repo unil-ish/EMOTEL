@@ -1,0 +1,202 @@
+{
+ "FictionalCharacters": [
+  {
+   "name": "Elizabeth_Bennet",
+   "feels": [
+    {
+     "name": "Regret",
+     "hasIntensity": 0.8,
+     "quote": "Elizabeth, as she affectionately embraced her, whilst tears filled the eyes of both, lost not a moment in asking whether anything had been heard of the fugitives.",
+     "hasObject": {
+      "name": "Fugitives",
+      "id": "texts/prideandprejudice.txt#Fugitives"
+     },
+     "causedBy": {
+      "name": "Uncertainty_about_the_fugitives",
+      "id": "texts/prideandprejudice.txt#Uncertainty_about_the_fugitives"
+     },
+     "id": "Regret"
+    },
+    {
+     "name": "Anguish",
+     "hasIntensity": 0.9,
+     "quote": "From Elizabeth’s thoughts it was never absent. Fixed there by the keenest of all anguish, self-reproach, she could find no interval of ease or forgetfulness.",
+     "hasObject": {
+      "name": "Lydia_s_situation",
+      "id": "texts/prideandprejudice.txt#Lydia_s_situation"
+     },
+     "causedBy": {
+      "name": "Uncertainty_about_Lydia_s_situation",
+      "id": "texts/prideandprejudice.txt#Uncertainty_about_Lydia_s_situation"
+     },
+     "id": "Anguish"
+    },
+    {
+     "name": "Gratitude",
+     "hasIntensity": 0.7,
+     "quote": "Elizabeth, though expecting no less, thanked him with tears of gratitude.",
+     "hasObject": {
+      "name": "Mr_Gardiner_s_assistance",
+      "id": "texts/prideandprejudice.txt#Mr_Gardiner_s_assistance"
+     },
+     "causedBy": {
+      "name": "Mr_Gardiner_s_assistance",
+      "id": "texts/prideandprejudice.txt#Mr_Gardiner_s_assistance"
+     },
+     "id": "Gratitude"
+    },
+    {
+     "name": "Hope",
+     "hasIntensity": 0.6,
+     "quote": "The sanguine hope of good, however, which the benevolence of her heart suggested, had not yet deserted her; she still expected that it would all end well.",
+     "hasObject": {
+      "name": "Good_news",
+      "id": "texts/prideandprejudice.txt#Good_news"
+     },
+     "causedBy": {
+      "name": "Expectation_of_good_news",
+      "id": "texts/prideandprejudice.txt#Expectation_of_good_news"
+     },
+     "id": "Hope"
+    }
+   ],
+   "id": "texts/prideandprejudice.txt#Elizabeth_Bennet"
+  },
+  {
+   "name": "Mrs_Bennet",
+   "feels": [
+    {
+     "name": "Regret",
+     "hasIntensity": 0.8,
+     "quote": "received them exactly as might be expected; with tears and lamentations of regret, invectives against the villainous conduct of Wickham, and complaints of her own sufferings and ill-usage",
+     "hasObject": {
+      "name": "Lydia_s_elopement",
+      "id": "texts/prideandprejudice.txt#Lydia_s_elopement"
+     },
+     "causedBy": {
+      "name": "Lydia_s_elopement",
+      "id": "texts/prideandprejudice.txt#Lydia_s_elopement"
+     },
+     "id": "Regret"
+    },
+    {
+     "name": "Fear",
+     "hasIntensity": 0.7,
+     "quote": "And now here’s Mr. Bennet gone away, and I know he will fight Wickham, wherever he meets him, and then he will be killed, and what is to become of us all?",
+     "hasObject": {
+      "name": "Mr_Bennet_fighting_Wickham",
+      "id": "texts/prideandprejudice.txt#Mr_Bennet_fighting_Wickham"
+     },
+     "causedBy": {
+      "name": "Fear_of_Mr_Bennet_fighting_Wickham",
+      "id": "texts/prideandprejudice.txt#Fear_of_Mr_Bennet_fighting_Wickham"
+     },
+     "id": "Fear"
+    },
+    {
+     "name": "Anxiety",
+     "hasIntensity": 0.8,
+     "quote": "The Collinses will turn us out, before he is cold in his grave; and if you are not kind to us, brother, I do not know what we shall do.",
+     "hasObject": {
+      "name": "Uncertainty_about_the_future",
+      "id": "texts/prideandprejudice.txt#Uncertainty_about_the_future"
+     },
+     "causedBy": {
+      "name": "Uncertainty_about_the_future",
+      "id": "texts/prideandprejudice.txt#Uncertainty_about_the_future"
+     },
+     "id": "Anxiety"
+    }
+   ],
+   "id": "texts/prideandprejudice.txt#Mrs_Bennet"
+  }
+ ],
+ "Events": [
+  {
+   "name": "Uncertainty_about_the_fugitives",
+   "takePlaceAt": {
+    "name": "Uncertainty_about_the_fugitives",
+    "id": "texts/prideandprejudice.txt#Uncertainty_about_the_fugitives"
+   },
+   "id": "texts/prideandprejudice.txt#Uncertainty_about_the_fugitives"
+  },
+  {
+   "name": "Uncertainty_about_Lydia_s_situation",
+   "takePlaceAt": {
+    "name": "Uncertainty_about_Lydia_s_situation",
+    "id": "texts/prideandprejudice.txt#Uncertainty_about_Lydia_s_situation"
+   },
+   "id": "texts/prideandprejudice.txt#Uncertainty_about_Lydia_s_situation"
+  },
+  {
+   "name": "Mr_Gardiner_s_assistance",
+   "takePlaceAt": {
+    "name": "Mr_Gardiner_s_assistance",
+    "id": "texts/prideandprejudice.txt#Mr_Gardiner_s_assistance"
+   },
+   "id": "texts/prideandprejudice.txt#Mr_Gardiner_s_assistance"
+  },
+  {
+   "name": "Expectation_of_good_news",
+   "takePlaceAt": {
+    "name": "Expectation_of_good_news",
+    "id": "texts/prideandprejudice.txt#Expectation_of_good_news"
+   },
+   "id": "texts/prideandprejudice.txt#Expectation_of_good_news"
+  },
+  {
+   "name": "Lydia_s_elopement",
+   "takePlaceAt": {
+    "name": "Lydia_s_elopement",
+    "id": "texts/prideandprejudice.txt#Lydia_s_elopement"
+   },
+   "id": "texts/prideandprejudice.txt#Lydia_s_elopement"
+  },
+  {
+   "name": "Fear_of_Mr_Bennet_fighting_Wickham",
+   "takePlaceAt": {
+    "name": "Fear_of_Mr_Bennet_fighting_Wickham",
+    "id": "texts/prideandprejudice.txt#Fear_of_Mr_Bennet_fighting_Wickham"
+   },
+   "id": "texts/prideandprejudice.txt#Fear_of_Mr_Bennet_fighting_Wickham"
+  },
+  {
+   "name": "Uncertainty_about_the_future",
+   "takePlaceAt": {
+    "name": "Uncertainty_about_the_future",
+    "id": "texts/prideandprejudice.txt#Uncertainty_about_the_future"
+   },
+   "id": "texts/prideandprejudice.txt#Uncertainty_about_the_future"
+  }
+ ],
+ "Places": [
+  {
+   "name": "Longbourn",
+   "id": "texts/prideandprejudice.txt#Longbourn"
+  },
+  {
+   "name": "Journey_to_Longbourn",
+   "id": "texts/prideandprejudice.txt#Journey_to_Longbourn"
+  },
+  {
+   "name": "Longbourn",
+   "id": "texts/prideandprejudice.txt#Longbourn"
+  },
+  {
+   "name": "Longbourn",
+   "id": "texts/prideandprejudice.txt#Longbourn"
+  },
+  {
+   "name": "Longbourn",
+   "id": "texts/prideandprejudice.txt#Longbourn"
+  },
+  {
+   "name": "Longbourn",
+   "id": "texts/prideandprejudice.txt#Longbourn"
+  },
+  {
+   "name": "Longbourn",
+   "id": "texts/prideandprejudice.txt#Longbourn"
+  }
+ ]
+}

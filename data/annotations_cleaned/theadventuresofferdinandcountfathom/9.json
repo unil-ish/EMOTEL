@@ -1,0 +1,206 @@
+{
+ "FictionalCharacters": [
+  {
+   "name": "Ferdinand_Count_Fathom",
+   "feels": [
+    {
+     "name": "Surprise",
+     "hasIntensity": 0.7,
+     "quote": "Fathom, rather than run the risk of disobliging such a punctilious warrior, after having in vain attempted to dissuade him from his purpose, undertook to carry the challenge.",
+     "hasObject": {
+      "name": "Challenge_letter",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Challenge_letter"
+     },
+     "causedBy": {
+      "name": "Being_asked_to_carry_a_challenge",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Being_asked_to_carry_a_challenge"
+     },
+     "id": "Surprise"
+    },
+    {
+     "name": "Indignation",
+     "hasIntensity": 0.9,
+     "quote": "This explanation had no sooner escaped from his lips, than the captain’s face began to glow with indignation, his eyes seemed bursting from their spheres, he swelled to twice his natural dimensions.",
+     "hasObject": {
+      "name": "Ladies_being_goodnatured",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Ladies_being_goodnatured"
+     },
+     "causedBy": {
+      "name": "Being_told_that_the_ladies_are_goodnatured",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Being_told_that_the_ladies_are_goodnatured"
+     },
+     "id": "Indignation"
+    },
+    {
+     "name": "Anxiety",
+     "hasIntensity": 0.8,
+     "quote": "Fathom, rather than run the risk of disobliging such a punctilious warrior, after having in vain attempted to dissuade him from his purpose, undertook to carry the challenge.",
+     "hasObject": {
+      "name": "Carrying_the_challenge",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Carrying_the_challenge"
+     },
+     "causedBy": {
+      "name": "Being_asked_to_carry_a_challenge",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Being_asked_to_carry_a_challenge"
+     },
+     "id": "Anxiety"
+    }
+   ],
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Ferdinand_Count_Fathom"
+  },
+  {
+   "name": "Captain_Minikin",
+   "feels": [
+    {
+     "name": "Indignation",
+     "hasIntensity": 0.9,
+     "quote": "This explanation had no sooner escaped from his lips, than the captain’s face began to glow with indignation, his eyes seemed bursting from their spheres, he swelled to twice his natural dimensions.",
+     "hasObject": {
+      "name": "Ladies_being_goodnatured",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Ladies_being_goodnatured"
+     },
+     "causedBy": {
+      "name": "Being_told_that_the_ladies_are_goodnatured",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Being_told_that_the_ladies_are_goodnatured"
+     },
+     "id": "Indignation"
+    }
+   ],
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Captain_Minikin"
+  },
+  {
+   "name": "Major_Macleaver",
+   "feels": [
+    {
+     "name": "Composure",
+     "hasIntensity": 0.8,
+     "quote": "He read the letter with great composure, like a man accustomed to such intercourse.",
+     "hasObject": {
+      "name": "Challenge_letter",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Challenge_letter"
+     },
+     "causedBy": {
+      "name": "Reading_the_challenge_letter",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Reading_the_challenge_letter"
+     },
+     "id": "Composure"
+    }
+   ],
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Major_Macleaver"
+  }
+ ],
+ "Events": [
+  {
+   "name": "Being_asked_to_carry_a_challenge",
+   "takePlaceAt": {
+    "name": "Being_asked_to_carry_a_challenge",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Being_asked_to_carry_a_challenge"
+   },
+   "hasParticipant": [
+    {
+     "name": "Ferdinand_Count_Fathom",
+     "id": "texts/theadventuresofferdinandcountfathom.txt#Ferdinand_Count_Fathom"
+    },
+    {
+     "name": "Captain_Minikin",
+     "id": "texts/theadventuresofferdinandcountfathom.txt#Captain_Minikin"
+    }
+   ],
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Being_asked_to_carry_a_challenge"
+  },
+  {
+   "name": "Being_told_that_the_ladies_are_goodnatured",
+   "takePlaceAt": {
+    "name": "Being_told_that_the_ladies_are_goodnatured",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Being_told_that_the_ladies_are_goodnatured"
+   },
+   "hasParticipant": [
+    {
+     "name": "Ferdinand_Count_Fathom",
+     "id": "texts/theadventuresofferdinandcountfathom.txt#Ferdinand_Count_Fathom"
+    },
+    {
+     "name": "Captain_Minikin",
+     "id": "texts/theadventuresofferdinandcountfathom.txt#Captain_Minikin"
+    }
+   ],
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Being_told_that_the_ladies_are_goodnatured"
+  },
+  {
+   "name": "Being_asked_to_carry_a_challenge",
+   "takePlaceAt": {
+    "name": "Being_asked_to_carry_a_challenge",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Being_asked_to_carry_a_challenge"
+   },
+   "hasParticipant": [
+    {
+     "name": "Ferdinand_Count_Fathom",
+     "id": "texts/theadventuresofferdinandcountfathom.txt#Ferdinand_Count_Fathom"
+    },
+    {
+     "name": "Captain_Minikin",
+     "id": "texts/theadventuresofferdinandcountfathom.txt#Captain_Minikin"
+    }
+   ],
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Being_asked_to_carry_a_challenge"
+  },
+  {
+   "name": "Being_told_that_the_ladies_are_goodnatured",
+   "takePlaceAt": {
+    "name": "Being_told_that_the_ladies_are_goodnatured",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Being_told_that_the_ladies_are_goodnatured"
+   },
+   "hasParticipant": [
+    {
+     "name": "Ferdinand_Count_Fathom",
+     "id": "texts/theadventuresofferdinandcountfathom.txt#Ferdinand_Count_Fathom"
+    },
+    {
+     "name": "Captain_Minikin",
+     "id": "texts/theadventuresofferdinandcountfathom.txt#Captain_Minikin"
+    }
+   ],
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Being_told_that_the_ladies_are_goodnatured"
+  },
+  {
+   "name": "Reading_the_challenge_letter",
+   "takePlaceAt": {
+    "name": "Reading_the_challenge_letter",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Reading_the_challenge_letter"
+   },
+   "hasParticipant": [
+    {
+     "name": "Major_Macleaver",
+     "id": "texts/theadventuresofferdinandcountfathom.txt#Major_Macleaver"
+    },
+    {
+     "name": "Ferdinand_Count_Fathom",
+     "id": "texts/theadventuresofferdinandcountfathom.txt#Ferdinand_Count_Fathom"
+    }
+   ],
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Reading_the_challenge_letter"
+  }
+ ],
+ "Places": [
+  {
+   "name": "Captain_Minikin_s_apartment",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Captain_Minikin_s_apartment"
+  },
+  {
+   "name": "Captain_Minikin_s_apartment",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Captain_Minikin_s_apartment"
+  },
+  {
+   "name": "Captain_Minikin_s_apartment",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Captain_Minikin_s_apartment"
+  },
+  {
+   "name": "Captain_Minikin_s_apartment",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Captain_Minikin_s_apartment"
+  },
+  {
+   "name": "Major_Macleaver_s_apartment",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Major_Macleaver_s_apartment"
+  }
+ ]
+}

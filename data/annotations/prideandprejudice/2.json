@@ -1,0 +1,220 @@
+{
+ "FictionalCharacters": [
+  {
+   "name": "Mrs. Bennet",
+   "feels": [
+    {
+     "name": "Anger",
+     "hasIntensity": 0.7,
+     "quote": "Mrs. Bennet wondered at their coming, and thought them very wrong to give so much trouble.",
+     "causedByEvent": {
+      "name": "Daughters returning home",
+      "takePlaceAt": {
+       "name": "Home"
+      },
+      "hasParticipant": [
+       {
+        "name": "Mrs. Bennet"
+       },
+       {
+        "name": "Daughters"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Daughters"
+     }
+    },
+    {
+     "name": "Surprise",
+     "hasIntensity": 0.6,
+     "quote": "Mrs. Bennet's eyes sparkled. 'A gentleman and a stranger! It is Mr. Bingley, I am sure. Why, Jane--you never dropped a word of this--you sly thing! Well, I am sure I shall be extremely glad to see Mr. Bingley.'",
+     "causedByEvent": {
+      "name": "Mr. Bingley's unexpected visit",
+      "takePlaceAt": {
+       "name": "Home"
+      },
+      "hasParticipant": [
+       {
+        "name": "Mrs. Bennet"
+       },
+       {
+        "name": "Jane"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Mr. Bingley"
+     }
+    },
+    {
+     "name": "Joy",
+     "hasIntensity": 0.8,
+     "quote": "Mrs. Bennet's eyes sparkled. 'A gentleman and a stranger! It is Mr. Bingley, I am sure. Why, Jane--you never dropped a word of this--you sly thing! Well, I am sure I shall be extremely glad to see Mr. Bingley.'",
+     "causedByEvent": {
+      "name": "Mr. Bingley's unexpected visit",
+      "takePlaceAt": {
+       "name": "Home"
+      },
+      "hasParticipant": [
+       {
+        "name": "Mrs. Bennet"
+       },
+       {
+        "name": "Jane"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Mr. Bingley"
+     }
+    },
+    {
+     "name": "Anticipation",
+     "hasIntensity": 0.6,
+     "quote": "“I hope, my dear,” said Mr. Bennet to his wife, as they were at breakfast the next morning, “that you have ordered a good dinner to-day, because I have reason to expect an addition to our family party.”",
+     "causedByEvent": {
+      "name": "Expectation of a guest",
+      "takePlaceAt": {
+       "name": "Breakfast table"
+      },
+      "hasParticipant": [
+       {
+        "name": "Mr. Bennet"
+       },
+       {
+        "name": "Mrs. Bennet"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Good dinner"
+     }
+    },
+    {
+     "name": "Admiration",
+     "hasIntensity": 0.7,
+     "quote": "Mr. Collins was punctual to his time, and was received with great politeness by the whole family. Mr. Bennet indeed said little; but the ladies were ready enough to talk, and Mr. Collins seemed neither in need of encouragement, nor inclined to be silent himself.",
+     "causedByEvent": {
+      "name": "Mr. Collins's arrival",
+      "takePlaceAt": {
+       "name": "Home"
+      },
+      "hasParticipant": [
+       {
+        "name": "Mr. Collins"
+       },
+       {
+        "name": "Mr. Bennet"
+       },
+       {
+        "name": "Ladies"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Mr. Collins"
+     }
+    },
+    {
+     "name": "Interest",
+     "hasIntensity": 0.7,
+     "quote": "Elizabeth related to Jane, the next day, what had passed between Mr. Wickham and herself. Jane listened with astonishment and concern: she knew not how to believe that Mr. Darcy could be so unworthy of Mr. Bingley’s regard; and yet it was not in her nature to question the veracity of a young man of such amiable appearance as Wickham.",
+     "causedByEvent": {
+      "name": "Conversation between Elizabeth and Jane about Mr. Wickham",
+      "takePlaceAt": {
+       "name": "Home"
+      },
+      "hasParticipant": [
+       {
+        "name": "Elizabeth"
+       },
+       {
+        "name": "Jane"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Mr. Wickham"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Jane Bennet",
+   "feels": [
+    {
+     "name": "Surprise",
+     "hasIntensity": 0.6,
+     "quote": "Jane listened with astonishment and concern: she knew not how to believe that Mr. Darcy could be so unworthy of Mr. Bingley’s regard; and yet it was not in her nature to question the veracity of a young man of such amiable appearance as Wickham.",
+     "causedByEvent": {
+      "name": "Conversation between Elizabeth and Jane about Mr. Wickham",
+      "takePlaceAt": {
+       "name": "Home"
+      },
+      "hasParticipant": [
+       {
+        "name": "Elizabeth"
+       },
+       {
+        "name": "Jane"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Mr. Darcy"
+     }
+    },
+    {
+     "name": "Concern",
+     "hasIntensity": 0.7,
+     "quote": "Jane listened with astonishment and concern: she knew not how to believe that Mr. Darcy could be so unworthy of Mr. Bingley’s regard; and yet it was not in her nature to question the veracity of a young man of such amiable appearance as Wickham.",
+     "causedByEvent": {
+      "name": "Conversation between Elizabeth and Jane about Mr. Wickham",
+      "takePlaceAt": {
+       "name": "Home"
+      },
+      "hasParticipant": [
+       {
+        "name": "Elizabeth"
+       },
+       {
+        "name": "Jane"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Mr. Darcy"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Mr. Wickham",
+   "feels": [
+    {
+     "name": "Interest",
+     "hasIntensity": 0.7,
+     "quote": "“It is difficult, indeed--it is distressing. One does not know what to think.”",
+     "causedByEvent": {
+      "name": "Conversation with Elizabeth about Mr. Darcy",
+      "takePlaceAt": {
+       "name": "Home"
+      },
+      "hasParticipant": [
+       {
+        "name": "Mr. Wickham"
+       },
+       {
+        "name": "Elizabeth"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Mr. Darcy"
+     }
+    }
+   ]
+  }
+ ]
+}

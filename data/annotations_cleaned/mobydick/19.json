@@ -1,0 +1,118 @@
+{
+ "FictionalCharacters": [
+  {
+   "name": "Captain_Ahab",
+   "feels": [
+    {
+     "name": "Trust",
+     "hasIntensity": 0.6,
+     "quote": "But be all this as it may; let the unseen, ambiguous synod in the air, or the vindictive princes and potentates of fire, have to do or not with earthly Ahab, yet, in this present matter of his leg, he took plain practical procedures;—he called the carpenter.",
+     "hasObject": {
+      "name": "Carpenter",
+      "id": "texts/mobydick.txt#Carpenter"
+     },
+     "causedBy": {
+      "name": "Calling_the_carpenter",
+      "id": "texts/mobydick.txt#Calling_the_carpenter"
+     },
+     "id": "Trust"
+    },
+    {
+     "name": "Fear",
+     "hasIntensity": 0.8,
+     "quote": "And not only this, but to that ever-contracting, dropping circle ashore, who, for any reason, possessed the privilege of a less banned approach to him; to that timid circle the above hinted casualty—remaining, as it did, moodily unaccounted for by Ahab—invested itself with terrors, not entirely underived from the land of spirits and of wails.",
+     "hasObject": {
+      "name": "Casualty",
+      "id": "texts/mobydick.txt#Casualty"
+     },
+     "causedBy": {
+      "name": "Casualty",
+      "id": "texts/mobydick.txt#Casualty"
+     },
+     "id": "Fear"
+    },
+    {
+     "name": "Sadness",
+     "hasIntensity": 0.7,
+     "quote": "Unwittingly here a secret has been divulged, which perhaps might more properly, in set way, have been disclosed before. With many other particulars concerning Ahab, always had it remained a mystery to some, why it was, that for a certain period, both before and after the sailing of the Pequod, he had hidden himself away with such Grand-Lama-like exclusiveness; and, for that one interval, sought speechless refuge, as it were, among the marble senate of the dead.",
+     "hasObject": {
+      "name": "Marble_senate_of_the_dead",
+      "id": "texts/mobydick.txt#Marble_senate_of_the_dead"
+     },
+     "causedBy": {
+      "name": "Hiding_away",
+      "id": "texts/mobydick.txt#Hiding_away"
+     },
+     "id": "Sadness"
+    },
+    {
+     "name": "Mystery",
+     "hasIntensity": 0.6,
+     "quote": "With many other particulars concerning Ahab, always had it remained a mystery to some, why it was, that for a certain period, both before and after the sailing of the Pequod, he had hidden himself away with such Grand-Lama-like exclusiveness; and, for that one interval, sought speechless refuge, as it were, among the marble senate of the dead.",
+     "hasObject": {
+      "name": "Marble_senate_of_the_dead",
+      "id": "texts/mobydick.txt#Marble_senate_of_the_dead"
+     },
+     "causedBy": {
+      "name": "Hiding_away",
+      "id": "texts/mobydick.txt#Hiding_away"
+     },
+     "id": "Mystery"
+    }
+   ],
+   "id": "texts/mobydick.txt#Captain_Ahab"
+  }
+ ],
+ "Events": [
+  {
+   "name": "Calling_the_carpenter",
+   "takePlaceAt": {
+    "name": "Calling_the_carpenter",
+    "id": "texts/mobydick.txt#Calling_the_carpenter"
+   },
+   "id": "texts/mobydick.txt#Calling_the_carpenter"
+  },
+  {
+   "name": "Casualty",
+   "takePlaceAt": {
+    "name": "Casualty",
+    "id": "texts/mobydick.txt#Casualty"
+   },
+   "id": "texts/mobydick.txt#Casualty"
+  },
+  {
+   "name": "Hiding_away",
+   "takePlaceAt": {
+    "name": "Hiding_away",
+    "id": "texts/mobydick.txt#Hiding_away"
+   },
+   "id": "texts/mobydick.txt#Hiding_away"
+  },
+  {
+   "name": "Hiding_away",
+   "takePlaceAt": {
+    "name": "Hiding_away",
+    "id": "texts/mobydick.txt#Hiding_away"
+   },
+   "id": "texts/mobydick.txt#Hiding_away"
+  }
+ ],
+ "Places": [
+  {
+   "name": "On_the_Pequod_s_decks",
+   "id": "texts/mobydick.txt#On_the_Pequod_s_decks"
+  },
+  {
+   "name": "On_the_Pequod_s_decks",
+   "id": "texts/mobydick.txt#On_the_Pequod_s_decks"
+  },
+  {
+   "name": "On_the_Pequod_s_decks",
+   "id": "texts/mobydick.txt#On_the_Pequod_s_decks"
+  },
+  {
+   "name": "On_the_Pequod_s_decks",
+   "id": "texts/mobydick.txt#On_the_Pequod_s_decks"
+  }
+ ]
+}

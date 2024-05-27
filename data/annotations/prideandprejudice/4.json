@@ -1,0 +1,178 @@
+{
+ "FictionalCharacters": [
+  {
+   "name": "Mr. Collins",
+   "feels": [
+    {
+     "name": "Joy",
+     "hasIntensity": 0.9,
+     "quote": "The pain of separation, however, might be alleviated on his side by preparations for the reception of his bride, as he had reason to hope, that shortly after his next return into Hertfordshire, the day would be fixed that was to make him the happiest of men.",
+     "causedByEvent": {
+      "name": "Preparations for the reception of his bride",
+      "takePlaceAt": {
+       "name": "Longbourn"
+      },
+      "hasParticipant": [
+       {
+        "name": "Mr. Collins"
+       },
+       {
+        "name": "his bride"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Reception of his bride"
+     }
+    },
+    {
+     "name": "Sadness",
+     "hasIntensity": 0.7,
+     "quote": "He took leave of his relations at Longbourn with as much solemnity as before; wished his fair cousins health and happiness again, and promised their father another letter of thanks.",
+     "causedByEvent": {
+      "name": "Taking leave of his relations",
+      "takePlaceAt": {
+       "name": "Longbourn"
+      },
+      "hasParticipant": [
+       {
+        "name": "Mr. Collins"
+       },
+       {
+        "name": "his fair cousins"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Taking leave"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Mrs. Bennet",
+   "feels": [
+    {
+     "name": "Annoyance",
+     "hasIntensity": 0.8,
+     "quote": "Mrs. Bennet still continued to wonder and repine at his returning no more; and though a day seldom passed in which Elizabeth did not account for it clearly, there seemed little chance of her ever considering it with less perplexity.",
+     "causedByEvent": {
+      "name": "Mr. Bingley's absence",
+      "takePlaceAt": {
+       "name": "Longbourn"
+      },
+      "hasParticipant": [
+       {
+        "name": "Mrs. Bennet"
+       },
+       {
+        "name": "Elizabeth"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Mr. Bingley's absence"
+     }
+    },
+    {
+     "name": "Nervousness",
+     "hasIntensity": 0.7,
+     "quote": "It makes me very nervous and poorly, to be thwarted so in my own family, and to have neighbours who think of themselves before anybody else.",
+     "causedByEvent": {
+      "name": "Feeling thwarted in her own family",
+      "takePlaceAt": {
+       "name": "Longbourn"
+      },
+      "hasParticipant": [
+       {
+        "name": "Mrs. Bennet"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Feeling thwarted"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Elizabeth",
+   "feels": [
+    {
+     "name": "Indignation",
+     "hasIntensity": 0.8,
+     "quote": "Elizabeth heard it in silent indignation. Her heart was divided between concern for her sister and resentment against all others.",
+     "causedByEvent": {
+      "name": "Receiving news about Miss Bingley's letter",
+      "takePlaceAt": {
+       "name": "Longbourn"
+      },
+      "hasParticipant": [
+       {
+        "name": "Elizabeth"
+       },
+       {
+        "name": "Miss Bingley"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "News about Miss Bingley's letter"
+     }
+    },
+    {
+     "name": "Resentment",
+     "hasIntensity": 0.7,
+     "quote": "Her heart was divided between concern for her sister and resentment against all others.",
+     "causedByEvent": {
+      "name": "Receiving news about Miss Bingley's letter",
+      "takePlaceAt": {
+       "name": "Longbourn"
+      },
+      "hasParticipant": [
+       {
+        "name": "Elizabeth"
+       },
+       {
+        "name": "Miss Bingley"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "News about Miss Bingley's letter"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Mrs. Gardiner",
+   "feels": [
+    {
+     "name": "Compassion",
+     "hasIntensity": 0.8,
+     "quote": "Mrs. Gardiner, to whom the chief of this news had been given before, in the course of Jane and Elizabeth’s correspondence with her, made her sister a slight answer, and, in compassion to her nieces, turned the conversation.",
+     "causedByEvent": {
+      "name": "Receiving news about Jane and Elizabeth's correspondence",
+      "takePlaceAt": {
+       "name": "Longbourn"
+      },
+      "hasParticipant": [
+       {
+        "name": "Mrs. Gardiner"
+       },
+       {
+        "name": "Jane"
+       },
+       {
+        "name": "Elizabeth"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "News about Jane and Elizabeth's correspondence"
+     }
+    }
+   ]
+  }
+ ]
+}

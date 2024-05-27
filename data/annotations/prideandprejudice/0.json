@@ -1,0 +1,85 @@
+{
+ "FictionalCharacters": [
+  {
+   "name": "Mr. Bennet",
+   "feels": [
+    {
+     "name": "Amusement",
+     "hasIntensity": 0.7,
+     "quote": "From all that I can collect by your manner of talking, you must be two of the silliest girls in the country. I have suspected it some time, but I am now convinced.",
+     "causedByEvent": {
+      "name": "Listening to daughters' conversations",
+      "takePlaceAt": {
+       "name": "Longbourn"
+      },
+      "hasParticipant": [
+       {
+        "name": "Catherine"
+       },
+       {
+        "name": "Lydia"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Daughters' conversations"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Miss Bingley",
+   "feels": [
+    {
+     "name": "Astonishment",
+     "hasIntensity": 0.8,
+     "quote": "Miss Elizabeth Bennet! I am all astonishment. How long has she been such a favourite? and pray when am I to wish you joy?",
+     "causedByEvent": {
+      "name": "Mr. Darcy mentioning Miss Elizabeth Bennet",
+      "takePlaceAt": {
+       "name": "Sir William Lucas's house"
+      },
+      "hasParticipant": [
+       {
+        "name": "Miss Bingley"
+       },
+       {
+        "name": "Mr. Darcy"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Mr. Darcy mentioning Miss Elizabeth Bennet"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Mr. Darcy",
+   "feels": [
+    {
+     "name": "Interest",
+     "hasIntensity": 0.9,
+     "quote": "He began to wish to know more of her; and, as a step towards conversing with her himself, attended to her conversation with others.",
+     "causedByEvent": {
+      "name": "Wishing to know more about Miss Elizabeth Bennet",
+      "takePlaceAt": {
+       "name": "Sir William Lucas's house"
+      },
+      "hasParticipant": [
+       {
+        "name": "Mr. Darcy"
+       },
+       {
+        "name": "Miss Elizabeth Bennet"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Miss Elizabeth Bennet"
+     }
+    }
+   ]
+  }
+ ]
+}

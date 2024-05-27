@@ -1,0 +1,104 @@
+{
+ "FictionalCharacters": [
+  {
+   "name": "Father Mapple",
+   "feels": [
+    {
+     "name": "Joy",
+     "hasIntensity": 0.7,
+     "quote": "He paused a little; then kneeling in the pulpit’s bows, folded his large brown hands across his chest, uplifted his closed eyes, and offered a prayer so deeply devout that he seemed kneeling and praying at the bottom of the sea.",
+     "causedByEvent": {
+      "name": "Offering a prayer",
+      "takePlaceAt": {
+       "name": "Chapel"
+      },
+      "hasParticipant": [
+       {
+        "name": "Father Mapple"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Prayer"
+     }
+    },
+    {
+     "name": "Fear",
+     "hasIntensity": 0.8,
+     "quote": "Seeing himself placed next the Priest, and noting the ceremony, and thinking himself—being Captain of a ship—as having plain precedence over a mere island King, especially in the King’s own house—the Captain coolly proceeds to wash his hands in the punchbowl;—taking it I suppose for a huge finger-glass.",
+     "causedByEvent": {
+      "name": "Being placed next to the Priest",
+      "takePlaceAt": {
+       "name": "Wedding feast"
+      },
+      "hasParticipant": [
+       {
+        "name": "Captain"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Washing hands in the punchbowl"
+     }
+    },
+    {
+     "name": "Anger",
+     "hasIntensity": 0.9,
+     "quote": "“What him say?” said Queequeg, “Didn’t our people laugh?”",
+     "causedByEvent": {
+      "name": "Being laughed at",
+      "takePlaceAt": {
+       "name": "Wedding feast"
+      },
+      "hasParticipant": [
+       {
+        "name": "Queequeg"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Being laughed at"
+     }
+    },
+    {
+     "name": "Joy",
+     "hasIntensity": 0.8,
+     "quote": "“Kill-e,” cried Queequeg, twisting his tattooed face into an unearthly expression of disdain, “ah! him bevy small-e fish-e; Queequeg no kill-e so small-e fish-e; Queequeg kill-e big whale!”",
+     "causedByEvent": {
+      "name": "Defending himself",
+      "takePlaceAt": {
+       "name": "Schooner"
+      },
+      "hasParticipant": [
+       {
+        "name": "Queequeg"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Defending himself"
+     }
+    },
+    {
+     "name": "Anger",
+     "hasIntensity": 0.9,
+     "quote": "“Look you,” roared the Captain, “I’ll kill-e _you_, you cannibal, if you try any more of your tricks aboard here; so mind your eye.”",
+     "causedByEvent": {
+      "name": "Being threatened",
+      "takePlaceAt": {
+       "name": "Schooner"
+      },
+      "hasParticipant": [
+       {
+        "name": "Queequeg"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Being threatened"
+     }
+    }
+   ]
+  }
+ ]
+}

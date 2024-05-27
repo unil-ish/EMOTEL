@@ -1,0 +1,65 @@
+{
+ "FictionalCharacters": [
+  {
+   "name": "Ishmael",
+   "feels": [
+    {
+     "name": "Curiosity",
+     "hasIntensity": 0.9,
+     "quote": "Chief among these motives was the overwhelming idea of the great whale himself. Such a portentous and mysterious monster roused all my curiosity.",
+     "causedByEvent": {
+      "name": "Encounter with the idea of the great whale",
+      "takePlaceAt": {
+       "name": "Mental contemplation"
+      }
+     },
+     "hasObject": {
+      "name": "Great whale"
+     }
+    },
+    {
+     "name": "Wonder",
+     "hasIntensity": 0.8,
+     "quote": "But what most puzzled and confounded you was a long, limber, portentous, black mass of something hovering in the centre of the picture over three blue, dim, perpendicular lines floating in a nameless yeast.",
+     "causedByEvent": {
+      "name": "Viewing a mysterious painting",
+      "takePlaceAt": {
+       "name": "The Spouter Inn"
+      }
+     },
+     "hasObject": {
+      "name": "Mysterious painting"
+     }
+    },
+    {
+     "name": "Confusion",
+     "hasIntensity": 0.7,
+     "quote": "But what most puzzled and confounded you was a long, limber, portentous, black mass of something hovering in the centre of the picture over three blue, dim, perpendicular lines floating in a nameless yeast.",
+     "causedByEvent": {
+      "name": "Viewing a mysterious painting",
+      "takePlaceAt": {
+       "name": "The Spouter Inn"
+      }
+     },
+     "hasObject": {
+      "name": "Mysterious painting"
+     }
+    },
+    {
+     "name": "Awe",
+     "hasIntensity": 0.9,
+     "quote": "But what most puzzled and confounded you was a long, limber, portentous, black mass of something hovering in the centre of the picture over three blue, dim, perpendicular lines floating in a nameless yeast.",
+     "causedByEvent": {
+      "name": "Viewing a mysterious painting",
+      "takePlaceAt": {
+       "name": "The Spouter Inn"
+      }
+     },
+     "hasObject": {
+      "name": "Mysterious painting"
+     }
+    }
+   ]
+  }
+ ]
+}

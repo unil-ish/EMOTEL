@@ -1,0 +1,101 @@
+{
+ "FictionalCharacters": [
+  {
+   "name": "Ishmael",
+   "feels": [
+    {
+     "name": "Concern",
+     "hasIntensity": 0.7,
+     "quote": "What had been incidentally revealed to me of Captain Ahab, filled me with a certain wild vagueness of painfulness concerning him.",
+     "causedByEvent": {
+      "name": "Revelation about Captain Ahab",
+      "takePlaceAt": {
+       "name": "Conversation with Captain Peleg"
+      },
+      "hasParticipant": [
+       {
+        "name": "Ishmael"
+       },
+       {
+        "name": "Captain Peleg"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Captain Ahab"
+     },
+     "exactPlace": "On the ship"
+    },
+    {
+     "name": "Alarm",
+     "hasIntensity": 0.8,
+     "quote": "I began to grow alarmed. I had allowed him such abundant time; I thought he might have had an apoplectic fit.",
+     "causedByEvent": {
+      "name": "Queequeg not responding",
+      "takePlaceAt": {
+       "name": "Queequeg's room"
+      },
+      "hasParticipant": [
+       {
+        "name": "Ishmael"
+       },
+       {
+        "name": "Queequeg"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Queequeg"
+     },
+     "exactPlace": "Queequeg's room"
+    },
+    {
+     "name": "Fear",
+     "hasIntensity": 0.9,
+     "quote": "Apoplexy! I tried to burst open the door; but it stubbornly resisted.",
+     "causedByEvent": {
+      "name": "Suspicions of Queequeg's health",
+      "takePlaceAt": {
+       "name": "Queequeg's room"
+      },
+      "hasParticipant": [
+       {
+        "name": "Ishmael"
+       },
+       {
+        "name": "Queequeg"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Queequeg"
+     },
+     "exactPlace": "Queequeg's room"
+    },
+    {
+     "name": "Relief",
+     "hasIntensity": 0.7,
+     "quote": "What’s the matter with you? What’s the matter with you, shipmate?",
+     "causedByEvent": {
+      "name": "Mrs. Hussey's intervention",
+      "takePlaceAt": {
+       "name": "Mrs. Hussey's arrival"
+      },
+      "hasParticipant": [
+       {
+        "name": "Ishmael"
+       },
+       {
+        "name": "Mrs. Hussey"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Ishmael"
+     },
+     "exactPlace": "Queequeg's room"
+    }
+   ]
+  }
+ ]
+}

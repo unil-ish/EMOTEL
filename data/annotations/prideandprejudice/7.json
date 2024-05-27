@@ -1,0 +1,75 @@
+{
+ "FictionalCharacters": [
+  {
+   "name": "Elizabeth Bennet",
+   "feels": [
+    {
+     "name": "Shame",
+     "hasIntensity": 0.9,
+     "quote": "She felt anew the justice of Mr. Darcy’s objections; and never had she before been so much disposed to pardon his interference in the views of his friend.",
+     "causedByEvent": {
+      "name": "Receiving an invitation to Brighton for Lydia",
+      "takePlaceAt": {
+       "name": "Longbourn House"
+      },
+      "hasParticipant": [
+       {
+        "name": "Lydia Bennet"
+       },
+       {
+        "name": "Mrs. Forster"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Invitation to Brighton"
+     }
+    },
+    {
+     "name": "Pity",
+     "hasIntensity": 0.8,
+     "quote": "She represented to him all the improprieties of Lydia’s general behaviour, the little advantage she could derive from the friendship of such a woman as Mrs. Forster, and the probability of her being yet more imprudent with such a companion at Brighton, where the temptations must be greater than at home.",
+     "causedByEvent": {
+      "name": "Discussion with Mr. Bennet about Lydia's invitation to Brighton",
+      "takePlaceAt": {
+       "name": "Longbourn House"
+      },
+      "hasParticipant": [
+       {
+        "name": "Elizabeth Bennet"
+       },
+       {
+        "name": "Mr. Bennet"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Lydia's behavior and consequences"
+     }
+    },
+    {
+     "name": "Concern",
+     "hasIntensity": 0.7,
+     "quote": "She considered it as the death-warrant of all possibility of common sense for the latter; and detestable as such a step must make her, were it known, she could not help secretly advising her father not to let her go.",
+     "causedByEvent": {
+      "name": "Lydia's invitation to Brighton",
+      "takePlaceAt": {
+       "name": "Longbourn House"
+      },
+      "hasParticipant": [
+       {
+        "name": "Elizabeth Bennet"
+       },
+       {
+        "name": "Lydia Bennet"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Lydia's behavior and consequences"
+     }
+    }
+   ]
+  }
+ ]
+}

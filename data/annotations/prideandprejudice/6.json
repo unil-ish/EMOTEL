@@ -1,0 +1,190 @@
+{
+ "FictionalCharacters": [
+  {
+   "name": "Colonel Fitzwilliam",
+   "feels": [
+    {
+     "name": "Joy",
+     "hasIntensity": 0.9,
+     "quote": "Colonel Fitzwilliam seemed really glad to see them: anything was a welcome relief to him at Rosings; and Mrs. Collins’s pretty friend had, moreover, caught his fancy very much.",
+     "causedByEvent": {
+      "name": "Seeing Elizabeth and Mrs. Collins",
+      "takePlaceAt": {
+       "name": "Rosings"
+      },
+      "hasParticipant": [
+       {
+        "name": "Colonel Fitzwilliam"
+       },
+       {
+        "name": "Mrs. Collins"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Mrs. Collins’s pretty friend"
+     }
+    },
+    {
+     "name": "Surprise",
+     "hasIntensity": 0.8,
+     "quote": "Colonel Fitzwilliam seemed really glad to see them: anything was a welcome relief to him at Rosings; and Mrs. Collins’s pretty friend had, moreover, caught his fancy very much.",
+     "causedByEvent": {
+      "name": "Seeing Elizabeth and Mrs. Collins",
+      "takePlaceAt": {
+       "name": "Rosings"
+      },
+      "hasParticipant": [
+       {
+        "name": "Colonel Fitzwilliam"
+       },
+       {
+        "name": "Mrs. Collins"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Mrs. Collins’s pretty friend"
+     }
+    },
+    {
+     "name": "Interest",
+     "hasIntensity": 0.7,
+     "quote": "“You take an eager interest in that gentleman’s concerns,” said Darcy, in a less tranquil tone, and with a heightened colour.",
+     "causedByEvent": {
+      "name": "Discussing Mr. Wickham",
+      "takePlaceAt": {
+       "name": "Conversation with Darcy"
+      },
+      "hasParticipant": [
+       {
+        "name": "Colonel Fitzwilliam"
+       },
+       {
+        "name": "Darcy"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Mr. Wickham"
+     }
+    },
+    {
+     "name": "Remorse",
+     "hasIntensity": 0.9,
+     "quote": "“You have said quite enough, madam. I perfectly comprehend your feelings, and have now only to be ashamed of what my own have been. Forgive me for having taken up so much of your time, and accept my best wishes for your health and happiness.”",
+     "causedByEvent": {
+      "name": "Rejection by Elizabeth",
+      "takePlaceAt": {
+       "name": "Conversation with Elizabeth"
+      },
+      "hasParticipant": [
+       {
+        "name": "Colonel Fitzwilliam"
+       },
+       {
+        "name": "Elizabeth"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Rejection"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Elizabeth Bennet",
+   "feels": [
+    {
+     "name": "Anger",
+     "hasIntensity": 0.9,
+     "quote": "She tried, however, to compose herself to answer him with patience, when he should have done. He concluded with representing to her the strength of that attachment which in spite of all his endeavours he had found impossible to conquer; and with expressing his hope that it would now be rewarded by her acceptance of his hand. As he said this she could easily see that he had no doubt of a favourable answer. He spoke of apprehension and anxiety, but his countenance expressed real security. Such a circumstance could only exasperate farther; and when he ceased the colour rose into her cheeks and she said,--",
+     "causedByEvent": {
+      "name": "Proposal by Mr. Darcy",
+      "takePlaceAt": {
+       "name": "Conversation with Mr. Darcy"
+      },
+      "hasParticipant": [
+       {
+        "name": "Mr. Darcy"
+       },
+       {
+        "name": "Elizabeth"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Proposal"
+     }
+    },
+    {
+     "name": "Disgust",
+     "hasIntensity": 0.8,
+     "quote": "“You have said quite enough, madam. I perfectly comprehend your feelings, and have now only to be ashamed of what my own have been. Forgive me for having taken up so much of your time, and accept my best wishes for your health and happiness.”",
+     "causedByEvent": {
+      "name": "Rejection by Elizabeth",
+      "takePlaceAt": {
+       "name": "Conversation with Colonel Fitzwilliam"
+      },
+      "hasParticipant": [
+       {
+        "name": "Colonel Fitzwilliam"
+       },
+       {
+        "name": "Elizabeth"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Rejection"
+     }
+    },
+    {
+     "name": "Surprise",
+     "hasIntensity": 0.9,
+     "quote": "Elizabeth awoke the next morning to the same thoughts and meditations which had at length closed her eyes. She could not yet recover from the surprise of what had happened: it was impossible to think of anything else; and, totally indisposed for employment, she resolved soon after breakfast to indulge herself in air and exercise.",
+     "causedByEvent": {
+      "name": "Receiving a letter from Mr. Darcy",
+      "takePlaceAt": {
+       "name": "Reading the letter"
+      },
+      "hasParticipant": [
+       {
+        "name": "Elizabeth"
+       },
+       {
+        "name": "Mr. Darcy"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Letter"
+     }
+    },
+    {
+     "name": "Curiosity",
+     "hasIntensity": 0.8,
+     "quote": "With no expectation of pleasure, but with the strongest curiosity, Elizabeth opened the letter, and to her still increasing wonder, perceived an envelope containing two sheets of letter paper, written quite through, in a very close hand.",
+     "causedByEvent": {
+      "name": "Receiving a letter from Mr. Darcy",
+      "takePlaceAt": {
+       "name": "Reading the letter"
+      },
+      "hasParticipant": [
+       {
+        "name": "Elizabeth"
+       },
+       {
+        "name": "Mr. Darcy"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Letter"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,308 @@
+{
+ "FictionalCharacters": [
+  {
+   "name": "Colonel_Fitzwilliam",
+   "feels": [
+    {
+     "name": "Joy",
+     "hasIntensity": 0.9,
+     "quote": "Colonel Fitzwilliam seemed really glad to see them: anything was a welcome relief to him at Rosings; and Mrs. Collins’s pretty friend had, moreover, caught his fancy very much.",
+     "hasObject": {
+      "name": "Mrs_Collinss_pretty_friend",
+      "id": "texts/prideandprejudice.txt#Mrs_Collinss_pretty_friend"
+     },
+     "causedBy": {
+      "name": "Seeing_Elizabeth_and_Mrs_Collins",
+      "id": "texts/prideandprejudice.txt#Seeing_Elizabeth_and_Mrs_Collins"
+     },
+     "id": "Joy"
+    },
+    {
+     "name": "Surprise",
+     "hasIntensity": 0.8,
+     "quote": "Colonel Fitzwilliam seemed really glad to see them: anything was a welcome relief to him at Rosings; and Mrs. Collins’s pretty friend had, moreover, caught his fancy very much.",
+     "hasObject": {
+      "name": "Mrs_Collinss_pretty_friend",
+      "id": "texts/prideandprejudice.txt#Mrs_Collinss_pretty_friend"
+     },
+     "causedBy": {
+      "name": "Seeing_Elizabeth_and_Mrs_Collins",
+      "id": "texts/prideandprejudice.txt#Seeing_Elizabeth_and_Mrs_Collins"
+     },
+     "id": "Surprise"
+    },
+    {
+     "name": "Interest",
+     "hasIntensity": 0.7,
+     "quote": "“You take an eager interest in that gentleman’s concerns,” said Darcy, in a less tranquil tone, and with a heightened colour.",
+     "hasObject": {
+      "name": "Mr_Wickham",
+      "id": "texts/prideandprejudice.txt#Mr_Wickham"
+     },
+     "causedBy": {
+      "name": "Discussing_Mr_Wickham",
+      "id": "texts/prideandprejudice.txt#Discussing_Mr_Wickham"
+     },
+     "id": "Interest"
+    },
+    {
+     "name": "Remorse",
+     "hasIntensity": 0.9,
+     "quote": "“You have said quite enough, madam. I perfectly comprehend your feelings, and have now only to be ashamed of what my own have been. Forgive me for having taken up so much of your time, and accept my best wishes for your health and happiness.”",
+     "hasObject": {
+      "name": "Rejection",
+      "id": "texts/prideandprejudice.txt#Rejection"
+     },
+     "causedBy": {
+      "name": "Rejection_by_Elizabeth",
+      "id": "texts/prideandprejudice.txt#Rejection_by_Elizabeth"
+     },
+     "id": "Remorse"
+    }
+   ],
+   "id": "texts/prideandprejudice.txt#Colonel_Fitzwilliam"
+  },
+  {
+   "name": "Elizabeth_Bennet",
+   "feels": [
+    {
+     "name": "Anger",
+     "hasIntensity": 0.9,
+     "quote": "She tried, however, to compose herself to answer him with patience, when he should have done. He concluded with representing to her the strength of that attachment which in spite of all his endeavours he had found impossible to conquer; and with expressing his hope that it would now be rewarded by her acceptance of his hand. As he said this she could easily see that he had no doubt of a favourable answer. He spoke of apprehension and anxiety, but his countenance expressed real security. Such a circumstance could only exasperate farther; and when he ceased the colour rose into her cheeks and she said,--",
+     "hasObject": {
+      "name": "Proposal",
+      "id": "texts/prideandprejudice.txt#Proposal"
+     },
+     "causedBy": {
+      "name": "Proposal_by_Mr_Darcy",
+      "id": "texts/prideandprejudice.txt#Proposal_by_Mr_Darcy"
+     },
+     "id": "Anger"
+    },
+    {
+     "name": "Disgust",
+     "hasIntensity": 0.8,
+     "quote": "“You have said quite enough, madam. I perfectly comprehend your feelings, and have now only to be ashamed of what my own have been. Forgive me for having taken up so much of your time, and accept my best wishes for your health and happiness.”",
+     "hasObject": {
+      "name": "Rejection",
+      "id": "texts/prideandprejudice.txt#Rejection"
+     },
+     "causedBy": {
+      "name": "Rejection_by_Elizabeth",
+      "id": "texts/prideandprejudice.txt#Rejection_by_Elizabeth"
+     },
+     "id": "Disgust"
+    },
+    {
+     "name": "Surprise",
+     "hasIntensity": 0.9,
+     "quote": "Elizabeth awoke the next morning to the same thoughts and meditations which had at length closed her eyes. She could not yet recover from the surprise of what had happened: it was impossible to think of anything else; and, totally indisposed for employment, she resolved soon after breakfast to indulge herself in air and exercise.",
+     "hasObject": {
+      "name": "Letter",
+      "id": "texts/prideandprejudice.txt#Letter"
+     },
+     "causedBy": {
+      "name": "Receiving_a_letter_from_Mr_Darcy",
+      "id": "texts/prideandprejudice.txt#Receiving_a_letter_from_Mr_Darcy"
+     },
+     "id": "Surprise"
+    },
+    {
+     "name": "Curiosity",
+     "hasIntensity": 0.8,
+     "quote": "With no expectation of pleasure, but with the strongest curiosity, Elizabeth opened the letter, and to her still increasing wonder, perceived an envelope containing two sheets of letter paper, written quite through, in a very close hand.",
+     "hasObject": {
+      "name": "Letter",
+      "id": "texts/prideandprejudice.txt#Letter"
+     },
+     "causedBy": {
+      "name": "Receiving_a_letter_from_Mr_Darcy",
+      "id": "texts/prideandprejudice.txt#Receiving_a_letter_from_Mr_Darcy"
+     },
+     "id": "Curiosity"
+    }
+   ],
+   "id": "texts/prideandprejudice.txt#Elizabeth_Bennet"
+  }
+ ],
+ "Events": [
+  {
+   "name": "Seeing_Elizabeth_and_Mrs_Collins",
+   "takePlaceAt": {
+    "name": "Seeing_Elizabeth_and_Mrs_Collins",
+    "id": "texts/prideandprejudice.txt#Seeing_Elizabeth_and_Mrs_Collins"
+   },
+   "hasParticipant": [
+    {
+     "name": "Colonel_Fitzwilliam",
+     "id": "texts/prideandprejudice.txt#Colonel_Fitzwilliam"
+    },
+    {
+     "name": "Mrs_Collins",
+     "id": "texts/prideandprejudice.txt#Mrs_Collins"
+    }
+   ],
+   "id": "texts/prideandprejudice.txt#Seeing_Elizabeth_and_Mrs_Collins"
+  },
+  {
+   "name": "Seeing_Elizabeth_and_Mrs_Collins",
+   "takePlaceAt": {
+    "name": "Seeing_Elizabeth_and_Mrs_Collins",
+    "id": "texts/prideandprejudice.txt#Seeing_Elizabeth_and_Mrs_Collins"
+   },
+   "hasParticipant": [
+    {
+     "name": "Colonel_Fitzwilliam",
+     "id": "texts/prideandprejudice.txt#Colonel_Fitzwilliam"
+    },
+    {
+     "name": "Mrs_Collins",
+     "id": "texts/prideandprejudice.txt#Mrs_Collins"
+    }
+   ],
+   "id": "texts/prideandprejudice.txt#Seeing_Elizabeth_and_Mrs_Collins"
+  },
+  {
+   "name": "Discussing_Mr_Wickham",
+   "takePlaceAt": {
+    "name": "Discussing_Mr_Wickham",
+    "id": "texts/prideandprejudice.txt#Discussing_Mr_Wickham"
+   },
+   "hasParticipant": [
+    {
+     "name": "Colonel_Fitzwilliam",
+     "id": "texts/prideandprejudice.txt#Colonel_Fitzwilliam"
+    },
+    {
+     "name": "Darcy",
+     "id": "texts/prideandprejudice.txt#Darcy"
+    }
+   ],
+   "id": "texts/prideandprejudice.txt#Discussing_Mr_Wickham"
+  },
+  {
+   "name": "Rejection_by_Elizabeth",
+   "takePlaceAt": {
+    "name": "Rejection_by_Elizabeth",
+    "id": "texts/prideandprejudice.txt#Rejection_by_Elizabeth"
+   },
+   "hasParticipant": [
+    {
+     "name": "Colonel_Fitzwilliam",
+     "id": "texts/prideandprejudice.txt#Colonel_Fitzwilliam"
+    },
+    {
+     "name": "Elizabeth",
+     "id": "texts/prideandprejudice.txt#Elizabeth"
+    }
+   ],
+   "id": "texts/prideandprejudice.txt#Rejection_by_Elizabeth"
+  },
+  {
+   "name": "Proposal_by_Mr_Darcy",
+   "takePlaceAt": {
+    "name": "Proposal_by_Mr_Darcy",
+    "id": "texts/prideandprejudice.txt#Proposal_by_Mr_Darcy"
+   },
+   "hasParticipant": [
+    {
+     "name": "Mr_Darcy",
+     "id": "texts/prideandprejudice.txt#Mr_Darcy"
+    },
+    {
+     "name": "Elizabeth",
+     "id": "texts/prideandprejudice.txt#Elizabeth"
+    }
+   ],
+   "id": "texts/prideandprejudice.txt#Proposal_by_Mr_Darcy"
+  },
+  {
+   "name": "Rejection_by_Elizabeth",
+   "takePlaceAt": {
+    "name": "Rejection_by_Elizabeth",
+    "id": "texts/prideandprejudice.txt#Rejection_by_Elizabeth"
+   },
+   "hasParticipant": [
+    {
+     "name": "Colonel_Fitzwilliam",
+     "id": "texts/prideandprejudice.txt#Colonel_Fitzwilliam"
+    },
+    {
+     "name": "Elizabeth",
+     "id": "texts/prideandprejudice.txt#Elizabeth"
+    }
+   ],
+   "id": "texts/prideandprejudice.txt#Rejection_by_Elizabeth"
+  },
+  {
+   "name": "Receiving_a_letter_from_Mr_Darcy",
+   "takePlaceAt": {
+    "name": "Receiving_a_letter_from_Mr_Darcy",
+    "id": "texts/prideandprejudice.txt#Receiving_a_letter_from_Mr_Darcy"
+   },
+   "hasParticipant": [
+    {
+     "name": "Elizabeth",
+     "id": "texts/prideandprejudice.txt#Elizabeth"
+    },
+    {
+     "name": "Mr_Darcy",
+     "id": "texts/prideandprejudice.txt#Mr_Darcy"
+    }
+   ],
+   "id": "texts/prideandprejudice.txt#Receiving_a_letter_from_Mr_Darcy"
+  },
+  {
+   "name": "Receiving_a_letter_from_Mr_Darcy",
+   "takePlaceAt": {
+    "name": "Receiving_a_letter_from_Mr_Darcy",
+    "id": "texts/prideandprejudice.txt#Receiving_a_letter_from_Mr_Darcy"
+   },
+   "hasParticipant": [
+    {
+     "name": "Elizabeth",
+     "id": "texts/prideandprejudice.txt#Elizabeth"
+    },
+    {
+     "name": "Mr_Darcy",
+     "id": "texts/prideandprejudice.txt#Mr_Darcy"
+    }
+   ],
+   "id": "texts/prideandprejudice.txt#Receiving_a_letter_from_Mr_Darcy"
+  }
+ ],
+ "Places": [
+  {
+   "name": "Rosings",
+   "id": "texts/prideandprejudice.txt#Rosings"
+  },
+  {
+   "name": "Rosings",
+   "id": "texts/prideandprejudice.txt#Rosings"
+  },
+  {
+   "name": "Conversation_with_Darcy",
+   "id": "texts/prideandprejudice.txt#Conversation_with_Darcy"
+  },
+  {
+   "name": "Conversation_with_Elizabeth",
+   "id": "texts/prideandprejudice.txt#Conversation_with_Elizabeth"
+  },
+  {
+   "name": "Conversation_with_Mr_Darcy",
+   "id": "texts/prideandprejudice.txt#Conversation_with_Mr_Darcy"
+  },
+  {
+   "name": "Conversation_with_Colonel_Fitzwilliam",
+   "id": "texts/prideandprejudice.txt#Conversation_with_Colonel_Fitzwilliam"
+  },
+  {
+   "name": "Reading_the_letter",
+   "id": "texts/prideandprejudice.txt#Reading_the_letter"
+  },
+  {
+   "name": "Reading_the_letter",
+   "id": "texts/prideandprejudice.txt#Reading_the_letter"
+  }
+ ]
+}

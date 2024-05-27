@@ -1,0 +1,166 @@
+{
+ "FictionalCharacters": [
+  {
+   "name": "Elizabeth_Bennet",
+   "feels": [
+    {
+     "name": "Surprise",
+     "hasIntensity": 0.8,
+     "quote": "Miss Darcy and her brother appeared, and this formidable introduction took place. With astonishment did Elizabeth see that her new acquaintance was at least as much embarrassed as herself.",
+     "hasObject": {
+      "name": "Introduction",
+      "id": "texts/prideandprejudice.txt#Introduction"
+     },
+     "causedBy": {
+      "name": "Introduction_of_Miss_Darcy_and_her_brother",
+      "id": "texts/prideandprejudice.txt#Introduction_of_Miss_Darcy_and_her_brother"
+     },
+     "id": "Surprise"
+    },
+    {
+     "name": "Embarrassment",
+     "hasIntensity": 0.9,
+     "quote": "She retreated from the window, fearful of being seen; and as she walked up and down the room, endeavouring to compose herself, saw such looks of inquiring surprise in her uncle and aunt as made everything worse.",
+     "hasObject": {
+      "name": "Unexpected_arrival",
+      "id": "texts/prideandprejudice.txt#Unexpected_arrival"
+     },
+     "causedBy": {
+      "name": "Unexpected_arrival_of_Miss_Darcy_and_Mr_Darcy",
+      "id": "texts/prideandprejudice.txt#Unexpected_arrival_of_Miss_Darcy_and_Mr_Darcy"
+     },
+     "id": "Embarrassment"
+    },
+    {
+     "name": "Relief",
+     "hasIntensity": 0.7,
+     "quote": "Elizabeth, who had expected to find in her as acute and unembarrassed an observer as ever Mr. Darcy had been, was much relieved by discerning such different feelings.",
+     "hasObject": {
+      "name": "Miss_Darcy_s_shyness",
+      "id": "texts/prideandprejudice.txt#Miss_Darcy_s_shyness"
+     },
+     "causedBy": {
+      "name": "Observing_Miss_Darcy_s_shyness",
+      "id": "texts/prideandprejudice.txt#Observing_Miss_Darcy_s_shyness"
+     },
+     "id": "Relief"
+    },
+    {
+     "name": "Cordiality",
+     "hasIntensity": 0.8,
+     "quote": "All Elizabeth’s anger against him had been long done away; but had she still felt any, it could hardly have stood its ground against the unaffected cordiality with which he expressed himself on seeing her again.",
+     "hasObject": {
+      "name": "Bingley_s_friendly_visit",
+      "id": "texts/prideandprejudice.txt#Bingley_s_friendly_visit"
+     },
+     "causedBy": {
+      "name": "Bingley_s_friendly_visit",
+      "id": "texts/prideandprejudice.txt#Bingley_s_friendly_visit"
+     },
+     "id": "Cordiality"
+    }
+   ],
+   "id": "texts/prideandprejudice.txt#Elizabeth_Bennet"
+  }
+ ],
+ "Events": [
+  {
+   "name": "Introduction_of_Miss_Darcy_and_her_brother",
+   "takePlaceAt": {
+    "name": "Introduction_of_Miss_Darcy_and_her_brother",
+    "id": "texts/prideandprejudice.txt#Introduction_of_Miss_Darcy_and_her_brother"
+   },
+   "hasParticipant": [
+    {
+     "name": "Elizabeth_Bennet",
+     "id": "texts/prideandprejudice.txt#Elizabeth_Bennet"
+    },
+    {
+     "name": "Miss_Darcy",
+     "id": "texts/prideandprejudice.txt#Miss_Darcy"
+    },
+    {
+     "name": "Mr_Darcy",
+     "id": "texts/prideandprejudice.txt#Mr_Darcy"
+    }
+   ],
+   "id": "texts/prideandprejudice.txt#Introduction_of_Miss_Darcy_and_her_brother"
+  },
+  {
+   "name": "Unexpected_arrival_of_Miss_Darcy_and_Mr_Darcy",
+   "takePlaceAt": {
+    "name": "Unexpected_arrival_of_Miss_Darcy_and_Mr_Darcy",
+    "id": "texts/prideandprejudice.txt#Unexpected_arrival_of_Miss_Darcy_and_Mr_Darcy"
+   },
+   "hasParticipant": [
+    {
+     "name": "Elizabeth_Bennet",
+     "id": "texts/prideandprejudice.txt#Elizabeth_Bennet"
+    },
+    {
+     "name": "Miss_Darcy",
+     "id": "texts/prideandprejudice.txt#Miss_Darcy"
+    },
+    {
+     "name": "Mr_Darcy",
+     "id": "texts/prideandprejudice.txt#Mr_Darcy"
+    }
+   ],
+   "id": "texts/prideandprejudice.txt#Unexpected_arrival_of_Miss_Darcy_and_Mr_Darcy"
+  },
+  {
+   "name": "Observing_Miss_Darcy_s_shyness",
+   "takePlaceAt": {
+    "name": "Observing_Miss_Darcy_s_shyness",
+    "id": "texts/prideandprejudice.txt#Observing_Miss_Darcy_s_shyness"
+   },
+   "hasParticipant": [
+    {
+     "name": "Elizabeth_Bennet",
+     "id": "texts/prideandprejudice.txt#Elizabeth_Bennet"
+    },
+    {
+     "name": "Miss_Darcy",
+     "id": "texts/prideandprejudice.txt#Miss_Darcy"
+    }
+   ],
+   "id": "texts/prideandprejudice.txt#Observing_Miss_Darcy_s_shyness"
+  },
+  {
+   "name": "Bingley_s_friendly_visit",
+   "takePlaceAt": {
+    "name": "Bingley_s_friendly_visit",
+    "id": "texts/prideandprejudice.txt#Bingley_s_friendly_visit"
+   },
+   "hasParticipant": [
+    {
+     "name": "Elizabeth_Bennet",
+     "id": "texts/prideandprejudice.txt#Elizabeth_Bennet"
+    },
+    {
+     "name": "Bingley",
+     "id": "texts/prideandprejudice.txt#Bingley"
+    }
+   ],
+   "id": "texts/prideandprejudice.txt#Bingley_s_friendly_visit"
+  }
+ ],
+ "Places": [
+  {
+   "name": "Inn_at_Lambton",
+   "id": "texts/prideandprejudice.txt#Inn_at_Lambton"
+  },
+  {
+   "name": "Inn_at_Lambton",
+   "id": "texts/prideandprejudice.txt#Inn_at_Lambton"
+  },
+  {
+   "name": "Inn_at_Lambton",
+   "id": "texts/prideandprejudice.txt#Inn_at_Lambton"
+  },
+  {
+   "name": "Inn_at_Lambton",
+   "id": "texts/prideandprejudice.txt#Inn_at_Lambton"
+  }
+ ]
+}

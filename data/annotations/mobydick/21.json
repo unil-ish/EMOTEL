@@ -1,0 +1,84 @@
+{
+ "FictionalCharacters": [
+  {
+   "name": "Starbuck",
+   "feels": [
+    {
+     "name": "Fear",
+     "hasIntensity": 0.7,
+     "quote": "He would have shot me once,” he murmured, “yes, there’s the very musket that he pointed at me;—that one with the studded stock; let me touch it—lift it. Strange, that I, who have handled so many deadly lances, strange, that I should shake so now.",
+     "causedByEvent": {
+      "name": "Seeing the musket",
+      "takePlaceAt": {
+       "name": "Ahab's state-room"
+      }
+     },
+     "hasObject": {
+      "name": "Musket"
+     }
+    },
+    {
+     "name": "Relief",
+     "hasIntensity": 0.6,
+     "quote": "Meanwhile, whatever were his own secret thoughts, Starbuck said nothing, but quietly he issued all requisite orders; while Stubb and Flask—who in some small degree seemed then to be sharing his feelings—likewise unmurmuringly acquiesced.",
+     "causedByEvent": {
+      "name": "Taking charge of the situation",
+      "takePlaceAt": {
+       "name": "On deck"
+      }
+     },
+     "hasObject": {
+      "name": "Taking charge"
+     }
+    },
+    {
+     "name": "Wonder",
+     "hasIntensity": 0.8,
+     "quote": "Abashed glances of servile wonder were exchanged by the sailors, as this was said; and with fascinated eyes they awaited whatever magic might follow.",
+     "causedByEvent": {
+      "name": "Ahab's statement about making his own compass",
+      "takePlaceAt": {
+       "name": "On deck"
+      }
+     },
+     "hasObject": {
+      "name": "Ahab's statement"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Ahab",
+   "feels": [
+    {
+     "name": "Confusion",
+     "hasIntensity": 0.7,
+     "quote": "Thrusting his head half way into the binnacle, Ahab caught one glimpse of the compasses; his uplifted arm slowly fell; for a moment he almost seemed to stagger.",
+     "causedByEvent": {
+      "name": "Realizing the compasses were inverted",
+      "takePlaceAt": {
+       "name": "On deck"
+      }
+     },
+     "hasObject": {
+      "name": "Inverted compasses"
+     }
+    },
+    {
+     "name": "Determination",
+     "hasIntensity": 0.8,
+     "quote": "Men,” said he, steadily turning upon the crew, as the mate handed him the things he had demanded, “my men, the thunder turned old Ahab’s needles; but out of this bit of steel Ahab can make one of his own, that will point as true as any.",
+     "causedByEvent": {
+      "name": "Deciding to make his own compass",
+      "takePlaceAt": {
+       "name": "On deck"
+      }
+     },
+     "hasObject": {
+      "name": "Making his own compass"
+     }
+    }
+   ]
+  }
+ ]
+}

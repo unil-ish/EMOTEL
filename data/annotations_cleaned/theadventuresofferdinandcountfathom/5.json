@@ -1,0 +1,204 @@
+{
+ "FictionalCharacters": [
+  {
+   "name": "Don_Diego_de_Zelos",
+   "feels": [
+    {
+     "name": "Joy",
+     "hasIntensity": 0.9,
+     "quote": "I professed myself extremely happy in having met with an opportunity of acquiring such a degree of my colonel’s esteem, entertained them with a detail of his personal prowess in the battle, and answered all their questions with that moderation which every man ought to preserve in speaking of his own behaviour.",
+     "hasObject": {
+      "name": "Letter_of_esteem",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Letter_of_esteem"
+     },
+     "causedBy": {
+      "name": "Receiving_a_letter_of_esteem_from_his_colonel",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Receiving_a_letter_of_esteem_from_his_colonel"
+     },
+     "id": "Joy"
+    },
+    {
+     "name": "Love",
+     "hasIntensity": 0.8,
+     "quote": "I had the good fortune to espouse the charming Antonia, who submitted to the will of her father without reluctance.",
+     "hasObject": {
+      "name": "Marriage_proposal",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Marriage_proposal"
+     },
+     "causedBy": {
+      "name": "Proposal_of_marriage_by_Don_Gonzales",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Proposal_of_marriage_by_Don_Gonzales"
+     },
+     "id": "Love"
+    },
+    {
+     "name": "Remorse",
+     "hasIntensity": 0.7,
+     "quote": "Wretch that I am! to survive the loss of such an excellent woman, endeared to my remembrance by the most tender offices of wedlock, happily exercised for the space of five-and-twenty years! Forgive these tears; they are not the drops of weakness, but remorse.",
+     "hasObject": {
+      "name": "Memories_of_his_deceased_wife",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Memories_of_his_deceased_wife"
+     },
+     "causedBy": {
+      "name": "Recalling_memories_of_his_deceased_wife",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Recalling_memories_of_his_deceased_wife"
+     },
+     "id": "Remorse"
+    }
+   ],
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Don_Diego_de_Zelos"
+  },
+  {
+   "name": "Madame_dOrgullo",
+   "feels": [
+    {
+     "name": "Joy",
+     "hasIntensity": 0.8,
+     "quote": "Donna Estifania, and her beautiful daughter the fair Antonia, who, advancing with the most amiable sweetness, thanked me in very warm expressions of acknowledgment, for the generosity of my conduct towards her father.",
+     "hasObject": {
+      "name": "Generosity_of_Don_Diego_de_Zelos",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Generosity_of_Don_Diego_de_Zelos"
+     },
+     "causedBy": {
+      "name": "Receiving_Don_Diego_de_Zelos_with_gratitude",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Receiving_Don_Diego_de_Zelos_with_gratitude"
+     },
+     "id": "Joy"
+    }
+   ],
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Madame_dOrgullo"
+  },
+  {
+   "name": "Antonia",
+   "feels": [
+    {
+     "name": "Love",
+     "hasIntensity": 0.8,
+     "quote": "I had the good fortune to espouse the charming Antonia, who submitted to the will of her father without reluctance.",
+     "hasObject": {
+      "name": "Marriage_proposal",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Marriage_proposal"
+     },
+     "causedBy": {
+      "name": "Proposal_of_marriage_by_Don_Gonzales",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Proposal_of_marriage_by_Don_Gonzales"
+     },
+     "id": "Love"
+    }
+   ],
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Antonia"
+  }
+ ],
+ "Events": [
+  {
+   "name": "Receiving_a_letter_of_esteem_from_his_colonel",
+   "takePlaceAt": {
+    "name": "Receiving_a_letter_of_esteem_from_his_colonel",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Receiving_a_letter_of_esteem_from_his_colonel"
+   },
+   "hasParticipant": [
+    {
+     "name": "Don_Diego_de_Zelos",
+     "id": "texts/theadventuresofferdinandcountfathom.txt#Don_Diego_de_Zelos"
+    },
+    {
+     "name": "Madame_dOrgullo",
+     "id": "texts/theadventuresofferdinandcountfathom.txt#Madame_dOrgullo"
+    },
+    {
+     "name": "Antonia",
+     "id": "texts/theadventuresofferdinandcountfathom.txt#Antonia"
+    }
+   ],
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Receiving_a_letter_of_esteem_from_his_colonel"
+  },
+  {
+   "name": "Proposal_of_marriage_by_Don_Gonzales",
+   "takePlaceAt": {
+    "name": "Proposal_of_marriage_by_Don_Gonzales",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Proposal_of_marriage_by_Don_Gonzales"
+   },
+   "hasParticipant": [
+    {
+     "name": "Don_Diego_de_Zelos",
+     "id": "texts/theadventuresofferdinandcountfathom.txt#Don_Diego_de_Zelos"
+    },
+    {
+     "name": "Don_Gonzales",
+     "id": "texts/theadventuresofferdinandcountfathom.txt#Don_Gonzales"
+    }
+   ],
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Proposal_of_marriage_by_Don_Gonzales"
+  },
+  {
+   "name": "Recalling_memories_of_his_deceased_wife",
+   "takePlaceAt": {
+    "name": "Recalling_memories_of_his_deceased_wife",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Recalling_memories_of_his_deceased_wife"
+   },
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Recalling_memories_of_his_deceased_wife"
+  },
+  {
+   "name": "Receiving_Don_Diego_de_Zelos_with_gratitude",
+   "takePlaceAt": {
+    "name": "Receiving_Don_Diego_de_Zelos_with_gratitude",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Receiving_Don_Diego_de_Zelos_with_gratitude"
+   },
+   "hasParticipant": [
+    {
+     "name": "Madame_dOrgullo",
+     "id": "texts/theadventuresofferdinandcountfathom.txt#Madame_dOrgullo"
+    },
+    {
+     "name": "Don_Diego_de_Zelos",
+     "id": "texts/theadventuresofferdinandcountfathom.txt#Don_Diego_de_Zelos"
+    },
+    {
+     "name": "Antonia",
+     "id": "texts/theadventuresofferdinandcountfathom.txt#Antonia"
+    }
+   ],
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Receiving_Don_Diego_de_Zelos_with_gratitude"
+  },
+  {
+   "name": "Proposal_of_marriage_by_Don_Gonzales",
+   "takePlaceAt": {
+    "name": "Proposal_of_marriage_by_Don_Gonzales",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Proposal_of_marriage_by_Don_Gonzales"
+   },
+   "hasParticipant": [
+    {
+     "name": "Don_Diego_de_Zelos",
+     "id": "texts/theadventuresofferdinandcountfathom.txt#Don_Diego_de_Zelos"
+    },
+    {
+     "name": "Don_Gonzales",
+     "id": "texts/theadventuresofferdinandcountfathom.txt#Don_Gonzales"
+    }
+   ],
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Proposal_of_marriage_by_Don_Gonzales"
+  }
+ ],
+ "Places": [
+  {
+   "name": "Diningroom",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Diningroom"
+  },
+  {
+   "name": "Don_Gonzales_quarters",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Don_Gonzales_quarters"
+  },
+  {
+   "name": "Reflection",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Reflection"
+  },
+  {
+   "name": "Diningroom",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Diningroom"
+  },
+  {
+   "name": "Don_Gonzales_quarters",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Don_Gonzales_quarters"
+  }
+ ]
+}

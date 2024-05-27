@@ -1,0 +1,138 @@
+{
+ "FictionalCharacters": [
+  {
+   "name": "Narrator",
+   "feels": [
+    {
+     "name": "Joy",
+     "hasIntensity": 0.7,
+     "quote": "But even so, amid the tornadoed Atlantic of my being, do I myself still for ever centrally disport in mute calm; and while ponderous planets of unwaning woe revolve round me, deep down and deep inland there I still bathe me in eternal mildness of joy.",
+     "hasObject": {
+      "name": "Peaceful_concernments_of_the_whales",
+      "id": "texts/mobydick.txt#Peaceful_concernments_of_the_whales"
+     },
+     "causedBy": {
+      "name": "Observing_the_peaceful_concernments_of_the_whales",
+      "id": "texts/mobydick.txt#Observing_the_peaceful_concernments_of_the_whales"
+     },
+     "id": "Joy"
+    },
+    {
+     "name": "Fear",
+     "hasIntensity": 0.8,
+     "quote": "But the sight of the enraged drugged whales now and then blindly darting to and fro across the circles, was nothing to what at last met our eyes.",
+     "hasObject": {
+      "name": "Enraged_drugged_whales",
+      "id": "texts/mobydick.txt#Enraged_drugged_whales"
+     },
+     "causedBy": {
+      "name": "Seeing_the_enraged_drugged_whales",
+      "id": "texts/mobydick.txt#Seeing_the_enraged_drugged_whales"
+     },
+     "id": "Fear"
+    },
+    {
+     "name": "Ahab",
+     "feels": [
+      {
+       "name": "Anxiety",
+       "hasIntensity": 0.9,
+       "quote": "“Oars! Oars!” he intensely whispered, seizing the helm—“gripe your oars, and clutch your souls, now! My God, men, stand by! Shove him off, you Queequeg—the whale there!—prick him!—hit him! Stand up—stand up, and stay so! Spring, men—pull, men; never mind their backs—scrape them!—scrape away!”",
+       "hasObject": {
+        "name": "Navigating_through_the_tumultuous_waters_surrounded_by_whales",
+        "id": "texts/mobydick.txt#Navigating_through_the_tumultuous_waters_surrounde"
+       },
+       "causedBy": {
+        "name": "Navigating_through_the_tumultuous_waters_surrounded_by_whales",
+        "takePlaceAt": {
+         "name": "In_the_midst_of_the_commotion_among_the_whales",
+         "id": "texts/mobydick.txt#In_the_midst_of_the_commotion_among_the_whales"
+        },
+        "id": "texts/mobydick.txt#Navigating_through_the_tumultuous_waters_surrounde"
+       },
+       "id": "texts/mobydick.txt#Anxiety"
+      }
+     ],
+     "id": "Ahab"
+    },
+    {
+     "name": "Starbuck",
+     "feels": [
+      {
+       "name": "Determination",
+       "hasIntensity": 0.8,
+       "quote": "“Oars! Oars!” he intensely whispered, seizing the helm—“gripe your oars, and clutch your souls, now! My God, men, stand by! Shove him off, you Queequeg—the whale there!—prick him!—hit him! Stand up—stand up, and stay so! Spring, men—pull, men; never mind their backs—scrape them!—scrape away!”",
+       "hasObject": {
+        "name": "Navigating_through_the_tumultuous_waters_surrounded_by_whales",
+        "id": "texts/mobydick.txt#Navigating_through_the_tumultuous_waters_surrounde"
+       },
+       "causedBy": {
+        "name": "Navigating_through_the_tumultuous_waters_surrounded_by_whales",
+        "takePlaceAt": {
+         "name": "In_the_midst_of_the_commotion_among_the_whales",
+         "id": "texts/mobydick.txt#In_the_midst_of_the_commotion_among_the_whales"
+        },
+        "id": "texts/mobydick.txt#Navigating_through_the_tumultuous_waters_surrounde"
+       },
+       "id": "texts/mobydick.txt#Determination"
+      }
+     ],
+     "id": "Starbuck"
+    },
+    {
+     "name": "Queequeg",
+     "feels": [
+      {
+       "name": "Loss",
+       "hasIntensity": 0.6,
+       "quote": "This lucky salvation was cheaply purchased by the loss of Queequeg’s hat, who, while standing in the bows to prick the fugitive whales, had his hat taken clean from his head by the air-eddy made by the sudden tossing of a pair of broad flukes close by.",
+       "hasObject": {
+        "name": "Hat",
+        "id": "texts/mobydick.txt#Hat"
+       },
+       "causedBy": {
+        "name": "Losing_his_hat",
+        "takePlaceAt": {
+         "name": "In_the_midst_of_the_commotion_among_the_whales",
+         "id": "texts/mobydick.txt#In_the_midst_of_the_commotion_among_the_whales"
+        },
+        "id": "texts/mobydick.txt#Losing_his_hat"
+       },
+       "id": "texts/mobydick.txt#Loss"
+      }
+     ],
+     "id": "Queequeg"
+    }
+   ],
+   "id": "texts/mobydick.txt#Narrator"
+  }
+ ],
+ "Events": [
+  {
+   "name": "Observing_the_peaceful_concernments_of_the_whales",
+   "takePlaceAt": {
+    "name": "Observing_the_peaceful_concernments_of_the_whales",
+    "id": "texts/mobydick.txt#Observing_the_peaceful_concernments_of_the_whales"
+   },
+   "id": "texts/mobydick.txt#Observing_the_peaceful_concernments_of_the_whales"
+  },
+  {
+   "name": "Seeing_the_enraged_drugged_whales",
+   "takePlaceAt": {
+    "name": "Seeing_the_enraged_drugged_whales",
+    "id": "texts/mobydick.txt#Seeing_the_enraged_drugged_whales"
+   },
+   "id": "texts/mobydick.txt#Seeing_the_enraged_drugged_whales"
+  }
+ ],
+ "Places": [
+  {
+   "name": "In_the_midst_of_the_commotion_among_the_whales",
+   "id": "texts/mobydick.txt#In_the_midst_of_the_commotion_among_the_whales"
+  },
+  {
+   "name": "In_the_midst_of_the_commotion_among_the_whales",
+   "id": "texts/mobydick.txt#In_the_midst_of_the_commotion_among_the_whales"
+  }
+ ]
+}

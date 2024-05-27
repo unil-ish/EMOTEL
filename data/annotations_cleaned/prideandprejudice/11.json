@@ -1,0 +1,156 @@
+{
+ "FictionalCharacters": [
+  {
+   "name": "Elizabeth_Bennet",
+   "feels": [
+    {
+     "name": "Shame",
+     "hasIntensity": 0.8,
+     "quote": "Elizabeth's misery increased at such unnecessary, such officious attention!",
+     "hasObject": {
+      "name": "Attention",
+      "id": "texts/prideandprejudice.txt#Attention"
+     },
+     "causedBy": {
+      "name": "Mrs_Bennet_s_attention_towards_Mr_Bingley",
+      "id": "texts/prideandprejudice.txt#Mrs_Bennet_s_attention_towards_Mr_Bingley"
+     },
+     "id": "Shame"
+    },
+    {
+     "name": "Disappointment",
+     "hasIntensity": 0.9,
+     "quote": "She was disappointed, and angry with herself for being so.",
+     "hasObject": {
+      "name": "Behavior",
+      "id": "texts/prideandprejudice.txt#Behavior"
+     },
+     "causedBy": {
+      "name": "Mr_Darcy_s_behavior",
+      "id": "texts/prideandprejudice.txt#Mr_Darcy_s_behavior"
+     },
+     "id": "Disappointment"
+    },
+    {
+     "name": "Anxiety",
+     "hasIntensity": 0.7,
+     "quote": "Anxious and uneasy, the period which passed in the drawing-room before the gentlemen came, was wearisome and dull to a degree that almost made her uncivil.",
+     "hasObject": {
+      "name": "Waiting",
+      "id": "texts/prideandprejudice.txt#Waiting"
+     },
+     "causedBy": {
+      "name": "Waiting_for_the_gentlemen",
+      "id": "texts/prideandprejudice.txt#Waiting_for_the_gentlemen"
+     },
+     "id": "Anxiety"
+    },
+    {
+     "name": "Frustration",
+     "hasIntensity": 0.8,
+     "quote": "She now lost every expectation of pleasure.",
+     "hasObject": {
+      "name": "Joining",
+      "id": "texts/prideandprejudice.txt#Joining"
+     },
+     "causedBy": {
+      "name": "Not_being_able_to_join_Mr_Darcy",
+      "id": "texts/prideandprejudice.txt#Not_being_able_to_join_Mr_Darcy"
+     },
+     "id": "Frustration"
+    }
+   ],
+   "id": "texts/prideandprejudice.txt#Elizabeth_Bennet"
+  }
+ ],
+ "Events": [
+  {
+   "name": "Mrs_Bennet_s_attention_towards_Mr_Bingley",
+   "takePlaceAt": {
+    "name": "Mrs_Bennet_s_attention_towards_Mr_Bingley",
+    "id": "texts/prideandprejudice.txt#Mrs_Bennet_s_attention_towards_Mr_Bingley"
+   },
+   "hasParticipant": [
+    {
+     "name": "Elizabeth_Bennet",
+     "id": "texts/prideandprejudice.txt#Elizabeth_Bennet"
+    },
+    {
+     "name": "Mrs_Bennet",
+     "id": "texts/prideandprejudice.txt#Mrs_Bennet"
+    },
+    {
+     "name": "Mr_Bingley",
+     "id": "texts/prideandprejudice.txt#Mr_Bingley"
+    }
+   ],
+   "id": "texts/prideandprejudice.txt#Mrs_Bennet_s_attention_towards_Mr_Bingley"
+  },
+  {
+   "name": "Mr_Darcy_s_behavior",
+   "takePlaceAt": {
+    "name": "Mr_Darcy_s_behavior",
+    "id": "texts/prideandprejudice.txt#Mr_Darcy_s_behavior"
+   },
+   "hasParticipant": [
+    {
+     "name": "Elizabeth_Bennet",
+     "id": "texts/prideandprejudice.txt#Elizabeth_Bennet"
+    },
+    {
+     "name": "Mr_Darcy",
+     "id": "texts/prideandprejudice.txt#Mr_Darcy"
+    }
+   ],
+   "id": "texts/prideandprejudice.txt#Mr_Darcy_s_behavior"
+  },
+  {
+   "name": "Waiting_for_the_gentlemen",
+   "takePlaceAt": {
+    "name": "Waiting_for_the_gentlemen",
+    "id": "texts/prideandprejudice.txt#Waiting_for_the_gentlemen"
+   },
+   "hasParticipant": {
+    "name": "Elizabeth_Bennet",
+    "id": "texts/prideandprejudice.txt#Elizabeth_Bennet"
+   },
+   "id": "texts/prideandprejudice.txt#Waiting_for_the_gentlemen"
+  },
+  {
+   "name": "Not_being_able_to_join_Mr_Darcy",
+   "takePlaceAt": {
+    "name": "Not_being_able_to_join_Mr_Darcy",
+    "id": "texts/prideandprejudice.txt#Not_being_able_to_join_Mr_Darcy"
+   },
+   "hasParticipant": [
+    {
+     "name": "Elizabeth_Bennet",
+     "id": "texts/prideandprejudice.txt#Elizabeth_Bennet"
+    },
+    {
+     "name": "Mr_Darcy",
+     "id": "texts/prideandprejudice.txt#Mr_Darcy"
+    }
+   ],
+   "id": "texts/prideandprejudice.txt#Not_being_able_to_join_Mr_Darcy"
+  }
+ ],
+ "Places": [
+  {
+   "name": "Longbourn",
+   "id": "texts/prideandprejudice.txt#Longbourn"
+  },
+  {
+   "name": "Longbourn",
+   "id": "texts/prideandprejudice.txt#Longbourn"
+  },
+  {
+   "name": "Longbourn",
+   "id": "texts/prideandprejudice.txt#Longbourn"
+  },
+  {
+   "name": "Longbourn",
+   "id": "texts/prideandprejudice.txt#Longbourn"
+  }
+ ]
+}

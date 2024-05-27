@@ -1,0 +1,282 @@
+{
+ "FictionalCharacters": [
+  {
+   "name": "Mr_Collins",
+   "feels": [
+    {
+     "name": "Joy",
+     "hasIntensity": 0.9,
+     "quote": "The pain of separation, however, might be alleviated on his side by preparations for the reception of his bride, as he had reason to hope, that shortly after his next return into Hertfordshire, the day would be fixed that was to make him the happiest of men.",
+     "hasObject": {
+      "name": "Reception_of_his_bride",
+      "id": "texts/prideandprejudice.txt#Reception_of_his_bride"
+     },
+     "causedBy": {
+      "name": "Preparations_for_the_reception_of_his_bride",
+      "id": "texts/prideandprejudice.txt#Preparations_for_the_reception_of_his_bride"
+     },
+     "id": "Joy"
+    },
+    {
+     "name": "Sadness",
+     "hasIntensity": 0.7,
+     "quote": "He took leave of his relations at Longbourn with as much solemnity as before; wished his fair cousins health and happiness again, and promised their father another letter of thanks.",
+     "hasObject": {
+      "name": "Taking_leave",
+      "id": "texts/prideandprejudice.txt#Taking_leave"
+     },
+     "causedBy": {
+      "name": "Taking_leave_of_his_relations",
+      "id": "texts/prideandprejudice.txt#Taking_leave_of_his_relations"
+     },
+     "id": "Sadness"
+    }
+   ],
+   "id": "texts/prideandprejudice.txt#Mr_Collins"
+  },
+  {
+   "name": "Mrs_Bennet",
+   "feels": [
+    {
+     "name": "Annoyance",
+     "hasIntensity": 0.8,
+     "quote": "Mrs. Bennet still continued to wonder and repine at his returning no more; and though a day seldom passed in which Elizabeth did not account for it clearly, there seemed little chance of her ever considering it with less perplexity.",
+     "hasObject": {
+      "name": "Mr_Bingley_s_absence",
+      "id": "texts/prideandprejudice.txt#Mr_Bingley_s_absence"
+     },
+     "causedBy": {
+      "name": "Mr_Bingley_s_absence",
+      "id": "texts/prideandprejudice.txt#Mr_Bingley_s_absence"
+     },
+     "id": "Annoyance"
+    },
+    {
+     "name": "Nervousness",
+     "hasIntensity": 0.7,
+     "quote": "It makes me very nervous and poorly, to be thwarted so in my own family, and to have neighbours who think of themselves before anybody else.",
+     "hasObject": {
+      "name": "Feeling_thwarted",
+      "id": "texts/prideandprejudice.txt#Feeling_thwarted"
+     },
+     "causedBy": {
+      "name": "Feeling_thwarted_in_her_own_family",
+      "id": "texts/prideandprejudice.txt#Feeling_thwarted_in_her_own_family"
+     },
+     "id": "Nervousness"
+    }
+   ],
+   "id": "texts/prideandprejudice.txt#Mrs_Bennet"
+  },
+  {
+   "name": "Elizabeth",
+   "feels": [
+    {
+     "name": "Indignation",
+     "hasIntensity": 0.8,
+     "quote": "Elizabeth heard it in silent indignation. Her heart was divided between concern for her sister and resentment against all others.",
+     "hasObject": {
+      "name": "News_about_Miss_Bingley_s_letter",
+      "id": "texts/prideandprejudice.txt#News_about_Miss_Bingley_s_letter"
+     },
+     "causedBy": {
+      "name": "Receiving_news_about_Miss_Bingley_s_letter",
+      "id": "texts/prideandprejudice.txt#Receiving_news_about_Miss_Bingley_s_letter"
+     },
+     "id": "Indignation"
+    },
+    {
+     "name": "Resentment",
+     "hasIntensity": 0.7,
+     "quote": "Her heart was divided between concern for her sister and resentment against all others.",
+     "hasObject": {
+      "name": "News_about_Miss_Bingley_s_letter",
+      "id": "texts/prideandprejudice.txt#News_about_Miss_Bingley_s_letter"
+     },
+     "causedBy": {
+      "name": "Receiving_news_about_Miss_Bingley_s_letter",
+      "id": "texts/prideandprejudice.txt#Receiving_news_about_Miss_Bingley_s_letter"
+     },
+     "id": "Resentment"
+    }
+   ],
+   "id": "texts/prideandprejudice.txt#Elizabeth"
+  },
+  {
+   "name": "Mrs_Gardiner",
+   "feels": [
+    {
+     "name": "Compassion",
+     "hasIntensity": 0.8,
+     "quote": "Mrs. Gardiner, to whom the chief of this news had been given before, in the course of Jane and Elizabeth’s correspondence with her, made her sister a slight answer, and, in compassion to her nieces, turned the conversation.",
+     "hasObject": {
+      "name": "News_about_Jane_and_Elizabeth_s_correspondence",
+      "id": "texts/prideandprejudice.txt#News_about_Jane_and_Elizabeth_s_correspondence"
+     },
+     "causedBy": {
+      "name": "Receiving_news_about_Jane_and_Elizabeth_s_correspondence",
+      "id": "texts/prideandprejudice.txt#Receiving_news_about_Jane_and_Elizabeth_s_correspo"
+     },
+     "id": "Compassion"
+    }
+   ],
+   "id": "texts/prideandprejudice.txt#Mrs_Gardiner"
+  }
+ ],
+ "Events": [
+  {
+   "name": "Preparations_for_the_reception_of_his_bride",
+   "takePlaceAt": {
+    "name": "Preparations_for_the_reception_of_his_bride",
+    "id": "texts/prideandprejudice.txt#Preparations_for_the_reception_of_his_bride"
+   },
+   "hasParticipant": [
+    {
+     "name": "Mr_Collins",
+     "id": "texts/prideandprejudice.txt#Mr_Collins"
+    },
+    {
+     "name": "his_bride",
+     "id": "texts/prideandprejudice.txt#his_bride"
+    }
+   ],
+   "id": "texts/prideandprejudice.txt#Preparations_for_the_reception_of_his_bride"
+  },
+  {
+   "name": "Taking_leave_of_his_relations",
+   "takePlaceAt": {
+    "name": "Taking_leave_of_his_relations",
+    "id": "texts/prideandprejudice.txt#Taking_leave_of_his_relations"
+   },
+   "hasParticipant": [
+    {
+     "name": "Mr_Collins",
+     "id": "texts/prideandprejudice.txt#Mr_Collins"
+    },
+    {
+     "name": "his_fair_cousins",
+     "id": "texts/prideandprejudice.txt#his_fair_cousins"
+    }
+   ],
+   "id": "texts/prideandprejudice.txt#Taking_leave_of_his_relations"
+  },
+  {
+   "name": "Mr_Bingley_s_absence",
+   "takePlaceAt": {
+    "name": "Mr_Bingley_s_absence",
+    "id": "texts/prideandprejudice.txt#Mr_Bingley_s_absence"
+   },
+   "hasParticipant": [
+    {
+     "name": "Mrs_Bennet",
+     "id": "texts/prideandprejudice.txt#Mrs_Bennet"
+    },
+    {
+     "name": "Elizabeth",
+     "id": "texts/prideandprejudice.txt#Elizabeth"
+    }
+   ],
+   "id": "texts/prideandprejudice.txt#Mr_Bingley_s_absence"
+  },
+  {
+   "name": "Feeling_thwarted_in_her_own_family",
+   "takePlaceAt": {
+    "name": "Feeling_thwarted_in_her_own_family",
+    "id": "texts/prideandprejudice.txt#Feeling_thwarted_in_her_own_family"
+   },
+   "hasParticipant": {
+    "name": "Mrs_Bennet",
+    "id": "texts/prideandprejudice.txt#Mrs_Bennet"
+   },
+   "id": "texts/prideandprejudice.txt#Feeling_thwarted_in_her_own_family"
+  },
+  {
+   "name": "Receiving_news_about_Miss_Bingley_s_letter",
+   "takePlaceAt": {
+    "name": "Receiving_news_about_Miss_Bingley_s_letter",
+    "id": "texts/prideandprejudice.txt#Receiving_news_about_Miss_Bingley_s_letter"
+   },
+   "hasParticipant": [
+    {
+     "name": "Elizabeth",
+     "id": "texts/prideandprejudice.txt#Elizabeth"
+    },
+    {
+     "name": "Miss_Bingley",
+     "id": "texts/prideandprejudice.txt#Miss_Bingley"
+    }
+   ],
+   "id": "texts/prideandprejudice.txt#Receiving_news_about_Miss_Bingley_s_letter"
+  },
+  {
+   "name": "Receiving_news_about_Miss_Bingley_s_letter",
+   "takePlaceAt": {
+    "name": "Receiving_news_about_Miss_Bingley_s_letter",
+    "id": "texts/prideandprejudice.txt#Receiving_news_about_Miss_Bingley_s_letter"
+   },
+   "hasParticipant": [
+    {
+     "name": "Elizabeth",
+     "id": "texts/prideandprejudice.txt#Elizabeth"
+    },
+    {
+     "name": "Miss_Bingley",
+     "id": "texts/prideandprejudice.txt#Miss_Bingley"
+    }
+   ],
+   "id": "texts/prideandprejudice.txt#Receiving_news_about_Miss_Bingley_s_letter"
+  },
+  {
+   "name": "Receiving_news_about_Jane_and_Elizabeth_s_correspondence",
+   "takePlaceAt": {
+    "name": "Receiving_news_about_Jane_and_Elizabeth_s_correspondence",
+    "id": "texts/prideandprejudice.txt#Receiving_news_about_Jane_and_Elizabeth_s_correspo"
+   },
+   "hasParticipant": [
+    {
+     "name": "Mrs_Gardiner",
+     "id": "texts/prideandprejudice.txt#Mrs_Gardiner"
+    },
+    {
+     "name": "Jane",
+     "id": "texts/prideandprejudice.txt#Jane"
+    },
+    {
+     "name": "Elizabeth",
+     "id": "texts/prideandprejudice.txt#Elizabeth"
+    }
+   ],
+   "id": "texts/prideandprejudice.txt#Receiving_news_about_Jane_and_Elizabeth_s_correspo"
+  }
+ ],
+ "Places": [
+  {
+   "name": "Longbourn",
+   "id": "texts/prideandprejudice.txt#Longbourn"
+  },
+  {
+   "name": "Longbourn",
+   "id": "texts/prideandprejudice.txt#Longbourn"
+  },
+  {
+   "name": "Longbourn",
+   "id": "texts/prideandprejudice.txt#Longbourn"
+  },
+  {
+   "name": "Longbourn",
+   "id": "texts/prideandprejudice.txt#Longbourn"
+  },
+  {
+   "name": "Longbourn",
+   "id": "texts/prideandprejudice.txt#Longbourn"
+  },
+  {
+   "name": "Longbourn",
+   "id": "texts/prideandprejudice.txt#Longbourn"
+  },
+  {
+   "name": "Longbourn",
+   "id": "texts/prideandprejudice.txt#Longbourn"
+  }
+ ]
+}

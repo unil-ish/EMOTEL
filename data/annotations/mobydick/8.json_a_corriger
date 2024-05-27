@@ -1,0 +1,419 @@
+{
+  "FictionalCharacters": [
+    {
+      "name": "Captain Ahab",
+      "feels": [
+        {
+          "name": "Trust",
+          "hasIntensity": 0.6,
+          "quote": "But not so in the reality, perhaps. Though the gregarious sperm whales have their regular seasons for particular grounds, yet in general you cannot conclude that the herds which haunted such and such a latitude or longitude this year, say, will turn out to be identically the same with those that were found there the preceding season; though there are peculiar and unquestionable instances where the contrary of this has proved true.",
+          "causedByEvent": {
+            "name": "Realization of the unpredictability of whale movements",
+            "takePlaceAt": {
+              "name": "Cabin"
+            }
+          },
+          "hasObject": {
+            "name": "Whale movements"
+          }
+        },
+        {
+          "name": "Surprise",
+          "hasIntensity": 0.7,
+          "quote": "Was it not so, O Timor Tom! thou famed leviathan, scarred like an iceberg, who so long did’st lurk in the Oriental straits of that name, whose spout was oft seen from the palmy beach of Ombay?",
+          "causedByEvent": {
+            "name": "Recognition of famous whales",
+            "takePlaceAt": {
+              "name": "Ocean"
+            }
+          },
+          "hasObject": {
+            "name": "Famous whales"
+          }
+        },
+        {
+          "name": "Anger",
+          "hasIntensity": 0.8,
+          "quote": "Often, when forced from his hammock by exhausting and intolerably vivid dreams of the night, which, resuming his own intense thoughts through the day, carried them on amid a clashing of phrensies, and whirled them round and round and round in his blazing brain, till the very throbbing of his life-spot became insufferable anguish...",
+          "causedByEvent": {
+            "name": "Exhausting and vivid dreams",
+            "takePlaceAt": {
+              "name": "Cabin"
+            }
+          },
+          "hasObject": {
+            "name": "Vivid dreams"
+          }
+        },
+        {
+          "name": "Joy",
+          "hasIntensity": 0.5,
+          "quote": "But this is not all. New Zealand Tom and Don Miguel, after at various times creating great havoc among the boats of different vessels, were finally gone in quest of, systematically hunted out, chased and killed by valiant whaling captains...",
+          "causedByEvent": {
+            "name": "Recognition of successful whale hunting",
+            "takePlaceAt": {
+              "name": "Ocean"
+            }
+          },
+          "hasObject": {
+            "name": "Successful whale hunting"
+          }
+        },
+        {
+          "name": "Anticipation",
+          "hasIntensity": 0.6,
+          "quote": "But not only did each of these famous whales enjoy great individual celebrity—Nay, you may call it an ocean-wide renown; not only was he famous in life and now is immortal in forecastle stories after death...",
+          "causedByEvent": {
+            "name": "Recognition of famous whales",
+            "takePlaceAt": {
+              "name": "Ocean"
+            }
+          },
+          "hasObject": {
+            "name": "Famous whales"
+          }
+        },
+        {
+          "name": "Fear",
+          "hasIntensity": 0.7,
+          "quote": "Often, when forced from his hammock by exhausting and intolerably vivid dreams of the night, which, resuming his own intense thoughts through the day, carried them on amid a clashing of phrensies, and whirled them round and round and round in his blazing brain...",
+          "causedByEvent": {
+            "name": "Exhausting and vivid dreams",
+            "takePlaceAt": {
+              "name": "Cabin"
+            }
+          },
+          "hasObject": {
+            "name": "Vivid dreams"
+          }
+        },
+        {
+          "name": "Disgust",
+          "hasIntensity": 0.4,
+          "quote": "But this is not all. New Zealand Tom and Don Miguel, after at various times creating great havoc among the boats of different vessels, were finally gone in quest of, systematically hunted out, chased and killed by valiant whaling captains...",
+          "causedByEvent": {
+            "name": "Recognition of successful whale hunting",
+            "takePlaceAt": {
+              "name": "Ocean"
+            }
+          },
+          "hasObject": {
+            "name": "Successful whale hunting"
+          }
+        },
+        {
+          "name": "Sadness",
+          "hasIntensity": 0.5,
+          "quote": "Often, when forced from his hammock by exhausting and intolerably vivid dreams of the night, which, resuming his own intense thoughts through the day, carried them on amid a clashing of phrensies, and whirled them round and round and round in his blazing brain...",
+          "causedByEvent": {
+            "name": "Exhausting and vivid dreams",
+            "takePlaceAt": {
+              "name": "Cabin"
+            }
+          },
+          "hasObject": {
+            "name": "Vivid dreams"
+          }
+        },
+        {
+          "name": "Acceptance",
+          "hasIntensity": 0.3,
+          "quote": "I do not know where I can find a better place than just here, to make mention of one or two other things, which to me seem important, as in printed form establishing in all respects the reasonableness of the whole story of the White Whale...",
+          "causedByEvent": {
+            "name": "Recognition of the importance of establishing the reasonableness of the story",
+            "takePlaceAt": {
+              "name": "Ocean"
+            }
+          },
+          "hasObject": {
+            "name": "Reasonableness of the story"
+          }
+        },
+        {
+          "name": "Admiration",
+          "hasIntensity": 0.6,
+          "quote": "But not only did each of these famous whales enjoy great individual celebrity—Nay, you may call it an ocean-wide renown; not only was he famous in life and now is immortal in forecastle stories after death...",
+          "causedByEvent": {
+            "name": "Recognition of famous whales",
+            "takePlaceAt": {
+              "name": "Ocean"
+            }
+          },
+          "hasObject": {
+            "name": "Famous whales"
+          }
+        },
+        {
+          "name": "Amazement",
+          "hasIntensity": 0.7,
+          "quote": "But not only did each of these famous whales enjoy great individual celebrity—Nay, you may call it an ocean-wide renown; not only was he famous in life and now is immortal in forecastle stories after death...",
+          "causedByEvent": {
+            "name": "Recognition of famous whales",
+            "takePlaceAt": {
+              "name": "Ocean"
+            }
+          },
+          "hasObject": {
+            "name": "Famous whales"
+          }
+        },
+        {
+          "name": "Distraction",
+          "hasIntensity": 0.4,
+          "quote": "Often, when forced from his hammock by exhausting and intolerably vivid dreams of the night, which, resuming his own intense thoughts through the day, carried them on amid a clashing of phrensies, and whirled them round and round and round in his blazing brain...",
+          "causedByEvent": {
+            "name": "Exhausting and vivid dreams",
+            "takePlaceAt": {
+              "name": "Cabin"
+            }
+          },
+          "hasObject": {
+            "name": "Vivid dreams"
+          }
+        },
+        {
+          "name": "Terror",
+          "hasIntensity": 0.7,
+          "quote": "Often, when forced from his hammock by exhausting and intolerably vivid dreams of the night, which, resuming his own intense thoughts through the day, carried them on amid a clashing of phrensies, and whirled them round and round and round in his blazing brain...",
+          "causedByEvent": {
+            "name": "Exhausting and vivid dreams",
+            "takePlaceAt": {
+              "name": "Cabin"
+            }
+          },
+          "hasObject": {
+            "name": "Vivid dreams"
+          }
+        },
+        {
+          "name": "Apprehension",
+          "hasIntensity": 0.5,
+          "quote": "I do not know where I can find a better place than just here, to make mention of one or two other things, which to me seem important, as in printed form establishing in all respects the reasonableness of the whole story of the White Whale...",
+          "causedByEvent": {
+            "name": "Recognition of the importance of establishing the reasonableness of the story",
+            "takePlaceAt": {
+              "name": "Ocean"
+            }
+          },
+          "hasObject": {
+            "name": "Reasonableness of the story"
+          }
+        },
+        {
+          "name": "Boredom",
+          "hasIntensity": 0.3,
+          "quote": "I do not know where I can find a better place than just here, to make mention of one or two other things, which to me seem important, as in printed form establishing in all respects the reasonableness of the whole story of the White Whale...",
+          "causedByEvent": {
+            "name": "Recognition of the importance of establishing the reasonableness of the story",
+            "takePlaceAt": {
+              "name": "Ocean"
+            }
+          },
+          "hasObject": {
+            "name": "Reasonableness of the story"
+          }
+        },
+        {
+          "name": "Loathing",
+          "hasIntensity": 0.4,
+          "quote": "Often, when forced from his hammock by exhausting and intolerably vivid dreams of the night, which, resuming his own intense thoughts through the day, carried them on amid a clashing of phrensies, and whirled them round and round and round in his blazing brain...",
+          "causedByEvent": {
+            "name": "Exhausting and vivid dreams",
+            "takePlaceAt": {
+              "name": "Cabin"
+            }
+          },
+          "hasObject": {
+            "name": "Vivid dreams"
+          }
+        },
+        {
+          "name": "Interest",
+          "hasIntensity": 0.6,
+          "quote": "But not only did each of these famous whales enjoy great individual celebrity—Nay, you may call it an ocean-wide renown; not only was he famous in life and now is immortal in forecastle stories after death...",
+          "causedByEvent": {
+            "name": "Recognition of famous whales",
+            "takePlaceAt": {
+              "name": "Ocean"
+            }
+          },
+          "hasObject": {
+            "name": "Famous whales"
+          }
+        },
+        {
+          "name": "Vigilance",
+          "hasIntensity": 0.7,
+          "quote": "Often, when forced from his hammock by exhausting and intolerably vivid dreams of the night, which, resuming his own intense thoughts through the day, carried them on amid a clashing of phrensies, and whirled them round and round and round in his blazing brain...",
+          "causedByEvent": {
+            "name": "Exhausting and vivid dreams",
+            "takePlaceAt": {
+              "name": "Cabin"
+            }
+          },
+          "hasObject": {
+            "name": "Vivid dreams"
+          }
+        },
+        {
+          "name": "Annoyance",
+          "hasIntensity": 0.5,
+          "quote": "But not only did each of these famous whales enjoy great individual celebrity—Nay, you may call it an ocean-wide renown; not only was he famous in life and now is immortal in forecastle stories after death...",
+          "causedByEvent": {
+            "name": "Recognition of famous whales",
+            "takePlaceAt": {
+              "name": "Ocean"
+            }
+          },
+          "hasObject": {
+            "name": "Famous whales"
+          }
+        },
+        {
+          "name": "Rage",
+          "hasIntensity": 0.8,
+          "quote": "Often, when forced from his hammock by exhausting and intolerably vivid dreams of the night, which, resuming his own intense thoughts through the day, carried them on amid a clashing of phrensies, and whirled them round and round and round in his blazing brain...",
+          "causedByEvent": {
+            "name": "Exhausting and vivid dreams",
+            "takePlaceAt": {
+              "name": "Cabin"
+            }
+          },
+          "hasObject": {
+            "name": "Vivid dreams"
+          }
+        },
+        {
+          "name": "Serenity",
+          "hasIntensity": 0.4,
+          "quote": "I do not know where I can find a better place than just here, to make mention of one or two other things, which to me seem important, as in printed form establishing in all respects the reasonableness of the whole story of the White Whale...",
+          "causedByEvent": {
+            "name": "Recognition of the importance of establishing the reasonableness of the story",
+            "takePlaceAt": {
+              "name": "Ocean"
+            }
+          },
+          "hasObject": {
+            "name": "Reasonableness of the story"
+          }
+        },
+        {
+          "name": "Ecstasy",
+          "hasIntensity": 0.6,
+          "quote": "But not only did each of these famous whales enjoy great individual celebrity—Nay, you may call it an ocean-wide renown; not only was he famous in life and now is immortal in forecastle stories after death...",
+          "causedByEvent": {
+            "name": "Recognition of famous whales",
+            "takePlaceAt": {
+              "name": "Ocean"
+            }
+          },
+          "hasObject": {
+            "name": "Famous whales"
+          }
+        },
+        {
+          "name": "Grief",
+          "hasIntensity": 0.5,
+          "quote": "Often, when forced from his hammock by exhausting and intolerably vivid dreams of the night, which, resuming his own intense thoughts through the day, carried them on amid a clashing of phrensies, and whirled them round and round and round in his blazing brain...",
+          "causedByEvent": {
+            "name": "Exhausting and vivid dreams",
+            "takePlaceAt": {
+              "name": "Cabin"
+            }
+          },
+          "hasObject": {
+            "name": "Vivid dreams"
+          }
+        },
+        {
+          "name": "Pensiveness",
+          "hasIntensity": 0.4,
+          "quote": "I do not know where I can find a better place than just here, to make mention of one or two other things, which to me seem important, as in printed form establishing in all respects the reasonableness of the whole story of the White Whale...",
+          "causedByEvent": {
+            "name": "Recognition of the importance of establishing the reasonableness of the story",
+            "takePlaceAt": {
+              "name": "Ocean"
+            }
+          },
+          "hasObject": {
+            "name": "Reasonableness of the story"
+          }
+        },
+        {
+          "name": "Contempt",
+          "hasIntensity": 0.5,
+          "quote": "But not only did each of these famous whales enjoy great individual celebrity—Nay, you may call it an ocean-wide renown; not only was he famous in life and now is immortal in forecastle stories after death...",
+          "causedByEvent": {
+            "name": "Recognition of famous whales",
+            "takePlaceAt": {
+              "name": "Ocean"
+            }
+          },
+          "hasObject": {
+            "name": "Famous whales"
+          }
+        },
+        {
+          "name": "Aggressiveness",
+          "hasIntensity": 0.7,
+          "quote": "Often, when forced from his hammock by exhausting and intolerably vivid dreams of the night, which, resuming his own intense thoughts through the day, carried them on amid a clashing of phrensies, and whirled them round and round and round in his blazing brain...",
+          "causedByEvent": {
+            "name": "Exhausting and vivid dreams",
+            "takePlaceAt": {
+              "name": "Cabin"
+            }
+          },
+          "hasObject": {
+            "name": "Vivid dreams"
+          }
+        },
+        {
+          "name": "Optimism",
+          "hasIntensity": 0.6,
+          "quote": "But not only did each of these famous whales enjoy great individual celebrity—Nay, you may call it an ocean-wide renown; not only was he famous in life and now is immortal in forecastle stories after death...",
+          "causedByEvent": {
+            "name": "Recognition of famous whales",
+            "takePlaceAt": {
+              "name": "Ocean"
+            }
+          },
+          "hasObject": {
+            "name": "Famous whales"
+          }
+        },
+        {
+          "name": "Love",
+          "hasIntensity": 0.5,
+          "quote": "But not only did each of these famous whales enjoy great individual celebrity—Nay, you may call it an ocean-wide renown; not only was he famous in life and now is immortal in forecastle stories after death...",
+          "causedByEvent": {
+            "name": "Recognition of famous whales",
+            "takePlaceAt": {
+              "name": "Ocean"
+            }
+          },
+          "hasObject": {
+            "name": "Famous whales"
+          }
+        },
+        {
+          "name": "Submission",
+          "hasIntensity": 0.4,
+          "quote": "I do not know where I can find a better place than just here, to make mention of one or two other things, which to me seem important, as in printed form establishing in all respects the reasonableness of the whole story of the White Whale...",
+          "causedByEvent": {
+            "name": "Recognition of the importance of establishing the reasonableness of the story",
+            "takePlaceAt": {
+              "name": "Ocean"
+            }
+          },
+          "hasObject": {
+            "name": "Reasonableness of the story"
+          }
+        },
+        {
+          "name": "Awe",
+          "hasIntensity": 0.7,
+          "quote": "But not only did each of these famous whales enjoy great individual celebrity—Nay, you may call it an ocean-wide renown; not only was he famous in life and now is immortal in forecastle stories after death...",
+          "causedByEvent": {
+            "name": "Recognition of famous whales",
+            "takePlaceAt": {
+             

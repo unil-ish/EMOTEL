@@ -1,0 +1,51 @@
+{
+ "FictionalCharacters": [
+  {
+   "name": "Narrator",
+   "feels": [
+    {
+     "name": "Delight",
+     "hasIntensity": 0.9,
+     "quote": "In the serene weather of the tropics it is exceedingly pleasant the mast-head; nay, to a dreamy meditative man it is delightful.",
+     "causedByEvent": {
+      "name": "Standing at the mast-head in serene weather",
+      "takePlaceAt": {
+       "name": "Mast-head of a whale-ship at sea"
+      }
+     },
+     "hasObject": {
+      "name": "Mast-head of a whale-ship"
+     }
+    },
+    {
+     "name": "Languor",
+     "hasIntensity": 0.8,
+     "quote": "For the most part, in this tropic whaling life, a sublime uneventfulness invests you; you hear no news; read no gazettes; extras with startling accounts of commonplaces never delude you into unnecessary excitements; you hear of no domestic afflictions; bankrupt securities; fall of stocks; are never troubled with the thought of what you shall have for dinner—for all your meals for three years and more are snugly stowed in casks, and your bill of fare is immutable.",
+     "causedByEvent": {
+      "name": "Tropic whaling life",
+      "takePlaceAt": {
+       "name": "Whale-ship at sea"
+      }
+     },
+     "hasObject": {
+      "name": "Tropic whaling life"
+     }
+    },
+    {
+     "name": "Deplore",
+     "hasIntensity": 0.7,
+     "quote": "And it is much to be deplored that the place to which you devote so considerable a portion of the whole term of your natural life, should be so sadly destitute of anything approaching to a cosy inhabitiveness, or adapted to breed a comfortable localness of feeling, such as pertains to a bed, a hammock, a hearse, a sentry box, a pulpit, a coach, or any other of those small and snug contrivances in which men temporarily isolate themselves.",
+     "causedByEvent": {
+      "name": "Standing at the mast-head for long periods",
+      "takePlaceAt": {
+       "name": "Mast-head of a whale-ship at sea"
+      }
+     },
+     "hasObject": {
+      "name": "Mast-head of a whale-ship"
+     }
+    }
+   ]
+  }
+ ]
+}

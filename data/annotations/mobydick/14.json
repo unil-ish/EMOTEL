@@ -1,0 +1,161 @@
+{
+ "FictionalCharacters": [
+  {
+   "name": "Starbuck",
+   "feels": [
+    {
+     "name": "Trust",
+     "hasIntensity": 0.6,
+     "quote": "“I trust not,” said Starbuck, “it is poor stuff enough.”",
+     "causedByEvent": {
+      "name": "Distrust in the quality of the substance",
+      "takePlaceAt": {
+       "name": "On the ship"
+      },
+      "hasParticipant": [
+       {
+        "name": "Starbuck"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Substance"
+     }
+    },
+    {
+     "name": "Anger",
+     "hasIntensity": 0.8,
+     "quote": "“Come down, come down!” yelled the seamen to Daggoo, but with one hand holding on to the heavy tackles, so that if the head should drop, he would still remain suspended; the negro having cleared the foul line, rammed down the bucket into the now collapsed well, meaning that the buried harpooneer should grasp it, and so be hoisted out.",
+     "causedByEvent": {
+      "name": "Foul line incident",
+      "takePlaceAt": {
+       "name": "On the ship"
+      },
+      "hasParticipant": [
+       {
+        "name": "Daggoo"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Foul line"
+     }
+    },
+    {
+     "name": "Joy",
+     "hasIntensity": 0.9,
+     "quote": "“Both! both!—it is both!”—cried Daggoo again with a joyful shout; and soon after, Queequeg was seen boldly striking out with one hand, and with the other clutching the long hair of the Indian.",
+     "causedByEvent": {
+      "name": "Successful rescue",
+      "takePlaceAt": {
+       "name": "On the ship"
+      },
+      "hasParticipant": [
+       {
+        "name": "Daggoo"
+       },
+       {
+        "name": "Queequeg"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Successful rescue"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Daggoo",
+   "feels": [
+    {
+     "name": "Fear",
+     "hasIntensity": 0.7,
+     "quote": "“Come down, come down!” yelled the seamen to Daggoo, but with one hand holding on to the heavy tackles, so that if the head should drop, he would still remain suspended; the negro having cleared the foul line, rammed down the bucket into the now collapsed well, meaning that the buried harpooneer should grasp it, and so be hoisted out.",
+     "causedByEvent": {
+      "name": "Foul line incident",
+      "takePlaceAt": {
+       "name": "On the ship"
+      },
+      "hasParticipant": [
+       {
+        "name": "Daggoo"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Foul line"
+     }
+    },
+    {
+     "name": "Joy",
+     "hasIntensity": 0.9,
+     "quote": "“Both! both!—it is both!”—cried Daggoo again with a joyful shout; and soon after, Queequeg was seen boldly striking out with one hand, and with the other clutching the long hair of the Indian.",
+     "causedByEvent": {
+      "name": "Successful rescue",
+      "takePlaceAt": {
+       "name": "On the ship"
+      },
+      "hasParticipant": [
+       {
+        "name": "Daggoo"
+       },
+       {
+        "name": "Queequeg"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Successful rescue"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Queequeg",
+   "feels": [
+    {
+     "name": "Fear",
+     "hasIntensity": 0.7,
+     "quote": "“Come down, come down!” yelled the seamen to Daggoo, but with one hand holding on to the heavy tackles, so that if the head should drop, he would still remain suspended; the negro having cleared the foul line, rammed down the bucket into the now collapsed well, meaning that the buried harpooneer should grasp it, and so be hoisted out.",
+     "causedByEvent": {
+      "name": "Foul line incident",
+      "takePlaceAt": {
+       "name": "On the ship"
+      },
+      "hasParticipant": [
+       {
+        "name": "Daggoo"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Foul line"
+     }
+    },
+    {
+     "name": "Joy",
+     "hasIntensity": 0.9,
+     "quote": "“Both! both!—it is both!”—cried Daggoo again with a joyful shout; and soon after, Queequeg was seen boldly striking out with one hand, and with the other clutching the long hair of the Indian.",
+     "causedByEvent": {
+      "name": "Successful rescue",
+      "takePlaceAt": {
+       "name": "On the ship"
+      },
+      "hasParticipant": [
+       {
+        "name": "Daggoo"
+       },
+       {
+        "name": "Queequeg"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Successful rescue"
+     }
+    }
+   ]
+  }
+ ]
+}

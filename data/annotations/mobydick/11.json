@@ -1,0 +1,76 @@
+{
+ "FictionalCharacters": [
+  {
+   "name": "Crippled Beggar",
+   "feels": [
+    {
+     "name": "Acceptance",
+     "hasIntensity": 0.7,
+     "quote": "But the time of his justification has now come. His three whales are as good whales as were ever published in Wapping, at any rate; and his stump as unquestionable a stump as any you will find in the western clearings.",
+     "causedByEvent": {
+      "name": "Justification of his painting",
+      "takePlaceAt": {
+       "name": "London Docks"
+      },
+      "hasParticipant": [
+       {
+        "name": "Crippled Beggar"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Painted board"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Sailor-Savage",
+   "feels": [
+    {
+     "name": "Love",
+     "hasIntensity": 0.9,
+     "quote": "With the same marvellous patience, and with the same single shark’s tooth, of his one poor jack-knife, he will carve you a bit of bone sculpture, not quite as workmanlike, but as close packed in its maziness of design, as the Greek savage, Achilles’s shield; and full of barbaric spirit and suggestiveness, as the prints of that fine old Dutch savage, Albert Durer.",
+     "causedByEvent": {
+      "name": "Creation of bone sculpture",
+      "takePlaceAt": {
+       "name": "Whaling ship"
+      },
+      "hasParticipant": [
+       {
+        "name": "Sailor-Savage"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Bone sculpture"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Narrator",
+   "feels": [
+    {
+     "name": "Amazement",
+     "hasIntensity": 0.8,
+     "quote": "With a frigate’s anchors for my bridle-bitts and fasces of harpoons for spurs, would I could mount that whale and leap the topmost skies, to see whether the fabled heavens with all their countless tents really lie encamped beyond my mortal sight!",
+     "causedByEvent": {
+      "name": "Imagining riding a whale to the skies",
+      "takePlaceAt": {
+       "name": "Narrator's thoughts"
+      },
+      "hasParticipant": [
+       {
+        "name": "Narrator"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Riding a whale to the skies"
+     }
+    }
+   ]
+  }
+ ]
+}

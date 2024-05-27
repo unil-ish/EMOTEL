@@ -1,0 +1,144 @@
+{
+ "FictionalCharacters": [
+  {
+   "name": "Ferdinand",
+   "feels": [
+    {
+     "name": "Satisfaction",
+     "hasIntensity": 0.9,
+     "quote": "Ferdinand made himself amends for the chagrin he had undergone, by the exercise of those talents in which he excelled.",
+     "hasObject": {
+      "name": "Exercise_of_talents",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Exercise_of_talents"
+     },
+     "causedBy": {
+      "name": "Being_in_quarters_of_cantonment",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Being_in_quarters_of_cantonment"
+     },
+     "id": "Satisfaction"
+    },
+    {
+     "name": "Dissatisfaction",
+     "hasIntensity": 0.8,
+     "quote": "He saw that all his expectations of Count Melvil’s future favour were connected with his choice of a military life; and that his promotion in the service would, in a great measure, depend upon his personal behaviour in such emergencies as he did not at all wish to encounter.",
+     "hasObject": {
+      "name": "Choice_of_a_military_life",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Choice_of_a_military_life"
+     },
+     "causedBy": {
+      "name": "Expectations_of_future_favour",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Expectations_of_future_favour"
+     },
+     "id": "Dissatisfaction"
+    },
+    {
+     "name": "Ambition",
+     "hasIntensity": 0.7,
+     "quote": "He confided so much in his own dexterity and address, that he never doubted of being able to rear a splendid fortune for himself.",
+     "hasObject": {
+      "name": "Splendid_fortune",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Splendid_fortune"
+     },
+     "causedBy": {
+      "name": "Reflections_on_his_talents",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Reflections_on_his_talents"
+     },
+     "id": "Ambition"
+    },
+    {
+     "name": "Fear",
+     "hasIntensity": 0.9,
+     "quote": "He felt, by anticipation, the toils of hard duty upon the works, the horrors of night-alarms, cannonading, bombardment, sallies, and mines blown up.",
+     "hasObject": {
+      "name": "Toils_of_hard_duty",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Toils_of_hard_duty"
+     },
+     "causedBy": {
+      "name": "Expectation_of_being_besieged",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Expectation_of_being_besieged"
+     },
+     "id": "Fear"
+    },
+    {
+     "name": "Relief",
+     "hasIntensity": 0.8,
+     "quote": "He immediately comprehended the whole adventure, and, taking it for granted that the delinquent would never return, resolved to finish what the fugitive had imperfectly performed.",
+     "hasObject": {
+      "name": "Completion_of_the_theft",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Completion_of_the_theft"
+     },
+     "causedBy": {
+      "name": "Discovery_of_the_theft",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Discovery_of_the_theft"
+     },
+     "id": "Relief"
+    }
+   ],
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Ferdinand"
+  }
+ ],
+ "Events": [
+  {
+   "name": "Being_in_quarters_of_cantonment",
+   "takePlaceAt": {
+    "name": "Being_in_quarters_of_cantonment",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Being_in_quarters_of_cantonment"
+   },
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Being_in_quarters_of_cantonment"
+  },
+  {
+   "name": "Expectations_of_future_favour",
+   "takePlaceAt": {
+    "name": "Expectations_of_future_favour",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Expectations_of_future_favour"
+   },
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Expectations_of_future_favour"
+  },
+  {
+   "name": "Reflections_on_his_talents",
+   "takePlaceAt": {
+    "name": "Reflections_on_his_talents",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Reflections_on_his_talents"
+   },
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Reflections_on_his_talents"
+  },
+  {
+   "name": "Expectation_of_being_besieged",
+   "takePlaceAt": {
+    "name": "Expectation_of_being_besieged",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Expectation_of_being_besieged"
+   },
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Expectation_of_being_besieged"
+  },
+  {
+   "name": "Discovery_of_the_theft",
+   "takePlaceAt": {
+    "name": "Discovery_of_the_theft",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Discovery_of_the_theft"
+   },
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Discovery_of_the_theft"
+  }
+ ],
+ "Places": [
+  {
+   "name": "Winter",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Winter"
+  },
+  {
+   "name": "Winter",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Winter"
+  },
+  {
+   "name": "Winter",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Winter"
+  },
+  {
+   "name": "Winter",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Winter"
+  },
+  {
+   "name": "Preparations_for_departure",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Preparations_for_departure"
+  }
+ ]
+}

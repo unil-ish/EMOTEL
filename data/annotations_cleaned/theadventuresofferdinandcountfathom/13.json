@@ -1,0 +1,144 @@
+{
+ "FictionalCharacters": [
+  {
+   "name": "Doctor_Fathom",
+   "feels": [
+    {
+     "name": "Trust",
+     "hasIntensity": 0.6,
+     "quote": "He now regretted the opportunities he had neglected, of marrying one of several women of moderate fortune, who had made advances to him in the zenith of his reputation.",
+     "hasObject": {
+      "name": "Marriage_prospects",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Marriage_prospects"
+     },
+     "causedBy": {
+      "name": "Missed_opportunities_for_marriage",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Missed_opportunities_for_marriage"
+     },
+     "id": "Trust"
+    },
+    {
+     "name": "Surprise",
+     "hasIntensity": 0.8,
+     "quote": "The doctor arrived at the inn, according to appointment, he was received by his worship in person, who gave him to understand, that his niece had changed her mind, and gone fifty miles farther into the country to visit a relation.",
+     "hasObject": {
+      "name": "Misled_information",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Misled_information"
+     },
+     "causedBy": {
+      "name": "Deception_by_the_quack",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Deception_by_the_quack"
+     },
+     "id": "Surprise"
+    },
+    {
+     "name": "Anger",
+     "hasIntensity": 0.7,
+     "quote": "The quack would advance the money upon no other condition, than that of knowing the scheme, which being explained, he complied with Ferdinand’s request; but, at the same time, privately despatched an express to the young lady’s uncle, with a full account of the whole conspiracy.",
+     "hasObject": {
+      "name": "Betrayal",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Betrayal"
+     },
+     "causedBy": {
+      "name": "Betrayal_by_the_quack",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Betrayal_by_the_quack"
+     },
+     "id": "Anger"
+    },
+    {
+     "name": "Joy",
+     "hasIntensity": 0.9,
+     "quote": "The day was actually fixed for their nuptials, on which he faithfully promised to carry her off in a coach and six.",
+     "hasObject": {
+      "name": "Marriage_promise",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Marriage_promise"
+     },
+     "causedBy": {
+      "name": "Promise_of_marriage",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Promise_of_marriage"
+     },
+     "id": "Joy"
+    },
+    {
+     "name": "Disappointment",
+     "hasIntensity": 0.8,
+     "quote": "This was a grievous disappointment to Fathom, who really believed his mistress had forsaken him through mere levity and caprice.",
+     "hasObject": {
+      "name": "Rejection",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Rejection"
+     },
+     "causedBy": {
+      "name": "Rejection_by_the_young_lady",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Rejection_by_the_young_lady"
+     },
+     "id": "Disappointment"
+    }
+   ],
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Doctor_Fathom"
+  }
+ ],
+ "Events": [
+  {
+   "name": "Missed_opportunities_for_marriage",
+   "takePlaceAt": {
+    "name": "Missed_opportunities_for_marriage",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Missed_opportunities_for_marriage"
+   },
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Missed_opportunities_for_marriage"
+  },
+  {
+   "name": "Deception_by_the_quack",
+   "takePlaceAt": {
+    "name": "Deception_by_the_quack",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Deception_by_the_quack"
+   },
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Deception_by_the_quack"
+  },
+  {
+   "name": "Betrayal_by_the_quack",
+   "takePlaceAt": {
+    "name": "Betrayal_by_the_quack",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Betrayal_by_the_quack"
+   },
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Betrayal_by_the_quack"
+  },
+  {
+   "name": "Promise_of_marriage",
+   "takePlaceAt": {
+    "name": "Promise_of_marriage",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Promise_of_marriage"
+   },
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Promise_of_marriage"
+  },
+  {
+   "name": "Rejection_by_the_young_lady",
+   "takePlaceAt": {
+    "name": "Rejection_by_the_young_lady",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Rejection_by_the_young_lady"
+   },
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Rejection_by_the_young_lady"
+  }
+ ],
+ "Places": [
+  {
+   "name": "Various_social_events",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Various_social_events"
+  },
+  {
+   "name": "Inn",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Inn"
+  },
+  {
+   "name": "Inn",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Inn"
+  },
+  {
+   "name": "Private_residence",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Private_residence"
+  },
+  {
+   "name": "Inn",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Inn"
+  }
+ ]
+}

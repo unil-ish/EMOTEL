@@ -1,0 +1,156 @@
+{
+ "FictionalCharacters": [
+  {
+   "name": "Renaldo",
+   "feels": [
+    {
+     "name": "Distress",
+     "hasIntensity": 0.9,
+     "quote": "Well-nigh destitute of present support, and encompassed with unrelenting duns, he was obliged to keep within doors, and seek some comfort in the conversation of his charming mistress, and his faithful friend; yet, even there, he experienced the extremest rigour of adverse fate.",
+     "hasObject": {
+      "name": "Lack_of_support_and_mounting_debts",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Lack_of_support_and_mounting_debts"
+     },
+     "causedBy": {
+      "name": "Financial_difficulties_and_unrelenting_creditors",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Financial_difficulties_and_unrelenting_creditors"
+     },
+     "id": "Distress"
+    },
+    {
+     "name": "Despair",
+     "hasIntensity": 0.8,
+     "quote": "He saw all that was amiable and perfect in woman, all that he held most dear and sacred upon earth, tottering on the brink of misery, without knowing the danger of her situation, and found himself unable to prevent her fall, or even to forewarn her of the peril.",
+     "hasObject": {
+      "name": "Monimia_s_perilous_situation",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Monimia_s_perilous_situation"
+     },
+     "causedBy": {
+      "name": "Feeling_helpless_in_protecting_Monimia",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Feeling_helpless_in_protecting_Monimia"
+     },
+     "id": "Despair"
+    }
+   ],
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Renaldo"
+  },
+  {
+   "name": "Monimia",
+   "feels": [
+    {
+     "name": "Jealousy",
+     "hasIntensity": 0.7,
+     "quote": "She was alarmed at the change, yet afraid to inquire into the source of it; for, being ignorant of his distress, she could impute it to no cause in which her happiness was not deeply interested.",
+     "hasObject": {
+      "name": "Renaldo_s_change_in_behaviour",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Renaldo_s_change_in_behaviour"
+     },
+     "causedBy": {
+      "name": "Noticing_Renaldo_s_change_in_behaviour",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Noticing_Renaldo_s_change_in_behaviour"
+     },
+     "id": "Jealousy"
+    },
+    {
+     "name": "Resentment",
+     "hasIntensity": 0.8,
+     "quote": "She was by birth, nature, and education inspired with that dignity of pride which ennobles the human heart; and this, by the circumstance of her present dependence, was rendered extremely jealous and susceptible.",
+     "hasObject": {
+      "name": "Feeling_slighted_and_dependent",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Feeling_slighted_and_dependent"
+     },
+     "causedBy": {
+      "name": "Feeling_slighted_and_dependent",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Feeling_slighted_and_dependent"
+     },
+     "id": "Resentment"
+    }
+   ],
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Monimia"
+  },
+  {
+   "name": "Fathom",
+   "feels": [
+    {
+     "name": "Deceit",
+     "hasIntensity": 0.9,
+     "quote": "He pretended to share her distress with the most emphatic sympathy, and endeavoured to keep her resentment glowing by cunning insinuations, which, though apparently designed to apologise for his friend, served only to aggravate the guilt of his perfidy and dishonour.",
+     "hasObject": {
+      "name": "Manipulating_Monimia_s_emotions",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Manipulating_Monimia_s_emotions"
+     },
+     "causedBy": {
+      "name": "Manipulating_Monimia_s_emotions",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Manipulating_Monimia_s_emotions"
+     },
+     "id": "Deceit"
+    }
+   ],
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Fathom"
+  }
+ ],
+ "Events": [
+  {
+   "name": "Financial_difficulties_and_unrelenting_creditors",
+   "takePlaceAt": {
+    "name": "Financial_difficulties_and_unrelenting_creditors",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Financial_difficulties_and_unrelenting_creditors"
+   },
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Financial_difficulties_and_unrelenting_creditors"
+  },
+  {
+   "name": "Feeling_helpless_in_protecting_Monimia",
+   "takePlaceAt": {
+    "name": "Feeling_helpless_in_protecting_Monimia",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Feeling_helpless_in_protecting_Monimia"
+   },
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Feeling_helpless_in_protecting_Monimia"
+  },
+  {
+   "name": "Noticing_Renaldo_s_change_in_behaviour",
+   "takePlaceAt": {
+    "name": "Noticing_Renaldo_s_change_in_behaviour",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Noticing_Renaldo_s_change_in_behaviour"
+   },
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Noticing_Renaldo_s_change_in_behaviour"
+  },
+  {
+   "name": "Feeling_slighted_and_dependent",
+   "takePlaceAt": {
+    "name": "Feeling_slighted_and_dependent",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Feeling_slighted_and_dependent"
+   },
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Feeling_slighted_and_dependent"
+  },
+  {
+   "name": "Manipulating_Monimia_s_emotions",
+   "takePlaceAt": {
+    "name": "Manipulating_Monimia_s_emotions",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Manipulating_Monimia_s_emotions"
+   },
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Manipulating_Monimia_s_emotions"
+  }
+ ],
+ "Places": [
+  {
+   "name": "His_home",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#His_home"
+  },
+  {
+   "name": "His_home",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#His_home"
+  },
+  {
+   "name": "Her_home",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Her_home"
+  },
+  {
+   "name": "Her_home",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Her_home"
+  },
+  {
+   "name": "Her_home",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Her_home"
+  }
+ ]
+}

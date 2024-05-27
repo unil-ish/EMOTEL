@@ -1,0 +1,67 @@
+{
+ "FictionalCharacters": [
+  {
+   "name": "Ishmael",
+   "feels": [
+    {
+     "name": "Fear",
+     "hasIntensity": 0.9,
+     "quote": "A wild, mystical, sympathetical feeling was in me; Ahab’s quenchless feud seemed mine.",
+     "causedByEvent": {
+      "name": "Ahab's feud with Moby Dick",
+      "takePlaceAt": {
+       "name": "Whale hunt"
+      },
+      "hasParticipant": [
+       {
+        "name": "Ishmael"
+       },
+       {
+        "name": "Ahab"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Moby Dick"
+     }
+    },
+    {
+     "name": "Curiosity",
+     "hasIntensity": 0.8,
+     "quote": "Forced into familiarity, then, with such prodigies as these...",
+     "causedByEvent": {
+      "name": "Encountering prodigies",
+      "takePlaceAt": {
+       "name": "Whale hunt"
+      }
+     },
+     "hasObject": {
+      "name": "Prodigies"
+     }
+    },
+    {
+     "name": "Awe",
+     "hasIntensity": 0.9,
+     "quote": "Judge, then, to what pitches of inflamed, distracted fury the minds of his more desperate hunters were impelled...",
+     "causedByEvent": {
+      "name": "Encountering the White Whale's ferocity",
+      "takePlaceAt": {
+       "name": "Whale hunt"
+      },
+      "hasParticipant": [
+       {
+        "name": "Ishmael"
+       },
+       {
+        "name": "desperate hunters"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "White Whale's ferocity"
+     }
+    }
+   ]
+  }
+ ]
+}

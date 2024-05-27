@@ -1,0 +1,134 @@
+{
+ "FictionalCharacters": [
+  {
+   "name": "Mr_Bennet",
+   "feels": [
+    {
+     "name": "Amusement",
+     "hasIntensity": 0.7,
+     "quote": "From all that I can collect by your manner of talking, you must be two of the silliest girls in the country. I have suspected it some time, but I am now convinced.",
+     "hasObject": {
+      "name": "Daughters_conversations",
+      "id": "texts/prideandprejudice.txt#Daughters_conversations"
+     },
+     "causedBy": {
+      "name": "Listening_to_daughters_conversations",
+      "id": "texts/prideandprejudice.txt#Listening_to_daughters_conversations"
+     },
+     "id": "Amusement"
+    }
+   ],
+   "id": "texts/prideandprejudice.txt#Mr_Bennet"
+  },
+  {
+   "name": "Miss_Bingley",
+   "feels": [
+    {
+     "name": "Astonishment",
+     "hasIntensity": 0.8,
+     "quote": "Miss Elizabeth Bennet! I am all astonishment. How long has she been such a favourite? and pray when am I to wish you joy?",
+     "hasObject": {
+      "name": "Mr_Darcy_mentioning_Miss_Elizabeth_Bennet",
+      "id": "texts/prideandprejudice.txt#Mr_Darcy_mentioning_Miss_Elizabeth_Bennet"
+     },
+     "causedBy": {
+      "name": "Mr_Darcy_mentioning_Miss_Elizabeth_Bennet",
+      "id": "texts/prideandprejudice.txt#Mr_Darcy_mentioning_Miss_Elizabeth_Bennet"
+     },
+     "id": "Astonishment"
+    }
+   ],
+   "id": "texts/prideandprejudice.txt#Miss_Bingley"
+  },
+  {
+   "name": "Mr_Darcy",
+   "feels": [
+    {
+     "name": "Interest",
+     "hasIntensity": 0.9,
+     "quote": "He began to wish to know more of her; and, as a step towards conversing with her himself, attended to her conversation with others.",
+     "hasObject": {
+      "name": "Miss_Elizabeth_Bennet",
+      "id": "texts/prideandprejudice.txt#Miss_Elizabeth_Bennet"
+     },
+     "causedBy": {
+      "name": "Wishing_to_know_more_about_Miss_Elizabeth_Bennet",
+      "id": "texts/prideandprejudice.txt#Wishing_to_know_more_about_Miss_Elizabeth_Bennet"
+     },
+     "id": "Interest"
+    }
+   ],
+   "id": "texts/prideandprejudice.txt#Mr_Darcy"
+  }
+ ],
+ "Events": [
+  {
+   "name": "Listening_to_daughters_conversations",
+   "takePlaceAt": {
+    "name": "Listening_to_daughters_conversations",
+    "id": "texts/prideandprejudice.txt#Listening_to_daughters_conversations"
+   },
+   "hasParticipant": [
+    {
+     "name": "Catherine",
+     "id": "texts/prideandprejudice.txt#Catherine"
+    },
+    {
+     "name": "Lydia",
+     "id": "texts/prideandprejudice.txt#Lydia"
+    }
+   ],
+   "id": "texts/prideandprejudice.txt#Listening_to_daughters_conversations"
+  },
+  {
+   "name": "Mr_Darcy_mentioning_Miss_Elizabeth_Bennet",
+   "takePlaceAt": {
+    "name": "Mr_Darcy_mentioning_Miss_Elizabeth_Bennet",
+    "id": "texts/prideandprejudice.txt#Mr_Darcy_mentioning_Miss_Elizabeth_Bennet"
+   },
+   "hasParticipant": [
+    {
+     "name": "Miss_Bingley",
+     "id": "texts/prideandprejudice.txt#Miss_Bingley"
+    },
+    {
+     "name": "Mr_Darcy",
+     "id": "texts/prideandprejudice.txt#Mr_Darcy"
+    }
+   ],
+   "id": "texts/prideandprejudice.txt#Mr_Darcy_mentioning_Miss_Elizabeth_Bennet"
+  },
+  {
+   "name": "Wishing_to_know_more_about_Miss_Elizabeth_Bennet",
+   "takePlaceAt": {
+    "name": "Wishing_to_know_more_about_Miss_Elizabeth_Bennet",
+    "id": "texts/prideandprejudice.txt#Wishing_to_know_more_about_Miss_Elizabeth_Bennet"
+   },
+   "hasParticipant": [
+    {
+     "name": "Mr_Darcy",
+     "id": "texts/prideandprejudice.txt#Mr_Darcy"
+    },
+    {
+     "name": "Miss_Elizabeth_Bennet",
+     "id": "texts/prideandprejudice.txt#Miss_Elizabeth_Bennet"
+    }
+   ],
+   "id": "texts/prideandprejudice.txt#Wishing_to_know_more_about_Miss_Elizabeth_Bennet"
+  }
+ ],
+ "Places": [
+  {
+   "name": "Longbourn",
+   "id": "texts/prideandprejudice.txt#Longbourn"
+  },
+  {
+   "name": "Sir_William_Lucas_s_house",
+   "id": "texts/prideandprejudice.txt#Sir_William_Lucas_s_house"
+  },
+  {
+   "name": "Sir_William_Lucas_s_house",
+   "id": "texts/prideandprejudice.txt#Sir_William_Lucas_s_house"
+  }
+ ]
+}

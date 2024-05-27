@@ -1,0 +1,308 @@
+{
+ "FictionalCharacters": [
+  {
+   "name": "Elizabeth_Bennet",
+   "feels": [
+    {
+     "name": "Gratitude",
+     "hasIntensity": 0.9,
+     "quote": "Mr. Darcy, I am a very selfish creature, and for the sake of giving relief to my own feelings care not how much I may be wounding yours. I can no longer help thanking you for your unexampled kindness to my poor sister. Ever since I have known it I have been most anxious to acknowledge to you how gratefully I feel it. Were it known to the rest of my family I should not have merely my own gratitude to express.",
+     "hasObject": {
+      "name": "Mr_Darcy_s_kindness",
+      "id": "texts/prideandprejudice.txt#Mr_Darcy_s_kindness"
+     },
+     "causedBy": {
+      "name": "Mr_Darcy_s_kindness_to_her_sister",
+      "id": "texts/prideandprejudice.txt#Mr_Darcy_s_kindness_to_her_sister"
+     },
+     "id": "Gratitude"
+    },
+    {
+     "name": "Embarrassment",
+     "hasIntensity": 0.7,
+     "quote": "Elizabeth, feeling all the more than common awkwardness and anxiety of his situation, now forced herself to speak; and immediately, though not very fluently, gave him to understand that her sentiments had undergone so material a change since the period to which he alluded, as to make her receive with gratitude and pleasure his present assurances.",
+     "hasObject": {
+      "name": "Change_in_sentiments",
+      "id": "texts/prideandprejudice.txt#Change_in_sentiments"
+     },
+     "causedBy": {
+      "name": "Change_in_sentiments_towards_Mr_Darcy",
+      "id": "texts/prideandprejudice.txt#Change_in_sentiments_towards_Mr_Darcy"
+     },
+     "id": "Embarrassment"
+    },
+    {
+     "name": "Relief",
+     "hasIntensity": 0.8,
+     "quote": "The happiness which this reply produced was such as he had probably never felt before; and he expressed himself on the occasion as sensibly and as warmly as a man violently in love can be supposed to do.",
+     "hasObject": {
+      "name": "Reply_from_Elizabeth",
+      "id": "texts/prideandprejudice.txt#Reply_from_Elizabeth"
+     },
+     "causedBy": {
+      "name": "Elizabeth_s_change_in_sentiments_towards_Mr_Darcy",
+      "id": "texts/prideandprejudice.txt#Elizabeth_s_change_in_sentiments_towards_Mr_Darcy"
+     },
+     "id": "Relief"
+    },
+    {
+     "name": "Awkwardness",
+     "hasIntensity": 0.6,
+     "quote": "Elizabeth was too much embarrassed to say a word. After a short pause, her companion added, “You are too generous to trifle with me. If your feelings are still what they were last April, tell me so at once. My affections and wishes are unchanged; but one word from you will silence me on this subject for ever.”",
+     "hasObject": {
+      "name": "Mr_Darcy_s_feelings",
+      "id": "texts/prideandprejudice.txt#Mr_Darcy_s_feelings"
+     },
+     "causedBy": {
+      "name": "Mr_Darcy_expressing_his_feelings",
+      "id": "texts/prideandprejudice.txt#Mr_Darcy_expressing_his_feelings"
+     },
+     "id": "Awkwardness"
+    }
+   ],
+   "id": "texts/prideandprejudice.txt#Elizabeth_Bennet"
+  },
+  {
+   "name": "Mr_Darcy",
+   "feels": [
+    {
+     "name": "Surprise",
+     "hasIntensity": 0.8,
+     "quote": "“I am sorry, exceedingly sorry,” replied Darcy, in a tone of surprise and emotion, “that you have ever been informed of what may, in a mistaken light, have given you uneasiness. I did not think Mrs. Gardiner was so little to be trusted.”",
+     "hasObject": {
+      "name": "Mrs_Gardiner_s_trustworthiness",
+      "id": "texts/prideandprejudice.txt#Mrs_Gardiner_s_trustworthiness"
+     },
+     "causedBy": {
+      "name": "Elizabeth_s_change_in_sentiments_towards_Mr_Darcy",
+      "id": "texts/prideandprejudice.txt#Elizabeth_s_change_in_sentiments_towards_Mr_Darcy"
+     },
+     "id": "Surprise"
+    },
+    {
+     "name": "Happiness",
+     "hasIntensity": 0.9,
+     "quote": "The happiness which this reply produced was such as he had probably never felt before; and he expressed himself on the occasion as sensibly and as warmly as a man violently in love can be supposed to do.",
+     "hasObject": {
+      "name": "Reply_from_Elizabeth",
+      "id": "texts/prideandprejudice.txt#Reply_from_Elizabeth"
+     },
+     "causedBy": {
+      "name": "Elizabeth_s_change_in_sentiments_towards_Mr_Darcy",
+      "id": "texts/prideandprejudice.txt#Elizabeth_s_change_in_sentiments_towards_Mr_Darcy"
+     },
+     "id": "Happiness"
+    },
+    {
+     "name": "Regret",
+     "hasIntensity": 0.7,
+     "quote": "“I cannot be so easily reconciled to myself. The recollection of what I then said, of my conduct, my manners, my expressions during the whole of it, is now, and has been many months, inexpressibly painful to me.",
+     "hasObject": {
+      "name": "Past_behavior",
+      "id": "texts/prideandprejudice.txt#Past_behavior"
+     },
+     "causedBy": {
+      "name": "Recollection_of_past_behavior",
+      "id": "texts/prideandprejudice.txt#Recollection_of_past_behavior"
+     },
+     "id": "Regret"
+    },
+    {
+     "name": "Relief",
+     "hasIntensity": 0.8,
+     "quote": "“It taught me to hope,” said he, “as I had scarcely ever allowed myself to hope before. I knew enough of your disposition to be certain, that had you been absolutely, irrevocably decided against me, you would have acknowledged it to Lady Catherine frankly and openly.”",
+     "hasObject": {
+      "name": "Hope",
+      "id": "texts/prideandprejudice.txt#Hope"
+     },
+     "causedBy": {
+      "name": "Elizabeth_s_change_in_sentiments_towards_Mr_Darcy",
+      "id": "texts/prideandprejudice.txt#Elizabeth_s_change_in_sentiments_towards_Mr_Darcy"
+     },
+     "id": "Relief"
+    }
+   ],
+   "id": "texts/prideandprejudice.txt#Mr_Darcy"
+  }
+ ],
+ "Events": [
+  {
+   "name": "Mr_Darcy_s_kindness_to_her_sister",
+   "takePlaceAt": {
+    "name": "Mr_Darcy_s_kindness_to_her_sister",
+    "id": "texts/prideandprejudice.txt#Mr_Darcy_s_kindness_to_her_sister"
+   },
+   "hasParticipant": [
+    {
+     "name": "Elizabeth_Bennet",
+     "id": "texts/prideandprejudice.txt#Elizabeth_Bennet"
+    },
+    {
+     "name": "Mr_Darcy",
+     "id": "texts/prideandprejudice.txt#Mr_Darcy"
+    }
+   ],
+   "id": "texts/prideandprejudice.txt#Mr_Darcy_s_kindness_to_her_sister"
+  },
+  {
+   "name": "Change_in_sentiments_towards_Mr_Darcy",
+   "takePlaceAt": {
+    "name": "Change_in_sentiments_towards_Mr_Darcy",
+    "id": "texts/prideandprejudice.txt#Change_in_sentiments_towards_Mr_Darcy"
+   },
+   "hasParticipant": [
+    {
+     "name": "Elizabeth_Bennet",
+     "id": "texts/prideandprejudice.txt#Elizabeth_Bennet"
+    },
+    {
+     "name": "Mr_Darcy",
+     "id": "texts/prideandprejudice.txt#Mr_Darcy"
+    }
+   ],
+   "id": "texts/prideandprejudice.txt#Change_in_sentiments_towards_Mr_Darcy"
+  },
+  {
+   "name": "Elizabeth_s_change_in_sentiments_towards_Mr_Darcy",
+   "takePlaceAt": {
+    "name": "Elizabeth_s_change_in_sentiments_towards_Mr_Darcy",
+    "id": "texts/prideandprejudice.txt#Elizabeth_s_change_in_sentiments_towards_Mr_Darcy"
+   },
+   "hasParticipant": [
+    {
+     "name": "Elizabeth_Bennet",
+     "id": "texts/prideandprejudice.txt#Elizabeth_Bennet"
+    },
+    {
+     "name": "Mr_Darcy",
+     "id": "texts/prideandprejudice.txt#Mr_Darcy"
+    }
+   ],
+   "id": "texts/prideandprejudice.txt#Elizabeth_s_change_in_sentiments_towards_Mr_Darcy"
+  },
+  {
+   "name": "Mr_Darcy_expressing_his_feelings",
+   "takePlaceAt": {
+    "name": "Mr_Darcy_expressing_his_feelings",
+    "id": "texts/prideandprejudice.txt#Mr_Darcy_expressing_his_feelings"
+   },
+   "hasParticipant": [
+    {
+     "name": "Elizabeth_Bennet",
+     "id": "texts/prideandprejudice.txt#Elizabeth_Bennet"
+    },
+    {
+     "name": "Mr_Darcy",
+     "id": "texts/prideandprejudice.txt#Mr_Darcy"
+    }
+   ],
+   "id": "texts/prideandprejudice.txt#Mr_Darcy_expressing_his_feelings"
+  },
+  {
+   "name": "Elizabeth_s_change_in_sentiments_towards_Mr_Darcy",
+   "takePlaceAt": {
+    "name": "Elizabeth_s_change_in_sentiments_towards_Mr_Darcy",
+    "id": "texts/prideandprejudice.txt#Elizabeth_s_change_in_sentiments_towards_Mr_Darcy"
+   },
+   "hasParticipant": [
+    {
+     "name": "Mr_Darcy",
+     "id": "texts/prideandprejudice.txt#Mr_Darcy"
+    },
+    {
+     "name": "Elizabeth_Bennet",
+     "id": "texts/prideandprejudice.txt#Elizabeth_Bennet"
+    }
+   ],
+   "id": "texts/prideandprejudice.txt#Elizabeth_s_change_in_sentiments_towards_Mr_Darcy"
+  },
+  {
+   "name": "Elizabeth_s_change_in_sentiments_towards_Mr_Darcy",
+   "takePlaceAt": {
+    "name": "Elizabeth_s_change_in_sentiments_towards_Mr_Darcy",
+    "id": "texts/prideandprejudice.txt#Elizabeth_s_change_in_sentiments_towards_Mr_Darcy"
+   },
+   "hasParticipant": [
+    {
+     "name": "Mr_Darcy",
+     "id": "texts/prideandprejudice.txt#Mr_Darcy"
+    },
+    {
+     "name": "Elizabeth_Bennet",
+     "id": "texts/prideandprejudice.txt#Elizabeth_Bennet"
+    }
+   ],
+   "id": "texts/prideandprejudice.txt#Elizabeth_s_change_in_sentiments_towards_Mr_Darcy"
+  },
+  {
+   "name": "Recollection_of_past_behavior",
+   "takePlaceAt": {
+    "name": "Recollection_of_past_behavior",
+    "id": "texts/prideandprejudice.txt#Recollection_of_past_behavior"
+   },
+   "hasParticipant": [
+    {
+     "name": "Mr_Darcy",
+     "id": "texts/prideandprejudice.txt#Mr_Darcy"
+    },
+    {
+     "name": "Elizabeth_Bennet",
+     "id": "texts/prideandprejudice.txt#Elizabeth_Bennet"
+    }
+   ],
+   "id": "texts/prideandprejudice.txt#Recollection_of_past_behavior"
+  },
+  {
+   "name": "Elizabeth_s_change_in_sentiments_towards_Mr_Darcy",
+   "takePlaceAt": {
+    "name": "Elizabeth_s_change_in_sentiments_towards_Mr_Darcy",
+    "id": "texts/prideandprejudice.txt#Elizabeth_s_change_in_sentiments_towards_Mr_Darcy"
+   },
+   "hasParticipant": [
+    {
+     "name": "Mr_Darcy",
+     "id": "texts/prideandprejudice.txt#Mr_Darcy"
+    },
+    {
+     "name": "Elizabeth_Bennet",
+     "id": "texts/prideandprejudice.txt#Elizabeth_Bennet"
+    }
+   ],
+   "id": "texts/prideandprejudice.txt#Elizabeth_s_change_in_sentiments_towards_Mr_Darcy"
+  }
+ ],
+ "Places": [
+  {
+   "name": "Various_occasions",
+   "id": "texts/prideandprejudice.txt#Various_occasions"
+  },
+  {
+   "name": "Conversation_with_Mr_Darcy",
+   "id": "texts/prideandprejudice.txt#Conversation_with_Mr_Darcy"
+  },
+  {
+   "name": "Conversation_with_Mr_Darcy",
+   "id": "texts/prideandprejudice.txt#Conversation_with_Mr_Darcy"
+  },
+  {
+   "name": "Conversation_with_Mr_Darcy",
+   "id": "texts/prideandprejudice.txt#Conversation_with_Mr_Darcy"
+  },
+  {
+   "name": "Conversation_with_Elizabeth_Bennet",
+   "id": "texts/prideandprejudice.txt#Conversation_with_Elizabeth_Bennet"
+  },
+  {
+   "name": "Conversation_with_Elizabeth_Bennet",
+   "id": "texts/prideandprejudice.txt#Conversation_with_Elizabeth_Bennet"
+  },
+  {
+   "name": "Conversation_with_Elizabeth_Bennet",
+   "id": "texts/prideandprejudice.txt#Conversation_with_Elizabeth_Bennet"
+  },
+  {
+   "name": "Conversation_with_Elizabeth_Bennet",
+   "id": "texts/prideandprejudice.txt#Conversation_with_Elizabeth_Bennet"
+  }
+ ]
+}

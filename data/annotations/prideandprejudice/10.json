@@ -1,0 +1,117 @@
+{
+ "FictionalCharacters": [
+  {
+   "name": "Elizabeth Bennet",
+   "feels": [
+    {
+     "name": "Disgust",
+     "hasIntensity": 0.8,
+     "quote": "Elizabeth was disgusted, and even Miss Bennet was shocked.",
+     "causedByEvent": {
+      "name": "Lydia's behavior upon arrival",
+      "takePlaceAt": {
+       "name": "The Bennet family home"
+      },
+      "hasParticipant": [
+       {
+        "name": "Lydia Bennet"
+       },
+       {
+        "name": "Mr. Bennet"
+       },
+       {
+        "name": "Mrs. Bennet"
+       },
+       {
+        "name": "Wickham"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Lydia's behavior"
+     }
+    },
+    {
+     "name": "Shocked",
+     "hasIntensity": 0.7,
+     "quote": "Elizabeth was disgusted, and even Miss Bennet was shocked.",
+     "causedByEvent": {
+      "name": "Lydia's behavior upon arrival",
+      "takePlaceAt": {
+       "name": "The Bennet family home"
+      },
+      "hasParticipant": [
+       {
+        "name": "Lydia Bennet"
+       },
+       {
+        "name": "Mr. Bennet"
+       },
+       {
+        "name": "Mrs. Bennet"
+       },
+       {
+        "name": "Wickham"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Lydia's behavior"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Lydia Bennet",
+   "feels": [
+    {
+     "name": "Joy",
+     "hasIntensity": 0.9,
+     "quote": "Her mother stepped forwards, embraced her, and welcomed her with rapture; gave her hand with an affectionate smile to Wickham, who followed his lady; and wished them both joy, with an alacrity which showed no doubt of their happiness.",
+     "causedByEvent": {
+      "name": "Arrival at the Bennet family home",
+      "takePlaceAt": {
+       "name": "The Bennet family home"
+      },
+      "hasParticipant": [
+       {
+        "name": "Lydia Bennet"
+       },
+       {
+        "name": "Mr. Bennet"
+       },
+       {
+        "name": "Mrs. Bennet"
+       },
+       {
+        "name": "Wickham"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Warm welcome"
+     }
+    },
+    {
+     "name": "Untamed",
+     "hasIntensity": 0.8,
+     "quote": "Lydia was Lydia still; untamed, unabashed, wild, noisy, and fearless.",
+     "causedByEvent": {
+      "name": "Lydia's behavior upon arrival",
+      "takePlaceAt": {
+       "name": "The Bennet family home"
+      },
+      "hasParticipant": [
+       {
+        "name": "Lydia Bennet"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Lydia's behavior"
+     }
+    }
+   ]
+  }
+ ]
+}

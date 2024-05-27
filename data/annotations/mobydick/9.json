@@ -1,0 +1,150 @@
+{
+ "FictionalCharacters": [
+  {
+   "name": "Chace",
+   "feels": [
+    {
+     "name": "Fear",
+     "hasIntensity": 0.9,
+     "quote": "The whole crew were half suffocated as they were tossed helter-skelter into the white curdling cream of the squall.",
+     "causedByEvent": {
+      "name": "Encounter with the whale",
+      "takePlaceAt": {
+       "name": "In the boat"
+      }
+     },
+     "hasObject": {
+      "name": "Squall"
+     }
+    },
+    {
+     "name": "Despair",
+     "hasIntensity": 0.8,
+     "quote": "Wet, drenched through, and shivering cold, despairing of ship or boat, we lifted up our eyes as the dawn came on.",
+     "causedByEvent": {
+      "name": "Feeling lost at sea",
+      "takePlaceAt": {
+       "name": "In the boat"
+      }
+     },
+     "hasObject": {
+      "name": "Being lost at sea"
+     }
+    },
+    {
+     "name": "Relief",
+     "hasIntensity": 0.7,
+     "quote": "Suddenly Queequeg started to his feet, hollowing his hand to his ear. We all heard a faint creaking, as of ropes and yards hitherto muffled by the storm.",
+     "causedByEvent": {
+      "name": "Spotting the ship",
+      "takePlaceAt": {
+       "name": "In the boat"
+      }
+     },
+     "hasObject": {
+      "name": "Spotting the ship"
+     }
+    },
+    {
+     "name": "Philosophical Acceptance",
+     "hasIntensity": 0.6,
+     "quote": "That odd sort of wayward mood I am speaking of, comes over a man only in some time of extreme tribulation; it comes in the very midst of his earnestness, so that what just before might have seemed to him a thing most momentous, now seems but a part of the general joke.",
+     "causedByEvent": {
+      "name": "Facing extreme tribulation",
+      "takePlaceAt": {
+       "name": "On the ship"
+      }
+     },
+     "hasObject": {
+      "name": "Facing extreme tribulation"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Starbuck",
+   "feels": [
+    {
+     "name": "Fear",
+     "hasIntensity": 0.8,
+     "quote": "Only the silence of the boat was at intervals startlingly pierced by one of his peculiar whispers, now harsh with command, now soft with entreaty.",
+     "causedByEvent": {
+      "name": "Approaching the whale",
+      "takePlaceAt": {
+       "name": "In the boat"
+      }
+     },
+     "hasObject": {
+      "name": "Approaching the whale"
+     }
+    },
+    {
+     "name": "Relief",
+     "hasIntensity": 0.7,
+     "quote": "Give way, men,” whispered Starbuck, drawing still further aft the sheet of his sail; “there is time to kill a fish yet before the squall comes.",
+     "causedByEvent": {
+      "name": "Seeing the ship",
+      "takePlaceAt": {
+       "name": "In the boat"
+      }
+     },
+     "hasObject": {
+      "name": "Seeing the ship"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Queequeg",
+   "feels": [
+    {
+     "name": "Fear",
+     "hasIntensity": 0.6,
+     "quote": "Wet, drenched through, and shivering cold, despairing of ship or boat, we lifted up our eyes as the dawn came on.",
+     "causedByEvent": {
+      "name": "Feeling lost at sea",
+      "takePlaceAt": {
+       "name": "In the boat"
+      }
+     },
+     "hasObject": {
+      "name": "Being lost at sea"
+     }
+    },
+    {
+     "name": "Relief",
+     "hasIntensity": 0.7,
+     "quote": "Suddenly Queequeg started to his feet, hollowing his hand to his ear. We all heard a faint creaking, as of ropes and yards hitherto muffled by the storm.",
+     "causedByEvent": {
+      "name": "Spotting the ship",
+      "takePlaceAt": {
+       "name": "In the boat"
+      }
+     },
+     "hasObject": {
+      "name": "Spotting the ship"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Flask",
+   "feels": [
+    {
+     "name": "Humor",
+     "hasIntensity": 0.7,
+     "quote": "Can’t you twist that smaller?” said Flask. “Yes, that’s the law. I should like to see a boat’s crew backing water up to a whale face foremost. Ha, ha! the whale would give them squint for squint, mind that!",
+     "causedByEvent": {
+      "name": "Discussing whale hunting techniques",
+      "takePlaceAt": {
+       "name": "On the ship"
+      }
+     },
+     "hasObject": {
+      "name": "Discussing whale hunting techniques"
+     }
+    }
+   ]
+  }
+ ]
+}

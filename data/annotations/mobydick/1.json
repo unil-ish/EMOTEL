@@ -1,0 +1,84 @@
+{
+ "FictionalCharacters": [
+  {
+   "name": "Narrator",
+   "feels": [
+    {
+     "name": "Surprise",
+     "hasIntensity": 0.6,
+     "quote": "Affected by the solemnity of the scene, there was a wondering gaze of incredulous curiosity in his countenance.",
+     "causedByEvent": {
+      "name": "Entering the Whaleman's Chapel",
+      "takePlaceAt": {
+       "name": "Whaleman's Chapel"
+      }
+     },
+     "hasObject": {
+      "name": "Solemnity of the scene"
+     }
+    },
+    {
+     "name": "Awe",
+     "hasIntensity": 0.8,
+     "quote": "Oh! ye whose dead lie buried beneath the green grass; who standing among flowers can say—here, here lies my beloved; ye know not the desolation that broods in bosoms like these.",
+     "causedByEvent": {
+      "name": "Observing the grief of the congregation",
+      "takePlaceAt": {
+       "name": "Whaleman's Chapel"
+      }
+     },
+     "hasObject": {
+      "name": "Grief of the congregation"
+     }
+    },
+    {
+     "name": "Sadness",
+     "hasIntensity": 0.7,
+     "quote": "What bitter blanks in those black-bordered marbles which cover no ashes! What despair in those immovable inscriptions!",
+     "causedByEvent": {
+      "name": "Reading the inscriptions on the wall",
+      "takePlaceAt": {
+       "name": "Whaleman's Chapel"
+      }
+     },
+     "hasObject": {
+      "name": "Inscriptions on the wall"
+     }
+    },
+    {
+     "name": "Contemplation",
+     "hasIntensity": 0.6,
+     "quote": "But Faith, like a jackal, feeds among the tombs, and even from these dead doubts she gathers her most vital hope.",
+     "causedByEvent": {
+      "name": "Reflecting on the meaning of death and faith",
+      "takePlaceAt": {
+       "name": "Whaleman's Chapel"
+      }
+     },
+     "hasObject": {
+      "name": "Meaning of death and faith"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Queequeg",
+   "feels": [
+    {
+     "name": "Curiosity",
+     "hasIntensity": 0.7,
+     "quote": "This savage was the only person present who seemed to notice my entrance; because he was the only one who could not read, and, therefore, was not reading those frigid inscriptions on the wall.",
+     "causedByEvent": {
+      "name": "Observing the solemnity of the scene",
+      "takePlaceAt": {
+       "name": "Whaleman's Chapel"
+      }
+     },
+     "hasObject": {
+      "name": "Entrance of the Narrator"
+     }
+    }
+   ]
+  }
+ ]
+}

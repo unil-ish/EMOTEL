@@ -1,0 +1,78 @@
+{
+ "FictionalCharacters": [
+  {
+   "name": "Ishmael",
+   "feels": [
+    {
+     "name": "Awe",
+     "hasIntensity": 0.9,
+     "quote": "When on that shivering winter’s night, the Pequod thrust her vindictive bows into the cold malicious waves, who should I see standing at her helm but Bulkington! I looked with sympathetic awe and fearfulness upon the man, who in mid-winter just landed from a four years’ dangerous voyage, could so unrestingly push off again for still another tempestuous term.",
+     "causedByEvent": {
+      "name": "Seeing Bulkington at the helm",
+      "takePlaceAt": {
+       "name": "On the ship Pequod"
+      },
+      "hasParticipant": [
+       {
+        "name": "Ishmael"
+       },
+       {
+        "name": "Bulkington"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Bulkington standing at the helm"
+     }
+    },
+    {
+     "name": "Fear",
+     "hasIntensity": 0.7,
+     "quote": "But, at last, he turned to his comrade, with a final sort of look about him,—“Captain Bildad—come, old shipmate, we must go. Back the main-yard there! Boat ahoy! Stand by to come close alongside, now! Careful, careful!—come, Bildad, boy—say your last. Luck to ye, Starbuck—luck to ye, Mr. Stubb—luck to ye, Mr. Flask—good-bye and good luck to ye all—and this day three years I’ll have a hot supper smoking for ye in old Nantucket. Hurrah and away!”",
+     "causedByEvent": {
+      "name": "Preparing to depart from the ship Pequod",
+      "takePlaceAt": {
+       "name": "On the ship Pequod"
+      },
+      "hasParticipant": [
+       {
+        "name": "Captain Bildad"
+       },
+       {
+        "name": "Starbuck"
+       },
+       {
+        "name": "Mr. Stubb"
+       },
+       {
+        "name": "Mr. Flask"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Departing from the ship Pequod"
+     }
+    },
+    {
+     "name": "Admiration",
+     "hasIntensity": 0.8,
+     "quote": "But, though the world scouts at us whale hunters, yet does it unwittingly pay us the profoundest homage; yea, an all-abounding adoration! for almost all the tapers, lamps, and candles that burn round the globe, burn, as before so many shrines, to our glory!",
+     "causedByEvent": {
+      "name": "Realizing the world's admiration for whale hunters",
+      "takePlaceAt": {
+       "name": "On the ship Pequod"
+      },
+      "hasParticipant": [
+       {
+        "name": "Ishmael"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "World's admiration for whale hunters"
+     }
+    }
+   ]
+  }
+ ]
+}

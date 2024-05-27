@@ -1,0 +1,234 @@
+{
+ "FictionalCharacters": [
+  {
+   "name": "Miss_Matty",
+   "feels": [
+    {
+     "name": "Sadness",
+     "hasIntensity": 0.9,
+     "quote": "Oh, my dear! the bitter, bitter crying she had when she was alone; and at last, as she grew weaker, she could not keep her tears in when Deborah or me was by, and would give us message after message for Peter...",
+     "hasObject": {
+      "name": "Peter",
+      "id": "texts/cranford.txt#Peter"
+     },
+     "causedBy": {
+      "name": "Peter_s_absence_and_presumed_death",
+      "id": "texts/cranford.txt#Peter_s_absence_and_presumed_death"
+     },
+     "id": "Sadness"
+    },
+    {
+     "name": "Love",
+     "hasIntensity": 0.8,
+     "quote": "And she and Deborah sat by my bedside; I knew by the looks of each that there had been no news of Peter—no awful, ghastly news, which was what I most had dreaded in my dull state between sleeping and waking.",
+     "hasObject": {
+      "name": "Peter",
+      "id": "texts/cranford.txt#Peter"
+     },
+     "causedBy": {
+      "name": "Peter_s_absence_and_presumed_death",
+      "id": "texts/cranford.txt#Peter_s_absence_and_presumed_death"
+     },
+     "id": "Love"
+    },
+    {
+     "name": "Grief",
+     "hasIntensity": 0.9,
+     "quote": "That spring day was the last time he ever saw his mother’s face.",
+     "hasObject": {
+      "name": "Peter",
+      "id": "texts/cranford.txt#Peter"
+     },
+     "causedBy": {
+      "name": "Peter_s_absence_and_presumed_death",
+      "id": "texts/cranford.txt#Peter_s_absence_and_presumed_death"
+     },
+     "id": "Grief"
+    },
+    {
+     "name": "Acceptance",
+     "hasIntensity": 0.7,
+     "quote": "And only think, love! the very day after her death—for she did not live quite a twelvemonth after Peter went away—the very day after—came a parcel for her from India—from her poor boy.",
+     "hasObject": {
+      "name": "Peter",
+      "id": "texts/cranford.txt#Peter"
+     },
+     "causedBy": {
+      "name": "Peter_s_absence_and_presumed_death",
+      "id": "texts/cranford.txt#Peter_s_absence_and_presumed_death"
+     },
+     "id": "Acceptance"
+    },
+    {
+     "name": "Regret",
+     "hasIntensity": 0.8,
+     "quote": "And then again, when I sit by myself, and all the house is still, I think I hear his step coming up the street, and my heart begins to flutter and beat; but the sound always goes past—and Peter never comes.",
+     "hasObject": {
+      "name": "Peter",
+      "id": "texts/cranford.txt#Peter"
+     },
+     "causedBy": {
+      "name": "Peter_s_absence_and_presumed_death",
+      "id": "texts/cranford.txt#Peter_s_absence_and_presumed_death"
+     },
+     "id": "Regret"
+    }
+   ],
+   "id": "texts/cranford.txt#Miss_Matty"
+  },
+  {
+   "name": "Miss_Betty_Barker",
+   "feels": [
+    {
+     "name": "Modesty",
+     "hasIntensity": 0.6,
+     "quote": "She was quite unconscious of it herself, and looked at us, with bland satisfaction.",
+     "hasObject": {
+      "name": "Miss_Matty_and_Miss_Deborah",
+      "id": "texts/cranford.txt#Miss_Matty_and_Miss_Deborah"
+     },
+     "causedBy": {
+      "name": "Visiting_Miss_Matty_and_Miss_Deborah",
+      "id": "texts/cranford.txt#Visiting_Miss_Matty_and_Miss_Deborah"
+     },
+     "id": "Modesty"
+    },
+    {
+     "name": "Embarrassment",
+     "hasIntensity": 0.7,
+     "quote": "She was very much absorbed in her errand, which she delivered herself of with an oppressive modesty that found vent in endless apologies.",
+     "hasObject": {
+      "name": "Miss_Matty",
+      "id": "texts/cranford.txt#Miss_Matty"
+     },
+     "causedBy": {
+      "name": "Visiting_Miss_Matty",
+      "id": "texts/cranford.txt#Visiting_Miss_Matty"
+     },
+     "id": "Embarrassment"
+    }
+   ],
+   "id": "texts/cranford.txt#Miss_Betty_Barker"
+  }
+ ],
+ "Events": [
+  {
+   "name": "Peter_s_absence_and_presumed_death",
+   "takePlaceAt": {
+    "name": "Peter_s_absence_and_presumed_death",
+    "id": "texts/cranford.txt#Peter_s_absence_and_presumed_death"
+   },
+   "hasParticipant": [
+    {
+     "name": "Miss_Matty",
+     "id": "texts/cranford.txt#Miss_Matty"
+    },
+    {
+     "name": "Deborah",
+     "id": "texts/cranford.txt#Deborah"
+    }
+   ],
+   "id": "texts/cranford.txt#Peter_s_absence_and_presumed_death"
+  },
+  {
+   "name": "Peter_s_absence_and_presumed_death",
+   "takePlaceAt": {
+    "name": "Peter_s_absence_and_presumed_death",
+    "id": "texts/cranford.txt#Peter_s_absence_and_presumed_death"
+   },
+   "hasParticipant": [
+    {
+     "name": "Miss_Matty",
+     "id": "texts/cranford.txt#Miss_Matty"
+    },
+    {
+     "name": "Deborah",
+     "id": "texts/cranford.txt#Deborah"
+    }
+   ],
+   "id": "texts/cranford.txt#Peter_s_absence_and_presumed_death"
+  },
+  {
+   "name": "Peter_s_absence_and_presumed_death",
+   "takePlaceAt": {
+    "name": "Peter_s_absence_and_presumed_death",
+    "id": "texts/cranford.txt#Peter_s_absence_and_presumed_death"
+   },
+   "hasParticipant": {
+    "name": "Miss_Matty",
+    "id": "texts/cranford.txt#Miss_Matty"
+   },
+   "id": "texts/cranford.txt#Peter_s_absence_and_presumed_death"
+  },
+  {
+   "name": "Peter_s_absence_and_presumed_death",
+   "takePlaceAt": {
+    "name": "Peter_s_absence_and_presumed_death",
+    "id": "texts/cranford.txt#Peter_s_absence_and_presumed_death"
+   },
+   "hasParticipant": {
+    "name": "Miss_Matty",
+    "id": "texts/cranford.txt#Miss_Matty"
+   },
+   "id": "texts/cranford.txt#Peter_s_absence_and_presumed_death"
+  },
+  {
+   "name": "Peter_s_absence_and_presumed_death",
+   "takePlaceAt": {
+    "name": "Peter_s_absence_and_presumed_death",
+    "id": "texts/cranford.txt#Peter_s_absence_and_presumed_death"
+   },
+   "hasParticipant": {
+    "name": "Miss_Matty",
+    "id": "texts/cranford.txt#Miss_Matty"
+   },
+   "id": "texts/cranford.txt#Peter_s_absence_and_presumed_death"
+  },
+  {
+   "name": "Visiting_Miss_Matty_and_Miss_Deborah",
+   "takePlaceAt": {
+    "name": "Visiting_Miss_Matty_and_Miss_Deborah",
+    "id": "texts/cranford.txt#Visiting_Miss_Matty_and_Miss_Deborah"
+   },
+   "id": "texts/cranford.txt#Visiting_Miss_Matty_and_Miss_Deborah"
+  },
+  {
+   "name": "Visiting_Miss_Matty",
+   "takePlaceAt": {
+    "name": "Visiting_Miss_Matty",
+    "id": "texts/cranford.txt#Visiting_Miss_Matty"
+   },
+   "id": "texts/cranford.txt#Visiting_Miss_Matty"
+  }
+ ],
+ "Places": [
+  {
+   "name": "Rectory",
+   "id": "texts/cranford.txt#Rectory"
+  },
+  {
+   "name": "Rectory",
+   "id": "texts/cranford.txt#Rectory"
+  },
+  {
+   "name": "Rectory",
+   "id": "texts/cranford.txt#Rectory"
+  },
+  {
+   "name": "Rectory",
+   "id": "texts/cranford.txt#Rectory"
+  },
+  {
+   "name": "Rectory",
+   "id": "texts/cranford.txt#Rectory"
+  },
+  {
+   "name": "Miss_Matty_s_house",
+   "id": "texts/cranford.txt#Miss_Matty_s_house"
+  },
+  {
+   "name": "Miss_Matty_s_house",
+   "id": "texts/cranford.txt#Miss_Matty_s_house"
+  }
+ ]
+}

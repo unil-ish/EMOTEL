@@ -1,0 +1,157 @@
+{
+ "FictionalCharacters": [
+  {
+   "name": "Jane Bennet",
+   "feels": [
+    {
+     "name": "Joy",
+     "hasIntensity": 0.9,
+     "quote": "Jane was delighted at Elizabeth's entrance and was not equal to much conversation.",
+     "causedByEvent": {
+      "name": "Elizabeth's visit",
+      "takePlaceAt": {
+       "name": "Drawing-room"
+      },
+      "hasParticipant": [
+       {
+        "name": "Jane Bennet"
+       },
+       {
+        "name": "Elizabeth Bennet"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Elizabeth's presence"
+     }
+    },
+    {
+     "name": "Relief",
+     "hasIntensity": 0.8,
+     "quote": "Jane was relieved to hear that Mr. Darcy did not wish to play cards.",
+     "causedByEvent": {
+      "name": "Mr. Darcy's preference",
+      "takePlaceAt": {
+       "name": "Drawing-room"
+      },
+      "hasParticipant": [
+       {
+        "name": "Jane Bennet"
+       },
+       {
+        "name": "Mr. Darcy"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Mr. Darcy's decision"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Mr. Darcy",
+   "feels": [
+    {
+     "name": "Interest",
+     "hasIntensity": 0.7,
+     "quote": "Mr. Darcy's attention was engaged in watching Elizabeth as she moved about the room.",
+     "causedByEvent": {
+      "name": "Elizabeth's movements",
+      "takePlaceAt": {
+       "name": "Drawing-room"
+      },
+      "hasParticipant": [
+       {
+        "name": "Mr. Darcy"
+       },
+       {
+        "name": "Elizabeth Bennet"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Observing Elizabeth"
+     }
+    },
+    {
+     "name": "Curiosity",
+     "hasIntensity": 0.6,
+     "quote": "Mr. Darcy was curious about the motives behind Miss Bingley and Elizabeth walking together.",
+     "causedByEvent": {
+      "name": "Miss Bingley and Elizabeth walking together",
+      "takePlaceAt": {
+       "name": "Drawing-room"
+      },
+      "hasParticipant": [
+       {
+        "name": "Mr. Darcy"
+       },
+       {
+        "name": "Miss Bingley"
+       },
+       {
+        "name": "Elizabeth Bennet"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Motives behind the walk"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Miss Bingley",
+   "feels": [
+    {
+     "name": "Jealousy",
+     "hasIntensity": 0.8,
+     "quote": "Miss Bingley was jealous of Mr. Darcy's attention towards Elizabeth.",
+     "causedByEvent": {
+      "name": "Mr. Darcy's focus on Elizabeth",
+      "takePlaceAt": {
+       "name": "Drawing-room"
+      },
+      "hasParticipant": [
+       {
+        "name": "Miss Bingley"
+       },
+       {
+        "name": "Mr. Darcy"
+       },
+       {
+        "name": "Elizabeth Bennet"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Mr. Darcy's attention"
+     }
+    },
+    {
+     "name": "Frustration",
+     "hasIntensity": 0.7,
+     "quote": "Miss Bingley was frustrated by Mr. Darcy's lack of engagement in conversation.",
+     "causedByEvent": {
+      "name": "Mr. Darcy's focus on reading",
+      "takePlaceAt": {
+       "name": "Drawing-room"
+      },
+      "hasParticipant": [
+       {
+        "name": "Miss Bingley"
+       },
+       {
+        "name": "Mr. Darcy"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Mr. Darcy's reading"
+     }
+    }
+   ]
+  }
+ ]
+}

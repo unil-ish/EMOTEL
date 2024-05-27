@@ -1,0 +1,126 @@
+{
+ "FictionalCharacters": [
+  {
+   "name": "Ahab",
+   "feels": [
+    {
+     "name": "Trust",
+     "hasIntensity": 0.7,
+     "quote": "“It was the first time in my life that I ever cruised on the Line,” began the Englishman. “I was ignorant of the White Whale at that time. Well, one day we lowered for a pod of four or five whales, and my boat fastened to one of them; a regular circus horse he was, too, that went milling and milling round so, that my boat’s crew could only trim dish, by sitting all their sterns on the outer gunwale. Presently up breaches from the bottom of the sea a bouncing great whale, with a milky-white head and hump, all crows’ feet and wrinkles.”",
+     "causedByEvent": {
+      "name": "Englishman's encounter with the White Whale",
+      "takePlaceAt": {
+       "name": "At sea"
+      },
+      "hasParticipant": [
+       {
+        "name": "Englishman"
+       },
+       {
+        "name": "Ahab"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "White Whale"
+     }
+    },
+    {
+     "name": "Surprise",
+     "hasIntensity": 0.8,
+     "quote": "“Oh!” cried the one-armed captain, “oh, yes! Well; after he sounded, we didn’t see him again for some time; in fact, as I before hinted, I didn’t then know what whale it was that had served me such a trick, till some time afterwards, when coming back to the Line, we heard about Moby Dick—as some call him—and then I knew it was he.”",
+     "causedByEvent": {
+      "name": "Revelation about Moby Dick",
+      "takePlaceAt": {
+       "name": "At sea"
+      },
+      "hasParticipant": [
+       {
+        "name": "One-armed captain"
+       },
+       {
+        "name": "Ahab"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Moby Dick"
+     }
+    },
+    {
+     "name": "Anger",
+     "hasIntensity": 0.6,
+     "quote": "“What became of the White Whale?” now cried Ahab, who thus far had been impatiently listening to this by-play between the two Englishmen.",
+     "causedByEvent": {
+      "name": "Frustration with lack of information",
+      "takePlaceAt": {
+       "name": "At sea"
+      },
+      "hasParticipant": [
+       {
+        "name": "Ahab"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "White Whale"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Englishman",
+   "feels": [
+    {
+     "name": "Surprise",
+     "hasIntensity": 0.8,
+     "quote": "“Oh!” cried the one-armed captain, “oh, yes! Well; after he sounded, we didn’t see him again for some time; in fact, as I before hinted, I didn’t then know what whale it was that had served me such a trick, till some time afterwards, when coming back to the Line, we heard about Moby Dick—as some call him—and then I knew it was he.”",
+     "causedByEvent": {
+      "name": "Revelation about Moby Dick",
+      "takePlaceAt": {
+       "name": "At sea"
+      },
+      "hasParticipant": [
+       {
+        "name": "One-armed captain"
+       },
+       {
+        "name": "Ahab"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Moby Dick"
+     }
+    }
+   ]
+  },
+  {
+   "name": "One-armed captain",
+   "feels": [
+    {
+     "name": "Surprise",
+     "hasIntensity": 0.8,
+     "quote": "“Oh!” cried the one-armed captain, “oh, yes! Well; after he sounded, we didn’t see him again for some time; in fact, as I before hinted, I didn’t then know what whale it was that had served me such a trick, till some time afterwards, when coming back to the Line, we heard about Moby Dick—as some call him—and then I knew it was he.”",
+     "causedByEvent": {
+      "name": "Revelation about Moby Dick",
+      "takePlaceAt": {
+       "name": "At sea"
+      },
+      "hasParticipant": [
+       {
+        "name": "One-armed captain"
+       },
+       {
+        "name": "Ahab"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Moby Dick"
+     }
+    }
+   ]
+  }
+ ]
+}

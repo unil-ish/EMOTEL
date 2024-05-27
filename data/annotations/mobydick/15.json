@@ -1,0 +1,42 @@
+{
+ "FictionalCharacters": [
+  {
+   "name": "Queequeg",
+   "feels": [
+    {
+     "name": "Presentiment",
+     "hasIntensity": 0.6,
+     "quote": "He seemed to be working in obedience to some particular presentiment.",
+     "causedByEvent": {
+      "name": "Anointing his boat",
+      "takePlaceAt": {
+       "name": "On the boat"
+      }
+     },
+     "hasObject": {
+      "name": "His boat"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Stubb",
+   "feels": [
+    {
+     "name": "Excitement",
+     "hasIntensity": 0.9,
+     "quote": "That drove the spigot out of him! 'Tis July's immortal Fourth; all fountains must run wine today!",
+     "causedByEvent": {
+      "name": "Successfully pitchpoling the whale",
+      "takePlaceAt": {
+       "name": "On the boat"
+      }
+     },
+     "hasObject": {
+      "name": "The whale"
+     }
+    }
+   ]
+  }
+ ]
+}

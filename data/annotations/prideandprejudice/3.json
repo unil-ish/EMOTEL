@@ -1,0 +1,124 @@
+{
+ "FictionalCharacters": [
+  {
+   "name": "Mr. Collins",
+   "feels": [
+    {
+     "name": "Hope",
+     "hasIntensity": 0.8,
+     "quote": "When I do myself the honour of speaking to you next on the subject, I shall hope to receive a more favourable answer than you have now given me; though I am far from accusing you of cruelty at present, because I know it to be the established custom of your sex to reject a man on the first application, and, perhaps, you have even now said as much to encourage my suit as would be consistent with the true delicacy of the female character.",
+     "causedByEvent": {
+      "name": "Offering marriage to Elizabeth",
+      "takePlaceAt": {
+       "name": "Longbourn estate"
+      },
+      "hasParticipant": [
+       {
+        "name": "Mr. Collins"
+       },
+       {
+        "name": "Elizabeth"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Marriage proposal"
+     }
+    },
+    {
+     "name": "Disappointment",
+     "hasIntensity": 0.7,
+     "quote": "This information, however, startled Mrs. Bennet: she would have been glad to be equally satisfied that her daughter had meant to encourage him by protesting against his proposals, but she dared not believe it, and could not help saying so.",
+     "causedByEvent": {
+      "name": "Elizabeth's rejection of his proposal",
+      "takePlaceAt": {
+       "name": "Longbourn estate"
+      },
+      "hasParticipant": [
+       {
+        "name": "Mr. Collins"
+       },
+       {
+        "name": "Elizabeth"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Rejection"
+     }
+    },
+    {
+     "name": "Pride",
+     "hasIntensity": 0.6,
+     "quote": "He thought too well of himself to comprehend on what motive his cousin could refuse him; and though his pride was hurt, he suffered in no other way.",
+     "causedByEvent": {
+      "name": "Elizabeth's rejection of his proposal",
+      "takePlaceAt": {
+       "name": "Longbourn estate"
+      },
+      "hasParticipant": [
+       {
+        "name": "Mr. Collins"
+       },
+       {
+        "name": "Elizabeth"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Rejection"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Elizabeth",
+   "feels": [
+    {
+     "name": "Amusement",
+     "hasIntensity": 0.8,
+     "quote": "Elizabeth could not but smile at such a conclusion of such a beginning;",
+     "causedByEvent": {
+      "name": "Mr. Collins' persistence",
+      "takePlaceAt": {
+       "name": "Longbourn estate"
+      },
+      "hasParticipant": [
+       {
+        "name": "Mr. Collins"
+       },
+       {
+        "name": "Elizabeth"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Mr. Collins' persistence"
+     }
+    },
+    {
+     "name": "Determination",
+     "hasIntensity": 0.9,
+     "quote": "Though her manner varied, however, her determination never did.",
+     "causedByEvent": {
+      "name": "Mrs. Bennet's persuasion",
+      "takePlaceAt": {
+       "name": "Longbourn estate"
+      },
+      "hasParticipant": [
+       {
+        "name": "Mrs. Bennet"
+       },
+       {
+        "name": "Elizabeth"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Refusal"
+     }
+    }
+   ]
+  }
+ ]
+}

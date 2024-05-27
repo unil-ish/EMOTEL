@@ -1,0 +1,97 @@
+{
+ "FictionalCharacters": [
+  {
+   "name": "Elizabeth Bennet",
+   "feels": [
+    {
+     "name": "Shame",
+     "hasIntensity": 0.8,
+     "quote": "Elizabeth's misery increased at such unnecessary, such officious attention!",
+     "causedByEvent": {
+      "name": "Mrs. Bennet's attention towards Mr. Bingley",
+      "takePlaceAt": {
+       "name": "Longbourn"
+      },
+      "hasParticipant": [
+       {
+        "name": "Elizabeth Bennet"
+       },
+       {
+        "name": "Mrs. Bennet"
+       },
+       {
+        "name": "Mr. Bingley"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Attention"
+     }
+    },
+    {
+     "name": "Disappointment",
+     "hasIntensity": 0.9,
+     "quote": "She was disappointed, and angry with herself for being so.",
+     "causedByEvent": {
+      "name": "Mr. Darcy's behavior",
+      "takePlaceAt": {
+       "name": "Longbourn"
+      },
+      "hasParticipant": [
+       {
+        "name": "Elizabeth Bennet"
+       },
+       {
+        "name": "Mr. Darcy"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Behavior"
+     }
+    },
+    {
+     "name": "Anxiety",
+     "hasIntensity": 0.7,
+     "quote": "Anxious and uneasy, the period which passed in the drawing-room before the gentlemen came, was wearisome and dull to a degree that almost made her uncivil.",
+     "causedByEvent": {
+      "name": "Waiting for the gentlemen",
+      "takePlaceAt": {
+       "name": "Longbourn"
+      },
+      "hasParticipant": [
+       {
+        "name": "Elizabeth Bennet"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Waiting"
+     }
+    },
+    {
+     "name": "Frustration",
+     "hasIntensity": 0.8,
+     "quote": "She now lost every expectation of pleasure.",
+     "causedByEvent": {
+      "name": "Not being able to join Mr. Darcy",
+      "takePlaceAt": {
+       "name": "Longbourn"
+      },
+      "hasParticipant": [
+       {
+        "name": "Elizabeth Bennet"
+       },
+       {
+        "name": "Mr. Darcy"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Joining"
+     }
+    }
+   ]
+  }
+ ]
+}

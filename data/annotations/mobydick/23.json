@@ -1,0 +1,117 @@
+{
+ "FictionalCharacters": [
+  {
+   "name": "Ishmael",
+   "feels": [
+    {
+     "name": "Anticipation",
+     "hasIntensity": 0.7,
+     "quote": "But let me have one more good round look aloft here at the sea; there’s time for that. An old, old sight, and yet somehow so young; aye, and not changed a wink since I first saw it, a boy, from the sand-hills of Nantucket!",
+     "causedByEvent": {
+      "name": "Looking at the sea",
+      "takePlaceAt": {
+       "name": "On the ship's deck"
+      }
+     },
+     "hasObject": {
+      "name": "Sea"
+     }
+    },
+    {
+     "name": "Fear",
+     "hasIntensity": 0.8,
+     "quote": "Oh! my God! what is this that shoots through me, and leaves me so deadly calm, yet expectant,—fixed at the top of a shudder!",
+     "causedByEvent": {
+      "name": "Feeling deadly calm and expectant",
+      "takePlaceAt": {
+       "name": "On the ship's deck"
+      }
+     },
+     "hasObject": {
+      "name": "Unknown feeling"
+     }
+    },
+    {
+     "name": "Confusion",
+     "hasIntensity": 0.6,
+     "quote": "Future things swim before me, as in empty outlines and skeletons; all the past is somehow grown dim.",
+     "causedByEvent": {
+      "name": "Thinking about the future",
+      "takePlaceAt": {
+       "name": "On the ship's deck"
+      }
+     },
+     "hasObject": {
+      "name": "Future"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Starbuck",
+   "feels": [
+    {
+     "name": "Fear",
+     "hasIntensity": 0.7,
+     "quote": "Oh, my God! what is this that shoots through me, and leaves me so deadly calm, yet expectant,—fixed at the top of a shudder!",
+     "causedByEvent": {
+      "name": "Watching the boat being followed by sharks",
+      "takePlaceAt": {
+       "name": "On the ship's deck"
+      }
+     },
+     "hasObject": {
+      "name": "Sharks"
+     }
+    },
+    {
+     "name": "Confusion",
+     "hasIntensity": 0.8,
+     "quote": "Heart of wrought steel! murmured Starbuck gazing over the side, and following with his eyes the receding boat—canst thou yet ring boldly to that sight?",
+     "causedByEvent": {
+      "name": "Watching the boat being followed by sharks",
+      "takePlaceAt": {
+       "name": "On the ship's deck"
+      }
+     },
+     "hasObject": {
+      "name": "Boat being followed by sharks"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Ahab",
+   "feels": [
+    {
+     "name": "Anticipation",
+     "hasIntensity": 0.9,
+     "quote": "Forehead to forehead I meet thee, this third time, Moby Dick!",
+     "causedByEvent": {
+      "name": "Meeting Moby Dick",
+      "takePlaceAt": {
+       "name": "On the ship's deck"
+      }
+     },
+     "hasObject": {
+      "name": "Moby Dick"
+     }
+    },
+    {
+     "name": "Fear",
+     "hasIntensity": 0.8,
+     "quote": "Drive, drive in your nails, oh ye waves! to their uttermost heads drive them in! ye but strike a thing without a lid; and no coffin and no hearse can be mine:—and hemp only can kill me! Ha! ha!",
+     "causedByEvent": {
+      "name": "Feeling fear of death",
+      "takePlaceAt": {
+       "name": "On the ship's deck"
+      }
+     },
+     "hasObject": {
+      "name": "Death"
+     }
+    }
+   ]
+  }
+ ]
+}

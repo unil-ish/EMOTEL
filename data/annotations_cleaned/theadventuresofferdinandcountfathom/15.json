@@ -1,0 +1,146 @@
+{
+ "FictionalCharacters": [
+  {
+   "name": "Renaldo",
+   "feels": [
+    {
+     "name": "Grief",
+     "hasIntensity": 1,
+     "quote": "Unutterable was the joy that took possession of his mother and sister when Farrel flew into her apartment to intimate this happy turn. Scarce could they be restrained from pouring forth their transports in the presence of Renaldo, who was still too feeble to endure such communication; indeed, he was extremely mortified and dejected at this event, which had diffused such pleasure and satisfaction among his friends, for though his distemper was mastered, the fatal cause of it still rankled at his heart, and he considered this respite from death as a protraction of his misery.",
+     "hasObject": {
+      "name": "Recovery",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Recovery"
+     },
+     "causedBy": {
+      "name": "Recovery_from_illness",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Recovery_from_illness"
+     },
+     "id": "Grief"
+    },
+    {
+     "name": "Melvil",
+     "feels": [
+      {
+       "name": "Surprise",
+       "hasIntensity": 0.8,
+       "quote": "Surprised at this address, which was attended with the clanking of chains, Renaldo lifted up his eyes, and perceived the person who spoke to be one of two malefactors shackled together, who had been sentenced for some crime to work as labourers on the fortifications.",
+       "hasObject": {
+        "name": "Encounter",
+        "id": "texts/theadventuresofferdinandcountfathom.txt#Encounter"
+       },
+       "causedBy": {
+        "name": "Encounter_with_Ratchcali",
+        "takePlaceAt": {
+         "name": "Luxemburg_fortress",
+         "id": "texts/theadventuresofferdinandcountfathom.txt#Luxemburg_fortress"
+        },
+        "hasParticipant": [
+         {
+          "name": "Renaldo",
+          "id": "texts/theadventuresofferdinandcountfathom.txt#Renaldo"
+         },
+         {
+          "name": "Ratchcali",
+          "id": "texts/theadventuresofferdinandcountfathom.txt#Ratchcali"
+         }
+        ],
+        "id": "texts/theadventuresofferdinandcountfathom.txt#Encounter_with_Ratchcali"
+       },
+       "id": "texts/theadventuresofferdinandcountfathom.txt#Surprise"
+      },
+      {
+       "name": "Indignation",
+       "hasIntensity": 0.9,
+       "quote": "At mention of this detested name, Renaldo’s heart began to throb with indignation; yet he suppressed the emotion, and desired to know the meaning of that splendid encomium which he had bestowed upon his confederate.",
+       "hasObject": {
+        "name": "Discussion",
+        "id": "texts/theadventuresofferdinandcountfathom.txt#Discussion"
+       },
+       "causedBy": {
+        "name": "Discussion_about_Fathom",
+        "takePlaceAt": {
+         "name": "Luxemburg_fortress",
+         "id": "texts/theadventuresofferdinandcountfathom.txt#Luxemburg_fortress"
+        },
+        "hasParticipant": [
+         {
+          "name": "Renaldo",
+          "id": "texts/theadventuresofferdinandcountfathom.txt#Renaldo"
+         },
+         {
+          "name": "Ratchcali",
+          "id": "texts/theadventuresofferdinandcountfathom.txt#Ratchcali"
+         }
+        ],
+        "id": "texts/theadventuresofferdinandcountfathom.txt#Discussion_about_Fathom"
+       },
+       "id": "texts/theadventuresofferdinandcountfathom.txt#Indignation"
+      }
+     ],
+     "id": "Melvil"
+    },
+    {
+     "name": "Ratchcali",
+     "feels": [
+      {
+       "name": "Indifference",
+       "hasIntensity": 0.7,
+       "quote": "Nothing renders the soul so callous and insensible as the searing brands of infamy and disgrace. Without betraying the least symptoms of shame or confusion, “Count,” says he, “this is the fate of war, at least of the war in which I have been engaged, ever since I took leave of the Imperial army, and retreated with your old companion Fathom.",
+       "hasObject": {
+        "name": "Discussion",
+        "id": "texts/theadventuresofferdinandcountfathom.txt#Discussion"
+       },
+       "causedBy": {
+        "name": "Discussion_about_his_situation",
+        "takePlaceAt": {
+         "name": "Luxemburg_fortress",
+         "id": "texts/theadventuresofferdinandcountfathom.txt#Luxemburg_fortress"
+        },
+        "hasParticipant": [
+         {
+          "name": "Ratchcali",
+          "id": "texts/theadventuresofferdinandcountfathom.txt#Ratchcali"
+         },
+         {
+          "name": "Renaldo",
+          "id": "texts/theadventuresofferdinandcountfathom.txt#Renaldo"
+         }
+        ],
+        "id": "texts/theadventuresofferdinandcountfathom.txt#Discussion_about_his_situation"
+       },
+       "id": "texts/theadventuresofferdinandcountfathom.txt#Indifference"
+      }
+     ],
+     "id": "Ratchcali"
+    }
+   ],
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Renaldo"
+  }
+ ],
+ "Events": [
+  {
+   "name": "Recovery_from_illness",
+   "takePlaceAt": {
+    "name": "Recovery_from_illness",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Recovery_from_illness"
+   },
+   "hasParticipant": [
+    {
+     "name": "Renaldo",
+     "id": "texts/theadventuresofferdinandcountfathom.txt#Renaldo"
+    },
+    {
+     "name": "Farrel",
+     "id": "texts/theadventuresofferdinandcountfathom.txt#Farrel"
+    }
+   ],
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Recovery_from_illness"
+  }
+ ],
+ "Places": [
+  {
+   "name": "Luxemburg_fortress",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Luxemburg_fortress"
+  }
+ ]
+}

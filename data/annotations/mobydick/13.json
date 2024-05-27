@@ -1,0 +1,151 @@
+{
+ "FictionalCharacters": [
+  {
+   "name": "Ahab",
+   "feels": [
+    {
+     "name": "Fear",
+     "hasIntensity": 0.7,
+     "quote": "“Think, think of the fevers, yellow and bilious! Beware of the horrible plague!”",
+     "causedByEvent": {
+      "name": "Gabriel's warning",
+      "takePlaceAt": {
+       "name": "Jeroboam's encounter with Moby Dick"
+      },
+      "hasParticipant": [
+       {
+        "name": "Gabriel"
+       },
+       {
+        "name": "Captain Mayhew"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Plague"
+     }
+    },
+    {
+     "name": "Anger",
+     "hasIntensity": 0.8,
+     "quote": "“Curses throttle thee!” yelled Ahab.",
+     "causedByEvent": {
+      "name": "Gabriel's interference",
+      "takePlaceAt": {
+       "name": "Jeroboam's encounter with Moby Dick"
+      },
+      "hasParticipant": [
+       {
+        "name": "Gabriel"
+       },
+       {
+        "name": "Ahab"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Gabriel"
+     }
+    },
+    {
+     "name": "Acceptance",
+     "hasIntensity": 0.6,
+     "quote": "“Nay, keep it thyself,” cried Gabriel to Ahab; “thou art soon going that way.”",
+     "causedByEvent": {
+      "name": "Gabriel's prediction",
+      "takePlaceAt": {
+       "name": "Jeroboam's encounter with Moby Dick"
+      },
+      "hasParticipant": [
+       {
+        "name": "Gabriel"
+       },
+       {
+        "name": "Ahab"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Letter"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Queequeg",
+   "feels": [
+    {
+     "name": "Fear",
+     "hasIntensity": 0.7,
+     "quote": "A thing altogether incredible were it not that attracted by such prey as a dead whale, the otherwise miscellaneously carnivorous shark will seldom touch a man.",
+     "causedByEvent": {
+      "name": "Being among sharks",
+      "takePlaceAt": {
+       "name": "Between the whale and the ship"
+      },
+      "hasParticipant": [
+       {
+        "name": "Queequeg"
+       },
+       {
+        "name": "Sharks"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Sharks"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Narrator",
+   "feels": [
+    {
+     "name": "Fear",
+     "hasIntensity": 0.6,
+     "quote": "So strongly and metaphysically did I conceive of my situation then, that while earnestly watching his motions, I seemed distinctly to perceive that my own individuality was now merged in a joint stock company of two...",
+     "causedByEvent": {
+      "name": "Holding Queequeg with the monkey-rope",
+      "takePlaceAt": {
+       "name": "Between the whale and the ship"
+      },
+      "hasParticipant": [
+       {
+        "name": "Narrator"
+       },
+       {
+        "name": "Queequeg"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Situation"
+     }
+    },
+    {
+     "name": "Acceptance",
+     "hasIntensity": 0.7,
+     "quote": "Therefore, I saw that here was a sort of interregnum in Providence; for its even-handed equity never could have so gross an injustice.",
+     "causedByEvent": {
+      "name": "Realization of interconnectedness",
+      "takePlaceAt": {
+       "name": "Between the whale and the ship"
+      },
+      "hasParticipant": [
+       {
+        "name": "Narrator"
+       },
+       {
+        "name": "Queequeg"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Interregnum"
+     }
+    }
+   ]
+  }
+ ]
+}

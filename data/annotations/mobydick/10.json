@@ -1,0 +1,100 @@
+{
+ "FictionalCharacters": [
+  {
+   "name": "Ahab",
+   "feels": [
+    {
+     "name": "Anger",
+     "hasIntensity": 0.9,
+     "quote": "But as the strange captain, leaning over the pallid bulwarks, was in the act of putting his trumpet to his mouth, it somehow fell from his hand into the sea; and the wind now rising amain, he in vain strove to make himself heard without it.",
+     "causedByEvent": {
+      "name": "Losing the trumpet",
+      "takePlaceAt": {
+       "name": "On the ship's deck"
+      },
+      "hasParticipant": [
+       {
+        "name": "Ahab"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Trumpet"
+     }
+    },
+    {
+     "name": "Ahab",
+     "feels": [
+      {
+       "name": "Fear",
+       "hasIntensity": 0.8,
+       "quote": "But almost everybody supposed that this particular preparative heedfulness in Ahab must only be with a view to the ultimate chase of Moby Dick; for he had already revealed his intention to hunt that mortal monster in person.",
+       "causedByEvent": {
+        "name": "Revealing intention to hunt Moby Dick",
+        "takePlaceAt": {
+         "name": "On the ship"
+        },
+        "hasParticipant": [
+         {
+          "name": "Ahab"
+         }
+        ]
+       },
+       "hasObject": {
+        "name": "Moby Dick"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Radney",
+   "feels": [
+    {
+     "name": "Anger",
+     "hasIntensity": 0.9,
+     "quote": "‘Damn your eyes! what’s that pump stopping for?’ roared Radney, pretending not to have heard the sailors’ talk. ‘Thunder away at it!’",
+     "causedByEvent": {
+      "name": "Pump stopping",
+      "takePlaceAt": {
+       "name": "On the ship's deck"
+      },
+      "hasParticipant": [
+       {
+        "name": "Radney"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Pump"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Steekilt",
+   "feels": [
+    {
+     "name": "Fear",
+     "hasIntensity": 0.8,
+     "quote": "But as he sat still for a moment, and as he steadfastly looked into the mate’s malignant eye and perceived the stacks of powder-casks heaped up in him and the slow-match silently burning along towards them; as he instinctively saw all this, that strange forbearance and unwillingness to stir up the deeper passionateness in any already ireful being—a repugnance most felt, when felt at all, by really valiant men even when aggrieved—this nameless phantom feeling, gentlemen, stole over Steelkilt.",
+     "causedByEvent": {
+      "name": "Perceiving the mate's actions",
+      "takePlaceAt": {
+       "name": "On the ship's deck"
+      },
+      "hasParticipant": [
+       {
+        "name": "Steekilt"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Mate's actions"
+     }
+    }
+   ]
+  }
+ ]
+}

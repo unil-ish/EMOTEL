@@ -1,0 +1,65 @@
+{
+ "FictionalCharacters": [
+  {
+   "name": "Captain Ahab",
+   "feels": [
+    {
+     "name": "Trust",
+     "hasIntensity": 0.6,
+     "quote": "But be all this as it may; let the unseen, ambiguous synod in the air, or the vindictive princes and potentates of fire, have to do or not with earthly Ahab, yet, in this present matter of his leg, he took plain practical procedures;—he called the carpenter.",
+     "causedByEvent": {
+      "name": "Calling the carpenter",
+      "takePlaceAt": {
+       "name": "On the Pequod's decks"
+      }
+     },
+     "hasObject": {
+      "name": "Carpenter"
+     }
+    },
+    {
+     "name": "Fear",
+     "hasIntensity": 0.8,
+     "quote": "And not only this, but to that ever-contracting, dropping circle ashore, who, for any reason, possessed the privilege of a less banned approach to him; to that timid circle the above hinted casualty—remaining, as it did, moodily unaccounted for by Ahab—invested itself with terrors, not entirely underived from the land of spirits and of wails.",
+     "causedByEvent": {
+      "name": "Casualty",
+      "takePlaceAt": {
+       "name": "On the Pequod's decks"
+      }
+     },
+     "hasObject": {
+      "name": "Casualty"
+     }
+    },
+    {
+     "name": "Sadness",
+     "hasIntensity": 0.7,
+     "quote": "Unwittingly here a secret has been divulged, which perhaps might more properly, in set way, have been disclosed before. With many other particulars concerning Ahab, always had it remained a mystery to some, why it was, that for a certain period, both before and after the sailing of the Pequod, he had hidden himself away with such Grand-Lama-like exclusiveness; and, for that one interval, sought speechless refuge, as it were, among the marble senate of the dead.",
+     "causedByEvent": {
+      "name": "Hiding away",
+      "takePlaceAt": {
+       "name": "On the Pequod's decks"
+      }
+     },
+     "hasObject": {
+      "name": "Marble senate of the dead"
+     }
+    },
+    {
+     "name": "Mystery",
+     "hasIntensity": 0.6,
+     "quote": "With many other particulars concerning Ahab, always had it remained a mystery to some, why it was, that for a certain period, both before and after the sailing of the Pequod, he had hidden himself away with such Grand-Lama-like exclusiveness; and, for that one interval, sought speechless refuge, as it were, among the marble senate of the dead.",
+     "causedByEvent": {
+      "name": "Hiding away",
+      "takePlaceAt": {
+       "name": "On the Pequod's decks"
+      }
+     },
+     "hasObject": {
+      "name": "Marble senate of the dead"
+     }
+    }
+   ]
+  }
+ ]
+}

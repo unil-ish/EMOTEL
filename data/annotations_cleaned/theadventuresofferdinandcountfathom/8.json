@@ -1,0 +1,118 @@
+{
+ "FictionalCharacters": [
+  {
+   "name": "Fathom",
+   "feels": [
+    {
+     "name": "Trust",
+     "hasIntensity": 0.3,
+     "quote": "Fathom suffered himself to be persuaded by the arguments of the Tyrolese, who approved the proposal of decamping.",
+     "hasObject": {
+      "name": "Decamping",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Decamping"
+     },
+     "causedBy": {
+      "name": "Proposal_of_decamping",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Proposal_of_decamping"
+     },
+     "id": "Trust"
+    },
+    {
+     "name": "Surprise",
+     "hasIntensity": 0.6,
+     "quote": "He was deeply touched with these marks of alienation in the behaviour of his friends.",
+     "hasObject": {
+      "name": "Alienation",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Alienation"
+     },
+     "causedBy": {
+      "name": "Marks_of_alienation_from_friends",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Marks_of_alienation_from_friends"
+     },
+     "id": "Surprise"
+    },
+    {
+     "name": "Anger",
+     "hasIntensity": 0.4,
+     "quote": "He was not a little confounded when he found himself charged with 350 attendances by the solicitor.",
+     "hasObject": {
+      "name": "Excessive_charges",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Excessive_charges"
+     },
+     "causedBy": {
+      "name": "Receiving_the_solicitor_s_bill",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Receiving_the_solicitor_s_bill"
+     },
+     "id": "Anger"
+    },
+    {
+     "name": "Fear",
+     "hasIntensity": 0.7,
+     "quote": "He knew it was not his interest to disoblige his lawyer at such a juncture.",
+     "hasObject": {
+      "name": "Displeasing_the_lawyer",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Displeasing_the_lawyer"
+     },
+     "causedBy": {
+      "name": "Receiving_the_solicitor_s_bill",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Receiving_the_solicitor_s_bill"
+     },
+     "id": "Fear"
+    }
+   ],
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Fathom"
+  }
+ ],
+ "Events": [
+  {
+   "name": "Proposal_of_decamping",
+   "takePlaceAt": {
+    "name": "Proposal_of_decamping",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Proposal_of_decamping"
+   },
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Proposal_of_decamping"
+  },
+  {
+   "name": "Marks_of_alienation_from_friends",
+   "takePlaceAt": {
+    "name": "Marks_of_alienation_from_friends",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Marks_of_alienation_from_friends"
+   },
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Marks_of_alienation_from_friends"
+  },
+  {
+   "name": "Receiving_the_solicitor_s_bill",
+   "takePlaceAt": {
+    "name": "Receiving_the_solicitor_s_bill",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Receiving_the_solicitor_s_bill"
+   },
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Receiving_the_solicitor_s_bill"
+  },
+  {
+   "name": "Receiving_the_solicitor_s_bill",
+   "takePlaceAt": {
+    "name": "Receiving_the_solicitor_s_bill",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Receiving_the_solicitor_s_bill"
+   },
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Receiving_the_solicitor_s_bill"
+  }
+ ],
+ "Places": [
+  {
+   "name": "Discussion_between_Fathom_and_the_Tyrolese",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Discussion_between_Fathom_and_the_Tyrolese"
+  },
+  {
+   "name": "Social_gatherings",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Social_gatherings"
+  },
+  {
+   "name": "Before_trial",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Before_trial"
+  },
+  {
+   "name": "Before_trial",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Before_trial"
+  }
+ ]
+}

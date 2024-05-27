@@ -1,0 +1,119 @@
+{
+ "FictionalCharacters": [
+  {
+   "name": "Daggoo",
+   "feels": [
+    {
+     "name": "Surprise",
+     "hasIntensity": 0.7,
+     "quote": "In the distance, a great white mass lazily rose, and rising higher and higher, and disentangling itself from the azure, at last gleamed before our prow like a snow-slide, new slid from the hills.",
+     "causedByEvent": {
+      "name": "Seeing the White Whale",
+      "takePlaceAt": {
+       "name": "Sea"
+      },
+      "hasParticipant": [
+       {
+        "name": "Daggoo"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "White Whale"
+     }
+    },
+    {
+     "name": "Joy",
+     "hasIntensity": 0.6,
+     "quote": "Upon this, the seamen rushed to the yard-arms, as in swarming-time the bees rush to the boughs.",
+     "causedByEvent": {
+      "name": "Spotting the White Whale",
+      "takePlaceAt": {
+       "name": "Sea"
+      },
+      "hasParticipant": [
+       {
+        "name": "Daggoo"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "White Whale"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Ahab",
+   "feels": [
+    {
+     "name": "Impatience",
+     "hasIntensity": 0.8,
+     "quote": "Some vague dissatisfaction, or impatience, or despair, seemed working in him; as if the sight of that dead body reminded him that Moby Dick was yet to be slain.",
+     "causedByEvent": {
+      "name": "Seeing the Dead Whale",
+      "takePlaceAt": {
+       "name": "Sea"
+      },
+      "hasParticipant": [
+       {
+        "name": "Ahab"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Dead Whale"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Stubb",
+   "feels": [
+    {
+     "name": "Excitement",
+     "hasIntensity": 0.7,
+     "quote": "Flushed with conquest, betrayed an unusual but still good-natured excitement.",
+     "causedByEvent": {
+      "name": "Banqueting on Whale's Flesh",
+      "takePlaceAt": {
+       "name": "Sea"
+      },
+      "hasParticipant": [
+       {
+        "name": "Stubb"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Whale's Flesh"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Fleece",
+   "feels": [
+    {
+     "name": "Anger",
+     "hasIntensity": 0.6,
+     "quote": "Bress my soul, if I cook noder one,” he growled, angrily, turning round to depart.",
+     "causedByEvent": {
+      "name": "Being Criticized for Cooking",
+      "takePlaceAt": {
+       "name": "Sea"
+      },
+      "hasParticipant": [
+       {
+        "name": "Fleece"
+       }
+      ]
+     },
+     "hasObject": {
+      "name": "Cooking"
+     }
+    }
+   ]
+  }
+ ]
+}
