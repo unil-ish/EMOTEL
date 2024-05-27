@@ -46,9 +46,9 @@ Ce dossier contient les éléments suivants:
 
 ## Scripts
 
-- `ask_chatgpt.py` : Annote les morceaux de textes envoyés à l'API CHatGPT
+- `ask_chatgpt.py` : Annote les morceaux de textes envoyés à l'API ChatGPT
 - `cut_text.py` : Coupe les fichiers textes après un certain nombre de caractères
-- `json_to_owl.py` : Itère sur toutes les annotations de `annotations_cleaned` pour créer des individus et les njecter dans l'ontologie `ontology.owl`
+- `json_to_owl.py` : Itère sur toutes les annotations de `annotations_cleaned` pour créer des individus et les injecter dans l'ontologie `ontology.owl`
 - `normalize_names.py` : Sert à nettoyer les `annotations` pour enlever les espaces dans les noms par exemple
 
 
