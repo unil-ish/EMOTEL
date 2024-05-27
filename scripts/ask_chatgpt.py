@@ -1,9 +1,9 @@
 import os
 import openai
 import json
-import sys
 import tqdm
 import time
+from cut_text import CHUNKS_DIR
 
 
 def send_req(messages) -> str:
@@ -114,9 +114,11 @@ essai {x}/10""")
 
 
 if __name__ == "__main__":
-    chunk_dir = sys.argv[1]
-    if os.path.isdir(chunk_dir):
-        annotate_directory(chunk_dir)
-        quit(0)
-    else:
-        raise ValueError("not a directory:", chunk_dir)
+
+    for directory in os.listdir(CHUNKS_DIR):
+        dir_path = os.path.join(CHUNKS_DIR, directory)
+        print(dir_path)
+        if os.path.isdir(dir_path):
+            annotate_directory(dir_path)
+        else:
+            raise ValueError("not a directory:", dir_path)

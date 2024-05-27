@@ -125,7 +125,6 @@ def cut(fp, prompt_file, n):
     )
     for n, i in enumerate(messages_list_lists):
         fp = new_filepath(
-            fp=fp,
             dest_dir=dest_dir,
             n=n,
             ext="json",
@@ -177,8 +176,10 @@ def create_dest_dir(fp):
 
 
 if __name__ == "__main__":
-    prompt_file = "../prompts/2024-05-26.txt"
+    # prompt_file = "../prompts/2024-05-26.txt"
+    prompt_file = "../prompts/2024-05-27.txt"  # test
 
     for filename in os.listdir(TEXTS_DIR):
-        fp = os.path.join(TEXTS_DIR, filename)
-        cut(fp=fp, n=2000)
+        if filename.replace(".txt", "") not in os.listdir(CHUNKS_DIR):
+            fp = os.path.join(TEXTS_DIR, filename)
+            cut(fp=fp, prompt_file=prompt_file, n=2000)
