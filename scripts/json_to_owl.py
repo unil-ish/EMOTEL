@@ -105,7 +105,8 @@ def add_event(event):
         g.add((event_uri, EMOTEL.takePlaceAt, place_uri))
     if "hasParticipant" in event:
         print(event)
-        if type(event["hasParticipiant" is list]):
+        # if type(event["hasParticipiant" is list]):
+        if isinstance(event['hasParticipant'], list):
             for participant in event["hasParticipant"]:
                 print(participant)
                 participant_uri = create_uri(EMOTEL, participant["id"])
