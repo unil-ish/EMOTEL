@@ -1,0 +1,139 @@
+{
+ "FictionalCharacters": [
+  {
+   "name": "Miss_Matty",
+   "feels": [
+    {
+     "name": "Sadness",
+     "hasIntensity": 0.9,
+     "quote": "Oh, my dear! the bitter, bitter crying she had when she was alone; and at last, as she grew weaker, she could not keep her tears in when Deborah or me was by.",
+     "causedBy": {
+      "name": "Peter_s_disappearance",
+      "id": "texts/cranford.txt#Peter_s_disappearance"
+     },
+     "hasObject": {
+      "name": "Peter",
+      "id": "texts/cranford.txt#Peter"
+     },
+     "exactPlace": "In her room",
+     "id": "Sadness"
+    },
+    {
+     "name": "Grief",
+     "hasIntensity": 0.8,
+     "quote": "That spring day was the last time he ever saw his mother’s face.",
+     "causedBy": {
+      "name": "Peter_s_departure",
+      "id": "texts/cranford.txt#Peter_s_departure"
+     },
+     "hasObject": {
+      "name": "Peter_s_departure",
+      "id": "texts/cranford.txt#Peter_s_departure"
+     },
+     "exactPlace": "In the house",
+     "id": "Grief"
+    },
+    {
+     "name": "Remorse",
+     "hasIntensity": 0.7,
+     "quote": "‘Tell your mother I have flogged Peter, and that he richly deserved it.’",
+     "causedBy": {
+      "name": "Flogging_Peter",
+      "id": "texts/cranford.txt#Flogging_Peter"
+     },
+     "hasObject": {
+      "name": "Peter",
+      "id": "texts/cranford.txt#Peter"
+     },
+     "exactPlace": "In the house",
+     "id": "Remorse"
+    }
+   ],
+   "id": "texts/cranford.txt#Miss_Matty"
+  },
+  {
+   "name": "Miss_Betty_Barker",
+   "feels": [
+    {
+     "name": "Modesty",
+     "hasIntensity": 0.6,
+     "quote": "she was very much absorbed in her errand, which she delivered herself of with an oppressive modesty that found vent in endless apologies.",
+     "causedBy": {
+      "name": "Visiting_Miss_Matty",
+      "id": "texts/cranford.txt#Visiting_Miss_Matty"
+     },
+     "hasObject": {
+      "name": "Visiting_Miss_Matty",
+      "id": "texts/cranford.txt#Visiting_Miss_Matty"
+     },
+     "exactPlace": "In Miss Matty's house",
+     "id": "Modesty"
+    }
+   ],
+   "id": "texts/cranford.txt#Miss_Betty_Barker"
+  }
+ ],
+ "Places": [
+  {
+   "name": "Miss_Matty_s_house",
+   "description": "A small house where Miss Matty and Miss Matty live.",
+   "id": "texts/cranford.txt#Miss_Matty_s_house"
+  }
+ ],
+ "Events": [
+  {
+   "name": "Peter_s_disappearance",
+   "takePlaceAt": {
+    "name": "Miss_Matty_s_house",
+    "id": "texts/cranford.txt#Miss_Matty_s_house"
+   },
+   "hasParticipant": [
+    {
+     "name": "Miss_Matty",
+     "id": "texts/cranford.txt#Miss_Matty"
+    },
+    {
+     "name": "Peter",
+     "id": "texts/cranford.txt#Peter"
+    }
+   ],
+   "id": "texts/cranford.txt#Peter_s_disappearance"
+  },
+  {
+   "name": "Flogging_Peter",
+   "takePlaceAt": {
+    "name": "Miss_Matty_s_house",
+    "id": "texts/cranford.txt#Miss_Matty_s_house"
+   },
+   "hasParticipant": [
+    {
+     "name": "Miss_Matty",
+     "id": "texts/cranford.txt#Miss_Matty"
+    },
+    {
+     "name": "Peter",
+     "id": "texts/cranford.txt#Peter"
+    }
+   ],
+   "id": "texts/cranford.txt#Flogging_Peter"
+  },
+  {
+   "name": "Visiting_Miss_Matty",
+   "takePlaceAt": {
+    "name": "Miss_Matty_s_house",
+    "id": "texts/cranford.txt#Miss_Matty_s_house"
+   },
+   "hasParticipant": [
+    {
+     "name": "Miss_Matty",
+     "id": "texts/cranford.txt#Miss_Matty"
+    },
+    {
+     "name": "Miss_Betty_Barker",
+     "id": "texts/cranford.txt#Miss_Betty_Barker"
+    }
+   ],
+   "id": "texts/cranford.txt#Visiting_Miss_Matty"
+  }
+ ]
+}

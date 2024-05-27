@@ -1,0 +1,113 @@
+{
+ "FictionalCharacters": [
+  {
+   "name": "Miss_Matty",
+   "feels": [
+    {
+     "name": "Trust",
+     "hasIntensity": 0.9,
+     "quote": "Remember, dear, I’m the only one left—I mean, there’s no one to be hurt by what I do. I’m willing to do anything that’s right and honest; and I don’t think, if Deborah knows where she is, she’ll care so very much if I’m not genteel; because, you see, she’ll know all, dear. Only let me see what I can do, and pay the poor people as far as I’m able.",
+     "causedBy": {
+      "name": "Feeling_responsible_for_the_poor_people",
+      "id": "texts/cranford.txt#Feeling_responsible_for_the_poor_people"
+     },
+     "hasObject": {
+      "name": "Helping_the_poor_people",
+      "id": "texts/cranford.txt#Helping_the_poor_people"
+     },
+     "exactPlace": "Before going out for a walk with Mary's father",
+     "id": "Trust"
+    },
+    {
+     "name": "Sadness",
+     "hasIntensity": 0.8,
+     "quote": "She recovered herself into a slight degree of impatient anger, directed against me, as having set them all off; and, moreover, I think she was vexed that I could not make a speech back in return for hers; and if I had known beforehand what was to be said, and had a card on which to express the probable feelings that would rise in my heart, I would have tried to gratify her. As it was, Mrs Forrester was the person to speak when we had recovered our composure.",
+     "causedBy": {
+      "name": "Feeling_unable_to_express_her_gratitude_adequately",
+      "id": "texts/cranford.txt#Feeling_unable_to_express_her_gratitude_adequately"
+     },
+     "hasObject": {
+      "name": "Gratitude_towards_the_ladies",
+      "id": "texts/cranford.txt#Gratitude_towards_the_ladies"
+     },
+     "exactPlace": "During the meeting with the Cranford ladies",
+     "id": "Sadness"
+    },
+    {
+     "name": "Anxiety",
+     "hasIntensity": 0.7,
+     "quote": "Miss Matty and I sat assenting to accounts, and schemes, and reports, and documents, of which I do not believe we either of us understood a word; for my father was clear-headed and decisive, and a capital man of business, and if we made the slightest inquiry, or expressed the slightest want of comprehension, he had a sharp way of saying, “Eh? eh? it’s as clear as daylight. What’s your objection?”",
+     "causedBy": {
+      "name": "Feeling_overwhelmed_by_the_business_discussions",
+      "id": "texts/cranford.txt#Feeling_overwhelmed_by_the_business_discussions"
+     },
+     "hasObject": {
+      "name": "Understanding_the_financial_matters",
+      "id": "texts/cranford.txt#Understanding_the_financial_matters"
+     },
+     "exactPlace": "During the business discussions with Mary's father",
+     "id": "Anxiety"
+    }
+   ],
+   "id": "texts/cranford.txt#Miss_Matty"
+  }
+ ],
+ "Places": [
+  {
+   "name": "Miss_Pole_s_drawingroom",
+   "description": "Arranged for a secret meeting to discuss helping Miss Matty",
+   "id": "texts/cranford.txt#Miss_Pole_s_drawingroom"
+  },
+  {
+   "name": "Miss_Matty_s_house",
+   "description": "Preparing for retrenchment and giving up the house",
+   "id": "texts/cranford.txt#Miss_Matty_s_house"
+  }
+ ],
+ "Events": [
+  {
+   "name": "Meeting_of_the_Cranford_ladies_at_Miss_Pole_s",
+   "takePlaceAt": {
+    "name": "Miss_Pole_s_drawingroom",
+    "id": "texts/cranford.txt#Miss_Pole_s_drawingroom"
+   },
+   "hasParticipant": [
+    {
+     "name": "Miss_Pole",
+     "id": "texts/cranford.txt#Miss_Pole"
+    },
+    {
+     "name": "Mrs_Forrester",
+     "id": "texts/cranford.txt#Mrs_Forrester"
+    },
+    {
+     "name": "Mrs_FitzAdam",
+     "id": "texts/cranford.txt#Mrs_FitzAdam"
+    }
+   ],
+   "id": "texts/cranford.txt#Meeting_of_the_Cranford_ladies_at_Miss_Pole_s"
+  },
+  {
+   "name": "Business_discussions_with_Mary_s_father",
+   "takePlaceAt": {
+    "name": "Miss_Matty_s_house",
+    "id": "texts/cranford.txt#Miss_Matty_s_house"
+   },
+   "hasParticipant": [
+    {
+     "name": "Miss_Matty",
+     "id": "texts/cranford.txt#Miss_Matty"
+    },
+    {
+     "name": "Mary",
+     "id": "texts/cranford.txt#Mary"
+    },
+    {
+     "name": "Mary_s_father",
+     "id": "texts/cranford.txt#Mary_s_father"
+    }
+   ],
+   "id": "texts/cranford.txt#Business_discussions_with_Mary_s_father"
+  }
+ ]
+}

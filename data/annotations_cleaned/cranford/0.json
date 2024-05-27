@@ -1,0 +1,159 @@
+{
+ "FictionalCharacters": [
+  {
+   "name": "Captain_Brown",
+   "feels": [
+    {
+     "name": "Kindness",
+     "hasIntensity": 0.9,
+     "quote": "He had suddenly become like an old man; his deep bass voice had a quavering in it, his eyes looked dim, and the lines on his face were deep.",
+     "causedBy": {
+      "name": "Death_of_his_daughter",
+      "id": "texts/cranford.txt#Death_of_his_daughter"
+     },
+     "hasObject": {
+      "name": "His_daughter",
+      "id": "texts/cranford.txt#His_daughter"
+     },
+     "exactPlace": "Drawing-room",
+     "id": "Kindness"
+    },
+    {
+     "name": "Grief",
+     "hasIntensity": 0.95,
+     "quote": "The great rough carter puckered up his manly face, and turned away to hide his tears.",
+     "causedBy": {
+      "name": "Death_of_Captain_Brown",
+      "id": "texts/cranford.txt#Death_of_Captain_Brown"
+     },
+     "hasObject": {
+      "name": "Captain_Brown",
+      "id": "texts/cranford.txt#Captain_Brown"
+     },
+     "exactPlace": "Drawing-room",
+     "id": "Grief"
+    },
+    {
+     "name": "Sorrow",
+     "hasIntensity": 0.9,
+     "quote": "Miss Brown was dying. We hardly knew her voice, it was so devoid of the complaining tone we had always associated with it.",
+     "causedBy": {
+      "name": "Miss_Brown_s_impending_death",
+      "id": "texts/cranford.txt#Miss_Brown_s_impending_death"
+     },
+     "hasObject": {
+      "name": "Miss_Brown",
+      "id": "texts/cranford.txt#Miss_Brown"
+     },
+     "exactPlace": "Room",
+     "id": "Sorrow"
+    }
+   ],
+   "id": "texts/cranford.txt#Captain_Brown"
+  },
+  {
+   "name": "Miss_Jessie",
+   "feels": [
+    {
+     "name": "Grief",
+     "hasIntensity": 0.9,
+     "quote": "She could even smile—a faint, sweet, wintry smile—as if to reassure us of her power to endure; but her look made our eyes fill suddenly with tears, more than if she had cried outright.",
+     "causedBy": {
+      "name": "Death_of_her_father",
+      "id": "texts/cranford.txt#Death_of_her_father"
+     },
+     "hasObject": {
+      "name": "Her_father",
+      "id": "texts/cranford.txt#Her_father"
+     },
+     "exactPlace": "Room",
+     "id": "Grief"
+    },
+    {
+     "name": "Sorrow",
+     "hasIntensity": 0.95,
+     "quote": "Her voice quivered, but she steadied it into calmness—'Mary! he has gone before you to the place where the weary are at rest. He knows now how you loved him.'",
+     "causedBy": {
+      "name": "Miss_Brown_s_impending_death",
+      "id": "texts/cranford.txt#Miss_Brown_s_impending_death"
+     },
+     "hasObject": {
+      "name": "Miss_Brown",
+      "id": "texts/cranford.txt#Miss_Brown"
+     },
+     "exactPlace": "Room",
+     "id": "Sorrow"
+    }
+   ],
+   "id": "texts/cranford.txt#Miss_Jessie"
+  },
+  {
+   "name": "Miss_Brown",
+   "feels": [
+    {
+     "name": "Remorse",
+     "hasIntensity": 0.9,
+     "quote": "Oh, Jessie! Jessie! How selfish I have been! God forgive me for letting you sacrifice yourself for me as you did!",
+     "causedBy": {
+      "name": "Realization_of_her_selfishness",
+      "id": "texts/cranford.txt#Realization_of_her_selfishness"
+     },
+     "hasObject": {
+      "name": "Miss_Jessie",
+      "id": "texts/cranford.txt#Miss_Jessie"
+     },
+     "exactPlace": "Room",
+     "id": "Remorse"
+    },
+    {
+     "name": "Grief",
+     "hasIntensity": 0.95,
+     "quote": "But you will be alone, Jessie!",
+     "causedBy": {
+      "name": "Impending_separation_from_her_sister",
+      "id": "texts/cranford.txt#Impending_separation_from_her_sister"
+     },
+     "hasObject": {
+      "name": "Miss_Jessie",
+      "id": "texts/cranford.txt#Miss_Jessie"
+     },
+     "exactPlace": "Room",
+     "id": "Grief"
+    }
+   ],
+   "id": "texts/cranford.txt#Miss_Brown"
+  }
+ ],
+ "Places": [
+  {
+   "name": "Drawingroom",
+   "description": "Where Captain Brown expressed his kindness and grief.",
+   "id": "texts/cranford.txt#Drawingroom"
+  },
+  {
+   "name": "Room",
+   "description": "Where Miss Brown was dying and Miss Jessie expressed her grief and sorrow.",
+   "id": "texts/cranford.txt#Room"
+  }
+ ],
+ "Events": [
+  {
+   "name": "Death_of_Miss_Brown",
+   "takePlaceAt": {
+    "name": "Room",
+    "id": "texts/cranford.txt#Room"
+   },
+   "hasParticipant": [
+    {
+     "name": "Miss_Brown",
+     "id": "texts/cranford.txt#Miss_Brown"
+    },
+    {
+     "name": "Miss_Jessie",
+     "id": "texts/cranford.txt#Miss_Jessie"
+    }
+   ],
+   "id": "texts/cranford.txt#Death_of_Miss_Brown"
+  }
+ ]
+}
