@@ -2,9 +2,10 @@ import json
 import os
 import unicodedata
 import re
+from typing import Callable
 
 
-def dict_iter_rec(obj, fn_condition, fn_apply) -> None:
+def dict_iter_rec(obj, fn_condition:Callable, fn_apply: Callable) -> None:
     """recherche récursivement les 'dict' satisfaisant une certaine condition et leur applique une fonction qui modifie ces dicts.
 
     Args:
@@ -28,7 +29,7 @@ def dict_iter_rec(obj, fn_condition, fn_apply) -> None:
             dict_iter_rec(i, fn_condition, fn_apply)
 
 
-def url_conformize(s) -> str:
+def url_conformize(s: str) -> str:
     """Normalise une chaîne de caractère pour qu'elle puisse être integrée à une URI.
 
     Args:
@@ -43,7 +44,7 @@ def url_conformize(s) -> str:
     return "".join([c for c in s if c.isalnum() or c == "_"])
 
 
-def normalize_obj_name(obj) -> None:
+def normalize_obj_name(obj: dict) -> None:
     """Normalise l'attributs 'name' d'un objet (dict).
 
     Args:
@@ -61,7 +62,7 @@ def normalize_obj_name(obj) -> None:
     return
 
 
-def clean_annotation_names(annotations) -> None:
+def clean_annotation_names(annotations: dict) -> None:
     """Normalise les clés 'name' de tous les objets concernés dans les annotations.
 
     Args:
@@ -78,10 +79,10 @@ def clean_annotation_names(annotations) -> None:
         ("hasObject", "object"),
     ]:
 
-        def missing_key_but_ersatz(d):
+        def missing_key_but_ersatz(d: dict) -> bool:
             return key not in d.keys() and ersatz in d.keys()
 
-        def replace_ersatz_with_key(d):
+        def replace_ersatz_with_key(d: dict) -> None:
             d[key] = d[ersatz]
             d.pop(ersatz)
 
@@ -141,16 +142,22 @@ def clean_annotation_names(annotations) -> None:
     return
 
 
-def rename_causedBy(annotations):
+def rename_causedBy(annotations: dict) -> None:
     """remplace la propriété 'causedByEvent' par 'causedBy'.
 
     l'usage de 'causedByEvent' comme nom de propriété dans le prompt est simplement destiné à faire comprendre à ChatGPT que la nature de la cause est un évenement. cette fonction remplace ce nom par le nom de la propriété correspondante dans notre ontologie.
+
+    Args:
+        annotations (dict): l'objet JSON des annotations dans lequel remplacer les noms de proprétés.
+
+    Returns:
+        None
     """
 
-    def has_causedbyevent(d):
+    def has_causedbyevent(d: dict) -> bool:
         return 'causedByEvent' in d.keys()
 
-    def rename_causedbyevent(d):
+    def rename_causedbyevent(d: dict) -> None:
         d['causedBy'] = d['causedByEvent']
         d.pop('causedByEvent')
 
