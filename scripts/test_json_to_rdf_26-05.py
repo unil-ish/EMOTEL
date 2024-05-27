@@ -4,7 +4,7 @@ from rdflib.namespace import OWL, RDFS, XSD
 import json
 import os
 
-dirname = "data/annotations/littlewomen"
+dirname = "data/annotations"
 ext = ('.json')
 
 # Namespace
@@ -44,7 +44,6 @@ def add_fictional_character(character):
             g.add((emotion_uri, EMOTEL.hasObject, object_uri))
         
         if 'place' in emotion:
-            print(emotion['place'])
             for place in data['Places']:
                 if place['name'] == emotion['place']:
                     place_id = place['id']
@@ -83,36 +82,43 @@ def add_event(event):
         place_uri = create_uri(EMOTEL, event['takePlaceAt']['id'])
         g.add((event_uri, EMOTEL.takePlaceAt, place_uri))
     if 'hasParticipant' in event:
-        participant_uri = create_uri(EMOTEL, event['hasParticipant']['id'])
-        g.add((event_uri, EMOTEL.hasParticipant, participant_uri))
+        print(event)
+        if type(event['hasParticipiant' is list]):
+            for participant in event['hasParticipant']:
+                print(participant)
+                participant_uri = create_uri(EMOTEL, participant['id'])
+                g.add((event_uri, EMOTEL.hasParticipant, participant_uri))
+        else:
+            participant_uri = create_uri(EMOTEL, event['hasParticipant']['id'])
+            g.add((event_uri, EMOTEL.hasParticipant, participant_uri))
+
 
 # iterating over all files
-for files in os.listdir(dirname):
-    print(files)
-    if files.endswith(ext):
+for folder in os.listdir(dirname):
+    for files in os.listdir(f"{dirname}/{folder}"):
+        if files.endswith(ext):
 
-        # Chargement du fichier JSON
-        with open(f"data/annotations/littlewomen/{files}", "r") as f:
-            data = json.load(f)
-        # Add data to the graph
-        try:
-            for character in data['FictionalCharacters']:
-                add_fictional_character(character)
-        except KeyError as er:
-            pass
+            # Chargement du fichier JSON
+            with open(f"{dirname}/{folder}/{files}", "r") as f:
+                data = json.load(f)
+            # Add data to the graph
+            try:
+                for character in data['FictionalCharacters']:
+                    add_fictional_character(character)
+            except KeyError as er:
+                pass
 
-        try:
-            for place in data['Places']:
-                add_place(place)
-        except KeyError as er:
-            pass
+            try:
+                for place in data['Places']:
+                    add_place(place)
+            except KeyError as er:
+                pass
 
-        try:
-            for event in data['Events']:
-                print(event)
-                add_event(event)
-        except KeyError as er:
-            pass
+            try:
+                for event in data['Events']:
+                    add_event(event)
+            except KeyError as er:
+                pass
 
 # Serialize the graph to RDF/XML format and save to file
 output_file = "ontology_output_mult.rdf"
