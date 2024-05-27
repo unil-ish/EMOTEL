@@ -15,7 +15,7 @@ def clean_obj(obj) -> None:
     """normalise le nom d'un objet."""
 
     if "name" in obj:
-        name = obj['name']
+        name = obj["name"]
     elif "id" in obj:
         # si 'name' est manquant, c'est en fait toujours l'id qui contient le nom. il suffit donc de le réassigner.
         name = obj["id"]
@@ -36,6 +36,7 @@ def clean_annotation_names(annotations):
         if key in annotations.keys():
             for obj in annotations[key]:
                 clean_obj(obj)
+
     # en revanche, les objets qui concernent les émotions sont plus chaotiques. donc la construction ici correspond aussi à ce nettoyage.
     if "FictionalCharacters" in annotations.keys():
         for c in annotations["FictionalCharacters"]:
@@ -50,7 +51,10 @@ def clean_annotation_names(annotations):
             emotions = [em for em in c["feels"] if isinstance(em, dict)]
             for em in emotions:
                 # le troisième souci, c'est quand les clés 'causedBy' ou 'hasObject' sont soit absentes, soit remplacées, respectivement par 'cause' et 'object'. on normalize en mettant la clé canonique correspondante.
-                for key, ersatz in [("causedBy", 'cause'), ('hasObject', 'object')]:
+                for key, ersatz in [
+                    ("causedBy", "cause"),
+                    ("hasObject", "object"),
+                ]:
                     if key in em:
                         pass
                     elif ersatz in em:
