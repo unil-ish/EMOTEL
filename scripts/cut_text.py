@@ -1,43 +1,13 @@
-import argparse
 import os
 import json
 
 DATA_DIR = os.path.join(
     os.path.dirname(os.path.dirname(os.path.realpath(__file__))), "data"
 )
+TEXTS_DIR = os.path.join(
+    os.path.dirname(os.path.dirname(os.path.realpath(__file__))), "texts"
+)
 CHUNKS_DIR = os.path.join(DATA_DIR, "chunks")
-
-parser = argparse.ArgumentParser()
-parser.add_argument(
-    "-f",
-    "--file",
-    action="store",
-    type=str,
-    help="le fichier à découper",
-    required=True,
-)
-parser.add_argument(
-    "-n",
-    "--character-number",
-    action="store",
-    type=int,
-    default=2000,
-    help="le nombre de caractère maximal par morceau.",
-)
-parser.add_argument(
-    "-j",
-    "--json",
-    action="store_true",
-    default=False,
-)
-parser.add_argument(
-    "-p",
-    "--prompt-file",
-    action="store",
-    type=str,
-    help="le fichier avec le prompt initial.",
-    required=True,
-)
 
 
 def cut_text_on_paragraph(fp, limit=2000):
@@ -116,15 +86,13 @@ def cut_to_messages(prompt_file, chunks, limit=50000):
     return result
 
 
-def cut(args):
+def cut(fp, prompt_file, n):
     """Découpe un fichier texte en morceaux et les sauvegarde en fichiers texte ou JSON.
 
     Args:
-        args (argparse.Namespace): Arguments passés en ligne de commande.
+        fp (str): Chemin vers le fichier à découper.
+        n (int): le nombre de caractère maximum par morceau.
     """
-
-    fp = args.file
-    n = args.character_number
 
     # vérifie que le fichier existe
     if not os.path.isfile(fp):
@@ -133,13 +101,12 @@ def cut(args):
     parts = cut_text_on_paragraph(fp, limit=n)
 
     # créer le dossier s'il n'existe pas déjà. sinon, vérifier qu'il ne contient pas déjà des fichiers.
-    dest_dir = create_dest_dir(args.file)
+    dest_dir = create_dest_dir(fp)
 
-    def new_filepath(fp, dest_dir, n, ext):
+    def new_filepath(dest_dir, n, ext):
         """Génère un nouveau chemin de fichier avec un numéro de séquence et une extension.
 
         Args:
-            fp (str): Chemin vers le fichier d'origine.
             dest_dir (str): Répertoire de destination.
             n (int): Numéro de séquence.
             ext (str): Extension de fichier.
@@ -153,30 +120,18 @@ def cut(args):
         )
         return dest_fp
 
-    # prépare des listes de messages pour chatgpt et les écrits au format json.
-    if args.json is True:
-        messages_list_lists = cut_to_messages(
-            prompt_file=args.prompt_file, chunks=parts, limit=50000
+    messages_list_lists = cut_to_messages(
+        prompt_file=prompt_file, chunks=parts, limit=50000
+    )
+    for n, i in enumerate(messages_list_lists):
+        fp = new_filepath(
+            fp=fp,
+            dest_dir=dest_dir,
+            n=n,
+            ext="json",
         )
-        for n, i in enumerate(messages_list_lists):
-            fp = new_filepath(
-                fp=args.file,
-                dest_dir=dest_dir,
-                n=n,
-                ext="json",
-            )
-            with open(fp, "w") as f:
-                json.dump(obj=i, fp=f, indent=1, ensure_ascii=False)
-    else:
-        for n, x in enumerate(parts):
-            fp = new_filepath(
-                fp=args.file,
-                dest_dir=dest_dir,
-                n=n,
-                ext="txt",
-            )
-            with open(fp, "w") as f:
-                f.write(x)
+        with open(fp, "w") as f:
+            json.dump(obj=i, fp=f, indent=1, ensure_ascii=False)
 
 
 def create_dest_dir(fp):
@@ -222,5 +177,8 @@ def create_dest_dir(fp):
 
 
 if __name__ == "__main__":
-    args = parser.parse_args()
-    cut(args)
+    prompt_file = "../prompts/2024-05-26.txt"
+
+    for filename in os.listdir(TEXTS_DIR):
+        fp = os.path.join(TEXTS_DIR, filename)
+        cut(fp=fp, n=2000)
