@@ -1,19 +1,20 @@
-"""Assigne des IDS (utilisées pour les URIs) à chaque objets dans les fichiers JSONS.
-
-Chaque FictionalObject (FictionalCharacter, FictionalEvent, FictionalPlace) se voit attribué une ID qui se compose de son nom accolé au chemin de fichier de l'histoire dans lequel il se trouve et dans lequel il est, par conséquent, définit (par description).
-
-Par exemple:
-    - texts/mobydick.txt#Captain_Ahab
-    - texts/littlewomen.txt#Mother
-    - texts/aroomwithaview.txt#Cecil_Vyse
-"""
-
 import json
 import os
 from normalize_names import dict_iter_rec
 
 
 class Lookup:
+
+    """Assigne des IDS (utilisées pour les URIs) à chaque objets dans les fichiers JSONS.
+
+    Chaque FictionalObject (FictionalCharacter, FictionalEvent, FictionalPlace) se voit attribué une ID qui se compose de son nom accolé au chemin de fichier de l'histoire dans lequel il se trouve et dans lequel il est, par conséquent, définit (par description).
+
+    Par exemple:
+        - texts/mobydick.txt#Captain_Ahab
+        - texts/littlewomen.txt#Mother
+        - texts/aroomwithaview.txt#Cecil_Vyse
+    """
+
     def __init__(self):
         pass
 
