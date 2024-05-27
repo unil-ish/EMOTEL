@@ -70,7 +70,7 @@
      },
      "hasObject": {
       "id": "object4",
-      "name": "Amy's cause"
+      "name": "Amy_s_cause"
      },
      "place": {
       "id": "place4",
@@ -152,60 +152,72 @@
    "id": "event1",
    "name": "Mr_Laurence_buying_the_vases",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    },
    "hasParticipant": {
-    "id": "Amy"
+    "id": "Amy",
+    "name": "Amy"
    }
   },
   {
    "id": "event2",
    "name": "Feeling_of_satisfaction",
    "takePlaceAt": {
-    "id": "place2"
+    "id": "place2",
+    "name": "place2"
    },
    "hasParticipant": {
-    "id": "Amy"
+    "id": "Amy",
+    "name": "Amy"
    }
   },
   {
    "id": "event3",
    "name": "Good_night_gesture_from_May",
    "takePlaceAt": {
-    "id": "place3"
+    "id": "place3",
+    "name": "place3"
    },
    "hasParticipant": {
-    "id": "Amy"
+    "id": "Amy",
+    "name": "Amy"
    }
   },
   {
    "id": "event4",
    "name": "Laurie_supporting_Amy",
    "takePlaceAt": {
-    "id": "place4"
+    "id": "place4",
+    "name": "place4"
    },
    "hasParticipant": {
-    "id": "Jo"
+    "id": "Jo",
+    "name": "Jo"
    }
   },
   {
    "id": "event5",
    "name": "Amy_s_actions",
    "takePlaceAt": {
-    "id": "place5"
+    "id": "place5",
+    "name": "place5"
    },
    "hasParticipant": {
-    "id": "Jo"
+    "id": "Jo",
+    "name": "Jo"
    }
   },
   {
    "id": "event6",
    "name": "Amy_s_explanation",
    "takePlaceAt": {
-    "id": "place6"
+    "id": "place6",
+    "name": "place6"
    },
    "hasParticipant": {
-    "id": "Jo"
+    "id": "Jo",
+    "name": "Jo"
    }
   }
  ]

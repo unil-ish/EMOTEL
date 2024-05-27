@@ -14,7 +14,7 @@
      },
      "hasObject": {
       "id": "object1",
-      "name": "Satisfying the requirements of honor"
+      "name": "Satisfying_the_requirements_of_honor"
      },
      "place": "Within himself"
     },
@@ -28,7 +28,7 @@
      },
      "hasObject": {
       "id": "object2",
-      "name": "Satisfying the requirements of honor"
+      "name": "Satisfying_the_requirements_of_honor"
      },
      "place": "Within himself"
     },
@@ -56,7 +56,7 @@
      },
      "hasObject": {
       "id": "object4",
-      "name": "Recovery of health"
+      "name": "Recovery_of_health"
      },
      "place": "Within himself"
     },
@@ -70,7 +70,7 @@
      },
      "hasObject": {
       "id": "object5",
-      "name": "Future possibilities"
+      "name": "Future_possibilities"
      },
      "place": "Within himself"
     },
@@ -84,7 +84,7 @@
      },
      "hasObject": {
       "id": "object6",
-      "name": "Imaginary facts"
+      "name": "Imaginary_facts"
      },
      "place": "Within himself"
     },
@@ -98,7 +98,7 @@
      },
      "hasObject": {
       "id": "object7",
-      "name": "Will Ladislaw"
+      "name": "Will_Ladislaw"
      },
      "place": "Within himself"
     }

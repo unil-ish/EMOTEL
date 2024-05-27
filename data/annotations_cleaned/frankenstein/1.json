@@ -14,7 +14,7 @@
      },
      "hasObject": {
       "id": "monster",
-      "name": "The monster"
+      "name": "The_monster"
      },
      "place": {
       "id": "room1",
@@ -31,7 +31,7 @@
      },
      "hasObject": {
       "id": "monster",
-      "name": "The monster"
+      "name": "The_monster"
      },
      "place": {
       "id": "room1",
@@ -57,7 +57,7 @@
      },
      "hasObject": {
       "id": "HenryClerval",
-      "name": "Henry Clerval"
+      "name": "Henry_Clerval"
      }
     },
     {

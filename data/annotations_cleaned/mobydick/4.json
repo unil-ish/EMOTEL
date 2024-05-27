@@ -73,21 +73,24 @@
    "id": "event1",
    "name": "Facing_the_storm",
    "takePlaceAt": {
-    "id": "shipDeck"
+    "id": "shipDeck",
+    "name": "shipDeck"
    }
   },
   {
    "id": "event2",
    "name": "Embarking_on_the_whaling_business",
    "takePlaceAt": {
-    "id": "shipDeck"
+    "id": "shipDeck",
+    "name": "shipDeck"
    }
   },
   {
    "id": "event3",
    "name": "Departing_from_the_ship",
    "takePlaceAt": {
-    "id": "shipDeck"
+    "id": "shipDeck",
+    "name": "shipDeck"
    }
   }
  ]

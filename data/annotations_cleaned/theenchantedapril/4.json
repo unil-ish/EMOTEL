@@ -14,7 +14,7 @@
      },
      "hasObject": {
       "id": "object1",
-      "name": "Beauty of San Salvatore"
+      "name": "Beauty_of_San_Salvatore"
      },
      "exactPlace": "San Salvatore"
     },
@@ -28,7 +28,7 @@
      },
      "hasObject": {
       "id": "object2",
-      "name": "Being talkative"
+      "name": "Being_talkative"
      },
      "exactPlace": "Her room"
     }
@@ -48,7 +48,7 @@
      },
      "hasObject": {
       "id": "object3",
-      "name": "One spare room"
+      "name": "One_spare_room"
      },
      "exactPlace": "San Salvatore"
     },
@@ -62,7 +62,7 @@
      },
      "hasObject": {
       "id": "object4",
-      "name": "Spare room"
+      "name": "Spare_room"
      },
      "exactPlace": "San Salvatore"
     }
@@ -82,7 +82,7 @@
      },
      "hasObject": {
       "id": "object5",
-      "name": "Beauty of San Salvatore"
+      "name": "Beauty_of_San_Salvatore"
      },
      "exactPlace": "San Salvatore"
     },
@@ -96,7 +96,7 @@
      },
      "hasObject": {
       "id": "object6",
-      "name": "Influence of San Salvatore"
+      "name": "Influence_of_San_Salvatore"
      },
      "exactPlace": "San Salvatore"
     }
@@ -115,42 +115,48 @@
    "id": "event1",
    "name": "Experiencing_the_beauty_of_San_Salvatore",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   },
   {
    "id": "event2",
    "name": "Feeling_talkative",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   },
   {
    "id": "event3",
    "name": "Realizing_there_is_only_one_spare_room",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   },
   {
    "id": "event4",
    "name": "No_one_wanting_the_spare_room",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   },
   {
    "id": "event5",
    "name": "Experiencing_the_beauty_of_San_Salvatore",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   },
   {
    "id": "event6",
    "name": "Feeling_the_influence_of_San_Salvatore",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   }
  ]

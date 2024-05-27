@@ -1,7 +1,7 @@
 {
  "FictionalCharacters": [
   {
-   "id": "Jo March",
+   "id": "Jo_March",
    "feels": [
     {
      "name": "Anticipation",
@@ -13,7 +13,7 @@
      },
      "hasObject": {
       "id": "object1",
-      "name": "Mr. Bhaer"
+      "name": "Mr_Bhaer"
      },
      "exactPlace": "At home"
     },
@@ -27,7 +27,7 @@
      },
      "hasObject": {
       "id": "object2",
-      "name": "Mr. Bhaer"
+      "name": "Mr_Bhaer"
      },
      "exactPlace": "In the street"
     },
@@ -41,7 +41,7 @@
      },
      "hasObject": {
       "id": "object3",
-      "name": "Mr. Bhaer"
+      "name": "Mr_Bhaer"
      },
      "exactPlace": "Walking together"
     }
@@ -71,30 +71,36 @@
    "id": "event1",
    "name": "Desire_to_see_Mr_Bhaer",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    },
    "hasParticipant": {
-    "id": "Jo March"
+    "id": "Jo_March",
+    "name": "Jo_March"
    }
   },
   {
    "id": "event2",
    "name": "Realization_of_her_actions",
    "takePlaceAt": {
-    "id": "place2"
+    "id": "place2",
+    "name": "place2"
    },
    "hasParticipant": {
-    "id": "Jo March"
+    "id": "Jo_March",
+    "name": "Jo_March"
    }
   },
   {
    "id": "event3",
    "name": "Walking_arminarm_with_Mr_Bhaer",
    "takePlaceAt": {
-    "id": "place3"
+    "id": "place3",
+    "name": "place3"
    },
    "hasParticipant": {
-    "id": "Jo March"
+    "id": "Jo_March",
+    "name": "Jo_March"
    }
   }
  ]

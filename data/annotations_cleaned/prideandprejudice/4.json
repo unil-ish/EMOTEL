@@ -14,7 +14,7 @@
      },
      "hasObject": {
       "id": "object1",
-      "name": "Mr. Bingley's absence"
+      "name": "Mr_Bingley_s_absence"
      },
      "exactPlace": "Her own thoughts"
     },
@@ -28,7 +28,7 @@
      },
      "hasObject": {
       "id": "object2",
-      "name": "Miss Bingley's letter"
+      "name": "Miss_Bingley_s_letter"
      },
      "exactPlace": "Upon hearing Miss Bingley's letter"
     },
@@ -42,7 +42,7 @@
      },
      "hasObject": {
       "id": "object3",
-      "name": "Miss Bingley's letter"
+      "name": "Miss_Bingley_s_letter"
      },
      "exactPlace": "Upon hearing Miss Bingley's letter"
     }
@@ -62,7 +62,7 @@
      },
      "hasObject": {
       "id": "object4",
-      "name": "Mr. Bingley's absence"
+      "name": "Mr_Bingley_s_absence"
      },
      "exactPlace": "During conversations with Elizabeth"
     },
@@ -76,7 +76,7 @@
      },
      "hasObject": {
       "id": "object5",
-      "name": "Mr. Bingley's absence"
+      "name": "Mr_Bingley_s_absence"
      },
      "exactPlace": "During conversations with Elizabeth"
     }
@@ -105,35 +105,40 @@
    "id": "event1",
    "name": "Mr_Bingley_s_absence",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   },
   {
    "id": "event2",
    "name": "Miss_Bingley_s_letter",
    "takePlaceAt": {
-    "id": "place2"
+    "id": "place2",
+    "name": "place2"
    }
   },
   {
    "id": "event3",
    "name": "Miss_Bingley_s_letter",
    "takePlaceAt": {
-    "id": "place2"
+    "id": "place2",
+    "name": "place2"
    }
   },
   {
    "id": "event4",
    "name": "Mr_Bingley_s_absence",
    "takePlaceAt": {
-    "id": "place3"
+    "id": "place3",
+    "name": "place3"
    }
   },
   {
    "id": "event5",
    "name": "Mr_Bingley_s_absence",
    "takePlaceAt": {
-    "id": "place3"
+    "id": "place3",
+    "name": "place3"
    }
   }
  ]

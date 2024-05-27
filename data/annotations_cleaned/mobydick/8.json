@@ -13,7 +13,7 @@
      },
      "hasObject": {
       "id": "object1",
-      "name": "Moby Dick"
+      "name": "Moby_Dick"
      },
      "place": "Cabin"
     },
@@ -41,7 +41,7 @@
      },
      "hasObject": {
       "id": "object3",
-      "name": "Revengeful desire"
+      "name": "Revengeful_desire"
      },
      "place": "State room"
     }
@@ -56,7 +56,7 @@
    "description": "A room where Ahab studies sea charts and plans his hunt for Moby Dick."
   },
   {
-   "id": "State room",
+   "id": "State_room",
    "name": "State_room",
    "description": "A room where Ahab experiences intense dreams and bursts out in fear."
   }
@@ -66,21 +66,24 @@
    "id": "event1",
    "name": "Failing_to_capture_Moby_Dick",
    "takePlaceAt": {
-    "id": "Cabin"
+    "id": "Cabin",
+    "name": "Cabin"
    }
   },
   {
    "id": "event2",
    "name": "Intense_dreams",
    "takePlaceAt": {
-    "id": "State room"
+    "id": "State_room",
+    "name": "State_room"
    }
   },
   {
    "id": "event3",
    "name": "Unachieved_revengeful_desire",
    "takePlaceAt": {
-    "id": "State room"
+    "id": "State_room",
+    "name": "State_room"
    }
   }
  ]

@@ -14,7 +14,7 @@
      },
      "hasObject": {
       "id": "object1",
-      "name": "Mr. Ladislaw"
+      "name": "Mr_Ladislaw"
      },
      "exactPlace": "In the presence of her uncle and Mr. Casaubon"
     },
@@ -28,7 +28,7 @@
      },
      "hasObject": {
       "id": "object2",
-      "name": "Uncle's comments"
+      "name": "Uncle_s_comments"
      },
      "exactPlace": "In the presence of her uncle and Mr. Casaubon"
     }
@@ -48,7 +48,7 @@
      },
      "hasObject": {
       "id": "object2",
-      "name": "Uncle's comments"
+      "name": "Uncle_s_comments"
      },
      "exactPlace": "In the presence of Mr. Brooke and Dorothea"
     }
@@ -68,7 +68,7 @@
      },
      "hasObject": {
       "id": "object3",
-      "name": "Scene at the funeral"
+      "name": "Scene_at_the_funeral"
      },
      "exactPlace": "At the manor window"
     }
@@ -92,40 +92,48 @@
    "id": "event1",
    "name": "Mention_of_Mr_Ladislaw_s_presence",
    "takePlaceAt": {
-    "id": "place2"
+    "id": "place2",
+    "name": "place2"
    },
    "hasParticipant": {
-    "id": "fc1"
+    "id": "fc1",
+    "name": "fc1"
    }
   },
   {
    "id": "event2",
    "name": "Uncle_s_comments_on_Mr_Ladislaw",
    "takePlaceAt": {
-    "id": "place2"
+    "id": "place2",
+    "name": "place2"
    },
    "hasParticipant": {
-    "id": "fc1"
+    "id": "fc1",
+    "name": "fc1"
    }
   },
   {
    "id": "event3",
    "name": "Uncle_s_comments_on_Mr_Ladislaw",
    "takePlaceAt": {
-    "id": "place2"
+    "id": "place2",
+    "name": "place2"
    },
    "hasParticipant": {
-    "id": "fc2"
+    "id": "fc2",
+    "name": "fc2"
    }
   },
   {
    "id": "event4",
    "name": "Observing_the_scene",
    "takePlaceAt": {
-    "id": "place2"
+    "id": "place2",
+    "name": "place2"
    },
    "hasParticipant": {
-    "id": "fc3"
+    "id": "fc3",
+    "name": "fc3"
    }
   }
  ]

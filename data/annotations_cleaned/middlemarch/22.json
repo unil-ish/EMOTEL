@@ -14,7 +14,7 @@
      },
      "hasObject": {
       "id": "object1",
-      "name": "Will Ladislaw"
+      "name": "Will_Ladislaw"
      },
      "exactPlace": "Lowick Manor"
     },
@@ -28,7 +28,7 @@
      },
      "hasObject": {
       "id": "object2",
-      "name": "Mr. Casaubon"
+      "name": "Mr_Casaubon"
      },
      "exactPlace": "Lowick Manor"
     },
@@ -42,7 +42,7 @@
      },
      "hasObject": {
       "id": "object3",
-      "name": "Will Ladislaw"
+      "name": "Will_Ladislaw"
      },
      "exactPlace": "Lowick Manor"
     }
@@ -61,30 +61,36 @@
    "id": "event1",
    "name": "Desire_to_see_Will_Ladislaw",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    },
    "hasParticipant": {
-    "id": "fc1"
+    "id": "fc1",
+    "name": "fc1"
    }
   },
   {
    "id": "event2",
    "name": "Pity_for_Mr_Casaubon",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    },
    "hasParticipant": {
-    "id": "fc1"
+    "id": "fc1",
+    "name": "fc1"
    }
   },
   {
    "id": "event3",
    "name": "Desire_to_see_Will_Ladislaw",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    },
    "hasParticipant": {
-    "id": "fc1"
+    "id": "fc1",
+    "name": "fc1"
    }
   }
  ]

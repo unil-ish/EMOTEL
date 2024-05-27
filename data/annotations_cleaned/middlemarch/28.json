@@ -13,8 +13,8 @@
       "name": "Betting_on_his_own_strokes"
      },
      "hasObject": {
-      "id": "billiard-table",
-      "name": "Billiard table"
+      "id": "billiardtable",
+      "name": "Billiard_table"
      },
      "exactPlace": "Green Dragon billiard-room"
     },
@@ -43,7 +43,7 @@
      "hasIntensity": 0.6,
      "quote": "Fred felt a shock greater than he could quite account for by the vague knowledge that Lydgate was in debt.",
      "causedBy": {
-      "id": "seeing Lydgate betting",
+      "id": "seeing_Lydgate_betting",
       "name": "Seeing_Lydgate_betting"
      },
      "hasObject": {
@@ -57,7 +57,7 @@
      "hasIntensity": 0.8,
      "quote": "Fred was moved quite newly. Some one highly susceptible to the contemplation of a fine act has said, that it produces a sort of regenerating shudder through the frame, and makes one feel ready to begin a new life.",
      "causedBy": {
-      "id": "Mr. Farebrother's warning",
+      "id": "Mr_Farebrother_s_warning",
       "name": "Mr_Farebrother_s_warning"
      },
      "hasObject": {
@@ -71,12 +71,12 @@
  ],
  "Places": [
   {
-   "id": "Green Dragon billiard-room",
+   "id": "Green_Dragon_billiardroom",
    "name": "Green_Dragon_billiardroom",
    "description": "A constant resort for a certain set, most of whom were regarded as men of pleasure."
   },
   {
-   "id": "St. Botolph’s road",
+   "id": "St_Botolphs_road",
    "name": "St_Botolphs_road",
    "description": "A patch of green where the road diverged towards St. Botolph’s."
   }
@@ -86,30 +86,36 @@
    "id": "betting",
    "name": "Betting_on_his_own_strokes",
    "takePlaceAt": {
-    "id": "Green Dragon billiard-room"
+    "id": "Green_Dragon_billiardroom",
+    "name": "Green_Dragon_billiardroom"
    },
    "hasParticipant": {
-    "id": "Lydgate"
+    "id": "Lydgate",
+    "name": "Lydgate"
    }
   },
   {
-   "id": "seeing Lydgate betting",
+   "id": "seeing_Lydgate_betting",
    "name": "Seeing_Lydgate_betting",
    "takePlaceAt": {
-    "id": "Green Dragon billiard-room"
+    "id": "Green_Dragon_billiardroom",
+    "name": "Green_Dragon_billiardroom"
    },
    "hasParticipant": {
-    "id": "Fred"
+    "id": "Fred",
+    "name": "Fred"
    }
   },
   {
-   "id": "Mr. Farebrother's warning",
+   "id": "Mr_Farebrother_s_warning",
    "name": "Mr_Farebrother_s_warning",
    "takePlaceAt": {
-    "id": "St. Botolph’s road"
+    "id": "St_Botolphs_road",
+    "name": "St_Botolphs_road"
    },
    "hasParticipant": {
-    "id": "Fred"
+    "id": "Fred",
+    "name": "Fred"
    }
   }
  ]

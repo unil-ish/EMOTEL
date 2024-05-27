@@ -8,12 +8,12 @@
      "hasIntensity": 0.9,
      "quote": "Valancy shivered like a tree the wind stirs suddenly. Something seemed to sweep over her soul. 'My Blue Castle!' she said. 'Oh, my Blue Castle!'",
      "causedBy": {
-      "id": "Barney's proposal",
+      "id": "Barney_s_proposal",
       "name": "Barney_s_proposal"
      },
      "hasObject": {
-      "id": "Blue Castle",
-      "name": "Blue Castle"
+      "id": "Blue_Castle",
+      "name": "Blue_Castle"
      },
      "place": {
       "id": "Mistawis",
@@ -25,12 +25,12 @@
      "hasIntensity": 0.7,
      "quote": "Valancy shivered like a tree the wind stirs suddenly. Something seemed to sweep over her soul.",
      "causedBy": {
-      "id": "Cousin Georgiana's reaction",
+      "id": "Cousin_Georgiana_s_reaction",
       "name": "Cousin_Georgiana_s_reaction"
      },
      "hasObject": {
-      "id": "Truth about her marriage",
-      "name": "Truth about her marriage"
+      "id": "Truth_about_her_marriage",
+      "name": "Truth_about_her_marriage"
      },
      "place": {
       "id": "Deerwood",
@@ -42,12 +42,12 @@
      "hasIntensity": 0.8,
      "quote": "Valancy wanted to go off into a peal of laughter. But she only said: 'Me?'",
      "causedBy": {
-      "id": "Cousin Georgiana's revelation",
+      "id": "Cousin_Georgiana_s_revelation",
       "name": "Cousin_Georgiana_s_revelation"
      },
      "hasObject": {
-      "id": "Proposal from Edward Beck",
-      "name": "Proposal from Edward Beck"
+      "id": "Proposal_from_Edward_Beck",
+      "name": "Proposal_from_Edward_Beck"
      },
      "place": {
       "id": "Deerwood",
@@ -59,12 +59,12 @@
      "hasIntensity": 0.9,
      "quote": "Valancy stared at Cousin Georgiana for a moment. Then she wanted to go off into a peal of laughter. But she only said: 'Me?'",
      "causedBy": {
-      "id": "Cousin Georgiana's revelation",
+      "id": "Cousin_Georgiana_s_revelation",
       "name": "Cousin_Georgiana_s_revelation"
      },
      "hasObject": {
-      "id": "Proposal from Edward Beck",
-      "name": "Proposal from Edward Beck"
+      "id": "Proposal_from_Edward_Beck",
+      "name": "Proposal_from_Edward_Beck"
      },
      "place": {
       "id": "Deerwood",
@@ -76,12 +76,12 @@
      "hasIntensity": 0.8,
      "quote": "Valancy smiled very radiantly at Cousin Georgiana, who, she remembered, as of some one known a long time ago, had really been not a bad little creature.",
      "causedBy": {
-      "id": "Meeting Cousin Georgiana",
+      "id": "Meeting_Cousin_Georgiana",
       "name": "Meeting_Cousin_Georgiana"
      },
      "hasObject": {
-      "id": "Cousin Georgiana",
-      "name": "Cousin Georgiana"
+      "id": "Cousin_Georgiana",
+      "name": "Cousin_Georgiana"
      },
      "place": {
       "id": "Deerwood",
@@ -92,19 +92,19 @@
    "name": "Valancy"
   },
   {
-   "id": "Cousin Georgiana",
+   "id": "Cousin_Georgiana",
    "feels": [
     {
      "name": "Surprise",
      "hasIntensity": 0.9,
      "quote": "Cousin Georgiana stared. 'Surely you remember Edward Beck,' she said reproachfully. 'He lives in that lovely house on the Port Lawrence road and he comes to our church—regularly. You must remember him.'",
      "causedBy": {
-      "id": "Valancy's forgetfulness",
+      "id": "Valancy_s_forgetfulness",
       "name": "Valancy_s_forgetfulness"
      },
      "hasObject": {
-      "id": "Edward Beck",
-      "name": "Edward Beck"
+      "id": "Edward_Beck",
+      "name": "Edward_Beck"
      },
      "place": {
       "id": "Deerwood",
@@ -116,12 +116,12 @@
      "hasIntensity": 0.9,
      "quote": "Cousin Georgiana stopped stock-still and stared at Valancy. 'Married!' she said vacantly. 'Married!'",
      "causedBy": {
-      "id": "Valancy's revelation",
+      "id": "Valancy_s_revelation",
       "name": "Valancy_s_revelation"
      },
      "hasObject": {
-      "id": "Valancy's marriage",
-      "name": "Valancy's marriage"
+      "id": "Valancy_s_marriage",
+      "name": "Valancy_s_marriage"
      },
      "place": {
       "id": "Deerwood",
@@ -133,12 +133,12 @@
      "hasIntensity": 0.8,
      "quote": "'Oh, Doss, what have you done? What have you done?'",
      "causedBy": {
-      "id": "Valancy's revelation",
+      "id": "Valancy_s_revelation",
       "name": "Valancy_s_revelation"
      },
      "hasObject": {
-      "id": "Valancy's marriage",
-      "name": "Valancy's marriage"
+      "id": "Valancy_s_marriage",
+      "name": "Valancy_s_marriage"
      },
      "place": {
       "id": "Deerwood",
@@ -150,12 +150,12 @@
      "hasIntensity": 0.9,
      "quote": "'Doss, dear—I’m an old woman—are you trying to make fun of me?'",
      "causedBy": {
-      "id": "Valancy's revelation",
+      "id": "Valancy_s_revelation",
       "name": "Valancy_s_revelation"
      },
      "hasObject": {
-      "id": "Valancy's marriage",
-      "name": "Valancy's marriage"
+      "id": "Valancy_s_marriage",
+      "name": "Valancy_s_marriage"
      },
      "place": {
       "id": "Deerwood",

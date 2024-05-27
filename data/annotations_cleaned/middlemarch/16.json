@@ -14,7 +14,7 @@
      },
      "hasObject": {
       "id": "object1",
-      "name": "Being insulted"
+      "name": "Being_insulted"
      },
      "place": {
       "id": "place1",
@@ -37,7 +37,7 @@
      },
      "hasObject": {
       "id": "object2",
-      "name": "Feeling insulted"
+      "name": "Feeling_insulted"
      },
      "place": {
       "id": "place2",
@@ -60,7 +60,7 @@
      },
      "hasObject": {
       "id": "object3",
-      "name": "Idea of Rosamond Vincy needing a handkerchief for her wedding"
+      "name": "Idea_of_Rosamond_Vincy_needing_a_handkerchief_for_her_wedding"
      },
      "place": {
       "id": "place3",
@@ -92,21 +92,24 @@
    "id": "event1",
    "name": "Being_insulted_by_Mr_Dagley",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   },
   {
    "id": "event2",
    "name": "Feeling_insulted_by_Mr_Brooke",
    "takePlaceAt": {
-    "id": "place2"
+    "id": "place2",
+    "name": "place2"
    }
   },
   {
    "id": "event3",
    "name": "Finding_the_idea_of_Rosamond_Vincy_needing_a_handkerchief_for_her_wedding_amusing",
    "takePlaceAt": {
-    "id": "place3"
+    "id": "place3",
+    "name": "place3"
    }
   }
  ]

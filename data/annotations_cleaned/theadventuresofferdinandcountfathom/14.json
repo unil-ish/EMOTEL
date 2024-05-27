@@ -14,7 +14,7 @@
      },
      "hasObject": {
       "id": "object1",
-      "name": "Signal from his mother"
+      "name": "Signal_from_his_mother"
      },
      "exactPlace": {
       "id": "place1",
@@ -31,7 +31,7 @@
      },
      "hasObject": {
       "id": "object2",
-      "name": "Miniature of his father"
+      "name": "Miniature_of_his_father"
      },
      "exactPlace": {
       "id": "place2",
@@ -48,7 +48,7 @@
      },
      "hasObject": {
       "id": "object3",
-      "name": "Count Trebasi"
+      "name": "Count_Trebasi"
      },
      "exactPlace": {
       "id": "place3",
@@ -80,30 +80,36 @@
    "id": "event1",
    "name": "Seeing_the_signal_from_his_mother",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    },
    "hasParticipant": {
-    "id": "fc1"
+    "id": "fc1",
+    "name": "fc1"
    }
   },
   {
    "id": "event2",
    "name": "Finding_the_miniature_of_his_father",
    "takePlaceAt": {
-    "id": "place2"
+    "id": "place2",
+    "name": "place2"
    },
    "hasParticipant": {
-    "id": "fc1"
+    "id": "fc1",
+    "name": "fc1"
    }
   },
   {
    "id": "event3",
    "name": "Encounter_with_Count_Trebasi",
    "takePlaceAt": {
-    "id": "place3"
+    "id": "place3",
+    "name": "place3"
    },
    "hasParticipant": {
-    "id": "fc1"
+    "id": "fc1",
+    "name": "fc1"
    }
   }
  ]

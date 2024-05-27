@@ -14,7 +14,7 @@
      },
      "hasObject": {
       "id": "object1",
-      "name": "Author-cards"
+      "name": "Authorcards"
      },
      "place": {
       "id": "place1",
@@ -81,30 +81,36 @@
    "id": "situation1",
    "name": "Talking_to_Frank",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    },
    "hasParticipant": {
-    "id": "fc1"
+    "id": "fc1",
+    "name": "fc1"
    }
   },
   {
    "id": "situation2",
    "name": "Shunning_Ned",
    "takePlaceAt": {
-    "id": "place2"
+    "id": "place2",
+    "name": "place2"
    },
    "hasParticipant": {
-    "id": "fc2"
+    "id": "fc2",
+    "name": "fc2"
    }
   },
   {
    "id": "situation3",
    "name": "Not_being_invited_to_the_picnic",
    "takePlaceAt": {
-    "id": "place3"
+    "id": "place3",
+    "name": "place3"
    },
    "hasParticipant": {
-    "id": "fc3"
+    "id": "fc3",
+    "name": "fc3"
    }
   }
  ]

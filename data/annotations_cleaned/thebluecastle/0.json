@@ -14,7 +14,7 @@
      },
      "hasObject": {
       "id": "object1",
-      "name": "Being called an 'old maid'"
+      "name": "Being_called_an_old_maid_"
      },
      "place": {
       "id": "place1",
@@ -31,7 +31,7 @@
      },
      "hasObject": {
       "id": "object2",
-      "name": "Being called up by Dr. Stalling in church"
+      "name": "Being_called_up_by_Dr_Stalling_in_church"
      },
      "place": {
       "id": "place2",
@@ -48,7 +48,7 @@
      },
      "hasObject": {
       "id": "object3",
-      "name": "Jennie Lloyd's new house"
+      "name": "Jennie_Lloyd_s_new_house"
      },
      "place": {
       "id": "place3",
@@ -65,7 +65,7 @@
      },
      "hasObject": {
       "id": "object4",
-      "name": "Wanting a husband, a house, and children"
+      "name": "Wanting_a_husband_a_house_and_children"
      },
      "place": {
       "id": "place4",
@@ -82,7 +82,7 @@
      },
      "hasObject": {
       "id": "object5",
-      "name": "Reading John Foster's paragraph about fear"
+      "name": "Reading_John_Foster_s_paragraph_about_fear"
      },
      "place": {
       "id": "place5",
@@ -124,35 +124,40 @@
    "id": "event1",
    "name": "Being_called_an_old_maid_",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   },
   {
    "id": "event2",
    "name": "Being_called_up_by_Dr_Stalling_in_church",
    "takePlaceAt": {
-    "id": "place2"
+    "id": "place2",
+    "name": "place2"
    }
   },
   {
    "id": "event3",
    "name": "Feeling_envious_of_Jennie_Lloyd_s_new_house",
    "takePlaceAt": {
-    "id": "place3"
+    "id": "place3",
+    "name": "place3"
    }
   },
   {
    "id": "event4",
    "name": "Thinking_about_wanting_a_husband_a_house_and_children",
    "takePlaceAt": {
-    "id": "place4"
+    "id": "place4",
+    "name": "place4"
    }
   },
   {
    "id": "event5",
    "name": "Reading_John_Foster_s_paragraph_about_fear",
    "takePlaceAt": {
-    "id": "place5"
+    "id": "place5",
+    "name": "place5"
    }
   }
  ]

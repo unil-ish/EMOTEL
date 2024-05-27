@@ -13,7 +13,7 @@
      },
      "hasObject": {
       "id": "object1",
-      "name": "Mr. Casaubon"
+      "name": "Mr_Casaubon"
      },
      "place": "Rectory study"
     },
@@ -27,7 +27,7 @@
      },
      "hasObject": {
       "id": "object2",
-      "name": "Miss Brooke's marriage"
+      "name": "Miss_Brooke_s_marriage"
      },
      "place": "Rectory study"
     },
@@ -41,7 +41,7 @@
      },
      "hasObject": {
       "id": "object3",
-      "name": "Dorothea’s design of the cottages"
+      "name": "Dorotheas_design_of_the_cottages"
      },
      "place": "Rectory study"
     },
@@ -55,7 +55,7 @@
      },
      "hasObject": {
       "id": "object4",
-      "name": "Companionship with Dorothea"
+      "name": "Companionship_with_Dorothea"
      },
      "place": "Dorothea's home"
     }
@@ -65,12 +65,12 @@
  ],
  "Places": [
   {
-   "id": "Rectory study",
+   "id": "Rectory_study",
    "name": "Rectory_study",
    "description": "A room where the Rector and Sir James Chettam have a conversation."
   },
   {
-   "id": "Dorothea's home",
+   "id": "Dorothea_s_home",
    "name": "Dorothea_s_home",
    "description": "The future home of Dorothea where she dictates changes."
   }
@@ -80,40 +80,48 @@
    "id": "event1",
    "name": "Disapproval_of_Mr_Casaubon",
    "takePlaceAt": {
-    "id": "Rectory study"
+    "id": "Rectory_study",
+    "name": "Rectory_study"
    },
    "hasParticipant": {
-    "id": "SirJamesChettam"
+    "id": "SirJamesChettam",
+    "name": "SirJamesChettam"
    }
   },
   {
    "id": "event2",
    "name": "Realization_of_lack_of_interference_in_Miss_Brooke_s_marriage",
    "takePlaceAt": {
-    "id": "Rectory study"
+    "id": "Rectory_study",
+    "name": "Rectory_study"
    },
    "hasParticipant": {
-    "id": "SirJamesChettam"
+    "id": "SirJamesChettam",
+    "name": "SirJamesChettam"
    }
   },
   {
    "id": "event3",
    "name": "Persistence_in_carrying_out_Dorotheas_design_of_the_cottages",
    "takePlaceAt": {
-    "id": "Rectory study"
+    "id": "Rectory_study",
+    "name": "Rectory_study"
    },
    "hasParticipant": {
-    "id": "SirJamesChettam"
+    "id": "SirJamesChettam",
+    "name": "SirJamesChettam"
    }
   },
   {
    "id": "event4",
    "name": "Discovery_of_delight_in_companionship_with_Dorothea",
    "takePlaceAt": {
-    "id": "Dorothea's home"
+    "id": "Dorothea_s_home",
+    "name": "Dorothea_s_home"
    },
    "hasParticipant": {
-    "id": "SirJamesChettam"
+    "id": "SirJamesChettam",
+    "name": "SirJamesChettam"
    }
   }
  ]

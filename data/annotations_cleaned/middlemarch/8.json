@@ -14,7 +14,7 @@
      },
      "hasObject": {
       "id": "object1",
-      "name": "Mr. Casaubon"
+      "name": "Mr_Casaubon"
      },
      "place": {
       "id": "place1",
@@ -31,7 +31,7 @@
      },
      "hasObject": {
       "id": "object2",
-      "name": "Will Ladislaw"
+      "name": "Will_Ladislaw"
      },
      "place": {
       "id": "place2",
@@ -48,7 +48,7 @@
      },
      "hasObject": {
       "id": "object2",
-      "name": "Will Ladislaw"
+      "name": "Will_Ladislaw"
      },
      "place": {
       "id": "place2",
@@ -65,7 +65,7 @@
      },
      "hasObject": {
       "id": "object3",
-      "name": "Mr. Casaubon"
+      "name": "Mr_Casaubon"
      },
      "place": {
       "id": "place3",
@@ -82,7 +82,7 @@
      },
      "hasObject": {
       "id": "object3",
-      "name": "Mr. Casaubon"
+      "name": "Mr_Casaubon"
      },
      "place": {
       "id": "place3",
@@ -99,7 +99,7 @@
      },
      "hasObject": {
       "id": "object3",
-      "name": "Mr. Casaubon"
+      "name": "Mr_Casaubon"
      },
      "place": {
       "id": "place3",
@@ -173,7 +173,7 @@
      },
      "hasObject": {
       "id": "object2",
-      "name": "Will Ladislaw"
+      "name": "Will_Ladislaw"
      },
      "place": {
       "id": "place2",
@@ -190,7 +190,7 @@
      },
      "hasObject": {
       "id": "object2",
-      "name": "Will Ladislaw"
+      "name": "Will_Ladislaw"
      },
      "place": {
       "id": "place2",
@@ -207,7 +207,7 @@
      },
      "hasObject": {
       "id": "object3",
-      "name": "Mr. Casaubon"
+      "name": "Mr_Casaubon"
      },
      "place": {
       "id": "place3",
@@ -224,7 +224,7 @@
      },
      "hasObject": {
       "id": "object3",
-      "name": "Mr. Casaubon"
+      "name": "Mr_Casaubon"
      },
      "place": {
       "id": "place3",
@@ -241,7 +241,7 @@
      },
      "hasObject": {
       "id": "object3",
-      "name": "Mr. Casaubon"
+      "name": "Mr_Casaubon"
      },
      "place": {
       "id": "place3",

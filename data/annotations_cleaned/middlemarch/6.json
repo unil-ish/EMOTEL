@@ -14,7 +14,7 @@
      },
      "hasObject": {
       "id": "work1",
-      "name": "Bread-winning work"
+      "name": "Breadwinning_work"
      },
      "place": {
       "id": "place1",
@@ -48,7 +48,7 @@
      },
      "hasObject": {
       "id": "processes1",
-      "name": "Human processes"
+      "name": "Human_processes"
      },
      "place": {
       "id": "place3",
@@ -105,7 +105,7 @@
      },
      "hasObject": {
       "id": "object4",
-      "name": "Lydgate's feelings"
+      "name": "Lydgate_s_feelings"
      },
      "place": {
       "id": "place6",
@@ -122,7 +122,7 @@
      },
      "hasObject": {
       "id": "object5",
-      "name": "Playing music"
+      "name": "Playing_music"
      },
      "place": {
       "id": "place7",

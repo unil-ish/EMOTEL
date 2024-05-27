@@ -14,7 +14,7 @@
      },
      "hasObject": {
       "id": "object1",
-      "name": "Maid's guilt"
+      "name": "Maid_s_guilt"
      },
      "place": {
       "id": "place1",
@@ -31,7 +31,7 @@
      },
      "hasObject": {
       "id": "object2",
-      "name": "Successful deception"
+      "name": "Successful_deception"
      },
      "place": {
       "id": "place2",
@@ -48,7 +48,7 @@
      },
      "hasObject": {
       "id": "object3",
-      "name": "Son's degeneracy"
+      "name": "Son_s_degeneracy"
      },
      "place": {
       "id": "place3",
@@ -71,7 +71,7 @@
      },
      "hasObject": {
       "id": "object4",
-      "name": "Pardon of the offender"
+      "name": "Pardon_of_the_offender"
      },
      "place": {
       "id": "place4",

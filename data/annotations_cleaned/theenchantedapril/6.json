@@ -14,7 +14,7 @@
      },
      "hasObject": {
       "id": "object1",
-      "name": "Large bill"
+      "name": "Large_bill"
      },
      "place": {
       "id": "place1",
@@ -31,7 +31,7 @@
      },
      "hasObject": {
       "id": "object2",
-      "name": "Payment denial"
+      "name": "Payment_denial"
      },
      "place": {
       "id": "place1",
@@ -77,7 +77,7 @@
      },
      "hasObject": {
       "id": "object4",
-      "name": "Telegram from Frederick"
+      "name": "Telegram_from_Frederick"
      },
      "place": {
       "id": "place3",
@@ -94,7 +94,7 @@
      },
      "hasObject": {
       "id": "object5",
-      "name": "Absence of telegram from Frederick"
+      "name": "Absence_of_telegram_from_Frederick"
      },
      "place": {
       "id": "place4",
@@ -111,7 +111,7 @@
      },
      "hasObject": {
       "id": "object6",
-      "name": "Telegram from Thomas Briggs"
+      "name": "Telegram_from_Thomas_Briggs"
      },
      "place": {
       "id": "place5",
@@ -128,7 +128,7 @@
      },
      "hasObject": {
       "id": "object7",
-      "name": "Startling situation"
+      "name": "Startling_situation"
      },
      "place": {
       "id": "place6",
@@ -145,7 +145,7 @@
      },
      "hasObject": {
       "id": "object8",
-      "name": "Telegram from Thomas Briggs"
+      "name": "Telegram_from_Thomas_Briggs"
      },
      "place": {
       "id": "place7",

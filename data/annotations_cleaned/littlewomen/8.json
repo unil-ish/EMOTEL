@@ -14,7 +14,7 @@
      },
      "hasObject": {
       "id": "object1",
-      "name": "Love letter"
+      "name": "Love_letter"
      },
      "exactPlace": "In the study"
     }
@@ -65,30 +65,36 @@
    "id": "event1",
    "name": "Receiving_a_love_letter",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    },
    "hasParticipant": {
-    "id": "fc1"
+    "id": "fc1",
+    "name": "fc1"
    }
   },
   {
    "id": "event2",
    "name": "Being_shaken_by_grandfather",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    },
    "hasParticipant": {
-    "id": "fc2"
+    "id": "fc2",
+    "name": "fc2"
    }
   },
   {
    "id": "event3",
    "name": "Laurie_being_out_of_temper",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    },
    "hasParticipant": {
-    "id": "fc3"
+    "id": "fc3",
+    "name": "fc3"
    }
   }
  ]

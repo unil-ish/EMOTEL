@@ -13,7 +13,7 @@
      },
      "hasObject": {
       "id": "object1",
-      "name": "Smoke-blue chiffon dress"
+      "name": "Smokeblue_chiffon_dress"
      },
      "place": "Home"
     },
@@ -41,7 +41,7 @@
      },
      "hasObject": {
       "id": "object3",
-      "name": "Pearl necklace"
+      "name": "Pearl_necklace"
      },
      "place": "Home"
     },
@@ -55,7 +55,7 @@
      },
      "hasObject": {
       "id": "object4",
-      "name": "Sand cone with Union Jack"
+      "name": "Sand_cone_with_Union_Jack"
      },
      "place": "Island cove"
     }
@@ -75,7 +75,7 @@
      },
      "hasObject": {
       "id": "object5",
-      "name": "Christmas present"
+      "name": "Christmas_present"
      },
      "place": "Home"
     },
@@ -104,7 +104,7 @@
    "description": "Their cozy living space in the Blue Castle on the island"
   },
   {
-   "id": "Island cove",
+   "id": "Island_cove",
    "name": "Island_cove",
    "description": "The little island cove where Valancy heaped up sand with a Union Jack"
   }
@@ -114,42 +114,48 @@
    "id": "event1",
    "name": "Buying_pretty_clothes",
    "takePlaceAt": {
-    "id": "Home"
+    "id": "Home",
+    "name": "Home"
    }
   },
   {
    "id": "event2",
    "name": "Refusing_to_let_Barney_buy_her_clothes",
    "takePlaceAt": {
-    "id": "Home"
+    "id": "Home",
+    "name": "Home"
    }
   },
   {
    "id": "event3",
    "name": "Receiving_pearl_necklace_as_a_Christmas_present",
    "takePlaceAt": {
-    "id": "Home"
+    "id": "Home",
+    "name": "Home"
    }
   },
   {
    "id": "event4",
    "name": "Celebrating_by_heaping_up_sand_with_a_Union_Jack",
    "takePlaceAt": {
-    "id": "Island cove"
+    "id": "Island_cove",
+    "name": "Island_cove"
    }
   },
   {
    "id": "event5",
    "name": "Asking_Valancy_what_she_wanted_for_Christmas",
    "takePlaceAt": {
-    "id": "Home"
+    "id": "Home",
+    "name": "Home"
    }
   },
   {
    "id": "event6",
    "name": "Giving_Valancy_rubbers_instead_of_skates_for_Christmas",
    "takePlaceAt": {
-    "id": "Home"
+    "id": "Home",
+    "name": "Home"
    }
   }
  ]

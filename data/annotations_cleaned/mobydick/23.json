@@ -61,7 +61,7 @@
      },
      "hasObject": {
       "id": "object4",
-      "name": "Ahab's well-being"
+      "name": "Ahab_s_wellbeing"
      },
      "place": "On the deck of the ship"
     }
@@ -81,7 +81,7 @@
      },
      "hasObject": {
       "id": "object5",
-      "name": "The Parsee's fate"
+      "name": "The_Parsee_s_fate"
      },
      "place": "On the deck of the ship"
     }
@@ -101,35 +101,40 @@
    "id": "event1",
    "name": "The_pursuit_of_Moby_Dick",
    "takePlaceAt": {
-    "id": "deck"
+    "id": "deck",
+    "name": "deck"
    }
   },
   {
    "id": "event2",
    "name": "The_pursuit_of_Moby_Dick",
    "takePlaceAt": {
-    "id": "deck"
+    "id": "deck",
+    "name": "deck"
    }
   },
   {
    "id": "event3",
    "name": "Acceptance_of_fate",
    "takePlaceAt": {
-    "id": "deck"
+    "id": "deck",
+    "name": "deck"
    }
   },
   {
    "id": "event4",
    "name": "Ahab_s_injury",
    "takePlaceAt": {
-    "id": "deck"
+    "id": "deck",
+    "name": "deck"
    }
   },
   {
    "id": "event5",
    "name": "The_Parsee_s_disappearance",
    "takePlaceAt": {
-    "id": "deck"
+    "id": "deck",
+    "name": "deck"
    }
   }
  ]

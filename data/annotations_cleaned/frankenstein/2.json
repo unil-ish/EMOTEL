@@ -1,7 +1,7 @@
 {
  "FictionalCharacters": [
   {
-   "id": "Victor Frankenstein",
+   "id": "Victor_Frankenstein",
    "feels": [
     {
      "name": "Fear",
@@ -27,7 +27,7 @@
      },
      "hasObject": {
       "id": "object2",
-      "name": "Victim's fate"
+      "name": "Victim_s_fate"
      },
      "exactPlace": "Prison room"
     },
@@ -41,7 +41,7 @@
      },
      "hasObject": {
       "id": "object3",
-      "name": "Personal situation"
+      "name": "Personal_situation"
      },
      "exactPlace": "Personal space"
     }
@@ -49,7 +49,7 @@
    "name": "Victor_Frankenstein"
   },
   {
-   "id": "Elizabeth Lavenza",
+   "id": "Elizabeth_Lavenza",
    "feels": [
     {
      "name": "Despair",
@@ -61,7 +61,7 @@
      },
      "hasObject": {
       "id": "object4",
-      "name": "Human goodness"
+      "name": "Human_goodness"
      },
      "exactPlace": "Home"
     },
@@ -83,7 +83,7 @@
    "name": "Elizabeth_Lavenza"
   },
   {
-   "id": "Justine Moritz",
+   "id": "Justine_Moritz",
    "feels": [
     {
      "name": "Remorse",
@@ -124,12 +124,12 @@
    "description": "Where the trial of Justine Moritz took place."
   },
   {
-   "id": "Prison room",
+   "id": "Prison_room",
    "name": "Prison_room",
    "description": "Where Justine Moritz was held in prison."
   },
   {
-   "id": "Personal space",
+   "id": "Personal_space",
    "name": "Personal_space",
    "description": "Where Victor Frankenstein experienced personal anguish."
   },

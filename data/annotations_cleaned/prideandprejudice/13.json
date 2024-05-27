@@ -1,7 +1,7 @@
 {
  "FictionalCharacters": [
   {
-   "id": "Elizabeth Bennet",
+   "id": "Elizabeth_Bennet",
    "feels": [
     {
      "name": "Joy",
@@ -58,7 +58,7 @@
    "name": "Elizabeth_Bennet"
   },
   {
-   "id": "Mr. Darcy",
+   "id": "Mr_Darcy",
    "feels": [
     {
      "name": "Calmness",
@@ -98,7 +98,7 @@
    "name": "Mr_Darcy"
   },
   {
-   "id": "Mrs. Bennet",
+   "id": "Mrs_Bennet",
    "feels": [
     {
      "name": "Pride",

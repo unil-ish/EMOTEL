@@ -48,7 +48,7 @@
      },
      "hasObject": {
       "id": "object3",
-      "name": "New experiences"
+      "name": "New_experiences"
      },
      "exactPlace": "Living room"
     },
@@ -86,40 +86,48 @@
    "id": "event1",
    "name": "Unknown_cause",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    },
    "hasParticipant": {
-    "id": "fc1"
+    "id": "fc1",
+    "name": "fc1"
    }
   },
   {
    "id": "event2",
    "name": "Unknown_cause",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    },
    "hasParticipant": {
-    "id": "fc1"
+    "id": "fc1",
+    "name": "fc1"
    }
   },
   {
    "id": "event3",
    "name": "Desire_for_change",
    "takePlaceAt": {
-    "id": "place2"
+    "id": "place2",
+    "name": "place2"
    },
    "hasParticipant": {
-    "id": "fc2"
+    "id": "fc2",
+    "name": "fc2"
    }
   },
   {
    "id": "event4",
    "name": "Laurie_s_growing_affection",
    "takePlaceAt": {
-    "id": "place2"
+    "id": "place2",
+    "name": "place2"
    },
    "hasParticipant": {
-    "id": "fc2"
+    "id": "fc2",
+    "name": "fc2"
    }
   }
  ]

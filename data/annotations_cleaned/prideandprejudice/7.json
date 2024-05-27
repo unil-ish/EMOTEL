@@ -1,19 +1,19 @@
 {
  "FictionalCharacters": [
   {
-   "id": "Elizabeth Bennet",
+   "id": "Elizabeth_Bennet",
    "feels": [
     {
      "name": "Trust",
      "hasIntensity": 0.6,
      "quote": "Elizabeth was eager with her thanks and assurances of happiness.",
      "causedBy": {
-      "id": "Mrs. Collins",
+      "id": "Mrs_Collins",
       "name": "Mrs_Collins_kindness"
      },
      "hasObject": {
-      "id": "Mrs. Collins",
-      "name": "Mrs. Collins"
+      "id": "Mrs_Collins",
+      "name": "Mrs_Collins"
      },
      "exactPlace": "Gracechurch Street"
     },
@@ -36,7 +36,7 @@
      "hasIntensity": 0.7,
      "quote": "Elizabeth was shocked to think that, however incapable of such coarseness of expression herself, the coarseness of the sentiment was little other than her own breast had formerly harboured and fancied liberal!",
      "causedBy": {
-      "id": "Lydia's behavior",
+      "id": "Lydia_s_behavior",
       "name": "Lydia_s_behavior"
      },
      "hasObject": {
@@ -50,7 +50,7 @@
      "hasIntensity": 0.9,
      "quote": "Their reception at home was most kind. Mrs. Bennet rejoiced to see Jane in undiminished beauty; and more than once during dinner did Mr. Bennet say voluntarily to Elizabeth, 'I am glad you are come back, Lizzy.'",
      "causedBy": {
-      "id": "Family's warm welcome",
+      "id": "Family_s_warm_welcome",
       "name": "Family_s_warm_welcome"
      },
      "hasObject": {
@@ -64,7 +64,7 @@
      "hasIntensity": 0.6,
      "quote": "Elizabeth listened as little as she could, but there was no escaping the frequent mention of Wickham’s name.",
      "causedBy": {
-      "id": "Lydia's stories",
+      "id": "Lydia_s_stories",
       "name": "Lydia_s_stories"
      },
      "hasObject": {
@@ -77,14 +77,14 @@
    "name": "Elizabeth_Bennet"
   },
   {
-   "id": "Lydia Bennet",
+   "id": "Lydia_Bennet",
    "feels": [
     {
      "name": "Joy",
      "hasIntensity": 0.8,
      "quote": "Lydia laughed, and said,--'Ay, that is just like your formality and discretion.'",
      "causedBy": {
-      "id": "Lydia's behavior",
+      "id": "Lydia_s_behavior",
       "name": "Lydia_s_behavior"
      },
      "hasObject": {
@@ -98,7 +98,7 @@
      "hasIntensity": 0.7,
      "quote": "With such kind of histories of their parties and good jokes did Lydia, assisted by Kitty’s hints and additions, endeavour to amuse her companions all the way to Longbourn.",
      "causedBy": {
-      "id": "Lydia's stories",
+      "id": "Lydia_s_stories",
       "name": "Lydia_s_stories"
      },
      "hasObject": {
@@ -113,7 +113,7 @@
  ],
  "Places": [
   {
-   "id": "Gracechurch Street",
+   "id": "Gracechurch_Street",
    "name": "Gracechurch_Street",
    "description": "Starting point of the journey to Hertfordshire."
   },

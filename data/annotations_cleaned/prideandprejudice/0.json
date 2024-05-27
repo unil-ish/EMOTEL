@@ -28,7 +28,7 @@
      },
      "hasObject": {
       "id": "object2",
-      "name": "Mr. Darcy"
+      "name": "Mr_Darcy"
      },
      "exactPlace": "At a gathering where Miss Bingley entertained herself"
     },
@@ -42,7 +42,7 @@
      },
      "hasObject": {
       "id": "object3",
-      "name": "Catherine and Lydia"
+      "name": "Catherine_and_Lydia"
      },
      "exactPlace": "At home"
     }
@@ -62,7 +62,7 @@
      },
      "hasObject": {
       "id": "object4",
-      "name": "Mr. Darcy"
+      "name": "Mr_Darcy"
      },
      "exactPlace": "At Sir William Lucas’s, where a large party were assembled."
     },
@@ -76,7 +76,7 @@
      },
      "hasObject": {
       "id": "object5",
-      "name": "Sir William Lucas"
+      "name": "Sir_William_Lucas"
      },
      "exactPlace": "At a gathering where Sir William Lucas complimented her"
     }
@@ -98,50 +98,60 @@
    "id": "event1",
    "name": "Observing_Mr_Bingley_s_attention_to_her_sister",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    },
    "hasParticipant": {
-    "id": "fc1"
+    "id": "fc1",
+    "name": "fc1"
    }
   },
   {
    "id": "event2",
    "name": "Miss_Bingley_entertaining_herself",
    "takePlaceAt": {
-    "id": "place2"
+    "id": "place2",
+    "name": "place2"
    },
    "hasParticipant": {
-    "id": "fc1"
+    "id": "fc1",
+    "name": "fc1"
    }
   },
   {
    "id": "event3",
    "name": "Listening_to_his_daughters_conversation",
    "takePlaceAt": {
-    "id": "place3"
+    "id": "place3",
+    "name": "place3"
    },
    "hasParticipant": {
-    "id": "fc1"
+    "id": "fc1",
+    "name": "fc1"
    }
   },
   {
    "id": "event4",
    "name": "Being_asked_to_dance_by_Sir_William_Lucas",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    },
    "hasParticipant": {
-    "id": "fc2"
+    "id": "fc2",
+    "name": "fc2"
    }
   },
   {
    "id": "event5",
    "name": "Being_complimented_by_Sir_William_Lucas",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    },
    "hasParticipant": {
-    "id": "fc2"
+    "id": "fc2",
+    "name": "fc2"
    }
   }
  ]

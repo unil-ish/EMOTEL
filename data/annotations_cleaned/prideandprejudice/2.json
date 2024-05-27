@@ -1,19 +1,19 @@
 {
  "FictionalCharacters": [
   {
-   "id": "Mr. Collins",
+   "id": "Mr_Collins",
    "feels": [
     {
      "name": "Gratitude",
      "hasIntensity": 0.7,
      "quote": "Mr. Collins speaks highly both of Lady Catherine and her daughter; but, from some particulars that he has related of her Ladyship, I suspect his gratitude misleads him.",
      "causedBy": {
-      "id": "Lady Catherine and her daughter",
+      "id": "Lady_Catherine_and_her_daughter",
       "name": "Lady_Catherine_and_her_daughter"
      },
      "hasObject": {
-      "id": "Lady Catherine and her daughter",
-      "name": "Lady Catherine and her daughter"
+      "id": "Lady_Catherine_and_her_daughter",
+      "name": "Lady_Catherine_and_her_daughter"
      },
      "place": {
       "id": "supper party",
@@ -48,12 +48,12 @@
      "hasIntensity": 0.7,
      "quote": "“How strange!” cried Elizabeth. “How abominable!",
      "causedBy": {
-      "id": "Mr. Darcy's actions",
+      "id": "Mr_Darcy_s_actions",
       "name": "Mr_Darcy_s_actions"
      },
      "hasObject": {
-      "id": "Mr. Darcy",
-      "name": "Mr. Darcy"
+      "id": "Mr_Darcy",
+      "name": "Mr_Darcy"
      },
      "place": {
       "id": "supper party",
@@ -65,12 +65,12 @@
      "hasIntensity": 0.8,
      "quote": "Elizabeth went away with her head full of him.",
      "causedBy": {
-      "id": "Mr. Wickham",
+      "id": "Mr_Wickham",
       "name": "Mr_Wickham"
      },
      "hasObject": {
-      "id": "Mr. Wickham",
-      "name": "Mr. Wickham"
+      "id": "Mr_Wickham",
+      "name": "Mr_Wickham"
      },
      "place": {
       "id": "supper party",
@@ -83,7 +83,7 @@
  ],
  "Places": [
   {
-   "id": "supper party",
+   "id": "supper_party",
    "name": "supper_party",
    "description": "Mrs. Philips's supper party"
   }
@@ -93,16 +93,9 @@
    "id": "Conversation",
    "name": "Conversation",
    "takePlaceAt": {
-    "id": "supper party"
-   },
-   "hasParticipant": [
-    {
-     "id": "Mr. Collins"
-    },
-    {
-     "id": "Elizabeth"
-    }
-   ]
+    "id": "supper_party",
+    "name": "supper_party"
+   }
   }
  ]
 }

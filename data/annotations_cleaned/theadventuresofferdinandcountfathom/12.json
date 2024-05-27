@@ -14,7 +14,7 @@
      },
      "hasObject": {
       "id": "object1",
-      "name": "Medical capacity"
+      "name": "Medical_capacity"
      },
      "place": {
       "id": "place1",
@@ -31,7 +31,7 @@
      },
      "hasObject": {
       "id": "object2",
-      "name": "Return of her admirer"
+      "name": "Return_of_her_admirer"
      },
      "place": {
       "id": "place1",
@@ -48,7 +48,7 @@
      },
      "hasObject": {
       "id": "object3",
-      "name": "Forsaking of the patient"
+      "name": "Forsaking_of_the_patient"
      },
      "place": {
       "id": "place1",
@@ -70,21 +70,24 @@
    "id": "event1",
    "name": "Lack_of_recognition_for_medical_capacity",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   },
   {
    "id": "event2",
    "name": "Hope_for_the_return_of_her_admirer",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   },
   {
    "id": "event3",
    "name": "Forsaking_of_the_patient_by_her_admirer",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   }
  ]

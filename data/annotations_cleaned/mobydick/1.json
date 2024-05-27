@@ -14,7 +14,7 @@
      },
      "hasObject": {
       "id": "object1",
-      "name": "Solemnity of the scene"
+      "name": "Solemnity_of_the_scene"
      },
      "place": {
       "id": "place1",
@@ -31,7 +31,7 @@
      },
      "hasObject": {
       "id": "object2",
-      "name": "Inscriptions on the wall"
+      "name": "Inscriptions_on_the_wall"
      },
      "place": {
       "id": "place1",
@@ -48,7 +48,7 @@
      },
      "hasObject": {
       "id": "object3",
-      "name": "Bleak tablets"
+      "name": "Bleak_tablets"
      },
      "place": {
       "id": "place1",
@@ -71,7 +71,7 @@
      },
      "hasObject": {
       "id": "object1",
-      "name": "Solemnity of the scene"
+      "name": "Solemnity_of_the_scene"
      },
      "place": {
       "id": "place1",
@@ -93,21 +93,24 @@
    "id": "event1",
    "name": "Entering_the_Whaleman_s_Chapel",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   },
   {
    "id": "event2",
    "name": "Not_being_able_to_read_the_inscriptions",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   },
   {
    "id": "event3",
    "name": "Seeing_the_bleak_tablets",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   }
  ]

@@ -28,7 +28,7 @@
      },
      "hasObject": {
       "id": "object2",
-      "name": "Whale population"
+      "name": "Whale_population"
      },
      "exactPlace": "In the forecastle"
     },
@@ -42,7 +42,7 @@
      },
      "hasObject": {
       "id": "object3",
-      "name": "Whale population decline"
+      "name": "Whale_population_decline"
      },
      "exactPlace": "In the forecastle"
     }
@@ -66,30 +66,36 @@
    "id": "event1",
    "name": "Contemplating_the_vastness_of_the_whale",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    },
    "hasParticipant": {
-    "id": "fc1"
+    "id": "fc1",
+    "name": "fc1"
    }
   },
   {
    "id": "event2",
    "name": "Considering_the_resilience_of_the_whale_population",
    "takePlaceAt": {
-    "id": "place2"
+    "id": "place2",
+    "name": "place2"
    },
    "hasParticipant": {
-    "id": "fc1"
+    "id": "fc1",
+    "name": "fc1"
    }
   },
   {
    "id": "event3",
    "name": "Reflecting_on_the_whale_population_decline",
    "takePlaceAt": {
-    "id": "place2"
+    "id": "place2",
+    "name": "place2"
    },
    "hasParticipant": {
-    "id": "fc1"
+    "id": "fc1",
+    "name": "fc1"
    }
   }
  ]

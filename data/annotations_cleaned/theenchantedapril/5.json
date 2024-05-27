@@ -14,7 +14,7 @@
      },
      "hasObject": {
       "id": "object1",
-      "name": "Mr. Wilkins"
+      "name": "Mr_Wilkins"
      },
      "place": {
       "id": "place1",
@@ -31,7 +31,7 @@
      },
      "hasObject": {
       "id": "object1",
-      "name": "Mr. Wilkins"
+      "name": "Mr_Wilkins"
      },
      "place": {
       "id": "place1",
@@ -54,7 +54,7 @@
      },
      "hasObject": {
       "id": "object2",
-      "name": "Mrs. Fisher"
+      "name": "Mrs_Fisher"
      },
      "place": {
       "id": "place2",
@@ -71,7 +71,7 @@
      },
      "hasObject": {
       "id": "object3",
-      "name": "Mr. Wilkins"
+      "name": "Mr_Wilkins"
      },
      "place": {
       "id": "place2",
@@ -94,7 +94,7 @@
      },
      "hasObject": {
       "id": "object4",
-      "name": "Lady Caroline"
+      "name": "Lady_Caroline"
      },
      "place": {
       "id": "place2",
@@ -117,7 +117,7 @@
      },
      "hasObject": {
       "id": "object5",
-      "name": "Mr. Wilkins"
+      "name": "Mr_Wilkins"
      },
      "place": {
       "id": "place2",
@@ -144,35 +144,40 @@
    "id": "event1",
    "name": "Mr_Wilkins_s_appearance_in_a_towel",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   },
   {
    "id": "event2",
    "name": "Mr_Wilkins_s_apology",
    "takePlaceAt": {
-    "id": "place2"
+    "id": "place2",
+    "name": "place2"
    }
   },
   {
    "id": "event3",
    "name": "Mr_Wilkins_s_behavior_at_dinner",
    "takePlaceAt": {
-    "id": "place2"
+    "id": "place2",
+    "name": "place2"
    }
   },
   {
    "id": "event4",
    "name": "Mr_Wilkins_s_speeches",
    "takePlaceAt": {
-    "id": "place2"
+    "id": "place2",
+    "name": "place2"
    }
   },
   {
    "id": "event5",
    "name": "Mr_Wilkins_s_behavior",
    "takePlaceAt": {
-    "id": "place2"
+    "id": "place2",
+    "name": "place2"
    }
   }
  ]

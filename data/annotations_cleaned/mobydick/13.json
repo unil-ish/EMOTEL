@@ -13,7 +13,7 @@
      },
      "hasObject": {
       "id": "object1",
-      "name": "Dead whale"
+      "name": "Dead_whale"
      },
      "place": "Dead whale's back"
     },
@@ -27,7 +27,7 @@
      },
      "hasObject": {
       "id": "object2",
-      "name": "Perilous situation"
+      "name": "Perilous_situation"
      },
      "place": "On the dead whale's back"
     },
@@ -41,7 +41,7 @@
      },
      "hasObject": {
       "id": "object3",
-      "name": "Merged individuality"
+      "name": "Merged_individuality"
      },
      "place": "On the dead whale's back"
     },
@@ -69,7 +69,7 @@
      },
      "hasObject": {
       "id": "object5",
-      "name": "Pondering the situation"
+      "name": "Pondering_the_situation"
      },
      "place": "Between the whale and ship"
     }

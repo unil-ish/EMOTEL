@@ -31,7 +31,7 @@
      },
      "hasObject": {
       "id": "object2",
-      "name": "The Creature"
+      "name": "The_Creature"
      },
      "place": {
       "id": "place1",
@@ -48,7 +48,7 @@
      },
      "hasObject": {
       "id": "object3",
-      "name": "The Creature"
+      "name": "The_Creature"
      },
      "place": {
       "id": "place1",
@@ -65,7 +65,7 @@
      },
      "hasObject": {
       "id": "object4",
-      "name": "Sunshine and fresh air"
+      "name": "Sunshine_and_fresh_air"
      },
      "place": {
       "id": "place2",
@@ -82,7 +82,7 @@
      },
      "hasObject": {
       "id": "object5",
-      "name": "Return to the cottage"
+      "name": "Return_to_the_cottage"
      },
      "place": {
       "id": "place3",
@@ -99,7 +99,7 @@
      },
      "hasObject": {
       "id": "object6",
-      "name": "Dreadful misfortune"
+      "name": "Dreadful_misfortune"
      },
      "place": {
       "id": "place4",
@@ -132,60 +132,72 @@
    "id": "event1",
    "name": "Old_man_offering_help",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    },
    "hasParticipant": {
-    "id": "fc1"
+    "id": "fc1",
+    "name": "fc1"
    }
   },
   {
    "id": "event2",
    "name": "Old_man_seeing_the_Creature",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    },
    "hasParticipant": {
-    "id": "fc1"
+    "id": "fc1",
+    "name": "fc1"
    }
   },
   {
    "id": "event3",
    "name": "Felix_attacking_the_Creature",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    },
    "hasParticipant": {
-    "id": "fc1"
+    "id": "fc1",
+    "name": "fc1"
    }
   },
   {
    "id": "event4",
    "name": "Sunshine_and_fresh_air",
    "takePlaceAt": {
-    "id": "place2"
+    "id": "place2",
+    "name": "place2"
    },
    "hasParticipant": {
-    "id": "fc1"
+    "id": "fc1",
+    "name": "fc1"
    }
   },
   {
    "id": "event5",
    "name": "Planning_to_return_to_the_cottage",
    "takePlaceAt": {
-    "id": "place3"
+    "id": "place3",
+    "name": "place3"
    },
    "hasParticipant": {
-    "id": "fc1"
+    "id": "fc1",
+    "name": "fc1"
    }
   },
   {
    "id": "event6",
    "name": "Feeling_of_dread",
    "takePlaceAt": {
-    "id": "place4"
+    "id": "place4",
+    "name": "place4"
    },
    "hasParticipant": {
-    "id": "fc1"
+    "id": "fc1",
+    "name": "fc1"
    }
   }
  ]

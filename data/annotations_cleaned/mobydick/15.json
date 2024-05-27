@@ -96,40 +96,48 @@
    "id": "event1",
    "name": "Anointing_his_boat",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    },
    "hasParticipant": {
-    "id": "Queequeg"
+    "id": "Queequeg",
+    "name": "Queequeg"
    }
   },
   {
    "id": "event2",
    "name": "Successfully_pitchpoling_the_whale",
    "takePlaceAt": {
-    "id": "place2"
+    "id": "place2",
+    "name": "place2"
    },
    "hasParticipant": {
-    "id": "Stubb"
+    "id": "Stubb",
+    "name": "Stubb"
    }
   },
   {
    "id": "event3",
    "name": "Successfully_pitchpoling_the_whale",
    "takePlaceAt": {
-    "id": "place2"
+    "id": "place2",
+    "name": "place2"
    },
    "hasParticipant": {
-    "id": "Stubb"
+    "id": "Stubb",
+    "name": "Stubb"
    }
   },
   {
    "id": "event4",
    "name": "Successfully_pitchpoling_the_whale",
    "takePlaceAt": {
-    "id": "place2"
+    "id": "place2",
+    "name": "place2"
    },
    "hasParticipant": {
-    "id": "Stubb"
+    "id": "Stubb",
+    "name": "Stubb"
    }
   }
  ]

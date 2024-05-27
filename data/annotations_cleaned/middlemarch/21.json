@@ -31,7 +31,7 @@
      },
      "hasObject": {
       "id": "object2",
-      "name": "Being a clergyman"
+      "name": "Being_a_clergyman"
      },
      "place": {
       "id": "place2",
@@ -48,7 +48,7 @@
      },
      "hasObject": {
       "id": "object3",
-      "name": "Mary Garth"
+      "name": "Mary_Garth"
      },
      "place": {
       "id": "place3",
@@ -71,7 +71,7 @@
      },
      "hasObject": {
       "id": "object4",
-      "name": "Asking for help"
+      "name": "Asking_for_help"
      },
      "place": {
       "id": "place4",
@@ -88,7 +88,7 @@
      },
      "hasObject": {
       "id": "object5",
-      "name": "Mary Garth"
+      "name": "Mary_Garth"
      },
      "place": {
       "id": "place5",
@@ -105,7 +105,7 @@
      },
      "hasObject": {
       "id": "object6",
-      "name": "Saying he wants to go into the Church"
+      "name": "Saying_he_wants_to_go_into_the_Church"
      },
      "place": {
       "id": "place6",
@@ -128,7 +128,7 @@
      },
      "hasObject": {
       "id": "object7",
-      "name": "Being interested in Fred Vincy"
+      "name": "Being_interested_in_Fred_Vincy"
      },
      "place": {
       "id": "place7",
@@ -145,7 +145,7 @@
      },
      "hasObject": {
       "id": "object8",
-      "name": "Realizing who Fred Vincy is"
+      "name": "Realizing_who_Fred_Vincy_is"
      },
      "place": {
       "id": "place8",
@@ -162,7 +162,7 @@
      },
      "hasObject": {
       "id": "object9",
-      "name": "Realizing it's about Fred Vincy"
+      "name": "Realizing_it_s_about_Fred_Vincy"
      },
      "place": {
       "id": "place9",

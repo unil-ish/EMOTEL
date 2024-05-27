@@ -1,18 +1,19 @@
 {
  "FictionalCharacters": [
   {
-   "id": "Fred Vincy",
+   "id": "Fred_Vincy",
    "feels": [
     {
      "name": "Love",
      "hasIntensity": 0.9,
      "quote": "I have always loved her better than any one else, and that I shall never love any one as I love her.",
      "causedBy": {
-      "id": "Mary Garth",
+      "id": "Mary_Garth",
       "name": "Mary_Garth"
      },
      "hasObject": {
-      "id": "Mary Garth"
+      "id": "Mary_Garth",
+      "name": "Mary_Garth"
      },
      "exactPlace": "In the gateway"
     },
@@ -21,11 +22,12 @@
      "hasIntensity": 0.8,
      "quote": "I shall be the most miserable devil in the world if I lose all hope of Mary.",
      "causedBy": {
-      "id": "Uncertainty about his future",
+      "id": "Uncertainty_about_his_future",
       "name": "Uncertainty_about_his_future"
      },
      "hasObject": {
-      "id": "Mary Garth"
+      "id": "Mary_Garth",
+      "name": "Mary_Garth"
      },
      "exactPlace": "In the gateway"
     }
@@ -33,18 +35,19 @@
    "name": "Fred_Vincy"
   },
   {
-   "id": "Caleb Garth",
+   "id": "Caleb_Garth",
    "feels": [
     {
      "name": "Pride",
      "hasIntensity": 0.9,
      "quote": "You must have a pride in your own work and in learning to do it well.",
      "causedBy": {
-      "id": "Work ethic",
+      "id": "Work_ethic",
       "name": "Work_ethic"
      },
      "hasObject": {
-      "id": "Work"
+      "id": "Work",
+      "name": "Work"
      },
      "exactPlace": "In the field"
     },
@@ -53,11 +56,12 @@
      "hasIntensity": 0.8,
      "quote": "The young ones have always a claim on the old to help them forward.",
      "causedBy": {
-      "id": "Fred Vincy's situation",
+      "id": "Fred_Vincy_s_situation",
       "name": "Fred_Vincy_s_situation"
      },
      "hasObject": {
-      "id": "Fred Vincy"
+      "id": "Fred_Vincy",
+      "name": "Fred_Vincy"
      },
      "exactPlace": "In the field"
     }
@@ -65,18 +69,19 @@
    "name": "Caleb_Garth"
   },
   {
-   "id": "Mary Garth",
+   "id": "Mary_Garth",
    "feels": [
     {
      "name": "Love",
      "hasIntensity": 0.9,
      "quote": "The children are fond of each other—I mean, Fred and Mary.",
      "causedBy": {
-      "id": "Fred Vincy",
+      "id": "Fred_Vincy",
       "name": "Fred_Vincy"
      },
      "hasObject": {
-      "id": "Fred Vincy"
+      "id": "Fred_Vincy",
+      "name": "Fred_Vincy"
      },
      "exactPlace": "At home"
     }
@@ -98,13 +103,15 @@
  ],
  "Events": [
   {
-   "id": "Uncertainty about his future",
+   "id": "Uncertainty_about_his_future",
    "name": "Fred_Vincy_s_uncertainty_about_his_future_career",
    "takePlaceAt": {
-    "id": "Field"
+    "id": "Field",
+    "name": "Field"
    },
    "hasParticipant": {
-    "id": "Fred Vincy"
+    "id": "Fred_Vincy",
+    "name": "Fred_Vincy"
    }
   }
  ]

@@ -14,7 +14,7 @@
      },
      "hasObject": {
       "id": "object1",
-      "name": "The situation with his wife"
+      "name": "The_situation_with_his_wife"
      },
      "place": {
       "id": "place1",
@@ -37,7 +37,7 @@
      },
      "hasObject": {
       "id": "object2",
-      "name": "Being called out by the French chevalier"
+      "name": "Being_called_out_by_the_French_chevalier"
      },
      "place": {
       "id": "place2",
@@ -60,7 +60,7 @@
      },
      "hasObject": {
       "id": "object3",
-      "name": "The situation with his wife"
+      "name": "The_situation_with_his_wife"
      },
      "place": {
       "id": "place3",
@@ -83,7 +83,7 @@
      },
      "hasObject": {
       "id": "object4",
-      "name": "Challenge from Captain Minikin"
+      "name": "Challenge_from_Captain_Minikin"
      },
      "place": {
       "id": "place4",
@@ -120,40 +120,48 @@
    "id": "event1",
    "name": "Feeling_affronted_by_the_situation_with_his_wife",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    },
    "hasParticipant": {
-    "id": "fc1"
+    "id": "fc1",
+    "name": "fc1"
    }
   },
   {
    "id": "event2",
    "name": "Being_called_out_by_the_French_chevalier",
    "takePlaceAt": {
-    "id": "place2"
+    "id": "place2",
+    "name": "place2"
    },
    "hasParticipant": {
-    "id": "fc2"
+    "id": "fc2",
+    "name": "fc2"
    }
   },
   {
    "id": "event3",
    "name": "Feeling_affronted_by_the_situation_with_his_wife",
    "takePlaceAt": {
-    "id": "place3"
+    "id": "place3",
+    "name": "place3"
    },
    "hasParticipant": {
-    "id": "fc3"
+    "id": "fc3",
+    "name": "fc3"
    }
   },
   {
    "id": "event4",
    "name": "Receiving_the_challenge_from_Captain_Minikin",
    "takePlaceAt": {
-    "id": "place4"
+    "id": "place4",
+    "name": "place4"
    },
    "hasParticipant": {
-    "id": "fc4"
+    "id": "fc4",
+    "name": "fc4"
    }
   }
  ]

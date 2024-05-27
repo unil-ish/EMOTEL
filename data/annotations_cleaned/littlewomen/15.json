@@ -14,7 +14,7 @@
      },
      "hasObject": {
       "id": "object1",
-      "name": "Jo's writing"
+      "name": "Jo_s_writing"
      },
      "place": {
       "id": "place1",
@@ -32,7 +32,7 @@
      },
      "hasObject": {
       "id": "object2",
-      "name": "Feeling of homesickness"
+      "name": "Feeling_of_homesickness"
      },
      "place": {
       "id": "place2",
@@ -50,7 +50,7 @@
      },
      "hasObject": {
       "id": "object3",
-      "name": "Being asked to go abroad"
+      "name": "Being_asked_to_go_abroad"
      },
      "place": {
       "id": "place3",
@@ -68,7 +68,7 @@
      },
      "hasObject": {
       "id": "object4",
-      "name": "Feeling of despair"
+      "name": "Feeling_of_despair"
      },
      "place": {
       "id": "place4",
@@ -86,7 +86,7 @@
      },
      "hasObject": {
       "id": "object5",
-      "name": "Plan to go abroad"
+      "name": "Plan_to_go_abroad"
      },
      "place": {
       "id": "place5",
@@ -110,7 +110,7 @@
      },
      "hasObject": {
       "id": "object6",
-      "name": "Feeling of inevitability"
+      "name": "Feeling_of_inevitability"
      },
      "place": {
       "id": "place6",
@@ -146,7 +146,7 @@
      },
      "hasObject": {
       "id": "object8",
-      "name": "Feeling of relief"
+      "name": "Feeling_of_relief"
      },
      "place": {
       "id": "place8",
@@ -164,7 +164,7 @@
      },
      "hasObject": {
       "id": "object9",
-      "name": "Feeling of contentment"
+      "name": "Feeling_of_contentment"
      },
      "place": {
       "id": "place9",

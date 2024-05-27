@@ -8,7 +8,7 @@
      "hasIntensity": 1,
      "quote": "It is the east, and Juliet is the sun!",
      "causedBy": {
-      "id": "Juliet's presence",
+      "id": "Juliet_s_presence",
       "name": "Seeing_Juliet_at_the_window"
      },
      "hasObject": {
@@ -22,7 +22,7 @@
      "hasIntensity": 0.9,
      "quote": "O blessed, blessed night. I am afeard, Being in night, all this is but a dream, Too flattering sweet to be substantial.",
      "causedBy": {
-      "id": "Juliet's response",
+      "id": "Juliet_s_response",
       "name": "Juliet_s_affection"
      },
      "hasObject": {
@@ -42,7 +42,7 @@
      "hasIntensity": 1,
      "quote": "My bounty is as boundless as the sea, My love as deep; the more I give to thee, The more I have, for both are infinite.",
      "causedBy": {
-      "id": "Romeo's affection",
+      "id": "Romeo_s_affection",
       "name": "Romeo_s_love"
      },
      "hasObject": {
@@ -56,7 +56,7 @@
      "hasIntensity": 0.8,
      "quote": "Parting is such sweet sorrow That I shall say good night till it be morrow.",
      "causedBy": {
-      "id": "Romeo's departure",
+      "id": "Romeo_s_departure",
       "name": "Romeo_leaving"
      },
      "hasObject": {
@@ -71,7 +71,7 @@
  ],
  "Places": [
   {
-   "id": "Capulet's Garden",
+   "id": "Capulet_s_Garden",
    "name": "Capulet_s_Garden",
    "description": "A romantic setting where Romeo and Juliet express their love for each other."
   }

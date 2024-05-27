@@ -76,7 +76,7 @@
      },
      "hasObject": {
       "id": "object4",
-      "name": "Cecil and Lucy"
+      "name": "Cecil_and_Lucy"
      },
      "exactPlace": "Drawing-room"
     }
@@ -95,35 +95,40 @@
    "id": "event1",
    "name": "Cecil_s_proposal_to_Lucy",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   },
   {
    "id": "event2",
    "name": "Feeling_uncomfortable_about_Cecil_s_proposal",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   },
   {
    "id": "event3",
    "name": "Feeling_uncomfortable_about_Cecil_s_proposal",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   },
   {
    "id": "event4",
    "name": "Freddy_s_behavior",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   },
   {
    "id": "event5",
    "name": "Worry_about_the_situation_with_Cecil_and_Lucy",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   }
  ]

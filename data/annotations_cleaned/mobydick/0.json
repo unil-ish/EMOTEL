@@ -8,12 +8,12 @@
      "hasIntensity": 0.9,
      "quote": "Such a portentous and mysterious monster roused all my curiosity.",
      "causedBy": {
-      "id": "Great whale",
+      "id": "Great_whale",
       "name": "Great_whale"
      },
      "hasObject": {
-      "id": "Great whale",
-      "name": "Great whale"
+      "id": "Great_whale",
+      "name": "Great_whale"
      },
      "exactPlace": "Mind"
     },
@@ -68,7 +68,7 @@
  ],
  "Places": [
   {
-   "id": "Spouter Inn",
+   "id": "Spouter_Inn",
    "name": "Spouter_Inn",
    "description": "A gable-ended old house, one side palsied as it were, and leaning over sadly."
   }

@@ -1,7 +1,7 @@
 {
  "FictionalCharacters": [
   {
-   "id": "Elizabeth Bennet",
+   "id": "Elizabeth_Bennet",
    "feels": [
     {
      "name": "Surprise",
@@ -13,7 +13,7 @@
      },
      "hasObject": {
       "id": "object1",
-      "name": "Mrs. Gardiner"
+      "name": "Mrs_Gardiner"
      },
      "place": {
       "id": "place1",
@@ -30,7 +30,7 @@
      },
      "hasObject": {
       "id": "object2",
-      "name": "Miss Darcy"
+      "name": "Miss_Darcy"
      },
      "place": {
       "id": "place2",
@@ -58,7 +58,7 @@
    "name": "Elizabeth_Bennet"
   },
   {
-   "id": "Mr. Darcy",
+   "id": "Mr_Darcy",
    "feels": [
     {
      "name": "Astonishment",
@@ -70,7 +70,7 @@
      },
      "hasObject": {
       "id": "object4",
-      "name": "Lydia's elopement"
+      "name": "Lydia_s_elopement"
      },
      "place": {
       "id": "place4",
@@ -87,7 +87,7 @@
      },
      "hasObject": {
       "id": "object5",
-      "name": "Lydia's elopement"
+      "name": "Lydia_s_elopement"
      },
      "place": {
       "id": "place5",
@@ -125,50 +125,60 @@
    "id": "event1",
    "name": "Mr_Darcy_asking_for_an_introduction",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    },
    "hasParticipant": {
-    "id": "Elizabeth Bennet"
+    "id": "Elizabeth_Bennet",
+    "name": "Elizabeth_Bennet"
    }
   },
   {
    "id": "event2",
    "name": "Receiving_bad_news_about_Lydia_s_elopement",
    "takePlaceAt": {
-    "id": "place2"
+    "id": "place2",
+    "name": "place2"
    },
    "hasParticipant": {
-    "id": "Elizabeth Bennet"
+    "id": "Elizabeth_Bennet",
+    "name": "Elizabeth_Bennet"
    }
   },
   {
    "id": "event3",
    "name": "Realizing_the_impact_of_Lydia_s_elopement",
    "takePlaceAt": {
-    "id": "place3"
+    "id": "place3",
+    "name": "place3"
    },
    "hasParticipant": {
-    "id": "Elizabeth Bennet"
+    "id": "Elizabeth_Bennet",
+    "name": "Elizabeth_Bennet"
    }
   },
   {
    "id": "event4",
    "name": "Elizabeth_revealing_Lydia_s_elopement",
    "takePlaceAt": {
-    "id": "place4"
+    "id": "place4",
+    "name": "place4"
    },
    "hasParticipant": {
-    "id": "Mr. Darcy"
+    "id": "Mr_Darcy",
+    "name": "Mr_Darcy"
    }
   },
   {
    "id": "event5",
    "name": "Learning_about_Lydia_s_elopement",
    "takePlaceAt": {
-    "id": "place5"
+    "id": "place5",
+    "name": "place5"
    },
    "hasParticipant": {
-    "id": "Mr. Darcy"
+    "id": "Mr_Darcy",
+    "name": "Mr_Darcy"
    }
   }
  ]

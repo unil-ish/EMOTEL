@@ -14,7 +14,7 @@
      },
      "hasObject": {
       "id": "object1",
-      "name": "Mr. Bhaer"
+      "name": "Mr_Bhaer"
      },
      "place": "America"
     },
@@ -42,7 +42,7 @@
      },
      "hasObject": {
       "id": "object3",
-      "name": "Mr. Dashwood"
+      "name": "Mr_Dashwood"
      },
      "place": "Office"
     },
@@ -118,7 +118,7 @@
      },
      "hasObject": {
       "id": "object8",
-      "name": "Mr. Bhaer"
+      "name": "Mr_Bhaer"
      },
      "place": "America"
     },
@@ -132,7 +132,7 @@
      },
      "hasObject": {
       "id": "object8",
-      "name": "Mr. Bhaer"
+      "name": "Mr_Bhaer"
      },
      "place": "America"
     }
@@ -166,56 +166,64 @@
    "id": "event1",
    "name": "Discovery_of_Mr_Bhaer_s_background",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   },
   {
    "id": "event2",
    "name": "Discovering_the_true_nature_of_the_celebrities",
    "takePlaceAt": {
-    "id": "place2"
+    "id": "place2",
+    "name": "place2"
    }
   },
   {
    "id": "event3",
    "name": "Rejection_of_Jo_s_stories",
    "takePlaceAt": {
-    "id": "place4"
+    "id": "place4",
+    "name": "place4"
    }
   },
   {
    "id": "event4",
    "name": "Finding_material_for_stories",
    "takePlaceAt": {
-    "id": "place3"
+    "id": "place3",
+    "name": "place3"
    }
   },
   {
    "id": "event5",
    "name": "Anticipating_the_success_of_her_writing",
    "takePlaceAt": {
-    "id": "place3"
+    "id": "place3",
+    "name": "place3"
    }
   },
   {
    "id": "event6",
    "name": "Studying_other_people_s_passions",
    "takePlaceAt": {
-    "id": "place3"
+    "id": "place3",
+    "name": "place3"
    }
   },
   {
    "id": "event7",
    "name": "Discovering_the_true_nature_of_the_celebrities",
    "takePlaceAt": {
-    "id": "place2"
+    "id": "place2",
+    "name": "place2"
    }
   },
   {
    "id": "event8",
    "name": "Observing_Mr_Bhaer_s_character",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   }
  ]

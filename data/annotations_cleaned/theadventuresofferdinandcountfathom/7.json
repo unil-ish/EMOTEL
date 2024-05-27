@@ -14,7 +14,7 @@
      },
      "hasObject": {
       "id": "object1",
-      "name": "Success and admiration"
+      "name": "Success_and_admiration"
      },
      "place": {
       "id": "place1",
@@ -31,7 +31,7 @@
      },
      "hasObject": {
       "id": "object2",
-      "name": "Bloody sword"
+      "name": "Bloody_sword"
      },
      "place": {
       "id": "place2",
@@ -48,7 +48,7 @@
      },
      "hasObject": {
       "id": "object3",
-      "name": "Chevalier's insolent behaviour"
+      "name": "Chevalier_s_insolent_behaviour"
      },
      "place": {
       "id": "place3",
@@ -65,7 +65,7 @@
      },
      "hasObject": {
       "id": "object4",
-      "name": "Stranger's demand"
+      "name": "Stranger_s_demand"
      },
      "place": {
       "id": "place4",

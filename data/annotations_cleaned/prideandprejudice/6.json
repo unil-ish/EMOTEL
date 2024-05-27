@@ -71,7 +71,7 @@
      },
      "hasObject": {
       "id": "object4",
-      "name": "Mr. Darcy"
+      "name": "Mr_Darcy"
      },
      "place": {
       "id": "place4",
@@ -88,7 +88,7 @@
      },
      "hasObject": {
       "id": "object5",
-      "name": "Mr. Darcy"
+      "name": "Mr_Darcy"
      },
      "place": {
       "id": "place5",
@@ -105,7 +105,7 @@
      },
      "hasObject": {
       "id": "object6",
-      "name": "Mr. Darcy's actions"
+      "name": "Mr_Darcy_s_actions"
      },
      "place": {
       "id": "place6",
@@ -152,42 +152,48 @@
    "id": "event1",
    "name": "Realization_of_feelings_for_Elizabeth",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   },
   {
    "id": "event2",
    "name": "Elizabeth_s_reaction_to_his_language",
    "takePlaceAt": {
-    "id": "place2"
+    "id": "place2",
+    "name": "place2"
    }
   },
   {
    "id": "event3",
    "name": "Realization_of_Elizabeth_s_feelings",
    "takePlaceAt": {
-    "id": "place3"
+    "id": "place3",
+    "name": "place3"
    }
   },
   {
    "id": "event4",
    "name": "Mr_Darcy_s_language",
    "takePlaceAt": {
-    "id": "place4"
+    "id": "place4",
+    "name": "place4"
    }
   },
   {
    "id": "event5",
    "name": "Realization_of_Mr_Darcy_s_actions",
    "takePlaceAt": {
-    "id": "place5"
+    "id": "place5",
+    "name": "place5"
    }
   },
   {
    "id": "event6",
    "name": "Mr_Darcy_s_proposal",
    "takePlaceAt": {
-    "id": "place6"
+    "id": "place6",
+    "name": "place6"
    }
   }
  ]

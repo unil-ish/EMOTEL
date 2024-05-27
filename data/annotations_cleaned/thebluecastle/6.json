@@ -14,7 +14,7 @@
      },
      "hasObject": {
       "id": "object1",
-      "name": "Dr. Redfern"
+      "name": "Dr_Redfern"
      },
      "exactPlace": {
       "id": "place1",
@@ -31,7 +31,7 @@
      },
      "hasObject": {
       "id": "object2",
-      "name": "Dr. Redfern"
+      "name": "Dr_Redfern"
      },
      "exactPlace": {
       "id": "place2",
@@ -98,28 +98,32 @@
    "id": "event1",
    "name": "Dr_Redfern_s_unexpected_visit",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   },
   {
    "id": "event2",
    "name": "Dr_Redfern_s_loneliness",
    "takePlaceAt": {
-    "id": "place2"
+    "id": "place2",
+    "name": "place2"
    }
   },
   {
    "id": "event3",
    "name": "Realizing_the_situation_with_the_necklace",
    "takePlaceAt": {
-    "id": "place3"
+    "id": "place3",
+    "name": "place3"
    }
   },
   {
    "id": "event4",
    "name": "Feeling_bludgeoned_by_events",
    "takePlaceAt": {
-    "id": "place4"
+    "id": "place4",
+    "name": "place4"
    }
   }
  ]

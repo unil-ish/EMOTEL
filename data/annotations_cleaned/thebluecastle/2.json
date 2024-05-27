@@ -14,7 +14,7 @@
      },
      "hasObject": {
       "id": "object1",
-      "name": "Cecilia Gay"
+      "name": "Cecilia_Gay"
      },
      "exactPlace": "On the steps of Roaring Abel's house"
     },
@@ -28,7 +28,7 @@
      },
      "hasObject": {
       "id": "object1",
-      "name": "Cecilia Gay"
+      "name": "Cecilia_Gay"
      },
      "exactPlace": "On the steps of Roaring Abel's house"
     },
@@ -42,7 +42,7 @@
      },
      "hasObject": {
       "id": "object2",
-      "name": "Cecilia Gay"
+      "name": "Cecilia_Gay"
      },
      "exactPlace": "On the steps of Roaring Abel's house"
     },
@@ -56,7 +56,7 @@
      },
      "hasObject": {
       "id": "object1",
-      "name": "Cecilia Gay"
+      "name": "Cecilia_Gay"
      },
      "exactPlace": "On the steps of Roaring Abel's house"
     }
@@ -75,14 +75,16 @@
    "id": "situation1",
    "name": "Cecilia_s_situation",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   },
   {
    "id": "situation2",
    "name": "Cecilia_s_need_for_care",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   }
  ],

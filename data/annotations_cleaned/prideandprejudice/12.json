@@ -14,7 +14,7 @@
      },
      "hasObject": {
       "id": "object1",
-      "name": "Lady Catherine de Bourgh"
+      "name": "Lady_Catherine_de_Bourgh"
      },
      "place": "Longbourn dining-room"
     },
@@ -28,7 +28,7 @@
      },
      "hasObject": {
       "id": "object2",
-      "name": "Lady Catherine de Bourgh"
+      "name": "Lady_Catherine_de_Bourgh"
      },
      "place": "Longbourn dining-room"
     },
@@ -42,7 +42,7 @@
      },
      "hasObject": {
       "id": "object3",
-      "name": "Lady Catherine de Bourgh"
+      "name": "Lady_Catherine_de_Bourgh"
      },
      "place": "Longbourn dining-room"
     },
@@ -56,7 +56,7 @@
      },
      "hasObject": {
       "id": "object4",
-      "name": "Lady Catherine de Bourgh"
+      "name": "Lady_Catherine_de_Bourgh"
      },
      "place": "Longbourn dining-room"
     },
@@ -70,7 +70,7 @@
      },
      "hasObject": {
       "id": "object5",
-      "name": "Lady Catherine de Bourgh"
+      "name": "Lady_Catherine_de_Bourgh"
      },
      "place": "Longbourn"
     }
@@ -90,7 +90,7 @@
      },
      "hasObject": {
       "id": "object6",
-      "name": "Elizabeth Bennet"
+      "name": "Elizabeth_Bennet"
      },
      "place": "Longbourn dining-room"
     },
@@ -104,7 +104,7 @@
      },
      "hasObject": {
       "id": "object7",
-      "name": "Elizabeth Bennet"
+      "name": "Elizabeth_Bennet"
      },
      "place": "Longbourn dining-room"
     }

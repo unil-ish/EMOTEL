@@ -28,7 +28,7 @@
      },
      "hasObject": {
       "id": "object2",
-      "name": "Sarcastic observations"
+      "name": "Sarcastic_observations"
      },
      "exactPlace": "Hotel"
     },
@@ -85,28 +85,32 @@
    "id": "event1",
    "name": "Baronet_seeking_advice",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   },
   {
    "id": "event2",
    "name": "Sarcastic_observations",
    "takePlaceAt": {
-    "id": "place2"
+    "id": "place2",
+    "name": "place2"
    }
   },
   {
    "id": "event3",
    "name": "Comparison_to_a_Westphalian_hog",
    "takePlaceAt": {
-    "id": "place2"
+    "id": "place2",
+    "name": "place2"
    }
   },
   {
    "id": "event4",
    "name": "Acknowledgments_from_Englishman",
    "takePlaceAt": {
-    "id": "place3"
+    "id": "place3",
+    "name": "place3"
    }
   }
  ]

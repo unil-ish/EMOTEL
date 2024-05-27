@@ -30,5 +30,6 @@ results = g.query(query)
 
 # Print the results
 for row in results:
-    print(f"Subject: {row.subject}, Label: {row.label}, Intensity: {row.intensity}, Character Name: {row.character_label}")
-
+    print(
+        f"Subject: {row.subject}, Label: {row.label}, Intensity: {row.intensity}, Character Name: {row.character_label}"
+    )

@@ -68,21 +68,24 @@
    "id": "realization1",
    "name": "Realization_of_his_changed_feelings",
    "takePlaceAt": {
-    "id": "Vienna"
+    "id": "Vienna",
+    "name": "Vienna"
    }
   },
   {
    "id": "realization2",
    "name": "Acceptance_of_his_changed_feelings",
    "takePlaceAt": {
-    "id": "Vienna"
+    "id": "Vienna",
+    "name": "Vienna"
    }
   },
   {
    "id": "realization3",
    "name": "Relief_from_the_intensity_of_his_feelings",
    "takePlaceAt": {
-    "id": "Vienna"
+    "id": "Vienna",
+    "name": "Vienna"
    }
   }
  ]

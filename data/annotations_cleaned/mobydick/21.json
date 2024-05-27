@@ -13,7 +13,7 @@
      },
      "hasObject": {
       "id": "Musket",
-      "name": "Muskets in the rack"
+      "name": "Muskets_in_the_rack"
      },
      "place": "Cabin"
     },
@@ -27,7 +27,7 @@
      },
      "hasObject": {
       "id": "Musket",
-      "name": "Muskets in the rack"
+      "name": "Muskets_in_the_rack"
      },
      "place": "Cabin"
     },
@@ -50,7 +50,7 @@
      "hasIntensity": 0.9,
      "quote": "I can’t withstand thee, then, old man. Not reasoning; not remonstrance; not entreaty wilt thou hearken to; all this thou scornest.",
      "causedBy": {
-      "id": "Ahab's behavior",
+      "id": "Ahab_s_behavior",
       "name": "Ahab_s_behavior"
      },
      "hasObject": {

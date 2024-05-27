@@ -13,7 +13,7 @@
      },
      "hasObject": {
       "id": "object1",
-      "name": "Lunch for the girls"
+      "name": "Lunch_for_the_girls"
      },
      "place": {
       "id": "place1",
@@ -30,7 +30,7 @@
      },
      "hasObject": {
       "id": "object2",
-      "name": "Preparation for the event"
+      "name": "Preparation_for_the_event"
      },
      "place": {
       "id": "place1",
@@ -47,7 +47,7 @@
      },
      "hasObject": {
       "id": "object3",
-      "name": "Lunch preparation"
+      "name": "Lunch_preparation"
      },
      "place": {
       "id": "place1",
@@ -70,7 +70,7 @@
      },
      "hasObject": {
       "id": "object4",
-      "name": "Girls' visit"
+      "name": "Girls_visit"
      },
      "place": {
       "id": "place1",
@@ -87,7 +87,7 @@
      },
      "hasObject": {
       "id": "object5",
-      "name": "Girls' visit"
+      "name": "Girls_visit"
      },
      "place": {
       "id": "place1",
@@ -98,7 +98,7 @@
    "name": "Jo"
   },
   {
-   "id": "Mrs. March",
+   "id": "Mrs_March",
    "feels": [
     {
      "name": "Resignation",
@@ -110,7 +110,7 @@
      },
      "hasObject": {
       "id": "object6",
-      "name": "Girls' visit"
+      "name": "Girls_visit"
      },
      "place": {
       "id": "place1",

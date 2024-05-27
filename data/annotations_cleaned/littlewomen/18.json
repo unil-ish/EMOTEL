@@ -14,7 +14,7 @@
      },
      "hasObject": {
       "id": "object1",
-      "name": "Father and mother, dear babies, and safe and happy loved ones"
+      "name": "Father_and_mother_dear_babies_and_safe_and_happy_loved_ones"
      },
      "place": "Home"
     },
@@ -28,7 +28,7 @@
      },
      "hasObject": {
       "id": "object2",
-      "name": "Laurie's visit"
+      "name": "Laurie_s_visit"
      },
      "place": "Home"
     },
@@ -42,7 +42,7 @@
      },
      "hasObject": {
       "id": "object3",
-      "name": "Reunion with Laurie"
+      "name": "Reunion_with_Laurie"
      },
      "place": "Home"
     },
@@ -56,7 +56,7 @@
      },
      "hasObject": {
       "id": "object4",
-      "name": "Laurie's presence"
+      "name": "Laurie_s_presence"
      },
      "place": "Home"
     },
@@ -70,7 +70,7 @@
      },
      "hasObject": {
       "id": "object5",
-      "name": "Laurie's presence"
+      "name": "Laurie_s_presence"
      },
      "place": "Home"
     }
@@ -89,35 +89,40 @@
    "id": "event1",
    "name": "Having_family_support_and_knowing_loved_ones_are_safe",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   },
   {
    "id": "event2",
    "name": "Laurie_s_unexpected_visit",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   },
   {
    "id": "event3",
    "name": "Reunion_with_Laurie",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   },
   {
    "id": "event4",
    "name": "Feeling_comforted_by_Laurie_s_presence",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   },
   {
    "id": "event5",
    "name": "Feeling_comforted_by_Laurie_s_presence",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   }
  ]

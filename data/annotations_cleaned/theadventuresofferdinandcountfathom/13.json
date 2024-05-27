@@ -14,7 +14,7 @@
      },
      "hasObject": {
       "id": "object1",
-      "name": "Young gentleman destined for her husband"
+      "name": "Young_gentleman_destined_for_her_husband"
      },
      "place": "During the term of her residence in London"
     },
@@ -28,7 +28,7 @@
      },
      "hasObject": {
       "id": "object2",
-      "name": "Doctor Fathom"
+      "name": "Doctor_Fathom"
      },
      "place": "At the inn"
     },
@@ -42,7 +42,7 @@
      },
      "hasObject": {
       "id": "object3",
-      "name": "Doctor Fathom"
+      "name": "Doctor_Fathom"
      },
      "place": "At the quack's place"
     },
@@ -70,7 +70,7 @@
      },
      "hasObject": {
       "id": "object5",
-      "name": "Doctor Fathom"
+      "name": "Doctor_Fathom"
      },
      "place": "At work"
     }
@@ -109,35 +109,40 @@
    "id": "event1",
    "name": "Doctor_Fathom_s_personal_accomplishments",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   },
   {
    "id": "event2",
    "name": "Doctor_Fathom_s_niece_changing_her_mind",
    "takePlaceAt": {
-    "id": "place2"
+    "id": "place2",
+    "name": "place2"
    }
   },
   {
    "id": "event3",
    "name": "Quack_s_condition_for_advancing_money",
    "takePlaceAt": {
-    "id": "place3"
+    "id": "place3",
+    "name": "place3"
    }
   },
   {
    "id": "event4",
    "name": "Wife_s_recovery",
    "takePlaceAt": {
-    "id": "place4"
+    "id": "place4",
+    "name": "place4"
    }
   },
   {
    "id": "event5",
    "name": "Opportunity_for_nuptials",
    "takePlaceAt": {
-    "id": "place5"
+    "id": "place5",
+    "name": "place5"
    }
   }
  ]

@@ -1,7 +1,7 @@
 {
  "FictionalCharacters": [
   {
-   "id": "Dorothea Brooke",
+   "id": "Dorothea_Brooke",
    "feels": [
     {
      "name": "Trust",
@@ -13,7 +13,7 @@
      },
      "hasObject": {
       "id": "object1",
-      "name": "Her soul"
+      "name": "Her_soul"
      },
      "exactPlace": "In her own home"
     },
@@ -27,7 +27,7 @@
      },
      "hasObject": {
       "id": "object2",
-      "name": "Lydgate's lack of knowledge"
+      "name": "Lydgate_s_lack_of_knowledge"
      },
      "exactPlace": "In Lydgate's drawing-room"
     },
@@ -41,7 +41,7 @@
      },
      "hasObject": {
       "id": "object3",
-      "name": "The servant's announcement"
+      "name": "The_servant_s_announcement"
      },
      "exactPlace": "In Lydgate's drawing-room"
     }
@@ -61,7 +61,7 @@
      },
      "hasObject": {
       "id": "object4",
-      "name": "Dorothea's change in mourning attire"
+      "name": "Dorothea_s_change_in_mourning_attire"
      },
      "exactPlace": "In Dorothea's room"
     }
@@ -81,7 +81,7 @@
      },
      "hasObject": {
       "id": "object5",
-      "name": "The act of writing a letter"
+      "name": "The_act_of_writing_a_letter"
      },
      "exactPlace": "In the drawing-room"
     }
@@ -111,35 +111,40 @@
    "id": "event1",
    "name": "Feeling_liberated_from_her_terrible_conflict",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   },
   {
    "id": "event2",
    "name": "Lydgate_s_lack_of_knowledge_about_her_previous_visit",
    "takePlaceAt": {
-    "id": "place2"
+    "id": "place2",
+    "name": "place2"
    }
   },
   {
    "id": "event3",
    "name": "Uncertainty_about_the_outcome_of_the_servant_s_announcement",
    "takePlaceAt": {
-    "id": "place2"
+    "id": "place2",
+    "name": "place2"
    }
   },
   {
    "id": "event4",
    "name": "Dorothea_s_change_in_mourning_attire",
    "takePlaceAt": {
-    "id": "place3"
+    "id": "place3",
+    "name": "place3"
    }
   },
   {
    "id": "event5",
    "name": "Feeling_grateful_for_something_too_good_for_common_thanks",
    "takePlaceAt": {
-    "id": "place2"
+    "id": "place2",
+    "name": "place2"
    }
   }
  ]

@@ -14,7 +14,7 @@
      },
      "hasObject": {
       "id": "object1",
-      "name": "Lady Catherine de Bourgh"
+      "name": "Lady_Catherine_de_Bourgh"
      },
      "place": {
       "id": "place1",
@@ -31,7 +31,7 @@
      },
      "hasObject": {
       "id": "object2",
-      "name": "Lady Catherine de Bourgh"
+      "name": "Lady_Catherine_de_Bourgh"
      },
      "place": {
       "id": "place1",
@@ -48,7 +48,7 @@
      },
      "hasObject": {
       "id": "object3",
-      "name": "Lady Catherine de Bourgh"
+      "name": "Lady_Catherine_de_Bourgh"
      },
      "place": {
       "id": "place1",
@@ -70,21 +70,24 @@
    "id": "event1",
    "name": "Meeting_Lady_Catherine_de_Bourgh",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   },
   {
    "id": "event2",
    "name": "Lady_Catherine_s_questions",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   },
   {
    "id": "event3",
    "name": "Lady_Catherine_s_questions",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   }
  ]

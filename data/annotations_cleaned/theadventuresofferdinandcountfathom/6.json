@@ -53,7 +53,8 @@
    "id": "accusation1",
    "name": "Being_mistaken_for_the_Young_Pretender",
    "takePlaceAt": {
-    "id": "inn1"
+    "id": "inn1",
+    "name": "inn1"
    }
   }
  ]
