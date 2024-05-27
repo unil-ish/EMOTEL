@@ -8,7 +8,7 @@ dirname = "data/annotations_cleaned"
 ext = ".json"
 
 # Namespace
-EMOTEL = Namespace("https://github.com/unil-ish/EMOTEL")
+EMOTEL = Namespace("https://github.com/unil-ish/EMOTEL#")
 
 
 # Initialize the graph
@@ -21,10 +21,8 @@ g.bind("emotel", EMOTEL)
 # Function to create URIs
 def create_uri(base_uri, element_id):
     if "texts/" in element_id:
-        sep = "/"
-    else:
-        sep = "#"
-    return URIRef(f"{base_uri}{sep}{element_id}")
+        base_uri = base_uri.replace('#', '') + '/'
+    return URIRef(f"{base_uri}{element_id}")
 
 
 # Function to add FictionalCharacter
