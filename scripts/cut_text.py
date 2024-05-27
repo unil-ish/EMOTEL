@@ -180,6 +180,8 @@ if __name__ == "__main__":
     prompt_file = "../prompts/2024-05-27.txt"  # test
 
     for filename in os.listdir(TEXTS_DIR):
-        if filename.replace(".txt", "") not in os.listdir(CHUNKS_DIR):
+        if filename.replace(".txt", "") not in os.listdir(
+            CHUNKS_DIR
+        ) and not filename.startswith("LICENSE"):
             fp = os.path.join(TEXTS_DIR, filename)
             cut(fp=fp, prompt_file=prompt_file, n=2000)
