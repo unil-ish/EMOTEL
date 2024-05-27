@@ -1,0 +1,150 @@
+{
+ "FictionalCharacters": [
+  {
+   "name": "Narrator",
+   "feels": [
+    {
+     "name": "Surprise",
+     "hasIntensity": 0.6,
+     "quote": "Affected by the solemnity of the scene, there was a wondering gaze of incredulous curiosity in his countenance.",
+     "hasObject": {
+      "name": "Solemnity_of_the_scene",
+      "id": "texts/mobydick.txt#Solemnity_of_the_scene"
+     },
+     "causedBy": {
+      "name": "Entering_the_Whaleman_s_Chapel",
+      "id": "texts/mobydick.txt#Entering_the_Whaleman_s_Chapel"
+     },
+     "id": "Surprise"
+    },
+    {
+     "name": "Awe",
+     "hasIntensity": 0.8,
+     "quote": "Oh! ye whose dead lie buried beneath the green grass; who standing among flowers can say—here, here lies my beloved; ye know not the desolation that broods in bosoms like these.",
+     "hasObject": {
+      "name": "Grief_of_the_congregation",
+      "id": "texts/mobydick.txt#Grief_of_the_congregation"
+     },
+     "causedBy": {
+      "name": "Observing_the_grief_of_the_congregation",
+      "id": "texts/mobydick.txt#Observing_the_grief_of_the_congregation"
+     },
+     "id": "Awe"
+    },
+    {
+     "name": "Sadness",
+     "hasIntensity": 0.7,
+     "quote": "What bitter blanks in those black-bordered marbles which cover no ashes! What despair in those immovable inscriptions!",
+     "hasObject": {
+      "name": "Inscriptions_on_the_wall",
+      "id": "texts/mobydick.txt#Inscriptions_on_the_wall"
+     },
+     "causedBy": {
+      "name": "Reading_the_inscriptions_on_the_wall",
+      "id": "texts/mobydick.txt#Reading_the_inscriptions_on_the_wall"
+     },
+     "id": "Sadness"
+    },
+    {
+     "name": "Contemplation",
+     "hasIntensity": 0.6,
+     "quote": "But Faith, like a jackal, feeds among the tombs, and even from these dead doubts she gathers her most vital hope.",
+     "hasObject": {
+      "name": "Meaning_of_death_and_faith",
+      "id": "texts/mobydick.txt#Meaning_of_death_and_faith"
+     },
+     "causedBy": {
+      "name": "Reflecting_on_the_meaning_of_death_and_faith",
+      "id": "texts/mobydick.txt#Reflecting_on_the_meaning_of_death_and_faith"
+     },
+     "id": "Contemplation"
+    }
+   ],
+   "id": "texts/mobydick.txt#Narrator"
+  },
+  {
+   "name": "Queequeg",
+   "feels": [
+    {
+     "name": "Curiosity",
+     "hasIntensity": 0.7,
+     "quote": "This savage was the only person present who seemed to notice my entrance; because he was the only one who could not read, and, therefore, was not reading those frigid inscriptions on the wall.",
+     "hasObject": {
+      "name": "Entrance_of_the_Narrator",
+      "id": "texts/mobydick.txt#Entrance_of_the_Narrator"
+     },
+     "causedBy": {
+      "name": "Observing_the_solemnity_of_the_scene",
+      "id": "texts/mobydick.txt#Observing_the_solemnity_of_the_scene"
+     },
+     "id": "Curiosity"
+    }
+   ],
+   "id": "texts/mobydick.txt#Queequeg"
+  }
+ ],
+ "Events": [
+  {
+   "name": "Entering_the_Whaleman_s_Chapel",
+   "takePlaceAt": {
+    "name": "Entering_the_Whaleman_s_Chapel",
+    "id": "texts/mobydick.txt#Entering_the_Whaleman_s_Chapel"
+   },
+   "id": "texts/mobydick.txt#Entering_the_Whaleman_s_Chapel"
+  },
+  {
+   "name": "Observing_the_grief_of_the_congregation",
+   "takePlaceAt": {
+    "name": "Observing_the_grief_of_the_congregation",
+    "id": "texts/mobydick.txt#Observing_the_grief_of_the_congregation"
+   },
+   "id": "texts/mobydick.txt#Observing_the_grief_of_the_congregation"
+  },
+  {
+   "name": "Reading_the_inscriptions_on_the_wall",
+   "takePlaceAt": {
+    "name": "Reading_the_inscriptions_on_the_wall",
+    "id": "texts/mobydick.txt#Reading_the_inscriptions_on_the_wall"
+   },
+   "id": "texts/mobydick.txt#Reading_the_inscriptions_on_the_wall"
+  },
+  {
+   "name": "Reflecting_on_the_meaning_of_death_and_faith",
+   "takePlaceAt": {
+    "name": "Reflecting_on_the_meaning_of_death_and_faith",
+    "id": "texts/mobydick.txt#Reflecting_on_the_meaning_of_death_and_faith"
+   },
+   "id": "texts/mobydick.txt#Reflecting_on_the_meaning_of_death_and_faith"
+  },
+  {
+   "name": "Observing_the_solemnity_of_the_scene",
+   "takePlaceAt": {
+    "name": "Observing_the_solemnity_of_the_scene",
+    "id": "texts/mobydick.txt#Observing_the_solemnity_of_the_scene"
+   },
+   "id": "texts/mobydick.txt#Observing_the_solemnity_of_the_scene"
+  }
+ ],
+ "Places": [
+  {
+   "name": "Whaleman_s_Chapel",
+   "id": "texts/mobydick.txt#Whaleman_s_Chapel"
+  },
+  {
+   "name": "Whaleman_s_Chapel",
+   "id": "texts/mobydick.txt#Whaleman_s_Chapel"
+  },
+  {
+   "name": "Whaleman_s_Chapel",
+   "id": "texts/mobydick.txt#Whaleman_s_Chapel"
+  },
+  {
+   "name": "Whaleman_s_Chapel",
+   "id": "texts/mobydick.txt#Whaleman_s_Chapel"
+  },
+  {
+   "name": "Whaleman_s_Chapel",
+   "id": "texts/mobydick.txt#Whaleman_s_Chapel"
+  }
+ ]
+}

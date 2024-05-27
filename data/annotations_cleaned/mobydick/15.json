@@ -1,0 +1,72 @@
+{
+ "FictionalCharacters": [
+  {
+   "name": "Queequeg",
+   "feels": [
+    {
+     "name": "Presentiment",
+     "hasIntensity": 0.6,
+     "quote": "He seemed to be working in obedience to some particular presentiment.",
+     "hasObject": {
+      "name": "His_boat",
+      "id": "texts/mobydick.txt#His_boat"
+     },
+     "causedBy": {
+      "name": "Anointing_his_boat",
+      "id": "texts/mobydick.txt#Anointing_his_boat"
+     },
+     "id": "Presentiment"
+    }
+   ],
+   "id": "texts/mobydick.txt#Queequeg"
+  },
+  {
+   "name": "Stubb",
+   "feels": [
+    {
+     "name": "Excitement",
+     "hasIntensity": 0.9,
+     "quote": "That drove the spigot out of him! 'Tis July's immortal Fourth; all fountains must run wine today!",
+     "hasObject": {
+      "name": "The_whale",
+      "id": "texts/mobydick.txt#The_whale"
+     },
+     "causedBy": {
+      "name": "Successfully_pitchpoling_the_whale",
+      "id": "texts/mobydick.txt#Successfully_pitchpoling_the_whale"
+     },
+     "id": "Excitement"
+    }
+   ],
+   "id": "texts/mobydick.txt#Stubb"
+  }
+ ],
+ "Events": [
+  {
+   "name": "Anointing_his_boat",
+   "takePlaceAt": {
+    "name": "Anointing_his_boat",
+    "id": "texts/mobydick.txt#Anointing_his_boat"
+   },
+   "id": "texts/mobydick.txt#Anointing_his_boat"
+  },
+  {
+   "name": "Successfully_pitchpoling_the_whale",
+   "takePlaceAt": {
+    "name": "Successfully_pitchpoling_the_whale",
+    "id": "texts/mobydick.txt#Successfully_pitchpoling_the_whale"
+   },
+   "id": "texts/mobydick.txt#Successfully_pitchpoling_the_whale"
+  }
+ ],
+ "Places": [
+  {
+   "name": "On_the_boat",
+   "id": "texts/mobydick.txt#On_the_boat"
+  },
+  {
+   "name": "On_the_boat",
+   "id": "texts/mobydick.txt#On_the_boat"
+  }
+ ]
+}

@@ -1,0 +1,242 @@
+{
+ "FictionalCharacters": [
+  {
+   "name": "Ahab",
+   "feels": [
+    {
+     "name": "Fear",
+     "hasIntensity": 0.7,
+     "quote": "“Think, think of the fevers, yellow and bilious! Beware of the horrible plague!”",
+     "hasObject": {
+      "name": "Plague",
+      "id": "texts/mobydick.txt#Plague"
+     },
+     "causedBy": {
+      "name": "Gabriel_s_warning",
+      "id": "texts/mobydick.txt#Gabriel_s_warning"
+     },
+     "id": "Fear"
+    },
+    {
+     "name": "Anger",
+     "hasIntensity": 0.8,
+     "quote": "“Curses throttle thee!” yelled Ahab.",
+     "hasObject": {
+      "name": "Gabriel",
+      "id": "texts/mobydick.txt#Gabriel"
+     },
+     "causedBy": {
+      "name": "Gabriel_s_interference",
+      "id": "texts/mobydick.txt#Gabriel_s_interference"
+     },
+     "id": "Anger"
+    },
+    {
+     "name": "Acceptance",
+     "hasIntensity": 0.6,
+     "quote": "“Nay, keep it thyself,” cried Gabriel to Ahab; “thou art soon going that way.”",
+     "hasObject": {
+      "name": "Letter",
+      "id": "texts/mobydick.txt#Letter"
+     },
+     "causedBy": {
+      "name": "Gabriel_s_prediction",
+      "id": "texts/mobydick.txt#Gabriel_s_prediction"
+     },
+     "id": "Acceptance"
+    }
+   ],
+   "id": "texts/mobydick.txt#Ahab"
+  },
+  {
+   "name": "Queequeg",
+   "feels": [
+    {
+     "name": "Fear",
+     "hasIntensity": 0.7,
+     "quote": "A thing altogether incredible were it not that attracted by such prey as a dead whale, the otherwise miscellaneously carnivorous shark will seldom touch a man.",
+     "hasObject": {
+      "name": "Sharks",
+      "id": "texts/mobydick.txt#Sharks"
+     },
+     "causedBy": {
+      "name": "Being_among_sharks",
+      "id": "texts/mobydick.txt#Being_among_sharks"
+     },
+     "id": "Fear"
+    }
+   ],
+   "id": "texts/mobydick.txt#Queequeg"
+  },
+  {
+   "name": "Narrator",
+   "feels": [
+    {
+     "name": "Fear",
+     "hasIntensity": 0.6,
+     "quote": "So strongly and metaphysically did I conceive of my situation then, that while earnestly watching his motions, I seemed distinctly to perceive that my own individuality was now merged in a joint stock company of two...",
+     "hasObject": {
+      "name": "Situation",
+      "id": "texts/mobydick.txt#Situation"
+     },
+     "causedBy": {
+      "name": "Holding_Queequeg_with_the_monkeyrope",
+      "id": "texts/mobydick.txt#Holding_Queequeg_with_the_monkeyrope"
+     },
+     "id": "Fear"
+    },
+    {
+     "name": "Acceptance",
+     "hasIntensity": 0.7,
+     "quote": "Therefore, I saw that here was a sort of interregnum in Providence; for its even-handed equity never could have so gross an injustice.",
+     "hasObject": {
+      "name": "Interregnum",
+      "id": "texts/mobydick.txt#Interregnum"
+     },
+     "causedBy": {
+      "name": "Realization_of_interconnectedness",
+      "id": "texts/mobydick.txt#Realization_of_interconnectedness"
+     },
+     "id": "Acceptance"
+    }
+   ],
+   "id": "texts/mobydick.txt#Narrator"
+  }
+ ],
+ "Events": [
+  {
+   "name": "Gabriel_s_warning",
+   "takePlaceAt": {
+    "name": "Gabriel_s_warning",
+    "id": "texts/mobydick.txt#Gabriel_s_warning"
+   },
+   "hasParticipant": [
+    {
+     "name": "Gabriel",
+     "id": "texts/mobydick.txt#Gabriel"
+    },
+    {
+     "name": "Captain_Mayhew",
+     "id": "texts/mobydick.txt#Captain_Mayhew"
+    }
+   ],
+   "id": "texts/mobydick.txt#Gabriel_s_warning"
+  },
+  {
+   "name": "Gabriel_s_interference",
+   "takePlaceAt": {
+    "name": "Gabriel_s_interference",
+    "id": "texts/mobydick.txt#Gabriel_s_interference"
+   },
+   "hasParticipant": [
+    {
+     "name": "Gabriel",
+     "id": "texts/mobydick.txt#Gabriel"
+    },
+    {
+     "name": "Ahab",
+     "id": "texts/mobydick.txt#Ahab"
+    }
+   ],
+   "id": "texts/mobydick.txt#Gabriel_s_interference"
+  },
+  {
+   "name": "Gabriel_s_prediction",
+   "takePlaceAt": {
+    "name": "Gabriel_s_prediction",
+    "id": "texts/mobydick.txt#Gabriel_s_prediction"
+   },
+   "hasParticipant": [
+    {
+     "name": "Gabriel",
+     "id": "texts/mobydick.txt#Gabriel"
+    },
+    {
+     "name": "Ahab",
+     "id": "texts/mobydick.txt#Ahab"
+    }
+   ],
+   "id": "texts/mobydick.txt#Gabriel_s_prediction"
+  },
+  {
+   "name": "Being_among_sharks",
+   "takePlaceAt": {
+    "name": "Being_among_sharks",
+    "id": "texts/mobydick.txt#Being_among_sharks"
+   },
+   "hasParticipant": [
+    {
+     "name": "Queequeg",
+     "id": "texts/mobydick.txt#Queequeg"
+    },
+    {
+     "name": "Sharks",
+     "id": "texts/mobydick.txt#Sharks"
+    }
+   ],
+   "id": "texts/mobydick.txt#Being_among_sharks"
+  },
+  {
+   "name": "Holding_Queequeg_with_the_monkeyrope",
+   "takePlaceAt": {
+    "name": "Holding_Queequeg_with_the_monkeyrope",
+    "id": "texts/mobydick.txt#Holding_Queequeg_with_the_monkeyrope"
+   },
+   "hasParticipant": [
+    {
+     "name": "Narrator",
+     "id": "texts/mobydick.txt#Narrator"
+    },
+    {
+     "name": "Queequeg",
+     "id": "texts/mobydick.txt#Queequeg"
+    }
+   ],
+   "id": "texts/mobydick.txt#Holding_Queequeg_with_the_monkeyrope"
+  },
+  {
+   "name": "Realization_of_interconnectedness",
+   "takePlaceAt": {
+    "name": "Realization_of_interconnectedness",
+    "id": "texts/mobydick.txt#Realization_of_interconnectedness"
+   },
+   "hasParticipant": [
+    {
+     "name": "Narrator",
+     "id": "texts/mobydick.txt#Narrator"
+    },
+    {
+     "name": "Queequeg",
+     "id": "texts/mobydick.txt#Queequeg"
+    }
+   ],
+   "id": "texts/mobydick.txt#Realization_of_interconnectedness"
+  }
+ ],
+ "Places": [
+  {
+   "name": "Jeroboam_s_encounter_with_Moby_Dick",
+   "id": "texts/mobydick.txt#Jeroboam_s_encounter_with_Moby_Dick"
+  },
+  {
+   "name": "Jeroboam_s_encounter_with_Moby_Dick",
+   "id": "texts/mobydick.txt#Jeroboam_s_encounter_with_Moby_Dick"
+  },
+  {
+   "name": "Jeroboam_s_encounter_with_Moby_Dick",
+   "id": "texts/mobydick.txt#Jeroboam_s_encounter_with_Moby_Dick"
+  },
+  {
+   "name": "Between_the_whale_and_the_ship",
+   "id": "texts/mobydick.txt#Between_the_whale_and_the_ship"
+  },
+  {
+   "name": "Between_the_whale_and_the_ship",
+   "id": "texts/mobydick.txt#Between_the_whale_and_the_ship"
+  },
+  {
+   "name": "Between_the_whale_and_the_ship",
+   "id": "texts/mobydick.txt#Between_the_whale_and_the_ship"
+  }
+ ]
+}

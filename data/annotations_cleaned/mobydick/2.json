@@ -1,0 +1,164 @@
+{
+ "FictionalCharacters": [
+  {
+   "name": "Father_Mapple",
+   "feels": [
+    {
+     "name": "Joy",
+     "hasIntensity": 0.7,
+     "quote": "He paused a little; then kneeling in the pulpit’s bows, folded his large brown hands across his chest, uplifted his closed eyes, and offered a prayer so deeply devout that he seemed kneeling and praying at the bottom of the sea.",
+     "hasObject": {
+      "name": "Prayer",
+      "id": "texts/mobydick.txt#Prayer"
+     },
+     "causedBy": {
+      "name": "Offering_a_prayer",
+      "id": "texts/mobydick.txt#Offering_a_prayer"
+     },
+     "id": "Joy"
+    },
+    {
+     "name": "Fear",
+     "hasIntensity": 0.8,
+     "quote": "Seeing himself placed next the Priest, and noting the ceremony, and thinking himself—being Captain of a ship—as having plain precedence over a mere island King, especially in the King’s own house—the Captain coolly proceeds to wash his hands in the punchbowl;—taking it I suppose for a huge finger-glass.",
+     "hasObject": {
+      "name": "Washing_hands_in_the_punchbowl",
+      "id": "texts/mobydick.txt#Washing_hands_in_the_punchbowl"
+     },
+     "causedBy": {
+      "name": "Being_placed_next_to_the_Priest",
+      "id": "texts/mobydick.txt#Being_placed_next_to_the_Priest"
+     },
+     "id": "Fear"
+    },
+    {
+     "name": "Anger",
+     "hasIntensity": 0.9,
+     "quote": "“What him say?” said Queequeg, “Didn’t our people laugh?”",
+     "hasObject": {
+      "name": "Being_laughed_at",
+      "id": "texts/mobydick.txt#Being_laughed_at"
+     },
+     "causedBy": {
+      "name": "Being_laughed_at",
+      "id": "texts/mobydick.txt#Being_laughed_at"
+     },
+     "id": "Anger"
+    },
+    {
+     "name": "Joy",
+     "hasIntensity": 0.8,
+     "quote": "“Kill-e,” cried Queequeg, twisting his tattooed face into an unearthly expression of disdain, “ah! him bevy small-e fish-e; Queequeg no kill-e so small-e fish-e; Queequeg kill-e big whale!”",
+     "hasObject": {
+      "name": "Defending_himself",
+      "id": "texts/mobydick.txt#Defending_himself"
+     },
+     "causedBy": {
+      "name": "Defending_himself",
+      "id": "texts/mobydick.txt#Defending_himself"
+     },
+     "id": "Joy"
+    },
+    {
+     "name": "Anger",
+     "hasIntensity": 0.9,
+     "quote": "“Look you,” roared the Captain, “I’ll kill-e _you_, you cannibal, if you try any more of your tricks aboard here; so mind your eye.”",
+     "hasObject": {
+      "name": "Being_threatened",
+      "id": "texts/mobydick.txt#Being_threatened"
+     },
+     "causedBy": {
+      "name": "Being_threatened",
+      "id": "texts/mobydick.txt#Being_threatened"
+     },
+     "id": "Anger"
+    }
+   ],
+   "id": "texts/mobydick.txt#Father_Mapple"
+  }
+ ],
+ "Events": [
+  {
+   "name": "Offering_a_prayer",
+   "takePlaceAt": {
+    "name": "Offering_a_prayer",
+    "id": "texts/mobydick.txt#Offering_a_prayer"
+   },
+   "hasParticipant": {
+    "name": "Father_Mapple",
+    "id": "texts/mobydick.txt#Father_Mapple"
+   },
+   "id": "texts/mobydick.txt#Offering_a_prayer"
+  },
+  {
+   "name": "Being_placed_next_to_the_Priest",
+   "takePlaceAt": {
+    "name": "Being_placed_next_to_the_Priest",
+    "id": "texts/mobydick.txt#Being_placed_next_to_the_Priest"
+   },
+   "hasParticipant": {
+    "name": "Captain",
+    "id": "texts/mobydick.txt#Captain"
+   },
+   "id": "texts/mobydick.txt#Being_placed_next_to_the_Priest"
+  },
+  {
+   "name": "Being_laughed_at",
+   "takePlaceAt": {
+    "name": "Being_laughed_at",
+    "id": "texts/mobydick.txt#Being_laughed_at"
+   },
+   "hasParticipant": {
+    "name": "Queequeg",
+    "id": "texts/mobydick.txt#Queequeg"
+   },
+   "id": "texts/mobydick.txt#Being_laughed_at"
+  },
+  {
+   "name": "Defending_himself",
+   "takePlaceAt": {
+    "name": "Defending_himself",
+    "id": "texts/mobydick.txt#Defending_himself"
+   },
+   "hasParticipant": {
+    "name": "Queequeg",
+    "id": "texts/mobydick.txt#Queequeg"
+   },
+   "id": "texts/mobydick.txt#Defending_himself"
+  },
+  {
+   "name": "Being_threatened",
+   "takePlaceAt": {
+    "name": "Being_threatened",
+    "id": "texts/mobydick.txt#Being_threatened"
+   },
+   "hasParticipant": {
+    "name": "Queequeg",
+    "id": "texts/mobydick.txt#Queequeg"
+   },
+   "id": "texts/mobydick.txt#Being_threatened"
+  }
+ ],
+ "Places": [
+  {
+   "name": "Chapel",
+   "id": "texts/mobydick.txt#Chapel"
+  },
+  {
+   "name": "Wedding_feast",
+   "id": "texts/mobydick.txt#Wedding_feast"
+  },
+  {
+   "name": "Wedding_feast",
+   "id": "texts/mobydick.txt#Wedding_feast"
+  },
+  {
+   "name": "Schooner",
+   "id": "texts/mobydick.txt#Schooner"
+  },
+  {
+   "name": "Schooner",
+   "id": "texts/mobydick.txt#Schooner"
+  }
+ ]
+}
