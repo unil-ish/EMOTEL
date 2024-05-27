@@ -20,7 +20,7 @@ g.bind("emotel", EMOTEL)
 
 # Function to create URIs
 def create_uri(base_uri, element_id):
-    if 'texts/' in element_id:
+    if "texts/" in element_id:
         sep = "/"
     else:
         sep = "#"
