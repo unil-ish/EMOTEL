@@ -5,7 +5,18 @@ import re
 
 
 def dict_iter_rec(obj, fn_condition, fn_apply) -> None:
-    """recherche récursivement les 'dict' satisfaisant une certaine condition et leur applique une fonction qui modifie ces dicts."""
+    """recherche récursivement les 'dict' satisfaisant une certaine condition et leur applique une fonction qui modifie ces dicts.
+
+    Args:
+        obj (dict): n'importe quel objet dans lequel chercher récursivement des dictionnaires satisfaisant à une condition.
+
+        fn_condition (Callable): une fonction qui permet d'identifier les objets sur lesquels appliquer la fonction `fn_apply`.
+
+        fn_apply (Callable): la fonction à appliquer sur les objets satisfaisant à la condition `fn_condition`.
+
+    Returs:
+        None: (les objets sont modifiés 'in place'.)
+    """
 
     if isinstance(obj, dict) and fn_condition(obj):
         fn_apply(obj)
@@ -33,20 +44,14 @@ def url_conformize(s) -> str:
 
 
 def normalize_obj_name(obj) -> None:
-    """Normalise les attributs 'name' et 'id' d'un objet (dict).
+    """Normalise l'attributs 'name' d'un objet (dict).
 
     Args:
         obj (dict): L'objet à nettoyer.
     """
 
-    if "id" in obj:
-        obj["id"] = url_conformize(obj["id"])
-
     if "name" in obj:
         name = obj["name"]
-    elif "id" in obj:
-        # si 'name' est manquant, c'est en fait toujours l'id qui contient le nom. il suffit donc de le réassigner.
-        name = obj["id"]
     else:
         name = "undefined"
     # la fonction qui enlève notamment les espaces.
@@ -136,36 +141,24 @@ def clean_annotation_names(annotations) -> None:
     return
 
 
-def add_missing_names(annote):
-    ids = {}
-    # d'abord, récupérer les ids de ce qui se trouve dans le fichiers d'annotations, à savoir: les ids des Places et FictionalCharacters, afin de pouvoir mettre les 'name' correspondant dans les sous-sous-clés de Events.
-    for key in ("FictionalCharacters", "Places"):
-        if key in annote:
-            obj = annote[key]
-            for i in obj:
-                if "name" in i.keys():
-                    name = i["name"]
-                    if "id" in i.keys():
-                        _id = i["id"]
-                        ids[_id] = name
-                    else:
-                        ids[name] = name
-                else:
-                    pass
+def rename_causedBy(annotations):
+    """remplace la propriété 'causedByEvent' par 'causedBy'.
 
-    # deuxième étape: mettre ces noms là où ils manquent
-    def missing_name(d):
-        return "name" not in d.keys() and "id" in d.keys()
+    l'usage de 'causedByEvent' comme nom de propriété dans le prompt est simplement destiné à faire comprendre à ChatGPT que la nature de la cause est un évenement. cette fonction remplace ce nom par le nom de la propriété correspondante dans notre ontologie.
+    """
 
-    def add_name(d):
-        d["name"] = ids[d["id"]]
+    def has_causedbyevent(d):
+        return 'causedByEvent' in d.keys()
+
+    def rename_causedbyevent(d):
+        d['causedBy'] = d['causedByEvent']
+        d.pop('causedByEvent')
 
     dict_iter_rec(
-        obj=annote,
-        fn_condition=missing_name,
-        fn_apply=add_name,
+        obj=annotations,
+        fn_condition=has_causedbyevent,
+        fn_apply=rename_causedbyevent,
     )
-    return
 
 
 if __name__ == "__main__":
@@ -183,10 +176,8 @@ if __name__ == "__main__":
                 except json.decoder.JSONDecodeError:
                     continue
 
-            # première fonction: clean les noms
+            rename_causedBy(annote)
             clean_annotation_names(annote)
-            # seconde fonction: ajouter les noms là où ils manquent, en utilisant les ids.
-            add_missing_names(annote)
 
             d2 = os.path.join(dir_target, dirname)
             if not os.path.isdir(d2):
