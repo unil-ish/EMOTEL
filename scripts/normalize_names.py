@@ -4,6 +4,19 @@ import unicodedata
 import re
 
 
+def dict_iter_rec(obj, fn_condition, fn_apply) -> None:
+    """recherche récursivement les 'dict' satisfaisant une certaine condition et leur applique une fonction qui modifie ces dicts."""
+
+    if isinstance(obj, dict) and fn_condition(obj):
+        fn_apply(obj)
+    if isinstance(obj, dict):
+        for i in obj.values():
+            dict_iter_rec(i, fn_condition, fn_apply)
+    elif isinstance(obj, (list, set, tuple)):
+        for i in obj:
+            dict_iter_rec(i, fn_condition, fn_apply)
+
+
 def url_conformize(s) -> str:
     """Normalise une chaîne de caractère pour qu'elle puisse être integrée à une URI.
 
@@ -19,7 +32,7 @@ def url_conformize(s) -> str:
     return "".join([c for c in s if c.isalnum() or c == "_"])
 
 
-def clean_obj(obj) -> None:
+def normalize_obj_name(obj) -> None:
     """Normalise les attributs 'name' et 'id' d'un objet (dict).
 
     Args:
@@ -43,6 +56,10 @@ def clean_obj(obj) -> None:
     return
 
 
+def has_id_or_name_key(d):
+    return set(["id", "name"]).intersection(d.keys())
+
+
 def clean_annotation_names(annotations) -> None:
     """Normalise les clés 'name' de tous les objets concernés dans les annotations.
 
@@ -53,56 +70,57 @@ def clean_annotation_names(annotations) -> None:
         None
     """
 
-    # les objets qui se trouvent directement dans 'Places', 'Events', 'FictionalCharacters' sont facile à traiter, on utilise donc simplement la fonction 'clean_obj'.
-    for key in ("Places", "Events", "FictionalCharacters"):
-        if key in annotations.keys():
-            for obj in annotations[key]:
-                clean_obj(obj)
+    # utilisation d'une fonction (récursive) qui trouve tous les objets JSON (dict) qui ont au moins l'une des clés ['id', 'name'], et applique sur ces objets la fonction de normalisation.
+    dict_iter_rec(
+        obj=annotations,
+        fn_condition=has_id_or_name_key,
+        fn_apply=normalize_obj_name,
+    )
 
-    # en revanche, les objets qui concernent les émotions sont plus chaotiques. donc la construction ici correspond aussi à ce nettoyage.
-    if "FictionalCharacters" in annotations.keys():
-        for c in annotations["FictionalCharacters"]:
-            # le premier souci possible, c'est lorsque 'feels' est remplacé par 'emotions'.
-            if "feels" not in c:
-                if "emotions" in c:
-                    c["feels"] = c["emotions"]
-                    c.pop("emotions")
-                else:
-                    continue
-            # le second souci, c'est les émotions qui ne sont pas des objets JSONs (dict en python), comme c'est trop aléatoire à gérer, on ne conserve que les 'dict'.
-            emotions = [em for em in c["feels"] if isinstance(em, dict)]
-            for em in emotions:
-                # le troisième souci, c'est quand les clés 'causedBy' ou 'hasObject' sont soit absentes, soit remplacées, respectivement par 'cause' et 'object'. on normalize en mettant la clé canonique correspondante.
-                for key, ersatz in [
-                    ("causedBy", "cause"),
-                    ("hasObject", "object"),
-                ]:
-                    if key in em:
-                        pass
-                    elif ersatz in em:
-                        em[key] = em[ersatz]
-                        em.pop(ersatz)
-                    else:
-                        continue
-                    # dans les 'hasObject' et 'causesBy' aussi, parfois il n'y a pas d'objet JSONs. idem que pour les emotions: on ne conserve que les dicts.
-                    if isinstance(em[key], dict):
-                        clean_obj(em[key])
-                    else:
-                        em.pop(key)
-            c["feels"] = emotions
-    if "Events" in annotations.keys():
-        normalise_events(annotations["Events"])
-    return
+    # certaines clés sont remplacés par d'autres (ici appelés 'ersatz'). l'itération suivante assignes, dans les objets concernés, la valeur de l'ersatz (ex. 'cause') à la clé manquante (ex. 'causedBy').
+    for key, ersatz in [
+        ("feels", "emotions"),
+        ("causedBy", "cause"),
+        ("hasObject", "object"),
+    ]:
 
+        def missing_key_but_ersatz(d):
+            return key not in d.keys() and ersatz in d.keys()
 
-def normalise_events(events):
-    for ev in events:
-        for key in ("takePlaceAt", "hasParticipant"):
-            if key in ev:
-                if isinstance(ev[key], dict):
-                    clean_obj(ev[key])
-                else:
-                    ev.pop(key)
+        def replace_ersatz_with_key(d):
+            d[key] = d[ersatz]
+            d.pop(ersatz)
+
+        dict_iter_rec(
+            obj=annotations,
+            fn_condition=missing_key_but_ersatz,
+            fn_apply=replace_ersatz_with_key,
+        )
+
+    # enfin, dernière modification: certaines propriétés qui devraient être des objets JSON (des dicts) n'en sont pas (par exemple, sont des str). les enlever tout simplement, pour éviter des erreurs futurs.
+    properties = set(
+        [
+            "hasObject",
+            "causedBy",
+            "takePlaceAt",
+            "hasParticipant",
+        ]
+    )
+
+    def has_any_prop(d):
+        return properties.intersection(d.keys())
+
+    def remove_nodict_prop(d):
+        for p in properties:
+            if p in d.keys() and not isinstance(d[p], dict):
+                d.pop(p)
+
+    dict_iter_rec(
+        obj=annotations,
+        fn_condition=has_any_prop,
+        fn_apply=remove_nodict_prop,
+    )
+
     return
 
 
