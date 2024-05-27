@@ -2,14 +2,15 @@
 from rdflib import Graph, Literal, RDF, URIRef, Namespace
 from rdflib.namespace import OWL, RDFS, XSD
 import json
+import os
+
+dirname = "data/annotations/littlewomen"
+ext = ('.json')
 
 # Namespace
 EMOTEL = Namespace("https://github.com/unil-ish/EMOTEL#")
 
-# Chargement du fichier JSON
-with open("data/annotations/littlewomen/0.json", "r") as f:
-    data = json.load(f)
-    print(data)
+
 
 # Initialize the graph
 g = Graph()
@@ -19,7 +20,7 @@ g.bind("emotel", EMOTEL)
 
 # Function to create URIs
 def create_uri(base_uri, element_id):
-    return URIRef(f"{base_uri}#{element_id}")
+    return URIRef(f"{base_uri}{element_id}")
 
 # Function to add FictionalCharacter
 def add_fictional_character(character):
@@ -43,8 +44,12 @@ def add_fictional_character(character):
             g.add((emotion_uri, EMOTEL.hasObject, object_uri))
         
         if 'place' in emotion:
-            place_uri = create_uri(EMOTEL, emotion['place']['id'])
-            g.add((emotion_uri, EMOTEL.takePlaceAt, place_uri))
+            print(emotion['place'])
+            for place in data['Places']:
+                if place['name'] == emotion['place']:
+                    place_id = place['id']
+                    place_uri = create_uri(EMOTEL, place_id)
+                    g.add((emotion_uri, EMOTEL.takePlaceAt, place_uri))
         
         g.add((char_uri, EMOTEL.feels, emotion_uri))
 
@@ -81,28 +86,36 @@ def add_event(event):
         participant_uri = create_uri(EMOTEL, event['hasParticipant']['id'])
         g.add((event_uri, EMOTEL.hasParticipant, participant_uri))
 
+# iterating over all files
+for files in os.listdir(dirname):
+    print(files)
+    if files.endswith(ext):
 
-# Add data to the graph
-try:
-    for character in data['FictionalCharacters']:
-        add_fictional_character(character)
-except KeyError as er:
-    pass
+        # Chargement du fichier JSON
+        with open(f"data/annotations/littlewomen/{files}", "r") as f:
+            data = json.load(f)
+        # Add data to the graph
+        try:
+            for character in data['FictionalCharacters']:
+                add_fictional_character(character)
+        except KeyError as er:
+            pass
 
-try:
-    for place in data['Places']:
-        add_place(place)
-except KeyError as er:
-    pass
+        try:
+            for place in data['Places']:
+                add_place(place)
+        except KeyError as er:
+            pass
 
-try:
-    for event in data['Events']:
-        add_event(event)
-except KeyError as er:
-    pass
+        try:
+            for event in data['Events']:
+                print(event)
+                add_event(event)
+        except KeyError as er:
+            pass
 
 # Serialize the graph to RDF/XML format and save to file
-output_file = "ontology_output.rdf"
+output_file = "ontology_output_mult.rdf"
 with open(output_file, "w") as f:
     f.write(g.serialize(format="pretty-xml"))
 
