@@ -21,7 +21,7 @@ g.bind("emotel", EMOTEL)
 # Function to create URIs
 def create_uri(base_uri, element_id):
     if "texts/" in element_id:
-        base_uri = base_uri.replace('#', '') + '/'
+        base_uri = base_uri.replace("#", "") + "/"
     return URIRef(f"{base_uri}{element_id}")
 
 

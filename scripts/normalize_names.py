@@ -5,7 +5,7 @@ import re
 from typing import Callable
 
 
-def dict_iter_rec(obj, fn_condition:Callable, fn_apply: Callable) -> None:
+def dict_iter_rec(obj, fn_condition: Callable, fn_apply: Callable) -> None:
     """recherche récursivement les 'dict' satisfaisant une certaine condition et leur applique une fonction qui modifie ces dicts.
 
     Args:
@@ -107,7 +107,6 @@ def clean_annotation_names(annotations: dict) -> None:
         return properties.intersection(d.keys())
 
     def remove_nodict_prop(d):
-
         for p in properties:
             if p in d.keys():
                 obj = d[p]
@@ -155,11 +154,11 @@ def rename_causedBy(annotations: dict) -> None:
     """
 
     def has_causedbyevent(d: dict) -> bool:
-        return 'causedByEvent' in d.keys()
+        return "causedByEvent" in d.keys()
 
     def rename_causedbyevent(d: dict) -> None:
-        d['causedBy'] = d['causedByEvent']
-        d.pop('causedByEvent')
+        d["causedBy"] = d["causedByEvent"]
+        d.pop("causedByEvent")
 
     dict_iter_rec(
         obj=annotations,

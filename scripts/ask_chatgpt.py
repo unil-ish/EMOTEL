@@ -114,7 +114,6 @@ essai {x}/10""")
 
 
 if __name__ == "__main__":
-
     for directory in os.listdir(CHUNKS_DIR):
         dir_path = os.path.join(CHUNKS_DIR, directory)
         print(dir_path)
