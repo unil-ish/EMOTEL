@@ -99,13 +99,10 @@ def normalise_events(events):
     for ev in events:
         for key in ("takePlaceAt", "hasParticipant"):
             if key in ev:
-                pass
-            else:
-                continue
-            if isinstance(ev[key], dict):
-                clean_obj(ev[key])
-            else:
-                ev.pop(key)
+                if isinstance(ev[key], dict):
+                    clean_obj(ev[key])
+                else:
+                    ev.pop(key)
     return
 
 

@@ -5,7 +5,7 @@ from rdflib.namespace import OWL, RDFS, XSD
 
 # Root
 dirname = "data/annotations_cleaned"
-ext = ('.json')
+ext = ".json"
 
 # Namespace
 EMOTEL = Namespace("https://github.com/unil-ish/EMOTEL#")
