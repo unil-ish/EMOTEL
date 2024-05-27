@@ -20,6 +20,15 @@ g.bind("emotel", EMOTEL)
 
 # Function to create URIs
 def create_uri(base_uri, element_id):
+    """Crée un URI pour un élément donné.
+
+    Args:
+        base_uri (str): L'URI de base.
+        element_id (str): L'identifiant de l'élément.
+
+    Returns:
+        URIRef: L'URI complet de l'élément.
+    """
     if "texts/" in element_id:
         base_uri = base_uri.replace("#", "") + "/"
     return URIRef(f"{base_uri}{element_id}")
@@ -27,6 +36,11 @@ def create_uri(base_uri, element_id):
 
 # Function to add FictionalCharacter
 def add_fictional_character(character):
+    """Ajoute un personnage fictif au graphe RDF.
+
+    Args:
+        character (dict): Les données du personnage.
+    """
     char_uri = create_uri(EMOTEL, character["id"])
     g.add((char_uri, RDF.type, EMOTEL.FictionalCharacter))
     if "name" in character:
@@ -68,6 +82,11 @@ def add_fictional_character(character):
 
 # Function to add Object
 def add_object(obj):
+    """Ajoute un objet fictif au graphe RDF.
+
+    Args:
+        obj (dict): Les données de l'objet.
+    """
     obj_uri = create_uri(EMOTEL, obj["id"])
     g.add((obj_uri, RDF.type, EMOTEL.FictionalObject))
     if "name" in obj:
@@ -80,6 +99,11 @@ def add_object(obj):
 
 # Function to add Place
 def add_place(place):
+    """Ajoute un lieu fictif au graphe RDF.
+
+    Args:
+        place (dict): Les données du lieu.
+    """
     place_uri = create_uri(EMOTEL, place["id"])
     g.add((place_uri, RDF.type, EMOTEL.FictionalPlace))
     if "name" in place:
@@ -96,6 +120,11 @@ def add_place(place):
 
 # Function to add Event
 def add_event(event):
+    """Ajoute un événement fictif au graphe RDF.
+
+    Args:
+        event (dict): Les données de l'événement.
+    """
     event_uri = create_uri(EMOTEL, event["id"])
     g.add((event_uri, RDF.type, EMOTEL.FictionalEvent))
     if "name" in event:
