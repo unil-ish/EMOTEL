@@ -1,0 +1,72 @@
+{
+ "FictionalCharacters": [
+  {
+   "name": "Miss Matty",
+   "feels": [
+    {
+     "name": "Curiosity",
+     "hasIntensity": 0.7,
+     "quote": "I did not like to hear of this “important meeting,” for, though I did not know much about business, I feared it confirmed what my father said: however, I thought, ill news always came fast enough, so I resolved to say nothing about my alarm, and merely told her that my father was well, and sent his kind regards to her.",
+     "causedBy": {
+      "name": "Important meeting of the shareholders of the Town and County Bank"
+     },
+     "hasObject": {
+      "name": "Important meeting"
+     },
+     "exactPlace": "Breakfast-table"
+    },
+    {
+     "name": "Excitement",
+     "hasIntensity": 0.8,
+     "quote": "Miss Matty anticipated the sight of the glossy folds with as much delight as if the five sovereigns, set apart for the purchase, could buy all the silks in the shop; and (remembering my own loss of two hours in a toyshop before I could tell on what wonder to spend a silver threepence) I was very glad that we were going early, that dear Miss Matty might have leisure for the delights of perplexity.",
+     "causedBy": {
+      "name": "Anticipation of choosing a silk gown"
+     },
+     "hasObject": {
+      "name": "Silk gown"
+     },
+     "exactPlace": "Shop-door"
+    }
+   ]
+  }
+ ],
+ "Places": [
+  {
+   "name": "Shop-door",
+   "description": "Entrance to the shop where Miss Matty and the narrator were going to buy tea and select silk for a gown."
+  }
+ ],
+ "Events": [
+  {
+   "name": "Important meeting of the shareholders of the Town and County Bank",
+   "takePlaceAt": {
+    "name": "Breakfast-table"
+   },
+   "hasParticipant": [
+    {
+     "name": "Miss Matty"
+    },
+    {
+     "name": "Narrator"
+    },
+    {
+     "name": "Father"
+    }
+   ]
+  },
+  {
+   "name": "Anticipation of choosing a silk gown",
+   "takePlaceAt": {
+    "name": "Shop-door"
+   },
+   "hasParticipant": [
+    {
+     "name": "Miss Matty"
+    },
+    {
+     "name": "Narrator"
+    }
+   ]
+  }
+ ]
+}

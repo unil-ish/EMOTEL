@@ -1,0 +1,91 @@
+{
+ "FictionalCharacters": [
+  {
+   "name": "Miss Matty",
+   "feels": [
+    {
+     "name": "Trust",
+     "hasIntensity": 0.9,
+     "quote": "Remember, dear, I’m the only one left—I mean, there’s no one to be hurt by what I do. I’m willing to do anything that’s right and honest; and I don’t think, if Deborah knows where she is, she’ll care so very much if I’m not genteel; because, you see, she’ll know all, dear. Only let me see what I can do, and pay the poor people as far as I’m able.",
+     "causedBy": {
+      "name": "Feeling responsible for the poor people"
+     },
+     "hasObject": {
+      "name": "Helping the poor people"
+     },
+     "exactPlace": "Before going out for a walk with Mary's father"
+    },
+    {
+     "name": "Sadness",
+     "hasIntensity": 0.8,
+     "quote": "She recovered herself into a slight degree of impatient anger, directed against me, as having set them all off; and, moreover, I think she was vexed that I could not make a speech back in return for hers; and if I had known beforehand what was to be said, and had a card on which to express the probable feelings that would rise in my heart, I would have tried to gratify her. As it was, Mrs Forrester was the person to speak when we had recovered our composure.",
+     "causedBy": {
+      "name": "Feeling unable to express her gratitude adequately"
+     },
+     "hasObject": {
+      "name": "Gratitude towards the ladies"
+     },
+     "exactPlace": "During the meeting with the Cranford ladies"
+    },
+    {
+     "name": "Anxiety",
+     "hasIntensity": 0.7,
+     "quote": "Miss Matty and I sat assenting to accounts, and schemes, and reports, and documents, of which I do not believe we either of us understood a word; for my father was clear-headed and decisive, and a capital man of business, and if we made the slightest inquiry, or expressed the slightest want of comprehension, he had a sharp way of saying, “Eh? eh? it’s as clear as daylight. What’s your objection?”",
+     "causedBy": {
+      "name": "Feeling overwhelmed by the business discussions"
+     },
+     "hasObject": {
+      "name": "Understanding the financial matters"
+     },
+     "exactPlace": "During the business discussions with Mary's father"
+    }
+   ]
+  }
+ ],
+ "Places": [
+  {
+   "name": "Miss Pole's drawing-room",
+   "description": "Arranged for a secret meeting to discuss helping Miss Matty"
+  },
+  {
+   "name": "Miss Matty's house",
+   "description": "Preparing for retrenchment and giving up the house"
+  }
+ ],
+ "Events": [
+  {
+   "name": "Meeting of the Cranford ladies at Miss Pole's",
+   "takePlaceAt": {
+    "name": "Miss Pole's drawing-room"
+   },
+   "hasParticipant": [
+    {
+     "name": "Miss Pole"
+    },
+    {
+     "name": "Mrs Forrester"
+    },
+    {
+     "name": "Mrs Fitz-Adam"
+    }
+   ]
+  },
+  {
+   "name": "Business discussions with Mary's father",
+   "takePlaceAt": {
+    "name": "Miss Matty's house"
+   },
+   "hasParticipant": [
+    {
+     "name": "Miss Matty"
+    },
+    {
+     "name": "Mary"
+    },
+    {
+     "name": "Mary's father"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,89 @@
+{
+ "FictionalCharacters": [
+  {
+   "name": "Miss Matty",
+   "feels": [
+    {
+     "name": "Excitement",
+     "hasIntensity": 0.9,
+     "quote": "Such a piece of gaiety was going to happen as had not been seen or known of since Wombwell’s lions came, when one of them ate a little child’s arm.",
+     "causedBy": {
+      "name": "Anticipation of the conjuror's show"
+     },
+     "hasObject": {
+      "name": "Signor Brunoni's magic show"
+     },
+     "exactPlace": "Cranford"
+    },
+    {
+     "name": "Disappointment",
+     "hasIntensity": 0.7,
+     "quote": "It was in vain that I twirled the cap round on my hand to exhibit back and side fronts: her heart had been set upon a turban.",
+     "causedBy": {
+      "name": "Receiving a cap instead of a turban"
+     },
+     "hasObject": {
+      "name": "Middle-aged cap"
+     },
+     "exactPlace": "Bedroom"
+    },
+    {
+     "name": "Resignation",
+     "hasIntensity": 0.6,
+     "quote": "It is just like the caps all the ladies in Cranford are wearing, and they have had theirs for a year, I dare say.",
+     "causedBy": {
+      "name": "Acceptance of the cap"
+     },
+     "hasObject": {
+      "name": "Middle-aged cap"
+     },
+     "exactPlace": "Bedroom"
+    },
+    {
+     "name": "Anxiety",
+     "hasIntensity": 0.8,
+     "quote": "I was very glad to accept the invitation from my dear Miss Matty, independently of the conjuror.",
+     "causedBy": {
+      "name": "Concern for Miss Matty's appearance"
+     },
+     "hasObject": {
+      "name": "Turban"
+     },
+     "exactPlace": "Bedroom"
+    }
+   ]
+  }
+ ],
+ "Places": [
+  {
+   "name": "Cranford",
+   "description": "A small town where the events take place."
+  },
+  {
+   "name": "Miss Matty's Bedroom",
+   "description": "Where Miss Matty and the protagonist discuss the cap."
+  }
+ ],
+ "Events": [
+  {
+   "name": "Signor Brunoni's Magic Show",
+   "takePlaceAt": {
+    "name": "Cranford Assembly Rooms"
+   },
+   "hasParticipant": [
+    {
+     "name": "Miss Matty"
+    },
+    {
+     "name": "Protagonist"
+    },
+    {
+     "name": "Miss Pole"
+    },
+    {
+     "name": "Mrs Forrester"
+    }
+   ]
+  }
+ ]
+}

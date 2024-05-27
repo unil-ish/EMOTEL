@@ -1,0 +1,112 @@
+{
+ "FictionalCharacters": [
+  {
+   "name": "Miss Matty",
+   "feels": [
+    {
+     "name": "Sadness",
+     "hasIntensity": 0.9,
+     "quote": "Oh, my dear! the bitter, bitter crying she had when she was alone; and at last, as she grew weaker, she could not keep her tears in when Deborah or me was by.",
+     "causedBy": {
+      "name": "Peter's disappearance"
+     },
+     "hasObject": {
+      "name": "Peter"
+     },
+     "exactPlace": "In her room"
+    },
+    {
+     "name": "Grief",
+     "hasIntensity": 0.8,
+     "quote": "That spring day was the last time he ever saw his mother’s face.",
+     "causedBy": {
+      "name": "Peter's departure"
+     },
+     "hasObject": {
+      "name": "Peter's departure"
+     },
+     "exactPlace": "In the house"
+    },
+    {
+     "name": "Remorse",
+     "hasIntensity": 0.7,
+     "quote": "‘Tell your mother I have flogged Peter, and that he richly deserved it.’",
+     "causedBy": {
+      "name": "Flogging Peter"
+     },
+     "hasObject": {
+      "name": "Peter"
+     },
+     "exactPlace": "In the house"
+    }
+   ]
+  },
+  {
+   "name": "Miss Betty Barker",
+   "feels": [
+    {
+     "name": "Modesty",
+     "hasIntensity": 0.6,
+     "quote": "she was very much absorbed in her errand, which she delivered herself of with an oppressive modesty that found vent in endless apologies.",
+     "causedBy": {
+      "name": "Visiting Miss Matty"
+     },
+     "hasObject": {
+      "name": "Visiting Miss Matty"
+     },
+     "exactPlace": "In Miss Matty's house"
+    }
+   ]
+  }
+ ],
+ "Places": [
+  {
+   "name": "Miss Matty's house",
+   "description": "A small house where Miss Matty and Miss Matty live."
+  }
+ ],
+ "Events": [
+  {
+   "name": "Peter's disappearance",
+   "takePlaceAt": {
+    "name": "Miss Matty's house"
+   },
+   "hasParticipant": [
+    {
+     "name": "Miss Matty"
+    },
+    {
+     "name": "Peter"
+    }
+   ]
+  },
+  {
+   "name": "Flogging Peter",
+   "takePlaceAt": {
+    "name": "Miss Matty's house"
+   },
+   "hasParticipant": [
+    {
+     "name": "Miss Matty"
+    },
+    {
+     "name": "Peter"
+    }
+   ]
+  },
+  {
+   "name": "Visiting Miss Matty",
+   "takePlaceAt": {
+    "name": "Miss Matty's house"
+   },
+   "hasParticipant": [
+    {
+     "name": "Miss Matty"
+    },
+    {
+     "name": "Miss Betty Barker"
+    }
+   ]
+  }
+ ]
+}
