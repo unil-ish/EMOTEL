@@ -27,7 +27,7 @@
      },
      "hasObject": {
       "id": "object2",
-      "name": "Mr. Emerson"
+      "name": "Mr_Emerson"
      },
      "exactPlace": "Inside Santa Croce"
     },
@@ -41,7 +41,7 @@
      },
      "hasObject": {
       "id": "object3",
-      "name": "Mr. Emerson's musings"
+      "name": "Mr_Emerson_s_musings"
      },
      "exactPlace": "Inside Santa Croce"
     },
@@ -55,7 +55,7 @@
      },
      "hasObject": {
       "id": "object4",
-      "name": "George Emerson"
+      "name": "George_Emerson"
      },
      "exactPlace": "Inside Santa Croce"
     }
@@ -75,14 +75,16 @@
    "id": "event1",
    "name": "Loss_of_Baedeker",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   },
   {
    "id": "event2",
    "name": "Mr_Emerson_s_philosophical_musings",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   }
  ]

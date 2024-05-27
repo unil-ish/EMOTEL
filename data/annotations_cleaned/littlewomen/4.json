@@ -131,42 +131,48 @@
    "id": "event1",
    "name": "Preparing_dinner",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   },
   {
    "id": "event2",
    "name": "Mother_resting",
    "takePlaceAt": {
-    "id": "place2"
+    "id": "place2",
+    "name": "place2"
    }
   },
   {
    "id": "event3",
    "name": "Failed_dinner",
    "takePlaceAt": {
-    "id": "place3"
+    "id": "place3",
+    "name": "place3"
    }
   },
   {
    "id": "event4",
    "name": "Canary_s_death",
    "takePlaceAt": {
-    "id": "place2"
+    "id": "place2",
+    "name": "place2"
    }
   },
   {
    "id": "event5",
    "name": "Mother_resting",
    "takePlaceAt": {
-    "id": "place2"
+    "id": "place2",
+    "name": "place2"
    }
   },
   {
    "id": "event6",
    "name": "Failed_dessert",
    "takePlaceAt": {
-    "id": "place3"
+    "id": "place3",
+    "name": "place3"
    }
   }
  ]

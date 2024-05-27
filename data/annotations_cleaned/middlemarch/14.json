@@ -127,7 +127,7 @@
  ],
  "Places": [
   {
-   "id": "Drawing-room",
+   "id": "Drawingroom",
    "name": "Drawingroom",
    "description": "The great old-fashioned window was opened to the summer scents of the garden at the back of the house."
   }
@@ -137,16 +137,9 @@
    "id": "engagement",
    "name": "Engagement",
    "takePlaceAt": {
-    "id": "Drawing-room"
-   },
-   "hasParticipant": [
-    {
-     "id": "Lydgate"
-    },
-    {
-     "id": "Rosamond"
-    }
-   ]
+    "id": "Drawingroom",
+    "name": "Drawingroom"
+   }
   }
  ]
 }

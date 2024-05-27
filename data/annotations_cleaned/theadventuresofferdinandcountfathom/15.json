@@ -14,7 +14,7 @@
      },
      "hasObject": {
       "id": "object1",
-      "name": "Monimia's tomb"
+      "name": "Monimia_s_tomb"
      },
      "exactPlace": {
       "id": "place1",
@@ -63,7 +63,7 @@
      },
      "hasObject": {
       "id": "object4",
-      "name": "Hard labour sentence"
+      "name": "Hard_labour_sentence"
      }
     },
     {
@@ -94,7 +94,8 @@
    "id": "event1",
    "name": "Reflections_on_Monimia",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   },
   {

@@ -28,7 +28,7 @@
      },
      "hasObject": {
       "id": "object2",
-      "name": "Generous proffer"
+      "name": "Generous_proffer"
      },
      "place": "House of their female friend"
     },
@@ -42,7 +42,7 @@
      },
      "hasObject": {
       "id": "object3",
-      "name": "Promise of help"
+      "name": "Promise_of_help"
      },
      "place": "House of their female friend"
     },
@@ -56,7 +56,7 @@
      },
      "hasObject": {
       "id": "object4",
-      "name": "Parting from Wilhelmina"
+      "name": "Parting_from_Wilhelmina"
      },
      "place": "Wilhelmina's chamber"
     },
@@ -70,7 +70,7 @@
      },
      "hasObject": {
       "id": "object5",
-      "name": "Dreadful resolution"
+      "name": "Dreadful_resolution"
      },
      "place": "Wilhelmina's chamber"
     },
@@ -84,7 +84,7 @@
      },
      "hasObject": {
       "id": "object6",
-      "name": "Parting from Wilhelmina"
+      "name": "Parting_from_Wilhelmina"
      },
      "place": "Wilhelmina's chamber"
     },
@@ -98,7 +98,7 @@
      },
      "hasObject": {
       "id": "object7",
-      "name": "Fervent request"
+      "name": "Fervent_request"
      },
      "place": "Wilhelmina's chamber"
     },
@@ -141,56 +141,64 @@
    "id": "event1",
    "name": "Offer_of_financial_help",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   },
   {
    "id": "event2",
    "name": "Generous_proffer",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   },
   {
    "id": "event3",
    "name": "Promise_of_help",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   },
   {
    "id": "event4",
    "name": "Dreadful_resolution",
    "takePlaceAt": {
-    "id": "place2"
+    "id": "place2",
+    "name": "place2"
    }
   },
   {
    "id": "event5",
    "name": "Dreadful_resolution",
    "takePlaceAt": {
-    "id": "place2"
+    "id": "place2",
+    "name": "place2"
    }
   },
   {
    "id": "event6",
    "name": "Dreadful_resolution",
    "takePlaceAt": {
-    "id": "place2"
+    "id": "place2",
+    "name": "place2"
    }
   },
   {
    "id": "event7",
    "name": "Fervent_request_from_Wilhelmina",
    "takePlaceAt": {
-    "id": "place2"
+    "id": "place2",
+    "name": "place2"
    }
   },
   {
    "id": "event8",
    "name": "Expectation_of_success",
    "takePlaceAt": {
-    "id": "place3"
+    "id": "place3",
+    "name": "place3"
    }
   }
  ]

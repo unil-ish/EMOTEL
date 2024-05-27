@@ -14,7 +14,7 @@
      },
      "hasObject": {
       "id": "object1",
-      "name": "New Hospital"
+      "name": "New_Hospital"
      },
      "exactPlace": "Walking round the laurel-planted plots of the New Hospital"
     },
@@ -116,73 +116,49 @@
    "id": "conversation1",
    "name": "Discussion_about_the_New_Hospital",
    "takePlaceAt": {
-    "id": "place1"
-   },
-   "hasParticipant": [
-    {
-     "id": "fc1"
-    }
-   ]
+    "id": "place1",
+    "name": "place1"
+   }
   },
   {
    "id": "conversation2",
    "name": "Discussion_about_the_trouble_taken_in_the_world",
    "takePlaceAt": {
-    "id": "place2"
-   },
-   "hasParticipant": [
-    {
-     "id": "fc1"
-    }
-   ]
+    "id": "place2",
+    "name": "place2"
+   }
   },
   {
    "id": "conversation3",
    "name": "Conversation_with_Lydgate_about_the_New_Hospital",
    "takePlaceAt": {
-    "id": "place3"
-   },
-   "hasParticipant": [
-    {
-     "id": "fc2"
-    }
-   ]
+    "id": "place3",
+    "name": "place3"
+   }
   },
   {
    "id": "conversation4",
    "name": "Discussion_about_the_opposition_to_the_New_Hospital",
    "takePlaceAt": {
-    "id": "place4"
-   },
-   "hasParticipant": [
-    {
-     "id": "fc3"
-    }
-   ]
+    "id": "place4",
+    "name": "place4"
+   }
   },
   {
    "id": "conversation5",
    "name": "Discussion_about_paying_bills",
    "takePlaceAt": {
-    "id": "place4"
-   },
-   "hasParticipant": [
-    {
-     "id": "fc3"
-    }
-   ]
+    "id": "place4",
+    "name": "place4"
+   }
   },
   {
    "id": "conversation6",
    "name": "Discussion_about_Lydgate_s_views_on_medicine",
    "takePlaceAt": {
-    "id": "place4"
-   },
-   "hasParticipant": [
-    {
-     "id": "fc4"
-    }
-   ]
+    "id": "place4",
+    "name": "place4"
+   }
   }
  ]
 }

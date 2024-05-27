@@ -1,7 +1,7 @@
 {
  "FictionalCharacters": [
   {
-   "id": "Victor Frankenstein",
+   "id": "Victor_Frankenstein",
    "feels": [
     {
      "name": "Trust",
@@ -41,7 +41,7 @@
      },
      "hasObject": {
       "id": "innocentVictims",
-      "name": "Innocent victims"
+      "name": "Innocent_victims"
      },
      "exactPlace": "Conversation with father"
     },
@@ -55,7 +55,7 @@
      },
      "hasObject": {
       "id": "letterFromElizabeth",
-      "name": "Letter from Elizabeth"
+      "name": "Letter_from_Elizabeth"
      },
      "exactPlace": "Paris"
     }
@@ -80,40 +80,48 @@
    "id": "father",
    "name": "Father_s_care_and_attentions",
    "takePlaceAt": {
-    "id": "Prison"
+    "id": "Prison",
+    "name": "Prison"
    },
    "hasParticipant": {
-    "id": "Victor Frankenstein"
+    "id": "Victor_Frankenstein",
+    "name": "Victor_Frankenstein"
    }
   },
   {
    "id": "father",
    "name": "Father_yielding_to_Victor_s_desire",
    "takePlaceAt": {
-    "id": "Paris"
+    "id": "Paris",
+    "name": "Paris"
    },
    "hasParticipant": {
-    "id": "Victor Frankenstein"
+    "id": "Victor_Frankenstein",
+    "name": "Victor_Frankenstein"
    }
   },
   {
    "id": "selfAccusation",
    "name": "Selfaccusation",
    "takePlaceAt": {
-    "id": "Conversation with father"
+    "id": "Conversation_with_father",
+    "name": "Conversation_with_father"
    },
    "hasParticipant": {
-    "id": "Victor Frankenstein"
+    "id": "Victor_Frankenstein",
+    "name": "Victor_Frankenstein"
    }
   },
   {
    "id": "letterFromElizabeth",
    "name": "Receiving_a_letter_from_Elizabeth",
    "takePlaceAt": {
-    "id": "Paris"
+    "id": "Paris",
+    "name": "Paris"
    },
    "hasParticipant": {
-    "id": "Victor Frankenstein"
+    "id": "Victor_Frankenstein",
+    "name": "Victor_Frankenstein"
    }
   }
  ]

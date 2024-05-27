@@ -30,7 +30,7 @@
      },
      "hasObject": {
       "id": "object2",
-      "name": "Preservers of his happiness"
+      "name": "Preservers_of_his_happiness"
      },
      "place": {
       "id": "place2",
@@ -70,7 +70,7 @@
      },
      "hasObject": {
       "id": "object4",
-      "name": "Reuniting with Renaldo"
+      "name": "Reuniting_with_Renaldo"
      },
      "place": {
       "id": "place4",
@@ -87,7 +87,7 @@
      },
      "hasObject": {
       "id": "object5",
-      "name": "Feeling fatigued and overwhelmed"
+      "name": "Feeling_fatigued_and_overwhelmed"
      },
      "place": {
       "id": "place5",
@@ -130,35 +130,40 @@
    "id": "event1",
    "name": "Seeing_Monimia_s_restored_appearance",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   },
   {
    "id": "event2",
    "name": "Learning_about_the_plan_to_reunite_with_Monimia",
    "takePlaceAt": {
-    "id": "place2"
+    "id": "place2",
+    "name": "place2"
    }
   },
   {
    "id": "event3",
    "name": "Expressing_affection_towards_Monimia",
    "takePlaceAt": {
-    "id": "place3"
+    "id": "place3",
+    "name": "place3"
    }
   },
   {
    "id": "event4",
    "name": "Reuniting_with_Renaldo",
    "takePlaceAt": {
-    "id": "place4"
+    "id": "place4",
+    "name": "place4"
    }
   },
   {
    "id": "event5",
    "name": "Feeling_fatigued_and_overwhelmed",
    "takePlaceAt": {
-    "id": "place5"
+    "id": "place5",
+    "name": "place5"
    }
   }
  ]

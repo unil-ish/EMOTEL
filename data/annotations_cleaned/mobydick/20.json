@@ -13,7 +13,7 @@
      },
      "hasObject": {
       "id": "object1",
-      "name": "Queequeg's coffin"
+      "name": "Queequeg_s_coffin"
      },
      "place": {
       "id": "place1",
@@ -30,7 +30,7 @@
      },
      "hasObject": {
       "id": "object2",
-      "name": "Call of the ocean"
+      "name": "Call_of_the_ocean"
      },
      "place": {
       "id": "place2",
@@ -47,7 +47,7 @@
      },
      "hasObject": {
       "id": "object3",
-      "name": "Others' misery"
+      "name": "Others_misery"
      },
      "place": {
       "id": "place3",
@@ -70,7 +70,7 @@
      },
      "hasObject": {
       "id": "object4",
-      "name": "Past experiences"
+      "name": "Past_experiences"
      },
      "place": {
       "id": "place4",
@@ -108,28 +108,32 @@
    "id": "event1",
    "name": "Observing_Queequeg_s_coffin",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   },
   {
    "id": "event2",
    "name": "Hearing_the_call_of_the_ocean",
    "takePlaceAt": {
-    "id": "place2"
+    "id": "place2",
+    "name": "place2"
    }
   },
   {
    "id": "event3",
    "name": "Feeling_disconnected_from_others_misery",
    "takePlaceAt": {
-    "id": "place3"
+    "id": "place3",
+    "name": "place3"
    }
   },
   {
    "id": "event4",
    "name": "Reflecting_on_past_experiences",
    "takePlaceAt": {
-    "id": "place4"
+    "id": "place4",
+    "name": "place4"
    }
   }
  ]

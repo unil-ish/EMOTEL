@@ -31,7 +31,7 @@
      },
      "hasObject": {
       "id": "object2",
-      "name": "Asking for help"
+      "name": "Asking_for_help"
      },
      "place": {
       "id": "place2",
@@ -71,7 +71,7 @@
      },
      "hasObject": {
       "id": "object4",
-      "name": "Fear of disgrace"
+      "name": "Fear_of_disgrace"
      },
      "place": {
       "id": "place4",
@@ -88,7 +88,7 @@
      },
      "hasObject": {
       "id": "object5",
-      "name": "Rescue from disgrace"
+      "name": "Rescue_from_disgrace"
      },
      "place": {
       "id": "place5",
@@ -152,42 +152,48 @@
    "id": "event1",
    "name": "Losing_in_the_billiardroom",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   },
   {
    "id": "event2",
    "name": "Financial_difficulties",
    "takePlaceAt": {
-    "id": "place2"
+    "id": "place2",
+    "name": "place2"
    }
   },
   {
    "id": "event3",
    "name": "Hope_for_secrecy",
    "takePlaceAt": {
-    "id": "place3"
+    "id": "place3",
+    "name": "place3"
    }
   },
   {
    "id": "event4",
    "name": "Caleb_Garth_s_knowledge_and_rejection",
    "takePlaceAt": {
-    "id": "place4"
+    "id": "place4",
+    "name": "place4"
    }
   },
   {
    "id": "event5",
    "name": "Caleb_Garth_being_the_only_one_Raffles_spoke_to",
    "takePlaceAt": {
-    "id": "place5"
+    "id": "place5",
+    "name": "place5"
    }
   },
   {
    "id": "event6",
    "name": "Caleb_Garth_s_knowledge_and_rejection",
    "takePlaceAt": {
-    "id": "place6"
+    "id": "place6",
+    "name": "place6"
    }
   }
  ]

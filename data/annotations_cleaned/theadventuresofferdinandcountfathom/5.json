@@ -1,18 +1,19 @@
 {
  "FictionalCharacters": [
   {
-   "id": "Don Diego de Zelos",
+   "id": "Don_Diego_de_Zelos",
    "feels": [
     {
      "name": "Joy",
      "hasIntensity": 0.9,
      "quote": "I professed myself extremely happy in having met with an opportunity of acquiring such a degree of my colonel’s esteem.",
      "causedBy": {
-      "id": "Receiving esteem from his colonel",
+      "id": "Receiving_esteem_from_his_colonel",
       "name": "Receiving_esteem_from_his_colonel"
      },
      "hasObject": {
-      "id": "Esteem"
+      "id": "Esteem",
+      "name": "Esteem"
      },
      "exactPlace": "Dining-room"
     },
@@ -21,11 +22,12 @@
      "hasIntensity": 0.95,
      "quote": "I had been ravished with her first appearance, which far exceeded my imagination, and my faculties were so disordered by this address, that I answered her compliment with the most awkward confusion.",
      "causedBy": {
-      "id": "Seeing Antonia for the first time",
+      "id": "Seeing_Antonia_for_the_first_time",
       "name": "Seeing_Antonia_for_the_first_time"
      },
      "hasObject": {
-      "id": "Antonia"
+      "id": "Antonia",
+      "name": "Antonia"
      },
      "exactPlace": "Dining-room"
     },
@@ -34,11 +36,12 @@
      "hasIntensity": 0.8,
      "quote": "Wretch that I am! to survive the loss of such an excellent woman, endeared to my remembrance by the most tender offices of wedlock, happily exercised for the space of five-and-twenty years!",
      "causedBy": {
-      "id": "Surviving the loss of his wife",
+      "id": "Surviving_the_loss_of_his_wife",
       "name": "Surviving_the_loss_of_his_wife"
      },
      "hasObject": {
-      "id": "Wife"
+      "id": "Wife",
+      "name": "Wife"
      },
      "exactPlace": "Present time"
     }
@@ -48,40 +51,46 @@
  ],
  "Places": [
   {
-   "id": "Dining-room",
+   "id": "Diningroom",
    "name": "Diningroom",
    "description": "An elegant dining-room where a magnificent entertainment was served up."
   }
  ],
  "Events": [
   {
-   "id": "Receiving esteem from his colonel",
+   "id": "Receiving_esteem_from_his_colonel",
    "name": "Receiving_esteem_from_his_colonel",
    "takePlaceAt": {
-    "id": "Dining-room"
+    "id": "Diningroom",
+    "name": "Diningroom"
    },
    "hasParticipant": {
-    "id": "Don Diego de Zelos"
+    "id": "Don_Diego_de_Zelos",
+    "name": "Don_Diego_de_Zelos"
    }
   },
   {
-   "id": "Seeing Antonia for the first time",
+   "id": "Seeing_Antonia_for_the_first_time",
    "name": "Seeing_Antonia_for_the_first_time",
    "takePlaceAt": {
-    "id": "Dining-room"
+    "id": "Diningroom",
+    "name": "Diningroom"
    },
    "hasParticipant": {
-    "id": "Don Diego de Zelos"
+    "id": "Don_Diego_de_Zelos",
+    "name": "Don_Diego_de_Zelos"
    }
   },
   {
-   "id": "Surviving the loss of his wife",
+   "id": "Surviving_the_loss_of_his_wife",
    "name": "Surviving_the_loss_of_his_wife",
    "takePlaceAt": {
-    "id": "Present time"
+    "id": "Present_time",
+    "name": "Present_time"
    },
    "hasParticipant": {
-    "id": "Don Diego de Zelos"
+    "id": "Don_Diego_de_Zelos",
+    "name": "Don_Diego_de_Zelos"
    }
   }
  ]

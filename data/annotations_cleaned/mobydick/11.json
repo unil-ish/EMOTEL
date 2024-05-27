@@ -14,7 +14,7 @@
      },
      "hasObject": {
       "id": "object1",
-      "name": "Painted board"
+      "name": "Painted_board"
      },
      "place": "London docks"
     }
@@ -49,20 +49,24 @@
    "id": "event1",
    "name": "Holding_up_the_painted_board",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    },
    "hasParticipant": {
-    "id": "whaleman1"
+    "id": "whaleman1",
+    "name": "whaleman1"
    }
   },
   {
    "id": "event2",
    "name": "Long_exile_from_Christendom_and_civilization",
    "takePlaceAt": {
-    "id": "place2"
+    "id": "place2",
+    "name": "place2"
    },
    "hasParticipant": {
-    "id": "whaleman2"
+    "id": "whaleman2",
+    "name": "whaleman2"
    }
   }
  ]

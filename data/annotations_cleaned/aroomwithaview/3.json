@@ -14,7 +14,7 @@
      },
      "hasObject": {
       "id": "object1",
-      "name": "Local society"
+      "name": "Local_society"
      },
      "place": "Italy"
     },
@@ -28,7 +28,7 @@
      },
      "hasObject": {
       "id": "object2",
-      "name": "Physical violence"
+      "name": "Physical_violence"
      },
      "place": "Tennis court"
     }
@@ -48,7 +48,7 @@
      },
      "hasObject": {
       "id": "object3",
-      "name": "Cecil's request"
+      "name": "Cecil_s_request"
      },
      "place": "By the pool"
     },
@@ -82,7 +82,7 @@
      },
      "hasObject": {
       "id": "object5",
-      "name": "Playing bumble-puppy"
+      "name": "Playing_bumblepuppy"
      },
      "place": "Tennis-court"
     },
@@ -120,21 +120,24 @@
    "id": "event1",
    "name": "Physical_violence_of_the_young",
    "takePlaceAt": {
-    "id": "place2"
+    "id": "place2",
+    "name": "place2"
    }
   },
   {
    "id": "event2",
    "name": "Cecil_s_request_to_kiss_her",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   },
   {
    "id": "event3",
    "name": "Slipping_and_falling_on_the_grass",
    "takePlaceAt": {
-    "id": "place2"
+    "id": "place2",
+    "name": "place2"
    }
   }
  ]

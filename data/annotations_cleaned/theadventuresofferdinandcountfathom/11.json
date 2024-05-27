@@ -14,7 +14,7 @@
      },
      "hasObject": {
       "id": "object1",
-      "name": "Renaldo's departure"
+      "name": "Renaldo_s_departure"
      },
      "place": {
       "id": "place1",
@@ -31,7 +31,7 @@
      },
      "hasObject": {
       "id": "object1",
-      "name": "Renaldo's departure"
+      "name": "Renaldo_s_departure"
      },
      "place": {
       "id": "place1",
@@ -53,20 +53,24 @@
    "id": "event1",
    "name": "Learning_about_Renaldo_s_departure",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    },
    "hasParticipant": {
-    "id": "fc1"
+    "id": "fc1",
+    "name": "fc1"
    }
   },
   {
    "id": "event2",
    "name": "Learning_about_Renaldo_s_departure",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    },
    "hasParticipant": {
-    "id": "fc1"
+    "id": "fc1",
+    "name": "fc1"
    }
   }
  ]

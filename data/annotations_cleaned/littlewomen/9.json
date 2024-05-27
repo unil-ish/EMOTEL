@@ -14,7 +14,7 @@
      },
      "hasObject": {
       "id": "object1",
-      "name": "Meg and Mr. Brooke"
+      "name": "Meg_and_Mr_Brooke"
      },
      "place": {
       "id": "place1",
@@ -31,7 +31,7 @@
      },
      "hasObject": {
       "id": "object2",
-      "name": "Meg and Mr. Brooke"
+      "name": "Meg_and_Mr_Brooke"
      },
      "place": {
       "id": "place2",
@@ -65,7 +65,7 @@
      },
      "hasObject": {
       "id": "object4",
-      "name": "Meg and Mr. Brooke"
+      "name": "Meg_and_Mr_Brooke"
      },
      "place": {
       "id": "place4",
@@ -124,35 +124,40 @@
    "id": "event1",
    "name": "Unexpected_sight_of_Meg_and_Mr_Brooke_together",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   },
   {
    "id": "event2",
    "name": "Seeing_Meg_absorbed_in_Mr_Brooke",
    "takePlaceAt": {
-    "id": "place2"
+    "id": "place2",
+    "name": "place2"
    }
   },
   {
    "id": "event3",
    "name": "Laurie_s_arrival",
    "takePlaceAt": {
-    "id": "place3"
+    "id": "place3",
+    "name": "place3"
    }
   },
   {
    "id": "event4",
    "name": "Feeling_upset_about_Meg_and_Mr_Brooke",
    "takePlaceAt": {
-    "id": "place4"
+    "id": "place4",
+    "name": "place4"
    }
   },
   {
    "id": "event5",
    "name": "Laurie_s_reassurance",
    "takePlaceAt": {
-    "id": "place5"
+    "id": "place5",
+    "name": "place5"
    }
   }
  ]

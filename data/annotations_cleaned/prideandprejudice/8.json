@@ -1,7 +1,7 @@
 {
  "FictionalCharacters": [
   {
-   "id": "Elizabeth Bennet",
+   "id": "Elizabeth_Bennet",
    "name": "Elizabeth_Bennet",
    "feels": [
     {
@@ -9,13 +9,13 @@
      "hasIntensity": 0.9,
      "quote": "She had instinctively turned away; but stopping on his approach, received his compliments with an embarrassment impossible to be overcome.",
      "causedBy": {
-      "id": "Meeting Mr. Darcy unexpectedly",
+      "id": "Meeting_Mr_Darcy_unexpectedly",
       "description": "Seeing Mr. Darcy unexpectedly at Pemberley",
       "name": "Meeting_Mr_Darcy_unexpectedly"
      },
      "hasObject": {
-      "id": "Mr. Darcy",
-      "name": "Mr. Darcy"
+      "id": "Mr_Darcy",
+      "name": "Mr_Darcy"
      },
      "exactPlace": "Pemberley House"
     },
@@ -24,13 +24,13 @@
      "hasIntensity": 0.8,
      "quote": "she thought of his regard with a deeper sentiment of gratitude than it had ever raised before",
      "causedBy": {
-      "id": "Housekeeper's praise of Mr. Darcy",
+      "id": "Housekeeper_s_praise_of_Mr_Darcy",
       "description": "Praise of Mr. Darcy by the housekeeper",
       "name": "Housekeeper_s_praise_of_Mr_Darcy"
      },
      "hasObject": {
-      "id": "Mr. Darcy",
-      "name": "Mr. Darcy"
+      "id": "Mr_Darcy",
+      "name": "Mr_Darcy"
      },
      "exactPlace": "Pemberley House"
     },
@@ -39,13 +39,13 @@
      "hasIntensity": 0.9,
      "quote": "She was overpowered by shame and vexation.",
      "causedBy": {
-      "id": "Unexpected meeting with Mr. Darcy",
+      "id": "Unexpected_meeting_with_Mr_Darcy",
       "description": "Unexpected meeting with Mr. Darcy at Pemberley",
       "name": "Unexpected_meeting_with_Mr_Darcy"
      },
      "hasObject": {
-      "id": "Mr. Darcy",
-      "name": "Mr. Darcy"
+      "id": "Mr_Darcy",
+      "name": "Mr_Darcy"
      },
      "exactPlace": "Pemberley House"
     },
@@ -54,13 +54,13 @@
      "hasIntensity": 0.7,
      "quote": "she longed to know what at that moment was passing in his mind",
      "causedBy": {
-      "id": "Unexpected meeting with Mr. Darcy",
+      "id": "Unexpected_meeting_with_Mr_Darcy",
       "description": "Unexpected meeting with Mr. Darcy at Pemberley",
       "name": "Unexpected_meeting_with_Mr_Darcy"
      },
      "hasObject": {
-      "id": "Mr. Darcy",
-      "name": "Mr. Darcy"
+      "id": "Mr_Darcy",
+      "name": "Mr_Darcy"
      },
      "exactPlace": "Pemberley House"
     }
@@ -69,31 +69,34 @@
  ],
  "Places": [
   {
-   "id": "Pemberley House",
+   "id": "Pemberley_House",
    "name": "Pemberley_House",
    "description": "The estate of Mr. Darcy"
   }
  ],
  "Events": [
   {
-   "id": "Meeting Mr. Darcy unexpectedly",
+   "id": "Meeting_Mr_Darcy_unexpectedly",
    "name": "Meeting_Mr_Darcy_unexpectedly",
    "takePlaceAt": {
-    "id": "Pemberley House"
+    "id": "Pemberley_House",
+    "name": "Pemberley_House"
    }
   },
   {
-   "id": "Housekeeper's praise of Mr. Darcy",
+   "id": "Housekeeper_s_praise_of_Mr_Darcy",
    "name": "Housekeeper_s_praise_of_Mr_Darcy",
    "takePlaceAt": {
-    "id": "Pemberley House"
+    "id": "Pemberley_House",
+    "name": "Pemberley_House"
    }
   },
   {
-   "id": "Unexpected meeting with Mr. Darcy",
+   "id": "Unexpected_meeting_with_Mr_Darcy",
    "name": "Unexpected_meeting_with_Mr_Darcy",
    "takePlaceAt": {
-    "id": "Pemberley House"
+    "id": "Pemberley_House",
+    "name": "Pemberley_House"
    }
   }
  ]

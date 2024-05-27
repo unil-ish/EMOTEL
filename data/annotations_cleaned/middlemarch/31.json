@@ -14,7 +14,7 @@
      },
      "hasObject": {
       "id": "object1",
-      "name": "Town of Middlemarch"
+      "name": "Town_of_Middlemarch"
      },
      "place": {
       "id": "place1",
@@ -31,7 +31,7 @@
      },
      "hasObject": {
       "id": "object2",
-      "name": "Sense of obligation to Bulstrode"
+      "name": "Sense_of_obligation_to_Bulstrode"
      },
      "place": {
       "id": "place1",
@@ -48,7 +48,7 @@
      },
      "hasObject": {
       "id": "object3",
-      "name": "Town of Middlemarch"
+      "name": "Town_of_Middlemarch"
      },
      "place": {
       "id": "place1",
@@ -71,7 +71,7 @@
      },
      "hasObject": {
       "id": "object4",
-      "name": "Mrs. Bulstrode"
+      "name": "Mrs_Bulstrode"
      },
      "place": {
       "id": "place2",
@@ -94,7 +94,7 @@
      },
      "hasObject": {
       "id": "object5",
-      "name": "Association with Bulstrode"
+      "name": "Association_with_Bulstrode"
      },
      "place": {
       "id": "place1",
@@ -119,35 +119,40 @@
    "id": "event1",
    "name": "Feeling_stigmatized_and_misunderstood_by_the_town",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   },
   {
    "id": "event2",
    "name": "Decision_to_face_the_situation_with_defiance",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   },
   {
    "id": "event3",
    "name": "Decision_to_stay_in_Middlemarch_despite_the_town_s_opinion",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   },
   {
    "id": "event4",
    "name": "Sympathy_towards_Mrs_Bulstrode_s_situation",
    "takePlaceAt": {
-    "id": "place2"
+    "id": "place2",
+    "name": "place2"
    }
   },
   {
    "id": "event5",
    "name": "Being_associated_with_her_husband_s_situation",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   }
  ]

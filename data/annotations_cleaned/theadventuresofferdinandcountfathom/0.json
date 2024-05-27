@@ -14,7 +14,7 @@
      },
      "hasObject": {
       "id": "object1",
-      "name": "Superiority in qualifications"
+      "name": "Superiority_in_qualifications"
      },
      "place": {
       "id": "place1",
@@ -31,7 +31,7 @@
      },
      "hasObject": {
       "id": "object2",
-      "name": "Prospect of enjoying a companion"
+      "name": "Prospect_of_enjoying_a_companion"
      },
      "place": {
       "id": "place2",
@@ -48,7 +48,7 @@
      },
      "hasObject": {
       "id": "object3",
-      "name": "Eclipsing rivals at school"
+      "name": "Eclipsing_rivals_at_school"
      },
      "place": {
       "id": "place3",
@@ -80,30 +80,36 @@
    "id": "event1",
    "name": "Being_conscious_of_his_own_superiority",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    },
    "hasParticipant": {
-    "id": "fc1"
+    "id": "fc1",
+    "name": "fc1"
    }
   },
   {
    "id": "event2",
    "name": "Being_presented_to_the_Countess",
    "takePlaceAt": {
-    "id": "place2"
+    "id": "place2",
+    "name": "place2"
    },
    "hasParticipant": {
-    "id": "fc1"
+    "id": "fc1",
+    "name": "fc1"
    }
   },
   {
    "id": "event3",
    "name": "Ambition_to_excel_at_school",
    "takePlaceAt": {
-    "id": "place3"
+    "id": "place3",
+    "name": "place3"
    },
    "hasParticipant": {
-    "id": "fc1"
+    "id": "fc1",
+    "name": "fc1"
    }
   }
  ]

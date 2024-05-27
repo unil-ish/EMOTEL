@@ -1,18 +1,19 @@
 {
  "FictionalCharacters": [
   {
-   "id": "Rosamond Vincy",
+   "id": "Rosamond_Vincy",
    "feels": [
     {
      "name": "Trust",
      "hasIntensity": 0.8,
      "quote": "Rosamond, with her gravest mildness; 'I would not tell mamma for the world.'",
      "causedBy": {
-      "id": "Uncle's inappropriate introduction",
+      "id": "Uncle_s_inappropriate_introduction",
       "name": "Uncle_s_inappropriate_introduction"
      },
      "hasObject": {
-      "id": "Uncle"
+      "id": "Uncle",
+      "name": "Uncle"
      },
      "exactPlace": "Sitting room"
     },
@@ -21,11 +22,12 @@
      "hasIntensity": 0.7,
      "quote": "Rosamond blushed deeply and felt a certain astonishment.",
      "causedBy": {
-      "id": "Meeting Lydgate",
+      "id": "Meeting_Lydgate",
       "name": "Meeting_Lydgate"
      },
      "hasObject": {
-      "id": "Lydgate"
+      "id": "Lydgate",
+      "name": "Lydgate"
      },
      "exactPlace": "Sitting room"
     },
@@ -34,11 +36,12 @@
      "hasIntensity": 0.9,
      "quote": "Rosamond could not doubt that this was the great epoch of her life.",
      "causedBy": {
-      "id": "Meeting Lydgate",
+      "id": "Meeting_Lydgate",
       "name": "Meeting_Lydgate"
      },
      "hasObject": {
-      "id": "Lydgate"
+      "id": "Lydgate",
+      "name": "Lydgate"
      },
      "exactPlace": "Sitting room"
     },
@@ -47,11 +50,12 @@
      "hasIntensity": 0.8,
      "quote": "Rosamond, though no older than Mary, was rather used to being fallen in love with; but she, for her part, had remained indifferent and fastidiously critical towards both fresh sprig and faded bachelor.",
      "causedBy": {
-      "id": "Imagining her future with Lydgate",
+      "id": "Imagining_her_future_with_Lydgate",
       "name": "Imagining_her_future_with_Lydgate"
      },
      "hasObject": {
-      "id": "Lydgate"
+      "id": "Lydgate",
+      "name": "Lydgate"
      },
      "exactPlace": "On the way home"
     }
@@ -59,18 +63,19 @@
    "name": "Rosamond_Vincy"
   },
   {
-   "id": "Mary Garth",
+   "id": "Mary_Garth",
    "feels": [
     {
      "name": "Annoyance",
      "hasIntensity": 0.7,
      "quote": "Mary, from some cause, looked rather out of temper.",
      "causedBy": {
-      "id": "Rosamond's comments",
+      "id": "Rosamond_s_comments",
       "name": "Rosamond_s_comments"
      },
      "hasObject": {
-      "id": "Rosamond"
+      "id": "Rosamond",
+      "name": "Rosamond"
      },
      "exactPlace": "Sitting room"
     },
@@ -79,11 +84,12 @@
      "hasIntensity": 0.8,
      "quote": "Mary spoke from a girlish impulse which got the better of her judgment.",
      "causedBy": {
-      "id": "Rosamond's comments",
+      "id": "Rosamond_s_comments",
       "name": "Rosamond_s_comments"
      },
      "hasObject": {
-      "id": "Rosamond"
+      "id": "Rosamond",
+      "name": "Rosamond"
      },
      "exactPlace": "Sitting room"
     }
@@ -91,18 +97,19 @@
    "name": "Mary_Garth"
   },
   {
-   "id": "Fred Vincy",
+   "id": "Fred_Vincy",
    "feels": [
     {
      "name": "Fear",
      "hasIntensity": 0.7,
      "quote": "Fred, who had his own reasons for not being in the best spirits, and wanted to get away.",
      "causedBy": {
-      "id": "Being in the presence of Lydgate",
+      "id": "Being_in_the_presence_of_Lydgate",
       "name": "Being_in_the_presence_of_Lydgate"
      },
      "hasObject": {
-      "id": "Lydgate"
+      "id": "Lydgate",
+      "name": "Lydgate"
      },
      "exactPlace": "Sitting room"
     }
@@ -110,18 +117,19 @@
    "name": "Fred_Vincy"
   },
   {
-   "id": "Mr. Lydgate",
+   "id": "Mr_Lydgate",
    "feels": [
     {
      "name": "Admiration",
      "hasIntensity": 0.9,
      "quote": "He reached the whip before she did, and turned to present it to her. She bowed and looked at him: he of course was looking at her, and their eyes met with that peculiar meeting which is never arrived at by effort, but seems like a sudden divine clearance of haze.",
      "causedBy": {
-      "id": "Seeing Rosamond",
+      "id": "Seeing_Rosamond",
       "name": "Seeing_Rosamond"
      },
      "hasObject": {
-      "id": "Rosamond"
+      "id": "Rosamond",
+      "name": "Rosamond"
      },
      "exactPlace": "Sitting room"
     }
@@ -131,12 +139,12 @@
  ],
  "Places": [
   {
-   "id": "Sitting room",
+   "id": "Sitting_room",
    "name": "Sitting_Room",
    "description": "The room where the characters gathered and interacted."
   },
   {
-   "id": "On the way home",
+   "id": "On_the_way_home",
    "name": "On_the_way_home",
    "description": "The setting where Rosamond was contemplating her future."
   }

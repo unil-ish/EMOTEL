@@ -12,8 +12,8 @@
       "name": "Loneliness_and_isolation"
      },
      "hasObject": {
-      "id": "mast-head",
-      "name": "Mast-head"
+      "id": "masthead",
+      "name": "Masthead"
      },
      "exactPlace": "Mast-head"
     },
@@ -26,8 +26,8 @@
       "name": "Loneliness_and_isolation"
      },
      "hasObject": {
-      "id": "mast-head",
-      "name": "Mast-head"
+      "id": "masthead",
+      "name": "Masthead"
      },
      "exactPlace": "Mast-head"
     }
@@ -35,7 +35,7 @@
    "name": "Ahab"
   },
   {
-   "id": "Dough-Boy",
+   "id": "DoughBoy",
    "feels": [
     {
      "name": "Fear",
@@ -77,7 +77,7 @@
  ],
  "Places": [
   {
-   "id": "mast-head",
+   "id": "masthead",
    "name": "Masthead",
    "description": "The top of the mast on a ship"
   },
@@ -92,37 +92,25 @@
    "id": "loneliness",
    "name": "Loneliness_and_isolation",
    "takePlaceAt": {
-    "id": "mast-head"
-   },
-   "hasParticipant": [
-    {
-     "id": "Ahab"
-    }
-   ]
+    "id": "masthead",
+    "name": "masthead"
+   }
   },
   {
    "id": "intimidation",
    "name": "Intimidation_by_the_harpooneers",
    "takePlaceAt": {
-    "id": "Cabin"
-   },
-   "hasParticipant": [
-    {
-     "id": "Dough-Boy"
-    }
-   ]
+    "id": "Cabin",
+    "name": "Cabin"
+   }
   },
   {
    "id": "satisfaction",
    "name": "Satisfaction_with_the_meal",
    "takePlaceAt": {
-    "id": "Cabin"
-   },
-   "hasParticipant": [
-    {
-     "id": "Queequeg"
-    }
-   ]
+    "id": "Cabin",
+    "name": "Cabin"
+   }
   }
  ]
 }

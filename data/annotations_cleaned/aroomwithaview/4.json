@@ -1,7 +1,7 @@
 {
  "FictionalCharacters": [
   {
-   "id": "Lucy Honeychurch",
+   "id": "Lucy_Honeychurch",
    "feels": [
     {
      "name": "Anxiety",
@@ -13,7 +13,7 @@
      },
      "hasObject": {
       "id": "object1",
-      "name": "Italy, Sacred Lake, Windy Corner"
+      "name": "Italy_Sacred_Lake_Windy_Corner"
      },
      "exactPlace": "Italy, Sacred Lake, Windy Corner"
     },
@@ -27,7 +27,7 @@
      },
      "hasObject": {
       "id": "object2",
-      "name": "George Emerson"
+      "name": "George_Emerson"
      },
      "exactPlace": "Rectory"
     },
@@ -41,7 +41,7 @@
      },
      "hasObject": {
       "id": "object3",
-      "name": "Sacred Lake, Windy Corner"
+      "name": "Sacred_Lake_Windy_Corner"
      },
      "exactPlace": "Sacred Lake, Windy Corner"
     }
@@ -75,7 +75,7 @@
      },
      "hasObject": {
       "id": "object5",
-      "name": "Miss Bartlett"
+      "name": "Miss_Bartlett"
      },
      "exactPlace": "Dining room"
     }
@@ -90,12 +90,12 @@
    "description": "Setting for memories and ghosts"
   },
   {
-   "id": "Sacred Lake",
+   "id": "Sacred_Lake",
    "name": "Sacred_Lake",
    "description": "Location of past experiences"
   },
   {
-   "id": "Windy Corner",
+   "id": "Windy_Corner",
    "name": "Windy_Corner",
    "description": "Familiar place with upcoming changes"
   },
@@ -105,7 +105,7 @@
    "description": "Meeting place with George"
   },
   {
-   "id": "Dining room",
+   "id": "Dining_room",
    "name": "Dining_room",
    "description": "Location of discussion about Miss Bartlett"
   }
@@ -115,35 +115,40 @@
    "id": "event1",
    "name": "Return_of_ghosts_and_memories",
    "takePlaceAt": {
-    "id": "Italy"
+    "id": "Italy",
+    "name": "Italy"
    }
   },
   {
    "id": "event2",
    "name": "Wishing_to_remain_near_George",
    "takePlaceAt": {
-    "id": "Rectory"
+    "id": "Rectory",
+    "name": "Rectory"
    }
   },
   {
    "id": "event3",
    "name": "Changes_in_familiar_places",
    "takePlaceAt": {
-    "id": "Sacred Lake, Windy Corner"
+    "id": "Sacred_Lake_Windy_Corner",
+    "name": "Sacred_Lake_Windy_Corner"
    }
   },
   {
    "id": "event4",
    "name": "Discussion_about_Miss_Bartlett",
    "takePlaceAt": {
-    "id": "Dining room"
+    "id": "Dining_room",
+    "name": "Dining_room"
    }
   },
   {
    "id": "event5",
    "name": "Discussion_about_Miss_Bartlett",
    "takePlaceAt": {
-    "id": "Dining room"
+    "id": "Dining_room",
+    "name": "Dining_room"
    }
   }
  ]

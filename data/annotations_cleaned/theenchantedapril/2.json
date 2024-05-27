@@ -14,7 +14,7 @@
      },
      "hasObject": {
       "id": "object1",
-      "name": "Feeling of completeness"
+      "name": "Feeling_of_completeness"
      },
      "place": {
       "id": "place1",
@@ -31,7 +31,7 @@
      },
      "hasObject": {
       "id": "object2",
-      "name": "Feeling of serenity"
+      "name": "Feeling_of_serenity"
      },
      "place": {
       "id": "place2",
@@ -54,7 +54,7 @@
      },
      "hasObject": {
       "id": "object3",
-      "name": "Beauty of the surroundings"
+      "name": "Beauty_of_the_surroundings"
      },
      "place": {
       "id": "place3",
@@ -77,7 +77,7 @@
      },
      "hasObject": {
       "id": "object4",
-      "name": "Interaction with the cook"
+      "name": "Interaction_with_the_cook"
      },
      "place": {
       "id": "place4",

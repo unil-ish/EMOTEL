@@ -14,7 +14,7 @@
      },
      "hasObject": {
       "id": "object1",
-      "name": "Actions leading to grief"
+      "name": "Actions_leading_to_grief"
      },
      "place": {
       "id": "place1",
@@ -48,7 +48,7 @@
      },
      "hasObject": {
       "id": "object3",
-      "name": "Loved ones"
+      "name": "Loved_ones"
      },
      "place": {
       "id": "place2",

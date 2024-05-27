@@ -1,7 +1,7 @@
 {
  "FictionalCharacters": [
   {
-   "id": "Dorothea Brooke",
+   "id": "Dorothea_Brooke",
    "feels": [
     {
      "name": "Trust",
@@ -12,8 +12,8 @@
       "name": "Conversation_with_Mr_Casaubon"
      },
      "hasObject": {
-      "id": "Mr. Casaubon",
-      "name": "Mr. Casaubon's mind"
+      "id": "Mr_Casaubon",
+      "name": "Mr_Casaubon_s_mind"
      },
      "exactPlace": "During a conversation with Mr. Casaubon"
     },
@@ -26,8 +26,8 @@
       "name": "Conversation_with_Mr_Casaubon"
      },
      "hasObject": {
-      "id": "Mr. Casaubon's work",
-      "name": "Mr. Casaubon's work"
+      "id": "Mr_Casaubon_s_work",
+      "name": "Mr_Casaubon_s_work"
      },
      "exactPlace": "During a conversation with Mr. Casaubon"
     },
@@ -41,7 +41,7 @@
      },
      "hasObject": {
       "id": "Future",
-      "name": "Vision of a possible future"
+      "name": "Vision_of_a_possible_future"
      },
      "exactPlace": "After Mr. Casaubon left for his Rectory"
     }
@@ -49,7 +49,7 @@
    "name": "Dorothea_Brooke"
   },
   {
-   "id": "Sir James Chettam",
+   "id": "Sir_James_Chettam",
    "feels": [
     {
      "name": "Interest",
@@ -60,8 +60,8 @@
       "name": "Conversation_with_Dorothea"
      },
      "hasObject": {
-      "id": "Dorothea Brooke",
-      "name": "Dorothea Brooke"
+      "id": "Dorothea_Brooke",
+      "name": "Dorothea_Brooke"
      },
      "exactPlace": "During a conversation with Dorothea"
     }
@@ -81,16 +81,9 @@
    "id": "conversation",
    "name": "Conversation_with_Mr_Casaubon",
    "takePlaceAt": {
-    "id": "Tipton"
-   },
-   "hasParticipant": [
-    {
-     "id": "Dorothea Brooke"
-    },
-    {
-     "id": "Mr. Casaubon"
-    }
-   ]
+    "id": "Tipton",
+    "name": "Tipton"
+   }
   }
  ]
 }

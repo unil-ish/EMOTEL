@@ -14,7 +14,7 @@
      },
      "hasObject": {
       "id": "object1",
-      "name": "Playing games of chance"
+      "name": "Playing_games_of_chance"
      },
      "place": {
       "id": "place1",
@@ -31,7 +31,7 @@
      },
      "hasObject": {
       "id": "object2",
-      "name": "Alienation of friends"
+      "name": "Alienation_of_friends"
      },
      "place": {
       "id": "place2",
@@ -48,7 +48,7 @@
      },
      "hasObject": {
       "id": "object3",
-      "name": "Excessive charges"
+      "name": "Excessive_charges"
      },
      "place": {
       "id": "place3",
@@ -77,30 +77,36 @@
    "id": "circumstance1",
    "name": "Being_prevailed_upon_to_play_games_of_chance",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    },
    "hasParticipant": {
-    "id": "Fathom"
+    "id": "Fathom",
+    "name": "Fathom"
    }
   },
   {
    "id": "circumstance2",
    "name": "Alienation_of_friends",
    "takePlaceAt": {
-    "id": "place2"
+    "id": "place2",
+    "name": "place2"
    },
    "hasParticipant": {
-    "id": "Fathom"
+    "id": "Fathom",
+    "name": "Fathom"
    }
   },
   {
    "id": "circumstance3",
    "name": "Excessive_charges_by_the_solicitor",
    "takePlaceAt": {
-    "id": "place3"
+    "id": "place3",
+    "name": "place3"
    },
    "hasParticipant": {
-    "id": "Fathom"
+    "id": "Fathom",
+    "name": "Fathom"
    }
   }
  ]

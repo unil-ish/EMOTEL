@@ -61,7 +61,7 @@
      },
      "hasObject": {
       "id": "object4",
-      "name": "Ahab's dream"
+      "name": "Ahab_s_dream"
      },
      "place": "On the deck"
     }
@@ -81,28 +81,32 @@
    "id": "event1",
    "name": "Interaction_with_Stubb",
    "takePlaceAt": {
-    "id": "deck"
+    "id": "deck",
+    "name": "deck"
    }
   },
   {
    "id": "event2",
    "name": "Reflecting_on_Ahab_s_behavior",
    "takePlaceAt": {
-    "id": "deck"
+    "id": "deck",
+    "name": "deck"
    }
   },
   {
    "id": "event3",
    "name": "Spotting_whales",
    "takePlaceAt": {
-    "id": "deck"
+    "id": "deck",
+    "name": "deck"
    }
   },
   {
    "id": "event4",
    "name": "Reflecting_on_Ahab_s_dream",
    "takePlaceAt": {
-    "id": "deck"
+    "id": "deck",
+    "name": "deck"
    }
   }
  ]

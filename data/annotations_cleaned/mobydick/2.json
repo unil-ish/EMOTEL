@@ -65,7 +65,7 @@
      },
      "hasObject": {
       "id": "object4",
-      "name": "Describing the sea-storm"
+      "name": "Describing_the_seastorm"
      },
      "place": {
       "id": "place1",
@@ -176,56 +176,64 @@
    "id": "event1",
    "name": "Ascending_the_pulpit",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   },
   {
    "id": "event2",
    "name": "Reputation_for_sincerity_and_sanctity",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   },
   {
    "id": "event3",
    "name": "Offering_a_prayer",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   },
   {
    "id": "event4",
    "name": "Describing_Jonahs_seastorm",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   },
   {
    "id": "event5",
    "name": "Embracing_and_sleeping",
    "takePlaceAt": {
-    "id": "place2"
+    "id": "place2",
+    "name": "place2"
    }
   },
   {
    "id": "event6",
    "name": "Watching_him",
    "takePlaceAt": {
-    "id": "place3"
+    "id": "place3",
+    "name": "place3"
    }
   },
   {
    "id": "event7",
    "name": "Resolving_to_accompany",
    "takePlaceAt": {
-    "id": "place4"
+    "id": "place4",
+    "name": "place4"
    }
   },
   {
    "id": "event8",
    "name": "Gliding_down_the_river",
    "takePlaceAt": {
-    "id": "place5"
+    "id": "place5",
+    "name": "place5"
    }
   }
  ]

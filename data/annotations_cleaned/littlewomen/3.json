@@ -48,7 +48,7 @@
      },
      "hasObject": {
       "id": "object2",
-      "name": "Mrs. Moffat's fibs"
+      "name": "Mrs_Moffat_s_fibs"
      },
      "exactPlace": {
       "id": "place2",
@@ -65,7 +65,7 @@
      },
      "hasObject": {
       "id": "object3",
-      "name": "Laurie's blunt reply"
+      "name": "Laurie_s_blunt_reply"
      },
      "exactPlace": {
       "id": "place3",
@@ -82,7 +82,7 @@
      },
      "hasObject": {
       "id": "object4",
-      "name": "Tight dress"
+      "name": "Tight_dress"
      },
      "exactPlace": {
       "id": "place4",
@@ -99,7 +99,7 @@
      },
      "hasObject": {
       "id": "object5",
-      "name": "Laurie's apology"
+      "name": "Laurie_s_apology"
      },
      "exactPlace": {
       "id": "place5",
@@ -141,35 +141,40 @@
    "id": "event1",
    "name": "Overhearing_gossip",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   },
   {
    "id": "event2",
    "name": "Mrs_Moffat_s_fibs",
    "takePlaceAt": {
-    "id": "place2"
+    "id": "place2",
+    "name": "place2"
    }
   },
   {
    "id": "event3",
    "name": "Laurie_s_blunt_reply",
    "takePlaceAt": {
-    "id": "place3"
+    "id": "place3",
+    "name": "place3"
    }
   },
   {
    "id": "event4",
    "name": "Tight_dress",
    "takePlaceAt": {
-    "id": "place4"
+    "id": "place4",
+    "name": "place4"
    }
   },
   {
    "id": "event5",
    "name": "Laurie_s_apology",
    "takePlaceAt": {
-    "id": "place5"
+    "id": "place5",
+    "name": "place5"
    }
   }
  ]

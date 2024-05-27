@@ -75,28 +75,32 @@
    "id": "event1",
    "name": "Lydgate_s_comforting_words_and_actions",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   },
   {
    "id": "event2",
    "name": "Lydgate_s_visit",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   },
   {
    "id": "event3",
    "name": "Lydgate_s_unexpected_visit",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   },
   {
    "id": "event4",
    "name": "Fear_of_Lydgate_s_indifference",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   }
  ]

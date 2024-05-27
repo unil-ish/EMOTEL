@@ -13,7 +13,7 @@
      },
      "hasObject": {
       "id": "object1",
-      "name": "Mrs. Fisher"
+      "name": "Mrs_Fisher"
      },
      "place": {
       "id": "place1",
@@ -30,7 +30,7 @@
      },
      "hasObject": {
       "id": "object2",
-      "name": "Mrs. Fisher"
+      "name": "Mrs_Fisher"
      },
      "place": {
       "id": "place2",
@@ -70,7 +70,7 @@
      },
      "hasObject": {
       "id": "object4",
-      "name": "Modern young women"
+      "name": "Modern_young_women"
      },
      "place": {
       "id": "place4",

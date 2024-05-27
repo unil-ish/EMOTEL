@@ -1,7 +1,7 @@
 {
  "FictionalCharacters": [
   {
-   "id": "Dorothea Brooke",
+   "id": "Dorothea_Brooke",
    "feels": [
     {
      "name": "Gratitude",
@@ -12,8 +12,8 @@
       "name": "Mr_Casaubon_s_proposal"
      },
      "hasObject": {
-      "id": "Mr. Casaubon",
-      "name": "Mr. Casaubon"
+      "id": "Mr_Casaubon",
+      "name": "Mr_Casaubon"
      },
      "place": "Reading Mr. Casaubon's letter"
     },
@@ -26,8 +26,8 @@
       "name": "Mr_Casaubon_s_proposal"
      },
      "hasObject": {
-      "id": "Mr. Casaubon",
-      "name": "Mr. Casaubon"
+      "id": "Mr_Casaubon",
+      "name": "Mr_Casaubon"
      },
      "place": "Reading Mr. Casaubon's letter"
     },
@@ -40,8 +40,8 @@
       "name": "Accepting_Mr_Casaubon_s_proposal"
      },
      "hasObject": {
-      "id": "Mr. Casaubon",
-      "name": "Mr. Casaubon"
+      "id": "Mr_Casaubon",
+      "name": "Mr_Casaubon"
      },
      "place": "After accepting Mr. Casaubon's proposal"
     }
@@ -49,7 +49,7 @@
    "name": "Dorothea_Brooke"
   },
   {
-   "id": "Celia Brooke",
+   "id": "Celia_Brooke",
    "feels": [
     {
      "name": "Surprise",
@@ -60,8 +60,8 @@
       "name": "Learning_about_Dorothea_s_engagement_to_Mr_Casaubon"
      },
      "hasObject": {
-      "id": "Dorothea Brooke",
-      "name": "Dorothea Brooke"
+      "id": "Dorothea_Brooke",
+      "name": "Dorothea_Brooke"
      },
      "place": "Learning about Dorothea's engagement to Mr. Casaubon"
     },
@@ -74,8 +74,8 @@
       "name": "Learning_about_Dorothea_s_engagement_to_Mr_Casaubon"
      },
      "hasObject": {
-      "id": "Dorothea Brooke",
-      "name": "Dorothea Brooke"
+      "id": "Dorothea_Brooke",
+      "name": "Dorothea_Brooke"
      },
      "place": "Learning about Dorothea's engagement to Mr. Casaubon"
     },
@@ -88,8 +88,8 @@
       "name": "Learning_about_Dorothea_s_engagement_to_Mr_Casaubon"
      },
      "hasObject": {
-      "id": "Dorothea Brooke",
-      "name": "Dorothea Brooke"
+      "id": "Dorothea_Brooke",
+      "name": "Dorothea_Brooke"
      },
      "place": "Learning about Dorothea's engagement to Mr. Casaubon"
     }
@@ -99,17 +99,17 @@
  ],
  "Places": [
   {
-   "id": "Reading Mr. Casaubon's letter",
+   "id": "Reading_Mr_Casaubon_s_letter",
    "name": "Reading_Mr_Casaubon_s_letter",
    "description": "Dorothea reads Mr. Casaubon's proposal letter."
   },
   {
-   "id": "After accepting Mr. Casaubon's proposal",
+   "id": "After_accepting_Mr_Casaubon_s_proposal",
    "name": "After_accepting_Mr_Casaubon_s_proposal",
    "description": "Dorothea feels very happy after accepting Mr. Casaubon's proposal."
   },
   {
-   "id": "Learning about Dorothea's engagement to Mr. Casaubon",
+   "id": "Learning_about_Dorothea_s_engagement_to_Mr_Casaubon",
    "name": "Learning_about_Dorothea_s_engagement_to_Mr_Casaubon",
    "description": "Celia learns about Dorothea's engagement to Mr. Casaubon."
   }
@@ -119,60 +119,72 @@
    "id": "event1",
    "name": "Mr_Casaubon_s_proposal",
    "takePlaceAt": {
-    "id": "Reading Mr. Casaubon's letter"
+    "id": "Reading_Mr_Casaubon_s_letter",
+    "name": "Reading_Mr_Casaubon_s_letter"
    },
    "hasParticipant": {
-    "id": "Dorothea Brooke"
+    "id": "Dorothea_Brooke",
+    "name": "Dorothea_Brooke"
    }
   },
   {
    "id": "event2",
    "name": "Mr_Casaubon_s_proposal",
    "takePlaceAt": {
-    "id": "Reading Mr. Casaubon's letter"
+    "id": "Reading_Mr_Casaubon_s_letter",
+    "name": "Reading_Mr_Casaubon_s_letter"
    },
    "hasParticipant": {
-    "id": "Dorothea Brooke"
+    "id": "Dorothea_Brooke",
+    "name": "Dorothea_Brooke"
    }
   },
   {
    "id": "event3",
    "name": "Accepting_Mr_Casaubon_s_proposal",
    "takePlaceAt": {
-    "id": "After accepting Mr. Casaubon's proposal"
+    "id": "After_accepting_Mr_Casaubon_s_proposal",
+    "name": "After_accepting_Mr_Casaubon_s_proposal"
    },
    "hasParticipant": {
-    "id": "Dorothea Brooke"
+    "id": "Dorothea_Brooke",
+    "name": "Dorothea_Brooke"
    }
   },
   {
    "id": "event4",
    "name": "Learning_about_Dorothea_s_engagement_to_Mr_Casaubon",
    "takePlaceAt": {
-    "id": "Learning about Dorothea's engagement to Mr. Casaubon"
+    "id": "Learning_about_Dorothea_s_engagement_to_Mr_Casaubon",
+    "name": "Learning_about_Dorothea_s_engagement_to_Mr_Casaubon"
    },
    "hasParticipant": {
-    "id": "Celia Brooke"
+    "id": "Celia_Brooke",
+    "name": "Celia_Brooke"
    }
   },
   {
    "id": "event5",
    "name": "Learning_about_Dorothea_s_engagement_to_Mr_Casaubon",
    "takePlaceAt": {
-    "id": "Learning about Dorothea's engagement to Mr. Casaubon"
+    "id": "Learning_about_Dorothea_s_engagement_to_Mr_Casaubon",
+    "name": "Learning_about_Dorothea_s_engagement_to_Mr_Casaubon"
    },
    "hasParticipant": {
-    "id": "Celia Brooke"
+    "id": "Celia_Brooke",
+    "name": "Celia_Brooke"
    }
   },
   {
    "id": "event6",
    "name": "Learning_about_Dorothea_s_engagement_to_Mr_Casaubon",
    "takePlaceAt": {
-    "id": "Learning about Dorothea's engagement to Mr. Casaubon"
+    "id": "Learning_about_Dorothea_s_engagement_to_Mr_Casaubon",
+    "name": "Learning_about_Dorothea_s_engagement_to_Mr_Casaubon"
    },
    "hasParticipant": {
-    "id": "Celia Brooke"
+    "id": "Celia_Brooke",
+    "name": "Celia_Brooke"
    }
   }
  ]

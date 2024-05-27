@@ -104,40 +104,48 @@
    "id": "event1",
    "name": "Losing_the_trumpet",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    },
    "hasParticipant": {
-    "id": "Ahab"
+    "id": "Ahab",
+    "name": "Ahab"
    }
   },
   {
    "id": "event2",
    "name": "Ordering_Steelkilt_to_sweep_the_deck",
    "takePlaceAt": {
-    "id": "place2"
+    "id": "place2",
+    "name": "place2"
    },
    "hasParticipant": {
-    "id": "Ahab"
+    "id": "Ahab",
+    "name": "Ahab"
    }
   },
   {
    "id": "event3",
    "name": "Radney_commanding_Steelkilt_to_sweep_the_deck",
    "takePlaceAt": {
-    "id": "place3"
+    "id": "place3",
+    "name": "place3"
    },
    "hasParticipant": {
-    "id": "Steelkilt"
+    "id": "Steelkilt",
+    "name": "Steelkilt"
    }
   },
   {
    "id": "event4",
    "name": "Radney_shaking_the_hammer_at_Steelkilt",
    "takePlaceAt": {
-    "id": "place4"
+    "id": "place4",
+    "name": "place4"
    },
    "hasParticipant": {
-    "id": "Steelkilt"
+    "id": "Steelkilt",
+    "name": "Steelkilt"
    }
   }
  ]

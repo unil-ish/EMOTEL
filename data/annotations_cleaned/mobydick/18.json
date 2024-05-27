@@ -13,7 +13,7 @@
      },
      "hasObject": {
       "id": "Circumstance1",
-      "name": "Untoward circumstance"
+      "name": "Untoward_circumstance"
      },
      "place": {
       "id": "Ship1",
@@ -30,7 +30,7 @@
      },
      "hasObject": {
       "id": "Circumstance1",
-      "name": "Untoward circumstance"
+      "name": "Untoward_circumstance"
      },
      "place": {
       "id": "Ship1",
@@ -98,21 +98,24 @@
    "id": "Mishap",
    "name": "Luckless_mishap",
    "takePlaceAt": {
-    "id": "Ship1"
+    "id": "Ship1",
+    "name": "Ship1"
    }
   },
   {
    "id": "Success",
    "name": "Success_in_harpooning_the_whale",
    "takePlaceAt": {
-    "id": "Sea1"
+    "id": "Sea1",
+    "name": "Sea1"
    }
   },
   {
    "id": "Observation",
    "name": "Observing_Ahab_s_actions",
    "takePlaceAt": {
-    "id": "Ship1"
+    "id": "Ship1",
+    "name": "Ship1"
    }
   }
  ],

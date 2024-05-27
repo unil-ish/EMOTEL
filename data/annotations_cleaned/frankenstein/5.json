@@ -28,7 +28,7 @@
      },
      "hasObject": {
       "id": "object2",
-      "name": "New creation"
+      "name": "New_creation"
      },
      "exactPlace": "During his journey"
     },
@@ -42,7 +42,7 @@
      },
      "hasObject": {
       "id": "object3",
-      "name": "Events connected with William and Justine"
+      "name": "Events_connected_with_William_and_Justine"
      },
      "exactPlace": "During his journey"
     },
@@ -90,7 +90,7 @@
      },
      "hasObject": {
       "id": "object6",
-      "name": "New scenes of life"
+      "name": "New_scenes_of_life"
      },
      "exactPlace": "During the journey"
     },
@@ -104,7 +104,7 @@
      },
      "hasObject": {
       "id": "object7",
-      "name": "Company of men of talent"
+      "name": "Company_of_men_of_talent"
      },
      "exactPlace": "During the journey"
     },
@@ -118,7 +118,7 @@
      },
      "hasObject": {
       "id": "object8",
-      "name": "Traveller's life"
+      "name": "Traveller_s_life"
      },
      "exactPlace": "During the journey"
     }
@@ -142,56 +142,64 @@
    "id": "event1",
    "name": "Leaving_his_friends_unprotected",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   },
   {
    "id": "event2",
    "name": "Collecting_materials_for_his_new_creation",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   },
   {
    "id": "event3",
    "name": "Reflecting_on_the_events_connected_with_William_and_Justine",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   },
   {
    "id": "event4",
    "name": "Remembrance_of_Henry",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   },
   {
    "id": "event5",
    "name": "Feeling_of_hopelessness",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   },
   {
    "id": "event6",
    "name": "Being_in_new_scenes_of_life",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   },
   {
    "id": "event7",
    "name": "Being_in_the_company_of_men_of_talent",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   },
   {
    "id": "event8",
    "name": "Traveller_s_life",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   }
  ]

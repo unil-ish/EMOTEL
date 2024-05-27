@@ -1,7 +1,7 @@
 {
  "FictionalCharacters": [
   {
-   "id": "Dorothea Brooke",
+   "id": "Dorothea_Brooke",
    "feels": [
     {
      "name": "Trust",
@@ -13,7 +13,7 @@
      },
      "hasObject": {
       "id": "object1",
-      "name": "Freshitt Hall"
+      "name": "Freshitt_Hall"
      },
      "exactPlace": {
       "id": "place1",
@@ -30,7 +30,7 @@
      },
      "hasObject": {
       "id": "object2",
-      "name": "Celia's statement"
+      "name": "Celia_s_statement"
      },
      "exactPlace": {
       "id": "place2",
@@ -47,7 +47,7 @@
      },
      "hasObject": {
       "id": "object3",
-      "name": "Celia's revelation"
+      "name": "Celia_s_revelation"
      },
      "exactPlace": {
       "id": "place3",
@@ -64,7 +64,7 @@
      },
      "hasObject": {
       "id": "object4",
-      "name": "Uncle's departure"
+      "name": "Uncle_s_departure"
      },
      "exactPlace": {
       "id": "place4",
@@ -81,7 +81,7 @@
      },
      "hasObject": {
       "id": "object5",
-      "name": "Dorothea's emotional turmoil"
+      "name": "Dorothea_s_emotional_turmoil"
      },
      "exactPlace": {
       "id": "place5",

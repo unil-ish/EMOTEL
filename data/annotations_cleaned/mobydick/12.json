@@ -14,7 +14,7 @@
      },
      "hasObject": {
       "id": "object1",
-      "name": "Moby Dick"
+      "name": "Moby_Dick"
      },
      "place": "On deck"
     }
@@ -54,7 +54,7 @@
      },
      "hasObject": {
       "id": "object3",
-      "name": "Stubb's reprimand"
+      "name": "Stubb_s_reprimand"
      },
      "place": "On deck"
     }
@@ -72,30 +72,36 @@
    "id": "event1",
    "name": "Moby_Dick_still_to_be_slain",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    },
    "hasParticipant": {
-    "id": "fc1"
+    "id": "fc1",
+    "name": "fc1"
    }
   },
   {
    "id": "event2",
    "name": "Conquest",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    },
    "hasParticipant": {
-    "id": "fc2"
+    "id": "fc2",
+    "name": "fc2"
    }
   },
   {
    "id": "event3",
    "name": "Stubb_s_reprimand",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    },
    "hasParticipant": {
-    "id": "fc3"
+    "id": "fc3",
+    "name": "fc3"
    }
   }
  ]

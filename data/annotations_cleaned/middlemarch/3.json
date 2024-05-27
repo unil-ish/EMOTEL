@@ -1,7 +1,7 @@
 {
  "FictionalCharacters": [
   {
-   "id": "Dorothea Brooke",
+   "id": "Dorothea_Brooke",
    "feels": [
     {
      "name": "Trust",
@@ -13,7 +13,7 @@
      },
      "hasObject": {
       "id": "object1",
-      "name": "Home of her wifehood"
+      "name": "Home_of_her_wifehood"
      },
      "place": {
       "id": "place1",
@@ -30,7 +30,7 @@
      },
      "hasObject": {
       "id": "object2",
-      "name": "Moving away"
+      "name": "Moving_away"
      },
      "place": {
       "id": "place2",
@@ -64,7 +64,7 @@
      },
      "hasObject": {
       "id": "object4",
-      "name": "Unimportance of Miss Brooke's mind"
+      "name": "Unimportance_of_Miss_Brooke_s_mind"
      },
      "place": {
       "id": "place4",
@@ -75,7 +75,7 @@
    "name": "Dorothea_Brooke"
   },
   {
-   "id": "Mr. Casaubon",
+   "id": "Mr_Casaubon",
    "feels": [
     {
      "name": "Annoyance",
@@ -87,7 +87,7 @@
      },
      "hasObject": {
       "id": "object5",
-      "name": "Feeling of annoyance"
+      "name": "Feeling_of_annoyance"
      },
      "place": {
       "id": "place5",
@@ -104,7 +104,7 @@
      },
      "hasObject": {
       "id": "object6",
-      "name": "Not winning delight"
+      "name": "Not_winning_delight"
      },
      "place": {
       "id": "place6",
@@ -121,7 +121,7 @@
      },
      "hasObject": {
       "id": "object7",
-      "name": "Unimportance of Miss Brooke's mind"
+      "name": "Unimportance_of_Miss_Brooke_s_mind"
      },
      "place": {
       "id": "place7",
@@ -132,7 +132,7 @@
    "name": "Mr_Casaubon"
   },
   {
-   "id": "Mr. Lydgate",
+   "id": "Mr_Lydgate",
    "feels": [
     {
      "name": "Fascination",
@@ -144,7 +144,7 @@
      },
      "hasObject": {
       "id": "object8",
-      "name": "Woman strikingly different from Miss Brooke"
+      "name": "Woman_strikingly_different_from_Miss_Brooke"
      },
      "place": {
       "id": "place8",
@@ -202,56 +202,64 @@
    "id": "event1",
    "name": "Being_asked_about_an_alteration_in_the_house",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   },
   {
    "id": "event2",
    "name": "Having_a_reason_to_move_away",
    "takePlaceAt": {
-    "id": "place2"
+    "id": "place2",
+    "name": "place2"
    }
   },
   {
    "id": "event3",
    "name": "Convincing_herself_that_Mr_Casaubon_was_right",
    "takePlaceAt": {
-    "id": "place3"
+    "id": "place3",
+    "name": "place3"
    }
   },
   {
    "id": "event4",
    "name": "Realizing_the_unimportance_of_Miss_Brooke_s_mind",
    "takePlaceAt": {
-    "id": "place4"
+    "id": "place4",
+    "name": "place4"
    }
   },
   {
    "id": "event5",
    "name": "Hearing_the_words_I_should_feel_more_at_liberty_",
    "takePlaceAt": {
-    "id": "place5"
+    "id": "place5",
+    "name": "place5"
    }
   },
   {
    "id": "event6",
    "name": "Realizing_he_had_not_won_delight",
    "takePlaceAt": {
-    "id": "place6"
+    "id": "place6",
+    "name": "place6"
    }
   },
   {
    "id": "event7",
    "name": "Realizing_the_unimportance_of_Miss_Brooke_s_mind",
    "takePlaceAt": {
-    "id": "place7"
+    "id": "place7",
+    "name": "place7"
    }
   },
   {
    "id": "event8",
    "name": "Being_fascinated_by_a_woman_strikingly_different_from_Miss_Brooke",
    "takePlaceAt": {
-    "id": "place8"
+    "id": "place8",
+    "name": "place8"
    }
   }
  ]

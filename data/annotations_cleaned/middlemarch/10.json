@@ -1,7 +1,7 @@
 {
  "FictionalCharacters": [
   {
-   "id": "Fred Vincy",
+   "id": "Fred_Vincy",
    "feels": [
     {
      "name": "Remorse",
@@ -27,7 +27,7 @@
      },
      "hasObject": {
       "id": "relationship",
-      "name": "Relationship with Mary"
+      "name": "Relationship_with_Mary"
      },
      "place": "Mary's house"
     },
@@ -41,7 +41,7 @@
      },
      "hasObject": {
       "id": "future",
-      "name": "Future prospects"
+      "name": "Future_prospects"
      },
      "place": "On his way home"
     }
@@ -49,7 +49,7 @@
    "name": "Fred_Vincy"
   },
   {
-   "id": "Mary Garth",
+   "id": "Mary_Garth",
    "feels": [
     {
      "name": "Pity",
@@ -61,7 +61,7 @@
      },
      "hasObject": {
       "id": "Fred",
-      "name": "Fred Vincy"
+      "name": "Fred_Vincy"
      },
      "place": "Mary's house"
     },
@@ -75,7 +75,7 @@
      },
      "hasObject": {
       "id": "Fred",
-      "name": "Fred Vincy"
+      "name": "Fred_Vincy"
      },
      "place": "Mary's house"
     },
@@ -97,7 +97,7 @@
    "name": "Mary_Garth"
   },
   {
-   "id": "Caleb Garth",
+   "id": "Caleb_Garth",
    "feels": [
     {
      "name": "Tenderness",
@@ -109,7 +109,7 @@
      },
      "hasObject": {
       "id": "Mary",
-      "name": "Mary Garth"
+      "name": "Mary_Garth"
      },
      "place": "Mary's house"
     },
@@ -133,7 +133,7 @@
  ],
  "Places": [
   {
-   "id": "Mary's house",
+   "id": "Mary_s_house",
    "name": "Mary_s_house",
    "description": "The setting for emotional conversations and revelations between the characters."
   }

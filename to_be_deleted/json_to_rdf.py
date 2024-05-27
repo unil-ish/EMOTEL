@@ -3,7 +3,7 @@ from rdflib import Graph, Namespace, URIRef, Literal
 from rdflib.namespace import RDF, RDFS, XSD
 
 # Load JSON data
-with open('example.json') as f:
+with open("example.json") as f:
     data = json.load(f)
 
 # Create an RDF graph
@@ -24,7 +24,13 @@ for character in data["FictionalCharacters"]:
         emotion_uri = BASE[emotion["id"]]
         g.add((emotion_uri, RDF.type, BASE[emotion["type"]]))
         g.add((emotion_uri, RDFS.label, Literal(emotion["name"], datatype=XSD.string)))
-        g.add((emotion_uri, BASE["hasIntensity"], Literal(emotion["hasIntensity"], datatype=XSD.decimal)))
+        g.add(
+            (
+                emotion_uri,
+                BASE["hasIntensity"],
+                Literal(emotion["hasIntensity"], datatype=XSD.decimal),
+            )
+        )
         g.add((char_uri, BASE["feels"], emotion_uri))
 
         if "causedBy" in emotion:
@@ -42,5 +48,4 @@ for character in data["FictionalCharacters"]:
             g.add((emotion_uri, BASE["hasObject"], obj_uri))
 
 # Serialize the graph to an RDF/XML file
-g.serialize(destination='example_output.rdf', format='xml')
-
+g.serialize(destination="example_output.rdf", format="xml")

@@ -9,12 +9,12 @@
      "hasIntensity": 1,
      "quote": "She lay with her arms clasped round her head thinking how happy she was, her lips curved upwards in a delighted smile.",
      "causedBy": {
-      "id": "Being in a bed by herself",
+      "id": "Being_in_a_bed_by_herself",
       "name": "Adorable_condition"
      },
      "hasObject": {
-      "id": "Bed without Mellersh",
-      "name": "Adorable condition"
+      "id": "Bed_without_Mellersh",
+      "name": "Adorable_condition"
      },
      "exactPlace": "In bed"
     },
@@ -23,12 +23,12 @@
      "hasIntensity": 1,
      "quote": "She lay with her arms clasped round her head thinking how happy she was, her lips curved upwards in a delighted smile.",
      "causedBy": {
-      "id": "Being in a bed by herself",
+      "id": "Being_in_a_bed_by_herself",
       "name": "Adorable_condition"
      },
      "hasObject": {
-      "id": "Bed without Mellersh",
-      "name": "Adorable condition"
+      "id": "Bed_without_Mellersh",
+      "name": "Adorable_condition"
      },
      "exactPlace": "In bed"
     },
@@ -37,12 +37,12 @@
      "hasIntensity": 1,
      "quote": "She lay with her arms clasped round her head thinking how happy she was, her lips curved upwards in a delighted smile.",
      "causedBy": {
-      "id": "Being in a bed by herself",
+      "id": "Being_in_a_bed_by_herself",
       "name": "Adorable_condition"
      },
      "hasObject": {
-      "id": "Bed without Mellersh",
-      "name": "Adorable condition"
+      "id": "Bed_without_Mellersh",
+      "name": "Adorable_condition"
      },
      "exactPlace": "In bed"
     },
@@ -51,12 +51,12 @@
      "hasIntensity": 1,
      "quote": "_Oh!_ cried Mrs. Wilkins.",
      "causedBy": {
-      "id": "Opening the shutters",
+      "id": "Opening_the_shutters",
       "name": "View_outside_the_window"
      },
      "hasObject": {
-      "id": "Radiance of April in Italy",
-      "name": "View outside the window"
+      "id": "Radiance_of_April_in_Italy",
+      "name": "View_outside_the_window"
      },
      "exactPlace": "By the window"
     }
@@ -72,17 +72,19 @@
  ],
  "Events": [
   {
-   "id": "Being in a bed by herself",
+   "id": "Being_in_a_bed_by_herself",
    "name": "Adorable_condition",
    "takePlaceAt": {
-    "id": "MrsWilkins"
+    "id": "MrsWilkins",
+    "name": "MrsWilkins"
    }
   },
   {
-   "id": "Opening the shutters",
+   "id": "Opening_the_shutters",
    "name": "View_outside_the_window",
    "takePlaceAt": {
-    "id": "MrsWilkins"
+    "id": "MrsWilkins",
+    "name": "MrsWilkins"
    }
   }
  ]

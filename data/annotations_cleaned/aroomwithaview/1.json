@@ -75,40 +75,48 @@
    "id": "encounter1",
    "name": "Encounter_with_Miss_Lavish_and_Mr_Eager",
    "takePlaceAt": {
-    "id": "newspaperroom1"
+    "id": "newspaperroom1",
+    "name": "newspaperroom1"
    },
    "hasParticipant": {
-    "id": "Lucy"
+    "id": "Lucy",
+    "name": "Lucy"
    }
   },
   {
    "id": "conversation1",
    "name": "Conversation_with_Mr_Eager",
    "takePlaceAt": {
-    "id": "newspaperroom1"
+    "id": "newspaperroom1",
+    "name": "newspaperroom1"
    },
    "hasParticipant": {
-    "id": "Lucy"
+    "id": "Lucy",
+    "name": "Lucy"
    }
   },
   {
    "id": "conversation2",
    "name": "Conversation_with_Mr_Eager",
    "takePlaceAt": {
-    "id": "newspaperroom1"
+    "id": "newspaperroom1",
+    "name": "newspaperroom1"
    },
    "hasParticipant": {
-    "id": "Lucy"
+    "id": "Lucy",
+    "name": "Lucy"
    }
   },
   {
    "id": "thoughts1",
    "name": "Thoughts_about_the_incidents_in_Florence",
    "takePlaceAt": {
-    "id": "newspaperroom1"
+    "id": "newspaperroom1",
+    "name": "newspaperroom1"
    },
    "hasParticipant": {
-    "id": "Lucy"
+    "id": "Lucy",
+    "name": "Lucy"
    }
   }
  ]

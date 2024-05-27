@@ -1,19 +1,19 @@
 {
  "FictionalCharacters": [
   {
-   "id": "Victor Frankenstein",
+   "id": "Victor_Frankenstein",
    "feels": [
     {
      "name": "Joy",
      "hasIntensity": 0.9,
      "quote": "I was their plaything and their idol, and something better—their child, the innocent and helpless creature bestowed on them by Heaven, whom to bring up to good, and whose future lot it was in their hands to direct to happiness or misery, according as they fulfilled their duties towards me.",
      "causedBy": {
-      "id": "Birth and upbringing",
+      "id": "Birth_and_upbringing",
       "name": "Being_the_only_child_and_receiving_love_and_care_from_his_parents"
      },
      "hasObject": {
-      "id": "Parental love",
-      "name": "Love and care from parents"
+      "id": "Parental_love",
+      "name": "Love_and_care_from_parents"
      },
      "place": {
       "id": "Geneva",
@@ -25,12 +25,12 @@
      "hasIntensity": 0.8,
      "quote": "I distinctly discerned how peculiarly fortunate my lot was, and gratitude assisted the development of filial love.",
      "causedBy": {
-      "id": "Comparison with other families",
+      "id": "Comparison_with_other_families",
       "name": "Feeling_fortunate_compared_to_others"
      },
      "hasObject": {
-      "id": "Fortunate upbringing",
-      "name": "Feeling fortunate"
+      "id": "Fortunate_upbringing",
+      "name": "Feeling_fortunate"
      },
      "place": {
       "id": "Geneva",
@@ -42,12 +42,12 @@
      "hasIntensity": 0.9,
      "quote": "Curiosity, earnest research to learn, and not to learn all things indiscriminately.",
      "causedBy": {
-      "id": "Desire for knowledge",
+      "id": "Desire_for_knowledge",
       "name": "Desire_to_learn_the_secrets_of_heaven_and_earth"
      },
      "hasObject": {
-      "id": "Metaphysical and physical secrets",
-      "name": "Secrets of heaven and earth"
+      "id": "Metaphysical_and_physical_secrets",
+      "name": "Secrets_of_heaven_and_earth"
      },
      "place": {
       "id": "Geneva",
@@ -59,12 +59,12 @@
      "hasIntensity": 0.9,
      "quote": "The theory which he attempts to demonstrate and the wonderful facts which he relates soon changed this feeling into enthusiasm.",
      "causedBy": {
-      "id": "Discovery of Cornelius Agrippa's works",
+      "id": "Discovery_of_Cornelius_Agrippa_s_works",
       "name": "Discovery_of_Cornelius_Agrippa_s_works"
      },
      "hasObject": {
-      "id": "Cornelius Agrippa's works",
-      "name": "Works of Cornelius Agrippa"
+      "id": "Cornelius_Agrippa_s_works",
+      "name": "Works_of_Cornelius_Agrippa"
      },
      "place": {
       "id": "Thonon",
@@ -75,19 +75,19 @@
    "name": "Victor_Frankenstein"
   },
   {
-   "id": "Elizabeth Lavenza",
+   "id": "Elizabeth_Lavenza",
    "feels": [
     {
      "name": "Love",
      "hasIntensity": 0.9,
      "quote": "Everyone loved Elizabeth. The passionate and almost reverential attachment with which all regarded her became, while I shared it, my pride and my delight.",
      "causedBy": {
-      "id": "Kindness and affection",
+      "id": "Kindness_and_affection",
       "name": "Kindness_and_affection_from_others"
      },
      "hasObject": {
-      "id": "Affection from others",
-      "name": "Kindness and affection"
+      "id": "Affection_from_others",
+      "name": "Kindness_and_affection"
      },
      "place": {
       "id": "Geneva",
@@ -98,19 +98,19 @@
    "name": "Elizabeth_Lavenza"
   },
   {
-   "id": "Henry Clerval",
+   "id": "Henry_Clerval",
    "feels": [
     {
      "name": "Hope",
      "hasIntensity": 0.8,
      "quote": "The busy stage of life, the virtues of heroes, and the actions of men were his theme; and his hope and his dream was to become one among those whose names are recorded in story as the gallant and adventurous benefactors of our species.",
      "causedBy": {
-      "id": "Desire for adventure",
+      "id": "Desire_for_adventure",
       "name": "Desire_to_become_a_benefactor"
      },
      "hasObject": {
-      "id": "Becoming a benefactor",
-      "name": "Gallant and adventurous benefactors"
+      "id": "Becoming_a_benefactor",
+      "name": "Gallant_and_adventurous_benefactors"
      },
      "place": {
       "id": "Geneva",
@@ -135,73 +135,87 @@
  ],
  "Events": [
   {
-   "id": "Birth and upbringing",
+   "id": "Birth_and_upbringing",
    "name": "Birth_and_upbringing",
    "takePlaceAt": {
-    "id": "Geneva"
+    "id": "Geneva",
+    "name": "Geneva"
    },
    "hasParticipant": {
-    "id": "Victor Frankenstein"
+    "id": "Victor_Frankenstein",
+    "name": "Victor_Frankenstein"
    }
   },
   {
-   "id": "Being the only child and receiving love and care from his parents",
+   "id": "Being_the_only_child_and_receiving_love_and_care_from_his_parents",
    "name": "Being_the_only_child_and_receiving_love_and_care_from_his_parents",
    "takePlaceAt": {
-    "id": "Geneva"
+    "id": "Geneva",
+    "name": "Geneva"
    },
    "hasParticipant": {
-    "id": "Victor Frankenstein"
+    "id": "Victor_Frankenstein",
+    "name": "Victor_Frankenstein"
    }
   },
   {
-   "id": "Feeling fortunate compared to others",
+   "id": "Feeling_fortunate_compared_to_others",
    "name": "Feeling_fortunate_compared_to_others",
    "takePlaceAt": {
-    "id": "Geneva"
+    "id": "Geneva",
+    "name": "Geneva"
    },
    "hasParticipant": {
-    "id": "Victor Frankenstein"
+    "id": "Victor_Frankenstein",
+    "name": "Victor_Frankenstein"
    }
   },
   {
-   "id": "Desire for knowledge",
+   "id": "Desire_for_knowledge",
    "name": "Desire_for_knowledge",
    "takePlaceAt": {
-    "id": "Geneva"
+    "id": "Geneva",
+    "name": "Geneva"
    },
    "hasParticipant": {
-    "id": "Victor Frankenstein"
+    "id": "Victor_Frankenstein",
+    "name": "Victor_Frankenstein"
    }
   },
   {
-   "id": "Discovery of Cornelius Agrippa's works",
+   "id": "Discovery_of_Cornelius_Agrippa_s_works",
    "name": "Discovery_of_Cornelius_Agrippa_s_works",
    "takePlaceAt": {
-    "id": "Thonon"
+    "id": "Thonon",
+    "name": "Thonon"
    },
    "hasParticipant": {
-    "id": "Victor Frankenstein"
+    "id": "Victor_Frankenstein",
+    "name": "Victor_Frankenstein"
    }
   },
   {
-   "id": "Kindness and affection",
+   "id": "Kindness_and_affection",
    "name": "Kindness_and_affection",
    "takePlaceAt": {
-    "id": "Geneva"
+    "id": "Geneva",
+    "name": "Geneva"
    },
    "hasParticipant": {
-    "id": "Elizabeth Lavenza"
+    "id": "Elizabeth_Lavenza",
+    "name": "Elizabeth_Lavenza"
    }
   },
   {
-   "id": "Desire for adventure",
+   "id": "Desire_for_adventure",
    "name": "Desire_for_adventure",
    "takePlaceAt": {
-    "id": "Geneva"
+    "id": "Geneva",
+    "name": "Geneva"
    },
    "hasParticipant": {
-    "id": "Henry Clerval"
+    "id": "Henry_Clerval",
+    "name": "Henry_Clerval"
    }
   }
  ]

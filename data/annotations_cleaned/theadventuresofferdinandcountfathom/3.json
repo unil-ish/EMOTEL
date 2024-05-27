@@ -14,7 +14,7 @@
      },
      "hasObject": {
       "id": "object1",
-      "name": "Exercise of talents"
+      "name": "Exercise_of_talents"
      },
      "exactPlace": {
       "id": "place1",
@@ -31,7 +31,7 @@
      },
      "hasObject": {
       "id": "object2",
-      "name": "Choice of a military life"
+      "name": "Choice_of_a_military_life"
      }
     },
     {
@@ -44,7 +44,7 @@
      },
      "hasObject": {
       "id": "object3",
-      "name": "Splendid fortune"
+      "name": "Splendid_fortune"
      }
     },
     {
@@ -57,7 +57,7 @@
      },
      "hasObject": {
       "id": "object4",
-      "name": "Toils of hard duty"
+      "name": "Toils_of_hard_duty"
      }
     },
     {
@@ -83,7 +83,7 @@
      },
      "hasObject": {
       "id": "object6",
-      "name": "Finishing the theft"
+      "name": "Finishing_the_theft"
      }
     },
     {
@@ -96,7 +96,7 @@
      },
      "hasObject": {
       "id": "object7",
-      "name": "Completing the theft"
+      "name": "Completing_the_theft"
      }
     }
    ]

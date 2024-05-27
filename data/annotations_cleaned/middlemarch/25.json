@@ -14,7 +14,7 @@
      },
      "hasObject": {
       "id": "object1",
-      "name": "Furniture, books, and pictures"
+      "name": "Furniture_books_and_pictures"
      },
      "place": {
       "id": "place1",
@@ -78,21 +78,24 @@
    "id": "event1",
    "name": "The_auction_sale",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   },
   {
    "id": "event2",
    "name": "Being_at_the_auction_sale",
    "takePlaceAt": {
-    "id": "place2"
+    "id": "place2",
+    "name": "place2"
    }
   },
   {
    "id": "event3",
    "name": "The_Supper_at_Emmaus_painting_being_brought_forward",
    "takePlaceAt": {
-    "id": "place3"
+    "id": "place3",
+    "name": "place3"
    }
   }
  ]

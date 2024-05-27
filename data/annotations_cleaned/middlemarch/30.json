@@ -28,7 +28,7 @@
      },
      "hasObject": {
       "id": "object2",
-      "name": "Debt payment"
+      "name": "Debt_payment"
      },
      "place": "Middlemarch"
     },
@@ -42,7 +42,7 @@
      },
      "hasObject": {
       "id": "object3",
-      "name": "Debt relief"
+      "name": "Debt_relief"
      },
      "place": "Middlemarch"
     }
@@ -62,7 +62,7 @@
      },
      "hasObject": {
       "id": "object3",
-      "name": "Debt relief"
+      "name": "Debt_relief"
      },
      "place": "Middlemarch"
     },
@@ -96,7 +96,7 @@
      },
      "hasObject": {
       "id": "object5",
-      "name": "Legal handle"
+      "name": "Legal_handle"
      },
      "place": "Middlemarch"
     },
@@ -110,7 +110,7 @@
      },
      "hasObject": {
       "id": "object6",
-      "name": "Information about Raffles"
+      "name": "Information_about_Raffles"
      },
      "place": "Middlemarch"
     }
@@ -134,42 +134,48 @@
    "id": "event1",
    "name": "Debt_being_paid_off",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   },
   {
    "id": "event2",
    "name": "News_of_debt_payment_spreading",
    "takePlaceAt": {
-    "id": "place2"
+    "id": "place2",
+    "name": "place2"
    }
   },
   {
    "id": "event3",
    "name": "Hawley_s_lack_of_knowledge_about_debt_relief",
    "takePlaceAt": {
-    "id": "place2"
+    "id": "place2",
+    "name": "place2"
    }
   },
   {
    "id": "event4",
    "name": "Relief_from_Raffles_revelations",
    "takePlaceAt": {
-    "id": "place2"
+    "id": "place2",
+    "name": "place2"
    }
   },
   {
    "id": "event5",
    "name": "No_legal_handle_in_Raffles_revelations",
    "takePlaceAt": {
-    "id": "place2"
+    "id": "place2",
+    "name": "place2"
    }
   },
   {
    "id": "event6",
    "name": "Desire_for_information_about_Raffles",
    "takePlaceAt": {
-    "id": "place2"
+    "id": "place2",
+    "name": "place2"
    }
   }
  ]

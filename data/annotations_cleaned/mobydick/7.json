@@ -8,12 +8,12 @@
      "hasIntensity": 0.9,
      "quote": "A wild, mystical, sympathetical feeling was in me; Ahab’s quenchless feud seemed mine.",
      "causedBy": {
-      "id": "Moby Dick's ferocity",
+      "id": "Moby_Dick_s_ferocity",
       "name": "Moby_Dick_s_ferocity"
      },
      "hasObject": {
-      "id": "Moby Dick",
-      "name": "Moby Dick"
+      "id": "Moby_Dick",
+      "name": "Moby_Dick"
      },
      "exactPlace": "On board of the ship"
     },
@@ -22,12 +22,12 @@
      "hasIntensity": 0.7,
      "quote": "For, it was not so much his uncommon bulk that so much distinguished him from other sperm whales, but, as was elsewhere thrown out—a peculiar snow-white wrinkled forehead, and a high, pyramidical white hump.",
      "causedBy": {
-      "id": "Moby Dick's appearance",
+      "id": "Moby_Dick_s_appearance",
       "name": "Moby_Dick_s_appearance"
      },
      "hasObject": {
-      "id": "Moby Dick",
-      "name": "Moby Dick"
+      "id": "Moby_Dick",
+      "name": "Moby_Dick"
      },
      "exactPlace": "On board of the ship"
     },
@@ -36,12 +36,12 @@
      "hasIntensity": 0.8,
      "quote": "For, it was not so much his uncommon bulk that so much distinguished him from other sperm whales, but, as was elsewhere thrown out—a peculiar snow-white wrinkled forehead, and a high, pyramidical white hump.",
      "causedBy": {
-      "id": "Moby Dick's appearance",
+      "id": "Moby_Dick_s_appearance",
       "name": "Moby_Dick_s_appearance"
      },
      "hasObject": {
-      "id": "Moby Dick",
-      "name": "Moby Dick"
+      "id": "Moby_Dick",
+      "name": "Moby_Dick"
      },
      "exactPlace": "On board of the ship"
     },
@@ -50,12 +50,12 @@
      "hasIntensity": 0.9,
      "quote": "Judge, then, to what pitches of inflamed, distracted fury the minds of his more desperate hunters were impelled, when amid the chips of chewed boats, and the sinking limbs of torn comrades, they swam out of the white curds of the whale’s direful wrath into the serene, exasperating sunlight, that smiled on, as if at a birth or a bridal.",
      "causedBy": {
-      "id": "Moby Dick's ferocity",
+      "id": "Moby_Dick_s_ferocity",
       "name": "Moby_Dick_s_ferocity"
      },
      "hasObject": {
-      "id": "Moby Dick",
-      "name": "Moby Dick"
+      "id": "Moby_Dick",
+      "name": "Moby_Dick"
      },
      "exactPlace": "On board of the ship"
     }
@@ -65,30 +65,34 @@
  ],
  "Places": [
   {
-   "id": "On board of the ship",
+   "id": "On_board_of_the_ship",
    "name": "On_board_of_the_ship",
    "description": "The location where the characters are experiencing the emotions."
   }
  ],
  "Events": [
   {
-   "id": "Moby Dick's ferocity",
+   "id": "Moby_Dick_s_ferocity",
    "name": "Moby_Dick_s_ferocity",
    "takePlaceAt": {
-    "id": "On board of the ship"
+    "id": "On_board_of_the_ship",
+    "name": "On_board_of_the_ship"
    },
    "hasParticipant": {
-    "id": "Ishmael"
+    "id": "Ishmael",
+    "name": "Ishmael"
    }
   },
   {
-   "id": "Moby Dick's appearance",
+   "id": "Moby_Dick_s_appearance",
    "name": "Moby_Dick_s_appearance",
    "takePlaceAt": {
-    "id": "On board of the ship"
+    "id": "On_board_of_the_ship",
+    "name": "On_board_of_the_ship"
    },
    "hasParticipant": {
-    "id": "Ishmael"
+    "id": "Ishmael",
+    "name": "Ishmael"
    }
   }
  ]

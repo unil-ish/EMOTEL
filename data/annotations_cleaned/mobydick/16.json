@@ -14,7 +14,7 @@
      },
      "hasObject": {
       "id": "object1",
-      "name": "Tornadoed Atlantic of my being"
+      "name": "Tornadoed_Atlantic_of_my_being"
      },
      "exactPlace": "Deep down and deep inland"
     },
@@ -42,7 +42,7 @@
      },
      "hasObject": {
       "id": "object3",
-      "name": "End of pursuit"
+      "name": "End_of_pursuit"
      },
      "exactPlace": "On the boats"
     }
@@ -100,35 +100,40 @@
    "id": "event1",
    "name": "Surrounded_by_circle_upon_circle_of_consternations_and_affrights",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   },
   {
    "id": "event2",
    "name": "Pirates_chasing_the_ship",
    "takePlaceAt": {
-    "id": "place1"
+    "id": "place1",
+    "name": "place1"
    }
   },
   {
    "id": "event3",
    "name": "End_of_pursuit",
    "takePlaceAt": {
-    "id": "place2"
+    "id": "place2",
+    "name": "place2"
    }
   },
   {
    "id": "event4",
    "name": "Whale_attack",
    "takePlaceAt": {
-    "id": "place2"
+    "id": "place2",
+    "name": "place2"
    }
   },
   {
    "id": "event5",
    "name": "Loss_of_hat",
    "takePlaceAt": {
-    "id": "place2"
+    "id": "place2",
+    "name": "place2"
    }
   }
  ]

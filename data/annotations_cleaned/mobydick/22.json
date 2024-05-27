@@ -27,7 +27,7 @@
      },
      "hasObject": {
       "id": "object2",
-      "name": "Wrecked whale-boat"
+      "name": "Wrecked_whaleboat"
      },
      "place": "On deck"
     },
@@ -55,7 +55,7 @@
      },
      "hasObject": {
       "id": "object4",
-      "name": "Clear day"
+      "name": "Clear_day"
      },
      "place": "On deck"
     }
@@ -63,7 +63,7 @@
    "name": "Ahab"
   },
   {
-   "id": "Sicilian Seaman",
+   "id": "Sicilian_Seaman",
    "feels": [
     {
      "name": "Surprise",
@@ -75,7 +75,7 @@
      },
      "hasObject": {
       "id": "object5",
-      "name": "Ahab's hat"
+      "name": "Ahab_s_hat"
      },
      "place": "Mizen-mast-head"
     }
@@ -90,7 +90,7 @@
    "description": "The main deck of the ship where the crew and captain are present."
   },
   {
-   "id": "mizen-mast-head",
+   "id": "mizenmasthead",
    "name": "Mizenmasthead",
    "description": "The top of the mizen mast where the Sicilian seaman is stationed."
   }
@@ -100,50 +100,60 @@
    "id": "event1",
    "name": "Desire_to_see_the_whale",
    "takePlaceAt": {
-    "id": "deck"
+    "id": "deck",
+    "name": "deck"
    },
    "hasParticipant": {
-    "id": "Ahab"
+    "id": "Ahab",
+    "name": "Ahab"
    }
   },
   {
    "id": "event2",
    "name": "Discovery_of_the_wrecked_whaleboat",
    "takePlaceAt": {
-    "id": "deck"
+    "id": "deck",
+    "name": "deck"
    },
    "hasParticipant": {
-    "id": "Ahab"
+    "id": "Ahab",
+    "name": "Ahab"
    }
   },
   {
    "id": "event3",
    "name": "The_corpse_hitting_the_sea",
    "takePlaceAt": {
-    "id": "deck"
+    "id": "deck",
+    "name": "deck"
    },
    "hasParticipant": {
-    "id": "Ahab"
+    "id": "Ahab",
+    "name": "Ahab"
    }
   },
   {
    "id": "event4",
    "name": "Clear_day",
    "takePlaceAt": {
-    "id": "deck"
+    "id": "deck",
+    "name": "deck"
    },
    "hasParticipant": {
-    "id": "Ahab"
+    "id": "Ahab",
+    "name": "Ahab"
    }
   },
   {
    "id": "event5",
    "name": "The_hawk_taking_Ahab_s_hat",
    "takePlaceAt": {
-    "id": "mizen-mast-head"
+    "id": "mizenmasthead",
+    "name": "mizenmasthead"
    },
    "hasParticipant": {
-    "id": "Sicilian Seaman"
+    "id": "Sicilian_Seaman",
+    "name": "Sicilian_Seaman"
    }
   }
  ]

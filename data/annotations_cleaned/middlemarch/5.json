@@ -62,7 +62,7 @@
      },
      "hasObject": {
       "id": "object4",
-      "name": "Feeling misunderstood"
+      "name": "Feeling_misunderstood"
      },
      "exactPlace": "Home"
     },
@@ -76,7 +76,7 @@
      },
      "hasObject": {
       "id": "object5",
-      "name": "Eldest son and youngest girl"
+      "name": "Eldest_son_and_youngest_girl"
      },
      "exactPlace": "Home"
     },
@@ -90,7 +90,7 @@
      },
      "hasObject": {
       "id": "object6",
-      "name": "Feeling in control"
+      "name": "Feeling_in_control"
      },
      "exactPlace": "Home"
     }

@@ -14,7 +14,7 @@
      },
      "hasObject": {
       "id": "object1",
-      "name": "Mrs. Bennet's reaction"
+      "name": "Mrs_Bennet_s_reaction"
      },
      "place": {
       "id": "place1",
@@ -65,7 +65,7 @@
      },
      "hasObject": {
       "id": "object4",
-      "name": "Self-deception"
+      "name": "Selfdeception"
      },
      "place": {
       "id": "place1",
@@ -122,7 +122,7 @@
      },
      "hasObject": {
       "id": "object7",
-      "name": "Interview result"
+      "name": "Interview_result"
      },
      "place": {
       "id": "place1",
@@ -139,7 +139,7 @@
      },
      "hasObject": {
       "id": "object8",
-      "name": "Bringing Elizabeth to reason"
+      "name": "Bringing_Elizabeth_to_reason"
      },
      "place": {
       "id": "place1",
