@@ -1,0 +1,113 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "fc1",
+   "name": "Mr_Brooke",
+   "feels": [
+    {
+     "name": "Surprise",
+     "hasIntensity": 0.7,
+     "quote": "He had never been insulted on his own land before, and had been inclined to regard himself as a general favorite.",
+     "causedBy": {
+      "id": "event1",
+      "name": "Being_insulted_by_Mr_Dagley"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Being insulted"
+     },
+     "place": {
+      "id": "place1",
+      "name": "His own land"
+     }
+    }
+   ]
+  },
+  {
+   "id": "fc2",
+   "name": "Mr_Dagley",
+   "feels": [
+    {
+     "name": "Anger",
+     "hasIntensity": 0.9,
+     "quote": "‘I’m no more drunk nor you are, nor so much,’ said Dagley. ‘I can carry my liquor, an’ I know what I meean.’",
+     "causedBy": {
+      "id": "event2",
+      "name": "Feeling_insulted_by_Mr_Brooke"
+     },
+     "hasObject": {
+      "id": "object2",
+      "name": "Feeling insulted"
+     },
+     "place": {
+      "id": "place2",
+      "name": "His own farmyard"
+     }
+    }
+   ]
+  },
+  {
+   "id": "fc3",
+   "name": "Mary_Garth",
+   "feels": [
+    {
+     "name": "Amusement",
+     "hasIntensity": 0.8,
+     "quote": "Mary ended merrily, amused with the last notion.",
+     "causedBy": {
+      "id": "event3",
+      "name": "Finding_the_idea_of_Rosamond_Vincy_needing_a_handkerchief_for_her_wedding_amusing"
+     },
+     "hasObject": {
+      "id": "object3",
+      "name": "Idea of Rosamond Vincy needing a handkerchief for her wedding"
+     },
+     "place": {
+      "id": "place3",
+      "name": "Caleb Garth's breakfast-table"
+     }
+    }
+   ]
+  }
+ ],
+ "Places": [
+  {
+   "id": "place1",
+   "name": "His_own_land",
+   "description": "Mr. Brooke's own land where he was insulted for the first time."
+  },
+  {
+   "id": "place2",
+   "name": "Mr_Dagley_s_farmyard",
+   "description": "Mr. Dagley's farmyard where he felt insulted by Mr. Brooke."
+  },
+  {
+   "id": "place3",
+   "name": "Caleb_Garth_s_breakfasttable",
+   "description": "The breakfast-table where Mary Garth found the idea of Rosamond Vincy needing a handkerchief for her wedding amusing."
+  }
+ ],
+ "Events": [
+  {
+   "id": "event1",
+   "name": "Being_insulted_by_Mr_Dagley",
+   "takePlaceAt": {
+    "id": "place1"
+   }
+  },
+  {
+   "id": "event2",
+   "name": "Feeling_insulted_by_Mr_Brooke",
+   "takePlaceAt": {
+    "id": "place2"
+   }
+  },
+  {
+   "id": "event3",
+   "name": "Finding_the_idea_of_Rosamond_Vincy_needing_a_handkerchief_for_her_wedding_amusing",
+   "takePlaceAt": {
+    "id": "place3"
+   }
+  }
+ ]
+}

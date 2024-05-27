@@ -1,0 +1,114 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "fc1",
+   "name": "Narrator",
+   "feels": [
+    {
+     "name": "Surprise",
+     "hasIntensity": 0.6,
+     "quote": "Affected by the solemnity of the scene, there was a wondering gaze of incredulous curiosity in his countenance.",
+     "causedBy": {
+      "id": "event1",
+      "name": "Entering_the_Whaleman_s_Chapel"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Solemnity of the scene"
+     },
+     "place": {
+      "id": "place1",
+      "name": "Whaleman's Chapel"
+     }
+    },
+    {
+     "name": "Curiosity",
+     "hasIntensity": 0.7,
+     "quote": "This savage was the only person present who seemed to notice my entrance; because he was the only one who could not read, and, therefore, was not reading those frigid inscriptions on the wall.",
+     "causedBy": {
+      "id": "event2",
+      "name": "Not_being_able_to_read_the_inscriptions"
+     },
+     "hasObject": {
+      "id": "object2",
+      "name": "Inscriptions on the wall"
+     },
+     "place": {
+      "id": "place1",
+      "name": "Whaleman's Chapel"
+     }
+    },
+    {
+     "name": "Sympathy",
+     "hasIntensity": 0.8,
+     "quote": "I feel sure that here before me were assembled those, in whose unhealing hearts the sight of those bleak tablets sympathetically caused the old wounds to bleed afresh.",
+     "causedBy": {
+      "id": "event3",
+      "name": "Seeing_the_bleak_tablets"
+     },
+     "hasObject": {
+      "id": "object3",
+      "name": "Bleak tablets"
+     },
+     "place": {
+      "id": "place1",
+      "name": "Whaleman's Chapel"
+     }
+    }
+   ]
+  },
+  {
+   "id": "fc2",
+   "name": "Queequeg",
+   "feels": [
+    {
+     "name": "Curiosity",
+     "hasIntensity": 0.6,
+     "quote": "Affected by the solemnity of the scene, there was a wondering gaze of incredulous curiosity in his countenance.",
+     "causedBy": {
+      "id": "event1",
+      "name": "Entering_the_Whaleman_s_Chapel"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Solemnity of the scene"
+     },
+     "place": {
+      "id": "place1",
+      "name": "Whaleman's Chapel"
+     }
+    }
+   ]
+  }
+ ],
+ "Places": [
+  {
+   "id": "place1",
+   "name": "Whaleman_s_Chapel",
+   "description": "A small scattered congregation of sailors, and sailors’ wives and widows."
+  }
+ ],
+ "Events": [
+  {
+   "id": "event1",
+   "name": "Entering_the_Whaleman_s_Chapel",
+   "takePlaceAt": {
+    "id": "place1"
+   }
+  },
+  {
+   "id": "event2",
+   "name": "Not_being_able_to_read_the_inscriptions",
+   "takePlaceAt": {
+    "id": "place1"
+   }
+  },
+  {
+   "id": "event3",
+   "name": "Seeing_the_bleak_tablets",
+   "takePlaceAt": {
+    "id": "place1"
+   }
+  }
+ ]
+}

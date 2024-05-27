@@ -1,0 +1,156 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "fc1",
+   "name": "Elizabeth_Bennet",
+   "feels": [
+    {
+     "name": "Surprise",
+     "hasIntensity": 0.8,
+     "quote": "Elizabeth looked with unaffected astonishment.",
+     "causedBy": {
+      "id": "event1",
+      "name": "Lady_Catherine_s_unexpected_visit"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Lady Catherine de Bourgh"
+     },
+     "place": "Longbourn dining-room"
+    },
+    {
+     "name": "Disdain",
+     "hasIntensity": 0.7,
+     "quote": "Elizabeth would not, for the mere purpose of obliging Lady Catherine, have answered this question.",
+     "causedBy": {
+      "id": "event2",
+      "name": "Lady_Catherine_s_interrogation"
+     },
+     "hasObject": {
+      "id": "object2",
+      "name": "Lady Catherine de Bourgh"
+     },
+     "place": "Longbourn dining-room"
+    },
+    {
+     "name": "Resentment",
+     "hasIntensity": 0.9,
+     "quote": "You have insulted me, in every possible method.",
+     "causedBy": {
+      "id": "event3",
+      "name": "Lady_Catherine_s_accusations"
+     },
+     "hasObject": {
+      "id": "object3",
+      "name": "Lady Catherine de Bourgh"
+     },
+     "place": "Longbourn dining-room"
+    },
+    {
+     "name": "Defiance",
+     "hasIntensity": 0.8,
+     "quote": "I shall now know how to act. Do not imagine, Miss Bennet, that your ambition will ever be gratified.",
+     "causedBy": {
+      "id": "event4",
+      "name": "Elizabeth_s_refusal_to_promise_not_to_marry_Mr_Darcy"
+     },
+     "hasObject": {
+      "id": "object4",
+      "name": "Lady Catherine de Bourgh"
+     },
+     "place": "Longbourn dining-room"
+    },
+    {
+     "name": "Discomfort",
+     "hasIntensity": 0.9,
+     "quote": "The discomposure of spirits which this extraordinary visit threw Elizabeth into could not be easily overcome.",
+     "causedBy": {
+      "id": "event5",
+      "name": "Lady_Catherine_s_visit"
+     },
+     "hasObject": {
+      "id": "object5",
+      "name": "Lady Catherine de Bourgh"
+     },
+     "place": "Longbourn"
+    }
+   ]
+  },
+  {
+   "id": "fc2",
+   "name": "Lady_Catherine_de_Bourgh",
+   "feels": [
+    {
+     "name": "Anger",
+     "hasIntensity": 0.9,
+     "quote": "Miss Bennet, I insist on being satisfied.",
+     "causedBy": {
+      "id": "event6",
+      "name": "Elizabeth_s_refusal_to_promise_never_to_enter_into_an_engagement_with_Mr_Darcy"
+     },
+     "hasObject": {
+      "id": "object6",
+      "name": "Elizabeth Bennet"
+     },
+     "place": "Longbourn dining-room"
+    },
+    {
+     "name": "Displeasure",
+     "hasIntensity": 0.9,
+     "quote": "I am most seriously displeased.",
+     "causedBy": {
+      "id": "event7",
+      "name": "Elizabeth_s_refusal_to_promise_never_to_enter_into_an_engagement_with_Mr_Darcy"
+     },
+     "hasObject": {
+      "id": "object7",
+      "name": "Elizabeth Bennet"
+     },
+     "place": "Longbourn dining-room"
+    }
+   ]
+  }
+ ],
+ "Places": [
+  {
+   "id": "place1",
+   "name": "Longbourn_diningroom",
+   "description": "The main dining area in the Bennet household."
+  },
+  {
+   "id": "place2",
+   "name": "Longbourn",
+   "description": "The Bennet family estate."
+  }
+ ],
+ "Events": [
+  {
+   "id": "event1",
+   "name": "Lady_Catherine_s_unexpected_visit"
+  },
+  {
+   "id": "event2",
+   "name": "Lady_Catherine_s_interrogation"
+  },
+  {
+   "id": "event3",
+   "name": "Lady_Catherine_s_accusations"
+  },
+  {
+   "id": "event4",
+   "name": "Elizabeth_s_refusal_to_promise_not_to_marry_Mr_Darcy"
+  },
+  {
+   "id": "event5",
+   "name": "Lady_Catherine_s_visit"
+  },
+  {
+   "id": "event6",
+   "name": "Elizabeth_s_refusal_to_promise_never_to_enter_into_an_engagement_with_Mr_Darcy"
+  },
+  {
+   "id": "event7",
+   "name": "Elizabeth_s_refusal_to_promise_never_to_enter_into_an_engagement_with_Mr_Darcy"
+  }
+ ]
+}

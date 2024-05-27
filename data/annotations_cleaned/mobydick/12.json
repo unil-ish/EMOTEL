@@ -1,0 +1,102 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "fc1",
+   "name": "Ahab",
+   "feels": [
+    {
+     "name": "Impatience",
+     "hasIntensity": 0.6,
+     "quote": "some vague dissatisfaction, or impatience, or despair, seemed working in him",
+     "causedBy": {
+      "id": "event1",
+      "name": "Moby_Dick_still_to_be_slain"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Moby Dick"
+     },
+     "place": "On deck"
+    }
+   ]
+  },
+  {
+   "id": "fc2",
+   "name": "Stubb",
+   "feels": [
+    {
+     "name": "Excitement",
+     "hasIntensity": 0.8,
+     "quote": "flushed with conquest, betrayed an unusual but still good-natured excitement",
+     "causedBy": {
+      "id": "event2",
+      "name": "Conquest"
+     },
+     "hasObject": {
+      "id": "object2",
+      "name": "Conquest"
+     },
+     "place": "On deck"
+    }
+   ]
+  },
+  {
+   "id": "fc3",
+   "name": "Fleece",
+   "feels": [
+    {
+     "name": "Resentment",
+     "hasIntensity": 0.7,
+     "quote": "sullenly turning to go",
+     "causedBy": {
+      "id": "event3",
+      "name": "Stubb_s_reprimand"
+     },
+     "hasObject": {
+      "id": "object3",
+      "name": "Stubb's reprimand"
+     },
+     "place": "On deck"
+    }
+   ]
+  }
+ ],
+ "Places": [
+  {
+   "id": "place1",
+   "name": "On_deck"
+  }
+ ],
+ "Events": [
+  {
+   "id": "event1",
+   "name": "Moby_Dick_still_to_be_slain",
+   "takePlaceAt": {
+    "id": "place1"
+   },
+   "hasParticipant": {
+    "id": "fc1"
+   }
+  },
+  {
+   "id": "event2",
+   "name": "Conquest",
+   "takePlaceAt": {
+    "id": "place1"
+   },
+   "hasParticipant": {
+    "id": "fc2"
+   }
+  },
+  {
+   "id": "event3",
+   "name": "Stubb_s_reprimand",
+   "takePlaceAt": {
+    "id": "place1"
+   },
+   "hasParticipant": {
+    "id": "fc3"
+   }
+  }
+ ]
+}

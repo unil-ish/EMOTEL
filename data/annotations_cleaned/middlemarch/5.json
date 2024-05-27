@@ -1,0 +1,193 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "fc1",
+   "name": "Fred_Vincy",
+   "feels": [
+    {
+     "name": "Love",
+     "hasIntensity": 0.9,
+     "quote": "Fred was certainly very fond of his mother.",
+     "causedBy": {
+      "id": "event1",
+      "name": "Fondness_for_his_mother"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Mother"
+     },
+     "exactPlace": "Home"
+    },
+    {
+     "name": "Disappointment",
+     "hasIntensity": 0.8,
+     "quote": "He had been left an orphan when he was fresh from a public school.",
+     "causedBy": {
+      "id": "event2",
+      "name": "Being_orphaned"
+     },
+     "hasObject": {
+      "id": "object2",
+      "name": "Orphanhood"
+     },
+     "exactPlace": "Home"
+    },
+    {
+     "name": "Hope",
+     "hasIntensity": 0.7,
+     "quote": "He was a quick fellow, and when hot from play, would toss himself in a corner, and in five minutes be deep in any sort of book that he could lay his hands on.",
+     "causedBy": {
+      "id": "event3",
+      "name": "Love_for_reading"
+     },
+     "hasObject": {
+      "id": "object3",
+      "name": "Books"
+     },
+     "exactPlace": "Home"
+    }
+   ]
+  },
+  {
+   "id": "fc2",
+   "name": "Mary_Garth",
+   "feels": [
+    {
+     "name": "Vexation",
+     "hasIntensity": 0.8,
+     "quote": "Mary did not mean to betray any feeling, but in spite of herself she ended in a tremulous tone of vexation.",
+     "causedBy": {
+      "id": "event4",
+      "name": "Feeling_misunderstood"
+     },
+     "hasObject": {
+      "id": "object4",
+      "name": "Feeling misunderstood"
+     },
+     "exactPlace": "Home"
+    },
+    {
+     "name": "Affection",
+     "hasIntensity": 0.9,
+     "quote": "She doted on her eldest son and her youngest girl.",
+     "causedBy": {
+      "id": "event5",
+      "name": "Motherly_love"
+     },
+     "hasObject": {
+      "id": "object5",
+      "name": "Eldest son and youngest girl"
+     },
+     "exactPlace": "Home"
+    },
+    {
+     "name": "Sarcasm",
+     "hasIntensity": 0.7,
+     "quote": "Mary was sewing swiftly, and seemed provokingly mistress of the situation.",
+     "causedBy": {
+      "id": "event6",
+      "name": "Feeling_in_control"
+     },
+     "hasObject": {
+      "id": "object6",
+      "name": "Feeling in control"
+     },
+     "exactPlace": "Home"
+    }
+   ]
+  },
+  {
+   "id": "fc3",
+   "name": "Tertius_Lydgate",
+   "feels": [
+    {
+     "name": "Intellectual passion",
+     "hasIntensity": 0.9,
+     "quote": "From that hour Lydgate felt the growth of an intellectual passion.",
+     "causedBy": {
+      "id": "event7",
+      "name": "Discovery_of_anatomy"
+     },
+     "hasObject": {
+      "id": "object7",
+      "name": "Anatomy"
+     },
+     "exactPlace": "Home library"
+    },
+    {
+     "name": "Curiosity",
+     "hasIntensity": 0.8,
+     "quote": "He was a quick fellow, and when hot from play, would toss himself in a corner, and in five minutes be deep in any sort of book that he could lay his hands on.",
+     "causedBy": {
+      "id": "event8",
+      "name": "Love_for_reading"
+     },
+     "hasObject": {
+      "id": "object8",
+      "name": "Books"
+     },
+     "exactPlace": "Home library"
+    },
+    {
+     "name": "Hope",
+     "hasIntensity": 0.7,
+     "quote": "He was but seven-and-twenty, an age at which many men are not quite common—at which they are hopeful of achievement.",
+     "causedBy": {
+      "id": "event9",
+      "name": "Hope_for_achievement"
+     },
+     "hasObject": {
+      "id": "object9",
+      "name": "Achievement"
+     },
+     "exactPlace": "Home library"
+    }
+   ]
+  }
+ ],
+ "Places": [
+  {
+   "id": "place1",
+   "name": "Home",
+   "description": "The setting where the characters experience various emotions and events."
+  }
+ ],
+ "Events": [
+  {
+   "id": "event1",
+   "name": "Fondness_for_his_mother"
+  },
+  {
+   "id": "event2",
+   "name": "Being_orphaned"
+  },
+  {
+   "id": "event3",
+   "name": "Love_for_reading"
+  },
+  {
+   "id": "event4",
+   "name": "Feeling_misunderstood"
+  },
+  {
+   "id": "event5",
+   "name": "Motherly_love"
+  },
+  {
+   "id": "event6",
+   "name": "Feeling_in_control"
+  },
+  {
+   "id": "event7",
+   "name": "Discovery_of_anatomy"
+  },
+  {
+   "id": "event8",
+   "name": "Love_for_reading"
+  },
+  {
+   "id": "event9",
+   "name": "Hope_for_achievement"
+  }
+ ]
+}

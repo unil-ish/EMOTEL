@@ -1,0 +1,197 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "fc1",
+   "name": "Ferdinand_de_Fathom",
+   "feels": [
+    {
+     "name": "Reluctance",
+     "hasIntensity": 0.7,
+     "quote": "He declined the generous proffer with affected earnestness of refusal.",
+     "causedBy": {
+      "id": "event1",
+      "name": "Offer_of_financial_help"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Money"
+     },
+     "place": "House of their female friend"
+    },
+    {
+     "name": "Astonishment",
+     "hasIntensity": 0.8,
+     "quote": "He expressed the utmost astonishment at this generous proffer.",
+     "causedBy": {
+      "id": "event2",
+      "name": "Generous_proffer"
+     },
+     "hasObject": {
+      "id": "object2",
+      "name": "Generous proffer"
+     },
+     "place": "House of their female friend"
+    },
+    {
+     "name": "Relief",
+     "hasIntensity": 0.9,
+     "quote": "He was comforted with the promise that she would remember the rendezvous of next day.",
+     "causedBy": {
+      "id": "event3",
+      "name": "Promise_of_help"
+     },
+     "hasObject": {
+      "id": "object3",
+      "name": "Promise of help"
+     },
+     "place": "House of their female friend"
+    },
+    {
+     "name": "Distress",
+     "hasIntensity": 0.9,
+     "quote": "He was wrung with mortal anguish at the prospect of parting for ever from his lovely Wilhelmina.",
+     "causedBy": {
+      "id": "event4",
+      "name": "Dreadful_resolution"
+     },
+     "hasObject": {
+      "id": "object4",
+      "name": "Parting from Wilhelmina"
+     },
+     "place": "Wilhelmina's chamber"
+    },
+    {
+     "name": "Sorrow",
+     "hasIntensity": 0.9,
+     "quote": "He was instantly seized with an agony of fear and distraction.",
+     "causedBy": {
+      "id": "event5",
+      "name": "Dreadful_resolution"
+     },
+     "hasObject": {
+      "id": "object5",
+      "name": "Dreadful resolution"
+     },
+     "place": "Wilhelmina's chamber"
+    },
+    {
+     "name": "Melancholy",
+     "hasIntensity": 0.8,
+     "quote": "He was wrung with mortal anguish at the prospect of parting for ever from his lovely Wilhelmina.",
+     "causedBy": {
+      "id": "event6",
+      "name": "Dreadful_resolution"
+     },
+     "hasObject": {
+      "id": "object6",
+      "name": "Parting from Wilhelmina"
+     },
+     "place": "Wilhelmina's chamber"
+    },
+    {
+     "name": "Hope",
+     "hasIntensity": 0.9,
+     "quote": "He yielded to her fervent request, rather with a view to calm the present transports of her sorrow.",
+     "causedBy": {
+      "id": "event7",
+      "name": "Fervent_request_from_Wilhelmina"
+     },
+     "hasObject": {
+      "id": "object7",
+      "name": "Fervent request"
+     },
+     "place": "Wilhelmina's chamber"
+    },
+    {
+     "name": "Anticipation",
+     "hasIntensity": 0.9,
+     "quote": "He did not doubt that the mine of his craft would take effect.",
+     "causedBy": {
+      "id": "event8",
+      "name": "Expectation_of_success"
+     },
+     "hasObject": {
+      "id": "object8",
+      "name": "Success"
+     },
+     "place": "His own lodging"
+    }
+   ]
+  }
+ ],
+ "Places": [
+  {
+   "id": "place1",
+   "name": "House_of_their_female_friend",
+   "description": "Location of the generous proffer"
+  },
+  {
+   "id": "place2",
+   "name": "Wilhelmina_s_chamber",
+   "description": "Location of the dreadful resolution and fervent request"
+  },
+  {
+   "id": "place3",
+   "name": "His_own_lodging",
+   "description": "Location of the expectation of success"
+  }
+ ],
+ "Events": [
+  {
+   "id": "event1",
+   "name": "Offer_of_financial_help",
+   "takePlaceAt": {
+    "id": "place1"
+   }
+  },
+  {
+   "id": "event2",
+   "name": "Generous_proffer",
+   "takePlaceAt": {
+    "id": "place1"
+   }
+  },
+  {
+   "id": "event3",
+   "name": "Promise_of_help",
+   "takePlaceAt": {
+    "id": "place1"
+   }
+  },
+  {
+   "id": "event4",
+   "name": "Dreadful_resolution",
+   "takePlaceAt": {
+    "id": "place2"
+   }
+  },
+  {
+   "id": "event5",
+   "name": "Dreadful_resolution",
+   "takePlaceAt": {
+    "id": "place2"
+   }
+  },
+  {
+   "id": "event6",
+   "name": "Dreadful_resolution",
+   "takePlaceAt": {
+    "id": "place2"
+   }
+  },
+  {
+   "id": "event7",
+   "name": "Fervent_request_from_Wilhelmina",
+   "takePlaceAt": {
+    "id": "place2"
+   }
+  },
+  {
+   "id": "event8",
+   "name": "Expectation_of_success",
+   "takePlaceAt": {
+    "id": "place3"
+   }
+  }
+ ]
+}

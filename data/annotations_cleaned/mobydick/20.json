@@ -1,0 +1,136 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "Ahab",
+   "feels": [
+    {
+     "name": "Anger",
+     "hasIntensity": 0.7,
+     "quote": "Oh, devilish tantalization of the gods!",
+     "causedBy": {
+      "id": "event1",
+      "name": "Observing_Queequeg_s_coffin"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Queequeg's coffin"
+     },
+     "place": {
+      "id": "place1",
+      "name": "Beside the mizen rigging"
+     }
+    },
+    {
+     "name": "Joy",
+     "hasIntensity": 0.6,
+     "quote": "Aye, I come!",
+     "causedBy": {
+      "id": "event2",
+      "name": "Hearing_the_call_of_the_ocean"
+     },
+     "hasObject": {
+      "id": "object2",
+      "name": "Call of the ocean"
+     },
+     "place": {
+      "id": "place2",
+      "name": "By the ocean"
+     }
+    },
+    {
+     "name": "Impatience",
+     "hasIntensity": 0.8,
+     "quote": "In no Paradise myself, I am impatient of all misery in others that is not mad.",
+     "causedBy": {
+      "id": "event3",
+      "name": "Feeling_disconnected_from_others_misery"
+     },
+     "hasObject": {
+      "id": "object3",
+      "name": "Others' misery"
+     },
+     "place": {
+      "id": "place3",
+      "name": "By the forge"
+     }
+    }
+   ],
+   "name": "Ahab"
+  },
+  {
+   "id": "Perth",
+   "feels": [
+    {
+     "name": "Resignation",
+     "hasIntensity": 0.9,
+     "quote": "I am past scorching; not easily can’st thou scorch a scar.",
+     "causedBy": {
+      "id": "event4",
+      "name": "Reflecting_on_past_experiences"
+     },
+     "hasObject": {
+      "id": "object4",
+      "name": "Past experiences"
+     },
+     "place": {
+      "id": "place4",
+      "name": "By the forge"
+     }
+    }
+   ],
+   "name": "Perth"
+  }
+ ],
+ "Places": [
+  {
+   "id": "place1",
+   "name": "Beside_the_mizen_rigging",
+   "description": "Aboard the ship, near the mizen rigging."
+  },
+  {
+   "id": "place2",
+   "name": "By_the_ocean",
+   "description": "Standing near the ocean, hearing the call of the sea."
+  },
+  {
+   "id": "place3",
+   "name": "By_the_forge",
+   "description": "Standing between the forge and anvil."
+  },
+  {
+   "id": "place4",
+   "name": "By_the_forge",
+   "description": "Standing between the forge and anvil."
+  }
+ ],
+ "Events": [
+  {
+   "id": "event1",
+   "name": "Observing_Queequeg_s_coffin",
+   "takePlaceAt": {
+    "id": "place1"
+   }
+  },
+  {
+   "id": "event2",
+   "name": "Hearing_the_call_of_the_ocean",
+   "takePlaceAt": {
+    "id": "place2"
+   }
+  },
+  {
+   "id": "event3",
+   "name": "Feeling_disconnected_from_others_misery",
+   "takePlaceAt": {
+    "id": "place3"
+   }
+  },
+  {
+   "id": "event4",
+   "name": "Reflecting_on_past_experiences",
+   "takePlaceAt": {
+    "id": "place4"
+   }
+  }
+ ]
+}

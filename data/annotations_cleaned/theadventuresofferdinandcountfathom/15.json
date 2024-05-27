@@ -1,0 +1,117 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "fc1",
+   "name": "Renaldo",
+   "feels": [
+    {
+     "name": "Grief",
+     "hasIntensity": 1,
+     "quote": "Over these pictures he dwelt with a sort of pleasing anguish, until he became so enamoured of her tomb, that he could no longer resist the desire that compelled him to make a pilgrimage to the dear hallowed spot, where all his once gay hopes lay buried.",
+     "causedBy": {
+      "id": "event1",
+      "name": "Reflections_on_Monimia"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Monimia's tomb"
+     },
+     "exactPlace": {
+      "id": "place1",
+      "name": "Monimia's tomb"
+     }
+    },
+    {
+     "name": "Indignation",
+     "hasIntensity": 0.8,
+     "quote": "At mention of this detested name, Renaldo’s heart began to throb with indignation; yet he suppressed the emotion, and desired to know the meaning of that splendid encomium which he had bestowed upon his confederate.",
+     "causedBy": {
+      "id": "event2",
+      "name": "Mention_of_Fathom"
+     },
+     "hasObject": {
+      "id": "object2",
+      "name": "Fathom"
+     }
+    },
+    {
+     "name": "Concern",
+     "hasIntensity": 0.9,
+     "quote": "Renaldo immediately recognised his fellow-student at Vienna, and his brother-volunteer upon the Rhine, and expressed equal surprise and concern at seeing him in such a deplorable situation.",
+     "causedBy": {
+      "id": "event3",
+      "name": "Seeing_Ratchcali_in_a_deplorable_situation"
+     },
+     "hasObject": {
+      "id": "object3",
+      "name": "Ratchcali"
+     }
+    }
+   ]
+  },
+  {
+   "id": "fc2",
+   "name": "Ratchcali",
+   "feels": [
+    {
+     "name": "Resignation",
+     "hasIntensity": 0.7,
+     "quote": "Nothing renders the soul so callous and insensible as the searing brands of infamy and disgrace.",
+     "causedBy": {
+      "id": "event4",
+      "name": "Being_sentenced_to_hard_labour_for_life"
+     },
+     "hasObject": {
+      "id": "object4",
+      "name": "Hard labour sentence"
+     }
+    },
+    {
+     "name": "Admiration",
+     "hasIntensity": 0.6,
+     "quote": "Long life to that original genius! If he is not unhappily eclipsed by some unfortunate interposition, before his terrene parts are purified, I foresee that he will shine a star of the first magnitude in the world of adventure.",
+     "causedBy": {
+      "id": "event5",
+      "name": "Mentioning_Fathom"
+     },
+     "hasObject": {
+      "id": "object5",
+      "name": "Fathom"
+     }
+    }
+   ]
+  }
+ ],
+ "Places": [
+  {
+   "id": "place1",
+   "name": "Monimia_s_tomb",
+   "description": "The hallowed spot where all Renaldo's once gay hopes lay buried."
+  }
+ ],
+ "Events": [
+  {
+   "id": "event1",
+   "name": "Reflections_on_Monimia",
+   "takePlaceAt": {
+    "id": "place1"
+   }
+  },
+  {
+   "id": "event2",
+   "name": "Mention_of_Fathom"
+  },
+  {
+   "id": "event3",
+   "name": "Seeing_Ratchcali_in_a_deplorable_situation"
+  },
+  {
+   "id": "event4",
+   "name": "Being_sentenced_to_hard_labour_for_life"
+  },
+  {
+   "id": "event5",
+   "name": "Mentioning_Fathom"
+  }
+ ]
+}

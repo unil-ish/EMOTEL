@@ -1,0 +1,141 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "fc1",
+   "name": "Cecil_Vyse",
+   "feels": [
+    {
+     "name": "Irritation",
+     "hasIntensity": 0.7,
+     "quote": "He saw that the local society was narrow, but, instead of saying, 'Does that very much matter?' he rebelled, and tried to substitute for it the society he called broad.",
+     "causedBy": {
+      "id": "situation1",
+      "name": "Perception_of_narrow_local_society"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Local society"
+     },
+     "place": "Italy"
+    },
+    {
+     "name": "Disappointment",
+     "hasIntensity": 0.8,
+     "quote": "He was not a coward and bore necessary pain as well as any man. But he hated the physical violence of the young.",
+     "causedBy": {
+      "id": "event1",
+      "name": "Physical_violence_of_the_young"
+     },
+     "hasObject": {
+      "id": "object2",
+      "name": "Physical violence"
+     },
+     "place": "Tennis court"
+    }
+   ]
+  },
+  {
+   "id": "fc2",
+   "name": "Lucy_Honeychurch",
+   "feels": [
+    {
+     "name": "Confusion",
+     "hasIntensity": 0.6,
+     "quote": "She was as scarlet as if he had put the thing most indelicately.",
+     "causedBy": {
+      "id": "event2",
+      "name": "Cecil_s_request_to_kiss_her"
+     },
+     "hasObject": {
+      "id": "object3",
+      "name": "Cecil's request"
+     },
+     "place": "By the pool"
+    },
+    {
+     "name": "Anxiety",
+     "hasIntensity": 0.7,
+     "quote": "For instance, Freddy. Freddy was neither clever, nor subtle, nor beautiful, and what prevented Cecil from saying, any minute, 'It would be wrong not to loathe Freddy'?",
+     "causedBy": {
+      "id": "situation2",
+      "name": "Concern_about_Cecil_s_opinion_of_Freddy"
+     },
+     "hasObject": {
+      "id": "object4",
+      "name": "Freddy"
+     },
+     "place": "Windy Corner"
+    }
+   ]
+  },
+  {
+   "id": "fc3",
+   "name": "Freddy",
+   "feels": [
+    {
+     "name": "Playfulness",
+     "hasIntensity": 0.9,
+     "quote": "Freddy possessed to a high degree the power of lashing little girls to fury, and in half a minute he had transformed Minnie from a well-mannered child into a howling wilderness.",
+     "causedBy": {
+      "id": "activity1",
+      "name": "Playing_bumblepuppy_with_Minnie_Beebe"
+     },
+     "hasObject": {
+      "id": "object5",
+      "name": "Playing bumble-puppy"
+     },
+     "place": "Tennis-court"
+    },
+    {
+     "name": "Confusion",
+     "hasIntensity": 0.8,
+     "quote": "Here his foot slipped, and they all fell most agreeably on to the grass.",
+     "causedBy": {
+      "id": "event3",
+      "name": "Slipping_and_falling_on_the_grass"
+     },
+     "hasObject": {
+      "id": "object6",
+      "name": "Slipping"
+     },
+     "place": "Tennis-court"
+    }
+   ]
+  }
+ ],
+ "Places": [
+  {
+   "id": "place1",
+   "name": "Italy",
+   "description": "Country where Lucy expanded her senses and perception of life"
+  },
+  {
+   "id": "place2",
+   "name": "Tennis_court",
+   "description": "Location where the characters were playing bumble-puppy"
+  }
+ ],
+ "Events": [
+  {
+   "id": "event1",
+   "name": "Physical_violence_of_the_young",
+   "takePlaceAt": {
+    "id": "place2"
+   }
+  },
+  {
+   "id": "event2",
+   "name": "Cecil_s_request_to_kiss_her",
+   "takePlaceAt": {
+    "id": "place1"
+   }
+  },
+  {
+   "id": "event3",
+   "name": "Slipping_and_falling_on_the_grass",
+   "takePlaceAt": {
+    "id": "place2"
+   }
+  }
+ ]
+}

@@ -1,0 +1,113 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "fc1",
+   "name": "Count_Fathom",
+   "feels": [
+    {
+     "name": "Trust",
+     "hasIntensity": 0.9,
+     "quote": "Fathom, foreseeing that the affair might be managed for his own interest, professed himself of the baronet’s opinion; and, without hesitation, undertook the office of a mediator.",
+     "causedBy": {
+      "id": "event1",
+      "name": "Baronet_seeking_advice"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Baronet"
+     },
+     "exactPlace": "Lodgings"
+    },
+    {
+     "name": "Surprise",
+     "hasIntensity": 0.7,
+     "quote": "The count was so much enraged at these sarcastic observations, that his faculty of speech was overwhelmed by his resentment.",
+     "causedBy": {
+      "id": "event2",
+      "name": "Sarcastic_observations"
+     },
+     "hasObject": {
+      "id": "object2",
+      "name": "Sarcastic observations"
+     },
+     "exactPlace": "Hotel"
+    },
+    {
+     "name": "Anger",
+     "hasIntensity": 0.8,
+     "quote": "The German, enraged at this comparison, was quite abandoned by his patience and discretion.",
+     "causedBy": {
+      "id": "event3",
+      "name": "Comparison_to_a_Westphalian_hog"
+     },
+     "hasObject": {
+      "id": "object3",
+      "name": "Comparison"
+     },
+     "exactPlace": "Hotel"
+    },
+    {
+     "name": "Joy",
+     "hasIntensity": 0.6,
+     "quote": "Having received the Englishman’s acknowledgments for this instance of friendship, he forthwith set out for the place of the German’s habitation.",
+     "causedBy": {
+      "id": "event4",
+      "name": "Acknowledgments_from_Englishman"
+     },
+     "hasObject": {
+      "id": "object4",
+      "name": "Acknowledgments"
+     },
+     "exactPlace": "German's habitation"
+    }
+   ]
+  }
+ ],
+ "Places": [
+  {
+   "id": "place1",
+   "name": "Lodgings",
+   "description": "Accommodation in the Fauxbourg de St. Germain"
+  },
+  {
+   "id": "place2",
+   "name": "Hotel",
+   "description": "Reputable place frequented by fashionable strangers"
+  },
+  {
+   "id": "place3",
+   "name": "German_s_habitation",
+   "description": "Count's residence"
+  }
+ ],
+ "Events": [
+  {
+   "id": "event1",
+   "name": "Baronet_seeking_advice",
+   "takePlaceAt": {
+    "id": "place1"
+   }
+  },
+  {
+   "id": "event2",
+   "name": "Sarcastic_observations",
+   "takePlaceAt": {
+    "id": "place2"
+   }
+  },
+  {
+   "id": "event3",
+   "name": "Comparison_to_a_Westphalian_hog",
+   "takePlaceAt": {
+    "id": "place2"
+   }
+  },
+  {
+   "id": "event4",
+   "name": "Acknowledgments_from_Englishman",
+   "takePlaceAt": {
+    "id": "place3"
+   }
+  }
+ ]
+}

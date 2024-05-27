@@ -1,0 +1,175 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "Fred Vincy",
+   "feels": [
+    {
+     "name": "Remorse",
+     "hasIntensity": 0.9,
+     "quote": "I am a good-for-nothing blackguard.",
+     "causedBy": {
+      "id": "event1",
+      "name": "Inability_to_pay_back_money_borrowed"
+     },
+     "hasObject": {
+      "id": "money",
+      "name": "Money"
+     },
+     "place": "Mary's house"
+    },
+    {
+     "name": "Despair",
+     "hasIntensity": 0.7,
+     "quote": "I shall never speak to you about anything again. I'm very sorry for all the trouble I've caused—that's all.",
+     "causedBy": {
+      "id": "event2",
+      "name": "Rejection_by_Mary"
+     },
+     "hasObject": {
+      "id": "relationship",
+      "name": "Relationship with Mary"
+     },
+     "place": "Mary's house"
+    },
+    {
+     "name": "Hope",
+     "hasIntensity": 0.8,
+     "quote": "Fred secretly felt that his future was guaranteed against the fulfilment of Mary’s sarcastic prophecies.",
+     "causedBy": {
+      "id": "event3",
+      "name": "Expectations_from_Mr_Featherstone"
+     },
+     "hasObject": {
+      "id": "future",
+      "name": "Future prospects"
+     },
+     "place": "On his way home"
+    }
+   ],
+   "name": "Fred_Vincy"
+  },
+  {
+   "id": "Mary Garth",
+   "feels": [
+    {
+     "name": "Pity",
+     "hasIntensity": 0.8,
+     "quote": "Her pity for him surmounted her anger and all her other anxieties.",
+     "causedBy": {
+      "id": "event4",
+      "name": "Fred_s_despairing_glance"
+     },
+     "hasObject": {
+      "id": "Fred",
+      "name": "Fred Vincy"
+     },
+     "place": "Mary's house"
+    },
+    {
+     "name": "Resentment",
+     "hasIntensity": 0.9,
+     "quote": "How can you bear to be so contemptible, when others are working and striving, and there are so many things to be done?",
+     "causedBy": {
+      "id": "event5",
+      "name": "Fred_s_irresponsibility"
+     },
+     "hasObject": {
+      "id": "Fred",
+      "name": "Fred Vincy"
+     },
+     "place": "Mary's house"
+    },
+    {
+     "name": "Love",
+     "hasIntensity": 0.9,
+     "quote": "I consider my father and mother the best part of myself, sir.",
+     "causedBy": {
+      "id": "event6",
+      "name": "Father_s_concern_for_her_savings"
+     },
+     "hasObject": {
+      "id": "family",
+      "name": "Family"
+     },
+     "place": "Mary's house"
+    }
+   ],
+   "name": "Mary_Garth"
+  },
+  {
+   "id": "Caleb Garth",
+   "feels": [
+    {
+     "name": "Tenderness",
+     "hasIntensity": 0.8,
+     "quote": "Caleb's voice became more tender; he had been pushing his hat about on the table and looking at it, but finally he turned his eyes on his daughter.",
+     "causedBy": {
+      "id": "event7",
+      "name": "Concern_for_Mary_s_future"
+     },
+     "hasObject": {
+      "id": "Mary",
+      "name": "Mary Garth"
+     },
+     "place": "Mary's house"
+    },
+    {
+     "name": "Regret",
+     "hasIntensity": 0.7,
+     "quote": "I’ve been a bit of a fool again, and put my name to a bill, and now it comes to paying.",
+     "causedBy": {
+      "id": "event8",
+      "name": "Financial_trouble"
+     },
+     "hasObject": {
+      "id": "money",
+      "name": "Money"
+     },
+     "place": "Mary's house"
+    }
+   ],
+   "name": "Caleb_Garth"
+  }
+ ],
+ "Places": [
+  {
+   "id": "Mary's house",
+   "name": "Mary_s_house",
+   "description": "The setting for emotional conversations and revelations between the characters."
+  }
+ ],
+ "Events": [
+  {
+   "id": "event1",
+   "name": "Inability_to_pay_back_money_borrowed"
+  },
+  {
+   "id": "event2",
+   "name": "Rejection_by_Mary"
+  },
+  {
+   "id": "event3",
+   "name": "Expectations_from_Mr_Featherstone"
+  },
+  {
+   "id": "event4",
+   "name": "Fred_s_despairing_glance"
+  },
+  {
+   "id": "event5",
+   "name": "Fred_s_irresponsibility"
+  },
+  {
+   "id": "event6",
+   "name": "Father_s_concern_for_her_savings"
+  },
+  {
+   "id": "event7",
+   "name": "Concern_for_Mary_s_future"
+  },
+  {
+   "id": "event8",
+   "name": "Financial_trouble"
+  }
+ ]
+}

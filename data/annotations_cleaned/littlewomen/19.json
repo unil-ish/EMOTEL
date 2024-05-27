@@ -1,0 +1,101 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "Jo March",
+   "feels": [
+    {
+     "name": "Anticipation",
+     "hasIntensity": 0.8,
+     "quote": "I quite long to see the dear man.",
+     "causedBy": {
+      "id": "event1",
+      "name": "Desire_to_see_Mr_Bhaer"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Mr. Bhaer"
+     },
+     "exactPlace": "At home"
+    },
+    {
+     "name": "Regret",
+     "hasIntensity": 0.7,
+     "quote": "It serves me right! What business had I to put on all my best things and come philandering down here, hoping to see the Professor?",
+     "causedBy": {
+      "id": "event2",
+      "name": "Realization_of_her_actions"
+     },
+     "hasObject": {
+      "id": "object2",
+      "name": "Mr. Bhaer"
+     },
+     "exactPlace": "In the street"
+    },
+    {
+     "name": "Happiness",
+     "hasIntensity": 0.9,
+     "quote": "feeling as if the sun had suddenly burst out with uncommon brilliancy, that the world was all right again, and that one thoroughly happy woman was paddling through the wet that day.",
+     "causedBy": {
+      "id": "event3",
+      "name": "Walking_arminarm_with_Mr_Bhaer"
+     },
+     "hasObject": {
+      "id": "object3",
+      "name": "Mr. Bhaer"
+     },
+     "exactPlace": "Walking together"
+    }
+   ],
+   "name": "Jo_March"
+  }
+ ],
+ "Places": [
+  {
+   "id": "place1",
+   "name": "At_home",
+   "description": "Jo's home where she longs to see Mr. Bhaer."
+  },
+  {
+   "id": "place2",
+   "name": "In_the_street",
+   "description": "Where Jo realizes her actions and feels regret."
+  },
+  {
+   "id": "place3",
+   "name": "Walking_together",
+   "description": "Where Jo feels happiness walking arm-in-arm with Mr. Bhaer."
+  }
+ ],
+ "Events": [
+  {
+   "id": "event1",
+   "name": "Desire_to_see_Mr_Bhaer",
+   "takePlaceAt": {
+    "id": "place1"
+   },
+   "hasParticipant": {
+    "id": "Jo March"
+   }
+  },
+  {
+   "id": "event2",
+   "name": "Realization_of_her_actions",
+   "takePlaceAt": {
+    "id": "place2"
+   },
+   "hasParticipant": {
+    "id": "Jo March"
+   }
+  },
+  {
+   "id": "event3",
+   "name": "Walking_arminarm_with_Mr_Bhaer",
+   "takePlaceAt": {
+    "id": "place3"
+   },
+   "hasParticipant": {
+    "id": "Jo March"
+   }
+  }
+ ]
+}

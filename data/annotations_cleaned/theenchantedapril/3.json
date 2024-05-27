@@ -1,0 +1,150 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "LadyCaroline",
+   "feels": [
+    {
+     "name": "Trust",
+     "hasIntensity": 0.2,
+     "quote": "She began to like Mrs. Fisher.",
+     "causedBy": {
+      "id": "event1",
+      "name": "Mrs_Fisher_showing_concern_for_her_health"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Mrs. Fisher"
+     },
+     "place": {
+      "id": "place1",
+      "name": "Top garden loop"
+     }
+    },
+    {
+     "name": "Surprise",
+     "hasIntensity": 0.5,
+     "quote": "A faint wonder came into Scrap’s eyes. Have you a mother?",
+     "causedBy": {
+      "id": "event2",
+      "name": "Mrs_Fisher_asking_about_her_mother"
+     },
+     "hasObject": {
+      "id": "object2",
+      "name": "Mrs. Fisher"
+     },
+     "place": {
+      "id": "place2",
+      "name": "Top garden loop"
+     }
+    },
+    {
+     "name": "Joy",
+     "hasIntensity": 0.7,
+     "quote": "Scrap began to cheer up.",
+     "causedBy": {
+      "id": "event3",
+      "name": "Realizing_nobody_at_San_Salvatore_knew_about_her_background"
+     },
+     "hasObject": {
+      "id": "object3",
+      "name": "Anonymity"
+     },
+     "place": {
+      "id": "place3",
+      "name": "Top garden loop"
+     }
+    }
+   ],
+   "name": "LadyCaroline"
+  },
+  {
+   "id": "MrsFisher",
+   "feels": [
+    {
+     "name": "Disapproval",
+     "hasIntensity": 0.8,
+     "quote": "What _I_ dislike is the pose of the modern young woman.",
+     "causedBy": {
+      "id": "event4",
+      "name": "Observing_Scrap_s_attitude"
+     },
+     "hasObject": {
+      "id": "object4",
+      "name": "Modern young women"
+     },
+     "place": {
+      "id": "place4",
+      "name": "Top garden loop"
+     }
+    },
+    {
+     "name": "Sternness",
+     "hasIntensity": 0.6,
+     "quote": "Absurd. That’s what you are made for, young women like you.",
+     "causedBy": {
+      "id": "event5",
+      "name": "Discussing_Scrap_s_purpose"
+     },
+     "hasObject": {
+      "id": "object5",
+      "name": "Scrap"
+     },
+     "place": {
+      "id": "place5",
+      "name": "Top garden loop"
+     }
+    }
+   ],
+   "name": "MrsFisher"
+  }
+ ],
+ "Places": [
+  {
+   "id": "place1",
+   "name": "Top_garden_loop",
+   "description": "A secluded spot in the garden with daphne bushes for privacy."
+  },
+  {
+   "id": "place2",
+   "name": "Top_garden_loop",
+   "description": "A secluded spot in the garden with daphne bushes for privacy."
+  },
+  {
+   "id": "place3",
+   "name": "Top_garden_loop",
+   "description": "A secluded spot in the garden with daphne bushes for privacy."
+  },
+  {
+   "id": "place4",
+   "name": "Top_garden_loop",
+   "description": "A secluded spot in the garden with daphne bushes for privacy."
+  },
+  {
+   "id": "place5",
+   "name": "Top_garden_loop",
+   "description": "A secluded spot in the garden with daphne bushes for privacy."
+  }
+ ],
+ "Events": [
+  {
+   "id": "event1",
+   "name": "Mrs_Fisher_showing_concern_for_Lady_Caroline_s_health"
+  },
+  {
+   "id": "event2",
+   "name": "Mrs_Fisher_asking_Lady_Caroline_about_her_mother"
+  },
+  {
+   "id": "event3",
+   "name": "Lady_Caroline_realizing_nobody_at_San_Salvatore_knew_about_her_background"
+  },
+  {
+   "id": "event4",
+   "name": "Mrs_Fisher_observing_Scrap_s_attitude"
+  },
+  {
+   "id": "event5",
+   "name": "Mrs_Fisher_discussing_Scrap_s_purpose"
+  }
+ ]
+}

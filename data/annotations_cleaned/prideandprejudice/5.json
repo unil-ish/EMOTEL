@@ -1,0 +1,91 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "fc1",
+   "name": "Elizabeth_Bennet",
+   "feels": [
+    {
+     "name": "Awe",
+     "hasIntensity": 0.7,
+     "quote": "Elizabeth found herself quite equal to the scene, and could observe the three ladies before her composedly.",
+     "causedBy": {
+      "id": "event1",
+      "name": "Meeting_Lady_Catherine_de_Bourgh"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Lady Catherine de Bourgh"
+     },
+     "place": {
+      "id": "place1",
+      "name": "Rosings"
+     }
+    },
+    {
+     "name": "Impertinence",
+     "hasIntensity": 0.6,
+     "quote": "Elizabeth felt all the impertinence of her questions, but answered them very composedly.",
+     "causedBy": {
+      "id": "event2",
+      "name": "Lady_Catherine_s_questions"
+     },
+     "hasObject": {
+      "id": "object2",
+      "name": "Lady Catherine de Bourgh"
+     },
+     "place": {
+      "id": "place1",
+      "name": "Rosings"
+     }
+    },
+    {
+     "name": "Amusement",
+     "hasIntensity": 0.8,
+     "quote": "Elizabeth could hardly help smiling, as she assured her that had not been the case.",
+     "causedBy": {
+      "id": "event3",
+      "name": "Lady_Catherine_s_questions"
+     },
+     "hasObject": {
+      "id": "object3",
+      "name": "Lady Catherine de Bourgh"
+     },
+     "place": {
+      "id": "place1",
+      "name": "Rosings"
+     }
+    }
+   ]
+  }
+ ],
+ "Places": [
+  {
+   "id": "place1",
+   "name": "Rosings",
+   "description": "Lady Catherine de Bourgh's residence"
+  }
+ ],
+ "Events": [
+  {
+   "id": "event1",
+   "name": "Meeting_Lady_Catherine_de_Bourgh",
+   "takePlaceAt": {
+    "id": "place1"
+   }
+  },
+  {
+   "id": "event2",
+   "name": "Lady_Catherine_s_questions",
+   "takePlaceAt": {
+    "id": "place1"
+   }
+  },
+  {
+   "id": "event3",
+   "name": "Lady_Catherine_s_questions",
+   "takePlaceAt": {
+    "id": "place1"
+   }
+  }
+ ]
+}

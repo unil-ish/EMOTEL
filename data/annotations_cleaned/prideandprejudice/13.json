@@ -1,0 +1,201 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "Elizabeth Bennet",
+   "feels": [
+    {
+     "name": "Joy",
+     "hasIntensity": 0.9,
+     "quote": "I am the happiest creature in the world.",
+     "causedBy": {
+      "id": "event1",
+      "name": "Marriage_to_Mr_Darcy"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Marriage"
+     },
+     "place": {
+      "id": "place1",
+      "name": "Pemberley"
+     }
+    },
+    {
+     "name": "Relief",
+     "hasIntensity": 0.8,
+     "quote": "Elizabeth's mind was now relieved from a very heavy weight.",
+     "causedBy": {
+      "id": "event2",
+      "name": "Getting_rid_of_her_two_most_deserving_daughters"
+     },
+     "hasObject": {
+      "id": "object2",
+      "name": "Relief"
+     },
+     "place": {
+      "id": "place2",
+      "name": "Home"
+     }
+    },
+    {
+     "name": "Hope",
+     "hasIntensity": 0.7,
+     "quote": "It added to the hope of the future.",
+     "causedBy": {
+      "id": "event3",
+      "name": "Looking_forward_to_being_removed_from_society"
+     },
+     "hasObject": {
+      "id": "object3",
+      "name": "Future"
+     },
+     "place": {
+      "id": "place3",
+      "name": "Pemberley"
+     }
+    }
+   ],
+   "name": "Elizabeth_Bennet"
+  },
+  {
+   "id": "Mr. Darcy",
+   "feels": [
+    {
+     "name": "Calmness",
+     "hasIntensity": 0.8,
+     "quote": "He bore it, however, with admirable calmness.",
+     "causedBy": {
+      "id": "event4",
+      "name": "Exposure_to_parading_and_obsequious_civility"
+     },
+     "hasObject": {
+      "id": "object4",
+      "name": "Calmness"
+     },
+     "place": {
+      "id": "place4",
+      "name": "Lucas Lodge"
+     }
+    },
+    {
+     "name": "Hope",
+     "hasIntensity": 0.6,
+     "quote": "He was not wholly without hope that Darcy might yet be prevailed on to make his fortune.",
+     "causedBy": {
+      "id": "event5",
+      "name": "Hope_for_Darcy_s_fortune"
+     },
+     "hasObject": {
+      "id": "object5",
+      "name": "Fortune"
+     },
+     "place": {
+      "id": "place5",
+      "name": "Unknown"
+     }
+    }
+   ],
+   "name": "Mr_Darcy"
+  },
+  {
+   "id": "Mrs. Bennet",
+   "feels": [
+    {
+     "name": "Pride",
+     "hasIntensity": 0.9,
+     "quote": "With what delighted pride she afterwards visited Mrs. Bingley, and talked of Mrs. Darcy, may be guessed.",
+     "causedBy": {
+      "id": "event6",
+      "name": "Visiting_Mrs_Bingley_and_talking_of_Mrs_Darcy"
+     },
+     "hasObject": {
+      "id": "object6",
+      "name": "Pride"
+     },
+     "place": {
+      "id": "place6",
+      "name": "Mrs. Bingley's house"
+     }
+    },
+    {
+     "name": "Nervousness",
+     "hasIntensity": 0.7,
+     "quote": "She still was occasionally nervous and invariably silly.",
+     "causedBy": {
+      "id": "event7",
+      "name": "Occasional_nervousness"
+     },
+     "hasObject": {
+      "id": "object7",
+      "name": "Nervousness"
+     },
+     "place": {
+      "id": "place7",
+      "name": "Home"
+     }
+    }
+   ],
+   "name": "Mrs_Bennet"
+  }
+ ],
+ "Places": [
+  {
+   "id": "place1",
+   "name": "Pemberley"
+  },
+  {
+   "id": "place2",
+   "name": "Home"
+  },
+  {
+   "id": "place3",
+   "name": "Pemberley"
+  },
+  {
+   "id": "place4",
+   "name": "Lucas_Lodge"
+  },
+  {
+   "id": "place5",
+   "name": "Unknown"
+  },
+  {
+   "id": "place6",
+   "name": "Mrs_Bingley_s_house"
+  },
+  {
+   "id": "place7",
+   "name": "Home"
+  }
+ ],
+ "Events": [
+  {
+   "id": "event1",
+   "name": "Marriage_to_Mr_Darcy"
+  },
+  {
+   "id": "event2",
+   "name": "Getting_rid_of_her_two_most_deserving_daughters"
+  },
+  {
+   "id": "event3",
+   "name": "Looking_forward_to_being_removed_from_society"
+  },
+  {
+   "id": "event4",
+   "name": "Exposure_to_parading_and_obsequious_civility"
+  },
+  {
+   "id": "event5",
+   "name": "Hope_for_Darcy_s_fortune"
+  },
+  {
+   "id": "event6",
+   "name": "Visiting_Mrs_Bingley_and_talking_of_Mrs_Darcy"
+  },
+  {
+   "id": "event7",
+   "name": "Occasional_nervousness"
+  }
+ ]
+}

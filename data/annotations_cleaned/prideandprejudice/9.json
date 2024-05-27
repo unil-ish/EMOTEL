@@ -1,0 +1,175 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "Elizabeth Bennet",
+   "feels": [
+    {
+     "name": "Surprise",
+     "hasIntensity": 0.7,
+     "quote": "Mrs. Gardiner was standing a little behind; and on her pausing, he asked her if she would do him the honour of introducing him to her friends. This was a stroke of civility for which she was quite unprepared; and she could hardly suppress a smile at his being now seeking the acquaintance of some of those very people, against whom his pride had revolted, in his offer to herself. 'What will be his surprise,' thought she, 'when he knows who they are! He takes them now for people of fashion.'",
+     "causedBy": {
+      "id": "event1",
+      "name": "Mr_Darcy_asking_for_an_introduction"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Mrs. Gardiner"
+     },
+     "place": {
+      "id": "place1",
+      "name": "Unknown location"
+     }
+    },
+    {
+     "name": "Fear",
+     "hasIntensity": 0.8,
+     "quote": "Oh, yes! Be so kind as to apologize for us to Miss Darcy. Say that urgent business calls us home immediately. Conceal the unhappy truth as long as it is possible. I know it cannot be long.",
+     "causedBy": {
+      "id": "event2",
+      "name": "Receiving_bad_news_about_Lydia_s_elopement"
+     },
+     "hasObject": {
+      "id": "object2",
+      "name": "Miss Darcy"
+     },
+     "place": {
+      "id": "place2",
+      "name": "Unknown location"
+     }
+    },
+    {
+     "name": "Sadness",
+     "hasIntensity": 0.9,
+     "quote": "But self, though it would intrude, could not engross her. Lydia--the humiliation, the misery she was bringing on them all--soon swallowed up every private care; and covering her face with her handkerchief, Elizabeth was soon lost to everything else; and, after a pause of several minutes, was only recalled to a sense of her situation by the voice of her companion...",
+     "causedBy": {
+      "id": "event3",
+      "name": "Realizing_the_impact_of_Lydia_s_elopement"
+     },
+     "hasObject": {
+      "id": "object3",
+      "name": "Lydia"
+     },
+     "place": {
+      "id": "place3",
+      "name": "Unknown location"
+     }
+    }
+   ],
+   "name": "Elizabeth_Bennet"
+  },
+  {
+   "id": "Mr. Darcy",
+   "feels": [
+    {
+     "name": "Astonishment",
+     "hasIntensity": 0.8,
+     "quote": "Darcy was fixed in astonishment.",
+     "causedBy": {
+      "id": "event4",
+      "name": "Elizabeth_revealing_Lydia_s_elopement"
+     },
+     "hasObject": {
+      "id": "object4",
+      "name": "Lydia's elopement"
+     },
+     "place": {
+      "id": "place4",
+      "name": "Unknown location"
+     }
+    },
+    {
+     "name": "Grief",
+     "hasIntensity": 0.9,
+     "quote": "'I am grieved, indeed,' cried Darcy: 'grieved--shocked.'",
+     "causedBy": {
+      "id": "event5",
+      "name": "Learning_about_Lydia_s_elopement"
+     },
+     "hasObject": {
+      "id": "object5",
+      "name": "Lydia's elopement"
+     },
+     "place": {
+      "id": "place5",
+      "name": "Unknown location"
+     }
+    }
+   ],
+   "name": "Mr_Darcy"
+  }
+ ],
+ "Places": [
+  {
+   "id": "place1",
+   "name": "Unknown_location"
+  },
+  {
+   "id": "place2",
+   "name": "Unknown_location"
+  },
+  {
+   "id": "place3",
+   "name": "Unknown_location"
+  },
+  {
+   "id": "place4",
+   "name": "Unknown_location"
+  },
+  {
+   "id": "place5",
+   "name": "Unknown_location"
+  }
+ ],
+ "Events": [
+  {
+   "id": "event1",
+   "name": "Mr_Darcy_asking_for_an_introduction",
+   "takePlaceAt": {
+    "id": "place1"
+   },
+   "hasParticipant": {
+    "id": "Elizabeth Bennet"
+   }
+  },
+  {
+   "id": "event2",
+   "name": "Receiving_bad_news_about_Lydia_s_elopement",
+   "takePlaceAt": {
+    "id": "place2"
+   },
+   "hasParticipant": {
+    "id": "Elizabeth Bennet"
+   }
+  },
+  {
+   "id": "event3",
+   "name": "Realizing_the_impact_of_Lydia_s_elopement",
+   "takePlaceAt": {
+    "id": "place3"
+   },
+   "hasParticipant": {
+    "id": "Elizabeth Bennet"
+   }
+  },
+  {
+   "id": "event4",
+   "name": "Elizabeth_revealing_Lydia_s_elopement",
+   "takePlaceAt": {
+    "id": "place4"
+   },
+   "hasParticipant": {
+    "id": "Mr. Darcy"
+   }
+  },
+  {
+   "id": "event5",
+   "name": "Learning_about_Lydia_s_elopement",
+   "takePlaceAt": {
+    "id": "place5"
+   },
+   "hasParticipant": {
+    "id": "Mr. Darcy"
+   }
+  }
+ ]
+}

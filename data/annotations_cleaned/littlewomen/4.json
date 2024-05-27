@@ -1,0 +1,173 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "fc1",
+   "name": "Jo_March",
+   "feels": [
+    {
+     "name": "Anxiety",
+     "hasIntensity": 0.9,
+     "quote": "Language cannot describe the anxieties, experiences, and exertions which Jo underwent that morning.",
+     "causedBy": {
+      "id": "event1",
+      "name": "Preparing_dinner"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Dinner"
+     },
+     "exactPlace": "Kitchen"
+    },
+    {
+     "name": "Exhaustion",
+     "hasIntensity": 0.8,
+     "quote": "The unusual spectacle of her busy mother rocking comfortably, and reading, early in the morning, made Jo feel as if some natural phenomenon had occurred.",
+     "causedBy": {
+      "id": "event2",
+      "name": "Mother_resting"
+     },
+     "hasObject": {
+      "id": "object2",
+      "name": "Mother"
+     },
+     "exactPlace": "Home"
+    },
+    {
+     "name": "Embarrassment",
+     "hasIntensity": 0.7,
+     "quote": "Poor Jo would gladly have gone under the table, as one thing after another was tasted and left.",
+     "causedBy": {
+      "id": "event3",
+      "name": "Failed_dinner"
+     },
+     "hasObject": {
+      "id": "object3",
+      "name": "Dinner"
+     },
+     "exactPlace": "Dining room"
+    }
+   ]
+  },
+  {
+   "id": "fc2",
+   "name": "Beth_March",
+   "feels": [
+    {
+     "name": "Grief",
+     "hasIntensity": 0.9,
+     "quote": "Beth sobbing over Pip, the canary, who lay dead in the cage.",
+     "causedBy": {
+      "id": "event4",
+      "name": "Canary_s_death"
+     },
+     "hasObject": {
+      "id": "object4",
+      "name": "Canary"
+     },
+     "exactPlace": "Parlor"
+    }
+   ]
+  },
+  {
+   "id": "fc3",
+   "name": "Meg_March",
+   "feels": [
+    {
+     "name": "Relief",
+     "hasIntensity": 0.8,
+     "quote": "Meg ran upstairs, and soon came back again, looking relieved, but rather bewildered, and a little ashamed.",
+     "causedBy": {
+      "id": "event5",
+      "name": "Mother_resting"
+     },
+     "hasObject": {
+      "id": "object5",
+      "name": "Mother"
+     },
+     "exactPlace": "Home"
+    }
+   ]
+  },
+  {
+   "id": "fc4",
+   "name": "Amy_March",
+   "feels": [
+    {
+     "name": "Disappointment",
+     "hasIntensity": 0.8,
+     "quote": "Amy giggled, Meg looked distressed, Miss Crocker pursed up her lips, and Laurie talked and laughed with all his might, to give a cheerful tone to the festive scene.",
+     "causedBy": {
+      "id": "event6",
+      "name": "Failed_dessert"
+     },
+     "hasObject": {
+      "id": "object6",
+      "name": "Dessert"
+     },
+     "exactPlace": "Dining room"
+    }
+   ]
+  }
+ ],
+ "Places": [
+  {
+   "id": "place1",
+   "name": "Kitchen",
+   "description": "In a most discouraging state of confusion."
+  },
+  {
+   "id": "place2",
+   "name": "Parlor",
+   "description": "Where Beth sobbed over the dead canary."
+  },
+  {
+   "id": "place3",
+   "name": "Dining_room",
+   "description": "Where the failed dinner was served."
+  }
+ ],
+ "Events": [
+  {
+   "id": "event1",
+   "name": "Preparing_dinner",
+   "takePlaceAt": {
+    "id": "place1"
+   }
+  },
+  {
+   "id": "event2",
+   "name": "Mother_resting",
+   "takePlaceAt": {
+    "id": "place2"
+   }
+  },
+  {
+   "id": "event3",
+   "name": "Failed_dinner",
+   "takePlaceAt": {
+    "id": "place3"
+   }
+  },
+  {
+   "id": "event4",
+   "name": "Canary_s_death",
+   "takePlaceAt": {
+    "id": "place2"
+   }
+  },
+  {
+   "id": "event5",
+   "name": "Mother_resting",
+   "takePlaceAt": {
+    "id": "place2"
+   }
+  },
+  {
+   "id": "event6",
+   "name": "Failed_dessert",
+   "takePlaceAt": {
+    "id": "place3"
+   }
+  }
+ ]
+}

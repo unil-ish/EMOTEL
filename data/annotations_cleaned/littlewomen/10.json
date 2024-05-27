@@ -1,0 +1,157 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "Amy",
+   "feels": [
+    {
+     "name": "Determination",
+     "hasIntensity": 0.9,
+     "quote": "I can't have it as I like, I don't care to have it at all.",
+     "causedBy": {
+      "id": "event1",
+      "name": "Opposition_from_Jo"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Lunch for the girls"
+     },
+     "place": {
+      "id": "place1",
+      "name": "Home"
+     }
+    },
+    {
+     "name": "Gratitude",
+     "hasIntensity": 0.8,
+     "quote": "If it hadn't been for mother I never should have got through.",
+     "causedBy": {
+      "id": "event2",
+      "name": "Mother_s_help"
+     },
+     "hasObject": {
+      "id": "object2",
+      "name": "Preparation for the event"
+     },
+     "place": {
+      "id": "place1",
+      "name": "Home"
+     }
+    },
+    {
+     "name": "Disappointment",
+     "hasIntensity": 0.7,
+     "quote": "I can't get any lobsters, so you will have to do without salad today.",
+     "causedBy": {
+      "id": "event3",
+      "name": "Unavailability_of_lobsters"
+     },
+     "hasObject": {
+      "id": "object3",
+      "name": "Lunch preparation"
+     },
+     "place": {
+      "id": "place1",
+      "name": "Home"
+     }
+    }
+   ],
+   "name": "Amy"
+  },
+  {
+   "id": "Jo",
+   "feels": [
+    {
+     "name": "Disapproval",
+     "hasIntensity": 0.8,
+     "quote": "Why in the world should you spend your money, worry your family, and turn the house upside down for a parcel of girls who don't care a sixpence for you?",
+     "causedBy": {
+      "id": "event4",
+      "name": "Amy_s_plan_for_the_event"
+     },
+     "hasObject": {
+      "id": "object4",
+      "name": "Girls' visit"
+     },
+     "place": {
+      "id": "place1",
+      "name": "Home"
+     }
+    },
+    {
+     "name": "Reluctance",
+     "hasIntensity": 0.7,
+     "quote": "I would have nothing to do with it at first.",
+     "causedBy": {
+      "id": "event5",
+      "name": "Amy_s_plan_for_the_event"
+     },
+     "hasObject": {
+      "id": "object5",
+      "name": "Girls' visit"
+     },
+     "place": {
+      "id": "place1",
+      "name": "Home"
+     }
+    }
+   ],
+   "name": "Jo"
+  },
+  {
+   "id": "Mrs. March",
+   "feels": [
+    {
+     "name": "Resignation",
+     "hasIntensity": 0.7,
+     "quote": "If your heart is set upon it, and you see your way through without too great an outlay of money, time, and temper, I'll say no more.",
+     "causedBy": {
+      "id": "event6",
+      "name": "Amy_s_determination_to_proceed_with_the_event"
+     },
+     "hasObject": {
+      "id": "object6",
+      "name": "Girls' visit"
+     },
+     "place": {
+      "id": "place1",
+      "name": "Home"
+     }
+    }
+   ],
+   "name": "Mrs_March"
+  }
+ ],
+ "Places": [
+  {
+   "id": "place1",
+   "name": "Home",
+   "description": "The setting for the preparations and discussions for the event."
+  }
+ ],
+ "Events": [
+  {
+   "id": "event1",
+   "name": "Opposition_from_Jo"
+  },
+  {
+   "id": "event2",
+   "name": "Mother_s_help"
+  },
+  {
+   "id": "event3",
+   "name": "Unavailability_of_lobsters"
+  },
+  {
+   "id": "event4",
+   "name": "Amy_s_plan_for_the_event"
+  },
+  {
+   "id": "event5",
+   "name": "Amy_s_plan_for_the_event"
+  },
+  {
+   "id": "event6",
+   "name": "Amy_s_determination_to_proceed_with_the_event"
+  }
+ ]
+}

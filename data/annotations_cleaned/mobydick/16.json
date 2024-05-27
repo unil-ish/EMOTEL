@@ -1,0 +1,135 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "fc1",
+   "name": "Narrator",
+   "feels": [
+    {
+     "name": "Joy",
+     "hasIntensity": 0.7,
+     "quote": "But even so, amid the tornadoed Atlantic of my being, do I myself still for ever centrally disport in mute calm; and while ponderous planets of unwaning woe revolve round me, deep down and deep inland there I still bathe me in eternal mildness of joy.",
+     "causedBy": {
+      "id": "event1",
+      "name": "Surrounded_by_circle_upon_circle_of_consternations_and_affrights"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Tornadoed Atlantic of my being"
+     },
+     "exactPlace": "Deep down and deep inland"
+    },
+    {
+     "name": "Fear",
+     "hasIntensity": 0.8,
+     "quote": "But thoughts like these troubled very few of the reckless crew; and when, after steadily dropping and dropping the pirates astern, the Pequod at last shot by the vivid green Cockatoo Point on the Sumatra side, emerging at last upon the broad waters beyond; then, the harpooneers seemed more to grieve that the swift whales had been gaining upon the ship, than to rejoice that the ship had so victoriously gained upon the Malays.",
+     "causedBy": {
+      "id": "event2",
+      "name": "Pirates_chasing_the_ship"
+     },
+     "hasObject": {
+      "id": "object2",
+      "name": "Pirates"
+     },
+     "exactPlace": "On the ship"
+    },
+    {
+     "name": "Relief",
+     "hasIntensity": 0.6,
+     "quote": "Further pursuit was useless; but the boats still lingered in their wake to pick up what drugged whales might be dropped astern, and likewise to secure one which Flask had killed and waifed.",
+     "causedBy": {
+      "id": "event3",
+      "name": "End_of_pursuit"
+     },
+     "hasObject": {
+      "id": "object3",
+      "name": "End of pursuit"
+     },
+     "exactPlace": "On the boats"
+    }
+   ]
+  },
+  {
+   "id": "fc2",
+   "name": "Queequeg",
+   "feels": [
+    {
+     "name": "Fear",
+     "hasIntensity": 0.7,
+     "quote": "“Oars! Oars!” he intensely whispered, seizing the helm—“gripe your oars, and clutch your souls, now! My God, men, stand by! Shove him off, you Queequeg—the whale there!—prick him!—hit him! Stand up—stand up, and stay so! Spring, men—pull, men; never mind their backs—scrape them!—scrape away!”",
+     "causedBy": {
+      "id": "event4",
+      "name": "Whale_attack"
+     },
+     "hasObject": {
+      "id": "object4",
+      "name": "Whale"
+     },
+     "exactPlace": "On the boat"
+    },
+    {
+     "name": "Relief",
+     "hasIntensity": 0.5,
+     "quote": "This lucky salvation was cheaply purchased by the loss of Queequeg’s hat, who, while standing in the bows to prick the fugitive whales, had his hat taken clean from his head by the air-eddy made by the sudden tossing of a pair of broad flukes close by.",
+     "causedBy": {
+      "id": "event5",
+      "name": "Loss_of_hat"
+     },
+     "hasObject": {
+      "id": "object5",
+      "name": "Hat"
+     },
+     "exactPlace": "On the boat"
+    }
+   ]
+  }
+ ],
+ "Places": [
+  {
+   "id": "place1",
+   "name": "On_the_ship",
+   "description": "Deck of the Pequod"
+  },
+  {
+   "id": "place2",
+   "name": "On_the_boats",
+   "description": "Whaleboats used for hunting"
+  }
+ ],
+ "Events": [
+  {
+   "id": "event1",
+   "name": "Surrounded_by_circle_upon_circle_of_consternations_and_affrights",
+   "takePlaceAt": {
+    "id": "place1"
+   }
+  },
+  {
+   "id": "event2",
+   "name": "Pirates_chasing_the_ship",
+   "takePlaceAt": {
+    "id": "place1"
+   }
+  },
+  {
+   "id": "event3",
+   "name": "End_of_pursuit",
+   "takePlaceAt": {
+    "id": "place2"
+   }
+  },
+  {
+   "id": "event4",
+   "name": "Whale_attack",
+   "takePlaceAt": {
+    "id": "place2"
+   }
+  },
+  {
+   "id": "event5",
+   "name": "Loss_of_hat",
+   "takePlaceAt": {
+    "id": "place2"
+   }
+  }
+ ]
+}

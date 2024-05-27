@@ -1,0 +1,177 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "fc1",
+   "name": "Amy",
+   "feels": [
+    {
+     "name": "Trust",
+     "hasIntensity": 0.8,
+     "quote": "He's my child, and I can't have his spirit broken by harshness.",
+     "causedBy": {
+      "id": "event1",
+      "name": "John_showing_patience_with_Demi"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Demi"
+     },
+     "exactPlace": "Nursery"
+    },
+    {
+     "name": "Surprise",
+     "hasIntensity": 0.7,
+     "quote": "I never need fear that John will be too harsh with my babies: he does know how to manage them.",
+     "causedBy": {
+      "id": "event2",
+      "name": "John_managing_Demi"
+     },
+     "hasObject": {
+      "id": "object2",
+      "name": "Babies"
+     },
+     "exactPlace": "Nursery"
+    },
+    {
+     "name": "Joy",
+     "hasIntensity": 0.9,
+     "quote": "Home grew home-like again, and John had no wish to leave it, unless he took Meg with him.",
+     "causedBy": {
+      "id": "event3",
+      "name": "Household_happiness"
+     },
+     "hasObject": {
+      "id": "object3",
+      "name": "Home"
+     },
+     "exactPlace": "Home"
+    },
+    {
+     "name": "Anticipation",
+     "hasIntensity": 0.6,
+     "quote": "I want to try it for your sake as much as for mine, because I've neglected you shamefully lately, and I'm going to make home what it used to be, if I can.",
+     "causedBy": {
+      "id": "event4",
+      "name": "Meg_s_plan_for_change"
+     },
+     "hasObject": {
+      "id": "object4",
+      "name": "Home"
+     },
+     "exactPlace": "Home"
+    }
+   ]
+  },
+  {
+   "id": "fc2",
+   "name": "John",
+   "feels": [
+    {
+     "name": "Admiration",
+     "hasIntensity": 0.8,
+     "quote": "It's a love of a bonnet, but I prefer the face inside, for it looks young and happy again.",
+     "causedBy": {
+      "id": "event5",
+      "name": "Meg_s_bonnet"
+     },
+     "hasObject": {
+      "id": "object5",
+      "name": "Bonnet"
+     },
+     "exactPlace": "Home"
+    },
+    {
+     "name": "Contentment",
+     "hasIntensity": 0.9,
+     "quote": "This household happiness did not come all at once, but John and Meg had found the key to it.",
+     "causedBy": {
+      "id": "event6",
+      "name": "Household_happiness"
+     },
+     "hasObject": {
+      "id": "object6",
+      "name": "Home"
+     },
+     "exactPlace": "Home"
+    },
+    {
+     "name": "Satisfaction",
+     "hasIntensity": 0.7,
+     "quote": "I really don't see what we are coming to.",
+     "causedBy": {
+      "id": "event7",
+      "name": "Meg_s_bonnet"
+     },
+     "hasObject": {
+      "id": "object7",
+      "name": "Bonnet"
+     },
+     "exactPlace": "Home"
+    }
+   ]
+  }
+ ],
+ "Places": [
+  {
+   "id": "place1",
+   "name": "Nursery",
+   "description": "Where Demi is put to bed and managed by John and Meg."
+  },
+  {
+   "id": "place2",
+   "name": "Home",
+   "description": "Where the household happiness is achieved through changes made by John and Meg."
+  }
+ ],
+ "Events": [
+  {
+   "id": "event1",
+   "name": "John_showing_patience_with_Demi",
+   "takePlaceAt": {
+    "id": "place1"
+   }
+  },
+  {
+   "id": "event2",
+   "name": "John_managing_Demi",
+   "takePlaceAt": {
+    "id": "place1"
+   }
+  },
+  {
+   "id": "event3",
+   "name": "Household_happiness",
+   "takePlaceAt": {
+    "id": "place2"
+   }
+  },
+  {
+   "id": "event4",
+   "name": "Meg_s_plan_for_change",
+   "takePlaceAt": {
+    "id": "place2"
+   }
+  },
+  {
+   "id": "event5",
+   "name": "Meg_s_bonnet",
+   "takePlaceAt": {
+    "id": "place2"
+   }
+  },
+  {
+   "id": "event6",
+   "name": "Household_happiness",
+   "takePlaceAt": {
+    "id": "place2"
+   }
+  },
+  {
+   "id": "event7",
+   "name": "Meg_s_bonnet",
+   "takePlaceAt": {
+    "id": "place2"
+   }
+  }
+ ]
+}

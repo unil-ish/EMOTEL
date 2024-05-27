@@ -1,0 +1,183 @@
+{
+ "FictionalCharacters": [
+  {
+   "name": "Mother",
+   "feels": [
+    {
+     "name": "Anxiety",
+     "hasIntensity": 0.8,
+     "quote": "As I sat cutting out blue flannel jackets to-day, at the rooms, I felt very anxious about father, and thought how lonely and helpless we should be, if anything happened to him.",
+     "causedBy": {
+      "id": "event1",
+      "name": "Feeling_anxious_about_father"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Father"
+     },
+     "feltAt": {
+      "id": "place1",
+      "name": "Cutting out blue flannel jackets"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Jo",
+   "feels": [
+    {
+     "name": "Joy",
+     "hasIntensity": 0.7,
+     "quote": "I actually made myself sleepy; and, before she began to nod, I gave such a gape that she asked me what I meant by opening my mouth wide enough to take the whole book in at once.",
+     "causedBy": {
+      "id": "event2",
+      "name": "Reading_a_book"
+     },
+     "hasObject": {
+      "id": "object2",
+      "name": "Book"
+     },
+     "feltAt": {
+      "id": "place2",
+      "name": "Reading the book"
+     }
+    },
+    {
+     "name": "Amusement",
+     "hasIntensity": 0.6,
+     "quote": "I saw something that I liked this morning, and I meant to tell it at dinner, but I forgot.",
+     "causedBy": {
+      "id": "event3",
+      "name": "Seeing_something_liked"
+     },
+     "hasObject": {
+      "id": "object3",
+      "name": "Something liked"
+     },
+     "feltAt": {
+      "id": "place3",
+      "name": "Telling the story at dinner"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Meg",
+   "feels": [
+    {
+     "name": "Sympathy",
+     "hasIntensity": 0.7,
+     "quote": "I felt so sorry for them, and was rather glad I hadn't any wild brothers to do wicked things and disgrace the family.",
+     "causedBy": {
+      "id": "event4",
+      "name": "Feeling_sorry_for_others"
+     },
+     "hasObject": {
+      "id": "object4",
+      "name": "Others"
+     },
+     "feltAt": {
+      "id": "place4",
+      "name": "Feeling sorry"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Beth",
+   "feels": [
+    {
+     "name": "Gratitude",
+     "hasIntensity": 0.8,
+     "quote": "Wasn't it good of him? Oh, she did look so funny, hugging the big, slippery fish, and hoping Mr. Laurence's bed in heaven would be 'aisy.'",
+     "causedBy": {
+      "id": "event5",
+      "name": "Receiving_a_fish"
+     },
+     "hasObject": {
+      "id": "object5",
+      "name": "Fish"
+     },
+     "feltAt": {
+      "id": "place5",
+      "name": "Fish-shop"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Amy",
+   "feels": [
+    {
+     "name": "Moral satisfaction",
+     "hasIntensity": 0.7,
+     "quote": "My only comfort is, that mother don't take tucks in my dresses whenever I'm naughty, as Maria Parks' mother does.",
+     "causedBy": {
+      "id": "event6",
+      "name": "Comparing_situations"
+     },
+     "hasObject": {
+      "id": "object6",
+      "name": "Comparison"
+     },
+     "feltAt": {
+      "id": "place6",
+      "name": "Sewing together"
+     }
+    }
+   ]
+  }
+ ],
+ "Places": [
+  {
+   "id": "place1",
+   "name": "Cutting_out_blue_flannel_jackets"
+  },
+  {
+   "id": "place2",
+   "name": "Reading_the_book"
+  },
+  {
+   "id": "place3",
+   "name": "Telling_the_story_at_dinner"
+  },
+  {
+   "id": "place4",
+   "name": "Feeling_sorry"
+  },
+  {
+   "id": "place5",
+   "name": "Fishshop"
+  },
+  {
+   "id": "place6",
+   "name": "Sewing_together"
+  }
+ ],
+ "Events": [
+  {
+   "id": "event1",
+   "name": "Feeling_anxious_about_father"
+  },
+  {
+   "id": "event2",
+   "name": "Reading_a_book"
+  },
+  {
+   "id": "event3",
+   "name": "Seeing_something_liked"
+  },
+  {
+   "id": "event4",
+   "name": "Feeling_sorry_for_others"
+  },
+  {
+   "id": "event5",
+   "name": "Receiving_a_fish"
+  },
+  {
+   "id": "event6",
+   "name": "Comparing_situations"
+  }
+ ]
+}

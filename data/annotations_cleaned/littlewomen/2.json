@@ -1,0 +1,90 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "fc1",
+   "name": "Amy_March",
+   "feels": [
+    {
+     "name": "Shame",
+     "hasIntensity": 0.9,
+     "quote": "Amy set her teeth, threw back her head defiantly, and bore without flinching several tingling blows on her little palm.",
+     "causedBy": {
+      "id": "event1",
+      "name": "Being_struck_by_Mr_Davis"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Mr. Davis"
+     },
+     "exactPlace": "In the classroom"
+    },
+    {
+     "name": "Pride",
+     "hasIntensity": 0.8,
+     "quote": "For the first time in her life she had been struck; and the disgrace, in her eyes, was as deep as if he had knocked her down.",
+     "causedBy": {
+      "id": "event2",
+      "name": "Being_struck_by_Mr_Davis"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Mr. Davis"
+     },
+     "exactPlace": "In the classroom"
+    },
+    {
+     "name": "Fear",
+     "hasIntensity": 0.7,
+     "quote": "A bitter sense of wrong, and the thought of Jenny Snow, helped her to bear it; and, taking the ignominious place, she fixed her eyes on the stove-funnel above what now seemed a sea of faces, and stood there, so motionless and white that the girls found it very hard to study, with that pathetic figure before them.",
+     "causedBy": {
+      "id": "event3",
+      "name": "Standing_on_the_platform_till_recess"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Mr. Davis"
+     },
+     "exactPlace": "In the classroom"
+    },
+    {
+     "name": "Disappointment",
+     "hasIntensity": 0.9,
+     "quote": "The smart of her hand and the ache of her heart were forgotten in the sting of the thought,--'I shall have to tell at home, and they will be so disappointed in me!'",
+     "causedBy": {
+      "id": "event4",
+      "name": "Realizing_she_will_have_to_tell_at_home_about_the_incident"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Mr. Davis"
+     },
+     "exactPlace": "In the classroom"
+    }
+   ]
+  }
+ ],
+ "Events": [
+  {
+   "id": "event1",
+   "name": "Being_struck_by_Mr_Davis"
+  },
+  {
+   "id": "event2",
+   "name": "Being_struck_by_Mr_Davis"
+  },
+  {
+   "id": "event3",
+   "name": "Standing_on_the_platform_till_recess"
+  },
+  {
+   "id": "event4",
+   "name": "Realizing_she_will_have_to_tell_at_home_about_the_incident"
+  }
+ ],
+ "Objects": [
+  {
+   "id": "object1",
+   "name": "Mr. Davis"
+  }
+ ]
+}

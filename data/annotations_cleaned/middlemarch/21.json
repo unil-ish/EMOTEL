@@ -1,0 +1,251 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "fc1",
+   "name": "Dorothea_Brooke",
+   "feels": [
+    {
+     "name": "Trust",
+     "hasIntensity": 0.9,
+     "quote": "I felt that I ought not to let it be used by some one else instead of me.",
+     "causedBy": {
+      "id": "event1",
+      "name": "Having_patronage"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Patronage"
+     },
+     "place": {
+      "id": "place1",
+      "name": "Lowick Rectory"
+     }
+    },
+    {
+     "name": "Acceptance",
+     "hasIntensity": 0.8,
+     "quote": "I shall try and do my duty, though I mayn’t like it.",
+     "causedBy": {
+      "id": "event2",
+      "name": "Being_obliged_to_be_a_clergyman"
+     },
+     "hasObject": {
+      "id": "object2",
+      "name": "Being a clergyman"
+     },
+     "place": {
+      "id": "place2",
+      "name": "Lowick Rectory"
+     }
+    },
+    {
+     "name": "Love",
+     "hasIntensity": 0.9,
+     "quote": "I have loved her ever since we were children.",
+     "causedBy": {
+      "id": "event3",
+      "name": "Loving_Mary_Garth"
+     },
+     "hasObject": {
+      "id": "object3",
+      "name": "Mary Garth"
+     },
+     "place": {
+      "id": "place3",
+      "name": "Lowick Rectory"
+     }
+    }
+   ]
+  },
+  {
+   "id": "fc2",
+   "name": "Fred_Vincy",
+   "feels": [
+    {
+     "name": "Anxiety",
+     "hasIntensity": 0.7,
+     "quote": "I am ashamed to trouble you, Mr. Farebrother.",
+     "causedBy": {
+      "id": "event4",
+      "name": "Being_ashamed_to_ask_for_help"
+     },
+     "hasObject": {
+      "id": "object4",
+      "name": "Asking for help"
+     },
+     "place": {
+      "id": "place4",
+      "name": "Lowick Rectory"
+     }
+    },
+    {
+     "name": "Love",
+     "hasIntensity": 0.9,
+     "quote": "There is somebody I am very fond of: I have loved her ever since we were children.",
+     "causedBy": {
+      "id": "event5",
+      "name": "Loving_Mary_Garth"
+     },
+     "hasObject": {
+      "id": "object5",
+      "name": "Mary Garth"
+     },
+     "place": {
+      "id": "place5",
+      "name": "Lowick Rectory"
+     }
+    },
+    {
+     "name": "Anxiety",
+     "hasIntensity": 0.8,
+     "quote": "I don’t like it, but I know it’s uncommonly hard on my father to say so.",
+     "causedBy": {
+      "id": "event6",
+      "name": "Feeling_it_s_hard_on_his_father"
+     },
+     "hasObject": {
+      "id": "object6",
+      "name": "Saying he wants to go into the Church"
+     },
+     "place": {
+      "id": "place6",
+      "name": "Lowick Rectory"
+     }
+    }
+   ]
+  },
+  {
+   "id": "fc3",
+   "name": "Mary_Garth",
+   "feels": [
+    {
+     "name": "Surprise",
+     "hasIntensity": 0.7,
+     "quote": "I am glad of that admission, because I want at this very moment to interest you in a young gentleman.",
+     "causedBy": {
+      "id": "event7",
+      "name": "Being_asked_to_be_interested_in_Fred_Vincy"
+     },
+     "hasObject": {
+      "id": "object7",
+      "name": "Being interested in Fred Vincy"
+     },
+     "place": {
+      "id": "place7",
+      "name": "Lowick Rectory"
+     }
+    },
+    {
+     "name": "Seriousness",
+     "hasIntensity": 0.8,
+     "quote": "I think I do.",
+     "causedBy": {
+      "id": "event8",
+      "name": "Realizing_who_Fred_Vincy_is"
+     },
+     "hasObject": {
+      "id": "object8",
+      "name": "Realizing who Fred Vincy is"
+     },
+     "place": {
+      "id": "place8",
+      "name": "Lowick Rectory"
+     }
+    },
+    {
+     "name": "Anxiety",
+     "hasIntensity": 0.9,
+     "quote": "It must be Fred Vincy.",
+     "causedBy": {
+      "id": "event9",
+      "name": "Realizing_it_s_about_Fred_Vincy"
+     },
+     "hasObject": {
+      "id": "object9",
+      "name": "Realizing it's about Fred Vincy"
+     },
+     "place": {
+      "id": "place9",
+      "name": "Lowick Rectory"
+     }
+    }
+   ]
+  }
+ ],
+ "Places": [
+  {
+   "id": "place1",
+   "name": "Lowick_Rectory"
+  },
+  {
+   "id": "place2",
+   "name": "Lowick_Rectory"
+  },
+  {
+   "id": "place3",
+   "name": "Lowick_Rectory"
+  },
+  {
+   "id": "place4",
+   "name": "Lowick_Rectory"
+  },
+  {
+   "id": "place5",
+   "name": "Lowick_Rectory"
+  },
+  {
+   "id": "place6",
+   "name": "Lowick_Rectory"
+  },
+  {
+   "id": "place7",
+   "name": "Lowick_Rectory"
+  },
+  {
+   "id": "place8",
+   "name": "Lowick_Rectory"
+  },
+  {
+   "id": "place9",
+   "name": "Lowick_Rectory"
+  }
+ ],
+ "Events": [
+  {
+   "id": "event1",
+   "name": "Having_patronage"
+  },
+  {
+   "id": "event2",
+   "name": "Being_obliged_to_be_a_clergyman"
+  },
+  {
+   "id": "event3",
+   "name": "Loving_Mary_Garth"
+  },
+  {
+   "id": "event4",
+   "name": "Being_ashamed_to_ask_for_help"
+  },
+  {
+   "id": "event5",
+   "name": "Loving_Mary_Garth"
+  },
+  {
+   "id": "event6",
+   "name": "Feeling_it_s_hard_on_his_father"
+  },
+  {
+   "id": "event7",
+   "name": "Being_asked_to_be_interested_in_Fred_Vincy"
+  },
+  {
+   "id": "event8",
+   "name": "Realizing_who_Fred_Vincy_is"
+  },
+  {
+   "id": "event9",
+   "name": "Realizing_it_s_about_Fred_Vincy"
+  }
+ ]
+}

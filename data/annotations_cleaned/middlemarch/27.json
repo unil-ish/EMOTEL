@@ -1,0 +1,164 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "Lydgate",
+   "feels": [
+    {
+     "name": "Trust",
+     "hasIntensity": 0.2,
+     "quote": "It was as if a fracture in delicate crystal had begun, and he was afraid of any movement that might make it fatal.",
+     "causedBy": {
+      "id": "discussion with his wife",
+      "name": "Discussion_with_his_wife_about_their_financial_situation"
+     },
+     "hasObject": {
+      "id": "relationship with his wife",
+      "name": "Relationship with his wife"
+     },
+     "exactPlace": "Within him"
+    },
+    {
+     "name": "Anger",
+     "hasIntensity": 0.7,
+     "quote": "He wheeled round there, and turned towards her.",
+     "causedBy": {
+      "id": "Rosamond's suggestion",
+      "name": "Rosamond_s_suggestion_to_part_with_the_house"
+     },
+     "hasObject": {
+      "id": "house",
+      "name": "House"
+     },
+     "exactPlace": "Within him"
+    },
+    {
+     "name": "Joy",
+     "hasIntensity": 0.5,
+     "quote": "He tried that evening, by petting her, to heal the wound he had made in the morning.",
+     "causedBy": {
+      "id": "attempt to mend the situation",
+      "name": "Attempt_to_mend_the_situation_with_his_wife"
+     },
+     "hasObject": {
+      "id": "relationship with his wife",
+      "name": "Relationship with his wife"
+     },
+     "exactPlace": "Within him"
+    }
+   ],
+   "name": "Lydgate"
+  },
+  {
+   "id": "Rosamond",
+   "feels": [
+    {
+     "name": "Dread",
+     "hasIntensity": 0.6,
+     "quote": "He felt that the chief result of the discussion was a deposit of dread within him at the idea of opening with his wife in future subjects which might again urge him to violent speech.",
+     "causedBy": {
+      "id": "discussion with her husband",
+      "name": "Discussion_with_her_husband_about_their_financial_situation"
+     },
+     "hasObject": {
+      "id": "future discussions",
+      "name": "Future discussions"
+     },
+     "exactPlace": "Within her"
+    },
+    {
+     "name": "Bitterness",
+     "hasIntensity": 0.8,
+     "quote": "It was a moment of more intense bitterness than she had ever felt before.",
+     "causedBy": {
+      "id": "realization of the financial situation",
+      "name": "Realization_of_the_financial_situation"
+     },
+     "hasObject": {
+      "id": "financial situation",
+      "name": "Financial situation"
+     },
+     "exactPlace": "Within her"
+    },
+    {
+     "name": "Determination",
+     "hasIntensity": 0.7,
+     "quote": "But this was something quite distinct from loving him. Lydgate would not have chosen soon to recur to the plan of parting with the house; he was resolved to carry it out, and say as little more about it as possible.",
+     "causedBy": {
+      "id": "decision to prevent the parting with the house",
+      "name": "Decision_to_prevent_the_parting_with_the_house"
+     },
+     "hasObject": {
+      "id": "house",
+      "name": "House"
+     },
+     "exactPlace": "Within her"
+    }
+   ],
+   "name": "Rosamond"
+  }
+ ],
+ "Places": [
+  {
+   "id": "Middlemarch",
+   "name": "Middlemarch",
+   "description": "The town where the characters reside."
+  }
+ ],
+ "Events": [
+  {
+   "id": "discussion with his wife",
+   "name": "Discussion_with_his_wife_about_their_financial_situation",
+   "takePlaceAt": {
+    "id": "Middlemarch"
+   },
+   "hasParticipant": [
+    {
+     "id": "Lydgate"
+    },
+    {
+     "id": "Rosamond"
+    }
+   ]
+  },
+  {
+   "id": "Rosamond's suggestion",
+   "name": "Rosamond_s_suggestion_to_part_with_the_house",
+   "takePlaceAt": {
+    "id": "Middlemarch"
+   },
+   "hasParticipant": {
+    "id": "Lydgate"
+   }
+  },
+  {
+   "id": "attempt to mend the situation",
+   "name": "Attempt_to_mend_the_situation_with_his_wife",
+   "takePlaceAt": {
+    "id": "Middlemarch"
+   },
+   "hasParticipant": {
+    "id": "Lydgate"
+   }
+  },
+  {
+   "id": "realization of the financial situation",
+   "name": "Realization_of_the_financial_situation",
+   "takePlaceAt": {
+    "id": "Middlemarch"
+   },
+   "hasParticipant": {
+    "id": "Rosamond"
+   }
+  },
+  {
+   "id": "decision to prevent the parting with the house",
+   "name": "Decision_to_prevent_the_parting_with_the_house",
+   "takePlaceAt": {
+    "id": "Middlemarch"
+   },
+   "hasParticipant": {
+    "id": "Rosamond"
+   }
+  }
+ ]
+}

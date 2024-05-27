@@ -1,0 +1,80 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "Starbuck",
+   "feels": [
+    {
+     "name": "Fear",
+     "hasIntensity": 0.9,
+     "quote": "Strange, that I, who have handled so many deadly lances, strange, that I should shake so now.",
+     "causedBy": {
+      "id": "Musket",
+      "name": "Seeing_the_muskets_in_the_rack"
+     },
+     "hasObject": {
+      "id": "Musket",
+      "name": "Muskets in the rack"
+     },
+     "place": "Cabin"
+    },
+    {
+     "name": "Evil Thought",
+     "hasIntensity": 0.7,
+     "quote": "out of Starbuck’s heart, at that instant when he saw the muskets, there strangely evolved an evil thought",
+     "causedBy": {
+      "id": "Musket",
+      "name": "Seeing_the_muskets_in_the_rack"
+     },
+     "hasObject": {
+      "id": "Musket",
+      "name": "Muskets in the rack"
+     },
+     "place": "Cabin"
+    },
+    {
+     "name": "Fear",
+     "hasIntensity": 0.8,
+     "quote": "Loaded? I must see. Aye, aye; and powder in the pan;—that’s not good. Best spill it?—wait. I’ll cure myself of this.",
+     "causedBy": {
+      "id": "Musket",
+      "name": "Seeing_the_musket"
+     },
+     "hasObject": {
+      "id": "Musket",
+      "name": "Musket"
+     },
+     "place": "Cabin"
+    },
+    {
+     "name": "Fear",
+     "hasIntensity": 0.9,
+     "quote": "I can’t withstand thee, then, old man. Not reasoning; not remonstrance; not entreaty wilt thou hearken to; all this thou scornest.",
+     "causedBy": {
+      "id": "Ahab's behavior",
+      "name": "Ahab_s_behavior"
+     },
+     "hasObject": {
+      "id": "Ahab",
+      "name": "Ahab"
+     },
+     "place": "Cabin"
+    }
+   ],
+   "name": "Starbuck"
+  }
+ ],
+ "Places": [
+  {
+   "id": "Cabin",
+   "name": "Cabin",
+   "description": "Isolated subterraneousness, humming silence, loaded muskets in the rack, cabin lamp burning fitfully."
+  }
+ ],
+ "Objects": [
+  {
+   "id": "Musket",
+   "name": "Musket",
+   "description": "The musket that Starbuck pointed at him."
+  }
+ ]
+}

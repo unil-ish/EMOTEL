@@ -1,0 +1,104 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "fc1",
+   "name": "Fred_Vincy",
+   "feels": [
+    {
+     "name": "Anxiety",
+     "hasIntensity": 0.7,
+     "quote": "Fred found himself close upon the term of payment with no money at command beyond the eighty pounds which he had deposited with his mother.",
+     "causedBy": {
+      "id": "debt",
+      "name": "Debt_repayment_deadline_approaching"
+     },
+     "hasObject": {
+      "id": "money",
+      "name": "Money"
+     },
+     "exactPlace": "Middlemarch"
+    },
+    {
+     "name": "Hopefulness",
+     "hasIntensity": 0.8,
+     "quote": "Hopefulness has a pleasure in making a throw of any kind, because the prospect of success is certain.",
+     "causedBy": {
+      "id": "gambling",
+      "name": "Desire_for_winning"
+     },
+     "hasObject": {
+      "id": "gambling",
+      "name": "Gambling"
+     },
+     "exactPlace": "Middlemarch"
+    },
+    {
+     "name": "Heroism",
+     "hasIntensity": 0.6,
+     "quote": "He made the resolution with a sense of heroism—heroism forced on him by the dread of breaking his word to Mr. Garth, by his love for Mary and awe of her opinion.",
+     "causedBy": {
+      "id": "debt",
+      "name": "Fear_of_breaking_his_word"
+     },
+     "hasObject": {
+      "id": "horse",
+      "name": "Horse"
+     },
+     "exactPlace": "Middlemarch"
+    },
+    {
+     "name": "Dissipation",
+     "hasIntensity": 0.5,
+     "quote": "Considering that Fred was not at all coarse, that he rather looked down on the manners and speech of young men who had not been to the university, and that he had written stanzas as pastoral and unvoluptuous as his flute-playing, his attraction towards Bambridge and Horrock was an interesting fact which even the love of horse-flesh would not wholly account for without that mysterious influence of Naming which determinates so much of mortal choice.",
+     "causedBy": {
+      "id": "company",
+      "name": "Company_of_Bambridge_and_Horrock"
+     },
+     "hasObject": {
+      "id": "pleasure",
+      "name": "Pleasure-seeking"
+     },
+     "exactPlace": "Middlemarch"
+    }
+   ]
+  }
+ ],
+ "Events": [
+  {
+   "id": "debt",
+   "name": "Debt_repayment_deadline_approaching"
+  },
+  {
+   "id": "gambling",
+   "name": "Desire_for_winning"
+  },
+  {
+   "id": "company",
+   "name": "Company_of_Bambridge_and_Horrock"
+  }
+ ],
+ "Objects": [
+  {
+   "id": "money",
+   "name": "Money"
+  },
+  {
+   "id": "gambling",
+   "name": "Gambling"
+  },
+  {
+   "id": "horse",
+   "name": "Horse"
+  },
+  {
+   "id": "pleasure",
+   "name": "Pleasure-seeking"
+  }
+ ],
+ "Places": [
+  {
+   "id": "Middlemarch",
+   "name": "Middlemarch"
+  }
+ ]
+}

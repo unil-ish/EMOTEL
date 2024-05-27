@@ -1,0 +1,99 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "fc1",
+   "name": "Mr_Borthrop_Trumbull",
+   "feels": [
+    {
+     "name": "Excitement",
+     "hasIntensity": 0.8,
+     "quote": "Mr. Trumbull was enjoying the utmost activity of his great faculties.",
+     "causedBy": {
+      "id": "event1",
+      "name": "The_auction_sale"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Furniture, books, and pictures"
+     },
+     "place": {
+      "id": "place1",
+      "name": "Mr. Larcher's house"
+     }
+    }
+   ]
+  },
+  {
+   "id": "fc2",
+   "name": "Will_Ladislaw",
+   "feels": [
+    {
+     "name": "Defiance",
+     "hasIntensity": 0.9,
+     "quote": "Will was in a defiant mood, his consciousness being deeply stung with the thought that the people who looked at him probably knew a fact tantamount to an accusation against him.",
+     "causedBy": {
+      "id": "event2",
+      "name": "Being_at_the_auction_sale"
+     },
+     "place": {
+      "id": "place2",
+      "name": "The auction sale"
+     }
+    },
+    {
+     "name": "Relief",
+     "hasIntensity": 0.7,
+     "quote": "At length the 'Supper at Emmaus' was brought forward, to Will's immense relief.",
+     "causedBy": {
+      "id": "event3",
+      "name": "The_Supper_at_Emmaus_painting_being_brought_forward"
+     },
+     "place": {
+      "id": "place3",
+      "name": "The auction sale"
+     }
+    }
+   ]
+  }
+ ],
+ "Places": [
+  {
+   "id": "place1",
+   "name": "Mr_Larcher_s_house",
+   "description": "The location of the auction sale"
+  },
+  {
+   "id": "place2",
+   "name": "The_auction_sale",
+   "description": "The venue where the auction is taking place"
+  },
+  {
+   "id": "place3",
+   "name": "The_auction_sale",
+   "description": "The venue where the auction is taking place"
+  }
+ ],
+ "Events": [
+  {
+   "id": "event1",
+   "name": "The_auction_sale",
+   "takePlaceAt": {
+    "id": "place1"
+   }
+  },
+  {
+   "id": "event2",
+   "name": "Being_at_the_auction_sale",
+   "takePlaceAt": {
+    "id": "place2"
+   }
+  },
+  {
+   "id": "event3",
+   "name": "The_Supper_at_Emmaus_painting_being_brought_forward",
+   "takePlaceAt": {
+    "id": "place3"
+   }
+  }
+ ]
+}

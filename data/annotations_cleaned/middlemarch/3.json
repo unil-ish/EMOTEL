@@ -1,0 +1,258 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "Dorothea Brooke",
+   "feels": [
+    {
+     "name": "Trust",
+     "hasIntensity": 0.8,
+     "quote": "Dorothea walked about the house with delightful emotion. Everything seemed hallowed to her: this was to be the home of her wifehood, and she looked up with eyes full of confidence to Mr. Casaubon when he drew her attention specially to some actual arrangement and asked her if she would like an alteration.",
+     "causedBy": {
+      "id": "event1",
+      "name": "Being_asked_about_an_alteration_in_the_house"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Home of her wifehood"
+     },
+     "place": {
+      "id": "place1",
+      "name": "House"
+     }
+    },
+    {
+     "name": "Joy",
+     "hasIntensity": 0.9,
+     "quote": "Dorothea was glad of a reason for moving away at once on the sound of the bell, as if she needed more than her usual amount of preparation. She was ashamed of being irritated from some cause she could not define even to herself; for though she had no intention to be untruthful, her reply had not touched the real hurt within her.",
+     "causedBy": {
+      "id": "event2",
+      "name": "Having_a_reason_to_move_away"
+     },
+     "hasObject": {
+      "id": "object2",
+      "name": "Moving away"
+     },
+     "place": {
+      "id": "place2",
+      "name": "Dining-room"
+     }
+    },
+    {
+     "name": "Acceptance",
+     "hasIntensity": 0.7,
+     "quote": "Having convinced herself that Mr. Casaubon was altogether right, she recovered her equanimity, and was an agreeable image of serene dignity when she came into the drawing-room in her silver-gray dress.",
+     "causedBy": {
+      "id": "event3",
+      "name": "Convincing_herself_that_Mr_Casaubon_was_right"
+     },
+     "hasObject": {
+      "id": "object3",
+      "name": "Equanimity"
+     },
+     "place": {
+      "id": "place3",
+      "name": "Drawing-room"
+     }
+    },
+    {
+     "name": "Submission",
+     "hasIntensity": 0.6,
+     "quote": "Certainly nothing at present could seem much less important to Lydgate than the turn of Miss Brooke’s mind, or to Miss Brooke than the qualities of the woman who had attracted this young surgeon.",
+     "causedBy": {
+      "id": "event4",
+      "name": "Realizing_the_unimportance_of_Miss_Brooke_s_mind"
+     },
+     "hasObject": {
+      "id": "object4",
+      "name": "Unimportance of Miss Brooke's mind"
+     },
+     "place": {
+      "id": "place4",
+      "name": "Unknown"
+     }
+    }
+   ],
+   "name": "Dorothea_Brooke"
+  },
+  {
+   "id": "Mr. Casaubon",
+   "feels": [
+    {
+     "name": "Annoyance",
+     "hasIntensity": 0.7,
+     "quote": "The words “I should feel more at liberty” grated on Dorothea. For the first time in speaking to Mr. Casaubon she colored from annoyance.",
+     "causedBy": {
+      "id": "event5",
+      "name": "Hearing_the_words_I_should_feel_more_at_liberty_"
+     },
+     "hasObject": {
+      "id": "object5",
+      "name": "Feeling of annoyance"
+     },
+     "place": {
+      "id": "place5",
+      "name": "Dining-room"
+     }
+    },
+    {
+     "name": "Disapproval",
+     "hasIntensity": 0.8,
+     "quote": "He did not confess to himself, still less could he have breathed to another, his surprise that though he had won a lovely and noble-hearted girl he had not won delight.",
+     "causedBy": {
+      "id": "event6",
+      "name": "Realizing_he_had_not_won_delight"
+     },
+     "hasObject": {
+      "id": "object6",
+      "name": "Not winning delight"
+     },
+     "place": {
+      "id": "place6",
+      "name": "Dining-room"
+     }
+    },
+    {
+     "name": "Indifference",
+     "hasIntensity": 0.7,
+     "quote": "Certainly nothing at present could seem much less important to Lydgate than the turn of Miss Brooke’s mind, or to Miss Brooke than the qualities of the woman who had attracted this young surgeon.",
+     "causedBy": {
+      "id": "event7",
+      "name": "Realizing_the_unimportance_of_Miss_Brooke_s_mind"
+     },
+     "hasObject": {
+      "id": "object7",
+      "name": "Unimportance of Miss Brooke's mind"
+     },
+     "place": {
+      "id": "place7",
+      "name": "Unknown"
+     }
+    }
+   ],
+   "name": "Mr_Casaubon"
+  },
+  {
+   "id": "Mr. Lydgate",
+   "feels": [
+    {
+     "name": "Fascination",
+     "hasIntensity": 0.8,
+     "quote": "Lydgate, in fact, was already conscious of being fascinated by a woman strikingly different from Miss Brooke: he did not in the least suppose that he had lost his balance and fallen in love, but he had said of that particular woman, “She is grace itself; she is perfectly lovely and accomplished. That is what a woman ought to be: she ought to produce the effect of exquisite music.”",
+     "causedBy": {
+      "id": "event8",
+      "name": "Being_fascinated_by_a_woman_strikingly_different_from_Miss_Brooke"
+     },
+     "hasObject": {
+      "id": "object8",
+      "name": "Woman strikingly different from Miss Brooke"
+     },
+     "place": {
+      "id": "place8",
+      "name": "Unknown"
+     }
+    }
+   ],
+   "name": "Mr_Lydgate"
+  }
+ ],
+ "Places": [
+  {
+   "id": "place1",
+   "name": "House",
+   "description": "Unknown"
+  },
+  {
+   "id": "place2",
+   "name": "Diningroom",
+   "description": "Unknown"
+  },
+  {
+   "id": "place3",
+   "name": "Drawingroom",
+   "description": "Unknown"
+  },
+  {
+   "id": "place4",
+   "name": "Unknown",
+   "description": "Unknown"
+  },
+  {
+   "id": "place5",
+   "name": "Diningroom",
+   "description": "Unknown"
+  },
+  {
+   "id": "place6",
+   "name": "Diningroom",
+   "description": "Unknown"
+  },
+  {
+   "id": "place7",
+   "name": "Unknown",
+   "description": "Unknown"
+  },
+  {
+   "id": "place8",
+   "name": "Unknown",
+   "description": "Unknown"
+  }
+ ],
+ "Events": [
+  {
+   "id": "event1",
+   "name": "Being_asked_about_an_alteration_in_the_house",
+   "takePlaceAt": {
+    "id": "place1"
+   }
+  },
+  {
+   "id": "event2",
+   "name": "Having_a_reason_to_move_away",
+   "takePlaceAt": {
+    "id": "place2"
+   }
+  },
+  {
+   "id": "event3",
+   "name": "Convincing_herself_that_Mr_Casaubon_was_right",
+   "takePlaceAt": {
+    "id": "place3"
+   }
+  },
+  {
+   "id": "event4",
+   "name": "Realizing_the_unimportance_of_Miss_Brooke_s_mind",
+   "takePlaceAt": {
+    "id": "place4"
+   }
+  },
+  {
+   "id": "event5",
+   "name": "Hearing_the_words_I_should_feel_more_at_liberty_",
+   "takePlaceAt": {
+    "id": "place5"
+   }
+  },
+  {
+   "id": "event6",
+   "name": "Realizing_he_had_not_won_delight",
+   "takePlaceAt": {
+    "id": "place6"
+   }
+  },
+  {
+   "id": "event7",
+   "name": "Realizing_the_unimportance_of_Miss_Brooke_s_mind",
+   "takePlaceAt": {
+    "id": "place7"
+   }
+  },
+  {
+   "id": "event8",
+   "name": "Being_fascinated_by_a_woman_strikingly_different_from_Miss_Brooke",
+   "takePlaceAt": {
+    "id": "place8"
+   }
+  }
+ ]
+}

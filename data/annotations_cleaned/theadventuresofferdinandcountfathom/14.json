@@ -1,0 +1,110 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "fc1",
+   "name": "Renaldo_Melvil",
+   "feels": [
+    {
+     "name": "Anxiety",
+     "hasIntensity": 0.8,
+     "quote": "Renaldo's heart began to throb with great violence.",
+     "causedBy": {
+      "id": "event1",
+      "name": "Seeing_the_signal_from_his_mother"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Signal from his mother"
+     },
+     "exactPlace": {
+      "id": "place1",
+      "name": "Near the castle walls"
+     }
+    },
+    {
+     "name": "Filial Love",
+     "hasIntensity": 0.9,
+     "quote": "He pressed the little image to his lips with the most filial fervour.",
+     "causedBy": {
+      "id": "event2",
+      "name": "Finding_the_miniature_of_his_father"
+     },
+     "hasObject": {
+      "id": "object2",
+      "name": "Miniature of his father"
+     },
+     "exactPlace": {
+      "id": "place2",
+      "name": "Near the castle walls"
+     }
+    },
+    {
+     "name": "Indignation",
+     "hasIntensity": 0.7,
+     "quote": "The blood mounted into Renaldo’s cheeks, and his eyes began to lighten with eagerness and indignation.",
+     "causedBy": {
+      "id": "event3",
+      "name": "Encounter_with_Count_Trebasi"
+     },
+     "hasObject": {
+      "id": "object3",
+      "name": "Count Trebasi"
+     },
+     "exactPlace": {
+      "id": "place3",
+      "name": "Near the castle"
+     }
+    }
+   ]
+  }
+ ],
+ "Places": [
+  {
+   "id": "place1",
+   "name": "Near_the_castle_walls",
+   "description": "Area where Renaldo saw the signal from his mother"
+  },
+  {
+   "id": "place2",
+   "name": "Near_the_castle_walls",
+   "description": "Area where Renaldo found the miniature of his father"
+  },
+  {
+   "id": "place3",
+   "name": "Near_the_castle",
+   "description": "Area where Renaldo encountered Count Trebasi"
+  }
+ ],
+ "Events": [
+  {
+   "id": "event1",
+   "name": "Seeing_the_signal_from_his_mother",
+   "takePlaceAt": {
+    "id": "place1"
+   },
+   "hasParticipant": {
+    "id": "fc1"
+   }
+  },
+  {
+   "id": "event2",
+   "name": "Finding_the_miniature_of_his_father",
+   "takePlaceAt": {
+    "id": "place2"
+   },
+   "hasParticipant": {
+    "id": "fc1"
+   }
+  },
+  {
+   "id": "event3",
+   "name": "Encounter_with_Count_Trebasi",
+   "takePlaceAt": {
+    "id": "place3"
+   },
+   "hasParticipant": {
+    "id": "fc1"
+   }
+  }
+ ]
+}

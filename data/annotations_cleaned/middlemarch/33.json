@@ -1,0 +1,146 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "Dorothea Brooke",
+   "feels": [
+    {
+     "name": "Trust",
+     "hasIntensity": 0.9,
+     "quote": "She was vigorous enough to have borne that hard night without feeling ill in body, beyond some aching and fatigue; but she had waked to a new condition: she felt as if her soul had been liberated from its terrible conflict; she was no longer wrestling with her grief, but could sit down with it as a lasting companion and make it a sharer in her thoughts.",
+     "causedBy": {
+      "id": "event1",
+      "name": "Feeling_liberated_from_her_terrible_conflict"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Her soul"
+     },
+     "exactPlace": "In her own home"
+    },
+    {
+     "name": "Surprise",
+     "hasIntensity": 0.7,
+     "quote": "It was plain that Lydgate, as Dorothea had expected, knew nothing about the circumstances of her yesterday’s visit; nay, he appeared to imagine that she had carried it out according to her intention.",
+     "causedBy": {
+      "id": "event2",
+      "name": "Lydgate_s_lack_of_knowledge_about_her_previous_visit"
+     },
+     "hasObject": {
+      "id": "object2",
+      "name": "Lydgate's lack of knowledge"
+     },
+     "exactPlace": "In Lydgate's drawing-room"
+    },
+    {
+     "name": "Anxiety",
+     "hasIntensity": 0.8,
+     "quote": "She had prepared a little note asking Rosamond to see her, which she would have given to the servant if he had not been in the way, but now she was in much anxiety as to the result of his announcement.",
+     "causedBy": {
+      "id": "event3",
+      "name": "Uncertainty_about_the_outcome_of_the_servant_s_announcement"
+     },
+     "hasObject": {
+      "id": "object3",
+      "name": "The servant's announcement"
+     },
+     "exactPlace": "In Lydgate's drawing-room"
+    }
+   ],
+   "name": "Dorothea_Brooke"
+  },
+  {
+   "id": "Tantripp",
+   "feels": [
+    {
+     "name": "Confusion",
+     "hasIntensity": 0.6,
+     "quote": "Tantripp would never have found the clew to this mystery. Dorothea wished to acknowledge that she had not the less an active life before her because she had buried a private joy; and the tradition that fresh garments belonged to all initiation, haunting her mind, made her grasp after even that slight outward help towards calm resolve.",
+     "causedBy": {
+      "id": "event4",
+      "name": "Dorothea_s_change_in_mourning_attire"
+     },
+     "hasObject": {
+      "id": "object4",
+      "name": "Dorothea's change in mourning attire"
+     },
+     "exactPlace": "In Dorothea's room"
+    }
+   ],
+   "name": "Tantripp"
+  },
+  {
+   "id": "Lydgate",
+   "feels": [
+    {
+     "name": "Gratitude",
+     "hasIntensity": 0.8,
+     "quote": "When one is grateful for something too good for common thanks, writing is less unsatisfactory than speech—one does not at least hear how inadequate the words are.",
+     "causedBy": {
+      "id": "event5",
+      "name": "Feeling_grateful_for_something_too_good_for_common_thanks"
+     },
+     "hasObject": {
+      "id": "object5",
+      "name": "The act of writing a letter"
+     },
+     "exactPlace": "In the drawing-room"
+    }
+   ],
+   "name": "Lydgate"
+  }
+ ],
+ "Places": [
+  {
+   "id": "place1",
+   "name": "In_her_own_home",
+   "description": "Dorothea's residence where she felt liberated from her terrible conflict."
+  },
+  {
+   "id": "place2",
+   "name": "In_Lydgate_s_drawingroom",
+   "description": "The room where Dorothea experienced surprise and anxiety."
+  },
+  {
+   "id": "place3",
+   "name": "In_Dorothea_s_room",
+   "description": "The location where Tantripp observed Dorothea's change in mourning attire."
+  }
+ ],
+ "Events": [
+  {
+   "id": "event1",
+   "name": "Feeling_liberated_from_her_terrible_conflict",
+   "takePlaceAt": {
+    "id": "place1"
+   }
+  },
+  {
+   "id": "event2",
+   "name": "Lydgate_s_lack_of_knowledge_about_her_previous_visit",
+   "takePlaceAt": {
+    "id": "place2"
+   }
+  },
+  {
+   "id": "event3",
+   "name": "Uncertainty_about_the_outcome_of_the_servant_s_announcement",
+   "takePlaceAt": {
+    "id": "place2"
+   }
+  },
+  {
+   "id": "event4",
+   "name": "Dorothea_s_change_in_mourning_attire",
+   "takePlaceAt": {
+    "id": "place3"
+   }
+  },
+  {
+   "id": "event5",
+   "name": "Feeling_grateful_for_something_too_good_for_common_thanks",
+   "takePlaceAt": {
+    "id": "place2"
+   }
+  }
+ ]
+}

@@ -1,0 +1,185 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "fc1",
+   "name": "Mr_Toller",
+   "feels": [
+    {
+     "name": "Contempt",
+     "hasIntensity": 0.7,
+     "quote": "Brooke has taken him up, because that is what no man in his senses could have expected.",
+     "causedBy": {
+      "id": "event1",
+      "name": "Mr_Brooke_taking_up_Ladislaw"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Will Ladislaw"
+     },
+     "place": {
+      "id": "place1",
+      "name": "Middlemarch"
+     }
+    },
+    {
+     "name": "Disgust",
+     "hasIntensity": 0.6,
+     "quote": "That is fine, my dear fellow. But your cure must begin somewhere, and put it that a thousand things which debase a population can never be reformed without this particular reform to begin with.",
+     "causedBy": {
+      "id": "event2",
+      "name": "Discussion_on_reform"
+     },
+     "hasObject": {
+      "id": "object2",
+      "name": "Reform"
+     },
+     "place": {
+      "id": "place2",
+      "name": "Lydgate's house"
+     }
+    },
+    {
+     "name": "Annoyance",
+     "hasIntensity": 0.8,
+     "quote": "How very unpleasant you both are this evening!",
+     "causedBy": {
+      "id": "event3",
+      "name": "Disagreement_between_Lydgate_and_Ladislaw"
+     },
+     "hasObject": {
+      "id": "object3",
+      "name": "Disagreement"
+     },
+     "place": {
+      "id": "place3",
+      "name": "Lydgate's house"
+     }
+    }
+   ]
+  },
+  {
+   "id": "fc2",
+   "name": "Will_Ladislaw",
+   "feels": [
+    {
+     "name": "Surprise",
+     "hasIntensity": 0.7,
+     "quote": "Its effect when he went to his own rooms was to make him sit up half the night, thinking over again, under a new irritation, all that he had before thought of his having settled in Middlemarch and harnessed himself with Mr. Brooke.",
+     "causedBy": {
+      "id": "event4",
+      "name": "Discussion_with_Lydgate"
+     },
+     "hasObject": {
+      "id": "object4",
+      "name": "Discussion"
+     },
+     "place": {
+      "id": "place4",
+      "name": "Lydgate's house"
+     }
+    },
+    {
+     "name": "Restlessness",
+     "hasIntensity": 0.8,
+     "quote": "Its effect when he went to his own rooms was to make him sit up half the night, thinking over again, under a new irritation, all that he had before thought of his having settled in Middlemarch and harnessed himself with Mr. Brooke.",
+     "causedBy": {
+      "id": "event4",
+      "name": "Discussion_with_Lydgate"
+     },
+     "hasObject": {
+      "id": "object4",
+      "name": "Discussion"
+     },
+     "place": {
+      "id": "place4",
+      "name": "Lydgate's house"
+     }
+    },
+    {
+     "name": "Irritation",
+     "hasIntensity": 0.9,
+     "quote": "Its effect when he went to his own rooms was to make him sit up half the night, thinking over again, under a new irritation, all that he had before thought of his having settled in Middlemarch and harnessed himself with Mr. Brooke.",
+     "causedBy": {
+      "id": "event4",
+      "name": "Discussion_with_Lydgate"
+     },
+     "hasObject": {
+      "id": "object4",
+      "name": "Discussion"
+     },
+     "place": {
+      "id": "place4",
+      "name": "Lydgate's house"
+     }
+    }
+   ]
+  },
+  {
+   "id": "fc3",
+   "name": "Rosamond",
+   "feels": [
+    {
+     "name": "Mild Neutrality",
+     "hasIntensity": 0.6,
+     "quote": "“Poor Rosy!” said Lydgate, putting out his hand to her as she was passing him. “Disputation is not amusing to cherubs. Have some music. Ask Ladislaw to sing with you.”",
+     "causedBy": {
+      "id": "event5",
+      "name": "Disagreement_between_Lydgate_and_Ladislaw"
+     },
+     "hasObject": {
+      "id": "object5",
+      "name": "Disagreement"
+     },
+     "place": {
+      "id": "place5",
+      "name": "Lydgate's house"
+     }
+    }
+   ]
+  }
+ ],
+ "Places": [
+  {
+   "id": "place1",
+   "name": "Middlemarch"
+  },
+  {
+   "id": "place2",
+   "name": "Lydgate_s_house"
+  },
+  {
+   "id": "place3",
+   "name": "Lydgate_s_house"
+  },
+  {
+   "id": "place4",
+   "name": "Lydgate_s_house"
+  },
+  {
+   "id": "place5",
+   "name": "Lydgate_s_house"
+  }
+ ],
+ "Events": [
+  {
+   "id": "event1",
+   "name": "Mr_Brooke_taking_up_Ladislaw"
+  },
+  {
+   "id": "event2",
+   "name": "Discussion_on_reform"
+  },
+  {
+   "id": "event3",
+   "name": "Disagreement_between_Lydgate_and_Ladislaw"
+  },
+  {
+   "id": "event4",
+   "name": "Discussion_with_Lydgate"
+  },
+  {
+   "id": "event5",
+   "name": "Disagreement_between_Lydgate_and_Ladislaw"
+  }
+ ]
+}

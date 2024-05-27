@@ -1,0 +1,116 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "Lydgate",
+   "name": "Lydgate",
+   "feels": [
+    {
+     "name": "Excitement",
+     "hasIntensity": 0.8,
+     "quote": "He was acting, watching, speaking with that excited narrow consciousness which reminds one of an animal with fierce eyes and retractile claws.",
+     "causedBy": {
+      "id": "betting",
+      "name": "Betting_on_his_own_strokes"
+     },
+     "hasObject": {
+      "id": "billiard-table",
+      "name": "Billiard table"
+     },
+     "exactPlace": "Green Dragon billiard-room"
+    },
+    {
+     "name": "Shame",
+     "hasIntensity": 0.7,
+     "quote": "Lydgate felt shame, but could not bear to act as if he felt it, by refusing to see Mr. Farebrother.",
+     "causedBy": {
+      "id": "betting",
+      "name": "Betting_on_his_own_strokes"
+     },
+     "hasObject": {
+      "id": "money",
+      "name": "Money"
+     },
+     "exactPlace": "Green Dragon billiard-room"
+    }
+   ]
+  },
+  {
+   "id": "Fred",
+   "name": "Fred_Vincy",
+   "feels": [
+    {
+     "name": "Shock",
+     "hasIntensity": 0.6,
+     "quote": "Fred felt a shock greater than he could quite account for by the vague knowledge that Lydgate was in debt.",
+     "causedBy": {
+      "id": "seeing Lydgate betting",
+      "name": "Seeing_Lydgate_betting"
+     },
+     "hasObject": {
+      "id": "betting",
+      "name": "Betting"
+     },
+     "exactPlace": "Green Dragon billiard-room"
+    },
+    {
+     "name": "Alarm",
+     "hasIntensity": 0.8,
+     "quote": "Fred was moved quite newly. Some one highly susceptible to the contemplation of a fine act has said, that it produces a sort of regenerating shudder through the frame, and makes one feel ready to begin a new life.",
+     "causedBy": {
+      "id": "Mr. Farebrother's warning",
+      "name": "Mr_Farebrother_s_warning"
+     },
+     "hasObject": {
+      "id": "warning",
+      "name": "Warning"
+     },
+     "exactPlace": "St. Botolph’s road"
+    }
+   ]
+  }
+ ],
+ "Places": [
+  {
+   "id": "Green Dragon billiard-room",
+   "name": "Green_Dragon_billiardroom",
+   "description": "A constant resort for a certain set, most of whom were regarded as men of pleasure."
+  },
+  {
+   "id": "St. Botolph’s road",
+   "name": "St_Botolphs_road",
+   "description": "A patch of green where the road diverged towards St. Botolph’s."
+  }
+ ],
+ "Events": [
+  {
+   "id": "betting",
+   "name": "Betting_on_his_own_strokes",
+   "takePlaceAt": {
+    "id": "Green Dragon billiard-room"
+   },
+   "hasParticipant": {
+    "id": "Lydgate"
+   }
+  },
+  {
+   "id": "seeing Lydgate betting",
+   "name": "Seeing_Lydgate_betting",
+   "takePlaceAt": {
+    "id": "Green Dragon billiard-room"
+   },
+   "hasParticipant": {
+    "id": "Fred"
+   }
+  },
+  {
+   "id": "Mr. Farebrother's warning",
+   "name": "Mr_Farebrother_s_warning",
+   "takePlaceAt": {
+    "id": "St. Botolph’s road"
+   },
+   "hasParticipant": {
+    "id": "Fred"
+   }
+  }
+ ]
+}

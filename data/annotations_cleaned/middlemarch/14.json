@@ -1,0 +1,152 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "Lydgate",
+   "feels": [
+    {
+     "name": "Love",
+     "hasIntensity": 0.9,
+     "quote": "An unmistakable delight shone forth from the blue eyes that met his, and the radiance seemed to light up all his future with mild sunshine.",
+     "causedBy": {
+      "id": "engagement",
+      "name": "Engagement_with_Rosamond"
+     },
+     "hasObject": {
+      "id": "Rosamond",
+      "name": "Rosamond"
+     },
+     "exactPlace": "Drawing-room"
+    },
+    {
+     "name": "Delight",
+     "hasIntensity": 0.8,
+     "quote": "An unmistakable delight shone forth from the blue eyes that met his, and the radiance seemed to light up all his future with mild sunshine.",
+     "causedBy": {
+      "id": "engagement",
+      "name": "Engagement_with_Rosamond"
+     },
+     "hasObject": {
+      "id": "Rosamond",
+      "name": "Rosamond"
+     },
+     "exactPlace": "Drawing-room"
+    },
+    {
+     "name": "Happiness",
+     "hasIntensity": 0.9,
+     "quote": "Ideal happiness seemed to be an affair of a few weeks’ waiting, more or less.",
+     "causedBy": {
+      "id": "engagement",
+      "name": "Engagement_with_Rosamond"
+     },
+     "hasObject": {
+      "id": "Rosamond",
+      "name": "Rosamond"
+     },
+     "exactPlace": "Drawing-room"
+    },
+    {
+     "name": "Passion",
+     "hasIntensity": 0.9,
+     "quote": "He had never felt so passionately towards her as at this moment.",
+     "causedBy": {
+      "id": "engagement",
+      "name": "Engagement_with_Rosamond"
+     },
+     "hasObject": {
+      "id": "Rosamond",
+      "name": "Rosamond"
+     },
+     "exactPlace": "Drawing-room"
+    }
+   ],
+   "name": "Lydgate"
+  },
+  {
+   "id": "Rosamond",
+   "feels": [
+    {
+     "name": "Delight",
+     "hasIntensity": 0.8,
+     "quote": "An unmistakable delight shone forth from the blue eyes that met his, and the radiance seemed to light up all his future with mild sunshine.",
+     "causedBy": {
+      "id": "engagement",
+      "name": "Engagement_with_Lydgate"
+     },
+     "hasObject": {
+      "id": "Lydgate",
+      "name": "Lydgate"
+     },
+     "exactPlace": "Drawing-room"
+    },
+    {
+     "name": "Happiness",
+     "hasIntensity": 0.9,
+     "quote": "Ideal happiness seemed to be an affair of a few weeks’ waiting, more or less.",
+     "causedBy": {
+      "id": "engagement",
+      "name": "Engagement_with_Lydgate"
+     },
+     "hasObject": {
+      "id": "Lydgate",
+      "name": "Lydgate"
+     },
+     "exactPlace": "Drawing-room"
+    },
+    {
+     "name": "Love",
+     "hasIntensity": 0.9,
+     "quote": "An unmistakable delight shone forth from the blue eyes that met his, and the radiance seemed to light up all his future with mild sunshine.",
+     "causedBy": {
+      "id": "engagement",
+      "name": "Engagement_with_Lydgate"
+     },
+     "hasObject": {
+      "id": "Lydgate",
+      "name": "Lydgate"
+     },
+     "exactPlace": "Drawing-room"
+    },
+    {
+     "name": "Delight",
+     "hasIntensity": 0.8,
+     "quote": "An unmistakable delight shone forth from the blue eyes that met his, and the radiance seemed to light up all his future with mild sunshine.",
+     "causedBy": {
+      "id": "engagement",
+      "name": "Engagement_with_Lydgate"
+     },
+     "hasObject": {
+      "id": "Lydgate",
+      "name": "Lydgate"
+     },
+     "exactPlace": "Drawing-room"
+    }
+   ],
+   "name": "Rosamond"
+  }
+ ],
+ "Places": [
+  {
+   "id": "Drawing-room",
+   "name": "Drawingroom",
+   "description": "The great old-fashioned window was opened to the summer scents of the garden at the back of the house."
+  }
+ ],
+ "Events": [
+  {
+   "id": "engagement",
+   "name": "Engagement",
+   "takePlaceAt": {
+    "id": "Drawing-room"
+   },
+   "hasParticipant": [
+    {
+     "id": "Lydgate"
+    },
+    {
+     "id": "Rosamond"
+    }
+   ]
+  }
+ ]
+}

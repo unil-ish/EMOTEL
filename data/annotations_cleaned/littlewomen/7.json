@@ -1,0 +1,58 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "fc1",
+   "name": "Jo",
+   "feels": [
+    {
+     "name": "Relief",
+     "hasIntensity": 0.9,
+     "quote": "A dreadful fear passed coldly over Jo, as she thought, 'Beth is dead, and Meg is afraid to tell me.' She was back at her post in an instant, and to her excited eyes a great change seemed to have taken place.",
+     "place": "By the bed"
+    },
+    {
+     "name": "Joy",
+     "hasIntensity": 0.95,
+     "quote": "Leaning low over this dearest of her sisters, she kissed the damp forehead with her heart on her lips, and softly whispered, 'Good-by, my Beth; good-by!'",
+     "place": "By the bed"
+    },
+    {
+     "name": "Hope",
+     "hasIntensity": 0.9,
+     "quote": "When they went back to be kissed and cuddled by faithful Hannah, they found Beth lying, as she used to do, with her cheek pillowed on her hand, the dreadful pallor gone, and breathing quietly, as if just fallen asleep.",
+     "place": "By the bed"
+    },
+    {
+     "name": "Gratitude",
+     "hasIntensity": 0.85,
+     "quote": "When they went back to be kissed and cuddled by faithful Hannah, they found Beth lying, as she used to do, with her cheek pillowed on her hand, the dreadful pallor gone, and breathing quietly, as if just fallen asleep.",
+     "place": "By the bed"
+    }
+   ]
+  },
+  {
+   "id": "fc2",
+   "name": "Meg",
+   "feels": [
+    {
+     "name": "Hope",
+     "hasIntensity": 0.9,
+     "quote": "Before the girls could believe the happy truth, the doctor came to confirm it. He was a homely man, but they thought his face quite heavenly when he smiled, and said, with a fatherly look at them, 'Yes, my dears, I think the little girl will pull through this time.'",
+     "place": "By the bed"
+    },
+    {
+     "name": "Joy",
+     "hasIntensity": 0.9,
+     "quote": "Never had the sun risen so beautifully, and never had the world seemed so lovely, as it did to the heavy eyes of Meg and Jo, as they looked out in the early morning, when their long, sad vigil was done.",
+     "place": "Looking out in the early morning"
+    },
+    {
+     "name": "Gratitude",
+     "hasIntensity": 0.85,
+     "quote": "When they went back to be kissed and cuddled by faithful Hannah, they found Beth lying, as she used to do, with her cheek pillowed on her hand, the dreadful pallor gone, and breathing quietly, as if just fallen asleep.",
+     "place": "By the bed"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,150 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "Lucy Honeychurch",
+   "feels": [
+    {
+     "name": "Anxiety",
+     "hasIntensity": 0.7,
+     "quote": "The ghosts were returning; they filled Italy, they were even usurping the places she had known as a child. The Sacred Lake would never be the same again, and, on Sunday week, something would even happen to Windy Corner. How would she fight against ghosts? For a moment the visible world faded away, and memories and emotions alone seemed real.",
+     "causedBy": {
+      "id": "event1",
+      "name": "Return_of_ghosts_and_memories"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Italy, Sacred Lake, Windy Corner"
+     },
+     "exactPlace": "Italy, Sacred Lake, Windy Corner"
+    },
+    {
+     "name": "Regret",
+     "hasIntensity": 0.6,
+     "quote": "How dreadful if she really wished to remain near him! Of course, the wish was due to nerves, which love to play such perverse tricks upon us.",
+     "causedBy": {
+      "id": "event2",
+      "name": "Wishing_to_remain_near_George"
+     },
+     "hasObject": {
+      "id": "object2",
+      "name": "George Emerson"
+     },
+     "exactPlace": "Rectory"
+    },
+    {
+     "name": "Nostalgia",
+     "hasIntensity": 0.8,
+     "quote": "The Sacred Lake would never be the same again, and, on Sunday week, something would even happen to Windy Corner.",
+     "causedBy": {
+      "id": "event3",
+      "name": "Changes_in_familiar_places"
+     },
+     "hasObject": {
+      "id": "object3",
+      "name": "Sacred Lake, Windy Corner"
+     },
+     "exactPlace": "Sacred Lake, Windy Corner"
+    }
+   ],
+   "name": "Lucy_Honeychurch"
+  },
+  {
+   "id": "Cecil",
+   "feels": [
+    {
+     "name": "Irritation",
+     "hasIntensity": 0.7,
+     "quote": "Cecil frowned again. Oh, these Honeychurches! Eggs, boilers, hydrangeas, maids—of such were their lives compact.",
+     "causedBy": {
+      "id": "event4",
+      "name": "Discussion_about_Miss_Bartlett"
+     },
+     "hasObject": {
+      "id": "object4",
+      "name": "Honeychurches"
+     },
+     "exactPlace": "Dining room"
+    },
+    {
+     "name": "Discomfort",
+     "hasIntensity": 0.6,
+     "quote": "Cecil crumbled his bread.",
+     "causedBy": {
+      "id": "event5",
+      "name": "Discussion_about_Miss_Bartlett"
+     },
+     "hasObject": {
+      "id": "object5",
+      "name": "Miss Bartlett"
+     },
+     "exactPlace": "Dining room"
+    }
+   ],
+   "name": "Cecil"
+  }
+ ],
+ "Places": [
+  {
+   "id": "Italy",
+   "name": "Italy",
+   "description": "Setting for memories and ghosts"
+  },
+  {
+   "id": "Sacred Lake",
+   "name": "Sacred_Lake",
+   "description": "Location of past experiences"
+  },
+  {
+   "id": "Windy Corner",
+   "name": "Windy_Corner",
+   "description": "Familiar place with upcoming changes"
+  },
+  {
+   "id": "Rectory",
+   "name": "Rectory",
+   "description": "Meeting place with George"
+  },
+  {
+   "id": "Dining room",
+   "name": "Dining_room",
+   "description": "Location of discussion about Miss Bartlett"
+  }
+ ],
+ "Events": [
+  {
+   "id": "event1",
+   "name": "Return_of_ghosts_and_memories",
+   "takePlaceAt": {
+    "id": "Italy"
+   }
+  },
+  {
+   "id": "event2",
+   "name": "Wishing_to_remain_near_George",
+   "takePlaceAt": {
+    "id": "Rectory"
+   }
+  },
+  {
+   "id": "event3",
+   "name": "Changes_in_familiar_places",
+   "takePlaceAt": {
+    "id": "Sacred Lake, Windy Corner"
+   }
+  },
+  {
+   "id": "event4",
+   "name": "Discussion_about_Miss_Bartlett",
+   "takePlaceAt": {
+    "id": "Dining room"
+   }
+  },
+  {
+   "id": "event5",
+   "name": "Discussion_about_Miss_Bartlett",
+   "takePlaceAt": {
+    "id": "Dining room"
+   }
+  }
+ ]
+}

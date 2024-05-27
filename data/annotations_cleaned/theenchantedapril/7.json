@@ -1,0 +1,122 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "fc1",
+   "name": "Rose_Arbuthnot",
+   "feels": [
+    {
+     "name": "Anticipation",
+     "hasIntensity": 0.7,
+     "quote": "Rose sat at her window considering her day.",
+     "causedBy": {
+      "id": "event1",
+      "name": "Thinking_of_Frederick"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Frederick"
+     },
+     "exactPlace": "Window"
+    },
+    {
+     "name": "Sadness",
+     "hasIntensity": 0.6,
+     "quote": "Rose, who between lunch and tea had left off thinking about Frederick, was now, between tea and dinner, thinking of him harder than ever.",
+     "causedBy": {
+      "id": "event2",
+      "name": "Thinking_of_Frederick"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Frederick"
+     },
+     "exactPlace": "Window"
+    }
+   ]
+  },
+  {
+   "id": "fc2",
+   "name": "Ferdinand_Arundel",
+   "feels": [
+    {
+     "name": "Affection",
+     "hasIntensity": 0.8,
+     "quote": "He fathered some of the most entertaining ideas he had lately had on to Lady Droitwich, and also any charming funny things that had been done—or might have been done, for he could imagine almost anything.",
+     "causedBy": {
+      "id": "event3",
+      "name": "Entertaining_Scrap_with_invented_stories_about_her_mother"
+     },
+     "hasObject": {
+      "id": "object2",
+      "name": "Lady Droitwich"
+     },
+     "exactPlace": "Deep window-recess"
+    }
+   ]
+  },
+  {
+   "id": "fc3",
+   "name": "Scrap",
+   "feels": [
+    {
+     "name": "Wonder",
+     "hasIntensity": 0.9,
+     "quote": "Scrap’s eyes grew round with wonder and affectionate pride in her mother.",
+     "causedBy": {
+      "id": "event4",
+      "name": "Listening_to_invented_stories_about_her_mother"
+     },
+     "hasObject": {
+      "id": "object2",
+      "name": "Lady Droitwich"
+     },
+     "exactPlace": "Deep window-recess"
+    },
+    {
+     "name": "Melancholy",
+     "hasIntensity": 0.7,
+     "quote": "Scrap, who had become melancholy at the sight of Briggs, became philosophical at the sight of Arundel.",
+     "causedBy": {
+      "id": "event5",
+      "name": "Seeing_Ferdinand_Arundel"
+     },
+     "exactPlace": "Deep window-recess"
+    }
+   ]
+  }
+ ],
+ "Places": [
+  {
+   "id": "place1",
+   "name": "Window",
+   "description": "Rose sat at her window considering her day."
+  },
+  {
+   "id": "place2",
+   "name": "Deep_windowrecess",
+   "description": "Ferdinand Arundel stood in one of the deep window-recesses looking out at the distant lights of Mezzago."
+  }
+ ],
+ "Events": [
+  {
+   "id": "event1",
+   "name": "Thinking_of_Frederick"
+  },
+  {
+   "id": "event2",
+   "name": "Thinking_of_Frederick"
+  },
+  {
+   "id": "event3",
+   "name": "Entertaining_Scrap_with_invented_stories_about_her_mother"
+  },
+  {
+   "id": "event4",
+   "name": "Listening_to_invented_stories_about_her_mother"
+  },
+  {
+   "id": "event5",
+   "name": "Seeing_Ferdinand_Arundel"
+  }
+ ]
+}

@@ -1,0 +1,212 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "Amy",
+   "feels": [
+    {
+     "name": "Surprise",
+     "hasIntensity": 0.7,
+     "quote": "To May's great delight, Mr. Laurence not only bought the vases, but pervaded the hall with one under each arm.",
+     "causedBy": {
+      "id": "event1",
+      "name": "Mr_Laurence_buying_the_vases"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Vases"
+     },
+     "place": {
+      "id": "place1",
+      "name": "Fair hall"
+     }
+    },
+    {
+     "name": "Pride",
+     "hasIntensity": 0.8,
+     "quote": "That satisfied Amy; and when she got home she found the vases paraded on the parlor chimney-piece, with a great bouquet in each.",
+     "causedBy": {
+      "id": "event2",
+      "name": "Feeling_of_satisfaction"
+     },
+     "hasObject": {
+      "id": "object2",
+      "name": "Vases"
+     },
+     "place": {
+      "id": "place2",
+      "name": "Home"
+     }
+    },
+    {
+     "name": "Affection",
+     "hasIntensity": 0.9,
+     "quote": "When May bade Amy good night, she did not 'gush' as usual, but gave her an affectionate kiss, and a look which said, 'Forgive and forget.'",
+     "causedBy": {
+      "id": "event3",
+      "name": "Good_night_gesture_from_May"
+     },
+     "hasObject": {
+      "id": "object3",
+      "name": "Kiss"
+     },
+     "place": {
+      "id": "place3",
+      "name": "Fair hall"
+     }
+    }
+   ],
+   "name": "Amy"
+  },
+  {
+   "id": "Jo",
+   "feels": [
+    {
+     "name": "Warmth",
+     "hasIntensity": 0.8,
+     "quote": "Laurie espoused her cause with warmth.",
+     "causedBy": {
+      "id": "event4",
+      "name": "Laurie_supporting_Amy"
+     },
+     "hasObject": {
+      "id": "object4",
+      "name": "Amy's cause"
+     },
+     "place": {
+      "id": "place4",
+      "name": "Fair hall"
+     }
+    },
+    {
+     "name": "Warmth",
+     "hasIntensity": 0.9,
+     "quote": "Jo warmly praised Amy for her actions.",
+     "causedBy": {
+      "id": "event5",
+      "name": "Amy_s_actions"
+     },
+     "hasObject": {
+      "id": "object5",
+      "name": "Amy"
+     },
+     "place": {
+      "id": "place5",
+      "name": "Home"
+     }
+    },
+    {
+     "name": "Warmth",
+     "hasIntensity": 0.8,
+     "quote": "Jo said warmly, 'I understand now what you mean, and I'll never laugh at you again.'",
+     "causedBy": {
+      "id": "event6",
+      "name": "Amy_s_explanation"
+     },
+     "hasObject": {
+      "id": "object6",
+      "name": "Amy"
+     },
+     "place": {
+      "id": "place6",
+      "name": "Home"
+     }
+    }
+   ],
+   "name": "Jo"
+  }
+ ],
+ "Places": [
+  {
+   "id": "place1",
+   "name": "Fair_hall",
+   "description": "Where the fair took place"
+  },
+  {
+   "id": "place2",
+   "name": "Home",
+   "description": "Amy's residence"
+  },
+  {
+   "id": "place3",
+   "name": "Fair_hall",
+   "description": "Where Amy bade good night to May"
+  },
+  {
+   "id": "place4",
+   "name": "Fair_hall",
+   "description": "Where Laurie supported Amy"
+  },
+  {
+   "id": "place5",
+   "name": "Home",
+   "description": "Jo and Amy's residence"
+  },
+  {
+   "id": "place6",
+   "name": "Home",
+   "description": "Jo and Amy's residence"
+  }
+ ],
+ "Events": [
+  {
+   "id": "event1",
+   "name": "Mr_Laurence_buying_the_vases",
+   "takePlaceAt": {
+    "id": "place1"
+   },
+   "hasParticipant": {
+    "id": "Amy"
+   }
+  },
+  {
+   "id": "event2",
+   "name": "Feeling_of_satisfaction",
+   "takePlaceAt": {
+    "id": "place2"
+   },
+   "hasParticipant": {
+    "id": "Amy"
+   }
+  },
+  {
+   "id": "event3",
+   "name": "Good_night_gesture_from_May",
+   "takePlaceAt": {
+    "id": "place3"
+   },
+   "hasParticipant": {
+    "id": "Amy"
+   }
+  },
+  {
+   "id": "event4",
+   "name": "Laurie_supporting_Amy",
+   "takePlaceAt": {
+    "id": "place4"
+   },
+   "hasParticipant": {
+    "id": "Jo"
+   }
+  },
+  {
+   "id": "event5",
+   "name": "Amy_s_actions",
+   "takePlaceAt": {
+    "id": "place5"
+   },
+   "hasParticipant": {
+    "id": "Jo"
+   }
+  },
+  {
+   "id": "event6",
+   "name": "Amy_s_explanation",
+   "takePlaceAt": {
+    "id": "place6"
+   },
+   "hasParticipant": {
+    "id": "Jo"
+   }
+  }
+ ]
+}

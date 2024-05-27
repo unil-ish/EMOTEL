@@ -1,0 +1,107 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "fc1",
+   "name": "Mrs_Wilkins",
+   "feels": [
+    {
+     "name": "Joy",
+     "hasIntensity": 1,
+     "quote": "Their happiness was then complete.",
+     "causedBy": {
+      "id": "event1",
+      "name": "Taking_off_shoes_and_stockings_and_letting_feet_hang_in_the_water"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Feeling of completeness"
+     },
+     "place": {
+      "id": "place1",
+      "name": "Sitting under a pine tree by the sea"
+     }
+    },
+    {
+     "name": "Serene",
+     "hasIntensity": 1,
+     "quote": "She was very serene; she could control her conversation; she was quite at her ease, and completely natural.",
+     "causedBy": {
+      "id": "event2",
+      "name": "Being_in_a_state_of_happiness"
+     },
+     "hasObject": {
+      "id": "object2",
+      "name": "Feeling of serenity"
+     },
+     "place": {
+      "id": "place2",
+      "name": "Sitting under a pine tree by the sea"
+     }
+    }
+   ]
+  },
+  {
+   "id": "fc2",
+   "name": "Mrs_Arbuthnot",
+   "feels": [
+    {
+     "name": "Pensive",
+     "hasIntensity": 0.8,
+     "quote": "Mrs. Arbuthnot seemed pensive.",
+     "causedBy": {
+      "id": "event3",
+      "name": "Observing_the_beauty_of_the_surroundings"
+     },
+     "hasObject": {
+      "id": "object3",
+      "name": "Beauty of the surroundings"
+     },
+     "place": {
+      "id": "place3",
+      "name": "Sitting under a pine tree by the sea"
+     }
+    }
+   ]
+  },
+  {
+   "id": "fc3",
+   "name": "Lady_Caroline",
+   "feels": [
+    {
+     "name": "Annoyance",
+     "hasIntensity": 0.9,
+     "quote": "Lady Caroline scowled at the cook.",
+     "causedBy": {
+      "id": "event4",
+      "name": "Encounter_with_the_cook"
+     },
+     "hasObject": {
+      "id": "object4",
+      "name": "Interaction with the cook"
+     },
+     "place": {
+      "id": "place4",
+      "name": "Sitting under a pine tree by the sea"
+     }
+    },
+    {
+     "name": "Icily",
+     "hasIntensity": 0.9,
+     "quote": "No,"
+    },
+    {
+     "id": "event5",
+     "name": "Discussion about husbands"
+    },
+    {
+     "id": "object5",
+     "name": "Discussion about husbands"
+    },
+    {
+     "id": "place5",
+     "name": "Sitting under a pine tree by the sea"
+    }
+   ]
+  }
+ ]
+}

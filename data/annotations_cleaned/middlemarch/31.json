@@ -1,0 +1,154 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "fc1",
+   "name": "Mr_Lydgate",
+   "feels": [
+    {
+     "name": "Anger",
+     "hasIntensity": 0.8,
+     "quote": "He was ready to curse the day on which he had come to Middlemarch.",
+     "causedBy": {
+      "id": "event1",
+      "name": "Feeling_stigmatized_and_misunderstood_by_the_town"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Town of Middlemarch"
+     },
+     "place": {
+      "id": "place1",
+      "name": "Middlemarch"
+     }
+    },
+    {
+     "name": "Defiance",
+     "hasIntensity": 0.9,
+     "quote": "He resolved not to shrink from showing his sense of obligation to Bulstrode.",
+     "causedBy": {
+      "id": "event2",
+      "name": "Decision_to_face_the_situation_with_defiance"
+     },
+     "hasObject": {
+      "id": "object2",
+      "name": "Sense of obligation to Bulstrode"
+     },
+     "place": {
+      "id": "place1",
+      "name": "Middlemarch"
+     }
+    },
+    {
+     "name": "Resentment",
+     "hasIntensity": 0.7,
+     "quote": "He was setting his mind on remaining in Middlemarch in spite of the worst that could be done against him.",
+     "causedBy": {
+      "id": "event3",
+      "name": "Decision_to_stay_in_Middlemarch_despite_the_town_s_opinion"
+     },
+     "hasObject": {
+      "id": "object3",
+      "name": "Town of Middlemarch"
+     },
+     "place": {
+      "id": "place1",
+      "name": "Middlemarch"
+     }
+    }
+   ]
+  },
+  {
+   "id": "fc2",
+   "name": "Mrs_Bulstrode",
+   "feels": [
+    {
+     "name": "Pity",
+     "hasIntensity": 0.6,
+     "quote": "Women who were intimate with her talked much of 'poor Harriet,' imagined what her feelings must be, and conjectured how much she had already come to know.",
+     "causedBy": {
+      "id": "event4",
+      "name": "Sympathy_towards_Mrs_Bulstrode_s_situation"
+     },
+     "hasObject": {
+      "id": "object4",
+      "name": "Mrs. Bulstrode"
+     },
+     "place": {
+      "id": "place2",
+      "name": "Middlemarch"
+     }
+    }
+   ]
+  },
+  {
+   "id": "fc3",
+   "name": "Rosamond_Vincy",
+   "feels": [
+    {
+     "name": "Criticism",
+     "hasIntensity": 0.8,
+     "quote": "Rosamond was more severely criticized and less pitied.",
+     "causedBy": {
+      "id": "event5",
+      "name": "Being_associated_with_her_husband_s_situation"
+     },
+     "hasObject": {
+      "id": "object5",
+      "name": "Association with Bulstrode"
+     },
+     "place": {
+      "id": "place1",
+      "name": "Middlemarch"
+     }
+    }
+   ]
+  }
+ ],
+ "Places": [
+  {
+   "id": "place1",
+   "name": "Middlemarch"
+  },
+  {
+   "id": "place2",
+   "name": "Middlemarch"
+  }
+ ],
+ "Events": [
+  {
+   "id": "event1",
+   "name": "Feeling_stigmatized_and_misunderstood_by_the_town",
+   "takePlaceAt": {
+    "id": "place1"
+   }
+  },
+  {
+   "id": "event2",
+   "name": "Decision_to_face_the_situation_with_defiance",
+   "takePlaceAt": {
+    "id": "place1"
+   }
+  },
+  {
+   "id": "event3",
+   "name": "Decision_to_stay_in_Middlemarch_despite_the_town_s_opinion",
+   "takePlaceAt": {
+    "id": "place1"
+   }
+  },
+  {
+   "id": "event4",
+   "name": "Sympathy_towards_Mrs_Bulstrode_s_situation",
+   "takePlaceAt": {
+    "id": "place2"
+   }
+  },
+  {
+   "id": "event5",
+   "name": "Being_associated_with_her_husband_s_situation",
+   "takePlaceAt": {
+    "id": "place1"
+   }
+  }
+ ]
+}

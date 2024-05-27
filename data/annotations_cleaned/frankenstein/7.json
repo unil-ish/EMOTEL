@@ -1,0 +1,214 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "fc1",
+   "name": "Victor_Frankenstein",
+   "feels": [
+    {
+     "name": "Trust",
+     "hasIntensity": 0.7,
+     "quote": "I quickly destroyed part of my sledge to construct oars, and by these means was enabled, with infinite fatigue, to move my ice raft in the direction of your ship.",
+     "causedBy": {
+      "id": "event1",
+      "name": "Seeing_Walton_s_ship_as_a_sign_of_hope"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Walton's ship"
+     },
+     "exactPlace": {
+      "id": "place1",
+      "name": "Frozen Ocean"
+     }
+    },
+    {
+     "name": "Surprise",
+     "hasIntensity": 0.8,
+     "quote": "Such a monster has, then, really existence! I cannot doubt it, yet I am lost in surprise and admiration.",
+     "causedBy": {
+      "id": "event2",
+      "name": "Seeing_the_monster_from_the_ship"
+     },
+     "hasObject": {
+      "id": "object2",
+      "name": "The monster"
+     },
+     "exactPlace": {
+      "id": "place2",
+      "name": "Walton's ship"
+     }
+    },
+    {
+     "name": "Anger",
+     "hasIntensity": 0.9,
+     "quote": "I darted towards the spot from which the sound proceeded, but the devil eluded my grasp.",
+     "causedBy": {
+      "id": "event3",
+      "name": "Hearing_the_fiend_s_laugh"
+     },
+     "hasObject": {
+      "id": "object3",
+      "name": "The fiend"
+     },
+     "exactPlace": {
+      "id": "place3",
+      "name": "Frozen Ocean"
+     }
+    },
+    {
+     "name": "Joy",
+     "hasIntensity": 0.7,
+     "quote": "Warm tears filled my eyes, which I hastily wiped away, that they might not intercept the view I had of the dæmon; but still my sight was dimmed by the burning drops, until, giving way to the emotions that oppressed me, I wept aloud.",
+     "causedBy": {
+      "id": "event4",
+      "name": "Spotting_the_fiend_after_a_long_search"
+     },
+     "hasObject": {
+      "id": "object4",
+      "name": "The fiend"
+     },
+     "exactPlace": {
+      "id": "place4",
+      "name": "Frozen Ocean"
+     }
+    },
+    {
+     "name": "Anticipation",
+     "hasIntensity": 0.8,
+     "quote": "I hoped to induce you to grant me a boat with which I could pursue my enemy.",
+     "causedBy": {
+      "id": "event5",
+      "name": "Seeing_Walton_s_ship_as_a_potential_aid"
+     },
+     "hasObject": {
+      "id": "object5",
+      "name": "Walton's ship"
+     },
+     "exactPlace": {
+      "id": "place5",
+      "name": "Frozen Ocean"
+     }
+    },
+    {
+     "name": "Fear",
+     "hasIntensity": 0.9,
+     "quote": "The work was soon finished; in a few minutes a tumultuous sea rolled between me and my enemy, and I was left drifting on a scattered piece of ice that was continually lessening and thus preparing for me a hideous death.",
+     "causedBy": {
+      "id": "event6",
+      "name": "Losing_sight_of_the_fiend_and_facing_imminent_danger"
+     },
+     "hasObject": {
+      "id": "object6",
+      "name": "The fiend"
+     },
+     "exactPlace": {
+      "id": "place6",
+      "name": "Frozen Ocean"
+     }
+    },
+    {
+     "name": "Disappointment",
+     "hasIntensity": 0.8,
+     "quote": "On hearing this information I suffered a temporary access of despair. He had escaped me, and I must commence a destructive and almost endless journey across the mountainous ices of the ocean, amidst cold that few of the inhabitants could long endure and which I, the native of a genial and sunny climate, could not hope to survive.",
+     "causedBy": {
+      "id": "event7",
+      "name": "Learning_that_the_fiend_had_escaped"
+     },
+     "hasObject": {
+      "id": "object7",
+      "name": "The fiend"
+     },
+     "exactPlace": {
+      "id": "place7",
+      "name": "Frozen Ocean"
+     }
+    },
+    {
+     "name": "Despair",
+     "hasIntensity": 0.9,
+     "quote": "Despair had indeed almost secured her prey, and I should soon have sunk beneath this misery.",
+     "causedBy": {
+      "id": "event8",
+      "name": "Facing_hopelessness_and_exhaustion"
+     },
+     "hasObject": {
+      "id": "object8",
+      "name": "Hopelessness"
+     },
+     "exactPlace": {
+      "id": "place8",
+      "name": "Frozen Ocean"
+     }
+    }
+   ]
+  }
+ ],
+ "Places": [
+  {
+   "id": "place1",
+   "name": "Frozen_Ocean"
+  },
+  {
+   "id": "place2",
+   "name": "Walton_s_ship"
+  },
+  {
+   "id": "place3",
+   "name": "Frozen_Ocean"
+  },
+  {
+   "id": "place4",
+   "name": "Frozen_Ocean"
+  },
+  {
+   "id": "place5",
+   "name": "Frozen_Ocean"
+  },
+  {
+   "id": "place6",
+   "name": "Frozen_Ocean"
+  },
+  {
+   "id": "place7",
+   "name": "Frozen_Ocean"
+  },
+  {
+   "id": "place8",
+   "name": "Frozen_Ocean"
+  }
+ ],
+ "Events": [
+  {
+   "id": "event1",
+   "name": "Seeing_Walton_s_ship_as_a_sign_of_hope"
+  },
+  {
+   "id": "event2",
+   "name": "Seeing_the_monster_from_the_ship"
+  },
+  {
+   "id": "event3",
+   "name": "Hearing_the_fiend_s_laugh"
+  },
+  {
+   "id": "event4",
+   "name": "Spotting_the_fiend_after_a_long_search"
+  },
+  {
+   "id": "event5",
+   "name": "Seeing_Walton_s_ship_as_a_potential_aid"
+  },
+  {
+   "id": "event6",
+   "name": "Losing_sight_of_the_fiend_and_facing_imminent_danger"
+  },
+  {
+   "id": "event7",
+   "name": "Learning_that_the_fiend_had_escaped"
+  },
+  {
+   "id": "event8",
+   "name": "Facing_hopelessness_and_exhaustion"
+  }
+ ]
+}

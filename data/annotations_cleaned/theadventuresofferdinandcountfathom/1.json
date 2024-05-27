@@ -1,0 +1,150 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "fc1",
+   "name": "Ferdinand_Fathom",
+   "feels": [
+    {
+     "name": "Satisfaction",
+     "hasIntensity": 0.9,
+     "quote": "Fathom entered accidentally into the midst of this well-acted scene, and, perceiving the agitation of the maid, and the concern of the mistress, desired, in a respectful manner, to know the cause of their disorder.",
+     "causedBy": {
+      "id": "event1",
+      "name": "Discovery_of_the_maid_s_guilt"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Maid's guilt"
+     },
+     "place": {
+      "id": "place1",
+      "name": "Young lady's chamber"
+     }
+    },
+    {
+     "name": "Deception",
+     "hasIntensity": 0.8,
+     "quote": "This adventure fully answered all the purposes of our politician; it established the opinion of his fellow-labourer’s virtue, beyond the power of accident or information to shake, and set up a false beacon to mislead the sentiments of Mademoiselle, in case she should for the future meet with the like misfortune.",
+     "causedBy": {
+      "id": "event2",
+      "name": "Successful_deception"
+     },
+     "hasObject": {
+      "id": "object2",
+      "name": "Successful deception"
+     },
+     "place": {
+      "id": "place2",
+      "name": "Young lady's chamber"
+     }
+    },
+    {
+     "name": "Concern",
+     "hasIntensity": 0.7,
+     "quote": "The old gentleman felt upon this occasion all that internal anguish which a man of honour may be supposed to suffer, on account of a son’s degeneracy.",
+     "causedBy": {
+      "id": "event3",
+      "name": "Son_s_degeneracy"
+     },
+     "hasObject": {
+      "id": "object3",
+      "name": "Son's degeneracy"
+     },
+     "place": {
+      "id": "place3",
+      "name": "Count's residence"
+     }
+    }
+   ]
+  },
+  {
+   "id": "fc2",
+   "name": "Teresa",
+   "feels": [
+    {
+     "name": "Relief",
+     "hasIntensity": 0.8,
+     "quote": "Teresa, seizing this occasion to signalise her generosity, joined in the request, and the offender was pardoned, after having restored the purse, and promised in the sight of Heaven, that the devil should never again entice her to the commission of such a crime.",
+     "causedBy": {
+      "id": "event4",
+      "name": "Pardon_of_the_offender"
+     },
+     "hasObject": {
+      "id": "object4",
+      "name": "Pardon of the offender"
+     },
+     "place": {
+      "id": "place4",
+      "name": "Young lady's chamber"
+     }
+    },
+    {
+     "name": "Anxiety",
+     "hasIntensity": 0.7,
+     "quote": "Indeed, this was an event of more consequence than all the rest which had happened, for the jewels were valued at five hundred florins.",
+     "causedBy": {
+      "id": "event5",
+      "name": "Loss_of_jewels"
+     },
+     "hasObject": {
+      "id": "object5",
+      "name": "Jewels"
+     },
+     "place": {
+      "id": "place5",
+      "name": "Young lady's chamber"
+     }
+    }
+   ]
+  }
+ ],
+ "Places": [
+  {
+   "id": "place1",
+   "name": "Young_lady_s_chamber",
+   "description": "Where the maid's guilt was discovered."
+  },
+  {
+   "id": "place2",
+   "name": "Young_lady_s_chamber",
+   "description": "Where successful deception took place."
+  },
+  {
+   "id": "place3",
+   "name": "Count_s_residence",
+   "description": "Where the Count felt anguish due to his son's degeneracy."
+  },
+  {
+   "id": "place4",
+   "name": "Young_lady_s_chamber",
+   "description": "Where the offender was pardoned."
+  },
+  {
+   "id": "place5",
+   "name": "Young_lady_s_chamber",
+   "description": "Where the loss of jewels occurred."
+  }
+ ],
+ "Events": [
+  {
+   "id": "event1",
+   "name": "Discovery_of_the_maid_s_guilt"
+  },
+  {
+   "id": "event2",
+   "name": "Successful_deception"
+  },
+  {
+   "id": "event3",
+   "name": "Son_s_degeneracy"
+  },
+  {
+   "id": "event4",
+   "name": "Pardon_of_the_offender"
+  },
+  {
+   "id": "event5",
+   "name": "Loss_of_jewels"
+  }
+ ]
+}

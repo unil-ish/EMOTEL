@@ -1,0 +1,92 @@
+{
+ "Emotions": [
+  {
+   "Character": "Juliet",
+   "Intensity": 0.9,
+   "Emotion": "Sadness",
+   "Cause": "Mourning Tybalt's death",
+   "Object": "Tybalt",
+   "Place": "Juliet's chamber"
+  },
+  {
+   "Character": "Romeo",
+   "Intensity": 0.8,
+   "Emotion": "Despair",
+   "Cause": "Banishment",
+   "Object": "Juliet",
+   "Place": "Friar Lawrence's cell"
+  },
+  {
+   "Character": "Juliet",
+   "Intensity": 0.7,
+   "Emotion": "Desperation",
+   "Cause": "Romeo's banishment",
+   "Object": "Romeo",
+   "Place": "Juliet's chamber"
+  },
+  {
+   "Character": "Juliet",
+   "Intensity": 0.9,
+   "Emotion": "Grief",
+   "Cause": "Romeo's banishment",
+   "Object": "Romeo",
+   "Place": "Juliet's chamber"
+  },
+  {
+   "Character": "Juliet",
+   "Intensity": 0.8,
+   "Emotion": "Anguish",
+   "Cause": "Romeo's banishment",
+   "Object": "Romeo",
+   "Place": "Juliet's chamber"
+  },
+  {
+   "Character": "Juliet",
+   "Intensity": 0.9,
+   "Emotion": "Desperation",
+   "Cause": "Romeo's banishment",
+   "Object": "Romeo",
+   "Place": "Juliet's chamber"
+  },
+  {
+   "Character": "Juliet",
+   "Intensity": 0.9,
+   "Emotion": "Despair",
+   "Cause": "Romeo's banishment",
+   "Object": "Romeo",
+   "Place": "Juliet's chamber"
+  },
+  {
+   "Character": "Juliet",
+   "Intensity": 0.8,
+   "Emotion": "Resentment",
+   "Cause": "Romeo's banishment",
+   "Object": "Romeo",
+   "Place": "Juliet's chamber"
+  },
+  {
+   "Character": "Juliet",
+   "Intensity": 0.9,
+   "Emotion": "Dread",
+   "Cause": "Romeo's banishment",
+   "Object": "Romeo",
+   "Place": "Juliet's chamber"
+  },
+  {
+   "Character": "Juliet",
+   "Intensity": 0.9,
+   "Emotion": "Shock",
+   "Cause": "Learning of Paris' marriage proposal",
+   "Object": "Paris",
+   "Place": "Juliet's chamber"
+  },
+  {
+   "Character": "Juliet",
+   "Intensity": 0.9,
+   "Emotion": "Defiance",
+   "Cause": "Forced marriage to Paris",
+   "Object": "Paris",
+   "Place": "Juliet's chamber"
+  }
+ ]
+}

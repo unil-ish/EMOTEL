@@ -1,0 +1,89 @@
+{
+ "FictionalCharacters": [
+  {
+   "id": "Lucy",
+   "feels": [
+    {
+     "name": "Confusion",
+     "hasIntensity": 0.7,
+     "quote": "She was sure that she ought not to be with these men; but they had cast a spell over her.",
+     "causedBy": {
+      "id": "situation1",
+      "name": "Being_in_the_presence_of_the_Emersons"
+     },
+     "hasObject": {
+      "id": "object1",
+      "name": "Emersons"
+     },
+     "exactPlace": "Inside Santa Croce"
+    },
+    {
+     "name": "Pity",
+     "hasIntensity": 0.6,
+     "quote": "She was no theologian, but she felt that here was a very foolish old man, as well as a very irreligious one.",
+     "causedBy": {
+      "id": "situation2",
+      "name": "Mr_Emerson_s_comments_on_his_son"
+     },
+     "hasObject": {
+      "id": "object2",
+      "name": "Mr. Emerson"
+     },
+     "exactPlace": "Inside Santa Croce"
+    },
+    {
+     "name": "Amusement",
+     "hasIntensity": 0.8,
+     "quote": "Surely one ought to laugh. A young man melancholy because the universe wouldn’t fit, because life was a tangle or a wind, or a Yes, or something!",
+     "causedBy": {
+      "id": "situation3",
+      "name": "Mr_Emerson_s_philosophical_musings"
+     },
+     "hasObject": {
+      "id": "object3",
+      "name": "Mr. Emerson's musings"
+     },
+     "exactPlace": "Inside Santa Croce"
+    },
+    {
+     "name": "Maternal Concern",
+     "hasIntensity": 0.7,
+     "quote": "The dear George, now striding towards them over the tombstones, seemed both pitiable and absurd.",
+     "causedBy": {
+      "id": "situation4",
+      "name": "Mr_Emerson_s_demeanor"
+     },
+     "hasObject": {
+      "id": "object4",
+      "name": "George Emerson"
+     },
+     "exactPlace": "Inside Santa Croce"
+    }
+   ],
+   "name": "Lucy"
+  }
+ ],
+ "Places": [
+  {
+   "id": "place1",
+   "name": "Santa_Croce",
+   "description": "A church in Florence"
+  }
+ ],
+ "Events": [
+  {
+   "id": "event1",
+   "name": "Loss_of_Baedeker",
+   "takePlaceAt": {
+    "id": "place1"
+   }
+  },
+  {
+   "id": "event2",
+   "name": "Mr_Emerson_s_philosophical_musings",
+   "takePlaceAt": {
+    "id": "place1"
+   }
+  }
+ ]
+}
