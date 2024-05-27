@@ -48,9 +48,9 @@ Ce dossier contient les éléments suivants:
 ## Scripts
 
 - `ask_chatgpt.py` : Annote les morceaux de textes envoyés à l'API ChatGPT
-- `cut_text.py` : Coupe les fichiers textes après un certain nombre de caractères et construit des séquences de messages adaptés à l'analyse par ChatGPT.
-- `normalize_names.py` : normalise les noms afin qu'ils puissent être utilisés pour des URIs (typiquement en remplaçant les espaces par des underscores).
-- `uniquiser_ids.py` : construit des IDs utilisés pour les URIs et construit les liens entre les entités disjointes (pour des raisons techniques) au cours de l'annotation.
+- `cut_text.py` : Prépare l'annotation en (1) coupant les fichiers textes après un certain nombre de caractères et (2) construisant des séquences de messages adaptés à l'analyse par ChatGPT.
+- `normalize_names.py` : Normalise les noms afin qu'ils puissent être utilisés pour des URIs (typiquement en remplaçant les espaces par des underscores).
+- `uniquiser_ids.py` : Construit des IDs utilisés pour les URIs et construit les liens entre les entités disjointes (pour des raisons techniques) au cours de l'annotation.
 - `json_to_owl.py` : Itère sur toutes les annotations de `annotations_cleaned` pour créer des individus et les injecter dans l'ontologie `ontology.owl`
 - `normalize_names.py` : Sert à nettoyer les `annotations` pour enlever les espaces dans les noms par exemple
 
