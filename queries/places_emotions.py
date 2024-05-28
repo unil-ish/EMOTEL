@@ -1,18 +1,20 @@
 from rdflib import Graph
+from collections import Counter
 import re
+import pprint
 
 
 d = {}
 g = Graph()
 
-fp = "../outputs/world.rdf"
+fp = "../outputs/world_strict.rdf"
 
-with open(fp, 'r') as f:
+with open(fp, "r") as f:
     g.parse(file=f)
 
 query = """
 prefix emotel: <https://github.com/unil-ish/EMOTEL#>
-select distinct ?place_name ?event_name
+select distinct ?place_name ?event_name ?emotion
 where {
     ?emotion emotel:causedBy ?event .
     ?event emotel:takePlaceAt ?place .
@@ -21,21 +23,28 @@ where {
 }
 """
 
-# pour montrer un peu: regarder les 10 premiers résultats.
+
+def get_emo_name(emotion):
+    emotion = str(emotion)
+    emotion = re.search(r'\w+?\d+$', emotion).group(0)
+    emotion = "".join([c for c in emotion if c.isalpha()])
+    return emotion
+
+
+# pour montrer un peu: regarder les 40 premiers résultats
 for n, i in enumerate(g.query(query)):
     print(f"""place: {i.place_name}
 event: {i.event_name}
-emotion: {re.search('', str(i.emotion))}
+emotion: {get_emo_name(i.emotion)}
 """)
-    if n > 100:
+    if n > 40:
         break
 
-# en cours: l'analyse
 d = {}
 places = {}
 for row in g.query(query):
-    pl = str(row.place_name)
-    emo = str(row.emotion[i.emotion.index('#')+1:])
+    pl = str(row.place_name).lower()
+    emo = get_emo_name(row.emotion)
     if emo not in d:
         d[emo] = [pl]
     else:
@@ -45,13 +54,23 @@ for row in g.query(query):
     else:
         places[pl].append(emo)
 
-places_words = {}
-for pl, emo in places.items():
-    words = pl.split('_')
-    for w in words:
-        if w not in places_words:
-            places_words[w] = emo
-        else:
-            places_words[w].extend(emo)
+all_words = []
+for i in places.keys():
+    all_words.extend(i.split('_'))
 
-places_words
+x = {}
+for i in all_words:
+    if i not in x:
+        x[i] = []
+    for pl, emos in places.items():
+        if i in pl.split('_'):
+            x[i].extend(emos)
+
+for i in x:
+    x[i] = Counter(x[i])
+
+# les émotions liées aux événements qui se trouvent dans un endroit dont le nom contient le mot 'house'.
+pprint.pprint(x['house'])
+
+# et 'home'
+pprint.pprint(x['home'])

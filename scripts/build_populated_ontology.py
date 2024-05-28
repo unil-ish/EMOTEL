@@ -10,6 +10,7 @@ JSON_DIRECTORY = "data/annotations_cleaned"
 
 def get_emotions_lists(fp_onto):
     import owlready2 as owl
+
     base_onto_full = f"file://{os.path.realpath(fp_onto)}"
     onto = owl.get_ontology(base_onto_full).load()
     registered_emotions = set()
