@@ -22,21 +22,23 @@ Nous utilisons ensuite des LLMs (ici [ChatGPT](https://chatgpt.com/)) pour annot
 
 5. Développement de scripts permettant l'ajouts de nos individus dans l'ontologie.
 
+6. Création d'une deuxième ontologie étendue à partir des résultats de ChatGPT.
+
 ## Structure de ce repository
 
 | Dossier | Contenu |
 |---------|---------|
 | Data | Contient les données intermédiaires au format JSON utilisées dans ce projet |
 | Doc | Documentation concernant la construction de notre ontologie ainsi que de nos réflexions théoriques autour d'une ontologie des émotions littéraires |
-| Ontology | Contient la structures (classes et propriétés) de notre ontologie OWL, créée avec [Protégé](https://protege.stanford.edu/) [owlready2](https://owlready2.readthedocs.io/en/latest/)|
-| Outputs | Contient l'ontologie peuplée par le script `json_to_owl.py` qui repose sur la librairie [rdflib](https://rdflib.readthedocs.io/en/stable/) |
+| Ontology | Contient une première version de notre ontologie, créée avec [Protégé](https://protege.stanford.edu/) [owlready2](https://owlready2.readthedocs.io/en/latest/) ainsi qu'une deuxième qui résulte des sorties de ChatGPT et qui est créée par le script `clean_prepare_for_rdf.py`|
+| Outputs | Contient les deux versions d'ontologies peuplées par le script `json_to_owl.py` qui repose sur la librairie [rdflib](https://rdflib.readthedocs.io/en/stable/) |
 | Project guidelines | Contient le `README.md` officiel de la donnée du projet |
 | Prompts | Contient différents itérations de la construction de nos prompts |
 | Queries | Conient un script python qui exécute des requêtes SPARQL sur notre ontologie |
 | Scripts | Contient les scripts conçus pour traiter nos données |
 | Texts | Contient les textes utilisés pour peupler notre ontologie |
 
-## Data
+### Data
 
 Ce dossier contient les éléments suivants:
 
@@ -44,13 +46,24 @@ Ce dossier contient les éléments suivants:
 - `annotations_cleaned` : Contient les annotations corrigées par le script `normalize_names.py` qui sont ensuite utilisées pour peupler l'ontologie
 - `chunks` : Contient les textes découpés pour être passés dans ChatGPT
 
-## Scripts
+### Scripts
 
-- `ask_chatgpt.py` : Annote les morceaux de textes envoyés à l'API ChatGPT
+- `ask_chatgpt.py` : Annote les morceaux de textes envoyés à l'API ChatGPT et nous indique si certains fichiers doivent être corrigés à la main
 - `clean_prepare_for_rdf.py` : Normalise les noms afin qu'ils puissent être utilisés pour des URIs (typiquement en remplaçant les espaces par des underscores), et reconstruit la structure souhaitée là où ChatGPT s'en éloigné du modèle.
 - `cut_text.py` : Prépare l'annotation en (1) coupant les fichiers textes après un certain nombre de caractères et (2) construisant des séquences de messages adaptés à l'analyse par ChatGPT.
 - `uniquiser_ids.py` : Construit des IDs utilisés pour les URIs et construit les liens entre les entités disjointes (pour des raisons techniques) au cours de l'annotation.
 - `json_to_owl.py` : Itère sur toutes les annotations de `annotations_cleaned` pour créer des individus et les injecter dans l'ontologie `ontology.owl`
+- `uniquiser_ids.py` : Uniformise les IDs assignés aux _FictionalCharacter_, _FictionalEvent_ et _FictionalPlace_
+
+## Pipeline
+
+Pour répliquer nos résultats (en partant de `ontology/ontology.owl`) : 
+
+1. Exécuter `clean_prepare_for_rdf.py` pour créer l'ontologie étendue `ontology_extended.owl`
+2. Exécuter `cut_text.py` pour séparer les textes en vue de leur passage dans l'API de ChatGPT
+3. Exécuter `ask_chatgpt.py` pour obtenir les fichiers JSON puis les vérifier
+4. Exécuter `uniquiser_ids.py` pour standardiser les IDs des objets de nos fichiers JSON
+5. Exécuter `build_world.py` pour créer les deux versions d'ontologies peuplées
 
 ## Dépendances
 
@@ -65,7 +78,7 @@ Nous vous encourageons à exécuter nos scripts dans un environnement virtuel. P
 Ce projet a été réalisé par: (TODO: corriger les noms)
 
 - Zakari Rabet
-- Amélie Mc Cormick
+- Amélie McCormick
 - Annaël Madec-Prévost
 - Thibault Ziegler
 - Johan Cuda
