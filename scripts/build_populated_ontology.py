@@ -274,8 +274,8 @@ def create_and_write_graph(output_file, keep_new_emo: bool, fp_onto) -> None:
 
 if __name__ == "__main__":
     for keepnew, rdfname, ontoname in [
-        (False, "world_strict", "ontology.owl"),
-        (True, "world", "ontology_extended.owl"),
+        (False, "populated_ontology_strict", "ontology.owl"),
+        (True, "populated_ontology", "ontology_extended.owl"),
     ]:
         fp_rdf = f"outputs/{rdfname}.rdf"
         fp_onto = f"ontology/{ontoname}"
