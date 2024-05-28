@@ -1,4 +1,5 @@
 from rdflib import Graph
+import re
 
 
 d = {}
@@ -11,7 +12,7 @@ with open(fp, 'r') as f:
 
 query = """
 prefix emotel: <https://github.com/unil-ish/EMOTEL#>
-select distinct ?place_name ?emotion ?event_name
+select distinct ?place_name ?event_name
 where {
     ?emotion emotel:causedBy ?event .
     ?event emotel:takePlaceAt ?place .
@@ -24,14 +25,10 @@ where {
 for n, i in enumerate(g.query(query)):
     print(f"""place: {i.place_name}
 event: {i.event_name}
-emotion: {i.emotion[i.emotion.index('#')+1:]}
+emotion: {re.search('', str(i.emotion))}
 """)
     if n > 100:
         break
-
-# construire une liste avec tous les résultats, pour regarder sa longueur.
-a = list(g.query(query))
-print(len(a))
 
 # en cours: l'analyse
 d = {}
@@ -57,4 +54,4 @@ for pl, emo in places.items():
         else:
             places_words[w].extend(emo)
 
-counter_places s 
+places_words
