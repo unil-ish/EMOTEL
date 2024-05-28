@@ -8,6 +8,25 @@ EMOTEL = Namespace("https://github.com/unil-ish/EMOTEL#")
 JSON_DIRECTORY = "data/annotations_cleaned"
 
 
+def get_emotions_lists(fp_onto):
+    import owlready2 as owl
+    base_onto_full = f"file://{os.path.realpath(fp_onto)}"
+    onto = owl.get_ontology(base_onto_full).load()
+    registered_emotions = set()
+
+    def rec_add_subclass(c):
+        s = str(c)
+        name = s[s.index(".") + 1 :]
+        registered_emotions.add(name)
+        for sub in c.subclasses():
+            rec_add_subclass(sub)
+
+    for i in onto.Emotion.subclasses():
+        rec_add_subclass(i)
+    return registered_emotions
+
+
+
 def create_uri(element_id):
     """Crée un URI pour un élément donné.
 
@@ -88,7 +107,7 @@ def add_event(g, obj, story):
                 _ = g.add((i, EMOTEL.hasParticipant, uri))
 
 
-def add_emotion(g, obj, story, n, keep_new_emo) -> None:
+def add_emotion(g, obj, story, n, keep_new_emo, registered) -> None:
     """Ajoute les émotions dans le graphe.
 
     Args:
@@ -103,11 +122,10 @@ def add_emotion(g, obj, story, n, keep_new_emo) -> None:
     if "name" in obj:
         emo_type = obj["name"]
         uri = create_uri(emo_type + str(n))
-        if emo_type not in EMOTEL:
+        if emo_type not in registered:
             emo_type = EMOTEL.Emotion
             unregistered = True
         else:
-            print(emo_type)
             emo_type = getattr(EMOTEL, obj["name"])
             unregistered = False
         _ = g.add((uri, RDF.type, emo_type))
@@ -202,6 +220,7 @@ def create_and_write_graph(output_file, keep_new_emo: bool, fp_onto) -> None:
                             em["feltBy"] = charid
                             emotions.append(em)
 
+        registered_emotions = get_emotions_lists(fp_onto)
         # ajouter les lieux
         for obj in places:
             _ = add_in_story(
@@ -232,6 +251,7 @@ def create_and_write_graph(output_file, keep_new_emo: bool, fp_onto) -> None:
                 n=n,
                 story=story,
                 keep_new_emo=keep_new_emo,
+                registered=registered_emotions,
             )
 
     with open(output_file, "w") as f:
@@ -240,8 +260,8 @@ def create_and_write_graph(output_file, keep_new_emo: bool, fp_onto) -> None:
 
 if __name__ == "__main__":
     for keepnew, rdfname, ontoname in [
-        (True, "world", "ontology_extended.owl"),
         (False, "world_strict", "ontology.owl"),
+        (True, "world", "ontology_extended.owl"),
     ]:
         fp_rdf = f"outputs/{rdfname}.rdf"
         fp_onto = f"ontology/{ontoname}"
