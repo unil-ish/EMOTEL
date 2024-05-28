@@ -105,7 +105,7 @@ def add_emotion(obj, n) -> None:
     """
 
     if "name" in obj:
-        uri = create_uri(obj["name"])
+        uri = create_uri(obj["name"] + str(n))
         emotion_type = getattr(EMOTEL, obj["name"])
         _ = g.add((uri, RDF.type, emotion_type))
         _ = g.add((uri, EMOTEL.isIn, story))
