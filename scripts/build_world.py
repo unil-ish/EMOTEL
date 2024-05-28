@@ -105,10 +105,19 @@ def add_emotion(obj, n) -> None:
     """
 
     if "name" in obj:
-        uri = create_uri(obj["name"] + str(n))
-        emotion_type = getattr(EMOTEL, obj["name"])
-        _ = g.add((uri, RDF.type, emotion_type))
+        emo_type = obj['name']
+        uri = create_uri(emo_type + str(n))
+        if emo_type not in EMOTEL:
+            emo_type = EMOTEL.Emotion
+            unregistered = True
+        else:
+            emo_type = getattr(EMOTEL, obj["name"])
+            unregistered = False
+        _ = g.add((uri, RDF.type, emo_type))
         _ = g.add((uri, EMOTEL.isIn, story))
+
+        if unregistered is True:
+            g.add((uri, EMOTEL.hasName, Literal(obj['name'])))
 
         if "feltBy" in obj:
             feltby = obj['feltBy']
