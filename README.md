@@ -58,7 +58,7 @@ Ce dossier contient les éléments suivants:
 
 1. Cloner ce repository
 
-2. Créer un [environnement virtuel](https://docs.python.org/3/library/venv.html)
+2. Créer un [environnement virtuel](https://docs.python.org/3/library/venv.html) et l'activer
 
 3. Installer le fichier `requirements.txt` depuis un terminal :
     - Unix/macOS: `python3 -m pip install -r requirements.txt`
