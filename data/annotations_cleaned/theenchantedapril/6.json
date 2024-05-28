@@ -8,35 +8,45 @@
      "hasIntensity": 1,
      "quote": "She flew up the steps, red as the camellia she had just been fingering, and was in the hall and tearing open the telegram before Mr. Wilkins had finished his sentence.",
      "hasObject": {
-      "name": "Telegram"
+      "name": "Telegram",
+      "id": "texts/theenchantedapril.txt#Telegram"
      },
      "causedBy": {
-      "name": "Receiving_a_telegram_from_Thomas_Briggs"
-     }
+      "name": "Receiving_a_telegram_from_Thomas_Briggs",
+      "id": "texts/theenchantedapril.txt#Receiving_a_telegram_from_Thomas_Briggs"
+     },
+     "id": "Joy"
     },
     {
      "name": "Hope",
      "hasIntensity": 0.9,
      "quote": "She tried to silence the absurd hope by jeering at it. Yet—if Mr. Wilkins had telegraphed, why not Frederick?",
      "hasObject": {
-      "name": "Telegram"
+      "name": "Telegram",
+      "id": "texts/theenchantedapril.txt#Telegram"
      },
      "causedBy": {
-      "name": "Expecting_a_telegram_from_Frederick"
-     }
+      "name": "Expecting_a_telegram_from_Frederick",
+      "id": "texts/theenchantedapril.txt#Expecting_a_telegram_from_Frederick"
+     },
+     "id": "Hope"
     },
     {
      "name": "Surprise",
      "hasIntensity": 0.8,
      "quote": "She stared at him, her mouth open.",
      "hasObject": {
-      "name": "Thomas_Briggs"
+      "name": "Thomas_Briggs",
+      "id": "texts/theenchantedapril.txt#Thomas_Briggs"
      },
      "causedBy": {
-      "name": "Thomas_Briggs_arriving_at_San_Salvatore"
-     }
+      "name": "Thomas_Briggs_arriving_at_San_Salvatore",
+      "id": "texts/theenchantedapril.txt#Thomas_Briggs_arriving_at_San_Salvatore"
+     },
+     "id": "Surprise"
     }
-   ]
+   ],
+   "id": "texts/theenchantedapril.txt#Rose_Arbuthnot"
   },
   {
    "name": "Thomas_Briggs",
@@ -46,113 +56,145 @@
      "hasIntensity": 0.9,
      "quote": "He longed to see her in his house. He longed to see it as her background, to see her sitting in his chairs, drinking out of his cups, using all his things.",
      "hasObject": {
-      "name": "Imagining_Rose_in_his_house"
+      "name": "Imagining_Rose_in_his_house",
+      "id": "texts/theenchantedapril.txt#Imagining_Rose_in_his_house"
      },
      "causedBy": {
-      "name": "Thinking_about_Rose_Arbuthnot"
-     }
+      "name": "Thinking_about_Rose_Arbuthnot",
+      "id": "texts/theenchantedapril.txt#Thinking_about_Rose_Arbuthnot"
+     },
+     "id": "Excitement"
     },
     {
      "name": "Curiosity",
      "hasIntensity": 0.8,
      "quote": "He stood examining the picture on the staircase of that Madonna by an early Italian painter, name unknown, picked up by him at Orvieto, who was so much like his tenant.",
      "hasObject": {
-      "name": "Picture_of_the_Madonna"
+      "name": "Picture_of_the_Madonna",
+      "id": "texts/theenchantedapril.txt#Picture_of_the_Madonna"
      },
      "causedBy": {
-      "name": "Examining_the_picture_of_the_Madonna"
-     }
+      "name": "Examining_the_picture_of_the_Madonna",
+      "id": "texts/theenchantedapril.txt#Examining_the_picture_of_the_Madonna"
+     },
+     "id": "Curiosity"
     }
-   ]
+   ],
+   "id": "texts/theenchantedapril.txt#Thomas_Briggs"
   }
  ],
  "Events": [
   {
    "name": "Receiving_a_telegram_from_Thomas_Briggs",
    "takePlaceAt": {
-    "name": "San_Salvatore"
+    "name": "San_Salvatore",
+    "id": "texts/theenchantedapril.txt#San_Salvatore"
    },
    "hasParticipant": [
     {
-     "name": "Rose_Arbuthnot"
+     "name": "Rose_Arbuthnot",
+     "id": "texts/theenchantedapril.txt#Rose_Arbuthnot"
     },
     {
-     "name": "Thomas_Briggs"
+     "name": "Thomas_Briggs",
+     "id": "texts/theenchantedapril.txt#Thomas_Briggs"
     }
-   ]
+   ],
+   "id": "texts/theenchantedapril.txt#Receiving_a_telegram_from_Thomas_Briggs"
   },
   {
    "name": "Expecting_a_telegram_from_Frederick",
    "takePlaceAt": {
-    "name": "San_Salvatore"
+    "name": "San_Salvatore",
+    "id": "texts/theenchantedapril.txt#San_Salvatore"
    },
    "hasParticipant": [
     {
-     "name": "Rose_Arbuthnot"
+     "name": "Rose_Arbuthnot",
+     "id": "texts/theenchantedapril.txt#Rose_Arbuthnot"
     },
     {
-     "name": "Frederick"
+     "name": "Frederick",
+     "id": "texts/theenchantedapril.txt#Frederick"
     }
-   ]
+   ],
+   "id": "texts/theenchantedapril.txt#Expecting_a_telegram_from_Frederick"
   },
   {
    "name": "Thomas_Briggs_arriving_at_San_Salvatore",
    "takePlaceAt": {
-    "name": "San_Salvatore"
+    "name": "San_Salvatore",
+    "id": "texts/theenchantedapril.txt#San_Salvatore"
    },
    "hasParticipant": [
     {
-     "name": "Rose_Arbuthnot"
+     "name": "Rose_Arbuthnot",
+     "id": "texts/theenchantedapril.txt#Rose_Arbuthnot"
     },
     {
-     "name": "Thomas_Briggs"
+     "name": "Thomas_Briggs",
+     "id": "texts/theenchantedapril.txt#Thomas_Briggs"
     }
-   ]
+   ],
+   "id": "texts/theenchantedapril.txt#Thomas_Briggs_arriving_at_San_Salvatore"
   },
   {
    "name": "Thinking_about_Rose_Arbuthnot",
    "takePlaceAt": {
-    "name": "On_the_way_to_San_Salvatore"
+    "name": "On_the_way_to_San_Salvatore",
+    "id": "texts/theenchantedapril.txt#On_the_way_to_San_Salvatore"
    },
    "hasParticipant": [
     {
-     "name": "Thomas_Briggs"
+     "name": "Thomas_Briggs",
+     "id": "texts/theenchantedapril.txt#Thomas_Briggs"
     },
     {
-     "name": "Rose_Arbuthnot"
+     "name": "Rose_Arbuthnot",
+     "id": "texts/theenchantedapril.txt#Rose_Arbuthnot"
     }
-   ]
+   ],
+   "id": "texts/theenchantedapril.txt#Thinking_about_Rose_Arbuthnot"
   },
   {
    "name": "Examining_the_picture_of_the_Madonna",
    "takePlaceAt": {
-    "name": "San_Salvatore"
+    "name": "San_Salvatore",
+    "id": "texts/theenchantedapril.txt#San_Salvatore"
    },
    "hasParticipant": [
     {
-     "name": "Thomas_Briggs"
+     "name": "Thomas_Briggs",
+     "id": "texts/theenchantedapril.txt#Thomas_Briggs"
     },
     {
-     "name": "Madonna"
+     "name": "Madonna",
+     "id": "texts/theenchantedapril.txt#Madonna"
     }
-   ]
+   ],
+   "id": "texts/theenchantedapril.txt#Examining_the_picture_of_the_Madonna"
   }
  ],
  "Places": [
   {
-   "name": "San_Salvatore"
+   "name": "San_Salvatore",
+   "id": "texts/theenchantedapril.txt#San_Salvatore"
   },
   {
-   "name": "San_Salvatore"
+   "name": "San_Salvatore",
+   "id": "texts/theenchantedapril.txt#San_Salvatore"
   },
   {
-   "name": "San_Salvatore"
+   "name": "San_Salvatore",
+   "id": "texts/theenchantedapril.txt#San_Salvatore"
   },
   {
-   "name": "On_the_way_to_San_Salvatore"
+   "name": "On_the_way_to_San_Salvatore",
+   "id": "texts/theenchantedapril.txt#On_the_way_to_San_Salvatore"
   },
   {
-   "name": "San_Salvatore"
+   "name": "San_Salvatore",
+   "id": "texts/theenchantedapril.txt#San_Salvatore"
   }
  ]
 }

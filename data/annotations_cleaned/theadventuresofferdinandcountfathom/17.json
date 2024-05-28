@@ -8,35 +8,45 @@
      "hasIntensity": 0.9,
      "quote": "The Spaniard’s heart overflowed with gratitude and joy when he read this intimation.",
      "hasObject": {
-      "name": "Good_news"
+      "name": "Good_news",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Good_news"
      },
      "causedBy": {
-      "name": "Receiving_good_news_about_his_situation"
-     }
+      "name": "Receiving_good_news_about_his_situation",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Receiving_good_news_about_his_situation"
+     },
+     "id": "Gratitude"
     },
     {
      "name": "Joy",
      "hasIntensity": 0.8,
      "quote": "The sanction of the church being thus obtained, they withdrew into the vestry, where Melvil sealed his title on her rosy lips, and presented his wife to the company, who embraced her in their turns, with fervent wishes for their mutual happiness.",
      "hasObject": {
-      "name": "Marriage"
+      "name": "Marriage",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Marriage"
      },
      "causedBy": {
-      "name": "Nuptial_ceremony"
-     }
+      "name": "Nuptial_ceremony",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Nuptial_ceremony"
+     },
+     "id": "Joy"
     },
     {
      "name": "Concern",
      "hasIntensity": 0.7,
      "quote": "The Jew having allowed him to ring out his alarm, condoled his misfortune, and gravely counselled the young lady to wean her affections from such an unworthy object.",
      "hasObject": {
-      "name": "Father_s_complaints"
+      "name": "Father_s_complaints",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Father_s_complaints"
      },
      "causedBy": {
-      "name": "Father_s_complaints"
-     }
+      "name": "Father_s_complaints",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Father_s_complaints"
+     },
+     "id": "Concern"
     }
-   ]
+   ],
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Don_Diego"
   },
   {
    "name": "Renaldo",
@@ -46,13 +56,17 @@
      "hasIntensity": 0.8,
      "quote": "The pseudo-parson was very much affected by this generous proffer, for which he made suitable acknowledgments, and protested before God he would die a thousand deaths rather than part with his dear Charlotte.",
      "hasObject": {
-      "name": "Offering_help"
+      "name": "Offering_help",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Offering_help"
      },
      "causedBy": {
-      "name": "Offering_help_to_the_pseudoparson"
-     }
+      "name": "Offering_help_to_the_pseudoparson",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Offering_help_to_the_pseudoparson"
+     },
+     "id": "Compassion"
     }
-   ]
+   ],
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Renaldo"
   },
   {
    "name": "Charlotte",
@@ -62,62 +76,81 @@
      "hasIntensity": 0.7,
      "quote": "The young lady snatching this favourable occasion, earnestly entreated Melvil and his company to intercede with her father in behalf of her lover, who, she assured them, was a young gentleman of a good family, and uncommon merit.",
      "hasObject": {
-      "name": "Father_s_reproaches"
+      "name": "Father_s_reproaches",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Father_s_reproaches"
      },
      "causedBy": {
-      "name": "Father_s_reproaches"
-     }
+      "name": "Father_s_reproaches",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Father_s_reproaches"
+     },
+     "id": "Defiance"
     }
-   ]
+   ],
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Charlotte"
   }
  ],
  "Events": [
   {
    "name": "Receiving_good_news_about_his_situation",
    "takePlaceAt": {
-    "name": "Madam_Clement_s_house"
-   }
+    "name": "Madam_Clement_s_house",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Madam_Clement_s_house"
+   },
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Receiving_good_news_about_his_situation"
   },
   {
    "name": "Nuptial_ceremony",
    "takePlaceAt": {
-    "name": "Church_vestry"
-   }
+    "name": "Church_vestry",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Church_vestry"
+   },
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Nuptial_ceremony"
   },
   {
    "name": "Father_s_complaints",
    "takePlaceAt": {
-    "name": "Merchant_s_house"
-   }
+    "name": "Merchant_s_house",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Merchant_s_house"
+   },
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Father_s_complaints"
   },
   {
    "name": "Offering_help_to_the_pseudoparson",
    "takePlaceAt": {
-    "name": "Publichouse"
-   }
+    "name": "Publichouse",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Publichouse"
+   },
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Offering_help_to_the_pseudoparson"
   },
   {
    "name": "Father_s_reproaches",
    "takePlaceAt": {
-    "name": "Merchant_s_house"
-   }
+    "name": "Merchant_s_house",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Merchant_s_house"
+   },
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Father_s_reproaches"
   }
  ],
  "Places": [
   {
-   "name": "Madam_Clement_s_house"
+   "name": "Madam_Clement_s_house",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Madam_Clement_s_house"
   },
   {
-   "name": "Church_vestry"
+   "name": "Church_vestry",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Church_vestry"
   },
   {
-   "name": "Merchant_s_house"
+   "name": "Merchant_s_house",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Merchant_s_house"
   },
   {
-   "name": "Publichouse"
+   "name": "Publichouse",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Publichouse"
   },
   {
-   "name": "Merchant_s_house"
+   "name": "Merchant_s_house",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Merchant_s_house"
   }
  ]
 }

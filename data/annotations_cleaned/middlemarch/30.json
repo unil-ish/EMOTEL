@@ -8,35 +8,45 @@
      "hasIntensity": 0.8,
      "quote": "But this gossip about Bulstrode spread through Middlemarch like the smell of fire.",
      "hasObject": {
-      "name": "Gossip"
+      "name": "Gossip",
+      "id": "texts/middlemarch.txt#Gossip"
      },
      "causedBy": {
-      "name": "Gossip_spreading_about_Bulstrode_s_past"
-     }
+      "name": "Gossip_spreading_about_Bulstrode_s_past",
+      "id": "texts/middlemarch.txt#Gossip_spreading_about_Bulstrode_s_past"
+     },
+     "id": "Fear"
     },
     {
      "name": "Dread",
      "hasIntensity": 0.9,
      "quote": "But this vague conviction of indeterminable guilt, which was enough to keep up much head-shaking and biting innuendo even among substantial professional seniors, had for the general mind all the superior power of mystery over fact.",
      "hasObject": {
-      "name": "Gossip"
+      "name": "Gossip",
+      "id": "texts/middlemarch.txt#Gossip"
      },
      "causedBy": {
-      "name": "Gossip_about_Bulstrode_s_earlier_life"
-     }
+      "name": "Gossip_about_Bulstrode_s_earlier_life",
+      "id": "texts/middlemarch.txt#Gossip_about_Bulstrode_s_earlier_life"
+     },
+     "id": "Dread"
     },
     {
      "name": "Anxiety",
      "hasIntensity": 0.7,
      "quote": "Hence, in spite of the negative as to any direct sign of guilt in relation to the death at Stone Court, Mr. Hawley’s select party broke up with the sense that the affair had 'an ugly look.'",
      "hasObject": {
-      "name": "Affair"
+      "name": "Affair",
+      "id": "texts/middlemarch.txt#Affair"
      },
      "causedBy": {
-      "name": "Negative_sign_of_guilt_in_relation_to_Raffles_s_death"
-     }
+      "name": "Negative_sign_of_guilt_in_relation_to_Raffles_s_death",
+      "id": "texts/middlemarch.txt#Negative_sign_of_guilt_in_relation_to_Raffles_s_de"
+     },
+     "id": "Anxiety"
     }
-   ]
+   ],
+   "id": "texts/middlemarch.txt#Bulstrode"
   },
   {
    "name": "Lydgate",
@@ -46,73 +56,95 @@
      "hasIntensity": 0.6,
      "quote": "Lydgate felt uncomfortable under these kindly suppositions.",
      "hasObject": {
-      "name": "Suppositions"
+      "name": "Suppositions",
+      "id": "texts/middlemarch.txt#Suppositions"
      },
      "causedBy": {
-      "name": "Kindly_suppositions_about_Bulstrode_s_motives"
-     }
+      "name": "Kindly_suppositions_about_Bulstrode_s_motives",
+      "id": "texts/middlemarch.txt#Kindly_suppositions_about_Bulstrode_s_motives"
+     },
+     "id": "Discomfort"
     },
     {
      "name": "Sneered_at",
      "hasIntensity": 0.7,
      "quote": "Hence, in spite of the negative as to any direct sign of guilt in relation to the death at Stone Court, Mr. Hawley’s select party broke up with the sense that the affair had 'an ugly look.'",
      "hasObject": {
-      "name": "Affair"
+      "name": "Affair",
+      "id": "texts/middlemarch.txt#Affair"
      },
      "causedBy": {
-      "name": "Negative_sign_of_guilt_in_relation_to_Raffles_s_death"
-     }
+      "name": "Negative_sign_of_guilt_in_relation_to_Raffles_s_death",
+      "id": "texts/middlemarch.txt#Negative_sign_of_guilt_in_relation_to_Raffles_s_de"
+     },
+     "id": "Sneered_at"
     }
-   ]
+   ],
+   "id": "texts/middlemarch.txt#Lydgate"
   }
  ],
  "Events": [
   {
    "name": "Gossip_spreading_about_Bulstrode_s_past",
    "takePlaceAt": {
-    "name": "Middlemarch"
-   }
+    "name": "Middlemarch",
+    "id": "texts/middlemarch.txt#Middlemarch"
+   },
+   "id": "texts/middlemarch.txt#Gossip_spreading_about_Bulstrode_s_past"
   },
   {
    "name": "Gossip_about_Bulstrode_s_earlier_life",
    "takePlaceAt": {
-    "name": "Middlemarch"
-   }
+    "name": "Middlemarch",
+    "id": "texts/middlemarch.txt#Middlemarch"
+   },
+   "id": "texts/middlemarch.txt#Gossip_about_Bulstrode_s_earlier_life"
   },
   {
    "name": "Negative_sign_of_guilt_in_relation_to_Raffles_s_death",
    "takePlaceAt": {
-    "name": "Middlemarch"
-   }
+    "name": "Middlemarch",
+    "id": "texts/middlemarch.txt#Middlemarch"
+   },
+   "id": "texts/middlemarch.txt#Negative_sign_of_guilt_in_relation_to_Raffles_s_de"
   },
   {
    "name": "Kindly_suppositions_about_Bulstrode_s_motives",
    "takePlaceAt": {
-    "name": "Middlemarch"
-   }
+    "name": "Middlemarch",
+    "id": "texts/middlemarch.txt#Middlemarch"
+   },
+   "id": "texts/middlemarch.txt#Kindly_suppositions_about_Bulstrode_s_motives"
   },
   {
    "name": "Negative_sign_of_guilt_in_relation_to_Raffles_s_death",
    "takePlaceAt": {
-    "name": "Middlemarch"
-   }
+    "name": "Middlemarch",
+    "id": "texts/middlemarch.txt#Middlemarch"
+   },
+   "id": "texts/middlemarch.txt#Negative_sign_of_guilt_in_relation_to_Raffles_s_de"
   }
  ],
  "Places": [
   {
-   "name": "Middlemarch"
+   "name": "Middlemarch",
+   "id": "texts/middlemarch.txt#Middlemarch"
   },
   {
-   "name": "Middlemarch"
+   "name": "Middlemarch",
+   "id": "texts/middlemarch.txt#Middlemarch"
   },
   {
-   "name": "Middlemarch"
+   "name": "Middlemarch",
+   "id": "texts/middlemarch.txt#Middlemarch"
   },
   {
-   "name": "Middlemarch"
+   "name": "Middlemarch",
+   "id": "texts/middlemarch.txt#Middlemarch"
   },
   {
-   "name": "Middlemarch"
+   "name": "Middlemarch",
+   "id": "texts/middlemarch.txt#Middlemarch"
   }
  ]
 }

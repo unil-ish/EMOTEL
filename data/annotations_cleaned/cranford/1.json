@@ -8,86 +8,111 @@
      "hasIntensity": 0.7,
      "quote": "Miss Matty made a strong effort to conceal her feelings—a concealment she practised even with me, for she has never alluded to Mr Holbrook again, although the book he gave her lies with her Bible on the little table by her bedside.",
      "hasObject": {
-      "name": "Mr_Holbrook_s_book"
+      "name": "Mr_Holbrook_s_book",
+      "id": "texts/cranford.txt#Mr_Holbrook_s_book"
      },
      "causedBy": {
-      "name": "Mr_Holbrook_s_death"
-     }
+      "name": "Mr_Holbrook_s_death",
+      "id": "texts/cranford.txt#Mr_Holbrook_s_death"
+     },
+     "id": "Acceptance"
     },
     {
      "name": "Sadness",
      "hasIntensity": 0.8,
      "quote": "Miss Matty heard the news in silence; in fact, from the account of the previous day, it was only what we had to expect.",
      "hasObject": {
-      "name": "Mr_Holbrook"
+      "name": "Mr_Holbrook",
+      "id": "texts/cranford.txt#Mr_Holbrook"
      },
      "causedBy": {
-      "name": "Mr_Holbrook_s_death"
-     }
+      "name": "Mr_Holbrook_s_death",
+      "id": "texts/cranford.txt#Mr_Holbrook_s_death"
+     },
+     "id": "Sadness"
     },
     {
      "name": "Trust",
      "hasIntensity": 0.6,
      "quote": "God forbid! said she in a low voice, that I should grieve any young hearts.",
      "hasObject": {
-      "name": "Young_hearts"
+      "name": "Young_hearts",
+      "id": "texts/cranford.txt#Young_hearts"
      },
      "causedBy": {
-      "name": "Martha_mentioning_Jem_Hearn"
-     }
+      "name": "Martha_mentioning_Jem_Hearn",
+      "id": "texts/cranford.txt#Martha_mentioning_Jem_Hearn"
+     },
+     "id": "Trust"
     },
     {
      "name": "Surprise",
      "hasIntensity": 0.5,
      "quote": "Miss Matty was very silent and thoughtful; after prayers she called Martha back and then she stood uncertain what to say.",
      "hasObject": {
-      "name": "Martha"
+      "name": "Martha",
+      "id": "texts/cranford.txt#Martha"
      },
      "causedBy": {
-      "name": "Mr_Holbrook_s_death"
-     }
+      "name": "Mr_Holbrook_s_death",
+      "id": "texts/cranford.txt#Mr_Holbrook_s_death"
+     },
+     "id": "Surprise"
     }
-   ]
+   ],
+   "id": "texts/cranford.txt#Miss_Jenkyns"
   }
  ],
  "Events": [
   {
    "name": "Mr_Holbrook_s_death",
    "takePlaceAt": {
-    "name": "Cranford"
-   }
+    "name": "Cranford",
+    "id": "texts/cranford.txt#Cranford"
+   },
+   "id": "texts/cranford.txt#Mr_Holbrook_s_death"
   },
   {
    "name": "Mr_Holbrook_s_death",
    "takePlaceAt": {
-    "name": "Cranford"
-   }
+    "name": "Cranford",
+    "id": "texts/cranford.txt#Cranford"
+   },
+   "id": "texts/cranford.txt#Mr_Holbrook_s_death"
   },
   {
    "name": "Martha_mentioning_Jem_Hearn",
    "takePlaceAt": {
-    "name": "Miss_Matty_s_house"
-   }
+    "name": "Miss_Matty_s_house",
+    "id": "texts/cranford.txt#Miss_Matty_s_house"
+   },
+   "id": "texts/cranford.txt#Martha_mentioning_Jem_Hearn"
   },
   {
    "name": "Mr_Holbrook_s_death",
    "takePlaceAt": {
-    "name": "Cranford"
-   }
+    "name": "Cranford",
+    "id": "texts/cranford.txt#Cranford"
+   },
+   "id": "texts/cranford.txt#Mr_Holbrook_s_death"
   }
  ],
  "Places": [
   {
-   "name": "Cranford"
+   "name": "Cranford",
+   "id": "texts/cranford.txt#Cranford"
   },
   {
-   "name": "Cranford"
+   "name": "Cranford",
+   "id": "texts/cranford.txt#Cranford"
   },
   {
-   "name": "Miss_Matty_s_house"
+   "name": "Miss_Matty_s_house",
+   "id": "texts/cranford.txt#Miss_Matty_s_house"
   },
   {
-   "name": "Cranford"
+   "name": "Cranford",
+   "id": "texts/cranford.txt#Cranford"
   }
  ]
 }

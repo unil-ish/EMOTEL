@@ -8,35 +8,45 @@
      "hasIntensity": 0.9,
      "quote": "A universal shriek arose as the russet boots waved wildly from the wreck, and a golden head emerged, exclaiming, 'I told you so! I told you so!'",
      "hasObject": {
-      "name": "Russet_boots"
+      "name": "Russet_boots",
+      "id": "texts/littlewomen.txt#Russet_boots"
      },
      "causedBy": {
-      "name": "Tower_falling_on_the_lovers"
-     }
+      "name": "Tower_falling_on_the_lovers",
+      "id": "texts/littlewomen.txt#Tower_falling_on_the_lovers"
+     },
+     "id": "Excitement"
     },
     {
      "name": "Joy",
      "hasIntensity": 0.8,
      "quote": "A universal shriek arose as the russet boots waved wildly from the wreck, and a golden head emerged, exclaiming, 'I told you so! I told you so!'",
      "hasObject": {
-      "name": "Russet_boots"
+      "name": "Russet_boots",
+      "id": "texts/littlewomen.txt#Russet_boots"
      },
      "causedBy": {
-      "name": "Tower_falling_on_the_lovers"
-     }
+      "name": "Tower_falling_on_the_lovers",
+      "id": "texts/littlewomen.txt#Tower_falling_on_the_lovers"
+     },
+     "id": "Joy"
     },
     {
      "name": "Amazement",
      "hasIntensity": 0.9,
      "quote": "It was like Marmee to get up a little treat for them; but anything so fine as this was unheard-of since the departed days of plenty.",
      "hasObject": {
-      "name": "Supper"
+      "name": "Supper",
+      "id": "texts/littlewomen.txt#Supper"
      },
      "causedBy": {
-      "name": "Surprise_supper"
-     }
+      "name": "Surprise_supper",
+      "id": "texts/littlewomen.txt#Surprise_supper"
+     },
+     "id": "Amazement"
     }
-   ]
+   ],
+   "id": "texts/littlewomen.txt#Jo"
   },
   {
    "name": "Meg",
@@ -46,13 +56,17 @@
      "hasIntensity": 0.8,
      "quote": "This was a surprise, even to the actors; and, when they saw the table, they looked at one another in rapturous amazement.",
      "hasObject": {
-      "name": "Supper"
+      "name": "Supper",
+      "id": "texts/littlewomen.txt#Supper"
      },
      "causedBy": {
-      "name": "Surprise_supper"
-     }
+      "name": "Surprise_supper",
+      "id": "texts/littlewomen.txt#Surprise_supper"
+     },
+     "id": "Joy"
     }
-   ]
+   ],
+   "id": "texts/littlewomen.txt#Meg"
   },
   {
    "name": "Beth",
@@ -62,13 +76,17 @@
      "hasIntensity": 0.8,
      "quote": "This was a surprise, even to the actors; and, when they saw the table, they looked at one another in rapturous amazement.",
      "hasObject": {
-      "name": "Supper"
+      "name": "Supper",
+      "id": "texts/littlewomen.txt#Supper"
      },
      "causedBy": {
-      "name": "Surprise_supper"
-     }
+      "name": "Surprise_supper",
+      "id": "texts/littlewomen.txt#Surprise_supper"
+     },
+     "id": "Joy"
     }
-   ]
+   ],
+   "id": "texts/littlewomen.txt#Beth"
   },
   {
    "name": "Amy",
@@ -78,149 +96,193 @@
      "hasIntensity": 0.8,
      "quote": "This was a surprise, even to the actors; and, when they saw the table, they looked at one another in rapturous amazement.",
      "hasObject": {
-      "name": "Supper"
+      "name": "Supper",
+      "id": "texts/littlewomen.txt#Supper"
      },
      "causedBy": {
-      "name": "Surprise_supper"
-     }
+      "name": "Surprise_supper",
+      "id": "texts/littlewomen.txt#Surprise_supper"
+     },
+     "id": "Joy"
     }
-   ]
+   ],
+   "id": "texts/littlewomen.txt#Amy"
   }
  ],
  "Events": [
   {
    "name": "Tower_falling_on_the_lovers",
    "takePlaceAt": {
-    "name": "The_Operatic_Tragedy"
+    "name": "The_Operatic_Tragedy",
+    "id": "texts/littlewomen.txt#The_Operatic_Tragedy"
    },
    "hasParticipant": [
     {
-     "name": "Jo"
+     "name": "Jo",
+     "id": "texts/littlewomen.txt#Jo"
     },
     {
-     "name": "Roderigo"
+     "name": "Roderigo",
+     "id": "texts/littlewomen.txt#Roderigo"
     },
     {
-     "name": "Zara"
+     "name": "Zara",
+     "id": "texts/littlewomen.txt#Zara"
     }
-   ]
+   ],
+   "id": "texts/littlewomen.txt#Tower_falling_on_the_lovers"
   },
   {
    "name": "Tower_falling_on_the_lovers",
    "takePlaceAt": {
-    "name": "The_Operatic_Tragedy"
+    "name": "The_Operatic_Tragedy",
+    "id": "texts/littlewomen.txt#The_Operatic_Tragedy"
    },
    "hasParticipant": [
     {
-     "name": "Jo"
+     "name": "Jo",
+     "id": "texts/littlewomen.txt#Jo"
     },
     {
-     "name": "Roderigo"
+     "name": "Roderigo",
+     "id": "texts/littlewomen.txt#Roderigo"
     },
     {
-     "name": "Zara"
+     "name": "Zara",
+     "id": "texts/littlewomen.txt#Zara"
     }
-   ]
+   ],
+   "id": "texts/littlewomen.txt#Tower_falling_on_the_lovers"
   },
   {
    "name": "Surprise_supper",
    "takePlaceAt": {
-    "name": "Supper"
+    "name": "Supper",
+    "id": "texts/littlewomen.txt#Supper"
    },
    "hasParticipant": [
     {
-     "name": "Jo"
+     "name": "Jo",
+     "id": "texts/littlewomen.txt#Jo"
     },
     {
-     "name": "Meg"
+     "name": "Meg",
+     "id": "texts/littlewomen.txt#Meg"
     },
     {
-     "name": "Beth"
+     "name": "Beth",
+     "id": "texts/littlewomen.txt#Beth"
     },
     {
-     "name": "Amy"
+     "name": "Amy",
+     "id": "texts/littlewomen.txt#Amy"
     }
-   ]
+   ],
+   "id": "texts/littlewomen.txt#Surprise_supper"
   },
   {
    "name": "Surprise_supper",
    "takePlaceAt": {
-    "name": "Supper"
+    "name": "Supper",
+    "id": "texts/littlewomen.txt#Supper"
    },
    "hasParticipant": [
     {
-     "name": "Jo"
+     "name": "Jo",
+     "id": "texts/littlewomen.txt#Jo"
     },
     {
-     "name": "Meg"
+     "name": "Meg",
+     "id": "texts/littlewomen.txt#Meg"
     },
     {
-     "name": "Beth"
+     "name": "Beth",
+     "id": "texts/littlewomen.txt#Beth"
     },
     {
-     "name": "Amy"
+     "name": "Amy",
+     "id": "texts/littlewomen.txt#Amy"
     }
-   ]
+   ],
+   "id": "texts/littlewomen.txt#Surprise_supper"
   },
   {
    "name": "Surprise_supper",
    "takePlaceAt": {
-    "name": "Supper"
+    "name": "Supper",
+    "id": "texts/littlewomen.txt#Supper"
    },
    "hasParticipant": [
     {
-     "name": "Jo"
+     "name": "Jo",
+     "id": "texts/littlewomen.txt#Jo"
     },
     {
-     "name": "Meg"
+     "name": "Meg",
+     "id": "texts/littlewomen.txt#Meg"
     },
     {
-     "name": "Beth"
+     "name": "Beth",
+     "id": "texts/littlewomen.txt#Beth"
     },
     {
-     "name": "Amy"
+     "name": "Amy",
+     "id": "texts/littlewomen.txt#Amy"
     }
-   ]
+   ],
+   "id": "texts/littlewomen.txt#Surprise_supper"
   },
   {
    "name": "Surprise_supper",
    "takePlaceAt": {
-    "name": "Supper"
+    "name": "Supper",
+    "id": "texts/littlewomen.txt#Supper"
    },
    "hasParticipant": [
     {
-     "name": "Jo"
+     "name": "Jo",
+     "id": "texts/littlewomen.txt#Jo"
     },
     {
-     "name": "Meg"
+     "name": "Meg",
+     "id": "texts/littlewomen.txt#Meg"
     },
     {
-     "name": "Beth"
+     "name": "Beth",
+     "id": "texts/littlewomen.txt#Beth"
     },
     {
-     "name": "Amy"
+     "name": "Amy",
+     "id": "texts/littlewomen.txt#Amy"
     }
-   ]
+   ],
+   "id": "texts/littlewomen.txt#Surprise_supper"
   }
  ],
  "Places": [
   {
-   "name": "The_Operatic_Tragedy"
+   "name": "The_Operatic_Tragedy",
+   "id": "texts/littlewomen.txt#The_Operatic_Tragedy"
   },
   {
-   "name": "The_Operatic_Tragedy"
+   "name": "The_Operatic_Tragedy",
+   "id": "texts/littlewomen.txt#The_Operatic_Tragedy"
   },
   {
-   "name": "Supper"
+   "name": "Supper",
+   "id": "texts/littlewomen.txt#Supper"
   },
   {
-   "name": "Supper"
+   "name": "Supper",
+   "id": "texts/littlewomen.txt#Supper"
   },
   {
-   "name": "Supper"
+   "name": "Supper",
+   "id": "texts/littlewomen.txt#Supper"
   },
   {
-   "name": "Supper"
+   "name": "Supper",
+   "id": "texts/littlewomen.txt#Supper"
   }
  ]
 }

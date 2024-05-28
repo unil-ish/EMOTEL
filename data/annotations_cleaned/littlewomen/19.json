@@ -8,57 +8,73 @@
      "hasIntensity": 0.7,
      "quote": "When she met him she looked surprised, though it was impossible to help suspecting that she had come for that express purpose.",
      "hasObject": {
-      "name": "Meeting_Mr_Bhaer_unexpectedly"
+      "name": "Meeting_Mr_Bhaer_unexpectedly",
+      "id": "texts/littlewomen.txt#Meeting_Mr_Bhaer_unexpectedly"
      },
      "causedBy": {
-      "name": "Meeting_Mr_Bhaer_unexpectedly"
-     }
+      "name": "Meeting_Mr_Bhaer_unexpectedly",
+      "id": "texts/littlewomen.txt#Meeting_Mr_Bhaer_unexpectedly"
+     },
+     "id": "Surprise"
     },
     {
      "name": "Delight",
      "hasIntensity": 0.8,
      "quote": "When he offered her his arm, she took it with a look that filled him with delight.",
      "hasObject": {
-      "name": "Offering_his_arm_to_Jo"
+      "name": "Offering_his_arm_to_Jo",
+      "id": "texts/littlewomen.txt#Offering_his_arm_to_Jo"
      },
      "causedBy": {
-      "name": "Offering_his_arm_to_Jo"
-     }
+      "name": "Offering_his_arm_to_Jo",
+      "id": "texts/littlewomen.txt#Offering_his_arm_to_Jo"
+     },
+     "id": "Delight"
     },
     {
      "name": "Despair",
      "hasIntensity": 0.9,
      "quote": "So far away!",
      "hasObject": {
-      "name": "Learning_about_Mr_Bhaer_s_destination"
+      "name": "Learning_about_Mr_Bhaer_s_destination",
+      "id": "texts/littlewomen.txt#Learning_about_Mr_Bhaer_s_destination"
      },
      "causedBy": {
-      "name": "Learning_about_Mr_Bhaer_s_destination"
-     }
+      "name": "Learning_about_Mr_Bhaer_s_destination",
+      "id": "texts/littlewomen.txt#Learning_about_Mr_Bhaer_s_destination"
+     },
+     "id": "Despair"
     },
     {
      "name": "Confusion",
      "hasIntensity": 0.7,
      "quote": "But, owing to the flutter she was in, everything went amiss; she upset the tray of needles, forgot the silesia was to be 'twilled' till it was cut off, gave the wrong change, and covered herself with confusion by asking for lavender ribbon at the calico counter.",
      "hasObject": {
-      "name": "Shopping_mishaps"
+      "name": "Shopping_mishaps",
+      "id": "texts/littlewomen.txt#Shopping_mishaps"
      },
      "causedBy": {
-      "name": "Shopping_mishaps"
-     }
+      "name": "Shopping_mishaps",
+      "id": "texts/littlewomen.txt#Shopping_mishaps"
+     },
+     "id": "Confusion"
     },
     {
      "name": "Joy",
      "hasIntensity": 0.8,
      "quote": "What will we buy?",
      "hasObject": {
-      "name": "Planning_a_farewell_feast"
+      "name": "Planning_a_farewell_feast",
+      "id": "texts/littlewomen.txt#Planning_a_farewell_feast"
      },
      "causedBy": {
-      "name": "Planning_a_farewell_feast"
-     }
+      "name": "Planning_a_farewell_feast",
+      "id": "texts/littlewomen.txt#Planning_a_farewell_feast"
+     },
+     "id": "Joy"
     }
-   ]
+   ],
+   "id": "texts/littlewomen.txt#Jo_March"
   },
   {
    "name": "Mr_Bhaer",
@@ -68,131 +84,171 @@
      "hasIntensity": 0.8,
      "quote": "Did you believe that I should go with no farewell to those who haf been so heavenly kind to me?",
      "hasObject": {
-      "name": "Jo_thinking_he_had_gone_without_saying_goodbye"
+      "name": "Jo_thinking_he_had_gone_without_saying_goodbye",
+      "id": "texts/littlewomen.txt#Jo_thinking_he_had_gone_without_saying_goodbye"
      },
      "causedBy": {
-      "name": "Jo_thinking_he_had_gone_without_saying_goodbye"
-     }
+      "name": "Jo_thinking_he_had_gone_without_saying_goodbye",
+      "id": "texts/littlewomen.txt#Jo_thinking_he_had_gone_without_saying_goodbye"
+     },
+     "id": "Reproach"
     },
     {
      "name": "Delight",
      "hasIntensity": 0.7,
      "quote": "He offered her his arm, she took it with a look that filled him with delight.",
      "hasObject": {
-      "name": "Offering_his_arm_to_Jo"
+      "name": "Offering_his_arm_to_Jo",
+      "id": "texts/littlewomen.txt#Offering_his_arm_to_Jo"
      },
      "causedBy": {
-      "name": "Offering_his_arm_to_Jo"
-     }
+      "name": "Offering_his_arm_to_Jo",
+      "id": "texts/littlewomen.txt#Offering_his_arm_to_Jo"
+     },
+     "id": "Delight"
     },
     {
      "name": "Bewilderment",
      "hasIntensity": 0.6,
      "quote": "He was beginning to see that on some occasions women, like dreams, go by contraries.",
      "hasObject": {
-      "name": "Observing_Jo_s_behavior"
+      "name": "Observing_Jo_s_behavior",
+      "id": "texts/littlewomen.txt#Observing_Jo_s_behavior"
      },
      "causedBy": {
-      "name": "Observing_Jo_s_behavior"
-     }
+      "name": "Observing_Jo_s_behavior",
+      "id": "texts/littlewomen.txt#Observing_Jo_s_behavior"
+     },
+     "id": "Bewilderment"
     },
     {
      "name": "Cheerfulness",
      "hasIntensity": 0.7,
      "quote": "He put the parcel under his arm with a more cheerful aspect, and splashed through the puddles as if he rather enjoyed it.",
      "hasObject": {
-      "name": "Buying_items_for_the_farewell_feast"
+      "name": "Buying_items_for_the_farewell_feast",
+      "id": "texts/littlewomen.txt#Buying_items_for_the_farewell_feast"
      },
      "causedBy": {
-      "name": "Buying_items_for_the_farewell_feast"
-     }
+      "name": "Buying_items_for_the_farewell_feast",
+      "id": "texts/littlewomen.txt#Buying_items_for_the_farewell_feast"
+     },
+     "id": "Cheerfulness"
     }
-   ]
+   ],
+   "id": "texts/littlewomen.txt#Mr_Bhaer"
   }
  ],
  "Events": [
   {
    "name": "Meeting_Mr_Bhaer_unexpectedly",
    "takePlaceAt": {
-    "name": "City_street"
-   }
+    "name": "City_street",
+    "id": "texts/littlewomen.txt#City_street"
+   },
+   "id": "texts/littlewomen.txt#Meeting_Mr_Bhaer_unexpectedly"
   },
   {
    "name": "Offering_his_arm_to_Jo",
    "takePlaceAt": {
-    "name": "City_street"
-   }
+    "name": "City_street",
+    "id": "texts/littlewomen.txt#City_street"
+   },
+   "id": "texts/littlewomen.txt#Offering_his_arm_to_Jo"
   },
   {
    "name": "Learning_about_Mr_Bhaer_s_destination",
    "takePlaceAt": {
-    "name": "City_street"
-   }
+    "name": "City_street",
+    "id": "texts/littlewomen.txt#City_street"
+   },
+   "id": "texts/littlewomen.txt#Learning_about_Mr_Bhaer_s_destination"
   },
   {
    "name": "Shopping_mishaps",
    "takePlaceAt": {
-    "name": "Drygoods_store"
-   }
+    "name": "Drygoods_store",
+    "id": "texts/littlewomen.txt#Drygoods_store"
+   },
+   "id": "texts/littlewomen.txt#Shopping_mishaps"
   },
   {
    "name": "Planning_a_farewell_feast",
    "takePlaceAt": {
-    "name": "City_street"
-   }
+    "name": "City_street",
+    "id": "texts/littlewomen.txt#City_street"
+   },
+   "id": "texts/littlewomen.txt#Planning_a_farewell_feast"
   },
   {
    "name": "Jo_thinking_he_had_gone_without_saying_goodbye",
    "takePlaceAt": {
-    "name": "City_street"
-   }
+    "name": "City_street",
+    "id": "texts/littlewomen.txt#City_street"
+   },
+   "id": "texts/littlewomen.txt#Jo_thinking_he_had_gone_without_saying_goodbye"
   },
   {
    "name": "Offering_his_arm_to_Jo",
    "takePlaceAt": {
-    "name": "City_street"
-   }
+    "name": "City_street",
+    "id": "texts/littlewomen.txt#City_street"
+   },
+   "id": "texts/littlewomen.txt#Offering_his_arm_to_Jo"
   },
   {
    "name": "Observing_Jo_s_behavior",
    "takePlaceAt": {
-    "name": "City_street"
-   }
+    "name": "City_street",
+    "id": "texts/littlewomen.txt#City_street"
+   },
+   "id": "texts/littlewomen.txt#Observing_Jo_s_behavior"
   },
   {
    "name": "Buying_items_for_the_farewell_feast",
    "takePlaceAt": {
-    "name": "City_street"
-   }
+    "name": "City_street",
+    "id": "texts/littlewomen.txt#City_street"
+   },
+   "id": "texts/littlewomen.txt#Buying_items_for_the_farewell_feast"
   }
  ],
  "Places": [
   {
-   "name": "City_street"
+   "name": "City_street",
+   "id": "texts/littlewomen.txt#City_street"
   },
   {
-   "name": "City_street"
+   "name": "City_street",
+   "id": "texts/littlewomen.txt#City_street"
   },
   {
-   "name": "City_street"
+   "name": "City_street",
+   "id": "texts/littlewomen.txt#City_street"
   },
   {
-   "name": "Drygoods_store"
+   "name": "Drygoods_store",
+   "id": "texts/littlewomen.txt#Drygoods_store"
   },
   {
-   "name": "City_street"
+   "name": "City_street",
+   "id": "texts/littlewomen.txt#City_street"
   },
   {
-   "name": "City_street"
+   "name": "City_street",
+   "id": "texts/littlewomen.txt#City_street"
   },
   {
-   "name": "City_street"
+   "name": "City_street",
+   "id": "texts/littlewomen.txt#City_street"
   },
   {
-   "name": "City_street"
+   "name": "City_street",
+   "id": "texts/littlewomen.txt#City_street"
   },
   {
-   "name": "City_street"
+   "name": "City_street",
+   "id": "texts/littlewomen.txt#City_street"
   }
  ]
 }

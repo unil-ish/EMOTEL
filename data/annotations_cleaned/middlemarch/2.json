@@ -8,24 +8,31 @@
      "hasIntensity": 0.7,
      "quote": "‘But, my dear Chettam, why should I use my influence to Casaubon’s disadvantage, unless I were much surer than I am that I should be acting for the advantage of Miss Brooke? I know no harm of Casaubon. I don’t care about his Xisuthrus and Fee-fo-fum and the rest; but then he doesn’t care about my fishing-tackle. As to the line he took on the Catholic Question, that was unexpected; but he has always been civil to me, and I don’t see why I should spoil his sport. For anything I can tell, Miss Brooke may be happier with him than she would be with any other man.’",
      "hasObject": {
-      "name": "Mr_Casaubon"
+      "name": "Mr_Casaubon",
+      "id": "texts/middlemarch.txt#Mr_Casaubon"
      },
      "causedBy": {
-      "name": "Discussion_with_Mr_Cadwallader"
-     }
+      "name": "Discussion_with_Mr_Cadwallader",
+      "id": "texts/middlemarch.txt#Discussion_with_Mr_Cadwallader"
+     },
+     "id": "Disapproval"
     },
     {
      "name": "Disapproval",
      "hasIntensity": 0.8,
      "quote": "‘Why does he not bring out his book, instead of marrying,’ said Sir James, with a disgust which he held warranted by the sound feeling of an English layman.",
      "hasObject": {
-      "name": "Mr_Casaubon"
+      "name": "Mr_Casaubon",
+      "id": "texts/middlemarch.txt#Mr_Casaubon"
      },
      "causedBy": {
-      "name": "Visit_to_Mr_Casaubon_s_home"
-     }
+      "name": "Visit_to_Mr_Casaubon_s_home",
+      "id": "texts/middlemarch.txt#Visit_to_Mr_Casaubon_s_home"
+     },
+     "id": "Disapproval"
     }
-   ]
+   ],
+   "id": "texts/middlemarch.txt#Sir_James_Chettam"
   },
   {
    "name": "Dorothea",
@@ -35,71 +42,91 @@
      "hasIntensity": 0.9,
      "quote": "Dorothea, on the contrary, found the house and grounds all that she could wish: the dark book-shelves in the long library, the carpets and curtains with colors subdued by time, the curious old maps and bird’s-eye views on the walls of the corridor, with here and there an old vase below, had no oppression for her, and seemed more cheerful than the casts and pictures at the Grange, which her uncle had long ago brought home from his travels—they being probably among the ideas he had taken in at one time.",
      "hasObject": {
-      "name": "House_and_grounds"
+      "name": "House_and_grounds",
+      "id": "texts/middlemarch.txt#House_and_grounds"
      },
      "causedBy": {
-      "name": "Visit_to_Mr_Casaubon_s_home"
-     }
+      "name": "Visit_to_Mr_Casaubon_s_home",
+      "id": "texts/middlemarch.txt#Visit_to_Mr_Casaubon_s_home"
+     },
+     "id": "Joy"
     }
-   ]
+   ],
+   "id": "texts/middlemarch.txt#Dorothea"
   }
  ],
  "Events": [
   {
    "name": "Discussion_with_Mr_Cadwallader",
    "takePlaceAt": {
-    "name": "Rectory"
+    "name": "Rectory",
+    "id": "texts/middlemarch.txt#Rectory"
    },
    "hasParticipant": [
     {
-     "name": "Sir_James_Chettam"
+     "name": "Sir_James_Chettam",
+     "id": "texts/middlemarch.txt#Sir_James_Chettam"
     },
     {
-     "name": "Mr_Cadwallader"
+     "name": "Mr_Cadwallader",
+     "id": "texts/middlemarch.txt#Mr_Cadwallader"
     }
-   ]
+   ],
+   "id": "texts/middlemarch.txt#Discussion_with_Mr_Cadwallader"
   },
   {
    "name": "Visit_to_Mr_Casaubon_s_home",
    "takePlaceAt": {
-    "name": "Manorhouse"
+    "name": "Manorhouse",
+    "id": "texts/middlemarch.txt#Manorhouse"
    },
    "hasParticipant": [
     {
-     "name": "Sir_James_Chettam"
+     "name": "Sir_James_Chettam",
+     "id": "texts/middlemarch.txt#Sir_James_Chettam"
     },
     {
-     "name": "Dorothea"
+     "name": "Dorothea",
+     "id": "texts/middlemarch.txt#Dorothea"
     },
     {
-     "name": "Celia"
+     "name": "Celia",
+     "id": "texts/middlemarch.txt#Celia"
     }
-   ]
+   ],
+   "id": "texts/middlemarch.txt#Visit_to_Mr_Casaubon_s_home"
   },
   {
    "name": "Visit_to_Mr_Casaubon_s_home",
    "takePlaceAt": {
-    "name": "Manorhouse"
+    "name": "Manorhouse",
+    "id": "texts/middlemarch.txt#Manorhouse"
    },
    "hasParticipant": [
     {
-     "name": "Dorothea"
+     "name": "Dorothea",
+     "id": "texts/middlemarch.txt#Dorothea"
     },
     {
-     "name": "Celia"
+     "name": "Celia",
+     "id": "texts/middlemarch.txt#Celia"
     }
-   ]
+   ],
+   "id": "texts/middlemarch.txt#Visit_to_Mr_Casaubon_s_home"
   }
  ],
  "Places": [
   {
-   "name": "Rectory"
+   "name": "Rectory",
+   "id": "texts/middlemarch.txt#Rectory"
   },
   {
-   "name": "Manorhouse"
+   "name": "Manorhouse",
+   "id": "texts/middlemarch.txt#Manorhouse"
   },
   {
-   "name": "Manorhouse"
+   "name": "Manorhouse",
+   "id": "texts/middlemarch.txt#Manorhouse"
   }
  ]
 }

@@ -8,98 +8,127 @@
      "hasIntensity": 0.9,
      "quote": "The involuntary consternation of the moment caused him to leap, paddle in hand, out of the boat; and in such a way, that part of the slack whale line coming against his chest, he breasted it overboard with him, so as to become entangled in it, when at last plumping into the water.",
      "hasObject": {
-      "name": "Whale_line"
+      "name": "Whale_line",
+      "id": "texts/mobydick.txt#Whale_line"
      },
      "causedBy": {
-      "name": "Being_entangled_in_the_whale_line_and_falling_into_the_water"
-     }
+      "name": "Being_entangled_in_the_whale_line_and_falling_into_the_water",
+      "id": "texts/mobydick.txt#Being_entangled_in_the_whale_line_and_falling_into"
+     },
+     "id": "Fear"
     },
     {
      "name": "Sadness",
      "hasIntensity": 0.8,
      "quote": "Alas! Stubb was but too true to his word. It was a beautiful, bounteous, blue day; the spangled sea calm and cool, and flatly stretching away, all round, to the horizon, like gold-beater’s skin hammered out to the extremest. Bobbing up and down in that sea, Pip’s ebon head showed like a head of cloves.",
      "hasObject": {
-      "name": "Sea"
+      "name": "Sea",
+      "id": "texts/mobydick.txt#Sea"
      },
      "causedBy": {
-      "name": "Being_left_behind_in_the_sea"
-     }
+      "name": "Being_left_behind_in_the_sea",
+      "id": "texts/mobydick.txt#Being_left_behind_in_the_sea"
+     },
+     "id": "Sadness"
     },
     {
      "name": "Insanity",
      "hasIntensity": 0.7,
      "quote": "Squeeze! squeeze! squeeze! all the morning long; I squeezed that sperm till I myself almost melted into it; I squeezed that sperm till a strange sort of insanity came over me; and I found myself unwittingly squeezing my co-laborers’ hands in it, mistaking their hands for the gentle globules.",
      "hasObject": {
-      "name": "Sperm"
+      "name": "Sperm",
+      "id": "texts/mobydick.txt#Sperm"
      },
      "causedBy": {
-      "name": "Squeezing_sperm"
-     }
+      "name": "Squeezing_sperm",
+      "id": "texts/mobydick.txt#Squeezing_sperm"
+     },
+     "id": "Insanity"
     },
     {
      "name": "Affection",
      "hasIntensity": 0.9,
      "quote": "Such an abounding, affectionate, friendly, loving feeling did this avocation beget; that at last I was continually squeezing their hands, and looking up into their eyes sentimentally; as much as to say,—Oh! my dear fellow beings, why should we longer cherish any social acerbities, or know the slightest ill-humor or envy!",
      "hasObject": {
-      "name": "Hands"
+      "name": "Hands",
+      "id": "texts/mobydick.txt#Hands"
      },
      "causedBy": {
-      "name": "Squeezing_hands"
-     }
+      "name": "Squeezing_hands",
+      "id": "texts/mobydick.txt#Squeezing_hands"
+     },
+     "id": "Affection"
     }
-   ]
+   ],
+   "id": "texts/mobydick.txt#Pip"
   }
  ],
  "Events": [
   {
    "name": "Being_entangled_in_the_whale_line_and_falling_into_the_water",
    "takePlaceAt": {
-    "name": "On_the_boat"
+    "name": "On_the_boat",
+    "id": "texts/mobydick.txt#On_the_boat"
    },
    "hasParticipant": {
-    "name": "Pip"
-   }
+    "name": "Pip",
+    "id": "texts/mobydick.txt#Pip"
+   },
+   "id": "texts/mobydick.txt#Being_entangled_in_the_whale_line_and_falling_into"
   },
   {
    "name": "Being_left_behind_in_the_sea",
    "takePlaceAt": {
-    "name": "In_the_sea"
+    "name": "In_the_sea",
+    "id": "texts/mobydick.txt#In_the_sea"
    },
    "hasParticipant": {
-    "name": "Pip"
-   }
+    "name": "Pip",
+    "id": "texts/mobydick.txt#Pip"
+   },
+   "id": "texts/mobydick.txt#Being_left_behind_in_the_sea"
   },
   {
    "name": "Squeezing_sperm",
    "takePlaceAt": {
-    "name": "On_the_deck"
+    "name": "On_the_deck",
+    "id": "texts/mobydick.txt#On_the_deck"
    },
    "hasParticipant": {
-    "name": "Pip"
-   }
+    "name": "Pip",
+    "id": "texts/mobydick.txt#Pip"
+   },
+   "id": "texts/mobydick.txt#Squeezing_sperm"
   },
   {
    "name": "Squeezing_hands",
    "takePlaceAt": {
-    "name": "On_the_deck"
+    "name": "On_the_deck",
+    "id": "texts/mobydick.txt#On_the_deck"
    },
    "hasParticipant": {
-    "name": "Pip"
-   }
+    "name": "Pip",
+    "id": "texts/mobydick.txt#Pip"
+   },
+   "id": "texts/mobydick.txt#Squeezing_hands"
   }
  ],
  "Places": [
   {
-   "name": "On_the_boat"
+   "name": "On_the_boat",
+   "id": "texts/mobydick.txt#On_the_boat"
   },
   {
-   "name": "In_the_sea"
+   "name": "In_the_sea",
+   "id": "texts/mobydick.txt#In_the_sea"
   },
   {
-   "name": "On_the_deck"
+   "name": "On_the_deck",
+   "id": "texts/mobydick.txt#On_the_deck"
   },
   {
-   "name": "On_the_deck"
+   "name": "On_the_deck",
+   "id": "texts/mobydick.txt#On_the_deck"
   }
  ]
 }

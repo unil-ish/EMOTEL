@@ -8,66 +8,85 @@
      "hasIntensity": 0.9,
      "quote": "He thinks with me, or rather, he thinks a whole world of which my thought is but a poor twopenny mirror.",
      "hasObject": {
-      "name": "Mr_Casaubon_s_agreement"
+      "name": "Mr_Casaubon_s_agreement",
+      "id": "texts/middlemarch.txt#Mr_Casaubon_s_agreement"
      },
      "causedBy": {
-      "name": "Mr_Casaubon_s_agreement_with_her_views"
-     }
+      "name": "Mr_Casaubon_s_agreement_with_her_views",
+      "id": "texts/middlemarch.txt#Mr_Casaubon_s_agreement_with_her_views"
+     },
+     "id": "Trust"
     },
     {
      "name": "Joy",
      "hasIntensity": 0.8,
      "quote": "Miss Brooke was hasty in her trust, it is not therefore clear that Mr. Casaubon was unworthy of it.",
      "hasObject": {
-      "name": "Mr_Casaubon_s_trustworthiness"
+      "name": "Mr_Casaubon_s_trustworthiness",
+      "id": "texts/middlemarch.txt#Mr_Casaubon_s_trustworthiness"
      },
      "causedBy": {
-      "name": "Mr_Casaubon_s_trustworthiness"
-     }
+      "name": "Mr_Casaubon_s_trustworthiness",
+      "id": "texts/middlemarch.txt#Mr_Casaubon_s_trustworthiness"
+     },
+     "id": "Joy"
     },
     {
      "name": "Anticipation",
      "hasIntensity": 0.9,
      "quote": "There had risen before her the girl’s vision of a possible future for herself to which she looked forward with trembling hope.",
      "hasObject": {
-      "name": "Possible_future_with_Mr_Casaubon"
+      "name": "Possible_future_with_Mr_Casaubon",
+      "id": "texts/middlemarch.txt#Possible_future_with_Mr_Casaubon"
      },
      "causedBy": {
-      "name": "Mr_Casaubon_s_statement_of_loneliness_and_need_for_companionship"
-     }
+      "name": "Mr_Casaubon_s_statement_of_loneliness_and_need_for_companionship",
+      "id": "texts/middlemarch.txt#Mr_Casaubon_s_statement_of_loneliness_and_need_for"
+     },
+     "id": "Anticipation"
     }
-   ]
+   ],
+   "id": "texts/middlemarch.txt#Dorothea_Brooke"
   }
  ],
  "Events": [
   {
    "name": "Mr_Casaubon_s_agreement_with_her_views",
    "takePlaceAt": {
-    "name": "Conversation_with_Mr_Casaubon"
-   }
+    "name": "Conversation_with_Mr_Casaubon",
+    "id": "texts/middlemarch.txt#Conversation_with_Mr_Casaubon"
+   },
+   "id": "texts/middlemarch.txt#Mr_Casaubon_s_agreement_with_her_views"
   },
   {
    "name": "Mr_Casaubon_s_trustworthiness",
    "takePlaceAt": {
-    "name": "Conversation_with_Mr_Casaubon"
-   }
+    "name": "Conversation_with_Mr_Casaubon",
+    "id": "texts/middlemarch.txt#Conversation_with_Mr_Casaubon"
+   },
+   "id": "texts/middlemarch.txt#Mr_Casaubon_s_trustworthiness"
   },
   {
    "name": "Mr_Casaubon_s_statement_of_loneliness_and_need_for_companionship",
    "takePlaceAt": {
-    "name": "Conversation_with_Mr_Casaubon"
-   }
+    "name": "Conversation_with_Mr_Casaubon",
+    "id": "texts/middlemarch.txt#Conversation_with_Mr_Casaubon"
+   },
+   "id": "texts/middlemarch.txt#Mr_Casaubon_s_statement_of_loneliness_and_need_for"
   }
  ],
  "Places": [
   {
-   "name": "Conversation_with_Mr_Casaubon"
+   "name": "Conversation_with_Mr_Casaubon",
+   "id": "texts/middlemarch.txt#Conversation_with_Mr_Casaubon"
   },
   {
-   "name": "Conversation_with_Mr_Casaubon"
+   "name": "Conversation_with_Mr_Casaubon",
+   "id": "texts/middlemarch.txt#Conversation_with_Mr_Casaubon"
   },
   {
-   "name": "Conversation_with_Mr_Casaubon"
+   "name": "Conversation_with_Mr_Casaubon",
+   "id": "texts/middlemarch.txt#Conversation_with_Mr_Casaubon"
   }
  ]
 }

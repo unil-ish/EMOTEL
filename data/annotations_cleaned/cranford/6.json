@@ -8,35 +8,45 @@
      "hasIntensity": 0.9,
      "quote": "Remember, dear, I’m the only one left—I mean, there’s no one to be hurt by what I do. I’m willing to do anything that’s right and honest; and I don’t think, if Deborah knows where she is, she’ll care so very much if I’m not genteel; because, you see, she’ll know all, dear. Only let me see what I can do, and pay the poor people as far as I’m able.",
      "hasObject": {
-      "name": "Helping_the_poor_people"
+      "name": "Helping_the_poor_people",
+      "id": "texts/cranford.txt#Helping_the_poor_people"
      },
      "causedBy": {
-      "name": "Feeling_responsible_for_the_poor_people"
-     }
+      "name": "Feeling_responsible_for_the_poor_people",
+      "id": "texts/cranford.txt#Feeling_responsible_for_the_poor_people"
+     },
+     "id": "Trust"
     },
     {
      "name": "Sadness",
      "hasIntensity": 0.8,
      "quote": "I had to be refreshed with a glass of cowslip wine before I could check the crying which had been repressed for the last two or three days. The worst was, all the ladies cried in concert.",
      "hasObject": {
-      "name": "Overwhelming_emotions"
+      "name": "Overwhelming_emotions",
+      "id": "texts/cranford.txt#Overwhelming_emotions"
      },
      "causedBy": {
-      "name": "Feeling_overwhelmed_by_emotions"
-     }
+      "name": "Feeling_overwhelmed_by_emotions",
+      "id": "texts/cranford.txt#Feeling_overwhelmed_by_emotions"
+     },
+     "id": "Sadness"
     },
     {
      "name": "Anxiety",
      "hasIntensity": 0.7,
      "quote": "It was evidently a relief to her to be doing something in the way of retrenchment, for, as she said, whenever she paused to think, the recollection of the poor fellow with his bad five-pound note came over her, and she felt quite dishonest.",
      "hasObject": {
-      "name": "Retrenchment"
+      "name": "Retrenchment",
+      "id": "texts/cranford.txt#Retrenchment"
      },
      "causedBy": {
-      "name": "Feeling_dishonest_about_the_poor_fellow_s_bad_fivepound_note"
-     }
+      "name": "Feeling_dishonest_about_the_poor_fellow_s_bad_fivepound_note",
+      "id": "texts/cranford.txt#Feeling_dishonest_about_the_poor_fellow_s_bad_five"
+     },
+     "id": "Anxiety"
     }
-   ]
+   ],
+   "id": "texts/cranford.txt#Miss_Matty"
   },
   {
    "name": "Martha",
@@ -46,13 +56,17 @@
      "hasIntensity": 0.8,
      "quote": "She did so wish she was rich, she said, and this wish she kept repeating, with no thought of herself in it, only with a longing, yearning desire to be able to heap up Miss Matty’s measure of comforts.",
      "hasObject": {
-      "name": "Providing_comforts_for_Miss_Matty"
+      "name": "Providing_comforts_for_Miss_Matty",
+      "id": "texts/cranford.txt#Providing_comforts_for_Miss_Matty"
      },
      "causedBy": {
-      "name": "Desire_to_provide_comforts_for_Miss_Matty"
-     }
+      "name": "Desire_to_provide_comforts_for_Miss_Matty",
+      "id": "texts/cranford.txt#Desire_to_provide_comforts_for_Miss_Matty"
+     },
+     "id": "Joy"
     }
-   ]
+   ],
+   "id": "texts/cranford.txt#Martha"
   },
   {
    "name": "Mrs_Forrester",
@@ -62,62 +76,81 @@
      "hasIntensity": 0.9,
      "quote": "She had not liked to put down all that she could afford and was ready to give. She told me she thought she never could look Miss Matty in the face again if she presumed to be giving her so much as she should like to do.",
      "hasObject": {
-      "name": "Giving_more_than_she_could_afford"
+      "name": "Giving_more_than_she_could_afford",
+      "id": "texts/cranford.txt#Giving_more_than_she_could_afford"
      },
      "causedBy": {
-      "name": "Desire_to_give_more_than_she_could_afford"
-     }
+      "name": "Desire_to_give_more_than_she_could_afford",
+      "id": "texts/cranford.txt#Desire_to_give_more_than_she_could_afford"
+     },
+     "id": "Gratitude"
     }
-   ]
+   ],
+   "id": "texts/cranford.txt#Mrs_Forrester"
   }
  ],
  "Events": [
   {
    "name": "Feeling_responsible_for_the_poor_people",
    "takePlaceAt": {
-    "name": "Miss_Matty_s_house"
-   }
+    "name": "Miss_Matty_s_house",
+    "id": "texts/cranford.txt#Miss_Matty_s_house"
+   },
+   "id": "texts/cranford.txt#Feeling_responsible_for_the_poor_people"
   },
   {
    "name": "Feeling_overwhelmed_by_emotions",
    "takePlaceAt": {
-    "name": "Miss_Pole_s_house"
-   }
+    "name": "Miss_Pole_s_house",
+    "id": "texts/cranford.txt#Miss_Pole_s_house"
+   },
+   "id": "texts/cranford.txt#Feeling_overwhelmed_by_emotions"
   },
   {
    "name": "Feeling_dishonest_about_the_poor_fellow_s_bad_fivepound_note",
    "takePlaceAt": {
-    "name": "Miss_Matty_s_house"
-   }
+    "name": "Miss_Matty_s_house",
+    "id": "texts/cranford.txt#Miss_Matty_s_house"
+   },
+   "id": "texts/cranford.txt#Feeling_dishonest_about_the_poor_fellow_s_bad_five"
   },
   {
    "name": "Desire_to_provide_comforts_for_Miss_Matty",
    "takePlaceAt": {
-    "name": "Miss_Matty_s_house"
-   }
+    "name": "Miss_Matty_s_house",
+    "id": "texts/cranford.txt#Miss_Matty_s_house"
+   },
+   "id": "texts/cranford.txt#Desire_to_provide_comforts_for_Miss_Matty"
   },
   {
    "name": "Desire_to_give_more_than_she_could_afford",
    "takePlaceAt": {
-    "name": "Miss_Matty_s_house"
-   }
+    "name": "Miss_Matty_s_house",
+    "id": "texts/cranford.txt#Miss_Matty_s_house"
+   },
+   "id": "texts/cranford.txt#Desire_to_give_more_than_she_could_afford"
   }
  ],
  "Places": [
   {
-   "name": "Miss_Matty_s_house"
+   "name": "Miss_Matty_s_house",
+   "id": "texts/cranford.txt#Miss_Matty_s_house"
   },
   {
-   "name": "Miss_Pole_s_house"
+   "name": "Miss_Pole_s_house",
+   "id": "texts/cranford.txt#Miss_Pole_s_house"
   },
   {
-   "name": "Miss_Matty_s_house"
+   "name": "Miss_Matty_s_house",
+   "id": "texts/cranford.txt#Miss_Matty_s_house"
   },
   {
-   "name": "Miss_Matty_s_house"
+   "name": "Miss_Matty_s_house",
+   "id": "texts/cranford.txt#Miss_Matty_s_house"
   },
   {
-   "name": "Miss_Matty_s_house"
+   "name": "Miss_Matty_s_house",
+   "id": "texts/cranford.txt#Miss_Matty_s_house"
   }
  ]
 }

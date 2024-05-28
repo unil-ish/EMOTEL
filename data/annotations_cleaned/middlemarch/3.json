@@ -8,57 +8,73 @@
      "hasIntensity": 0.7,
      "quote": "She was ashamed of being irritated from some cause she could not define even to herself; for though she had no intention to be untruthful, her reply had not touched the real hurt within her.",
      "hasObject": {
-      "name": "Mr_Casaubon_s_words"
+      "name": "Mr_Casaubon_s_words",
+      "id": "texts/middlemarch.txt#Mr_Casaubon_s_words"
      },
      "causedBy": {
-      "name": "Mr_Casaubon_s_words"
-     }
+      "name": "Mr_Casaubon_s_words",
+      "id": "texts/middlemarch.txt#Mr_Casaubon_s_words"
+     },
+     "id": "Trust"
     },
     {
      "name": "Surprise",
      "hasIntensity": 0.6,
      "quote": "But any one watching keenly the stealthy convergence of human lots, sees a slow preparation of effects from one life on another, which tells like a calculated irony on the indifference or the frozen stare with which we look at our unintroduced neighbor.",
      "hasObject": {
-      "name": "Observing_human_lots"
+      "name": "Observing_human_lots",
+      "id": "texts/middlemarch.txt#Observing_human_lots"
      },
      "causedBy": {
-      "name": "Observing_human_lots"
-     }
+      "name": "Observing_human_lots",
+      "id": "texts/middlemarch.txt#Observing_human_lots"
+     },
+     "id": "Surprise"
     },
     {
      "name": "Joy",
      "hasIntensity": 0.8,
      "quote": "Already, as Miss Brooke passed out of the dining-room, opportunity was found for some interjectional 'asides.'",
      "hasObject": {
-      "name": "Miss_Brooke_passing_out_of_the_diningroom"
+      "name": "Miss_Brooke_passing_out_of_the_diningroom",
+      "id": "texts/middlemarch.txt#Miss_Brooke_passing_out_of_the_diningroom"
      },
      "causedBy": {
-      "name": "Miss_Brooke_passing_out_of_the_diningroom"
-     }
+      "name": "Miss_Brooke_passing_out_of_the_diningroom",
+      "id": "texts/middlemarch.txt#Miss_Brooke_passing_out_of_the_diningroom"
+     },
+     "id": "Joy"
     },
     {
      "name": "Anticipation",
      "hasIntensity": 0.7,
      "quote": "But deeds and language such as men do use, And persons such as comedy would choose, When she would show an image of the times, And sport with human follies, not with crimes.",
      "hasObject": {
-      "name": "Unknown"
+      "name": "Unknown",
+      "id": "texts/middlemarch.txt#Unknown"
      },
      "causedBy": {
-      "name": "Unknown"
-     }
+      "name": "Unknown",
+      "id": "texts/middlemarch.txt#Unknown"
+     },
+     "id": "Anticipation"
     },
     {
      "name": "Fear",
      "hasIntensity": 0.6,
      "quote": "Certainly nothing at present could seem much less important to Lydgate than the turn of Miss Brooke’s mind, or to Miss Brooke than the qualities of the woman who had attracted this young surgeon.",
      "hasObject": {
-      "name": "Unknown"
+      "name": "Unknown",
+      "id": "texts/middlemarch.txt#Unknown"
      },
      "causedBy": {
-      "name": "Unknown"
-     }
+      "name": "Unknown",
+      "id": "texts/middlemarch.txt#Unknown"
+     },
+     "id": "Fear"
     }
-   ]
+   ],
+   "id": "texts/middlemarch.txt#Dorothea_Brooke"
   },
   {
    "name": "Mr_Casaubon",
@@ -68,13 +84,17 @@
      "hasIntensity": 0.7,
      "quote": "But any one watching keenly the stealthy convergence of human lots, sees a slow preparation of effects from one life on another, which tells like a calculated irony on the indifference or the frozen stare with which we look at our unintroduced neighbor.",
      "hasObject": {
-      "name": "Observing_human_lots"
+      "name": "Observing_human_lots",
+      "id": "texts/middlemarch.txt#Observing_human_lots"
      },
      "causedBy": {
-      "name": "Observing_human_lots"
-     }
+      "name": "Observing_human_lots",
+      "id": "texts/middlemarch.txt#Observing_human_lots"
+     },
+     "id": "Disapproval"
     }
-   ]
+   ],
+   "id": "texts/middlemarch.txt#Mr_Casaubon"
   },
   {
    "name": "Rosamond_Vincy",
@@ -84,13 +104,17 @@
      "hasIntensity": 0.8,
      "quote": "But these things made only part of her charm. She was admitted to be the flower of Mrs. Lemon’s school, the chief school in the county, where the teaching included all that was demanded in the accomplished female—even to extras, such as the getting in and out of a carriage.",
      "hasObject": {
-      "name": "Being_the_flower_of_Mrs_Lemons_school"
+      "name": "Being_the_flower_of_Mrs_Lemons_school",
+      "id": "texts/middlemarch.txt#Being_the_flower_of_Mrs_Lemons_school"
      },
      "causedBy": {
-      "name": "Being_the_flower_of_Mrs_Lemons_school"
-     }
+      "name": "Being_the_flower_of_Mrs_Lemons_school",
+      "id": "texts/middlemarch.txt#Being_the_flower_of_Mrs_Lemons_school"
+     },
+     "id": "Admiration"
     }
-   ]
+   ],
+   "id": "texts/middlemarch.txt#Rosamond_Vincy"
   },
   {
    "name": "Mr_Lydgate",
@@ -100,123 +124,161 @@
      "hasIntensity": 0.7,
      "quote": "Lydgate, in fact, was already conscious of being fascinated by a woman strikingly different from Miss Brooke: he did not in the least suppose that he had lost his balance and fallen in love, but he had said of that particular woman, 'She is grace itself; she is perfectly lovely and accomplished. That is what a woman ought to be: she ought to produce the effect of exquisite music.'",
      "hasObject": {
-      "name": "Seeing_a_woman_strikingly_different_from_Miss_Brooke"
+      "name": "Seeing_a_woman_strikingly_different_from_Miss_Brooke",
+      "id": "texts/middlemarch.txt#Seeing_a_woman_strikingly_different_from_Miss_Broo"
      },
      "causedBy": {
-      "name": "Seeing_a_woman_strikingly_different_from_Miss_Brooke"
-     }
+      "name": "Seeing_a_woman_strikingly_different_from_Miss_Brooke",
+      "id": "texts/middlemarch.txt#Seeing_a_woman_strikingly_different_from_Miss_Broo"
+     },
+     "id": "Fascination"
     }
-   ]
+   ],
+   "id": "texts/middlemarch.txt#Mr_Lydgate"
   }
  ],
  "Events": [
   {
    "name": "Mr_Casaubon_s_words",
    "takePlaceAt": {
-    "name": "Dinnerparty"
+    "name": "Dinnerparty",
+    "id": "texts/middlemarch.txt#Dinnerparty"
    },
    "hasParticipant": [
     {
-     "name": "Dorothea_Brooke"
+     "name": "Dorothea_Brooke",
+     "id": "texts/middlemarch.txt#Dorothea_Brooke"
     },
     {
-     "name": "Mr_Casaubon"
+     "name": "Mr_Casaubon",
+     "id": "texts/middlemarch.txt#Mr_Casaubon"
     }
-   ]
+   ],
+   "id": "texts/middlemarch.txt#Mr_Casaubon_s_words"
   },
   {
    "name": "Observing_human_lots",
    "takePlaceAt": {
-    "name": "Unknown"
+    "name": "Unknown",
+    "id": "texts/middlemarch.txt#Unknown"
    },
    "hasParticipant": {
-    "name": "Any_observer"
-   }
+    "name": "Any_observer",
+    "id": "texts/middlemarch.txt#Any_observer"
+   },
+   "id": "texts/middlemarch.txt#Observing_human_lots"
   },
   {
    "name": "Miss_Brooke_passing_out_of_the_diningroom",
    "takePlaceAt": {
-    "name": "Dinnerparty"
+    "name": "Dinnerparty",
+    "id": "texts/middlemarch.txt#Dinnerparty"
    },
    "hasParticipant": {
-    "name": "Miss_Brooke"
-   }
+    "name": "Miss_Brooke",
+    "id": "texts/middlemarch.txt#Miss_Brooke"
+   },
+   "id": "texts/middlemarch.txt#Miss_Brooke_passing_out_of_the_diningroom"
   },
   {
    "name": "Unknown",
    "takePlaceAt": {
-    "name": "Unknown"
+    "name": "Unknown",
+    "id": "texts/middlemarch.txt#Unknown"
    },
    "hasParticipant": {
-    "name": "Unknown"
-   }
+    "name": "Unknown",
+    "id": "texts/middlemarch.txt#Unknown"
+   },
+   "id": "texts/middlemarch.txt#Unknown"
   },
   {
    "name": "Unknown",
    "takePlaceAt": {
-    "name": "Unknown"
+    "name": "Unknown",
+    "id": "texts/middlemarch.txt#Unknown"
    },
    "hasParticipant": [
     {
-     "name": "Lydgate"
+     "name": "Lydgate",
+     "id": "texts/middlemarch.txt#Lydgate"
     },
     {
-     "name": "Miss_Brooke"
+     "name": "Miss_Brooke",
+     "id": "texts/middlemarch.txt#Miss_Brooke"
     }
-   ]
+   ],
+   "id": "texts/middlemarch.txt#Unknown"
   },
   {
    "name": "Observing_human_lots",
    "takePlaceAt": {
-    "name": "Unknown"
+    "name": "Unknown",
+    "id": "texts/middlemarch.txt#Unknown"
    },
    "hasParticipant": {
-    "name": "Any_observer"
-   }
+    "name": "Any_observer",
+    "id": "texts/middlemarch.txt#Any_observer"
+   },
+   "id": "texts/middlemarch.txt#Observing_human_lots"
   },
   {
    "name": "Being_the_flower_of_Mrs_Lemons_school",
    "takePlaceAt": {
-    "name": "Unknown"
+    "name": "Unknown",
+    "id": "texts/middlemarch.txt#Unknown"
    },
    "hasParticipant": {
-    "name": "Rosamond_Vincy"
-   }
+    "name": "Rosamond_Vincy",
+    "id": "texts/middlemarch.txt#Rosamond_Vincy"
+   },
+   "id": "texts/middlemarch.txt#Being_the_flower_of_Mrs_Lemons_school"
   },
   {
    "name": "Seeing_a_woman_strikingly_different_from_Miss_Brooke",
    "takePlaceAt": {
-    "name": "Unknown"
+    "name": "Unknown",
+    "id": "texts/middlemarch.txt#Unknown"
    },
    "hasParticipant": {
-    "name": "Mr_Lydgate"
-   }
+    "name": "Mr_Lydgate",
+    "id": "texts/middlemarch.txt#Mr_Lydgate"
+   },
+   "id": "texts/middlemarch.txt#Seeing_a_woman_strikingly_different_from_Miss_Broo"
   }
  ],
  "Places": [
   {
-   "name": "Dinnerparty"
+   "name": "Dinnerparty",
+   "id": "texts/middlemarch.txt#Dinnerparty"
   },
   {
-   "name": "Unknown"
+   "name": "Unknown",
+   "id": "texts/middlemarch.txt#Unknown"
   },
   {
-   "name": "Dinnerparty"
+   "name": "Dinnerparty",
+   "id": "texts/middlemarch.txt#Dinnerparty"
   },
   {
-   "name": "Unknown"
+   "name": "Unknown",
+   "id": "texts/middlemarch.txt#Unknown"
   },
   {
-   "name": "Unknown"
+   "name": "Unknown",
+   "id": "texts/middlemarch.txt#Unknown"
   },
   {
-   "name": "Unknown"
+   "name": "Unknown",
+   "id": "texts/middlemarch.txt#Unknown"
   },
   {
-   "name": "Unknown"
+   "name": "Unknown",
+   "id": "texts/middlemarch.txt#Unknown"
   },
   {
-   "name": "Unknown"
+   "name": "Unknown",
+   "id": "texts/middlemarch.txt#Unknown"
   }
  ]
 }

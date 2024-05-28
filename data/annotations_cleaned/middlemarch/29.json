@@ -8,35 +8,45 @@
      "hasIntensity": 0.8,
      "quote": "His heart sank again at this sign that he could get no grasp over the wretched man’s mind, and that no word of Raffles could be trusted as to the fact which he most wanted to know.",
      "hasObject": {
-      "name": "Raffles"
+      "name": "Raffles",
+      "id": "texts/middlemarch.txt#Raffles"
      },
      "causedBy": {
-      "name": "Inability_to_control_the_situation"
-     }
+      "name": "Inability_to_control_the_situation",
+      "id": "texts/middlemarch.txt#Inability_to_control_the_situation"
+     },
+     "id": "Humiliation"
     },
     {
      "name": "Fear",
      "hasIntensity": 0.7,
      "quote": "He had almost immediately mounted his horse and set off for Stone Court, being anxious to arrive there before Lydgate.",
      "hasObject": {
-      "name": "Raffles"
+      "name": "Raffles",
+      "id": "texts/middlemarch.txt#Raffles"
      },
      "causedBy": {
-      "name": "Anxiety_about_the_situation_with_Raffles"
-     }
+      "name": "Anxiety_about_the_situation_with_Raffles",
+      "id": "texts/middlemarch.txt#Anxiety_about_the_situation_with_Raffles"
+     },
+     "id": "Fear"
     },
     {
      "name": "Relief",
      "hasIntensity": 0.6,
      "quote": "It seemed to him a sort of earnest that Providence intended his rescue from worse consequences; the way being thus left open for the hope of secrecy.",
      "hasObject": {
-      "name": "Providence"
+      "name": "Providence",
+      "id": "texts/middlemarch.txt#Providence"
      },
      "causedBy": {
-      "name": "Hope_for_secrecy"
-     }
+      "name": "Hope_for_secrecy",
+      "id": "texts/middlemarch.txt#Hope_for_secrecy"
+     },
+     "id": "Relief"
     }
-   ]
+   ],
+   "id": "texts/middlemarch.txt#Mr_Bulstrode"
   },
   {
    "name": "Caleb_Garth",
@@ -46,24 +56,31 @@
      "hasIntensity": 0.9,
      "quote": "Caleb felt a deep pity for him, but he could have used no pretexts to account for his resolve, even if they would have been of any use.",
      "hasObject": {
-      "name": "Bulstrode"
+      "name": "Bulstrode",
+      "id": "texts/middlemarch.txt#Bulstrode"
      },
      "causedBy": {
-      "name": "Bulstrode_s_humiliation"
-     }
+      "name": "Bulstrode_s_humiliation",
+      "id": "texts/middlemarch.txt#Bulstrode_s_humiliation"
+     },
+     "id": "Pity"
     },
     {
      "name": "Resignation",
      "hasIntensity": 0.8,
      "quote": "I must beg you to seek another agent.",
      "hasObject": {
-      "name": "Connection_with_Bulstrode"
+      "name": "Connection_with_Bulstrode",
+      "id": "texts/middlemarch.txt#Connection_with_Bulstrode"
      },
      "causedBy": {
-      "name": "Decision_to_give_up_the_connection_with_Bulstrode"
-     }
+      "name": "Decision_to_give_up_the_connection_with_Bulstrode",
+      "id": "texts/middlemarch.txt#Decision_to_give_up_the_connection_with_Bulstrode"
+     },
+     "id": "Resignation"
     }
-   ]
+   ],
+   "id": "texts/middlemarch.txt#Caleb_Garth"
   },
   {
    "name": "Lydgate",
@@ -73,91 +90,119 @@
      "hasIntensity": 0.7,
      "quote": "This streak of bitterness came from a plenteous source, and kept widening in the current of his thought as he neared Lowick Gate.",
      "hasObject": {
-      "name": "Situation"
+      "name": "Situation",
+      "id": "texts/middlemarch.txt#Situation"
      },
      "causedBy": {
-      "name": "Reflection_on_his_situation"
-     }
+      "name": "Reflection_on_his_situation",
+      "id": "texts/middlemarch.txt#Reflection_on_his_situation"
+     },
+     "id": "Bitterness"
     },
     {
      "name": "Sadness",
      "hasIntensity": 0.8,
      "quote": "He got down from his horse in a very sad mood, and went into the house, not expecting to be cheered except by his dinner.",
      "hasObject": {
-      "name": "Delivering_bad_news_to_Rosamond"
+      "name": "Delivering_bad_news_to_Rosamond",
+      "id": "texts/middlemarch.txt#Delivering_bad_news_to_Rosamond"
      },
      "causedBy": {
-      "name": "Anticipation_of_delivering_bad_news_to_Rosamond"
-     }
+      "name": "Anticipation_of_delivering_bad_news_to_Rosamond",
+      "id": "texts/middlemarch.txt#Anticipation_of_delivering_bad_news_to_Rosamond"
+     },
+     "id": "Sadness"
     }
-   ]
+   ],
+   "id": "texts/middlemarch.txt#Lydgate"
   }
  ],
  "Events": [
   {
    "name": "Inability_to_control_the_situation",
    "takePlaceAt": {
-    "name": "Stone_Court"
-   }
+    "name": "Stone_Court",
+    "id": "texts/middlemarch.txt#Stone_Court"
+   },
+   "id": "texts/middlemarch.txt#Inability_to_control_the_situation"
   },
   {
    "name": "Anxiety_about_the_situation_with_Raffles",
    "takePlaceAt": {
-    "name": "Bank"
-   }
+    "name": "Bank",
+    "id": "texts/middlemarch.txt#Bank"
+   },
+   "id": "texts/middlemarch.txt#Anxiety_about_the_situation_with_Raffles"
   },
   {
    "name": "Hope_for_secrecy",
    "takePlaceAt": {
-    "name": "Stone_Court"
-   }
+    "name": "Stone_Court",
+    "id": "texts/middlemarch.txt#Stone_Court"
+   },
+   "id": "texts/middlemarch.txt#Hope_for_secrecy"
   },
   {
    "name": "Bulstrode_s_humiliation",
    "takePlaceAt": {
-    "name": "Stone_Court"
-   }
+    "name": "Stone_Court",
+    "id": "texts/middlemarch.txt#Stone_Court"
+   },
+   "id": "texts/middlemarch.txt#Bulstrode_s_humiliation"
   },
   {
    "name": "Decision_to_give_up_the_connection_with_Bulstrode",
    "takePlaceAt": {
-    "name": "Bank"
-   }
+    "name": "Bank",
+    "id": "texts/middlemarch.txt#Bank"
+   },
+   "id": "texts/middlemarch.txt#Decision_to_give_up_the_connection_with_Bulstrode"
   },
   {
    "name": "Reflection_on_his_situation",
    "takePlaceAt": {
-    "name": "Lowick_Gate"
-   }
+    "name": "Lowick_Gate",
+    "id": "texts/middlemarch.txt#Lowick_Gate"
+   },
+   "id": "texts/middlemarch.txt#Reflection_on_his_situation"
   },
   {
    "name": "Anticipation_of_delivering_bad_news_to_Rosamond",
    "takePlaceAt": {
-    "name": "Home"
-   }
+    "name": "Home",
+    "id": "texts/middlemarch.txt#Home"
+   },
+   "id": "texts/middlemarch.txt#Anticipation_of_delivering_bad_news_to_Rosamond"
   }
  ],
  "Places": [
   {
-   "name": "Stone_Court"
+   "name": "Stone_Court",
+   "id": "texts/middlemarch.txt#Stone_Court"
   },
   {
-   "name": "Bank"
+   "name": "Bank",
+   "id": "texts/middlemarch.txt#Bank"
   },
   {
-   "name": "Stone_Court"
+   "name": "Stone_Court",
+   "id": "texts/middlemarch.txt#Stone_Court"
   },
   {
-   "name": "Stone_Court"
+   "name": "Stone_Court",
+   "id": "texts/middlemarch.txt#Stone_Court"
   },
   {
-   "name": "Bank"
+   "name": "Bank",
+   "id": "texts/middlemarch.txt#Bank"
   },
   {
-   "name": "Lowick_Gate"
+   "name": "Lowick_Gate",
+   "id": "texts/middlemarch.txt#Lowick_Gate"
   },
   {
-   "name": "Home"
+   "name": "Home",
+   "id": "texts/middlemarch.txt#Home"
   }
  ]
 }

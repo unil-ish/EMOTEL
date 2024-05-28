@@ -8,66 +8,85 @@
      "hasIntensity": 0.7,
      "quote": "His adversaries, finding themselves disappointed in this effort, held a consultation to devise other measures against him, and came to a resolution of ending him by the sword, or rather of expelling him from the kingdom by the fear of death, which they hoped he had not courage enough to resist, because his deportment had always been remarkably mild and pacific.",
      "hasObject": {
-      "name": "Adversaries"
+      "name": "Adversaries",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Adversaries"
      },
      "causedBy": {
-      "name": "Adversaries_plotting_against_him"
-     }
+      "name": "Adversaries_plotting_against_him",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Adversaries_plotting_against_him"
+     },
+     "id": "Amazement"
     },
     {
      "name": "Fear",
      "hasIntensity": 0.8,
      "quote": "This phenomenon made such an impression upon the astonished chevalier, already discomposed by the resolute behaviour of the Count, that he became jaundiced with terror and dismay, and, while his teeth chattered in his head, told our hero he had hoped, from his known politeness, to have found him ready to acknowledge an injury which might have been the effect of anger or misapprehension, in which case the affair might have been compromised to their mutual satisfaction, without proceeding to those extremities which, among men of honour, are always accounted the last resource.",
      "hasObject": {
-      "name": "Bloodied_sword"
+      "name": "Bloodied_sword",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Bloodied_sword"
      },
      "causedBy": {
-      "name": "Display_of_bloodied_sword"
-     }
+      "name": "Display_of_bloodied_sword",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Display_of_bloodied_sword"
+     },
+     "id": "Fear"
     },
     {
      "name": "Anger",
      "hasIntensity": 0.9,
      "quote": "Fathom having chid the servant for admitting people without his order, desired the Swiss to excuse him for a minute longer, and went in to the next room, from whence the following dialogue was overheard by this challenger:—“Count,” said the stranger, “you are not ignorant of my pretensions to the heart of that young lady, at whose house I met you yesterday; therefore you cannot be surprised when I declare myself displeased with your visits and behaviour to my mistress, and demand that you will instantly promise to drop the correspondence.” “Else what follows?” answered Ferdinand, with a cool and temperate voice. “My resentment and immediate defiance,” replied the other; “for the only alternative I propose is, to forego your design upon that lady, or to decide our pretension by the sword.”",
      "hasObject": {
-      "name": "Stranger"
+      "name": "Stranger",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Stranger"
      },
      "causedBy": {
-      "name": "Stranger_demanding_Count_to_drop_correspondence_with_a_lady"
-     }
+      "name": "Stranger_demanding_Count_to_drop_correspondence_with_a_lady",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Stranger_demanding_Count_to_drop_correspondence_wi"
+     },
+     "id": "Anger"
     }
-   ]
+   ],
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Count_Fathom"
   }
  ],
  "Events": [
   {
    "name": "Adversaries_plotting_against_him",
    "takePlaceAt": {
-    "name": "Unknown_location"
-   }
+    "name": "Unknown_location",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Unknown_location"
+   },
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Adversaries_plotting_against_him"
   },
   {
    "name": "Display_of_bloodied_sword",
    "takePlaceAt": {
-    "name": "Count_s_lodgings"
-   }
+    "name": "Count_s_lodgings",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Count_s_lodgings"
+   },
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Display_of_bloodied_sword"
   },
   {
    "name": "Stranger_demanding_Count_to_drop_correspondence_with_a_lady",
    "takePlaceAt": {
-    "name": "Count_s_lodgings"
-   }
+    "name": "Count_s_lodgings",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Count_s_lodgings"
+   },
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Stranger_demanding_Count_to_drop_correspondence_wi"
   }
  ],
  "Places": [
   {
-   "name": "Unknown_location"
+   "name": "Unknown_location",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Unknown_location"
   },
   {
-   "name": "Count_s_lodgings"
+   "name": "Count_s_lodgings",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Count_s_lodgings"
   },
   {
-   "name": "Count_s_lodgings"
+   "name": "Count_s_lodgings",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Count_s_lodgings"
   }
  ]
 }

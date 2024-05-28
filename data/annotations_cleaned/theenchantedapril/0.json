@@ -8,46 +8,59 @@
      "hasIntensity": 0.9,
      "quote": "Mrs. Wilkins ignored the card.",
      "hasObject": {
-      "name": "Card"
+      "name": "Card",
+      "id": "texts/theenchantedapril.txt#Card"
      },
      "causedBy": {
-      "name": "Receiving_a_card_from_Mrs_Arbuthnot"
-     }
+      "name": "Receiving_a_card_from_Mrs_Arbuthnot",
+      "id": "texts/theenchantedapril.txt#Receiving_a_card_from_Mrs_Arbuthnot"
+     },
+     "id": "Trust"
     },
     {
      "name": "Surprise",
      "hasIntensity": 0.8,
      "quote": "Mrs. Wilkins's eyes had been the eyes of a seer.",
      "hasObject": {
-      "name": "Vision"
+      "name": "Vision",
+      "id": "texts/theenchantedapril.txt#Vision"
      },
      "causedBy": {
-      "name": "Mrs_Wilkins_having_a_vision"
-     }
+      "name": "Mrs_Wilkins_having_a_vision",
+      "id": "texts/theenchantedapril.txt#Mrs_Wilkins_having_a_vision"
+     },
+     "id": "Surprise"
     },
     {
      "name": "Joy",
      "hasIntensity": 0.7,
      "quote": "Mrs. Wilkins felt the same sense of guilt.",
      "hasObject": {
-      "name": "Letter"
+      "name": "Letter",
+      "id": "texts/theenchantedapril.txt#Letter"
      },
      "causedBy": {
-      "name": "Feeling_guilty_about_posting_the_letter"
-     }
+      "name": "Feeling_guilty_about_posting_the_letter",
+      "id": "texts/theenchantedapril.txt#Feeling_guilty_about_posting_the_letter"
+     },
+     "id": "Joy"
     },
     {
      "name": "Anticipation",
      "hasIntensity": 0.9,
      "quote": "Mrs. Wilkins had a vision revealing to her how to reduce the rent.",
      "hasObject": {
-      "name": "Rent_reduction"
+      "name": "Rent_reduction",
+      "id": "texts/theenchantedapril.txt#Rent_reduction"
      },
      "causedBy": {
-      "name": "Having_a_vision_about_reducing_the_rent"
-     }
+      "name": "Having_a_vision_about_reducing_the_rent",
+      "id": "texts/theenchantedapril.txt#Having_a_vision_about_reducing_the_rent"
+     },
+     "id": "Anticipation"
     }
-   ]
+   ],
+   "id": "texts/theenchantedapril.txt#Mrs_Wilkins"
   },
   {
    "name": "Mrs_Arbuthnot",
@@ -57,130 +70,169 @@
      "hasIntensity": 0.8,
      "quote": "Her face, and particularly her eyes, continued sad.",
      "hasObject": {
-      "name": "Life_and_marriage"
+      "name": "Life_and_marriage",
+      "id": "texts/theenchantedapril.txt#Life_and_marriage"
      },
      "causedBy": {
-      "name": "Reflecting_on_her_life_and_marriage"
-     }
+      "name": "Reflecting_on_her_life_and_marriage",
+      "id": "texts/theenchantedapril.txt#Reflecting_on_her_life_and_marriage"
+     },
+     "id": "Sadness"
     },
     {
      "name": "Guilt",
      "hasIntensity": 0.7,
      "quote": "She felt happy, and she felt guilty.",
      "hasObject": {
-      "name": "Emotions"
+      "name": "Emotions",
+      "id": "texts/theenchantedapril.txt#Emotions"
      },
      "causedBy": {
-      "name": "Feeling_happy_and_guilty"
-     }
+      "name": "Feeling_happy_and_guilty",
+      "id": "texts/theenchantedapril.txt#Feeling_happy_and_guilty"
+     },
+     "id": "Guilt"
     },
     {
      "name": "Fear",
      "hasIntensity": 0.8,
      "quote": "She felt afraid.",
      "hasObject": {
-      "name": "Unknown_circumstances"
+      "name": "Unknown_circumstances",
+      "id": "texts/theenchantedapril.txt#Unknown_circumstances"
      },
      "causedBy": {
-      "name": "Feeling_afraid"
-     }
+      "name": "Feeling_afraid",
+      "id": "texts/theenchantedapril.txt#Feeling_afraid"
+     },
+     "id": "Fear"
     },
     {
      "name": "Relief",
      "hasIntensity": 0.9,
      "quote": "Mrs. Arbuthnot's plan was simple, and completely successful.",
      "hasObject": {
-      "name": "Plan"
+      "name": "Plan",
+      "id": "texts/theenchantedapril.txt#Plan"
      },
      "causedBy": {
-      "name": "Finding_a_way_out_of_the_reference_difficulty"
-     }
+      "name": "Finding_a_way_out_of_the_reference_difficulty",
+      "id": "texts/theenchantedapril.txt#Finding_a_way_out_of_the_reference_difficulty"
+     },
+     "id": "Relief"
     }
-   ]
+   ],
+   "id": "texts/theenchantedapril.txt#Mrs_Arbuthnot"
   }
  ],
  "Events": [
   {
    "name": "Receiving_a_card_from_Mrs_Arbuthnot",
    "takePlaceAt": {
-    "name": "Woman_s_Club"
+    "name": "Woman_s_Club",
+    "id": "texts/theenchantedapril.txt#Woman_s_Club"
    },
    "hasParticipant": [
     {
-     "name": "Mrs_Wilkins"
+     "name": "Mrs_Wilkins",
+     "id": "texts/theenchantedapril.txt#Mrs_Wilkins"
     },
     {
-     "name": "Mrs_Arbuthnot"
+     "name": "Mrs_Arbuthnot",
+     "id": "texts/theenchantedapril.txt#Mrs_Arbuthnot"
     }
-   ]
+   ],
+   "id": "texts/theenchantedapril.txt#Receiving_a_card_from_Mrs_Arbuthnot"
   },
   {
    "name": "Mrs_Wilkins_having_a_vision",
    "takePlaceAt": {
-    "name": "Woman_s_Club"
-   }
+    "name": "Woman_s_Club",
+    "id": "texts/theenchantedapril.txt#Woman_s_Club"
+   },
+   "id": "texts/theenchantedapril.txt#Mrs_Wilkins_having_a_vision"
   },
   {
    "name": "Feeling_guilty_about_posting_the_letter",
    "takePlaceAt": {
-    "name": "Woman_s_Club"
-   }
+    "name": "Woman_s_Club",
+    "id": "texts/theenchantedapril.txt#Woman_s_Club"
+   },
+   "id": "texts/theenchantedapril.txt#Feeling_guilty_about_posting_the_letter"
   },
   {
    "name": "Having_a_vision_about_reducing_the_rent",
    "takePlaceAt": {
-    "name": "Woman_s_Club"
-   }
+    "name": "Woman_s_Club",
+    "id": "texts/theenchantedapril.txt#Woman_s_Club"
+   },
+   "id": "texts/theenchantedapril.txt#Having_a_vision_about_reducing_the_rent"
   },
   {
    "name": "Reflecting_on_her_life_and_marriage",
    "takePlaceAt": {
-    "name": "Home"
-   }
+    "name": "Home",
+    "id": "texts/theenchantedapril.txt#Home"
+   },
+   "id": "texts/theenchantedapril.txt#Reflecting_on_her_life_and_marriage"
   },
   {
    "name": "Feeling_happy_and_guilty",
    "takePlaceAt": {
-    "name": "Home"
-   }
+    "name": "Home",
+    "id": "texts/theenchantedapril.txt#Home"
+   },
+   "id": "texts/theenchantedapril.txt#Feeling_happy_and_guilty"
   },
   {
    "name": "Feeling_afraid",
    "takePlaceAt": {
-    "name": "Home"
-   }
+    "name": "Home",
+    "id": "texts/theenchantedapril.txt#Home"
+   },
+   "id": "texts/theenchantedapril.txt#Feeling_afraid"
   },
   {
    "name": "Finding_a_way_out_of_the_reference_difficulty",
    "takePlaceAt": {
-    "name": "Home"
-   }
+    "name": "Home",
+    "id": "texts/theenchantedapril.txt#Home"
+   },
+   "id": "texts/theenchantedapril.txt#Finding_a_way_out_of_the_reference_difficulty"
   }
  ],
  "Places": [
   {
-   "name": "Woman_s_Club"
+   "name": "Woman_s_Club",
+   "id": "texts/theenchantedapril.txt#Woman_s_Club"
   },
   {
-   "name": "Woman_s_Club"
+   "name": "Woman_s_Club",
+   "id": "texts/theenchantedapril.txt#Woman_s_Club"
   },
   {
-   "name": "Woman_s_Club"
+   "name": "Woman_s_Club",
+   "id": "texts/theenchantedapril.txt#Woman_s_Club"
   },
   {
-   "name": "Woman_s_Club"
+   "name": "Woman_s_Club",
+   "id": "texts/theenchantedapril.txt#Woman_s_Club"
   },
   {
-   "name": "Home"
+   "name": "Home",
+   "id": "texts/theenchantedapril.txt#Home"
   },
   {
-   "name": "Home"
+   "name": "Home",
+   "id": "texts/theenchantedapril.txt#Home"
   },
   {
-   "name": "Home"
+   "name": "Home",
+   "id": "texts/theenchantedapril.txt#Home"
   },
   {
-   "name": "Home"
+   "name": "Home",
+   "id": "texts/theenchantedapril.txt#Home"
   }
  ]
 }

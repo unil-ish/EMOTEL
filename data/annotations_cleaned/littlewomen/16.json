@@ -8,174 +8,223 @@
      "hasIntensity": 0.8,
      "quote": "He saw it at once, and said, with pleased surprise,--'Why, little mother, how gay we are to-night. Do you expect company?'",
      "hasObject": {
-      "name": "John"
+      "name": "John",
+      "id": "texts/littlewomen.txt#John"
      },
      "causedBy": {
-      "name": "John_s_reaction_to_Meg_s_appearance"
-     }
+      "name": "John_s_reaction_to_Meg_s_appearance",
+      "id": "texts/littlewomen.txt#John_s_reaction_to_Meg_s_appearance"
+     },
+     "id": "Trust"
     },
     {
      "name": "Surprise",
      "hasIntensity": 0.7,
      "quote": "Never mind what John said, or what a very narrow escape the little bonnet had from utter ruin; all that we have any business to know, is that John did not appear to object, judging from the changes which gradually took place in the house and its inmates.",
      "hasObject": {
-      "name": "Changes_in_the_house_and_its_inmates"
+      "name": "Changes_in_the_house_and_its_inmates",
+      "id": "texts/littlewomen.txt#Changes_in_the_house_and_its_inmates"
      },
      "causedBy": {
-      "name": "John_s_reaction_to_Meg_s_request_for_change"
-     }
+      "name": "John_s_reaction_to_Meg_s_request_for_change",
+      "id": "texts/littlewomen.txt#John_s_reaction_to_Meg_s_request_for_change"
+     },
+     "id": "Surprise"
     },
     {
      "name": "Joy",
      "hasIntensity": 0.9,
      "quote": "Home grew home-like again, and John had no wish to leave it, unless he took Meg with him.",
      "hasObject": {
-      "name": "Home"
+      "name": "Home",
+      "id": "texts/littlewomen.txt#Home"
      },
      "causedBy": {
-      "name": "Improvement_in_the_household"
-     }
+      "name": "Improvement_in_the_household",
+      "id": "texts/littlewomen.txt#Improvement_in_the_household"
+     },
+     "id": "Joy"
     },
     {
      "name": "Anticipation",
      "hasIntensity": 0.6,
      "quote": "Well, I really don't see what we are coming to.",
      "hasObject": {
-      "name": "Politics"
+      "name": "Politics",
+      "id": "texts/littlewomen.txt#Politics"
      },
      "causedBy": {
-      "name": "Meg_s_thoughts_on_politics"
-     }
+      "name": "Meg_s_thoughts_on_politics",
+      "id": "texts/littlewomen.txt#Meg_s_thoughts_on_politics"
+     },
+     "id": "Anticipation"
     },
     {
      "name": "Love",
      "hasIntensity": 0.9,
      "quote": "This household happiness did not come all at once, but every one was better for the division of labor system; the children throve under the paternal rule, for accurate, steadfast John brought order and obedience into Babydom, while Meg recovered her spirits and composed her nerves by plenty of wholesome exercise, a little pleasure, and much confidential conversation with her sensible husband.",
      "hasObject": {
-      "name": "Household_happiness"
+      "name": "Household_happiness",
+      "id": "texts/littlewomen.txt#Household_happiness"
      },
      "causedBy": {
-      "name": "Division_of_labor_system"
-     }
+      "name": "Division_of_labor_system",
+      "id": "texts/littlewomen.txt#Division_of_labor_system"
+     },
+     "id": "Love"
     },
     {
      "name": "Acceptance",
      "hasIntensity": 0.8,
      "quote": "This is the sort of shelf on which young wives and mothers may consent to be laid, safe from the restless fret and fever of the world, finding loyal lovers in the little sons and daughters who cling to them, undaunted by sorrow, poverty, or age; walking side by side, through fair and stormy weather, with a faithful friend, who is, in the true sense of the good old Saxon word, the 'house-band,' and learning, as Meg learned, that a woman's happiest kingdom is home, her highest honor the art of ruling it, not as a queen, but a wise wife and mother.",
      "hasObject": {
-      "name": "Home_and_family"
+      "name": "Home_and_family",
+      "id": "texts/littlewomen.txt#Home_and_family"
      },
      "causedBy": {
-      "name": "Realization_of_the_importance_of_home_and_family"
-     }
+      "name": "Realization_of_the_importance_of_home_and_family",
+      "id": "texts/littlewomen.txt#Realization_of_the_importance_of_home_and_family"
+     },
+     "id": "Acceptance"
     }
-   ]
+   ],
+   "id": "texts/littlewomen.txt#Amy"
   }
  ],
  "Events": [
   {
    "name": "John_s_reaction_to_Meg_s_appearance",
    "takePlaceAt": {
-    "name": "Home"
+    "name": "Home",
+    "id": "texts/littlewomen.txt#Home"
    },
    "hasParticipant": [
     {
-     "name": "Amy"
+     "name": "Amy",
+     "id": "texts/littlewomen.txt#Amy"
     },
     {
-     "name": "John"
+     "name": "John",
+     "id": "texts/littlewomen.txt#John"
     }
-   ]
+   ],
+   "id": "texts/littlewomen.txt#John_s_reaction_to_Meg_s_appearance"
   },
   {
    "name": "John_s_reaction_to_Meg_s_request_for_change",
    "takePlaceAt": {
-    "name": "Home"
+    "name": "Home",
+    "id": "texts/littlewomen.txt#Home"
    },
    "hasParticipant": [
     {
-     "name": "Amy"
+     "name": "Amy",
+     "id": "texts/littlewomen.txt#Amy"
     },
     {
-     "name": "John"
+     "name": "John",
+     "id": "texts/littlewomen.txt#John"
     }
-   ]
+   ],
+   "id": "texts/littlewomen.txt#John_s_reaction_to_Meg_s_request_for_change"
   },
   {
    "name": "Improvement_in_the_household",
    "takePlaceAt": {
-    "name": "Home"
+    "name": "Home",
+    "id": "texts/littlewomen.txt#Home"
    },
    "hasParticipant": [
     {
-     "name": "Amy"
+     "name": "Amy",
+     "id": "texts/littlewomen.txt#Amy"
     },
     {
-     "name": "John"
+     "name": "John",
+     "id": "texts/littlewomen.txt#John"
     }
-   ]
+   ],
+   "id": "texts/littlewomen.txt#Improvement_in_the_household"
   },
   {
    "name": "Meg_s_thoughts_on_politics",
    "takePlaceAt": {
-    "name": "Home"
+    "name": "Home",
+    "id": "texts/littlewomen.txt#Home"
    },
    "hasParticipant": [
     {
-     "name": "Amy"
+     "name": "Amy",
+     "id": "texts/littlewomen.txt#Amy"
     },
     {
-     "name": "John"
+     "name": "John",
+     "id": "texts/littlewomen.txt#John"
     }
-   ]
+   ],
+   "id": "texts/littlewomen.txt#Meg_s_thoughts_on_politics"
   },
   {
    "name": "Division_of_labor_system",
    "takePlaceAt": {
-    "name": "Home"
+    "name": "Home",
+    "id": "texts/littlewomen.txt#Home"
    },
    "hasParticipant": [
     {
-     "name": "Amy"
+     "name": "Amy",
+     "id": "texts/littlewomen.txt#Amy"
     },
     {
-     "name": "John"
+     "name": "John",
+     "id": "texts/littlewomen.txt#John"
     }
-   ]
+   ],
+   "id": "texts/littlewomen.txt#Division_of_labor_system"
   },
   {
    "name": "Realization_of_the_importance_of_home_and_family",
    "takePlaceAt": {
-    "name": "Home"
+    "name": "Home",
+    "id": "texts/littlewomen.txt#Home"
    },
    "hasParticipant": [
     {
-     "name": "Amy"
+     "name": "Amy",
+     "id": "texts/littlewomen.txt#Amy"
     },
     {
-     "name": "John"
+     "name": "John",
+     "id": "texts/littlewomen.txt#John"
     }
-   ]
+   ],
+   "id": "texts/littlewomen.txt#Realization_of_the_importance_of_home_and_family"
   }
  ],
  "Places": [
   {
-   "name": "Home"
+   "name": "Home",
+   "id": "texts/littlewomen.txt#Home"
   },
   {
-   "name": "Home"
+   "name": "Home",
+   "id": "texts/littlewomen.txt#Home"
   },
   {
-   "name": "Home"
+   "name": "Home",
+   "id": "texts/littlewomen.txt#Home"
   },
   {
-   "name": "Home"
+   "name": "Home",
+   "id": "texts/littlewomen.txt#Home"
   },
   {
-   "name": "Home"
+   "name": "Home",
+   "id": "texts/littlewomen.txt#Home"
   },
   {
-   "name": "Home"
+   "name": "Home",
+   "id": "texts/littlewomen.txt#Home"
   }
  ]
 }

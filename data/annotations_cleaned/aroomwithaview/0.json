@@ -8,13 +8,17 @@
      "hasIntensity": 0.7,
      "quote": "“There goes my local-colour box! I must have a word with him!”",
      "hasObject": {
-      "name": "Localcolour_box"
+      "name": "Localcolour_box",
+      "id": "texts/aroomwithaview.txt#Localcolour_box"
      },
      "causedBy": {
-      "name": "Spotting_a_localcolour_box"
-     }
+      "name": "Spotting_a_localcolour_box",
+      "id": "texts/aroomwithaview.txt#Spotting_a_localcolour_box"
+     },
+     "id": "Excitement"
     }
-   ]
+   ],
+   "id": "texts/aroomwithaview.txt#Miss_Lavish"
   },
   {
    "name": "Lucy",
@@ -24,35 +28,45 @@
      "hasIntensity": 0.8,
      "quote": "Lucy again felt that this did not do.",
      "hasObject": {
-      "name": "Mr_Emerson_s_statement"
+      "name": "Mr_Emerson_s_statement",
+      "id": "texts/aroomwithaview.txt#Mr_Emerson_s_statement"
      },
      "causedBy": {
-      "name": "Mr_Emerson_s_statement"
-     }
+      "name": "Mr_Emerson_s_statement",
+      "id": "texts/aroomwithaview.txt#Mr_Emerson_s_statement"
+     },
+     "id": "Confusion"
     },
     {
      "name": "Pity",
      "hasIntensity": 0.6,
      "quote": "The old man’s face saddened, and he touched her gently with his hand.",
      "hasObject": {
-      "name": "Mr_Emerson"
+      "name": "Mr_Emerson",
+      "id": "texts/aroomwithaview.txt#Mr_Emerson"
      },
      "causedBy": {
-      "name": "Mr_Emerson_s_reaction"
-     }
+      "name": "Mr_Emerson_s_reaction",
+      "id": "texts/aroomwithaview.txt#Mr_Emerson_s_reaction"
+     },
+     "id": "Pity"
     },
     {
      "name": "Amusement",
      "hasIntensity": 0.9,
      "quote": "Suddenly she laughed; surely one ought to laugh.",
      "hasObject": {
-      "name": "Mr_Emerson_s_statement"
+      "name": "Mr_Emerson_s_statement",
+      "id": "texts/aroomwithaview.txt#Mr_Emerson_s_statement"
      },
      "causedBy": {
-      "name": "Mr_Emerson_s_statement"
-     }
+      "name": "Mr_Emerson_s_statement",
+      "id": "texts/aroomwithaview.txt#Mr_Emerson_s_statement"
+     },
+     "id": "Amusement"
     }
-   ]
+   ],
+   "id": "texts/aroomwithaview.txt#Lucy"
   },
   {
    "name": "Mr_Emerson",
@@ -62,82 +76,107 @@
      "hasIntensity": 0.7,
      "quote": "The old man’s face saddened, and he touched her gently with his hand.",
      "hasObject": {
-      "name": "Lucy"
+      "name": "Lucy",
+      "id": "texts/aroomwithaview.txt#Lucy"
      },
      "causedBy": {
-      "name": "Lucy_s_reaction"
-     }
+      "name": "Lucy_s_reaction",
+      "id": "texts/aroomwithaview.txt#Lucy_s_reaction"
+     },
+     "id": "Sorrow"
     },
     {
      "name": "Anxiety",
      "hasIntensity": 0.8,
      "quote": "Why will he look at that fresco?” he said uneasily.",
      "hasObject": {
-      "name": "George_s_behavior"
+      "name": "George_s_behavior",
+      "id": "texts/aroomwithaview.txt#George_s_behavior"
      },
      "causedBy": {
-      "name": "Observing_George_s_behavior"
-     }
+      "name": "Observing_George_s_behavior",
+      "id": "texts/aroomwithaview.txt#Observing_George_s_behavior"
+     },
+     "id": "Anxiety"
     }
-   ]
+   ],
+   "id": "texts/aroomwithaview.txt#Mr_Emerson"
   }
  ],
  "Events": [
   {
    "name": "Spotting_a_localcolour_box",
    "takePlaceAt": {
-    "name": "Santa_Croce"
-   }
+    "name": "Santa_Croce",
+    "id": "texts/aroomwithaview.txt#Santa_Croce"
+   },
+   "id": "texts/aroomwithaview.txt#Spotting_a_localcolour_box"
   },
   {
    "name": "Mr_Emerson_s_statement",
    "takePlaceAt": {
-    "name": "Santa_Croce"
-   }
+    "name": "Santa_Croce",
+    "id": "texts/aroomwithaview.txt#Santa_Croce"
+   },
+   "id": "texts/aroomwithaview.txt#Mr_Emerson_s_statement"
   },
   {
    "name": "Mr_Emerson_s_reaction",
    "takePlaceAt": {
-    "name": "Santa_Croce"
-   }
+    "name": "Santa_Croce",
+    "id": "texts/aroomwithaview.txt#Santa_Croce"
+   },
+   "id": "texts/aroomwithaview.txt#Mr_Emerson_s_reaction"
   },
   {
    "name": "Mr_Emerson_s_statement",
    "takePlaceAt": {
-    "name": "Santa_Croce"
-   }
+    "name": "Santa_Croce",
+    "id": "texts/aroomwithaview.txt#Santa_Croce"
+   },
+   "id": "texts/aroomwithaview.txt#Mr_Emerson_s_statement"
   },
   {
    "name": "Lucy_s_reaction",
    "takePlaceAt": {
-    "name": "Santa_Croce"
-   }
+    "name": "Santa_Croce",
+    "id": "texts/aroomwithaview.txt#Santa_Croce"
+   },
+   "id": "texts/aroomwithaview.txt#Lucy_s_reaction"
   },
   {
    "name": "Observing_George_s_behavior",
    "takePlaceAt": {
-    "name": "Santa_Croce"
-   }
+    "name": "Santa_Croce",
+    "id": "texts/aroomwithaview.txt#Santa_Croce"
+   },
+   "id": "texts/aroomwithaview.txt#Observing_George_s_behavior"
   }
  ],
  "Places": [
   {
-   "name": "Santa_Croce"
+   "name": "Santa_Croce",
+   "id": "texts/aroomwithaview.txt#Santa_Croce"
   },
   {
-   "name": "Santa_Croce"
+   "name": "Santa_Croce",
+   "id": "texts/aroomwithaview.txt#Santa_Croce"
   },
   {
-   "name": "Santa_Croce"
+   "name": "Santa_Croce",
+   "id": "texts/aroomwithaview.txt#Santa_Croce"
   },
   {
-   "name": "Santa_Croce"
+   "name": "Santa_Croce",
+   "id": "texts/aroomwithaview.txt#Santa_Croce"
   },
   {
-   "name": "Santa_Croce"
+   "name": "Santa_Croce",
+   "id": "texts/aroomwithaview.txt#Santa_Croce"
   },
   {
-   "name": "Santa_Croce"
+   "name": "Santa_Croce",
+   "id": "texts/aroomwithaview.txt#Santa_Croce"
   }
  ]
 }

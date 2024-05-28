@@ -8,94 +8,121 @@
      "hasIntensity": 0.7,
      "quote": "I am sure, it is very attentive of them to remember me.",
      "hasObject": {
-      "name": "Invitation_letter"
+      "name": "Invitation_letter",
+      "id": "texts/cranford.txt#Invitation_letter"
      },
      "causedBy": {
-      "name": "Invitation_to_an_important_meeting"
-     }
+      "name": "Invitation_to_an_important_meeting",
+      "id": "texts/cranford.txt#Invitation_to_an_important_meeting"
+     },
+     "id": "Surprise"
     },
     {
      "name": "Anxiety",
      "hasIntensity": 0.6,
      "quote": "I did not like to hear of this 'important meeting,' for, though I did not know much about business, I feared it confirmed what my father said.",
      "hasObject": {
-      "name": "Letter_from_her_father"
+      "name": "Letter_from_her_father",
+      "id": "texts/cranford.txt#Letter_from_her_father"
      },
      "causedBy": {
-      "name": "Receiving_a_letter_from_her_father"
-     }
+      "name": "Receiving_a_letter_from_her_father",
+      "id": "texts/cranford.txt#Receiving_a_letter_from_her_father"
+     },
+     "id": "Anxiety"
     },
     {
      "name": "Delight",
      "hasIntensity": 0.8,
      "quote": "Miss Matty anticipated the sight of the glossy folds with as much delight as if the five sovereigns, set apart for the purchase, could buy all the silks in the shop.",
      "hasObject": {
-      "name": "New_silk_gown"
+      "name": "New_silk_gown",
+      "id": "texts/cranford.txt#New_silk_gown"
      },
      "causedBy": {
-      "name": "Choosing_a_silk_gown"
-     }
+      "name": "Choosing_a_silk_gown",
+      "id": "texts/cranford.txt#Choosing_a_silk_gown"
+     },
+     "id": "Delight"
     },
     {
      "name": "Perplexity",
      "hasIntensity": 0.7,
      "quote": "Miss Matty might have leisure for the delights of perplexity.",
      "hasObject": {
-      "name": "Choosing_the_silk_gown"
+      "name": "Choosing_the_silk_gown",
+      "id": "texts/cranford.txt#Choosing_the_silk_gown"
      },
      "causedBy": {
-      "name": "Choosing_the_silk_gown"
-     }
+      "name": "Choosing_the_silk_gown",
+      "id": "texts/cranford.txt#Choosing_the_silk_gown"
+     },
+     "id": "Perplexity"
     }
-   ]
+   ],
+   "id": "texts/cranford.txt#Miss_Matty"
   }
  ],
  "Events": [
   {
    "name": "Invitation_to_an_important_meeting",
    "takePlaceAt": {
-    "name": "Breakfasttable"
-   }
+    "name": "Breakfasttable",
+    "id": "texts/cranford.txt#Breakfasttable"
+   },
+   "id": "texts/cranford.txt#Invitation_to_an_important_meeting"
   },
   {
    "name": "Receiving_a_letter_from_her_father",
    "takePlaceAt": {
-    "name": "Breakfasttable"
-   }
+    "name": "Breakfasttable",
+    "id": "texts/cranford.txt#Breakfasttable"
+   },
+   "id": "texts/cranford.txt#Receiving_a_letter_from_her_father"
   },
   {
    "name": "Choosing_a_silk_gown",
    "takePlaceAt": {
-    "name": "Conversation_about_the_new_silk_gown"
+    "name": "Conversation_about_the_new_silk_gown",
+    "id": "texts/cranford.txt#Conversation_about_the_new_silk_gown"
    },
    "hasParticipant": [
     {
-     "name": "Miss_Matty"
+     "name": "Miss_Matty",
+     "id": "texts/cranford.txt#Miss_Matty"
     },
     {
-     "name": "the_narrator"
+     "name": "the_narrator",
+     "id": "texts/cranford.txt#the_narrator"
     }
-   ]
+   ],
+   "id": "texts/cranford.txt#Choosing_a_silk_gown"
   },
   {
    "name": "Choosing_the_silk_gown",
    "takePlaceAt": {
-    "name": "Conversation_about_the_new_silk_gown"
-   }
+    "name": "Conversation_about_the_new_silk_gown",
+    "id": "texts/cranford.txt#Conversation_about_the_new_silk_gown"
+   },
+   "id": "texts/cranford.txt#Choosing_the_silk_gown"
   }
  ],
  "Places": [
   {
-   "name": "Breakfasttable"
+   "name": "Breakfasttable",
+   "id": "texts/cranford.txt#Breakfasttable"
   },
   {
-   "name": "Breakfasttable"
+   "name": "Breakfasttable",
+   "id": "texts/cranford.txt#Breakfasttable"
   },
   {
-   "name": "Conversation_about_the_new_silk_gown"
+   "name": "Conversation_about_the_new_silk_gown",
+   "id": "texts/cranford.txt#Conversation_about_the_new_silk_gown"
   },
   {
-   "name": "Conversation_about_the_new_silk_gown"
+   "name": "Conversation_about_the_new_silk_gown",
+   "id": "texts/cranford.txt#Conversation_about_the_new_silk_gown"
   }
  ]
 }

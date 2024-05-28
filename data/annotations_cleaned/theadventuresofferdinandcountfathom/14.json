@@ -8,126 +8,163 @@
      "hasIntensity": 0.9,
      "quote": "Fathom, struck with the description, soon perceived how this woman’s disease might be converted to his advantage...",
      "hasObject": {
-      "name": "Old_gentlewoman_s_avarice"
+      "name": "Old_gentlewoman_s_avarice",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Old_gentlewoman_s_avarice"
      },
      "causedBy": {
-      "name": "Description_of_the_old_gentlewoman_s_behavior"
-     }
+      "name": "Description_of_the_old_gentlewoman_s_behavior",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Description_of_the_old_gentlewoman_s_behavior"
+     },
+     "id": "Fear"
     },
     {
      "name": "Anger",
      "hasIntensity": 0.8,
      "quote": "Fathom, stung with these accusations, which he really did not deserve, replied with uncommon heat...",
      "hasObject": {
-      "name": "Accusations_of_dishonesty"
+      "name": "Accusations_of_dishonesty",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Accusations_of_dishonesty"
      },
      "causedBy": {
-      "name": "Accusations_of_dishonesty"
-     }
+      "name": "Accusations_of_dishonesty",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Accusations_of_dishonesty"
+     },
+     "id": "Anger"
     },
     {
      "name": "Remorse",
      "hasIntensity": 0.9,
      "quote": "These reflections, which, perhaps, the misery of his fellow-creatures would never have inspired, were now produced from the sensation of his own calamities...",
      "hasObject": {
-      "name": "Past_actions"
+      "name": "Past_actions",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Past_actions"
      },
      "causedBy": {
-      "name": "Reflection_on_past_actions"
-     }
+      "name": "Reflection_on_past_actions",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Reflection_on_past_actions"
+     },
+     "id": "Remorse"
     },
     {
      "name": "Filial_Affection",
      "hasIntensity": 0.9,
      "quote": "He pressed the little image to his lips with the most filial fervour...",
      "hasObject": {
-      "name": "Miniature_picture_of_his_father"
+      "name": "Miniature_picture_of_his_father",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Miniature_picture_of_his_father"
      },
      "causedBy": {
-      "name": "Receiving_a_miniature_picture_of_his_father"
-     }
+      "name": "Receiving_a_miniature_picture_of_his_father",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Receiving_a_miniature_picture_of_his_father"
+     },
+     "id": "Filial_Affection"
     },
     {
      "name": "Indignation",
      "hasIntensity": 0.8,
      "quote": "At sight of this apparition, the blood mounted into Renaldo’s cheeks, and his eyes began to lighten with eagerness and indignation...",
      "hasObject": {
-      "name": "Encounter_with_Count_Trebasi"
+      "name": "Encounter_with_Count_Trebasi",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Encounter_with_Count_Trebasi"
      },
      "causedBy": {
-      "name": "Encounter_with_Count_Trebasi"
-     }
+      "name": "Encounter_with_Count_Trebasi",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Encounter_with_Count_Trebasi"
+     },
+     "id": "Indignation"
     }
-   ]
+   ],
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Ferdinand_Fathom"
   }
  ],
  "Events": [
   {
    "name": "Description_of_the_old_gentlewoman_s_behavior",
    "takePlaceAt": {
-    "name": "Coffeehouse"
+    "name": "Coffeehouse",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Coffeehouse"
    },
    "hasParticipant": [
     {
-     "name": "Ferdinand_Fathom"
+     "name": "Ferdinand_Fathom",
+     "id": "texts/theadventuresofferdinandcountfathom.txt#Ferdinand_Fathom"
     },
     {
-     "name": "his_friend"
+     "name": "his_friend",
+     "id": "texts/theadventuresofferdinandcountfathom.txt#his_friend"
     }
-   ]
+   ],
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Description_of_the_old_gentlewoman_s_behavior"
   },
   {
    "name": "Accusations_of_dishonesty",
    "takePlaceAt": {
-    "name": "Conversation_with_the_old_gentlewoman"
+    "name": "Conversation_with_the_old_gentlewoman",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Conversation_with_the_old_gentlewoman"
    },
    "hasParticipant": {
-    "name": "Ferdinand_Fathom"
-   }
+    "name": "Ferdinand_Fathom",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Ferdinand_Fathom"
+   },
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Accusations_of_dishonesty"
   },
   {
    "name": "Reflection_on_past_actions",
    "takePlaceAt": {
-    "name": "Solitary_mansion"
+    "name": "Solitary_mansion",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Solitary_mansion"
    },
    "hasParticipant": {
-    "name": "Ferdinand_Fathom"
-   }
+    "name": "Ferdinand_Fathom",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Ferdinand_Fathom"
+   },
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Reflection_on_past_actions"
   },
   {
    "name": "Receiving_a_miniature_picture_of_his_father",
    "takePlaceAt": {
-    "name": "Castle_tower"
+    "name": "Castle_tower",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Castle_tower"
    },
    "hasParticipant": {
-    "name": "Renaldo_Melvil"
-   }
+    "name": "Renaldo_Melvil",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Renaldo_Melvil"
+   },
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Receiving_a_miniature_picture_of_his_father"
   },
   {
    "name": "Encounter_with_Count_Trebasi",
    "takePlaceAt": {
-    "name": "Castle_grounds"
+    "name": "Castle_grounds",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Castle_grounds"
    },
    "hasParticipant": {
-    "name": "Renaldo_Melvil"
-   }
+    "name": "Renaldo_Melvil",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Renaldo_Melvil"
+   },
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Encounter_with_Count_Trebasi"
   }
  ],
  "Places": [
   {
-   "name": "Coffeehouse"
+   "name": "Coffeehouse",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Coffeehouse"
   },
   {
-   "name": "Conversation_with_the_old_gentlewoman"
+   "name": "Conversation_with_the_old_gentlewoman",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Conversation_with_the_old_gentlewoman"
   },
   {
-   "name": "Solitary_mansion"
+   "name": "Solitary_mansion",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Solitary_mansion"
   },
   {
-   "name": "Castle_tower"
+   "name": "Castle_tower",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Castle_tower"
   },
   {
-   "name": "Castle_grounds"
+   "name": "Castle_grounds",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Castle_grounds"
   }
  ]
 }

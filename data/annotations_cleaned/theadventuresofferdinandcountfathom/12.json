@@ -8,230 +8,295 @@
      "hasIntensity": 0.7,
      "quote": "Monimia was successively agitated with shame, anger, and grief.",
      "hasObject": {
-      "name": "Fathom_s_importunate_desires"
+      "name": "Fathom_s_importunate_desires",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Fathom_s_importunate_desires"
      },
      "causedBy": {
-      "name": "Fathom_s_importunate_desires"
-     }
+      "name": "Fathom_s_importunate_desires",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Fathom_s_importunate_desires"
+     },
+     "id": "Shame"
     },
     {
      "name": "Anger",
      "hasIntensity": 0.8,
      "quote": "Monimia, provoked beyond the power of concealing her resentment, said, she was heartily sorry to find herself under the necessity of telling him, that, in the midst of her misfortunes, she could not help remembering what she had been.",
      "hasObject": {
-      "name": "Fathom_s_importunate_desires"
+      "name": "Fathom_s_importunate_desires",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Fathom_s_importunate_desires"
      },
      "causedBy": {
-      "name": "Fathom_s_importunate_desires"
-     }
+      "name": "Fathom_s_importunate_desires",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Fathom_s_importunate_desires"
+     },
+     "id": "Anger"
     },
     {
      "name": "Grief",
      "hasIntensity": 0.9,
      "quote": "Words are wanting to describe the accumulated horrors that took possession of her mind, when she thus beheld all her presaging fears realised, and found herself at the mercy of two wretches, who had now pulled off the mask, after having lost all sentiments of humanity.",
      "hasObject": {
-      "name": "Fathom_s_betrayal"
+      "name": "Fathom_s_betrayal",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Fathom_s_betrayal"
      },
      "causedBy": {
-      "name": "Fathom_s_betrayal"
-     }
+      "name": "Fathom_s_betrayal",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Fathom_s_betrayal"
+     },
+     "id": "Grief"
     },
     {
      "name": "Joy",
      "hasIntensity": 0.8,
      "quote": "Monimia, overwhelmed with gratitude and surprise at this unexpected address, gazed upon the lady in silence, and when she repeated her tenders of service, could make no other reply to her goodness, than by bursting into a flood of tears.",
      "hasObject": {
-      "name": "Madam_Clement_s_kindness"
+      "name": "Madam_Clement_s_kindness",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Madam_Clement_s_kindness"
      },
      "causedBy": {
-      "name": "Madam_Clement_s_kindness"
-     }
+      "name": "Madam_Clement_s_kindness",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Madam_Clement_s_kindness"
+     },
+     "id": "Joy"
     },
     {
      "name": "Sadness",
      "hasIntensity": 0.9,
      "quote": "Having passed the night in such agony, she rose at daybreak, and, hearing the chapel bell toll for morning prayers, resolved to go to this place of worship, in order to implore the assistance of Heaven.",
      "hasObject": {
-      "name": "Fathom_s_betrayal"
+      "name": "Fathom_s_betrayal",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Fathom_s_betrayal"
      },
      "causedBy": {
-      "name": "Fathom_s_betrayal"
-     }
+      "name": "Fathom_s_betrayal",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Fathom_s_betrayal"
+     },
+     "id": "Sadness"
     },
     {
      "name": "Acceptance",
      "hasIntensity": 0.7,
      "quote": "Monimia, overwhelmed with gratitude and surprise at this unexpected address, gazed upon the lady in silence, and when she repeated her tenders of service, could make no other reply to her goodness, than by bursting into a flood of tears.",
      "hasObject": {
-      "name": "Madam_Clement_s_kindness"
+      "name": "Madam_Clement_s_kindness",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Madam_Clement_s_kindness"
      },
      "causedBy": {
-      "name": "Madam_Clement_s_kindness"
-     }
+      "name": "Madam_Clement_s_kindness",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Madam_Clement_s_kindness"
+     },
+     "id": "Acceptance"
     },
     {
      "name": "Admiration",
      "hasIntensity": 0.8,
      "quote": "Monimia, overwhelmed with gratitude and surprise at this unexpected address, gazed upon the lady in silence, and when she repeated her tenders of service, could make no other reply to her goodness, than by bursting into a flood of tears.",
      "hasObject": {
-      "name": "Madam_Clement_s_kindness"
+      "name": "Madam_Clement_s_kindness",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Madam_Clement_s_kindness"
      },
      "causedBy": {
-      "name": "Madam_Clement_s_kindness"
-     }
+      "name": "Madam_Clement_s_kindness",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Madam_Clement_s_kindness"
+     },
+     "id": "Admiration"
     },
     {
      "name": "Fear",
      "hasIntensity": 0.9,
      "quote": "Words are wanting to describe the accumulated horrors that took possession of her mind, when she thus beheld all her presaging fears realised, and found herself at the mercy of two wretches, who had now pulled off the mask, after having lost all sentiments of humanity.",
      "hasObject": {
-      "name": "Fathom_s_betrayal"
+      "name": "Fathom_s_betrayal",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Fathom_s_betrayal"
      },
      "causedBy": {
-      "name": "Fathom_s_betrayal"
-     }
+      "name": "Fathom_s_betrayal",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Fathom_s_betrayal"
+     },
+     "id": "Fear"
     }
-   ]
+   ],
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Monimia"
   }
  ],
  "Events": [
   {
    "name": "Fathom_s_importunate_desires",
    "takePlaceAt": {
-    "name": "Monimia_s_chamber"
+    "name": "Monimia_s_chamber",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Monimia_s_chamber"
    },
    "hasParticipant": [
     {
-     "name": "Monimia"
+     "name": "Monimia",
+     "id": "texts/theadventuresofferdinandcountfathom.txt#Monimia"
     },
     {
-     "name": "Fathom"
+     "name": "Fathom",
+     "id": "texts/theadventuresofferdinandcountfathom.txt#Fathom"
     }
-   ]
+   ],
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Fathom_s_importunate_desires"
   },
   {
    "name": "Fathom_s_importunate_desires",
    "takePlaceAt": {
-    "name": "Monimia_s_chamber"
+    "name": "Monimia_s_chamber",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Monimia_s_chamber"
    },
    "hasParticipant": [
     {
-     "name": "Monimia"
+     "name": "Monimia",
+     "id": "texts/theadventuresofferdinandcountfathom.txt#Monimia"
     },
     {
-     "name": "Fathom"
+     "name": "Fathom",
+     "id": "texts/theadventuresofferdinandcountfathom.txt#Fathom"
     }
-   ]
+   ],
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Fathom_s_importunate_desires"
   },
   {
    "name": "Fathom_s_betrayal",
    "takePlaceAt": {
-    "name": "Monimia_s_chamber"
+    "name": "Monimia_s_chamber",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Monimia_s_chamber"
    },
    "hasParticipant": [
     {
-     "name": "Monimia"
+     "name": "Monimia",
+     "id": "texts/theadventuresofferdinandcountfathom.txt#Monimia"
     },
     {
-     "name": "Fathom"
+     "name": "Fathom",
+     "id": "texts/theadventuresofferdinandcountfathom.txt#Fathom"
     }
-   ]
+   ],
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Fathom_s_betrayal"
   },
   {
    "name": "Madam_Clement_s_kindness",
    "takePlaceAt": {
-    "name": "Madam_Clement_s_house"
+    "name": "Madam_Clement_s_house",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Madam_Clement_s_house"
    },
    "hasParticipant": [
     {
-     "name": "Monimia"
+     "name": "Monimia",
+     "id": "texts/theadventuresofferdinandcountfathom.txt#Monimia"
     },
     {
-     "name": "Madam_Clement"
+     "name": "Madam_Clement",
+     "id": "texts/theadventuresofferdinandcountfathom.txt#Madam_Clement"
     }
-   ]
+   ],
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Madam_Clement_s_kindness"
   },
   {
    "name": "Fathom_s_betrayal",
    "takePlaceAt": {
-    "name": "Monimia_s_chamber"
+    "name": "Monimia_s_chamber",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Monimia_s_chamber"
    },
    "hasParticipant": [
     {
-     "name": "Monimia"
+     "name": "Monimia",
+     "id": "texts/theadventuresofferdinandcountfathom.txt#Monimia"
     },
     {
-     "name": "Fathom"
+     "name": "Fathom",
+     "id": "texts/theadventuresofferdinandcountfathom.txt#Fathom"
     }
-   ]
+   ],
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Fathom_s_betrayal"
   },
   {
    "name": "Madam_Clement_s_kindness",
    "takePlaceAt": {
-    "name": "Madam_Clement_s_house"
+    "name": "Madam_Clement_s_house",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Madam_Clement_s_house"
    },
    "hasParticipant": [
     {
-     "name": "Monimia"
+     "name": "Monimia",
+     "id": "texts/theadventuresofferdinandcountfathom.txt#Monimia"
     },
     {
-     "name": "Madam_Clement"
+     "name": "Madam_Clement",
+     "id": "texts/theadventuresofferdinandcountfathom.txt#Madam_Clement"
     }
-   ]
+   ],
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Madam_Clement_s_kindness"
   },
   {
    "name": "Madam_Clement_s_kindness",
    "takePlaceAt": {
-    "name": "Madam_Clement_s_house"
+    "name": "Madam_Clement_s_house",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Madam_Clement_s_house"
    },
    "hasParticipant": [
     {
-     "name": "Monimia"
+     "name": "Monimia",
+     "id": "texts/theadventuresofferdinandcountfathom.txt#Monimia"
     },
     {
-     "name": "Madam_Clement"
+     "name": "Madam_Clement",
+     "id": "texts/theadventuresofferdinandcountfathom.txt#Madam_Clement"
     }
-   ]
+   ],
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Madam_Clement_s_kindness"
   },
   {
    "name": "Fathom_s_betrayal",
    "takePlaceAt": {
-    "name": "Monimia_s_chamber"
+    "name": "Monimia_s_chamber",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Monimia_s_chamber"
    },
    "hasParticipant": [
     {
-     "name": "Monimia"
+     "name": "Monimia",
+     "id": "texts/theadventuresofferdinandcountfathom.txt#Monimia"
     },
     {
-     "name": "Fathom"
+     "name": "Fathom",
+     "id": "texts/theadventuresofferdinandcountfathom.txt#Fathom"
     }
-   ]
+   ],
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Fathom_s_betrayal"
   }
  ],
  "Places": [
   {
-   "name": "Monimia_s_chamber"
+   "name": "Monimia_s_chamber",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Monimia_s_chamber"
   },
   {
-   "name": "Monimia_s_chamber"
+   "name": "Monimia_s_chamber",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Monimia_s_chamber"
   },
   {
-   "name": "Monimia_s_chamber"
+   "name": "Monimia_s_chamber",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Monimia_s_chamber"
   },
   {
-   "name": "Madam_Clement_s_house"
+   "name": "Madam_Clement_s_house",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Madam_Clement_s_house"
   },
   {
-   "name": "Monimia_s_chamber"
+   "name": "Monimia_s_chamber",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Monimia_s_chamber"
   },
   {
-   "name": "Madam_Clement_s_house"
+   "name": "Madam_Clement_s_house",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Madam_Clement_s_house"
   },
   {
-   "name": "Madam_Clement_s_house"
+   "name": "Madam_Clement_s_house",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Madam_Clement_s_house"
   },
   {
-   "name": "Monimia_s_chamber"
+   "name": "Monimia_s_chamber",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Monimia_s_chamber"
   }
  ]
 }

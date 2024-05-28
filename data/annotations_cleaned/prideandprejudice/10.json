@@ -8,24 +8,31 @@
      "hasIntensity": 0.8,
      "quote": "Elizabeth was disgusted, and even Miss Bennet was shocked.",
      "hasObject": {
-      "name": "Lydia_s_behavior"
+      "name": "Lydia_s_behavior",
+      "id": "texts/prideandprejudice.txt#Lydia_s_behavior"
      },
      "causedBy": {
-      "name": "Lydia_s_behavior_upon_arrival"
-     }
+      "name": "Lydia_s_behavior_upon_arrival",
+      "id": "texts/prideandprejudice.txt#Lydia_s_behavior_upon_arrival"
+     },
+     "id": "Disgust"
     },
     {
      "name": "Shocked",
      "hasIntensity": 0.7,
      "quote": "Elizabeth was disgusted, and even Miss Bennet was shocked.",
      "hasObject": {
-      "name": "Lydia_s_behavior"
+      "name": "Lydia_s_behavior",
+      "id": "texts/prideandprejudice.txt#Lydia_s_behavior"
      },
      "causedBy": {
-      "name": "Lydia_s_behavior_upon_arrival"
-     }
+      "name": "Lydia_s_behavior_upon_arrival",
+      "id": "texts/prideandprejudice.txt#Lydia_s_behavior_upon_arrival"
+     },
+     "id": "Shocked"
     }
-   ]
+   ],
+   "id": "texts/prideandprejudice.txt#Elizabeth_Bennet"
   },
   {
    "name": "Lydia_Bennet",
@@ -35,109 +42,141 @@
      "hasIntensity": 0.9,
      "quote": "Her mother stepped forwards, embraced her, and welcomed her with rapture; gave her hand with an affectionate smile to Wickham, who followed his lady; and wished them both joy, with an alacrity which showed no doubt of their happiness.",
      "hasObject": {
-      "name": "Warm_welcome"
+      "name": "Warm_welcome",
+      "id": "texts/prideandprejudice.txt#Warm_welcome"
      },
      "causedBy": {
-      "name": "Arrival_at_the_Bennet_family_home"
-     }
+      "name": "Arrival_at_the_Bennet_family_home",
+      "id": "texts/prideandprejudice.txt#Arrival_at_the_Bennet_family_home"
+     },
+     "id": "Joy"
     },
     {
      "name": "Untamed",
      "hasIntensity": 0.8,
      "quote": "Lydia was Lydia still; untamed, unabashed, wild, noisy, and fearless.",
      "hasObject": {
-      "name": "Lydia_s_behavior"
+      "name": "Lydia_s_behavior",
+      "id": "texts/prideandprejudice.txt#Lydia_s_behavior"
      },
      "causedBy": {
-      "name": "Lydia_s_behavior_upon_arrival"
-     }
+      "name": "Lydia_s_behavior_upon_arrival",
+      "id": "texts/prideandprejudice.txt#Lydia_s_behavior_upon_arrival"
+     },
+     "id": "Untamed"
     }
-   ]
+   ],
+   "id": "texts/prideandprejudice.txt#Lydia_Bennet"
   }
  ],
  "Events": [
   {
    "name": "Lydia_s_behavior_upon_arrival",
    "takePlaceAt": {
-    "name": "The_Bennet_family_home"
+    "name": "The_Bennet_family_home",
+    "id": "texts/prideandprejudice.txt#The_Bennet_family_home"
    },
    "hasParticipant": [
     {
-     "name": "Lydia_Bennet"
+     "name": "Lydia_Bennet",
+     "id": "texts/prideandprejudice.txt#Lydia_Bennet"
     },
     {
-     "name": "Mr_Bennet"
+     "name": "Mr_Bennet",
+     "id": "texts/prideandprejudice.txt#Mr_Bennet"
     },
     {
-     "name": "Mrs_Bennet"
+     "name": "Mrs_Bennet",
+     "id": "texts/prideandprejudice.txt#Mrs_Bennet"
     },
     {
-     "name": "Wickham"
+     "name": "Wickham",
+     "id": "texts/prideandprejudice.txt#Wickham"
     }
-   ]
+   ],
+   "id": "texts/prideandprejudice.txt#Lydia_s_behavior_upon_arrival"
   },
   {
    "name": "Lydia_s_behavior_upon_arrival",
    "takePlaceAt": {
-    "name": "The_Bennet_family_home"
+    "name": "The_Bennet_family_home",
+    "id": "texts/prideandprejudice.txt#The_Bennet_family_home"
    },
    "hasParticipant": [
     {
-     "name": "Lydia_Bennet"
+     "name": "Lydia_Bennet",
+     "id": "texts/prideandprejudice.txt#Lydia_Bennet"
     },
     {
-     "name": "Mr_Bennet"
+     "name": "Mr_Bennet",
+     "id": "texts/prideandprejudice.txt#Mr_Bennet"
     },
     {
-     "name": "Mrs_Bennet"
+     "name": "Mrs_Bennet",
+     "id": "texts/prideandprejudice.txt#Mrs_Bennet"
     },
     {
-     "name": "Wickham"
+     "name": "Wickham",
+     "id": "texts/prideandprejudice.txt#Wickham"
     }
-   ]
+   ],
+   "id": "texts/prideandprejudice.txt#Lydia_s_behavior_upon_arrival"
   },
   {
    "name": "Arrival_at_the_Bennet_family_home",
    "takePlaceAt": {
-    "name": "The_Bennet_family_home"
+    "name": "The_Bennet_family_home",
+    "id": "texts/prideandprejudice.txt#The_Bennet_family_home"
    },
    "hasParticipant": [
     {
-     "name": "Lydia_Bennet"
+     "name": "Lydia_Bennet",
+     "id": "texts/prideandprejudice.txt#Lydia_Bennet"
     },
     {
-     "name": "Mr_Bennet"
+     "name": "Mr_Bennet",
+     "id": "texts/prideandprejudice.txt#Mr_Bennet"
     },
     {
-     "name": "Mrs_Bennet"
+     "name": "Mrs_Bennet",
+     "id": "texts/prideandprejudice.txt#Mrs_Bennet"
     },
     {
-     "name": "Wickham"
+     "name": "Wickham",
+     "id": "texts/prideandprejudice.txt#Wickham"
     }
-   ]
+   ],
+   "id": "texts/prideandprejudice.txt#Arrival_at_the_Bennet_family_home"
   },
   {
    "name": "Lydia_s_behavior_upon_arrival",
    "takePlaceAt": {
-    "name": "The_Bennet_family_home"
+    "name": "The_Bennet_family_home",
+    "id": "texts/prideandprejudice.txt#The_Bennet_family_home"
    },
    "hasParticipant": {
-    "name": "Lydia_Bennet"
-   }
+    "name": "Lydia_Bennet",
+    "id": "texts/prideandprejudice.txt#Lydia_Bennet"
+   },
+   "id": "texts/prideandprejudice.txt#Lydia_s_behavior_upon_arrival"
   }
  ],
  "Places": [
   {
-   "name": "The_Bennet_family_home"
+   "name": "The_Bennet_family_home",
+   "id": "texts/prideandprejudice.txt#The_Bennet_family_home"
   },
   {
-   "name": "The_Bennet_family_home"
+   "name": "The_Bennet_family_home",
+   "id": "texts/prideandprejudice.txt#The_Bennet_family_home"
   },
   {
-   "name": "The_Bennet_family_home"
+   "name": "The_Bennet_family_home",
+   "id": "texts/prideandprejudice.txt#The_Bennet_family_home"
   },
   {
-   "name": "The_Bennet_family_home"
+   "name": "The_Bennet_family_home",
+   "id": "texts/prideandprejudice.txt#The_Bennet_family_home"
   }
  ]
 }

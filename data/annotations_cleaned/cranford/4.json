@@ -8,13 +8,17 @@
      "hasIntensity": 0.9,
      "quote": "Miss Matty drew the curtains round the windows of the chair to shut out disagreeable sights, and the men set off at such a round and merry pace, that it was all Miss Pole and I could do to keep up with them. She had breath for nothing beyond an imploring 'Don't leave me!' uttered as she clutched my arm so tightly that I could not have quitted her, ghost or no ghost.",
      "hasObject": {
-      "name": "Ghosts"
+      "name": "Ghosts",
+      "id": "texts/cranford.txt#Ghosts"
      },
      "causedBy": {
-      "name": "Being_in_Darkness_Lane"
-     }
+      "name": "Being_in_Darkness_Lane",
+      "id": "texts/cranford.txt#Being_in_Darkness_Lane"
+     },
+     "id": "Fear"
     }
-   ]
+   ],
+   "id": "texts/cranford.txt#Miss_Matty"
   },
   {
    "name": "Miss_Pole",
@@ -24,13 +28,17 @@
      "hasIntensity": 0.8,
      "quote": "She had breath for nothing beyond an imploring 'Don't leave me!' uttered as she clutched my arm so tightly that I could not have quitted her, ghost or no ghost.",
      "hasObject": {
-      "name": "Ghosts"
+      "name": "Ghosts",
+      "id": "texts/cranford.txt#Ghosts"
      },
      "causedBy": {
-      "name": "Being_in_Darkness_Lane"
-     }
+      "name": "Being_in_Darkness_Lane",
+      "id": "texts/cranford.txt#Being_in_Darkness_Lane"
+     },
+     "id": "Fear"
     }
-   ]
+   ],
+   "id": "texts/cranford.txt#Miss_Pole"
   },
   {
    "name": "Mrs_Forrester",
@@ -40,44 +48,57 @@
      "hasIntensity": 0.7,
      "quote": "Mrs Forrester looked at us from time to time with an air of conscious triumph.",
      "hasObject": {
-      "name": "Being_right_about_ghosts"
+      "name": "Being_right_about_ghosts",
+      "id": "texts/cranford.txt#Being_right_about_ghosts"
      },
      "causedBy": {
-      "name": "Discussion_about_ghosts"
-     }
+      "name": "Discussion_about_ghosts",
+      "id": "texts/cranford.txt#Discussion_about_ghosts"
+     },
+     "id": "Triumph"
     }
-   ]
+   ],
+   "id": "texts/cranford.txt#Mrs_Forrester"
   }
  ],
  "Events": [
   {
    "name": "Being_in_Darkness_Lane",
    "takePlaceAt": {
-    "name": "Darkness_Lane"
-   }
+    "name": "Darkness_Lane",
+    "id": "texts/cranford.txt#Darkness_Lane"
+   },
+   "id": "texts/cranford.txt#Being_in_Darkness_Lane"
   },
   {
    "name": "Being_in_Darkness_Lane",
    "takePlaceAt": {
-    "name": "Darkness_Lane"
-   }
+    "name": "Darkness_Lane",
+    "id": "texts/cranford.txt#Darkness_Lane"
+   },
+   "id": "texts/cranford.txt#Being_in_Darkness_Lane"
   },
   {
    "name": "Discussion_about_ghosts",
    "takePlaceAt": {
-    "name": "Mrs_Forrester_s_house"
-   }
+    "name": "Mrs_Forrester_s_house",
+    "id": "texts/cranford.txt#Mrs_Forrester_s_house"
+   },
+   "id": "texts/cranford.txt#Discussion_about_ghosts"
   }
  ],
  "Places": [
   {
-   "name": "Darkness_Lane"
+   "name": "Darkness_Lane",
+   "id": "texts/cranford.txt#Darkness_Lane"
   },
   {
-   "name": "Darkness_Lane"
+   "name": "Darkness_Lane",
+   "id": "texts/cranford.txt#Darkness_Lane"
   },
   {
-   "name": "Mrs_Forrester_s_house"
+   "name": "Mrs_Forrester_s_house",
+   "id": "texts/cranford.txt#Mrs_Forrester_s_house"
   }
  ]
 }

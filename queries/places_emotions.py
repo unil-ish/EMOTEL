@@ -4,28 +4,10 @@ from rdflib import Graph
 d = {}
 g = Graph()
 
-fp = "../outputs/world.xml"
+fp = "../outputs/world.rdf"
 
 with open(fp, 'r') as f:
     g.parse(file=f)
-
-getattr(EMOTEL, 'aaaaaaaaaçacestriennnnnoooo')
-
-'aaaaaaaaaçacestriennnnnoooo' in EMOTEL
-
-'Emotion' in EMOTEL
-
-
-from rdflib import Namespace
-EMOTEL = Namespace("https://github.com/unil-ish/EMOTEL#")
-ROOT_DIRECTORY = "data/annotations_cleaned"
-
-output_file = "outputs/world.rdf"
-
-d = {}
-g = Graph()
-g.parse("ontology/ontology.owl", format="xml")
-g.bind("emotel", EMOTEL)
 
 query = """
 prefix emotel: <https://github.com/unil-ish/EMOTEL#>

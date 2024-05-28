@@ -8,66 +8,85 @@
      "hasIntensity": 0.8,
      "quote": "Will was in a defiant mood, his consciousness being deeply stung with the thought that the people who looked at him probably knew a fact tantamount to an accusation against him as a fellow with low designs which were to be frustrated by a disposal of property.",
      "hasObject": {
-      "name": "Accusation"
+      "name": "Accusation",
+      "id": "texts/middlemarch.txt#Accusation"
      },
      "causedBy": {
-      "name": "Feeling_judged_by_others"
-     }
+      "name": "Feeling_judged_by_others",
+      "id": "texts/middlemarch.txt#Feeling_judged_by_others"
+     },
+     "id": "Defiance"
     },
     {
      "name": "Relief",
      "hasIntensity": 0.7,
      "quote": "At length the 'Supper at Emmaus' was brought forward, to Will’s immense relief, for he was getting so tired of the proceedings.",
      "hasObject": {
-      "name": "Supper_at_Emmaus_painting"
+      "name": "Supper_at_Emmaus_painting",
+      "id": "texts/middlemarch.txt#Supper_at_Emmaus_painting"
      },
      "causedBy": {
-      "name": "Supper_at_Emmaus_painting_being_brought_forward"
-     }
+      "name": "Supper_at_Emmaus_painting_being_brought_forward",
+      "id": "texts/middlemarch.txt#Supper_at_Emmaus_painting_being_brought_forward"
+     },
+     "id": "Relief"
     },
     {
      "name": "Coolness",
      "hasIntensity": 0.6,
      "quote": "All eyes were for a moment turned towards Will, who said, coolly, 'Five pounds.'",
      "hasObject": {
-      "name": "Bidding"
+      "name": "Bidding",
+      "id": "texts/middlemarch.txt#Bidding"
      },
      "causedBy": {
-      "name": "Being_appealed_to_by_the_auctioneer"
-     }
+      "name": "Being_appealed_to_by_the_auctioneer",
+      "id": "texts/middlemarch.txt#Being_appealed_to_by_the_auctioneer"
+     },
+     "id": "Coolness"
     }
-   ]
+   ],
+   "id": "texts/middlemarch.txt#Will_Ladislaw"
   }
  ],
  "Events": [
   {
    "name": "Feeling_judged_by_others",
    "takePlaceAt": {
-    "name": "Auction"
-   }
+    "name": "Auction",
+    "id": "texts/middlemarch.txt#Auction"
+   },
+   "id": "texts/middlemarch.txt#Feeling_judged_by_others"
   },
   {
    "name": "Supper_at_Emmaus_painting_being_brought_forward",
    "takePlaceAt": {
-    "name": "Auction"
-   }
+    "name": "Auction",
+    "id": "texts/middlemarch.txt#Auction"
+   },
+   "id": "texts/middlemarch.txt#Supper_at_Emmaus_painting_being_brought_forward"
   },
   {
    "name": "Being_appealed_to_by_the_auctioneer",
    "takePlaceAt": {
-    "name": "Auction"
-   }
+    "name": "Auction",
+    "id": "texts/middlemarch.txt#Auction"
+   },
+   "id": "texts/middlemarch.txt#Being_appealed_to_by_the_auctioneer"
   }
  ],
  "Places": [
   {
-   "name": "Auction"
+   "name": "Auction",
+   "id": "texts/middlemarch.txt#Auction"
   },
   {
-   "name": "Auction"
+   "name": "Auction",
+   "id": "texts/middlemarch.txt#Auction"
   },
   {
-   "name": "Auction"
+   "name": "Auction",
+   "id": "texts/middlemarch.txt#Auction"
   }
  ]
 }

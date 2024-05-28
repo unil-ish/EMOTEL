@@ -8,118 +8,151 @@
      "hasIntensity": 0.9,
      "quote": "Her heart was wrung for Cecilia Gay.",
      "hasObject": {
-      "name": "Cecilia_Gay"
+      "name": "Cecilia_Gay",
+      "id": "texts/thebluecastle.txt#Cecilia_Gay"
      },
      "causedBy": {
-      "name": "Learning_about_Cecilia_s_situation"
-     }
+      "name": "Learning_about_Cecilia_s_situation",
+      "id": "texts/thebluecastle.txt#Learning_about_Cecilia_s_situation"
+     },
+     "id": "Compassion"
     },
     {
      "name": "Determination",
      "hasIntensity": 0.8,
      "quote": "Will I do?",
      "hasObject": {
-      "name": "Assisting_Roaring_Abel"
+      "name": "Assisting_Roaring_Abel",
+      "id": "texts/thebluecastle.txt#Assisting_Roaring_Abel"
      },
      "causedBy": {
-      "name": "Offering_to_help_Roaring_Abel"
-     }
+      "name": "Offering_to_help_Roaring_Abel",
+      "id": "texts/thebluecastle.txt#Offering_to_help_Roaring_Abel"
+     },
+     "id": "Determination"
     },
     {
      "name": "Concern",
      "hasIntensity": 0.9,
      "quote": "The point is—you must have a housekeeper.",
      "hasObject": {
-      "name": "Cecilia_Gay"
+      "name": "Cecilia_Gay",
+      "id": "texts/thebluecastle.txt#Cecilia_Gay"
      },
      "causedBy": {
-      "name": "Realizing_the_need_to_care_for_Cecilia"
-     }
+      "name": "Realizing_the_need_to_care_for_Cecilia",
+      "id": "texts/thebluecastle.txt#Realizing_the_need_to_care_for_Cecilia"
+     },
+     "id": "Concern"
     },
     {
      "name": "Resignation",
      "hasIntensity": 0.7,
      "quote": "I am going to look for my Blue Castle.",
      "hasObject": {
-      "name": "Finding_her_Blue_Castle"
+      "name": "Finding_her_Blue_Castle",
+      "id": "texts/thebluecastle.txt#Finding_her_Blue_Castle"
      },
      "causedBy": {
-      "name": "Decision_to_leave_and_help_Roaring_Abel"
-     }
+      "name": "Decision_to_leave_and_help_Roaring_Abel",
+      "id": "texts/thebluecastle.txt#Decision_to_leave_and_help_Roaring_Abel"
+     },
+     "id": "Resignation"
     }
-   ]
+   ],
+   "id": "texts/thebluecastle.txt#Valancy"
   }
  ],
  "Events": [
   {
    "name": "Learning_about_Cecilia_s_situation",
    "takePlaceAt": {
-    "name": "Conversation_with_Roaring_Abel"
+    "name": "Conversation_with_Roaring_Abel",
+    "id": "texts/thebluecastle.txt#Conversation_with_Roaring_Abel"
    },
    "hasParticipant": [
     {
-     "name": "Valancy"
+     "name": "Valancy",
+     "id": "texts/thebluecastle.txt#Valancy"
     },
     {
-     "name": "Roaring_Abel"
+     "name": "Roaring_Abel",
+     "id": "texts/thebluecastle.txt#Roaring_Abel"
     }
-   ]
+   ],
+   "id": "texts/thebluecastle.txt#Learning_about_Cecilia_s_situation"
   },
   {
    "name": "Offering_to_help_Roaring_Abel",
    "takePlaceAt": {
-    "name": "Conversation_with_Roaring_Abel"
+    "name": "Conversation_with_Roaring_Abel",
+    "id": "texts/thebluecastle.txt#Conversation_with_Roaring_Abel"
    },
    "hasParticipant": [
     {
-     "name": "Valancy"
+     "name": "Valancy",
+     "id": "texts/thebluecastle.txt#Valancy"
     },
     {
-     "name": "Roaring_Abel"
+     "name": "Roaring_Abel",
+     "id": "texts/thebluecastle.txt#Roaring_Abel"
     }
-   ]
+   ],
+   "id": "texts/thebluecastle.txt#Offering_to_help_Roaring_Abel"
   },
   {
    "name": "Realizing_the_need_to_care_for_Cecilia",
    "takePlaceAt": {
-    "name": "Conversation_with_Roaring_Abel"
+    "name": "Conversation_with_Roaring_Abel",
+    "id": "texts/thebluecastle.txt#Conversation_with_Roaring_Abel"
    },
    "hasParticipant": [
     {
-     "name": "Valancy"
+     "name": "Valancy",
+     "id": "texts/thebluecastle.txt#Valancy"
     },
     {
-     "name": "Roaring_Abel"
+     "name": "Roaring_Abel",
+     "id": "texts/thebluecastle.txt#Roaring_Abel"
     }
-   ]
+   ],
+   "id": "texts/thebluecastle.txt#Realizing_the_need_to_care_for_Cecilia"
   },
   {
    "name": "Decision_to_leave_and_help_Roaring_Abel",
    "takePlaceAt": {
-    "name": "Conversation_with_Mrs_Frederick"
+    "name": "Conversation_with_Mrs_Frederick",
+    "id": "texts/thebluecastle.txt#Conversation_with_Mrs_Frederick"
    },
    "hasParticipant": [
     {
-     "name": "Valancy"
+     "name": "Valancy",
+     "id": "texts/thebluecastle.txt#Valancy"
     },
     {
-     "name": "Mrs_Frederick"
+     "name": "Mrs_Frederick",
+     "id": "texts/thebluecastle.txt#Mrs_Frederick"
     }
-   ]
+   ],
+   "id": "texts/thebluecastle.txt#Decision_to_leave_and_help_Roaring_Abel"
   }
  ],
  "Places": [
   {
-   "name": "Conversation_with_Roaring_Abel"
+   "name": "Conversation_with_Roaring_Abel",
+   "id": "texts/thebluecastle.txt#Conversation_with_Roaring_Abel"
   },
   {
-   "name": "Conversation_with_Roaring_Abel"
+   "name": "Conversation_with_Roaring_Abel",
+   "id": "texts/thebluecastle.txt#Conversation_with_Roaring_Abel"
   },
   {
-   "name": "Conversation_with_Roaring_Abel"
+   "name": "Conversation_with_Roaring_Abel",
+   "id": "texts/thebluecastle.txt#Conversation_with_Roaring_Abel"
   },
   {
-   "name": "Conversation_with_Mrs_Frederick"
+   "name": "Conversation_with_Mrs_Frederick",
+   "id": "texts/thebluecastle.txt#Conversation_with_Mrs_Frederick"
   }
  ]
 }

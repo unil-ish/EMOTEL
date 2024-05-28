@@ -8,24 +8,31 @@
      "hasIntensity": 0.9,
      "quote": "She, so to speak, at once flung off all her garments and dived straight into glory, unhesitatingly, with a cry of rapture.",
      "hasObject": {
-      "name": "Glory"
+      "name": "Glory",
+      "id": "texts/theenchantedapril.txt#Glory"
      },
      "causedBy": {
-      "name": "Arrival_at_San_Salvatore"
-     }
+      "name": "Arrival_at_San_Salvatore",
+      "id": "texts/theenchantedapril.txt#Arrival_at_San_Salvatore"
+     },
+     "id": "Joy"
     },
     {
      "name": "Anticipation",
      "hasIntensity": 0.7,
      "quote": "She wasn’t usually interested in arrangements, in fact she wasn’t ever interested in them; so that Scrap considered she might be said almost to have gone out of her way to be agreeable to Mrs. Wilkins.",
      "hasObject": {
-      "name": "Mrs_Wilkins_s_spareroom_arrangements"
+      "name": "Mrs_Wilkins_s_spareroom_arrangements",
+      "id": "texts/theenchantedapril.txt#Mrs_Wilkins_s_spareroom_arrangements"
      },
      "causedBy": {
-      "name": "Mrs_Wilkins_s_excessive_friendliness"
-     }
+      "name": "Mrs_Wilkins_s_excessive_friendliness",
+      "id": "texts/theenchantedapril.txt#Mrs_Wilkins_s_excessive_friendliness"
+     },
+     "id": "Anticipation"
     }
-   ]
+   ],
+   "id": "texts/theenchantedapril.txt#Mrs_Wilkins"
   },
   {
    "name": "Lady_Caroline",
@@ -35,24 +42,31 @@
      "hasIntensity": 0.8,
      "quote": "Even Lady Caroline, used all her life to beauty, who had been everywhere and seen everything, felt the surprise of it.",
      "hasObject": {
-      "name": "Beauty_of_San_Salvatore"
+      "name": "Beauty_of_San_Salvatore",
+      "id": "texts/theenchantedapril.txt#Beauty_of_San_Salvatore"
      },
      "causedBy": {
-      "name": "Arrival_at_San_Salvatore"
-     }
+      "name": "Arrival_at_San_Salvatore",
+      "id": "texts/theenchantedapril.txt#Arrival_at_San_Salvatore"
+     },
+     "id": "Surprise"
     },
     {
      "name": "Regret",
      "hasIntensity": 0.6,
      "quote": "The morning after the first dinner together, she woke up in a condition of regret that she should have been so talkative to Mrs. Wilkins the night before.",
      "hasObject": {
-      "name": "Talkativeness"
+      "name": "Talkativeness",
+      "id": "texts/theenchantedapril.txt#Talkativeness"
      },
      "causedBy": {
-      "name": "Excessive_friendliness_towards_Mrs_Wilkins"
-     }
+      "name": "Excessive_friendliness_towards_Mrs_Wilkins",
+      "id": "texts/theenchantedapril.txt#Excessive_friendliness_towards_Mrs_Wilkins"
+     },
+     "id": "Regret"
     }
-   ]
+   ],
+   "id": "texts/theenchantedapril.txt#Lady_Caroline"
   },
   {
    "name": "Mrs_Fisher",
@@ -62,90 +76,117 @@
      "hasIntensity": 0.9,
      "quote": "But Mrs. Fisher, as impervious to rebuke as Mrs. Fisher had feared, immediately repeated the tiresome formula and launched out into a long and excessively indelicate speech about the best place for the person she called Mellersh to sleep in.",
      "hasObject": {
-      "name": "Mellersh_s_sleeping_arrangements"
+      "name": "Mellersh_s_sleeping_arrangements",
+      "id": "texts/theenchantedapril.txt#Mellersh_s_sleeping_arrangements"
      },
      "causedBy": {
-      "name": "Mrs_Wilkins_s_excessive_friendliness"
-     }
+      "name": "Mrs_Wilkins_s_excessive_friendliness",
+      "id": "texts/theenchantedapril.txt#Mrs_Wilkins_s_excessive_friendliness"
+     },
+     "id": "Disapproval"
     },
     {
      "name": "Relief",
      "hasIntensity": 0.7,
      "quote": "Well, if nobody really wants that room, and wouldn’t use it anyhow, I shall be very glad if Mellersh may have it.",
      "hasObject": {
-      "name": "Mellersh_having_the_spareroom"
+      "name": "Mellersh_having_the_spareroom",
+      "id": "texts/theenchantedapril.txt#Mellersh_having_the_spareroom"
      },
      "causedBy": {
-      "name": "Decision_to_offer_spareroom_to_Mellersh"
-     }
+      "name": "Decision_to_offer_spareroom_to_Mellersh",
+      "id": "texts/theenchantedapril.txt#Decision_to_offer_spareroom_to_Mellersh"
+     },
+     "id": "Relief"
     }
-   ]
+   ],
+   "id": "texts/theenchantedapril.txt#Mrs_Fisher"
   }
  ],
  "Events": [
   {
    "name": "Arrival_at_San_Salvatore",
    "takePlaceAt": {
-    "name": "San_Salvatore"
-   }
+    "name": "San_Salvatore",
+    "id": "texts/theenchantedapril.txt#San_Salvatore"
+   },
+   "id": "texts/theenchantedapril.txt#Arrival_at_San_Salvatore"
   },
   {
    "name": "Mrs_Wilkins_s_excessive_friendliness",
    "takePlaceAt": {
-    "name": "San_Salvatore"
-   }
+    "name": "San_Salvatore",
+    "id": "texts/theenchantedapril.txt#San_Salvatore"
+   },
+   "id": "texts/theenchantedapril.txt#Mrs_Wilkins_s_excessive_friendliness"
   },
   {
    "name": "Arrival_at_San_Salvatore",
    "takePlaceAt": {
-    "name": "San_Salvatore"
-   }
+    "name": "San_Salvatore",
+    "id": "texts/theenchantedapril.txt#San_Salvatore"
+   },
+   "id": "texts/theenchantedapril.txt#Arrival_at_San_Salvatore"
   },
   {
    "name": "Excessive_friendliness_towards_Mrs_Wilkins",
    "takePlaceAt": {
-    "name": "San_Salvatore"
-   }
+    "name": "San_Salvatore",
+    "id": "texts/theenchantedapril.txt#San_Salvatore"
+   },
+   "id": "texts/theenchantedapril.txt#Excessive_friendliness_towards_Mrs_Wilkins"
   },
   {
    "name": "Mrs_Wilkins_s_excessive_friendliness",
    "takePlaceAt": {
-    "name": "San_Salvatore"
+    "name": "San_Salvatore",
+    "id": "texts/theenchantedapril.txt#San_Salvatore"
    },
    "hasParticipant": [
     {
-     "name": "Mrs_Wilkins"
+     "name": "Mrs_Wilkins",
+     "id": "texts/theenchantedapril.txt#Mrs_Wilkins"
     },
     {
-     "name": "Lady_Caroline"
+     "name": "Lady_Caroline",
+     "id": "texts/theenchantedapril.txt#Lady_Caroline"
     }
-   ]
+   ],
+   "id": "texts/theenchantedapril.txt#Mrs_Wilkins_s_excessive_friendliness"
   },
   {
    "name": "Decision_to_offer_spareroom_to_Mellersh",
    "takePlaceAt": {
-    "name": "San_Salvatore"
-   }
+    "name": "San_Salvatore",
+    "id": "texts/theenchantedapril.txt#San_Salvatore"
+   },
+   "id": "texts/theenchantedapril.txt#Decision_to_offer_spareroom_to_Mellersh"
   }
  ],
  "Places": [
   {
-   "name": "San_Salvatore"
+   "name": "San_Salvatore",
+   "id": "texts/theenchantedapril.txt#San_Salvatore"
   },
   {
-   "name": "San_Salvatore"
+   "name": "San_Salvatore",
+   "id": "texts/theenchantedapril.txt#San_Salvatore"
   },
   {
-   "name": "San_Salvatore"
+   "name": "San_Salvatore",
+   "id": "texts/theenchantedapril.txt#San_Salvatore"
   },
   {
-   "name": "San_Salvatore"
+   "name": "San_Salvatore",
+   "id": "texts/theenchantedapril.txt#San_Salvatore"
   },
   {
-   "name": "San_Salvatore"
+   "name": "San_Salvatore",
+   "id": "texts/theenchantedapril.txt#San_Salvatore"
   },
   {
-   "name": "San_Salvatore"
+   "name": "San_Salvatore",
+   "id": "texts/theenchantedapril.txt#San_Salvatore"
   }
  ]
 }

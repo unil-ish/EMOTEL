@@ -8,46 +8,59 @@
      "hasIntensity": 0.9,
      "quote": "Pray sit down,” said Dorothea, crossing her hands on her lap; “I am very glad you were here.”",
      "hasObject": {
-      "name": "Will_Ladislaw"
+      "name": "Will_Ladislaw",
+      "id": "texts/middlemarch.txt#Will_Ladislaw"
      },
      "causedBy": {
-      "name": "Seeing_Will_Ladislaw"
-     }
+      "name": "Seeing_Will_Ladislaw",
+      "id": "texts/middlemarch.txt#Seeing_Will_Ladislaw"
+     },
+     "id": "Trust"
     },
     {
      "name": "Surprise",
      "hasIntensity": 0.7,
      "quote": "As Mrs. Kell closed the door behind her they met: each was looking at the other, and consciousness was overflowed by something that suppressed utterance.",
      "hasObject": {
-      "name": "Will_Ladislaw"
+      "name": "Will_Ladislaw",
+      "id": "texts/middlemarch.txt#Will_Ladislaw"
      },
      "causedBy": {
-      "name": "Meeting_Will_Ladislaw_unexpectedly"
-     }
+      "name": "Meeting_Will_Ladislaw_unexpectedly",
+      "id": "texts/middlemarch.txt#Meeting_Will_Ladislaw_unexpectedly"
+     },
+     "id": "Surprise"
     },
     {
      "name": "Sadness",
      "hasIntensity": 0.8,
      "quote": "The tears came and rolled down her cheeks, but she did not know it. The world, it seemed, was turning ugly and hateful, and there was no place for her trustfulness.",
      "hasObject": {
-      "name": "The_world"
+      "name": "The_world",
+      "id": "texts/middlemarch.txt#The_world"
      },
      "causedBy": {
-      "name": "Feeling_betrayed_by_the_world"
-     }
+      "name": "Feeling_betrayed_by_the_world",
+      "id": "texts/middlemarch.txt#Feeling_betrayed_by_the_world"
+     },
+     "id": "Sadness"
     },
     {
      "name": "Anger",
      "hasIntensity": 0.7,
      "quote": "Her face was flushed and her lip trembled.",
      "hasObject": {
-      "name": "Injustice_towards_Will_Ladislaw"
+      "name": "Injustice_towards_Will_Ladislaw",
+      "id": "texts/middlemarch.txt#Injustice_towards_Will_Ladislaw"
      },
      "causedBy": {
-      "name": "Feeling_angry_at_the_injustice_towards_Will_Ladislaw"
-     }
+      "name": "Feeling_angry_at_the_injustice_towards_Will_Ladislaw",
+      "id": "texts/middlemarch.txt#Feeling_angry_at_the_injustice_towards_Will_Ladisl"
+     },
+     "id": "Anger"
     }
-   ]
+   ],
+   "id": "texts/middlemarch.txt#Dorothea"
   },
   {
    "name": "Will_Ladislaw",
@@ -57,102 +70,133 @@
      "hasIntensity": 0.8,
      "quote": "Pray sit down,” said Dorothea, crossing her hands on her lap; “I am very glad you were here.”",
      "hasObject": {
-      "name": "Dorothea"
+      "name": "Dorothea",
+      "id": "texts/middlemarch.txt#Dorothea"
      },
      "causedBy": {
-      "name": "Seeing_Dorothea"
-     }
+      "name": "Seeing_Dorothea",
+      "id": "texts/middlemarch.txt#Seeing_Dorothea"
+     },
+     "id": "Trust"
     },
     {
      "name": "Surprise",
      "hasIntensity": 0.7,
      "quote": "As Mrs. Kell closed the door behind her they met: each was looking at the other, and consciousness was overflowed by something that suppressed utterance.",
      "hasObject": {
-      "name": "Dorothea"
+      "name": "Dorothea",
+      "id": "texts/middlemarch.txt#Dorothea"
      },
      "causedBy": {
-      "name": "Meeting_Dorothea_unexpectedly"
-     }
+      "name": "Meeting_Dorothea_unexpectedly",
+      "id": "texts/middlemarch.txt#Meeting_Dorothea_unexpectedly"
+     },
+     "id": "Surprise"
     },
     {
      "name": "Indignation",
      "hasIntensity": 0.9,
      "quote": "I have been grossly insulted in your eyes and in the eyes of others. There has been a mean implication against my character.",
      "hasObject": {
-      "name": "Others"
+      "name": "Others",
+      "id": "texts/middlemarch.txt#Others"
      },
      "causedBy": {
-      "name": "Feeling_insulted_by_others"
-     }
+      "name": "Feeling_insulted_by_others",
+      "id": "texts/middlemarch.txt#Feeling_insulted_by_others"
+     },
+     "id": "Indignation"
     }
-   ]
+   ],
+   "id": "texts/middlemarch.txt#Will_Ladislaw"
   }
  ],
  "Events": [
   {
    "name": "Seeing_Will_Ladislaw",
    "takePlaceAt": {
-    "name": "Library_at_the_Grange"
-   }
+    "name": "Library_at_the_Grange",
+    "id": "texts/middlemarch.txt#Library_at_the_Grange"
+   },
+   "id": "texts/middlemarch.txt#Seeing_Will_Ladislaw"
   },
   {
    "name": "Meeting_Will_Ladislaw_unexpectedly",
    "takePlaceAt": {
-    "name": "Library_at_the_Grange"
-   }
+    "name": "Library_at_the_Grange",
+    "id": "texts/middlemarch.txt#Library_at_the_Grange"
+   },
+   "id": "texts/middlemarch.txt#Meeting_Will_Ladislaw_unexpectedly"
   },
   {
    "name": "Feeling_betrayed_by_the_world",
    "takePlaceAt": {
-    "name": "Carriage_passing_under_the_archway_of_the_lodgegate_at_the_Grange"
-   }
+    "name": "Carriage_passing_under_the_archway_of_the_lodgegate_at_the_Grange",
+    "id": "texts/middlemarch.txt#Carriage_passing_under_the_archway_of_the_lodgegat"
+   },
+   "id": "texts/middlemarch.txt#Feeling_betrayed_by_the_world"
   },
   {
    "name": "Feeling_angry_at_the_injustice_towards_Will_Ladislaw",
    "takePlaceAt": {
-    "name": "Carriage_passing_under_the_archway_of_the_lodgegate_at_the_Grange"
-   }
+    "name": "Carriage_passing_under_the_archway_of_the_lodgegate_at_the_Grange",
+    "id": "texts/middlemarch.txt#Carriage_passing_under_the_archway_of_the_lodgegat"
+   },
+   "id": "texts/middlemarch.txt#Feeling_angry_at_the_injustice_towards_Will_Ladisl"
   },
   {
    "name": "Seeing_Dorothea",
    "takePlaceAt": {
-    "name": "Library_at_the_Grange"
-   }
+    "name": "Library_at_the_Grange",
+    "id": "texts/middlemarch.txt#Library_at_the_Grange"
+   },
+   "id": "texts/middlemarch.txt#Seeing_Dorothea"
   },
   {
    "name": "Meeting_Dorothea_unexpectedly",
    "takePlaceAt": {
-    "name": "Library_at_the_Grange"
-   }
+    "name": "Library_at_the_Grange",
+    "id": "texts/middlemarch.txt#Library_at_the_Grange"
+   },
+   "id": "texts/middlemarch.txt#Meeting_Dorothea_unexpectedly"
   },
   {
    "name": "Feeling_insulted_by_others",
    "takePlaceAt": {
-    "name": "Library_at_the_Grange"
-   }
+    "name": "Library_at_the_Grange",
+    "id": "texts/middlemarch.txt#Library_at_the_Grange"
+   },
+   "id": "texts/middlemarch.txt#Feeling_insulted_by_others"
   }
  ],
  "Places": [
   {
-   "name": "Library_at_the_Grange"
+   "name": "Library_at_the_Grange",
+   "id": "texts/middlemarch.txt#Library_at_the_Grange"
   },
   {
-   "name": "Library_at_the_Grange"
+   "name": "Library_at_the_Grange",
+   "id": "texts/middlemarch.txt#Library_at_the_Grange"
   },
   {
-   "name": "Carriage_passing_under_the_archway_of_the_lodgegate_at_the_Grange"
+   "name": "Carriage_passing_under_the_archway_of_the_lodgegate_at_the_Grange",
+   "id": "texts/middlemarch.txt#Carriage_passing_under_the_archway_of_the_lodgegat"
   },
   {
-   "name": "Carriage_passing_under_the_archway_of_the_lodgegate_at_the_Grange"
+   "name": "Carriage_passing_under_the_archway_of_the_lodgegate_at_the_Grange",
+   "id": "texts/middlemarch.txt#Carriage_passing_under_the_archway_of_the_lodgegat"
   },
   {
-   "name": "Library_at_the_Grange"
+   "name": "Library_at_the_Grange",
+   "id": "texts/middlemarch.txt#Library_at_the_Grange"
   },
   {
-   "name": "Library_at_the_Grange"
+   "name": "Library_at_the_Grange",
+   "id": "texts/middlemarch.txt#Library_at_the_Grange"
   },
   {
-   "name": "Library_at_the_Grange"
+   "name": "Library_at_the_Grange",
+   "id": "texts/middlemarch.txt#Library_at_the_Grange"
   }
  ]
 }

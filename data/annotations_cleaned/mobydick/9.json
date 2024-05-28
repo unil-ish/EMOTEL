@@ -8,46 +8,59 @@
      "hasIntensity": 0.9,
      "quote": "The whole crew were half suffocated as they were tossed helter-skelter into the white curdling cream of the squall.",
      "hasObject": {
-      "name": "Squall"
+      "name": "Squall",
+      "id": "texts/mobydick.txt#Squall"
      },
      "causedBy": {
-      "name": "Encounter_with_the_whale"
-     }
+      "name": "Encounter_with_the_whale",
+      "id": "texts/mobydick.txt#Encounter_with_the_whale"
+     },
+     "id": "Fear"
     },
     {
      "name": "Despair",
      "hasIntensity": 0.8,
      "quote": "Wet, drenched through, and shivering cold, despairing of ship or boat, we lifted up our eyes as the dawn came on.",
      "hasObject": {
-      "name": "Being_lost_at_sea"
+      "name": "Being_lost_at_sea",
+      "id": "texts/mobydick.txt#Being_lost_at_sea"
      },
      "causedBy": {
-      "name": "Feeling_lost_at_sea"
-     }
+      "name": "Feeling_lost_at_sea",
+      "id": "texts/mobydick.txt#Feeling_lost_at_sea"
+     },
+     "id": "Despair"
     },
     {
      "name": "Relief",
      "hasIntensity": 0.7,
      "quote": "Suddenly Queequeg started to his feet, hollowing his hand to his ear. We all heard a faint creaking, as of ropes and yards hitherto muffled by the storm.",
      "hasObject": {
-      "name": "Spotting_the_ship"
+      "name": "Spotting_the_ship",
+      "id": "texts/mobydick.txt#Spotting_the_ship"
      },
      "causedBy": {
-      "name": "Spotting_the_ship"
-     }
+      "name": "Spotting_the_ship",
+      "id": "texts/mobydick.txt#Spotting_the_ship"
+     },
+     "id": "Relief"
     },
     {
      "name": "Philosophical_Acceptance",
      "hasIntensity": 0.6,
      "quote": "That odd sort of wayward mood I am speaking of, comes over a man only in some time of extreme tribulation; it comes in the very midst of his earnestness, so that what just before might have seemed to him a thing most momentous, now seems but a part of the general joke.",
      "hasObject": {
-      "name": "Facing_extreme_tribulation"
+      "name": "Facing_extreme_tribulation",
+      "id": "texts/mobydick.txt#Facing_extreme_tribulation"
      },
      "causedBy": {
-      "name": "Facing_extreme_tribulation"
-     }
+      "name": "Facing_extreme_tribulation",
+      "id": "texts/mobydick.txt#Facing_extreme_tribulation"
+     },
+     "id": "Philosophical_Acceptance"
     }
-   ]
+   ],
+   "id": "texts/mobydick.txt#Chace"
   },
   {
    "name": "Starbuck",
@@ -57,24 +70,31 @@
      "hasIntensity": 0.8,
      "quote": "Only the silence of the boat was at intervals startlingly pierced by one of his peculiar whispers, now harsh with command, now soft with entreaty.",
      "hasObject": {
-      "name": "Approaching_the_whale"
+      "name": "Approaching_the_whale",
+      "id": "texts/mobydick.txt#Approaching_the_whale"
      },
      "causedBy": {
-      "name": "Approaching_the_whale"
-     }
+      "name": "Approaching_the_whale",
+      "id": "texts/mobydick.txt#Approaching_the_whale"
+     },
+     "id": "Fear"
     },
     {
      "name": "Relief",
      "hasIntensity": 0.7,
      "quote": "Give way, men,” whispered Starbuck, drawing still further aft the sheet of his sail; “there is time to kill a fish yet before the squall comes.",
      "hasObject": {
-      "name": "Seeing_the_ship"
+      "name": "Seeing_the_ship",
+      "id": "texts/mobydick.txt#Seeing_the_ship"
      },
      "causedBy": {
-      "name": "Seeing_the_ship"
-     }
+      "name": "Seeing_the_ship",
+      "id": "texts/mobydick.txt#Seeing_the_ship"
+     },
+     "id": "Relief"
     }
-   ]
+   ],
+   "id": "texts/mobydick.txt#Starbuck"
   },
   {
    "name": "Queequeg",
@@ -84,24 +104,31 @@
      "hasIntensity": 0.6,
      "quote": "Wet, drenched through, and shivering cold, despairing of ship or boat, we lifted up our eyes as the dawn came on.",
      "hasObject": {
-      "name": "Being_lost_at_sea"
+      "name": "Being_lost_at_sea",
+      "id": "texts/mobydick.txt#Being_lost_at_sea"
      },
      "causedBy": {
-      "name": "Feeling_lost_at_sea"
-     }
+      "name": "Feeling_lost_at_sea",
+      "id": "texts/mobydick.txt#Feeling_lost_at_sea"
+     },
+     "id": "Fear"
     },
     {
      "name": "Relief",
      "hasIntensity": 0.7,
      "quote": "Suddenly Queequeg started to his feet, hollowing his hand to his ear. We all heard a faint creaking, as of ropes and yards hitherto muffled by the storm.",
      "hasObject": {
-      "name": "Spotting_the_ship"
+      "name": "Spotting_the_ship",
+      "id": "texts/mobydick.txt#Spotting_the_ship"
      },
      "causedBy": {
-      "name": "Spotting_the_ship"
-     }
+      "name": "Spotting_the_ship",
+      "id": "texts/mobydick.txt#Spotting_the_ship"
+     },
+     "id": "Relief"
     }
-   ]
+   ],
+   "id": "texts/mobydick.txt#Queequeg"
   },
   {
    "name": "Flask",
@@ -111,98 +138,129 @@
      "hasIntensity": 0.7,
      "quote": "Can’t you twist that smaller?” said Flask. “Yes, that’s the law. I should like to see a boat’s crew backing water up to a whale face foremost. Ha, ha! the whale would give them squint for squint, mind that!",
      "hasObject": {
-      "name": "Discussing_whale_hunting_techniques"
+      "name": "Discussing_whale_hunting_techniques",
+      "id": "texts/mobydick.txt#Discussing_whale_hunting_techniques"
      },
      "causedBy": {
-      "name": "Discussing_whale_hunting_techniques"
-     }
+      "name": "Discussing_whale_hunting_techniques",
+      "id": "texts/mobydick.txt#Discussing_whale_hunting_techniques"
+     },
+     "id": "Humor"
     }
-   ]
+   ],
+   "id": "texts/mobydick.txt#Flask"
   }
  ],
  "Events": [
   {
    "name": "Encounter_with_the_whale",
    "takePlaceAt": {
-    "name": "In_the_boat"
-   }
+    "name": "In_the_boat",
+    "id": "texts/mobydick.txt#In_the_boat"
+   },
+   "id": "texts/mobydick.txt#Encounter_with_the_whale"
   },
   {
    "name": "Feeling_lost_at_sea",
    "takePlaceAt": {
-    "name": "In_the_boat"
-   }
+    "name": "In_the_boat",
+    "id": "texts/mobydick.txt#In_the_boat"
+   },
+   "id": "texts/mobydick.txt#Feeling_lost_at_sea"
   },
   {
    "name": "Spotting_the_ship",
    "takePlaceAt": {
-    "name": "In_the_boat"
-   }
+    "name": "In_the_boat",
+    "id": "texts/mobydick.txt#In_the_boat"
+   },
+   "id": "texts/mobydick.txt#Spotting_the_ship"
   },
   {
    "name": "Facing_extreme_tribulation",
    "takePlaceAt": {
-    "name": "On_the_ship"
-   }
+    "name": "On_the_ship",
+    "id": "texts/mobydick.txt#On_the_ship"
+   },
+   "id": "texts/mobydick.txt#Facing_extreme_tribulation"
   },
   {
    "name": "Approaching_the_whale",
    "takePlaceAt": {
-    "name": "In_the_boat"
-   }
+    "name": "In_the_boat",
+    "id": "texts/mobydick.txt#In_the_boat"
+   },
+   "id": "texts/mobydick.txt#Approaching_the_whale"
   },
   {
    "name": "Seeing_the_ship",
    "takePlaceAt": {
-    "name": "In_the_boat"
-   }
+    "name": "In_the_boat",
+    "id": "texts/mobydick.txt#In_the_boat"
+   },
+   "id": "texts/mobydick.txt#Seeing_the_ship"
   },
   {
    "name": "Feeling_lost_at_sea",
    "takePlaceAt": {
-    "name": "In_the_boat"
-   }
+    "name": "In_the_boat",
+    "id": "texts/mobydick.txt#In_the_boat"
+   },
+   "id": "texts/mobydick.txt#Feeling_lost_at_sea"
   },
   {
    "name": "Spotting_the_ship",
    "takePlaceAt": {
-    "name": "In_the_boat"
-   }
+    "name": "In_the_boat",
+    "id": "texts/mobydick.txt#In_the_boat"
+   },
+   "id": "texts/mobydick.txt#Spotting_the_ship"
   },
   {
    "name": "Discussing_whale_hunting_techniques",
    "takePlaceAt": {
-    "name": "On_the_ship"
-   }
+    "name": "On_the_ship",
+    "id": "texts/mobydick.txt#On_the_ship"
+   },
+   "id": "texts/mobydick.txt#Discussing_whale_hunting_techniques"
   }
  ],
  "Places": [
   {
-   "name": "In_the_boat"
+   "name": "In_the_boat",
+   "id": "texts/mobydick.txt#In_the_boat"
   },
   {
-   "name": "In_the_boat"
+   "name": "In_the_boat",
+   "id": "texts/mobydick.txt#In_the_boat"
   },
   {
-   "name": "In_the_boat"
+   "name": "In_the_boat",
+   "id": "texts/mobydick.txt#In_the_boat"
   },
   {
-   "name": "On_the_ship"
+   "name": "On_the_ship",
+   "id": "texts/mobydick.txt#On_the_ship"
   },
   {
-   "name": "In_the_boat"
+   "name": "In_the_boat",
+   "id": "texts/mobydick.txt#In_the_boat"
   },
   {
-   "name": "In_the_boat"
+   "name": "In_the_boat",
+   "id": "texts/mobydick.txt#In_the_boat"
   },
   {
-   "name": "In_the_boat"
+   "name": "In_the_boat",
+   "id": "texts/mobydick.txt#In_the_boat"
   },
   {
-   "name": "In_the_boat"
+   "name": "In_the_boat",
+   "id": "texts/mobydick.txt#In_the_boat"
   },
   {
-   "name": "On_the_ship"
+   "name": "On_the_ship",
+   "id": "texts/mobydick.txt#On_the_ship"
   }
  ]
 }

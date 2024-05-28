@@ -8,169 +8,217 @@
      "hasIntensity": 0.9,
      "quote": "He did not, however, fail to lament the untimely fate of his mother, with such filial expressions of sorrow, as still more intimately recommended him to his patron.",
      "hasObject": {
-      "name": "Patron"
+      "name": "Patron",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Patron"
      },
      "causedBy": {
-      "name": "Mother_s_death"
-     }
+      "name": "Mother_s_death",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Mother_s_death"
+     },
+     "id": "Trust"
     },
     {
      "name": "Surprise",
      "hasIntensity": 0.7,
      "quote": "He was not, in all respects, entertained on the footing of his young master; yet he shared in all his education and amusements, as one whom the old gentleman was fully determined to qualify for the station of an officer in the service.",
      "hasObject": {
-      "name": "Education"
+      "name": "Education",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Education"
      },
      "causedBy": {
-      "name": "Being_presented_to_the_Countess"
-     }
+      "name": "Being_presented_to_the_Countess",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Being_presented_to_the_Countess"
+     },
+     "id": "Surprise"
     },
     {
      "name": "Joy",
      "hasIntensity": 0.8,
      "quote": "He was entered in the same academy; and the two lads proceeded equally in the paths of erudition; a mutual friendship and intimacy soon ensued.",
      "hasObject": {
-      "name": "Friendship"
+      "name": "Friendship",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Friendship"
      },
      "causedBy": {
-      "name": "Entering_the_academy"
-     }
+      "name": "Entering_the_academy",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Entering_the_academy"
+     },
+     "id": "Joy"
     },
     {
      "name": "Anticipation",
      "hasIntensity": 0.6,
      "quote": "His present ambition was not to make a figure at his father’s table, but to eclipse his rivals at school, and to acquire an influence and authority among these confederates.",
      "hasObject": {
-      "name": "Influence"
+      "name": "Influence",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Influence"
      },
      "causedBy": {
-      "name": "Desire_for_influence_at_school"
-     }
+      "name": "Desire_for_influence_at_school",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Desire_for_influence_at_school"
+     },
+     "id": "Anticipation"
     },
     {
      "name": "Fear",
      "hasIntensity": 0.7,
      "quote": "The adventure, inconsiderable as it is, we shall record, as the first overt act of Ferdinand’s true character, as well as an illustration of the opinion we have advanced touching the blind and injudicious decisions of a right pedagogue.",
      "hasObject": {
-      "name": "Friendship"
+      "name": "Friendship",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Friendship"
      },
      "causedBy": {
-      "name": "Almost_losing_the_Count_s_friendship"
-     }
+      "name": "Almost_losing_the_Count_s_friendship",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Almost_losing_the_Count_s_friendship"
+     },
+     "id": "Fear"
     },
     {
      "name": "Disappointment",
      "hasIntensity": 0.6,
      "quote": "The adventure, inconsiderable as it is, we shall record, as the first overt act of Ferdinand’s true character, as well as an illustration of the opinion we have advanced touching the blind and injudicious decisions of a right pedagogue.",
      "hasObject": {
-      "name": "Friendship"
+      "name": "Friendship",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Friendship"
      },
      "causedBy": {
-      "name": "Almost_losing_the_Count_s_friendship"
-     }
+      "name": "Almost_losing_the_Count_s_friendship",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Almost_losing_the_Count_s_friendship"
+     },
+     "id": "Disappointment"
     }
-   ]
+   ],
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Ferdinand_Count_Fathom"
   }
  ],
  "Events": [
   {
    "name": "Mother_s_death",
    "takePlaceAt": {
-    "name": "Battlefield"
+    "name": "Battlefield",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Battlefield"
    },
    "hasParticipant": [
     {
-     "name": "Ferdinand_Count_Fathom"
+     "name": "Ferdinand_Count_Fathom",
+     "id": "texts/theadventuresofferdinandcountfathom.txt#Ferdinand_Count_Fathom"
     },
     {
-     "name": "Count_Melvil"
+     "name": "Count_Melvil",
+     "id": "texts/theadventuresofferdinandcountfathom.txt#Count_Melvil"
     }
-   ]
+   ],
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Mother_s_death"
   },
   {
    "name": "Being_presented_to_the_Countess",
    "takePlaceAt": {
-    "name": "Count_s_house_at_Presburg"
+    "name": "Count_s_house_at_Presburg",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Count_s_house_at_Presburg"
    },
    "hasParticipant": [
     {
-     "name": "Ferdinand_Count_Fathom"
+     "name": "Ferdinand_Count_Fathom",
+     "id": "texts/theadventuresofferdinandcountfathom.txt#Ferdinand_Count_Fathom"
     },
     {
-     "name": "Count_Melvil"
+     "name": "Count_Melvil",
+     "id": "texts/theadventuresofferdinandcountfathom.txt#Count_Melvil"
     }
-   ]
+   ],
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Being_presented_to_the_Countess"
   },
   {
    "name": "Entering_the_academy",
    "takePlaceAt": {
-    "name": "School"
+    "name": "School",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#School"
    },
    "hasParticipant": [
     {
-     "name": "Ferdinand_Count_Fathom"
+     "name": "Ferdinand_Count_Fathom",
+     "id": "texts/theadventuresofferdinandcountfathom.txt#Ferdinand_Count_Fathom"
     },
     {
-     "name": "Young_Count"
+     "name": "Young_Count",
+     "id": "texts/theadventuresofferdinandcountfathom.txt#Young_Count"
     }
-   ]
+   ],
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Entering_the_academy"
   },
   {
    "name": "Desire_for_influence_at_school",
    "takePlaceAt": {
-    "name": "School"
+    "name": "School",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#School"
    },
    "hasParticipant": {
-    "name": "Ferdinand_Count_Fathom"
-   }
+    "name": "Ferdinand_Count_Fathom",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Ferdinand_Count_Fathom"
+   },
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Desire_for_influence_at_school"
   },
   {
    "name": "Almost_losing_the_Count_s_friendship",
    "takePlaceAt": {
-    "name": "School"
+    "name": "School",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#School"
    },
    "hasParticipant": [
     {
-     "name": "Ferdinand_Count_Fathom"
+     "name": "Ferdinand_Count_Fathom",
+     "id": "texts/theadventuresofferdinandcountfathom.txt#Ferdinand_Count_Fathom"
     },
     {
-     "name": "Young_Count"
+     "name": "Young_Count",
+     "id": "texts/theadventuresofferdinandcountfathom.txt#Young_Count"
     }
-   ]
+   ],
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Almost_losing_the_Count_s_friendship"
   },
   {
    "name": "Almost_losing_the_Count_s_friendship",
    "takePlaceAt": {
-    "name": "School"
+    "name": "School",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#School"
    },
    "hasParticipant": [
     {
-     "name": "Ferdinand_Count_Fathom"
+     "name": "Ferdinand_Count_Fathom",
+     "id": "texts/theadventuresofferdinandcountfathom.txt#Ferdinand_Count_Fathom"
     },
     {
-     "name": "Young_Count"
+     "name": "Young_Count",
+     "id": "texts/theadventuresofferdinandcountfathom.txt#Young_Count"
     }
-   ]
+   ],
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Almost_losing_the_Count_s_friendship"
   }
  ],
  "Places": [
   {
-   "name": "Battlefield"
+   "name": "Battlefield",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Battlefield"
   },
   {
-   "name": "Count_s_house_at_Presburg"
+   "name": "Count_s_house_at_Presburg",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Count_s_house_at_Presburg"
   },
   {
-   "name": "School"
+   "name": "School",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#School"
   },
   {
-   "name": "School"
+   "name": "School",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#School"
   },
   {
-   "name": "School"
+   "name": "School",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#School"
   },
   {
-   "name": "School"
+   "name": "School",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#School"
   }
  ]
 }

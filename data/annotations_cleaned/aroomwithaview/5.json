@@ -8,124 +8,159 @@
      "hasIntensity": 0.5,
      "quote": "She had chosen the moment before bed, when, in accordance with their bourgeois habit, she always dispensed drinks to the men. Freddy and Mr. Floyd were sure to retire with their glasses, while Cecil invariably lingered, sipping at his while she locked up the sideboard.",
      "hasObject": {
-      "name": "Drinks"
+      "name": "Drinks",
+      "id": "texts/aroomwithaview.txt#Drinks"
      },
      "causedBy": {
-      "name": "Dispensing_drinks_before_bed"
-     }
+      "name": "Dispensing_drinks_before_bed",
+      "id": "texts/aroomwithaview.txt#Dispensing_drinks_before_bed"
+     },
+     "id": "Trust"
     },
     {
      "name": "Surprise",
      "hasIntensity": 0.8,
      "quote": "The scales fell from Lucy’s eyes. How had she stood Cecil for a moment? He was absolutely intolerable, and the same evening she broke off her engagement.",
      "hasObject": {
-      "name": "Cecil_s_behavior"
+      "name": "Cecil_s_behavior",
+      "id": "texts/aroomwithaview.txt#Cecil_s_behavior"
      },
      "causedBy": {
-      "name": "Realization_of_Cecil_s_intolerable_behavior"
-     }
+      "name": "Realization_of_Cecil_s_intolerable_behavior",
+      "id": "texts/aroomwithaview.txt#Realization_of_Cecil_s_intolerable_behavior"
+     },
+     "id": "Surprise"
     },
     {
      "name": "Anger",
      "hasIntensity": 0.9,
      "quote": "It was a suitable speech, but she was more angry than sorry, and her voice showed it.",
      "hasObject": {
-      "name": "Engagement"
+      "name": "Engagement",
+      "id": "texts/aroomwithaview.txt#Engagement"
      },
      "causedBy": {
-      "name": "Breaking_off_the_engagement"
-     }
+      "name": "Breaking_off_the_engagement",
+      "id": "texts/aroomwithaview.txt#Breaking_off_the_engagement"
+     },
+     "id": "Anger"
     },
     {
      "name": "Relief",
      "hasIntensity": 0.7,
      "quote": "He was bewildered. He had nothing to say. He was not even angry, but stood, with a glass of whiskey between his hands, trying to think what had led her to such a conclusion.",
      "hasObject": {
-      "name": "Breaking_off_the_engagement"
+      "name": "Breaking_off_the_engagement",
+      "id": "texts/aroomwithaview.txt#Breaking_off_the_engagement"
      },
      "causedBy": {
-      "name": "Lucy_breaking_off_the_engagement"
-     }
+      "name": "Lucy_breaking_off_the_engagement",
+      "id": "texts/aroomwithaview.txt#Lucy_breaking_off_the_engagement"
+     },
+     "id": "Relief"
     }
-   ]
+   ],
+   "id": "texts/aroomwithaview.txt#Lucy"
   }
  ],
  "Events": [
   {
    "name": "Dispensing_drinks_before_bed",
    "takePlaceAt": {
-    "name": "Before_bed"
+    "name": "Before_bed",
+    "id": "texts/aroomwithaview.txt#Before_bed"
    },
    "hasParticipant": [
     {
-     "name": "Lucy"
+     "name": "Lucy",
+     "id": "texts/aroomwithaview.txt#Lucy"
     },
     {
-     "name": "Freddy"
+     "name": "Freddy",
+     "id": "texts/aroomwithaview.txt#Freddy"
     },
     {
-     "name": "Mr_Floyd"
+     "name": "Mr_Floyd",
+     "id": "texts/aroomwithaview.txt#Mr_Floyd"
     },
     {
-     "name": "Cecil"
+     "name": "Cecil",
+     "id": "texts/aroomwithaview.txt#Cecil"
     }
-   ]
+   ],
+   "id": "texts/aroomwithaview.txt#Dispensing_drinks_before_bed"
   },
   {
    "name": "Realization_of_Cecil_s_intolerable_behavior",
    "takePlaceAt": {
-    "name": "Evening"
+    "name": "Evening",
+    "id": "texts/aroomwithaview.txt#Evening"
    },
    "hasParticipant": [
     {
-     "name": "Lucy"
+     "name": "Lucy",
+     "id": "texts/aroomwithaview.txt#Lucy"
     },
     {
-     "name": "Cecil"
+     "name": "Cecil",
+     "id": "texts/aroomwithaview.txt#Cecil"
     }
-   ]
+   ],
+   "id": "texts/aroomwithaview.txt#Realization_of_Cecil_s_intolerable_behavior"
   },
   {
    "name": "Breaking_off_the_engagement",
    "takePlaceAt": {
-    "name": "Before_bed"
+    "name": "Before_bed",
+    "id": "texts/aroomwithaview.txt#Before_bed"
    },
    "hasParticipant": [
     {
-     "name": "Lucy"
+     "name": "Lucy",
+     "id": "texts/aroomwithaview.txt#Lucy"
     },
     {
-     "name": "Cecil"
+     "name": "Cecil",
+     "id": "texts/aroomwithaview.txt#Cecil"
     }
-   ]
+   ],
+   "id": "texts/aroomwithaview.txt#Breaking_off_the_engagement"
   },
   {
    "name": "Lucy_breaking_off_the_engagement",
    "takePlaceAt": {
-    "name": "Before_bed"
+    "name": "Before_bed",
+    "id": "texts/aroomwithaview.txt#Before_bed"
    },
    "hasParticipant": [
     {
-     "name": "Lucy"
+     "name": "Lucy",
+     "id": "texts/aroomwithaview.txt#Lucy"
     },
     {
-     "name": "Cecil"
+     "name": "Cecil",
+     "id": "texts/aroomwithaview.txt#Cecil"
     }
-   ]
+   ],
+   "id": "texts/aroomwithaview.txt#Lucy_breaking_off_the_engagement"
   }
  ],
  "Places": [
   {
-   "name": "Before_bed"
+   "name": "Before_bed",
+   "id": "texts/aroomwithaview.txt#Before_bed"
   },
   {
-   "name": "Evening"
+   "name": "Evening",
+   "id": "texts/aroomwithaview.txt#Evening"
   },
   {
-   "name": "Before_bed"
+   "name": "Before_bed",
+   "id": "texts/aroomwithaview.txt#Before_bed"
   },
   {
-   "name": "Before_bed"
+   "name": "Before_bed",
+   "id": "texts/aroomwithaview.txt#Before_bed"
   }
  ]
 }

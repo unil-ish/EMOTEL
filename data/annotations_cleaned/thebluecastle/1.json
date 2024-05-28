@@ -8,146 +8,187 @@
      "hasIntensity": 0.6,
      "quote": "She felt a little less humiliated.",
      "hasObject": {
-      "name": "Being_forgotten"
+      "name": "Being_forgotten",
+      "id": "texts/thebluecastle.txt#Being_forgotten"
      },
      "causedBy": {
-      "name": "Being_forgotten_by_Dr_Trent"
-     }
+      "name": "Being_forgotten_by_Dr_Trent",
+      "id": "texts/thebluecastle.txt#Being_forgotten_by_Dr_Trent"
+     },
+     "id": "Humiliation"
     },
     {
      "name": "Envy",
      "hasIntensity": 0.7,
      "quote": "She was merely envious.",
      "hasObject": {
-      "name": "Young_couple_walking_together"
+      "name": "Young_couple_walking_together",
+      "id": "texts/thebluecastle.txt#Young_couple_walking_together"
      },
      "causedBy": {
-      "name": "Seeing_a_young_couple_walking_together"
-     }
+      "name": "Seeing_a_young_couple_walking_together",
+      "id": "texts/thebluecastle.txt#Seeing_a_young_couple_walking_together"
+     },
+     "id": "Envy"
     },
     {
      "name": "Joy",
      "hasIntensity": 0.8,
      "quote": "Valancy was enjoying herself.",
      "hasObject": {
-      "name": "Attending_the_silver_wedding"
+      "name": "Attending_the_silver_wedding",
+      "id": "texts/thebluecastle.txt#Attending_the_silver_wedding"
      },
      "causedBy": {
-      "name": "Attending_Uncle_Herbert_s_silver_wedding"
-     }
+      "name": "Attending_Uncle_Herbert_s_silver_wedding",
+      "id": "texts/thebluecastle.txt#Attending_Uncle_Herbert_s_silver_wedding"
+     },
+     "id": "Joy"
     },
     {
      "name": "Freedom",
      "hasIntensity": 0.9,
      "quote": "She was quite prepared to talk if occasion offered.",
      "hasObject": {
-      "name": "Feeling_unafraid_of_her_family"
+      "name": "Feeling_unafraid_of_her_family",
+      "id": "texts/thebluecastle.txt#Feeling_unafraid_of_her_family"
      },
      "causedBy": {
-      "name": "Feeling_unafraid_of_her_family"
-     }
+      "name": "Feeling_unafraid_of_her_family",
+      "id": "texts/thebluecastle.txt#Feeling_unafraid_of_her_family"
+     },
+     "id": "Freedom"
     },
     {
      "name": "Amusement",
      "hasIntensity": 0.7,
      "quote": "Watching their little squirms with a detached, amused smile.",
      "hasObject": {
-      "name": "Observing_family_members"
+      "name": "Observing_family_members",
+      "id": "texts/thebluecastle.txt#Observing_family_members"
      },
      "causedBy": {
-      "name": "Observing_family_members_at_the_dinner_table"
-     }
+      "name": "Observing_family_members_at_the_dinner_table",
+      "id": "texts/thebluecastle.txt#Observing_family_members_at_the_dinner_table"
+     },
+     "id": "Amusement"
     }
-   ]
+   ],
+   "id": "texts/thebluecastle.txt#Valancy"
   }
  ],
  "Events": [
   {
    "name": "Being_forgotten_by_Dr_Trent",
    "takePlaceAt": {
-    "name": "Walking_down_the_street"
+    "name": "Walking_down_the_street",
+    "id": "texts/thebluecastle.txt#Walking_down_the_street"
    },
    "hasParticipant": [
     {
-     "name": "Valancy"
+     "name": "Valancy",
+     "id": "texts/thebluecastle.txt#Valancy"
     },
     {
-     "name": "Dr_Trent"
+     "name": "Dr_Trent",
+     "id": "texts/thebluecastle.txt#Dr_Trent"
     }
-   ]
+   ],
+   "id": "texts/thebluecastle.txt#Being_forgotten_by_Dr_Trent"
   },
   {
    "name": "Seeing_a_young_couple_walking_together",
    "takePlaceAt": {
-    "name": "Lovers_Lane"
+    "name": "Lovers_Lane",
+    "id": "texts/thebluecastle.txt#Lovers_Lane"
    },
    "hasParticipant": [
     {
-     "name": "Valancy"
+     "name": "Valancy",
+     "id": "texts/thebluecastle.txt#Valancy"
     },
     {
-     "name": "Young_couple"
+     "name": "Young_couple",
+     "id": "texts/thebluecastle.txt#Young_couple"
     }
-   ]
+   ],
+   "id": "texts/thebluecastle.txt#Seeing_a_young_couple_walking_together"
   },
   {
    "name": "Attending_Uncle_Herbert_s_silver_wedding",
    "takePlaceAt": {
-    "name": "Uncle_Herbert_s_house"
+    "name": "Uncle_Herbert_s_house",
+    "id": "texts/thebluecastle.txt#Uncle_Herbert_s_house"
    },
    "hasParticipant": [
     {
-     "name": "Valancy"
+     "name": "Valancy",
+     "id": "texts/thebluecastle.txt#Valancy"
     },
     {
-     "name": "Uncle_Herbert"
+     "name": "Uncle_Herbert",
+     "id": "texts/thebluecastle.txt#Uncle_Herbert"
     }
-   ]
+   ],
+   "id": "texts/thebluecastle.txt#Attending_Uncle_Herbert_s_silver_wedding"
   },
   {
    "name": "Feeling_unafraid_of_her_family",
    "takePlaceAt": {
-    "name": "Uncle_Herbert_s_house"
+    "name": "Uncle_Herbert_s_house",
+    "id": "texts/thebluecastle.txt#Uncle_Herbert_s_house"
    },
    "hasParticipant": [
     {
-     "name": "Valancy"
+     "name": "Valancy",
+     "id": "texts/thebluecastle.txt#Valancy"
     },
     {
-     "name": "Family_members"
+     "name": "Family_members",
+     "id": "texts/thebluecastle.txt#Family_members"
     }
-   ]
+   ],
+   "id": "texts/thebluecastle.txt#Feeling_unafraid_of_her_family"
   },
   {
    "name": "Observing_family_members_at_the_dinner_table",
    "takePlaceAt": {
-    "name": "Uncle_Herbert_s_house"
+    "name": "Uncle_Herbert_s_house",
+    "id": "texts/thebluecastle.txt#Uncle_Herbert_s_house"
    },
    "hasParticipant": [
     {
-     "name": "Valancy"
+     "name": "Valancy",
+     "id": "texts/thebluecastle.txt#Valancy"
     },
     {
-     "name": "Family_members"
+     "name": "Family_members",
+     "id": "texts/thebluecastle.txt#Family_members"
     }
-   ]
+   ],
+   "id": "texts/thebluecastle.txt#Observing_family_members_at_the_dinner_table"
   }
  ],
  "Places": [
   {
-   "name": "Walking_down_the_street"
+   "name": "Walking_down_the_street",
+   "id": "texts/thebluecastle.txt#Walking_down_the_street"
   },
   {
-   "name": "Lovers_Lane"
+   "name": "Lovers_Lane",
+   "id": "texts/thebluecastle.txt#Lovers_Lane"
   },
   {
-   "name": "Uncle_Herbert_s_house"
+   "name": "Uncle_Herbert_s_house",
+   "id": "texts/thebluecastle.txt#Uncle_Herbert_s_house"
   },
   {
-   "name": "Uncle_Herbert_s_house"
+   "name": "Uncle_Herbert_s_house",
+   "id": "texts/thebluecastle.txt#Uncle_Herbert_s_house"
   },
   {
-   "name": "Uncle_Herbert_s_house"
+   "name": "Uncle_Herbert_s_house",
+   "id": "texts/thebluecastle.txt#Uncle_Herbert_s_house"
   }
  ]
 }

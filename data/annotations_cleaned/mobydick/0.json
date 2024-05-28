@@ -8,86 +8,111 @@
      "hasIntensity": 0.9,
      "quote": "Chief among these motives was the overwhelming idea of the great whale himself. Such a portentous and mysterious monster roused all my curiosity.",
      "hasObject": {
-      "name": "Great_whale"
+      "name": "Great_whale",
+      "id": "texts/mobydick.txt#Great_whale"
      },
      "causedBy": {
-      "name": "Encounter_with_the_idea_of_the_great_whale"
-     }
+      "name": "Encounter_with_the_idea_of_the_great_whale",
+      "id": "texts/mobydick.txt#Encounter_with_the_idea_of_the_great_whale"
+     },
+     "id": "Curiosity"
     },
     {
      "name": "Wonder",
      "hasIntensity": 0.8,
      "quote": "But what most puzzled and confounded you was a long, limber, portentous, black mass of something hovering in the centre of the picture over three blue, dim, perpendicular lines floating in a nameless yeast.",
      "hasObject": {
-      "name": "Mysterious_painting"
+      "name": "Mysterious_painting",
+      "id": "texts/mobydick.txt#Mysterious_painting"
      },
      "causedBy": {
-      "name": "Viewing_a_mysterious_painting"
-     }
+      "name": "Viewing_a_mysterious_painting",
+      "id": "texts/mobydick.txt#Viewing_a_mysterious_painting"
+     },
+     "id": "Wonder"
     },
     {
      "name": "Confusion",
      "hasIntensity": 0.7,
      "quote": "But what most puzzled and confounded you was a long, limber, portentous, black mass of something hovering in the centre of the picture over three blue, dim, perpendicular lines floating in a nameless yeast.",
      "hasObject": {
-      "name": "Mysterious_painting"
+      "name": "Mysterious_painting",
+      "id": "texts/mobydick.txt#Mysterious_painting"
      },
      "causedBy": {
-      "name": "Viewing_a_mysterious_painting"
-     }
+      "name": "Viewing_a_mysterious_painting",
+      "id": "texts/mobydick.txt#Viewing_a_mysterious_painting"
+     },
+     "id": "Confusion"
     },
     {
      "name": "Awe",
      "hasIntensity": 0.9,
      "quote": "But what most puzzled and confounded you was a long, limber, portentous, black mass of something hovering in the centre of the picture over three blue, dim, perpendicular lines floating in a nameless yeast.",
      "hasObject": {
-      "name": "Mysterious_painting"
+      "name": "Mysterious_painting",
+      "id": "texts/mobydick.txt#Mysterious_painting"
      },
      "causedBy": {
-      "name": "Viewing_a_mysterious_painting"
-     }
+      "name": "Viewing_a_mysterious_painting",
+      "id": "texts/mobydick.txt#Viewing_a_mysterious_painting"
+     },
+     "id": "Awe"
     }
-   ]
+   ],
+   "id": "texts/mobydick.txt#Ishmael"
   }
  ],
  "Events": [
   {
    "name": "Encounter_with_the_idea_of_the_great_whale",
    "takePlaceAt": {
-    "name": "Mental_contemplation"
-   }
+    "name": "Mental_contemplation",
+    "id": "texts/mobydick.txt#Mental_contemplation"
+   },
+   "id": "texts/mobydick.txt#Encounter_with_the_idea_of_the_great_whale"
   },
   {
    "name": "Viewing_a_mysterious_painting",
    "takePlaceAt": {
-    "name": "The_Spouter_Inn"
-   }
+    "name": "The_Spouter_Inn",
+    "id": "texts/mobydick.txt#The_Spouter_Inn"
+   },
+   "id": "texts/mobydick.txt#Viewing_a_mysterious_painting"
   },
   {
    "name": "Viewing_a_mysterious_painting",
    "takePlaceAt": {
-    "name": "The_Spouter_Inn"
-   }
+    "name": "The_Spouter_Inn",
+    "id": "texts/mobydick.txt#The_Spouter_Inn"
+   },
+   "id": "texts/mobydick.txt#Viewing_a_mysterious_painting"
   },
   {
    "name": "Viewing_a_mysterious_painting",
    "takePlaceAt": {
-    "name": "The_Spouter_Inn"
-   }
+    "name": "The_Spouter_Inn",
+    "id": "texts/mobydick.txt#The_Spouter_Inn"
+   },
+   "id": "texts/mobydick.txt#Viewing_a_mysterious_painting"
   }
  ],
  "Places": [
   {
-   "name": "Mental_contemplation"
+   "name": "Mental_contemplation",
+   "id": "texts/mobydick.txt#Mental_contemplation"
   },
   {
-   "name": "The_Spouter_Inn"
+   "name": "The_Spouter_Inn",
+   "id": "texts/mobydick.txt#The_Spouter_Inn"
   },
   {
-   "name": "The_Spouter_Inn"
+   "name": "The_Spouter_Inn",
+   "id": "texts/mobydick.txt#The_Spouter_Inn"
   },
   {
-   "name": "The_Spouter_Inn"
+   "name": "The_Spouter_Inn",
+   "id": "texts/mobydick.txt#The_Spouter_Inn"
   }
  ]
 }

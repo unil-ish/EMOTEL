@@ -9,8 +9,10 @@
      "quote": "Fred was certainly very fond of his mother.",
      "exactPlace": "At home",
      "hasObject": {
-      "name": "Mother"
-     }
+      "name": "Mother",
+      "id": "texts/middlemarch.txt#Mother"
+     },
+     "id": "Love"
     },
     {
      "name": "Submission",
@@ -18,8 +20,10 @@
      "quote": "Fred was stung, and released her hand.",
      "exactPlace": "In Mary's presence",
      "hasObject": {
-      "name": "Mary"
-     }
+      "name": "Mary",
+      "id": "texts/middlemarch.txt#Mary"
+     },
+     "id": "Submission"
     },
     {
      "name": "Optimism",
@@ -27,8 +31,10 @@
      "quote": "Fred was not utterly in despair.",
      "exactPlace": "After receiving money from Mr. Featherstone",
      "hasObject": {
-      "name": "Situation"
-     }
+      "name": "Situation",
+      "id": "texts/middlemarch.txt#Situation"
+     },
+     "id": "Optimism"
     },
     {
      "name": "Remorse",
@@ -36,10 +42,13 @@
      "quote": "Fred was sulkily, taking up his hat and whip.",
      "exactPlace": "After Mary's rejection",
      "hasObject": {
-      "name": "Rejection"
-     }
+      "name": "Rejection",
+      "id": "texts/middlemarch.txt#Rejection"
+     },
+     "id": "Remorse"
     }
-   ]
+   ],
+   "id": "texts/middlemarch.txt#Fred_Vincy"
   },
   {
    "name": "Mary_Garth",
@@ -50,8 +59,10 @@
      "quote": "She doted on her eldest son and her youngest girl.",
      "exactPlace": "At home",
      "hasObject": {
-      "name": "Eldest_son_and_youngest_girl"
-     }
+      "name": "Eldest_son_and_youngest_girl",
+      "id": "texts/middlemarch.txt#Eldest_son_and_youngest_girl"
+     },
+     "id": "Love"
     },
     {
      "name": "Contempt",
@@ -59,8 +70,10 @@
      "quote": "Mary was treating him with more indifference than usual.",
      "exactPlace": "In conversation with Fred",
      "hasObject": {
-      "name": "Fred"
-     }
+      "name": "Fred",
+      "id": "texts/middlemarch.txt#Fred"
+     },
+     "id": "Contempt"
     },
     {
      "name": "Vigilance",
@@ -68,8 +81,10 @@
      "quote": "Mary sat down again, and resumed her work.",
      "exactPlace": "After Fred's attempt to engage her",
      "hasObject": {
-      "name": "Work"
-     }
+      "name": "Work",
+      "id": "texts/middlemarch.txt#Work"
+     },
+     "id": "Vigilance"
     },
     {
      "name": "Sarcasm",
@@ -77,10 +92,13 @@
      "quote": "Mary looked up with some roguishness at Fred.",
      "exactPlace": "During conversation with Fred",
      "hasObject": {
-      "name": "Fred"
-     }
+      "name": "Fred",
+      "id": "texts/middlemarch.txt#Fred"
+     },
+     "id": "Sarcasm"
     }
-   ]
+   ],
+   "id": "texts/middlemarch.txt#Mary_Garth"
   },
   {
    "name": "Tertius_Lydgate",
@@ -91,8 +109,10 @@
      "quote": "From that hour Lydgate felt the growth of an intellectual passion.",
      "exactPlace": "After reading about the valves of the heart",
      "hasObject": {
-      "name": "Intellectual_passion"
-     }
+      "name": "Intellectual_passion",
+      "id": "texts/middlemarch.txt#Intellectual_passion"
+     },
+     "id": "Passion"
     },
     {
      "name": "Curiosity",
@@ -100,8 +120,10 @@
      "quote": "He was a quick fellow, and when hot from play, would toss himself in a corner, and in five minutes be deep in any sort of book that he could lay his hands on.",
      "exactPlace": "During childhood",
      "hasObject": {
-      "name": "Books"
-     }
+      "name": "Books",
+      "id": "texts/middlemarch.txt#Books"
+     },
+     "id": "Curiosity"
     },
     {
      "name": "Disappointment",
@@ -109,8 +131,10 @@
      "quote": "He was not pre-eminent in them.",
      "exactPlace": "Regarding his school studies",
      "hasObject": {
-      "name": "Academic_performance"
-     }
+      "name": "Academic_performance",
+      "id": "texts/middlemarch.txt#Academic_performance"
+     },
+     "id": "Disappointment"
     },
     {
      "name": "Excitement",
@@ -118,10 +142,13 @@
      "quote": "He was a vigorous animal with a ready understanding.",
      "exactPlace": "Description of his character",
      "hasObject": {
-      "name": "Vigorous_nature"
-     }
+      "name": "Vigorous_nature",
+      "id": "texts/middlemarch.txt#Vigorous_nature"
+     },
+     "id": "Excitement"
     }
-   ]
+   ],
+   "id": "texts/middlemarch.txt#Tertius_Lydgate"
   }
  ],
  "Events": [],

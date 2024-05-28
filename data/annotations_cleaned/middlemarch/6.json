@@ -8,35 +8,45 @@
      "hasIntensity": 0.9,
      "quote": "He admired Rosamond exceedingly; but that madness which had once beset him about Laure was not, he thought, likely to recur in relation to any other woman.",
      "hasObject": {
-      "name": "Rosamond"
+      "name": "Rosamond",
+      "id": "texts/middlemarch.txt#Rosamond"
      },
      "causedBy": {
-      "name": "Admiration_of_Rosamond_s_intelligence_and_beauty"
-     }
+      "name": "Admiration_of_Rosamond_s_intelligence_and_beauty",
+      "id": "texts/middlemarch.txt#Admiration_of_Rosamond_s_intelligence_and_beauty"
+     },
+     "id": "Admiration"
     },
     {
      "name": "Pity",
      "hasIntensity": 0.8,
      "quote": "He felt a triumphant delight in his studies, and something like pity for those less lucky men who were not of his profession.",
      "hasObject": {
-      "name": "Less_lucky_men"
+      "name": "Less_lucky_men",
+      "id": "texts/middlemarch.txt#Less_lucky_men"
      },
      "causedBy": {
-      "name": "Triumphant_delight_in_his_studies"
-     }
+      "name": "Triumphant_delight_in_his_studies",
+      "id": "texts/middlemarch.txt#Triumphant_delight_in_his_studies"
+     },
+     "id": "Pity"
     },
     {
      "name": "Delight",
      "hasIntensity": 0.7,
      "quote": "He was an ardent fellow, but at present his ardor was absorbed in love of his work and in the ambition of making his life recognized as a factor in the better life of mankind.",
      "hasObject": {
-      "name": "Work_and_ambition"
+      "name": "Work_and_ambition",
+      "id": "texts/middlemarch.txt#Work_and_ambition"
      },
      "causedBy": {
-      "name": "Love_of_his_work_and_ambition"
-     }
+      "name": "Love_of_his_work_and_ambition",
+      "id": "texts/middlemarch.txt#Love_of_his_work_and_ambition"
+     },
+     "id": "Delight"
     }
-   ]
+   ],
+   "id": "texts/middlemarch.txt#Lydgate"
   },
   {
    "name": "Rosamond",
@@ -46,73 +56,95 @@
      "hasIntensity": 0.8,
      "quote": "She remained simply serious, turned her long neck a little, and put up her hand to touch her wondrous hair-plaits—an habitual gesture with her as pretty as any movements of a kitten’s paw.",
      "hasObject": {
-      "name": "Lydgate_s_admiration"
+      "name": "Lydgate_s_admiration",
+      "id": "texts/middlemarch.txt#Lydgate_s_admiration"
      },
      "causedBy": {
-      "name": "Lydgate_s_admiration"
-     }
+      "name": "Lydgate_s_admiration",
+      "id": "texts/middlemarch.txt#Lydgate_s_admiration"
+     },
+     "id": "Pleasure"
     },
     {
      "name": "Agreeableness",
      "hasIntensity": 0.7,
      "quote": "She played admirably. Her master at Mrs. Lemon’s school was one of those excellent musicians here and there to be found in our provinces, worthy to compare with many a noted Kapellmeister in a country which offers more plentiful conditions of musical celebrity.",
      "hasObject": {
-      "name": "Playing_music"
+      "name": "Playing_music",
+      "id": "texts/middlemarch.txt#Playing_music"
      },
      "causedBy": {
-      "name": "Playing_music"
-     }
+      "name": "Playing_music",
+      "id": "texts/middlemarch.txt#Playing_music"
+     },
+     "id": "Agreeableness"
     }
-   ]
+   ],
+   "id": "texts/middlemarch.txt#Rosamond"
   }
  ],
  "Events": [
   {
    "name": "Admiration_of_Rosamond_s_intelligence_and_beauty",
    "takePlaceAt": {
-    "name": "Mr_Vincy_s_house"
-   }
+    "name": "Mr_Vincy_s_house",
+    "id": "texts/middlemarch.txt#Mr_Vincy_s_house"
+   },
+   "id": "texts/middlemarch.txt#Admiration_of_Rosamond_s_intelligence_and_beauty"
   },
   {
    "name": "Triumphant_delight_in_his_studies",
    "takePlaceAt": {
-    "name": "His_home"
-   }
+    "name": "His_home",
+    "id": "texts/middlemarch.txt#His_home"
+   },
+   "id": "texts/middlemarch.txt#Triumphant_delight_in_his_studies"
   },
   {
    "name": "Love_of_his_work_and_ambition",
    "takePlaceAt": {
-    "name": "His_home"
-   }
+    "name": "His_home",
+    "id": "texts/middlemarch.txt#His_home"
+   },
+   "id": "texts/middlemarch.txt#Love_of_his_work_and_ambition"
   },
   {
    "name": "Lydgate_s_admiration",
    "takePlaceAt": {
-    "name": "Mr_Vincy_s_house"
-   }
+    "name": "Mr_Vincy_s_house",
+    "id": "texts/middlemarch.txt#Mr_Vincy_s_house"
+   },
+   "id": "texts/middlemarch.txt#Lydgate_s_admiration"
   },
   {
    "name": "Playing_music",
    "takePlaceAt": {
-    "name": "Mr_Vincy_s_house"
-   }
+    "name": "Mr_Vincy_s_house",
+    "id": "texts/middlemarch.txt#Mr_Vincy_s_house"
+   },
+   "id": "texts/middlemarch.txt#Playing_music"
   }
  ],
  "Places": [
   {
-   "name": "Mr_Vincy_s_house"
+   "name": "Mr_Vincy_s_house",
+   "id": "texts/middlemarch.txt#Mr_Vincy_s_house"
   },
   {
-   "name": "His_home"
+   "name": "His_home",
+   "id": "texts/middlemarch.txt#His_home"
   },
   {
-   "name": "His_home"
+   "name": "His_home",
+   "id": "texts/middlemarch.txt#His_home"
   },
   {
-   "name": "Mr_Vincy_s_house"
+   "name": "Mr_Vincy_s_house",
+   "id": "texts/middlemarch.txt#Mr_Vincy_s_house"
   },
   {
-   "name": "Mr_Vincy_s_house"
+   "name": "Mr_Vincy_s_house",
+   "id": "texts/middlemarch.txt#Mr_Vincy_s_house"
   }
  ]
 }

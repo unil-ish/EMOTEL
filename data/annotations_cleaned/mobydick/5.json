@@ -8,35 +8,45 @@
      "hasIntensity": 0.7,
      "quote": "Every time I ascended to the deck from my watches below, I instantly gazed aft to mark if any strange face were visible; for my first vague disquietude touching the unknown captain, now in the seclusion of the sea, became almost a perturbation.",
      "hasObject": {
-      "name": "Unknown_captain"
+      "name": "Unknown_captain",
+      "id": "texts/mobydick.txt#Unknown_captain"
      },
      "causedBy": {
-      "name": "Unknown_captain_s_presence"
-     }
+      "name": "Unknown_captain_s_presence",
+      "id": "texts/mobydick.txt#Unknown_captain_s_presence"
+     },
+     "id": "Fear"
     },
     {
      "name": "Confusion",
      "hasIntensity": 0.6,
      "quote": "Unfitness to pursue our research in the unfathomable waters. Impenetrable veil covering our knowledge of the cetacea. A field strewn with thorns. All these incomplete indications but serve to torture us naturalists.",
      "hasObject": {
-      "name": "Cetacea"
+      "name": "Cetacea",
+      "id": "texts/mobydick.txt#Cetacea"
      },
      "causedBy": {
-      "name": "Lack_of_knowledge_in_cetacea"
-     }
+      "name": "Lack_of_knowledge_in_cetacea",
+      "id": "texts/mobydick.txt#Lack_of_knowledge_in_cetacea"
+     },
+     "id": "Confusion"
     },
     {
      "name": "Curiosity",
      "hasIntensity": 0.8,
      "quote": "What do you think of that dream, Flask?",
      "hasObject": {
-      "name": "Dream"
+      "name": "Dream",
+      "id": "texts/mobydick.txt#Dream"
      },
      "causedBy": {
-      "name": "Dream_interpretation"
-     }
+      "name": "Dream_interpretation",
+      "id": "texts/mobydick.txt#Dream_interpretation"
+     },
+     "id": "Curiosity"
     }
-   ]
+   ],
+   "id": "texts/mobydick.txt#Ishmael"
   },
   {
    "name": "Captain_Ahab",
@@ -46,126 +56,163 @@
      "hasIntensity": 0.9,
      "quote": "‘Am I a cannon-ball, Stubb,’ said Ahab, ‘that thou wouldst wad me that fashion? But go thy ways; I had forgot. Below to thy nightly grave; where such as ye sleep between shrouds, to use ye to the filling one at last.—Down, dog, and kennel!’",
      "hasObject": {
-      "name": "Stubb"
+      "name": "Stubb",
+      "id": "texts/mobydick.txt#Stubb"
      },
      "causedBy": {
-      "name": "Stubb_s_comment"
-     }
+      "name": "Stubb_s_comment",
+      "id": "texts/mobydick.txt#Stubb_s_comment"
+     },
+     "id": "Anger"
     },
     {
      "name": "Confusion",
      "hasIntensity": 0.7,
      "quote": "‘How now,’ he soliloquized at last, withdrawing the tube, ‘this smoking no longer soothes. Oh, my pipe! hard must it go with me if thy charm be gone! Here have I been unconsciously toiling, not pleasuring—aye, and ignorantly smoking to windward all the while; to windward, and with such nervous whiffs, as if, like the dying whale, my final jets were the strongest and fullest of trouble.’",
      "hasObject": {
-      "name": "Pipe"
+      "name": "Pipe",
+      "id": "texts/mobydick.txt#Pipe"
      },
      "causedBy": {
-      "name": "Pipe_smoking"
-     }
+      "name": "Pipe_smoking",
+      "id": "texts/mobydick.txt#Pipe_smoking"
+     },
+     "id": "Confusion"
     },
     {
      "name": "Determination",
      "hasIntensity": 0.8,
      "quote": "‘I am in earnest; and I will try.’",
      "hasObject": {
-      "name": "Cetology"
+      "name": "Cetology",
+      "id": "texts/mobydick.txt#Cetology"
      },
      "causedBy": {
-      "name": "Decision_to_pursue_cetology"
-     }
+      "name": "Decision_to_pursue_cetology",
+      "id": "texts/mobydick.txt#Decision_to_pursue_cetology"
+     },
+     "id": "Determination"
     }
-   ]
+   ],
+   "id": "texts/mobydick.txt#Captain_Ahab"
   }
  ],
  "Events": [
   {
    "name": "Unknown_captain_s_presence",
    "takePlaceAt": {
-    "name": "Deck"
+    "name": "Deck",
+    "id": "texts/mobydick.txt#Deck"
    },
    "hasParticipant": [
     {
-     "name": "Ishmael"
+     "name": "Ishmael",
+     "id": "texts/mobydick.txt#Ishmael"
     },
     {
-     "name": "Unknown_captain"
+     "name": "Unknown_captain",
+     "id": "texts/mobydick.txt#Unknown_captain"
     }
-   ]
+   ],
+   "id": "texts/mobydick.txt#Unknown_captain_s_presence"
   },
   {
    "name": "Lack_of_knowledge_in_cetacea",
    "takePlaceAt": {
-    "name": "Research_area"
+    "name": "Research_area",
+    "id": "texts/mobydick.txt#Research_area"
    },
    "hasParticipant": {
-    "name": "Cetologists"
-   }
+    "name": "Cetologists",
+    "id": "texts/mobydick.txt#Cetologists"
+   },
+   "id": "texts/mobydick.txt#Lack_of_knowledge_in_cetacea"
   },
   {
    "name": "Dream_interpretation",
    "takePlaceAt": {
-    "name": "Conversation"
+    "name": "Conversation",
+    "id": "texts/mobydick.txt#Conversation"
    },
    "hasParticipant": [
     {
-     "name": "Ishmael"
+     "name": "Ishmael",
+     "id": "texts/mobydick.txt#Ishmael"
     },
     {
-     "name": "Flask"
+     "name": "Flask",
+     "id": "texts/mobydick.txt#Flask"
     }
-   ]
+   ],
+   "id": "texts/mobydick.txt#Dream_interpretation"
   },
   {
    "name": "Stubb_s_comment",
    "takePlaceAt": {
-    "name": "Conversation"
+    "name": "Conversation",
+    "id": "texts/mobydick.txt#Conversation"
    },
    "hasParticipant": [
     {
-     "name": "Captain_Ahab"
+     "name": "Captain_Ahab",
+     "id": "texts/mobydick.txt#Captain_Ahab"
     },
     {
-     "name": "Stubb"
+     "name": "Stubb",
+     "id": "texts/mobydick.txt#Stubb"
     }
-   ]
+   ],
+   "id": "texts/mobydick.txt#Stubb_s_comment"
   },
   {
    "name": "Pipe_smoking",
    "takePlaceAt": {
-    "name": "Deck"
+    "name": "Deck",
+    "id": "texts/mobydick.txt#Deck"
    },
    "hasParticipant": {
-    "name": "Captain_Ahab"
-   }
+    "name": "Captain_Ahab",
+    "id": "texts/mobydick.txt#Captain_Ahab"
+   },
+   "id": "texts/mobydick.txt#Pipe_smoking"
   },
   {
    "name": "Decision_to_pursue_cetology",
    "takePlaceAt": {
-    "name": "Deck"
+    "name": "Deck",
+    "id": "texts/mobydick.txt#Deck"
    },
    "hasParticipant": {
-    "name": "Captain_Ahab"
-   }
+    "name": "Captain_Ahab",
+    "id": "texts/mobydick.txt#Captain_Ahab"
+   },
+   "id": "texts/mobydick.txt#Decision_to_pursue_cetology"
   }
  ],
  "Places": [
   {
-   "name": "Deck"
+   "name": "Deck",
+   "id": "texts/mobydick.txt#Deck"
   },
   {
-   "name": "Research_area"
+   "name": "Research_area",
+   "id": "texts/mobydick.txt#Research_area"
   },
   {
-   "name": "Conversation"
+   "name": "Conversation",
+   "id": "texts/mobydick.txt#Conversation"
   },
   {
-   "name": "Conversation"
+   "name": "Conversation",
+   "id": "texts/mobydick.txt#Conversation"
   },
   {
-   "name": "Deck"
+   "name": "Deck",
+   "id": "texts/mobydick.txt#Deck"
   },
   {
-   "name": "Deck"
+   "name": "Deck",
+   "id": "texts/mobydick.txt#Deck"
   }
  ]
 }

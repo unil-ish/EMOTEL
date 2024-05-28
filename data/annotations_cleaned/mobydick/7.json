@@ -8,82 +8,105 @@
      "hasIntensity": 0.9,
      "quote": "A wild, mystical, sympathetical feeling was in me; Ahab’s quenchless feud seemed mine.",
      "hasObject": {
-      "name": "Moby_Dick"
+      "name": "Moby_Dick",
+      "id": "texts/mobydick.txt#Moby_Dick"
      },
      "causedBy": {
-      "name": "Ahab_s_feud_with_Moby_Dick"
-     }
+      "name": "Ahab_s_feud_with_Moby_Dick",
+      "id": "texts/mobydick.txt#Ahab_s_feud_with_Moby_Dick"
+     },
+     "id": "Fear"
     },
     {
      "name": "Curiosity",
      "hasIntensity": 0.8,
      "quote": "Forced into familiarity, then, with such prodigies as these...",
      "hasObject": {
-      "name": "Prodigies"
+      "name": "Prodigies",
+      "id": "texts/mobydick.txt#Prodigies"
      },
      "causedBy": {
-      "name": "Encountering_prodigies"
-     }
+      "name": "Encountering_prodigies",
+      "id": "texts/mobydick.txt#Encountering_prodigies"
+     },
+     "id": "Curiosity"
     },
     {
      "name": "Awe",
      "hasIntensity": 0.9,
      "quote": "Judge, then, to what pitches of inflamed, distracted fury the minds of his more desperate hunters were impelled...",
      "hasObject": {
-      "name": "White_Whale_s_ferocity"
+      "name": "White_Whale_s_ferocity",
+      "id": "texts/mobydick.txt#White_Whale_s_ferocity"
      },
      "causedBy": {
-      "name": "Encountering_the_White_Whale_s_ferocity"
-     }
+      "name": "Encountering_the_White_Whale_s_ferocity",
+      "id": "texts/mobydick.txt#Encountering_the_White_Whale_s_ferocity"
+     },
+     "id": "Awe"
     }
-   ]
+   ],
+   "id": "texts/mobydick.txt#Ishmael"
   }
  ],
  "Events": [
   {
    "name": "Ahab_s_feud_with_Moby_Dick",
    "takePlaceAt": {
-    "name": "Whale_hunt"
+    "name": "Whale_hunt",
+    "id": "texts/mobydick.txt#Whale_hunt"
    },
    "hasParticipant": [
     {
-     "name": "Ishmael"
+     "name": "Ishmael",
+     "id": "texts/mobydick.txt#Ishmael"
     },
     {
-     "name": "Ahab"
+     "name": "Ahab",
+     "id": "texts/mobydick.txt#Ahab"
     }
-   ]
+   ],
+   "id": "texts/mobydick.txt#Ahab_s_feud_with_Moby_Dick"
   },
   {
    "name": "Encountering_prodigies",
    "takePlaceAt": {
-    "name": "Whale_hunt"
-   }
+    "name": "Whale_hunt",
+    "id": "texts/mobydick.txt#Whale_hunt"
+   },
+   "id": "texts/mobydick.txt#Encountering_prodigies"
   },
   {
    "name": "Encountering_the_White_Whale_s_ferocity",
    "takePlaceAt": {
-    "name": "Whale_hunt"
+    "name": "Whale_hunt",
+    "id": "texts/mobydick.txt#Whale_hunt"
    },
    "hasParticipant": [
     {
-     "name": "Ishmael"
+     "name": "Ishmael",
+     "id": "texts/mobydick.txt#Ishmael"
     },
     {
-     "name": "desperate_hunters"
+     "name": "desperate_hunters",
+     "id": "texts/mobydick.txt#desperate_hunters"
     }
-   ]
+   ],
+   "id": "texts/mobydick.txt#Encountering_the_White_Whale_s_ferocity"
   }
  ],
  "Places": [
   {
-   "name": "Whale_hunt"
+   "name": "Whale_hunt",
+   "id": "texts/mobydick.txt#Whale_hunt"
   },
   {
-   "name": "Whale_hunt"
+   "name": "Whale_hunt",
+   "id": "texts/mobydick.txt#Whale_hunt"
   },
   {
-   "name": "Whale_hunt"
+   "name": "Whale_hunt",
+   "id": "texts/mobydick.txt#Whale_hunt"
   }
  ]
 }

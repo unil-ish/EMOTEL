@@ -8,57 +8,73 @@
      "hasIntensity": 0.8,
      "quote": "She bowed and looked at him: he of course was looking at her, and their eyes met with that peculiar meeting which is never arrived at by effort, but seems like a sudden divine clearance of haze.",
      "hasObject": {
-      "name": "Mr_Lydgate"
+      "name": "Mr_Lydgate",
+      "id": "texts/middlemarch.txt#Mr_Lydgate"
      },
      "causedBy": {
-      "name": "Meeting_Mr_Lydgate"
-     }
+      "name": "Meeting_Mr_Lydgate",
+      "id": "texts/middlemarch.txt#Meeting_Mr_Lydgate"
+     },
+     "id": "Trust"
     },
     {
      "name": "Surprise",
      "hasIntensity": 0.7,
      "quote": "Rosamond blushed deeply and felt a certain astonishment.",
      "hasObject": {
-      "name": "Mr_Lydgate"
+      "name": "Mr_Lydgate",
+      "id": "texts/middlemarch.txt#Mr_Lydgate"
      },
      "causedBy": {
-      "name": "Meeting_Mr_Lydgate"
-     }
+      "name": "Meeting_Mr_Lydgate",
+      "id": "texts/middlemarch.txt#Meeting_Mr_Lydgate"
+     },
+     "id": "Surprise"
     },
     {
      "name": "Joy",
      "hasIntensity": 0.9,
      "quote": "Rosamond could not doubt that this was the great epoch of her life.",
      "hasObject": {
-      "name": "Meeting_Mr_Lydgate"
+      "name": "Meeting_Mr_Lydgate",
+      "id": "texts/middlemarch.txt#Meeting_Mr_Lydgate"
      },
      "causedBy": {
-      "name": "Meeting_Mr_Lydgate"
-     }
+      "name": "Meeting_Mr_Lydgate",
+      "id": "texts/middlemarch.txt#Meeting_Mr_Lydgate"
+     },
+     "id": "Joy"
     },
     {
      "name": "Anticipation",
      "hasIntensity": 0.8,
      "quote": "Rosamond, though no older than Mary, was rather used to being fallen in love with; but she, for her part, had remained indifferent and fastidiously critical towards both fresh sprig and faded bachelor.",
      "hasObject": {
-      "name": "Future_with_Mr_Lydgate"
+      "name": "Future_with_Mr_Lydgate",
+      "id": "texts/middlemarch.txt#Future_with_Mr_Lydgate"
      },
      "causedBy": {
-      "name": "Imagining_her_future_with_Mr_Lydgate"
-     }
+      "name": "Imagining_her_future_with_Mr_Lydgate",
+      "id": "texts/middlemarch.txt#Imagining_her_future_with_Mr_Lydgate"
+     },
+     "id": "Anticipation"
     },
     {
      "name": "Love",
      "hasIntensity": 0.9,
      "quote": "Rosamond, though no older than Mary, was rather used to being fallen in love with; but she, for her part, had remained indifferent and fastidiously critical towards both fresh sprig and faded bachelor.",
      "hasObject": {
-      "name": "Future_with_Mr_Lydgate"
+      "name": "Future_with_Mr_Lydgate",
+      "id": "texts/middlemarch.txt#Future_with_Mr_Lydgate"
      },
      "causedBy": {
-      "name": "Imagining_her_future_with_Mr_Lydgate"
-     }
+      "name": "Imagining_her_future_with_Mr_Lydgate",
+      "id": "texts/middlemarch.txt#Imagining_her_future_with_Mr_Lydgate"
+     },
+     "id": "Love"
     }
-   ]
+   ],
+   "id": "texts/middlemarch.txt#Rosamond_Vincy"
   },
   {
    "name": "Fred_Vincy",
@@ -68,145 +84,189 @@
      "hasIntensity": 0.8,
      "quote": "Fred’s mind, on the other hand, was busy with an anxiety which even his ready hopefulness could not immediately quell.",
      "hasObject": {
-      "name": "Featherstone_s_demand"
+      "name": "Featherstone_s_demand",
+      "id": "texts/middlemarch.txt#Featherstone_s_demand"
      },
      "causedBy": {
-      "name": "Dealing_with_Featherstone_s_demand"
-     }
+      "name": "Dealing_with_Featherstone_s_demand",
+      "id": "texts/middlemarch.txt#Dealing_with_Featherstone_s_demand"
+     },
+     "id": "Anxiety"
     },
     {
      "name": "Bitterness",
      "hasIntensity": 0.7,
      "quote": "Such ruminations naturally produced a streak of misanthropic bitterness.",
      "hasObject": {
-      "name": "His_situation"
+      "name": "His_situation",
+      "id": "texts/middlemarch.txt#His_situation"
      },
      "causedBy": {
-      "name": "Reflecting_on_his_situation"
-     }
+      "name": "Reflecting_on_his_situation",
+      "id": "texts/middlemarch.txt#Reflecting_on_his_situation"
+     },
+     "id": "Bitterness"
     },
     {
      "name": "Fear",
      "hasIntensity": 0.6,
      "quote": "Fred felt that he made a wretched figure as a fellow who bragged about expectations from a queer old miser like Featherstone, and went to beg for certificates at his bidding.",
      "hasObject": {
-      "name": "Featherstone_s_demand"
+      "name": "Featherstone_s_demand",
+      "id": "texts/middlemarch.txt#Featherstone_s_demand"
      },
      "causedBy": {
-      "name": "Dealing_with_Featherstone_s_demand"
-     }
+      "name": "Dealing_with_Featherstone_s_demand",
+      "id": "texts/middlemarch.txt#Dealing_with_Featherstone_s_demand"
+     },
+     "id": "Fear"
     }
-   ]
+   ],
+   "id": "texts/middlemarch.txt#Fred_Vincy"
   }
  ],
  "Events": [
   {
    "name": "Meeting_Mr_Lydgate",
    "takePlaceAt": {
-    "name": "Featherstone_s_house"
+    "name": "Featherstone_s_house",
+    "id": "texts/middlemarch.txt#Featherstone_s_house"
    },
    "hasParticipant": [
     {
-     "name": "Rosamond_Vincy"
+     "name": "Rosamond_Vincy",
+     "id": "texts/middlemarch.txt#Rosamond_Vincy"
     },
     {
-     "name": "Mr_Lydgate"
+     "name": "Mr_Lydgate",
+     "id": "texts/middlemarch.txt#Mr_Lydgate"
     }
-   ]
+   ],
+   "id": "texts/middlemarch.txt#Meeting_Mr_Lydgate"
   },
   {
    "name": "Meeting_Mr_Lydgate",
    "takePlaceAt": {
-    "name": "Featherstone_s_house"
+    "name": "Featherstone_s_house",
+    "id": "texts/middlemarch.txt#Featherstone_s_house"
    },
    "hasParticipant": [
     {
-     "name": "Rosamond_Vincy"
+     "name": "Rosamond_Vincy",
+     "id": "texts/middlemarch.txt#Rosamond_Vincy"
     },
     {
-     "name": "Mr_Lydgate"
+     "name": "Mr_Lydgate",
+     "id": "texts/middlemarch.txt#Mr_Lydgate"
     }
-   ]
+   ],
+   "id": "texts/middlemarch.txt#Meeting_Mr_Lydgate"
   },
   {
    "name": "Meeting_Mr_Lydgate",
    "takePlaceAt": {
-    "name": "Featherstone_s_house"
+    "name": "Featherstone_s_house",
+    "id": "texts/middlemarch.txt#Featherstone_s_house"
    },
    "hasParticipant": {
-    "name": "Rosamond_Vincy"
-   }
+    "name": "Rosamond_Vincy",
+    "id": "texts/middlemarch.txt#Rosamond_Vincy"
+   },
+   "id": "texts/middlemarch.txt#Meeting_Mr_Lydgate"
   },
   {
    "name": "Imagining_her_future_with_Mr_Lydgate",
    "takePlaceAt": {
-    "name": "Riding_home"
+    "name": "Riding_home",
+    "id": "texts/middlemarch.txt#Riding_home"
    },
    "hasParticipant": {
-    "name": "Rosamond_Vincy"
-   }
+    "name": "Rosamond_Vincy",
+    "id": "texts/middlemarch.txt#Rosamond_Vincy"
+   },
+   "id": "texts/middlemarch.txt#Imagining_her_future_with_Mr_Lydgate"
   },
   {
    "name": "Imagining_her_future_with_Mr_Lydgate",
    "takePlaceAt": {
-    "name": "Riding_home"
+    "name": "Riding_home",
+    "id": "texts/middlemarch.txt#Riding_home"
    },
    "hasParticipant": {
-    "name": "Rosamond_Vincy"
-   }
+    "name": "Rosamond_Vincy",
+    "id": "texts/middlemarch.txt#Rosamond_Vincy"
+   },
+   "id": "texts/middlemarch.txt#Imagining_her_future_with_Mr_Lydgate"
   },
   {
    "name": "Dealing_with_Featherstone_s_demand",
    "takePlaceAt": {
-    "name": "Riding_home"
+    "name": "Riding_home",
+    "id": "texts/middlemarch.txt#Riding_home"
    },
    "hasParticipant": {
-    "name": "Fred_Vincy"
-   }
+    "name": "Fred_Vincy",
+    "id": "texts/middlemarch.txt#Fred_Vincy"
+   },
+   "id": "texts/middlemarch.txt#Dealing_with_Featherstone_s_demand"
   },
   {
    "name": "Reflecting_on_his_situation",
    "takePlaceAt": {
-    "name": "Riding_home"
+    "name": "Riding_home",
+    "id": "texts/middlemarch.txt#Riding_home"
    },
    "hasParticipant": {
-    "name": "Fred_Vincy"
-   }
+    "name": "Fred_Vincy",
+    "id": "texts/middlemarch.txt#Fred_Vincy"
+   },
+   "id": "texts/middlemarch.txt#Reflecting_on_his_situation"
   },
   {
    "name": "Dealing_with_Featherstone_s_demand",
    "takePlaceAt": {
-    "name": "Riding_home"
+    "name": "Riding_home",
+    "id": "texts/middlemarch.txt#Riding_home"
    },
    "hasParticipant": {
-    "name": "Fred_Vincy"
-   }
+    "name": "Fred_Vincy",
+    "id": "texts/middlemarch.txt#Fred_Vincy"
+   },
+   "id": "texts/middlemarch.txt#Dealing_with_Featherstone_s_demand"
   }
  ],
  "Places": [
   {
-   "name": "Featherstone_s_house"
+   "name": "Featherstone_s_house",
+   "id": "texts/middlemarch.txt#Featherstone_s_house"
   },
   {
-   "name": "Featherstone_s_house"
+   "name": "Featherstone_s_house",
+   "id": "texts/middlemarch.txt#Featherstone_s_house"
   },
   {
-   "name": "Featherstone_s_house"
+   "name": "Featherstone_s_house",
+   "id": "texts/middlemarch.txt#Featherstone_s_house"
   },
   {
-   "name": "Riding_home"
+   "name": "Riding_home",
+   "id": "texts/middlemarch.txt#Riding_home"
   },
   {
-   "name": "Riding_home"
+   "name": "Riding_home",
+   "id": "texts/middlemarch.txt#Riding_home"
   },
   {
-   "name": "Riding_home"
+   "name": "Riding_home",
+   "id": "texts/middlemarch.txt#Riding_home"
   },
   {
-   "name": "Riding_home"
+   "name": "Riding_home",
+   "id": "texts/middlemarch.txt#Riding_home"
   },
   {
-   "name": "Riding_home"
+   "name": "Riding_home",
+   "id": "texts/middlemarch.txt#Riding_home"
   }
  ]
 }

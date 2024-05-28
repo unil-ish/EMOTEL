@@ -8,118 +8,151 @@
      "hasIntensity": 0.9,
      "quote": "Amy started, and put both hands behind her, turning on him an imploring look which pleaded for her better than the words she could not utter. She was rather a favorite with 'old Davis,' as, of course, he was called, and it's my private belief that he would have broken his word if the indignation of one irrepressible young lady had not found vent in a hiss. That hiss, faint as it was, irritated the irascible gentleman, and sealed the culprit's fate.",
      "hasObject": {
-      "name": "Limes"
+      "name": "Limes",
+      "id": "texts/littlewomen.txt#Limes"
      },
      "causedBy": {
-      "name": "Being_publicly_punished_for_having_limes_in_her_desk"
-     }
+      "name": "Being_publicly_punished_for_having_limes_in_her_desk",
+      "id": "texts/littlewomen.txt#Being_publicly_punished_for_having_limes_in_her_de"
+     },
+     "id": "Shame"
     },
     {
      "name": "Defiance",
      "hasIntensity": 0.8,
      "quote": "Amy started, and put both hands behind her, turning on him an imploring look which pleaded for her better than the words she could not utter. She was rather a favorite with 'old Davis,' as, of course, he was called, and it's my private belief that he would have broken his word if the indignation of one irrepressible young lady had not found vent in a hiss. That hiss, faint as it was, irritated the irascible gentleman, and sealed the culprit's fate.",
      "hasObject": {
-      "name": "Limes"
+      "name": "Limes",
+      "id": "texts/littlewomen.txt#Limes"
      },
      "causedBy": {
-      "name": "Being_publicly_punished_for_having_limes_in_her_desk"
-     }
+      "name": "Being_publicly_punished_for_having_limes_in_her_desk",
+      "id": "texts/littlewomen.txt#Being_publicly_punished_for_having_limes_in_her_de"
+     },
+     "id": "Defiance"
     },
     {
      "name": "Pain",
      "hasIntensity": 0.7,
      "quote": "For the first time in her life she had been struck; and the disgrace, in her eyes, was as deep as if he had knocked her down.",
      "hasObject": {
-      "name": "Limes"
+      "name": "Limes",
+      "id": "texts/littlewomen.txt#Limes"
      },
      "causedBy": {
-      "name": "Being_publicly_punished_for_having_limes_in_her_desk"
-     }
+      "name": "Being_publicly_punished_for_having_limes_in_her_desk",
+      "id": "texts/littlewomen.txt#Being_publicly_punished_for_having_limes_in_her_de"
+     },
+     "id": "Pain"
     },
     {
      "name": "Disappointment",
      "hasIntensity": 0.9,
      "quote": "The smart of her hand and the ache of her heart were forgotten in the sting of the thought,--'I shall have to tell at home, and they will be so disappointed in me!'",
      "hasObject": {
-      "name": "Limes"
+      "name": "Limes",
+      "id": "texts/littlewomen.txt#Limes"
      },
      "causedBy": {
-      "name": "Being_publicly_punished_for_having_limes_in_her_desk"
-     }
+      "name": "Being_publicly_punished_for_having_limes_in_her_desk",
+      "id": "texts/littlewomen.txt#Being_publicly_punished_for_having_limes_in_her_de"
+     },
+     "id": "Disappointment"
     }
-   ]
+   ],
+   "id": "texts/littlewomen.txt#Amy_March"
   }
  ],
  "Events": [
   {
    "name": "Being_publicly_punished_for_having_limes_in_her_desk",
    "takePlaceAt": {
-    "name": "School_classroom"
+    "name": "School_classroom",
+    "id": "texts/littlewomen.txt#School_classroom"
    },
    "hasParticipant": [
     {
-     "name": "Amy_March"
+     "name": "Amy_March",
+     "id": "texts/littlewomen.txt#Amy_March"
     },
     {
-     "name": "Mr_Davis"
+     "name": "Mr_Davis",
+     "id": "texts/littlewomen.txt#Mr_Davis"
     }
-   ]
+   ],
+   "id": "texts/littlewomen.txt#Being_publicly_punished_for_having_limes_in_her_de"
   },
   {
    "name": "Being_publicly_punished_for_having_limes_in_her_desk",
    "takePlaceAt": {
-    "name": "School_classroom"
+    "name": "School_classroom",
+    "id": "texts/littlewomen.txt#School_classroom"
    },
    "hasParticipant": [
     {
-     "name": "Amy_March"
+     "name": "Amy_March",
+     "id": "texts/littlewomen.txt#Amy_March"
     },
     {
-     "name": "Mr_Davis"
+     "name": "Mr_Davis",
+     "id": "texts/littlewomen.txt#Mr_Davis"
     }
-   ]
+   ],
+   "id": "texts/littlewomen.txt#Being_publicly_punished_for_having_limes_in_her_de"
   },
   {
    "name": "Being_publicly_punished_for_having_limes_in_her_desk",
    "takePlaceAt": {
-    "name": "School_classroom"
+    "name": "School_classroom",
+    "id": "texts/littlewomen.txt#School_classroom"
    },
    "hasParticipant": [
     {
-     "name": "Amy_March"
+     "name": "Amy_March",
+     "id": "texts/littlewomen.txt#Amy_March"
     },
     {
-     "name": "Mr_Davis"
+     "name": "Mr_Davis",
+     "id": "texts/littlewomen.txt#Mr_Davis"
     }
-   ]
+   ],
+   "id": "texts/littlewomen.txt#Being_publicly_punished_for_having_limes_in_her_de"
   },
   {
    "name": "Being_publicly_punished_for_having_limes_in_her_desk",
    "takePlaceAt": {
-    "name": "School_classroom"
+    "name": "School_classroom",
+    "id": "texts/littlewomen.txt#School_classroom"
    },
    "hasParticipant": [
     {
-     "name": "Amy_March"
+     "name": "Amy_March",
+     "id": "texts/littlewomen.txt#Amy_March"
     },
     {
-     "name": "Mr_Davis"
+     "name": "Mr_Davis",
+     "id": "texts/littlewomen.txt#Mr_Davis"
     }
-   ]
+   ],
+   "id": "texts/littlewomen.txt#Being_publicly_punished_for_having_limes_in_her_de"
   }
  ],
  "Places": [
   {
-   "name": "School_classroom"
+   "name": "School_classroom",
+   "id": "texts/littlewomen.txt#School_classroom"
   },
   {
-   "name": "School_classroom"
+   "name": "School_classroom",
+   "id": "texts/littlewomen.txt#School_classroom"
   },
   {
-   "name": "School_classroom"
+   "name": "School_classroom",
+   "id": "texts/littlewomen.txt#School_classroom"
   },
   {
-   "name": "School_classroom"
+   "name": "School_classroom",
+   "id": "texts/littlewomen.txt#School_classroom"
   }
  ]
 }

@@ -9,8 +9,10 @@
      "quote": "I could not endure to think of, and far less to allude to, the occurrences of the preceding night.",
      "place": "His own room",
      "causedBy": {
-      "name": "Seeing_the_monster_he_created"
-     }
+      "name": "Seeing_the_monster_he_created",
+      "id": "texts/frankenstein.txt#Seeing_the_monster_he_created"
+     },
+     "id": "Fear"
     },
     {
      "name": "Relief",
@@ -18,8 +20,10 @@
      "quote": "I could hardly believe that so great a good fortune could have befallen me, but when I became assured that my enemy had indeed fled, I clapped my hands for joy and ran down to Clerval.",
      "place": "His own room",
      "causedBy": {
-      "name": "Realizing_the_monster_had_fled"
-     }
+      "name": "Realizing_the_monster_had_fled",
+      "id": "texts/frankenstein.txt#Realizing_the_monster_had_fled"
+     },
+     "id": "Relief"
     },
     {
      "name": "Joy",
@@ -27,8 +31,10 @@
      "quote": "I jumped over the chairs, clapped my hands, and laughed aloud.",
      "place": "His own room",
      "causedBy": {
-      "name": "Realizing_the_monster_had_fled"
-     }
+      "name": "Realizing_the_monster_had_fled",
+      "id": "texts/frankenstein.txt#Realizing_the_monster_had_fled"
+     },
+     "id": "Joy"
     },
     {
      "name": "Guilt",
@@ -36,8 +42,10 @@
      "quote": "I felt the greatest remorse for the disappointment of which I have been the occasion.",
      "place": "His own room",
      "causedBy": {
-      "name": "Feeling_responsible_for_the_monster_s_creation"
-     }
+      "name": "Feeling_responsible_for_the_monster_s_creation",
+      "id": "texts/frankenstein.txt#Feeling_responsible_for_the_monster_s_creation"
+     },
+     "id": "Guilt"
     },
     {
      "name": "Gratitude",
@@ -45,8 +53,10 @@
      "quote": "The form of the monster on whom I had bestowed existence was for ever before my eyes, and I raved incessantly concerning him. Doubtless my words surprised Henry; he at first believed them to be the wanderings of my disturbed imagination, but the pertinacity with which I continually recurred to the same subject persuaded him that my disorder indeed owed its origin to some uncommon and terrible event.",
      "place": "During his recovery",
      "causedBy": {
-      "name": "Henry_s_care_and_attention_during_his_illness"
-     }
+      "name": "Henry_s_care_and_attention_during_his_illness",
+      "id": "texts/frankenstein.txt#Henry_s_care_and_attention_during_his_illness"
+     },
+     "id": "Gratitude"
     },
     {
      "name": "Relief",
@@ -54,8 +64,10 @@
      "quote": "I recovered. I remember the first time I became capable of observing outward objects with any kind of pleasure, I perceived that the fallen leaves had disappeared and that the young buds were shooting forth from the trees that shaded my window.",
      "place": "During his recovery",
      "causedBy": {
-      "name": "Recovering_from_illness_and_seeing_signs_of_spring"
-     }
+      "name": "Recovering_from_illness_and_seeing_signs_of_spring",
+      "id": "texts/frankenstein.txt#Recovering_from_illness_and_seeing_signs_of_spring"
+     },
+     "id": "Relief"
     },
     {
      "name": "Remorse",
@@ -63,8 +75,10 @@
      "quote": "I feel the greatest remorse for the disappointment of which I have been the occasion, but you will forgive me.",
      "place": "During his recovery",
      "causedBy": {
-      "name": "Feeling_guilty_for_causing_disappointment_to_Clerval"
-     }
+      "name": "Feeling_guilty_for_causing_disappointment_to_Clerval",
+      "id": "texts/frankenstein.txt#Feeling_guilty_for_causing_disappointment_to_Clerv"
+     },
+     "id": "Remorse"
     },
     {
      "name": "Gratitude",
@@ -72,8 +86,10 @@
      "quote": "Dearest Clerval, how kind, how very good you are to me. This whole winter, instead of being spent in study, as you promised yourself, has been consumed in my sick room.",
      "place": "During his recovery",
      "causedBy": {
-      "name": "Clerval_s_care_and_attention_during_his_illness"
-     }
+      "name": "Clerval_s_care_and_attention_during_his_illness",
+      "id": "texts/frankenstein.txt#Clerval_s_care_and_attention_during_his_illness"
+     },
+     "id": "Gratitude"
     },
     {
      "name": "Joy",
@@ -81,8 +97,10 @@
      "quote": "I felt also sentiments of joy and affection revive in my bosom; my gloom disappeared, and in a short time I became as cheerful as before I was attacked by the fatal passion.",
      "place": "During his recovery",
      "causedBy": {
-      "name": "Feeling_better_and_seeing_signs_of_spring"
-     }
+      "name": "Feeling_better_and_seeing_signs_of_spring",
+      "id": "texts/frankenstein.txt#Feeling_better_and_seeing_signs_of_spring"
+     },
+     "id": "Joy"
     },
     {
      "name": "Fear",
@@ -90,8 +108,10 @@
      "quote": "I trembled. One subject! What could it be? Could he allude to an object on whom I dared not even think?",
      "place": "During his recovery",
      "causedBy": {
-      "name": "Fear_of_the_subject_Clerval_wanted_to_discuss"
-     }
+      "name": "Fear_of_the_subject_Clerval_wanted_to_discuss",
+      "id": "texts/frankenstein.txt#Fear_of_the_subject_Clerval_wanted_to_discuss"
+     },
+     "id": "Fear"
     },
     {
      "name": "Relief",
@@ -99,45 +119,59 @@
      "quote": "“Is that all, my dear Henry? How could you suppose that my first thought would not fly towards those dear, dear friends whom I love and who are so deserving of my love?”",
      "place": "During his recovery",
      "causedBy": {
-      "name": "Realizing_the_subject_Clerval_wanted_to_discuss_was_about_his_family"
-     }
+      "name": "Realizing_the_subject_Clerval_wanted_to_discuss_was_about_his_family",
+      "id": "texts/frankenstein.txt#Realizing_the_subject_Clerval_wanted_to_discuss_wa"
+     },
+     "id": "Relief"
     }
-   ]
+   ],
+   "id": "texts/frankenstein.txt#Victor_Frankenstein"
   }
  ],
  "Events": [
   {
-   "name": "Seeing_the_monster_he_created"
+   "name": "Seeing_the_monster_he_created",
+   "id": "texts/frankenstein.txt#Seeing_the_monster_he_created"
   },
   {
-   "name": "Realizing_the_monster_had_fled"
+   "name": "Realizing_the_monster_had_fled",
+   "id": "texts/frankenstein.txt#Realizing_the_monster_had_fled"
   },
   {
-   "name": "Realizing_the_monster_had_fled"
+   "name": "Realizing_the_monster_had_fled",
+   "id": "texts/frankenstein.txt#Realizing_the_monster_had_fled"
   },
   {
-   "name": "Feeling_responsible_for_the_monster_s_creation"
+   "name": "Feeling_responsible_for_the_monster_s_creation",
+   "id": "texts/frankenstein.txt#Feeling_responsible_for_the_monster_s_creation"
   },
   {
-   "name": "Henry_s_care_and_attention_during_his_illness"
+   "name": "Henry_s_care_and_attention_during_his_illness",
+   "id": "texts/frankenstein.txt#Henry_s_care_and_attention_during_his_illness"
   },
   {
-   "name": "Recovering_from_illness_and_seeing_signs_of_spring"
+   "name": "Recovering_from_illness_and_seeing_signs_of_spring",
+   "id": "texts/frankenstein.txt#Recovering_from_illness_and_seeing_signs_of_spring"
   },
   {
-   "name": "Feeling_guilty_for_causing_disappointment_to_Clerval"
+   "name": "Feeling_guilty_for_causing_disappointment_to_Clerval",
+   "id": "texts/frankenstein.txt#Feeling_guilty_for_causing_disappointment_to_Clerv"
   },
   {
-   "name": "Clerval_s_care_and_attention_during_his_illness"
+   "name": "Clerval_s_care_and_attention_during_his_illness",
+   "id": "texts/frankenstein.txt#Clerval_s_care_and_attention_during_his_illness"
   },
   {
-   "name": "Feeling_better_and_seeing_signs_of_spring"
+   "name": "Feeling_better_and_seeing_signs_of_spring",
+   "id": "texts/frankenstein.txt#Feeling_better_and_seeing_signs_of_spring"
   },
   {
-   "name": "Fear_of_the_subject_Clerval_wanted_to_discuss"
+   "name": "Fear_of_the_subject_Clerval_wanted_to_discuss",
+   "id": "texts/frankenstein.txt#Fear_of_the_subject_Clerval_wanted_to_discuss"
   },
   {
-   "name": "Realizing_the_subject_Clerval_wanted_to_discuss_was_about_his_family"
+   "name": "Realizing_the_subject_Clerval_wanted_to_discuss_was_about_his_family",
+   "id": "texts/frankenstein.txt#Realizing_the_subject_Clerval_wanted_to_discuss_wa"
   }
  ],
  "Places": []

@@ -8,46 +8,59 @@
      "hasIntensity": 0.8,
      "quote": "‘I don’t see you ought to go peeping like that.’",
      "hasObject": {
-      "name": "Mother_peeping_out_of_the_window"
+      "name": "Mother_peeping_out_of_the_window",
+      "id": "texts/aroomwithaview.txt#Mother_peeping_out_of_the_window"
      },
      "causedBy": {
-      "name": "Mother_peeping_out_of_the_window"
-     }
+      "name": "Mother_peeping_out_of_the_window",
+      "id": "texts/aroomwithaview.txt#Mother_peeping_out_of_the_window"
+     },
+     "id": "Annoyance"
     },
     {
      "name": "Discomfort",
      "hasIntensity": 0.7,
      "quote": "‘I feel—never mind.’",
      "hasObject": {
-      "name": "Lucy_s_situation"
+      "name": "Lucy_s_situation",
+      "id": "texts/aroomwithaview.txt#Lucy_s_situation"
      },
      "causedBy": {
-      "name": "Feeling_uncomfortable_about_Lucy_s_situation"
-     }
+      "name": "Feeling_uncomfortable_about_Lucy_s_situation",
+      "id": "texts/aroomwithaview.txt#Feeling_uncomfortable_about_Lucy_s_situation"
+     },
+     "id": "Discomfort"
     },
     {
      "name": "Jealousy",
      "hasIntensity": 0.9,
      "quote": "‘I liked him till just now.’",
      "hasObject": {
-      "name": "Cecil_spoiling_Lucy_s_first_week_at_home"
+      "name": "Cecil_spoiling_Lucy_s_first_week_at_home",
+      "id": "texts/aroomwithaview.txt#Cecil_spoiling_Lucy_s_first_week_at_home"
      },
      "causedBy": {
-      "name": "Cecil_spoiling_Lucy_s_first_week_at_home"
-     }
+      "name": "Cecil_spoiling_Lucy_s_first_week_at_home",
+      "id": "texts/aroomwithaview.txt#Cecil_spoiling_Lucy_s_first_week_at_home"
+     },
+     "id": "Jealousy"
     },
     {
      "name": "Mistrust",
      "hasIntensity": 0.6,
      "quote": "‘At the back of his brain there lurked a dim mistrust.’",
      "hasObject": {
-      "name": "Cecil_s_behavior_and_comments"
+      "name": "Cecil_s_behavior_and_comments",
+      "id": "texts/aroomwithaview.txt#Cecil_s_behavior_and_comments"
      },
      "causedBy": {
-      "name": "Cecil_s_behavior_and_comments"
-     }
+      "name": "Cecil_s_behavior_and_comments",
+      "id": "texts/aroomwithaview.txt#Cecil_s_behavior_and_comments"
+     },
+     "id": "Mistrust"
     }
-   ]
+   ],
+   "id": "texts/aroomwithaview.txt#Freddy"
   },
   {
    "name": "Mrs_Honeychurch",
@@ -57,102 +70,133 @@
      "hasIntensity": 0.7,
      "quote": "‘I hope you gave a careful answer, dear.’",
      "hasObject": {
-      "name": "Freddy_s_interaction_with_Cecil"
+      "name": "Freddy_s_interaction_with_Cecil",
+      "id": "texts/aroomwithaview.txt#Freddy_s_interaction_with_Cecil"
      },
      "causedBy": {
-      "name": "Freddy_s_interaction_with_Cecil"
-     }
+      "name": "Freddy_s_interaction_with_Cecil",
+      "id": "texts/aroomwithaview.txt#Freddy_s_interaction_with_Cecil"
+     },
+     "id": "Concern"
     },
     {
      "name": "Dissatisfaction",
      "hasIntensity": 0.8,
      "quote": "‘But her face remained dissatisfied.’",
      "hasObject": {
-      "name": "Freddy_s_behavior_towards_Cecil"
+      "name": "Freddy_s_behavior_towards_Cecil",
+      "id": "texts/aroomwithaview.txt#Freddy_s_behavior_towards_Cecil"
      },
      "causedBy": {
-      "name": "Freddy_s_behavior_towards_Cecil"
-     }
+      "name": "Freddy_s_behavior_towards_Cecil",
+      "id": "texts/aroomwithaview.txt#Freddy_s_behavior_towards_Cecil"
+     },
+     "id": "Dissatisfaction"
     },
     {
      "name": "Interest",
      "hasIntensity": 0.6,
      "quote": "‘Mr. Beebe?’ said his mother, trying to conceal her interest.",
      "hasObject": {
-      "name": "Mention_of_Mr_Beebe"
+      "name": "Mention_of_Mr_Beebe",
+      "id": "texts/aroomwithaview.txt#Mention_of_Mr_Beebe"
      },
      "causedBy": {
-      "name": "Mention_of_Mr_Beebe"
-     }
+      "name": "Mention_of_Mr_Beebe",
+      "id": "texts/aroomwithaview.txt#Mention_of_Mr_Beebe"
+     },
+     "id": "Interest"
     }
-   ]
+   ],
+   "id": "texts/aroomwithaview.txt#Mrs_Honeychurch"
   }
  ],
  "Events": [
   {
    "name": "Mother_peeping_out_of_the_window",
    "takePlaceAt": {
-    "name": "Drawingroom"
-   }
+    "name": "Drawingroom",
+    "id": "texts/aroomwithaview.txt#Drawingroom"
+   },
+   "id": "texts/aroomwithaview.txt#Mother_peeping_out_of_the_window"
   },
   {
    "name": "Feeling_uncomfortable_about_Lucy_s_situation",
    "takePlaceAt": {
-    "name": "Drawingroom"
-   }
+    "name": "Drawingroom",
+    "id": "texts/aroomwithaview.txt#Drawingroom"
+   },
+   "id": "texts/aroomwithaview.txt#Feeling_uncomfortable_about_Lucy_s_situation"
   },
   {
    "name": "Cecil_spoiling_Lucy_s_first_week_at_home",
    "takePlaceAt": {
-    "name": "Home"
-   }
+    "name": "Home",
+    "id": "texts/aroomwithaview.txt#Home"
+   },
+   "id": "texts/aroomwithaview.txt#Cecil_spoiling_Lucy_s_first_week_at_home"
   },
   {
    "name": "Cecil_s_behavior_and_comments",
    "takePlaceAt": {
-    "name": "Home"
-   }
+    "name": "Home",
+    "id": "texts/aroomwithaview.txt#Home"
+   },
+   "id": "texts/aroomwithaview.txt#Cecil_s_behavior_and_comments"
   },
   {
    "name": "Freddy_s_interaction_with_Cecil",
    "takePlaceAt": {
-    "name": "Home"
-   }
+    "name": "Home",
+    "id": "texts/aroomwithaview.txt#Home"
+   },
+   "id": "texts/aroomwithaview.txt#Freddy_s_interaction_with_Cecil"
   },
   {
    "name": "Freddy_s_behavior_towards_Cecil",
    "takePlaceAt": {
-    "name": "Home"
-   }
+    "name": "Home",
+    "id": "texts/aroomwithaview.txt#Home"
+   },
+   "id": "texts/aroomwithaview.txt#Freddy_s_behavior_towards_Cecil"
   },
   {
    "name": "Mention_of_Mr_Beebe",
    "takePlaceAt": {
-    "name": "Home"
-   }
+    "name": "Home",
+    "id": "texts/aroomwithaview.txt#Home"
+   },
+   "id": "texts/aroomwithaview.txt#Mention_of_Mr_Beebe"
   }
  ],
  "Places": [
   {
-   "name": "Drawingroom"
+   "name": "Drawingroom",
+   "id": "texts/aroomwithaview.txt#Drawingroom"
   },
   {
-   "name": "Drawingroom"
+   "name": "Drawingroom",
+   "id": "texts/aroomwithaview.txt#Drawingroom"
   },
   {
-   "name": "Home"
+   "name": "Home",
+   "id": "texts/aroomwithaview.txt#Home"
   },
   {
-   "name": "Home"
+   "name": "Home",
+   "id": "texts/aroomwithaview.txt#Home"
   },
   {
-   "name": "Home"
+   "name": "Home",
+   "id": "texts/aroomwithaview.txt#Home"
   },
   {
-   "name": "Home"
+   "name": "Home",
+   "id": "texts/aroomwithaview.txt#Home"
   },
   {
-   "name": "Home"
+   "name": "Home",
+   "id": "texts/aroomwithaview.txt#Home"
   }
  ]
 }

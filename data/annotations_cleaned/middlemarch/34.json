@@ -8,35 +8,45 @@
      "hasIntensity": 0.9,
      "quote": "Oh, I cannot bear it—my heart will break,” said Dorothea, starting from her seat, the flood of her young passion bearing down all the obstructions which had kept her silent—the great tears rising and falling in an instant: “I don’t mind about poverty—I hate my wealth.",
      "hasObject": {
-      "name": "Marriage_to_Will_Ladislaw"
+      "name": "Marriage_to_Will_Ladislaw",
+      "id": "texts/middlemarch.txt#Marriage_to_Will_Ladislaw"
      },
      "causedBy": {
-      "name": "Learning_about_Will_s_return_and_marriage"
-     }
+      "name": "Learning_about_Will_s_return_and_marriage",
+      "id": "texts/middlemarch.txt#Learning_about_Will_s_return_and_marriage"
+     },
+     "id": "Love"
     },
     {
      "name": "Sadness",
      "hasIntensity": 0.8,
      "quote": "It is very dreadful of Dodo, though,” said Celia, wishing to justify her husband. “She said she never would marry again—not anybody at all.",
      "hasObject": {
-      "name": "Marriage_to_Will_Ladislaw"
+      "name": "Marriage_to_Will_Ladislaw",
+      "id": "texts/middlemarch.txt#Marriage_to_Will_Ladislaw"
      },
      "causedBy": {
-      "name": "Learning_about_Dorothea_s_marriage"
-     }
+      "name": "Learning_about_Dorothea_s_marriage",
+      "id": "texts/middlemarch.txt#Learning_about_Dorothea_s_marriage"
+     },
+     "id": "Sadness"
     },
     {
      "name": "Determination",
      "hasIntensity": 0.7,
      "quote": "Dorothea is quite determined—it is no use opposing. I put it strongly to her. I did my duty, Chettam.",
      "hasObject": {
-      "name": "Marriage_to_Will_Ladislaw"
+      "name": "Marriage_to_Will_Ladislaw",
+      "id": "texts/middlemarch.txt#Marriage_to_Will_Ladislaw"
      },
      "causedBy": {
-      "name": "Decision_to_marry_Will_Ladislaw"
-     }
+      "name": "Decision_to_marry_Will_Ladislaw",
+      "id": "texts/middlemarch.txt#Decision_to_marry_Will_Ladislaw"
+     },
+     "id": "Determination"
     }
-   ]
+   ],
+   "id": "texts/middlemarch.txt#Dorothea"
   },
   {
    "name": "Sir_James_Chettam",
@@ -46,24 +56,31 @@
      "hasIntensity": 0.8,
      "quote": "It is perfectly scandalous. If Ladislaw had had a spark of honor he would have gone out of the country at once, and never shown his face in it again.",
      "hasObject": {
-      "name": "Dorothea_s_marriage_to_Ladislaw"
+      "name": "Dorothea_s_marriage_to_Ladislaw",
+      "id": "texts/middlemarch.txt#Dorothea_s_marriage_to_Ladislaw"
      },
      "causedBy": {
-      "name": "Learning_about_Dorothea_s_marriage_to_Ladislaw"
-     }
+      "name": "Learning_about_Dorothea_s_marriage_to_Ladislaw",
+      "id": "texts/middlemarch.txt#Learning_about_Dorothea_s_marriage_to_Ladislaw"
+     },
+     "id": "Anger"
     },
     {
      "name": "Embarrassment",
      "hasIntensity": 0.6,
      "quote": "He had touched a motive of which Sir James was ashamed. The mass of his feeling about Dorothea’s marriage to Ladislaw was due partly to excusable prejudice, or even justifiable opinion, partly to a jealous repugnance hardly less in Ladislaw’s case than in Casaubon’s.",
      "hasObject": {
-      "name": "Dorothea_s_marriage_to_Ladislaw"
+      "name": "Dorothea_s_marriage_to_Ladislaw",
+      "id": "texts/middlemarch.txt#Dorothea_s_marriage_to_Ladislaw"
      },
      "causedBy": {
-      "name": "Mention_of_the_union_of_Tipton_and_Freshitt_estates"
-     }
+      "name": "Mention_of_the_union_of_Tipton_and_Freshitt_estates",
+      "id": "texts/middlemarch.txt#Mention_of_the_union_of_Tipton_and_Freshitt_estate"
+     },
+     "id": "Embarrassment"
     }
-   ]
+   ],
+   "id": "texts/middlemarch.txt#Sir_James_Chettam"
   },
   {
    "name": "Mrs_Cadwallader",
@@ -73,122 +90,159 @@
      "hasIntensity": 0.7,
      "quote": "The only wonder to me is, that any of you are surprised. You did nothing to hinder it.",
      "hasObject": {
-      "name": "Dorothea_s_marriage_to_Ladislaw"
+      "name": "Dorothea_s_marriage_to_Ladislaw",
+      "id": "texts/middlemarch.txt#Dorothea_s_marriage_to_Ladislaw"
      },
      "causedBy": {
-      "name": "Learning_about_Dorothea_s_marriage_to_Ladislaw"
-     }
+      "name": "Learning_about_Dorothea_s_marriage_to_Ladislaw",
+      "id": "texts/middlemarch.txt#Learning_about_Dorothea_s_marriage_to_Ladislaw"
+     },
+     "id": "Satisfaction"
     },
     {
      "name": "Sarcasm",
      "hasIntensity": 0.8,
      "quote": "The only wonder to me is, that any of you are surprised. You did nothing to hinder it.",
      "hasObject": {
-      "name": "Dorothea_s_marriage_to_Ladislaw"
+      "name": "Dorothea_s_marriage_to_Ladislaw",
+      "id": "texts/middlemarch.txt#Dorothea_s_marriage_to_Ladislaw"
      },
      "causedBy": {
-      "name": "Learning_about_Dorothea_s_marriage_to_Ladislaw"
-     }
+      "name": "Learning_about_Dorothea_s_marriage_to_Ladislaw",
+      "id": "texts/middlemarch.txt#Learning_about_Dorothea_s_marriage_to_Ladislaw"
+     },
+     "id": "Sarcasm"
     }
-   ]
+   ],
+   "id": "texts/middlemarch.txt#Mrs_Cadwallader"
   }
  ],
  "Events": [
   {
    "name": "Learning_about_Will_s_return_and_marriage",
    "takePlaceAt": {
-    "name": "Freshitt_Hall"
+    "name": "Freshitt_Hall",
+    "id": "texts/middlemarch.txt#Freshitt_Hall"
    },
    "hasParticipant": [
     {
-     "name": "Dorothea"
+     "name": "Dorothea",
+     "id": "texts/middlemarch.txt#Dorothea"
     },
     {
-     "name": "Will_Ladislaw"
+     "name": "Will_Ladislaw",
+     "id": "texts/middlemarch.txt#Will_Ladislaw"
     }
-   ]
+   ],
+   "id": "texts/middlemarch.txt#Learning_about_Will_s_return_and_marriage"
   },
   {
    "name": "Learning_about_Dorothea_s_marriage",
    "takePlaceAt": {
-    "name": "Freshitt_Hall"
+    "name": "Freshitt_Hall",
+    "id": "texts/middlemarch.txt#Freshitt_Hall"
    },
    "hasParticipant": [
     {
-     "name": "Dorothea"
+     "name": "Dorothea",
+     "id": "texts/middlemarch.txt#Dorothea"
     },
     {
-     "name": "Celia"
+     "name": "Celia",
+     "id": "texts/middlemarch.txt#Celia"
     }
-   ]
+   ],
+   "id": "texts/middlemarch.txt#Learning_about_Dorothea_s_marriage"
   },
   {
    "name": "Decision_to_marry_Will_Ladislaw",
    "takePlaceAt": {
-    "name": "Freshitt_Hall"
+    "name": "Freshitt_Hall",
+    "id": "texts/middlemarch.txt#Freshitt_Hall"
    },
    "hasParticipant": {
-    "name": "Dorothea"
-   }
+    "name": "Dorothea",
+    "id": "texts/middlemarch.txt#Dorothea"
+   },
+   "id": "texts/middlemarch.txt#Decision_to_marry_Will_Ladislaw"
   },
   {
    "name": "Learning_about_Dorothea_s_marriage_to_Ladislaw",
    "takePlaceAt": {
-    "name": "Freshitt_Hall"
+    "name": "Freshitt_Hall",
+    "id": "texts/middlemarch.txt#Freshitt_Hall"
    },
    "hasParticipant": {
-    "name": "Sir_James_Chettam"
-   }
+    "name": "Sir_James_Chettam",
+    "id": "texts/middlemarch.txt#Sir_James_Chettam"
+   },
+   "id": "texts/middlemarch.txt#Learning_about_Dorothea_s_marriage_to_Ladislaw"
   },
   {
    "name": "Mention_of_the_union_of_Tipton_and_Freshitt_estates",
    "takePlaceAt": {
-    "name": "Freshitt_Hall"
+    "name": "Freshitt_Hall",
+    "id": "texts/middlemarch.txt#Freshitt_Hall"
    },
    "hasParticipant": {
-    "name": "Sir_James_Chettam"
-   }
+    "name": "Sir_James_Chettam",
+    "id": "texts/middlemarch.txt#Sir_James_Chettam"
+   },
+   "id": "texts/middlemarch.txt#Mention_of_the_union_of_Tipton_and_Freshitt_estate"
   },
   {
    "name": "Learning_about_Dorothea_s_marriage_to_Ladislaw",
    "takePlaceAt": {
-    "name": "Freshitt_Hall"
+    "name": "Freshitt_Hall",
+    "id": "texts/middlemarch.txt#Freshitt_Hall"
    },
    "hasParticipant": {
-    "name": "Mrs_Cadwallader"
-   }
+    "name": "Mrs_Cadwallader",
+    "id": "texts/middlemarch.txt#Mrs_Cadwallader"
+   },
+   "id": "texts/middlemarch.txt#Learning_about_Dorothea_s_marriage_to_Ladislaw"
   },
   {
    "name": "Learning_about_Dorothea_s_marriage_to_Ladislaw",
    "takePlaceAt": {
-    "name": "Freshitt_Hall"
+    "name": "Freshitt_Hall",
+    "id": "texts/middlemarch.txt#Freshitt_Hall"
    },
    "hasParticipant": {
-    "name": "Mrs_Cadwallader"
-   }
+    "name": "Mrs_Cadwallader",
+    "id": "texts/middlemarch.txt#Mrs_Cadwallader"
+   },
+   "id": "texts/middlemarch.txt#Learning_about_Dorothea_s_marriage_to_Ladislaw"
   }
  ],
  "Places": [
   {
-   "name": "Freshitt_Hall"
+   "name": "Freshitt_Hall",
+   "id": "texts/middlemarch.txt#Freshitt_Hall"
   },
   {
-   "name": "Freshitt_Hall"
+   "name": "Freshitt_Hall",
+   "id": "texts/middlemarch.txt#Freshitt_Hall"
   },
   {
-   "name": "Freshitt_Hall"
+   "name": "Freshitt_Hall",
+   "id": "texts/middlemarch.txt#Freshitt_Hall"
   },
   {
-   "name": "Freshitt_Hall"
+   "name": "Freshitt_Hall",
+   "id": "texts/middlemarch.txt#Freshitt_Hall"
   },
   {
-   "name": "Freshitt_Hall"
+   "name": "Freshitt_Hall",
+   "id": "texts/middlemarch.txt#Freshitt_Hall"
   },
   {
-   "name": "Freshitt_Hall"
+   "name": "Freshitt_Hall",
+   "id": "texts/middlemarch.txt#Freshitt_Hall"
   },
   {
-   "name": "Freshitt_Hall"
+   "name": "Freshitt_Hall",
+   "id": "texts/middlemarch.txt#Freshitt_Hall"
   }
  ]
 }

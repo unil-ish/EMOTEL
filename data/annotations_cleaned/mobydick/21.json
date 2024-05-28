@@ -8,35 +8,45 @@
      "hasIntensity": 0.7,
      "quote": "He would have shot me once,” he murmured, “yes, there’s the very musket that he pointed at me;—that one with the studded stock; let me touch it—lift it. Strange, that I, who have handled so many deadly lances, strange, that I should shake so now.",
      "hasObject": {
-      "name": "Musket"
+      "name": "Musket",
+      "id": "texts/mobydick.txt#Musket"
      },
      "causedBy": {
-      "name": "Seeing_the_musket"
-     }
+      "name": "Seeing_the_musket",
+      "id": "texts/mobydick.txt#Seeing_the_musket"
+     },
+     "id": "Fear"
     },
     {
      "name": "Relief",
      "hasIntensity": 0.6,
      "quote": "Meanwhile, whatever were his own secret thoughts, Starbuck said nothing, but quietly he issued all requisite orders; while Stubb and Flask—who in some small degree seemed then to be sharing his feelings—likewise unmurmuringly acquiesced.",
      "hasObject": {
-      "name": "Taking_charge"
+      "name": "Taking_charge",
+      "id": "texts/mobydick.txt#Taking_charge"
      },
      "causedBy": {
-      "name": "Taking_charge_of_the_situation"
-     }
+      "name": "Taking_charge_of_the_situation",
+      "id": "texts/mobydick.txt#Taking_charge_of_the_situation"
+     },
+     "id": "Relief"
     },
     {
      "name": "Wonder",
      "hasIntensity": 0.8,
      "quote": "Abashed glances of servile wonder were exchanged by the sailors, as this was said; and with fascinated eyes they awaited whatever magic might follow.",
      "hasObject": {
-      "name": "Ahab_s_statement"
+      "name": "Ahab_s_statement",
+      "id": "texts/mobydick.txt#Ahab_s_statement"
      },
      "causedBy": {
-      "name": "Ahab_s_statement_about_making_his_own_compass"
-     }
+      "name": "Ahab_s_statement_about_making_his_own_compass",
+      "id": "texts/mobydick.txt#Ahab_s_statement_about_making_his_own_compass"
+     },
+     "id": "Wonder"
     }
-   ]
+   ],
+   "id": "texts/mobydick.txt#Starbuck"
   },
   {
    "name": "Ahab",
@@ -46,73 +56,95 @@
      "hasIntensity": 0.7,
      "quote": "Thrusting his head half way into the binnacle, Ahab caught one glimpse of the compasses; his uplifted arm slowly fell; for a moment he almost seemed to stagger.",
      "hasObject": {
-      "name": "Inverted_compasses"
+      "name": "Inverted_compasses",
+      "id": "texts/mobydick.txt#Inverted_compasses"
      },
      "causedBy": {
-      "name": "Realizing_the_compasses_were_inverted"
-     }
+      "name": "Realizing_the_compasses_were_inverted",
+      "id": "texts/mobydick.txt#Realizing_the_compasses_were_inverted"
+     },
+     "id": "Confusion"
     },
     {
      "name": "Determination",
      "hasIntensity": 0.8,
      "quote": "Men,” said he, steadily turning upon the crew, as the mate handed him the things he had demanded, “my men, the thunder turned old Ahab’s needles; but out of this bit of steel Ahab can make one of his own, that will point as true as any.",
      "hasObject": {
-      "name": "Making_his_own_compass"
+      "name": "Making_his_own_compass",
+      "id": "texts/mobydick.txt#Making_his_own_compass"
      },
      "causedBy": {
-      "name": "Deciding_to_make_his_own_compass"
-     }
+      "name": "Deciding_to_make_his_own_compass",
+      "id": "texts/mobydick.txt#Deciding_to_make_his_own_compass"
+     },
+     "id": "Determination"
     }
-   ]
+   ],
+   "id": "texts/mobydick.txt#Ahab"
   }
  ],
  "Events": [
   {
    "name": "Seeing_the_musket",
    "takePlaceAt": {
-    "name": "Ahab_s_stateroom"
-   }
+    "name": "Ahab_s_stateroom",
+    "id": "texts/mobydick.txt#Ahab_s_stateroom"
+   },
+   "id": "texts/mobydick.txt#Seeing_the_musket"
   },
   {
    "name": "Taking_charge_of_the_situation",
    "takePlaceAt": {
-    "name": "On_deck"
-   }
+    "name": "On_deck",
+    "id": "texts/mobydick.txt#On_deck"
+   },
+   "id": "texts/mobydick.txt#Taking_charge_of_the_situation"
   },
   {
    "name": "Ahab_s_statement_about_making_his_own_compass",
    "takePlaceAt": {
-    "name": "On_deck"
-   }
+    "name": "On_deck",
+    "id": "texts/mobydick.txt#On_deck"
+   },
+   "id": "texts/mobydick.txt#Ahab_s_statement_about_making_his_own_compass"
   },
   {
    "name": "Realizing_the_compasses_were_inverted",
    "takePlaceAt": {
-    "name": "On_deck"
-   }
+    "name": "On_deck",
+    "id": "texts/mobydick.txt#On_deck"
+   },
+   "id": "texts/mobydick.txt#Realizing_the_compasses_were_inverted"
   },
   {
    "name": "Deciding_to_make_his_own_compass",
    "takePlaceAt": {
-    "name": "On_deck"
-   }
+    "name": "On_deck",
+    "id": "texts/mobydick.txt#On_deck"
+   },
+   "id": "texts/mobydick.txt#Deciding_to_make_his_own_compass"
   }
  ],
  "Places": [
   {
-   "name": "Ahab_s_stateroom"
+   "name": "Ahab_s_stateroom",
+   "id": "texts/mobydick.txt#Ahab_s_stateroom"
   },
   {
-   "name": "On_deck"
+   "name": "On_deck",
+   "id": "texts/mobydick.txt#On_deck"
   },
   {
-   "name": "On_deck"
+   "name": "On_deck",
+   "id": "texts/mobydick.txt#On_deck"
   },
   {
-   "name": "On_deck"
+   "name": "On_deck",
+   "id": "texts/mobydick.txt#On_deck"
   },
   {
-   "name": "On_deck"
+   "name": "On_deck",
+   "id": "texts/mobydick.txt#On_deck"
   }
  ]
 }

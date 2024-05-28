@@ -8,35 +8,45 @@
      "hasIntensity": 0.8,
      "quote": "He had really a movement of anger against her at that moment, and it impelled him to go away without pause.",
      "hasObject": {
-      "name": "Rosamond"
+      "name": "Rosamond",
+      "id": "texts/middlemarch.txt#Rosamond"
      },
      "causedBy": {
-      "name": "Discussion_about_their_relationship"
-     }
+      "name": "Discussion_about_their_relationship",
+      "id": "texts/middlemarch.txt#Discussion_about_their_relationship"
+     },
+     "id": "Anger"
     },
     {
      "name": "Disappointment",
      "hasIntensity": 0.9,
      "quote": "He was feeling bitter disappointment, as if he had opened a door out of a suffocating place and had found it walled up.",
      "hasObject": {
-      "name": "House_in_St_Peters_Place"
+      "name": "House_in_St_Peters_Place",
+      "id": "texts/middlemarch.txt#House_in_St_Peters_Place"
      },
      "causedBy": {
-      "name": "Finding_out_that_the_house_was_already_taken"
-     }
+      "name": "Finding_out_that_the_house_was_already_taken",
+      "id": "texts/middlemarch.txt#Finding_out_that_the_house_was_already_taken"
+     },
+     "id": "Disappointment"
     },
     {
      "name": "Vexation",
      "hasIntensity": 0.8,
      "quote": "He was feeling bitter disappointment, as if he had opened a door out of a suffocating place and had found it walled up.",
      "hasObject": {
-      "name": "House_in_St_Peters_Place"
+      "name": "House_in_St_Peters_Place",
+      "id": "texts/middlemarch.txt#House_in_St_Peters_Place"
      },
      "causedBy": {
-      "name": "Finding_out_that_the_house_was_already_taken"
-     }
+      "name": "Finding_out_that_the_house_was_already_taken",
+      "id": "texts/middlemarch.txt#Finding_out_that_the_house_was_already_taken"
+     },
+     "id": "Vexation"
     }
-   ]
+   ],
+   "id": "texts/middlemarch.txt#Will"
   },
   {
    "name": "Rosamond",
@@ -46,141 +56,181 @@
      "hasIntensity": 0.7,
      "quote": "He also felt sure that Rosamond was pleased with the cause of his disappointment.",
      "hasObject": {
-      "name": "House_in_St_Peters_Place"
+      "name": "House_in_St_Peters_Place",
+      "id": "texts/middlemarch.txt#House_in_St_Peters_Place"
      },
      "causedBy": {
-      "name": "Finding_out_that_the_house_was_already_taken"
-     }
+      "name": "Finding_out_that_the_house_was_already_taken",
+      "id": "texts/middlemarch.txt#Finding_out_that_the_house_was_already_taken"
+     },
+     "id": "Satisfaction"
     },
     {
      "name": "Dread",
      "hasIntensity": 0.8,
      "quote": "That evening Lydgate was a little comforted by observing that Rosamond was more lively than she had usually been of late, and even seemed interested in doing what would please him without being asked.",
      "hasObject": {
-      "name": "Lydgate_s_disappointment"
+      "name": "Lydgate_s_disappointment",
+      "id": "texts/middlemarch.txt#Lydgate_s_disappointment"
      },
      "causedBy": {
-      "name": "Lydgate_s_disappointment"
-     }
+      "name": "Lydgate_s_disappointment",
+      "id": "texts/middlemarch.txt#Lydgate_s_disappointment"
+     },
+     "id": "Dread"
     },
     {
      "name": "Relief",
      "hasIntensity": 0.7,
      "quote": "She trusted to the chance that nothing more would pass between her husband and the auctioneer until some issue should have justified her interference.",
      "hasObject": {
-      "name": "Preventing_further_discussion_about_the_house"
+      "name": "Preventing_further_discussion_about_the_house",
+      "id": "texts/middlemarch.txt#Preventing_further_discussion_about_the_house"
      },
      "causedBy": {
-      "name": "Preventing_further_discussion_about_the_house"
-     }
+      "name": "Preventing_further_discussion_about_the_house",
+      "id": "texts/middlemarch.txt#Preventing_further_discussion_about_the_house"
+     },
+     "id": "Relief"
     }
-   ]
+   ],
+   "id": "texts/middlemarch.txt#Rosamond"
   }
  ],
  "Events": [
   {
    "name": "Discussion_about_their_relationship",
    "takePlaceAt": {
-    "name": "Their_home"
+    "name": "Their_home",
+    "id": "texts/middlemarch.txt#Their_home"
    },
    "hasParticipant": [
     {
-     "name": "Will"
+     "name": "Will",
+     "id": "texts/middlemarch.txt#Will"
     },
     {
-     "name": "Dorothea"
+     "name": "Dorothea",
+     "id": "texts/middlemarch.txt#Dorothea"
     }
-   ]
+   ],
+   "id": "texts/middlemarch.txt#Discussion_about_their_relationship"
   },
   {
    "name": "Finding_out_that_the_house_was_already_taken",
    "takePlaceAt": {
-    "name": "Their_home"
+    "name": "Their_home",
+    "id": "texts/middlemarch.txt#Their_home"
    },
    "hasParticipant": [
     {
-     "name": "Lydgate"
+     "name": "Lydgate",
+     "id": "texts/middlemarch.txt#Lydgate"
     },
     {
-     "name": "Rosamond"
+     "name": "Rosamond",
+     "id": "texts/middlemarch.txt#Rosamond"
     }
-   ]
+   ],
+   "id": "texts/middlemarch.txt#Finding_out_that_the_house_was_already_taken"
   },
   {
    "name": "Finding_out_that_the_house_was_already_taken",
    "takePlaceAt": {
-    "name": "Their_home"
+    "name": "Their_home",
+    "id": "texts/middlemarch.txt#Their_home"
    },
    "hasParticipant": [
     {
-     "name": "Lydgate"
+     "name": "Lydgate",
+     "id": "texts/middlemarch.txt#Lydgate"
     },
     {
-     "name": "Rosamond"
+     "name": "Rosamond",
+     "id": "texts/middlemarch.txt#Rosamond"
     }
-   ]
+   ],
+   "id": "texts/middlemarch.txt#Finding_out_that_the_house_was_already_taken"
   },
   {
    "name": "Finding_out_that_the_house_was_already_taken",
    "takePlaceAt": {
-    "name": "Their_home"
+    "name": "Their_home",
+    "id": "texts/middlemarch.txt#Their_home"
    },
    "hasParticipant": [
     {
-     "name": "Lydgate"
+     "name": "Lydgate",
+     "id": "texts/middlemarch.txt#Lydgate"
     },
     {
-     "name": "Rosamond"
+     "name": "Rosamond",
+     "id": "texts/middlemarch.txt#Rosamond"
     }
-   ]
+   ],
+   "id": "texts/middlemarch.txt#Finding_out_that_the_house_was_already_taken"
   },
   {
    "name": "Lydgate_s_disappointment",
    "takePlaceAt": {
-    "name": "Their_home"
+    "name": "Their_home",
+    "id": "texts/middlemarch.txt#Their_home"
    },
    "hasParticipant": [
     {
-     "name": "Lydgate"
+     "name": "Lydgate",
+     "id": "texts/middlemarch.txt#Lydgate"
     },
     {
-     "name": "Rosamond"
+     "name": "Rosamond",
+     "id": "texts/middlemarch.txt#Rosamond"
     }
-   ]
+   ],
+   "id": "texts/middlemarch.txt#Lydgate_s_disappointment"
   },
   {
    "name": "Preventing_further_discussion_about_the_house",
    "takePlaceAt": {
-    "name": "Their_home"
+    "name": "Their_home",
+    "id": "texts/middlemarch.txt#Their_home"
    },
    "hasParticipant": [
     {
-     "name": "Lydgate"
+     "name": "Lydgate",
+     "id": "texts/middlemarch.txt#Lydgate"
     },
     {
-     "name": "Rosamond"
+     "name": "Rosamond",
+     "id": "texts/middlemarch.txt#Rosamond"
     }
-   ]
+   ],
+   "id": "texts/middlemarch.txt#Preventing_further_discussion_about_the_house"
   }
  ],
  "Places": [
   {
-   "name": "Their_home"
+   "name": "Their_home",
+   "id": "texts/middlemarch.txt#Their_home"
   },
   {
-   "name": "Their_home"
+   "name": "Their_home",
+   "id": "texts/middlemarch.txt#Their_home"
   },
   {
-   "name": "Their_home"
+   "name": "Their_home",
+   "id": "texts/middlemarch.txt#Their_home"
   },
   {
-   "name": "Their_home"
+   "name": "Their_home",
+   "id": "texts/middlemarch.txt#Their_home"
   },
   {
-   "name": "Their_home"
+   "name": "Their_home",
+   "id": "texts/middlemarch.txt#Their_home"
   },
   {
-   "name": "Their_home"
+   "name": "Their_home",
+   "id": "texts/middlemarch.txt#Their_home"
   }
  ]
 }

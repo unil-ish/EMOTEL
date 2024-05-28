@@ -8,24 +8,31 @@
      "hasIntensity": 0.8,
      "quote": "Mr. Ladislaw! What can he have to say to me?",
      "hasObject": {
-      "name": "Letter"
+      "name": "Letter",
+      "id": "texts/middlemarch.txt#Letter"
      },
      "causedBy": {
-      "name": "Receiving_a_letter_from_Mr_Ladislaw"
-     }
+      "name": "Receiving_a_letter_from_Mr_Ladislaw",
+      "id": "texts/middlemarch.txt#Receiving_a_letter_from_Mr_Ladislaw"
+     },
+     "id": "Surprise"
     },
     {
      "name": "Pleased",
      "hasIntensity": 0.7,
      "quote": "But I can imagine what he has written to you about.",
      "hasObject": {
-      "name": "Letter"
+      "name": "Letter",
+      "id": "texts/middlemarch.txt#Letter"
      },
      "causedBy": {
-      "name": "Receiving_a_letter_from_Mr_Ladislaw"
-     }
+      "name": "Receiving_a_letter_from_Mr_Ladislaw",
+      "id": "texts/middlemarch.txt#Receiving_a_letter_from_Mr_Ladislaw"
+     },
+     "id": "Pleased"
     }
-   ]
+   ],
+   "id": "texts/middlemarch.txt#Dorothea"
   },
   {
    "name": "Mr_Casaubon",
@@ -35,68 +42,87 @@
      "hasIntensity": 0.9,
      "quote": "But I may as well say beforehand, that I must decline the proposal it contains to pay a visit here.",
      "hasObject": {
-      "name": "Letter"
+      "name": "Letter",
+      "id": "texts/middlemarch.txt#Letter"
      },
      "causedBy": {
-      "name": "Dorothea_s_reaction_to_the_letter_from_Mr_Ladislaw"
-     }
+      "name": "Dorothea_s_reaction_to_the_letter_from_Mr_Ladislaw",
+      "id": "texts/middlemarch.txt#Dorothea_s_reaction_to_the_letter_from_Mr_Ladislaw"
+     },
+     "id": "Displeasure"
     }
-   ]
+   ],
+   "id": "texts/middlemarch.txt#Mr_Casaubon"
   }
  ],
  "Events": [
   {
    "name": "Receiving_a_letter_from_Mr_Ladislaw",
    "takePlaceAt": {
-    "name": "Library"
+    "name": "Library",
+    "id": "texts/middlemarch.txt#Library"
    },
    "hasParticipant": [
     {
-     "name": "Dorothea"
+     "name": "Dorothea",
+     "id": "texts/middlemarch.txt#Dorothea"
     },
     {
-     "name": "Mr_Casaubon"
+     "name": "Mr_Casaubon",
+     "id": "texts/middlemarch.txt#Mr_Casaubon"
     }
-   ]
+   ],
+   "id": "texts/middlemarch.txt#Receiving_a_letter_from_Mr_Ladislaw"
   },
   {
    "name": "Receiving_a_letter_from_Mr_Ladislaw",
    "takePlaceAt": {
-    "name": "Library"
+    "name": "Library",
+    "id": "texts/middlemarch.txt#Library"
    },
    "hasParticipant": [
     {
-     "name": "Dorothea"
+     "name": "Dorothea",
+     "id": "texts/middlemarch.txt#Dorothea"
     },
     {
-     "name": "Mr_Casaubon"
+     "name": "Mr_Casaubon",
+     "id": "texts/middlemarch.txt#Mr_Casaubon"
     }
-   ]
+   ],
+   "id": "texts/middlemarch.txt#Receiving_a_letter_from_Mr_Ladislaw"
   },
   {
    "name": "Dorothea_s_reaction_to_the_letter_from_Mr_Ladislaw",
    "takePlaceAt": {
-    "name": "Library"
+    "name": "Library",
+    "id": "texts/middlemarch.txt#Library"
    },
    "hasParticipant": [
     {
-     "name": "Dorothea"
+     "name": "Dorothea",
+     "id": "texts/middlemarch.txt#Dorothea"
     },
     {
-     "name": "Mr_Casaubon"
+     "name": "Mr_Casaubon",
+     "id": "texts/middlemarch.txt#Mr_Casaubon"
     }
-   ]
+   ],
+   "id": "texts/middlemarch.txt#Dorothea_s_reaction_to_the_letter_from_Mr_Ladislaw"
   }
  ],
  "Places": [
   {
-   "name": "Library"
+   "name": "Library",
+   "id": "texts/middlemarch.txt#Library"
   },
   {
-   "name": "Library"
+   "name": "Library",
+   "id": "texts/middlemarch.txt#Library"
   },
   {
-   "name": "Library"
+   "name": "Library",
+   "id": "texts/middlemarch.txt#Library"
   }
  ]
 }

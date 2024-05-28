@@ -8,13 +8,17 @@
      "hasIntensity": 0.7,
      "quote": "I felt that I ought not to let it be used by some one else instead of me.",
      "hasObject": {
-      "name": "Patronage"
+      "name": "Patronage",
+      "id": "texts/middlemarch.txt#Patronage"
      },
      "causedBy": {
-      "name": "Being_offered_patronage"
-     }
+      "name": "Being_offered_patronage",
+      "id": "texts/middlemarch.txt#Being_offered_patronage"
+     },
+     "id": "Acceptance"
     }
-   ]
+   ],
+   "id": "texts/middlemarch.txt#Dorothea_Brooke"
   },
   {
    "name": "Fred_Vincy",
@@ -24,13 +28,17 @@
      "hasIntensity": 0.9,
      "quote": "There is somebody I am very fond of: I have loved her ever since we were children.",
      "hasObject": {
-      "name": "Mary_Garth"
+      "name": "Mary_Garth",
+      "id": "texts/middlemarch.txt#Mary_Garth"
      },
      "causedBy": {
-      "name": "Being_in_love_with_Mary_Garth"
-     }
+      "name": "Being_in_love_with_Mary_Garth",
+      "id": "texts/middlemarch.txt#Being_in_love_with_Mary_Garth"
+     },
+     "id": "Love"
     }
-   ]
+   ],
+   "id": "texts/middlemarch.txt#Fred_Vincy"
   },
   {
    "name": "Mr_Farebrother",
@@ -40,13 +48,17 @@
      "hasIntensity": 0.8,
      "quote": "I am ready to hear and do anything I can.",
      "hasObject": {
-      "name": "Helping_Fred_Vincy"
+      "name": "Helping_Fred_Vincy",
+      "id": "texts/middlemarch.txt#Helping_Fred_Vincy"
      },
      "causedBy": {
-      "name": "Fred_Vincy_seeking_advice"
-     }
+      "name": "Fred_Vincy_seeking_advice",
+      "id": "texts/middlemarch.txt#Fred_Vincy_seeking_advice"
+     },
+     "id": "Duty"
     }
-   ]
+   ],
+   "id": "texts/middlemarch.txt#Mr_Farebrother"
   },
   {
    "name": "Mary_Garth",
@@ -56,83 +68,107 @@
      "hasIntensity": 0.6,
      "quote": "Her heart beat uncomfortably.",
      "hasObject": {
-      "name": "Fred_Vincy"
+      "name": "Fred_Vincy",
+      "id": "texts/middlemarch.txt#Fred_Vincy"
      },
      "causedBy": {
-      "name": "Being_approached_by_Mr_Farebrother_about_Fred_Vincy"
-     }
+      "name": "Being_approached_by_Mr_Farebrother_about_Fred_Vincy",
+      "id": "texts/middlemarch.txt#Being_approached_by_Mr_Farebrother_about_Fred_Vinc"
+     },
+     "id": "Nervousness"
     }
-   ]
+   ],
+   "id": "texts/middlemarch.txt#Mary_Garth"
   }
  ],
  "Events": [
   {
    "name": "Being_offered_patronage",
    "takePlaceAt": {
-    "name": "Lowick_Rectory"
+    "name": "Lowick_Rectory",
+    "id": "texts/middlemarch.txt#Lowick_Rectory"
    },
    "hasParticipant": {
-    "name": "Dorothea_Brooke"
-   }
+    "name": "Dorothea_Brooke",
+    "id": "texts/middlemarch.txt#Dorothea_Brooke"
+   },
+   "id": "texts/middlemarch.txt#Being_offered_patronage"
   },
   {
    "name": "Being_in_love_with_Mary_Garth",
    "takePlaceAt": {
-    "name": "Lowick_Rectory"
+    "name": "Lowick_Rectory",
+    "id": "texts/middlemarch.txt#Lowick_Rectory"
    },
    "hasParticipant": [
     {
-     "name": "Fred_Vincy"
+     "name": "Fred_Vincy",
+     "id": "texts/middlemarch.txt#Fred_Vincy"
     },
     {
-     "name": "Mary_Garth"
+     "name": "Mary_Garth",
+     "id": "texts/middlemarch.txt#Mary_Garth"
     }
-   ]
+   ],
+   "id": "texts/middlemarch.txt#Being_in_love_with_Mary_Garth"
   },
   {
    "name": "Fred_Vincy_seeking_advice",
    "takePlaceAt": {
-    "name": "Lowick_Rectory"
+    "name": "Lowick_Rectory",
+    "id": "texts/middlemarch.txt#Lowick_Rectory"
    },
    "hasParticipant": [
     {
-     "name": "Mr_Farebrother"
+     "name": "Mr_Farebrother",
+     "id": "texts/middlemarch.txt#Mr_Farebrother"
     },
     {
-     "name": "Fred_Vincy"
+     "name": "Fred_Vincy",
+     "id": "texts/middlemarch.txt#Fred_Vincy"
     }
-   ]
+   ],
+   "id": "texts/middlemarch.txt#Fred_Vincy_seeking_advice"
   },
   {
    "name": "Being_approached_by_Mr_Farebrother_about_Fred_Vincy",
    "takePlaceAt": {
-    "name": "Lowick_Rectory"
+    "name": "Lowick_Rectory",
+    "id": "texts/middlemarch.txt#Lowick_Rectory"
    },
    "hasParticipant": [
     {
-     "name": "Mary_Garth"
+     "name": "Mary_Garth",
+     "id": "texts/middlemarch.txt#Mary_Garth"
     },
     {
-     "name": "Mr_Farebrother"
+     "name": "Mr_Farebrother",
+     "id": "texts/middlemarch.txt#Mr_Farebrother"
     },
     {
-     "name": "Fred_Vincy"
+     "name": "Fred_Vincy",
+     "id": "texts/middlemarch.txt#Fred_Vincy"
     }
-   ]
+   ],
+   "id": "texts/middlemarch.txt#Being_approached_by_Mr_Farebrother_about_Fred_Vinc"
   }
  ],
  "Places": [
   {
-   "name": "Lowick_Rectory"
+   "name": "Lowick_Rectory",
+   "id": "texts/middlemarch.txt#Lowick_Rectory"
   },
   {
-   "name": "Lowick_Rectory"
+   "name": "Lowick_Rectory",
+   "id": "texts/middlemarch.txt#Lowick_Rectory"
   },
   {
-   "name": "Lowick_Rectory"
+   "name": "Lowick_Rectory",
+   "id": "texts/middlemarch.txt#Lowick_Rectory"
   },
   {
-   "name": "Lowick_Rectory"
+   "name": "Lowick_Rectory",
+   "id": "texts/middlemarch.txt#Lowick_Rectory"
   }
  ]
 }

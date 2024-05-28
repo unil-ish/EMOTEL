@@ -8,149 +8,191 @@
      "hasIntensity": 0.9,
      "quote": "Fathom, who had hitherto observed a strict neutrality, no sooner perceived them approach, than he leaped in between the disputants, that he might be found acting in the character of a peacemaker.",
      "hasObject": {
-      "name": "Resolving_a_conflict"
+      "name": "Resolving_a_conflict",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Resolving_a_conflict"
      },
      "causedBy": {
-      "name": "Intervening_in_a_fight_between_the_English_knight_and_the_German_count"
-     }
+      "name": "Intervening_in_a_fight_between_the_English_knight_and_the_German_count",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Intervening_in_a_fight_between_the_English_knight_"
+     },
+     "id": "Trust"
     },
     {
      "name": "Surprise",
      "hasIntensity": 0.7,
      "quote": "The knight, that he might not be behindhand with the Westphalian in point of courtesy, returned the compliment with the remaining chandelier, which also missed its mark, and, smiting a large mirror that was fixed behind them, emitted such a crash as one might expect to hear if a mine were sprung beneath a manufacture of glass.",
      "hasObject": {
-      "name": "Chandelier"
+      "name": "Chandelier",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Chandelier"
      },
      "causedBy": {
-      "name": "Throwing_a_chandelier_during_a_fight"
-     }
+      "name": "Throwing_a_chandelier_during_a_fight",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Throwing_a_chandelier_during_a_fight"
+     },
+     "id": "Surprise"
     },
     {
      "name": "Anger",
      "hasIntensity": 0.8,
      "quote": "The German, enraged at this comparison, was quite abandoned by his patience and discretion. He called the knight an English clown, and, swearing he was the most untoward beast of a whole nation of mules, snatched up one of the candlesticks, which he launched at him with such force and violence, that it sung through the air, and, winging its flight into the ante-chamber, encountered the skull of his own valet, who with immediate prostration received the message of his master.",
      "hasObject": {
-      "name": "Candlestick"
+      "name": "Candlestick",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Candlestick"
      },
      "causedBy": {
-      "name": "Launching_a_candlestick_at_the_English_knight"
-     }
+      "name": "Launching_a_candlestick_at_the_English_knight",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Launching_a_candlestick_at_the_English_knight"
+     },
+     "id": "Anger"
     },
     {
      "name": "Joy",
      "hasIntensity": 0.7,
      "quote": "Fathom having reconnoitred this peculiarity of temper, instead of treating him with that assiduous complaisance, which he received from the other gentlemen of the party, kept aloof from him in the conversation, with a remarkable shyness of distant civility, and seldom took notice of what he said, except with a view to contradict him, or retort some of his satirical observations.",
      "hasObject": {
-      "name": "Understanding_the_English_knight_s_character"
+      "name": "Understanding_the_English_knight_s_character",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Understanding_the_English_knight_s_character"
      },
      "causedBy": {
-      "name": "Observing_the_English_knight_s_behaviour"
-     }
+      "name": "Observing_the_English_knight_s_behaviour",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Observing_the_English_knight_s_behaviour"
+     },
+     "id": "Joy"
     },
     {
      "name": "Acceptance",
      "hasIntensity": 0.8,
      "quote": "Fathom, finding him in a fit temper of mind, took the opportunity of assenting to the reasonableness of his observation. He ventured to condemn the impetuosity of the baronet, who, he perceived, was extremely nice and scrupulous in the punctilios of honour; and said it was a pity that two gentlemen should forfeit each other’s friendship, much less expose their lives, for such a frivolous cause.",
      "hasObject": {
-      "name": "Resolving_to_avoid_a_duel"
+      "name": "Resolving_to_avoid_a_duel",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Resolving_to_avoid_a_duel"
      },
      "causedBy": {
-      "name": "Agreeing_with_the_German_count_s_perspective"
-     }
+      "name": "Agreeing_with_the_German_count_s_perspective",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Agreeing_with_the_German_count_s_perspective"
+     },
+     "id": "Acceptance"
     }
-   ]
+   ],
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Count_Fathom"
   }
  ],
  "Events": [
   {
    "name": "Intervening_in_a_fight_between_the_English_knight_and_the_German_count",
    "takePlaceAt": {
-    "name": "House_of_the_obliging_dame"
+    "name": "House_of_the_obliging_dame",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#House_of_the_obliging_dame"
    },
    "hasParticipant": [
     {
-     "name": "Count_Fathom"
+     "name": "Count_Fathom",
+     "id": "texts/theadventuresofferdinandcountfathom.txt#Count_Fathom"
     },
     {
-     "name": "English_knight"
+     "name": "English_knight",
+     "id": "texts/theadventuresofferdinandcountfathom.txt#English_knight"
     },
     {
-     "name": "German_count"
+     "name": "German_count",
+     "id": "texts/theadventuresofferdinandcountfathom.txt#German_count"
     }
-   ]
+   ],
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Intervening_in_a_fight_between_the_English_knight_"
   },
   {
    "name": "Throwing_a_chandelier_during_a_fight",
    "takePlaceAt": {
-    "name": "House_of_the_obliging_dame"
+    "name": "House_of_the_obliging_dame",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#House_of_the_obliging_dame"
    },
    "hasParticipant": [
     {
-     "name": "English_knight"
+     "name": "English_knight",
+     "id": "texts/theadventuresofferdinandcountfathom.txt#English_knight"
     },
     {
-     "name": "German_count"
+     "name": "German_count",
+     "id": "texts/theadventuresofferdinandcountfathom.txt#German_count"
     }
-   ]
+   ],
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Throwing_a_chandelier_during_a_fight"
   },
   {
    "name": "Launching_a_candlestick_at_the_English_knight",
    "takePlaceAt": {
-    "name": "House_of_the_obliging_dame"
+    "name": "House_of_the_obliging_dame",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#House_of_the_obliging_dame"
    },
    "hasParticipant": [
     {
-     "name": "German_count"
+     "name": "German_count",
+     "id": "texts/theadventuresofferdinandcountfathom.txt#German_count"
     },
     {
-     "name": "English_knight"
+     "name": "English_knight",
+     "id": "texts/theadventuresofferdinandcountfathom.txt#English_knight"
     }
-   ]
+   ],
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Launching_a_candlestick_at_the_English_knight"
   },
   {
    "name": "Observing_the_English_knight_s_behaviour",
    "takePlaceAt": {
-    "name": "House_of_the_obliging_dame"
+    "name": "House_of_the_obliging_dame",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#House_of_the_obliging_dame"
    },
    "hasParticipant": [
     {
-     "name": "Count_Fathom"
+     "name": "Count_Fathom",
+     "id": "texts/theadventuresofferdinandcountfathom.txt#Count_Fathom"
     },
     {
-     "name": "English_knight"
+     "name": "English_knight",
+     "id": "texts/theadventuresofferdinandcountfathom.txt#English_knight"
     }
-   ]
+   ],
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Observing_the_English_knight_s_behaviour"
   },
   {
    "name": "Agreeing_with_the_German_count_s_perspective",
    "takePlaceAt": {
-    "name": "German_count_s_habitation"
+    "name": "German_count_s_habitation",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#German_count_s_habitation"
    },
    "hasParticipant": [
     {
-     "name": "Count_Fathom"
+     "name": "Count_Fathom",
+     "id": "texts/theadventuresofferdinandcountfathom.txt#Count_Fathom"
     },
     {
-     "name": "German_count"
+     "name": "German_count",
+     "id": "texts/theadventuresofferdinandcountfathom.txt#German_count"
     }
-   ]
+   ],
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Agreeing_with_the_German_count_s_perspective"
   }
  ],
  "Places": [
   {
-   "name": "House_of_the_obliging_dame"
+   "name": "House_of_the_obliging_dame",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#House_of_the_obliging_dame"
   },
   {
-   "name": "House_of_the_obliging_dame"
+   "name": "House_of_the_obliging_dame",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#House_of_the_obliging_dame"
   },
   {
-   "name": "House_of_the_obliging_dame"
+   "name": "House_of_the_obliging_dame",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#House_of_the_obliging_dame"
   },
   {
-   "name": "House_of_the_obliging_dame"
+   "name": "House_of_the_obliging_dame",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#House_of_the_obliging_dame"
   },
   {
-   "name": "German_count_s_habitation"
+   "name": "German_count_s_habitation",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#German_count_s_habitation"
   }
  ]
 }

@@ -78,7 +78,7 @@ class Lookup:
 if __name__ == "__main__":
     l = Lookup()
 
-    root_directory = "../data/annotations_cleaned"
+    root_directory = "data/annotations_cleaned"
     for directory_name in os.listdir(root_directory):
         directory_path = os.path.join(root_directory, directory_name)
         l.new_story(directory_name)

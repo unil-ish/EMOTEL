@@ -8,35 +8,45 @@
      "hasIntensity": 0.9,
      "quote": "Thunderstruck at this disappointment, the confederates held a council, in order to deliberate upon the next measures that should be taken; and Ferdinand, for the present, despairing of accomplishing his grand aim, resolved to profit in another manner, by the conveniency of his situation.",
      "hasObject": {
-      "name": "Change_of_plan"
+      "name": "Change_of_plan",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Change_of_plan"
      },
      "causedBy": {
-      "name": "Disappointment_in_original_plan"
-     }
+      "name": "Disappointment_in_original_plan",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Disappointment_in_original_plan"
+     },
+     "id": "Satisfaction"
     },
     {
      "name": "Deception",
      "hasIntensity": 0.8,
      "quote": "Under this secure cover, Teresa levied contributions upon her mistress with great success.",
      "hasObject": {
-      "name": "Contributions"
+      "name": "Contributions",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Contributions"
      },
      "causedBy": {
-      "name": "Successful_deception"
-     }
+      "name": "Successful_deception",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Successful_deception"
+     },
+     "id": "Deception"
     },
     {
      "name": "Concern",
      "hasIntensity": 0.9,
      "quote": "The old gentleman felt upon this occasion all that internal anguish which a man of honour may be supposed to suffer, on account of a son’s degeneracy.",
      "hasObject": {
-      "name": "Son_s_degeneracy"
+      "name": "Son_s_degeneracy",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Son_s_degeneracy"
      },
      "causedBy": {
-      "name": "Son_s_degeneracy"
-     }
+      "name": "Son_s_degeneracy",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Son_s_degeneracy"
+     },
+     "id": "Concern"
     }
-   ]
+   ],
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Ferdinand_Fathom"
   },
   {
    "name": "Teresa",
@@ -46,24 +56,31 @@
      "hasIntensity": 0.8,
      "quote": "Teresa, seizing this occasion to signalise her generosity, joined in the request, and the offender was pardoned.",
      "hasObject": {
-      "name": "Pardoning_the_offender"
+      "name": "Pardoning_the_offender",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Pardoning_the_offender"
      },
      "causedBy": {
-      "name": "Pardoning_the_offender"
-     }
+      "name": "Pardoning_the_offender",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Pardoning_the_offender"
+     },
+     "id": "Relief"
     },
     {
      "name": "Anxiety",
      "hasIntensity": 0.9,
      "quote": "Mademoiselle was accordingly alarmed to such a degree, that she made her mother acquainted with her loss, and that good lady, who was an excellent economist, did not fail to give indications of extraordinary concern.",
      "hasObject": {
-      "name": "Loss_of_diamond_earrings"
+      "name": "Loss_of_diamond_earrings",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Loss_of_diamond_earrings"
      },
      "causedBy": {
-      "name": "Loss_of_diamond_earrings"
-     }
+      "name": "Loss_of_diamond_earrings",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Loss_of_diamond_earrings"
+     },
+     "id": "Anxiety"
     }
-   ]
+   ],
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Teresa"
   },
   {
    "name": "Mademoiselle",
@@ -73,91 +90,119 @@
      "hasIntensity": 0.9,
      "quote": "Mademoiselle was accordingly alarmed to such a degree, that she made her mother acquainted with her loss, and that good lady, who was an excellent economist, did not fail to give indications of extraordinary concern.",
      "hasObject": {
-      "name": "Loss_of_diamond_earrings"
+      "name": "Loss_of_diamond_earrings",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Loss_of_diamond_earrings"
      },
      "causedBy": {
-      "name": "Loss_of_diamond_earrings"
-     }
+      "name": "Loss_of_diamond_earrings",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Loss_of_diamond_earrings"
+     },
+     "id": "Concern"
     },
     {
      "name": "Suspicion",
      "hasIntensity": 0.8,
      "quote": "Mademoiselle, not without difficulty, quieted her vexation with assurances of inviolable confidence and esteem, until a pair of diamond earrings vanished, when Teresa could no longer keep her affliction within bounds.",
      "hasObject": {
-      "name": "Loss_of_diamond_earrings"
+      "name": "Loss_of_diamond_earrings",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Loss_of_diamond_earrings"
      },
      "causedBy": {
-      "name": "Loss_of_diamond_earrings"
-     }
+      "name": "Loss_of_diamond_earrings",
+      "id": "texts/theadventuresofferdinandcountfathom.txt#Loss_of_diamond_earrings"
+     },
+     "id": "Suspicion"
     }
-   ]
+   ],
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Mademoiselle"
   }
  ],
  "Events": [
   {
    "name": "Disappointment_in_original_plan",
    "takePlaceAt": {
-    "name": "Council_meeting"
-   }
+    "name": "Council_meeting",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Council_meeting"
+   },
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Disappointment_in_original_plan"
   },
   {
    "name": "Successful_deception",
    "takePlaceAt": {
-    "name": "Levying_contributions"
-   }
+    "name": "Levying_contributions",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Levying_contributions"
+   },
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Successful_deception"
   },
   {
    "name": "Son_s_degeneracy",
    "takePlaceAt": {
-    "name": "Internal_reflection"
-   }
+    "name": "Internal_reflection",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Internal_reflection"
+   },
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Son_s_degeneracy"
   },
   {
    "name": "Pardoning_the_offender",
    "takePlaceAt": {
-    "name": "Request_to_pardon"
-   }
+    "name": "Request_to_pardon",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Request_to_pardon"
+   },
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Pardoning_the_offender"
   },
   {
    "name": "Loss_of_diamond_earrings",
    "takePlaceAt": {
-    "name": "Alarm_and_report_to_mother"
-   }
+    "name": "Alarm_and_report_to_mother",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Alarm_and_report_to_mother"
+   },
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Loss_of_diamond_earrings"
   },
   {
    "name": "Loss_of_diamond_earrings",
    "takePlaceAt": {
-    "name": "Alarm_and_report_to_mother"
-   }
+    "name": "Alarm_and_report_to_mother",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Alarm_and_report_to_mother"
+   },
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Loss_of_diamond_earrings"
   },
   {
    "name": "Loss_of_diamond_earrings",
    "takePlaceAt": {
-    "name": "Vexation_and_suspicion"
-   }
+    "name": "Vexation_and_suspicion",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Vexation_and_suspicion"
+   },
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Loss_of_diamond_earrings"
   }
  ],
  "Places": [
   {
-   "name": "Council_meeting"
+   "name": "Council_meeting",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Council_meeting"
   },
   {
-   "name": "Levying_contributions"
+   "name": "Levying_contributions",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Levying_contributions"
   },
   {
-   "name": "Internal_reflection"
+   "name": "Internal_reflection",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Internal_reflection"
   },
   {
-   "name": "Request_to_pardon"
+   "name": "Request_to_pardon",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Request_to_pardon"
   },
   {
-   "name": "Alarm_and_report_to_mother"
+   "name": "Alarm_and_report_to_mother",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Alarm_and_report_to_mother"
   },
   {
-   "name": "Alarm_and_report_to_mother"
+   "name": "Alarm_and_report_to_mother",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Alarm_and_report_to_mother"
   },
   {
-   "name": "Vexation_and_suspicion"
+   "name": "Vexation_and_suspicion",
+   "id": "texts/theadventuresofferdinandcountfathom.txt#Vexation_and_suspicion"
   }
  ]
 }
