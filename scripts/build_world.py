@@ -7,10 +7,29 @@ from rdflib.namespace import XSD
 EMOTEL = Namespace("https://github.com/unil-ish/EMOTEL#")
 ROOT_DIRECTORY = "../data/annotations_cleaned"
 
+output_file = "../outputs/world.xml"
+
 d = {}
 g = Graph()
 g.parse("../ontology/ontology.owl", format="xml")
 g.bind("emotel", EMOTEL)
+
+
+def create_uri(element_id):
+    """Crée un URI pour un élément donné.
+
+    Args:
+        base_uri (str): L'URI de base.
+        element_id (str): L'identifiant de l'élément.
+
+    Returns:
+        URIRef: L'URI complet de l'élément.
+    """
+
+    base_uri = EMOTEL
+    if "texts/" in element_id:
+        base_uri = base_uri.replace("#", "") + "/"
+    return URIRef(f"{base_uri}{element_id}")
 
 
 def add_in_story(obj, obj_type, story):
@@ -28,7 +47,7 @@ def add_in_story(obj, obj_type, story):
     """
 
     if "id" in obj:
-        uri = URIRef(obj["id"])
+        uri = create_uri(obj["id"])
         g.add((uri, RDF.type, obj_type))
         if "name" in obj:
             g.add((uri, EMOTEL.hasName, Literal(obj["name"])))
@@ -50,6 +69,7 @@ def add_event(obj):
     i = add_in_story(
         obj=obj,
         obj_type=EMOTEL.FictionalEvent,
+        story=story,
     )
 
     # ajouter les propriétés événements -> lieu
@@ -59,7 +79,7 @@ def add_event(obj):
     if isinstance(x, list):
         for p in x:
             if "id" in p:
-                uri = URIRef(p["id"])
+                uri = create_uri(p["id"])
                 _ = g.add((i, EMOTEL.takePlaceAt, uri))
 
     # ajouter les propriétés événements -> personnages
@@ -69,7 +89,7 @@ def add_event(obj):
     if isinstance(x, list):
         for p in x:
             if "id" in p:
-                uri = URIRef(p["id"])
+                uri = create_uri(p["id"])
                 _ = g.add((i, EMOTEL.hasParticipant, uri))
 
 
@@ -85,23 +105,23 @@ def add_emotion(obj, n) -> None:
     """
 
     if "name" in obj:
-        uri = URIRef(obj["name"])
+        uri = create_uri(obj["name"])
         emotion_type = getattr(EMOTEL, obj["name"])
         _ = g.add((uri, RDF.type, emotion_type))
         _ = g.add((uri, EMOTEL.isIn, story))
 
         if "feltBy" in obj:
-            _ = g.add((uri, EMOTEL.feltBy, d[obj["feltBy"]]))
+            _ = g.add((uri, EMOTEL.feltBy, create_uri([obj["feltBy"]])))
 
         for prop in ["causedBy", "hasObject"]:
             x = obj.get(prop)
             if x is not None:
                 y = x.get("id")
                 if y is not None:
-                    g.add((uri, getattr(EMOTEL, prop), URIRef(y)))
+                    _ = g.add((uri, getattr(EMOTEL, prop), create_uri(y)))
 
         if "hasIntensity" in obj:
-            g.add(
+            _ = g.add(
                 (
                     uri,
                     EMOTEL.hasIntensity,
@@ -120,7 +140,7 @@ def get_all_jsons(directory) -> list:
         list (les JSONS parsed)
     """
 
-    a = []
+    annotes = []
     for file in os.listdir(directory):
         fp = os.path.join(directory, file)
         try:
@@ -129,14 +149,14 @@ def get_all_jsons(directory) -> list:
             annotes.append(a)
         except json.decoder.JSONDecodeError:
             pass
-    return a
+    return annotes
 
 
 # def add_story(g, directory, n=0):
 root_directory = "../data/annotations_cleaned"
 n = 0
 for directory_name in os.listdir(root_directory):
-    story = URIRef(directory_name)
+    story = create_uri(directory_name)
     dir_path = os.path.join(ROOT_DIRECTORY, directory_name)
     annotes = get_all_jsons(dir_path)
 
@@ -181,17 +201,16 @@ for directory_name in os.listdir(root_directory):
         i = add_in_story(
             obj=obj,
             obj_type=EMOTEL.FictionalCharacter,
+            story=story,
         )
 
     # ajouter les évenements
     for obj in events:
         add_event(obj)
 
-    # ajouter, enfin, les émotions
     for obj in emotions:
         n += 1
         add_emotion(obj=obj, n=n)
 
-output_file = "../outputs/world.xml"
 with open(output_file, "w") as f:
     f.write(g.serialize(format="pretty-xml"))
