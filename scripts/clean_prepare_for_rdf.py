@@ -5,23 +5,19 @@ import re
 from typing import Callable
 import owlready2 as owl
 import types
-from build_world import get_all_jsons, JSON_DIRECTORY
-
+from build_populated_ontology import get_all_jsons, JSON_DIRECTORY
 
 def dict_iter_rec(obj, fn_condition: Callable, fn_apply: Callable) -> None:
-    """recherche récursivement les 'dict' satisfaisant une certaine condition et leur applique une fonction qui modifie ces dicts.
+    """Recherche récursivement les dictionnaires satisfaisant une condition et leur applique une fonction.
 
     Args:
-        obj (dict): n'importe quel objet dans lequel chercher récursivement des dictionnaires satisfaisant à une condition.
+        obj (dict): Objet dans lequel chercher récursivement des dictionnaires.
+        fn_condition (Callable): Fonction pour identifier les objets sur lesquels appliquer `fn_apply`.
+        fn_apply (Callable): Fonction à appliquer sur les objets satisfaisant `fn_condition`.
 
-        fn_condition (Callable): une fonction qui permet d'identifier les objets sur lesquels appliquer la fonction `fn_apply`.
-
-        fn_apply (Callable): la fonction à appliquer sur les objets satisfaisant à la condition `fn_condition`.
-
-    Returs:
-        None: (les objets sont modifiés 'in place'.)
+    Returns:
+        None: Les objets sont modifiés in place.
     """
-
     if isinstance(obj, dict) and fn_condition(obj):
         fn_apply(obj)
     if isinstance(obj, dict):
@@ -31,57 +27,42 @@ def dict_iter_rec(obj, fn_condition: Callable, fn_apply: Callable) -> None:
         for i in obj:
             dict_iter_rec(i, fn_condition, fn_apply)
 
-
 def url_conformize(s: str) -> str:
-    """Normalise une chaîne de caractère pour qu'elle puisse être integrée à une URI.
+    """Normalise une chaîne de caractères pour une URI.
 
     Args:
-        s (str): Le nom à nettoyer.
+        s (str): Chaîne à nettoyer.
 
     Returns:
-        str: Le nom nettoyé.
+        str: Chaîne nettoyée.
     """
-
     s = unicodedata.normalize("NFC", s)
     s = re.sub("[_' ]+", "_", s)
     return "".join([c for c in s if c.isalnum() or c == "_"])
 
-
 def normalize_obj_name(obj: dict) -> None:
-    """Normalise l'attributs 'name' d'un objet (dict).
+    """Normalise l'attribut 'name' d'un dictionnaire.
 
     Args:
-        obj (dict): L'objet à nettoyer.
+        obj (dict): Dictionnaire à nettoyer.
     """
-
     if "name" in obj:
         name = obj["name"]
     else:
         name = "undefined"
-    # la fonction qui enlève notamment les espaces.
     name = url_conformize(name)
-
     obj["name"] = name
-    return
-
 
 def clean_annotation_names(annotations: dict) -> None:
-    """Normalise les clés 'name' de tous les objets concernés dans les annotations.
+    """Normalise les clés 'name' dans les annotations.
 
     Args:
-        annotations (dict): Les annotations à normaliser.
+        annotations (dict): Annotations à normaliser.
 
     Returns:
         None
     """
-
-    # certaines clés sont remplacés par d'autres (ici appelés 'ersatz'). l'itération suivante assignes, dans les objets concernés, la valeur de l'ersatz (ex. 'cause') à la clé manquante (ex. 'causedBy').
-    for key, ersatz in [
-        ("feels", "emotions"),
-        ("causedBy", "cause"),
-        ("hasObject", "object"),
-    ]:
-
+    for key, ersatz in [("feels", "emotions"), ("causedBy", "cause"), ("hasObject", "object")]:
         def missing_key_but_ersatz(d: dict) -> bool:
             return key not in d.keys() and ersatz in d.keys()
 
@@ -89,73 +70,41 @@ def clean_annotation_names(annotations: dict) -> None:
             d[key] = d[ersatz]
             d.pop(ersatz)
 
-        dict_iter_rec(
-            obj=annotations,
-            fn_condition=missing_key_but_ersatz,
-            fn_apply=replace_ersatz_with_key,
-        )
+        dict_iter_rec(annotations, missing_key_but_ersatz, replace_ersatz_with_key)
 
-    # certaines propriétés qui devraient être des objets JSON (des dicts) n'en sont pas (par exemple, sont des str). s'il s'agit d'une string, on la remplace par un dict qui associe sa valeur à la clé 'name', s'il s'agit d'une liste et qu'il n'y a qu'un élément, alors on la remplace par ce premier élément.
-    # les autres très rares cas sont des listes à plusieurs éléments, en fait, ce qui aurait été intéressant est d'en avoir d'avantage, en particulier pour 'hasParticipant' qui devrait souvent avoir une liste comme valeur. c'est probablement une amélioration possible de notre prompt.
-    properties = set(
-        [
-            "hasObject",
-            "causedBy",
-            "takePlaceAt",
-            "hasParticipant",
-        ]
-    )
+    properties = {"hasObject", "causedBy", "takePlaceAt", "hasParticipant"}
 
-    def has_any_prop(d):
-        return properties.intersection(d.keys())
+    def has_any_prop(d: dict) -> bool:
+        return bool(properties.intersection(d.keys()))
 
-    def remove_nodict_prop(d):
+    def remove_nodict_prop(d: dict) -> None:
         for p in properties:
             if p in d.keys():
                 obj = d[p]
                 if isinstance(obj, list):
                     if len(obj) == 1:
                         d[p] = obj[0]
-                    else:
-                        pass
                 elif isinstance(obj, str):
                     d[p] = {"name": obj}
-                elif isinstance(obj, dict):
-                    pass
-                else:
+                elif not isinstance(obj, dict):
                     d.pop(p)
 
-    dict_iter_rec(
-        obj=annotations,
-        fn_condition=has_any_prop,
-        fn_apply=remove_nodict_prop,
-    )
+    dict_iter_rec(annotations, has_any_prop, remove_nodict_prop)
 
-    def has_id_or_name_key(d):
-        return set(["id", "name"]).intersection(d.keys())
+    def has_id_or_name_key(d: dict) -> bool:
+        return bool({"id", "name"}.intersection(d.keys()))
 
-    # utilisation d'une fonction (récursive) qui trouve tous les objets JSON (dict) qui ont au moins l'une des clés ['id', 'name'], et applique sur ces objets la fonction de normalisation.
-    dict_iter_rec(
-        obj=annotations,
-        fn_condition=has_id_or_name_key,
-        fn_apply=normalize_obj_name,
-    )
-
-    return
-
+    dict_iter_rec(annotations, has_id_or_name_key, normalize_obj_name)
 
 def rename_causedBy(annotations: dict) -> None:
-    """remplace la propriété 'causedByEvent' par 'causedBy'.
-
-    l'usage de 'causedByEvent' comme nom de propriété dans le prompt est simplement destiné à faire comprendre à ChatGPT que la nature de la cause est un évenement. cette fonction remplace ce nom par le nom de la propriété correspondante dans notre ontologie.
+    """Remplace 'causedByEvent' par 'causedBy'.
 
     Args:
-        annotations (dict): l'objet JSON des annotations dans lequel remplacer les noms de proprétés.
+        annotations (dict): Annotations dans lesquelles remplacer les noms de propriétés.
 
     Returns:
         None
     """
-
     def has_causedbyevent(d: dict) -> bool:
         return "causedByEvent" in d.keys()
 
@@ -163,44 +112,44 @@ def rename_causedBy(annotations: dict) -> None:
         d["causedBy"] = d["causedByEvent"]
         d.pop("causedByEvent")
 
-    dict_iter_rec(
-        obj=annotations,
-        fn_condition=has_causedbyevent,
-        fn_apply=rename_causedbyevent,
-    )
+    dict_iter_rec(annotations, has_causedbyevent, rename_causedbyevent)
 
+def unnest_places_events(annotations: dict) -> None:
+    """Déplie et agrège les JSONs.
 
-def unnest_places_events(annotations):
-    """déplie et aggrège les JSONS:
+    Args:
+        annotations (dict): Annotations à transformer.
 
-    la structure des JSONS produits par ChatGPT est constituée d'objets et d'arrays imbriquées. ce script les 'déplie', applatit la structure pour faciliter les scripts qui peuplent l'ontologie.
+    Returns:
+        None
     """
-
     d = {}
     events = []
     places = []
     characters = annotations.get("FictionalCharacters")
-    if characters is not None:
+    if characters:
         for c in characters:
-            if "feels" in c.keys():
+            if "feels" in c:
                 for emotions in c["feels"]:
-                    if "causedBy" in emotions.keys():
+                    if "causedBy" in emotions:
                         ev = emotions["causedBy"]
                         events.append(ev)
                         emotions["causedBy"] = {"name": ev["name"]}
         d["FictionalCharacters"] = characters
     for ev in events:
-        if "takePlaceAt" in ev.keys():
+        if "takePlaceAt" in ev:
             pl = ev["takePlaceAt"]
             places.append(pl)
             ev["takePlaceAt"] = {"name": pl["name"]}
     annotations["Events"] = events
     annotations["Places"] = places
-    return
 
+def add_unregistered_emotions() -> None:
+    """Ajoute des émotions non enregistrées dans l'ontologie.
 
-def add_unregistered_emotions():
-
+    Returns:
+        None
+    """
     curfile = os.path.realpath(__file__)
     root = os.path.dirname(os.path.dirname(curfile))
     base_onto = os.path.join(root, "ontology", "ontology.owl")
@@ -214,13 +163,14 @@ def add_unregistered_emotions():
         annotes.extend(get_all_jsons(os.path.join(JSON_DIRECTORY, directory_name)))
     for a in annotes:
         x = a.get("FictionalCharacters")
-        if x is not None:
+        if x:
             for char in x:
                 y = char.get("feels")
                 if isinstance(y, list):
                     for emo in y:
                         if "name" in emo:
                             emotions.add(emo["name"])
+
     registered_emotions = set()
     unregistered = set()
 
@@ -236,15 +186,17 @@ def add_unregistered_emotions():
 
     for i in onto.classes():
         registered_emotions.add(str(i))
+
     for emo in emotions:
         if emo not in registered_emotions:
             unregistered.add(emo)
+
     with onto:
         for emo in unregistered:
             _ = types.new_class(emo, (onto.Emotion,))
+
     onto_extend_fp = base_onto.replace('.', '_extended.')
     onto.save(file=onto_extend_fp, format="rdfxml")
-
 
 if __name__ == "__main__":
     dir_source = "data/annotations"
@@ -252,7 +204,6 @@ if __name__ == "__main__":
     add_unregistered_emotions()
     quit(0)  # test
 
-    # la structure ci-dessous ne sert qu'à une seule chose: appliquer sur chaque fichier d'annotations les fonctions du présent module, et écrire le résultat dans un nouveau fichier, avec le même nom mais dans un autre dossier.
     for dirname in os.listdir(dir_source):
         d1 = os.path.join(dir_source, dirname)
         for filename in os.listdir(d1):
