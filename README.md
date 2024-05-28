@@ -22,6 +22,8 @@ Nous utilisons ensuite des LLMs (ici [ChatGPT](https://chatgpt.com/)) pour annot
 
 5. Développement de scripts permettant l'ajouts de nos individus dans l'ontologie.
 
+6. Création d'une deuxième ontologie étendue à partir des résultats de ChatGPT.
+
 ## Structure de ce repository
 
 | Dossier | Contenu |
@@ -60,7 +62,8 @@ Pour répliquer nos résultats (en partant de `ontology/ontology.owl`) :
 1. Exécuter `clean_prepare_for_rdf.py` pour créer l'ontologie étendue `ontology_extended.owl`
 2. Exécuter `cut_text.py` pour séparer les textes en vue de leur passage dans l'API de ChatGPT
 3. Exécuter `ask_chatgpt.py` pour obtenir les fichiers JSON puis les vérifier
-4. 
+4. Exécuter `uniquiser_ids.py` pour standardiser les IDs des objets de nos fichiers JSON
+5. Exécuter `build_world.py` pour créer les deux versions d'ontologies peuplées
 
 ## Dépendances
 
