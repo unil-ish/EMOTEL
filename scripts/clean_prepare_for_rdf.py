@@ -3,6 +3,9 @@ import os
 import unicodedata
 import re
 from typing import Callable
+import owlready2 as owl
+import types
+from build_world import get_all_jsons, JSON_DIRECTORY
 
 
 def dict_iter_rec(obj, fn_condition: Callable, fn_apply: Callable) -> None:
@@ -196,9 +199,58 @@ def unnest_places_events(annotations):
     return
 
 
+def add_unregistered_emotions():
+
+    curfile = os.path.realpath(__file__)
+    root = os.path.dirname(os.path.dirname(curfile))
+    base_onto = os.path.join(root, "ontology", "ontology.owl")
+    base_onto_full = f"file://{base_onto}"
+
+    onto = owl.get_ontology(base_onto_full).load()
+
+    annotes = []
+    emotions = set()
+    for directory_name in os.listdir(JSON_DIRECTORY):
+        annotes.extend(get_all_jsons(os.path.join(JSON_DIRECTORY, directory_name)))
+    for a in annotes:
+        x = a.get("FictionalCharacters")
+        if x is not None:
+            for char in x:
+                y = char.get("feels")
+                if isinstance(y, list):
+                    for emo in y:
+                        if "name" in emo:
+                            emotions.add(emo["name"])
+    registered_emotions = set()
+    unregistered = set()
+
+    def rec_add_subclass(c):
+        s = str(c)
+        name = s[s.index(".") + 1 :]
+        registered_emotions.add(name)
+        for sub in c.subclasses():
+            rec_add_subclass(sub)
+
+    for i in onto.Emotion.subclasses():
+        rec_add_subclass(i)
+
+    for i in onto.classes():
+        registered_emotions.add(str(i))
+    for emo in emotions:
+        if emo not in registered_emotions:
+            unregistered.add(emo)
+    with onto:
+        for emo in unregistered:
+            _ = types.new_class(emo, (onto.Emotion,))
+    onto_extend_fp = base_onto.replace('.', '_extended.')
+    onto.save(file=onto_extend_fp, format="rdfxml")
+
+
 if __name__ == "__main__":
-    dir_source = "../data/annotations"
-    dir_target = "../data/annotations_cleaned"
+    dir_source = "data/annotations"
+    dir_target = "data/annotations_cleaned"
+    add_unregistered_emotions()
+    quit(0)  # test
 
     # la structure ci-dessous ne sert qu'à une seule chose: appliquer sur chaque fichier d'annotations les fonctions du présent module, et écrire le résultat dans un nouveau fichier, avec le même nom mais dans un autre dossier.
     for dirname in os.listdir(dir_source):
