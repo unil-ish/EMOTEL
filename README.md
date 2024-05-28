@@ -98,7 +98,7 @@ Pour répliquer nos résultats (en partant de `ontology/ontology.owl`) :
 
 ## Crédits
 
-Ce projet a été réalisé par: (TODO: corriger les noms)
+Ce projet a été réalisé par:
 
 - Zakari Rabet
 - Amélie McCormick
