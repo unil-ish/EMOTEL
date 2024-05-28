@@ -5,13 +5,13 @@ from rdflib.namespace import XSD
 
 
 EMOTEL = Namespace("https://github.com/unil-ish/EMOTEL#")
-ROOT_DIRECTORY = "../data/annotations_cleaned"
+ROOT_DIRECTORY = "data/annotations_cleaned"
 
-output_file = "../outputs/world.xml"
+output_file = "outputs/world.rdf"
 
 d = {}
 g = Graph()
-g.parse("../ontology/ontology.owl", format="xml")
+g.parse("ontology/ontology.owl", format="xml")
 g.bind("emotel", EMOTEL)
 
 
@@ -158,7 +158,7 @@ def get_all_jsons(directory) -> list:
 
 
 # def add_story(g, directory, n=0):
-root_directory = "../data/annotations_cleaned"
+root_directory = "data/annotations_cleaned"
 n = 0
 for directory_name in os.listdir(root_directory):
     story = create_uri(directory_name)
