@@ -26,7 +26,6 @@ def get_emotions_lists(fp_onto):
     return registered_emotions
 
 
-
 def create_uri(element_id):
     """Crée un URI pour un élément donné.
 
@@ -131,16 +130,6 @@ def add_emotion(g, obj, story, n, keep_new_emo, registered) -> None:
             unregistered = False
         else:
             return
-
-        # if emo_type not in registered:
-        #     emo_type = EMOTEL.Emotion
-        #     unregistered = True
-        # else:
-        #     if keep_new_emo is True:
-        #         emo_type = getattr(EMOTEL, obj["name"])
-        #         unregistered = False
-        #     else:
-        #         return
 
         _ = g.add((uri, RDF.type, emo_type))
         _ = g.add((uri, EMOTEL.isIn, story))
