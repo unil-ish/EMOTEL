@@ -53,15 +53,14 @@ Ce dossier contient les éléments suivants:
 - `clean_prepare_for_rdf.py` : Normalise les noms afin qu'ils puissent être utilisés pour des URIs (typiquement en remplaçant les espaces par des underscores), et reconstruit la structure souhaitée là où ChatGPT s'éloigne du modèle.
 - `cut_text.py` : Prépare l'annotation en (1) coupant les fichiers textes après un certain nombre de caractères et (2) construisant des séquences de messages adaptés à l'analyse par ChatGPT.
 - `uniquiser_ids.py` : Construit des IDs utilisés pour les URIs et construit les liens entre les entités disjointes (pour des raisons techniques) au cours de l'annotation.
-- `uniquiser_ids.py` : Uniformise les IDs assignés aux _FictionalCharacter_, _FictionalEvent_ et _FictionalPlace_
 
 ## Installation
 
-1. Cloner ce repo
+1. Cloner ce repository
 
-2. Créer un environnement virtuel (par exemple avec la librarire `venv`)
+2. Créer un [environnement virtuel](https://docs.python.org/3/library/venv.html)
 
-3. Installer le fichier `requirements.txt`:
+3. Installer le fichier `requirements.txt` depuis un terminal :
     - Unix/macOS: `python3 -m pip install -r requirements.txt`
     - Windows: `py -m pip install -r requirements.txt`
 
