@@ -4,7 +4,6 @@ from clean_prepare_for_rdf import dict_iter_rec
 
 
 class Lookup:
-
     """Assigne des IDS (utilisées pour les URIs) à chaque objets dans les fichiers JSONS.
 
     Chaque FictionalObject (FictionalCharacter, FictionalEvent, FictionalPlace) se voit attribué une ID qui se compose de son nom accolé au chemin de fichier de l'histoire dans lequel il se trouve et dans lequel il est, par conséquent, définit (par description).

@@ -135,7 +135,7 @@ def add_event(event):
     if "hasParticipant" in event:
         print(event)
         # if type(event["hasParticipiant" is list]):
-        if isinstance(event['hasParticipant'], list):
+        if isinstance(event["hasParticipant"], list):
             for participant in event["hasParticipant"]:
                 print(participant)
                 participant_uri = create_uri(EMOTEL, participant["id"])

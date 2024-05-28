@@ -115,10 +115,10 @@ def add_story(g, directory, n=0):
             if "feltBy" in obj:
                 _ = g.add((uri, EMOTEL.feltBy, d[obj["feltBy"]]))
 
-            for prop in ['causedBy', 'hasObject']:
+            for prop in ["causedBy", "hasObject"]:
                 x = obj.get(prop)
                 if x is not None:
-                    y = x.get('id')
+                    y = x.get("id")
                     if y is not None:
                         g.add((uri, getattr(EMOTEL, prop), URIRef(y)))
 
