@@ -8,45 +8,35 @@
      "hasIntensity": 0.7,
      "quote": "She was a little frightened, both by Miss Lavish and by Mr. Eager, she knew not why.",
      "hasObject": {
-      "name": "Unknown",
-      "id": "texts/aroomwithaview.txt#Unknown"
+      "name": "Unknown"
      },
      "causedBy": {
-      "name": "Interaction_with_Miss_Lavish_and_Mr_Eager",
-      "id": "texts/aroomwithaview.txt#Interaction_with_Miss_Lavish_and_Mr_Eager"
-     },
-     "id": "Fear"
+      "name": "Interaction_with_Miss_Lavish_and_Mr_Eager"
+     }
     },
     {
      "name": "Rebellion",
      "hasIntensity": 0.8,
      "quote": "For the first time Lucy’s rebellious thoughts swept out in words—for the first time in her life.",
      "hasObject": {
-      "name": "Accusations",
-      "id": "texts/aroomwithaview.txt#Accusations"
+      "name": "Accusations"
      },
      "causedBy": {
-      "name": "Mr_Eager_s_accusations",
-      "id": "texts/aroomwithaview.txt#Mr_Eager_s_accusations"
-     },
-     "id": "Rebellion"
+      "name": "Mr_Eager_s_accusations"
+     }
     },
     {
      "name": "Confusion",
      "hasIntensity": 0.6,
      "quote": "The well-known world had broken up, and there emerged Florence, a magic city where people thought and did the most extraordinary things.",
      "hasObject": {
-      "name": "Florence",
-      "id": "texts/aroomwithaview.txt#Florence"
+      "name": "Florence"
      },
      "causedBy": {
-      "name": "Realization_of_the_complexities_of_Florence",
-      "id": "texts/aroomwithaview.txt#Realization_of_the_complexities_of_Florence"
-     },
-     "id": "Confusion"
+      "name": "Realization_of_the_complexities_of_Florence"
+     }
     }
-   ],
-   "id": "texts/aroomwithaview.txt#Lucy_Honeychurch"
+   ]
   },
   {
    "name": "Miss_Bartlett",
@@ -56,137 +46,106 @@
      "hasIntensity": 0.7,
      "quote": "Miss Bartlett was full of very natural curiosity.",
      "hasObject": {
-      "name": "Revelations",
-      "id": "texts/aroomwithaview.txt#Revelations"
+      "name": "Revelations"
      },
      "causedBy": {
-      "name": "Mr_Eager_s_revelations",
-      "id": "texts/aroomwithaview.txt#Mr_Eager_s_revelations"
-     },
-     "id": "Curiosity"
+      "name": "Mr_Eager_s_revelations"
+     }
     },
     {
      "name": "Discomfiture",
      "hasIntensity": 0.6,
      "quote": "How could you think she was defending them? said Miss Bartlett, much discomfited by the unpleasant scene.",
      "hasObject": {
-      "name": "Unpleasant_scene",
-      "id": "texts/aroomwithaview.txt#Unpleasant_scene"
+      "name": "Unpleasant_scene"
      },
      "causedBy": {
-      "name": "Unpleasant_scene_with_Mr_Eager",
-      "id": "texts/aroomwithaview.txt#Unpleasant_scene_with_Mr_Eager"
-     },
-     "id": "Discomfiture"
+      "name": "Unpleasant_scene_with_Mr_Eager"
+     }
     }
-   ],
-   "id": "texts/aroomwithaview.txt#Miss_Bartlett"
+   ]
   }
  ],
  "Events": [
   {
    "name": "Interaction_with_Miss_Lavish_and_Mr_Eager",
    "takePlaceAt": {
-    "name": "Shopping_trip_and_conversation",
-    "id": "texts/aroomwithaview.txt#Shopping_trip_and_conversation"
+    "name": "Shopping_trip_and_conversation"
    },
    "hasParticipant": [
     {
-     "name": "Lucy_Honeychurch",
-     "id": "texts/aroomwithaview.txt#Lucy_Honeychurch"
+     "name": "Lucy_Honeychurch"
     },
     {
-     "name": "Miss_Lavish",
-     "id": "texts/aroomwithaview.txt#Miss_Lavish"
+     "name": "Miss_Lavish"
     },
     {
-     "name": "Mr_Eager",
-     "id": "texts/aroomwithaview.txt#Mr_Eager"
+     "name": "Mr_Eager"
     }
-   ],
-   "id": "texts/aroomwithaview.txt#Interaction_with_Miss_Lavish_and_Mr_Eager"
+   ]
   },
   {
    "name": "Mr_Eager_s_accusations",
    "takePlaceAt": {
-    "name": "Conversation_in_the_shop",
-    "id": "texts/aroomwithaview.txt#Conversation_in_the_shop"
+    "name": "Conversation_in_the_shop"
    },
    "hasParticipant": [
     {
-     "name": "Lucy_Honeychurch",
-     "id": "texts/aroomwithaview.txt#Lucy_Honeychurch"
+     "name": "Lucy_Honeychurch"
     },
     {
-     "name": "Mr_Eager",
-     "id": "texts/aroomwithaview.txt#Mr_Eager"
+     "name": "Mr_Eager"
     }
-   ],
-   "id": "texts/aroomwithaview.txt#Mr_Eager_s_accusations"
+   ]
   },
   {
    "name": "Realization_of_the_complexities_of_Florence",
    "takePlaceAt": {
-    "name": "Newspaperroom_at_the_English_bank",
-    "id": "texts/aroomwithaview.txt#Newspaperroom_at_the_English_bank"
+    "name": "Newspaperroom_at_the_English_bank"
    },
    "hasParticipant": {
-    "name": "Lucy_Honeychurch",
-    "id": "texts/aroomwithaview.txt#Lucy_Honeychurch"
-   },
-   "id": "texts/aroomwithaview.txt#Realization_of_the_complexities_of_Florence"
+    "name": "Lucy_Honeychurch"
+   }
   },
   {
    "name": "Mr_Eager_s_revelations",
    "takePlaceAt": {
-    "name": "Conversation_in_the_shop",
-    "id": "texts/aroomwithaview.txt#Conversation_in_the_shop"
+    "name": "Conversation_in_the_shop"
    },
    "hasParticipant": {
-    "name": "Miss_Bartlett",
-    "id": "texts/aroomwithaview.txt#Miss_Bartlett"
-   },
-   "id": "texts/aroomwithaview.txt#Mr_Eager_s_revelations"
+    "name": "Miss_Bartlett"
+   }
   },
   {
    "name": "Unpleasant_scene_with_Mr_Eager",
    "takePlaceAt": {
-    "name": "Conversation_in_the_shop",
-    "id": "texts/aroomwithaview.txt#Conversation_in_the_shop"
+    "name": "Conversation_in_the_shop"
    },
    "hasParticipant": [
     {
-     "name": "Miss_Bartlett",
-     "id": "texts/aroomwithaview.txt#Miss_Bartlett"
+     "name": "Miss_Bartlett"
     },
     {
-     "name": "Mr_Eager",
-     "id": "texts/aroomwithaview.txt#Mr_Eager"
+     "name": "Mr_Eager"
     }
-   ],
-   "id": "texts/aroomwithaview.txt#Unpleasant_scene_with_Mr_Eager"
+   ]
   }
  ],
  "Places": [
   {
-   "name": "Shopping_trip_and_conversation",
-   "id": "texts/aroomwithaview.txt#Shopping_trip_and_conversation"
+   "name": "Shopping_trip_and_conversation"
   },
   {
-   "name": "Conversation_in_the_shop",
-   "id": "texts/aroomwithaview.txt#Conversation_in_the_shop"
+   "name": "Conversation_in_the_shop"
   },
   {
-   "name": "Newspaperroom_at_the_English_bank",
-   "id": "texts/aroomwithaview.txt#Newspaperroom_at_the_English_bank"
+   "name": "Newspaperroom_at_the_English_bank"
   },
   {
-   "name": "Conversation_in_the_shop",
-   "id": "texts/aroomwithaview.txt#Conversation_in_the_shop"
+   "name": "Conversation_in_the_shop"
   },
   {
-   "name": "Conversation_in_the_shop",
-   "id": "texts/aroomwithaview.txt#Conversation_in_the_shop"
+   "name": "Conversation_in_the_shop"
   }
  ]
 }

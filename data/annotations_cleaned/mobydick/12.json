@@ -8,31 +8,24 @@
      "hasIntensity": 0.7,
      "quote": "In the distance, a great white mass lazily rose, and rising higher and higher, and disentangling itself from the azure, at last gleamed before our prow like a snow-slide, new slid from the hills.",
      "hasObject": {
-      "name": "White_Whale",
-      "id": "texts/mobydick.txt#White_Whale"
+      "name": "White_Whale"
      },
      "causedBy": {
-      "name": "Seeing_the_White_Whale",
-      "id": "texts/mobydick.txt#Seeing_the_White_Whale"
-     },
-     "id": "Surprise"
+      "name": "Seeing_the_White_Whale"
+     }
     },
     {
      "name": "Joy",
      "hasIntensity": 0.6,
      "quote": "Upon this, the seamen rushed to the yard-arms, as in swarming-time the bees rush to the boughs.",
      "hasObject": {
-      "name": "White_Whale",
-      "id": "texts/mobydick.txt#White_Whale"
+      "name": "White_Whale"
      },
      "causedBy": {
-      "name": "Spotting_the_White_Whale",
-      "id": "texts/mobydick.txt#Spotting_the_White_Whale"
-     },
-     "id": "Joy"
+      "name": "Spotting_the_White_Whale"
+     }
     }
-   ],
-   "id": "texts/mobydick.txt#Daggoo"
+   ]
   },
   {
    "name": "Ahab",
@@ -42,17 +35,13 @@
      "hasIntensity": 0.8,
      "quote": "Some vague dissatisfaction, or impatience, or despair, seemed working in him; as if the sight of that dead body reminded him that Moby Dick was yet to be slain.",
      "hasObject": {
-      "name": "Dead_Whale",
-      "id": "texts/mobydick.txt#Dead_Whale"
+      "name": "Dead_Whale"
      },
      "causedBy": {
-      "name": "Seeing_the_Dead_Whale",
-      "id": "texts/mobydick.txt#Seeing_the_Dead_Whale"
-     },
-     "id": "Impatience"
+      "name": "Seeing_the_Dead_Whale"
+     }
     }
-   ],
-   "id": "texts/mobydick.txt#Ahab"
+   ]
   },
   {
    "name": "Stubb",
@@ -62,17 +51,13 @@
      "hasIntensity": 0.7,
      "quote": "Flushed with conquest, betrayed an unusual but still good-natured excitement.",
      "hasObject": {
-      "name": "Whale_s_Flesh",
-      "id": "texts/mobydick.txt#Whale_s_Flesh"
+      "name": "Whale_s_Flesh"
      },
      "causedBy": {
-      "name": "Banqueting_on_Whale_s_Flesh",
-      "id": "texts/mobydick.txt#Banqueting_on_Whale_s_Flesh"
-     },
-     "id": "Excitement"
+      "name": "Banqueting_on_Whale_s_Flesh"
+     }
     }
-   ],
-   "id": "texts/mobydick.txt#Stubb"
+   ]
   },
   {
    "name": "Fleece",
@@ -82,101 +67,77 @@
      "hasIntensity": 0.6,
      "quote": "Bress my soul, if I cook noder one,” he growled, angrily, turning round to depart.",
      "hasObject": {
-      "name": "Cooking",
-      "id": "texts/mobydick.txt#Cooking"
+      "name": "Cooking"
      },
      "causedBy": {
-      "name": "Being_Criticized_for_Cooking",
-      "id": "texts/mobydick.txt#Being_Criticized_for_Cooking"
-     },
-     "id": "Anger"
+      "name": "Being_Criticized_for_Cooking"
+     }
     }
-   ],
-   "id": "texts/mobydick.txt#Fleece"
+   ]
   }
  ],
  "Events": [
   {
    "name": "Seeing_the_White_Whale",
    "takePlaceAt": {
-    "name": "Sea",
-    "id": "texts/mobydick.txt#Sea"
+    "name": "Sea"
    },
    "hasParticipant": {
-    "name": "Daggoo",
-    "id": "texts/mobydick.txt#Daggoo"
-   },
-   "id": "texts/mobydick.txt#Seeing_the_White_Whale"
+    "name": "Daggoo"
+   }
   },
   {
    "name": "Spotting_the_White_Whale",
    "takePlaceAt": {
-    "name": "Sea",
-    "id": "texts/mobydick.txt#Sea"
+    "name": "Sea"
    },
    "hasParticipant": {
-    "name": "Daggoo",
-    "id": "texts/mobydick.txt#Daggoo"
-   },
-   "id": "texts/mobydick.txt#Spotting_the_White_Whale"
+    "name": "Daggoo"
+   }
   },
   {
    "name": "Seeing_the_Dead_Whale",
    "takePlaceAt": {
-    "name": "Sea",
-    "id": "texts/mobydick.txt#Sea"
+    "name": "Sea"
    },
    "hasParticipant": {
-    "name": "Ahab",
-    "id": "texts/mobydick.txt#Ahab"
-   },
-   "id": "texts/mobydick.txt#Seeing_the_Dead_Whale"
+    "name": "Ahab"
+   }
   },
   {
    "name": "Banqueting_on_Whale_s_Flesh",
    "takePlaceAt": {
-    "name": "Sea",
-    "id": "texts/mobydick.txt#Sea"
+    "name": "Sea"
    },
    "hasParticipant": {
-    "name": "Stubb",
-    "id": "texts/mobydick.txt#Stubb"
-   },
-   "id": "texts/mobydick.txt#Banqueting_on_Whale_s_Flesh"
+    "name": "Stubb"
+   }
   },
   {
    "name": "Being_Criticized_for_Cooking",
    "takePlaceAt": {
-    "name": "Sea",
-    "id": "texts/mobydick.txt#Sea"
+    "name": "Sea"
    },
    "hasParticipant": {
-    "name": "Fleece",
-    "id": "texts/mobydick.txt#Fleece"
-   },
-   "id": "texts/mobydick.txt#Being_Criticized_for_Cooking"
+    "name": "Fleece"
+   }
   }
  ],
  "Places": [
   {
-   "name": "Sea",
-   "id": "texts/mobydick.txt#Sea"
+   "name": "Sea"
   },
   {
-   "name": "Sea",
-   "id": "texts/mobydick.txt#Sea"
+   "name": "Sea"
   },
   {
-   "name": "Sea",
-   "id": "texts/mobydick.txt#Sea"
+   "name": "Sea"
   },
   {
-   "name": "Sea",
-   "id": "texts/mobydick.txt#Sea"
+   "name": "Sea"
   },
   {
-   "name": "Sea",
-   "id": "texts/mobydick.txt#Sea"
+   "name": "Sea"
   }
  ]
 }

@@ -8,59 +8,46 @@
      "hasIntensity": 0.9,
      "quote": "That's my contribution towards making father comfortable and bringing him home!",
      "hasObject": {
-      "name": "Money",
-      "id": "texts/littlewomen.txt#Money"
+      "name": "Money"
      },
      "causedBy": {
-      "name": "Selling_her_hair_to_earn_money_for_her_father_s_comfort",
-      "id": "texts/littlewomen.txt#Selling_her_hair_to_earn_money_for_her_father_s_co"
-     },
-     "id": "Pride"
+      "name": "Selling_her_hair_to_earn_money_for_her_father_s_comfort"
+     }
     },
     {
      "name": "Anxiety",
      "hasIntensity": 0.8,
      "quote": "I hate to borrow as much as mother does, and I knew Aunt March would croak; she always does, if you ask for a ninepence.",
      "hasObject": {
-      "name": "Financial_pressure",
-      "id": "texts/littlewomen.txt#Financial_pressure"
+      "name": "Financial_pressure"
      },
      "causedBy": {
-      "name": "Feeling_the_pressure_to_contribute_financially",
-      "id": "texts/littlewomen.txt#Feeling_the_pressure_to_contribute_financially"
-     },
-     "id": "Anxiety"
+      "name": "Feeling_the_pressure_to_contribute_financially"
+     }
     },
     {
      "name": "Determination",
      "hasIntensity": 0.7,
      "quote": "I hate to borrow as much as mother does, and I knew Aunt March would croak; she always does, if you ask for a ninepence.",
      "hasObject": {
-      "name": "Financial_pressure",
-      "id": "texts/littlewomen.txt#Financial_pressure"
+      "name": "Financial_pressure"
      },
      "causedBy": {
-      "name": "Feeling_the_pressure_to_contribute_financially",
-      "id": "texts/littlewomen.txt#Feeling_the_pressure_to_contribute_financially"
-     },
-     "id": "Determination"
+      "name": "Feeling_the_pressure_to_contribute_financially"
+     }
     },
     {
      "name": "Regret",
      "hasIntensity": 0.6,
      "quote": "I'm afraid you will regret it, one of these days",
      "hasObject": {
-      "name": "Cutting_her_hair",
-      "id": "texts/littlewomen.txt#Cutting_her_hair"
+      "name": "Cutting_her_hair"
      },
      "causedBy": {
-      "name": "Cutting_her_hair",
-      "id": "texts/littlewomen.txt#Cutting_her_hair"
-     },
-     "id": "Regret"
+      "name": "Cutting_her_hair"
+     }
     }
-   ],
-   "id": "texts/littlewomen.txt#Jo_March"
+   ]
   },
   {
    "name": "Mrs_March",
@@ -70,31 +57,24 @@
      "hasIntensity": 0.9,
      "quote": "I shall go at once, but it may be too late. O children, children, help me to bear it!",
      "hasObject": {
-      "name": "Husband_s_illness",
-      "id": "texts/littlewomen.txt#Husband_s_illness"
+      "name": "Husband_s_illness"
      },
      "causedBy": {
-      "name": "Receiving_a_telegram_about_her_husband_s_illness",
-      "id": "texts/littlewomen.txt#Receiving_a_telegram_about_her_husband_s_illness"
-     },
-     "id": "Anxiety"
+      "name": "Receiving_a_telegram_about_her_husband_s_illness"
+     }
     },
     {
      "name": "Gratitude",
      "hasIntensity": 0.8,
      "quote": "How kind you all are! Mother will accept, I'm sure; and it will be such a relief to know that she has some one to take care of her.",
      "hasObject": {
-      "name": "Mr_Brooke_offering_to_escort_her",
-      "id": "texts/littlewomen.txt#Mr_Brooke_offering_to_escort_her"
+      "name": "Mr_Brooke_offering_to_escort_her"
      },
      "causedBy": {
-      "name": "Mr_Brooke_offering_to_escort_her_to_Washington",
-      "id": "texts/littlewomen.txt#Mr_Brooke_offering_to_escort_her_to_Washington"
-     },
-     "id": "Gratitude"
+      "name": "Mr_Brooke_offering_to_escort_her_to_Washington"
+     }
     }
-   ],
-   "id": "texts/littlewomen.txt#Mrs_March"
+   ]
   },
   {
    "name": "Meg",
@@ -104,193 +84,149 @@
      "hasIntensity": 0.7,
      "quote": "Your hair! Your beautiful hair! O Jo, how could you? Your one beauty.",
      "hasObject": {
-      "name": "Jo_cutting_her_hair",
-      "id": "texts/littlewomen.txt#Jo_cutting_her_hair"
+      "name": "Jo_cutting_her_hair"
      },
      "causedBy": {
-      "name": "Jo_cutting_her_hair",
-      "id": "texts/littlewomen.txt#Jo_cutting_her_hair"
-     },
-     "id": "Awe"
+      "name": "Jo_cutting_her_hair"
+     }
     },
     {
      "name": "Gratitude",
      "hasIntensity": 0.8,
      "quote": "How kind you all are! Mother will accept, I'm sure; and it will be such a relief to know that she has some one to take care of her.",
      "hasObject": {
-      "name": "Mr_Brooke_offering_to_escort_her_mother",
-      "id": "texts/littlewomen.txt#Mr_Brooke_offering_to_escort_her_mother"
+      "name": "Mr_Brooke_offering_to_escort_her_mother"
      },
      "causedBy": {
-      "name": "Mr_Brooke_offering_to_escort_her_mother_to_Washington",
-      "id": "texts/littlewomen.txt#Mr_Brooke_offering_to_escort_her_mother_to_Washing"
-     },
-     "id": "Gratitude"
+      "name": "Mr_Brooke_offering_to_escort_her_mother_to_Washington"
+     }
     }
-   ],
-   "id": "texts/littlewomen.txt#Meg"
+   ]
   }
  ],
  "Events": [
   {
    "name": "Selling_her_hair_to_earn_money_for_her_father_s_comfort",
    "takePlaceAt": {
-    "name": "Home",
-    "id": "texts/littlewomen.txt#Home"
+    "name": "Home"
    },
    "hasParticipant": [
     {
-     "name": "Jo_March",
-     "id": "texts/littlewomen.txt#Jo_March"
+     "name": "Jo_March"
     },
     {
-     "name": "Mrs_March",
-     "id": "texts/littlewomen.txt#Mrs_March"
+     "name": "Mrs_March"
     }
-   ],
-   "id": "texts/littlewomen.txt#Selling_her_hair_to_earn_money_for_her_father_s_co"
+   ]
   },
   {
    "name": "Feeling_the_pressure_to_contribute_financially",
    "takePlaceAt": {
-    "name": "Home",
-    "id": "texts/littlewomen.txt#Home"
+    "name": "Home"
    },
    "hasParticipant": [
     {
-     "name": "Jo_March",
-     "id": "texts/littlewomen.txt#Jo_March"
+     "name": "Jo_March"
     },
     {
-     "name": "Aunt_March",
-     "id": "texts/littlewomen.txt#Aunt_March"
+     "name": "Aunt_March"
     }
-   ],
-   "id": "texts/littlewomen.txt#Feeling_the_pressure_to_contribute_financially"
+   ]
   },
   {
    "name": "Feeling_the_pressure_to_contribute_financially",
    "takePlaceAt": {
-    "name": "Home",
-    "id": "texts/littlewomen.txt#Home"
+    "name": "Home"
    },
    "hasParticipant": [
     {
-     "name": "Jo_March",
-     "id": "texts/littlewomen.txt#Jo_March"
+     "name": "Jo_March"
     },
     {
-     "name": "Aunt_March",
-     "id": "texts/littlewomen.txt#Aunt_March"
+     "name": "Aunt_March"
     }
-   ],
-   "id": "texts/littlewomen.txt#Feeling_the_pressure_to_contribute_financially"
+   ]
   },
   {
    "name": "Cutting_her_hair",
    "takePlaceAt": {
-    "name": "Home",
-    "id": "texts/littlewomen.txt#Home"
+    "name": "Home"
    },
    "hasParticipant": {
-    "name": "Jo_March",
-    "id": "texts/littlewomen.txt#Jo_March"
-   },
-   "id": "texts/littlewomen.txt#Cutting_her_hair"
+    "name": "Jo_March"
+   }
   },
   {
    "name": "Receiving_a_telegram_about_her_husband_s_illness",
    "takePlaceAt": {
-    "name": "Home",
-    "id": "texts/littlewomen.txt#Home"
+    "name": "Home"
    },
    "hasParticipant": {
-    "name": "Mrs_March",
-    "id": "texts/littlewomen.txt#Mrs_March"
-   },
-   "id": "texts/littlewomen.txt#Receiving_a_telegram_about_her_husband_s_illness"
+    "name": "Mrs_March"
+   }
   },
   {
    "name": "Mr_Brooke_offering_to_escort_her_to_Washington",
    "takePlaceAt": {
-    "name": "Home",
-    "id": "texts/littlewomen.txt#Home"
+    "name": "Home"
    },
    "hasParticipant": [
     {
-     "name": "Mrs_March",
-     "id": "texts/littlewomen.txt#Mrs_March"
+     "name": "Mrs_March"
     },
     {
-     "name": "Mr_Brooke",
-     "id": "texts/littlewomen.txt#Mr_Brooke"
+     "name": "Mr_Brooke"
     }
-   ],
-   "id": "texts/littlewomen.txt#Mr_Brooke_offering_to_escort_her_to_Washington"
+   ]
   },
   {
    "name": "Jo_cutting_her_hair",
    "takePlaceAt": {
-    "name": "Home",
-    "id": "texts/littlewomen.txt#Home"
+    "name": "Home"
    },
    "hasParticipant": {
-    "name": "Jo_March",
-    "id": "texts/littlewomen.txt#Jo_March"
-   },
-   "id": "texts/littlewomen.txt#Jo_cutting_her_hair"
+    "name": "Jo_March"
+   }
   },
   {
    "name": "Mr_Brooke_offering_to_escort_her_mother_to_Washington",
    "takePlaceAt": {
-    "name": "Home",
-    "id": "texts/littlewomen.txt#Home"
+    "name": "Home"
    },
    "hasParticipant": [
     {
-     "name": "Meg",
-     "id": "texts/littlewomen.txt#Meg"
+     "name": "Meg"
     },
     {
-     "name": "Mr_Brooke",
-     "id": "texts/littlewomen.txt#Mr_Brooke"
+     "name": "Mr_Brooke"
     }
-   ],
-   "id": "texts/littlewomen.txt#Mr_Brooke_offering_to_escort_her_mother_to_Washing"
+   ]
   }
  ],
  "Places": [
   {
-   "name": "Home",
-   "id": "texts/littlewomen.txt#Home"
+   "name": "Home"
   },
   {
-   "name": "Home",
-   "id": "texts/littlewomen.txt#Home"
+   "name": "Home"
   },
   {
-   "name": "Home",
-   "id": "texts/littlewomen.txt#Home"
+   "name": "Home"
   },
   {
-   "name": "Home",
-   "id": "texts/littlewomen.txt#Home"
+   "name": "Home"
   },
   {
-   "name": "Home",
-   "id": "texts/littlewomen.txt#Home"
+   "name": "Home"
   },
   {
-   "name": "Home",
-   "id": "texts/littlewomen.txt#Home"
+   "name": "Home"
   },
   {
-   "name": "Home",
-   "id": "texts/littlewomen.txt#Home"
+   "name": "Home"
   },
   {
-   "name": "Home",
-   "id": "texts/littlewomen.txt#Home"
+   "name": "Home"
   }
  ]
 }

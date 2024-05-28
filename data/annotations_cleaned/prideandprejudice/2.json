@@ -8,87 +8,68 @@
      "hasIntensity": 0.7,
      "quote": "Mrs. Bennet wondered at their coming, and thought them very wrong to give so much trouble.",
      "hasObject": {
-      "name": "Daughters",
-      "id": "texts/prideandprejudice.txt#Daughters"
+      "name": "Daughters"
      },
      "causedBy": {
-      "name": "Daughters_returning_home",
-      "id": "texts/prideandprejudice.txt#Daughters_returning_home"
-     },
-     "id": "Anger"
+      "name": "Daughters_returning_home"
+     }
     },
     {
      "name": "Surprise",
      "hasIntensity": 0.6,
      "quote": "Mrs. Bennet's eyes sparkled. 'A gentleman and a stranger! It is Mr. Bingley, I am sure. Why, Jane--you never dropped a word of this--you sly thing! Well, I am sure I shall be extremely glad to see Mr. Bingley.'",
      "hasObject": {
-      "name": "Mr_Bingley",
-      "id": "texts/prideandprejudice.txt#Mr_Bingley"
+      "name": "Mr_Bingley"
      },
      "causedBy": {
-      "name": "Mr_Bingley_s_unexpected_visit",
-      "id": "texts/prideandprejudice.txt#Mr_Bingley_s_unexpected_visit"
-     },
-     "id": "Surprise"
+      "name": "Mr_Bingley_s_unexpected_visit"
+     }
     },
     {
      "name": "Joy",
      "hasIntensity": 0.8,
      "quote": "Mrs. Bennet's eyes sparkled. 'A gentleman and a stranger! It is Mr. Bingley, I am sure. Why, Jane--you never dropped a word of this--you sly thing! Well, I am sure I shall be extremely glad to see Mr. Bingley.'",
      "hasObject": {
-      "name": "Mr_Bingley",
-      "id": "texts/prideandprejudice.txt#Mr_Bingley"
+      "name": "Mr_Bingley"
      },
      "causedBy": {
-      "name": "Mr_Bingley_s_unexpected_visit",
-      "id": "texts/prideandprejudice.txt#Mr_Bingley_s_unexpected_visit"
-     },
-     "id": "Joy"
+      "name": "Mr_Bingley_s_unexpected_visit"
+     }
     },
     {
      "name": "Anticipation",
      "hasIntensity": 0.6,
      "quote": "“I hope, my dear,” said Mr. Bennet to his wife, as they were at breakfast the next morning, “that you have ordered a good dinner to-day, because I have reason to expect an addition to our family party.”",
      "hasObject": {
-      "name": "Good_dinner",
-      "id": "texts/prideandprejudice.txt#Good_dinner"
+      "name": "Good_dinner"
      },
      "causedBy": {
-      "name": "Expectation_of_a_guest",
-      "id": "texts/prideandprejudice.txt#Expectation_of_a_guest"
-     },
-     "id": "Anticipation"
+      "name": "Expectation_of_a_guest"
+     }
     },
     {
      "name": "Admiration",
      "hasIntensity": 0.7,
      "quote": "Mr. Collins was punctual to his time, and was received with great politeness by the whole family. Mr. Bennet indeed said little; but the ladies were ready enough to talk, and Mr. Collins seemed neither in need of encouragement, nor inclined to be silent himself.",
      "hasObject": {
-      "name": "Mr_Collins",
-      "id": "texts/prideandprejudice.txt#Mr_Collins"
+      "name": "Mr_Collins"
      },
      "causedBy": {
-      "name": "Mr_Collins_s_arrival",
-      "id": "texts/prideandprejudice.txt#Mr_Collins_s_arrival"
-     },
-     "id": "Admiration"
+      "name": "Mr_Collins_s_arrival"
+     }
     },
     {
      "name": "Interest",
      "hasIntensity": 0.7,
      "quote": "Elizabeth related to Jane, the next day, what had passed between Mr. Wickham and herself. Jane listened with astonishment and concern: she knew not how to believe that Mr. Darcy could be so unworthy of Mr. Bingley’s regard; and yet it was not in her nature to question the veracity of a young man of such amiable appearance as Wickham.",
      "hasObject": {
-      "name": "Mr_Wickham",
-      "id": "texts/prideandprejudice.txt#Mr_Wickham"
+      "name": "Mr_Wickham"
      },
      "causedBy": {
-      "name": "Conversation_between_Elizabeth_and_Jane_about_Mr_Wickham",
-      "id": "texts/prideandprejudice.txt#Conversation_between_Elizabeth_and_Jane_about_Mr_W"
-     },
-     "id": "Interest"
+      "name": "Conversation_between_Elizabeth_and_Jane_about_Mr_Wickham"
+     }
     }
-   ],
-   "id": "texts/prideandprejudice.txt#Mrs_Bennet"
+   ]
   },
   {
    "name": "Jane_Bennet",
@@ -98,31 +79,24 @@
      "hasIntensity": 0.6,
      "quote": "Jane listened with astonishment and concern: she knew not how to believe that Mr. Darcy could be so unworthy of Mr. Bingley’s regard; and yet it was not in her nature to question the veracity of a young man of such amiable appearance as Wickham.",
      "hasObject": {
-      "name": "Mr_Darcy",
-      "id": "texts/prideandprejudice.txt#Mr_Darcy"
+      "name": "Mr_Darcy"
      },
      "causedBy": {
-      "name": "Conversation_between_Elizabeth_and_Jane_about_Mr_Wickham",
-      "id": "texts/prideandprejudice.txt#Conversation_between_Elizabeth_and_Jane_about_Mr_W"
-     },
-     "id": "Surprise"
+      "name": "Conversation_between_Elizabeth_and_Jane_about_Mr_Wickham"
+     }
     },
     {
      "name": "Concern",
      "hasIntensity": 0.7,
      "quote": "Jane listened with astonishment and concern: she knew not how to believe that Mr. Darcy could be so unworthy of Mr. Bingley’s regard; and yet it was not in her nature to question the veracity of a young man of such amiable appearance as Wickham.",
      "hasObject": {
-      "name": "Mr_Darcy",
-      "id": "texts/prideandprejudice.txt#Mr_Darcy"
+      "name": "Mr_Darcy"
      },
      "causedBy": {
-      "name": "Conversation_between_Elizabeth_and_Jane_about_Mr_Wickham",
-      "id": "texts/prideandprejudice.txt#Conversation_between_Elizabeth_and_Jane_about_Mr_W"
-     },
-     "id": "Concern"
+      "name": "Conversation_between_Elizabeth_and_Jane_about_Mr_Wickham"
+     }
     }
-   ],
-   "id": "texts/prideandprejudice.txt#Jane_Bennet"
+   ]
   },
   {
    "name": "Mr_Wickham",
@@ -132,223 +106,173 @@
      "hasIntensity": 0.7,
      "quote": "“It is difficult, indeed--it is distressing. One does not know what to think.”",
      "hasObject": {
-      "name": "Mr_Darcy",
-      "id": "texts/prideandprejudice.txt#Mr_Darcy"
+      "name": "Mr_Darcy"
      },
      "causedBy": {
-      "name": "Conversation_with_Elizabeth_about_Mr_Darcy",
-      "id": "texts/prideandprejudice.txt#Conversation_with_Elizabeth_about_Mr_Darcy"
-     },
-     "id": "Interest"
+      "name": "Conversation_with_Elizabeth_about_Mr_Darcy"
+     }
     }
-   ],
-   "id": "texts/prideandprejudice.txt#Mr_Wickham"
+   ]
   }
  ],
  "Events": [
   {
    "name": "Daughters_returning_home",
    "takePlaceAt": {
-    "name": "Home",
-    "id": "texts/prideandprejudice.txt#Home"
+    "name": "Home"
    },
    "hasParticipant": [
     {
-     "name": "Mrs_Bennet",
-     "id": "texts/prideandprejudice.txt#Mrs_Bennet"
+     "name": "Mrs_Bennet"
     },
     {
-     "name": "Daughters",
-     "id": "texts/prideandprejudice.txt#Daughters"
+     "name": "Daughters"
     }
-   ],
-   "id": "texts/prideandprejudice.txt#Daughters_returning_home"
+   ]
   },
   {
    "name": "Mr_Bingley_s_unexpected_visit",
    "takePlaceAt": {
-    "name": "Home",
-    "id": "texts/prideandprejudice.txt#Home"
+    "name": "Home"
    },
    "hasParticipant": [
     {
-     "name": "Mrs_Bennet",
-     "id": "texts/prideandprejudice.txt#Mrs_Bennet"
+     "name": "Mrs_Bennet"
     },
     {
-     "name": "Jane",
-     "id": "texts/prideandprejudice.txt#Jane"
+     "name": "Jane"
     }
-   ],
-   "id": "texts/prideandprejudice.txt#Mr_Bingley_s_unexpected_visit"
+   ]
   },
   {
    "name": "Mr_Bingley_s_unexpected_visit",
    "takePlaceAt": {
-    "name": "Home",
-    "id": "texts/prideandprejudice.txt#Home"
+    "name": "Home"
    },
    "hasParticipant": [
     {
-     "name": "Mrs_Bennet",
-     "id": "texts/prideandprejudice.txt#Mrs_Bennet"
+     "name": "Mrs_Bennet"
     },
     {
-     "name": "Jane",
-     "id": "texts/prideandprejudice.txt#Jane"
+     "name": "Jane"
     }
-   ],
-   "id": "texts/prideandprejudice.txt#Mr_Bingley_s_unexpected_visit"
+   ]
   },
   {
    "name": "Expectation_of_a_guest",
    "takePlaceAt": {
-    "name": "Breakfast_table",
-    "id": "texts/prideandprejudice.txt#Breakfast_table"
+    "name": "Breakfast_table"
    },
    "hasParticipant": [
     {
-     "name": "Mr_Bennet",
-     "id": "texts/prideandprejudice.txt#Mr_Bennet"
+     "name": "Mr_Bennet"
     },
     {
-     "name": "Mrs_Bennet",
-     "id": "texts/prideandprejudice.txt#Mrs_Bennet"
+     "name": "Mrs_Bennet"
     }
-   ],
-   "id": "texts/prideandprejudice.txt#Expectation_of_a_guest"
+   ]
   },
   {
    "name": "Mr_Collins_s_arrival",
    "takePlaceAt": {
-    "name": "Home",
-    "id": "texts/prideandprejudice.txt#Home"
+    "name": "Home"
    },
    "hasParticipant": [
     {
-     "name": "Mr_Collins",
-     "id": "texts/prideandprejudice.txt#Mr_Collins"
+     "name": "Mr_Collins"
     },
     {
-     "name": "Mr_Bennet",
-     "id": "texts/prideandprejudice.txt#Mr_Bennet"
+     "name": "Mr_Bennet"
     },
     {
-     "name": "Ladies",
-     "id": "texts/prideandprejudice.txt#Ladies"
+     "name": "Ladies"
     }
-   ],
-   "id": "texts/prideandprejudice.txt#Mr_Collins_s_arrival"
+   ]
   },
   {
    "name": "Conversation_between_Elizabeth_and_Jane_about_Mr_Wickham",
    "takePlaceAt": {
-    "name": "Home",
-    "id": "texts/prideandprejudice.txt#Home"
+    "name": "Home"
    },
    "hasParticipant": [
     {
-     "name": "Elizabeth",
-     "id": "texts/prideandprejudice.txt#Elizabeth"
+     "name": "Elizabeth"
     },
     {
-     "name": "Jane",
-     "id": "texts/prideandprejudice.txt#Jane"
+     "name": "Jane"
     }
-   ],
-   "id": "texts/prideandprejudice.txt#Conversation_between_Elizabeth_and_Jane_about_Mr_W"
+   ]
   },
   {
    "name": "Conversation_between_Elizabeth_and_Jane_about_Mr_Wickham",
    "takePlaceAt": {
-    "name": "Home",
-    "id": "texts/prideandprejudice.txt#Home"
+    "name": "Home"
    },
    "hasParticipant": [
     {
-     "name": "Elizabeth",
-     "id": "texts/prideandprejudice.txt#Elizabeth"
+     "name": "Elizabeth"
     },
     {
-     "name": "Jane",
-     "id": "texts/prideandprejudice.txt#Jane"
+     "name": "Jane"
     }
-   ],
-   "id": "texts/prideandprejudice.txt#Conversation_between_Elizabeth_and_Jane_about_Mr_W"
+   ]
   },
   {
    "name": "Conversation_between_Elizabeth_and_Jane_about_Mr_Wickham",
    "takePlaceAt": {
-    "name": "Home",
-    "id": "texts/prideandprejudice.txt#Home"
+    "name": "Home"
    },
    "hasParticipant": [
     {
-     "name": "Elizabeth",
-     "id": "texts/prideandprejudice.txt#Elizabeth"
+     "name": "Elizabeth"
     },
     {
-     "name": "Jane",
-     "id": "texts/prideandprejudice.txt#Jane"
+     "name": "Jane"
     }
-   ],
-   "id": "texts/prideandprejudice.txt#Conversation_between_Elizabeth_and_Jane_about_Mr_W"
+   ]
   },
   {
    "name": "Conversation_with_Elizabeth_about_Mr_Darcy",
    "takePlaceAt": {
-    "name": "Home",
-    "id": "texts/prideandprejudice.txt#Home"
+    "name": "Home"
    },
    "hasParticipant": [
     {
-     "name": "Mr_Wickham",
-     "id": "texts/prideandprejudice.txt#Mr_Wickham"
+     "name": "Mr_Wickham"
     },
     {
-     "name": "Elizabeth",
-     "id": "texts/prideandprejudice.txt#Elizabeth"
+     "name": "Elizabeth"
     }
-   ],
-   "id": "texts/prideandprejudice.txt#Conversation_with_Elizabeth_about_Mr_Darcy"
+   ]
   }
  ],
  "Places": [
   {
-   "name": "Home",
-   "id": "texts/prideandprejudice.txt#Home"
+   "name": "Home"
   },
   {
-   "name": "Home",
-   "id": "texts/prideandprejudice.txt#Home"
+   "name": "Home"
   },
   {
-   "name": "Home",
-   "id": "texts/prideandprejudice.txt#Home"
+   "name": "Home"
   },
   {
-   "name": "Breakfast_table",
-   "id": "texts/prideandprejudice.txt#Breakfast_table"
+   "name": "Breakfast_table"
   },
   {
-   "name": "Home",
-   "id": "texts/prideandprejudice.txt#Home"
+   "name": "Home"
   },
   {
-   "name": "Home",
-   "id": "texts/prideandprejudice.txt#Home"
+   "name": "Home"
   },
   {
-   "name": "Home",
-   "id": "texts/prideandprejudice.txt#Home"
+   "name": "Home"
   },
   {
-   "name": "Home",
-   "id": "texts/prideandprejudice.txt#Home"
+   "name": "Home"
   },
   {
-   "name": "Home",
-   "id": "texts/prideandprejudice.txt#Home"
+   "name": "Home"
   }
  ]
 }

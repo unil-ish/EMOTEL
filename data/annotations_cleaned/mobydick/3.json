@@ -8,155 +8,122 @@
      "hasIntensity": 0.7,
      "quote": "What had been incidentally revealed to me of Captain Ahab, filled me with a certain wild vagueness of painfulness concerning him.",
      "hasObject": {
-      "name": "Captain_Ahab",
-      "id": "texts/mobydick.txt#Captain_Ahab"
+      "name": "Captain_Ahab"
      },
      "exactPlace": "On the ship",
      "causedBy": {
-      "name": "Revelation_about_Captain_Ahab",
-      "id": "texts/mobydick.txt#Revelation_about_Captain_Ahab"
-     },
-     "id": "Concern"
+      "name": "Revelation_about_Captain_Ahab"
+     }
     },
     {
      "name": "Alarm",
      "hasIntensity": 0.8,
      "quote": "I began to grow alarmed. I had allowed him such abundant time; I thought he might have had an apoplectic fit.",
      "hasObject": {
-      "name": "Queequeg",
-      "id": "texts/mobydick.txt#Queequeg"
+      "name": "Queequeg"
      },
      "exactPlace": "Queequeg's room",
      "causedBy": {
-      "name": "Queequeg_not_responding",
-      "id": "texts/mobydick.txt#Queequeg_not_responding"
-     },
-     "id": "Alarm"
+      "name": "Queequeg_not_responding"
+     }
     },
     {
      "name": "Fear",
      "hasIntensity": 0.9,
      "quote": "Apoplexy! I tried to burst open the door; but it stubbornly resisted.",
      "hasObject": {
-      "name": "Queequeg",
-      "id": "texts/mobydick.txt#Queequeg"
+      "name": "Queequeg"
      },
      "exactPlace": "Queequeg's room",
      "causedBy": {
-      "name": "Suspicions_of_Queequeg_s_health",
-      "id": "texts/mobydick.txt#Suspicions_of_Queequeg_s_health"
-     },
-     "id": "Fear"
+      "name": "Suspicions_of_Queequeg_s_health"
+     }
     },
     {
      "name": "Relief",
      "hasIntensity": 0.7,
      "quote": "What’s the matter with you? What’s the matter with you, shipmate?",
      "hasObject": {
-      "name": "Ishmael",
-      "id": "texts/mobydick.txt#Ishmael"
+      "name": "Ishmael"
      },
      "exactPlace": "Queequeg's room",
      "causedBy": {
-      "name": "Mrs_Hussey_s_intervention",
-      "id": "texts/mobydick.txt#Mrs_Hussey_s_intervention"
-     },
-     "id": "Relief"
+      "name": "Mrs_Hussey_s_intervention"
+     }
     }
-   ],
-   "id": "texts/mobydick.txt#Ishmael"
+   ]
   }
  ],
  "Events": [
   {
    "name": "Revelation_about_Captain_Ahab",
    "takePlaceAt": {
-    "name": "Conversation_with_Captain_Peleg",
-    "id": "texts/mobydick.txt#Conversation_with_Captain_Peleg"
+    "name": "Conversation_with_Captain_Peleg"
    },
    "hasParticipant": [
     {
-     "name": "Ishmael",
-     "id": "texts/mobydick.txt#Ishmael"
+     "name": "Ishmael"
     },
     {
-     "name": "Captain_Peleg",
-     "id": "texts/mobydick.txt#Captain_Peleg"
+     "name": "Captain_Peleg"
     }
-   ],
-   "id": "texts/mobydick.txt#Revelation_about_Captain_Ahab"
+   ]
   },
   {
    "name": "Queequeg_not_responding",
    "takePlaceAt": {
-    "name": "Queequeg_s_room",
-    "id": "texts/mobydick.txt#Queequeg_s_room"
+    "name": "Queequeg_s_room"
    },
    "hasParticipant": [
     {
-     "name": "Ishmael",
-     "id": "texts/mobydick.txt#Ishmael"
+     "name": "Ishmael"
     },
     {
-     "name": "Queequeg",
-     "id": "texts/mobydick.txt#Queequeg"
+     "name": "Queequeg"
     }
-   ],
-   "id": "texts/mobydick.txt#Queequeg_not_responding"
+   ]
   },
   {
    "name": "Suspicions_of_Queequeg_s_health",
    "takePlaceAt": {
-    "name": "Queequeg_s_room",
-    "id": "texts/mobydick.txt#Queequeg_s_room"
+    "name": "Queequeg_s_room"
    },
    "hasParticipant": [
     {
-     "name": "Ishmael",
-     "id": "texts/mobydick.txt#Ishmael"
+     "name": "Ishmael"
     },
     {
-     "name": "Queequeg",
-     "id": "texts/mobydick.txt#Queequeg"
+     "name": "Queequeg"
     }
-   ],
-   "id": "texts/mobydick.txt#Suspicions_of_Queequeg_s_health"
+   ]
   },
   {
    "name": "Mrs_Hussey_s_intervention",
    "takePlaceAt": {
-    "name": "Mrs_Hussey_s_arrival",
-    "id": "texts/mobydick.txt#Mrs_Hussey_s_arrival"
+    "name": "Mrs_Hussey_s_arrival"
    },
    "hasParticipant": [
     {
-     "name": "Ishmael",
-     "id": "texts/mobydick.txt#Ishmael"
+     "name": "Ishmael"
     },
     {
-     "name": "Mrs_Hussey",
-     "id": "texts/mobydick.txt#Mrs_Hussey"
+     "name": "Mrs_Hussey"
     }
-   ],
-   "id": "texts/mobydick.txt#Mrs_Hussey_s_intervention"
+   ]
   }
  ],
  "Places": [
   {
-   "name": "Conversation_with_Captain_Peleg",
-   "id": "texts/mobydick.txt#Conversation_with_Captain_Peleg"
+   "name": "Conversation_with_Captain_Peleg"
   },
   {
-   "name": "Queequeg_s_room",
-   "id": "texts/mobydick.txt#Queequeg_s_room"
+   "name": "Queequeg_s_room"
   },
   {
-   "name": "Queequeg_s_room",
-   "id": "texts/mobydick.txt#Queequeg_s_room"
+   "name": "Queequeg_s_room"
   },
   {
-   "name": "Mrs_Hussey_s_arrival",
-   "id": "texts/mobydick.txt#Mrs_Hussey_s_arrival"
+   "name": "Mrs_Hussey_s_arrival"
   }
  ]
 }

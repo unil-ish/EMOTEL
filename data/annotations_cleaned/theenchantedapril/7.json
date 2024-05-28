@@ -8,73 +8,57 @@
      "hasIntensity": 0.9,
      "quote": "Lotty was delighted at more love being introduced into San Salvatore, even if it were only one-sided, and said that when once Rose’s husband was there she didn’t suppose, now that Mrs. Fisher too had at last come unglued—Rose protested at the expression, and Lotty retorted that it was in Keats—there would be another place in the world more swarming with happiness than San Salvatore.",
      "hasObject": {
-      "name": "Love_and_happiness_in_San_Salvatore",
-      "id": "texts/theenchantedapril.txt#Love_and_happiness_in_San_Salvatore"
+      "name": "Love_and_happiness_in_San_Salvatore"
      },
      "causedBy": {
-      "name": "Lotty_s_optimism_about_love_and_happiness_in_San_Salvatore",
-      "id": "texts/theenchantedapril.txt#Lotty_s_optimism_about_love_and_happiness_in_San_S"
-     },
-     "id": "Joy"
+      "name": "Lotty_s_optimism_about_love_and_happiness_in_San_Salvatore"
+     }
     },
     {
      "name": "Sadness",
      "hasIntensity": 0.7,
      "quote": "For Rose, who between lunch and tea had left off thinking about Frederick, was now, between tea and dinner, thinking of him harder than ever.",
      "hasObject": {
-      "name": "Thoughts_of_Frederick",
-      "id": "texts/theenchantedapril.txt#Thoughts_of_Frederick"
+      "name": "Thoughts_of_Frederick"
      },
      "causedBy": {
-      "name": "Thinking_about_Frederick",
-      "id": "texts/theenchantedapril.txt#Thinking_about_Frederick"
-     },
-     "id": "Sadness"
+      "name": "Thinking_about_Frederick"
+     }
     }
-   ],
-   "id": "texts/theenchantedapril.txt#Rose_Arbuthnot"
+   ]
   }
  ],
  "Events": [
   {
    "name": "Lotty_s_optimism_about_love_and_happiness_in_San_Salvatore",
    "takePlaceAt": {
-    "name": "Wall_conversation_after_tea",
-    "id": "texts/theenchantedapril.txt#Wall_conversation_after_tea"
+    "name": "Wall_conversation_after_tea"
    },
    "hasParticipant": [
     {
-     "name": "Rose_Arbuthnot",
-     "id": "texts/theenchantedapril.txt#Rose_Arbuthnot"
+     "name": "Rose_Arbuthnot"
     },
     {
-     "name": "Lotty",
-     "id": "texts/theenchantedapril.txt#Lotty"
+     "name": "Lotty"
     }
-   ],
-   "id": "texts/theenchantedapril.txt#Lotty_s_optimism_about_love_and_happiness_in_San_S"
+   ]
   },
   {
    "name": "Thinking_about_Frederick",
    "takePlaceAt": {
-    "name": "Window_contemplation",
-    "id": "texts/theenchantedapril.txt#Window_contemplation"
+    "name": "Window_contemplation"
    },
    "hasParticipant": {
-    "name": "Rose_Arbuthnot",
-    "id": "texts/theenchantedapril.txt#Rose_Arbuthnot"
-   },
-   "id": "texts/theenchantedapril.txt#Thinking_about_Frederick"
+    "name": "Rose_Arbuthnot"
+   }
   }
  ],
  "Places": [
   {
-   "name": "Wall_conversation_after_tea",
-   "id": "texts/theenchantedapril.txt#Wall_conversation_after_tea"
+   "name": "Wall_conversation_after_tea"
   },
   {
-   "name": "Window_contemplation",
-   "id": "texts/theenchantedapril.txt#Window_contemplation"
+   "name": "Window_contemplation"
   }
  ]
 }

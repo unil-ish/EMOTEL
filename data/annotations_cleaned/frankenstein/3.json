@@ -8,45 +8,35 @@
      "hasIntensity": 0.9,
      "quote": "I had been the author of unalterable evils, and I lived in daily fear lest the monster whom I had created should perpetrate some new wickedness.",
      "hasObject": {
-      "name": "Evils",
-      "id": "texts/frankenstein.txt#Evils"
+      "name": "Evils"
      },
      "causedBy": {
-      "name": "Creating_the_monster",
-      "id": "texts/frankenstein.txt#Creating_the_monster"
-     },
-     "id": "Remorse"
+      "name": "Creating_the_monster"
+     }
     },
     {
      "name": "Fear",
      "hasIntensity": 0.8,
      "quote": "I was in the greatest fear lest my fire should be extinguished.",
      "hasObject": {
-      "name": "Fire",
-      "id": "texts/frankenstein.txt#Fire"
+      "name": "Fire"
      },
      "causedBy": {
-      "name": "Fear_of_losing_fire",
-      "id": "texts/frankenstein.txt#Fear_of_losing_fire"
-     },
-     "id": "Fear"
+      "name": "Fear_of_losing_fire"
+     }
     },
     {
      "name": "Compassion",
      "hasIntensity": 0.7,
      "quote": "I was deeply affected by it. If such lovely creatures were miserable, it was less strange that I, an imperfect and solitary being, should be wretched.",
      "hasObject": {
-      "name": "Cottagers_unhappiness",
-      "id": "texts/frankenstein.txt#Cottagers_unhappiness"
+      "name": "Cottagers_unhappiness"
      },
      "causedBy": {
-      "name": "Witnessing_the_unhappiness_of_the_cottagers",
-      "id": "texts/frankenstein.txt#Witnessing_the_unhappiness_of_the_cottagers"
-     },
-     "id": "Compassion"
+      "name": "Witnessing_the_unhappiness_of_the_cottagers"
+     }
     }
-   ],
-   "id": "texts/frankenstein.txt#Victor_Frankenstein"
+   ]
   },
   {
    "name": "The_monster",
@@ -56,161 +46,125 @@
      "hasIntensity": 0.9,
      "quote": "Life, although it may only be an accumulation of anguish, is dear to me, and I will defend it.",
      "hasObject": {
-      "name": "Life",
-      "id": "texts/frankenstein.txt#Life"
+      "name": "Life"
      },
      "causedBy": {
-      "name": "Feeling_miserable_and_rejected",
-      "id": "texts/frankenstein.txt#Feeling_miserable_and_rejected"
-     },
-     "id": "Despair"
+      "name": "Feeling_miserable_and_rejected"
+     }
     },
     {
      "name": "Love",
      "hasIntensity": 0.8,
      "quote": "The old man returned to the cottage, and the youth, with tools different from those he had used in the morning, directed his steps across the fields.",
      "hasObject": {
-      "name": "Cottagers_love_and_respect",
-      "id": "texts/frankenstein.txt#Cottagers_love_and_respect"
+      "name": "Cottagers_love_and_respect"
      },
      "causedBy": {
-      "name": "Witnessing_the_love_and_respect_between_the_cottagers",
-      "id": "texts/frankenstein.txt#Witnessing_the_love_and_respect_between_the_cottag"
-     },
-     "id": "Love"
+      "name": "Witnessing_the_love_and_respect_between_the_cottagers"
+     }
     },
     {
      "name": "Kindness",
      "hasIntensity": 0.7,
      "quote": "This trait of kindness moved me sensibly.",
      "hasObject": {
-      "name": "Cottagers_kindness",
-      "id": "texts/frankenstein.txt#Cottagers_kindness"
+      "name": "Cottagers_kindness"
      },
      "causedBy": {
-      "name": "Witnessing_the_cottagers_kindness",
-      "id": "texts/frankenstein.txt#Witnessing_the_cottagers_kindness"
-     },
-     "id": "Kindness"
+      "name": "Witnessing_the_cottagers_kindness"
+     }
     }
-   ],
-   "id": "texts/frankenstein.txt#The_monster"
+   ]
   }
  ],
  "Events": [
   {
    "name": "Creating_the_monster",
    "takePlaceAt": {
-    "name": "Various_locations",
-    "id": "texts/frankenstein.txt#Various_locations"
+    "name": "Various_locations"
    },
    "hasParticipant": [
     {
-     "name": "Victor_Frankenstein",
-     "id": "texts/frankenstein.txt#Victor_Frankenstein"
+     "name": "Victor_Frankenstein"
     },
     {
-     "name": "the_monster",
-     "id": "texts/frankenstein.txt#the_monster"
+     "name": "the_monster"
     }
-   ],
-   "id": "texts/frankenstein.txt#Creating_the_monster"
+   ]
   },
   {
    "name": "Fear_of_losing_fire",
    "takePlaceAt": {
-    "name": "Hovel",
-    "id": "texts/frankenstein.txt#Hovel"
-   },
-   "id": "texts/frankenstein.txt#Fear_of_losing_fire"
+    "name": "Hovel"
+   }
   },
   {
    "name": "Witnessing_the_unhappiness_of_the_cottagers",
    "takePlaceAt": {
-    "name": "Cottage",
-    "id": "texts/frankenstein.txt#Cottage"
+    "name": "Cottage"
    },
    "hasParticipant": [
     {
-     "name": "Victor_Frankenstein",
-     "id": "texts/frankenstein.txt#Victor_Frankenstein"
+     "name": "Victor_Frankenstein"
     },
     {
-     "name": "the_cottagers",
-     "id": "texts/frankenstein.txt#the_cottagers"
+     "name": "the_cottagers"
     }
-   ],
-   "id": "texts/frankenstein.txt#Witnessing_the_unhappiness_of_the_cottagers"
+   ]
   },
   {
    "name": "Feeling_miserable_and_rejected",
    "takePlaceAt": {
-    "name": "Various_locations",
-    "id": "texts/frankenstein.txt#Various_locations"
-   },
-   "id": "texts/frankenstein.txt#Feeling_miserable_and_rejected"
+    "name": "Various_locations"
+   }
   },
   {
    "name": "Witnessing_the_love_and_respect_between_the_cottagers",
    "takePlaceAt": {
-    "name": "Cottage",
-    "id": "texts/frankenstein.txt#Cottage"
+    "name": "Cottage"
    },
    "hasParticipant": [
     {
-     "name": "The_monster",
-     "id": "texts/frankenstein.txt#The_monster"
+     "name": "The_monster"
     },
     {
-     "name": "the_cottagers",
-     "id": "texts/frankenstein.txt#the_cottagers"
+     "name": "the_cottagers"
     }
-   ],
-   "id": "texts/frankenstein.txt#Witnessing_the_love_and_respect_between_the_cottag"
+   ]
   },
   {
    "name": "Witnessing_the_cottagers_kindness",
    "takePlaceAt": {
-    "name": "Cottage",
-    "id": "texts/frankenstein.txt#Cottage"
+    "name": "Cottage"
    },
    "hasParticipant": [
     {
-     "name": "The_monster",
-     "id": "texts/frankenstein.txt#The_monster"
+     "name": "The_monster"
     },
     {
-     "name": "the_cottagers",
-     "id": "texts/frankenstein.txt#the_cottagers"
+     "name": "the_cottagers"
     }
-   ],
-   "id": "texts/frankenstein.txt#Witnessing_the_cottagers_kindness"
+   ]
   }
  ],
  "Places": [
   {
-   "name": "Various_locations",
-   "id": "texts/frankenstein.txt#Various_locations"
+   "name": "Various_locations"
   },
   {
-   "name": "Hovel",
-   "id": "texts/frankenstein.txt#Hovel"
+   "name": "Hovel"
   },
   {
-   "name": "Cottage",
-   "id": "texts/frankenstein.txt#Cottage"
+   "name": "Cottage"
   },
   {
-   "name": "Various_locations",
-   "id": "texts/frankenstein.txt#Various_locations"
+   "name": "Various_locations"
   },
   {
-   "name": "Cottage",
-   "id": "texts/frankenstein.txt#Cottage"
+   "name": "Cottage"
   },
   {
-   "name": "Cottage",
-   "id": "texts/frankenstein.txt#Cottage"
+   "name": "Cottage"
   }
  ]
 }

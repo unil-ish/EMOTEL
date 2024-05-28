@@ -8,235 +8,182 @@
      "hasIntensity": 0.7,
      "quote": "I quickly destroyed part of my sledge to construct oars, and by these means was enabled, with infinite fatigue, to move my ice raft in the direction of your ship. I had determined, if you were going southwards, still to trust myself to the mercy of the seas rather than abandon my purpose.",
      "hasObject": {
-      "name": "Robert_Walton_s_ship",
-      "id": "texts/frankenstein.txt#Robert_Walton_s_ship"
+      "name": "Robert_Walton_s_ship"
      },
      "causedBy": {
-      "name": "Seeing_Walton_s_ship",
-      "id": "texts/frankenstein.txt#Seeing_Walton_s_ship"
-     },
-     "id": "Trust"
+      "name": "Seeing_Walton_s_ship"
+     }
     },
     {
      "name": "Surprise",
      "hasIntensity": 0.8,
      "quote": "Such a monster has, then, really existence! I cannot doubt it, yet I am lost in surprise and admiration.",
      "hasObject": {
-      "name": "The_monster",
-      "id": "texts/frankenstein.txt#The_monster"
+      "name": "The_monster"
      },
      "causedBy": {
-      "name": "Seeing_the_monster_from_the_ship",
-      "id": "texts/frankenstein.txt#Seeing_the_monster_from_the_ship"
-     },
-     "id": "Surprise"
+      "name": "Seeing_the_monster_from_the_ship"
+     }
     },
     {
      "name": "Anger",
      "hasIntensity": 0.9,
      "quote": "Oh! When will my guiding spirit, in conducting me to the dæmon, allow me the rest I so much desire; or must I die, and he yet live? If I do, swear to me, Walton, that he shall not escape, that you will seek him and satisfy my vengeance in his death.",
      "hasObject": {
-      "name": "The_monster",
-      "id": "texts/frankenstein.txt#The_monster"
+      "name": "The_monster"
      },
      "causedBy": {
-      "name": "Feeling_exhausted_and_frustrated",
-      "id": "texts/frankenstein.txt#Feeling_exhausted_and_frustrated"
-     },
-     "id": "Anger"
+      "name": "Feeling_exhausted_and_frustrated"
+     }
     },
     {
      "name": "Joy",
      "hasIntensity": 0.6,
      "quote": "The only joy that he can now know will be when he composes his shattered spirit to peace and death.",
      "hasObject": {
-      "name": "Peace_and_death",
-      "id": "texts/frankenstein.txt#Peace_and_death"
+      "name": "Peace_and_death"
      },
      "causedBy": {
-      "name": "Finding_comfort_in_solitude_and_delirium",
-      "id": "texts/frankenstein.txt#Finding_comfort_in_solitude_and_delirium"
-     },
-     "id": "Joy"
+      "name": "Finding_comfort_in_solitude_and_delirium"
+     }
     },
     {
      "name": "Anticipation",
      "hasIntensity": 0.7,
      "quote": "He enjoys one comfort, the offspring of solitude and delirium; he believes that when in dreams he holds converse with his friends and derives from that communion consolation for his miseries or excitements to his vengeance, that they are not the creations of his fancy, but the beings themselves who visit him from the regions of a remote world.",
      "hasObject": {
-      "name": "Dreams",
-      "id": "texts/frankenstein.txt#Dreams"
+      "name": "Dreams"
      },
      "causedBy": {
-      "name": "Believing_in_the_reality_of_dreams",
-      "id": "texts/frankenstein.txt#Believing_in_the_reality_of_dreams"
-     },
-     "id": "Anticipation"
+      "name": "Believing_in_the_reality_of_dreams"
+     }
     },
     {
      "name": "Fear",
      "hasIntensity": 0.8,
      "quote": "The thunder of the ground sea, which threatened my destruction.",
      "hasObject": {
-      "name": "Ground_sea",
-      "id": "texts/frankenstein.txt#Ground_sea"
+      "name": "Ground_sea"
      },
      "causedBy": {
-      "name": "Hearing_the_ground_sea",
-      "id": "texts/frankenstein.txt#Hearing_the_ground_sea"
-     },
-     "id": "Fear"
+      "name": "Hearing_the_ground_sea"
+     }
     },
     {
      "name": "Despair",
      "hasIntensity": 0.9,
      "quote": "Despair had indeed almost secured her prey, and I should soon have sunk beneath this misery.",
      "hasObject": {
-      "name": "Misery",
-      "id": "texts/frankenstein.txt#Misery"
+      "name": "Misery"
      },
      "causedBy": {
-      "name": "Feeling_exhausted_and_hopeless",
-      "id": "texts/frankenstein.txt#Feeling_exhausted_and_hopeless"
-     },
-     "id": "Despair"
+      "name": "Feeling_exhausted_and_hopeless"
+     }
     },
     {
      "name": "Grief",
      "hasIntensity": 0.8,
      "quote": "Sometimes, seized with sudden agony, he could not continue his tale; at others, his voice broken, yet piercing, uttered with difficulty the words so replete with anguish.",
      "hasObject": {
-      "name": "Painful_memories",
-      "id": "texts/frankenstein.txt#Painful_memories"
+      "name": "Painful_memories"
      },
      "causedBy": {
-      "name": "Recalling_painful_memories",
-      "id": "texts/frankenstein.txt#Recalling_painful_memories"
-     },
-     "id": "Grief"
+      "name": "Recalling_painful_memories"
+     }
     }
-   ],
-   "id": "texts/frankenstein.txt#Victor_Frankenstein"
+   ]
   }
  ],
  "Events": [
   {
    "name": "Seeing_Walton_s_ship",
    "takePlaceAt": {
-    "name": "Arctic_Ocean",
-    "id": "texts/frankenstein.txt#Arctic_Ocean"
+    "name": "Arctic_Ocean"
    },
    "hasParticipant": [
     {
-     "name": "Victor_Frankenstein",
-     "id": "texts/frankenstein.txt#Victor_Frankenstein"
+     "name": "Victor_Frankenstein"
     },
     {
-     "name": "Robert_Walton",
-     "id": "texts/frankenstein.txt#Robert_Walton"
+     "name": "Robert_Walton"
     }
-   ],
-   "id": "texts/frankenstein.txt#Seeing_Walton_s_ship"
+   ]
   },
   {
    "name": "Seeing_the_monster_from_the_ship",
    "takePlaceAt": {
-    "name": "Arctic_Ocean",
-    "id": "texts/frankenstein.txt#Arctic_Ocean"
+    "name": "Arctic_Ocean"
    },
    "hasParticipant": [
     {
-     "name": "Victor_Frankenstein",
-     "id": "texts/frankenstein.txt#Victor_Frankenstein"
+     "name": "Victor_Frankenstein"
     },
     {
-     "name": "Robert_Walton",
-     "id": "texts/frankenstein.txt#Robert_Walton"
+     "name": "Robert_Walton"
     }
-   ],
-   "id": "texts/frankenstein.txt#Seeing_the_monster_from_the_ship"
+   ]
   },
   {
    "name": "Feeling_exhausted_and_frustrated",
    "takePlaceAt": {
-    "name": "Arctic_Ocean",
-    "id": "texts/frankenstein.txt#Arctic_Ocean"
-   },
-   "id": "texts/frankenstein.txt#Feeling_exhausted_and_frustrated"
+    "name": "Arctic_Ocean"
+   }
   },
   {
    "name": "Finding_comfort_in_solitude_and_delirium",
    "takePlaceAt": {
-    "name": "Arctic_Ocean",
-    "id": "texts/frankenstein.txt#Arctic_Ocean"
-   },
-   "id": "texts/frankenstein.txt#Finding_comfort_in_solitude_and_delirium"
+    "name": "Arctic_Ocean"
+   }
   },
   {
    "name": "Believing_in_the_reality_of_dreams",
    "takePlaceAt": {
-    "name": "Arctic_Ocean",
-    "id": "texts/frankenstein.txt#Arctic_Ocean"
-   },
-   "id": "texts/frankenstein.txt#Believing_in_the_reality_of_dreams"
+    "name": "Arctic_Ocean"
+   }
   },
   {
    "name": "Hearing_the_ground_sea",
    "takePlaceAt": {
-    "name": "Arctic_Ocean",
-    "id": "texts/frankenstein.txt#Arctic_Ocean"
-   },
-   "id": "texts/frankenstein.txt#Hearing_the_ground_sea"
+    "name": "Arctic_Ocean"
+   }
   },
   {
    "name": "Feeling_exhausted_and_hopeless",
    "takePlaceAt": {
-    "name": "Arctic_Ocean",
-    "id": "texts/frankenstein.txt#Arctic_Ocean"
-   },
-   "id": "texts/frankenstein.txt#Feeling_exhausted_and_hopeless"
+    "name": "Arctic_Ocean"
+   }
   },
   {
    "name": "Recalling_painful_memories",
    "takePlaceAt": {
-    "name": "Arctic_Ocean",
-    "id": "texts/frankenstein.txt#Arctic_Ocean"
-   },
-   "id": "texts/frankenstein.txt#Recalling_painful_memories"
+    "name": "Arctic_Ocean"
+   }
   }
  ],
  "Places": [
   {
-   "name": "Arctic_Ocean",
-   "id": "texts/frankenstein.txt#Arctic_Ocean"
+   "name": "Arctic_Ocean"
   },
   {
-   "name": "Arctic_Ocean",
-   "id": "texts/frankenstein.txt#Arctic_Ocean"
+   "name": "Arctic_Ocean"
   },
   {
-   "name": "Arctic_Ocean",
-   "id": "texts/frankenstein.txt#Arctic_Ocean"
+   "name": "Arctic_Ocean"
   },
   {
-   "name": "Arctic_Ocean",
-   "id": "texts/frankenstein.txt#Arctic_Ocean"
+   "name": "Arctic_Ocean"
   },
   {
-   "name": "Arctic_Ocean",
-   "id": "texts/frankenstein.txt#Arctic_Ocean"
+   "name": "Arctic_Ocean"
   },
   {
-   "name": "Arctic_Ocean",
-   "id": "texts/frankenstein.txt#Arctic_Ocean"
+   "name": "Arctic_Ocean"
   },
   {
-   "name": "Arctic_Ocean",
-   "id": "texts/frankenstein.txt#Arctic_Ocean"
+   "name": "Arctic_Ocean"
   },
   {
-   "name": "Arctic_Ocean",
-   "id": "texts/frankenstein.txt#Arctic_Ocean"
+   "name": "Arctic_Ocean"
   }
  ]
 }

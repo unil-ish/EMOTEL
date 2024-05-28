@@ -8,45 +8,35 @@
      "hasIntensity": 0.6,
      "quote": "“I trust not,” said Starbuck, “it is poor stuff enough.”",
      "hasObject": {
-      "name": "Substance",
-      "id": "texts/mobydick.txt#Substance"
+      "name": "Substance"
      },
      "causedBy": {
-      "name": "Distrust_in_the_quality_of_the_substance",
-      "id": "texts/mobydick.txt#Distrust_in_the_quality_of_the_substance"
-     },
-     "id": "Trust"
+      "name": "Distrust_in_the_quality_of_the_substance"
+     }
     },
     {
      "name": "Anger",
      "hasIntensity": 0.8,
      "quote": "“Come down, come down!” yelled the seamen to Daggoo, but with one hand holding on to the heavy tackles, so that if the head should drop, he would still remain suspended; the negro having cleared the foul line, rammed down the bucket into the now collapsed well, meaning that the buried harpooneer should grasp it, and so be hoisted out.",
      "hasObject": {
-      "name": "Foul_line",
-      "id": "texts/mobydick.txt#Foul_line"
+      "name": "Foul_line"
      },
      "causedBy": {
-      "name": "Foul_line_incident",
-      "id": "texts/mobydick.txt#Foul_line_incident"
-     },
-     "id": "Anger"
+      "name": "Foul_line_incident"
+     }
     },
     {
      "name": "Joy",
      "hasIntensity": 0.9,
      "quote": "“Both! both!—it is both!”—cried Daggoo again with a joyful shout; and soon after, Queequeg was seen boldly striking out with one hand, and with the other clutching the long hair of the Indian.",
      "hasObject": {
-      "name": "Successful_rescue",
-      "id": "texts/mobydick.txt#Successful_rescue"
+      "name": "Successful_rescue"
      },
      "causedBy": {
-      "name": "Successful_rescue",
-      "id": "texts/mobydick.txt#Successful_rescue"
-     },
-     "id": "Joy"
+      "name": "Successful_rescue"
+     }
     }
-   ],
-   "id": "texts/mobydick.txt#Starbuck"
+   ]
   },
   {
    "name": "Daggoo",
@@ -56,31 +46,24 @@
      "hasIntensity": 0.7,
      "quote": "“Come down, come down!” yelled the seamen to Daggoo, but with one hand holding on to the heavy tackles, so that if the head should drop, he would still remain suspended; the negro having cleared the foul line, rammed down the bucket into the now collapsed well, meaning that the buried harpooneer should grasp it, and so be hoisted out.",
      "hasObject": {
-      "name": "Foul_line",
-      "id": "texts/mobydick.txt#Foul_line"
+      "name": "Foul_line"
      },
      "causedBy": {
-      "name": "Foul_line_incident",
-      "id": "texts/mobydick.txt#Foul_line_incident"
-     },
-     "id": "Fear"
+      "name": "Foul_line_incident"
+     }
     },
     {
      "name": "Joy",
      "hasIntensity": 0.9,
      "quote": "“Both! both!—it is both!”—cried Daggoo again with a joyful shout; and soon after, Queequeg was seen boldly striking out with one hand, and with the other clutching the long hair of the Indian.",
      "hasObject": {
-      "name": "Successful_rescue",
-      "id": "texts/mobydick.txt#Successful_rescue"
+      "name": "Successful_rescue"
      },
      "causedBy": {
-      "name": "Successful_rescue",
-      "id": "texts/mobydick.txt#Successful_rescue"
-     },
-     "id": "Joy"
+      "name": "Successful_rescue"
+     }
     }
-   ],
-   "id": "texts/mobydick.txt#Daggoo"
+   ]
   },
   {
    "name": "Queequeg",
@@ -90,165 +73,127 @@
      "hasIntensity": 0.7,
      "quote": "“Come down, come down!” yelled the seamen to Daggoo, but with one hand holding on to the heavy tackles, so that if the head should drop, he would still remain suspended; the negro having cleared the foul line, rammed down the bucket into the now collapsed well, meaning that the buried harpooneer should grasp it, and so be hoisted out.",
      "hasObject": {
-      "name": "Foul_line",
-      "id": "texts/mobydick.txt#Foul_line"
+      "name": "Foul_line"
      },
      "causedBy": {
-      "name": "Foul_line_incident",
-      "id": "texts/mobydick.txt#Foul_line_incident"
-     },
-     "id": "Fear"
+      "name": "Foul_line_incident"
+     }
     },
     {
      "name": "Joy",
      "hasIntensity": 0.9,
      "quote": "“Both! both!—it is both!”—cried Daggoo again with a joyful shout; and soon after, Queequeg was seen boldly striking out with one hand, and with the other clutching the long hair of the Indian.",
      "hasObject": {
-      "name": "Successful_rescue",
-      "id": "texts/mobydick.txt#Successful_rescue"
+      "name": "Successful_rescue"
      },
      "causedBy": {
-      "name": "Successful_rescue",
-      "id": "texts/mobydick.txt#Successful_rescue"
-     },
-     "id": "Joy"
+      "name": "Successful_rescue"
+     }
     }
-   ],
-   "id": "texts/mobydick.txt#Queequeg"
+   ]
   }
  ],
  "Events": [
   {
    "name": "Distrust_in_the_quality_of_the_substance",
    "takePlaceAt": {
-    "name": "On_the_ship",
-    "id": "texts/mobydick.txt#On_the_ship"
+    "name": "On_the_ship"
    },
    "hasParticipant": {
-    "name": "Starbuck",
-    "id": "texts/mobydick.txt#Starbuck"
-   },
-   "id": "texts/mobydick.txt#Distrust_in_the_quality_of_the_substance"
+    "name": "Starbuck"
+   }
   },
   {
    "name": "Foul_line_incident",
    "takePlaceAt": {
-    "name": "On_the_ship",
-    "id": "texts/mobydick.txt#On_the_ship"
+    "name": "On_the_ship"
    },
    "hasParticipant": {
-    "name": "Daggoo",
-    "id": "texts/mobydick.txt#Daggoo"
-   },
-   "id": "texts/mobydick.txt#Foul_line_incident"
+    "name": "Daggoo"
+   }
   },
   {
    "name": "Successful_rescue",
    "takePlaceAt": {
-    "name": "On_the_ship",
-    "id": "texts/mobydick.txt#On_the_ship"
+    "name": "On_the_ship"
    },
    "hasParticipant": [
     {
-     "name": "Daggoo",
-     "id": "texts/mobydick.txt#Daggoo"
+     "name": "Daggoo"
     },
     {
-     "name": "Queequeg",
-     "id": "texts/mobydick.txt#Queequeg"
+     "name": "Queequeg"
     }
-   ],
-   "id": "texts/mobydick.txt#Successful_rescue"
+   ]
   },
   {
    "name": "Foul_line_incident",
    "takePlaceAt": {
-    "name": "On_the_ship",
-    "id": "texts/mobydick.txt#On_the_ship"
+    "name": "On_the_ship"
    },
    "hasParticipant": {
-    "name": "Daggoo",
-    "id": "texts/mobydick.txt#Daggoo"
-   },
-   "id": "texts/mobydick.txt#Foul_line_incident"
+    "name": "Daggoo"
+   }
   },
   {
    "name": "Successful_rescue",
    "takePlaceAt": {
-    "name": "On_the_ship",
-    "id": "texts/mobydick.txt#On_the_ship"
+    "name": "On_the_ship"
    },
    "hasParticipant": [
     {
-     "name": "Daggoo",
-     "id": "texts/mobydick.txt#Daggoo"
+     "name": "Daggoo"
     },
     {
-     "name": "Queequeg",
-     "id": "texts/mobydick.txt#Queequeg"
+     "name": "Queequeg"
     }
-   ],
-   "id": "texts/mobydick.txt#Successful_rescue"
+   ]
   },
   {
    "name": "Foul_line_incident",
    "takePlaceAt": {
-    "name": "On_the_ship",
-    "id": "texts/mobydick.txt#On_the_ship"
+    "name": "On_the_ship"
    },
    "hasParticipant": {
-    "name": "Daggoo",
-    "id": "texts/mobydick.txt#Daggoo"
-   },
-   "id": "texts/mobydick.txt#Foul_line_incident"
+    "name": "Daggoo"
+   }
   },
   {
    "name": "Successful_rescue",
    "takePlaceAt": {
-    "name": "On_the_ship",
-    "id": "texts/mobydick.txt#On_the_ship"
+    "name": "On_the_ship"
    },
    "hasParticipant": [
     {
-     "name": "Daggoo",
-     "id": "texts/mobydick.txt#Daggoo"
+     "name": "Daggoo"
     },
     {
-     "name": "Queequeg",
-     "id": "texts/mobydick.txt#Queequeg"
+     "name": "Queequeg"
     }
-   ],
-   "id": "texts/mobydick.txt#Successful_rescue"
+   ]
   }
  ],
  "Places": [
   {
-   "name": "On_the_ship",
-   "id": "texts/mobydick.txt#On_the_ship"
+   "name": "On_the_ship"
   },
   {
-   "name": "On_the_ship",
-   "id": "texts/mobydick.txt#On_the_ship"
+   "name": "On_the_ship"
   },
   {
-   "name": "On_the_ship",
-   "id": "texts/mobydick.txt#On_the_ship"
+   "name": "On_the_ship"
   },
   {
-   "name": "On_the_ship",
-   "id": "texts/mobydick.txt#On_the_ship"
+   "name": "On_the_ship"
   },
   {
-   "name": "On_the_ship",
-   "id": "texts/mobydick.txt#On_the_ship"
+   "name": "On_the_ship"
   },
   {
-   "name": "On_the_ship",
-   "id": "texts/mobydick.txt#On_the_ship"
+   "name": "On_the_ship"
   },
   {
-   "name": "On_the_ship",
-   "id": "texts/mobydick.txt#On_the_ship"
+   "name": "On_the_ship"
   }
  ]
 }

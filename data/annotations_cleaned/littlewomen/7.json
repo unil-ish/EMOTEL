@@ -10,16 +10,12 @@
      "causeByEvent": {
       "name": "Beth_s_recovery",
       "takePlaceAt": {
-       "name": "Sickroom",
-       "id": "texts/littlewomen.txt#Sickroom"
-      },
-      "id": "texts/littlewomen.txt#Beth_s_recovery"
+       "name": "Sickroom"
+      }
      },
      "hasObject": {
-      "name": "Beth_s_recovery",
-      "id": "texts/littlewomen.txt#Beth_s_recovery"
-     },
-     "id": "Hope"
+      "name": "Beth_s_recovery"
+     }
     },
     {
      "name": "Gratitude",
@@ -28,16 +24,12 @@
      "causeByEvent": {
       "name": "Laurie_s_news_about_mother_s_arrival",
       "takePlaceAt": {
-       "name": "Home",
-       "id": "texts/littlewomen.txt#Home"
-      },
-      "id": "texts/littlewomen.txt#Laurie_s_news_about_mother_s_arrival"
+       "name": "Home"
+      }
      },
      "hasObject": {
-      "name": "Laurie_s_news_about_mother_s_arrival",
-      "id": "texts/littlewomen.txt#Laurie_s_news_about_mother_s_arrival"
-     },
-     "id": "Gratitude"
+      "name": "Laurie_s_news_about_mother_s_arrival"
+     }
     },
     {
      "name": "Relief",
@@ -46,16 +38,12 @@
      "causeByEvent": {
       "name": "Beth_s_peaceful_repose",
       "takePlaceAt": {
-       "name": "Sickroom",
-       "id": "texts/littlewomen.txt#Sickroom"
-      },
-      "id": "texts/littlewomen.txt#Beth_s_peaceful_repose"
+       "name": "Sickroom"
+      }
      },
      "hasObject": {
-      "name": "Beth_s_peaceful_repose",
-      "id": "texts/littlewomen.txt#Beth_s_peaceful_repose"
-     },
-     "id": "Relief"
+      "name": "Beth_s_peaceful_repose"
+     }
     },
     {
      "name": "Joy",
@@ -64,19 +52,14 @@
      "causeByEvent": {
       "name": "Seeing_the_beautiful_morning",
       "takePlaceAt": {
-       "name": "Early_morning",
-       "id": "texts/littlewomen.txt#Early_morning"
-      },
-      "id": "texts/littlewomen.txt#Seeing_the_beautiful_morning"
+       "name": "Early_morning"
+      }
      },
      "hasObject": {
-      "name": "Seeing_the_beautiful_morning",
-      "id": "texts/littlewomen.txt#Seeing_the_beautiful_morning"
-     },
-     "id": "Joy"
+      "name": "Seeing_the_beautiful_morning"
+     }
     }
-   ],
-   "id": "texts/littlewomen.txt#Jo_March"
+   ]
   },
   {
    "name": "Meg_March",
@@ -88,16 +71,12 @@
      "causeByEvent": {
       "name": "Beth_s_recovery",
       "takePlaceAt": {
-       "name": "Sickroom",
-       "id": "texts/littlewomen.txt#Sickroom"
-      },
-      "id": "texts/littlewomen.txt#Beth_s_recovery"
+       "name": "Sickroom"
+      }
      },
      "hasObject": {
-      "name": "Beth_s_recovery",
-      "id": "texts/littlewomen.txt#Beth_s_recovery"
-     },
-     "id": "Hope"
+      "name": "Beth_s_recovery"
+     }
     },
     {
      "name": "Gratitude",
@@ -106,16 +85,12 @@
      "causeByEvent": {
       "name": "Laurie_s_news_about_mother_s_arrival",
       "takePlaceAt": {
-       "name": "Home",
-       "id": "texts/littlewomen.txt#Home"
-      },
-      "id": "texts/littlewomen.txt#Laurie_s_news_about_mother_s_arrival"
+       "name": "Home"
+      }
      },
      "hasObject": {
-      "name": "Laurie_s_news_about_mother_s_arrival",
-      "id": "texts/littlewomen.txt#Laurie_s_news_about_mother_s_arrival"
-     },
-     "id": "Gratitude"
+      "name": "Laurie_s_news_about_mother_s_arrival"
+     }
     },
     {
      "name": "Relief",
@@ -124,16 +99,12 @@
      "causeByEvent": {
       "name": "Beth_s_peaceful_repose",
       "takePlaceAt": {
-       "name": "Sickroom",
-       "id": "texts/littlewomen.txt#Sickroom"
-      },
-      "id": "texts/littlewomen.txt#Beth_s_peaceful_repose"
+       "name": "Sickroom"
+      }
      },
      "hasObject": {
-      "name": "Beth_s_peaceful_repose",
-      "id": "texts/littlewomen.txt#Beth_s_peaceful_repose"
-     },
-     "id": "Relief"
+      "name": "Beth_s_peaceful_repose"
+     }
     },
     {
      "name": "Joy",
@@ -142,19 +113,14 @@
      "causeByEvent": {
       "name": "Seeing_the_beautiful_morning",
       "takePlaceAt": {
-       "name": "Early_morning",
-       "id": "texts/littlewomen.txt#Early_morning"
-      },
-      "id": "texts/littlewomen.txt#Seeing_the_beautiful_morning"
+       "name": "Early_morning"
+      }
      },
      "hasObject": {
-      "name": "Seeing_the_beautiful_morning",
-      "id": "texts/littlewomen.txt#Seeing_the_beautiful_morning"
-     },
-     "id": "Joy"
+      "name": "Seeing_the_beautiful_morning"
+     }
     }
-   ],
-   "id": "texts/littlewomen.txt#Meg_March"
+   ]
   }
  ],
  "Events": [],

@@ -8,45 +8,35 @@
      "hasIntensity": 1,
      "quote": "Their happiness was then complete. Their husbands would not have known them.",
      "hasObject": {
-      "name": "Feeling_of_complete_happiness",
-      "id": "texts/theenchantedapril.txt#Feeling_of_complete_happiness"
+      "name": "Feeling_of_complete_happiness"
      },
      "causedBy": {
-      "name": "Taking_off_shoes_and_stockings_and_letting_feet_hang_in_the_water",
-      "id": "texts/theenchantedapril.txt#Taking_off_shoes_and_stockings_and_letting_feet_ha"
-     },
-     "id": "Joy"
+      "name": "Taking_off_shoes_and_stockings_and_letting_feet_hang_in_the_water"
+     }
     },
     {
      "name": "Serene",
      "hasIntensity": 1,
      "quote": "The disappointment of not going to be able to prepare a welcome for Mrs. Fisher had evaporated at once, for it was impossible to go on being disappointed in heaven.",
      "hasObject": {
-      "name": "Feeling_of_serenity",
-      "id": "texts/theenchantedapril.txt#Feeling_of_serenity"
+      "name": "Feeling_of_serenity"
      },
      "causedBy": {
-      "name": "Realization_of_being_in_a_beautiful_place",
-      "id": "texts/theenchantedapril.txt#Realization_of_being_in_a_beautiful_place"
-     },
-     "id": "Serene"
+      "name": "Realization_of_being_in_a_beautiful_place"
+     }
     },
     {
      "name": "Acceptance",
      "hasIntensity": 1,
      "quote": "They were just cups of acceptance.",
      "hasObject": {
-      "name": "Feeling_of_acceptance",
-      "id": "texts/theenchantedapril.txt#Feeling_of_acceptance"
+      "name": "Feeling_of_acceptance"
      },
      "causedBy": {
-      "name": "Sitting_under_a_pine_tree_by_the_sea",
-      "id": "texts/theenchantedapril.txt#Sitting_under_a_pine_tree_by_the_sea"
-     },
-     "id": "Acceptance"
+      "name": "Sitting_under_a_pine_tree_by_the_sea"
+     }
     }
-   ],
-   "id": "texts/theenchantedapril.txt#Mrs_Wilkins"
+   ]
   },
   {
    "name": "Mrs_Arbuthnot",
@@ -56,31 +46,24 @@
      "hasIntensity": 0.8,
      "quote": "Mrs. Arbuthnot seemed pensive.",
      "hasObject": {
-      "name": "Feeling_of_pensiveness",
-      "id": "texts/theenchantedapril.txt#Feeling_of_pensiveness"
+      "name": "Feeling_of_pensiveness"
      },
      "causedBy": {
-      "name": "Observing_the_beauty_of_the_garden",
-      "id": "texts/theenchantedapril.txt#Observing_the_beauty_of_the_garden"
-     },
-     "id": "Pensive"
+      "name": "Observing_the_beauty_of_the_garden"
+     }
     },
     {
      "name": "Calm",
      "hasIntensity": 0.9,
      "quote": "The vicar, she knew, would have called Lotty’s talk levity, if not profanity. How old he seemed from here; an old, old vicar.",
      "hasObject": {
-      "name": "Feeling_of_calm",
-      "id": "texts/theenchantedapril.txt#Feeling_of_calm"
+      "name": "Feeling_of_calm"
      },
      "causedBy": {
-      "name": "Observing_the_beauty_of_the_garden",
-      "id": "texts/theenchantedapril.txt#Observing_the_beauty_of_the_garden"
-     },
-     "id": "Calm"
+      "name": "Observing_the_beauty_of_the_garden"
+     }
     }
-   ],
-   "id": "texts/theenchantedapril.txt#Mrs_Arbuthnot"
+   ]
   },
   {
    "name": "Lady_Caroline",
@@ -90,145 +73,111 @@
      "hasIntensity": 0.9,
      "quote": "Lady Caroline scowled at the cook.",
      "hasObject": {
-      "name": "Feeling_of_annoyance",
-      "id": "texts/theenchantedapril.txt#Feeling_of_annoyance"
+      "name": "Feeling_of_annoyance"
      },
      "causedBy": {
-      "name": "Interaction_with_the_cook",
-      "id": "texts/theenchantedapril.txt#Interaction_with_the_cook"
-     },
-     "id": "Annoyance"
+      "name": "Interaction_with_the_cook"
+     }
     },
     {
      "name": "Anger",
      "hasIntensity": 0.8,
      "quote": "Lady Caroline repudiated angrily the assumption that the cook was her mother.",
      "hasObject": {
-      "name": "Feeling_of_anger",
-      "id": "texts/theenchantedapril.txt#Feeling_of_anger"
+      "name": "Feeling_of_anger"
      },
      "causedBy": {
-      "name": "Interaction_with_the_cook",
-      "id": "texts/theenchantedapril.txt#Interaction_with_the_cook"
-     },
-     "id": "Anger"
+      "name": "Interaction_with_the_cook"
+     }
     },
     {
      "name": "Irritation",
      "hasIntensity": 0.7,
      "quote": "Lady Caroline countermanded the cream, feeling she had been extravagant.",
      "hasObject": {
-      "name": "Feeling_of_irritation",
-      "id": "texts/theenchantedapril.txt#Feeling_of_irritation"
+      "name": "Feeling_of_irritation"
      },
      "causedBy": {
-      "name": "Realization_of_being_extravagant",
-      "id": "texts/theenchantedapril.txt#Realization_of_being_extravagant"
-     },
-     "id": "Irritation"
+      "name": "Realization_of_being_extravagant"
+     }
     }
-   ],
-   "id": "texts/theenchantedapril.txt#Lady_Caroline"
+   ]
   }
  ],
  "Events": [
   {
    "name": "Taking_off_shoes_and_stockings_and_letting_feet_hang_in_the_water",
    "takePlaceAt": {
-    "name": "Sitting_under_a_pine_tree_by_the_sea",
-    "id": "texts/theenchantedapril.txt#Sitting_under_a_pine_tree_by_the_sea"
-   },
-   "id": "texts/theenchantedapril.txt#Taking_off_shoes_and_stockings_and_letting_feet_ha"
+    "name": "Sitting_under_a_pine_tree_by_the_sea"
+   }
   },
   {
    "name": "Realization_of_being_in_a_beautiful_place",
    "takePlaceAt": {
-    "name": "Observing_the_beauty_of_the_garden",
-    "id": "texts/theenchantedapril.txt#Observing_the_beauty_of_the_garden"
-   },
-   "id": "texts/theenchantedapril.txt#Realization_of_being_in_a_beautiful_place"
+    "name": "Observing_the_beauty_of_the_garden"
+   }
   },
   {
    "name": "Sitting_under_a_pine_tree_by_the_sea",
    "takePlaceAt": {
-    "name": "Sitting_under_a_pine_tree_by_the_sea",
-    "id": "texts/theenchantedapril.txt#Sitting_under_a_pine_tree_by_the_sea"
-   },
-   "id": "texts/theenchantedapril.txt#Sitting_under_a_pine_tree_by_the_sea"
+    "name": "Sitting_under_a_pine_tree_by_the_sea"
+   }
   },
   {
    "name": "Observing_the_beauty_of_the_garden",
    "takePlaceAt": {
-    "name": "Observing_the_beauty_of_the_garden",
-    "id": "texts/theenchantedapril.txt#Observing_the_beauty_of_the_garden"
-   },
-   "id": "texts/theenchantedapril.txt#Observing_the_beauty_of_the_garden"
+    "name": "Observing_the_beauty_of_the_garden"
+   }
   },
   {
    "name": "Observing_the_beauty_of_the_garden",
    "takePlaceAt": {
-    "name": "Observing_the_beauty_of_the_garden",
-    "id": "texts/theenchantedapril.txt#Observing_the_beauty_of_the_garden"
-   },
-   "id": "texts/theenchantedapril.txt#Observing_the_beauty_of_the_garden"
+    "name": "Observing_the_beauty_of_the_garden"
+   }
   },
   {
    "name": "Interaction_with_the_cook",
    "takePlaceAt": {
-    "name": "Interaction_with_the_cook",
-    "id": "texts/theenchantedapril.txt#Interaction_with_the_cook"
-   },
-   "id": "texts/theenchantedapril.txt#Interaction_with_the_cook"
+    "name": "Interaction_with_the_cook"
+   }
   },
   {
    "name": "Interaction_with_the_cook",
    "takePlaceAt": {
-    "name": "Interaction_with_the_cook",
-    "id": "texts/theenchantedapril.txt#Interaction_with_the_cook"
-   },
-   "id": "texts/theenchantedapril.txt#Interaction_with_the_cook"
+    "name": "Interaction_with_the_cook"
+   }
   },
   {
    "name": "Realization_of_being_extravagant",
    "takePlaceAt": {
-    "name": "Interaction_with_the_cook",
-    "id": "texts/theenchantedapril.txt#Interaction_with_the_cook"
-   },
-   "id": "texts/theenchantedapril.txt#Realization_of_being_extravagant"
+    "name": "Interaction_with_the_cook"
+   }
   }
  ],
  "Places": [
   {
-   "name": "Sitting_under_a_pine_tree_by_the_sea",
-   "id": "texts/theenchantedapril.txt#Sitting_under_a_pine_tree_by_the_sea"
+   "name": "Sitting_under_a_pine_tree_by_the_sea"
   },
   {
-   "name": "Observing_the_beauty_of_the_garden",
-   "id": "texts/theenchantedapril.txt#Observing_the_beauty_of_the_garden"
+   "name": "Observing_the_beauty_of_the_garden"
   },
   {
-   "name": "Sitting_under_a_pine_tree_by_the_sea",
-   "id": "texts/theenchantedapril.txt#Sitting_under_a_pine_tree_by_the_sea"
+   "name": "Sitting_under_a_pine_tree_by_the_sea"
   },
   {
-   "name": "Observing_the_beauty_of_the_garden",
-   "id": "texts/theenchantedapril.txt#Observing_the_beauty_of_the_garden"
+   "name": "Observing_the_beauty_of_the_garden"
   },
   {
-   "name": "Observing_the_beauty_of_the_garden",
-   "id": "texts/theenchantedapril.txt#Observing_the_beauty_of_the_garden"
+   "name": "Observing_the_beauty_of_the_garden"
   },
   {
-   "name": "Interaction_with_the_cook",
-   "id": "texts/theenchantedapril.txt#Interaction_with_the_cook"
+   "name": "Interaction_with_the_cook"
   },
   {
-   "name": "Interaction_with_the_cook",
-   "id": "texts/theenchantedapril.txt#Interaction_with_the_cook"
+   "name": "Interaction_with_the_cook"
   },
   {
-   "name": "Interaction_with_the_cook",
-   "id": "texts/theenchantedapril.txt#Interaction_with_the_cook"
+   "name": "Interaction_with_the_cook"
   }
  ]
 }

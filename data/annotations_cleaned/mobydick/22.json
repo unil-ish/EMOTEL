@@ -8,59 +8,46 @@
      "hasIntensity": 0.7,
      "quote": "Oh, Starbuck! it is a mild, mild wind, and a mild looking sky. On such a day—very much such a sweetness as this—I struck my first whale—a boy-harpooneer of eighteen! Forty—forty—forty years ago!—ago! Forty years of continual whaling! forty years of privation, and peril, and storm-time! forty years on the pitiless sea! for forty years has Ahab forsaken the peaceful land, for forty years to make war on the horrors of the deep! Aye and yes, Starbuck, out of those forty years I have not spent three ashore.",
      "hasObject": {
-      "name": "The_sea",
-      "id": "texts/mobydick.txt#The_sea"
+      "name": "The_sea"
      },
      "causedBy": {
-      "name": "Remembering_his_past_experiences_at_sea",
-      "id": "texts/mobydick.txt#Remembering_his_past_experiences_at_sea"
-     },
-     "id": "Trust"
+      "name": "Remembering_his_past_experiences_at_sea"
+     }
     },
     {
      "name": "Sadness",
      "hasIntensity": 0.9,
      "quote": "Oh, my Captain! my Captain! noble soul! grand old heart, after all! why should any one give chase to that hated fish! Away with me! let us fly these deadly waters! let us home! Wife and child, too, are Starbuck’s—wife and child of his brotherly, sisterly, play-fellow youth; even as thine, sir, are the wife and child of thy loving, longing, paternal old age! Away! let us away!—this instant let me alter the course!",
      "hasObject": {
-      "name": "Home",
-      "id": "texts/mobydick.txt#Home"
+      "name": "Home"
      },
      "causedBy": {
-      "name": "Feeling_overwhelmed_by_his_past_experiences_and_longing_for_home",
-      "id": "texts/mobydick.txt#Feeling_overwhelmed_by_his_past_experiences_and_lo"
-     },
-     "id": "Sadness"
+      "name": "Feeling_overwhelmed_by_his_past_experiences_and_longing_for_home"
+     }
     },
     {
      "name": "Love",
      "hasIntensity": 0.8,
      "quote": "’Tis my Mary, my Mary herself! She promised that my boy, every morning, should be carried to the hill to catch the first glimpse of his father’s sail! Yes, yes! no more! it is done! we head for Nantucket! Come, my Captain, study out the course, and let us away!",
      "hasObject": {
-      "name": "Family",
-      "id": "texts/mobydick.txt#Family"
+      "name": "Family"
      },
      "causedBy": {
-      "name": "Thinking_of_his_wife_and_child",
-      "id": "texts/mobydick.txt#Thinking_of_his_wife_and_child"
-     },
-     "id": "Love"
+      "name": "Thinking_of_his_wife_and_child"
+     }
     },
     {
      "name": "Remorse",
      "hasIntensity": 0.9,
      "quote": "But Ahab’s glance was averted; like a blighted fruit tree he shook, and cast his last, cindered apple to the soil.",
      "hasObject": {
-      "name": "His_actions",
-      "id": "texts/mobydick.txt#His_actions"
+      "name": "His_actions"
      },
      "causedBy": {
-      "name": "Feeling_regret_for_his_actions",
-      "id": "texts/mobydick.txt#Feeling_regret_for_his_actions"
-     },
-     "id": "Remorse"
+      "name": "Feeling_regret_for_his_actions"
+     }
     }
-   ],
-   "id": "texts/mobydick.txt#Ahab"
+   ]
   },
   {
    "name": "Starbuck",
@@ -70,81 +57,62 @@
      "hasIntensity": 0.8,
      "quote": "Oh, my Captain! my Captain! noble soul! grand old heart, after all! why should any one give chase to that hated fish! Away with me! let us fly these deadly waters! let us home! Wife and child, too, are Starbuck’s—wife and child of his brotherly, sisterly, play-fellow youth; even as thine, sir, are the wife and child of thy loving, longing, paternal old age! Away! let us away!—this instant let me alter the course!",
      "hasObject": {
-      "name": "Ahab_s_wellbeing",
-      "id": "texts/mobydick.txt#Ahab_s_wellbeing"
+      "name": "Ahab_s_wellbeing"
      },
      "causedBy": {
-      "name": "Feeling_concerned_for_Ahab_s_wellbeing",
-      "id": "texts/mobydick.txt#Feeling_concerned_for_Ahab_s_wellbeing"
-     },
-     "id": "Concern"
+      "name": "Feeling_concerned_for_Ahab_s_wellbeing"
+     }
     }
-   ],
-   "id": "texts/mobydick.txt#Starbuck"
+   ]
   }
  ],
  "Events": [
   {
    "name": "Remembering_his_past_experiences_at_sea",
    "takePlaceAt": {
-    "name": "On_the_ship_s_deck",
-    "id": "texts/mobydick.txt#On_the_ship_s_deck"
-   },
-   "id": "texts/mobydick.txt#Remembering_his_past_experiences_at_sea"
+    "name": "On_the_ship_s_deck"
+   }
   },
   {
    "name": "Feeling_overwhelmed_by_his_past_experiences_and_longing_for_home",
    "takePlaceAt": {
-    "name": "On_the_ship_s_deck",
-    "id": "texts/mobydick.txt#On_the_ship_s_deck"
-   },
-   "id": "texts/mobydick.txt#Feeling_overwhelmed_by_his_past_experiences_and_lo"
+    "name": "On_the_ship_s_deck"
+   }
   },
   {
    "name": "Thinking_of_his_wife_and_child",
    "takePlaceAt": {
-    "name": "On_the_ship_s_deck",
-    "id": "texts/mobydick.txt#On_the_ship_s_deck"
-   },
-   "id": "texts/mobydick.txt#Thinking_of_his_wife_and_child"
+    "name": "On_the_ship_s_deck"
+   }
   },
   {
    "name": "Feeling_regret_for_his_actions",
    "takePlaceAt": {
-    "name": "On_the_ship_s_deck",
-    "id": "texts/mobydick.txt#On_the_ship_s_deck"
-   },
-   "id": "texts/mobydick.txt#Feeling_regret_for_his_actions"
+    "name": "On_the_ship_s_deck"
+   }
   },
   {
    "name": "Feeling_concerned_for_Ahab_s_wellbeing",
    "takePlaceAt": {
-    "name": "On_the_ship_s_deck",
-    "id": "texts/mobydick.txt#On_the_ship_s_deck"
-   },
-   "id": "texts/mobydick.txt#Feeling_concerned_for_Ahab_s_wellbeing"
+    "name": "On_the_ship_s_deck"
+   }
   }
  ],
  "Places": [
   {
-   "name": "On_the_ship_s_deck",
-   "id": "texts/mobydick.txt#On_the_ship_s_deck"
+   "name": "On_the_ship_s_deck"
   },
   {
-   "name": "On_the_ship_s_deck",
-   "id": "texts/mobydick.txt#On_the_ship_s_deck"
+   "name": "On_the_ship_s_deck"
   },
   {
-   "name": "On_the_ship_s_deck",
-   "id": "texts/mobydick.txt#On_the_ship_s_deck"
+   "name": "On_the_ship_s_deck"
   },
   {
-   "name": "On_the_ship_s_deck",
-   "id": "texts/mobydick.txt#On_the_ship_s_deck"
+   "name": "On_the_ship_s_deck"
   },
   {
-   "name": "On_the_ship_s_deck",
-   "id": "texts/mobydick.txt#On_the_ship_s_deck"
+   "name": "On_the_ship_s_deck"
   }
  ]
 }

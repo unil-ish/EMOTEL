@@ -8,535 +8,412 @@
      "hasIntensity": 0.7,
      "quote": "Thus, this carpenter was prepared at all points, and alike indifferent and without respect in all.",
      "hasObject": {
-      "name": "Tasks",
-      "id": "texts/mobydick.txt#Tasks"
+      "name": "Tasks"
      },
      "causedBy": {
-      "name": "Being_prepared_at_all_points",
-      "id": "texts/mobydick.txt#Being_prepared_at_all_points"
-     },
-     "id": "Trust"
+      "name": "Being_prepared_at_all_points"
+     }
     },
     {
      "name": "Surprise",
      "hasIntensity": 0.6,
      "quote": "A lost land-bird of strange plumage strays on board, and is made a captive: out of clean shaved rods of right-whale bone, and cross-beams of sperm whale ivory, the carpenter makes a pagoda-looking cage for it.",
      "hasObject": {
-      "name": "Cage",
-      "id": "texts/mobydick.txt#Cage"
+      "name": "Cage"
      },
      "causedBy": {
-      "name": "Finding_a_lost_landbird",
-      "id": "texts/mobydick.txt#Finding_a_lost_landbird"
-     },
-     "id": "Surprise"
+      "name": "Finding_a_lost_landbird"
+     }
     },
     {
      "name": "Anger",
      "hasIntensity": 0.8,
      "quote": "Drat the file, and drat the bone! That is hard which should be soft, and that is soft which should be hard.",
      "hasObject": {
-      "name": "File_and_bone",
-      "id": "texts/mobydick.txt#File_and_bone"
+      "name": "File_and_bone"
      },
      "causedBy": {
-      "name": "Frustration_with_the_file_and_bone",
-      "id": "texts/mobydick.txt#Frustration_with_the_file_and_bone"
-     },
-     "id": "Anger"
+      "name": "Frustration_with_the_file_and_bone"
+     }
     },
     {
      "name": "Joy",
      "hasIntensity": 0.7,
      "quote": "Stubb longed for vermillion stars to be painted upon the blade of his every oar; screwing each oar in his big vice of wood, the carpenter symmetrically supplies the constellation.",
      "hasObject": {
-      "name": "Oars",
-      "id": "texts/mobydick.txt#Oars"
+      "name": "Oars"
      },
      "causedBy": {
-      "name": "Creating_vermillion_stars_on_oars",
-      "id": "texts/mobydick.txt#Creating_vermillion_stars_on_oars"
-     },
-     "id": "Joy"
+      "name": "Creating_vermillion_stars_on_oars"
+     }
     },
     {
      "name": "Anticipation",
      "hasIntensity": 0.6,
      "quote": "An oarsman sprains his wrist: the carpenter concocts a soothing lotion.",
      "hasObject": {
-      "name": "Soothing_lotion",
-      "id": "texts/mobydick.txt#Soothing_lotion"
+      "name": "Soothing_lotion"
      },
      "causedBy": {
-      "name": "Oarsman_spraining_wrist",
-      "id": "texts/mobydick.txt#Oarsman_spraining_wrist"
-     },
-     "id": "Anticipation"
+      "name": "Oarsman_spraining_wrist"
+     }
     },
     {
      "name": "Fear",
      "hasIntensity": 0.7,
      "quote": "A sailor takes a fancy to wear shark-bone ear-rings: the carpenter drills his ears.",
      "hasObject": {
-      "name": "Sharkbone_earrings",
-      "id": "texts/mobydick.txt#Sharkbone_earrings"
+      "name": "Sharkbone_earrings"
      },
      "causedBy": {
-      "name": "Sailor_wanting_sharkbone_earrings",
-      "id": "texts/mobydick.txt#Sailor_wanting_sharkbone_earrings"
-     },
-     "id": "Fear"
+      "name": "Sailor_wanting_sharkbone_earrings"
+     }
     },
     {
      "name": "Disgust",
      "hasIntensity": 0.8,
      "quote": "Another has the toothache: the carpenter out pincers, and clapping one hand upon his bench bids him be seated there; but the poor fellow unmanageably winces under the unconcluded operation.",
      "hasObject": {
-      "name": "Pincers",
-      "id": "texts/mobydick.txt#Pincers"
+      "name": "Pincers"
      },
      "causedBy": {
-      "name": "Another_having_toothache",
-      "id": "texts/mobydick.txt#Another_having_toothache"
-     },
-     "id": "Disgust"
+      "name": "Another_having_toothache"
+     }
     },
     {
      "name": "Sadness",
      "hasIntensity": 0.7,
      "quote": "But while now upon so wide a field thus variously accomplished and with such liveliness of expertness in him, too; all this would seem to argue some uncommon vivacity of intelligence.",
      "hasObject": {
-      "name": "Skills",
-      "id": "texts/mobydick.txt#Skills"
+      "name": "Skills"
      },
      "causedBy": {
-      "name": "Reflecting_on_carpenter_s_skills",
-      "id": "texts/mobydick.txt#Reflecting_on_carpenter_s_skills"
-     },
-     "id": "Sadness"
+      "name": "Reflecting_on_carpenter_s_skills"
+     }
     },
     {
      "name": "Acceptance",
      "hasIntensity": 0.6,
      "quote": "He was a stript abstract; an unfractioned integral; uncompromised as a new-born babe; living without premeditated reference to this world or the next.",
      "hasObject": {
-      "name": "State_of_being",
-      "id": "texts/mobydick.txt#State_of_being"
+      "name": "State_of_being"
      },
      "causedBy": {
-      "name": "Carpenter_s_state_of_being",
-      "id": "texts/mobydick.txt#Carpenter_s_state_of_being"
-     },
-     "id": "Acceptance"
+      "name": "Carpenter_s_state_of_being"
+     }
     },
     {
      "name": "Admiration",
      "hasIntensity": 0.7,
      "quote": "You might almost say, that this strange uncompromisedness in him involved a sort of unintelligence; for in his numerous trades, he did not seem to work so much by reason or by instinct, or simply because he had been tutored to it, or by any intermixture of all these, even or uneven; but merely by a kind of deaf and dumb, spontaneous literal process.",
      "hasObject": {
-      "name": "Work_process",
-      "id": "texts/mobydick.txt#Work_process"
+      "name": "Work_process"
      },
      "causedBy": {
-      "name": "Reflecting_on_carpenter_s_work_process",
-      "id": "texts/mobydick.txt#Reflecting_on_carpenter_s_work_process"
-     },
-     "id": "Admiration"
+      "name": "Reflecting_on_carpenter_s_work_process"
+     }
     },
     {
      "name": "Amazement",
      "hasIntensity": 0.8,
      "quote": "He was like one of those unreasoning but still highly useful, _multum in parvo_, Sheffield contrivances, assuming the exterior—though a little swelled—of a common pocket knife; but containing, not only blades of various sizes, but also screw-drivers, cork-screws, tweezers, awls, pens, rulers, nail-filers, countersinkers.",
      "hasObject": {
-      "name": "Versatility",
-      "id": "texts/mobydick.txt#Versatility"
+      "name": "Versatility"
      },
      "causedBy": {
-      "name": "Observing_carpenter_s_versatility",
-      "id": "texts/mobydick.txt#Observing_carpenter_s_versatility"
-     },
-     "id": "Amazement"
+      "name": "Observing_carpenter_s_versatility"
+     }
     },
     {
      "name": "Distraction",
      "hasIntensity": 0.6,
      "quote": "So, if his superiors wanted to use the carpenter for a screw-driver, all they had to do was to open that part of him, and the screw was fast: or if for tweezers, take him up by the legs, and there they were.",
      "hasObject": {
-      "name": "Usefulness",
-      "id": "texts/mobydick.txt#Usefulness"
+      "name": "Usefulness"
      },
      "causedBy": {
-      "name": "Reflecting_on_carpenter_s_usefulness",
-      "id": "texts/mobydick.txt#Reflecting_on_carpenter_s_usefulness"
-     },
-     "id": "Distraction"
+      "name": "Reflecting_on_carpenter_s_usefulness"
+     }
     },
     {
      "name": "Terror",
      "hasIntensity": 0.7,
      "quote": "Now, mustering the spare poles from below, and selecting one of hickory, with the bark still investing it, Ahab fitted the end to the socket of the iron. A coil of new tow-line was then unwound, and some fathoms of it taken to the windlass, and stretched to a great tension.",
      "hasObject": {
-      "name": "Harpoonmaking",
-      "id": "texts/mobydick.txt#Harpoonmaking"
+      "name": "Harpoonmaking"
      },
      "causedBy": {
-      "name": "Preparing_for_harpoonmaking",
-      "id": "texts/mobydick.txt#Preparing_for_harpoonmaking"
-     },
-     "id": "Terror"
+      "name": "Preparing_for_harpoonmaking"
+     }
     },
     {
      "name": "Apprehension",
      "hasIntensity": 0.6,
      "quote": "Pressing his foot upon it, till the rope hummed like a harp-string, then eagerly bending over it, and seeing no strandings, Ahab exclaimed, 'Good! and now for the seizings.'",
      "hasObject": {
-      "name": "Rope_tensioning",
-      "id": "texts/mobydick.txt#Rope_tensioning"
+      "name": "Rope_tensioning"
      },
      "causedBy": {
-      "name": "Preparing_for_rope_tensioning",
-      "id": "texts/mobydick.txt#Preparing_for_rope_tensioning"
-     },
-     "id": "Apprehension"
+      "name": "Preparing_for_rope_tensioning"
+     }
     },
     {
      "name": "Boredom",
      "hasIntensity": 0.6,
      "quote": "But ere he entered his cabin, light, unnatural, half-bantering, yet most piteous sound was heard. Oh, Pip! thy wretched laugh, thy idle but unresting eye; all thy strange mummeries not unmeaningly blended with the black tragedy of the melancholy ship, and mocked it!",
      "hasObject": {
-      "name": "Pip_s_laugh",
-      "id": "texts/mobydick.txt#Pip_s_laugh"
+      "name": "Pip_s_laugh"
      },
      "causedBy": {
-      "name": "Hearing_Pip_s_laugh",
-      "id": "texts/mobydick.txt#Hearing_Pip_s_laugh"
-     },
-     "id": "Boredom"
+      "name": "Hearing_Pip_s_laugh"
+     }
     },
     {
      "name": "Loathing",
      "hasIntensity": 0.7,
      "quote": "Oh, woe on woe! Oh, Death, why canst thou not sometimes be timely? Hadst thou taken this old blacksmith to thyself ere his full ruin came upon him, then had the young widow had a delicious grief, and her orphans a truly venerable, legendary sire to dream of in their after years; and all of them a care-killing competency.",
      "hasObject": {
-      "name": "Blacksmith_s_fate",
-      "id": "texts/mobydick.txt#Blacksmith_s_fate"
+      "name": "Blacksmith_s_fate"
      },
      "causedBy": {
-      "name": "Reflecting_on_blacksmith_s_fate",
-      "id": "texts/mobydick.txt#Reflecting_on_blacksmith_s_fate"
-     },
-     "id": "Loathing"
+      "name": "Reflecting_on_blacksmith_s_fate"
+     }
     },
     {
      "name": "Interest",
      "hasIntensity": 0.7,
      "quote": "Death seems the only desirable sequel for a career like this; but Death is only a launching into the region of the strange Untried; it is but the first salutation to the possibilities of the immense Remote, the Wild, the Watery, the Unshored; therefore, to the death-longing eyes of such men, who still have left in them some interior compunctions against suicide, does the all-contributed and all-receptive ocean alluringly spread forth his whole plain of unimaginable, taking terrors, and wonderful, new-life adventures; and from the hearts of infinite Pacifics, the thousand mermaids sing to them—'Come hither, broken-hearted; here is another life without the guilt of intermediate death; here are wonders supernatural, without dying for them. Come hither! bury thyself in a life which, to your now equally abhorred and abhorring, landed world, is more oblivious than death. Come hither! put up _thy_ gravestone, too, within the churchyard, and come hither, till we marry thee!'",
      "hasObject": {
-      "name": "Death_and_the_ocean",
-      "id": "texts/mobydick.txt#Death_and_the_ocean"
+      "name": "Death_and_the_ocean"
      },
      "causedBy": {
-      "name": "Reflecting_on_death_and_the_ocean",
-      "id": "texts/mobydick.txt#Reflecting_on_death_and_the_ocean"
-     },
-     "id": "Interest"
+      "name": "Reflecting_on_death_and_the_ocean"
+     }
     }
-   ],
-   "id": "texts/mobydick.txt#Carpenter"
+   ]
   }
  ],
  "Events": [
   {
    "name": "Being_prepared_at_all_points",
    "takePlaceAt": {
-    "name": "Ship",
-    "id": "texts/mobydick.txt#Ship"
+    "name": "Ship"
    },
    "hasParticipant": {
-    "name": "Carpenter",
-    "id": "texts/mobydick.txt#Carpenter"
-   },
-   "id": "texts/mobydick.txt#Being_prepared_at_all_points"
+    "name": "Carpenter"
+   }
   },
   {
    "name": "Finding_a_lost_landbird",
    "takePlaceAt": {
-    "name": "Ship",
-    "id": "texts/mobydick.txt#Ship"
+    "name": "Ship"
    },
    "hasParticipant": {
-    "name": "Carpenter",
-    "id": "texts/mobydick.txt#Carpenter"
-   },
-   "id": "texts/mobydick.txt#Finding_a_lost_landbird"
+    "name": "Carpenter"
+   }
   },
   {
    "name": "Frustration_with_the_file_and_bone",
    "takePlaceAt": {
-    "name": "Ship",
-    "id": "texts/mobydick.txt#Ship"
+    "name": "Ship"
    },
    "hasParticipant": {
-    "name": "Carpenter",
-    "id": "texts/mobydick.txt#Carpenter"
-   },
-   "id": "texts/mobydick.txt#Frustration_with_the_file_and_bone"
+    "name": "Carpenter"
+   }
   },
   {
    "name": "Creating_vermillion_stars_on_oars",
    "takePlaceAt": {
-    "name": "Ship",
-    "id": "texts/mobydick.txt#Ship"
+    "name": "Ship"
    },
    "hasParticipant": [
     {
-     "name": "Carpenter",
-     "id": "texts/mobydick.txt#Carpenter"
+     "name": "Carpenter"
     },
     {
-     "name": "Stubb",
-     "id": "texts/mobydick.txt#Stubb"
+     "name": "Stubb"
     }
-   ],
-   "id": "texts/mobydick.txt#Creating_vermillion_stars_on_oars"
+   ]
   },
   {
    "name": "Oarsman_spraining_wrist",
    "takePlaceAt": {
-    "name": "Ship",
-    "id": "texts/mobydick.txt#Ship"
+    "name": "Ship"
    },
    "hasParticipant": {
-    "name": "Carpenter",
-    "id": "texts/mobydick.txt#Carpenter"
-   },
-   "id": "texts/mobydick.txt#Oarsman_spraining_wrist"
+    "name": "Carpenter"
+   }
   },
   {
    "name": "Sailor_wanting_sharkbone_earrings",
    "takePlaceAt": {
-    "name": "Ship",
-    "id": "texts/mobydick.txt#Ship"
+    "name": "Ship"
    },
    "hasParticipant": {
-    "name": "Carpenter",
-    "id": "texts/mobydick.txt#Carpenter"
-   },
-   "id": "texts/mobydick.txt#Sailor_wanting_sharkbone_earrings"
+    "name": "Carpenter"
+   }
   },
   {
    "name": "Another_having_toothache",
    "takePlaceAt": {
-    "name": "Ship",
-    "id": "texts/mobydick.txt#Ship"
+    "name": "Ship"
    },
    "hasParticipant": {
-    "name": "Carpenter",
-    "id": "texts/mobydick.txt#Carpenter"
-   },
-   "id": "texts/mobydick.txt#Another_having_toothache"
+    "name": "Carpenter"
+   }
   },
   {
    "name": "Reflecting_on_carpenter_s_skills",
    "takePlaceAt": {
-    "name": "Ship",
-    "id": "texts/mobydick.txt#Ship"
+    "name": "Ship"
    },
    "hasParticipant": {
-    "name": "Carpenter",
-    "id": "texts/mobydick.txt#Carpenter"
-   },
-   "id": "texts/mobydick.txt#Reflecting_on_carpenter_s_skills"
+    "name": "Carpenter"
+   }
   },
   {
    "name": "Carpenter_s_state_of_being",
    "takePlaceAt": {
-    "name": "Ship",
-    "id": "texts/mobydick.txt#Ship"
+    "name": "Ship"
    },
    "hasParticipant": {
-    "name": "Carpenter",
-    "id": "texts/mobydick.txt#Carpenter"
-   },
-   "id": "texts/mobydick.txt#Carpenter_s_state_of_being"
+    "name": "Carpenter"
+   }
   },
   {
    "name": "Reflecting_on_carpenter_s_work_process",
    "takePlaceAt": {
-    "name": "Ship",
-    "id": "texts/mobydick.txt#Ship"
+    "name": "Ship"
    },
    "hasParticipant": {
-    "name": "Carpenter",
-    "id": "texts/mobydick.txt#Carpenter"
-   },
-   "id": "texts/mobydick.txt#Reflecting_on_carpenter_s_work_process"
+    "name": "Carpenter"
+   }
   },
   {
    "name": "Observing_carpenter_s_versatility",
    "takePlaceAt": {
-    "name": "Ship",
-    "id": "texts/mobydick.txt#Ship"
+    "name": "Ship"
    },
    "hasParticipant": {
-    "name": "Carpenter",
-    "id": "texts/mobydick.txt#Carpenter"
-   },
-   "id": "texts/mobydick.txt#Observing_carpenter_s_versatility"
+    "name": "Carpenter"
+   }
   },
   {
    "name": "Reflecting_on_carpenter_s_usefulness",
    "takePlaceAt": {
-    "name": "Ship",
-    "id": "texts/mobydick.txt#Ship"
+    "name": "Ship"
    },
    "hasParticipant": {
-    "name": "Carpenter",
-    "id": "texts/mobydick.txt#Carpenter"
-   },
-   "id": "texts/mobydick.txt#Reflecting_on_carpenter_s_usefulness"
+    "name": "Carpenter"
+   }
   },
   {
    "name": "Preparing_for_harpoonmaking",
    "takePlaceAt": {
-    "name": "Ship",
-    "id": "texts/mobydick.txt#Ship"
+    "name": "Ship"
    },
    "hasParticipant": [
     {
-     "name": "Carpenter",
-     "id": "texts/mobydick.txt#Carpenter"
+     "name": "Carpenter"
     },
     {
-     "name": "Ahab",
-     "id": "texts/mobydick.txt#Ahab"
+     "name": "Ahab"
     }
-   ],
-   "id": "texts/mobydick.txt#Preparing_for_harpoonmaking"
+   ]
   },
   {
    "name": "Preparing_for_rope_tensioning",
    "takePlaceAt": {
-    "name": "Ship",
-    "id": "texts/mobydick.txt#Ship"
+    "name": "Ship"
    },
    "hasParticipant": [
     {
-     "name": "Carpenter",
-     "id": "texts/mobydick.txt#Carpenter"
+     "name": "Carpenter"
     },
     {
-     "name": "Ahab",
-     "id": "texts/mobydick.txt#Ahab"
+     "name": "Ahab"
     }
-   ],
-   "id": "texts/mobydick.txt#Preparing_for_rope_tensioning"
+   ]
   },
   {
    "name": "Hearing_Pip_s_laugh",
    "takePlaceAt": {
-    "name": "Ship",
-    "id": "texts/mobydick.txt#Ship"
+    "name": "Ship"
    },
    "hasParticipant": {
-    "name": "Carpenter",
-    "id": "texts/mobydick.txt#Carpenter"
-   },
-   "id": "texts/mobydick.txt#Hearing_Pip_s_laugh"
+    "name": "Carpenter"
+   }
   },
   {
    "name": "Reflecting_on_blacksmith_s_fate",
    "takePlaceAt": {
-    "name": "Ship",
-    "id": "texts/mobydick.txt#Ship"
+    "name": "Ship"
    },
    "hasParticipant": {
-    "name": "Carpenter",
-    "id": "texts/mobydick.txt#Carpenter"
-   },
-   "id": "texts/mobydick.txt#Reflecting_on_blacksmith_s_fate"
+    "name": "Carpenter"
+   }
   },
   {
    "name": "Reflecting_on_death_and_the_ocean",
    "takePlaceAt": {
-    "name": "Ship",
-    "id": "texts/mobydick.txt#Ship"
+    "name": "Ship"
    },
    "hasParticipant": {
-    "name": "Carpenter",
-    "id": "texts/mobydick.txt#Carpenter"
-   },
-   "id": "texts/mobydick.txt#Reflecting_on_death_and_the_ocean"
+    "name": "Carpenter"
+   }
   }
  ],
  "Places": [
   {
-   "name": "Ship",
-   "id": "texts/mobydick.txt#Ship"
+   "name": "Ship"
   },
   {
-   "name": "Ship",
-   "id": "texts/mobydick.txt#Ship"
+   "name": "Ship"
   },
   {
-   "name": "Ship",
-   "id": "texts/mobydick.txt#Ship"
+   "name": "Ship"
   },
   {
-   "name": "Ship",
-   "id": "texts/mobydick.txt#Ship"
+   "name": "Ship"
   },
   {
-   "name": "Ship",
-   "id": "texts/mobydick.txt#Ship"
+   "name": "Ship"
   },
   {
-   "name": "Ship",
-   "id": "texts/mobydick.txt#Ship"
+   "name": "Ship"
   },
   {
-   "name": "Ship",
-   "id": "texts/mobydick.txt#Ship"
+   "name": "Ship"
   },
   {
-   "name": "Ship",
-   "id": "texts/mobydick.txt#Ship"
+   "name": "Ship"
   },
   {
-   "name": "Ship",
-   "id": "texts/mobydick.txt#Ship"
+   "name": "Ship"
   },
   {
-   "name": "Ship",
-   "id": "texts/mobydick.txt#Ship"
+   "name": "Ship"
   },
   {
-   "name": "Ship",
-   "id": "texts/mobydick.txt#Ship"
+   "name": "Ship"
   },
   {
-   "name": "Ship",
-   "id": "texts/mobydick.txt#Ship"
+   "name": "Ship"
   },
   {
-   "name": "Ship",
-   "id": "texts/mobydick.txt#Ship"
+   "name": "Ship"
   },
   {
-   "name": "Ship",
-   "id": "texts/mobydick.txt#Ship"
+   "name": "Ship"
   },
   {
-   "name": "Ship",
-   "id": "texts/mobydick.txt#Ship"
+   "name": "Ship"
   },
   {
-   "name": "Ship",
-   "id": "texts/mobydick.txt#Ship"
+   "name": "Ship"
   },
   {
-   "name": "Ship",
-   "id": "texts/mobydick.txt#Ship"
+   "name": "Ship"
   }
  ]
 }

@@ -8,17 +8,13 @@
      "hasIntensity": 0.9,
      "quote": "I thought you were asleep,' sobbed Beth.",
      "hasObject": {
-      "name": "Unknown",
-      "id": "texts/littlewomen.txt#Unknown"
+      "name": "Unknown"
      },
      "causedBy": {
-      "name": "Unknown_cause",
-      "id": "texts/littlewomen.txt#Unknown_cause"
-     },
-     "id": "Sadness"
+      "name": "Unknown_cause"
+     }
     }
-   ],
-   "id": "texts/littlewomen.txt#Beth"
+   ]
   },
   {
    "name": "Jo",
@@ -28,71 +24,55 @@
      "hasIntensity": 0.8,
      "quote": "I feel restless, and anxious to be seeing, doing, and learning more than I am.",
      "hasObject": {
-      "name": "New_experiences",
-      "id": "texts/littlewomen.txt#New_experiences"
+      "name": "New_experiences"
      },
      "causedBy": {
-      "name": "Desire_for_change_and_new_experiences",
-      "id": "texts/littlewomen.txt#Desire_for_change_and_new_experiences"
-     },
-     "id": "Restlessness"
+      "name": "Desire_for_change_and_new_experiences"
+     }
     },
     {
      "name": "Anxiety",
      "hasIntensity": 0.7,
      "quote": "I'm afraid--Laurie is getting too fond of me.",
      "hasObject": {
-      "name": "Laurie",
-      "id": "texts/littlewomen.txt#Laurie"
+      "name": "Laurie"
      },
      "causedBy": {
-      "name": "Fear_of_Laurie_s_growing_affection",
-      "id": "texts/littlewomen.txt#Fear_of_Laurie_s_growing_affection"
-     },
-     "id": "Anxiety"
+      "name": "Fear_of_Laurie_s_growing_affection"
+     }
     }
-   ],
-   "id": "texts/littlewomen.txt#Jo"
+   ]
   }
  ],
  "Events": [
   {
    "name": "Unknown_cause",
    "takePlaceAt": {
-    "name": "Bedroom",
-    "id": "texts/littlewomen.txt#Bedroom"
-   },
-   "id": "texts/littlewomen.txt#Unknown_cause"
+    "name": "Bedroom"
+   }
   },
   {
    "name": "Desire_for_change_and_new_experiences",
    "takePlaceAt": {
-    "name": "Home",
-    "id": "texts/littlewomen.txt#Home"
-   },
-   "id": "texts/littlewomen.txt#Desire_for_change_and_new_experiences"
+    "name": "Home"
+   }
   },
   {
    "name": "Fear_of_Laurie_s_growing_affection",
    "takePlaceAt": {
-    "name": "Home",
-    "id": "texts/littlewomen.txt#Home"
-   },
-   "id": "texts/littlewomen.txt#Fear_of_Laurie_s_growing_affection"
+    "name": "Home"
+   }
   }
  ],
  "Places": [
   {
-   "name": "Bedroom",
-   "id": "texts/littlewomen.txt#Bedroom"
+   "name": "Bedroom"
   },
   {
-   "name": "Home",
-   "id": "texts/littlewomen.txt#Home"
+   "name": "Home"
   },
   {
-   "name": "Home",
-   "id": "texts/littlewomen.txt#Home"
+   "name": "Home"
   }
  ]
 }

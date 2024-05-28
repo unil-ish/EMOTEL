@@ -8,73 +8,57 @@
      "hasIntensity": 0.5,
      "quote": "She began to like Mrs. Fisher. Perhaps the originals didn’t know anything about her either.",
      "hasObject": {
-      "name": "Mrs_Fisher",
-      "id": "texts/theenchantedapril.txt#Mrs_Fisher"
+      "name": "Mrs_Fisher"
      },
      "causedBy": {
-      "name": "Mrs_Fisher_not_knowing_about_her_background",
-      "id": "texts/theenchantedapril.txt#Mrs_Fisher_not_knowing_about_her_background"
-     },
-     "id": "Trust"
+      "name": "Mrs_Fisher_not_knowing_about_her_background"
+     }
     },
     {
      "name": "Surprise",
      "hasIntensity": 0.7,
      "quote": "A faint wonder came into Scrap’s eyes. Have you a mother?",
      "hasObject": {
-      "name": "Mother",
-      "id": "texts/theenchantedapril.txt#Mother"
+      "name": "Mother"
      },
      "causedBy": {
-      "name": "Mrs_Fisher_asking_about_her_mother",
-      "id": "texts/theenchantedapril.txt#Mrs_Fisher_asking_about_her_mother"
-     },
-     "id": "Surprise"
+      "name": "Mrs_Fisher_asking_about_her_mother"
+     }
     },
     {
      "name": "Anger",
      "hasIntensity": 0.8,
      "quote": "I dislike very great people",
      "hasObject": {
-      "name": "Great_people",
-      "id": "texts/theenchantedapril.txt#Great_people"
+      "name": "Great_people"
      },
      "causedBy": {
-      "name": "Mrs_Fisher_mentioning_great_people",
-      "id": "texts/theenchantedapril.txt#Mrs_Fisher_mentioning_great_people"
-     },
-     "id": "Anger"
+      "name": "Mrs_Fisher_mentioning_great_people"
+     }
     },
     {
      "name": "Joy",
      "hasIntensity": 0.6,
      "quote": "If only people would go away she didn’t in the least mind why they went.",
      "hasObject": {
-      "name": "Being_left_alone",
-      "id": "texts/theenchantedapril.txt#Being_left_alone"
+      "name": "Being_left_alone"
      },
      "causedBy": {
-      "name": "People_leaving_her_alone",
-      "id": "texts/theenchantedapril.txt#People_leaving_her_alone"
-     },
-     "id": "Joy"
+      "name": "People_leaving_her_alone"
+     }
     },
     {
      "name": "Disgust",
      "hasIntensity": 0.9,
      "quote": "Sheer silliness, these poses. She had no patience with them.",
      "hasObject": {
-      "name": "Poses",
-      "id": "texts/theenchantedapril.txt#Poses"
+      "name": "Poses"
      },
      "causedBy": {
-      "name": "Encountering_poses_she_found_silly",
-      "id": "texts/theenchantedapril.txt#Encountering_poses_she_found_silly"
-     },
-     "id": "Disgust"
+      "name": "Encountering_poses_she_found_silly"
+     }
     }
-   ],
-   "id": "texts/theenchantedapril.txt#Scrap"
+   ]
   },
   {
    "name": "Mrs_Fisher",
@@ -84,119 +68,91 @@
      "hasIntensity": 0.7,
      "quote": "She was sorry she had bothered about Lady Caroline.",
      "hasObject": {
-      "name": "Lady_Caroline",
-      "id": "texts/theenchantedapril.txt#Lady_Caroline"
+      "name": "Lady_Caroline"
      },
      "causedBy": {
-      "name": "Feeling_her_efforts_were_wasted",
-      "id": "texts/theenchantedapril.txt#Feeling_her_efforts_were_wasted"
-     },
-     "id": "Annoyance"
+      "name": "Feeling_her_efforts_were_wasted"
+     }
     },
     {
      "name": "Disapproval",
      "hasIntensity": 0.8,
      "quote": "Apes, thought Mrs. Fisher, roused. Apes. Apes.",
      "hasObject": {
-      "name": "Behavior",
-      "id": "texts/theenchantedapril.txt#Behavior"
+      "name": "Behavior"
      },
      "causedBy": {
-      "name": "Observing_behavior_she_disapproved_of",
-      "id": "texts/theenchantedapril.txt#Observing_behavior_she_disapproved_of"
-     },
-     "id": "Disapproval"
+      "name": "Observing_behavior_she_disapproved_of"
+     }
     }
-   ],
-   "id": "texts/theenchantedapril.txt#Mrs_Fisher"
+   ]
   }
  ],
  "Events": [
   {
    "name": "Mrs_Fisher_not_knowing_about_her_background",
    "takePlaceAt": {
-    "name": "In_the_garden_loop",
-    "id": "texts/theenchantedapril.txt#In_the_garden_loop"
-   },
-   "id": "texts/theenchantedapril.txt#Mrs_Fisher_not_knowing_about_her_background"
+    "name": "In_the_garden_loop"
+   }
   },
   {
    "name": "Mrs_Fisher_asking_about_her_mother",
    "takePlaceAt": {
-    "name": "In_the_garden_loop",
-    "id": "texts/theenchantedapril.txt#In_the_garden_loop"
-   },
-   "id": "texts/theenchantedapril.txt#Mrs_Fisher_asking_about_her_mother"
+    "name": "In_the_garden_loop"
+   }
   },
   {
    "name": "Mrs_Fisher_mentioning_great_people",
    "takePlaceAt": {
-    "name": "In_the_garden_loop",
-    "id": "texts/theenchantedapril.txt#In_the_garden_loop"
-   },
-   "id": "texts/theenchantedapril.txt#Mrs_Fisher_mentioning_great_people"
+    "name": "In_the_garden_loop"
+   }
   },
   {
    "name": "People_leaving_her_alone",
    "takePlaceAt": {
-    "name": "In_the_garden_loop",
-    "id": "texts/theenchantedapril.txt#In_the_garden_loop"
-   },
-   "id": "texts/theenchantedapril.txt#People_leaving_her_alone"
+    "name": "In_the_garden_loop"
+   }
   },
   {
    "name": "Encountering_poses_she_found_silly",
    "takePlaceAt": {
-    "name": "In_the_sittingroom",
-    "id": "texts/theenchantedapril.txt#In_the_sittingroom"
-   },
-   "id": "texts/theenchantedapril.txt#Encountering_poses_she_found_silly"
+    "name": "In_the_sittingroom"
+   }
   },
   {
    "name": "Feeling_her_efforts_were_wasted",
    "takePlaceAt": {
-    "name": "In_the_hall",
-    "id": "texts/theenchantedapril.txt#In_the_hall"
-   },
-   "id": "texts/theenchantedapril.txt#Feeling_her_efforts_were_wasted"
+    "name": "In_the_hall"
+   }
   },
   {
    "name": "Observing_behavior_she_disapproved_of",
    "takePlaceAt": {
-    "name": "In_the_sittingroom",
-    "id": "texts/theenchantedapril.txt#In_the_sittingroom"
-   },
-   "id": "texts/theenchantedapril.txt#Observing_behavior_she_disapproved_of"
+    "name": "In_the_sittingroom"
+   }
   }
  ],
  "Places": [
   {
-   "name": "In_the_garden_loop",
-   "id": "texts/theenchantedapril.txt#In_the_garden_loop"
+   "name": "In_the_garden_loop"
   },
   {
-   "name": "In_the_garden_loop",
-   "id": "texts/theenchantedapril.txt#In_the_garden_loop"
+   "name": "In_the_garden_loop"
   },
   {
-   "name": "In_the_garden_loop",
-   "id": "texts/theenchantedapril.txt#In_the_garden_loop"
+   "name": "In_the_garden_loop"
   },
   {
-   "name": "In_the_garden_loop",
-   "id": "texts/theenchantedapril.txt#In_the_garden_loop"
+   "name": "In_the_garden_loop"
   },
   {
-   "name": "In_the_sittingroom",
-   "id": "texts/theenchantedapril.txt#In_the_sittingroom"
+   "name": "In_the_sittingroom"
   },
   {
-   "name": "In_the_hall",
-   "id": "texts/theenchantedapril.txt#In_the_hall"
+   "name": "In_the_hall"
   },
   {
-   "name": "In_the_sittingroom",
-   "id": "texts/theenchantedapril.txt#In_the_sittingroom"
+   "name": "In_the_sittingroom"
   }
  ]
 }

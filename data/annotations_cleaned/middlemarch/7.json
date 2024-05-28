@@ -8,17 +8,13 @@
      "hasIntensity": 0.7,
      "quote": "“The best girl in the world! He will be a happy fellow who gets her!”",
      "hasObject": {
-      "name": "the_girl",
-      "id": "texts/middlemarch.txt#the_girl"
+      "name": "the_girl"
      },
      "causedBy": {
-      "name": "Visiting_the_Vincys",
-      "id": "texts/middlemarch.txt#Visiting_the_Vincys"
-     },
-     "id": "Admiration"
+      "name": "Visiting_the_Vincys"
+     }
     }
-   ],
-   "id": "texts/middlemarch.txt#Elderly_gentlemen"
+   ]
   },
   {
    "name": "Mrs_Plymdale",
@@ -28,17 +24,13 @@
      "hasIntensity": 0.6,
      "quote": "But Mrs. Plymdale thought that Rosamond had been educated to a ridiculous pitch...",
      "hasObject": {
-      "name": "Rosamond_s_education",
-      "id": "texts/middlemarch.txt#Rosamond_s_education"
+      "name": "Rosamond_s_education"
      },
      "causedBy": {
-      "name": "Thinking_Rosamond_s_education_was_excessive",
-      "id": "texts/middlemarch.txt#Thinking_Rosamond_s_education_was_excessive"
-     },
-     "id": "Disapproval"
+      "name": "Thinking_Rosamond_s_education_was_excessive"
+     }
     }
-   ],
-   "id": "texts/middlemarch.txt#Mrs_Plymdale"
+   ]
   },
   {
    "name": "Mr_Farebrother",
@@ -48,17 +40,13 @@
      "hasIntensity": 0.8,
      "quote": "But the Vicar of St. Botolph’s had certainly escaped the slightest tincture of the Pharisee...",
      "hasObject": {
-      "name": "Being_accepted",
-      "id": "texts/middlemarch.txt#Being_accepted"
+      "name": "Being_accepted"
      },
      "causedBy": {
-      "name": "Being_accepted_for_who_he_is",
-      "id": "texts/middlemarch.txt#Being_accepted_for_who_he_is"
-     },
-     "id": "Acceptance"
+      "name": "Being_accepted_for_who_he_is"
+     }
     }
-   ],
-   "id": "texts/middlemarch.txt#Mr_Farebrother"
+   ]
   },
   {
    "name": "Mr_Bulstrode",
@@ -68,17 +56,13 @@
      "hasIntensity": 0.7,
      "quote": "But Mr. Bulstrode believed that everybody meant well in the matter...",
      "hasObject": {
-      "name": "Good_intentions_of_others",
-      "id": "texts/middlemarch.txt#Good_intentions_of_others"
+      "name": "Good_intentions_of_others"
      },
      "causedBy": {
-      "name": "Believing_in_the_good_intentions_of_others",
-      "id": "texts/middlemarch.txt#Believing_in_the_good_intentions_of_others"
-     },
-     "id": "Optimism"
+      "name": "Believing_in_the_good_intentions_of_others"
+     }
     }
-   ],
-   "id": "texts/middlemarch.txt#Mr_Bulstrode"
+   ]
   },
   {
    "name": "Mr_Brooke",
@@ -88,17 +72,13 @@
      "hasIntensity": 0.6,
      "quote": "I regard my time as being at the disposal of the public—and, in short, my friends have convinced me that a chaplain with a salary—a salary, you know—is a very good thing...",
      "hasObject": {
-      "name": "Chaplain_with_a_salary",
-      "id": "texts/middlemarch.txt#Chaplain_with_a_salary"
+      "name": "Chaplain_with_a_salary"
      },
      "causedBy": {
-      "name": "Being_convinced_by_friends",
-      "id": "texts/middlemarch.txt#Being_convinced_by_friends"
-     },
-     "id": "Vigilance"
+      "name": "Being_convinced_by_friends"
+     }
     }
-   ],
-   "id": "texts/middlemarch.txt#Mr_Brooke"
+   ]
   },
   {
    "name": "Lydgate",
@@ -108,117 +88,89 @@
      "hasIntensity": 0.7,
      "quote": "“I perceive that the votes are equally divided at present,” said Mr. Bulstrode, in a clear biting voice...",
      "hasObject": {
-      "name": "Pressure_to_vote",
-      "id": "texts/middlemarch.txt#Pressure_to_vote"
+      "name": "Pressure_to_vote"
      },
      "causedBy": {
-      "name": "Feeling_pressured_to_vote_a_certain_way",
-      "id": "texts/middlemarch.txt#Feeling_pressured_to_vote_a_certain_way"
-     },
-     "id": "Anger"
+      "name": "Feeling_pressured_to_vote_a_certain_way"
+     }
     }
-   ],
-   "id": "texts/middlemarch.txt#Lydgate"
+   ]
   }
  ],
  "Events": [
   {
    "name": "Visiting_the_Vincys",
    "takePlaceAt": {
-    "name": "Vincys_house",
-    "id": "texts/middlemarch.txt#Vincys_house"
+    "name": "Vincys_house"
    },
    "hasParticipant": {
-    "name": "Elderly_gentlemen",
-    "id": "texts/middlemarch.txt#Elderly_gentlemen"
-   },
-   "id": "texts/middlemarch.txt#Visiting_the_Vincys"
+    "name": "Elderly_gentlemen"
+   }
   },
   {
    "name": "Thinking_Rosamond_s_education_was_excessive",
    "takePlaceAt": {
-    "name": "Vincys_house",
-    "id": "texts/middlemarch.txt#Vincys_house"
+    "name": "Vincys_house"
    },
    "hasParticipant": {
-    "name": "Mrs_Plymdale",
-    "id": "texts/middlemarch.txt#Mrs_Plymdale"
-   },
-   "id": "texts/middlemarch.txt#Thinking_Rosamond_s_education_was_excessive"
+    "name": "Mrs_Plymdale"
+   }
   },
   {
    "name": "Being_accepted_for_who_he_is",
    "takePlaceAt": {
-    "name": "Meeting_Lydgate",
-    "id": "texts/middlemarch.txt#Meeting_Lydgate"
+    "name": "Meeting_Lydgate"
    },
    "hasParticipant": {
-    "name": "Mr_Farebrother",
-    "id": "texts/middlemarch.txt#Mr_Farebrother"
-   },
-   "id": "texts/middlemarch.txt#Being_accepted_for_who_he_is"
+    "name": "Mr_Farebrother"
+   }
   },
   {
    "name": "Believing_in_the_good_intentions_of_others",
    "takePlaceAt": {
-    "name": "Meeting_with_the_gentlemen",
-    "id": "texts/middlemarch.txt#Meeting_with_the_gentlemen"
+    "name": "Meeting_with_the_gentlemen"
    },
    "hasParticipant": {
-    "name": "Mr_Bulstrode",
-    "id": "texts/middlemarch.txt#Mr_Bulstrode"
-   },
-   "id": "texts/middlemarch.txt#Believing_in_the_good_intentions_of_others"
+    "name": "Mr_Bulstrode"
+   }
   },
   {
    "name": "Being_convinced_by_friends",
    "takePlaceAt": {
-    "name": "Meeting_with_the_gentlemen",
-    "id": "texts/middlemarch.txt#Meeting_with_the_gentlemen"
+    "name": "Meeting_with_the_gentlemen"
    },
    "hasParticipant": {
-    "name": "Mr_Brooke",
-    "id": "texts/middlemarch.txt#Mr_Brooke"
-   },
-   "id": "texts/middlemarch.txt#Being_convinced_by_friends"
+    "name": "Mr_Brooke"
+   }
   },
   {
    "name": "Feeling_pressured_to_vote_a_certain_way",
    "takePlaceAt": {
-    "name": "Meeting_with_the_gentlemen",
-    "id": "texts/middlemarch.txt#Meeting_with_the_gentlemen"
+    "name": "Meeting_with_the_gentlemen"
    },
    "hasParticipant": {
-    "name": "Lydgate",
-    "id": "texts/middlemarch.txt#Lydgate"
-   },
-   "id": "texts/middlemarch.txt#Feeling_pressured_to_vote_a_certain_way"
+    "name": "Lydgate"
+   }
   }
  ],
  "Places": [
   {
-   "name": "Vincys_house",
-   "id": "texts/middlemarch.txt#Vincys_house"
+   "name": "Vincys_house"
   },
   {
-   "name": "Vincys_house",
-   "id": "texts/middlemarch.txt#Vincys_house"
+   "name": "Vincys_house"
   },
   {
-   "name": "Meeting_Lydgate",
-   "id": "texts/middlemarch.txt#Meeting_Lydgate"
+   "name": "Meeting_Lydgate"
   },
   {
-   "name": "Meeting_with_the_gentlemen",
-   "id": "texts/middlemarch.txt#Meeting_with_the_gentlemen"
+   "name": "Meeting_with_the_gentlemen"
   },
   {
-   "name": "Meeting_with_the_gentlemen",
-   "id": "texts/middlemarch.txt#Meeting_with_the_gentlemen"
+   "name": "Meeting_with_the_gentlemen"
   },
   {
-   "name": "Meeting_with_the_gentlemen",
-   "id": "texts/middlemarch.txt#Meeting_with_the_gentlemen"
+   "name": "Meeting_with_the_gentlemen"
   }
  ]
 }

@@ -8,17 +8,13 @@
      "hasIntensity": 0.7,
      "quote": "He had never been insulted on his own land before, and had been inclined to regard himself as a general favorite.",
      "hasObject": {
-      "name": "Being_insulted",
-      "id": "texts/middlemarch.txt#Being_insulted"
+      "name": "Being_insulted"
      },
      "causedBy": {
-      "name": "Being_insulted_by_Mr_Dagley",
-      "id": "texts/middlemarch.txt#Being_insulted_by_Mr_Dagley"
-     },
-     "id": "Surprise"
+      "name": "Being_insulted_by_Mr_Dagley"
+     }
     }
-   ],
-   "id": "texts/middlemarch.txt#Mr_Brooke"
+   ]
   },
   {
    "name": "Mr_Dagley",
@@ -28,17 +24,13 @@
      "hasIntensity": 0.9,
      "quote": "‘I’m no more drunk nor you are, nor so much,’ said Dagley. ‘I can carry my liquor, an’ I know what I meean.’",
      "hasObject": {
-      "name": "Feeling_insulted",
-      "id": "texts/middlemarch.txt#Feeling_insulted"
+      "name": "Feeling_insulted"
      },
      "causedBy": {
-      "name": "Feeling_insulted_by_Mr_Brooke",
-      "id": "texts/middlemarch.txt#Feeling_insulted_by_Mr_Brooke"
-     },
-     "id": "Anger"
+      "name": "Feeling_insulted_by_Mr_Brooke"
+     }
     }
-   ],
-   "id": "texts/middlemarch.txt#Mr_Dagley"
+   ]
   },
   {
    "name": "Mary_Garth",
@@ -48,57 +40,44 @@
      "hasIntensity": 0.8,
      "quote": "Mary ended merrily, amused with the last notion.",
      "hasObject": {
-      "name": "Talking_about_Rosamond_Vincy_s_wedding",
-      "id": "texts/middlemarch.txt#Talking_about_Rosamond_Vincy_s_wedding"
+      "name": "Talking_about_Rosamond_Vincy_s_wedding"
      },
      "causedBy": {
-      "name": "Talking_about_Rosamond_Vincy_s_wedding",
-      "id": "texts/middlemarch.txt#Talking_about_Rosamond_Vincy_s_wedding"
-     },
-     "id": "Amusement"
+      "name": "Talking_about_Rosamond_Vincy_s_wedding"
+     }
     }
-   ],
-   "id": "texts/middlemarch.txt#Mary_Garth"
+   ]
   }
  ],
  "Events": [
   {
    "name": "Being_insulted_by_Mr_Dagley",
    "takePlaceAt": {
-    "name": "Dagley_s_homestead",
-    "id": "texts/middlemarch.txt#Dagley_s_homestead"
-   },
-   "id": "texts/middlemarch.txt#Being_insulted_by_Mr_Dagley"
+    "name": "Dagley_s_homestead"
+   }
   },
   {
    "name": "Feeling_insulted_by_Mr_Brooke",
    "takePlaceAt": {
-    "name": "Dagley_s_homestead",
-    "id": "texts/middlemarch.txt#Dagley_s_homestead"
-   },
-   "id": "texts/middlemarch.txt#Feeling_insulted_by_Mr_Brooke"
+    "name": "Dagley_s_homestead"
+   }
   },
   {
    "name": "Talking_about_Rosamond_Vincy_s_wedding",
    "takePlaceAt": {
-    "name": "Garth_s_breakfasttable",
-    "id": "texts/middlemarch.txt#Garth_s_breakfasttable"
-   },
-   "id": "texts/middlemarch.txt#Talking_about_Rosamond_Vincy_s_wedding"
+    "name": "Garth_s_breakfasttable"
+   }
   }
  ],
  "Places": [
   {
-   "name": "Dagley_s_homestead",
-   "id": "texts/middlemarch.txt#Dagley_s_homestead"
+   "name": "Dagley_s_homestead"
   },
   {
-   "name": "Dagley_s_homestead",
-   "id": "texts/middlemarch.txt#Dagley_s_homestead"
+   "name": "Dagley_s_homestead"
   },
   {
-   "name": "Garth_s_breakfasttable",
-   "id": "texts/middlemarch.txt#Garth_s_breakfasttable"
+   "name": "Garth_s_breakfasttable"
   }
  ]
 }

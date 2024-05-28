@@ -8,157 +8,122 @@
      "hasIntensity": 0.7,
      "quote": "My father's care and attentions were indefatigable",
      "hasObject": {
-      "name": "Father_s_care_and_attentions",
-      "id": "texts/frankenstein.txt#Father_s_care_and_attentions"
+      "name": "Father_s_care_and_attentions"
      },
      "causedBy": {
-      "name": "Father_s_care_and_attentions",
-      "id": "texts/frankenstein.txt#Father_s_care_and_attentions"
-     },
-     "id": "Trust"
+      "name": "Father_s_care_and_attentions"
+     }
     },
     {
      "name": "Sadness",
      "hasIntensity": 0.9,
      "quote": "Misery had her dwelling in my heart",
      "hasObject": {
-      "name": "Misfortunes",
-      "id": "texts/frankenstein.txt#Misfortunes"
+      "name": "Misfortunes"
      },
      "causedBy": {
-      "name": "Recollection_of_various_misfortunes",
-      "id": "texts/frankenstein.txt#Recollection_of_various_misfortunes"
-     },
-     "id": "Sadness"
+      "name": "Recollection_of_various_misfortunes"
+     }
     },
     {
      "name": "Acceptance",
      "hasIntensity": 0.6,
      "quote": "Sufficient for me was the consciousness of them",
      "hasObject": {
-      "name": "Consciousness_of_crimes",
-      "id": "texts/frankenstein.txt#Consciousness_of_crimes"
+      "name": "Consciousness_of_crimes"
      },
      "causedBy": {
-      "name": "Selfrealization_of_crimes",
-      "id": "texts/frankenstein.txt#Selfrealization_of_crimes"
-     },
-     "id": "Acceptance"
+      "name": "Selfrealization_of_crimes"
+     }
     },
     {
      "name": "Tranquility",
      "hasIntensity": 0.8,
      "quote": "My manners were calmer and more composed",
      "hasObject": {
-      "name": "Calm_and_composed_manners",
-      "id": "texts/frankenstein.txt#Calm_and_composed_manners"
+      "name": "Calm_and_composed_manners"
      },
      "causedBy": {
-      "name": "Selfviolence_to_curb_wretchedness",
-      "id": "texts/frankenstein.txt#Selfviolence_to_curb_wretchedness"
-     },
-     "id": "Tranquility"
+      "name": "Selfviolence_to_curb_wretchedness"
+     }
     },
     {
      "name": "Hope",
      "hasIntensity": 0.7,
      "quote": "I hope to see peace in your countenance",
      "hasObject": {
-      "name": "Peace_in_countenance",
-      "id": "texts/frankenstein.txt#Peace_in_countenance"
+      "name": "Peace_in_countenance"
      },
      "causedBy": {
-      "name": "Receiving_a_letter_from_Elizabeth",
-      "id": "texts/frankenstein.txt#Receiving_a_letter_from_Elizabeth"
-     },
-     "id": "Hope"
+      "name": "Receiving_a_letter_from_Elizabeth"
+     }
     }
-   ],
-   "id": "texts/frankenstein.txt#Victor_Frankenstein"
+   ]
   }
  ],
  "Events": [
   {
    "name": "Father_s_care_and_attentions",
    "takePlaceAt": {
-    "name": "During_recovery_from_fever",
-    "id": "texts/frankenstein.txt#During_recovery_from_fever"
+    "name": "During_recovery_from_fever"
    },
    "hasParticipant": [
     {
-     "name": "Victor_Frankenstein",
-     "id": "texts/frankenstein.txt#Victor_Frankenstein"
+     "name": "Victor_Frankenstein"
     },
     {
-     "name": "Father",
-     "id": "texts/frankenstein.txt#Father"
+     "name": "Father"
     }
-   ],
-   "id": "texts/frankenstein.txt#Father_s_care_and_attentions"
+   ]
   },
   {
    "name": "Recollection_of_various_misfortunes",
    "takePlaceAt": {
-    "name": "Throughout_the_journey",
-    "id": "texts/frankenstein.txt#Throughout_the_journey"
-   },
-   "id": "texts/frankenstein.txt#Recollection_of_various_misfortunes"
+    "name": "Throughout_the_journey"
+   }
   },
   {
    "name": "Selfrealization_of_crimes",
    "takePlaceAt": {
-    "name": "After_time_passed_away",
-    "id": "texts/frankenstein.txt#After_time_passed_away"
-   },
-   "id": "texts/frankenstein.txt#Selfrealization_of_crimes"
+    "name": "After_time_passed_away"
+   }
   },
   {
    "name": "Selfviolence_to_curb_wretchedness",
    "takePlaceAt": {
-    "name": "After_journey_to_the_sea_of_ice",
-    "id": "texts/frankenstein.txt#After_journey_to_the_sea_of_ice"
-   },
-   "id": "texts/frankenstein.txt#Selfviolence_to_curb_wretchedness"
+    "name": "After_journey_to_the_sea_of_ice"
+   }
   },
   {
    "name": "Receiving_a_letter_from_Elizabeth",
    "takePlaceAt": {
-    "name": "Before_leaving_Paris",
-    "id": "texts/frankenstein.txt#Before_leaving_Paris"
+    "name": "Before_leaving_Paris"
    },
    "hasParticipant": [
     {
-     "name": "Victor_Frankenstein",
-     "id": "texts/frankenstein.txt#Victor_Frankenstein"
+     "name": "Victor_Frankenstein"
     },
     {
-     "name": "Elizabeth",
-     "id": "texts/frankenstein.txt#Elizabeth"
+     "name": "Elizabeth"
     }
-   ],
-   "id": "texts/frankenstein.txt#Receiving_a_letter_from_Elizabeth"
+   ]
   }
  ],
  "Places": [
   {
-   "name": "During_recovery_from_fever",
-   "id": "texts/frankenstein.txt#During_recovery_from_fever"
+   "name": "During_recovery_from_fever"
   },
   {
-   "name": "Throughout_the_journey",
-   "id": "texts/frankenstein.txt#Throughout_the_journey"
+   "name": "Throughout_the_journey"
   },
   {
-   "name": "After_time_passed_away",
-   "id": "texts/frankenstein.txt#After_time_passed_away"
+   "name": "After_time_passed_away"
   },
   {
-   "name": "After_journey_to_the_sea_of_ice",
-   "id": "texts/frankenstein.txt#After_journey_to_the_sea_of_ice"
+   "name": "After_journey_to_the_sea_of_ice"
   },
   {
-   "name": "Before_leaving_Paris",
-   "id": "texts/frankenstein.txt#Before_leaving_Paris"
+   "name": "Before_leaving_Paris"
   }
  ]
 }

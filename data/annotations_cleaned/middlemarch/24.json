@@ -8,45 +8,35 @@
      "hasIntensity": 0.9,
      "quote": "Rosamond was soon looking lovelier than ever at her worktable, enjoying drives in her father’s phaeton and thinking it likely that she might be invited to Quallingham.",
      "hasObject": {
-      "name": "Being_invited_to_Quallingham",
-      "id": "texts/middlemarch.txt#Being_invited_to_Quallingham"
+      "name": "Being_invited_to_Quallingham"
      },
      "causedBy": {
-      "name": "Enjoying_drives_and_work",
-      "id": "texts/middlemarch.txt#Enjoying_drives_and_work"
-     },
-     "id": "Satisfaction"
+      "name": "Enjoying_drives_and_work"
+     }
     },
     {
      "name": "Vexation",
      "hasIntensity": 0.8,
      "quote": "Rosamond was much worried, and conscious of new elements in his life as noxious to him as an inlet of mud to a creature that has been used to breathe and bathe and dart after its illuminated prey in the clearest of waters.",
      "hasObject": {
-      "name": "New_elements_in_his_life",
-      "id": "texts/middlemarch.txt#New_elements_in_his_life"
+      "name": "New_elements_in_his_life"
      },
      "causedBy": {
-      "name": "Feeling_worried_and_conscious_of_new_elements",
-      "id": "texts/middlemarch.txt#Feeling_worried_and_conscious_of_new_elements"
-     },
-     "id": "Vexation"
+      "name": "Feeling_worried_and_conscious_of_new_elements"
+     }
     },
     {
      "name": "Moodiness",
      "hasIntensity": 0.7,
      "quote": "Rosamond was soon looking lovelier than ever at her worktable, enjoying drives in her father’s phaeton and thinking it likely that she might be invited to Quallingham. She knew that she was a much more exquisite ornament to the drawing-room there than any daughter of the family, and in reflecting that the gentlemen were aware of that, did not perhaps sufficiently consider whether the ladies would be eager to see themselves surpassed.",
      "hasObject": {
-      "name": "Being_invited_to_Quallingham",
-      "id": "texts/middlemarch.txt#Being_invited_to_Quallingham"
+      "name": "Being_invited_to_Quallingham"
      },
      "causedBy": {
-      "name": "Feeling_selfconscious_and_reflective",
-      "id": "texts/middlemarch.txt#Feeling_selfconscious_and_reflective"
-     },
-     "id": "Moodiness"
+      "name": "Feeling_selfconscious_and_reflective"
+     }
     }
-   ],
-   "id": "texts/middlemarch.txt#Rosamond"
+   ]
   },
   {
    "name": "Lydgate",
@@ -56,145 +46,111 @@
      "hasIntensity": 0.9,
      "quote": "Lydgate was much worried, and conscious of new elements in his life as noxious to him as an inlet of mud to a creature that has been used to breathe and bathe and dart after its illuminated prey in the clearest of waters.",
      "hasObject": {
-      "name": "New_elements_in_his_life",
-      "id": "texts/middlemarch.txt#New_elements_in_his_life"
+      "name": "New_elements_in_his_life"
      },
      "causedBy": {
-      "name": "Feeling_worried_and_conscious_of_new_elements",
-      "id": "texts/middlemarch.txt#Feeling_worried_and_conscious_of_new_elements"
-     },
-     "id": "Anxiety"
+      "name": "Feeling_worried_and_conscious_of_new_elements"
+     }
     },
     {
      "name": "Selfdiscontent",
      "hasIntensity": 0.8,
      "quote": "Lydgate was aware that his concessions to Rosamond were often little more than the lapse of slackening resolution, the creeping paralysis apt to seize an enthusiasm which is out of adjustment to a constant portion of our lives.",
      "hasObject": {
-      "name": "Concessions_to_Rosamond",
-      "id": "texts/middlemarch.txt#Concessions_to_Rosamond"
+      "name": "Concessions_to_Rosamond"
      },
      "causedBy": {
-      "name": "Feeling_discontent_with_his_concessions_to_Rosamond",
-      "id": "texts/middlemarch.txt#Feeling_discontent_with_his_concessions_to_Rosamon"
-     },
-     "id": "Selfdiscontent"
+      "name": "Feeling_discontent_with_his_concessions_to_Rosamond"
+     }
     },
     {
      "name": "Vexation",
      "hasIntensity": 0.7,
      "quote": "And on Lydgate’s enthusiasm there was constantly pressing not a simple weight of sorrow, but the biting presence of a petty degrading care, such as casts the blight of irony over all higher effort.",
      "hasObject": {
-      "name": "Petty_degrading_care",
-      "id": "texts/middlemarch.txt#Petty_degrading_care"
+      "name": "Petty_degrading_care"
      },
      "causedBy": {
-      "name": "Feeling_vexed_with_his_enthusiasm_being_overshadowed_by_petty_degrading_care",
-      "id": "texts/middlemarch.txt#Feeling_vexed_with_his_enthusiasm_being_overshadow"
-     },
-     "id": "Vexation"
+      "name": "Feeling_vexed_with_his_enthusiasm_being_overshadowed_by_petty_degrading_care"
+     }
     }
-   ],
-   "id": "texts/middlemarch.txt#Lydgate"
+   ]
   }
  ],
  "Events": [
   {
    "name": "Enjoying_drives_and_work",
    "takePlaceAt": {
-    "name": "Worktable_and_father_s_phaeton",
-    "id": "texts/middlemarch.txt#Worktable_and_father_s_phaeton"
+    "name": "Worktable_and_father_s_phaeton"
    },
    "hasParticipant": {
-    "name": "Rosamond",
-    "id": "texts/middlemarch.txt#Rosamond"
-   },
-   "id": "texts/middlemarch.txt#Enjoying_drives_and_work"
+    "name": "Rosamond"
+   }
   },
   {
    "name": "Feeling_worried_and_conscious_of_new_elements",
    "takePlaceAt": {
-    "name": "Home",
-    "id": "texts/middlemarch.txt#Home"
+    "name": "Home"
    },
    "hasParticipant": {
-    "name": "Rosamond",
-    "id": "texts/middlemarch.txt#Rosamond"
-   },
-   "id": "texts/middlemarch.txt#Feeling_worried_and_conscious_of_new_elements"
+    "name": "Rosamond"
+   }
   },
   {
    "name": "Feeling_selfconscious_and_reflective",
    "takePlaceAt": {
-    "name": "Worktable_and_father_s_phaeton",
-    "id": "texts/middlemarch.txt#Worktable_and_father_s_phaeton"
+    "name": "Worktable_and_father_s_phaeton"
    },
    "hasParticipant": {
-    "name": "Rosamond",
-    "id": "texts/middlemarch.txt#Rosamond"
-   },
-   "id": "texts/middlemarch.txt#Feeling_selfconscious_and_reflective"
+    "name": "Rosamond"
+   }
   },
   {
    "name": "Feeling_worried_and_conscious_of_new_elements",
    "takePlaceAt": {
-    "name": "Home",
-    "id": "texts/middlemarch.txt#Home"
+    "name": "Home"
    },
    "hasParticipant": {
-    "name": "Lydgate",
-    "id": "texts/middlemarch.txt#Lydgate"
-   },
-   "id": "texts/middlemarch.txt#Feeling_worried_and_conscious_of_new_elements"
+    "name": "Lydgate"
+   }
   },
   {
    "name": "Feeling_discontent_with_his_concessions_to_Rosamond",
    "takePlaceAt": {
-    "name": "Home",
-    "id": "texts/middlemarch.txt#Home"
+    "name": "Home"
    },
    "hasParticipant": {
-    "name": "Lydgate",
-    "id": "texts/middlemarch.txt#Lydgate"
-   },
-   "id": "texts/middlemarch.txt#Feeling_discontent_with_his_concessions_to_Rosamon"
+    "name": "Lydgate"
+   }
   },
   {
    "name": "Feeling_vexed_with_his_enthusiasm_being_overshadowed_by_petty_degrading_care",
    "takePlaceAt": {
-    "name": "Home",
-    "id": "texts/middlemarch.txt#Home"
+    "name": "Home"
    },
    "hasParticipant": {
-    "name": "Lydgate",
-    "id": "texts/middlemarch.txt#Lydgate"
-   },
-   "id": "texts/middlemarch.txt#Feeling_vexed_with_his_enthusiasm_being_overshadow"
+    "name": "Lydgate"
+   }
   }
  ],
  "Places": [
   {
-   "name": "Worktable_and_father_s_phaeton",
-   "id": "texts/middlemarch.txt#Worktable_and_father_s_phaeton"
+   "name": "Worktable_and_father_s_phaeton"
   },
   {
-   "name": "Home",
-   "id": "texts/middlemarch.txt#Home"
+   "name": "Home"
   },
   {
-   "name": "Worktable_and_father_s_phaeton",
-   "id": "texts/middlemarch.txt#Worktable_and_father_s_phaeton"
+   "name": "Worktable_and_father_s_phaeton"
   },
   {
-   "name": "Home",
-   "id": "texts/middlemarch.txt#Home"
+   "name": "Home"
   },
   {
-   "name": "Home",
-   "id": "texts/middlemarch.txt#Home"
+   "name": "Home"
   },
   {
-   "name": "Home",
-   "id": "texts/middlemarch.txt#Home"
+   "name": "Home"
   }
  ]
 }

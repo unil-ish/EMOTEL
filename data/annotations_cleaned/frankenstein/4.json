@@ -8,223 +8,174 @@
      "hasIntensity": 0.5,
      "quote": "‘Do not trouble yourself, my kind host; I have food; it is warmth and rest only that I need.’",
      "hasObject": {
-      "name": "Warmth_and_rest",
-      "id": "texts/frankenstein.txt#Warmth_and_rest"
+      "name": "Warmth_and_rest"
      },
      "causedBy": {
-      "name": "Seeking_shelter_and_rest",
-      "id": "texts/frankenstein.txt#Seeking_shelter_and_rest"
-     },
-     "id": "Trust"
+      "name": "Seeking_shelter_and_rest"
+     }
     },
     {
      "name": "Surprise",
      "hasIntensity": 0.8,
      "quote": "‘Great God!’ exclaimed the old man. ‘Who are you?’",
      "hasObject": {
-      "name": "Victor_Frankenstein",
-      "id": "texts/frankenstein.txt#Victor_Frankenstein"
+      "name": "Victor_Frankenstein"
      },
      "causedBy": {
-      "name": "Victor_revealing_himself_to_De_Lacey",
-      "id": "texts/frankenstein.txt#Victor_revealing_himself_to_De_Lacey"
-     },
-     "id": "Surprise"
+      "name": "Victor_revealing_himself_to_De_Lacey"
+     }
     },
     {
      "name": "Anger",
      "hasIntensity": 0.9,
      "quote": "Felix darted forward, and with supernatural force tore me from his father, to whose knees I clung, in a transport of fury, he dashed me to the ground and struck me violently with a stick.",
      "hasObject": {
-      "name": "Victor_Frankenstein",
-      "id": "texts/frankenstein.txt#Victor_Frankenstein"
+      "name": "Victor_Frankenstein"
      },
      "causedBy": {
-      "name": "Felix_s_reaction_to_Victor_s_presence",
-      "id": "texts/frankenstein.txt#Felix_s_reaction_to_Victor_s_presence"
-     },
-     "id": "Anger"
+      "name": "Felix_s_reaction_to_Victor_s_presence"
+     }
     },
     {
      "name": "Joy",
      "hasIntensity": 0.7,
      "quote": "The presence of Safie diffused happiness among its inhabitants, and I also found that a greater degree of plenty reigned there.",
      "hasObject": {
-      "name": "Happiness_and_plenty",
-      "id": "texts/frankenstein.txt#Happiness_and_plenty"
+      "name": "Happiness_and_plenty"
      },
      "causedBy": {
-      "name": "Safie_s_presence_at_the_cottage",
-      "id": "texts/frankenstein.txt#Safie_s_presence_at_the_cottage"
-     },
-     "id": "Joy"
+      "name": "Safie_s_presence_at_the_cottage"
+     }
     },
     {
      "name": "Anticipation",
      "hasIntensity": 0.6,
      "quote": "I resolved to return to the cottage, seek the old man, and by my representations win him to my party.",
      "hasObject": {
-      "name": "Winning_De_Lacey_s_favor",
-      "id": "texts/frankenstein.txt#Winning_De_Lacey_s_favor"
+      "name": "Winning_De_Lacey_s_favor"
      },
      "causedBy": {
-      "name": "Planning_to_approach_De_Lacey",
-      "id": "texts/frankenstein.txt#Planning_to_approach_De_Lacey"
-     },
-     "id": "Anticipation"
+      "name": "Planning_to_approach_De_Lacey"
+     }
     },
     {
      "name": "Fear",
      "hasIntensity": 0.8,
      "quote": "I trembled violently, apprehending some dreadful misfortune. The inside of the cottage was dark, and I heard no motion; I cannot describe the agony of this suspense.",
      "hasObject": {
-      "name": "Dreadful_misfortune",
-      "id": "texts/frankenstein.txt#Dreadful_misfortune"
+      "name": "Dreadful_misfortune"
      },
      "causedBy": {
-      "name": "Fear_of_a_dreadful_misfortune",
-      "id": "texts/frankenstein.txt#Fear_of_a_dreadful_misfortune"
-     },
-     "id": "Fear"
+      "name": "Fear_of_a_dreadful_misfortune"
+     }
     }
-   ],
-   "id": "texts/frankenstein.txt#Victor_Frankenstein"
+   ]
   }
  ],
  "Events": [
   {
    "name": "Seeking_shelter_and_rest",
    "takePlaceAt": {
-    "name": "De_Lacey_s_cottage",
-    "id": "texts/frankenstein.txt#De_Lacey_s_cottage"
+    "name": "De_Lacey_s_cottage"
    },
    "hasParticipant": [
     {
-     "name": "Victor_Frankenstein",
-     "id": "texts/frankenstein.txt#Victor_Frankenstein"
+     "name": "Victor_Frankenstein"
     },
     {
-     "name": "De_Lacey",
-     "id": "texts/frankenstein.txt#De_Lacey"
+     "name": "De_Lacey"
     }
-   ],
-   "id": "texts/frankenstein.txt#Seeking_shelter_and_rest"
+   ]
   },
   {
    "name": "Victor_revealing_himself_to_De_Lacey",
    "takePlaceAt": {
-    "name": "De_Lacey_s_cottage",
-    "id": "texts/frankenstein.txt#De_Lacey_s_cottage"
+    "name": "De_Lacey_s_cottage"
    },
    "hasParticipant": [
     {
-     "name": "Victor_Frankenstein",
-     "id": "texts/frankenstein.txt#Victor_Frankenstein"
+     "name": "Victor_Frankenstein"
     },
     {
-     "name": "De_Lacey",
-     "id": "texts/frankenstein.txt#De_Lacey"
+     "name": "De_Lacey"
     }
-   ],
-   "id": "texts/frankenstein.txt#Victor_revealing_himself_to_De_Lacey"
+   ]
   },
   {
    "name": "Felix_s_reaction_to_Victor_s_presence",
    "takePlaceAt": {
-    "name": "De_Lacey_s_cottage",
-    "id": "texts/frankenstein.txt#De_Lacey_s_cottage"
+    "name": "De_Lacey_s_cottage"
    },
    "hasParticipant": [
     {
-     "name": "Victor_Frankenstein",
-     "id": "texts/frankenstein.txt#Victor_Frankenstein"
+     "name": "Victor_Frankenstein"
     },
     {
-     "name": "Felix",
-     "id": "texts/frankenstein.txt#Felix"
+     "name": "Felix"
     }
-   ],
-   "id": "texts/frankenstein.txt#Felix_s_reaction_to_Victor_s_presence"
+   ]
   },
   {
    "name": "Safie_s_presence_at_the_cottage",
    "takePlaceAt": {
-    "name": "De_Lacey_s_cottage",
-    "id": "texts/frankenstein.txt#De_Lacey_s_cottage"
+    "name": "De_Lacey_s_cottage"
    },
    "hasParticipant": [
     {
-     "name": "Safie",
-     "id": "texts/frankenstein.txt#Safie"
+     "name": "Safie"
     },
     {
-     "name": "De_Lacey_s_family",
-     "id": "texts/frankenstein.txt#De_Lacey_s_family"
+     "name": "De_Lacey_s_family"
     }
-   ],
-   "id": "texts/frankenstein.txt#Safie_s_presence_at_the_cottage"
+   ]
   },
   {
    "name": "Planning_to_approach_De_Lacey",
    "takePlaceAt": {
-    "name": "Victor_s_hovel",
-    "id": "texts/frankenstein.txt#Victor_s_hovel"
+    "name": "Victor_s_hovel"
    },
    "hasParticipant": [
     {
-     "name": "Victor_Frankenstein",
-     "id": "texts/frankenstein.txt#Victor_Frankenstein"
+     "name": "Victor_Frankenstein"
     },
     {
-     "name": "De_Lacey",
-     "id": "texts/frankenstein.txt#De_Lacey"
+     "name": "De_Lacey"
     }
-   ],
-   "id": "texts/frankenstein.txt#Planning_to_approach_De_Lacey"
+   ]
   },
   {
    "name": "Fear_of_a_dreadful_misfortune",
    "takePlaceAt": {
-    "name": "Victor_s_hovel",
-    "id": "texts/frankenstein.txt#Victor_s_hovel"
+    "name": "Victor_s_hovel"
    },
    "hasParticipant": [
     {
-     "name": "Victor_Frankenstein",
-     "id": "texts/frankenstein.txt#Victor_Frankenstein"
+     "name": "Victor_Frankenstein"
     },
     {
-     "name": "De_Lacey_s_family",
-     "id": "texts/frankenstein.txt#De_Lacey_s_family"
+     "name": "De_Lacey_s_family"
     }
-   ],
-   "id": "texts/frankenstein.txt#Fear_of_a_dreadful_misfortune"
+   ]
   }
  ],
  "Places": [
   {
-   "name": "De_Lacey_s_cottage",
-   "id": "texts/frankenstein.txt#De_Lacey_s_cottage"
+   "name": "De_Lacey_s_cottage"
   },
   {
-   "name": "De_Lacey_s_cottage",
-   "id": "texts/frankenstein.txt#De_Lacey_s_cottage"
+   "name": "De_Lacey_s_cottage"
   },
   {
-   "name": "De_Lacey_s_cottage",
-   "id": "texts/frankenstein.txt#De_Lacey_s_cottage"
+   "name": "De_Lacey_s_cottage"
   },
   {
-   "name": "De_Lacey_s_cottage",
-   "id": "texts/frankenstein.txt#De_Lacey_s_cottage"
+   "name": "De_Lacey_s_cottage"
   },
   {
-   "name": "Victor_s_hovel",
-   "id": "texts/frankenstein.txt#Victor_s_hovel"
+   "name": "Victor_s_hovel"
   },
   {
-   "name": "Victor_s_hovel",
-   "id": "texts/frankenstein.txt#Victor_s_hovel"
+   "name": "Victor_s_hovel"
   }
  ]
 }

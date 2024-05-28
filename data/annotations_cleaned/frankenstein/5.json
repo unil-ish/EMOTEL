@@ -8,73 +8,57 @@
      "hasIntensity": 0.8,
      "quote": "During my absence I should leave my friends unconscious of the existence of their enemy and unprotected from his attacks, exasperated as he might be by my departure.",
      "hasObject": {
-      "name": "Creature",
-      "id": "texts/frankenstein.txt#Creature"
+      "name": "Creature"
      },
      "causedBy": {
-      "name": "Leaving_his_friends_unprotected_from_the_creature",
-      "id": "texts/frankenstein.txt#Leaving_his_friends_unprotected_from_the_creature"
-     },
-     "id": "Fear"
+      "name": "Leaving_his_friends_unprotected_from_the_creature"
+     }
     },
     {
      "name": "Anguish",
      "hasIntensity": 0.9,
      "quote": "Every thought that was devoted to it was an extreme anguish, and every word that I spoke in allusion to it caused my lips to quiver, and my heart to palpitate.",
      "hasObject": {
-      "name": "New_creation",
-      "id": "texts/frankenstein.txt#New_creation"
+      "name": "New_creation"
      },
      "causedBy": {
-      "name": "Collecting_materials_for_his_new_creation",
-      "id": "texts/frankenstein.txt#Collecting_materials_for_his_new_creation"
-     },
-     "id": "Anguish"
+      "name": "Collecting_materials_for_his_new_creation"
+     }
     },
     {
      "name": "Despair",
      "hasIntensity": 0.7,
      "quote": "Company was irksome to me; when alone, I could fill my mind with the sights of heaven and earth; the voice of Henry soothed me, and I could thus cheat myself into a transitory peace. But busy, uninteresting, joyous faces brought back despair to my heart.",
      "hasObject": {
-      "name": "Being_in_company",
-      "id": "texts/frankenstein.txt#Being_in_company"
+      "name": "Being_in_company"
      },
      "causedBy": {
-      "name": "Being_in_company",
-      "id": "texts/frankenstein.txt#Being_in_company"
-     },
-     "id": "Despair"
+      "name": "Being_in_company"
+     }
     },
     {
      "name": "Sorrow",
      "hasIntensity": 0.8,
      "quote": "Pardon this gush of sorrow; these ineffectual words are but a slight tribute to the unexampled worth of Henry, but they soothe my heart, overflowing with the anguish which his remembrance creates.",
      "hasObject": {
-      "name": "Henry",
-      "id": "texts/frankenstein.txt#Henry"
+      "name": "Henry"
      },
      "causedBy": {
-      "name": "Remembering_Henry",
-      "id": "texts/frankenstein.txt#Remembering_Henry"
-     },
-     "id": "Sorrow"
+      "name": "Remembering_Henry"
+     }
     },
     {
      "name": "Regret",
      "hasIntensity": 0.7,
      "quote": "We left Oxford with regret and proceeded to Matlock, which was our next place of rest.",
      "hasObject": {
-      "name": "Leaving_Oxford",
-      "id": "texts/frankenstein.txt#Leaving_Oxford"
+      "name": "Leaving_Oxford"
      },
      "causedBy": {
-      "name": "Leaving_Oxford",
-      "id": "texts/frankenstein.txt#Leaving_Oxford"
-     },
-     "id": "Regret"
+      "name": "Leaving_Oxford"
+     }
     }
-   ],
-   "id": "texts/frankenstein.txt#Victor_Frankenstein"
+   ]
   },
   {
    "name": "Henry_Clerval",
@@ -84,169 +68,130 @@
      "hasIntensity": 0.9,
      "quote": "The delight of Clerval was proportionably greater than mine; his mind expanded in the company of men of talent, and he found in his own nature greater capacities and resources than he could have imagined himself to have possessed while he associated with his inferiors.",
      "hasObject": {
-      "name": "Being_in_the_company_of_men_of_talent",
-      "id": "texts/frankenstein.txt#Being_in_the_company_of_men_of_talent"
+      "name": "Being_in_the_company_of_men_of_talent"
      },
      "causedBy": {
-      "name": "Being_in_the_company_of_men_of_talent",
-      "id": "texts/frankenstein.txt#Being_in_the_company_of_men_of_talent"
-     },
-     "id": "Joy"
+      "name": "Being_in_the_company_of_men_of_talent"
+     }
     },
     {
      "name": "Pain",
      "hasIntensity": 0.8,
      "quote": "But he found that a traveller’s life is one that includes much pain amidst its enjoyments.",
      "hasObject": {
-      "name": "Travelling",
-      "id": "texts/frankenstein.txt#Travelling"
+      "name": "Travelling"
      },
      "causedBy": {
-      "name": "Travelling",
-      "id": "texts/frankenstein.txt#Travelling"
-     },
-     "id": "Pain"
+      "name": "Travelling"
+     }
     }
-   ],
-   "id": "texts/frankenstein.txt#Henry_Clerval"
+   ]
   }
  ],
  "Events": [
   {
    "name": "Leaving_his_friends_unprotected_from_the_creature",
    "takePlaceAt": {
-    "name": "During_his_absence",
-    "id": "texts/frankenstein.txt#During_his_absence"
+    "name": "During_his_absence"
    },
    "hasParticipant": [
     {
-     "name": "Victor_Frankenstein",
-     "id": "texts/frankenstein.txt#Victor_Frankenstein"
+     "name": "Victor_Frankenstein"
     },
     {
-     "name": "his_friends",
-     "id": "texts/frankenstein.txt#his_friends"
+     "name": "his_friends"
     },
     {
-     "name": "the_creature",
-     "id": "texts/frankenstein.txt#the_creature"
+     "name": "the_creature"
     }
-   ],
-   "id": "texts/frankenstein.txt#Leaving_his_friends_unprotected_from_the_creature"
+   ]
   },
   {
    "name": "Collecting_materials_for_his_new_creation",
    "takePlaceAt": {
-    "name": "During_his_journey",
-    "id": "texts/frankenstein.txt#During_his_journey"
+    "name": "During_his_journey"
    },
    "hasParticipant": {
-    "name": "Victor_Frankenstein",
-    "id": "texts/frankenstein.txt#Victor_Frankenstein"
-   },
-   "id": "texts/frankenstein.txt#Collecting_materials_for_his_new_creation"
+    "name": "Victor_Frankenstein"
+   }
   },
   {
    "name": "Being_in_company",
    "takePlaceAt": {
-    "name": "During_his_journey",
-    "id": "texts/frankenstein.txt#During_his_journey"
+    "name": "During_his_journey"
    },
    "hasParticipant": [
     {
-     "name": "Victor_Frankenstein",
-     "id": "texts/frankenstein.txt#Victor_Frankenstein"
+     "name": "Victor_Frankenstein"
     },
     {
-     "name": "Henry",
-     "id": "texts/frankenstein.txt#Henry"
+     "name": "Henry"
     }
-   ],
-   "id": "texts/frankenstein.txt#Being_in_company"
+   ]
   },
   {
    "name": "Remembering_Henry",
    "takePlaceAt": {
-    "name": "During_his_journey",
-    "id": "texts/frankenstein.txt#During_his_journey"
+    "name": "During_his_journey"
    },
    "hasParticipant": [
     {
-     "name": "Victor_Frankenstein",
-     "id": "texts/frankenstein.txt#Victor_Frankenstein"
+     "name": "Victor_Frankenstein"
     },
     {
-     "name": "Henry",
-     "id": "texts/frankenstein.txt#Henry"
+     "name": "Henry"
     }
-   ],
-   "id": "texts/frankenstein.txt#Remembering_Henry"
+   ]
   },
   {
    "name": "Leaving_Oxford",
    "takePlaceAt": {
-    "name": "During_his_journey",
-    "id": "texts/frankenstein.txt#During_his_journey"
+    "name": "During_his_journey"
    },
    "hasParticipant": {
-    "name": "Victor_Frankenstein",
-    "id": "texts/frankenstein.txt#Victor_Frankenstein"
-   },
-   "id": "texts/frankenstein.txt#Leaving_Oxford"
+    "name": "Victor_Frankenstein"
+   }
   },
   {
    "name": "Being_in_the_company_of_men_of_talent",
    "takePlaceAt": {
-    "name": "During_his_journey",
-    "id": "texts/frankenstein.txt#During_his_journey"
+    "name": "During_his_journey"
    },
    "hasParticipant": {
-    "name": "Henry_Clerval",
-    "id": "texts/frankenstein.txt#Henry_Clerval"
-   },
-   "id": "texts/frankenstein.txt#Being_in_the_company_of_men_of_talent"
+    "name": "Henry_Clerval"
+   }
   },
   {
    "name": "Travelling",
    "takePlaceAt": {
-    "name": "During_his_journey",
-    "id": "texts/frankenstein.txt#During_his_journey"
+    "name": "During_his_journey"
    },
    "hasParticipant": {
-    "name": "Henry_Clerval",
-    "id": "texts/frankenstein.txt#Henry_Clerval"
-   },
-   "id": "texts/frankenstein.txt#Travelling"
+    "name": "Henry_Clerval"
+   }
   }
  ],
  "Places": [
   {
-   "name": "During_his_absence",
-   "id": "texts/frankenstein.txt#During_his_absence"
+   "name": "During_his_absence"
   },
   {
-   "name": "During_his_journey",
-   "id": "texts/frankenstein.txt#During_his_journey"
+   "name": "During_his_journey"
   },
   {
-   "name": "During_his_journey",
-   "id": "texts/frankenstein.txt#During_his_journey"
+   "name": "During_his_journey"
   },
   {
-   "name": "During_his_journey",
-   "id": "texts/frankenstein.txt#During_his_journey"
+   "name": "During_his_journey"
   },
   {
-   "name": "During_his_journey",
-   "id": "texts/frankenstein.txt#During_his_journey"
+   "name": "During_his_journey"
   },
   {
-   "name": "During_his_journey",
-   "id": "texts/frankenstein.txt#During_his_journey"
+   "name": "During_his_journey"
   },
   {
-   "name": "During_his_journey",
-   "id": "texts/frankenstein.txt#During_his_journey"
+   "name": "During_his_journey"
   }
  ]
 }

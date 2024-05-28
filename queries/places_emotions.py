@@ -3,13 +3,29 @@ from rdflib import Graph
 
 d = {}
 g = Graph()
-g.parse("../ontology/ontology.owl", format="xml")
 
 fp = "../outputs/world.xml"
 
 with open(fp, 'r') as f:
     g.parse(file=f)
 
+getattr(EMOTEL, 'aaaaaaaaaçacestriennnnnoooo')
+
+'aaaaaaaaaçacestriennnnnoooo' in EMOTEL
+
+'Emotion' in EMOTEL
+
+
+from rdflib import Namespace
+EMOTEL = Namespace("https://github.com/unil-ish/EMOTEL#")
+ROOT_DIRECTORY = "data/annotations_cleaned"
+
+output_file = "outputs/world.rdf"
+
+d = {}
+g = Graph()
+g.parse("ontology/ontology.owl", format="xml")
+g.bind("emotel", EMOTEL)
 
 query = """
 prefix emotel: <https://github.com/unil-ish/EMOTEL#>
@@ -24,10 +40,10 @@ where {
 
 # pour montrer un peu: regarder les 10 premiers résultats.
 for n, i in enumerate(g.query(query)):
-    print('place:', i.place_name)
-    print('event: ', i.event_name)
-    print('emotion:', i.emotion[i.emotion.index('#'):])
-    print('\n')
+    print(f"""place: {i.place_name}
+event: {i.event_name}
+emotion: {i.emotion[i.emotion.index('#')+1:]}
+""")
     if n > 100:
         break
 
@@ -35,14 +51,28 @@ for n, i in enumerate(g.query(query)):
 a = list(g.query(query))
 print(len(a))
 
-d = {}
-
 # en cours: l'analyse
+d = {}
 places = {}
 for row in g.query(query):
-    pl = row.place_name
-    emo = row.emotion[i.emotion.index('#'):]
+    pl = str(row.place_name)
+    emo = str(row.emotion[i.emotion.index('#')+1:])
     if emo not in d:
-        d[emo] = [row.place_name]
+        d[emo] = [pl]
     else:
-        d[emo].append(row.place_name)
+        d[emo].append(pl)
+    if pl not in places:
+        places[pl] = [emo]
+    else:
+        places[pl].append(emo)
+
+places_words = {}
+for pl, emo in places.items():
+    words = pl.split('_')
+    for w in words:
+        if w not in places_words:
+            places_words[w] = emo
+        else:
+            places_words[w].extend(emo)
+
+counter_places s 

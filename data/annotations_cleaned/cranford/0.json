@@ -8,45 +8,35 @@
      "hasIntensity": 0.7,
      "quote": "He had suddenly become like an old man; his deep bass voice had a quavering in it, his eyes looked dim, and the lines on his face were deep. He did not—could not—speak cheerfully of his daughter’s state, but he talked with manly, pious resignation, and not much.",
      "hasObject": {
-      "name": "Kindness",
-      "id": "texts/cranford.txt#Kindness"
+      "name": "Kindness"
      },
      "causedBy": {
-      "name": "Receiving_kindness_from_Miss_Jenkyns",
-      "id": "texts/cranford.txt#Receiving_kindness_from_Miss_Jenkyns"
-     },
-     "id": "Joy"
+      "name": "Receiving_kindness_from_Miss_Jenkyns"
+     }
     },
     {
      "name": "Sadness",
      "hasIntensity": 0.9,
      "quote": "The great rough carter puckered up his manly face, and turned away to hide his tears.",
      "hasObject": {
-      "name": "Death_of_Captain_Brown",
-      "id": "texts/cranford.txt#Death_of_Captain_Brown"
+      "name": "Death_of_Captain_Brown"
      },
      "causedBy": {
-      "name": "Hearing_about_Captain_Brown_s_death",
-      "id": "texts/cranford.txt#Hearing_about_Captain_Brown_s_death"
-     },
-     "id": "Sadness"
+      "name": "Hearing_about_Captain_Brown_s_death"
+     }
     },
     {
      "name": "Grief",
      "hasIntensity": 0.8,
      "quote": "Miss Jessie had been feeling this all during the silence, I think; for the tears rolled down her cheeks like rain, at these words, and she could not answer at first.",
      "hasObject": {
-      "name": "Love_for_family",
-      "id": "texts/cranford.txt#Love_for_family"
+      "name": "Love_for_family"
      },
      "causedBy": {
-      "name": "Miss_Brown_expressing_her_love_for_her_family",
-      "id": "texts/cranford.txt#Miss_Brown_expressing_her_love_for_her_family"
-     },
-     "id": "Grief"
+      "name": "Miss_Brown_expressing_her_love_for_her_family"
+     }
     }
-   ],
-   "id": "texts/cranford.txt#Captain_Brown"
+   ]
   },
   {
    "name": "Miss_Brown",
@@ -56,31 +46,24 @@
      "hasIntensity": 0.6,
      "quote": "After this second funeral, Miss Jenkyns insisted that Miss Jessie should come to stay with her rather than go back to the desolate house.",
      "hasObject": {
-      "name": "Offer_of_a_place_to_stay",
-      "id": "texts/cranford.txt#Offer_of_a_place_to_stay"
+      "name": "Offer_of_a_place_to_stay"
      },
      "causedBy": {
-      "name": "Miss_Jenkyns_offering_Miss_Jessie_a_place_to_stay",
-      "id": "texts/cranford.txt#Miss_Jenkyns_offering_Miss_Jessie_a_place_to_stay"
-     },
-     "id": "Acceptance"
+      "name": "Miss_Jenkyns_offering_Miss_Jessie_a_place_to_stay"
+     }
     },
     {
      "name": "Grief",
      "hasIntensity": 0.9,
      "quote": "A strange look, which was not distress, came over Miss Brown’s face. She did not speak for some time, but then we saw her lips form the words, rather than heard the sound—“Father, mother, Harry, Archy;”—then, as if it were a new idea throwing a filmy shadow over her darkened mind—“But you will be alone, Jessie!”",
      "hasObject": {
-      "name": "Loss_of_family_members",
-      "id": "texts/cranford.txt#Loss_of_family_members"
+      "name": "Loss_of_family_members"
      },
      "causedBy": {
-      "name": "Realizing_her_family_members_are_gone",
-      "id": "texts/cranford.txt#Realizing_her_family_members_are_gone"
-     },
-     "id": "Grief"
+      "name": "Realizing_her_family_members_are_gone"
+     }
     }
-   ],
-   "id": "texts/cranford.txt#Miss_Brown"
+   ]
   },
   {
    "name": "Miss_Jessie",
@@ -90,189 +73,147 @@
      "hasIntensity": 0.9,
      "quote": "Her voice quivered, but she steadied it into calmness—“Mary! he has gone before you to the place where the weary are at rest. He knows now how you loved him.”",
      "hasObject": {
-      "name": "Love_for_family",
-      "id": "texts/cranford.txt#Love_for_family"
+      "name": "Love_for_family"
      },
      "causedBy": {
-      "name": "Miss_Brown_expressing_her_love_for_her_family",
-      "id": "texts/cranford.txt#Miss_Brown_expressing_her_love_for_her_family"
-     },
-     "id": "Grief"
+      "name": "Miss_Brown_expressing_her_love_for_her_family"
+     }
     },
     {
      "name": "Acceptance",
      "hasIntensity": 0.7,
      "quote": "Miss Jenkyns insisted that Miss Jessie should come to stay with her rather than go back to the desolate house.",
      "hasObject": {
-      "name": "Offer_of_a_place_to_stay",
-      "id": "texts/cranford.txt#Offer_of_a_place_to_stay"
+      "name": "Offer_of_a_place_to_stay"
      },
      "causedBy": {
-      "name": "Miss_Jenkyns_offering_Miss_Jessie_a_place_to_stay",
-      "id": "texts/cranford.txt#Miss_Jenkyns_offering_Miss_Jessie_a_place_to_stay"
-     },
-     "id": "Acceptance"
+      "name": "Miss_Jenkyns_offering_Miss_Jessie_a_place_to_stay"
+     }
     }
-   ],
-   "id": "texts/cranford.txt#Miss_Jessie"
+   ]
   }
  ],
  "Events": [
   {
    "name": "Receiving_kindness_from_Miss_Jenkyns",
    "takePlaceAt": {
-    "name": "Miss_Jenkyns_house",
-    "id": "texts/cranford.txt#Miss_Jenkyns_house"
+    "name": "Miss_Jenkyns_house"
    },
    "hasParticipant": [
     {
-     "name": "Captain_Brown",
-     "id": "texts/cranford.txt#Captain_Brown"
+     "name": "Captain_Brown"
     },
     {
-     "name": "Miss_Jenkyns",
-     "id": "texts/cranford.txt#Miss_Jenkyns"
+     "name": "Miss_Jenkyns"
     }
-   ],
-   "id": "texts/cranford.txt#Receiving_kindness_from_Miss_Jenkyns"
+   ]
   },
   {
    "name": "Hearing_about_Captain_Brown_s_death",
    "takePlaceAt": {
-    "name": "Miss_Jenkyns_house",
-    "id": "texts/cranford.txt#Miss_Jenkyns_house"
+    "name": "Miss_Jenkyns_house"
    },
    "hasParticipant": [
     {
-     "name": "Captain_Brown",
-     "id": "texts/cranford.txt#Captain_Brown"
+     "name": "Captain_Brown"
     },
     {
-     "name": "the_carter",
-     "id": "texts/cranford.txt#the_carter"
+     "name": "the_carter"
     }
-   ],
-   "id": "texts/cranford.txt#Hearing_about_Captain_Brown_s_death"
+   ]
   },
   {
    "name": "Miss_Brown_expressing_her_love_for_her_family",
    "takePlaceAt": {
-    "name": "Miss_Jenkyns_house",
-    "id": "texts/cranford.txt#Miss_Jenkyns_house"
+    "name": "Miss_Jenkyns_house"
    },
    "hasParticipant": [
     {
-     "name": "Miss_Jessie",
-     "id": "texts/cranford.txt#Miss_Jessie"
+     "name": "Miss_Jessie"
     },
     {
-     "name": "Miss_Brown",
-     "id": "texts/cranford.txt#Miss_Brown"
+     "name": "Miss_Brown"
     }
-   ],
-   "id": "texts/cranford.txt#Miss_Brown_expressing_her_love_for_her_family"
+   ]
   },
   {
    "name": "Miss_Jenkyns_offering_Miss_Jessie_a_place_to_stay",
    "takePlaceAt": {
-    "name": "Miss_Jenkyns_house",
-    "id": "texts/cranford.txt#Miss_Jenkyns_house"
+    "name": "Miss_Jenkyns_house"
    },
    "hasParticipant": [
     {
-     "name": "Miss_Jenkyns",
-     "id": "texts/cranford.txt#Miss_Jenkyns"
+     "name": "Miss_Jenkyns"
     },
     {
-     "name": "Miss_Jessie",
-     "id": "texts/cranford.txt#Miss_Jessie"
+     "name": "Miss_Jessie"
     }
-   ],
-   "id": "texts/cranford.txt#Miss_Jenkyns_offering_Miss_Jessie_a_place_to_stay"
+   ]
   },
   {
    "name": "Realizing_her_family_members_are_gone",
    "takePlaceAt": {
-    "name": "Miss_Jenkyns_house",
-    "id": "texts/cranford.txt#Miss_Jenkyns_house"
+    "name": "Miss_Jenkyns_house"
    },
    "hasParticipant": [
     {
-     "name": "Miss_Brown",
-     "id": "texts/cranford.txt#Miss_Brown"
+     "name": "Miss_Brown"
     },
     {
-     "name": "Miss_Jessie",
-     "id": "texts/cranford.txt#Miss_Jessie"
+     "name": "Miss_Jessie"
     }
-   ],
-   "id": "texts/cranford.txt#Realizing_her_family_members_are_gone"
+   ]
   },
   {
    "name": "Miss_Brown_expressing_her_love_for_her_family",
    "takePlaceAt": {
-    "name": "Miss_Jenkyns_house",
-    "id": "texts/cranford.txt#Miss_Jenkyns_house"
+    "name": "Miss_Jenkyns_house"
    },
    "hasParticipant": [
     {
-     "name": "Miss_Jessie",
-     "id": "texts/cranford.txt#Miss_Jessie"
+     "name": "Miss_Jessie"
     },
     {
-     "name": "Miss_Brown",
-     "id": "texts/cranford.txt#Miss_Brown"
+     "name": "Miss_Brown"
     }
-   ],
-   "id": "texts/cranford.txt#Miss_Brown_expressing_her_love_for_her_family"
+   ]
   },
   {
    "name": "Miss_Jenkyns_offering_Miss_Jessie_a_place_to_stay",
    "takePlaceAt": {
-    "name": "Miss_Jenkyns_house",
-    "id": "texts/cranford.txt#Miss_Jenkyns_house"
+    "name": "Miss_Jenkyns_house"
    },
    "hasParticipant": [
     {
-     "name": "Miss_Jenkyns",
-     "id": "texts/cranford.txt#Miss_Jenkyns"
+     "name": "Miss_Jenkyns"
     },
     {
-     "name": "Miss_Jessie",
-     "id": "texts/cranford.txt#Miss_Jessie"
+     "name": "Miss_Jessie"
     }
-   ],
-   "id": "texts/cranford.txt#Miss_Jenkyns_offering_Miss_Jessie_a_place_to_stay"
+   ]
   }
  ],
  "Places": [
   {
-   "name": "Miss_Jenkyns_house",
-   "id": "texts/cranford.txt#Miss_Jenkyns_house"
+   "name": "Miss_Jenkyns_house"
   },
   {
-   "name": "Miss_Jenkyns_house",
-   "id": "texts/cranford.txt#Miss_Jenkyns_house"
+   "name": "Miss_Jenkyns_house"
   },
   {
-   "name": "Miss_Jenkyns_house",
-   "id": "texts/cranford.txt#Miss_Jenkyns_house"
+   "name": "Miss_Jenkyns_house"
   },
   {
-   "name": "Miss_Jenkyns_house",
-   "id": "texts/cranford.txt#Miss_Jenkyns_house"
+   "name": "Miss_Jenkyns_house"
   },
   {
-   "name": "Miss_Jenkyns_house",
-   "id": "texts/cranford.txt#Miss_Jenkyns_house"
+   "name": "Miss_Jenkyns_house"
   },
   {
-   "name": "Miss_Jenkyns_house",
-   "id": "texts/cranford.txt#Miss_Jenkyns_house"
+   "name": "Miss_Jenkyns_house"
   },
   {
-   "name": "Miss_Jenkyns_house",
-   "id": "texts/cranford.txt#Miss_Jenkyns_house"
+   "name": "Miss_Jenkyns_house"
   }
  ]
 }

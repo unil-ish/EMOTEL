@@ -8,31 +8,24 @@
      "hasIntensity": 0.9,
      "quote": "Jane was delighted at Elizabeth's entrance and was not equal to much conversation.",
      "hasObject": {
-      "name": "Elizabeth_s_presence",
-      "id": "texts/prideandprejudice.txt#Elizabeth_s_presence"
+      "name": "Elizabeth_s_presence"
      },
      "causedBy": {
-      "name": "Elizabeth_s_visit",
-      "id": "texts/prideandprejudice.txt#Elizabeth_s_visit"
-     },
-     "id": "Joy"
+      "name": "Elizabeth_s_visit"
+     }
     },
     {
      "name": "Relief",
      "hasIntensity": 0.8,
      "quote": "Jane was relieved to hear that Mr. Darcy did not wish to play cards.",
      "hasObject": {
-      "name": "Mr_Darcy_s_decision",
-      "id": "texts/prideandprejudice.txt#Mr_Darcy_s_decision"
+      "name": "Mr_Darcy_s_decision"
      },
      "causedBy": {
-      "name": "Mr_Darcy_s_preference",
-      "id": "texts/prideandprejudice.txt#Mr_Darcy_s_preference"
-     },
-     "id": "Relief"
+      "name": "Mr_Darcy_s_preference"
+     }
     }
-   ],
-   "id": "texts/prideandprejudice.txt#Jane_Bennet"
+   ]
   },
   {
    "name": "Mr_Darcy",
@@ -42,31 +35,24 @@
      "hasIntensity": 0.7,
      "quote": "Mr. Darcy's attention was engaged in watching Elizabeth as she moved about the room.",
      "hasObject": {
-      "name": "Observing_Elizabeth",
-      "id": "texts/prideandprejudice.txt#Observing_Elizabeth"
+      "name": "Observing_Elizabeth"
      },
      "causedBy": {
-      "name": "Elizabeth_s_movements",
-      "id": "texts/prideandprejudice.txt#Elizabeth_s_movements"
-     },
-     "id": "Interest"
+      "name": "Elizabeth_s_movements"
+     }
     },
     {
      "name": "Curiosity",
      "hasIntensity": 0.6,
      "quote": "Mr. Darcy was curious about the motives behind Miss Bingley and Elizabeth walking together.",
      "hasObject": {
-      "name": "Motives_behind_the_walk",
-      "id": "texts/prideandprejudice.txt#Motives_behind_the_walk"
+      "name": "Motives_behind_the_walk"
      },
      "causedBy": {
-      "name": "Miss_Bingley_and_Elizabeth_walking_together",
-      "id": "texts/prideandprejudice.txt#Miss_Bingley_and_Elizabeth_walking_together"
-     },
-     "id": "Curiosity"
+      "name": "Miss_Bingley_and_Elizabeth_walking_together"
+     }
     }
-   ],
-   "id": "texts/prideandprejudice.txt#Mr_Darcy"
+   ]
   },
   {
    "name": "Miss_Bingley",
@@ -76,175 +62,136 @@
      "hasIntensity": 0.8,
      "quote": "Miss Bingley was jealous of Mr. Darcy's attention towards Elizabeth.",
      "hasObject": {
-      "name": "Mr_Darcy_s_attention",
-      "id": "texts/prideandprejudice.txt#Mr_Darcy_s_attention"
+      "name": "Mr_Darcy_s_attention"
      },
      "causedBy": {
-      "name": "Mr_Darcy_s_focus_on_Elizabeth",
-      "id": "texts/prideandprejudice.txt#Mr_Darcy_s_focus_on_Elizabeth"
-     },
-     "id": "Jealousy"
+      "name": "Mr_Darcy_s_focus_on_Elizabeth"
+     }
     },
     {
      "name": "Frustration",
      "hasIntensity": 0.7,
      "quote": "Miss Bingley was frustrated by Mr. Darcy's lack of engagement in conversation.",
      "hasObject": {
-      "name": "Mr_Darcy_s_reading",
-      "id": "texts/prideandprejudice.txt#Mr_Darcy_s_reading"
+      "name": "Mr_Darcy_s_reading"
      },
      "causedBy": {
-      "name": "Mr_Darcy_s_focus_on_reading",
-      "id": "texts/prideandprejudice.txt#Mr_Darcy_s_focus_on_reading"
-     },
-     "id": "Frustration"
+      "name": "Mr_Darcy_s_focus_on_reading"
+     }
     }
-   ],
-   "id": "texts/prideandprejudice.txt#Miss_Bingley"
+   ]
   }
  ],
  "Events": [
   {
    "name": "Elizabeth_s_visit",
    "takePlaceAt": {
-    "name": "Drawingroom",
-    "id": "texts/prideandprejudice.txt#Drawingroom"
+    "name": "Drawingroom"
    },
    "hasParticipant": [
     {
-     "name": "Jane_Bennet",
-     "id": "texts/prideandprejudice.txt#Jane_Bennet"
+     "name": "Jane_Bennet"
     },
     {
-     "name": "Elizabeth_Bennet",
-     "id": "texts/prideandprejudice.txt#Elizabeth_Bennet"
+     "name": "Elizabeth_Bennet"
     }
-   ],
-   "id": "texts/prideandprejudice.txt#Elizabeth_s_visit"
+   ]
   },
   {
    "name": "Mr_Darcy_s_preference",
    "takePlaceAt": {
-    "name": "Drawingroom",
-    "id": "texts/prideandprejudice.txt#Drawingroom"
+    "name": "Drawingroom"
    },
    "hasParticipant": [
     {
-     "name": "Jane_Bennet",
-     "id": "texts/prideandprejudice.txt#Jane_Bennet"
+     "name": "Jane_Bennet"
     },
     {
-     "name": "Mr_Darcy",
-     "id": "texts/prideandprejudice.txt#Mr_Darcy"
+     "name": "Mr_Darcy"
     }
-   ],
-   "id": "texts/prideandprejudice.txt#Mr_Darcy_s_preference"
+   ]
   },
   {
    "name": "Elizabeth_s_movements",
    "takePlaceAt": {
-    "name": "Drawingroom",
-    "id": "texts/prideandprejudice.txt#Drawingroom"
+    "name": "Drawingroom"
    },
    "hasParticipant": [
     {
-     "name": "Mr_Darcy",
-     "id": "texts/prideandprejudice.txt#Mr_Darcy"
+     "name": "Mr_Darcy"
     },
     {
-     "name": "Elizabeth_Bennet",
-     "id": "texts/prideandprejudice.txt#Elizabeth_Bennet"
+     "name": "Elizabeth_Bennet"
     }
-   ],
-   "id": "texts/prideandprejudice.txt#Elizabeth_s_movements"
+   ]
   },
   {
    "name": "Miss_Bingley_and_Elizabeth_walking_together",
    "takePlaceAt": {
-    "name": "Drawingroom",
-    "id": "texts/prideandprejudice.txt#Drawingroom"
+    "name": "Drawingroom"
    },
    "hasParticipant": [
     {
-     "name": "Mr_Darcy",
-     "id": "texts/prideandprejudice.txt#Mr_Darcy"
+     "name": "Mr_Darcy"
     },
     {
-     "name": "Miss_Bingley",
-     "id": "texts/prideandprejudice.txt#Miss_Bingley"
+     "name": "Miss_Bingley"
     },
     {
-     "name": "Elizabeth_Bennet",
-     "id": "texts/prideandprejudice.txt#Elizabeth_Bennet"
+     "name": "Elizabeth_Bennet"
     }
-   ],
-   "id": "texts/prideandprejudice.txt#Miss_Bingley_and_Elizabeth_walking_together"
+   ]
   },
   {
    "name": "Mr_Darcy_s_focus_on_Elizabeth",
    "takePlaceAt": {
-    "name": "Drawingroom",
-    "id": "texts/prideandprejudice.txt#Drawingroom"
+    "name": "Drawingroom"
    },
    "hasParticipant": [
     {
-     "name": "Miss_Bingley",
-     "id": "texts/prideandprejudice.txt#Miss_Bingley"
+     "name": "Miss_Bingley"
     },
     {
-     "name": "Mr_Darcy",
-     "id": "texts/prideandprejudice.txt#Mr_Darcy"
+     "name": "Mr_Darcy"
     },
     {
-     "name": "Elizabeth_Bennet",
-     "id": "texts/prideandprejudice.txt#Elizabeth_Bennet"
+     "name": "Elizabeth_Bennet"
     }
-   ],
-   "id": "texts/prideandprejudice.txt#Mr_Darcy_s_focus_on_Elizabeth"
+   ]
   },
   {
    "name": "Mr_Darcy_s_focus_on_reading",
    "takePlaceAt": {
-    "name": "Drawingroom",
-    "id": "texts/prideandprejudice.txt#Drawingroom"
+    "name": "Drawingroom"
    },
    "hasParticipant": [
     {
-     "name": "Miss_Bingley",
-     "id": "texts/prideandprejudice.txt#Miss_Bingley"
+     "name": "Miss_Bingley"
     },
     {
-     "name": "Mr_Darcy",
-     "id": "texts/prideandprejudice.txt#Mr_Darcy"
+     "name": "Mr_Darcy"
     }
-   ],
-   "id": "texts/prideandprejudice.txt#Mr_Darcy_s_focus_on_reading"
+   ]
   }
  ],
  "Places": [
   {
-   "name": "Drawingroom",
-   "id": "texts/prideandprejudice.txt#Drawingroom"
+   "name": "Drawingroom"
   },
   {
-   "name": "Drawingroom",
-   "id": "texts/prideandprejudice.txt#Drawingroom"
+   "name": "Drawingroom"
   },
   {
-   "name": "Drawingroom",
-   "id": "texts/prideandprejudice.txt#Drawingroom"
+   "name": "Drawingroom"
   },
   {
-   "name": "Drawingroom",
-   "id": "texts/prideandprejudice.txt#Drawingroom"
+   "name": "Drawingroom"
   },
   {
-   "name": "Drawingroom",
-   "id": "texts/prideandprejudice.txt#Drawingroom"
+   "name": "Drawingroom"
   },
   {
-   "name": "Drawingroom",
-   "id": "texts/prideandprejudice.txt#Drawingroom"
+   "name": "Drawingroom"
   }
  ]
 }

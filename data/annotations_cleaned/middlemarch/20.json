@@ -8,45 +8,36 @@
      "hasIntensity": 0.5,
      "quote": "It seemed a long while—she did not know how long—before she heard Celia saying, “That will do, nurse; he will be quiet on my lap now. You can go to lunch, and let Garratt stay in the next room. What I think, Dodo,” Celia went on, observing nothing more than that Dorothea was leaning back in her chair, and likely to be passive, “is that Mr. Casaubon was spiteful. I never did like him, and James never did. I think the corners of his mouth were dreadfully spiteful. And now he has behaved in this way, I am sure religion does not require you to make yourself uncomfortable about him. If he has been taken away, that is a mercy, and you ought to be grateful. We should not grieve, should we, baby?” said Celia confidentially to that unconscious centre and poise of the world, who had the most remarkable fists all complete even to the nails, and hair enough, really, when you took his cap off, to make—you didn’t know what:—in short, he was Bouddha in a Western form.",
      "hasObject": {
-      "name": "Celia_s_baby",
-      "id": "texts/middlemarch.txt#Celia_s_baby"
+      "name": "Celia_s_baby"
      },
      "place": "Freshitt Hall",
      "causedBy": {
-      "name": "Celia_s_comforting_words_about_Mr_Casaubon",
-      "id": "texts/middlemarch.txt#Celia_s_comforting_words_about_Mr_Casaubon"
-     },
-     "id": "Trust"
+      "name": "Celia_s_comforting_words_about_Mr_Casaubon"
+     }
     },
     {
      "name": "Surprise",
      "hasIntensity": 0.7,
      "quote": "The blood rushed to Dorothea’s face and neck painfully. But Celia was administering what she thought a sobering dose of fact. It was taking up notions that had done Dodo’s health so much harm. So she went on in her neutral tone, as if she had been remarking on baby’s robes.",
      "hasObject": {
-      "name": "Mr_Casaubon_s_codicil_to_the_will",
-      "id": "texts/middlemarch.txt#Mr_Casaubon_s_codicil_to_the_will"
+      "name": "Mr_Casaubon_s_codicil_to_the_will"
      },
      "place": "Freshitt Hall",
      "causedBy": {
-      "name": "Celia_revealing_Mr_Casaubon_s_codicil_to_the_will",
-      "id": "texts/middlemarch.txt#Celia_revealing_Mr_Casaubon_s_codicil_to_the_will"
-     },
-     "id": "Surprise"
+      "name": "Celia_revealing_Mr_Casaubon_s_codicil_to_the_will"
+     }
     },
     {
      "name": "Anger",
      "hasIntensity": 0.8,
      "quote": "The blood rushed to Dorothea’s face and neck painfully. But Celia was administering what she thought a sobering dose of fact. It was taking up notions that had done Dodo’s health so much harm. So she went on in her neutral tone, as if she had been remarking on baby’s robes.",
      "hasObject": {
-      "name": "Mr_Casaubon_s_codicil_to_the_will",
-      "id": "texts/middlemarch.txt#Mr_Casaubon_s_codicil_to_the_will"
+      "name": "Mr_Casaubon_s_codicil_to_the_will"
      },
      "place": "Freshitt Hall",
      "causedBy": {
-      "name": "Celia_revealing_Mr_Casaubon_s_codicil_to_the_will",
-      "id": "texts/middlemarch.txt#Celia_revealing_Mr_Casaubon_s_codicil_to_the_will"
-     },
-     "id": "Anger"
+      "name": "Celia_revealing_Mr_Casaubon_s_codicil_to_the_will"
+     }
     },
     {
      "name": "Sadness",
@@ -54,92 +45,71 @@
      "quote": "Dorothea sank back in her chair when her uncle had left the room, and cast her eyes down meditatively on her crossed hands.",
      "place": "Freshitt Hall",
      "causedBy": {
-      "name": "Uncle_s_departure_after_discussing_Mr_Casaubon_s_will",
-      "id": "texts/middlemarch.txt#Uncle_s_departure_after_discussing_Mr_Casaubon_s_w"
-     },
-     "id": "Sadness"
+      "name": "Uncle_s_departure_after_discussing_Mr_Casaubon_s_will"
+     }
     },
     {
      "name": "Confusion",
      "hasIntensity": 0.6,
      "quote": "It seemed a long while—she did not know how long—before she heard Celia saying, “That will do, nurse; he will be quiet on my lap now. You can go to lunch, and let Garratt stay in the next room. What I think, Dodo,” Celia went on, observing nothing more than that Dorothea was leaning back in her chair, and likely to be passive, “is that Mr. Casaubon was spiteful. I never did like him, and James never did. I think the corners of his mouth were dreadfully spiteful. And now he has behaved in this way, I am sure religion does not require you to make yourself uncomfortable about him. If he has been taken away, that is a mercy, and you ought to be grateful. We should not grieve, should we, baby?” said Celia confidentially to that unconscious centre and poise of the world, who had the most remarkable fists all complete even to the nails, and hair enough, really, when you took his cap off, to make—you didn’t know what:—in short, he was Bouddha in a Western form.",
      "hasObject": {
-      "name": "Celia_s_baby",
-      "id": "texts/middlemarch.txt#Celia_s_baby"
+      "name": "Celia_s_baby"
      },
      "place": "Freshitt Hall",
      "causedBy": {
-      "name": "Celia_s_comforting_words_about_Mr_Casaubon",
-      "id": "texts/middlemarch.txt#Celia_s_comforting_words_about_Mr_Casaubon"
-     },
-     "id": "Confusion"
+      "name": "Celia_s_comforting_words_about_Mr_Casaubon"
+     }
     }
-   ],
-   "id": "texts/middlemarch.txt#Dorothea"
+   ]
   }
  ],
  "Events": [
   {
    "name": "Celia_s_comforting_words_about_Mr_Casaubon",
    "takePlaceAt": {
-    "name": "Freshitt_Hall",
-    "id": "texts/middlemarch.txt#Freshitt_Hall"
-   },
-   "id": "texts/middlemarch.txt#Celia_s_comforting_words_about_Mr_Casaubon"
+    "name": "Freshitt_Hall"
+   }
   },
   {
    "name": "Celia_revealing_Mr_Casaubon_s_codicil_to_the_will",
    "takePlaceAt": {
-    "name": "Freshitt_Hall",
-    "id": "texts/middlemarch.txt#Freshitt_Hall"
-   },
-   "id": "texts/middlemarch.txt#Celia_revealing_Mr_Casaubon_s_codicil_to_the_will"
+    "name": "Freshitt_Hall"
+   }
   },
   {
    "name": "Celia_revealing_Mr_Casaubon_s_codicil_to_the_will",
    "takePlaceAt": {
-    "name": "Freshitt_Hall",
-    "id": "texts/middlemarch.txt#Freshitt_Hall"
-   },
-   "id": "texts/middlemarch.txt#Celia_revealing_Mr_Casaubon_s_codicil_to_the_will"
+    "name": "Freshitt_Hall"
+   }
   },
   {
    "name": "Uncle_s_departure_after_discussing_Mr_Casaubon_s_will",
    "takePlaceAt": {
-    "name": "Freshitt_Hall",
-    "id": "texts/middlemarch.txt#Freshitt_Hall"
-   },
-   "id": "texts/middlemarch.txt#Uncle_s_departure_after_discussing_Mr_Casaubon_s_w"
+    "name": "Freshitt_Hall"
+   }
   },
   {
    "name": "Celia_s_comforting_words_about_Mr_Casaubon",
    "takePlaceAt": {
-    "name": "Freshitt_Hall",
-    "id": "texts/middlemarch.txt#Freshitt_Hall"
-   },
-   "id": "texts/middlemarch.txt#Celia_s_comforting_words_about_Mr_Casaubon"
+    "name": "Freshitt_Hall"
+   }
   }
  ],
  "Places": [
   {
-   "name": "Freshitt_Hall",
-   "id": "texts/middlemarch.txt#Freshitt_Hall"
+   "name": "Freshitt_Hall"
   },
   {
-   "name": "Freshitt_Hall",
-   "id": "texts/middlemarch.txt#Freshitt_Hall"
+   "name": "Freshitt_Hall"
   },
   {
-   "name": "Freshitt_Hall",
-   "id": "texts/middlemarch.txt#Freshitt_Hall"
+   "name": "Freshitt_Hall"
   },
   {
-   "name": "Freshitt_Hall",
-   "id": "texts/middlemarch.txt#Freshitt_Hall"
+   "name": "Freshitt_Hall"
   },
   {
-   "name": "Freshitt_Hall",
-   "id": "texts/middlemarch.txt#Freshitt_Hall"
+   "name": "Freshitt_Hall"
   }
  ]
 }

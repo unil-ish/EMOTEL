@@ -8,187 +8,146 @@
      "hasIntensity": 0.8,
      "quote": "Valancy enjoyed the drive there. They went early, for it was twelve miles to Chidley Corners, and they had to go in Abel’s old, ragged top-buggy. The road was rough and rocky, like most Muskoka roads, but full of the austere charm of northern woods. It wound through beautiful, purring pines that were ranks of enchantment in the June sunset, and over the curious jade-green rivers of Muskoka, fringed by aspens that were always quivering with some supernal joy.",
      "hasObject": {
-      "name": "Drive_through_the_northern_woods",
-      "id": "texts/thebluecastle.txt#Drive_through_the_northern_woods"
+      "name": "Drive_through_the_northern_woods"
      },
      "causedBy": {
-      "name": "Drive_to_the_dance_at_Chidley_Corners",
-      "id": "texts/thebluecastle.txt#Drive_to_the_dance_at_Chidley_Corners"
-     },
-     "id": "Joy"
+      "name": "Drive_to_the_dance_at_Chidley_Corners"
+     }
     },
     {
      "name": "Fear",
      "hasIntensity": 0.9,
      "quote": "Valancy tried desperately and vainly to free herself. She was being dragged out into the maze of shouting, stamping, yelling dancers. The next moment the man who held her went staggering across the room from a neatly planted blow on the jaw, knocking down whirling couples as he went. Valancy felt her arm grasped.",
      "hasObject": {
-      "name": "Being_dragged_onto_the_dance_floor",
-      "id": "texts/thebluecastle.txt#Being_dragged_onto_the_dance_floor"
+      "name": "Being_dragged_onto_the_dance_floor"
      },
      "causedBy": {
-      "name": "Being_dragged_onto_the_dance_floor",
-      "id": "texts/thebluecastle.txt#Being_dragged_onto_the_dance_floor"
-     },
-     "id": "Fear"
+      "name": "Being_dragged_onto_the_dance_floor"
+     }
     },
     {
      "name": "Relief",
      "hasIntensity": 0.7,
      "quote": "It was at this moment that she saw Barney Snaith looking in over the heads of the crowd at the doorway. Valancy had two distinct convictions—one was that she was quite safe now; the other was that this was why she had wanted to come to the dance.",
      "hasObject": {
-      "name": "Seeing_Barney_Snaith",
-      "id": "texts/thebluecastle.txt#Seeing_Barney_Snaith"
+      "name": "Seeing_Barney_Snaith"
      },
      "causedBy": {
-      "name": "Seeing_Barney_Snaith_at_the_doorway",
-      "id": "texts/thebluecastle.txt#Seeing_Barney_Snaith_at_the_doorway"
-     },
-     "id": "Relief"
+      "name": "Seeing_Barney_Snaith_at_the_doorway"
+     }
     },
     {
      "name": "Annoyance",
      "hasIntensity": 0.8,
      "quote": "Valancy felt a sudden delightful glow irradiating soul and body under the dark pines. So he had actually come up to look after her. As soon as they stop hunting for us we’ll sneak around to the Muskoka road. I left Lady Jane down there. I’ll take you home. I suppose you’ve had enough of your party.",
      "hasObject": {
-      "name": "Barney_Snaith_offering_to_take_her_home",
-      "id": "texts/thebluecastle.txt#Barney_Snaith_offering_to_take_her_home"
+      "name": "Barney_Snaith_offering_to_take_her_home"
      },
      "causedBy": {
-      "name": "Barney_Snaith_offering_to_take_her_home",
-      "id": "texts/thebluecastle.txt#Barney_Snaith_offering_to_take_her_home"
-     },
-     "id": "Annoyance"
+      "name": "Barney_Snaith_offering_to_take_her_home"
+     }
     },
     {
      "name": "Shame",
      "hasIntensity": 0.9,
      "quote": "But she was not afraid any longer. One of the whispering group left his comrades and came across the room to her, through the whirling couples that now filled it uncomfortably. He was a tall, broad-shouldered fellow, not ill-dressed or ill-looking but unmistakably half drunk. He asked Valancy to dance. Valancy declined civilly. His face turned livid. He threw his arm about her and pulled her to him. His hot, whiskied breath burned her face.",
      "hasObject": {
-      "name": "Being_harassed_at_the_dance",
-      "id": "texts/thebluecastle.txt#Being_harassed_at_the_dance"
+      "name": "Being_harassed_at_the_dance"
      },
      "causedBy": {
-      "name": "Being_harassed_at_the_dance",
-      "id": "texts/thebluecastle.txt#Being_harassed_at_the_dance"
-     },
-     "id": "Shame"
+      "name": "Being_harassed_at_the_dance"
+     }
     }
-   ],
-   "id": "texts/thebluecastle.txt#Valancy"
+   ]
   }
  ],
  "Events": [
   {
    "name": "Drive_to_the_dance_at_Chidley_Corners",
    "takePlaceAt": {
-    "name": "En_route_to_the_dance",
-    "id": "texts/thebluecastle.txt#En_route_to_the_dance"
+    "name": "En_route_to_the_dance"
    },
    "hasParticipant": [
     {
-     "name": "Valancy",
-     "id": "texts/thebluecastle.txt#Valancy"
+     "name": "Valancy"
     },
     {
-     "name": "Roaring_Abel",
-     "id": "texts/thebluecastle.txt#Roaring_Abel"
+     "name": "Roaring_Abel"
     }
-   ],
-   "id": "texts/thebluecastle.txt#Drive_to_the_dance_at_Chidley_Corners"
+   ]
   },
   {
    "name": "Being_dragged_onto_the_dance_floor",
    "takePlaceAt": {
-    "name": "Dance_at_Chidley_Corners",
-    "id": "texts/thebluecastle.txt#Dance_at_Chidley_Corners"
+    "name": "Dance_at_Chidley_Corners"
    },
    "hasParticipant": [
     {
-     "name": "Valancy",
-     "id": "texts/thebluecastle.txt#Valancy"
+     "name": "Valancy"
     },
     {
-     "name": "Drunk_man",
-     "id": "texts/thebluecastle.txt#Drunk_man"
+     "name": "Drunk_man"
     }
-   ],
-   "id": "texts/thebluecastle.txt#Being_dragged_onto_the_dance_floor"
+   ]
   },
   {
    "name": "Seeing_Barney_Snaith_at_the_doorway",
    "takePlaceAt": {
-    "name": "Dance_at_Chidley_Corners",
-    "id": "texts/thebluecastle.txt#Dance_at_Chidley_Corners"
+    "name": "Dance_at_Chidley_Corners"
    },
    "hasParticipant": [
     {
-     "name": "Valancy",
-     "id": "texts/thebluecastle.txt#Valancy"
+     "name": "Valancy"
     },
     {
-     "name": "Barney_Snaith",
-     "id": "texts/thebluecastle.txt#Barney_Snaith"
+     "name": "Barney_Snaith"
     }
-   ],
-   "id": "texts/thebluecastle.txt#Seeing_Barney_Snaith_at_the_doorway"
+   ]
   },
   {
    "name": "Barney_Snaith_offering_to_take_her_home",
    "takePlaceAt": {
-    "name": "In_the_pine_woods",
-    "id": "texts/thebluecastle.txt#In_the_pine_woods"
+    "name": "In_the_pine_woods"
    },
    "hasParticipant": [
     {
-     "name": "Valancy",
-     "id": "texts/thebluecastle.txt#Valancy"
+     "name": "Valancy"
     },
     {
-     "name": "Barney_Snaith",
-     "id": "texts/thebluecastle.txt#Barney_Snaith"
+     "name": "Barney_Snaith"
     }
-   ],
-   "id": "texts/thebluecastle.txt#Barney_Snaith_offering_to_take_her_home"
+   ]
   },
   {
    "name": "Being_harassed_at_the_dance",
    "takePlaceAt": {
-    "name": "Dance_at_Chidley_Corners",
-    "id": "texts/thebluecastle.txt#Dance_at_Chidley_Corners"
+    "name": "Dance_at_Chidley_Corners"
    },
    "hasParticipant": [
     {
-     "name": "Valancy",
-     "id": "texts/thebluecastle.txt#Valancy"
+     "name": "Valancy"
     },
     {
-     "name": "Drunk_man",
-     "id": "texts/thebluecastle.txt#Drunk_man"
+     "name": "Drunk_man"
     }
-   ],
-   "id": "texts/thebluecastle.txt#Being_harassed_at_the_dance"
+   ]
   }
  ],
  "Places": [
   {
-   "name": "En_route_to_the_dance",
-   "id": "texts/thebluecastle.txt#En_route_to_the_dance"
+   "name": "En_route_to_the_dance"
   },
   {
-   "name": "Dance_at_Chidley_Corners",
-   "id": "texts/thebluecastle.txt#Dance_at_Chidley_Corners"
+   "name": "Dance_at_Chidley_Corners"
   },
   {
-   "name": "Dance_at_Chidley_Corners",
-   "id": "texts/thebluecastle.txt#Dance_at_Chidley_Corners"
+   "name": "Dance_at_Chidley_Corners"
   },
   {
-   "name": "In_the_pine_woods",
-   "id": "texts/thebluecastle.txt#In_the_pine_woods"
+   "name": "In_the_pine_woods"
   },
   {
-   "name": "Dance_at_Chidley_Corners",
-   "id": "texts/thebluecastle.txt#Dance_at_Chidley_Corners"
+   "name": "Dance_at_Chidley_Corners"
   }
  ]
 }

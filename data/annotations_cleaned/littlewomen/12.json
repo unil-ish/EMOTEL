@@ -8,115 +8,90 @@
      "hasIntensity": 0.7,
      "quote": "Amy felt that there was something behind this, but could not guess what, and said quietly, feeling hurt, and showing that she did,--'Perhaps you had rather I took no table at all?'",
      "hasObject": {
-      "name": "Table_at_the_fair",
-      "id": "texts/littlewomen.txt#Table_at_the_fair"
+      "name": "Table_at_the_fair"
      },
      "causedBy": {
-      "name": "Being_asked_to_give_up_her_table_at_the_fair",
-      "id": "texts/littlewomen.txt#Being_asked_to_give_up_her_table_at_the_fair"
-     },
-     "id": "Surprise"
+      "name": "Being_asked_to_give_up_her_table_at_the_fair"
+     }
     },
     {
      "name": "Gratitude",
      "hasIntensity": 0.8,
      "quote": "Amy often looked wistfully across, longing to be there, where she felt at home and happy, instead of in a corner with nothing to do. It might seem no hardship to some of us; but to a pretty, blithe young girl, it was not only tedious, but very trying; and the thought of being found there in the evening by her family, and Laurie and his friends, made it a real martyrdom.",
      "hasObject": {
-      "name": "Feeling_left_out",
-      "id": "texts/littlewomen.txt#Feeling_left_out"
+      "name": "Feeling_left_out"
      },
      "causedBy": {
-      "name": "Feeling_left_out_at_the_fair",
-      "id": "texts/littlewomen.txt#Feeling_left_out_at_the_fair"
-     },
-     "id": "Gratitude"
+      "name": "Feeling_left_out_at_the_fair"
+     }
     },
     {
      "name": "Magnanimity",
      "hasIntensity": 0.9,
      "quote": "Amy spoke earnestly, and Jo said, with a cordial hug,--'I understand now what you mean, and I'll never laugh at you again. You are getting on faster than you think, and I'll take lessons of you in true politeness, for you've learned the secret, I believe. Try away, deary; you'll get your reward some day, and no one will be more delighted than I shall.'",
      "hasObject": {
-      "name": "Generosity",
-      "id": "texts/littlewomen.txt#Generosity"
+      "name": "Generosity"
      },
      "causedBy": {
-      "name": "Being_praised_for_her_generosity",
-      "id": "texts/littlewomen.txt#Being_praised_for_her_generosity"
-     },
-     "id": "Magnanimity"
+      "name": "Being_praised_for_her_generosity"
+     }
     }
-   ],
-   "id": "texts/littlewomen.txt#Amy_March"
+   ]
   }
  ],
  "Events": [
   {
    "name": "Being_asked_to_give_up_her_table_at_the_fair",
    "takePlaceAt": {
-    "name": "Mrs_Chester_s_fair",
-    "id": "texts/littlewomen.txt#Mrs_Chester_s_fair"
+    "name": "Mrs_Chester_s_fair"
    },
    "hasParticipant": [
     {
-     "name": "Amy_March",
-     "id": "texts/littlewomen.txt#Amy_March"
+     "name": "Amy_March"
     },
     {
-     "name": "Mrs_Chester",
-     "id": "texts/littlewomen.txt#Mrs_Chester"
+     "name": "Mrs_Chester"
     }
-   ],
-   "id": "texts/littlewomen.txt#Being_asked_to_give_up_her_table_at_the_fair"
+   ]
   },
   {
    "name": "Feeling_left_out_at_the_fair",
    "takePlaceAt": {
-    "name": "Mrs_Chester_s_fair",
-    "id": "texts/littlewomen.txt#Mrs_Chester_s_fair"
+    "name": "Mrs_Chester_s_fair"
    },
    "hasParticipant": [
     {
-     "name": "Amy_March",
-     "id": "texts/littlewomen.txt#Amy_March"
+     "name": "Amy_March"
     },
     {
-     "name": "Laurie",
-     "id": "texts/littlewomen.txt#Laurie"
+     "name": "Laurie"
     }
-   ],
-   "id": "texts/littlewomen.txt#Feeling_left_out_at_the_fair"
+   ]
   },
   {
    "name": "Being_praised_for_her_generosity",
    "takePlaceAt": {
-    "name": "Mrs_Chester_s_fair",
-    "id": "texts/littlewomen.txt#Mrs_Chester_s_fair"
+    "name": "Mrs_Chester_s_fair"
    },
    "hasParticipant": [
     {
-     "name": "Amy_March",
-     "id": "texts/littlewomen.txt#Amy_March"
+     "name": "Amy_March"
     },
     {
-     "name": "Jo",
-     "id": "texts/littlewomen.txt#Jo"
+     "name": "Jo"
     }
-   ],
-   "id": "texts/littlewomen.txt#Being_praised_for_her_generosity"
+   ]
   }
  ],
  "Places": [
   {
-   "name": "Mrs_Chester_s_fair",
-   "id": "texts/littlewomen.txt#Mrs_Chester_s_fair"
+   "name": "Mrs_Chester_s_fair"
   },
   {
-   "name": "Mrs_Chester_s_fair",
-   "id": "texts/littlewomen.txt#Mrs_Chester_s_fair"
+   "name": "Mrs_Chester_s_fair"
   },
   {
-   "name": "Mrs_Chester_s_fair",
-   "id": "texts/littlewomen.txt#Mrs_Chester_s_fair"
+   "name": "Mrs_Chester_s_fair"
   }
  ]
 }

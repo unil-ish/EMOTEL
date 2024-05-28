@@ -8,45 +8,35 @@
      "hasIntensity": 0.9,
      "quote": "She felt as if she had stabbed her dearest friend.",
      "hasObject": {
-      "name": "Beth_s_confession",
-      "id": "texts/littlewomen.txt#Beth_s_confession"
+      "name": "Beth_s_confession"
      },
      "causedBy": {
-      "name": "Beth_s_confession",
-      "id": "texts/littlewomen.txt#Beth_s_confession"
-     },
-     "id": "Sadness"
+      "name": "Beth_s_confession"
+     }
     },
     {
      "name": "Rebellion",
      "hasIntensity": 0.8,
      "quote": "God won't be so cruel as to take you from me.",
      "hasObject": {
-      "name": "Beth_s_confession",
-      "id": "texts/littlewomen.txt#Beth_s_confession"
+      "name": "Beth_s_confession"
      },
      "causedBy": {
-      "name": "Beth_s_confession",
-      "id": "texts/littlewomen.txt#Beth_s_confession"
-     },
-     "id": "Rebellion"
+      "name": "Beth_s_confession"
+     }
     },
     {
      "name": "Dedication",
      "hasIntensity": 0.9,
      "quote": "With that silent kiss, she dedicated herself soul and body to Beth.",
      "hasObject": {
-      "name": "Beth_s_confession",
-      "id": "texts/littlewomen.txt#Beth_s_confession"
+      "name": "Beth_s_confession"
      },
      "causedBy": {
-      "name": "Beth_s_confession",
-      "id": "texts/littlewomen.txt#Beth_s_confession"
-     },
-     "id": "Dedication"
+      "name": "Beth_s_confession"
+     }
     }
-   ],
-   "id": "texts/littlewomen.txt#Jo"
+   ]
   },
   {
    "name": "Beth",
@@ -56,31 +46,24 @@
      "hasIntensity": 0.9,
      "quote": "I try to be willing.",
      "hasObject": {
-      "name": "Beth_s_confession",
-      "id": "texts/littlewomen.txt#Beth_s_confession"
+      "name": "Beth_s_confession"
      },
      "causedBy": {
-      "name": "Beth_s_confession",
-      "id": "texts/littlewomen.txt#Beth_s_confession"
-     },
-     "id": "Acceptance"
+      "name": "Beth_s_confession"
+     }
     },
     {
      "name": "Serenity",
      "hasIntensity": 0.8,
      "quote": "I try to be willing.",
      "hasObject": {
-      "name": "Beth_s_confession",
-      "id": "texts/littlewomen.txt#Beth_s_confession"
+      "name": "Beth_s_confession"
      },
      "causedBy": {
-      "name": "Beth_s_confession",
-      "id": "texts/littlewomen.txt#Beth_s_confession"
-     },
-     "id": "Serenity"
+      "name": "Beth_s_confession"
+     }
     }
-   ],
-   "id": "texts/littlewomen.txt#Beth"
+   ]
   },
   {
    "name": "Laurie",
@@ -90,31 +73,24 @@
      "hasIntensity": 0.8,
      "quote": "O Laurie, is it really you? I thought you'd never come!",
      "hasObject": {
-      "name": "Meeting_Amy",
-      "id": "texts/littlewomen.txt#Meeting_Amy"
+      "name": "Meeting_Amy"
      },
      "causedBy": {
-      "name": "Meeting_Amy",
-      "id": "texts/littlewomen.txt#Meeting_Amy"
-     },
-     "id": "Surprise"
+      "name": "Meeting_Amy"
+     }
     },
     {
      "name": "Excitement",
      "hasIntensity": 0.9,
      "quote": "I promised to spend Christmas with you, and here I am.",
      "hasObject": {
-      "name": "Meeting_Amy",
-      "id": "texts/littlewomen.txt#Meeting_Amy"
+      "name": "Meeting_Amy"
      },
      "causedBy": {
-      "name": "Meeting_Amy",
-      "id": "texts/littlewomen.txt#Meeting_Amy"
-     },
-     "id": "Excitement"
+      "name": "Meeting_Amy"
+     }
     }
-   ],
-   "id": "texts/littlewomen.txt#Laurie"
+   ]
   },
   {
    "name": "Amy",
@@ -124,197 +100,153 @@
      "hasIntensity": 0.9,
      "quote": "O Laurie, is it really you? I thought you'd never come!",
      "hasObject": {
-      "name": "Meeting_Laurie",
-      "id": "texts/littlewomen.txt#Meeting_Laurie"
+      "name": "Meeting_Laurie"
      },
      "causedBy": {
-      "name": "Meeting_Laurie",
-      "id": "texts/littlewomen.txt#Meeting_Laurie"
-     },
-     "id": "Joy"
+      "name": "Meeting_Laurie"
+     }
     }
-   ],
-   "id": "texts/littlewomen.txt#Amy"
+   ]
   }
  ],
  "Events": [
   {
    "name": "Beth_s_confession",
    "takePlaceAt": {
-    "name": "At_the_beach",
-    "id": "texts/littlewomen.txt#At_the_beach"
+    "name": "At_the_beach"
    },
    "hasParticipant": [
     {
-     "name": "Jo",
-     "id": "texts/littlewomen.txt#Jo"
+     "name": "Jo"
     },
     {
-     "name": "Beth",
-     "id": "texts/littlewomen.txt#Beth"
+     "name": "Beth"
     }
-   ],
-   "id": "texts/littlewomen.txt#Beth_s_confession"
+   ]
   },
   {
    "name": "Beth_s_confession",
    "takePlaceAt": {
-    "name": "At_the_beach",
-    "id": "texts/littlewomen.txt#At_the_beach"
+    "name": "At_the_beach"
    },
    "hasParticipant": [
     {
-     "name": "Jo",
-     "id": "texts/littlewomen.txt#Jo"
+     "name": "Jo"
     },
     {
-     "name": "Beth",
-     "id": "texts/littlewomen.txt#Beth"
+     "name": "Beth"
     }
-   ],
-   "id": "texts/littlewomen.txt#Beth_s_confession"
+   ]
   },
   {
    "name": "Beth_s_confession",
    "takePlaceAt": {
-    "name": "At_the_beach",
-    "id": "texts/littlewomen.txt#At_the_beach"
+    "name": "At_the_beach"
    },
    "hasParticipant": [
     {
-     "name": "Jo",
-     "id": "texts/littlewomen.txt#Jo"
+     "name": "Jo"
     },
     {
-     "name": "Beth",
-     "id": "texts/littlewomen.txt#Beth"
+     "name": "Beth"
     }
-   ],
-   "id": "texts/littlewomen.txt#Beth_s_confession"
+   ]
   },
   {
    "name": "Beth_s_confession",
    "takePlaceAt": {
-    "name": "At_the_beach",
-    "id": "texts/littlewomen.txt#At_the_beach"
+    "name": "At_the_beach"
    },
    "hasParticipant": [
     {
-     "name": "Jo",
-     "id": "texts/littlewomen.txt#Jo"
+     "name": "Jo"
     },
     {
-     "name": "Beth",
-     "id": "texts/littlewomen.txt#Beth"
+     "name": "Beth"
     }
-   ],
-   "id": "texts/littlewomen.txt#Beth_s_confession"
+   ]
   },
   {
    "name": "Beth_s_confession",
    "takePlaceAt": {
-    "name": "At_the_beach",
-    "id": "texts/littlewomen.txt#At_the_beach"
+    "name": "At_the_beach"
    },
    "hasParticipant": [
     {
-     "name": "Jo",
-     "id": "texts/littlewomen.txt#Jo"
+     "name": "Jo"
     },
     {
-     "name": "Beth",
-     "id": "texts/littlewomen.txt#Beth"
+     "name": "Beth"
     }
-   ],
-   "id": "texts/littlewomen.txt#Beth_s_confession"
+   ]
   },
   {
    "name": "Meeting_Amy",
    "takePlaceAt": {
-    "name": "On_the_street_in_Nice",
-    "id": "texts/littlewomen.txt#On_the_street_in_Nice"
+    "name": "On_the_street_in_Nice"
    },
    "hasParticipant": [
     {
-     "name": "Laurie",
-     "id": "texts/littlewomen.txt#Laurie"
+     "name": "Laurie"
     },
     {
-     "name": "Amy",
-     "id": "texts/littlewomen.txt#Amy"
+     "name": "Amy"
     }
-   ],
-   "id": "texts/littlewomen.txt#Meeting_Amy"
+   ]
   },
   {
    "name": "Meeting_Amy",
    "takePlaceAt": {
-    "name": "On_the_street_in_Nice",
-    "id": "texts/littlewomen.txt#On_the_street_in_Nice"
+    "name": "On_the_street_in_Nice"
    },
    "hasParticipant": [
     {
-     "name": "Laurie",
-     "id": "texts/littlewomen.txt#Laurie"
+     "name": "Laurie"
     },
     {
-     "name": "Amy",
-     "id": "texts/littlewomen.txt#Amy"
+     "name": "Amy"
     }
-   ],
-   "id": "texts/littlewomen.txt#Meeting_Amy"
+   ]
   },
   {
    "name": "Meeting_Laurie",
    "takePlaceAt": {
-    "name": "On_the_street_in_Nice",
-    "id": "texts/littlewomen.txt#On_the_street_in_Nice"
+    "name": "On_the_street_in_Nice"
    },
    "hasParticipant": [
     {
-     "name": "Laurie",
-     "id": "texts/littlewomen.txt#Laurie"
+     "name": "Laurie"
     },
     {
-     "name": "Amy",
-     "id": "texts/littlewomen.txt#Amy"
+     "name": "Amy"
     }
-   ],
-   "id": "texts/littlewomen.txt#Meeting_Laurie"
+   ]
   }
  ],
  "Places": [
   {
-   "name": "At_the_beach",
-   "id": "texts/littlewomen.txt#At_the_beach"
+   "name": "At_the_beach"
   },
   {
-   "name": "At_the_beach",
-   "id": "texts/littlewomen.txt#At_the_beach"
+   "name": "At_the_beach"
   },
   {
-   "name": "At_the_beach",
-   "id": "texts/littlewomen.txt#At_the_beach"
+   "name": "At_the_beach"
   },
   {
-   "name": "At_the_beach",
-   "id": "texts/littlewomen.txt#At_the_beach"
+   "name": "At_the_beach"
   },
   {
-   "name": "At_the_beach",
-   "id": "texts/littlewomen.txt#At_the_beach"
+   "name": "At_the_beach"
   },
   {
-   "name": "On_the_street_in_Nice",
-   "id": "texts/littlewomen.txt#On_the_street_in_Nice"
+   "name": "On_the_street_in_Nice"
   },
   {
-   "name": "On_the_street_in_Nice",
-   "id": "texts/littlewomen.txt#On_the_street_in_Nice"
+   "name": "On_the_street_in_Nice"
   },
   {
-   "name": "On_the_street_in_Nice",
-   "id": "texts/littlewomen.txt#On_the_street_in_Nice"
+   "name": "On_the_street_in_Nice"
   }
  ]
 }

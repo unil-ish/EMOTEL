@@ -8,115 +8,90 @@
      "hasIntensity": 0.9,
      "quote": "She felt anew the justice of Mr. Darcy’s objections; and never had she before been so much disposed to pardon his interference in the views of his friend.",
      "hasObject": {
-      "name": "Invitation_to_Brighton",
-      "id": "texts/prideandprejudice.txt#Invitation_to_Brighton"
+      "name": "Invitation_to_Brighton"
      },
      "causedBy": {
-      "name": "Receiving_an_invitation_to_Brighton_for_Lydia",
-      "id": "texts/prideandprejudice.txt#Receiving_an_invitation_to_Brighton_for_Lydia"
-     },
-     "id": "Shame"
+      "name": "Receiving_an_invitation_to_Brighton_for_Lydia"
+     }
     },
     {
      "name": "Pity",
      "hasIntensity": 0.8,
      "quote": "She represented to him all the improprieties of Lydia’s general behaviour, the little advantage she could derive from the friendship of such a woman as Mrs. Forster, and the probability of her being yet more imprudent with such a companion at Brighton, where the temptations must be greater than at home.",
      "hasObject": {
-      "name": "Lydia_s_behavior_and_consequences",
-      "id": "texts/prideandprejudice.txt#Lydia_s_behavior_and_consequences"
+      "name": "Lydia_s_behavior_and_consequences"
      },
      "causedBy": {
-      "name": "Discussion_with_Mr_Bennet_about_Lydia_s_invitation_to_Brighton",
-      "id": "texts/prideandprejudice.txt#Discussion_with_Mr_Bennet_about_Lydia_s_invitation"
-     },
-     "id": "Pity"
+      "name": "Discussion_with_Mr_Bennet_about_Lydia_s_invitation_to_Brighton"
+     }
     },
     {
      "name": "Concern",
      "hasIntensity": 0.7,
      "quote": "She considered it as the death-warrant of all possibility of common sense for the latter; and detestable as such a step must make her, were it known, she could not help secretly advising her father not to let her go.",
      "hasObject": {
-      "name": "Lydia_s_behavior_and_consequences",
-      "id": "texts/prideandprejudice.txt#Lydia_s_behavior_and_consequences"
+      "name": "Lydia_s_behavior_and_consequences"
      },
      "causedBy": {
-      "name": "Lydia_s_invitation_to_Brighton",
-      "id": "texts/prideandprejudice.txt#Lydia_s_invitation_to_Brighton"
-     },
-     "id": "Concern"
+      "name": "Lydia_s_invitation_to_Brighton"
+     }
     }
-   ],
-   "id": "texts/prideandprejudice.txt#Elizabeth_Bennet"
+   ]
   }
  ],
  "Events": [
   {
    "name": "Receiving_an_invitation_to_Brighton_for_Lydia",
    "takePlaceAt": {
-    "name": "Longbourn_House",
-    "id": "texts/prideandprejudice.txt#Longbourn_House"
+    "name": "Longbourn_House"
    },
    "hasParticipant": [
     {
-     "name": "Lydia_Bennet",
-     "id": "texts/prideandprejudice.txt#Lydia_Bennet"
+     "name": "Lydia_Bennet"
     },
     {
-     "name": "Mrs_Forster",
-     "id": "texts/prideandprejudice.txt#Mrs_Forster"
+     "name": "Mrs_Forster"
     }
-   ],
-   "id": "texts/prideandprejudice.txt#Receiving_an_invitation_to_Brighton_for_Lydia"
+   ]
   },
   {
    "name": "Discussion_with_Mr_Bennet_about_Lydia_s_invitation_to_Brighton",
    "takePlaceAt": {
-    "name": "Longbourn_House",
-    "id": "texts/prideandprejudice.txt#Longbourn_House"
+    "name": "Longbourn_House"
    },
    "hasParticipant": [
     {
-     "name": "Elizabeth_Bennet",
-     "id": "texts/prideandprejudice.txt#Elizabeth_Bennet"
+     "name": "Elizabeth_Bennet"
     },
     {
-     "name": "Mr_Bennet",
-     "id": "texts/prideandprejudice.txt#Mr_Bennet"
+     "name": "Mr_Bennet"
     }
-   ],
-   "id": "texts/prideandprejudice.txt#Discussion_with_Mr_Bennet_about_Lydia_s_invitation"
+   ]
   },
   {
    "name": "Lydia_s_invitation_to_Brighton",
    "takePlaceAt": {
-    "name": "Longbourn_House",
-    "id": "texts/prideandprejudice.txt#Longbourn_House"
+    "name": "Longbourn_House"
    },
    "hasParticipant": [
     {
-     "name": "Elizabeth_Bennet",
-     "id": "texts/prideandprejudice.txt#Elizabeth_Bennet"
+     "name": "Elizabeth_Bennet"
     },
     {
-     "name": "Lydia_Bennet",
-     "id": "texts/prideandprejudice.txt#Lydia_Bennet"
+     "name": "Lydia_Bennet"
     }
-   ],
-   "id": "texts/prideandprejudice.txt#Lydia_s_invitation_to_Brighton"
+   ]
   }
  ],
  "Places": [
   {
-   "name": "Longbourn_House",
-   "id": "texts/prideandprejudice.txt#Longbourn_House"
+   "name": "Longbourn_House"
   },
   {
-   "name": "Longbourn_House",
-   "id": "texts/prideandprejudice.txt#Longbourn_House"
+   "name": "Longbourn_House"
   },
   {
-   "name": "Longbourn_House",
-   "id": "texts/prideandprejudice.txt#Longbourn_House"
+   "name": "Longbourn_House"
   }
  ]
 }

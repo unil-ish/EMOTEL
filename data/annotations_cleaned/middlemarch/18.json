@@ -8,45 +8,35 @@
      "hasIntensity": 0.8,
      "quote": "How very petty!",
      "hasObject": {
-      "name": "Opposition_to_the_New_Hospital",
-      "id": "texts/middlemarch.txt#Opposition_to_the_New_Hospital"
+      "name": "Opposition_to_the_New_Hospital"
      },
      "causedBy": {
-      "name": "Opposition_to_the_New_Hospital",
-      "id": "texts/middlemarch.txt#Opposition_to_the_New_Hospital"
-     },
-     "id": "Indignation"
+      "name": "Opposition_to_the_New_Hospital"
+     }
     },
     {
      "name": "Interest",
      "hasIntensity": 0.7,
      "quote": "I feel sure I can help a little. I have some money, and don’t know what to do with it—that is often an uncomfortable thought to me.",
      "hasObject": {
-      "name": "Discussion_about_the_New_Hospital",
-      "id": "texts/middlemarch.txt#Discussion_about_the_New_Hospital"
+      "name": "Discussion_about_the_New_Hospital"
      },
      "causedBy": {
-      "name": "Discussion_about_the_New_Hospital",
-      "id": "texts/middlemarch.txt#Discussion_about_the_New_Hospital"
-     },
-     "id": "Interest"
+      "name": "Discussion_about_the_New_Hospital"
+     }
     },
     {
      "name": "Melancholy",
      "hasIntensity": 0.6,
      "quote": "There seems to be so much trouble taken that one can hardly see the good of!",
      "hasObject": {
-      "name": "Discussion_about_the_New_Hospital",
-      "id": "texts/middlemarch.txt#Discussion_about_the_New_Hospital"
+      "name": "Discussion_about_the_New_Hospital"
      },
      "causedBy": {
-      "name": "Discussion_about_the_New_Hospital",
-      "id": "texts/middlemarch.txt#Discussion_about_the_New_Hospital"
-     },
-     "id": "Melancholy"
+      "name": "Discussion_about_the_New_Hospital"
+     }
     }
-   ],
-   "id": "texts/middlemarch.txt#Dorothea"
+   ]
   },
   {
    "name": "Mr_Mawmsey",
@@ -56,31 +46,24 @@
      "hasIntensity": 0.7,
      "quote": "For years he had been paying bills with strictly made items, so that for every half-crown and eighteen-pence he was certain something measurable had been delivered.",
      "hasObject": {
-      "name": "Discussion_about_Lydgate_s_new_approach_to_medicine",
-      "id": "texts/middlemarch.txt#Discussion_about_Lydgate_s_new_approach_to_medicin"
+      "name": "Discussion_about_Lydgate_s_new_approach_to_medicine"
      },
      "causedBy": {
-      "name": "Discussion_about_Lydgate_s_new_approach_to_medicine",
-      "id": "texts/middlemarch.txt#Discussion_about_Lydgate_s_new_approach_to_medicin"
-     },
-     "id": "Perturbation"
+      "name": "Discussion_about_Lydgate_s_new_approach_to_medicine"
+     }
     },
     {
      "name": "Satisfaction",
      "hasIntensity": 0.8,
      "quote": "He had done this with satisfaction, including it among his responsibilities as a husband and father.",
      "hasObject": {
-      "name": "Paying_bills_with_strictly_made_items",
-      "id": "texts/middlemarch.txt#Paying_bills_with_strictly_made_items"
+      "name": "Paying_bills_with_strictly_made_items"
      },
      "causedBy": {
-      "name": "Paying_bills_with_strictly_made_items",
-      "id": "texts/middlemarch.txt#Paying_bills_with_strictly_made_items"
-     },
-     "id": "Satisfaction"
+      "name": "Paying_bills_with_strictly_made_items"
+     }
     }
-   ],
-   "id": "texts/middlemarch.txt#Mr_Mawmsey"
+   ]
   },
   {
    "name": "Mrs_Mawmsey",
@@ -90,31 +73,24 @@
      "hasIntensity": 0.7,
      "quote": "But what keeps me up best is the pink mixture, not the brown.",
      "hasObject": {
-      "name": "Discussion_about_Lydgate_s_new_approach_to_medicine",
-      "id": "texts/middlemarch.txt#Discussion_about_Lydgate_s_new_approach_to_medicin"
+      "name": "Discussion_about_Lydgate_s_new_approach_to_medicine"
      },
      "causedBy": {
-      "name": "Discussion_about_Lydgate_s_new_approach_to_medicine",
-      "id": "texts/middlemarch.txt#Discussion_about_Lydgate_s_new_approach_to_medicin"
-     },
-     "id": "Satisfaction"
+      "name": "Discussion_about_Lydgate_s_new_approach_to_medicine"
+     }
     },
     {
      "name": "Disapproval",
      "hasIntensity": 0.6,
      "quote": "Not one that I would employ.",
      "hasObject": {
-      "name": "Discussion_about_Lydgate_s_new_approach_to_medicine",
-      "id": "texts/middlemarch.txt#Discussion_about_Lydgate_s_new_approach_to_medicin"
+      "name": "Discussion_about_Lydgate_s_new_approach_to_medicine"
      },
      "causedBy": {
-      "name": "Discussion_about_Lydgate_s_new_approach_to_medicine",
-      "id": "texts/middlemarch.txt#Discussion_about_Lydgate_s_new_approach_to_medicin"
-     },
-     "id": "Disapproval"
+      "name": "Discussion_about_Lydgate_s_new_approach_to_medicine"
+     }
     }
-   ],
-   "id": "texts/middlemarch.txt#Mrs_Mawmsey"
+   ]
   },
   {
    "name": "Mr_Gambit",
@@ -124,143 +100,109 @@
      "hasIntensity": 0.7,
      "quote": "Indeed!",
      "hasObject": {
-      "name": "Learning_about_Lydgate_s_views_on_medicine",
-      "id": "texts/middlemarch.txt#Learning_about_Lydgate_s_views_on_medicine"
+      "name": "Learning_about_Lydgate_s_views_on_medicine"
      },
      "causedBy": {
-      "name": "Learning_about_Lydgate_s_views_on_medicine",
-      "id": "texts/middlemarch.txt#Learning_about_Lydgate_s_views_on_medicine"
-     },
-     "id": "Surprise"
+      "name": "Learning_about_Lydgate_s_views_on_medicine"
+     }
     },
     {
      "name": "Humor",
      "hasIntensity": 0.8,
      "quote": "Well, Lydgate is a good-looking young fellow, you know.",
      "hasObject": {
-      "name": "Conversation_with_Mrs_Mawmsey",
-      "id": "texts/middlemarch.txt#Conversation_with_Mrs_Mawmsey"
+      "name": "Conversation_with_Mrs_Mawmsey"
      },
      "causedBy": {
-      "name": "Conversation_with_Mrs_Mawmsey",
-      "id": "texts/middlemarch.txt#Conversation_with_Mrs_Mawmsey"
-     },
-     "id": "Humor"
+      "name": "Conversation_with_Mrs_Mawmsey"
+     }
     }
-   ],
-   "id": "texts/middlemarch.txt#Mr_Gambit"
+   ]
   }
  ],
  "Events": [
   {
    "name": "Opposition_to_the_New_Hospital",
    "takePlaceAt": {
-    "name": "Middlemarch",
-    "id": "texts/middlemarch.txt#Middlemarch"
-   },
-   "id": "texts/middlemarch.txt#Opposition_to_the_New_Hospital"
+    "name": "Middlemarch"
+   }
   },
   {
    "name": "Discussion_about_the_New_Hospital",
    "takePlaceAt": {
-    "name": "Home",
-    "id": "texts/middlemarch.txt#Home"
-   },
-   "id": "texts/middlemarch.txt#Discussion_about_the_New_Hospital"
+    "name": "Home"
+   }
   },
   {
    "name": "Discussion_about_the_New_Hospital",
    "takePlaceAt": {
-    "name": "Home",
-    "id": "texts/middlemarch.txt#Home"
-   },
-   "id": "texts/middlemarch.txt#Discussion_about_the_New_Hospital"
+    "name": "Home"
+   }
   },
   {
    "name": "Discussion_about_Lydgate_s_new_approach_to_medicine",
    "takePlaceAt": {
-    "name": "The_Tankard_in_Slaughter_Lane",
-    "id": "texts/middlemarch.txt#The_Tankard_in_Slaughter_Lane"
-   },
-   "id": "texts/middlemarch.txt#Discussion_about_Lydgate_s_new_approach_to_medicin"
+    "name": "The_Tankard_in_Slaughter_Lane"
+   }
   },
   {
    "name": "Paying_bills_with_strictly_made_items",
    "takePlaceAt": {
-    "name": "Home",
-    "id": "texts/middlemarch.txt#Home"
-   },
-   "id": "texts/middlemarch.txt#Paying_bills_with_strictly_made_items"
+    "name": "Home"
+   }
   },
   {
    "name": "Discussion_about_Lydgate_s_new_approach_to_medicine",
    "takePlaceAt": {
-    "name": "The_Tankard_in_Slaughter_Lane",
-    "id": "texts/middlemarch.txt#The_Tankard_in_Slaughter_Lane"
-   },
-   "id": "texts/middlemarch.txt#Discussion_about_Lydgate_s_new_approach_to_medicin"
+    "name": "The_Tankard_in_Slaughter_Lane"
+   }
   },
   {
    "name": "Discussion_about_Lydgate_s_new_approach_to_medicine",
    "takePlaceAt": {
-    "name": "The_Tankard_in_Slaughter_Lane",
-    "id": "texts/middlemarch.txt#The_Tankard_in_Slaughter_Lane"
-   },
-   "id": "texts/middlemarch.txt#Discussion_about_Lydgate_s_new_approach_to_medicin"
+    "name": "The_Tankard_in_Slaughter_Lane"
+   }
   },
   {
    "name": "Learning_about_Lydgate_s_views_on_medicine",
    "takePlaceAt": {
-    "name": "The_conversation_with_Mrs_Mawmsey",
-    "id": "texts/middlemarch.txt#The_conversation_with_Mrs_Mawmsey"
-   },
-   "id": "texts/middlemarch.txt#Learning_about_Lydgate_s_views_on_medicine"
+    "name": "The_conversation_with_Mrs_Mawmsey"
+   }
   },
   {
    "name": "Conversation_with_Mrs_Mawmsey",
    "takePlaceAt": {
-    "name": "The_conversation_with_Mrs_Mawmsey",
-    "id": "texts/middlemarch.txt#The_conversation_with_Mrs_Mawmsey"
-   },
-   "id": "texts/middlemarch.txt#Conversation_with_Mrs_Mawmsey"
+    "name": "The_conversation_with_Mrs_Mawmsey"
+   }
   }
  ],
  "Places": [
   {
-   "name": "Middlemarch",
-   "id": "texts/middlemarch.txt#Middlemarch"
+   "name": "Middlemarch"
   },
   {
-   "name": "Home",
-   "id": "texts/middlemarch.txt#Home"
+   "name": "Home"
   },
   {
-   "name": "Home",
-   "id": "texts/middlemarch.txt#Home"
+   "name": "Home"
   },
   {
-   "name": "The_Tankard_in_Slaughter_Lane",
-   "id": "texts/middlemarch.txt#The_Tankard_in_Slaughter_Lane"
+   "name": "The_Tankard_in_Slaughter_Lane"
   },
   {
-   "name": "Home",
-   "id": "texts/middlemarch.txt#Home"
+   "name": "Home"
   },
   {
-   "name": "The_Tankard_in_Slaughter_Lane",
-   "id": "texts/middlemarch.txt#The_Tankard_in_Slaughter_Lane"
+   "name": "The_Tankard_in_Slaughter_Lane"
   },
   {
-   "name": "The_Tankard_in_Slaughter_Lane",
-   "id": "texts/middlemarch.txt#The_Tankard_in_Slaughter_Lane"
+   "name": "The_Tankard_in_Slaughter_Lane"
   },
   {
-   "name": "The_conversation_with_Mrs_Mawmsey",
-   "id": "texts/middlemarch.txt#The_conversation_with_Mrs_Mawmsey"
+   "name": "The_conversation_with_Mrs_Mawmsey"
   },
   {
-   "name": "The_conversation_with_Mrs_Mawmsey",
-   "id": "texts/middlemarch.txt#The_conversation_with_Mrs_Mawmsey"
+   "name": "The_conversation_with_Mrs_Mawmsey"
   }
  ]
 }

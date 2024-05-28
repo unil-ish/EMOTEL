@@ -8,277 +8,213 @@
      "hasIntensity": 0.7,
      "quote": "No, madam, whatever happens, I shall never part with that internal consolation, that conscious honour never fails to yield in the deepest scenes of solitary distress.",
      "hasObject": {
-      "name": "Internal_consolation",
-      "id": "texts/theadventuresofferdinandcountfathom.txt#Internal_consolation"
+      "name": "Internal_consolation"
      },
      "causedBy": {
-      "name": "Refusing_the_generous_proffer_of_money",
-      "id": "texts/theadventuresofferdinandcountfathom.txt#Refusing_the_generous_proffer_of_money"
-     },
-     "id": "Reluctance"
+      "name": "Refusing_the_generous_proffer_of_money"
+     }
     },
     {
      "name": "Astonishment",
      "hasIntensity": 0.8,
      "quote": "He expressed the utmost astonishment at this generous proffer, which, however, he declined, with an affected earnestness of refusal.",
      "hasObject": {
-      "name": "Generous_proffer",
-      "id": "texts/theadventuresofferdinandcountfathom.txt#Generous_proffer"
+      "name": "Generous_proffer"
      },
      "causedBy": {
-      "name": "Generous_proffer_of_money",
-      "id": "texts/theadventuresofferdinandcountfathom.txt#Generous_proffer_of_money"
-     },
-     "id": "Astonishment"
+      "name": "Generous_proffer_of_money"
+     }
     },
     {
      "name": "Relief",
      "hasIntensity": 0.9,
      "quote": "He was prevailed upon to tell her, that he had been, the preceding night, engaged with a company of his fellow-students, where he had made too free with the champagne, so that his caution forsook him, and he had been decoyed into play by a Tyrolese gamester, who stripped him of all his ready money, and obtained from him an obligation for two hundred florins, which he could not possibly pay without having recourse to his relation the Count de Melvil.",
      "hasObject": {
-      "name": "Discharging_the_debt",
-      "id": "texts/theadventuresofferdinandcountfathom.txt#Discharging_the_debt"
+      "name": "Discharging_the_debt"
      },
      "causedBy": {
-      "name": "Being_able_to_discharge_the_debt",
-      "id": "texts/theadventuresofferdinandcountfathom.txt#Being_able_to_discharge_the_debt"
-     },
-     "id": "Relief"
+      "name": "Being_able_to_discharge_the_debt"
+     }
     },
     {
      "name": "Fear",
      "hasIntensity": 0.9,
      "quote": "Such a dreadful resolution could not fail to operate upon the tender passions of his Dulcinea; she was instantly seized with an agony of fear and distraction.",
      "hasObject": {
-      "name": "Threatening_to_take_his_own_life",
-      "id": "texts/theadventuresofferdinandcountfathom.txt#Threatening_to_take_his_own_life"
+      "name": "Threatening_to_take_his_own_life"
      },
      "causedBy": {
-      "name": "Threatening_to_take_his_own_life",
-      "id": "texts/theadventuresofferdinandcountfathom.txt#Threatening_to_take_his_own_life"
-     },
-     "id": "Fear"
+      "name": "Threatening_to_take_his_own_life"
+     }
     },
     {
      "name": "Relief",
      "hasIntensity": 0.8,
      "quote": "He was not deficient in expressions of reciprocal regard. He extolled her love and tenderness with a most extravagant eulogium, and seemed wrung with mortal anguish at the prospect of parting for ever from his lovely Wilhelmina.",
      "hasObject": {
-      "name": "Deferring_the_execution_of_his_baleful_purpose",
-      "id": "texts/theadventuresofferdinandcountfathom.txt#Deferring_the_execution_of_his_baleful_purpose"
+      "name": "Deferring_the_execution_of_his_baleful_purpose"
      },
      "causedBy": {
-      "name": "Promising_to_defer_the_execution_of_his_baleful_purpose",
-      "id": "texts/theadventuresofferdinandcountfathom.txt#Promising_to_defer_the_execution_of_his_baleful_pu"
-     },
-     "id": "Relief"
+      "name": "Promising_to_defer_the_execution_of_his_baleful_purpose"
+     }
     },
     {
      "name": "Astonishment",
      "hasIntensity": 0.9,
      "quote": "He expressed the utmost astonishment at this generous proffer, which, however, he declined, with an affected earnestness of refusal.",
      "hasObject": {
-      "name": "Generous_proffer",
-      "id": "texts/theadventuresofferdinandcountfathom.txt#Generous_proffer"
+      "name": "Generous_proffer"
      },
      "causedBy": {
-      "name": "Generous_proffer_of_money",
-      "id": "texts/theadventuresofferdinandcountfathom.txt#Generous_proffer_of_money"
-     },
-     "id": "Astonishment"
+      "name": "Generous_proffer_of_money"
+     }
     },
     {
      "name": "Relief",
      "hasIntensity": 0.9,
      "quote": "He was prevailed upon to tell her, that he had been, the preceding night, engaged with a company of his fellow-students, where he had made too free with the champagne, so that his caution forsook him, and he had been decoyed into play by a Tyrolese gamester, who stripped him of all his ready money, and obtained from him an obligation for two hundred florins, which he could not possibly pay without having recourse to his relation the Count de Melvil.",
      "hasObject": {
-      "name": "Discharging_the_debt",
-      "id": "texts/theadventuresofferdinandcountfathom.txt#Discharging_the_debt"
+      "name": "Discharging_the_debt"
      },
      "causedBy": {
-      "name": "Being_able_to_discharge_the_debt",
-      "id": "texts/theadventuresofferdinandcountfathom.txt#Being_able_to_discharge_the_debt"
-     },
-     "id": "Relief"
+      "name": "Being_able_to_discharge_the_debt"
+     }
     },
     {
      "name": "Fear",
      "hasIntensity": 0.9,
      "quote": "Such a dreadful resolution could not fail to operate upon the tender passions of his Dulcinea; she was instantly seized with an agony of fear and distraction.",
      "hasObject": {
-      "name": "Threatening_to_take_his_own_life",
-      "id": "texts/theadventuresofferdinandcountfathom.txt#Threatening_to_take_his_own_life"
+      "name": "Threatening_to_take_his_own_life"
      },
      "causedBy": {
-      "name": "Threatening_to_take_his_own_life",
-      "id": "texts/theadventuresofferdinandcountfathom.txt#Threatening_to_take_his_own_life"
-     },
-     "id": "Fear"
+      "name": "Threatening_to_take_his_own_life"
+     }
     },
     {
      "name": "Relief",
      "hasIntensity": 0.8,
      "quote": "He was not deficient in expressions of reciprocal regard. He extolled her love and tenderness with a most extravagant eulogium, and seemed wrung with mortal anguish at the prospect of parting for ever from his lovely Wilhelmina.",
      "hasObject": {
-      "name": "Deferring_the_execution_of_his_baleful_purpose",
-      "id": "texts/theadventuresofferdinandcountfathom.txt#Deferring_the_execution_of_his_baleful_purpose"
+      "name": "Deferring_the_execution_of_his_baleful_purpose"
      },
      "causedBy": {
-      "name": "Promising_to_defer_the_execution_of_his_baleful_purpose",
-      "id": "texts/theadventuresofferdinandcountfathom.txt#Promising_to_defer_the_execution_of_his_baleful_pu"
-     },
-     "id": "Relief"
+      "name": "Promising_to_defer_the_execution_of_his_baleful_purpose"
+     }
     }
-   ],
-   "id": "texts/theadventuresofferdinandcountfathom.txt#Ferdinand"
+   ]
   }
  ],
  "Events": [
   {
    "name": "Refusing_the_generous_proffer_of_money",
    "takePlaceAt": {
-    "name": "Appointment_with_the_mother",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Appointment_with_the_mother"
+    "name": "Appointment_with_the_mother"
    },
    "hasParticipant": {
-    "name": "Ferdinand",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Ferdinand"
-   },
-   "id": "texts/theadventuresofferdinandcountfathom.txt#Refusing_the_generous_proffer_of_money"
+    "name": "Ferdinand"
+   }
   },
   {
    "name": "Generous_proffer_of_money",
    "takePlaceAt": {
-    "name": "Appointment_with_the_mother",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Appointment_with_the_mother"
+    "name": "Appointment_with_the_mother"
    },
    "hasParticipant": {
-    "name": "Ferdinand",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Ferdinand"
-   },
-   "id": "texts/theadventuresofferdinandcountfathom.txt#Generous_proffer_of_money"
+    "name": "Ferdinand"
+   }
   },
   {
    "name": "Being_able_to_discharge_the_debt",
    "takePlaceAt": {
-    "name": "Appointment_with_the_mother",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Appointment_with_the_mother"
+    "name": "Appointment_with_the_mother"
    },
    "hasParticipant": {
-    "name": "Ferdinand",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Ferdinand"
-   },
-   "id": "texts/theadventuresofferdinandcountfathom.txt#Being_able_to_discharge_the_debt"
+    "name": "Ferdinand"
+   }
   },
   {
    "name": "Threatening_to_take_his_own_life",
    "takePlaceAt": {
-    "name": "Nocturnal_rendezvous_with_Wilhelmina",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Nocturnal_rendezvous_with_Wilhelmina"
+    "name": "Nocturnal_rendezvous_with_Wilhelmina"
    },
    "hasParticipant": {
-    "name": "Ferdinand",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Ferdinand"
-   },
-   "id": "texts/theadventuresofferdinandcountfathom.txt#Threatening_to_take_his_own_life"
+    "name": "Ferdinand"
+   }
   },
   {
    "name": "Promising_to_defer_the_execution_of_his_baleful_purpose",
    "takePlaceAt": {
-    "name": "Nocturnal_rendezvous_with_Wilhelmina",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Nocturnal_rendezvous_with_Wilhelmina"
+    "name": "Nocturnal_rendezvous_with_Wilhelmina"
    },
    "hasParticipant": {
-    "name": "Ferdinand",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Ferdinand"
-   },
-   "id": "texts/theadventuresofferdinandcountfathom.txt#Promising_to_defer_the_execution_of_his_baleful_pu"
+    "name": "Ferdinand"
+   }
   },
   {
    "name": "Generous_proffer_of_money",
    "takePlaceAt": {
-    "name": "Appointment_with_Wilhelmina",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Appointment_with_Wilhelmina"
+    "name": "Appointment_with_Wilhelmina"
    },
    "hasParticipant": {
-    "name": "Ferdinand",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Ferdinand"
-   },
-   "id": "texts/theadventuresofferdinandcountfathom.txt#Generous_proffer_of_money"
+    "name": "Ferdinand"
+   }
   },
   {
    "name": "Being_able_to_discharge_the_debt",
    "takePlaceAt": {
-    "name": "Appointment_with_Wilhelmina",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Appointment_with_Wilhelmina"
+    "name": "Appointment_with_Wilhelmina"
    },
    "hasParticipant": {
-    "name": "Ferdinand",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Ferdinand"
-   },
-   "id": "texts/theadventuresofferdinandcountfathom.txt#Being_able_to_discharge_the_debt"
+    "name": "Ferdinand"
+   }
   },
   {
    "name": "Threatening_to_take_his_own_life",
    "takePlaceAt": {
-    "name": "Nocturnal_rendezvous_with_Wilhelmina",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Nocturnal_rendezvous_with_Wilhelmina"
+    "name": "Nocturnal_rendezvous_with_Wilhelmina"
    },
    "hasParticipant": {
-    "name": "Ferdinand",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Ferdinand"
-   },
-   "id": "texts/theadventuresofferdinandcountfathom.txt#Threatening_to_take_his_own_life"
+    "name": "Ferdinand"
+   }
   },
   {
    "name": "Promising_to_defer_the_execution_of_his_baleful_purpose",
    "takePlaceAt": {
-    "name": "Nocturnal_rendezvous_with_Wilhelmina",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Nocturnal_rendezvous_with_Wilhelmina"
+    "name": "Nocturnal_rendezvous_with_Wilhelmina"
    },
    "hasParticipant": {
-    "name": "Ferdinand",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Ferdinand"
-   },
-   "id": "texts/theadventuresofferdinandcountfathom.txt#Promising_to_defer_the_execution_of_his_baleful_pu"
+    "name": "Ferdinand"
+   }
   }
  ],
  "Places": [
   {
-   "name": "Appointment_with_the_mother",
-   "id": "texts/theadventuresofferdinandcountfathom.txt#Appointment_with_the_mother"
+   "name": "Appointment_with_the_mother"
   },
   {
-   "name": "Appointment_with_the_mother",
-   "id": "texts/theadventuresofferdinandcountfathom.txt#Appointment_with_the_mother"
+   "name": "Appointment_with_the_mother"
   },
   {
-   "name": "Appointment_with_the_mother",
-   "id": "texts/theadventuresofferdinandcountfathom.txt#Appointment_with_the_mother"
+   "name": "Appointment_with_the_mother"
   },
   {
-   "name": "Nocturnal_rendezvous_with_Wilhelmina",
-   "id": "texts/theadventuresofferdinandcountfathom.txt#Nocturnal_rendezvous_with_Wilhelmina"
+   "name": "Nocturnal_rendezvous_with_Wilhelmina"
   },
   {
-   "name": "Nocturnal_rendezvous_with_Wilhelmina",
-   "id": "texts/theadventuresofferdinandcountfathom.txt#Nocturnal_rendezvous_with_Wilhelmina"
+   "name": "Nocturnal_rendezvous_with_Wilhelmina"
   },
   {
-   "name": "Appointment_with_Wilhelmina",
-   "id": "texts/theadventuresofferdinandcountfathom.txt#Appointment_with_Wilhelmina"
+   "name": "Appointment_with_Wilhelmina"
   },
   {
-   "name": "Appointment_with_Wilhelmina",
-   "id": "texts/theadventuresofferdinandcountfathom.txt#Appointment_with_Wilhelmina"
+   "name": "Appointment_with_Wilhelmina"
   },
   {
-   "name": "Nocturnal_rendezvous_with_Wilhelmina",
-   "id": "texts/theadventuresofferdinandcountfathom.txt#Nocturnal_rendezvous_with_Wilhelmina"
+   "name": "Nocturnal_rendezvous_with_Wilhelmina"
   },
   {
-   "name": "Nocturnal_rendezvous_with_Wilhelmina",
-   "id": "texts/theadventuresofferdinandcountfathom.txt#Nocturnal_rendezvous_with_Wilhelmina"
+   "name": "Nocturnal_rendezvous_with_Wilhelmina"
   }
  ]
 }

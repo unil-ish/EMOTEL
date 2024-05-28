@@ -8,547 +8,426 @@
      "hasIntensity": 0.8,
      "quote": "Mr. Bhaer soon joined her, looking rather out of his element, and presently several of the philosophers, each mounted on his hobby, came ambling up to hold an intellectual tournament in the recess.",
      "hasObject": {
-      "name": "Mr_Bhaer",
-      "id": "texts/littlewomen.txt#Mr_Bhaer"
+      "name": "Mr_Bhaer"
      },
      "causedBy": {
-      "name": "Mr_Bhaer_joining_her",
-      "id": "texts/littlewomen.txt#Mr_Bhaer_joining_her"
-     },
-     "id": "Trust"
+      "name": "Mr_Bhaer_joining_her"
+     }
     },
     {
      "name": "Surprise",
      "hasIntensity": 0.7,
      "quote": "Imagine her dismay, on stealing a glance of timid admiration at the poet whose lines suggested an ethereal being fed on 'spirit, fire, and dew,' to behold him devouring his supper with an ardor which flushed his intellectual countenance.",
      "hasObject": {
-      "name": "The_poet",
-      "id": "texts/littlewomen.txt#The_poet"
+      "name": "The_poet"
      },
      "causedBy": {
-      "name": "Discovering_the_reality_of_the_great_creatures",
-      "id": "texts/littlewomen.txt#Discovering_the_reality_of_the_great_creatures"
-     },
-     "id": "Surprise"
+      "name": "Discovering_the_reality_of_the_great_creatures"
+     }
     },
     {
      "name": "Anger",
      "hasIntensity": 0.6,
      "quote": "Mr. Bhaer soon joined her, looking rather out of his element, and presently several of the philosophers, each mounted on his hobby, came ambling up to hold an intellectual tournament in the recess.",
      "hasObject": {
-      "name": "Several_philosophers",
-      "id": "texts/littlewomen.txt#Several_philosophers"
+      "name": "Several_philosophers"
      },
      "causedBy": {
-      "name": "Mr_Bhaer_joining_her",
-      "id": "texts/littlewomen.txt#Mr_Bhaer_joining_her"
-     },
-     "id": "Anger"
+      "name": "Mr_Bhaer_joining_her"
+     }
     },
     {
      "name": "Joy",
      "hasIntensity": 0.9,
      "quote": "She felt proud to know that he was an honored Professor in Berlin, though only a poor language-master in America; and his homely, hard-working life was much beautified by the spice of romance which this discovery gave it.",
      "hasObject": {
-      "name": "Mr_Bhaer",
-      "id": "texts/littlewomen.txt#Mr_Bhaer"
+      "name": "Mr_Bhaer"
      },
      "causedBy": {
-      "name": "Discovering_Mr_Bhaer_s_background",
-      "id": "texts/littlewomen.txt#Discovering_Mr_Bhaer_s_background"
-     },
-     "id": "Joy"
+      "name": "Discovering_Mr_Bhaer_s_background"
+     }
     },
     {
      "name": "Anticipation",
      "hasIntensity": 0.7,
      "quote": "She was fascinated, just then, by the freedom of Speculative Philosophy, and kept her seat, trying to find out what the wise gentlemen intended to rely upon after they had annihilated all the old beliefs.",
      "hasObject": {
-      "name": "Speculative_Philosophy",
-      "id": "texts/littlewomen.txt#Speculative_Philosophy"
+      "name": "Speculative_Philosophy"
      },
      "causedBy": {
-      "name": "Fascination_with_Speculative_Philosophy",
-      "id": "texts/littlewomen.txt#Fascination_with_Speculative_Philosophy"
-     },
-     "id": "Anticipation"
+      "name": "Fascination_with_Speculative_Philosophy"
+     }
     },
     {
      "name": "Fear",
      "hasIntensity": 0.8,
      "quote": "He shook his head, and beckoned her to come away; but she was fascinated, just then, by the freedom of Speculative Philosophy, and kept her seat, trying to find out what the wise gentlemen intended to rely upon after they had annihilated all the old beliefs.",
      "hasObject": {
-      "name": "Speculative_Philosophy",
-      "id": "texts/littlewomen.txt#Speculative_Philosophy"
+      "name": "Speculative_Philosophy"
      },
      "causedBy": {
-      "name": "Mr_Bhaer_shaking_his_head_and_beckoning_her_to_come_away",
-      "id": "texts/littlewomen.txt#Mr_Bhaer_shaking_his_head_and_beckoning_her_to_com"
-     },
-     "id": "Fear"
+      "name": "Mr_Bhaer_shaking_his_head_and_beckoning_her_to_come_away"
+     }
     },
     {
      "name": "Disgust",
      "hasIntensity": 0.6,
      "quote": "The great novelist vibrated between two decanters with the regularity of a pendulum; the famous divine flirted openly with one of the Madame de Staëls of the age, who looked daggers at another Corinne, who was amiably satirizing her, after out-manœuvring her in efforts to absorb the profound philosopher, who imbibed tea Johnsonianly and appeared to slumber, the loquacity of the lady rendering speech impossible.",
      "hasObject": {
-      "name": "The_great_novelist_the_famous_divine_the_Madame_de_Staëls_the_Corinne_the_profound_philosopher",
-      "id": "texts/littlewomen.txt#The_great_novelist_the_famous_divine_the_Madame_de"
+      "name": "The_great_novelist_the_famous_divine_the_Madame_de_Staëls_the_Corinne_the_profound_philosopher"
      },
      "causedBy": {
-      "name": "Discovering_the_reality_of_the_great_creatures",
-      "id": "texts/littlewomen.txt#Discovering_the_reality_of_the_great_creatures"
-     },
-     "id": "Disgust"
+      "name": "Discovering_the_reality_of_the_great_creatures"
+     }
     },
     {
      "name": "Sadness",
      "hasIntensity": 0.7,
      "quote": "Before the evening was half over, Jo felt so completely _désillusionée_, that she sat down in a corner to recover herself.",
      "hasObject": {
-      "name": "The_great_creatures",
-      "id": "texts/littlewomen.txt#The_great_creatures"
+      "name": "The_great_creatures"
      },
      "causedBy": {
-      "name": "Discovering_the_reality_of_the_great_creatures",
-      "id": "texts/littlewomen.txt#Discovering_the_reality_of_the_great_creatures"
-     },
-     "id": "Sadness"
+      "name": "Discovering_the_reality_of_the_great_creatures"
+     }
     },
     {
      "name": "Acceptance",
      "hasIntensity": 0.8,
      "quote": "Mr. Bhaer soon joined her, looking rather out of his element, and presently several of the philosophers, each mounted on his hobby, came ambling up to hold an intellectual tournament in the recess.",
      "hasObject": {
-      "name": "Mr_Bhaer",
-      "id": "texts/littlewomen.txt#Mr_Bhaer"
+      "name": "Mr_Bhaer"
      },
      "causedBy": {
-      "name": "Mr_Bhaer_joining_her",
-      "id": "texts/littlewomen.txt#Mr_Bhaer_joining_her"
-     },
-     "id": "Acceptance"
+      "name": "Mr_Bhaer_joining_her"
+     }
     },
     {
      "name": "Admiration",
      "hasIntensity": 0.9,
      "quote": "Why everybody liked him was what puzzled Jo, at first. He was neither rich nor great, young nor handsome; in no respect what is called fascinating, imposing, or brilliant; and yet he was as attractive as a genial fire, and people seemed to gather about him as naturally as about a warm hearth.",
      "hasObject": {
-      "name": "Mr_Bhaer",
-      "id": "texts/littlewomen.txt#Mr_Bhaer"
+      "name": "Mr_Bhaer"
      },
      "causedBy": {
-      "name": "Discovering_Mr_Bhaer_s_character",
-      "id": "texts/littlewomen.txt#Discovering_Mr_Bhaer_s_character"
-     },
-     "id": "Admiration"
+      "name": "Discovering_Mr_Bhaer_s_character"
+     }
     },
     {
      "name": "Amazement",
      "hasIntensity": 0.8,
      "quote": "The conversation was miles beyond Jo's comprehension, but she enjoyed it, though Kant and Hegel were unknown gods, the Subjective and Objective unintelligible terms; and the only thing 'evolved from her inner consciousness,' was a bad headache after it was all over.",
      "hasObject": {
-      "name": "The_conversation",
-      "id": "texts/littlewomen.txt#The_conversation"
+      "name": "The_conversation"
      },
      "causedBy": {
-      "name": "Participating_in_the_intellectual_tournament",
-      "id": "texts/littlewomen.txt#Participating_in_the_intellectual_tournament"
-     },
-     "id": "Amazement"
+      "name": "Participating_in_the_intellectual_tournament"
+     }
     },
     {
      "name": "Interest",
      "hasIntensity": 0.7,
      "quote": "The conversation was miles beyond Jo's comprehension, but she enjoyed it, though Kant and Hegel were unknown gods, the Subjective and Objective unintelligible terms; and the only thing 'evolved from her inner consciousness,' was a bad headache after it was all over.",
      "hasObject": {
-      "name": "The_conversation",
-      "id": "texts/littlewomen.txt#The_conversation"
+      "name": "The_conversation"
      },
      "causedBy": {
-      "name": "Participating_in_the_intellectual_tournament",
-      "id": "texts/littlewomen.txt#Participating_in_the_intellectual_tournament"
-     },
-     "id": "Interest"
+      "name": "Participating_in_the_intellectual_tournament"
+     }
     },
     {
      "name": "Vigilance",
      "hasIntensity": 0.6,
      "quote": "Now, Mr. Bhaer was a diffident man, and slow to offer his own opinions, not because they were unsettled, but too sincere and earnest to be lightly spoken.",
      "hasObject": {
-      "name": "Mr_Bhaer",
-      "id": "texts/littlewomen.txt#Mr_Bhaer"
+      "name": "Mr_Bhaer"
      },
      "causedBy": {
-      "name": "Mr_Bhaer_being_slow_to_offer_his_opinions",
-      "id": "texts/littlewomen.txt#Mr_Bhaer_being_slow_to_offer_his_opinions"
-     },
-     "id": "Vigilance"
+      "name": "Mr_Bhaer_being_slow_to_offer_his_opinions"
+     }
     },
     {
      "name": "Annoyance",
      "hasIntensity": 0.7,
      "quote": "He shook his head, and beckoned her to come away; but she was fascinated, just then, by the freedom of Speculative Philosophy, and kept her seat, trying to find out what the wise gentlemen intended to rely upon after they had annihilated all the old beliefs.",
      "hasObject": {
-      "name": "Speculative_Philosophy",
-      "id": "texts/littlewomen.txt#Speculative_Philosophy"
+      "name": "Speculative_Philosophy"
      },
      "causedBy": {
-      "name": "Mr_Bhaer_shaking_his_head_and_beckoning_her_to_come_away",
-      "id": "texts/littlewomen.txt#Mr_Bhaer_shaking_his_head_and_beckoning_her_to_com"
-     },
-     "id": "Annoyance"
+      "name": "Mr_Bhaer_shaking_his_head_and_beckoning_her_to_come_away"
+     }
     },
     {
      "name": "Rage",
      "hasIntensity": 0.6,
      "quote": "He shook his head, and beckoned her to come away; but she was fascinated, just then, by the freedom of Speculative Philosophy, and kept her seat, trying to find out what the wise gentlemen intended to rely upon after they had annihilated all the old beliefs.",
      "hasObject": {
-      "name": "Speculative_Philosophy",
-      "id": "texts/littlewomen.txt#Speculative_Philosophy"
+      "name": "Speculative_Philosophy"
      },
      "causedBy": {
-      "name": "Mr_Bhaer_shaking_his_head_and_beckoning_her_to_come_away",
-      "id": "texts/littlewomen.txt#Mr_Bhaer_shaking_his_head_and_beckoning_her_to_com"
-     },
-     "id": "Rage"
+      "name": "Mr_Bhaer_shaking_his_head_and_beckoning_her_to_come_away"
+     }
     },
     {
      "name": "Serenity",
      "hasIntensity": 0.8,
      "quote": "He shook his head, and beckoned her to come away; but she was fascinated, just then, by the freedom of Speculative Philosophy, and kept her seat, trying to find out what the wise gentlemen intended to rely upon after they had annihilated all the old beliefs.",
      "hasObject": {
-      "name": "Speculative_Philosophy",
-      "id": "texts/littlewomen.txt#Speculative_Philosophy"
+      "name": "Speculative_Philosophy"
      },
      "causedBy": {
-      "name": "Mr_Bhaer_shaking_his_head_and_beckoning_her_to_come_away",
-      "id": "texts/littlewomen.txt#Mr_Bhaer_shaking_his_head_and_beckoning_her_to_com"
-     },
-     "id": "Serenity"
+      "name": "Mr_Bhaer_shaking_his_head_and_beckoning_her_to_come_away"
+     }
     },
     {
      "name": "Ecstasy",
      "hasIntensity": 0.9,
      "quote": "She felt proud to know that he was an honored Professor in Berlin, though only a poor language-master in America; and his homely, hard-working life was much beautified by the spice of romance which this discovery gave it.",
      "hasObject": {
-      "name": "Mr_Bhaer",
-      "id": "texts/littlewomen.txt#Mr_Bhaer"
+      "name": "Mr_Bhaer"
      },
      "causedBy": {
-      "name": "Discovering_Mr_Bhaer_s_background",
-      "id": "texts/littlewomen.txt#Discovering_Mr_Bhaer_s_background"
-     },
-     "id": "Ecstasy"
+      "name": "Discovering_Mr_Bhaer_s_background"
+     }
     },
     {
      "name": "Grief",
      "hasIntensity": 0.7,
      "quote": "Before the evening was half over, Jo felt so completely _désillusionée_, that she sat down in a corner to recover herself.",
      "hasObject": {
-      "name": "The_great_creatures",
-      "id": "texts/littlewomen.txt#The_great_creatures"
+      "name": "The_great_creatures"
      },
      "causedBy": {
-      "name": "Discovering_the_reality_of_the_great_creatures",
-      "id": "texts/littlewomen.txt#Discovering_the_reality_of_the_great_creatures"
-     },
-     "id": "Grief"
+      "name": "Discovering_the_reality_of_the_great_creatures"
+     }
     },
     {
      "name": "Pensiveness",
      "hasIntensity": 0.6,
      "quote": "Before the evening was half over, Jo felt so completely _désillusionée_, that she sat down in a corner to recover herself.",
      "hasObject": {
-      "name": "The_great_creatures",
-      "id": "texts/littlewomen.txt#The_great_creatures"
+      "name": "The_great_creatures"
      },
      "causedBy": {
-      "name": "Discovering_the_reality_of_the_great_creatures",
-      "id": "texts/littlewomen.txt#Discovering_the_reality_of_the_great_creatures"
-     },
-     "id": "Pensiveness"
+      "name": "Discovering_the_reality_of_the_great_creatures"
+     }
     },
     {
      "name": "Contempt",
      "hasIntensity": 0.7,
      "quote": "Imagine her dismay, on stealing a glance of timid admiration at the poet whose lines suggested an ethereal being fed on 'spirit, fire, and dew,' to behold him devouring his supper with an ardor which flushed his intellectual countenance.",
      "hasObject": {
-      "name": "The_poet",
-      "id": "texts/littlewomen.txt#The_poet"
+      "name": "The_poet"
      },
      "causedBy": {
-      "name": "Discovering_the_reality_of_the_great_creatures",
-      "id": "texts/littlewomen.txt#Discovering_the_reality_of_the_great_creatures"
-     },
-     "id": "Contempt"
+      "name": "Discovering_the_reality_of_the_great_creatures"
+     }
     },
     {
      "name": "Aggressiveness",
      "hasIntensity": 0.6,
      "quote": "He shook his head, and beckoned her to come away; but she was fascinated, just then, by the freedom of Speculative Philosophy, and kept her seat, trying to find out what the wise gentlemen intended to rely upon after they had annihilated all the old beliefs.",
      "hasObject": {
-      "name": "Speculative_Philosophy",
-      "id": "texts/littlewomen.txt#Speculative_Philosophy"
+      "name": "Speculative_Philosophy"
      },
      "causedBy": {
-      "name": "Mr_Bhaer_shaking_his_head_and_beckoning_her_to_come_away",
-      "id": "texts/littlewomen.txt#Mr_Bhaer_shaking_his_head_and_beckoning_her_to_com"
-     },
-     "id": "Aggressiveness"
+      "name": "Mr_Bhaer_shaking_his_head_and_beckoning_her_to_come_away"
+     }
     },
     {
      "name": "Optimism",
      "hasIntensity": 0.8,
      "quote": "She felt proud to know that he was an honored Professor in Berlin, though only a poor language-master in America; and his homely, hard-working life was much beautified by the spice of romance which this discovery gave it.",
      "hasObject": {
-      "name": "Mr_Bhaer",
-      "id": "texts/littlewomen.txt#Mr_Bhaer"
+      "name": "Mr_Bhaer"
      },
      "causedBy": {
-      "name": "Discovering_Mr_Bhaer_s_background",
-      "id": "texts/littlewomen.txt#Discovering_Mr_Bhaer_s_background"
-     },
-     "id": "Optimism"
+      "name": "Discovering_Mr_Bhaer_s_background"
+     }
     },
     {
      "name": "Love",
      "hasIntensity": 0.9,
      "quote": "Why everybody liked him was what puzzled Jo, at first. He was neither rich nor great, young nor handsome; in no respect what is called fascinating, imposing, or brilliant; and yet he was as attractive as a genial fire, and people seemed to gather about him as naturally as about a warm hearth.",
      "hasObject": {
-      "name": "Mr_Bhaer",
-      "id": "texts/littlewomen.txt#Mr_Bhaer"
+      "name": "Mr_Bhaer"
      },
      "causedBy": {
-      "name": "Discovering_Mr_Bhaer_s_character",
-      "id": "texts/littlewomen.txt#Discovering_Mr_Bhaer_s_character"
-     },
-     "id": "Love"
+      "name": "Discovering_Mr_Bhaer_s_character"
+     }
     },
     {
      "name": "Submission",
      "hasIntensity": 0.7,
      "quote": "He shook his head, and beckoned her to come away; but she was fascinated, just then, by the freedom of Speculative Philosophy, and kept her seat, trying to find out what the wise gentlemen intended to rely upon after they had annihilated all the old beliefs.",
      "hasObject": {
-      "name": "Speculative_Philosophy",
-      "id": "texts/littlewomen.txt#Speculative_Philosophy"
+      "name": "Speculative_Philosophy"
      },
      "causedBy": {
-      "name": "Mr_Bhaer_shaking_his_head_and_beckoning_her_to_come_away",
-      "id": "texts/littlewomen.txt#Mr_Bhaer_shaking_his_head_and_beckoning_her_to_com"
-     },
-     "id": "Submission"
+      "name": "Mr_Bhaer_shaking_his_head_and_beckoning_her_to_come_away"
+     }
     },
     {
      "name": "Awe",
      "hasIntensity": 0.8,
      "quote": "The conversation was miles beyond Jo's comprehension, but she enjoyed it, though Kant and Hegel were unknown gods, the Subjective and Objective unintelligible terms; and the only thing 'evolved from her inner consciousness,' was a bad headache after it was all over.",
      "hasObject": {
-      "name": "The_conversation",
-      "id": "texts/littlewomen.txt#The_conversation"
+      "name": "The_conversation"
      },
      "causedBy": {
-      "name": "Participating_in_the_intellectual_tournament",
-      "id": "texts/littlewomen.txt#Participating_in_the_intellectual_tournament"
-     },
-     "id": "Awe"
+      "name": "Participating_in_the_intellectual_tournament"
+     }
     },
     {
      "name": "Disapproval",
      "hasIntensity": 0.7,
      "quote": "Imagine her dismay, on stealing a glance of timid admiration at the poet whose lines suggested an ethereal being fed on 'spirit, fire, and dew,' to behold him devouring his supper with an ardor which flushed his intellectual countenance.",
      "hasObject": {
-      "name": "The_poet",
-      "id": "texts/littlewomen.txt#The_poet"
+      "name": "The_poet"
      },
      "causedBy": {
-      "name": "Discovering_the_reality_of_the_great_creatures",
-      "id": "texts/littlewomen.txt#Discovering_the_reality_of_the_great_creatures"
-     },
-     "id": "Disapproval"
+      "name": "Discovering_the_reality_of_the_great_creatures"
+     }
     },
     {
      "name": "Remorse",
      "hasIntensity": 0.6,
      "quote": "Before the evening was half over, Jo felt so completely _désillusionée_, that she sat down in a corner to recover herself.",
      "hasObject": {
-      "name": "The_great_creatures",
-      "id": "texts/littlewomen.txt#The_great_creatures"
+      "name": "The_great_creatures"
      },
      "causedBy": {
-      "name": "Discovering_the_reality_of_the_great_creatures",
-      "id": "texts/littlewomen.txt#Discovering_the_reality_of_the_great_creatures"
-     },
-     "id": "Remorse"
+      "name": "Discovering_the_reality_of_the_great_creatures"
+     }
     }
-   ],
-   "id": "texts/littlewomen.txt#Jo_March"
+   ]
   }
  ],
  "Events": [
   {
    "name": "Mr_Bhaer_joining_her",
    "takePlaceAt": {
-    "name": "Select_symposium",
-    "id": "texts/littlewomen.txt#Select_symposium"
+    "name": "Select_symposium"
    },
    "hasParticipant": [
     {
-     "name": "Jo_March",
-     "id": "texts/littlewomen.txt#Jo_March"
+     "name": "Jo_March"
     },
     {
-     "name": "Mr_Bhaer",
-     "id": "texts/littlewomen.txt#Mr_Bhaer"
+     "name": "Mr_Bhaer"
     }
-   ],
-   "id": "texts/littlewomen.txt#Mr_Bhaer_joining_her"
+   ]
   },
   {
-   "name": "Discovering_the_reality_of_the_great_creatures",
-   "id": "texts/littlewomen.txt#Discovering_the_reality_of_the_great_creatures"
+   "name": "Discovering_the_reality_of_the_great_creatures"
   },
   {
    "name": "Mr_Bhaer_joining_her",
    "takePlaceAt": {
-    "name": "Select_symposium",
-    "id": "texts/littlewomen.txt#Select_symposium"
+    "name": "Select_symposium"
    },
    "hasParticipant": [
     {
-     "name": "Jo_March",
-     "id": "texts/littlewomen.txt#Jo_March"
+     "name": "Jo_March"
     },
     {
-     "name": "Mr_Bhaer",
-     "id": "texts/littlewomen.txt#Mr_Bhaer"
+     "name": "Mr_Bhaer"
     }
-   ],
-   "id": "texts/littlewomen.txt#Mr_Bhaer_joining_her"
+   ]
   },
   {
-   "name": "Discovering_Mr_Bhaer_s_background",
-   "id": "texts/littlewomen.txt#Discovering_Mr_Bhaer_s_background"
+   "name": "Discovering_Mr_Bhaer_s_background"
   },
   {
-   "name": "Fascination_with_Speculative_Philosophy",
-   "id": "texts/littlewomen.txt#Fascination_with_Speculative_Philosophy"
+   "name": "Fascination_with_Speculative_Philosophy"
   },
   {
-   "name": "Mr_Bhaer_shaking_his_head_and_beckoning_her_to_come_away",
-   "id": "texts/littlewomen.txt#Mr_Bhaer_shaking_his_head_and_beckoning_her_to_com"
+   "name": "Mr_Bhaer_shaking_his_head_and_beckoning_her_to_come_away"
   },
   {
-   "name": "Discovering_the_reality_of_the_great_creatures",
-   "id": "texts/littlewomen.txt#Discovering_the_reality_of_the_great_creatures"
+   "name": "Discovering_the_reality_of_the_great_creatures"
   },
   {
-   "name": "Discovering_the_reality_of_the_great_creatures",
-   "id": "texts/littlewomen.txt#Discovering_the_reality_of_the_great_creatures"
+   "name": "Discovering_the_reality_of_the_great_creatures"
   },
   {
    "name": "Mr_Bhaer_joining_her",
    "takePlaceAt": {
-    "name": "Select_symposium",
-    "id": "texts/littlewomen.txt#Select_symposium"
+    "name": "Select_symposium"
    },
    "hasParticipant": [
     {
-     "name": "Jo_March",
-     "id": "texts/littlewomen.txt#Jo_March"
+     "name": "Jo_March"
     },
     {
-     "name": "Mr_Bhaer",
-     "id": "texts/littlewomen.txt#Mr_Bhaer"
+     "name": "Mr_Bhaer"
     }
-   ],
-   "id": "texts/littlewomen.txt#Mr_Bhaer_joining_her"
+   ]
   },
   {
-   "name": "Discovering_Mr_Bhaer_s_character",
-   "id": "texts/littlewomen.txt#Discovering_Mr_Bhaer_s_character"
+   "name": "Discovering_Mr_Bhaer_s_character"
   },
   {
-   "name": "Participating_in_the_intellectual_tournament",
-   "id": "texts/littlewomen.txt#Participating_in_the_intellectual_tournament"
+   "name": "Participating_in_the_intellectual_tournament"
   },
   {
-   "name": "Participating_in_the_intellectual_tournament",
-   "id": "texts/littlewomen.txt#Participating_in_the_intellectual_tournament"
+   "name": "Participating_in_the_intellectual_tournament"
   },
   {
-   "name": "Mr_Bhaer_being_slow_to_offer_his_opinions",
-   "id": "texts/littlewomen.txt#Mr_Bhaer_being_slow_to_offer_his_opinions"
+   "name": "Mr_Bhaer_being_slow_to_offer_his_opinions"
   },
   {
-   "name": "Mr_Bhaer_shaking_his_head_and_beckoning_her_to_come_away",
-   "id": "texts/littlewomen.txt#Mr_Bhaer_shaking_his_head_and_beckoning_her_to_com"
+   "name": "Mr_Bhaer_shaking_his_head_and_beckoning_her_to_come_away"
   },
   {
-   "name": "Mr_Bhaer_shaking_his_head_and_beckoning_her_to_come_away",
-   "id": "texts/littlewomen.txt#Mr_Bhaer_shaking_his_head_and_beckoning_her_to_com"
+   "name": "Mr_Bhaer_shaking_his_head_and_beckoning_her_to_come_away"
   },
   {
-   "name": "Mr_Bhaer_shaking_his_head_and_beckoning_her_to_come_away",
-   "id": "texts/littlewomen.txt#Mr_Bhaer_shaking_his_head_and_beckoning_her_to_com"
+   "name": "Mr_Bhaer_shaking_his_head_and_beckoning_her_to_come_away"
   },
   {
-   "name": "Discovering_Mr_Bhaer_s_background",
-   "id": "texts/littlewomen.txt#Discovering_Mr_Bhaer_s_background"
+   "name": "Discovering_Mr_Bhaer_s_background"
   },
   {
-   "name": "Discovering_the_reality_of_the_great_creatures",
-   "id": "texts/littlewomen.txt#Discovering_the_reality_of_the_great_creatures"
+   "name": "Discovering_the_reality_of_the_great_creatures"
   },
   {
-   "name": "Discovering_the_reality_of_the_great_creatures",
-   "id": "texts/littlewomen.txt#Discovering_the_reality_of_the_great_creatures"
+   "name": "Discovering_the_reality_of_the_great_creatures"
   },
   {
-   "name": "Discovering_the_reality_of_the_great_creatures",
-   "id": "texts/littlewomen.txt#Discovering_the_reality_of_the_great_creatures"
+   "name": "Discovering_the_reality_of_the_great_creatures"
   },
   {
-   "name": "Mr_Bhaer_shaking_his_head_and_beckoning_her_to_come_away",
-   "id": "texts/littlewomen.txt#Mr_Bhaer_shaking_his_head_and_beckoning_her_to_com"
+   "name": "Mr_Bhaer_shaking_his_head_and_beckoning_her_to_come_away"
   },
   {
-   "name": "Discovering_Mr_Bhaer_s_background",
-   "id": "texts/littlewomen.txt#Discovering_Mr_Bhaer_s_background"
+   "name": "Discovering_Mr_Bhaer_s_background"
   },
   {
-   "name": "Discovering_Mr_Bhaer_s_character",
-   "id": "texts/littlewomen.txt#Discovering_Mr_Bhaer_s_character"
+   "name": "Discovering_Mr_Bhaer_s_character"
   },
   {
-   "name": "Mr_Bhaer_shaking_his_head_and_beckoning_her_to_come_away",
-   "id": "texts/littlewomen.txt#Mr_Bhaer_shaking_his_head_and_beckoning_her_to_com"
+   "name": "Mr_Bhaer_shaking_his_head_and_beckoning_her_to_come_away"
   },
   {
-   "name": "Participating_in_the_intellectual_tournament",
-   "id": "texts/littlewomen.txt#Participating_in_the_intellectual_tournament"
+   "name": "Participating_in_the_intellectual_tournament"
   },
   {
-   "name": "Discovering_the_reality_of_the_great_creatures",
-   "id": "texts/littlewomen.txt#Discovering_the_reality_of_the_great_creatures"
+   "name": "Discovering_the_reality_of_the_great_creatures"
   },
   {
-   "name": "Discovering_the_reality_of_the_great_creatures",
-   "id": "texts/littlewomen.txt#Discovering_the_reality_of_the_great_creatures"
+   "name": "Discovering_the_reality_of_the_great_creatures"
   }
  ],
  "Places": [
   {
-   "name": "Select_symposium",
-   "id": "texts/littlewomen.txt#Select_symposium"
+   "name": "Select_symposium"
   },
   {
-   "name": "Select_symposium",
-   "id": "texts/littlewomen.txt#Select_symposium"
+   "name": "Select_symposium"
   },
   {
-   "name": "Select_symposium",
-   "id": "texts/littlewomen.txt#Select_symposium"
+   "name": "Select_symposium"
   }
  ]
 }

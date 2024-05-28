@@ -5,9 +5,7 @@ from rdflib.namespace import XSD
 
 
 EMOTEL = Namespace("https://github.com/unil-ish/EMOTEL#")
-ROOT_DIRECTORY = "data/annotations_cleaned"
-
-output_file = "outputs/world.rdf"
+JSON_DIRECTORY = "data/annotations_cleaned"
 
 d = {}
 g = Graph()
@@ -56,11 +54,12 @@ def add_in_story(obj, obj_type, story):
     return
 
 
-def add_event(obj):
+def add_event(obj, story):
     """Ajoute un événement dans le graphe, et les propriétés spécifiques.
 
     Args:
         obj (dict): L'objet décrivant l'événement
+        story (uri): L'URI de la Story.
 
     Return:
         None
@@ -93,11 +92,12 @@ def add_event(obj):
                 _ = g.add((i, EMOTEL.hasParticipant, uri))
 
 
-def add_emotion(obj, n) -> None:
+def add_emotion(obj, story, n, keep_new_emo) -> None:
     """Ajoute les émotions dans le graphe.
 
     Args:
         obj (dict): Le dict décrivant l'émotion.
+        story (str): La story dans laquelle l'émotion est exprimée.
         n (int): Le numéro unique lié à l'émotion, pour son URI.
 
     Returns:
@@ -105,24 +105,25 @@ def add_emotion(obj, n) -> None:
     """
 
     if "name" in obj:
-        emo_type = obj['name']
+        emo_type = obj["name"]
         uri = create_uri(emo_type + str(n))
         if emo_type not in EMOTEL:
             emo_type = EMOTEL.Emotion
             unregistered = True
         else:
+            print(emo_type)
             emo_type = getattr(EMOTEL, obj["name"])
             unregistered = False
         _ = g.add((uri, RDF.type, emo_type))
         _ = g.add((uri, EMOTEL.isIn, story))
 
         if unregistered is True:
-            g.add((uri, EMOTEL.hasName, Literal(obj['name'])))
+            g.add((uri, EMOTEL.hasName, Literal(obj["name"])))
 
         if "feltBy" in obj:
-            feltby = obj['feltBy']
+            feltby = obj["feltBy"]
             if isinstance(feltby, list):
-                for char in obj['feltBy']:
+                for char in obj["feltBy"]:
                     _ = g.add((uri, EMOTEL.feltBy, create_uri(char)))
             elif isinstance(feltby, str):
                 _ = g.add((uri, EMOTEL.feltBy, create_uri(feltby)))
@@ -145,7 +146,7 @@ def add_emotion(obj, n) -> None:
 
 
 def get_all_jsons(directory) -> list:
-    """parse tous les JSNS dans un dossier.
+    """parse tous les JSONS dans un dossier.
 
     Args:
         directory (str): Le nom du dossire.
@@ -166,65 +167,77 @@ def get_all_jsons(directory) -> list:
     return annotes
 
 
-# def add_story(g, directory, n=0):
-root_directory = "data/annotations_cleaned"
-n = 0
-for directory_name in os.listdir(root_directory):
-    story = create_uri(directory_name)
-    dir_path = os.path.join(ROOT_DIRECTORY, directory_name)
-    annotes = get_all_jsons(dir_path)
+def create_and_write_graph(
+    output_file,
+    keep_new_emo: bool,
+) -> None:
+    n = 0
+    for directory_name in os.listdir(JSON_DIRECTORY):
+        story = create_uri(directory_name)
+        dir_path = os.path.join(JSON_DIRECTORY, directory_name)
+        annotes = get_all_jsons(dir_path)
 
-    # construire des listes vides pour chaque classe
-    events = []
-    characters = []
-    emotions = []
-    places = []
+        # construire des listes vides pour chaque classe
+        events = []
+        characters = []
+        emotions = []
+        places = []
 
-    # placer tous les individus de ces classes dans ces quatres listes.
-    for a in annotes:
-        if not isinstance(a, dict):
-            continue
-        for v, k in [
-            (events, "Events"),
-            (characters, "FictionalCharacters"),
-            (places, "Places"),
-        ]:
-            x = a.get(k)
+        # placer tous les individus de ces classes dans ces quatres listes.
+        for a in annotes:
+            if not isinstance(a, dict):
+                continue
+            for v, k in [
+                (events, "Events"),
+                (characters, "FictionalCharacters"),
+                (places, "Places"),
+            ]:
+                x = a.get(k)
+                if isinstance(x, list):
+                    v.extend(x)
+            x = a.get("FictionalCharacters")
             if isinstance(x, list):
-                v.extend(x)
-        x = a.get("FictionalCharacters")
-        if isinstance(x, list):
-            for char in x:
-                y = char.get("feels")
-                if y is not None:
-                    charid = char.get("id")
-                    for em in y:
-                        em["feltBy"] = charid
-                        emotions.append(em)
+                for char in x:
+                    y = char.get("feels")
+                    if y is not None:
+                        charid = char.get("id")
+                        for em in y:
+                            em["feltBy"] = charid
+                            emotions.append(em)
 
-    # ajouter les lieux
-    for obj in places:
-        i = add_in_story(
-            obj=obj,
-            obj_type=EMOTEL.FictionalPlace,
-            story=story,
-        )
+        # ajouter les lieux
+        for obj in places:
+            _ = add_in_story(
+                obj=obj,
+                obj_type=EMOTEL.FictionalPlace,
+                story=story,
+            )
 
-    # ajouter les personnages
-    for obj in characters:
-        i = add_in_story(
-            obj=obj,
-            obj_type=EMOTEL.FictionalCharacter,
-            story=story,
-        )
+        # ajouter les personnages
+        for obj in characters:
+            _ = add_in_story(
+                obj=obj,
+                obj_type=EMOTEL.FictionalCharacter,
+                story=story,
+            )
 
-    # ajouter les évenements
-    for obj in events:
-        add_event(obj)
+        # ajouter les évenements
+        for obj in events:
+            add_event(obj=obj, story=story)
 
-    for obj in emotions:
-        n += 1
-        add_emotion(obj=obj, n=n)
+        for obj in emotions:
+            n += 1
+            add_emotion(
+                obj=obj,
+                n=n,
+                story=story,
+                keep_new_emo=keep_new_emo,
+            )
 
-with open(output_file, "w") as f:
-    f.write(g.serialize(format="pretty-xml"))
+    with open(output_file, "w") as f:
+        f.write(g.serialize(format="pretty-xml"))
+
+
+for keepnew, filename in [(True, 'world'), (False, 'world_strict')]:
+    fp = f"outputs/{filename}.rdf"
+    create_and_write_graph(keep_new_emo=keepnew, output_file=fp)

@@ -8,17 +8,13 @@
      "hasIntensity": 0.9,
      "quote": "Trouble is so hard to bear, is it not?— How can we live and think that any one has trouble—piercing trouble—and we could help them, and never try?",
      "hasObject": {
-      "name": "Rosamond_s_wellbeing",
-      "id": "texts/middlemarch.txt#Rosamond_s_wellbeing"
+      "name": "Rosamond_s_wellbeing"
      },
      "causedBy": {
-      "name": "Empathy_towards_Rosamond_s_situation",
-      "id": "texts/middlemarch.txt#Empathy_towards_Rosamond_s_situation"
-     },
-     "id": "Compassion"
+      "name": "Empathy_towards_Rosamond_s_situation"
+     }
     }
-   ],
-   "id": "texts/middlemarch.txt#Dorothea"
+   ]
   },
   {
    "name": "Rosamond",
@@ -28,65 +24,51 @@
      "hasIntensity": 0.8,
      "quote": "That relief was too great for Rosamond to feel much else at the moment.",
      "hasObject": {
-      "name": "Feeling_understood_and_not_judged",
-      "id": "texts/middlemarch.txt#Feeling_understood_and_not_judged"
+      "name": "Feeling_understood_and_not_judged"
      },
      "causedBy": {
-      "name": "Dorothea_s_approach_and_kind_words",
-      "id": "texts/middlemarch.txt#Dorothea_s_approach_and_kind_words"
-     },
-     "id": "Relief"
+      "name": "Dorothea_s_approach_and_kind_words"
+     }
     }
-   ],
-   "id": "texts/middlemarch.txt#Rosamond"
+   ]
   }
  ],
  "Events": [
   {
    "name": "Empathy_towards_Rosamond_s_situation",
    "takePlaceAt": {
-    "name": "Lydgate_s_house",
-    "id": "texts/middlemarch.txt#Lydgate_s_house"
+    "name": "Lydgate_s_house"
    },
    "hasParticipant": [
     {
-     "name": "Dorothea",
-     "id": "texts/middlemarch.txt#Dorothea"
+     "name": "Dorothea"
     },
     {
-     "name": "Rosamond",
-     "id": "texts/middlemarch.txt#Rosamond"
+     "name": "Rosamond"
     }
-   ],
-   "id": "texts/middlemarch.txt#Empathy_towards_Rosamond_s_situation"
+   ]
   },
   {
    "name": "Dorothea_s_approach_and_kind_words",
    "takePlaceAt": {
-    "name": "Lydgate_s_house",
-    "id": "texts/middlemarch.txt#Lydgate_s_house"
+    "name": "Lydgate_s_house"
    },
    "hasParticipant": [
     {
-     "name": "Dorothea",
-     "id": "texts/middlemarch.txt#Dorothea"
+     "name": "Dorothea"
     },
     {
-     "name": "Rosamond",
-     "id": "texts/middlemarch.txt#Rosamond"
+     "name": "Rosamond"
     }
-   ],
-   "id": "texts/middlemarch.txt#Dorothea_s_approach_and_kind_words"
+   ]
   }
  ],
  "Places": [
   {
-   "name": "Lydgate_s_house",
-   "id": "texts/middlemarch.txt#Lydgate_s_house"
+   "name": "Lydgate_s_house"
   },
   {
-   "name": "Lydgate_s_house",
-   "id": "texts/middlemarch.txt#Lydgate_s_house"
+   "name": "Lydgate_s_house"
   }
  ]
 }

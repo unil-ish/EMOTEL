@@ -8,31 +8,24 @@
      "hasIntensity": 0.9,
      "quote": "Excuse me, Mr. Fathom, this, I hope, is the last agony I shall feel from my unhappy passion.",
      "hasObject": {
-      "name": "Unhappy_passion",
-      "id": "texts/theadventuresofferdinandcountfathom.txt#Unhappy_passion"
+      "name": "Unhappy_passion"
      },
      "causedBy": {
-      "name": "Learning_about_Renaldo_s_departure",
-      "id": "texts/theadventuresofferdinandcountfathom.txt#Learning_about_Renaldo_s_departure"
-     },
-     "id": "Sadness"
+      "name": "Learning_about_Renaldo_s_departure"
+     }
     },
     {
      "name": "Resignation",
      "hasIntensity": 0.8,
      "quote": "She was the picture of pious resignation, and sat like PATIENCE on a monument, smiling at grief.",
      "hasObject": {
-      "name": "Grief",
-      "id": "texts/theadventuresofferdinandcountfathom.txt#Grief"
+      "name": "Grief"
      },
      "causedBy": {
-      "name": "Fathom_s_visit",
-      "id": "texts/theadventuresofferdinandcountfathom.txt#Fathom_s_visit"
-     },
-     "id": "Resignation"
+      "name": "Fathom_s_visit"
+     }
     }
-   ],
-   "id": "texts/theadventuresofferdinandcountfathom.txt#Monimia"
+   ]
   },
   {
    "name": "Fathom",
@@ -42,123 +35,96 @@
      "hasIntensity": 0.7,
      "quote": "Although I was happy in being able to discharge my obligations to the house of Melvil, I could not help feeling the most sensible chagrin.",
      "hasObject": {
-      "name": "Discharge_of_obligations",
-      "id": "texts/theadventuresofferdinandcountfathom.txt#Discharge_of_obligations"
+      "name": "Discharge_of_obligations"
      },
      "causedBy": {
-      "name": "Assisting_Renaldo",
-      "id": "texts/theadventuresofferdinandcountfathom.txt#Assisting_Renaldo"
-     },
-     "id": "Reluctance"
+      "name": "Assisting_Renaldo"
+     }
     },
     {
      "name": "Chagrin",
      "hasIntensity": 0.8,
      "quote": "Believe me, madam, I was so shocked at his conversation on that subject, and so much incensed at his want of delicacy, that my temper was scarce sufficient for the ceremony of parting.",
      "hasObject": {
-      "name": "Renaldo_s_behavior",
-      "id": "texts/theadventuresofferdinandcountfathom.txt#Renaldo_s_behavior"
+      "name": "Renaldo_s_behavior"
      },
      "causedBy": {
-      "name": "Renaldo_s_behavior_towards_Monimia",
-      "id": "texts/theadventuresofferdinandcountfathom.txt#Renaldo_s_behavior_towards_Monimia"
-     },
-     "id": "Chagrin"
+      "name": "Renaldo_s_behavior_towards_Monimia"
+     }
     }
-   ],
-   "id": "texts/theadventuresofferdinandcountfathom.txt#Fathom"
+   ]
   }
  ],
  "Events": [
   {
    "name": "Learning_about_Renaldo_s_departure",
    "takePlaceAt": {
-    "name": "Monimia_s_residence",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Monimia_s_residence"
+    "name": "Monimia_s_residence"
    },
    "hasParticipant": [
     {
-     "name": "Monimia",
-     "id": "texts/theadventuresofferdinandcountfathom.txt#Monimia"
+     "name": "Monimia"
     },
     {
-     "name": "Fathom",
-     "id": "texts/theadventuresofferdinandcountfathom.txt#Fathom"
+     "name": "Fathom"
     }
-   ],
-   "id": "texts/theadventuresofferdinandcountfathom.txt#Learning_about_Renaldo_s_departure"
+   ]
   },
   {
    "name": "Fathom_s_visit",
    "takePlaceAt": {
-    "name": "Monimia_s_residence",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Monimia_s_residence"
+    "name": "Monimia_s_residence"
    },
    "hasParticipant": [
     {
-     "name": "Monimia",
-     "id": "texts/theadventuresofferdinandcountfathom.txt#Monimia"
+     "name": "Monimia"
     },
     {
-     "name": "Fathom",
-     "id": "texts/theadventuresofferdinandcountfathom.txt#Fathom"
+     "name": "Fathom"
     }
-   ],
-   "id": "texts/theadventuresofferdinandcountfathom.txt#Fathom_s_visit"
+   ]
   },
   {
    "name": "Assisting_Renaldo",
    "takePlaceAt": {
-    "name": "Monimia_s_residence",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Monimia_s_residence"
+    "name": "Monimia_s_residence"
    },
    "hasParticipant": [
     {
-     "name": "Fathom",
-     "id": "texts/theadventuresofferdinandcountfathom.txt#Fathom"
+     "name": "Fathom"
     },
     {
-     "name": "Renaldo",
-     "id": "texts/theadventuresofferdinandcountfathom.txt#Renaldo"
+     "name": "Renaldo"
     }
-   ],
-   "id": "texts/theadventuresofferdinandcountfathom.txt#Assisting_Renaldo"
+   ]
   },
   {
    "name": "Renaldo_s_behavior_towards_Monimia",
    "takePlaceAt": {
-    "name": "Monimia_s_residence",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Monimia_s_residence"
+    "name": "Monimia_s_residence"
    },
    "hasParticipant": [
     {
-     "name": "Fathom",
-     "id": "texts/theadventuresofferdinandcountfathom.txt#Fathom"
+     "name": "Fathom"
     },
     {
-     "name": "Renaldo",
-     "id": "texts/theadventuresofferdinandcountfathom.txt#Renaldo"
+     "name": "Renaldo"
     }
-   ],
-   "id": "texts/theadventuresofferdinandcountfathom.txt#Renaldo_s_behavior_towards_Monimia"
+   ]
   }
  ],
  "Places": [
   {
-   "name": "Monimia_s_residence",
-   "id": "texts/theadventuresofferdinandcountfathom.txt#Monimia_s_residence"
+   "name": "Monimia_s_residence"
   },
   {
-   "name": "Monimia_s_residence",
-   "id": "texts/theadventuresofferdinandcountfathom.txt#Monimia_s_residence"
+   "name": "Monimia_s_residence"
   },
   {
-   "name": "Monimia_s_residence",
-   "id": "texts/theadventuresofferdinandcountfathom.txt#Monimia_s_residence"
+   "name": "Monimia_s_residence"
   },
   {
-   "name": "Monimia_s_residence",
-   "id": "texts/theadventuresofferdinandcountfathom.txt#Monimia_s_residence"
+   "name": "Monimia_s_residence"
   }
  ]
 }

@@ -8,14 +8,11 @@
      "hasIntensity": 0.9,
      "quote": "But as the strange captain, leaning over the pallid bulwarks, was in the act of putting his trumpet to his mouth, it somehow fell from his hand into the sea; and the wind now rising amain, he in vain strove to make himself heard without it.",
      "hasObject": {
-      "name": "Trumpet",
-      "id": "texts/mobydick.txt#Trumpet"
+      "name": "Trumpet"
      },
      "causedBy": {
-      "name": "Losing_the_trumpet",
-      "id": "texts/mobydick.txt#Losing_the_trumpet"
-     },
-     "id": "Anger"
+      "name": "Losing_the_trumpet"
+     }
     },
     {
      "name": "Ahab",
@@ -25,28 +22,21 @@
        "hasIntensity": 0.8,
        "quote": "But almost everybody supposed that this particular preparative heedfulness in Ahab must only be with a view to the ultimate chase of Moby Dick; for he had already revealed his intention to hunt that mortal monster in person.",
        "hasObject": {
-        "name": "Moby_Dick",
-        "id": "texts/mobydick.txt#Moby_Dick"
+        "name": "Moby_Dick"
        },
        "causedBy": {
         "name": "Revealing_intention_to_hunt_Moby_Dick",
         "takePlaceAt": {
-         "name": "On_the_ship",
-         "id": "texts/mobydick.txt#On_the_ship"
+         "name": "On_the_ship"
         },
         "hasParticipant": {
-         "name": "Ahab",
-         "id": "texts/mobydick.txt#Ahab"
-        },
-        "id": "texts/mobydick.txt#Revealing_intention_to_hunt_Moby_Dick"
-       },
-       "id": "texts/mobydick.txt#Fear"
+         "name": "Ahab"
+        }
+       }
       }
-     ],
-     "id": "Ahab"
+     ]
     }
-   ],
-   "id": "texts/mobydick.txt#Ahab"
+   ]
   },
   {
    "name": "Radney",
@@ -56,17 +46,13 @@
      "hasIntensity": 0.9,
      "quote": "‘Damn your eyes! what’s that pump stopping for?’ roared Radney, pretending not to have heard the sailors’ talk. ‘Thunder away at it!’",
      "hasObject": {
-      "name": "Pump",
-      "id": "texts/mobydick.txt#Pump"
+      "name": "Pump"
      },
      "causedBy": {
-      "name": "Pump_stopping",
-      "id": "texts/mobydick.txt#Pump_stopping"
-     },
-     "id": "Anger"
+      "name": "Pump_stopping"
+     }
     }
-   ],
-   "id": "texts/mobydick.txt#Radney"
+   ]
   },
   {
    "name": "Steekilt",
@@ -76,69 +62,53 @@
      "hasIntensity": 0.8,
      "quote": "But as he sat still for a moment, and as he steadfastly looked into the mate’s malignant eye and perceived the stacks of powder-casks heaped up in him and the slow-match silently burning along towards them; as he instinctively saw all this, that strange forbearance and unwillingness to stir up the deeper passionateness in any already ireful being—a repugnance most felt, when felt at all, by really valiant men even when aggrieved—this nameless phantom feeling, gentlemen, stole over Steelkilt.",
      "hasObject": {
-      "name": "Mate_s_actions",
-      "id": "texts/mobydick.txt#Mate_s_actions"
+      "name": "Mate_s_actions"
      },
      "causedBy": {
-      "name": "Perceiving_the_mate_s_actions",
-      "id": "texts/mobydick.txt#Perceiving_the_mate_s_actions"
-     },
-     "id": "Fear"
+      "name": "Perceiving_the_mate_s_actions"
+     }
     }
-   ],
-   "id": "texts/mobydick.txt#Steekilt"
+   ]
   }
  ],
  "Events": [
   {
    "name": "Losing_the_trumpet",
    "takePlaceAt": {
-    "name": "On_the_ship_s_deck",
-    "id": "texts/mobydick.txt#On_the_ship_s_deck"
+    "name": "On_the_ship_s_deck"
    },
    "hasParticipant": {
-    "name": "Ahab",
-    "id": "texts/mobydick.txt#Ahab"
-   },
-   "id": "texts/mobydick.txt#Losing_the_trumpet"
+    "name": "Ahab"
+   }
   },
   {
    "name": "Pump_stopping",
    "takePlaceAt": {
-    "name": "On_the_ship_s_deck",
-    "id": "texts/mobydick.txt#On_the_ship_s_deck"
+    "name": "On_the_ship_s_deck"
    },
    "hasParticipant": {
-    "name": "Radney",
-    "id": "texts/mobydick.txt#Radney"
-   },
-   "id": "texts/mobydick.txt#Pump_stopping"
+    "name": "Radney"
+   }
   },
   {
    "name": "Perceiving_the_mate_s_actions",
    "takePlaceAt": {
-    "name": "On_the_ship_s_deck",
-    "id": "texts/mobydick.txt#On_the_ship_s_deck"
+    "name": "On_the_ship_s_deck"
    },
    "hasParticipant": {
-    "name": "Steekilt",
-    "id": "texts/mobydick.txt#Steekilt"
-   },
-   "id": "texts/mobydick.txt#Perceiving_the_mate_s_actions"
+    "name": "Steekilt"
+   }
   }
  ],
  "Places": [
   {
-   "name": "On_the_ship_s_deck",
-   "id": "texts/mobydick.txt#On_the_ship_s_deck"
+   "name": "On_the_ship_s_deck"
   },
   {
-   "name": "On_the_ship_s_deck",
-   "id": "texts/mobydick.txt#On_the_ship_s_deck"
+   "name": "On_the_ship_s_deck"
   },
   {
-   "name": "On_the_ship_s_deck",
-   "id": "texts/mobydick.txt#On_the_ship_s_deck"
+   "name": "On_the_ship_s_deck"
   }
  ]
 }

@@ -8,59 +8,46 @@
      "hasIntensity": 1,
      "quote": "O my Monimia! how will the pleasure of this hour be propagated! As yet thou knowest not all the bliss that is reserved for thy enjoyment!",
      "hasObject": {
-      "name": "Reunion_with_Monimia",
-      "id": "texts/theadventuresofferdinandcountfathom.txt#Reunion_with_Monimia"
+      "name": "Reunion_with_Monimia"
      },
      "causedBy": {
-      "name": "Reunion_with_Monimia",
-      "id": "texts/theadventuresofferdinandcountfathom.txt#Reunion_with_Monimia"
-     },
-     "id": "Joy"
+      "name": "Reunion_with_Monimia"
+     }
     },
     {
      "name": "Surprise",
      "hasIntensity": 1,
      "quote": "At length his agony was overcome. He recollected all his resolution, and, in a strain of awestruck rapture, thus addressed the heavenly visitant: 'Hast thou then heard, pure spirit! the wailings of my grief?'",
      "hasObject": {
-      "name": "Monimia_s_apparition",
-      "id": "texts/theadventuresofferdinandcountfathom.txt#Monimia_s_apparition"
+      "name": "Monimia_s_apparition"
      },
      "causedBy": {
-      "name": "Seeing_Monimia_s_apparition",
-      "id": "texts/theadventuresofferdinandcountfathom.txt#Seeing_Monimia_s_apparition"
-     },
-     "id": "Surprise"
+      "name": "Seeing_Monimia_s_apparition"
+     }
     },
     {
      "name": "Love",
      "hasIntensity": 1,
      "quote": "He poured forth the dictates of his gratitude to the preservers of his happiness.",
      "hasObject": {
-      "name": "Reunion_with_Monimia",
-      "id": "texts/theadventuresofferdinandcountfathom.txt#Reunion_with_Monimia"
+      "name": "Reunion_with_Monimia"
      },
      "causedBy": {
-      "name": "Feeling_grateful_for_the_reunion_with_Monimia",
-      "id": "texts/theadventuresofferdinandcountfathom.txt#Feeling_grateful_for_the_reunion_with_Monimia"
-     },
-     "id": "Love"
+      "name": "Feeling_grateful_for_the_reunion_with_Monimia"
+     }
     },
     {
      "name": "Relief",
      "hasIntensity": 1,
      "quote": "In order to dissipate these interesting ideas, which, by being too long indulged, might have endangered his reason, Madam Clement entreated him to entertain the company with a detail of what had happened to him in his last journey to the empire.",
      "hasObject": {
-      "name": "Sharing_journey_details",
-      "id": "texts/theadventuresofferdinandcountfathom.txt#Sharing_journey_details"
+      "name": "Sharing_journey_details"
      },
      "causedBy": {
-      "name": "Madam_Clement_s_request_to_share_his_journey_details",
-      "id": "texts/theadventuresofferdinandcountfathom.txt#Madam_Clement_s_request_to_share_his_journey_detai"
-     },
-     "id": "Relief"
+      "name": "Madam_Clement_s_request_to_share_his_journey_details"
+     }
     }
-   ],
-   "id": "texts/theadventuresofferdinandcountfathom.txt#Renaldo"
+   ]
   },
   {
    "name": "Monimia",
@@ -70,167 +57,130 @@
      "hasIntensity": 1,
      "quote": "O my dear lady! forgive the wild transports of a fond lover, who hath so unexpectedly retrieved the jewel of his soul!",
      "hasObject": {
-      "name": "Reunion_with_Renaldo",
-      "id": "texts/theadventuresofferdinandcountfathom.txt#Reunion_with_Renaldo"
+      "name": "Reunion_with_Renaldo"
      },
      "causedBy": {
-      "name": "Reunion_with_Renaldo",
-      "id": "texts/theadventuresofferdinandcountfathom.txt#Reunion_with_Renaldo"
-     },
-     "id": "Joy"
+      "name": "Reunion_with_Renaldo"
+     }
     },
     {
      "name": "Relief",
      "hasIntensity": 1,
      "quote": "Monimia taking Madam Clement by the hand, 'Whatever joy,' said she, 'Renaldo derives from this occasion, is owing to the bounty, the compassion, and maternal care of this incomparable lady.'",
      "hasObject": {
-      "name": "Madam_Clement_s_care",
-      "id": "texts/theadventuresofferdinandcountfathom.txt#Madam_Clement_s_care"
+      "name": "Madam_Clement_s_care"
      },
      "causedBy": {
-      "name": "Feeling_grateful_for_Madam_Clement_s_care",
-      "id": "texts/theadventuresofferdinandcountfathom.txt#Feeling_grateful_for_Madam_Clement_s_care"
-     },
-     "id": "Relief"
+      "name": "Feeling_grateful_for_Madam_Clement_s_care"
+     }
     }
-   ],
-   "id": "texts/theadventuresofferdinandcountfathom.txt#Monimia"
+   ]
   }
  ],
  "Events": [
   {
    "name": "Reunion_with_Monimia",
    "takePlaceAt": {
-    "name": "Madam_Clement_s_house",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Madam_Clement_s_house"
+    "name": "Madam_Clement_s_house"
    },
    "hasParticipant": [
     {
-     "name": "Renaldo",
-     "id": "texts/theadventuresofferdinandcountfathom.txt#Renaldo"
+     "name": "Renaldo"
     },
     {
-     "name": "Monimia",
-     "id": "texts/theadventuresofferdinandcountfathom.txt#Monimia"
+     "name": "Monimia"
     }
-   ],
-   "id": "texts/theadventuresofferdinandcountfathom.txt#Reunion_with_Monimia"
+   ]
   },
   {
    "name": "Seeing_Monimia_s_apparition",
    "takePlaceAt": {
-    "name": "Monimia_s_tomb",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Monimia_s_tomb"
+    "name": "Monimia_s_tomb"
    },
    "hasParticipant": [
     {
-     "name": "Renaldo",
-     "id": "texts/theadventuresofferdinandcountfathom.txt#Renaldo"
+     "name": "Renaldo"
     },
     {
-     "name": "Monimia_s_apparition",
-     "id": "texts/theadventuresofferdinandcountfathom.txt#Monimia_s_apparition"
+     "name": "Monimia_s_apparition"
     }
-   ],
-   "id": "texts/theadventuresofferdinandcountfathom.txt#Seeing_Monimia_s_apparition"
+   ]
   },
   {
    "name": "Feeling_grateful_for_the_reunion_with_Monimia",
    "takePlaceAt": {
-    "name": "Madam_Clement_s_house",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Madam_Clement_s_house"
+    "name": "Madam_Clement_s_house"
    },
    "hasParticipant": [
     {
-     "name": "Renaldo",
-     "id": "texts/theadventuresofferdinandcountfathom.txt#Renaldo"
+     "name": "Renaldo"
     },
     {
-     "name": "Monimia",
-     "id": "texts/theadventuresofferdinandcountfathom.txt#Monimia"
+     "name": "Monimia"
     }
-   ],
-   "id": "texts/theadventuresofferdinandcountfathom.txt#Feeling_grateful_for_the_reunion_with_Monimia"
+   ]
   },
   {
    "name": "Madam_Clement_s_request_to_share_his_journey_details",
    "takePlaceAt": {
-    "name": "Madam_Clement_s_house",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Madam_Clement_s_house"
+    "name": "Madam_Clement_s_house"
    },
    "hasParticipant": [
     {
-     "name": "Renaldo",
-     "id": "texts/theadventuresofferdinandcountfathom.txt#Renaldo"
+     "name": "Renaldo"
     },
     {
-     "name": "Madam_Clement",
-     "id": "texts/theadventuresofferdinandcountfathom.txt#Madam_Clement"
+     "name": "Madam_Clement"
     }
-   ],
-   "id": "texts/theadventuresofferdinandcountfathom.txt#Madam_Clement_s_request_to_share_his_journey_detai"
+   ]
   },
   {
    "name": "Reunion_with_Renaldo",
    "takePlaceAt": {
-    "name": "Madam_Clement_s_house",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Madam_Clement_s_house"
+    "name": "Madam_Clement_s_house"
    },
    "hasParticipant": [
     {
-     "name": "Monimia",
-     "id": "texts/theadventuresofferdinandcountfathom.txt#Monimia"
+     "name": "Monimia"
     },
     {
-     "name": "Renaldo",
-     "id": "texts/theadventuresofferdinandcountfathom.txt#Renaldo"
+     "name": "Renaldo"
     }
-   ],
-   "id": "texts/theadventuresofferdinandcountfathom.txt#Reunion_with_Renaldo"
+   ]
   },
   {
    "name": "Feeling_grateful_for_Madam_Clement_s_care",
    "takePlaceAt": {
-    "name": "Madam_Clement_s_house",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Madam_Clement_s_house"
+    "name": "Madam_Clement_s_house"
    },
    "hasParticipant": [
     {
-     "name": "Monimia",
-     "id": "texts/theadventuresofferdinandcountfathom.txt#Monimia"
+     "name": "Monimia"
     },
     {
-     "name": "Madam_Clement",
-     "id": "texts/theadventuresofferdinandcountfathom.txt#Madam_Clement"
+     "name": "Madam_Clement"
     }
-   ],
-   "id": "texts/theadventuresofferdinandcountfathom.txt#Feeling_grateful_for_Madam_Clement_s_care"
+   ]
   }
  ],
  "Places": [
   {
-   "name": "Madam_Clement_s_house",
-   "id": "texts/theadventuresofferdinandcountfathom.txt#Madam_Clement_s_house"
+   "name": "Madam_Clement_s_house"
   },
   {
-   "name": "Monimia_s_tomb",
-   "id": "texts/theadventuresofferdinandcountfathom.txt#Monimia_s_tomb"
+   "name": "Monimia_s_tomb"
   },
   {
-   "name": "Madam_Clement_s_house",
-   "id": "texts/theadventuresofferdinandcountfathom.txt#Madam_Clement_s_house"
+   "name": "Madam_Clement_s_house"
   },
   {
-   "name": "Madam_Clement_s_house",
-   "id": "texts/theadventuresofferdinandcountfathom.txt#Madam_Clement_s_house"
+   "name": "Madam_Clement_s_house"
   },
   {
-   "name": "Madam_Clement_s_house",
-   "id": "texts/theadventuresofferdinandcountfathom.txt#Madam_Clement_s_house"
+   "name": "Madam_Clement_s_house"
   },
   {
-   "name": "Madam_Clement_s_house",
-   "id": "texts/theadventuresofferdinandcountfathom.txt#Madam_Clement_s_house"
+   "name": "Madam_Clement_s_house"
   }
  ]
 }

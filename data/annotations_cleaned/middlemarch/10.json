@@ -8,45 +8,35 @@
      "hasIntensity": 0.9,
      "quote": "I am a good-for-nothing blackguard.",
      "hasObject": {
-      "name": "Inability_to_pay_a_debt",
-      "id": "texts/middlemarch.txt#Inability_to_pay_a_debt"
+      "name": "Inability_to_pay_a_debt"
      },
      "causedBy": {
-      "name": "Inability_to_pay_a_debt",
-      "id": "texts/middlemarch.txt#Inability_to_pay_a_debt"
-     },
-     "id": "Remorse"
+      "name": "Inability_to_pay_a_debt"
+     }
     },
     {
      "name": "Despair",
      "hasIntensity": 0.8,
      "quote": "I am so miserable, Mary—if you knew how miserable I am, you would be sorry for me.",
      "hasObject": {
-      "name": "Inability_to_pay_a_debt",
-      "id": "texts/middlemarch.txt#Inability_to_pay_a_debt"
+      "name": "Inability_to_pay_a_debt"
      },
      "causedBy": {
-      "name": "Inability_to_pay_a_debt",
-      "id": "texts/middlemarch.txt#Inability_to_pay_a_debt"
-     },
-     "id": "Despair"
+      "name": "Inability_to_pay_a_debt"
+     }
     },
     {
      "name": "Hope",
      "hasIntensity": 0.7,
      "quote": "Fred secretly felt that his future was guaranteed against the fulfilment of Mary’s sarcastic prophecies.",
      "hasObject": {
-      "name": "Future_inheritance",
-      "id": "texts/middlemarch.txt#Future_inheritance"
+      "name": "Future_inheritance"
      },
      "causedBy": {
-      "name": "Hope_for_future_inheritance",
-      "id": "texts/middlemarch.txt#Hope_for_future_inheritance"
-     },
-     "id": "Hope"
+      "name": "Hope_for_future_inheritance"
+     }
     }
-   ],
-   "id": "texts/middlemarch.txt#Fred_Vincy"
+   ]
   },
   {
    "name": "Mary_Garth",
@@ -56,45 +46,35 @@
      "hasIntensity": 0.9,
      "quote": "Oh, poor mother, poor father!",
      "hasObject": {
-      "name": "Inability_to_pay_a_debt",
-      "id": "texts/middlemarch.txt#Inability_to_pay_a_debt"
+      "name": "Inability_to_pay_a_debt"
      },
      "causedBy": {
-      "name": "Inability_to_pay_a_debt",
-      "id": "texts/middlemarch.txt#Inability_to_pay_a_debt"
-     },
-     "id": "Sadness"
+      "name": "Inability_to_pay_a_debt"
+     }
     },
     {
      "name": "Pity",
      "hasIntensity": 0.8,
      "quote": "And when, looking up, her eyes met his dull despairing glance, her pity for him surmounted her anger and all her other anxieties.",
      "hasObject": {
-      "name": "Fred_s_despair",
-      "id": "texts/middlemarch.txt#Fred_s_despair"
+      "name": "Fred_s_despair"
      },
      "causedBy": {
-      "name": "Fred_s_despair",
-      "id": "texts/middlemarch.txt#Fred_s_despair"
-     },
-     "id": "Pity"
+      "name": "Fred_s_despair"
+     }
     },
     {
      "name": "Resignation",
      "hasIntensity": 0.7,
      "quote": "I consider my father and mother the best part of myself, sir.",
      "hasObject": {
-      "name": "Inability_to_keep_her_earnings",
-      "id": "texts/middlemarch.txt#Inability_to_keep_her_earnings"
+      "name": "Inability_to_keep_her_earnings"
      },
      "causedBy": {
-      "name": "Inability_to_keep_her_earnings",
-      "id": "texts/middlemarch.txt#Inability_to_keep_her_earnings"
-     },
-     "id": "Resignation"
+      "name": "Inability_to_keep_her_earnings"
+     }
     }
-   ],
-   "id": "texts/middlemarch.txt#Mary_Garth"
+   ]
   },
   {
    "name": "Caleb_Garth",
@@ -104,211 +84,164 @@
      "hasIntensity": 0.8,
      "quote": "But I was afraid there might be something between you and Fred, and I wanted to caution you.",
      "hasObject": {
-      "name": "Concern_for_Mary_s_wellbeing",
-      "id": "texts/middlemarch.txt#Concern_for_Mary_s_wellbeing"
+      "name": "Concern_for_Mary_s_wellbeing"
      },
      "causedBy": {
-      "name": "Concern_for_Mary_s_wellbeing",
-      "id": "texts/middlemarch.txt#Concern_for_Mary_s_wellbeing"
-     },
-     "id": "Tenderness"
+      "name": "Concern_for_Mary_s_wellbeing"
+     }
     },
     {
      "name": "Pride",
      "hasIntensity": 0.7,
      "quote": "I consider my father and mother the best part of myself, sir.",
      "hasObject": {
-      "name": "Inability_to_keep_Mary_s_earnings",
-      "id": "texts/middlemarch.txt#Inability_to_keep_Mary_s_earnings"
+      "name": "Inability_to_keep_Mary_s_earnings"
      },
      "causedBy": {
-      "name": "Inability_to_keep_Mary_s_earnings",
-      "id": "texts/middlemarch.txt#Inability_to_keep_Mary_s_earnings"
-     },
-     "id": "Pride"
+      "name": "Inability_to_keep_Mary_s_earnings"
+     }
     }
-   ],
-   "id": "texts/middlemarch.txt#Caleb_Garth"
+   ]
   }
  ],
  "Events": [
   {
    "name": "Inability_to_pay_a_debt",
    "takePlaceAt": {
-    "name": "Stone_Court",
-    "id": "texts/middlemarch.txt#Stone_Court"
+    "name": "Stone_Court"
    },
    "hasParticipant": [
     {
-     "name": "Fred_Vincy",
-     "id": "texts/middlemarch.txt#Fred_Vincy"
+     "name": "Fred_Vincy"
     },
     {
-     "name": "Mary_Garth",
-     "id": "texts/middlemarch.txt#Mary_Garth"
+     "name": "Mary_Garth"
     }
-   ],
-   "id": "texts/middlemarch.txt#Inability_to_pay_a_debt"
+   ]
   },
   {
    "name": "Inability_to_pay_a_debt",
    "takePlaceAt": {
-    "name": "Stone_Court",
-    "id": "texts/middlemarch.txt#Stone_Court"
+    "name": "Stone_Court"
    },
    "hasParticipant": [
     {
-     "name": "Fred_Vincy",
-     "id": "texts/middlemarch.txt#Fred_Vincy"
+     "name": "Fred_Vincy"
     },
     {
-     "name": "Mary_Garth",
-     "id": "texts/middlemarch.txt#Mary_Garth"
+     "name": "Mary_Garth"
     }
-   ],
-   "id": "texts/middlemarch.txt#Inability_to_pay_a_debt"
+   ]
   },
   {
    "name": "Hope_for_future_inheritance",
    "takePlaceAt": {
-    "name": "Stone_Court",
-    "id": "texts/middlemarch.txt#Stone_Court"
+    "name": "Stone_Court"
    },
    "hasParticipant": [
     {
-     "name": "Fred_Vincy",
-     "id": "texts/middlemarch.txt#Fred_Vincy"
+     "name": "Fred_Vincy"
     },
     {
-     "name": "Mary_Garth",
-     "id": "texts/middlemarch.txt#Mary_Garth"
+     "name": "Mary_Garth"
     }
-   ],
-   "id": "texts/middlemarch.txt#Hope_for_future_inheritance"
+   ]
   },
   {
    "name": "Inability_to_pay_a_debt",
    "takePlaceAt": {
-    "name": "Stone_Court",
-    "id": "texts/middlemarch.txt#Stone_Court"
+    "name": "Stone_Court"
    },
    "hasParticipant": [
     {
-     "name": "Mary_Garth",
-     "id": "texts/middlemarch.txt#Mary_Garth"
+     "name": "Mary_Garth"
     },
     {
-     "name": "Fred_Vincy",
-     "id": "texts/middlemarch.txt#Fred_Vincy"
+     "name": "Fred_Vincy"
     }
-   ],
-   "id": "texts/middlemarch.txt#Inability_to_pay_a_debt"
+   ]
   },
   {
    "name": "Fred_s_despair",
    "takePlaceAt": {
-    "name": "Stone_Court",
-    "id": "texts/middlemarch.txt#Stone_Court"
+    "name": "Stone_Court"
    },
    "hasParticipant": [
     {
-     "name": "Mary_Garth",
-     "id": "texts/middlemarch.txt#Mary_Garth"
+     "name": "Mary_Garth"
     },
     {
-     "name": "Fred_Vincy",
-     "id": "texts/middlemarch.txt#Fred_Vincy"
+     "name": "Fred_Vincy"
     }
-   ],
-   "id": "texts/middlemarch.txt#Fred_s_despair"
+   ]
   },
   {
    "name": "Inability_to_keep_her_earnings",
    "takePlaceAt": {
-    "name": "Stone_Court",
-    "id": "texts/middlemarch.txt#Stone_Court"
+    "name": "Stone_Court"
    },
    "hasParticipant": [
     {
-     "name": "Mary_Garth",
-     "id": "texts/middlemarch.txt#Mary_Garth"
+     "name": "Mary_Garth"
     },
     {
-     "name": "Mr_Featherstone",
-     "id": "texts/middlemarch.txt#Mr_Featherstone"
+     "name": "Mr_Featherstone"
     }
-   ],
-   "id": "texts/middlemarch.txt#Inability_to_keep_her_earnings"
+   ]
   },
   {
    "name": "Concern_for_Mary_s_wellbeing",
    "takePlaceAt": {
-    "name": "Stone_Court",
-    "id": "texts/middlemarch.txt#Stone_Court"
+    "name": "Stone_Court"
    },
    "hasParticipant": [
     {
-     "name": "Caleb_Garth",
-     "id": "texts/middlemarch.txt#Caleb_Garth"
+     "name": "Caleb_Garth"
     },
     {
-     "name": "Mary_Garth",
-     "id": "texts/middlemarch.txt#Mary_Garth"
+     "name": "Mary_Garth"
     }
-   ],
-   "id": "texts/middlemarch.txt#Concern_for_Mary_s_wellbeing"
+   ]
   },
   {
    "name": "Inability_to_keep_Mary_s_earnings",
    "takePlaceAt": {
-    "name": "Stone_Court",
-    "id": "texts/middlemarch.txt#Stone_Court"
+    "name": "Stone_Court"
    },
    "hasParticipant": [
     {
-     "name": "Caleb_Garth",
-     "id": "texts/middlemarch.txt#Caleb_Garth"
+     "name": "Caleb_Garth"
     },
     {
-     "name": "Mary_Garth",
-     "id": "texts/middlemarch.txt#Mary_Garth"
+     "name": "Mary_Garth"
     }
-   ],
-   "id": "texts/middlemarch.txt#Inability_to_keep_Mary_s_earnings"
+   ]
   }
  ],
  "Places": [
   {
-   "name": "Stone_Court",
-   "id": "texts/middlemarch.txt#Stone_Court"
+   "name": "Stone_Court"
   },
   {
-   "name": "Stone_Court",
-   "id": "texts/middlemarch.txt#Stone_Court"
+   "name": "Stone_Court"
   },
   {
-   "name": "Stone_Court",
-   "id": "texts/middlemarch.txt#Stone_Court"
+   "name": "Stone_Court"
   },
   {
-   "name": "Stone_Court",
-   "id": "texts/middlemarch.txt#Stone_Court"
+   "name": "Stone_Court"
   },
   {
-   "name": "Stone_Court",
-   "id": "texts/middlemarch.txt#Stone_Court"
+   "name": "Stone_Court"
   },
   {
-   "name": "Stone_Court",
-   "id": "texts/middlemarch.txt#Stone_Court"
+   "name": "Stone_Court"
   },
   {
-   "name": "Stone_Court",
-   "id": "texts/middlemarch.txt#Stone_Court"
+   "name": "Stone_Court"
   },
   {
-   "name": "Stone_Court",
-   "id": "texts/middlemarch.txt#Stone_Court"
+   "name": "Stone_Court"
   }
  ]
 }

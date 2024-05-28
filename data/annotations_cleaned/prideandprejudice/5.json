@@ -8,45 +8,35 @@
      "hasIntensity": 0.7,
      "quote": "Elizabeth found herself quite equal to the scene, and could observe the three ladies before her composedly.",
      "hasObject": {
-      "name": "Lady_Catherine_s_manner",
-      "id": "texts/prideandprejudice.txt#Lady_Catherine_s_manner"
+      "name": "Lady_Catherine_s_manner"
      },
      "causedBy": {
-      "name": "Lady_Catherine_s_manner",
-      "id": "texts/prideandprejudice.txt#Lady_Catherine_s_manner"
-     },
-     "id": "Annoyance"
+      "name": "Lady_Catherine_s_manner"
+     }
     },
     {
      "name": "Interest",
      "hasIntensity": 0.8,
      "quote": "Elizabeth soon perceived, that though this great lady was not in the commission of the peace for the county, she was a most active magistrate in her own parish, the minutest concerns of which were carried to her by Mr. Collins.",
      "hasObject": {
-      "name": "Lady_Catherine_s_involvement_in_parish_matters",
-      "id": "texts/prideandprejudice.txt#Lady_Catherine_s_involvement_in_parish_matters"
+      "name": "Lady_Catherine_s_involvement_in_parish_matters"
      },
      "causedBy": {
-      "name": "Lady_Catherine_s_involvement_in_parish_matters",
-      "id": "texts/prideandprejudice.txt#Lady_Catherine_s_involvement_in_parish_matters"
-     },
-     "id": "Interest"
+      "name": "Lady_Catherine_s_involvement_in_parish_matters"
+     }
     },
     {
      "name": "Comfort",
      "hasIntensity": 0.9,
      "quote": "Her favourite walk, and where she frequently went while the others were calling on Lady Catherine, was along the open grove which edged that side of the park, where there was a nice sheltered path, which no one seemed to value but herself, and where she felt beyond the reach of Lady Catherine’s curiosity.",
      "hasObject": {
-      "name": "Walking_in_the_park",
-      "id": "texts/prideandprejudice.txt#Walking_in_the_park"
+      "name": "Walking_in_the_park"
      },
      "causedBy": {
-      "name": "Walking_in_the_park",
-      "id": "texts/prideandprejudice.txt#Walking_in_the_park"
-     },
-     "id": "Comfort"
+      "name": "Walking_in_the_park"
+     }
     }
-   ],
-   "id": "texts/prideandprejudice.txt#Elizabeth_Bennet"
+   ]
   },
   {
    "name": "Mr_Collins",
@@ -56,31 +46,24 @@
      "hasIntensity": 0.9,
      "quote": "He carved and ate and praised with delighted alacrity; and every dish was commended first by him, and then by Sir William.",
      "hasObject": {
-      "name": "Dinner_at_Rosings",
-      "id": "texts/prideandprejudice.txt#Dinner_at_Rosings"
+      "name": "Dinner_at_Rosings"
      },
      "causedBy": {
-      "name": "Dinner_at_Rosings",
-      "id": "texts/prideandprejudice.txt#Dinner_at_Rosings"
-     },
-     "id": "Delight"
+      "name": "Dinner_at_Rosings"
+     }
     },
     {
      "name": "Pride",
      "hasIntensity": 0.8,
      "quote": "The power of displaying the grandeur of his patroness to his wondering visitors, and of letting them see her civility towards himself and his wife, was exactly what he had wished for.",
      "hasObject": {
-      "name": "Displaying_Lady_Catherine_s_grandeur",
-      "id": "texts/prideandprejudice.txt#Displaying_Lady_Catherine_s_grandeur"
+      "name": "Displaying_Lady_Catherine_s_grandeur"
      },
      "causedBy": {
-      "name": "Displaying_Lady_Catherine_s_grandeur",
-      "id": "texts/prideandprejudice.txt#Displaying_Lady_Catherine_s_grandeur"
-     },
-     "id": "Pride"
+      "name": "Displaying_Lady_Catherine_s_grandeur"
+     }
     }
-   ],
-   "id": "texts/prideandprejudice.txt#Mr_Collins"
+   ]
   },
   {
    "name": "Lady_Catherine",
@@ -90,119 +73,91 @@
      "hasIntensity": 0.9,
      "quote": "Lady Catherine seemed gratified by their excessive admiration, and gave most gracious smiles, especially when any dish on the table proved a novelty to them.",
      "hasObject": {
-      "name": "Receiving_admiration_at_dinner",
-      "id": "texts/prideandprejudice.txt#Receiving_admiration_at_dinner"
+      "name": "Receiving_admiration_at_dinner"
      },
      "causedBy": {
-      "name": "Receiving_admiration_at_dinner",
-      "id": "texts/prideandprejudice.txt#Receiving_admiration_at_dinner"
-     },
-     "id": "Satisfaction"
+      "name": "Receiving_admiration_at_dinner"
+     }
     },
     {
      "name": "Impertinence",
      "hasIntensity": 0.8,
      "quote": "Elizabeth suspected herself to be the first creature who had ever dared to trifle with so much dignified impertinence.",
      "hasObject": {
-      "name": "Elizabeth_s_response",
-      "id": "texts/prideandprejudice.txt#Elizabeth_s_response"
+      "name": "Elizabeth_s_response"
      },
      "causedBy": {
-      "name": "Elizabeth_s_response",
-      "id": "texts/prideandprejudice.txt#Elizabeth_s_response"
-     },
-     "id": "Impertinence"
+      "name": "Elizabeth_s_response"
+     }
     }
-   ],
-   "id": "texts/prideandprejudice.txt#Lady_Catherine"
+   ]
   }
  ],
  "Events": [
   {
    "name": "Lady_Catherine_s_manner",
    "takePlaceAt": {
-    "name": "Rosings_dining_room",
-    "id": "texts/prideandprejudice.txt#Rosings_dining_room"
-   },
-   "id": "texts/prideandprejudice.txt#Lady_Catherine_s_manner"
+    "name": "Rosings_dining_room"
+   }
   },
   {
    "name": "Lady_Catherine_s_involvement_in_parish_matters",
    "takePlaceAt": {
-    "name": "Rosings",
-    "id": "texts/prideandprejudice.txt#Rosings"
-   },
-   "id": "texts/prideandprejudice.txt#Lady_Catherine_s_involvement_in_parish_matters"
+    "name": "Rosings"
+   }
   },
   {
    "name": "Walking_in_the_park",
    "takePlaceAt": {
-    "name": "Park_grove",
-    "id": "texts/prideandprejudice.txt#Park_grove"
-   },
-   "id": "texts/prideandprejudice.txt#Walking_in_the_park"
+    "name": "Park_grove"
+   }
   },
   {
    "name": "Dinner_at_Rosings",
    "takePlaceAt": {
-    "name": "Rosings_dining_room",
-    "id": "texts/prideandprejudice.txt#Rosings_dining_room"
-   },
-   "id": "texts/prideandprejudice.txt#Dinner_at_Rosings"
+    "name": "Rosings_dining_room"
+   }
   },
   {
    "name": "Displaying_Lady_Catherine_s_grandeur",
    "takePlaceAt": {
-    "name": "Rosings",
-    "id": "texts/prideandprejudice.txt#Rosings"
-   },
-   "id": "texts/prideandprejudice.txt#Displaying_Lady_Catherine_s_grandeur"
+    "name": "Rosings"
+   }
   },
   {
    "name": "Receiving_admiration_at_dinner",
    "takePlaceAt": {
-    "name": "Rosings_dining_room",
-    "id": "texts/prideandprejudice.txt#Rosings_dining_room"
-   },
-   "id": "texts/prideandprejudice.txt#Receiving_admiration_at_dinner"
+    "name": "Rosings_dining_room"
+   }
   },
   {
    "name": "Elizabeth_s_response",
    "takePlaceAt": {
-    "name": "Rosings_dining_room",
-    "id": "texts/prideandprejudice.txt#Rosings_dining_room"
-   },
-   "id": "texts/prideandprejudice.txt#Elizabeth_s_response"
+    "name": "Rosings_dining_room"
+   }
   }
  ],
  "Places": [
   {
-   "name": "Rosings_dining_room",
-   "id": "texts/prideandprejudice.txt#Rosings_dining_room"
+   "name": "Rosings_dining_room"
   },
   {
-   "name": "Rosings",
-   "id": "texts/prideandprejudice.txt#Rosings"
+   "name": "Rosings"
   },
   {
-   "name": "Park_grove",
-   "id": "texts/prideandprejudice.txt#Park_grove"
+   "name": "Park_grove"
   },
   {
-   "name": "Rosings_dining_room",
-   "id": "texts/prideandprejudice.txt#Rosings_dining_room"
+   "name": "Rosings_dining_room"
   },
   {
-   "name": "Rosings",
-   "id": "texts/prideandprejudice.txt#Rosings"
+   "name": "Rosings"
   },
   {
-   "name": "Rosings_dining_room",
-   "id": "texts/prideandprejudice.txt#Rosings_dining_room"
+   "name": "Rosings_dining_room"
   },
   {
-   "name": "Rosings_dining_room",
-   "id": "texts/prideandprejudice.txt#Rosings_dining_room"
+   "name": "Rosings_dining_room"
   }
  ]
 }

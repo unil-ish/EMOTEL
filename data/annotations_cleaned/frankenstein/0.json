@@ -8,59 +8,46 @@
      "hasIntensity": 0.9,
      "quote": "He is going to unexplored regions, to 'the land of mist and snow,' with the joy a child feels when he embarks in a little boat.",
      "hasObject": {
-      "name": "Embarking_on_a_voyage",
-      "id": "texts/frankenstein.txt#Embarking_on_a_voyage"
+      "name": "Embarking_on_a_voyage"
      },
      "causedBy": {
-      "name": "Embarking_on_a_voyage_to_the_North_Pole",
-      "id": "texts/frankenstein.txt#Embarking_on_a_voyage_to_the_North_Pole"
-     },
-     "id": "Joy"
+      "name": "Embarking_on_a_voyage_to_the_North_Pole"
+     }
     },
     {
      "name": "Trust",
      "hasIntensity": 0.8,
      "quote": "He trusted the stranger to reveal his tale and was grateful for the offered communication.",
      "hasObject": {
-      "name": "Stranger_s_narrative",
-      "id": "texts/frankenstein.txt#Stranger_s_narrative"
+      "name": "Stranger_s_narrative"
      },
      "causedBy": {
-      "name": "Stranger_s_promise_to_reveal_his_narrative",
-      "id": "texts/frankenstein.txt#Stranger_s_promise_to_reveal_his_narrative"
-     },
-     "id": "Trust"
+      "name": "Stranger_s_promise_to_reveal_his_narrative"
+     }
     },
     {
      "name": "Admiration",
      "hasIntensity": 0.9,
      "quote": "He feels exquisite pleasure in dwelling on the recollections of childhood and the virtues of his parents.",
      "hasObject": {
-      "name": "Childhood_memories",
-      "id": "texts/frankenstein.txt#Childhood_memories"
+      "name": "Childhood_memories"
      },
      "causedBy": {
-      "name": "Recollections_of_childhood",
-      "id": "texts/frankenstein.txt#Recollections_of_childhood"
-     },
-     "id": "Admiration"
+      "name": "Recollections_of_childhood"
+     }
     },
     {
      "name": "Interest",
      "hasIntensity": 0.8,
      "quote": "He feels a desire to learn the secrets of heaven and earth and is eager to investigate the causes of things.",
      "hasObject": {
-      "name": "Secrets_of_heaven_and_earth",
-      "id": "texts/frankenstein.txt#Secrets_of_heaven_and_earth"
+      "name": "Secrets_of_heaven_and_earth"
      },
      "causedBy": {
-      "name": "Desire_for_knowledge",
-      "id": "texts/frankenstein.txt#Desire_for_knowledge"
-     },
-     "id": "Interest"
+      "name": "Desire_for_knowledge"
+     }
     }
-   ],
-   "id": "texts/frankenstein.txt#Robert_Walton"
+   ]
   },
   {
    "name": "Elizabeth_Lavenza",
@@ -70,31 +57,24 @@
      "hasIntensity": 0.9,
      "quote": "Everyone loved Elizabeth, and the attachment with which all regarded her became Robert's pride and delight.",
      "hasObject": {
-      "name": "Elizabeth",
-      "id": "texts/frankenstein.txt#Elizabeth"
+      "name": "Elizabeth"
      },
      "causedBy": {
-      "name": "Elizabeth_s_arrival_as_a_gift",
-      "id": "texts/frankenstein.txt#Elizabeth_s_arrival_as_a_gift"
-     },
-     "id": "Love"
+      "name": "Elizabeth_s_arrival_as_a_gift"
+     }
     },
     {
      "name": "Sympathy",
      "hasIntensity": 0.9,
      "quote": "Her sympathy was a blessing to all and her presence was a living spirit of love.",
      "hasObject": {
-      "name": "Sympathy",
-      "id": "texts/frankenstein.txt#Sympathy"
+      "name": "Sympathy"
      },
      "causedBy": {
-      "name": "Elizabeth_s_presence",
-      "id": "texts/frankenstein.txt#Elizabeth_s_presence"
-     },
-     "id": "Sympathy"
+      "name": "Elizabeth_s_presence"
+     }
     }
-   ],
-   "id": "texts/frankenstein.txt#Elizabeth_Lavenza"
+   ]
   },
   {
    "name": "Henry_Clerval",
@@ -104,163 +84,124 @@
      "hasIntensity": 0.8,
      "quote": "He loved enterprise, hardship, and danger for its own sake and was deeply read in books of chivalry and romance.",
      "hasObject": {
-      "name": "Adventure",
-      "id": "texts/frankenstein.txt#Adventure"
+      "name": "Adventure"
      },
      "causedBy": {
-      "name": "Love_for_adventure",
-      "id": "texts/frankenstein.txt#Love_for_adventure"
-     },
-     "id": "Adventurousness"
+      "name": "Love_for_adventure"
+     }
     },
     {
      "name": "Generosity",
      "hasIntensity": 0.9,
      "quote": "He was thoughtful in his generosity and full of kindness and tenderness amidst his passion for adventurous exploits.",
      "hasObject": {
-      "name": "Kindness",
-      "id": "texts/frankenstein.txt#Kindness"
+      "name": "Kindness"
      },
      "causedBy": {
-      "name": "Generosity_and_kindness",
-      "id": "texts/frankenstein.txt#Generosity_and_kindness"
-     },
-     "id": "Generosity"
+      "name": "Generosity_and_kindness"
+     }
     }
-   ],
-   "id": "texts/frankenstein.txt#Henry_Clerval"
+   ]
   }
  ],
  "Events": [
   {
    "name": "Embarking_on_a_voyage_to_the_North_Pole",
    "takePlaceAt": {
-    "name": "Geneva",
-    "id": "texts/frankenstein.txt#Geneva"
+    "name": "Geneva"
    },
    "hasParticipant": {
-    "name": "Robert_Walton",
-    "id": "texts/frankenstein.txt#Robert_Walton"
-   },
-   "id": "texts/frankenstein.txt#Embarking_on_a_voyage_to_the_North_Pole"
+    "name": "Robert_Walton"
+   }
   },
   {
    "name": "Stranger_s_promise_to_reveal_his_narrative",
    "takePlaceAt": {
-    "name": "Geneva",
-    "id": "texts/frankenstein.txt#Geneva"
+    "name": "Geneva"
    },
    "hasParticipant": {
-    "name": "Robert_Walton",
-    "id": "texts/frankenstein.txt#Robert_Walton"
-   },
-   "id": "texts/frankenstein.txt#Stranger_s_promise_to_reveal_his_narrative"
+    "name": "Robert_Walton"
+   }
   },
   {
    "name": "Recollections_of_childhood",
    "takePlaceAt": {
-    "name": "Geneva",
-    "id": "texts/frankenstein.txt#Geneva"
+    "name": "Geneva"
    },
    "hasParticipant": {
-    "name": "Robert_Walton",
-    "id": "texts/frankenstein.txt#Robert_Walton"
-   },
-   "id": "texts/frankenstein.txt#Recollections_of_childhood"
+    "name": "Robert_Walton"
+   }
   },
   {
    "name": "Desire_for_knowledge",
    "takePlaceAt": {
-    "name": "Geneva",
-    "id": "texts/frankenstein.txt#Geneva"
+    "name": "Geneva"
    },
    "hasParticipant": {
-    "name": "Robert_Walton",
-    "id": "texts/frankenstein.txt#Robert_Walton"
-   },
-   "id": "texts/frankenstein.txt#Desire_for_knowledge"
+    "name": "Robert_Walton"
+   }
   },
   {
    "name": "Elizabeth_s_arrival_as_a_gift",
    "takePlaceAt": {
-    "name": "Geneva",
-    "id": "texts/frankenstein.txt#Geneva"
+    "name": "Geneva"
    },
    "hasParticipant": {
-    "name": "Robert_Walton",
-    "id": "texts/frankenstein.txt#Robert_Walton"
-   },
-   "id": "texts/frankenstein.txt#Elizabeth_s_arrival_as_a_gift"
+    "name": "Robert_Walton"
+   }
   },
   {
    "name": "Elizabeth_s_presence",
    "takePlaceAt": {
-    "name": "Geneva",
-    "id": "texts/frankenstein.txt#Geneva"
+    "name": "Geneva"
    },
    "hasParticipant": {
-    "name": "Robert_Walton",
-    "id": "texts/frankenstein.txt#Robert_Walton"
-   },
-   "id": "texts/frankenstein.txt#Elizabeth_s_presence"
+    "name": "Robert_Walton"
+   }
   },
   {
    "name": "Love_for_adventure",
    "takePlaceAt": {
-    "name": "Geneva",
-    "id": "texts/frankenstein.txt#Geneva"
+    "name": "Geneva"
    },
    "hasParticipant": {
-    "name": "Henry_Clerval",
-    "id": "texts/frankenstein.txt#Henry_Clerval"
-   },
-   "id": "texts/frankenstein.txt#Love_for_adventure"
+    "name": "Henry_Clerval"
+   }
   },
   {
    "name": "Generosity_and_kindness",
    "takePlaceAt": {
-    "name": "Geneva",
-    "id": "texts/frankenstein.txt#Geneva"
+    "name": "Geneva"
    },
    "hasParticipant": {
-    "name": "Henry_Clerval",
-    "id": "texts/frankenstein.txt#Henry_Clerval"
-   },
-   "id": "texts/frankenstein.txt#Generosity_and_kindness"
+    "name": "Henry_Clerval"
+   }
   }
  ],
  "Places": [
   {
-   "name": "Geneva",
-   "id": "texts/frankenstein.txt#Geneva"
+   "name": "Geneva"
   },
   {
-   "name": "Geneva",
-   "id": "texts/frankenstein.txt#Geneva"
+   "name": "Geneva"
   },
   {
-   "name": "Geneva",
-   "id": "texts/frankenstein.txt#Geneva"
+   "name": "Geneva"
   },
   {
-   "name": "Geneva",
-   "id": "texts/frankenstein.txt#Geneva"
+   "name": "Geneva"
   },
   {
-   "name": "Geneva",
-   "id": "texts/frankenstein.txt#Geneva"
+   "name": "Geneva"
   },
   {
-   "name": "Geneva",
-   "id": "texts/frankenstein.txt#Geneva"
+   "name": "Geneva"
   },
   {
-   "name": "Geneva",
-   "id": "texts/frankenstein.txt#Geneva"
+   "name": "Geneva"
   },
   {
-   "name": "Geneva",
-   "id": "texts/frankenstein.txt#Geneva"
+   "name": "Geneva"
   }
  ]
 }

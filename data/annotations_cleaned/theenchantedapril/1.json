@@ -8,33 +8,26 @@
      "hasIntensity": 1,
      "quote": "The sun poured in on her. The sea lay asleep in it, hardly stirring. Across the bay the lovely mountains, exquisitely different in colour, were asleep too in the light; and underneath her window, at the bottom of the flower-starred grass slope from which the wall of the castle rose up, was a great cypress, cutting through the delicate blues and violets and rose-colours of the mountains and the sea like a great black sword. She stared. Such beauty; and she there to see it. Such beauty; and she alive to feel it. Her face was bathed in light. Lovely scents came up to the window and caressed her. A tiny breeze gently lifted her hair. Far out in the bay a cluster of almost motionless fishing boats hovered like a flock of white birds on the tranquil sea. How beautiful, how beautiful. Not to have died before this . . . to have been allowed to see, breathe, feel this. . . . She stared, her lips parted. Happy? Poor, ordinary, everyday word. But what could one say, how could one describe it? It was as though she could hardly stay inside herself, it was as though she were too small to hold so much of joy, it was as though she were washed through with light. And how astonishing to feel this sheer bliss, for here she was, not doing and not going to do a single unselfish thing, not going to do a thing she didn’t want to do. According to everybody she had ever come across she ought at least to have twinges. She had not one twinge. Something was wrong somewhere. Wonderful that at home she should have been so good, so terribly good, and merely felt tormented. Twinges of every sort had there been her portion; aches, hurts, discouragements, and she the whole time being steadily unselfish. Now she had taken off all her goodness and left it behind her like a heap of rain-sodden clothes, and she only felt joy. She was naked of goodness, and was rejoicing in being naked. She was stripped, and exulting. And there, away in the dim mugginess of Hampstead, was Mellersh being angry. She tried to visualise Mellersh, she tried to see him having breakfast and thinking bitter things about her; and lo, Mellersh himself began to shimmer, became rose-colour, became delicate violet, became an enchanting blue, became formless, became iridescent. Actually Mellersh, after quivering a minute, was lost in light. \"Well,\" thought Mrs. Wilkins, staring, as it were, after him. How extraordinary not to be able to visualise Mellersh; and she who used to know every feature, every expression of his by heart. She simply could not see him as he was. She could only see him resolved into beauty, melted into harmony with everything else. The familiar words of the General Thanksgiving came quite naturally into her mind, and she found herself blessing God for her creation, preservation, and all the blessings of this life, but above all for His inestimable Love; out loud; in a burst of acknowledgment. While Mellersh, at that moment angrily pulling on his boots before going out into the dripping streets, was indeed thinking bitter things about her.",
      "hasObject": {
-      "name": "Beauty_of_Italy",
-      "id": "texts/theenchantedapril.txt#Beauty_of_Italy"
+      "name": "Beauty_of_Italy"
      },
      "causedBy": {
-      "name": "Viewing_the_beauty_of_Italy_from_her_window",
-      "id": "texts/theenchantedapril.txt#Viewing_the_beauty_of_Italy_from_her_window"
-     },
-     "id": "Joy"
+      "name": "Viewing_the_beauty_of_Italy_from_her_window"
+     }
     }
-   ],
-   "id": "texts/theenchantedapril.txt#Mrs_Wilkins"
+   ]
   }
  ],
  "Events": [
   {
    "name": "Viewing_the_beauty_of_Italy_from_her_window",
    "takePlaceAt": {
-    "name": "Her_bedroom_at_San_Salvatore",
-    "id": "texts/theenchantedapril.txt#Her_bedroom_at_San_Salvatore"
-   },
-   "id": "texts/theenchantedapril.txt#Viewing_the_beauty_of_Italy_from_her_window"
+    "name": "Her_bedroom_at_San_Salvatore"
+   }
   }
  ],
  "Places": [
   {
-   "name": "Her_bedroom_at_San_Salvatore",
-   "id": "texts/theenchantedapril.txt#Her_bedroom_at_San_Salvatore"
+   "name": "Her_bedroom_at_San_Salvatore"
   }
  ]
 }

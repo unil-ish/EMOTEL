@@ -8,45 +8,35 @@
      "hasIntensity": 0.7,
      "quote": "But let me have one more good round look aloft here at the sea; there’s time for that. An old, old sight, and yet somehow so young; aye, and not changed a wink since I first saw it, a boy, from the sand-hills of Nantucket!",
      "hasObject": {
-      "name": "Sea",
-      "id": "texts/mobydick.txt#Sea"
+      "name": "Sea"
      },
      "causedBy": {
-      "name": "Looking_at_the_sea",
-      "id": "texts/mobydick.txt#Looking_at_the_sea"
-     },
-     "id": "Anticipation"
+      "name": "Looking_at_the_sea"
+     }
     },
     {
      "name": "Fear",
      "hasIntensity": 0.8,
      "quote": "Oh! my God! what is this that shoots through me, and leaves me so deadly calm, yet expectant,—fixed at the top of a shudder!",
      "hasObject": {
-      "name": "Unknown_feeling",
-      "id": "texts/mobydick.txt#Unknown_feeling"
+      "name": "Unknown_feeling"
      },
      "causedBy": {
-      "name": "Feeling_deadly_calm_and_expectant",
-      "id": "texts/mobydick.txt#Feeling_deadly_calm_and_expectant"
-     },
-     "id": "Fear"
+      "name": "Feeling_deadly_calm_and_expectant"
+     }
     },
     {
      "name": "Confusion",
      "hasIntensity": 0.6,
      "quote": "Future things swim before me, as in empty outlines and skeletons; all the past is somehow grown dim.",
      "hasObject": {
-      "name": "Future",
-      "id": "texts/mobydick.txt#Future"
+      "name": "Future"
      },
      "causedBy": {
-      "name": "Thinking_about_the_future",
-      "id": "texts/mobydick.txt#Thinking_about_the_future"
-     },
-     "id": "Confusion"
+      "name": "Thinking_about_the_future"
+     }
     }
-   ],
-   "id": "texts/mobydick.txt#Ishmael"
+   ]
   },
   {
    "name": "Starbuck",
@@ -56,31 +46,24 @@
      "hasIntensity": 0.7,
      "quote": "Oh, my God! what is this that shoots through me, and leaves me so deadly calm, yet expectant,—fixed at the top of a shudder!",
      "hasObject": {
-      "name": "Sharks",
-      "id": "texts/mobydick.txt#Sharks"
+      "name": "Sharks"
      },
      "causedBy": {
-      "name": "Watching_the_boat_being_followed_by_sharks",
-      "id": "texts/mobydick.txt#Watching_the_boat_being_followed_by_sharks"
-     },
-     "id": "Fear"
+      "name": "Watching_the_boat_being_followed_by_sharks"
+     }
     },
     {
      "name": "Confusion",
      "hasIntensity": 0.8,
      "quote": "Heart of wrought steel! murmured Starbuck gazing over the side, and following with his eyes the receding boat—canst thou yet ring boldly to that sight?",
      "hasObject": {
-      "name": "Boat_being_followed_by_sharks",
-      "id": "texts/mobydick.txt#Boat_being_followed_by_sharks"
+      "name": "Boat_being_followed_by_sharks"
      },
      "causedBy": {
-      "name": "Watching_the_boat_being_followed_by_sharks",
-      "id": "texts/mobydick.txt#Watching_the_boat_being_followed_by_sharks"
-     },
-     "id": "Confusion"
+      "name": "Watching_the_boat_being_followed_by_sharks"
+     }
     }
-   ],
-   "id": "texts/mobydick.txt#Starbuck"
+   ]
   },
   {
    "name": "Ahab",
@@ -90,119 +73,91 @@
      "hasIntensity": 0.9,
      "quote": "Forehead to forehead I meet thee, this third time, Moby Dick!",
      "hasObject": {
-      "name": "Moby_Dick",
-      "id": "texts/mobydick.txt#Moby_Dick"
+      "name": "Moby_Dick"
      },
      "causedBy": {
-      "name": "Meeting_Moby_Dick",
-      "id": "texts/mobydick.txt#Meeting_Moby_Dick"
-     },
-     "id": "Anticipation"
+      "name": "Meeting_Moby_Dick"
+     }
     },
     {
      "name": "Fear",
      "hasIntensity": 0.8,
      "quote": "Drive, drive in your nails, oh ye waves! to their uttermost heads drive them in! ye but strike a thing without a lid; and no coffin and no hearse can be mine:—and hemp only can kill me! Ha! ha!",
      "hasObject": {
-      "name": "Death",
-      "id": "texts/mobydick.txt#Death"
+      "name": "Death"
      },
      "causedBy": {
-      "name": "Feeling_fear_of_death",
-      "id": "texts/mobydick.txt#Feeling_fear_of_death"
-     },
-     "id": "Fear"
+      "name": "Feeling_fear_of_death"
+     }
     }
-   ],
-   "id": "texts/mobydick.txt#Ahab"
+   ]
   }
  ],
  "Events": [
   {
    "name": "Looking_at_the_sea",
    "takePlaceAt": {
-    "name": "On_the_ship_s_deck",
-    "id": "texts/mobydick.txt#On_the_ship_s_deck"
-   },
-   "id": "texts/mobydick.txt#Looking_at_the_sea"
+    "name": "On_the_ship_s_deck"
+   }
   },
   {
    "name": "Feeling_deadly_calm_and_expectant",
    "takePlaceAt": {
-    "name": "On_the_ship_s_deck",
-    "id": "texts/mobydick.txt#On_the_ship_s_deck"
-   },
-   "id": "texts/mobydick.txt#Feeling_deadly_calm_and_expectant"
+    "name": "On_the_ship_s_deck"
+   }
   },
   {
    "name": "Thinking_about_the_future",
    "takePlaceAt": {
-    "name": "On_the_ship_s_deck",
-    "id": "texts/mobydick.txt#On_the_ship_s_deck"
-   },
-   "id": "texts/mobydick.txt#Thinking_about_the_future"
+    "name": "On_the_ship_s_deck"
+   }
   },
   {
    "name": "Watching_the_boat_being_followed_by_sharks",
    "takePlaceAt": {
-    "name": "On_the_ship_s_deck",
-    "id": "texts/mobydick.txt#On_the_ship_s_deck"
-   },
-   "id": "texts/mobydick.txt#Watching_the_boat_being_followed_by_sharks"
+    "name": "On_the_ship_s_deck"
+   }
   },
   {
    "name": "Watching_the_boat_being_followed_by_sharks",
    "takePlaceAt": {
-    "name": "On_the_ship_s_deck",
-    "id": "texts/mobydick.txt#On_the_ship_s_deck"
-   },
-   "id": "texts/mobydick.txt#Watching_the_boat_being_followed_by_sharks"
+    "name": "On_the_ship_s_deck"
+   }
   },
   {
    "name": "Meeting_Moby_Dick",
    "takePlaceAt": {
-    "name": "On_the_ship_s_deck",
-    "id": "texts/mobydick.txt#On_the_ship_s_deck"
-   },
-   "id": "texts/mobydick.txt#Meeting_Moby_Dick"
+    "name": "On_the_ship_s_deck"
+   }
   },
   {
    "name": "Feeling_fear_of_death",
    "takePlaceAt": {
-    "name": "On_the_ship_s_deck",
-    "id": "texts/mobydick.txt#On_the_ship_s_deck"
-   },
-   "id": "texts/mobydick.txt#Feeling_fear_of_death"
+    "name": "On_the_ship_s_deck"
+   }
   }
  ],
  "Places": [
   {
-   "name": "On_the_ship_s_deck",
-   "id": "texts/mobydick.txt#On_the_ship_s_deck"
+   "name": "On_the_ship_s_deck"
   },
   {
-   "name": "On_the_ship_s_deck",
-   "id": "texts/mobydick.txt#On_the_ship_s_deck"
+   "name": "On_the_ship_s_deck"
   },
   {
-   "name": "On_the_ship_s_deck",
-   "id": "texts/mobydick.txt#On_the_ship_s_deck"
+   "name": "On_the_ship_s_deck"
   },
   {
-   "name": "On_the_ship_s_deck",
-   "id": "texts/mobydick.txt#On_the_ship_s_deck"
+   "name": "On_the_ship_s_deck"
   },
   {
-   "name": "On_the_ship_s_deck",
-   "id": "texts/mobydick.txt#On_the_ship_s_deck"
+   "name": "On_the_ship_s_deck"
   },
   {
-   "name": "On_the_ship_s_deck",
-   "id": "texts/mobydick.txt#On_the_ship_s_deck"
+   "name": "On_the_ship_s_deck"
   },
   {
-   "name": "On_the_ship_s_deck",
-   "id": "texts/mobydick.txt#On_the_ship_s_deck"
+   "name": "On_the_ship_s_deck"
   }
  ]
 }

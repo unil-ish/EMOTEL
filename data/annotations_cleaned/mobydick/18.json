@@ -8,45 +8,35 @@
      "hasIntensity": 0.7,
      "quote": "“It was the first time in my life that I ever cruised on the Line,” began the Englishman. “I was ignorant of the White Whale at that time. Well, one day we lowered for a pod of four or five whales, and my boat fastened to one of them; a regular circus horse he was, too, that went milling and milling round so, that my boat’s crew could only trim dish, by sitting all their sterns on the outer gunwale. Presently up breaches from the bottom of the sea a bouncing great whale, with a milky-white head and hump, all crows’ feet and wrinkles.”",
      "hasObject": {
-      "name": "White_Whale",
-      "id": "texts/mobydick.txt#White_Whale"
+      "name": "White_Whale"
      },
      "causedBy": {
-      "name": "Englishman_s_encounter_with_the_White_Whale",
-      "id": "texts/mobydick.txt#Englishman_s_encounter_with_the_White_Whale"
-     },
-     "id": "Trust"
+      "name": "Englishman_s_encounter_with_the_White_Whale"
+     }
     },
     {
      "name": "Surprise",
      "hasIntensity": 0.8,
      "quote": "“Oh!” cried the one-armed captain, “oh, yes! Well; after he sounded, we didn’t see him again for some time; in fact, as I before hinted, I didn’t then know what whale it was that had served me such a trick, till some time afterwards, when coming back to the Line, we heard about Moby Dick—as some call him—and then I knew it was he.”",
      "hasObject": {
-      "name": "Moby_Dick",
-      "id": "texts/mobydick.txt#Moby_Dick"
+      "name": "Moby_Dick"
      },
      "causedBy": {
-      "name": "Revelation_about_Moby_Dick",
-      "id": "texts/mobydick.txt#Revelation_about_Moby_Dick"
-     },
-     "id": "Surprise"
+      "name": "Revelation_about_Moby_Dick"
+     }
     },
     {
      "name": "Anger",
      "hasIntensity": 0.6,
      "quote": "“What became of the White Whale?” now cried Ahab, who thus far had been impatiently listening to this by-play between the two Englishmen.",
      "hasObject": {
-      "name": "White_Whale",
-      "id": "texts/mobydick.txt#White_Whale"
+      "name": "White_Whale"
      },
      "causedBy": {
-      "name": "Frustration_with_lack_of_information",
-      "id": "texts/mobydick.txt#Frustration_with_lack_of_information"
-     },
-     "id": "Anger"
+      "name": "Frustration_with_lack_of_information"
+     }
     }
-   ],
-   "id": "texts/mobydick.txt#Ahab"
+   ]
   },
   {
    "name": "Englishman",
@@ -56,17 +46,13 @@
      "hasIntensity": 0.8,
      "quote": "“Oh!” cried the one-armed captain, “oh, yes! Well; after he sounded, we didn’t see him again for some time; in fact, as I before hinted, I didn’t then know what whale it was that had served me such a trick, till some time afterwards, when coming back to the Line, we heard about Moby Dick—as some call him—and then I knew it was he.”",
      "hasObject": {
-      "name": "Moby_Dick",
-      "id": "texts/mobydick.txt#Moby_Dick"
+      "name": "Moby_Dick"
      },
      "causedBy": {
-      "name": "Revelation_about_Moby_Dick",
-      "id": "texts/mobydick.txt#Revelation_about_Moby_Dick"
-     },
-     "id": "Surprise"
+      "name": "Revelation_about_Moby_Dick"
+     }
     }
-   ],
-   "id": "texts/mobydick.txt#Englishman"
+   ]
   },
   {
    "name": "Onearmed_captain",
@@ -76,125 +62,97 @@
      "hasIntensity": 0.8,
      "quote": "“Oh!” cried the one-armed captain, “oh, yes! Well; after he sounded, we didn’t see him again for some time; in fact, as I before hinted, I didn’t then know what whale it was that had served me such a trick, till some time afterwards, when coming back to the Line, we heard about Moby Dick—as some call him—and then I knew it was he.”",
      "hasObject": {
-      "name": "Moby_Dick",
-      "id": "texts/mobydick.txt#Moby_Dick"
+      "name": "Moby_Dick"
      },
      "causedBy": {
-      "name": "Revelation_about_Moby_Dick",
-      "id": "texts/mobydick.txt#Revelation_about_Moby_Dick"
-     },
-     "id": "Surprise"
+      "name": "Revelation_about_Moby_Dick"
+     }
     }
-   ],
-   "id": "texts/mobydick.txt#Onearmed_captain"
+   ]
   }
  ],
  "Events": [
   {
    "name": "Englishman_s_encounter_with_the_White_Whale",
    "takePlaceAt": {
-    "name": "At_sea",
-    "id": "texts/mobydick.txt#At_sea"
+    "name": "At_sea"
    },
    "hasParticipant": [
     {
-     "name": "Englishman",
-     "id": "texts/mobydick.txt#Englishman"
+     "name": "Englishman"
     },
     {
-     "name": "Ahab",
-     "id": "texts/mobydick.txt#Ahab"
+     "name": "Ahab"
     }
-   ],
-   "id": "texts/mobydick.txt#Englishman_s_encounter_with_the_White_Whale"
+   ]
   },
   {
    "name": "Revelation_about_Moby_Dick",
    "takePlaceAt": {
-    "name": "At_sea",
-    "id": "texts/mobydick.txt#At_sea"
+    "name": "At_sea"
    },
    "hasParticipant": [
     {
-     "name": "Onearmed_captain",
-     "id": "texts/mobydick.txt#Onearmed_captain"
+     "name": "Onearmed_captain"
     },
     {
-     "name": "Ahab",
-     "id": "texts/mobydick.txt#Ahab"
+     "name": "Ahab"
     }
-   ],
-   "id": "texts/mobydick.txt#Revelation_about_Moby_Dick"
+   ]
   },
   {
    "name": "Frustration_with_lack_of_information",
    "takePlaceAt": {
-    "name": "At_sea",
-    "id": "texts/mobydick.txt#At_sea"
+    "name": "At_sea"
    },
    "hasParticipant": {
-    "name": "Ahab",
-    "id": "texts/mobydick.txt#Ahab"
-   },
-   "id": "texts/mobydick.txt#Frustration_with_lack_of_information"
+    "name": "Ahab"
+   }
   },
   {
    "name": "Revelation_about_Moby_Dick",
    "takePlaceAt": {
-    "name": "At_sea",
-    "id": "texts/mobydick.txt#At_sea"
+    "name": "At_sea"
    },
    "hasParticipant": [
     {
-     "name": "Onearmed_captain",
-     "id": "texts/mobydick.txt#Onearmed_captain"
+     "name": "Onearmed_captain"
     },
     {
-     "name": "Ahab",
-     "id": "texts/mobydick.txt#Ahab"
+     "name": "Ahab"
     }
-   ],
-   "id": "texts/mobydick.txt#Revelation_about_Moby_Dick"
+   ]
   },
   {
    "name": "Revelation_about_Moby_Dick",
    "takePlaceAt": {
-    "name": "At_sea",
-    "id": "texts/mobydick.txt#At_sea"
+    "name": "At_sea"
    },
    "hasParticipant": [
     {
-     "name": "Onearmed_captain",
-     "id": "texts/mobydick.txt#Onearmed_captain"
+     "name": "Onearmed_captain"
     },
     {
-     "name": "Ahab",
-     "id": "texts/mobydick.txt#Ahab"
+     "name": "Ahab"
     }
-   ],
-   "id": "texts/mobydick.txt#Revelation_about_Moby_Dick"
+   ]
   }
  ],
  "Places": [
   {
-   "name": "At_sea",
-   "id": "texts/mobydick.txt#At_sea"
+   "name": "At_sea"
   },
   {
-   "name": "At_sea",
-   "id": "texts/mobydick.txt#At_sea"
+   "name": "At_sea"
   },
   {
-   "name": "At_sea",
-   "id": "texts/mobydick.txt#At_sea"
+   "name": "At_sea"
   },
   {
-   "name": "At_sea",
-   "id": "texts/mobydick.txt#At_sea"
+   "name": "At_sea"
   },
   {
-   "name": "At_sea",
-   "id": "texts/mobydick.txt#At_sea"
+   "name": "At_sea"
   }
  ]
 }

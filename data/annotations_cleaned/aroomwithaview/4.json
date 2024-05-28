@@ -8,43 +8,34 @@
      "hasIntensity": 0.7,
      "quote": "The ghosts were returning; they filled Italy, they were even usurping the places she had known as a child. The Sacred Lake would never be the same again, and, on Sunday week, something would even happen to Windy Corner. How would she fight against ghosts? For a moment the visible world faded away, and memories and emotions alone seemed real.",
      "causedBy": {
-      "name": "Memories_of_past_experiences",
-      "id": "texts/aroomwithaview.txt#Memories_of_past_experiences"
-     },
-     "id": "Anxiety"
+      "name": "Memories_of_past_experiences"
+     }
     },
     {
      "name": "Resentment",
      "hasIntensity": 0.6,
      "quote": "It was more than her nerves could stand. And she could not protest violently after her mother’s goodness to her upstairs.",
      "causedBy": {
-      "name": "Mother_s_insistence_on_inviting_Miss_Bartlett",
-      "id": "texts/aroomwithaview.txt#Mother_s_insistence_on_inviting_Miss_Bartlett"
-     },
-     "id": "Resentment"
+      "name": "Mother_s_insistence_on_inviting_Miss_Bartlett"
+     }
     },
     {
      "name": "Dread",
      "hasIntensity": 0.8,
      "quote": "How dreadful if she really wished to remain near him! Of course, the wish was due to nerves, which love to play such perverse tricks upon us.",
      "causedBy": {
-      "name": "Feeling_drawn_to_George_Emerson",
-      "id": "texts/aroomwithaview.txt#Feeling_drawn_to_George_Emerson"
-     },
-     "id": "Dread"
+      "name": "Feeling_drawn_to_George_Emerson"
+     }
     },
     {
      "name": "Relief",
      "hasIntensity": 0.5,
      "quote": "Lucy faced the situation bravely, though, like most of us, she only faced the situation that encompassed her.",
      "causedBy": {
-      "name": "Accepting_Miss_Bartlett_s_visit_and_George_Emerson_s_invitation_to_tennis",
-      "id": "texts/aroomwithaview.txt#Accepting_Miss_Bartlett_s_visit_and_George_Emerson"
-     },
-     "id": "Relief"
+      "name": "Accepting_Miss_Bartlett_s_visit_and_George_Emerson_s_invitation_to_tennis"
+     }
     }
-   ],
-   "id": "texts/aroomwithaview.txt#Lucy_Honeychurch"
+   ]
   },
   {
    "name": "Cecil_Vyse",
@@ -54,99 +45,76 @@
      "hasIntensity": 0.7,
      "quote": "Cecil frowned again. Oh, these Honeychurches! Eggs, boilers, hydrangeas, maids—of such were their lives compact.",
      "causedBy": {
-      "name": "Discussion_about_Miss_Bartlett_and_the_Honeychurches_lives",
-      "id": "texts/aroomwithaview.txt#Discussion_about_Miss_Bartlett_and_the_Honeychurch"
-     },
-     "id": "Irritation"
+      "name": "Discussion_about_Miss_Bartlett_and_the_Honeychurches_lives"
+     }
     },
     {
      "name": "Displeasure",
      "hasIntensity": 0.6,
      "quote": "“May me and Lucy get down from our chairs?” he asked, with scarcely veiled insolence. “We don’t want no dessert.”",
      "causedBy": {
-      "name": "Feeling_annoyed_at_the_conversation_and_situation_at_dinner",
-      "id": "texts/aroomwithaview.txt#Feeling_annoyed_at_the_conversation_and_situation_"
-     },
-     "id": "Displeasure"
+      "name": "Feeling_annoyed_at_the_conversation_and_situation_at_dinner"
+     }
     }
-   ],
-   "id": "texts/aroomwithaview.txt#Cecil_Vyse"
+   ]
   }
  ],
  "Events": [
   {
    "name": "Memories_of_past_experiences",
    "takePlaceAt": {
-    "name": "Italy_and_familiar_places",
-    "id": "texts/aroomwithaview.txt#Italy_and_familiar_places"
-   },
-   "id": "texts/aroomwithaview.txt#Memories_of_past_experiences"
+    "name": "Italy_and_familiar_places"
+   }
   },
   {
    "name": "Mother_s_insistence_on_inviting_Miss_Bartlett",
    "takePlaceAt": {
-    "name": "Home",
-    "id": "texts/aroomwithaview.txt#Home"
-   },
-   "id": "texts/aroomwithaview.txt#Mother_s_insistence_on_inviting_Miss_Bartlett"
+    "name": "Home"
+   }
   },
   {
    "name": "Feeling_drawn_to_George_Emerson",
    "takePlaceAt": {
-    "name": "Rectory",
-    "id": "texts/aroomwithaview.txt#Rectory"
-   },
-   "id": "texts/aroomwithaview.txt#Feeling_drawn_to_George_Emerson"
+    "name": "Rectory"
+   }
   },
   {
    "name": "Accepting_Miss_Bartlett_s_visit_and_George_Emerson_s_invitation_to_tennis",
    "takePlaceAt": {
-    "name": "Home_and_Rectory",
-    "id": "texts/aroomwithaview.txt#Home_and_Rectory"
-   },
-   "id": "texts/aroomwithaview.txt#Accepting_Miss_Bartlett_s_visit_and_George_Emerson"
+    "name": "Home_and_Rectory"
+   }
   },
   {
    "name": "Discussion_about_Miss_Bartlett_and_the_Honeychurches_lives",
    "takePlaceAt": {
-    "name": "Dinner_table",
-    "id": "texts/aroomwithaview.txt#Dinner_table"
-   },
-   "id": "texts/aroomwithaview.txt#Discussion_about_Miss_Bartlett_and_the_Honeychurch"
+    "name": "Dinner_table"
+   }
   },
   {
    "name": "Feeling_annoyed_at_the_conversation_and_situation_at_dinner",
    "takePlaceAt": {
-    "name": "Dinner_table",
-    "id": "texts/aroomwithaview.txt#Dinner_table"
-   },
-   "id": "texts/aroomwithaview.txt#Feeling_annoyed_at_the_conversation_and_situation_"
+    "name": "Dinner_table"
+   }
   }
  ],
  "Places": [
   {
-   "name": "Italy_and_familiar_places",
-   "id": "texts/aroomwithaview.txt#Italy_and_familiar_places"
+   "name": "Italy_and_familiar_places"
   },
   {
-   "name": "Home",
-   "id": "texts/aroomwithaview.txt#Home"
+   "name": "Home"
   },
   {
-   "name": "Rectory",
-   "id": "texts/aroomwithaview.txt#Rectory"
+   "name": "Rectory"
   },
   {
-   "name": "Home_and_Rectory",
-   "id": "texts/aroomwithaview.txt#Home_and_Rectory"
+   "name": "Home_and_Rectory"
   },
   {
-   "name": "Dinner_table",
-   "id": "texts/aroomwithaview.txt#Dinner_table"
+   "name": "Dinner_table"
   },
   {
-   "name": "Dinner_table",
-   "id": "texts/aroomwithaview.txt#Dinner_table"
+   "name": "Dinner_table"
   }
  ]
 }

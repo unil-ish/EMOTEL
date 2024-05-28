@@ -8,141 +8,110 @@
      "hasIntensity": 0.8,
      "quote": "I was summoned home by my father’s illness; and for a time I forgot, in anxiety about him, to wonder how my dear friends at Cranford were getting on.",
      "hasObject": {
-      "name": "Father_s_illness",
-      "id": "texts/cranford.txt#Father_s_illness"
+      "name": "Father_s_illness"
      },
      "causedBy": {
-      "name": "Father_s_illness",
-      "id": "texts/cranford.txt#Father_s_illness"
-     },
-     "id": "Anxiety"
+      "name": "Father_s_illness"
+     }
     },
     {
      "name": "Excitement",
      "hasIntensity": 0.9,
      "quote": "Such a piece of gaiety was going to happen as had not been seen or known of since Wombwell’s lions came, when one of them ate a little child’s arm.",
      "hasObject": {
-      "name": "Upcoming_event",
-      "id": "texts/cranford.txt#Upcoming_event"
+      "name": "Upcoming_event"
      },
      "causedBy": {
-      "name": "Upcoming_event_in_Cranford",
-      "id": "texts/cranford.txt#Upcoming_event_in_Cranford"
-     },
-     "id": "Excitement"
+      "name": "Upcoming_event_in_Cranford"
+     }
     },
     {
      "name": "Disappointment",
      "hasIntensity": 0.7,
      "quote": "It was in vain that I twirled the cap round on my hand to exhibit back and side fronts: her heart had been set upon a turban, and all she could do was to say, with resignation in her look and voice—“I am sure you did your best, my dear.",
      "hasObject": {
-      "name": "Cap",
-      "id": "texts/cranford.txt#Cap"
+      "name": "Cap"
      },
      "causedBy": {
-      "name": "Receiving_a_cap_instead_of_a_turban",
-      "id": "texts/cranford.txt#Receiving_a_cap_instead_of_a_turban"
-     },
-     "id": "Disappointment"
+      "name": "Receiving_a_cap_instead_of_a_turban"
+     }
     },
     {
      "name": "Contentment",
      "hasIntensity": 0.8,
      "quote": "And I dare say lavender will wear better than sea-green.  Well, after all, what is dress, that we should care anything about it?",
      "hasObject": {
-      "name": "Cap",
-      "id": "texts/cranford.txt#Cap"
+      "name": "Cap"
      },
      "causedBy": {
-      "name": "Accepting_the_cap",
-      "id": "texts/cranford.txt#Accepting_the_cap"
-     },
-     "id": "Contentment"
+      "name": "Accepting_the_cap"
+     }
     }
-   ],
-   "id": "texts/cranford.txt#Miss_Matty"
+   ]
   }
  ],
  "Events": [
   {
    "name": "Father_s_illness",
    "takePlaceAt": {
-    "name": "Home",
-    "id": "texts/cranford.txt#Home"
+    "name": "Home"
    },
    "hasParticipant": [
     {
-     "name": "Miss_Matty",
-     "id": "texts/cranford.txt#Miss_Matty"
+     "name": "Miss_Matty"
     },
     {
-     "name": "Father",
-     "id": "texts/cranford.txt#Father"
+     "name": "Father"
     }
-   ],
-   "id": "texts/cranford.txt#Father_s_illness"
+   ]
   },
   {
    "name": "Upcoming_event_in_Cranford",
    "takePlaceAt": {
-    "name": "Cranford",
-    "id": "texts/cranford.txt#Cranford"
-   },
-   "id": "texts/cranford.txt#Upcoming_event_in_Cranford"
+    "name": "Cranford"
+   }
   },
   {
    "name": "Receiving_a_cap_instead_of_a_turban",
    "takePlaceAt": {
-    "name": "Miss_Matty_s_bedroom",
-    "id": "texts/cranford.txt#Miss_Matty_s_bedroom"
+    "name": "Miss_Matty_s_bedroom"
    },
    "hasParticipant": [
     {
-     "name": "Miss_Matty",
-     "id": "texts/cranford.txt#Miss_Matty"
+     "name": "Miss_Matty"
     },
     {
-     "name": "Narrator",
-     "id": "texts/cranford.txt#Narrator"
+     "name": "Narrator"
     }
-   ],
-   "id": "texts/cranford.txt#Receiving_a_cap_instead_of_a_turban"
+   ]
   },
   {
    "name": "Accepting_the_cap",
    "takePlaceAt": {
-    "name": "Miss_Matty_s_bedroom",
-    "id": "texts/cranford.txt#Miss_Matty_s_bedroom"
+    "name": "Miss_Matty_s_bedroom"
    },
    "hasParticipant": [
     {
-     "name": "Miss_Matty",
-     "id": "texts/cranford.txt#Miss_Matty"
+     "name": "Miss_Matty"
     },
     {
-     "name": "Narrator",
-     "id": "texts/cranford.txt#Narrator"
+     "name": "Narrator"
     }
-   ],
-   "id": "texts/cranford.txt#Accepting_the_cap"
+   ]
   }
  ],
  "Places": [
   {
-   "name": "Home",
-   "id": "texts/cranford.txt#Home"
+   "name": "Home"
   },
   {
-   "name": "Cranford",
-   "id": "texts/cranford.txt#Cranford"
+   "name": "Cranford"
   },
   {
-   "name": "Miss_Matty_s_bedroom",
-   "id": "texts/cranford.txt#Miss_Matty_s_bedroom"
+   "name": "Miss_Matty_s_bedroom"
   },
   {
-   "name": "Miss_Matty_s_bedroom",
-   "id": "texts/cranford.txt#Miss_Matty_s_bedroom"
+   "name": "Miss_Matty_s_bedroom"
   }
  ]
 }
