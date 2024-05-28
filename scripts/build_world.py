@@ -111,7 +111,8 @@ def add_emotion(obj, n) -> None:
         _ = g.add((uri, EMOTEL.isIn, story))
 
         if "feltBy" in obj:
-            _ = g.add((uri, EMOTEL.feltBy, create_uri([obj["feltBy"]])))
+            for char in obj['feltBy']:
+                _ = g.add((uri, EMOTEL.feltBy, create_uri(char)))
 
         for prop in ["causedBy", "hasObject"]:
             x = obj.get(prop)
