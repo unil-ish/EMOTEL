@@ -65,9 +65,9 @@ Nous vous encourageons à exécuter nos scripts dans un environnement virtuel. P
 Ce projet a été réalisé par: (TODO: corriger les noms)
 
 - Zakari Rabet
-- Amélie
-- Annaël
-- Thibault
+- Amélie Mc Cormick
+- Annaël Madec-Prévost
+- Thibault Ziegler
 - Johan Cuda
 
 Développé à l'aide de la communauté Python et Protégé, ainsi qu'avec le soutien de ChatGPT.
