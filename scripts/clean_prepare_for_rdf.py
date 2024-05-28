@@ -5,7 +5,7 @@ import re
 from typing import Callable
 import owlready2 as owl
 import types
-from scripts.build_populated_ontology import get_all_jsons, JSON_DIRECTORY
+from build_populated_ontology import get_all_jsons, JSON_DIRECTORY
 
 def dict_iter_rec(obj, fn_condition: Callable, fn_apply: Callable) -> None:
     """Recherche récursivement les dictionnaires satisfaisant une condition et leur applique une fonction.

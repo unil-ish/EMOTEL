@@ -309,119 +309,7 @@
   <rdfs:subClassOf rdf:resource="#Sadness"/>
 </owl:Class>
 
-<owl:Class rdf:about="#Vindictiveness">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Deceit">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Bitterness">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Insanity">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Reflection">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Untamed">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Perplexity">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Defiance">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Confusion">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Amusement">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Calm">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Triumph">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Perturbation">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Embarrassment">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Ambition">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Tenderness">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Shyness">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Mistrust">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Ahab">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Impatience">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Pride">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Rosamond">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Queequeg">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Dedication">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Admonition">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Realization">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Anxiety">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Curiosity">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Jealousy">
+<owl:Class rdf:about="#Reproach">
   <rdfs:subClassOf rdf:resource="#Emotion"/>
 </owl:Class>
 
@@ -429,275 +317,7 @@
   <rdfs:subClassOf rdf:resource="#Emotion"/>
 </owl:Class>
 
-<owl:Class rdf:about="#Humor">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Insensibility">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Displeasure">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Astonishment">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Tranquility">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Starbuck">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Wonder">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Pleased">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Filial_Affection">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Compassion">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Restlessness">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Hope">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Irritation">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Despair">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Melvil">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Coolness">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Shame">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Forgiveness">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Composure">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Mischievousness">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Discomfort">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Shocked">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Loneliness">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Secret_understanding">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Longing">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Contentment">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Nervousness">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Sarcasm">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Affection">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Satisfaction">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Agreeableness">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Determination">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Pain">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Generosity">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Pleasure">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Bewilderment">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Rebellion">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Ratchcali">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Hopefulness">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Anguish">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Cheerfulness">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Heroism">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Vexation">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Moodiness">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Disappointment">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Suspicion">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Deplore">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Guilt">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Distress">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Chagrin">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Excitement">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Shock">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Deception">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Magnanimity">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Philosophical_Acceptance">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Gratitude">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Resignation">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Discontent">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Reluctance">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Pensive">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Languor">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Sneered_at">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Pity">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Freedom">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Humiliation">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Reproach">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Dissipation">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Melancholy">
+<owl:Class rdf:about="#Serene">
   <rdfs:subClassOf rdf:resource="#Emotion"/>
 </owl:Class>
 
@@ -705,103 +325,15 @@
   <rdfs:subClassOf rdf:resource="#Emotion"/>
 </owl:Class>
 
-<owl:Class rdf:about="#Presentiment">
+<owl:Class rdf:about="#Shocked">
   <rdfs:subClassOf rdf:resource="#Emotion"/>
 </owl:Class>
 
-<owl:Class rdf:about="#Moral_Upliftment">
+<owl:Class rdf:about="#Magnanimity">
   <rdfs:subClassOf rdf:resource="#Emotion"/>
 </owl:Class>
 
-<owl:Class rdf:about="#Passion">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Adventurousness">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Sorrow">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Frustration">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Selfdiscontent">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Mortification">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Uneasiness">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Mystery">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Serene">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Concern">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Dread">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Contemplation">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Dissatisfaction">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Resentment">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Fascination">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Indulgence">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Temptation">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Duty">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Happiness">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Envy">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Penitence">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Tension">
-  <rdfs:subClassOf rdf:resource="#Emotion"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Modesty">
+<owl:Class rdf:about="#Dedication">
   <rdfs:subClassOf rdf:resource="#Emotion"/>
 </owl:Class>
 
@@ -809,23 +341,47 @@
   <rdfs:subClassOf rdf:resource="#Emotion"/>
 </owl:Class>
 
-<owl:Class rdf:about="#Regret">
+<owl:Class rdf:about="#Sorrow">
   <rdfs:subClassOf rdf:resource="#Emotion"/>
 </owl:Class>
 
-<owl:Class rdf:about="#Discomfiture">
+<owl:Class rdf:about="#Presentiment">
   <rdfs:subClassOf rdf:resource="#Emotion"/>
 </owl:Class>
 
-<owl:Class rdf:about="#Comfort">
+<owl:Class rdf:about="#Philosophical_Acceptance">
   <rdfs:subClassOf rdf:resource="#Emotion"/>
 </owl:Class>
 
-<owl:Class rdf:about="#Impertinence">
+<owl:Class rdf:about="#Nervousness">
   <rdfs:subClassOf rdf:resource="#Emotion"/>
 </owl:Class>
 
-<owl:Class rdf:about="#Delight">
+<owl:Class rdf:about="#Mystery">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Agreeableness">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Displeasure">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Mortification">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Pride">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Envy">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Moral_Upliftment">
   <rdfs:subClassOf rdf:resource="#Emotion"/>
 </owl:Class>
 
@@ -833,11 +389,99 @@
   <rdfs:subClassOf rdf:resource="#Emotion"/>
 </owl:Class>
 
-<owl:Class rdf:about="#Friendliness">
+<owl:Class rdf:about="#Jealousy">
   <rdfs:subClassOf rdf:resource="#Emotion"/>
 </owl:Class>
 
-<owl:Class rdf:about="#Kindness">
+<owl:Class rdf:about="#Rebellion">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Hopefulness">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Uneasiness">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Defiance">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Tenderness">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Compassion">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Triumph">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Ambition">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Reflection">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Composure">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Sarcasm">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Adventurousness">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Duty">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Satisfaction">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Tranquility">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Disappointment">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Filial_Affection">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Shame">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Starbuck">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Impatience">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Discontent">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Pleased">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Passion">
   <rdfs:subClassOf rdf:resource="#Emotion"/>
 </owl:Class>
 
@@ -845,11 +489,367 @@
   <rdfs:subClassOf rdf:resource="#Emotion"/>
 </owl:Class>
 
-<owl:Class rdf:about="#Awkwardness">
+<owl:Class rdf:about="#Ahab">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Vexation">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Contentment">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Pain">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Anguish">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Freedom">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Admonition">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Bewilderment">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Despair">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Humiliation">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Perplexity">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Moodiness">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Amusement">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Tension">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Concern">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Affection">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Pensive">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Loneliness">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Rosamond">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Dread">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Friendliness">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Generosity">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Irritation">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Impertinence">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Shock">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Ratchcali">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Happiness">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Delight">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Excitement">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Regret">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Curiosity">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Temptation">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Comfort">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Pleasure">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Humor">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Coolness">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Melancholy">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Astonishment">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Deception">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Mischievousness">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Melvil">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Sneered_at">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Dissipation">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Discomfiture">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Determination">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Distress">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Deplore">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Pity">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Insanity">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Discomfort">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Heroism">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Suspicion">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Embarrassment">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Languor">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Wonder">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Realization">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Cheerfulness">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Forgiveness">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Shyness">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Indulgence">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Fascination">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Hope">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Reluctance">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Chagrin">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Contemplation">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Longing">
   <rdfs:subClassOf rdf:resource="#Emotion"/>
 </owl:Class>
 
 <owl:Class rdf:about="#Relief">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Frustration">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Dissatisfaction">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Deceit">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Selfdiscontent">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Insensibility">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Secret_understanding">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Perturbation">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Restlessness">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Awkwardness">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Mistrust">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Anxiety">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Resignation">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Modesty">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Calm">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Queequeg">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Bitterness">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Vindictiveness">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Resentment">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Guilt">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Penitence">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Untamed">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Confusion">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Kindness">
+  <rdfs:subClassOf rdf:resource="#Emotion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Gratitude">
   <rdfs:subClassOf rdf:resource="#Emotion"/>
 </owl:Class>
 
