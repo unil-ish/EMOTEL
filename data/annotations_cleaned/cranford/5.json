@@ -67,24 +67,24 @@
   {
    "name": "Invitation_to_an_important_meeting",
    "takePlaceAt": {
-    "name": "Invitation_to_an_important_meeting",
-    "id": "texts/cranford.txt#Invitation_to_an_important_meeting"
+    "name": "Breakfasttable",
+    "id": "texts/cranford.txt#Breakfasttable"
    },
    "id": "texts/cranford.txt#Invitation_to_an_important_meeting"
   },
   {
    "name": "Receiving_a_letter_from_her_father",
    "takePlaceAt": {
-    "name": "Receiving_a_letter_from_her_father",
-    "id": "texts/cranford.txt#Receiving_a_letter_from_her_father"
+    "name": "Breakfasttable",
+    "id": "texts/cranford.txt#Breakfasttable"
    },
    "id": "texts/cranford.txt#Receiving_a_letter_from_her_father"
   },
   {
    "name": "Choosing_a_silk_gown",
    "takePlaceAt": {
-    "name": "Choosing_a_silk_gown",
-    "id": "texts/cranford.txt#Choosing_a_silk_gown"
+    "name": "Conversation_about_the_new_silk_gown",
+    "id": "texts/cranford.txt#Conversation_about_the_new_silk_gown"
    },
    "hasParticipant": [
     {
@@ -101,8 +101,8 @@
   {
    "name": "Choosing_the_silk_gown",
    "takePlaceAt": {
-    "name": "Choosing_the_silk_gown",
-    "id": "texts/cranford.txt#Choosing_the_silk_gown"
+    "name": "Conversation_about_the_new_silk_gown",
+    "id": "texts/cranford.txt#Conversation_about_the_new_silk_gown"
    },
    "id": "texts/cranford.txt#Choosing_the_silk_gown"
   }

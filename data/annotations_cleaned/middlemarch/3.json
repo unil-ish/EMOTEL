@@ -141,8 +141,8 @@
   {
    "name": "Mr_Casaubon_s_words",
    "takePlaceAt": {
-    "name": "Mr_Casaubon_s_words",
-    "id": "texts/middlemarch.txt#Mr_Casaubon_s_words"
+    "name": "Dinnerparty",
+    "id": "texts/middlemarch.txt#Dinnerparty"
    },
    "hasParticipant": [
     {
@@ -159,8 +159,8 @@
   {
    "name": "Observing_human_lots",
    "takePlaceAt": {
-    "name": "Observing_human_lots",
-    "id": "texts/middlemarch.txt#Observing_human_lots"
+    "name": "Unknown",
+    "id": "texts/middlemarch.txt#Unknown"
    },
    "hasParticipant": {
     "name": "Any_observer",
@@ -171,8 +171,8 @@
   {
    "name": "Miss_Brooke_passing_out_of_the_diningroom",
    "takePlaceAt": {
-    "name": "Miss_Brooke_passing_out_of_the_diningroom",
-    "id": "texts/middlemarch.txt#Miss_Brooke_passing_out_of_the_diningroom"
+    "name": "Dinnerparty",
+    "id": "texts/middlemarch.txt#Dinnerparty"
    },
    "hasParticipant": {
     "name": "Miss_Brooke",
@@ -213,8 +213,8 @@
   {
    "name": "Observing_human_lots",
    "takePlaceAt": {
-    "name": "Observing_human_lots",
-    "id": "texts/middlemarch.txt#Observing_human_lots"
+    "name": "Unknown",
+    "id": "texts/middlemarch.txt#Unknown"
    },
    "hasParticipant": {
     "name": "Any_observer",
@@ -225,8 +225,8 @@
   {
    "name": "Being_the_flower_of_Mrs_Lemons_school",
    "takePlaceAt": {
-    "name": "Being_the_flower_of_Mrs_Lemons_school",
-    "id": "texts/middlemarch.txt#Being_the_flower_of_Mrs_Lemons_school"
+    "name": "Unknown",
+    "id": "texts/middlemarch.txt#Unknown"
    },
    "hasParticipant": {
     "name": "Rosamond_Vincy",
@@ -237,8 +237,8 @@
   {
    "name": "Seeing_a_woman_strikingly_different_from_Miss_Brooke",
    "takePlaceAt": {
-    "name": "Seeing_a_woman_strikingly_different_from_Miss_Brooke",
-    "id": "texts/middlemarch.txt#Seeing_a_woman_strikingly_different_from_Miss_Broo"
+    "name": "Unknown",
+    "id": "texts/middlemarch.txt#Unknown"
    },
    "hasParticipant": {
     "name": "Mr_Lydgate",

@@ -65,8 +65,8 @@
   {
    "name": "Listening_to_daughters_conversations",
    "takePlaceAt": {
-    "name": "Listening_to_daughters_conversations",
-    "id": "texts/prideandprejudice.txt#Listening_to_daughters_conversations"
+    "name": "Longbourn",
+    "id": "texts/prideandprejudice.txt#Longbourn"
    },
    "hasParticipant": [
     {
@@ -83,8 +83,8 @@
   {
    "name": "Mr_Darcy_mentioning_Miss_Elizabeth_Bennet",
    "takePlaceAt": {
-    "name": "Mr_Darcy_mentioning_Miss_Elizabeth_Bennet",
-    "id": "texts/prideandprejudice.txt#Mr_Darcy_mentioning_Miss_Elizabeth_Bennet"
+    "name": "Sir_William_Lucas_s_house",
+    "id": "texts/prideandprejudice.txt#Sir_William_Lucas_s_house"
    },
    "hasParticipant": [
     {
@@ -101,8 +101,8 @@
   {
    "name": "Wishing_to_know_more_about_Miss_Elizabeth_Bennet",
    "takePlaceAt": {
-    "name": "Wishing_to_know_more_about_Miss_Elizabeth_Bennet",
-    "id": "texts/prideandprejudice.txt#Wishing_to_know_more_about_Miss_Elizabeth_Bennet"
+    "name": "Sir_William_Lucas_s_house",
+    "id": "texts/prideandprejudice.txt#Sir_William_Lucas_s_house"
    },
    "hasParticipant": [
     {

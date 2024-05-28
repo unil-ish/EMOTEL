@@ -101,8 +101,8 @@
   {
    "name": "Unknown_captain_s_presence",
    "takePlaceAt": {
-    "name": "Unknown_captain_s_presence",
-    "id": "texts/mobydick.txt#Unknown_captain_s_presence"
+    "name": "Deck",
+    "id": "texts/mobydick.txt#Deck"
    },
    "hasParticipant": [
     {
@@ -119,8 +119,8 @@
   {
    "name": "Lack_of_knowledge_in_cetacea",
    "takePlaceAt": {
-    "name": "Lack_of_knowledge_in_cetacea",
-    "id": "texts/mobydick.txt#Lack_of_knowledge_in_cetacea"
+    "name": "Research_area",
+    "id": "texts/mobydick.txt#Research_area"
    },
    "hasParticipant": {
     "name": "Cetologists",
@@ -131,8 +131,8 @@
   {
    "name": "Dream_interpretation",
    "takePlaceAt": {
-    "name": "Dream_interpretation",
-    "id": "texts/mobydick.txt#Dream_interpretation"
+    "name": "Conversation",
+    "id": "texts/mobydick.txt#Conversation"
    },
    "hasParticipant": [
     {
@@ -149,8 +149,8 @@
   {
    "name": "Stubb_s_comment",
    "takePlaceAt": {
-    "name": "Stubb_s_comment",
-    "id": "texts/mobydick.txt#Stubb_s_comment"
+    "name": "Conversation",
+    "id": "texts/mobydick.txt#Conversation"
    },
    "hasParticipant": [
     {
@@ -167,8 +167,8 @@
   {
    "name": "Pipe_smoking",
    "takePlaceAt": {
-    "name": "Pipe_smoking",
-    "id": "texts/mobydick.txt#Pipe_smoking"
+    "name": "Deck",
+    "id": "texts/mobydick.txt#Deck"
    },
    "hasParticipant": {
     "name": "Captain_Ahab",
@@ -179,8 +179,8 @@
   {
    "name": "Decision_to_pursue_cetology",
    "takePlaceAt": {
-    "name": "Decision_to_pursue_cetology",
-    "id": "texts/mobydick.txt#Decision_to_pursue_cetology"
+    "name": "Deck",
+    "id": "texts/mobydick.txt#Deck"
    },
    "hasParticipant": {
     "name": "Captain_Ahab",

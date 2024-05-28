@@ -53,24 +53,24 @@
   {
    "name": "Feeling_judged_by_others",
    "takePlaceAt": {
-    "name": "Feeling_judged_by_others",
-    "id": "texts/middlemarch.txt#Feeling_judged_by_others"
+    "name": "Auction",
+    "id": "texts/middlemarch.txt#Auction"
    },
    "id": "texts/middlemarch.txt#Feeling_judged_by_others"
   },
   {
    "name": "Supper_at_Emmaus_painting_being_brought_forward",
    "takePlaceAt": {
-    "name": "Supper_at_Emmaus_painting_being_brought_forward",
-    "id": "texts/middlemarch.txt#Supper_at_Emmaus_painting_being_brought_forward"
+    "name": "Auction",
+    "id": "texts/middlemarch.txt#Auction"
    },
    "id": "texts/middlemarch.txt#Supper_at_Emmaus_painting_being_brought_forward"
   },
   {
    "name": "Being_appealed_to_by_the_auctioneer",
    "takePlaceAt": {
-    "name": "Being_appealed_to_by_the_auctioneer",
-    "id": "texts/middlemarch.txt#Being_appealed_to_by_the_auctioneer"
+    "name": "Auction",
+    "id": "texts/middlemarch.txt#Auction"
    },
    "id": "texts/middlemarch.txt#Being_appealed_to_by_the_auctioneer"
   }

@@ -135,8 +135,8 @@
   {
    "name": "Inability_to_pay_a_debt",
    "takePlaceAt": {
-    "name": "Inability_to_pay_a_debt",
-    "id": "texts/middlemarch.txt#Inability_to_pay_a_debt"
+    "name": "Stone_Court",
+    "id": "texts/middlemarch.txt#Stone_Court"
    },
    "hasParticipant": [
     {
@@ -153,8 +153,8 @@
   {
    "name": "Inability_to_pay_a_debt",
    "takePlaceAt": {
-    "name": "Inability_to_pay_a_debt",
-    "id": "texts/middlemarch.txt#Inability_to_pay_a_debt"
+    "name": "Stone_Court",
+    "id": "texts/middlemarch.txt#Stone_Court"
    },
    "hasParticipant": [
     {
@@ -171,8 +171,8 @@
   {
    "name": "Hope_for_future_inheritance",
    "takePlaceAt": {
-    "name": "Hope_for_future_inheritance",
-    "id": "texts/middlemarch.txt#Hope_for_future_inheritance"
+    "name": "Stone_Court",
+    "id": "texts/middlemarch.txt#Stone_Court"
    },
    "hasParticipant": [
     {
@@ -189,8 +189,8 @@
   {
    "name": "Inability_to_pay_a_debt",
    "takePlaceAt": {
-    "name": "Inability_to_pay_a_debt",
-    "id": "texts/middlemarch.txt#Inability_to_pay_a_debt"
+    "name": "Stone_Court",
+    "id": "texts/middlemarch.txt#Stone_Court"
    },
    "hasParticipant": [
     {
@@ -207,8 +207,8 @@
   {
    "name": "Fred_s_despair",
    "takePlaceAt": {
-    "name": "Fred_s_despair",
-    "id": "texts/middlemarch.txt#Fred_s_despair"
+    "name": "Stone_Court",
+    "id": "texts/middlemarch.txt#Stone_Court"
    },
    "hasParticipant": [
     {
@@ -225,8 +225,8 @@
   {
    "name": "Inability_to_keep_her_earnings",
    "takePlaceAt": {
-    "name": "Inability_to_keep_her_earnings",
-    "id": "texts/middlemarch.txt#Inability_to_keep_her_earnings"
+    "name": "Stone_Court",
+    "id": "texts/middlemarch.txt#Stone_Court"
    },
    "hasParticipant": [
     {
@@ -243,8 +243,8 @@
   {
    "name": "Concern_for_Mary_s_wellbeing",
    "takePlaceAt": {
-    "name": "Concern_for_Mary_s_wellbeing",
-    "id": "texts/middlemarch.txt#Concern_for_Mary_s_wellbeing"
+    "name": "Stone_Court",
+    "id": "texts/middlemarch.txt#Stone_Court"
    },
    "hasParticipant": [
     {
@@ -261,8 +261,8 @@
   {
    "name": "Inability_to_keep_Mary_s_earnings",
    "takePlaceAt": {
-    "name": "Inability_to_keep_Mary_s_earnings",
-    "id": "texts/middlemarch.txt#Inability_to_keep_Mary_s_earnings"
+    "name": "Stone_Court",
+    "id": "texts/middlemarch.txt#Stone_Court"
    },
    "hasParticipant": [
     {

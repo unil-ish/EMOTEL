@@ -143,72 +143,72 @@
   {
    "name": "Meeting_Mr_Bhaer_unexpectedly",
    "takePlaceAt": {
-    "name": "Meeting_Mr_Bhaer_unexpectedly",
-    "id": "texts/littlewomen.txt#Meeting_Mr_Bhaer_unexpectedly"
+    "name": "City_street",
+    "id": "texts/littlewomen.txt#City_street"
    },
    "id": "texts/littlewomen.txt#Meeting_Mr_Bhaer_unexpectedly"
   },
   {
    "name": "Offering_his_arm_to_Jo",
    "takePlaceAt": {
-    "name": "Offering_his_arm_to_Jo",
-    "id": "texts/littlewomen.txt#Offering_his_arm_to_Jo"
+    "name": "City_street",
+    "id": "texts/littlewomen.txt#City_street"
    },
    "id": "texts/littlewomen.txt#Offering_his_arm_to_Jo"
   },
   {
    "name": "Learning_about_Mr_Bhaer_s_destination",
    "takePlaceAt": {
-    "name": "Learning_about_Mr_Bhaer_s_destination",
-    "id": "texts/littlewomen.txt#Learning_about_Mr_Bhaer_s_destination"
+    "name": "City_street",
+    "id": "texts/littlewomen.txt#City_street"
    },
    "id": "texts/littlewomen.txt#Learning_about_Mr_Bhaer_s_destination"
   },
   {
    "name": "Shopping_mishaps",
    "takePlaceAt": {
-    "name": "Shopping_mishaps",
-    "id": "texts/littlewomen.txt#Shopping_mishaps"
+    "name": "Drygoods_store",
+    "id": "texts/littlewomen.txt#Drygoods_store"
    },
    "id": "texts/littlewomen.txt#Shopping_mishaps"
   },
   {
    "name": "Planning_a_farewell_feast",
    "takePlaceAt": {
-    "name": "Planning_a_farewell_feast",
-    "id": "texts/littlewomen.txt#Planning_a_farewell_feast"
+    "name": "City_street",
+    "id": "texts/littlewomen.txt#City_street"
    },
    "id": "texts/littlewomen.txt#Planning_a_farewell_feast"
   },
   {
    "name": "Jo_thinking_he_had_gone_without_saying_goodbye",
    "takePlaceAt": {
-    "name": "Jo_thinking_he_had_gone_without_saying_goodbye",
-    "id": "texts/littlewomen.txt#Jo_thinking_he_had_gone_without_saying_goodbye"
+    "name": "City_street",
+    "id": "texts/littlewomen.txt#City_street"
    },
    "id": "texts/littlewomen.txt#Jo_thinking_he_had_gone_without_saying_goodbye"
   },
   {
    "name": "Offering_his_arm_to_Jo",
    "takePlaceAt": {
-    "name": "Offering_his_arm_to_Jo",
-    "id": "texts/littlewomen.txt#Offering_his_arm_to_Jo"
+    "name": "City_street",
+    "id": "texts/littlewomen.txt#City_street"
    },
    "id": "texts/littlewomen.txt#Offering_his_arm_to_Jo"
   },
   {
    "name": "Observing_Jo_s_behavior",
    "takePlaceAt": {
-    "name": "Observing_Jo_s_behavior",
-    "id": "texts/littlewomen.txt#Observing_Jo_s_behavior"
+    "name": "City_street",
+    "id": "texts/littlewomen.txt#City_street"
    },
    "id": "texts/littlewomen.txt#Observing_Jo_s_behavior"
   },
   {
    "name": "Buying_items_for_the_farewell_feast",
    "takePlaceAt": {
-    "name": "Buying_items_for_the_farewell_feast",
-    "id": "texts/littlewomen.txt#Buying_items_for_the_farewell_feast"
+    "name": "City_street",
+    "id": "texts/littlewomen.txt#City_street"
    },
    "id": "texts/littlewomen.txt#Buying_items_for_the_farewell_feast"
   }

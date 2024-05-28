@@ -107,48 +107,48 @@
   {
    "name": "Spotting_a_localcolour_box",
    "takePlaceAt": {
-    "name": "Spotting_a_localcolour_box",
-    "id": "texts/aroomwithaview.txt#Spotting_a_localcolour_box"
+    "name": "Santa_Croce",
+    "id": "texts/aroomwithaview.txt#Santa_Croce"
    },
    "id": "texts/aroomwithaview.txt#Spotting_a_localcolour_box"
   },
   {
    "name": "Mr_Emerson_s_statement",
    "takePlaceAt": {
-    "name": "Mr_Emerson_s_statement",
-    "id": "texts/aroomwithaview.txt#Mr_Emerson_s_statement"
+    "name": "Santa_Croce",
+    "id": "texts/aroomwithaview.txt#Santa_Croce"
    },
    "id": "texts/aroomwithaview.txt#Mr_Emerson_s_statement"
   },
   {
    "name": "Mr_Emerson_s_reaction",
    "takePlaceAt": {
-    "name": "Mr_Emerson_s_reaction",
-    "id": "texts/aroomwithaview.txt#Mr_Emerson_s_reaction"
+    "name": "Santa_Croce",
+    "id": "texts/aroomwithaview.txt#Santa_Croce"
    },
    "id": "texts/aroomwithaview.txt#Mr_Emerson_s_reaction"
   },
   {
    "name": "Mr_Emerson_s_statement",
    "takePlaceAt": {
-    "name": "Mr_Emerson_s_statement",
-    "id": "texts/aroomwithaview.txt#Mr_Emerson_s_statement"
+    "name": "Santa_Croce",
+    "id": "texts/aroomwithaview.txt#Santa_Croce"
    },
    "id": "texts/aroomwithaview.txt#Mr_Emerson_s_statement"
   },
   {
    "name": "Lucy_s_reaction",
    "takePlaceAt": {
-    "name": "Lucy_s_reaction",
-    "id": "texts/aroomwithaview.txt#Lucy_s_reaction"
+    "name": "Santa_Croce",
+    "id": "texts/aroomwithaview.txt#Santa_Croce"
    },
    "id": "texts/aroomwithaview.txt#Lucy_s_reaction"
   },
   {
    "name": "Observing_George_s_behavior",
    "takePlaceAt": {
-    "name": "Observing_George_s_behavior",
-    "id": "texts/aroomwithaview.txt#Observing_George_s_behavior"
+    "name": "Santa_Croce",
+    "id": "texts/aroomwithaview.txt#Santa_Croce"
    },
    "id": "texts/aroomwithaview.txt#Observing_George_s_behavior"
   }

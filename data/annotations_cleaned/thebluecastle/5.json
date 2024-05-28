@@ -53,8 +53,8 @@
   {
    "name": "Christmas_celebration",
    "takePlaceAt": {
-    "name": "Christmas_celebration",
-    "id": "texts/thebluecastle.txt#Christmas_celebration"
+    "name": "Blue_Castle",
+    "id": "texts/thebluecastle.txt#Blue_Castle"
    },
    "hasParticipant": [
     {
@@ -79,8 +79,8 @@
   {
    "name": "Buying_pretty_clothes",
    "takePlaceAt": {
-    "name": "Buying_pretty_clothes",
-    "id": "texts/thebluecastle.txt#Buying_pretty_clothes"
+    "name": "Blue_Castle",
+    "id": "texts/thebluecastle.txt#Blue_Castle"
    },
    "hasParticipant": [
     {
@@ -97,8 +97,8 @@
   {
    "name": "Feeling_comfort_and_companionship",
    "takePlaceAt": {
-    "name": "Feeling_comfort_and_companionship",
-    "id": "texts/thebluecastle.txt#Feeling_comfort_and_companionship"
+    "name": "Blue_Castle",
+    "id": "texts/thebluecastle.txt#Blue_Castle"
    },
    "hasParticipant": [
     {

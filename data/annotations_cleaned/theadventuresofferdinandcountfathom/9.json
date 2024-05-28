@@ -93,8 +93,8 @@
   {
    "name": "Being_asked_to_carry_a_challenge",
    "takePlaceAt": {
-    "name": "Being_asked_to_carry_a_challenge",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Being_asked_to_carry_a_challenge"
+    "name": "Captain_Minikin_s_apartment",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Captain_Minikin_s_apartment"
    },
    "hasParticipant": [
     {
@@ -111,8 +111,8 @@
   {
    "name": "Being_told_that_the_ladies_are_goodnatured",
    "takePlaceAt": {
-    "name": "Being_told_that_the_ladies_are_goodnatured",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Being_told_that_the_ladies_are_goodnatured"
+    "name": "Captain_Minikin_s_apartment",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Captain_Minikin_s_apartment"
    },
    "hasParticipant": [
     {
@@ -129,8 +129,8 @@
   {
    "name": "Being_asked_to_carry_a_challenge",
    "takePlaceAt": {
-    "name": "Being_asked_to_carry_a_challenge",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Being_asked_to_carry_a_challenge"
+    "name": "Captain_Minikin_s_apartment",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Captain_Minikin_s_apartment"
    },
    "hasParticipant": [
     {
@@ -147,8 +147,8 @@
   {
    "name": "Being_told_that_the_ladies_are_goodnatured",
    "takePlaceAt": {
-    "name": "Being_told_that_the_ladies_are_goodnatured",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Being_told_that_the_ladies_are_goodnatured"
+    "name": "Captain_Minikin_s_apartment",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Captain_Minikin_s_apartment"
    },
    "hasParticipant": [
     {
@@ -165,8 +165,8 @@
   {
    "name": "Reading_the_challenge_letter",
    "takePlaceAt": {
-    "name": "Reading_the_challenge_letter",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Reading_the_challenge_letter"
+    "name": "Major_Macleaver_s_apartment",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Major_Macleaver_s_apartment"
    },
    "hasParticipant": [
     {

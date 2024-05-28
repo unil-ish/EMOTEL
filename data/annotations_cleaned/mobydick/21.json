@@ -87,40 +87,40 @@
   {
    "name": "Seeing_the_musket",
    "takePlaceAt": {
-    "name": "Seeing_the_musket",
-    "id": "texts/mobydick.txt#Seeing_the_musket"
+    "name": "Ahab_s_stateroom",
+    "id": "texts/mobydick.txt#Ahab_s_stateroom"
    },
    "id": "texts/mobydick.txt#Seeing_the_musket"
   },
   {
    "name": "Taking_charge_of_the_situation",
    "takePlaceAt": {
-    "name": "Taking_charge_of_the_situation",
-    "id": "texts/mobydick.txt#Taking_charge_of_the_situation"
+    "name": "On_deck",
+    "id": "texts/mobydick.txt#On_deck"
    },
    "id": "texts/mobydick.txt#Taking_charge_of_the_situation"
   },
   {
    "name": "Ahab_s_statement_about_making_his_own_compass",
    "takePlaceAt": {
-    "name": "Ahab_s_statement_about_making_his_own_compass",
-    "id": "texts/mobydick.txt#Ahab_s_statement_about_making_his_own_compass"
+    "name": "On_deck",
+    "id": "texts/mobydick.txt#On_deck"
    },
    "id": "texts/mobydick.txt#Ahab_s_statement_about_making_his_own_compass"
   },
   {
    "name": "Realizing_the_compasses_were_inverted",
    "takePlaceAt": {
-    "name": "Realizing_the_compasses_were_inverted",
-    "id": "texts/mobydick.txt#Realizing_the_compasses_were_inverted"
+    "name": "On_deck",
+    "id": "texts/mobydick.txt#On_deck"
    },
    "id": "texts/mobydick.txt#Realizing_the_compasses_were_inverted"
   },
   {
    "name": "Deciding_to_make_his_own_compass",
    "takePlaceAt": {
-    "name": "Deciding_to_make_his_own_compass",
-    "id": "texts/mobydick.txt#Deciding_to_make_his_own_compass"
+    "name": "On_deck",
+    "id": "texts/mobydick.txt#On_deck"
    },
    "id": "texts/mobydick.txt#Deciding_to_make_his_own_compass"
   }

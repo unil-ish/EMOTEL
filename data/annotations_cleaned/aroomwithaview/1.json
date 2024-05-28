@@ -87,8 +87,8 @@
   {
    "name": "Interaction_with_Miss_Lavish_and_Mr_Eager",
    "takePlaceAt": {
-    "name": "Interaction_with_Miss_Lavish_and_Mr_Eager",
-    "id": "texts/aroomwithaview.txt#Interaction_with_Miss_Lavish_and_Mr_Eager"
+    "name": "Shopping_trip_and_conversation",
+    "id": "texts/aroomwithaview.txt#Shopping_trip_and_conversation"
    },
    "hasParticipant": [
     {
@@ -109,8 +109,8 @@
   {
    "name": "Mr_Eager_s_accusations",
    "takePlaceAt": {
-    "name": "Mr_Eager_s_accusations",
-    "id": "texts/aroomwithaview.txt#Mr_Eager_s_accusations"
+    "name": "Conversation_in_the_shop",
+    "id": "texts/aroomwithaview.txt#Conversation_in_the_shop"
    },
    "hasParticipant": [
     {
@@ -127,8 +127,8 @@
   {
    "name": "Realization_of_the_complexities_of_Florence",
    "takePlaceAt": {
-    "name": "Realization_of_the_complexities_of_Florence",
-    "id": "texts/aroomwithaview.txt#Realization_of_the_complexities_of_Florence"
+    "name": "Newspaperroom_at_the_English_bank",
+    "id": "texts/aroomwithaview.txt#Newspaperroom_at_the_English_bank"
    },
    "hasParticipant": {
     "name": "Lucy_Honeychurch",
@@ -139,8 +139,8 @@
   {
    "name": "Mr_Eager_s_revelations",
    "takePlaceAt": {
-    "name": "Mr_Eager_s_revelations",
-    "id": "texts/aroomwithaview.txt#Mr_Eager_s_revelations"
+    "name": "Conversation_in_the_shop",
+    "id": "texts/aroomwithaview.txt#Conversation_in_the_shop"
    },
    "hasParticipant": {
     "name": "Miss_Bartlett",
@@ -151,8 +151,8 @@
   {
    "name": "Unpleasant_scene_with_Mr_Eager",
    "takePlaceAt": {
-    "name": "Unpleasant_scene_with_Mr_Eager",
-    "id": "texts/aroomwithaview.txt#Unpleasant_scene_with_Mr_Eager"
+    "name": "Conversation_in_the_shop",
+    "id": "texts/aroomwithaview.txt#Conversation_in_the_shop"
    },
    "hasParticipant": [
     {

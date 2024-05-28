@@ -107,48 +107,48 @@
   {
    "name": "Mr_Wilkins_s_appearance_in_a_towel",
    "takePlaceAt": {
-    "name": "Mr_Wilkins_s_appearance_in_a_towel",
-    "id": "texts/theenchantedapril.txt#Mr_Wilkins_s_appearance_in_a_towel"
+    "name": "Dinner_table",
+    "id": "texts/theenchantedapril.txt#Dinner_table"
    },
    "id": "texts/theenchantedapril.txt#Mr_Wilkins_s_appearance_in_a_towel"
   },
   {
    "name": "Mr_Wilkins_s_behavior",
    "takePlaceAt": {
-    "name": "Mr_Wilkins_s_behavior",
-    "id": "texts/theenchantedapril.txt#Mr_Wilkins_s_behavior"
+    "name": "Conversation",
+    "id": "texts/theenchantedapril.txt#Conversation"
    },
    "id": "texts/theenchantedapril.txt#Mr_Wilkins_s_behavior"
   },
   {
    "name": "Mr_Wilkins_s_behavior_at_dinner",
    "takePlaceAt": {
-    "name": "Mr_Wilkins_s_behavior_at_dinner",
-    "id": "texts/theenchantedapril.txt#Mr_Wilkins_s_behavior_at_dinner"
+    "name": "Dinner_table",
+    "id": "texts/theenchantedapril.txt#Dinner_table"
    },
    "id": "texts/theenchantedapril.txt#Mr_Wilkins_s_behavior_at_dinner"
   },
   {
    "name": "Mr_Wilkins_s_behavior",
    "takePlaceAt": {
-    "name": "Mr_Wilkins_s_behavior",
-    "id": "texts/theenchantedapril.txt#Mr_Wilkins_s_behavior"
+    "name": "Dinner_table",
+    "id": "texts/theenchantedapril.txt#Dinner_table"
    },
    "id": "texts/theenchantedapril.txt#Mr_Wilkins_s_behavior"
   },
   {
    "name": "Mr_Wilkins_s_behavior",
    "takePlaceAt": {
-    "name": "Mr_Wilkins_s_behavior",
-    "id": "texts/theenchantedapril.txt#Mr_Wilkins_s_behavior"
+    "name": "Observing_Mr_Wilkins",
+    "id": "texts/theenchantedapril.txt#Observing_Mr_Wilkins"
    },
    "id": "texts/theenchantedapril.txt#Mr_Wilkins_s_behavior"
   },
   {
    "name": "Mr_Wilkins_s_reaction_to_her_confession",
    "takePlaceAt": {
-    "name": "Mr_Wilkins_s_reaction_to_her_confession",
-    "id": "texts/theenchantedapril.txt#Mr_Wilkins_s_reaction_to_her_confession"
+    "name": "Conversation",
+    "id": "texts/theenchantedapril.txt#Conversation"
    },
    "id": "texts/theenchantedapril.txt#Mr_Wilkins_s_reaction_to_her_confession"
   }

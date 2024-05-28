@@ -81,8 +81,8 @@
   {
    "name": "Mr_Brooke_taking_up_Will_Ladislaw",
    "takePlaceAt": {
-    "name": "Mr_Brooke_taking_up_Will_Ladislaw",
-    "id": "texts/middlemarch.txt#Mr_Brooke_taking_up_Will_Ladislaw"
+    "name": "Conversation_between_Mr_Hawley_and_Mr_Toller",
+    "id": "texts/middlemarch.txt#Conversation_between_Mr_Hawley_and_Mr_Toller"
    },
    "hasParticipant": [
     {
@@ -99,8 +99,8 @@
   {
    "name": "Conversation_between_Dr_Sprague_and_Keck",
    "takePlaceAt": {
-    "name": "Conversation_between_Dr_Sprague_and_Keck",
-    "id": "texts/middlemarch.txt#Conversation_between_Dr_Sprague_and_Keck"
+    "name": "Conversation",
+    "id": "texts/middlemarch.txt#Conversation"
    },
    "hasParticipant": [
     {
@@ -117,8 +117,8 @@
   {
    "name": "Discussion_between_Lydgate_and_Will_Ladislaw",
    "takePlaceAt": {
-    "name": "Discussion_between_Lydgate_and_Will_Ladislaw",
-    "id": "texts/middlemarch.txt#Discussion_between_Lydgate_and_Will_Ladislaw"
+    "name": "Conversation",
+    "id": "texts/middlemarch.txt#Conversation"
    },
    "hasParticipant": [
     {
@@ -135,8 +135,8 @@
   {
    "name": "Discussion_between_Lydgate_and_Will_Ladislaw",
    "takePlaceAt": {
-    "name": "Discussion_between_Lydgate_and_Will_Ladislaw",
-    "id": "texts/middlemarch.txt#Discussion_between_Lydgate_and_Will_Ladislaw"
+    "name": "Conversation",
+    "id": "texts/middlemarch.txt#Conversation"
    },
    "hasParticipant": [
     {
@@ -153,8 +153,8 @@
   {
    "name": "Discussion_between_Lydgate_and_Will_Ladislaw",
    "takePlaceAt": {
-    "name": "Discussion_between_Lydgate_and_Will_Ladislaw",
-    "id": "texts/middlemarch.txt#Discussion_between_Lydgate_and_Will_Ladislaw"
+    "name": "Conversation",
+    "id": "texts/middlemarch.txt#Conversation"
    },
    "hasParticipant": [
     {

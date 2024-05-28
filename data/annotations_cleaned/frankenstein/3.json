@@ -101,8 +101,8 @@
   {
    "name": "Creating_the_monster",
    "takePlaceAt": {
-    "name": "Creating_the_monster",
-    "id": "texts/frankenstein.txt#Creating_the_monster"
+    "name": "Various_locations",
+    "id": "texts/frankenstein.txt#Various_locations"
    },
    "hasParticipant": [
     {
@@ -119,16 +119,16 @@
   {
    "name": "Fear_of_losing_fire",
    "takePlaceAt": {
-    "name": "Fear_of_losing_fire",
-    "id": "texts/frankenstein.txt#Fear_of_losing_fire"
+    "name": "Hovel",
+    "id": "texts/frankenstein.txt#Hovel"
    },
    "id": "texts/frankenstein.txt#Fear_of_losing_fire"
   },
   {
    "name": "Witnessing_the_unhappiness_of_the_cottagers",
    "takePlaceAt": {
-    "name": "Witnessing_the_unhappiness_of_the_cottagers",
-    "id": "texts/frankenstein.txt#Witnessing_the_unhappiness_of_the_cottagers"
+    "name": "Cottage",
+    "id": "texts/frankenstein.txt#Cottage"
    },
    "hasParticipant": [
     {
@@ -145,16 +145,16 @@
   {
    "name": "Feeling_miserable_and_rejected",
    "takePlaceAt": {
-    "name": "Feeling_miserable_and_rejected",
-    "id": "texts/frankenstein.txt#Feeling_miserable_and_rejected"
+    "name": "Various_locations",
+    "id": "texts/frankenstein.txt#Various_locations"
    },
    "id": "texts/frankenstein.txt#Feeling_miserable_and_rejected"
   },
   {
    "name": "Witnessing_the_love_and_respect_between_the_cottagers",
    "takePlaceAt": {
-    "name": "Witnessing_the_love_and_respect_between_the_cottagers",
-    "id": "texts/frankenstein.txt#Witnessing_the_love_and_respect_between_the_cottag"
+    "name": "Cottage",
+    "id": "texts/frankenstein.txt#Cottage"
    },
    "hasParticipant": [
     {
@@ -171,8 +171,8 @@
   {
    "name": "Witnessing_the_cottagers_kindness",
    "takePlaceAt": {
-    "name": "Witnessing_the_cottagers_kindness",
-    "id": "texts/frankenstein.txt#Witnessing_the_cottagers_kindness"
+    "name": "Cottage",
+    "id": "texts/frankenstein.txt#Cottage"
    },
    "hasParticipant": [
     {

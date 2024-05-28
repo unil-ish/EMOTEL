@@ -67,32 +67,32 @@
   {
    "name": "Realizing_his_heart_wouldn_t_ache",
    "takePlaceAt": {
-    "name": "Realizing_his_heart_wouldn_t_ache",
-    "id": "texts/littlewomen.txt#Realizing_his_heart_wouldn_t_ache"
+    "name": "His_desk",
+    "id": "texts/littlewomen.txt#His_desk"
    },
    "id": "texts/littlewomen.txt#Realizing_his_heart_wouldn_t_ache"
   },
   {
    "name": "Receiving_a_prompt_answer_to_his_letter",
    "takePlaceAt": {
-    "name": "Receiving_a_prompt_answer_to_his_letter",
-    "id": "texts/littlewomen.txt#Receiving_a_prompt_answer_to_his_letter"
+    "name": "His_desk",
+    "id": "texts/littlewomen.txt#His_desk"
    },
    "id": "texts/littlewomen.txt#Receiving_a_prompt_answer_to_his_letter"
   },
   {
    "name": "Desire_to_go_to_Nice",
    "takePlaceAt": {
-    "name": "Desire_to_go_to_Nice",
-    "id": "texts/littlewomen.txt#Desire_to_go_to_Nice"
+    "name": "Paris",
+    "id": "texts/littlewomen.txt#Paris"
    },
    "id": "texts/littlewomen.txt#Desire_to_go_to_Nice"
   },
   {
    "name": "Realizing_he_could_recover_from_his_lost_love",
    "takePlaceAt": {
-    "name": "Realizing_he_could_recover_from_his_lost_love",
-    "id": "texts/littlewomen.txt#Realizing_he_could_recover_from_his_lost_love"
+    "name": "His_desk",
+    "id": "texts/littlewomen.txt#His_desk"
    },
    "id": "texts/littlewomen.txt#Realizing_he_could_recover_from_his_lost_love"
   }

@@ -93,40 +93,40 @@
   {
    "name": "Receiving_good_news_about_his_situation",
    "takePlaceAt": {
-    "name": "Receiving_good_news_about_his_situation",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Receiving_good_news_about_his_situation"
+    "name": "Madam_Clement_s_house",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Madam_Clement_s_house"
    },
    "id": "texts/theadventuresofferdinandcountfathom.txt#Receiving_good_news_about_his_situation"
   },
   {
    "name": "Nuptial_ceremony",
    "takePlaceAt": {
-    "name": "Nuptial_ceremony",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Nuptial_ceremony"
+    "name": "Church_vestry",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Church_vestry"
    },
    "id": "texts/theadventuresofferdinandcountfathom.txt#Nuptial_ceremony"
   },
   {
    "name": "Father_s_complaints",
    "takePlaceAt": {
-    "name": "Father_s_complaints",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Father_s_complaints"
+    "name": "Merchant_s_house",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Merchant_s_house"
    },
    "id": "texts/theadventuresofferdinandcountfathom.txt#Father_s_complaints"
   },
   {
    "name": "Offering_help_to_the_pseudoparson",
    "takePlaceAt": {
-    "name": "Offering_help_to_the_pseudoparson",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Offering_help_to_the_pseudoparson"
+    "name": "Publichouse",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Publichouse"
    },
    "id": "texts/theadventuresofferdinandcountfathom.txt#Offering_help_to_the_pseudoparson"
   },
   {
    "name": "Father_s_reproaches",
    "takePlaceAt": {
-    "name": "Father_s_reproaches",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Father_s_reproaches"
+    "name": "Merchant_s_house",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Merchant_s_house"
    },
    "id": "texts/theadventuresofferdinandcountfathom.txt#Father_s_reproaches"
   }

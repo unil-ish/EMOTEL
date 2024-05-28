@@ -65,24 +65,24 @@
   {
    "name": "Being_in_Darkness_Lane",
    "takePlaceAt": {
-    "name": "Being_in_Darkness_Lane",
-    "id": "texts/cranford.txt#Being_in_Darkness_Lane"
+    "name": "Darkness_Lane",
+    "id": "texts/cranford.txt#Darkness_Lane"
    },
    "id": "texts/cranford.txt#Being_in_Darkness_Lane"
   },
   {
    "name": "Being_in_Darkness_Lane",
    "takePlaceAt": {
-    "name": "Being_in_Darkness_Lane",
-    "id": "texts/cranford.txt#Being_in_Darkness_Lane"
+    "name": "Darkness_Lane",
+    "id": "texts/cranford.txt#Darkness_Lane"
    },
    "id": "texts/cranford.txt#Being_in_Darkness_Lane"
   },
   {
    "name": "Discussion_about_ghosts",
    "takePlaceAt": {
-    "name": "Discussion_about_ghosts",
-    "id": "texts/cranford.txt#Discussion_about_ghosts"
+    "name": "Mrs_Forrester_s_house",
+    "id": "texts/cranford.txt#Mrs_Forrester_s_house"
    },
    "id": "texts/cranford.txt#Discussion_about_ghosts"
   }

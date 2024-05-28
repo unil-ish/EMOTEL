@@ -115,8 +115,8 @@
   {
    "name": "Leaving_his_friends_unprotected_from_the_creature",
    "takePlaceAt": {
-    "name": "Leaving_his_friends_unprotected_from_the_creature",
-    "id": "texts/frankenstein.txt#Leaving_his_friends_unprotected_from_the_creature"
+    "name": "During_his_absence",
+    "id": "texts/frankenstein.txt#During_his_absence"
    },
    "hasParticipant": [
     {
@@ -137,8 +137,8 @@
   {
    "name": "Collecting_materials_for_his_new_creation",
    "takePlaceAt": {
-    "name": "Collecting_materials_for_his_new_creation",
-    "id": "texts/frankenstein.txt#Collecting_materials_for_his_new_creation"
+    "name": "During_his_journey",
+    "id": "texts/frankenstein.txt#During_his_journey"
    },
    "hasParticipant": {
     "name": "Victor_Frankenstein",
@@ -149,8 +149,8 @@
   {
    "name": "Being_in_company",
    "takePlaceAt": {
-    "name": "Being_in_company",
-    "id": "texts/frankenstein.txt#Being_in_company"
+    "name": "During_his_journey",
+    "id": "texts/frankenstein.txt#During_his_journey"
    },
    "hasParticipant": [
     {
@@ -167,8 +167,8 @@
   {
    "name": "Remembering_Henry",
    "takePlaceAt": {
-    "name": "Remembering_Henry",
-    "id": "texts/frankenstein.txt#Remembering_Henry"
+    "name": "During_his_journey",
+    "id": "texts/frankenstein.txt#During_his_journey"
    },
    "hasParticipant": [
     {
@@ -185,8 +185,8 @@
   {
    "name": "Leaving_Oxford",
    "takePlaceAt": {
-    "name": "Leaving_Oxford",
-    "id": "texts/frankenstein.txt#Leaving_Oxford"
+    "name": "During_his_journey",
+    "id": "texts/frankenstein.txt#During_his_journey"
    },
    "hasParticipant": {
     "name": "Victor_Frankenstein",
@@ -197,8 +197,8 @@
   {
    "name": "Being_in_the_company_of_men_of_talent",
    "takePlaceAt": {
-    "name": "Being_in_the_company_of_men_of_talent",
-    "id": "texts/frankenstein.txt#Being_in_the_company_of_men_of_talent"
+    "name": "During_his_journey",
+    "id": "texts/frankenstein.txt#During_his_journey"
    },
    "hasParticipant": {
     "name": "Henry_Clerval",
@@ -209,8 +209,8 @@
   {
    "name": "Travelling",
    "takePlaceAt": {
-    "name": "Travelling",
-    "id": "texts/frankenstein.txt#Travelling"
+    "name": "During_his_journey",
+    "id": "texts/frankenstein.txt#During_his_journey"
    },
    "hasParticipant": {
     "name": "Henry_Clerval",

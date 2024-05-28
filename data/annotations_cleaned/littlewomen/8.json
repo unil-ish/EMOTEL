@@ -135,8 +135,8 @@
   {
    "name": "Receiving_a_love_letter",
    "takePlaceAt": {
-    "name": "Receiving_a_love_letter",
-    "id": "texts/littlewomen.txt#Receiving_a_love_letter"
+    "name": "Home",
+    "id": "texts/littlewomen.txt#Home"
    },
    "hasParticipant": [
     {
@@ -153,8 +153,8 @@
   {
    "name": "Receiving_a_love_letter",
    "takePlaceAt": {
-    "name": "Receiving_a_love_letter",
-    "id": "texts/littlewomen.txt#Receiving_a_love_letter"
+    "name": "Home",
+    "id": "texts/littlewomen.txt#Home"
    },
    "hasParticipant": [
     {
@@ -171,8 +171,8 @@
   {
    "name": "Being_shaken_by_grandfather",
    "takePlaceAt": {
-    "name": "Being_shaken_by_grandfather",
-    "id": "texts/littlewomen.txt#Being_shaken_by_grandfather"
+    "name": "Home",
+    "id": "texts/littlewomen.txt#Home"
    },
    "hasParticipant": [
     {
@@ -189,8 +189,8 @@
   {
    "name": "Apologizing_to_Meg",
    "takePlaceAt": {
-    "name": "Apologizing_to_Meg",
-    "id": "texts/littlewomen.txt#Apologizing_to_Meg"
+    "name": "Home",
+    "id": "texts/littlewomen.txt#Home"
    },
    "hasParticipant": [
     {
@@ -207,8 +207,8 @@
   {
    "name": "Refusing_to_apologize",
    "takePlaceAt": {
-    "name": "Refusing_to_apologize",
-    "id": "texts/littlewomen.txt#Refusing_to_apologize"
+    "name": "Home",
+    "id": "texts/littlewomen.txt#Home"
    },
    "hasParticipant": [
     {
@@ -225,8 +225,8 @@
   {
    "name": "Feeling_lonely",
    "takePlaceAt": {
-    "name": "Feeling_lonely",
-    "id": "texts/littlewomen.txt#Feeling_lonely"
+    "name": "Home",
+    "id": "texts/littlewomen.txt#Home"
    },
    "hasParticipant": {
     "name": "Jo",
@@ -237,8 +237,8 @@
   {
    "name": "Feeling_tempted_to_run_away",
    "takePlaceAt": {
-    "name": "Feeling_tempted_to_run_away",
-    "id": "texts/littlewomen.txt#Feeling_tempted_to_run_away"
+    "name": "Home",
+    "id": "texts/littlewomen.txt#Home"
    },
    "hasParticipant": {
     "name": "Jo",
@@ -249,8 +249,8 @@
   {
    "name": "Being_shaken_by_Laurie",
    "takePlaceAt": {
-    "name": "Being_shaken_by_Laurie",
-    "id": "texts/littlewomen.txt#Being_shaken_by_Laurie"
+    "name": "Home",
+    "id": "texts/littlewomen.txt#Home"
    },
    "hasParticipant": [
     {

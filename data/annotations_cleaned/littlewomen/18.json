@@ -135,8 +135,8 @@
   {
    "name": "Laurie_s_declaration_of_love_for_Amy_and_friendship_for_Jo",
    "takePlaceAt": {
-    "name": "Laurie_s_declaration_of_love_for_Amy_and_friendship_for_Jo",
-    "id": "texts/littlewomen.txt#Laurie_s_declaration_of_love_for_Amy_and_friendshi"
+    "name": "Jo_s_home",
+    "id": "texts/littlewomen.txt#Jo_s_home"
    },
    "hasParticipant": [
     {
@@ -153,8 +153,8 @@
   {
    "name": "Feeling_of_loneliness_and_longing_for_the_past",
    "takePlaceAt": {
-    "name": "Feeling_of_loneliness_and_longing_for_the_past",
-    "id": "texts/littlewomen.txt#Feeling_of_loneliness_and_longing_for_the_past"
+    "name": "Jo_s_home",
+    "id": "texts/littlewomen.txt#Jo_s_home"
    },
    "hasParticipant": {
     "name": "Jo_March",
@@ -165,8 +165,8 @@
   {
    "name": "Family_reunion",
    "takePlaceAt": {
-    "name": "Family_reunion",
-    "id": "texts/littlewomen.txt#Family_reunion"
+    "name": "Jo_s_home",
+    "id": "texts/littlewomen.txt#Jo_s_home"
    },
    "hasParticipant": [
     {
@@ -187,8 +187,8 @@
   {
    "name": "Jo_s_teasing_and_banter",
    "takePlaceAt": {
-    "name": "Jo_s_teasing_and_banter",
-    "id": "texts/littlewomen.txt#Jo_s_teasing_and_banter"
+    "name": "Jo_s_home",
+    "id": "texts/littlewomen.txt#Jo_s_home"
    },
    "hasParticipant": [
     {
@@ -205,8 +205,8 @@
   {
    "name": "Family_reunion",
    "takePlaceAt": {
-    "name": "Family_reunion",
-    "id": "texts/littlewomen.txt#Family_reunion"
+    "name": "Jo_s_home",
+    "id": "texts/littlewomen.txt#Jo_s_home"
    },
    "hasParticipant": [
     {
@@ -227,8 +227,8 @@
   {
    "name": "Jo_s_forgiveness_and_acceptance_of_Laurie_s_changed_feelings",
    "takePlaceAt": {
-    "name": "Jo_s_forgiveness_and_acceptance_of_Laurie_s_changed_feelings",
-    "id": "texts/littlewomen.txt#Jo_s_forgiveness_and_acceptance_of_Laurie_s_change"
+    "name": "Jo_s_home",
+    "id": "texts/littlewomen.txt#Jo_s_home"
    },
    "hasParticipant": [
     {
@@ -245,8 +245,8 @@
   {
    "name": "Family_reunion",
    "takePlaceAt": {
-    "name": "Family_reunion",
-    "id": "texts/littlewomen.txt#Family_reunion"
+    "name": "Jo_s_home",
+    "id": "texts/littlewomen.txt#Jo_s_home"
    },
    "hasParticipant": {
     "name": "Amy",
@@ -257,8 +257,8 @@
   {
    "name": "Family_reunion",
    "takePlaceAt": {
-    "name": "Family_reunion",
-    "id": "texts/littlewomen.txt#Family_reunion"
+    "name": "Jo_s_home",
+    "id": "texts/littlewomen.txt#Jo_s_home"
    },
    "hasParticipant": {
     "name": "Amy",

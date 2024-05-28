@@ -135,8 +135,8 @@
   {
    "name": "Selling_her_hair_to_earn_money_for_her_father_s_comfort",
    "takePlaceAt": {
-    "name": "Selling_her_hair_to_earn_money_for_her_father_s_comfort",
-    "id": "texts/littlewomen.txt#Selling_her_hair_to_earn_money_for_her_father_s_co"
+    "name": "Home",
+    "id": "texts/littlewomen.txt#Home"
    },
    "hasParticipant": [
     {
@@ -153,8 +153,8 @@
   {
    "name": "Feeling_the_pressure_to_contribute_financially",
    "takePlaceAt": {
-    "name": "Feeling_the_pressure_to_contribute_financially",
-    "id": "texts/littlewomen.txt#Feeling_the_pressure_to_contribute_financially"
+    "name": "Home",
+    "id": "texts/littlewomen.txt#Home"
    },
    "hasParticipant": [
     {
@@ -171,8 +171,8 @@
   {
    "name": "Feeling_the_pressure_to_contribute_financially",
    "takePlaceAt": {
-    "name": "Feeling_the_pressure_to_contribute_financially",
-    "id": "texts/littlewomen.txt#Feeling_the_pressure_to_contribute_financially"
+    "name": "Home",
+    "id": "texts/littlewomen.txt#Home"
    },
    "hasParticipant": [
     {
@@ -189,8 +189,8 @@
   {
    "name": "Cutting_her_hair",
    "takePlaceAt": {
-    "name": "Cutting_her_hair",
-    "id": "texts/littlewomen.txt#Cutting_her_hair"
+    "name": "Home",
+    "id": "texts/littlewomen.txt#Home"
    },
    "hasParticipant": {
     "name": "Jo_March",
@@ -201,8 +201,8 @@
   {
    "name": "Receiving_a_telegram_about_her_husband_s_illness",
    "takePlaceAt": {
-    "name": "Receiving_a_telegram_about_her_husband_s_illness",
-    "id": "texts/littlewomen.txt#Receiving_a_telegram_about_her_husband_s_illness"
+    "name": "Home",
+    "id": "texts/littlewomen.txt#Home"
    },
    "hasParticipant": {
     "name": "Mrs_March",
@@ -213,8 +213,8 @@
   {
    "name": "Mr_Brooke_offering_to_escort_her_to_Washington",
    "takePlaceAt": {
-    "name": "Mr_Brooke_offering_to_escort_her_to_Washington",
-    "id": "texts/littlewomen.txt#Mr_Brooke_offering_to_escort_her_to_Washington"
+    "name": "Home",
+    "id": "texts/littlewomen.txt#Home"
    },
    "hasParticipant": [
     {
@@ -231,8 +231,8 @@
   {
    "name": "Jo_cutting_her_hair",
    "takePlaceAt": {
-    "name": "Jo_cutting_her_hair",
-    "id": "texts/littlewomen.txt#Jo_cutting_her_hair"
+    "name": "Home",
+    "id": "texts/littlewomen.txt#Home"
    },
    "hasParticipant": {
     "name": "Jo_March",
@@ -243,8 +243,8 @@
   {
    "name": "Mr_Brooke_offering_to_escort_her_mother_to_Washington",
    "takePlaceAt": {
-    "name": "Mr_Brooke_offering_to_escort_her_mother_to_Washington",
-    "id": "texts/littlewomen.txt#Mr_Brooke_offering_to_escort_her_mother_to_Washing"
+    "name": "Home",
+    "id": "texts/littlewomen.txt#Home"
    },
    "hasParticipant": [
     {

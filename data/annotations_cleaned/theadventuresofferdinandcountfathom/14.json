@@ -81,8 +81,8 @@
   {
    "name": "Description_of_the_old_gentlewoman_s_behavior",
    "takePlaceAt": {
-    "name": "Description_of_the_old_gentlewoman_s_behavior",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Description_of_the_old_gentlewoman_s_behavior"
+    "name": "Coffeehouse",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Coffeehouse"
    },
    "hasParticipant": [
     {
@@ -99,8 +99,8 @@
   {
    "name": "Accusations_of_dishonesty",
    "takePlaceAt": {
-    "name": "Accusations_of_dishonesty",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Accusations_of_dishonesty"
+    "name": "Conversation_with_the_old_gentlewoman",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Conversation_with_the_old_gentlewoman"
    },
    "hasParticipant": {
     "name": "Ferdinand_Fathom",
@@ -111,8 +111,8 @@
   {
    "name": "Reflection_on_past_actions",
    "takePlaceAt": {
-    "name": "Reflection_on_past_actions",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Reflection_on_past_actions"
+    "name": "Solitary_mansion",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Solitary_mansion"
    },
    "hasParticipant": {
     "name": "Ferdinand_Fathom",
@@ -123,8 +123,8 @@
   {
    "name": "Receiving_a_miniature_picture_of_his_father",
    "takePlaceAt": {
-    "name": "Receiving_a_miniature_picture_of_his_father",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Receiving_a_miniature_picture_of_his_father"
+    "name": "Castle_tower",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Castle_tower"
    },
    "hasParticipant": {
     "name": "Renaldo_Melvil",
@@ -135,8 +135,8 @@
   {
    "name": "Encounter_with_Count_Trebasi",
    "takePlaceAt": {
-    "name": "Encounter_with_Count_Trebasi",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Encounter_with_Count_Trebasi"
+    "name": "Castle_grounds",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Castle_grounds"
    },
    "hasParticipant": {
     "name": "Renaldo_Melvil",

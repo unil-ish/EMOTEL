@@ -87,40 +87,40 @@
   {
    "name": "Admiration_of_Rosamond_s_intelligence_and_beauty",
    "takePlaceAt": {
-    "name": "Admiration_of_Rosamond_s_intelligence_and_beauty",
-    "id": "texts/middlemarch.txt#Admiration_of_Rosamond_s_intelligence_and_beauty"
+    "name": "Mr_Vincy_s_house",
+    "id": "texts/middlemarch.txt#Mr_Vincy_s_house"
    },
    "id": "texts/middlemarch.txt#Admiration_of_Rosamond_s_intelligence_and_beauty"
   },
   {
    "name": "Triumphant_delight_in_his_studies",
    "takePlaceAt": {
-    "name": "Triumphant_delight_in_his_studies",
-    "id": "texts/middlemarch.txt#Triumphant_delight_in_his_studies"
+    "name": "His_home",
+    "id": "texts/middlemarch.txt#His_home"
    },
    "id": "texts/middlemarch.txt#Triumphant_delight_in_his_studies"
   },
   {
    "name": "Love_of_his_work_and_ambition",
    "takePlaceAt": {
-    "name": "Love_of_his_work_and_ambition",
-    "id": "texts/middlemarch.txt#Love_of_his_work_and_ambition"
+    "name": "His_home",
+    "id": "texts/middlemarch.txt#His_home"
    },
    "id": "texts/middlemarch.txt#Love_of_his_work_and_ambition"
   },
   {
    "name": "Lydgate_s_admiration",
    "takePlaceAt": {
-    "name": "Lydgate_s_admiration",
-    "id": "texts/middlemarch.txt#Lydgate_s_admiration"
+    "name": "Mr_Vincy_s_house",
+    "id": "texts/middlemarch.txt#Mr_Vincy_s_house"
    },
    "id": "texts/middlemarch.txt#Lydgate_s_admiration"
   },
   {
    "name": "Playing_music",
    "takePlaceAt": {
-    "name": "Playing_music",
-    "id": "texts/middlemarch.txt#Playing_music"
+    "name": "Mr_Vincy_s_house",
+    "id": "texts/middlemarch.txt#Mr_Vincy_s_house"
    },
    "id": "texts/middlemarch.txt#Playing_music"
   }

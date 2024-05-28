@@ -157,8 +157,8 @@
   {
    "name": "Seeing_Meg_in_a_fine_lady_outfit",
    "takePlaceAt": {
-    "name": "Seeing_Meg_in_a_fine_lady_outfit",
-    "id": "texts/littlewomen.txt#Seeing_Meg_in_a_fine_lady_outfit"
+    "name": "Drawingrooms",
+    "id": "texts/littlewomen.txt#Drawingrooms"
    },
    "hasParticipant": [
     {
@@ -175,8 +175,8 @@
   {
    "name": "Seeing_Meg_in_a_fine_lady_outfit",
    "takePlaceAt": {
-    "name": "Seeing_Meg_in_a_fine_lady_outfit",
-    "id": "texts/littlewomen.txt#Seeing_Meg_in_a_fine_lady_outfit"
+    "name": "Drawingrooms",
+    "id": "texts/littlewomen.txt#Drawingrooms"
    },
    "hasParticipant": [
     {
@@ -193,8 +193,8 @@
   {
    "name": "Meg_asking_for_his_opinion_on_her_appearance",
    "takePlaceAt": {
-    "name": "Meg_asking_for_his_opinion_on_her_appearance",
-    "id": "texts/littlewomen.txt#Meg_asking_for_his_opinion_on_her_appearance"
+    "name": "Drawingrooms",
+    "id": "texts/littlewomen.txt#Drawingrooms"
    },
    "hasParticipant": [
     {
@@ -211,8 +211,8 @@
   {
    "name": "Realizing_his_rudeness_towards_Meg",
    "takePlaceAt": {
-    "name": "Realizing_his_rudeness_towards_Meg",
-    "id": "texts/littlewomen.txt#Realizing_his_rudeness_towards_Meg"
+    "name": "Drawingrooms",
+    "id": "texts/littlewomen.txt#Drawingrooms"
    },
    "hasParticipant": [
     {
@@ -229,8 +229,8 @@
   {
    "name": "Seeing_Meg_s_true_self",
    "takePlaceAt": {
-    "name": "Seeing_Meg_s_true_self",
-    "id": "texts/littlewomen.txt#Seeing_Meg_s_true_self"
+    "name": "Drawingrooms",
+    "id": "texts/littlewomen.txt#Drawingrooms"
    },
    "hasParticipant": [
     {
@@ -247,8 +247,8 @@
   {
    "name": "Seeing_Laurie",
    "takePlaceAt": {
-    "name": "Seeing_Laurie",
-    "id": "texts/littlewomen.txt#Seeing_Laurie"
+    "name": "Drawingrooms",
+    "id": "texts/littlewomen.txt#Drawingrooms"
    },
    "hasParticipant": [
     {
@@ -265,8 +265,8 @@
   {
    "name": "Wearing_a_tight_dress",
    "takePlaceAt": {
-    "name": "Wearing_a_tight_dress",
-    "id": "texts/littlewomen.txt#Wearing_a_tight_dress"
+    "name": "Drawingrooms",
+    "id": "texts/littlewomen.txt#Drawingrooms"
    },
    "hasParticipant": {
     "name": "Meg",
@@ -277,8 +277,8 @@
   {
    "name": "Wearing_borrowed_clothes",
    "takePlaceAt": {
-    "name": "Wearing_borrowed_clothes",
-    "id": "texts/littlewomen.txt#Wearing_borrowed_clothes"
+    "name": "Drawingrooms",
+    "id": "texts/littlewomen.txt#Drawingrooms"
    },
    "hasParticipant": {
     "name": "Meg",
@@ -289,8 +289,8 @@
   {
    "name": "Realizing_the_impact_of_her_appearance",
    "takePlaceAt": {
-    "name": "Realizing_the_impact_of_her_appearance",
-    "id": "texts/littlewomen.txt#Realizing_the_impact_of_her_appearance"
+    "name": "Drawingrooms",
+    "id": "texts/littlewomen.txt#Drawingrooms"
    },
    "hasParticipant": {
     "name": "Meg",
@@ -301,8 +301,8 @@
   {
    "name": "Wearing_a_tight_dress",
    "takePlaceAt": {
-    "name": "Wearing_a_tight_dress",
-    "id": "texts/littlewomen.txt#Wearing_a_tight_dress"
+    "name": "Drawingrooms",
+    "id": "texts/littlewomen.txt#Drawingrooms"
    },
    "hasParticipant": {
     "name": "Meg",

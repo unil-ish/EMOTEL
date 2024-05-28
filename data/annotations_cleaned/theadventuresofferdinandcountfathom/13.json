@@ -81,40 +81,40 @@
   {
    "name": "Missed_opportunities_for_marriage",
    "takePlaceAt": {
-    "name": "Missed_opportunities_for_marriage",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Missed_opportunities_for_marriage"
+    "name": "Various_social_events",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Various_social_events"
    },
    "id": "texts/theadventuresofferdinandcountfathom.txt#Missed_opportunities_for_marriage"
   },
   {
    "name": "Deception_by_the_quack",
    "takePlaceAt": {
-    "name": "Deception_by_the_quack",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Deception_by_the_quack"
+    "name": "Inn",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Inn"
    },
    "id": "texts/theadventuresofferdinandcountfathom.txt#Deception_by_the_quack"
   },
   {
    "name": "Betrayal_by_the_quack",
    "takePlaceAt": {
-    "name": "Betrayal_by_the_quack",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Betrayal_by_the_quack"
+    "name": "Inn",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Inn"
    },
    "id": "texts/theadventuresofferdinandcountfathom.txt#Betrayal_by_the_quack"
   },
   {
    "name": "Promise_of_marriage",
    "takePlaceAt": {
-    "name": "Promise_of_marriage",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Promise_of_marriage"
+    "name": "Private_residence",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Private_residence"
    },
    "id": "texts/theadventuresofferdinandcountfathom.txt#Promise_of_marriage"
   },
   {
    "name": "Rejection_by_the_young_lady",
    "takePlaceAt": {
-    "name": "Rejection_by_the_young_lady",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Rejection_by_the_young_lady"
+    "name": "Inn",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Inn"
    },
    "id": "texts/theadventuresofferdinandcountfathom.txt#Rejection_by_the_young_lady"
   }

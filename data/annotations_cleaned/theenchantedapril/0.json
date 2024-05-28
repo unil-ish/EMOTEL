@@ -129,8 +129,8 @@
   {
    "name": "Receiving_a_card_from_Mrs_Arbuthnot",
    "takePlaceAt": {
-    "name": "Receiving_a_card_from_Mrs_Arbuthnot",
-    "id": "texts/theenchantedapril.txt#Receiving_a_card_from_Mrs_Arbuthnot"
+    "name": "Woman_s_Club",
+    "id": "texts/theenchantedapril.txt#Woman_s_Club"
    },
    "hasParticipant": [
     {
@@ -147,56 +147,56 @@
   {
    "name": "Mrs_Wilkins_having_a_vision",
    "takePlaceAt": {
-    "name": "Mrs_Wilkins_having_a_vision",
-    "id": "texts/theenchantedapril.txt#Mrs_Wilkins_having_a_vision"
+    "name": "Woman_s_Club",
+    "id": "texts/theenchantedapril.txt#Woman_s_Club"
    },
    "id": "texts/theenchantedapril.txt#Mrs_Wilkins_having_a_vision"
   },
   {
    "name": "Feeling_guilty_about_posting_the_letter",
    "takePlaceAt": {
-    "name": "Feeling_guilty_about_posting_the_letter",
-    "id": "texts/theenchantedapril.txt#Feeling_guilty_about_posting_the_letter"
+    "name": "Woman_s_Club",
+    "id": "texts/theenchantedapril.txt#Woman_s_Club"
    },
    "id": "texts/theenchantedapril.txt#Feeling_guilty_about_posting_the_letter"
   },
   {
    "name": "Having_a_vision_about_reducing_the_rent",
    "takePlaceAt": {
-    "name": "Having_a_vision_about_reducing_the_rent",
-    "id": "texts/theenchantedapril.txt#Having_a_vision_about_reducing_the_rent"
+    "name": "Woman_s_Club",
+    "id": "texts/theenchantedapril.txt#Woman_s_Club"
    },
    "id": "texts/theenchantedapril.txt#Having_a_vision_about_reducing_the_rent"
   },
   {
    "name": "Reflecting_on_her_life_and_marriage",
    "takePlaceAt": {
-    "name": "Reflecting_on_her_life_and_marriage",
-    "id": "texts/theenchantedapril.txt#Reflecting_on_her_life_and_marriage"
+    "name": "Home",
+    "id": "texts/theenchantedapril.txt#Home"
    },
    "id": "texts/theenchantedapril.txt#Reflecting_on_her_life_and_marriage"
   },
   {
    "name": "Feeling_happy_and_guilty",
    "takePlaceAt": {
-    "name": "Feeling_happy_and_guilty",
-    "id": "texts/theenchantedapril.txt#Feeling_happy_and_guilty"
+    "name": "Home",
+    "id": "texts/theenchantedapril.txt#Home"
    },
    "id": "texts/theenchantedapril.txt#Feeling_happy_and_guilty"
   },
   {
    "name": "Feeling_afraid",
    "takePlaceAt": {
-    "name": "Feeling_afraid",
-    "id": "texts/theenchantedapril.txt#Feeling_afraid"
+    "name": "Home",
+    "id": "texts/theenchantedapril.txt#Home"
    },
    "id": "texts/theenchantedapril.txt#Feeling_afraid"
   },
   {
    "name": "Finding_a_way_out_of_the_reference_difficulty",
    "takePlaceAt": {
-    "name": "Finding_a_way_out_of_the_reference_difficulty",
-    "id": "texts/theenchantedapril.txt#Finding_a_way_out_of_the_reference_difficulty"
+    "name": "Home",
+    "id": "texts/theenchantedapril.txt#Home"
    },
    "id": "texts/theenchantedapril.txt#Finding_a_way_out_of_the_reference_difficulty"
   }

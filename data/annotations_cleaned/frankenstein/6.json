@@ -81,8 +81,8 @@
   {
    "name": "Father_s_care_and_attentions",
    "takePlaceAt": {
-    "name": "Father_s_care_and_attentions",
-    "id": "texts/frankenstein.txt#Father_s_care_and_attentions"
+    "name": "During_recovery_from_fever",
+    "id": "texts/frankenstein.txt#During_recovery_from_fever"
    },
    "hasParticipant": [
     {
@@ -99,32 +99,32 @@
   {
    "name": "Recollection_of_various_misfortunes",
    "takePlaceAt": {
-    "name": "Recollection_of_various_misfortunes",
-    "id": "texts/frankenstein.txt#Recollection_of_various_misfortunes"
+    "name": "Throughout_the_journey",
+    "id": "texts/frankenstein.txt#Throughout_the_journey"
    },
    "id": "texts/frankenstein.txt#Recollection_of_various_misfortunes"
   },
   {
    "name": "Selfrealization_of_crimes",
    "takePlaceAt": {
-    "name": "Selfrealization_of_crimes",
-    "id": "texts/frankenstein.txt#Selfrealization_of_crimes"
+    "name": "After_time_passed_away",
+    "id": "texts/frankenstein.txt#After_time_passed_away"
    },
    "id": "texts/frankenstein.txt#Selfrealization_of_crimes"
   },
   {
    "name": "Selfviolence_to_curb_wretchedness",
    "takePlaceAt": {
-    "name": "Selfviolence_to_curb_wretchedness",
-    "id": "texts/frankenstein.txt#Selfviolence_to_curb_wretchedness"
+    "name": "After_journey_to_the_sea_of_ice",
+    "id": "texts/frankenstein.txt#After_journey_to_the_sea_of_ice"
    },
    "id": "texts/frankenstein.txt#Selfviolence_to_curb_wretchedness"
   },
   {
    "name": "Receiving_a_letter_from_Elizabeth",
    "takePlaceAt": {
-    "name": "Receiving_a_letter_from_Elizabeth",
-    "id": "texts/frankenstein.txt#Receiving_a_letter_from_Elizabeth"
+    "name": "Before_leaving_Paris",
+    "id": "texts/frankenstein.txt#Before_leaving_Paris"
    },
    "hasParticipant": [
     {

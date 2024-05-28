@@ -101,8 +101,8 @@
   {
    "name": "Discussion_about_their_relationship",
    "takePlaceAt": {
-    "name": "Discussion_about_their_relationship",
-    "id": "texts/middlemarch.txt#Discussion_about_their_relationship"
+    "name": "Their_home",
+    "id": "texts/middlemarch.txt#Their_home"
    },
    "hasParticipant": [
     {
@@ -119,8 +119,8 @@
   {
    "name": "Finding_out_that_the_house_was_already_taken",
    "takePlaceAt": {
-    "name": "Finding_out_that_the_house_was_already_taken",
-    "id": "texts/middlemarch.txt#Finding_out_that_the_house_was_already_taken"
+    "name": "Their_home",
+    "id": "texts/middlemarch.txt#Their_home"
    },
    "hasParticipant": [
     {
@@ -137,8 +137,8 @@
   {
    "name": "Finding_out_that_the_house_was_already_taken",
    "takePlaceAt": {
-    "name": "Finding_out_that_the_house_was_already_taken",
-    "id": "texts/middlemarch.txt#Finding_out_that_the_house_was_already_taken"
+    "name": "Their_home",
+    "id": "texts/middlemarch.txt#Their_home"
    },
    "hasParticipant": [
     {
@@ -155,8 +155,8 @@
   {
    "name": "Finding_out_that_the_house_was_already_taken",
    "takePlaceAt": {
-    "name": "Finding_out_that_the_house_was_already_taken",
-    "id": "texts/middlemarch.txt#Finding_out_that_the_house_was_already_taken"
+    "name": "Their_home",
+    "id": "texts/middlemarch.txt#Their_home"
    },
    "hasParticipant": [
     {
@@ -173,8 +173,8 @@
   {
    "name": "Lydgate_s_disappointment",
    "takePlaceAt": {
-    "name": "Lydgate_s_disappointment",
-    "id": "texts/middlemarch.txt#Lydgate_s_disappointment"
+    "name": "Their_home",
+    "id": "texts/middlemarch.txt#Their_home"
    },
    "hasParticipant": [
     {
@@ -191,8 +191,8 @@
   {
    "name": "Preventing_further_discussion_about_the_house",
    "takePlaceAt": {
-    "name": "Preventing_further_discussion_about_the_house",
-    "id": "texts/middlemarch.txt#Preventing_further_discussion_about_the_house"
+    "name": "Their_home",
+    "id": "texts/middlemarch.txt#Their_home"
    },
    "hasParticipant": [
     {

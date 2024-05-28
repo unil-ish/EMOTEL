@@ -87,8 +87,8 @@
   {
    "name": "Offering_marriage_to_Elizabeth",
    "takePlaceAt": {
-    "name": "Offering_marriage_to_Elizabeth",
-    "id": "texts/prideandprejudice.txt#Offering_marriage_to_Elizabeth"
+    "name": "Longbourn_estate",
+    "id": "texts/prideandprejudice.txt#Longbourn_estate"
    },
    "hasParticipant": [
     {
@@ -105,8 +105,8 @@
   {
    "name": "Elizabeth_s_rejection_of_his_proposal",
    "takePlaceAt": {
-    "name": "Elizabeth_s_rejection_of_his_proposal",
-    "id": "texts/prideandprejudice.txt#Elizabeth_s_rejection_of_his_proposal"
+    "name": "Longbourn_estate",
+    "id": "texts/prideandprejudice.txt#Longbourn_estate"
    },
    "hasParticipant": [
     {
@@ -123,8 +123,8 @@
   {
    "name": "Elizabeth_s_rejection_of_his_proposal",
    "takePlaceAt": {
-    "name": "Elizabeth_s_rejection_of_his_proposal",
-    "id": "texts/prideandprejudice.txt#Elizabeth_s_rejection_of_his_proposal"
+    "name": "Longbourn_estate",
+    "id": "texts/prideandprejudice.txt#Longbourn_estate"
    },
    "hasParticipant": [
     {
@@ -141,8 +141,8 @@
   {
    "name": "Mr_Collins_persistence",
    "takePlaceAt": {
-    "name": "Mr_Collins_persistence",
-    "id": "texts/prideandprejudice.txt#Mr_Collins_persistence"
+    "name": "Longbourn_estate",
+    "id": "texts/prideandprejudice.txt#Longbourn_estate"
    },
    "hasParticipant": [
     {
@@ -159,8 +159,8 @@
   {
    "name": "Mrs_Bennet_s_persuasion",
    "takePlaceAt": {
-    "name": "Mrs_Bennet_s_persuasion",
-    "id": "texts/prideandprejudice.txt#Mrs_Bennet_s_persuasion"
+    "name": "Longbourn_estate",
+    "id": "texts/prideandprejudice.txt#Longbourn_estate"
    },
    "hasParticipant": [
     {

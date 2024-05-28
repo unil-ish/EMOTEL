@@ -115,56 +115,56 @@
   {
    "name": "Seeing_Will_Ladislaw",
    "takePlaceAt": {
-    "name": "Seeing_Will_Ladislaw",
-    "id": "texts/middlemarch.txt#Seeing_Will_Ladislaw"
+    "name": "Library_at_the_Grange",
+    "id": "texts/middlemarch.txt#Library_at_the_Grange"
    },
    "id": "texts/middlemarch.txt#Seeing_Will_Ladislaw"
   },
   {
    "name": "Meeting_Will_Ladislaw_unexpectedly",
    "takePlaceAt": {
-    "name": "Meeting_Will_Ladislaw_unexpectedly",
-    "id": "texts/middlemarch.txt#Meeting_Will_Ladislaw_unexpectedly"
+    "name": "Library_at_the_Grange",
+    "id": "texts/middlemarch.txt#Library_at_the_Grange"
    },
    "id": "texts/middlemarch.txt#Meeting_Will_Ladislaw_unexpectedly"
   },
   {
    "name": "Feeling_betrayed_by_the_world",
    "takePlaceAt": {
-    "name": "Feeling_betrayed_by_the_world",
-    "id": "texts/middlemarch.txt#Feeling_betrayed_by_the_world"
+    "name": "Carriage_passing_under_the_archway_of_the_lodgegate_at_the_Grange",
+    "id": "texts/middlemarch.txt#Carriage_passing_under_the_archway_of_the_lodgegat"
    },
    "id": "texts/middlemarch.txt#Feeling_betrayed_by_the_world"
   },
   {
    "name": "Feeling_angry_at_the_injustice_towards_Will_Ladislaw",
    "takePlaceAt": {
-    "name": "Feeling_angry_at_the_injustice_towards_Will_Ladislaw",
-    "id": "texts/middlemarch.txt#Feeling_angry_at_the_injustice_towards_Will_Ladisl"
+    "name": "Carriage_passing_under_the_archway_of_the_lodgegate_at_the_Grange",
+    "id": "texts/middlemarch.txt#Carriage_passing_under_the_archway_of_the_lodgegat"
    },
    "id": "texts/middlemarch.txt#Feeling_angry_at_the_injustice_towards_Will_Ladisl"
   },
   {
    "name": "Seeing_Dorothea",
    "takePlaceAt": {
-    "name": "Seeing_Dorothea",
-    "id": "texts/middlemarch.txt#Seeing_Dorothea"
+    "name": "Library_at_the_Grange",
+    "id": "texts/middlemarch.txt#Library_at_the_Grange"
    },
    "id": "texts/middlemarch.txt#Seeing_Dorothea"
   },
   {
    "name": "Meeting_Dorothea_unexpectedly",
    "takePlaceAt": {
-    "name": "Meeting_Dorothea_unexpectedly",
-    "id": "texts/middlemarch.txt#Meeting_Dorothea_unexpectedly"
+    "name": "Library_at_the_Grange",
+    "id": "texts/middlemarch.txt#Library_at_the_Grange"
    },
    "id": "texts/middlemarch.txt#Meeting_Dorothea_unexpectedly"
   },
   {
    "name": "Feeling_insulted_by_others",
    "takePlaceAt": {
-    "name": "Feeling_insulted_by_others",
-    "id": "texts/middlemarch.txt#Feeling_insulted_by_others"
+    "name": "Library_at_the_Grange",
+    "id": "texts/middlemarch.txt#Library_at_the_Grange"
    },
    "id": "texts/middlemarch.txt#Feeling_insulted_by_others"
   }

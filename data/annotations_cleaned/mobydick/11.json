@@ -65,8 +65,8 @@
   {
    "name": "Justification_of_his_painting",
    "takePlaceAt": {
-    "name": "Justification_of_his_painting",
-    "id": "texts/mobydick.txt#Justification_of_his_painting"
+    "name": "London_Docks",
+    "id": "texts/mobydick.txt#London_Docks"
    },
    "hasParticipant": {
     "name": "Crippled_Beggar",
@@ -77,8 +77,8 @@
   {
    "name": "Creation_of_bone_sculpture",
    "takePlaceAt": {
-    "name": "Creation_of_bone_sculpture",
-    "id": "texts/mobydick.txt#Creation_of_bone_sculpture"
+    "name": "Whaling_ship",
+    "id": "texts/mobydick.txt#Whaling_ship"
    },
    "hasParticipant": {
     "name": "SailorSavage",
@@ -89,8 +89,8 @@
   {
    "name": "Imagining_riding_a_whale_to_the_skies",
    "takePlaceAt": {
-    "name": "Imagining_riding_a_whale_to_the_skies",
-    "id": "texts/mobydick.txt#Imagining_riding_a_whale_to_the_skies"
+    "name": "Narrator_s_thoughts",
+    "id": "texts/mobydick.txt#Narrator_s_thoughts"
    },
    "hasParticipant": {
     "name": "Narrator",

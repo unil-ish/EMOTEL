@@ -67,8 +67,8 @@
   {
    "name": "Father_s_illness",
    "takePlaceAt": {
-    "name": "Father_s_illness",
-    "id": "texts/cranford.txt#Father_s_illness"
+    "name": "Home",
+    "id": "texts/cranford.txt#Home"
    },
    "hasParticipant": [
     {
@@ -85,16 +85,16 @@
   {
    "name": "Upcoming_event_in_Cranford",
    "takePlaceAt": {
-    "name": "Upcoming_event_in_Cranford",
-    "id": "texts/cranford.txt#Upcoming_event_in_Cranford"
+    "name": "Cranford",
+    "id": "texts/cranford.txt#Cranford"
    },
    "id": "texts/cranford.txt#Upcoming_event_in_Cranford"
   },
   {
    "name": "Receiving_a_cap_instead_of_a_turban",
    "takePlaceAt": {
-    "name": "Receiving_a_cap_instead_of_a_turban",
-    "id": "texts/cranford.txt#Receiving_a_cap_instead_of_a_turban"
+    "name": "Miss_Matty_s_bedroom",
+    "id": "texts/cranford.txt#Miss_Matty_s_bedroom"
    },
    "hasParticipant": [
     {
@@ -111,8 +111,8 @@
   {
    "name": "Accepting_the_cap",
    "takePlaceAt": {
-    "name": "Accepting_the_cap",
-    "id": "texts/cranford.txt#Accepting_the_cap"
+    "name": "Miss_Matty_s_bedroom",
+    "id": "texts/cranford.txt#Miss_Matty_s_bedroom"
    },
    "hasParticipant": [
     {

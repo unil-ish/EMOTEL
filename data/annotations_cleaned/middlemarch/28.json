@@ -101,48 +101,48 @@
   {
    "name": "Losing_money_in_the_billiardroom",
    "takePlaceAt": {
-    "name": "Losing_money_in_the_billiardroom",
-    "id": "texts/middlemarch.txt#Losing_money_in_the_billiardroom"
+    "name": "Green_Dragon_billiardroom",
+    "id": "texts/middlemarch.txt#Green_Dragon_billiardroom"
    },
    "id": "texts/middlemarch.txt#Losing_money_in_the_billiardroom"
   },
   {
    "name": "Realizing_he_may_need_to_ask_for_help_from_Mr_Bulstrode",
    "takePlaceAt": {
-    "name": "Realizing_he_may_need_to_ask_for_help_from_Mr_Bulstrode",
-    "id": "texts/middlemarch.txt#Realizing_he_may_need_to_ask_for_help_from_Mr_Buls"
+    "name": "Personal_reflection",
+    "id": "texts/middlemarch.txt#Personal_reflection"
    },
    "id": "texts/middlemarch.txt#Realizing_he_may_need_to_ask_for_help_from_Mr_Buls"
   },
   {
    "name": "Financial_difficulties_and_impending_consequences",
    "takePlaceAt": {
-    "name": "Financial_difficulties_and_impending_consequences",
-    "id": "texts/middlemarch.txt#Financial_difficulties_and_impending_consequences"
+    "name": "Personal_reflection",
+    "id": "texts/middlemarch.txt#Personal_reflection"
    },
    "id": "texts/middlemarch.txt#Financial_difficulties_and_impending_consequences"
   },
   {
    "name": "Mr_Farebrother_s_conversation",
    "takePlaceAt": {
-    "name": "Mr_Farebrother_s_conversation",
-    "id": "texts/middlemarch.txt#Mr_Farebrother_s_conversation"
+    "name": "Conversation_with_Mr_Farebrother",
+    "id": "texts/middlemarch.txt#Conversation_with_Mr_Farebrother"
    },
    "id": "texts/middlemarch.txt#Mr_Farebrother_s_conversation"
   },
   {
    "name": "Mr_Farebrother_s_conversation",
    "takePlaceAt": {
-    "name": "Mr_Farebrother_s_conversation",
-    "id": "texts/middlemarch.txt#Mr_Farebrother_s_conversation"
+    "name": "Conversation_with_Mr_Farebrother",
+    "id": "texts/middlemarch.txt#Conversation_with_Mr_Farebrother"
    },
    "id": "texts/middlemarch.txt#Mr_Farebrother_s_conversation"
   },
   {
    "name": "Mr_Farebrother_s_advice_and_warning",
    "takePlaceAt": {
-    "name": "Mr_Farebrother_s_advice_and_warning",
-    "id": "texts/middlemarch.txt#Mr_Farebrother_s_advice_and_warning"
+    "name": "Conversation_with_Mr_Farebrother",
+    "id": "texts/middlemarch.txt#Conversation_with_Mr_Farebrother"
    },
    "id": "texts/middlemarch.txt#Mr_Farebrother_s_advice_and_warning"
   }

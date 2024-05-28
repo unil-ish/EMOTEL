@@ -125,8 +125,8 @@
   {
    "name": "Visiting_the_Vincys",
    "takePlaceAt": {
-    "name": "Visiting_the_Vincys",
-    "id": "texts/middlemarch.txt#Visiting_the_Vincys"
+    "name": "Vincys_house",
+    "id": "texts/middlemarch.txt#Vincys_house"
    },
    "hasParticipant": {
     "name": "Elderly_gentlemen",
@@ -137,8 +137,8 @@
   {
    "name": "Thinking_Rosamond_s_education_was_excessive",
    "takePlaceAt": {
-    "name": "Thinking_Rosamond_s_education_was_excessive",
-    "id": "texts/middlemarch.txt#Thinking_Rosamond_s_education_was_excessive"
+    "name": "Vincys_house",
+    "id": "texts/middlemarch.txt#Vincys_house"
    },
    "hasParticipant": {
     "name": "Mrs_Plymdale",
@@ -149,8 +149,8 @@
   {
    "name": "Being_accepted_for_who_he_is",
    "takePlaceAt": {
-    "name": "Being_accepted_for_who_he_is",
-    "id": "texts/middlemarch.txt#Being_accepted_for_who_he_is"
+    "name": "Meeting_Lydgate",
+    "id": "texts/middlemarch.txt#Meeting_Lydgate"
    },
    "hasParticipant": {
     "name": "Mr_Farebrother",
@@ -161,8 +161,8 @@
   {
    "name": "Believing_in_the_good_intentions_of_others",
    "takePlaceAt": {
-    "name": "Believing_in_the_good_intentions_of_others",
-    "id": "texts/middlemarch.txt#Believing_in_the_good_intentions_of_others"
+    "name": "Meeting_with_the_gentlemen",
+    "id": "texts/middlemarch.txt#Meeting_with_the_gentlemen"
    },
    "hasParticipant": {
     "name": "Mr_Bulstrode",
@@ -173,8 +173,8 @@
   {
    "name": "Being_convinced_by_friends",
    "takePlaceAt": {
-    "name": "Being_convinced_by_friends",
-    "id": "texts/middlemarch.txt#Being_convinced_by_friends"
+    "name": "Meeting_with_the_gentlemen",
+    "id": "texts/middlemarch.txt#Meeting_with_the_gentlemen"
    },
    "hasParticipant": {
     "name": "Mr_Brooke",
@@ -185,8 +185,8 @@
   {
    "name": "Feeling_pressured_to_vote_a_certain_way",
    "takePlaceAt": {
-    "name": "Feeling_pressured_to_vote_a_certain_way",
-    "id": "texts/middlemarch.txt#Feeling_pressured_to_vote_a_certain_way"
+    "name": "Meeting_with_the_gentlemen",
+    "id": "texts/middlemarch.txt#Meeting_with_the_gentlemen"
    },
    "hasParticipant": {
     "name": "Lydgate",

@@ -59,24 +59,24 @@
   {
    "name": "Unknown_cause",
    "takePlaceAt": {
-    "name": "Unknown_cause",
-    "id": "texts/littlewomen.txt#Unknown_cause"
+    "name": "Bedroom",
+    "id": "texts/littlewomen.txt#Bedroom"
    },
    "id": "texts/littlewomen.txt#Unknown_cause"
   },
   {
    "name": "Desire_for_change_and_new_experiences",
    "takePlaceAt": {
-    "name": "Desire_for_change_and_new_experiences",
-    "id": "texts/littlewomen.txt#Desire_for_change_and_new_experiences"
+    "name": "Home",
+    "id": "texts/littlewomen.txt#Home"
    },
    "id": "texts/littlewomen.txt#Desire_for_change_and_new_experiences"
   },
   {
    "name": "Fear_of_Laurie_s_growing_affection",
    "takePlaceAt": {
-    "name": "Fear_of_Laurie_s_growing_affection",
-    "id": "texts/littlewomen.txt#Fear_of_Laurie_s_growing_affection"
+    "name": "Home",
+    "id": "texts/littlewomen.txt#Home"
    },
    "id": "texts/littlewomen.txt#Fear_of_Laurie_s_growing_affection"
   }

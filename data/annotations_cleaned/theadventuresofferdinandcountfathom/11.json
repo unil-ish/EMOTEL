@@ -73,8 +73,8 @@
   {
    "name": "Learning_about_Renaldo_s_departure",
    "takePlaceAt": {
-    "name": "Learning_about_Renaldo_s_departure",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Learning_about_Renaldo_s_departure"
+    "name": "Monimia_s_residence",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Monimia_s_residence"
    },
    "hasParticipant": [
     {
@@ -91,8 +91,8 @@
   {
    "name": "Fathom_s_visit",
    "takePlaceAt": {
-    "name": "Fathom_s_visit",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Fathom_s_visit"
+    "name": "Monimia_s_residence",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Monimia_s_residence"
    },
    "hasParticipant": [
     {
@@ -109,8 +109,8 @@
   {
    "name": "Assisting_Renaldo",
    "takePlaceAt": {
-    "name": "Assisting_Renaldo",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Assisting_Renaldo"
+    "name": "Monimia_s_residence",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Monimia_s_residence"
    },
    "hasParticipant": [
     {
@@ -127,8 +127,8 @@
   {
    "name": "Renaldo_s_behavior_towards_Monimia",
    "takePlaceAt": {
-    "name": "Renaldo_s_behavior_towards_Monimia",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Renaldo_s_behavior_towards_Monimia"
+    "name": "Monimia_s_residence",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Monimia_s_residence"
    },
    "hasParticipant": [
     {

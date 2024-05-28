@@ -155,72 +155,72 @@
   {
    "name": "Opposition_to_the_New_Hospital",
    "takePlaceAt": {
-    "name": "Opposition_to_the_New_Hospital",
-    "id": "texts/middlemarch.txt#Opposition_to_the_New_Hospital"
+    "name": "Middlemarch",
+    "id": "texts/middlemarch.txt#Middlemarch"
    },
    "id": "texts/middlemarch.txt#Opposition_to_the_New_Hospital"
   },
   {
    "name": "Discussion_about_the_New_Hospital",
    "takePlaceAt": {
-    "name": "Discussion_about_the_New_Hospital",
-    "id": "texts/middlemarch.txt#Discussion_about_the_New_Hospital"
+    "name": "Home",
+    "id": "texts/middlemarch.txt#Home"
    },
    "id": "texts/middlemarch.txt#Discussion_about_the_New_Hospital"
   },
   {
    "name": "Discussion_about_the_New_Hospital",
    "takePlaceAt": {
-    "name": "Discussion_about_the_New_Hospital",
-    "id": "texts/middlemarch.txt#Discussion_about_the_New_Hospital"
+    "name": "Home",
+    "id": "texts/middlemarch.txt#Home"
    },
    "id": "texts/middlemarch.txt#Discussion_about_the_New_Hospital"
   },
   {
    "name": "Discussion_about_Lydgate_s_new_approach_to_medicine",
    "takePlaceAt": {
-    "name": "Discussion_about_Lydgate_s_new_approach_to_medicine",
-    "id": "texts/middlemarch.txt#Discussion_about_Lydgate_s_new_approach_to_medicin"
+    "name": "The_Tankard_in_Slaughter_Lane",
+    "id": "texts/middlemarch.txt#The_Tankard_in_Slaughter_Lane"
    },
    "id": "texts/middlemarch.txt#Discussion_about_Lydgate_s_new_approach_to_medicin"
   },
   {
    "name": "Paying_bills_with_strictly_made_items",
    "takePlaceAt": {
-    "name": "Paying_bills_with_strictly_made_items",
-    "id": "texts/middlemarch.txt#Paying_bills_with_strictly_made_items"
+    "name": "Home",
+    "id": "texts/middlemarch.txt#Home"
    },
    "id": "texts/middlemarch.txt#Paying_bills_with_strictly_made_items"
   },
   {
    "name": "Discussion_about_Lydgate_s_new_approach_to_medicine",
    "takePlaceAt": {
-    "name": "Discussion_about_Lydgate_s_new_approach_to_medicine",
-    "id": "texts/middlemarch.txt#Discussion_about_Lydgate_s_new_approach_to_medicin"
+    "name": "The_Tankard_in_Slaughter_Lane",
+    "id": "texts/middlemarch.txt#The_Tankard_in_Slaughter_Lane"
    },
    "id": "texts/middlemarch.txt#Discussion_about_Lydgate_s_new_approach_to_medicin"
   },
   {
    "name": "Discussion_about_Lydgate_s_new_approach_to_medicine",
    "takePlaceAt": {
-    "name": "Discussion_about_Lydgate_s_new_approach_to_medicine",
-    "id": "texts/middlemarch.txt#Discussion_about_Lydgate_s_new_approach_to_medicin"
+    "name": "The_Tankard_in_Slaughter_Lane",
+    "id": "texts/middlemarch.txt#The_Tankard_in_Slaughter_Lane"
    },
    "id": "texts/middlemarch.txt#Discussion_about_Lydgate_s_new_approach_to_medicin"
   },
   {
    "name": "Learning_about_Lydgate_s_views_on_medicine",
    "takePlaceAt": {
-    "name": "Learning_about_Lydgate_s_views_on_medicine",
-    "id": "texts/middlemarch.txt#Learning_about_Lydgate_s_views_on_medicine"
+    "name": "The_conversation_with_Mrs_Mawmsey",
+    "id": "texts/middlemarch.txt#The_conversation_with_Mrs_Mawmsey"
    },
    "id": "texts/middlemarch.txt#Learning_about_Lydgate_s_views_on_medicine"
   },
   {
    "name": "Conversation_with_Mrs_Mawmsey",
    "takePlaceAt": {
-    "name": "Conversation_with_Mrs_Mawmsey",
-    "id": "texts/middlemarch.txt#Conversation_with_Mrs_Mawmsey"
+    "name": "The_conversation_with_Mrs_Mawmsey",
+    "id": "texts/middlemarch.txt#The_conversation_with_Mrs_Mawmsey"
    },
    "id": "texts/middlemarch.txt#Conversation_with_Mrs_Mawmsey"
   }

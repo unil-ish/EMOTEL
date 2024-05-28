@@ -67,32 +67,32 @@
   {
    "name": "Calling_the_carpenter",
    "takePlaceAt": {
-    "name": "Calling_the_carpenter",
-    "id": "texts/mobydick.txt#Calling_the_carpenter"
+    "name": "On_the_Pequod_s_decks",
+    "id": "texts/mobydick.txt#On_the_Pequod_s_decks"
    },
    "id": "texts/mobydick.txt#Calling_the_carpenter"
   },
   {
    "name": "Casualty",
    "takePlaceAt": {
-    "name": "Casualty",
-    "id": "texts/mobydick.txt#Casualty"
+    "name": "On_the_Pequod_s_decks",
+    "id": "texts/mobydick.txt#On_the_Pequod_s_decks"
    },
    "id": "texts/mobydick.txt#Casualty"
   },
   {
    "name": "Hiding_away",
    "takePlaceAt": {
-    "name": "Hiding_away",
-    "id": "texts/mobydick.txt#Hiding_away"
+    "name": "On_the_Pequod_s_decks",
+    "id": "texts/mobydick.txt#On_the_Pequod_s_decks"
    },
    "id": "texts/mobydick.txt#Hiding_away"
   },
   {
    "name": "Hiding_away",
    "takePlaceAt": {
-    "name": "Hiding_away",
-    "id": "texts/mobydick.txt#Hiding_away"
+    "name": "On_the_Pequod_s_decks",
+    "id": "texts/mobydick.txt#On_the_Pequod_s_decks"
    },
    "id": "texts/mobydick.txt#Hiding_away"
   }

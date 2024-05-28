@@ -67,32 +67,32 @@
   {
    "name": "Mother_s_accusations",
    "takePlaceAt": {
-    "name": "Mother_s_accusations",
-    "id": "texts/aroomwithaview.txt#Mother_s_accusations"
+    "name": "In_the_carriage",
+    "id": "texts/aroomwithaview.txt#In_the_carriage"
    },
    "id": "texts/aroomwithaview.txt#Mother_s_accusations"
   },
   {
    "name": "Realizing_the_Emersons_had_left",
    "takePlaceAt": {
-    "name": "Realizing_the_Emersons_had_left",
-    "id": "texts/aroomwithaview.txt#Realizing_the_Emersons_had_left"
+    "name": "In_the_carriage",
+    "id": "texts/aroomwithaview.txt#In_the_carriage"
    },
    "id": "texts/aroomwithaview.txt#Realizing_the_Emersons_had_left"
   },
   {
    "name": "Meeting_Mr_Emerson",
    "takePlaceAt": {
-    "name": "Meeting_Mr_Emerson",
-    "id": "texts/aroomwithaview.txt#Meeting_Mr_Emerson"
+    "name": "In_Mr_Beebe_s_study",
+    "id": "texts/aroomwithaview.txt#In_Mr_Beebe_s_study"
    },
    "id": "texts/aroomwithaview.txt#Meeting_Mr_Emerson"
   },
   {
    "name": "Mr_Emerson_s_behavior",
    "takePlaceAt": {
-    "name": "Mr_Emerson_s_behavior",
-    "id": "texts/aroomwithaview.txt#Mr_Emerson_s_behavior"
+    "name": "In_Mr_Beebe_s_study",
+    "id": "texts/aroomwithaview.txt#In_Mr_Beebe_s_study"
    },
    "id": "texts/aroomwithaview.txt#Mr_Emerson_s_behavior"
   }

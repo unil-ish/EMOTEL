@@ -45,8 +45,8 @@
   {
    "name": "Empathy_towards_Rosamond_s_situation",
    "takePlaceAt": {
-    "name": "Empathy_towards_Rosamond_s_situation",
-    "id": "texts/middlemarch.txt#Empathy_towards_Rosamond_s_situation"
+    "name": "Lydgate_s_house",
+    "id": "texts/middlemarch.txt#Lydgate_s_house"
    },
    "hasParticipant": [
     {
@@ -63,8 +63,8 @@
   {
    "name": "Dorothea_s_approach_and_kind_words",
    "takePlaceAt": {
-    "name": "Dorothea_s_approach_and_kind_words",
-    "id": "texts/middlemarch.txt#Dorothea_s_approach_and_kind_words"
+    "name": "Lydgate_s_house",
+    "id": "texts/middlemarch.txt#Lydgate_s_house"
    },
    "hasParticipant": [
     {

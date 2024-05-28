@@ -129,64 +129,64 @@
   {
    "name": "John_s_reaction_to_Meg_s_expenses",
    "takePlaceAt": {
-    "name": "John_s_reaction_to_Meg_s_expenses",
-    "id": "texts/littlewomen.txt#John_s_reaction_to_Meg_s_expenses"
+    "name": "Home",
+    "id": "texts/littlewomen.txt#Home"
    },
    "id": "texts/littlewomen.txt#John_s_reaction_to_Meg_s_expenses"
   },
   {
    "name": "Realization_of_her_mistake",
    "takePlaceAt": {
-    "name": "Realization_of_her_mistake",
-    "id": "texts/littlewomen.txt#Realization_of_her_mistake"
+    "name": "Home",
+    "id": "texts/littlewomen.txt#Home"
    },
    "id": "texts/littlewomen.txt#Realization_of_her_mistake"
   },
   {
    "name": "Realization_of_her_actions",
    "takePlaceAt": {
-    "name": "Realization_of_her_actions",
-    "id": "texts/littlewomen.txt#Realization_of_her_actions"
+    "name": "Home",
+    "id": "texts/littlewomen.txt#Home"
    },
    "id": "texts/littlewomen.txt#Realization_of_her_actions"
   },
   {
    "name": "Realization_of_John_s_actions",
    "takePlaceAt": {
-    "name": "Realization_of_John_s_actions",
-    "id": "texts/littlewomen.txt#Realization_of_John_s_actions"
+    "name": "Home",
+    "id": "texts/littlewomen.txt#Home"
    },
    "id": "texts/littlewomen.txt#Realization_of_John_s_actions"
   },
   {
    "name": "Meg_s_expenses",
    "takePlaceAt": {
-    "name": "Meg_s_expenses",
-    "id": "texts/littlewomen.txt#Meg_s_expenses"
+    "name": "Home",
+    "id": "texts/littlewomen.txt#Home"
    },
    "id": "texts/littlewomen.txt#Meg_s_expenses"
   },
   {
    "name": "Meg_s_actions",
    "takePlaceAt": {
-    "name": "Meg_s_actions",
-    "id": "texts/littlewomen.txt#Meg_s_actions"
+    "name": "Home",
+    "id": "texts/littlewomen.txt#Home"
    },
    "id": "texts/littlewomen.txt#Meg_s_actions"
   },
   {
    "name": "Countermanded_order_for_greatcoat",
    "takePlaceAt": {
-    "name": "Countermanded_order_for_greatcoat",
-    "id": "texts/littlewomen.txt#Countermanded_order_for_greatcoat"
+    "name": "Home",
+    "id": "texts/littlewomen.txt#Home"
    },
    "id": "texts/littlewomen.txt#Countermanded_order_for_greatcoat"
   },
   {
    "name": "Meg_s_actions",
    "takePlaceAt": {
-    "name": "Meg_s_actions",
-    "id": "texts/littlewomen.txt#Meg_s_actions"
+    "name": "Home",
+    "id": "texts/littlewomen.txt#Home"
    },
    "id": "texts/littlewomen.txt#Meg_s_actions"
   }

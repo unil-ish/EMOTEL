@@ -67,8 +67,8 @@
   {
    "name": "Mrs_Bennet_s_attention_towards_Mr_Bingley",
    "takePlaceAt": {
-    "name": "Mrs_Bennet_s_attention_towards_Mr_Bingley",
-    "id": "texts/prideandprejudice.txt#Mrs_Bennet_s_attention_towards_Mr_Bingley"
+    "name": "Longbourn",
+    "id": "texts/prideandprejudice.txt#Longbourn"
    },
    "hasParticipant": [
     {
@@ -89,8 +89,8 @@
   {
    "name": "Mr_Darcy_s_behavior",
    "takePlaceAt": {
-    "name": "Mr_Darcy_s_behavior",
-    "id": "texts/prideandprejudice.txt#Mr_Darcy_s_behavior"
+    "name": "Longbourn",
+    "id": "texts/prideandprejudice.txt#Longbourn"
    },
    "hasParticipant": [
     {
@@ -107,8 +107,8 @@
   {
    "name": "Waiting_for_the_gentlemen",
    "takePlaceAt": {
-    "name": "Waiting_for_the_gentlemen",
-    "id": "texts/prideandprejudice.txt#Waiting_for_the_gentlemen"
+    "name": "Longbourn",
+    "id": "texts/prideandprejudice.txt#Longbourn"
    },
    "hasParticipant": {
     "name": "Elizabeth_Bennet",
@@ -119,8 +119,8 @@
   {
    "name": "Not_being_able_to_join_Mr_Darcy",
    "takePlaceAt": {
-    "name": "Not_being_able_to_join_Mr_Darcy",
-    "id": "texts/prideandprejudice.txt#Not_being_able_to_join_Mr_Darcy"
+    "name": "Longbourn",
+    "id": "texts/prideandprejudice.txt#Longbourn"
    },
    "hasParticipant": [
     {

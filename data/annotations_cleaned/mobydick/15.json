@@ -45,16 +45,16 @@
   {
    "name": "Anointing_his_boat",
    "takePlaceAt": {
-    "name": "Anointing_his_boat",
-    "id": "texts/mobydick.txt#Anointing_his_boat"
+    "name": "On_the_boat",
+    "id": "texts/mobydick.txt#On_the_boat"
    },
    "id": "texts/mobydick.txt#Anointing_his_boat"
   },
   {
    "name": "Successfully_pitchpoling_the_whale",
    "takePlaceAt": {
-    "name": "Successfully_pitchpoling_the_whale",
-    "id": "texts/mobydick.txt#Successfully_pitchpoling_the_whale"
+    "name": "On_the_boat",
+    "id": "texts/mobydick.txt#On_the_boat"
    },
    "id": "texts/mobydick.txt#Successfully_pitchpoling_the_whale"
   }

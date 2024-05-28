@@ -149,72 +149,72 @@
   {
    "name": "Beth_s_innocent_blunder",
    "takePlaceAt": {
-    "name": "Beth_s_innocent_blunder",
-    "id": "texts/littlewomen.txt#Beth_s_innocent_blunder"
+    "name": "Conversation_with_Frank",
+    "id": "texts/littlewomen.txt#Conversation_with_Frank"
    },
    "id": "texts/littlewomen.txt#Beth_s_innocent_blunder"
   },
   {
    "name": "Feeling_sorry_for_Frank",
    "takePlaceAt": {
-    "name": "Feeling_sorry_for_Frank",
-    "id": "texts/littlewomen.txt#Feeling_sorry_for_Frank"
+    "name": "Conversation_with_Frank",
+    "id": "texts/littlewomen.txt#Conversation_with_Frank"
    },
    "id": "texts/littlewomen.txt#Feeling_sorry_for_Frank"
   },
   {
    "name": "Feeling_sorry_for_Frank",
    "takePlaceAt": {
-    "name": "Feeling_sorry_for_Frank",
-    "id": "texts/littlewomen.txt#Feeling_sorry_for_Frank"
+    "name": "Conversation_with_Frank",
+    "id": "texts/littlewomen.txt#Conversation_with_Frank"
    },
    "id": "texts/littlewomen.txt#Feeling_sorry_for_Frank"
   },
   {
    "name": "Feeling_annoyed_by_Mr_Brooke_s_plans",
    "takePlaceAt": {
-    "name": "Feeling_annoyed_by_Mr_Brooke_s_plans",
-    "id": "texts/littlewomen.txt#Feeling_annoyed_by_Mr_Brooke_s_plans"
+    "name": "Conversation_with_Mr_Brooke",
+    "id": "texts/littlewomen.txt#Conversation_with_Mr_Brooke"
    },
    "id": "texts/littlewomen.txt#Feeling_annoyed_by_Mr_Brooke_s_plans"
   },
   {
    "name": "Feeling_proud_of_her_own_independence",
    "takePlaceAt": {
-    "name": "Feeling_proud_of_her_own_independence",
-    "id": "texts/littlewomen.txt#Feeling_proud_of_her_own_independence"
+    "name": "Conversation_with_Mr_Brooke",
+    "id": "texts/littlewomen.txt#Conversation_with_Mr_Brooke"
    },
    "id": "texts/littlewomen.txt#Feeling_proud_of_her_own_independence"
   },
   {
    "name": "Feeling_satisfied_with_the_German_song_translation",
    "takePlaceAt": {
-    "name": "Feeling_satisfied_with_the_German_song_translation",
-    "id": "texts/littlewomen.txt#Feeling_satisfied_with_the_German_song_translation"
+    "name": "Conversation_with_Mr_Brooke",
+    "id": "texts/littlewomen.txt#Conversation_with_Mr_Brooke"
    },
    "id": "texts/littlewomen.txt#Feeling_satisfied_with_the_German_song_translation"
   },
   {
    "name": "Feeling_lazy_and_unproductive",
    "takePlaceAt": {
-    "name": "Feeling_lazy_and_unproductive",
-    "id": "texts/littlewomen.txt#Feeling_lazy_and_unproductive"
+    "name": "Afternoon_in_the_hammock",
+    "id": "texts/littlewomen.txt#Afternoon_in_the_hammock"
    },
    "id": "texts/littlewomen.txt#Feeling_lazy_and_unproductive"
   },
   {
    "name": "Curiosity_about_the_Marches_activities",
    "takePlaceAt": {
-    "name": "Curiosity_about_the_Marches_activities",
-    "id": "texts/littlewomen.txt#Curiosity_about_the_Marches_activities"
+    "name": "Observing_the_Marches",
+    "id": "texts/littlewomen.txt#Observing_the_Marches"
    },
    "id": "texts/littlewomen.txt#Curiosity_about_the_Marches_activities"
   },
   {
    "name": "Feeling_left_out_of_the_picnic",
    "takePlaceAt": {
-    "name": "Feeling_left_out_of_the_picnic",
-    "id": "texts/littlewomen.txt#Feeling_left_out_of_the_picnic"
+    "name": "Observing_the_Marches",
+    "id": "texts/littlewomen.txt#Observing_the_Marches"
    },
    "id": "texts/littlewomen.txt#Feeling_left_out_of_the_picnic"
   }

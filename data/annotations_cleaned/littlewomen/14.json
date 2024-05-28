@@ -389,8 +389,8 @@
   {
    "name": "Mr_Bhaer_joining_her",
    "takePlaceAt": {
-    "name": "Mr_Bhaer_joining_her",
-    "id": "texts/littlewomen.txt#Mr_Bhaer_joining_her"
+    "name": "Select_symposium",
+    "id": "texts/littlewomen.txt#Select_symposium"
    },
    "hasParticipant": [
     {
@@ -411,8 +411,8 @@
   {
    "name": "Mr_Bhaer_joining_her",
    "takePlaceAt": {
-    "name": "Mr_Bhaer_joining_her",
-    "id": "texts/littlewomen.txt#Mr_Bhaer_joining_her"
+    "name": "Select_symposium",
+    "id": "texts/littlewomen.txt#Select_symposium"
    },
    "hasParticipant": [
     {
@@ -449,8 +449,8 @@
   {
    "name": "Mr_Bhaer_joining_her",
    "takePlaceAt": {
-    "name": "Mr_Bhaer_joining_her",
-    "id": "texts/littlewomen.txt#Mr_Bhaer_joining_her"
+    "name": "Select_symposium",
+    "id": "texts/littlewomen.txt#Select_symposium"
    },
    "hasParticipant": [
     {

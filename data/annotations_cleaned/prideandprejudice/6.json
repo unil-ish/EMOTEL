@@ -129,8 +129,8 @@
   {
    "name": "Seeing_Elizabeth_and_Mrs_Collins",
    "takePlaceAt": {
-    "name": "Seeing_Elizabeth_and_Mrs_Collins",
-    "id": "texts/prideandprejudice.txt#Seeing_Elizabeth_and_Mrs_Collins"
+    "name": "Rosings",
+    "id": "texts/prideandprejudice.txt#Rosings"
    },
    "hasParticipant": [
     {
@@ -147,8 +147,8 @@
   {
    "name": "Seeing_Elizabeth_and_Mrs_Collins",
    "takePlaceAt": {
-    "name": "Seeing_Elizabeth_and_Mrs_Collins",
-    "id": "texts/prideandprejudice.txt#Seeing_Elizabeth_and_Mrs_Collins"
+    "name": "Rosings",
+    "id": "texts/prideandprejudice.txt#Rosings"
    },
    "hasParticipant": [
     {
@@ -165,8 +165,8 @@
   {
    "name": "Discussing_Mr_Wickham",
    "takePlaceAt": {
-    "name": "Discussing_Mr_Wickham",
-    "id": "texts/prideandprejudice.txt#Discussing_Mr_Wickham"
+    "name": "Conversation_with_Darcy",
+    "id": "texts/prideandprejudice.txt#Conversation_with_Darcy"
    },
    "hasParticipant": [
     {
@@ -183,8 +183,8 @@
   {
    "name": "Rejection_by_Elizabeth",
    "takePlaceAt": {
-    "name": "Rejection_by_Elizabeth",
-    "id": "texts/prideandprejudice.txt#Rejection_by_Elizabeth"
+    "name": "Conversation_with_Elizabeth",
+    "id": "texts/prideandprejudice.txt#Conversation_with_Elizabeth"
    },
    "hasParticipant": [
     {
@@ -201,8 +201,8 @@
   {
    "name": "Proposal_by_Mr_Darcy",
    "takePlaceAt": {
-    "name": "Proposal_by_Mr_Darcy",
-    "id": "texts/prideandprejudice.txt#Proposal_by_Mr_Darcy"
+    "name": "Conversation_with_Mr_Darcy",
+    "id": "texts/prideandprejudice.txt#Conversation_with_Mr_Darcy"
    },
    "hasParticipant": [
     {
@@ -219,8 +219,8 @@
   {
    "name": "Rejection_by_Elizabeth",
    "takePlaceAt": {
-    "name": "Rejection_by_Elizabeth",
-    "id": "texts/prideandprejudice.txt#Rejection_by_Elizabeth"
+    "name": "Conversation_with_Colonel_Fitzwilliam",
+    "id": "texts/prideandprejudice.txt#Conversation_with_Colonel_Fitzwilliam"
    },
    "hasParticipant": [
     {
@@ -237,8 +237,8 @@
   {
    "name": "Receiving_a_letter_from_Mr_Darcy",
    "takePlaceAt": {
-    "name": "Receiving_a_letter_from_Mr_Darcy",
-    "id": "texts/prideandprejudice.txt#Receiving_a_letter_from_Mr_Darcy"
+    "name": "Reading_the_letter",
+    "id": "texts/prideandprejudice.txt#Reading_the_letter"
    },
    "hasParticipant": [
     {
@@ -255,8 +255,8 @@
   {
    "name": "Receiving_a_letter_from_Mr_Darcy",
    "takePlaceAt": {
-    "name": "Receiving_a_letter_from_Mr_Darcy",
-    "id": "texts/prideandprejudice.txt#Receiving_a_letter_from_Mr_Darcy"
+    "name": "Reading_the_letter",
+    "id": "texts/prideandprejudice.txt#Reading_the_letter"
    },
    "hasParticipant": [
     {

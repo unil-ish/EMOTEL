@@ -115,56 +115,56 @@
   {
    "name": "Mrs_Fisher_not_knowing_about_her_background",
    "takePlaceAt": {
-    "name": "Mrs_Fisher_not_knowing_about_her_background",
-    "id": "texts/theenchantedapril.txt#Mrs_Fisher_not_knowing_about_her_background"
+    "name": "In_the_garden_loop",
+    "id": "texts/theenchantedapril.txt#In_the_garden_loop"
    },
    "id": "texts/theenchantedapril.txt#Mrs_Fisher_not_knowing_about_her_background"
   },
   {
    "name": "Mrs_Fisher_asking_about_her_mother",
    "takePlaceAt": {
-    "name": "Mrs_Fisher_asking_about_her_mother",
-    "id": "texts/theenchantedapril.txt#Mrs_Fisher_asking_about_her_mother"
+    "name": "In_the_garden_loop",
+    "id": "texts/theenchantedapril.txt#In_the_garden_loop"
    },
    "id": "texts/theenchantedapril.txt#Mrs_Fisher_asking_about_her_mother"
   },
   {
    "name": "Mrs_Fisher_mentioning_great_people",
    "takePlaceAt": {
-    "name": "Mrs_Fisher_mentioning_great_people",
-    "id": "texts/theenchantedapril.txt#Mrs_Fisher_mentioning_great_people"
+    "name": "In_the_garden_loop",
+    "id": "texts/theenchantedapril.txt#In_the_garden_loop"
    },
    "id": "texts/theenchantedapril.txt#Mrs_Fisher_mentioning_great_people"
   },
   {
    "name": "People_leaving_her_alone",
    "takePlaceAt": {
-    "name": "People_leaving_her_alone",
-    "id": "texts/theenchantedapril.txt#People_leaving_her_alone"
+    "name": "In_the_garden_loop",
+    "id": "texts/theenchantedapril.txt#In_the_garden_loop"
    },
    "id": "texts/theenchantedapril.txt#People_leaving_her_alone"
   },
   {
    "name": "Encountering_poses_she_found_silly",
    "takePlaceAt": {
-    "name": "Encountering_poses_she_found_silly",
-    "id": "texts/theenchantedapril.txt#Encountering_poses_she_found_silly"
+    "name": "In_the_sittingroom",
+    "id": "texts/theenchantedapril.txt#In_the_sittingroom"
    },
    "id": "texts/theenchantedapril.txt#Encountering_poses_she_found_silly"
   },
   {
    "name": "Feeling_her_efforts_were_wasted",
    "takePlaceAt": {
-    "name": "Feeling_her_efforts_were_wasted",
-    "id": "texts/theenchantedapril.txt#Feeling_her_efforts_were_wasted"
+    "name": "In_the_hall",
+    "id": "texts/theenchantedapril.txt#In_the_hall"
    },
    "id": "texts/theenchantedapril.txt#Feeling_her_efforts_were_wasted"
   },
   {
    "name": "Observing_behavior_she_disapproved_of",
    "takePlaceAt": {
-    "name": "Observing_behavior_she_disapproved_of",
-    "id": "texts/theenchantedapril.txt#Observing_behavior_she_disapproved_of"
+    "name": "In_the_sittingroom",
+    "id": "texts/theenchantedapril.txt#In_the_sittingroom"
    },
    "id": "texts/theenchantedapril.txt#Observing_behavior_she_disapproved_of"
   }

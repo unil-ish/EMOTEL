@@ -53,8 +53,8 @@
   {
    "name": "Ahab_s_feud_with_Moby_Dick",
    "takePlaceAt": {
-    "name": "Ahab_s_feud_with_Moby_Dick",
-    "id": "texts/mobydick.txt#Ahab_s_feud_with_Moby_Dick"
+    "name": "Whale_hunt",
+    "id": "texts/mobydick.txt#Whale_hunt"
    },
    "hasParticipant": [
     {
@@ -71,16 +71,16 @@
   {
    "name": "Encountering_prodigies",
    "takePlaceAt": {
-    "name": "Encountering_prodigies",
-    "id": "texts/mobydick.txt#Encountering_prodigies"
+    "name": "Whale_hunt",
+    "id": "texts/mobydick.txt#Whale_hunt"
    },
    "id": "texts/mobydick.txt#Encountering_prodigies"
   },
   {
    "name": "Encountering_the_White_Whale_s_ferocity",
    "takePlaceAt": {
-    "name": "Encountering_the_White_Whale_s_ferocity",
-    "id": "texts/mobydick.txt#Encountering_the_White_Whale_s_ferocity"
+    "name": "Whale_hunt",
+    "id": "texts/mobydick.txt#Whale_hunt"
    },
    "hasParticipant": [
     {

@@ -67,8 +67,8 @@
   {
    "name": "Thinking_about_Will_Ladislaw_s_family_history_and_his_claim_to_property",
    "takePlaceAt": {
-    "name": "Thinking_about_Will_Ladislaw_s_family_history_and_his_claim_to_property",
-    "id": "texts/middlemarch.txt#Thinking_about_Will_Ladislaw_s_family_history_and_"
+    "name": "Boudoir",
+    "id": "texts/middlemarch.txt#Boudoir"
    },
    "hasParticipant": [
     {
@@ -85,8 +85,8 @@
   {
    "name": "Thinking_about_money_and_property",
    "takePlaceAt": {
-    "name": "Thinking_about_money_and_property",
-    "id": "texts/middlemarch.txt#Thinking_about_money_and_property"
+    "name": "Boudoir",
+    "id": "texts/middlemarch.txt#Boudoir"
    },
    "hasParticipant": {
     "name": "Dorothea",
@@ -97,8 +97,8 @@
   {
    "name": "Receiving_a_strong_response_from_Mr_Casaubon",
    "takePlaceAt": {
-    "name": "Receiving_a_strong_response_from_Mr_Casaubon",
-    "id": "texts/middlemarch.txt#Receiving_a_strong_response_from_Mr_Casaubon"
+    "name": "Bedroom",
+    "id": "texts/middlemarch.txt#Bedroom"
    },
    "hasParticipant": [
     {
@@ -115,8 +115,8 @@
   {
    "name": "Feeling_conflicted_after_Mr_Casaubon_s_response",
    "takePlaceAt": {
-    "name": "Feeling_conflicted_after_Mr_Casaubon_s_response",
-    "id": "texts/middlemarch.txt#Feeling_conflicted_after_Mr_Casaubon_s_response"
+    "name": "Bedroom",
+    "id": "texts/middlemarch.txt#Bedroom"
    },
    "hasParticipant": [
     {

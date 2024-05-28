@@ -129,8 +129,8 @@
   {
    "name": "Mr_Darcy_s_kindness_to_her_sister",
    "takePlaceAt": {
-    "name": "Mr_Darcy_s_kindness_to_her_sister",
-    "id": "texts/prideandprejudice.txt#Mr_Darcy_s_kindness_to_her_sister"
+    "name": "Various_occasions",
+    "id": "texts/prideandprejudice.txt#Various_occasions"
    },
    "hasParticipant": [
     {
@@ -147,8 +147,8 @@
   {
    "name": "Change_in_sentiments_towards_Mr_Darcy",
    "takePlaceAt": {
-    "name": "Change_in_sentiments_towards_Mr_Darcy",
-    "id": "texts/prideandprejudice.txt#Change_in_sentiments_towards_Mr_Darcy"
+    "name": "Conversation_with_Mr_Darcy",
+    "id": "texts/prideandprejudice.txt#Conversation_with_Mr_Darcy"
    },
    "hasParticipant": [
     {
@@ -165,8 +165,8 @@
   {
    "name": "Elizabeth_s_change_in_sentiments_towards_Mr_Darcy",
    "takePlaceAt": {
-    "name": "Elizabeth_s_change_in_sentiments_towards_Mr_Darcy",
-    "id": "texts/prideandprejudice.txt#Elizabeth_s_change_in_sentiments_towards_Mr_Darcy"
+    "name": "Conversation_with_Mr_Darcy",
+    "id": "texts/prideandprejudice.txt#Conversation_with_Mr_Darcy"
    },
    "hasParticipant": [
     {
@@ -183,8 +183,8 @@
   {
    "name": "Mr_Darcy_expressing_his_feelings",
    "takePlaceAt": {
-    "name": "Mr_Darcy_expressing_his_feelings",
-    "id": "texts/prideandprejudice.txt#Mr_Darcy_expressing_his_feelings"
+    "name": "Conversation_with_Mr_Darcy",
+    "id": "texts/prideandprejudice.txt#Conversation_with_Mr_Darcy"
    },
    "hasParticipant": [
     {
@@ -201,8 +201,8 @@
   {
    "name": "Elizabeth_s_change_in_sentiments_towards_Mr_Darcy",
    "takePlaceAt": {
-    "name": "Elizabeth_s_change_in_sentiments_towards_Mr_Darcy",
-    "id": "texts/prideandprejudice.txt#Elizabeth_s_change_in_sentiments_towards_Mr_Darcy"
+    "name": "Conversation_with_Elizabeth_Bennet",
+    "id": "texts/prideandprejudice.txt#Conversation_with_Elizabeth_Bennet"
    },
    "hasParticipant": [
     {
@@ -219,8 +219,8 @@
   {
    "name": "Elizabeth_s_change_in_sentiments_towards_Mr_Darcy",
    "takePlaceAt": {
-    "name": "Elizabeth_s_change_in_sentiments_towards_Mr_Darcy",
-    "id": "texts/prideandprejudice.txt#Elizabeth_s_change_in_sentiments_towards_Mr_Darcy"
+    "name": "Conversation_with_Elizabeth_Bennet",
+    "id": "texts/prideandprejudice.txt#Conversation_with_Elizabeth_Bennet"
    },
    "hasParticipant": [
     {
@@ -237,8 +237,8 @@
   {
    "name": "Recollection_of_past_behavior",
    "takePlaceAt": {
-    "name": "Recollection_of_past_behavior",
-    "id": "texts/prideandprejudice.txt#Recollection_of_past_behavior"
+    "name": "Conversation_with_Elizabeth_Bennet",
+    "id": "texts/prideandprejudice.txt#Conversation_with_Elizabeth_Bennet"
    },
    "hasParticipant": [
     {
@@ -255,8 +255,8 @@
   {
    "name": "Elizabeth_s_change_in_sentiments_towards_Mr_Darcy",
    "takePlaceAt": {
-    "name": "Elizabeth_s_change_in_sentiments_towards_Mr_Darcy",
-    "id": "texts/prideandprejudice.txt#Elizabeth_s_change_in_sentiments_towards_Mr_Darcy"
+    "name": "Conversation_with_Elizabeth_Bennet",
+    "id": "texts/prideandprejudice.txt#Conversation_with_Elizabeth_Bennet"
    },
    "hasParticipant": [
     {

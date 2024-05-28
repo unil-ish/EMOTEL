@@ -95,8 +95,8 @@
   {
    "name": "Mother_s_death",
    "takePlaceAt": {
-    "name": "Mother_s_death",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Mother_s_death"
+    "name": "Battlefield",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Battlefield"
    },
    "hasParticipant": [
     {
@@ -113,8 +113,8 @@
   {
    "name": "Being_presented_to_the_Countess",
    "takePlaceAt": {
-    "name": "Being_presented_to_the_Countess",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Being_presented_to_the_Countess"
+    "name": "Count_s_house_at_Presburg",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Count_s_house_at_Presburg"
    },
    "hasParticipant": [
     {
@@ -131,8 +131,8 @@
   {
    "name": "Entering_the_academy",
    "takePlaceAt": {
-    "name": "Entering_the_academy",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Entering_the_academy"
+    "name": "School",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#School"
    },
    "hasParticipant": [
     {
@@ -149,8 +149,8 @@
   {
    "name": "Desire_for_influence_at_school",
    "takePlaceAt": {
-    "name": "Desire_for_influence_at_school",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Desire_for_influence_at_school"
+    "name": "School",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#School"
    },
    "hasParticipant": {
     "name": "Ferdinand_Count_Fathom",
@@ -161,8 +161,8 @@
   {
    "name": "Almost_losing_the_Count_s_friendship",
    "takePlaceAt": {
-    "name": "Almost_losing_the_Count_s_friendship",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Almost_losing_the_Count_s_friendship"
+    "name": "School",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#School"
    },
    "hasParticipant": [
     {
@@ -179,8 +179,8 @@
   {
    "name": "Almost_losing_the_Count_s_friendship",
    "takePlaceAt": {
-    "name": "Almost_losing_the_Count_s_friendship",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Almost_losing_the_Count_s_friendship"
+    "name": "School",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#School"
    },
    "hasParticipant": [
     {

@@ -115,56 +115,56 @@
   {
    "name": "Mother_peeping_out_of_the_window",
    "takePlaceAt": {
-    "name": "Mother_peeping_out_of_the_window",
-    "id": "texts/aroomwithaview.txt#Mother_peeping_out_of_the_window"
+    "name": "Drawingroom",
+    "id": "texts/aroomwithaview.txt#Drawingroom"
    },
    "id": "texts/aroomwithaview.txt#Mother_peeping_out_of_the_window"
   },
   {
    "name": "Feeling_uncomfortable_about_Lucy_s_situation",
    "takePlaceAt": {
-    "name": "Feeling_uncomfortable_about_Lucy_s_situation",
-    "id": "texts/aroomwithaview.txt#Feeling_uncomfortable_about_Lucy_s_situation"
+    "name": "Drawingroom",
+    "id": "texts/aroomwithaview.txt#Drawingroom"
    },
    "id": "texts/aroomwithaview.txt#Feeling_uncomfortable_about_Lucy_s_situation"
   },
   {
    "name": "Cecil_spoiling_Lucy_s_first_week_at_home",
    "takePlaceAt": {
-    "name": "Cecil_spoiling_Lucy_s_first_week_at_home",
-    "id": "texts/aroomwithaview.txt#Cecil_spoiling_Lucy_s_first_week_at_home"
+    "name": "Home",
+    "id": "texts/aroomwithaview.txt#Home"
    },
    "id": "texts/aroomwithaview.txt#Cecil_spoiling_Lucy_s_first_week_at_home"
   },
   {
    "name": "Cecil_s_behavior_and_comments",
    "takePlaceAt": {
-    "name": "Cecil_s_behavior_and_comments",
-    "id": "texts/aroomwithaview.txt#Cecil_s_behavior_and_comments"
+    "name": "Home",
+    "id": "texts/aroomwithaview.txt#Home"
    },
    "id": "texts/aroomwithaview.txt#Cecil_s_behavior_and_comments"
   },
   {
    "name": "Freddy_s_interaction_with_Cecil",
    "takePlaceAt": {
-    "name": "Freddy_s_interaction_with_Cecil",
-    "id": "texts/aroomwithaview.txt#Freddy_s_interaction_with_Cecil"
+    "name": "Home",
+    "id": "texts/aroomwithaview.txt#Home"
    },
    "id": "texts/aroomwithaview.txt#Freddy_s_interaction_with_Cecil"
   },
   {
    "name": "Freddy_s_behavior_towards_Cecil",
    "takePlaceAt": {
-    "name": "Freddy_s_behavior_towards_Cecil",
-    "id": "texts/aroomwithaview.txt#Freddy_s_behavior_towards_Cecil"
+    "name": "Home",
+    "id": "texts/aroomwithaview.txt#Home"
    },
    "id": "texts/aroomwithaview.txt#Freddy_s_behavior_towards_Cecil"
   },
   {
    "name": "Mention_of_Mr_Beebe",
    "takePlaceAt": {
-    "name": "Mention_of_Mr_Beebe",
-    "id": "texts/aroomwithaview.txt#Mention_of_Mr_Beebe"
+    "name": "Home",
+    "id": "texts/aroomwithaview.txt#Home"
    },
    "id": "texts/aroomwithaview.txt#Mention_of_Mr_Beebe"
   }

@@ -99,8 +99,8 @@
   {
    "name": "Seeing_the_White_Whale",
    "takePlaceAt": {
-    "name": "Seeing_the_White_Whale",
-    "id": "texts/mobydick.txt#Seeing_the_White_Whale"
+    "name": "Sea",
+    "id": "texts/mobydick.txt#Sea"
    },
    "hasParticipant": {
     "name": "Daggoo",
@@ -111,8 +111,8 @@
   {
    "name": "Spotting_the_White_Whale",
    "takePlaceAt": {
-    "name": "Spotting_the_White_Whale",
-    "id": "texts/mobydick.txt#Spotting_the_White_Whale"
+    "name": "Sea",
+    "id": "texts/mobydick.txt#Sea"
    },
    "hasParticipant": {
     "name": "Daggoo",
@@ -123,8 +123,8 @@
   {
    "name": "Seeing_the_Dead_Whale",
    "takePlaceAt": {
-    "name": "Seeing_the_Dead_Whale",
-    "id": "texts/mobydick.txt#Seeing_the_Dead_Whale"
+    "name": "Sea",
+    "id": "texts/mobydick.txt#Sea"
    },
    "hasParticipant": {
     "name": "Ahab",
@@ -135,8 +135,8 @@
   {
    "name": "Banqueting_on_Whale_s_Flesh",
    "takePlaceAt": {
-    "name": "Banqueting_on_Whale_s_Flesh",
-    "id": "texts/mobydick.txt#Banqueting_on_Whale_s_Flesh"
+    "name": "Sea",
+    "id": "texts/mobydick.txt#Sea"
    },
    "hasParticipant": {
     "name": "Stubb",
@@ -147,8 +147,8 @@
   {
    "name": "Being_Criticized_for_Cooking",
    "takePlaceAt": {
-    "name": "Being_Criticized_for_Cooking",
-    "id": "texts/mobydick.txt#Being_Criticized_for_Cooking"
+    "name": "Sea",
+    "id": "texts/mobydick.txt#Sea"
    },
    "hasParticipant": {
     "name": "Fleece",

@@ -59,8 +59,8 @@
   {
    "name": "Receiving_a_letter_from_Mr_Ladislaw",
    "takePlaceAt": {
-    "name": "Receiving_a_letter_from_Mr_Ladislaw",
-    "id": "texts/middlemarch.txt#Receiving_a_letter_from_Mr_Ladislaw"
+    "name": "Library",
+    "id": "texts/middlemarch.txt#Library"
    },
    "hasParticipant": [
     {
@@ -77,8 +77,8 @@
   {
    "name": "Receiving_a_letter_from_Mr_Ladislaw",
    "takePlaceAt": {
-    "name": "Receiving_a_letter_from_Mr_Ladislaw",
-    "id": "texts/middlemarch.txt#Receiving_a_letter_from_Mr_Ladislaw"
+    "name": "Library",
+    "id": "texts/middlemarch.txt#Library"
    },
    "hasParticipant": [
     {
@@ -95,8 +95,8 @@
   {
    "name": "Dorothea_s_reaction_to_the_letter_from_Mr_Ladislaw",
    "takePlaceAt": {
-    "name": "Dorothea_s_reaction_to_the_letter_from_Mr_Ladislaw",
-    "id": "texts/middlemarch.txt#Dorothea_s_reaction_to_the_letter_from_Mr_Ladislaw"
+    "name": "Library",
+    "id": "texts/middlemarch.txt#Library"
    },
    "hasParticipant": [
     {

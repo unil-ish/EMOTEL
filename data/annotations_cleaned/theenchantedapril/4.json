@@ -107,40 +107,40 @@
   {
    "name": "Arrival_at_San_Salvatore",
    "takePlaceAt": {
-    "name": "Arrival_at_San_Salvatore",
-    "id": "texts/theenchantedapril.txt#Arrival_at_San_Salvatore"
+    "name": "San_Salvatore",
+    "id": "texts/theenchantedapril.txt#San_Salvatore"
    },
    "id": "texts/theenchantedapril.txt#Arrival_at_San_Salvatore"
   },
   {
    "name": "Mrs_Wilkins_s_excessive_friendliness",
    "takePlaceAt": {
-    "name": "Mrs_Wilkins_s_excessive_friendliness",
-    "id": "texts/theenchantedapril.txt#Mrs_Wilkins_s_excessive_friendliness"
+    "name": "San_Salvatore",
+    "id": "texts/theenchantedapril.txt#San_Salvatore"
    },
    "id": "texts/theenchantedapril.txt#Mrs_Wilkins_s_excessive_friendliness"
   },
   {
    "name": "Arrival_at_San_Salvatore",
    "takePlaceAt": {
-    "name": "Arrival_at_San_Salvatore",
-    "id": "texts/theenchantedapril.txt#Arrival_at_San_Salvatore"
+    "name": "San_Salvatore",
+    "id": "texts/theenchantedapril.txt#San_Salvatore"
    },
    "id": "texts/theenchantedapril.txt#Arrival_at_San_Salvatore"
   },
   {
    "name": "Excessive_friendliness_towards_Mrs_Wilkins",
    "takePlaceAt": {
-    "name": "Excessive_friendliness_towards_Mrs_Wilkins",
-    "id": "texts/theenchantedapril.txt#Excessive_friendliness_towards_Mrs_Wilkins"
+    "name": "San_Salvatore",
+    "id": "texts/theenchantedapril.txt#San_Salvatore"
    },
    "id": "texts/theenchantedapril.txt#Excessive_friendliness_towards_Mrs_Wilkins"
   },
   {
    "name": "Mrs_Wilkins_s_excessive_friendliness",
    "takePlaceAt": {
-    "name": "Mrs_Wilkins_s_excessive_friendliness",
-    "id": "texts/theenchantedapril.txt#Mrs_Wilkins_s_excessive_friendliness"
+    "name": "San_Salvatore",
+    "id": "texts/theenchantedapril.txt#San_Salvatore"
    },
    "hasParticipant": [
     {
@@ -157,8 +157,8 @@
   {
    "name": "Decision_to_offer_spareroom_to_Mellersh",
    "takePlaceAt": {
-    "name": "Decision_to_offer_spareroom_to_Mellersh",
-    "id": "texts/theenchantedapril.txt#Decision_to_offer_spareroom_to_Mellersh"
+    "name": "San_Salvatore",
+    "id": "texts/theenchantedapril.txt#San_Salvatore"
    },
    "id": "texts/theenchantedapril.txt#Decision_to_offer_spareroom_to_Mellersh"
   }

@@ -123,8 +123,8 @@
   {
    "name": "Seeing_Walton_s_ship",
    "takePlaceAt": {
-    "name": "Seeing_Walton_s_ship",
-    "id": "texts/frankenstein.txt#Seeing_Walton_s_ship"
+    "name": "Arctic_Ocean",
+    "id": "texts/frankenstein.txt#Arctic_Ocean"
    },
    "hasParticipant": [
     {
@@ -141,8 +141,8 @@
   {
    "name": "Seeing_the_monster_from_the_ship",
    "takePlaceAt": {
-    "name": "Seeing_the_monster_from_the_ship",
-    "id": "texts/frankenstein.txt#Seeing_the_monster_from_the_ship"
+    "name": "Arctic_Ocean",
+    "id": "texts/frankenstein.txt#Arctic_Ocean"
    },
    "hasParticipant": [
     {
@@ -159,48 +159,48 @@
   {
    "name": "Feeling_exhausted_and_frustrated",
    "takePlaceAt": {
-    "name": "Feeling_exhausted_and_frustrated",
-    "id": "texts/frankenstein.txt#Feeling_exhausted_and_frustrated"
+    "name": "Arctic_Ocean",
+    "id": "texts/frankenstein.txt#Arctic_Ocean"
    },
    "id": "texts/frankenstein.txt#Feeling_exhausted_and_frustrated"
   },
   {
    "name": "Finding_comfort_in_solitude_and_delirium",
    "takePlaceAt": {
-    "name": "Finding_comfort_in_solitude_and_delirium",
-    "id": "texts/frankenstein.txt#Finding_comfort_in_solitude_and_delirium"
+    "name": "Arctic_Ocean",
+    "id": "texts/frankenstein.txt#Arctic_Ocean"
    },
    "id": "texts/frankenstein.txt#Finding_comfort_in_solitude_and_delirium"
   },
   {
    "name": "Believing_in_the_reality_of_dreams",
    "takePlaceAt": {
-    "name": "Believing_in_the_reality_of_dreams",
-    "id": "texts/frankenstein.txt#Believing_in_the_reality_of_dreams"
+    "name": "Arctic_Ocean",
+    "id": "texts/frankenstein.txt#Arctic_Ocean"
    },
    "id": "texts/frankenstein.txt#Believing_in_the_reality_of_dreams"
   },
   {
    "name": "Hearing_the_ground_sea",
    "takePlaceAt": {
-    "name": "Hearing_the_ground_sea",
-    "id": "texts/frankenstein.txt#Hearing_the_ground_sea"
+    "name": "Arctic_Ocean",
+    "id": "texts/frankenstein.txt#Arctic_Ocean"
    },
    "id": "texts/frankenstein.txt#Hearing_the_ground_sea"
   },
   {
    "name": "Feeling_exhausted_and_hopeless",
    "takePlaceAt": {
-    "name": "Feeling_exhausted_and_hopeless",
-    "id": "texts/frankenstein.txt#Feeling_exhausted_and_hopeless"
+    "name": "Arctic_Ocean",
+    "id": "texts/frankenstein.txt#Arctic_Ocean"
    },
    "id": "texts/frankenstein.txt#Feeling_exhausted_and_hopeless"
   },
   {
    "name": "Recalling_painful_memories",
    "takePlaceAt": {
-    "name": "Recalling_painful_memories",
-    "id": "texts/frankenstein.txt#Recalling_painful_memories"
+    "name": "Arctic_Ocean",
+    "id": "texts/frankenstein.txt#Arctic_Ocean"
    },
    "id": "texts/frankenstein.txt#Recalling_painful_memories"
   }

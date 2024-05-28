@@ -67,32 +67,32 @@
   {
    "name": "Proposal_of_decamping",
    "takePlaceAt": {
-    "name": "Proposal_of_decamping",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Proposal_of_decamping"
+    "name": "Discussion_between_Fathom_and_the_Tyrolese",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Discussion_between_Fathom_and_the_Tyrolese"
    },
    "id": "texts/theadventuresofferdinandcountfathom.txt#Proposal_of_decamping"
   },
   {
    "name": "Marks_of_alienation_from_friends",
    "takePlaceAt": {
-    "name": "Marks_of_alienation_from_friends",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Marks_of_alienation_from_friends"
+    "name": "Social_gatherings",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Social_gatherings"
    },
    "id": "texts/theadventuresofferdinandcountfathom.txt#Marks_of_alienation_from_friends"
   },
   {
    "name": "Receiving_the_solicitor_s_bill",
    "takePlaceAt": {
-    "name": "Receiving_the_solicitor_s_bill",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Receiving_the_solicitor_s_bill"
+    "name": "Before_trial",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Before_trial"
    },
    "id": "texts/theadventuresofferdinandcountfathom.txt#Receiving_the_solicitor_s_bill"
   },
   {
    "name": "Receiving_the_solicitor_s_bill",
    "takePlaceAt": {
-    "name": "Receiving_the_solicitor_s_bill",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Receiving_the_solicitor_s_bill"
+    "name": "Before_trial",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Before_trial"
    },
    "id": "texts/theadventuresofferdinandcountfathom.txt#Receiving_the_solicitor_s_bill"
   }

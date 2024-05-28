@@ -115,56 +115,56 @@
   {
    "name": "Imminent_bill_payment",
    "takePlaceAt": {
-    "name": "Imminent_bill_payment",
-    "id": "texts/middlemarch.txt#Imminent_bill_payment"
+    "name": "Home",
+    "id": "texts/middlemarch.txt#Home"
    },
    "id": "texts/middlemarch.txt#Imminent_bill_payment"
   },
   {
    "name": "Desire_to_win",
    "takePlaceAt": {
-    "name": "Desire_to_win",
-    "id": "texts/middlemarch.txt#Desire_to_win"
+    "name": "Various_locations",
+    "id": "texts/middlemarch.txt#Various_locations"
    },
    "id": "texts/middlemarch.txt#Desire_to_win"
   },
   {
    "name": "Need_to_meet_imminent_bill_payment",
    "takePlaceAt": {
-    "name": "Need_to_meet_imminent_bill_payment",
-    "id": "texts/middlemarch.txt#Need_to_meet_imminent_bill_payment"
+    "name": "Home",
+    "id": "texts/middlemarch.txt#Home"
    },
    "id": "texts/middlemarch.txt#Need_to_meet_imminent_bill_payment"
   },
   {
    "name": "Riding_out_with_Bambridge_and_Horrock",
    "takePlaceAt": {
-    "name": "Riding_out_with_Bambridge_and_Horrock",
-    "id": "texts/middlemarch.txt#Riding_out_with_Bambridge_and_Horrock"
+    "name": "Middlemarch",
+    "id": "texts/middlemarch.txt#Middlemarch"
    },
    "id": "texts/middlemarch.txt#Riding_out_with_Bambridge_and_Horrock"
   },
   {
    "name": "Past_relationship_with_Fred",
    "takePlaceAt": {
-    "name": "Past_relationship_with_Fred",
-    "id": "texts/middlemarch.txt#Past_relationship_with_Fred"
+    "name": "Middlemarch",
+    "id": "texts/middlemarch.txt#Middlemarch"
    },
    "id": "texts/middlemarch.txt#Past_relationship_with_Fred"
   },
   {
    "name": "Fred_s_request_for_help",
    "takePlaceAt": {
-    "name": "Fred_s_request_for_help",
-    "id": "texts/middlemarch.txt#Fred_s_request_for_help"
+    "name": "Caleb_s_office",
+    "id": "texts/middlemarch.txt#Caleb_s_office"
    },
    "id": "texts/middlemarch.txt#Fred_s_request_for_help"
   },
   {
    "name": "Fred_s_request_for_help",
    "takePlaceAt": {
-    "name": "Fred_s_request_for_help",
-    "id": "texts/middlemarch.txt#Fred_s_request_for_help"
+    "name": "Caleb_s_office",
+    "id": "texts/middlemarch.txt#Caleb_s_office"
    },
    "id": "texts/middlemarch.txt#Fred_s_request_for_help"
   }

@@ -93,8 +93,8 @@
   {
    "name": "Receiving_a_letter_of_esteem_from_his_colonel",
    "takePlaceAt": {
-    "name": "Receiving_a_letter_of_esteem_from_his_colonel",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Receiving_a_letter_of_esteem_from_his_colonel"
+    "name": "Diningroom",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Diningroom"
    },
    "hasParticipant": [
     {
@@ -115,8 +115,8 @@
   {
    "name": "Proposal_of_marriage_by_Don_Gonzales",
    "takePlaceAt": {
-    "name": "Proposal_of_marriage_by_Don_Gonzales",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Proposal_of_marriage_by_Don_Gonzales"
+    "name": "Don_Gonzales_quarters",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Don_Gonzales_quarters"
    },
    "hasParticipant": [
     {
@@ -133,16 +133,16 @@
   {
    "name": "Recalling_memories_of_his_deceased_wife",
    "takePlaceAt": {
-    "name": "Recalling_memories_of_his_deceased_wife",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Recalling_memories_of_his_deceased_wife"
+    "name": "Reflection",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Reflection"
    },
    "id": "texts/theadventuresofferdinandcountfathom.txt#Recalling_memories_of_his_deceased_wife"
   },
   {
    "name": "Receiving_Don_Diego_de_Zelos_with_gratitude",
    "takePlaceAt": {
-    "name": "Receiving_Don_Diego_de_Zelos_with_gratitude",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Receiving_Don_Diego_de_Zelos_with_gratitude"
+    "name": "Diningroom",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Diningroom"
    },
    "hasParticipant": [
     {
@@ -163,8 +163,8 @@
   {
    "name": "Proposal_of_marriage_by_Don_Gonzales",
    "takePlaceAt": {
-    "name": "Proposal_of_marriage_by_Don_Gonzales",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Proposal_of_marriage_by_Don_Gonzales"
+    "name": "Don_Gonzales_quarters",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Don_Gonzales_quarters"
    },
    "hasParticipant": [
     {

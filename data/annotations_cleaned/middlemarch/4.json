@@ -129,8 +129,8 @@
   {
    "name": "Meeting_Mr_Lydgate",
    "takePlaceAt": {
-    "name": "Meeting_Mr_Lydgate",
-    "id": "texts/middlemarch.txt#Meeting_Mr_Lydgate"
+    "name": "Featherstone_s_house",
+    "id": "texts/middlemarch.txt#Featherstone_s_house"
    },
    "hasParticipant": [
     {
@@ -147,8 +147,8 @@
   {
    "name": "Meeting_Mr_Lydgate",
    "takePlaceAt": {
-    "name": "Meeting_Mr_Lydgate",
-    "id": "texts/middlemarch.txt#Meeting_Mr_Lydgate"
+    "name": "Featherstone_s_house",
+    "id": "texts/middlemarch.txt#Featherstone_s_house"
    },
    "hasParticipant": [
     {
@@ -165,8 +165,8 @@
   {
    "name": "Meeting_Mr_Lydgate",
    "takePlaceAt": {
-    "name": "Meeting_Mr_Lydgate",
-    "id": "texts/middlemarch.txt#Meeting_Mr_Lydgate"
+    "name": "Featherstone_s_house",
+    "id": "texts/middlemarch.txt#Featherstone_s_house"
    },
    "hasParticipant": {
     "name": "Rosamond_Vincy",
@@ -177,8 +177,8 @@
   {
    "name": "Imagining_her_future_with_Mr_Lydgate",
    "takePlaceAt": {
-    "name": "Imagining_her_future_with_Mr_Lydgate",
-    "id": "texts/middlemarch.txt#Imagining_her_future_with_Mr_Lydgate"
+    "name": "Riding_home",
+    "id": "texts/middlemarch.txt#Riding_home"
    },
    "hasParticipant": {
     "name": "Rosamond_Vincy",
@@ -189,8 +189,8 @@
   {
    "name": "Imagining_her_future_with_Mr_Lydgate",
    "takePlaceAt": {
-    "name": "Imagining_her_future_with_Mr_Lydgate",
-    "id": "texts/middlemarch.txt#Imagining_her_future_with_Mr_Lydgate"
+    "name": "Riding_home",
+    "id": "texts/middlemarch.txt#Riding_home"
    },
    "hasParticipant": {
     "name": "Rosamond_Vincy",
@@ -201,8 +201,8 @@
   {
    "name": "Dealing_with_Featherstone_s_demand",
    "takePlaceAt": {
-    "name": "Dealing_with_Featherstone_s_demand",
-    "id": "texts/middlemarch.txt#Dealing_with_Featherstone_s_demand"
+    "name": "Riding_home",
+    "id": "texts/middlemarch.txt#Riding_home"
    },
    "hasParticipant": {
     "name": "Fred_Vincy",
@@ -213,8 +213,8 @@
   {
    "name": "Reflecting_on_his_situation",
    "takePlaceAt": {
-    "name": "Reflecting_on_his_situation",
-    "id": "texts/middlemarch.txt#Reflecting_on_his_situation"
+    "name": "Riding_home",
+    "id": "texts/middlemarch.txt#Riding_home"
    },
    "hasParticipant": {
     "name": "Fred_Vincy",
@@ -225,8 +225,8 @@
   {
    "name": "Dealing_with_Featherstone_s_demand",
    "takePlaceAt": {
-    "name": "Dealing_with_Featherstone_s_demand",
-    "id": "texts/middlemarch.txt#Dealing_with_Featherstone_s_demand"
+    "name": "Riding_home",
+    "id": "texts/middlemarch.txt#Riding_home"
    },
    "hasParticipant": {
     "name": "Fred_Vincy",

@@ -93,8 +93,8 @@
   {
    "name": "Losing_the_trumpet",
    "takePlaceAt": {
-    "name": "Losing_the_trumpet",
-    "id": "texts/mobydick.txt#Losing_the_trumpet"
+    "name": "On_the_ship_s_deck",
+    "id": "texts/mobydick.txt#On_the_ship_s_deck"
    },
    "hasParticipant": {
     "name": "Ahab",
@@ -105,8 +105,8 @@
   {
    "name": "Pump_stopping",
    "takePlaceAt": {
-    "name": "Pump_stopping",
-    "id": "texts/mobydick.txt#Pump_stopping"
+    "name": "On_the_ship_s_deck",
+    "id": "texts/mobydick.txt#On_the_ship_s_deck"
    },
    "hasParticipant": {
     "name": "Radney",
@@ -117,8 +117,8 @@
   {
    "name": "Perceiving_the_mate_s_actions",
    "takePlaceAt": {
-    "name": "Perceiving_the_mate_s_actions",
-    "id": "texts/mobydick.txt#Perceiving_the_mate_s_actions"
+    "name": "On_the_ship_s_deck",
+    "id": "texts/mobydick.txt#On_the_ship_s_deck"
    },
    "hasParticipant": {
     "name": "Steekilt",

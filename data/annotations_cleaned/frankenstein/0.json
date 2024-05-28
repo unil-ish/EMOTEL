@@ -135,8 +135,8 @@
   {
    "name": "Embarking_on_a_voyage_to_the_North_Pole",
    "takePlaceAt": {
-    "name": "Embarking_on_a_voyage_to_the_North_Pole",
-    "id": "texts/frankenstein.txt#Embarking_on_a_voyage_to_the_North_Pole"
+    "name": "Geneva",
+    "id": "texts/frankenstein.txt#Geneva"
    },
    "hasParticipant": {
     "name": "Robert_Walton",
@@ -147,8 +147,8 @@
   {
    "name": "Stranger_s_promise_to_reveal_his_narrative",
    "takePlaceAt": {
-    "name": "Stranger_s_promise_to_reveal_his_narrative",
-    "id": "texts/frankenstein.txt#Stranger_s_promise_to_reveal_his_narrative"
+    "name": "Geneva",
+    "id": "texts/frankenstein.txt#Geneva"
    },
    "hasParticipant": {
     "name": "Robert_Walton",
@@ -159,8 +159,8 @@
   {
    "name": "Recollections_of_childhood",
    "takePlaceAt": {
-    "name": "Recollections_of_childhood",
-    "id": "texts/frankenstein.txt#Recollections_of_childhood"
+    "name": "Geneva",
+    "id": "texts/frankenstein.txt#Geneva"
    },
    "hasParticipant": {
     "name": "Robert_Walton",
@@ -171,8 +171,8 @@
   {
    "name": "Desire_for_knowledge",
    "takePlaceAt": {
-    "name": "Desire_for_knowledge",
-    "id": "texts/frankenstein.txt#Desire_for_knowledge"
+    "name": "Geneva",
+    "id": "texts/frankenstein.txt#Geneva"
    },
    "hasParticipant": {
     "name": "Robert_Walton",
@@ -183,8 +183,8 @@
   {
    "name": "Elizabeth_s_arrival_as_a_gift",
    "takePlaceAt": {
-    "name": "Elizabeth_s_arrival_as_a_gift",
-    "id": "texts/frankenstein.txt#Elizabeth_s_arrival_as_a_gift"
+    "name": "Geneva",
+    "id": "texts/frankenstein.txt#Geneva"
    },
    "hasParticipant": {
     "name": "Robert_Walton",
@@ -195,8 +195,8 @@
   {
    "name": "Elizabeth_s_presence",
    "takePlaceAt": {
-    "name": "Elizabeth_s_presence",
-    "id": "texts/frankenstein.txt#Elizabeth_s_presence"
+    "name": "Geneva",
+    "id": "texts/frankenstein.txt#Geneva"
    },
    "hasParticipant": {
     "name": "Robert_Walton",
@@ -207,8 +207,8 @@
   {
    "name": "Love_for_adventure",
    "takePlaceAt": {
-    "name": "Love_for_adventure",
-    "id": "texts/frankenstein.txt#Love_for_adventure"
+    "name": "Geneva",
+    "id": "texts/frankenstein.txt#Geneva"
    },
    "hasParticipant": {
     "name": "Henry_Clerval",
@@ -219,8 +219,8 @@
   {
    "name": "Generosity_and_kindness",
    "takePlaceAt": {
-    "name": "Generosity_and_kindness",
-    "id": "texts/frankenstein.txt#Generosity_and_kindness"
+    "name": "Geneva",
+    "id": "texts/frankenstein.txt#Geneva"
    },
    "hasParticipant": {
     "name": "Henry_Clerval",

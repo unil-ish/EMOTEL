@@ -107,8 +107,8 @@
   {
    "name": "Gabriel_s_warning",
    "takePlaceAt": {
-    "name": "Gabriel_s_warning",
-    "id": "texts/mobydick.txt#Gabriel_s_warning"
+    "name": "Jeroboam_s_encounter_with_Moby_Dick",
+    "id": "texts/mobydick.txt#Jeroboam_s_encounter_with_Moby_Dick"
    },
    "hasParticipant": [
     {
@@ -125,8 +125,8 @@
   {
    "name": "Gabriel_s_interference",
    "takePlaceAt": {
-    "name": "Gabriel_s_interference",
-    "id": "texts/mobydick.txt#Gabriel_s_interference"
+    "name": "Jeroboam_s_encounter_with_Moby_Dick",
+    "id": "texts/mobydick.txt#Jeroboam_s_encounter_with_Moby_Dick"
    },
    "hasParticipant": [
     {
@@ -143,8 +143,8 @@
   {
    "name": "Gabriel_s_prediction",
    "takePlaceAt": {
-    "name": "Gabriel_s_prediction",
-    "id": "texts/mobydick.txt#Gabriel_s_prediction"
+    "name": "Jeroboam_s_encounter_with_Moby_Dick",
+    "id": "texts/mobydick.txt#Jeroboam_s_encounter_with_Moby_Dick"
    },
    "hasParticipant": [
     {
@@ -161,8 +161,8 @@
   {
    "name": "Being_among_sharks",
    "takePlaceAt": {
-    "name": "Being_among_sharks",
-    "id": "texts/mobydick.txt#Being_among_sharks"
+    "name": "Between_the_whale_and_the_ship",
+    "id": "texts/mobydick.txt#Between_the_whale_and_the_ship"
    },
    "hasParticipant": [
     {
@@ -179,8 +179,8 @@
   {
    "name": "Holding_Queequeg_with_the_monkeyrope",
    "takePlaceAt": {
-    "name": "Holding_Queequeg_with_the_monkeyrope",
-    "id": "texts/mobydick.txt#Holding_Queequeg_with_the_monkeyrope"
+    "name": "Between_the_whale_and_the_ship",
+    "id": "texts/mobydick.txt#Between_the_whale_and_the_ship"
    },
    "hasParticipant": [
     {
@@ -197,8 +197,8 @@
   {
    "name": "Realization_of_interconnectedness",
    "takePlaceAt": {
-    "name": "Realization_of_interconnectedness",
-    "id": "texts/mobydick.txt#Realization_of_interconnectedness"
+    "name": "Between_the_whale_and_the_ship",
+    "id": "texts/mobydick.txt#Between_the_whale_and_the_ship"
    },
    "hasParticipant": [
     {

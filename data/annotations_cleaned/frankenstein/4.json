@@ -95,8 +95,8 @@
   {
    "name": "Seeking_shelter_and_rest",
    "takePlaceAt": {
-    "name": "Seeking_shelter_and_rest",
-    "id": "texts/frankenstein.txt#Seeking_shelter_and_rest"
+    "name": "De_Lacey_s_cottage",
+    "id": "texts/frankenstein.txt#De_Lacey_s_cottage"
    },
    "hasParticipant": [
     {
@@ -113,8 +113,8 @@
   {
    "name": "Victor_revealing_himself_to_De_Lacey",
    "takePlaceAt": {
-    "name": "Victor_revealing_himself_to_De_Lacey",
-    "id": "texts/frankenstein.txt#Victor_revealing_himself_to_De_Lacey"
+    "name": "De_Lacey_s_cottage",
+    "id": "texts/frankenstein.txt#De_Lacey_s_cottage"
    },
    "hasParticipant": [
     {
@@ -131,8 +131,8 @@
   {
    "name": "Felix_s_reaction_to_Victor_s_presence",
    "takePlaceAt": {
-    "name": "Felix_s_reaction_to_Victor_s_presence",
-    "id": "texts/frankenstein.txt#Felix_s_reaction_to_Victor_s_presence"
+    "name": "De_Lacey_s_cottage",
+    "id": "texts/frankenstein.txt#De_Lacey_s_cottage"
    },
    "hasParticipant": [
     {
@@ -149,8 +149,8 @@
   {
    "name": "Safie_s_presence_at_the_cottage",
    "takePlaceAt": {
-    "name": "Safie_s_presence_at_the_cottage",
-    "id": "texts/frankenstein.txt#Safie_s_presence_at_the_cottage"
+    "name": "De_Lacey_s_cottage",
+    "id": "texts/frankenstein.txt#De_Lacey_s_cottage"
    },
    "hasParticipant": [
     {
@@ -167,8 +167,8 @@
   {
    "name": "Planning_to_approach_De_Lacey",
    "takePlaceAt": {
-    "name": "Planning_to_approach_De_Lacey",
-    "id": "texts/frankenstein.txt#Planning_to_approach_De_Lacey"
+    "name": "Victor_s_hovel",
+    "id": "texts/frankenstein.txt#Victor_s_hovel"
    },
    "hasParticipant": [
     {
@@ -185,8 +185,8 @@
   {
    "name": "Fear_of_a_dreadful_misfortune",
    "takePlaceAt": {
-    "name": "Fear_of_a_dreadful_misfortune",
-    "id": "texts/frankenstein.txt#Fear_of_a_dreadful_misfortune"
+    "name": "Victor_s_hovel",
+    "id": "texts/frankenstein.txt#Victor_s_hovel"
    },
    "hasParticipant": [
     {

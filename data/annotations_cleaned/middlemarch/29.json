@@ -121,56 +121,56 @@
   {
    "name": "Inability_to_control_the_situation",
    "takePlaceAt": {
-    "name": "Inability_to_control_the_situation",
-    "id": "texts/middlemarch.txt#Inability_to_control_the_situation"
+    "name": "Stone_Court",
+    "id": "texts/middlemarch.txt#Stone_Court"
    },
    "id": "texts/middlemarch.txt#Inability_to_control_the_situation"
   },
   {
    "name": "Anxiety_about_the_situation_with_Raffles",
    "takePlaceAt": {
-    "name": "Anxiety_about_the_situation_with_Raffles",
-    "id": "texts/middlemarch.txt#Anxiety_about_the_situation_with_Raffles"
+    "name": "Bank",
+    "id": "texts/middlemarch.txt#Bank"
    },
    "id": "texts/middlemarch.txt#Anxiety_about_the_situation_with_Raffles"
   },
   {
    "name": "Hope_for_secrecy",
    "takePlaceAt": {
-    "name": "Hope_for_secrecy",
-    "id": "texts/middlemarch.txt#Hope_for_secrecy"
+    "name": "Stone_Court",
+    "id": "texts/middlemarch.txt#Stone_Court"
    },
    "id": "texts/middlemarch.txt#Hope_for_secrecy"
   },
   {
    "name": "Bulstrode_s_humiliation",
    "takePlaceAt": {
-    "name": "Bulstrode_s_humiliation",
-    "id": "texts/middlemarch.txt#Bulstrode_s_humiliation"
+    "name": "Stone_Court",
+    "id": "texts/middlemarch.txt#Stone_Court"
    },
    "id": "texts/middlemarch.txt#Bulstrode_s_humiliation"
   },
   {
    "name": "Decision_to_give_up_the_connection_with_Bulstrode",
    "takePlaceAt": {
-    "name": "Decision_to_give_up_the_connection_with_Bulstrode",
-    "id": "texts/middlemarch.txt#Decision_to_give_up_the_connection_with_Bulstrode"
+    "name": "Bank",
+    "id": "texts/middlemarch.txt#Bank"
    },
    "id": "texts/middlemarch.txt#Decision_to_give_up_the_connection_with_Bulstrode"
   },
   {
    "name": "Reflection_on_his_situation",
    "takePlaceAt": {
-    "name": "Reflection_on_his_situation",
-    "id": "texts/middlemarch.txt#Reflection_on_his_situation"
+    "name": "Lowick_Gate",
+    "id": "texts/middlemarch.txt#Lowick_Gate"
    },
    "id": "texts/middlemarch.txt#Reflection_on_his_situation"
   },
   {
    "name": "Anticipation_of_delivering_bad_news_to_Rosamond",
    "takePlaceAt": {
-    "name": "Anticipation_of_delivering_bad_news_to_Rosamond",
-    "id": "texts/middlemarch.txt#Anticipation_of_delivering_bad_news_to_Rosamond"
+    "name": "Home",
+    "id": "texts/middlemarch.txt#Home"
    },
    "id": "texts/middlemarch.txt#Anticipation_of_delivering_bad_news_to_Rosamond"
   }

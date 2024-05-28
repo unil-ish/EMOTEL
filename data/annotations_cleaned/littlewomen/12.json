@@ -53,8 +53,8 @@
   {
    "name": "Being_asked_to_give_up_her_table_at_the_fair",
    "takePlaceAt": {
-    "name": "Being_asked_to_give_up_her_table_at_the_fair",
-    "id": "texts/littlewomen.txt#Being_asked_to_give_up_her_table_at_the_fair"
+    "name": "Mrs_Chester_s_fair",
+    "id": "texts/littlewomen.txt#Mrs_Chester_s_fair"
    },
    "hasParticipant": [
     {
@@ -71,8 +71,8 @@
   {
    "name": "Feeling_left_out_at_the_fair",
    "takePlaceAt": {
-    "name": "Feeling_left_out_at_the_fair",
-    "id": "texts/littlewomen.txt#Feeling_left_out_at_the_fair"
+    "name": "Mrs_Chester_s_fair",
+    "id": "texts/littlewomen.txt#Mrs_Chester_s_fair"
    },
    "hasParticipant": [
     {
@@ -89,8 +89,8 @@
   {
    "name": "Being_praised_for_her_generosity",
    "takePlaceAt": {
-    "name": "Being_praised_for_her_generosity",
-    "id": "texts/littlewomen.txt#Being_praised_for_her_generosity"
+    "name": "Mrs_Chester_s_fair",
+    "id": "texts/littlewomen.txt#Mrs_Chester_s_fair"
    },
    "hasParticipant": [
     {

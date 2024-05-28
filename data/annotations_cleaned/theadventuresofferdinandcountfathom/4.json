@@ -81,8 +81,8 @@
   {
    "name": "Intervening_in_a_fight_between_the_English_knight_and_the_German_count",
    "takePlaceAt": {
-    "name": "Intervening_in_a_fight_between_the_English_knight_and_the_German_count",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Intervening_in_a_fight_between_the_English_knight_"
+    "name": "House_of_the_obliging_dame",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#House_of_the_obliging_dame"
    },
    "hasParticipant": [
     {
@@ -103,8 +103,8 @@
   {
    "name": "Throwing_a_chandelier_during_a_fight",
    "takePlaceAt": {
-    "name": "Throwing_a_chandelier_during_a_fight",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Throwing_a_chandelier_during_a_fight"
+    "name": "House_of_the_obliging_dame",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#House_of_the_obliging_dame"
    },
    "hasParticipant": [
     {
@@ -121,8 +121,8 @@
   {
    "name": "Launching_a_candlestick_at_the_English_knight",
    "takePlaceAt": {
-    "name": "Launching_a_candlestick_at_the_English_knight",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Launching_a_candlestick_at_the_English_knight"
+    "name": "House_of_the_obliging_dame",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#House_of_the_obliging_dame"
    },
    "hasParticipant": [
     {
@@ -139,8 +139,8 @@
   {
    "name": "Observing_the_English_knight_s_behaviour",
    "takePlaceAt": {
-    "name": "Observing_the_English_knight_s_behaviour",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Observing_the_English_knight_s_behaviour"
+    "name": "House_of_the_obliging_dame",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#House_of_the_obliging_dame"
    },
    "hasParticipant": [
     {
@@ -157,8 +157,8 @@
   {
    "name": "Agreeing_with_the_German_count_s_perspective",
    "takePlaceAt": {
-    "name": "Agreeing_with_the_German_count_s_perspective",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Agreeing_with_the_German_count_s_perspective"
+    "name": "German_count_s_habitation",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#German_count_s_habitation"
    },
    "hasParticipant": [
     {

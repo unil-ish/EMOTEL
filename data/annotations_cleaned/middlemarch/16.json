@@ -65,24 +65,24 @@
   {
    "name": "Being_insulted_by_Mr_Dagley",
    "takePlaceAt": {
-    "name": "Being_insulted_by_Mr_Dagley",
-    "id": "texts/middlemarch.txt#Being_insulted_by_Mr_Dagley"
+    "name": "Dagley_s_homestead",
+    "id": "texts/middlemarch.txt#Dagley_s_homestead"
    },
    "id": "texts/middlemarch.txt#Being_insulted_by_Mr_Dagley"
   },
   {
    "name": "Feeling_insulted_by_Mr_Brooke",
    "takePlaceAt": {
-    "name": "Feeling_insulted_by_Mr_Brooke",
-    "id": "texts/middlemarch.txt#Feeling_insulted_by_Mr_Brooke"
+    "name": "Dagley_s_homestead",
+    "id": "texts/middlemarch.txt#Dagley_s_homestead"
    },
    "id": "texts/middlemarch.txt#Feeling_insulted_by_Mr_Brooke"
   },
   {
    "name": "Talking_about_Rosamond_Vincy_s_wedding",
    "takePlaceAt": {
-    "name": "Talking_about_Rosamond_Vincy_s_wedding",
-    "id": "texts/middlemarch.txt#Talking_about_Rosamond_Vincy_s_wedding"
+    "name": "Garth_s_breakfasttable",
+    "id": "texts/middlemarch.txt#Garth_s_breakfasttable"
    },
    "id": "texts/middlemarch.txt#Talking_about_Rosamond_Vincy_s_wedding"
   }

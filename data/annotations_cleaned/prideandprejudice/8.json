@@ -67,8 +67,8 @@
   {
    "name": "Introduction_of_Miss_Darcy_and_her_brother",
    "takePlaceAt": {
-    "name": "Introduction_of_Miss_Darcy_and_her_brother",
-    "id": "texts/prideandprejudice.txt#Introduction_of_Miss_Darcy_and_her_brother"
+    "name": "Inn_at_Lambton",
+    "id": "texts/prideandprejudice.txt#Inn_at_Lambton"
    },
    "hasParticipant": [
     {
@@ -89,8 +89,8 @@
   {
    "name": "Unexpected_arrival_of_Miss_Darcy_and_Mr_Darcy",
    "takePlaceAt": {
-    "name": "Unexpected_arrival_of_Miss_Darcy_and_Mr_Darcy",
-    "id": "texts/prideandprejudice.txt#Unexpected_arrival_of_Miss_Darcy_and_Mr_Darcy"
+    "name": "Inn_at_Lambton",
+    "id": "texts/prideandprejudice.txt#Inn_at_Lambton"
    },
    "hasParticipant": [
     {
@@ -111,8 +111,8 @@
   {
    "name": "Observing_Miss_Darcy_s_shyness",
    "takePlaceAt": {
-    "name": "Observing_Miss_Darcy_s_shyness",
-    "id": "texts/prideandprejudice.txt#Observing_Miss_Darcy_s_shyness"
+    "name": "Inn_at_Lambton",
+    "id": "texts/prideandprejudice.txt#Inn_at_Lambton"
    },
    "hasParticipant": [
     {
@@ -129,8 +129,8 @@
   {
    "name": "Bingley_s_friendly_visit",
    "takePlaceAt": {
-    "name": "Bingley_s_friendly_visit",
-    "id": "texts/prideandprejudice.txt#Bingley_s_friendly_visit"
+    "name": "Inn_at_Lambton",
+    "id": "texts/prideandprejudice.txt#Inn_at_Lambton"
    },
    "hasParticipant": [
     {

@@ -113,8 +113,8 @@
   {
    "name": "Tower_falling_on_the_lovers",
    "takePlaceAt": {
-    "name": "Tower_falling_on_the_lovers",
-    "id": "texts/littlewomen.txt#Tower_falling_on_the_lovers"
+    "name": "The_Operatic_Tragedy",
+    "id": "texts/littlewomen.txt#The_Operatic_Tragedy"
    },
    "hasParticipant": [
     {
@@ -135,8 +135,8 @@
   {
    "name": "Tower_falling_on_the_lovers",
    "takePlaceAt": {
-    "name": "Tower_falling_on_the_lovers",
-    "id": "texts/littlewomen.txt#Tower_falling_on_the_lovers"
+    "name": "The_Operatic_Tragedy",
+    "id": "texts/littlewomen.txt#The_Operatic_Tragedy"
    },
    "hasParticipant": [
     {
@@ -157,8 +157,8 @@
   {
    "name": "Surprise_supper",
    "takePlaceAt": {
-    "name": "Surprise_supper",
-    "id": "texts/littlewomen.txt#Surprise_supper"
+    "name": "Supper",
+    "id": "texts/littlewomen.txt#Supper"
    },
    "hasParticipant": [
     {
@@ -183,8 +183,8 @@
   {
    "name": "Surprise_supper",
    "takePlaceAt": {
-    "name": "Surprise_supper",
-    "id": "texts/littlewomen.txt#Surprise_supper"
+    "name": "Supper",
+    "id": "texts/littlewomen.txt#Supper"
    },
    "hasParticipant": [
     {
@@ -209,8 +209,8 @@
   {
    "name": "Surprise_supper",
    "takePlaceAt": {
-    "name": "Surprise_supper",
-    "id": "texts/littlewomen.txt#Surprise_supper"
+    "name": "Supper",
+    "id": "texts/littlewomen.txt#Supper"
    },
    "hasParticipant": [
     {
@@ -235,8 +235,8 @@
   {
    "name": "Surprise_supper",
    "takePlaceAt": {
-    "name": "Surprise_supper",
-    "id": "texts/littlewomen.txt#Surprise_supper"
+    "name": "Supper",
+    "id": "texts/littlewomen.txt#Supper"
    },
    "hasParticipant": [
     {

@@ -81,8 +81,8 @@
   {
    "name": "Being_forgotten_by_Dr_Trent",
    "takePlaceAt": {
-    "name": "Being_forgotten_by_Dr_Trent",
-    "id": "texts/thebluecastle.txt#Being_forgotten_by_Dr_Trent"
+    "name": "Walking_down_the_street",
+    "id": "texts/thebluecastle.txt#Walking_down_the_street"
    },
    "hasParticipant": [
     {
@@ -99,8 +99,8 @@
   {
    "name": "Seeing_a_young_couple_walking_together",
    "takePlaceAt": {
-    "name": "Seeing_a_young_couple_walking_together",
-    "id": "texts/thebluecastle.txt#Seeing_a_young_couple_walking_together"
+    "name": "Lovers_Lane",
+    "id": "texts/thebluecastle.txt#Lovers_Lane"
    },
    "hasParticipant": [
     {
@@ -117,8 +117,8 @@
   {
    "name": "Attending_Uncle_Herbert_s_silver_wedding",
    "takePlaceAt": {
-    "name": "Attending_Uncle_Herbert_s_silver_wedding",
-    "id": "texts/thebluecastle.txt#Attending_Uncle_Herbert_s_silver_wedding"
+    "name": "Uncle_Herbert_s_house",
+    "id": "texts/thebluecastle.txt#Uncle_Herbert_s_house"
    },
    "hasParticipant": [
     {
@@ -135,8 +135,8 @@
   {
    "name": "Feeling_unafraid_of_her_family",
    "takePlaceAt": {
-    "name": "Feeling_unafraid_of_her_family",
-    "id": "texts/thebluecastle.txt#Feeling_unafraid_of_her_family"
+    "name": "Uncle_Herbert_s_house",
+    "id": "texts/thebluecastle.txt#Uncle_Herbert_s_house"
    },
    "hasParticipant": [
     {
@@ -153,8 +153,8 @@
   {
    "name": "Observing_family_members_at_the_dinner_table",
    "takePlaceAt": {
-    "name": "Observing_family_members_at_the_dinner_table",
-    "id": "texts/thebluecastle.txt#Observing_family_members_at_the_dinner_table"
+    "name": "Uncle_Herbert_s_house",
+    "id": "texts/thebluecastle.txt#Uncle_Herbert_s_house"
    },
    "hasParticipant": [
     {

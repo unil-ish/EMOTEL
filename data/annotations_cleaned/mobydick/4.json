@@ -53,8 +53,8 @@
   {
    "name": "Seeing_Bulkington_at_the_helm",
    "takePlaceAt": {
-    "name": "Seeing_Bulkington_at_the_helm",
-    "id": "texts/mobydick.txt#Seeing_Bulkington_at_the_helm"
+    "name": "On_the_ship_Pequod",
+    "id": "texts/mobydick.txt#On_the_ship_Pequod"
    },
    "hasParticipant": [
     {
@@ -71,8 +71,8 @@
   {
    "name": "Preparing_to_depart_from_the_ship_Pequod",
    "takePlaceAt": {
-    "name": "Preparing_to_depart_from_the_ship_Pequod",
-    "id": "texts/mobydick.txt#Preparing_to_depart_from_the_ship_Pequod"
+    "name": "On_the_ship_Pequod",
+    "id": "texts/mobydick.txt#On_the_ship_Pequod"
    },
    "hasParticipant": [
     {
@@ -97,8 +97,8 @@
   {
    "name": "Realizing_the_world_s_admiration_for_whale_hunters",
    "takePlaceAt": {
-    "name": "Realizing_the_world_s_admiration_for_whale_hunters",
-    "id": "texts/mobydick.txt#Realizing_the_world_s_admiration_for_whale_hunters"
+    "name": "On_the_ship_Pequod",
+    "id": "texts/mobydick.txt#On_the_ship_Pequod"
    },
    "hasParticipant": {
     "name": "Ishmael",

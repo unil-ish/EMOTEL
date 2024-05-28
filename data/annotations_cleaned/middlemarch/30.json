@@ -87,40 +87,40 @@
   {
    "name": "Gossip_spreading_about_Bulstrode_s_past",
    "takePlaceAt": {
-    "name": "Gossip_spreading_about_Bulstrode_s_past",
-    "id": "texts/middlemarch.txt#Gossip_spreading_about_Bulstrode_s_past"
+    "name": "Middlemarch",
+    "id": "texts/middlemarch.txt#Middlemarch"
    },
    "id": "texts/middlemarch.txt#Gossip_spreading_about_Bulstrode_s_past"
   },
   {
    "name": "Gossip_about_Bulstrode_s_earlier_life",
    "takePlaceAt": {
-    "name": "Gossip_about_Bulstrode_s_earlier_life",
-    "id": "texts/middlemarch.txt#Gossip_about_Bulstrode_s_earlier_life"
+    "name": "Middlemarch",
+    "id": "texts/middlemarch.txt#Middlemarch"
    },
    "id": "texts/middlemarch.txt#Gossip_about_Bulstrode_s_earlier_life"
   },
   {
    "name": "Negative_sign_of_guilt_in_relation_to_Raffles_s_death",
    "takePlaceAt": {
-    "name": "Negative_sign_of_guilt_in_relation_to_Raffles_s_death",
-    "id": "texts/middlemarch.txt#Negative_sign_of_guilt_in_relation_to_Raffles_s_de"
+    "name": "Middlemarch",
+    "id": "texts/middlemarch.txt#Middlemarch"
    },
    "id": "texts/middlemarch.txt#Negative_sign_of_guilt_in_relation_to_Raffles_s_de"
   },
   {
    "name": "Kindly_suppositions_about_Bulstrode_s_motives",
    "takePlaceAt": {
-    "name": "Kindly_suppositions_about_Bulstrode_s_motives",
-    "id": "texts/middlemarch.txt#Kindly_suppositions_about_Bulstrode_s_motives"
+    "name": "Middlemarch",
+    "id": "texts/middlemarch.txt#Middlemarch"
    },
    "id": "texts/middlemarch.txt#Kindly_suppositions_about_Bulstrode_s_motives"
   },
   {
    "name": "Negative_sign_of_guilt_in_relation_to_Raffles_s_death",
    "takePlaceAt": {
-    "name": "Negative_sign_of_guilt_in_relation_to_Raffles_s_death",
-    "id": "texts/middlemarch.txt#Negative_sign_of_guilt_in_relation_to_Raffles_s_de"
+    "name": "Middlemarch",
+    "id": "texts/middlemarch.txt#Middlemarch"
    },
    "id": "texts/middlemarch.txt#Negative_sign_of_guilt_in_relation_to_Raffles_s_de"
   }

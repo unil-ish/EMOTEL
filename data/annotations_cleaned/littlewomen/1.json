@@ -113,8 +113,8 @@
   {
    "name": "Reading_Belsham",
    "takePlaceAt": {
-    "name": "Reading_Belsham",
-    "id": "texts/littlewomen.txt#Reading_Belsham"
+    "name": "Home",
+    "id": "texts/littlewomen.txt#Home"
    },
    "hasParticipant": [
     {
@@ -131,8 +131,8 @@
   {
    "name": "Following_old_woman_s_advice",
    "takePlaceAt": {
-    "name": "Following_old_woman_s_advice",
-    "id": "texts/littlewomen.txt#Following_old_woman_s_advice"
+    "name": "Home",
+    "id": "texts/littlewomen.txt#Home"
    },
    "hasParticipant": {
     "name": "Four_girls",
@@ -143,8 +143,8 @@
   {
    "name": "Going_out_for_exercise",
    "takePlaceAt": {
-    "name": "Going_out_for_exercise",
-    "id": "texts/littlewomen.txt#Going_out_for_exercise"
+    "name": "Home",
+    "id": "texts/littlewomen.txt#Home"
    },
    "hasParticipant": {
     "name": "Jo",
@@ -155,8 +155,8 @@
   {
    "name": "Thinking_about_a_story",
    "takePlaceAt": {
-    "name": "Thinking_about_a_story",
-    "id": "texts/littlewomen.txt#Thinking_about_a_story"
+    "name": "Home",
+    "id": "texts/littlewomen.txt#Home"
    },
    "hasParticipant": {
     "name": "Meg",
@@ -167,8 +167,8 @@
   {
    "name": "Seeing_Mr_Laurence_s_act_of_kindness",
    "takePlaceAt": {
-    "name": "Seeing_Mr_Laurence_s_act_of_kindness",
-    "id": "texts/littlewomen.txt#Seeing_Mr_Laurence_s_act_of_kindness"
+    "name": "Fishshop",
+    "id": "texts/littlewomen.txt#Fishshop"
    },
    "hasParticipant": [
     {
@@ -189,8 +189,8 @@
   {
    "name": "Feeling_mortified",
    "takePlaceAt": {
-    "name": "Feeling_mortified",
-    "id": "texts/littlewomen.txt#Feeling_mortified"
+    "name": "School",
+    "id": "texts/littlewomen.txt#School"
    },
    "hasParticipant": {
     "name": "Amy",

@@ -81,8 +81,8 @@
   {
    "name": "Drive_to_the_dance_at_Chidley_Corners",
    "takePlaceAt": {
-    "name": "Drive_to_the_dance_at_Chidley_Corners",
-    "id": "texts/thebluecastle.txt#Drive_to_the_dance_at_Chidley_Corners"
+    "name": "En_route_to_the_dance",
+    "id": "texts/thebluecastle.txt#En_route_to_the_dance"
    },
    "hasParticipant": [
     {
@@ -99,8 +99,8 @@
   {
    "name": "Being_dragged_onto_the_dance_floor",
    "takePlaceAt": {
-    "name": "Being_dragged_onto_the_dance_floor",
-    "id": "texts/thebluecastle.txt#Being_dragged_onto_the_dance_floor"
+    "name": "Dance_at_Chidley_Corners",
+    "id": "texts/thebluecastle.txt#Dance_at_Chidley_Corners"
    },
    "hasParticipant": [
     {
@@ -117,8 +117,8 @@
   {
    "name": "Seeing_Barney_Snaith_at_the_doorway",
    "takePlaceAt": {
-    "name": "Seeing_Barney_Snaith_at_the_doorway",
-    "id": "texts/thebluecastle.txt#Seeing_Barney_Snaith_at_the_doorway"
+    "name": "Dance_at_Chidley_Corners",
+    "id": "texts/thebluecastle.txt#Dance_at_Chidley_Corners"
    },
    "hasParticipant": [
     {
@@ -135,8 +135,8 @@
   {
    "name": "Barney_Snaith_offering_to_take_her_home",
    "takePlaceAt": {
-    "name": "Barney_Snaith_offering_to_take_her_home",
-    "id": "texts/thebluecastle.txt#Barney_Snaith_offering_to_take_her_home"
+    "name": "In_the_pine_woods",
+    "id": "texts/thebluecastle.txt#In_the_pine_woods"
    },
    "hasParticipant": [
     {
@@ -153,8 +153,8 @@
   {
    "name": "Being_harassed_at_the_dance",
    "takePlaceAt": {
-    "name": "Being_harassed_at_the_dance",
-    "id": "texts/thebluecastle.txt#Being_harassed_at_the_dance"
+    "name": "Dance_at_Chidley_Corners",
+    "id": "texts/thebluecastle.txt#Dance_at_Chidley_Corners"
    },
    "hasParticipant": [
     {

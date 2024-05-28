@@ -123,8 +123,8 @@
   {
    "name": "Feeling_unsought_by_any_man",
    "takePlaceAt": {
-    "name": "Feeling_unsought_by_any_man",
-    "id": "texts/thebluecastle.txt#Feeling_unsought_by_any_man"
+    "name": "Valancy_s_bedroom",
+    "id": "texts/thebluecastle.txt#Valancy_s_bedroom"
    },
    "hasParticipant": {
     "name": "Valancy_Stirling",
@@ -135,8 +135,8 @@
   {
    "name": "Feeling_unsought_by_any_man",
    "takePlaceAt": {
-    "name": "Feeling_unsought_by_any_man",
-    "id": "texts/thebluecastle.txt#Feeling_unsought_by_any_man"
+    "name": "Valancy_s_bedroom",
+    "id": "texts/thebluecastle.txt#Valancy_s_bedroom"
    },
    "hasParticipant": {
     "name": "Valancy_Stirling",
@@ -147,8 +147,8 @@
   {
    "name": "Feeling_unsought_by_any_man",
    "takePlaceAt": {
-    "name": "Feeling_unsought_by_any_man",
-    "id": "texts/thebluecastle.txt#Feeling_unsought_by_any_man"
+    "name": "Valancy_s_bedroom",
+    "id": "texts/thebluecastle.txt#Valancy_s_bedroom"
    },
    "hasParticipant": {
     "name": "Valancy_Stirling",
@@ -159,8 +159,8 @@
   {
    "name": "Feeling_unsought_by_any_man",
    "takePlaceAt": {
-    "name": "Feeling_unsought_by_any_man",
-    "id": "texts/thebluecastle.txt#Feeling_unsought_by_any_man"
+    "name": "Valancy_s_bedroom",
+    "id": "texts/thebluecastle.txt#Valancy_s_bedroom"
    },
    "hasParticipant": {
     "name": "Valancy_Stirling",
@@ -171,8 +171,8 @@
   {
    "name": "Feeling_unsought_by_any_man",
    "takePlaceAt": {
-    "name": "Feeling_unsought_by_any_man",
-    "id": "texts/thebluecastle.txt#Feeling_unsought_by_any_man"
+    "name": "Walking_along_the_street",
+    "id": "texts/thebluecastle.txt#Walking_along_the_street"
    },
    "hasParticipant": {
     "name": "Valancy_Stirling",
@@ -183,8 +183,8 @@
   {
    "name": "Feeling_unsought_by_any_man",
    "takePlaceAt": {
-    "name": "Feeling_unsought_by_any_man",
-    "id": "texts/thebluecastle.txt#Feeling_unsought_by_any_man"
+    "name": "Next_crossing",
+    "id": "texts/thebluecastle.txt#Next_crossing"
    },
    "hasParticipant": {
     "name": "Valancy_Stirling",
@@ -195,8 +195,8 @@
   {
    "name": "Feeling_unsought_by_any_man",
    "takePlaceAt": {
-    "name": "Feeling_unsought_by_any_man",
-    "id": "texts/thebluecastle.txt#Feeling_unsought_by_any_man"
+    "name": "Walking_along_the_street",
+    "id": "texts/thebluecastle.txt#Walking_along_the_street"
    },
    "hasParticipant": {
     "name": "Valancy_Stirling",
@@ -207,8 +207,8 @@
   {
    "name": "Reading_John_Foster_s_book",
    "takePlaceAt": {
-    "name": "Reading_John_Foster_s_book",
-    "id": "texts/thebluecastle.txt#Reading_John_Foster_s_book"
+    "name": "Library",
+    "id": "texts/thebluecastle.txt#Library"
    },
    "hasParticipant": {
     "name": "Valancy_Stirling",

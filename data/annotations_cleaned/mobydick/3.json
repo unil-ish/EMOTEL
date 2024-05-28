@@ -71,8 +71,8 @@
   {
    "name": "Revelation_about_Captain_Ahab",
    "takePlaceAt": {
-    "name": "Revelation_about_Captain_Ahab",
-    "id": "texts/mobydick.txt#Revelation_about_Captain_Ahab"
+    "name": "Conversation_with_Captain_Peleg",
+    "id": "texts/mobydick.txt#Conversation_with_Captain_Peleg"
    },
    "hasParticipant": [
     {
@@ -89,8 +89,8 @@
   {
    "name": "Queequeg_not_responding",
    "takePlaceAt": {
-    "name": "Queequeg_not_responding",
-    "id": "texts/mobydick.txt#Queequeg_not_responding"
+    "name": "Queequeg_s_room",
+    "id": "texts/mobydick.txt#Queequeg_s_room"
    },
    "hasParticipant": [
     {
@@ -107,8 +107,8 @@
   {
    "name": "Suspicions_of_Queequeg_s_health",
    "takePlaceAt": {
-    "name": "Suspicions_of_Queequeg_s_health",
-    "id": "texts/mobydick.txt#Suspicions_of_Queequeg_s_health"
+    "name": "Queequeg_s_room",
+    "id": "texts/mobydick.txt#Queequeg_s_room"
    },
    "hasParticipant": [
     {
@@ -125,8 +125,8 @@
   {
    "name": "Mrs_Hussey_s_intervention",
    "takePlaceAt": {
-    "name": "Mrs_Hussey_s_intervention",
-    "id": "texts/mobydick.txt#Mrs_Hussey_s_intervention"
+    "name": "Mrs_Hussey_s_arrival",
+    "id": "texts/mobydick.txt#Mrs_Hussey_s_arrival"
    },
    "hasParticipant": [
     {

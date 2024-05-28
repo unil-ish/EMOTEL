@@ -53,24 +53,24 @@
   {
    "name": "Mr_Casaubon_s_agreement_with_her_views",
    "takePlaceAt": {
-    "name": "Mr_Casaubon_s_agreement_with_her_views",
-    "id": "texts/middlemarch.txt#Mr_Casaubon_s_agreement_with_her_views"
+    "name": "Conversation_with_Mr_Casaubon",
+    "id": "texts/middlemarch.txt#Conversation_with_Mr_Casaubon"
    },
    "id": "texts/middlemarch.txt#Mr_Casaubon_s_agreement_with_her_views"
   },
   {
    "name": "Mr_Casaubon_s_trustworthiness",
    "takePlaceAt": {
-    "name": "Mr_Casaubon_s_trustworthiness",
-    "id": "texts/middlemarch.txt#Mr_Casaubon_s_trustworthiness"
+    "name": "Conversation_with_Mr_Casaubon",
+    "id": "texts/middlemarch.txt#Conversation_with_Mr_Casaubon"
    },
    "id": "texts/middlemarch.txt#Mr_Casaubon_s_trustworthiness"
   },
   {
    "name": "Mr_Casaubon_s_statement_of_loneliness_and_need_for_companionship",
    "takePlaceAt": {
-    "name": "Mr_Casaubon_s_statement_of_loneliness_and_need_for_companionship",
-    "id": "texts/middlemarch.txt#Mr_Casaubon_s_statement_of_loneliness_and_need_for"
+    "name": "Conversation_with_Mr_Casaubon",
+    "id": "texts/middlemarch.txt#Conversation_with_Mr_Casaubon"
    },
    "id": "texts/middlemarch.txt#Mr_Casaubon_s_statement_of_loneliness_and_need_for"
   }

@@ -53,24 +53,24 @@
   {
    "name": "Standing_at_the_masthead_in_serene_weather",
    "takePlaceAt": {
-    "name": "Standing_at_the_masthead_in_serene_weather",
-    "id": "texts/mobydick.txt#Standing_at_the_masthead_in_serene_weather"
+    "name": "Masthead_of_a_whaleship_at_sea",
+    "id": "texts/mobydick.txt#Masthead_of_a_whaleship_at_sea"
    },
    "id": "texts/mobydick.txt#Standing_at_the_masthead_in_serene_weather"
   },
   {
    "name": "Tropic_whaling_life",
    "takePlaceAt": {
-    "name": "Tropic_whaling_life",
-    "id": "texts/mobydick.txt#Tropic_whaling_life"
+    "name": "Whaleship_at_sea",
+    "id": "texts/mobydick.txt#Whaleship_at_sea"
    },
    "id": "texts/mobydick.txt#Tropic_whaling_life"
   },
   {
    "name": "Standing_at_the_masthead_for_long_periods",
    "takePlaceAt": {
-    "name": "Standing_at_the_masthead_for_long_periods",
-    "id": "texts/mobydick.txt#Standing_at_the_masthead_for_long_periods"
+    "name": "Masthead_of_a_whaleship_at_sea",
+    "id": "texts/mobydick.txt#Masthead_of_a_whaleship_at_sea"
    },
    "id": "texts/mobydick.txt#Standing_at_the_masthead_for_long_periods"
   }

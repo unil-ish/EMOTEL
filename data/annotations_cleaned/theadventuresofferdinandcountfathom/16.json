@@ -101,8 +101,8 @@
   {
    "name": "Reunion_with_Monimia",
    "takePlaceAt": {
-    "name": "Reunion_with_Monimia",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Reunion_with_Monimia"
+    "name": "Madam_Clement_s_house",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Madam_Clement_s_house"
    },
    "hasParticipant": [
     {
@@ -119,8 +119,8 @@
   {
    "name": "Seeing_Monimia_s_apparition",
    "takePlaceAt": {
-    "name": "Seeing_Monimia_s_apparition",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Seeing_Monimia_s_apparition"
+    "name": "Monimia_s_tomb",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Monimia_s_tomb"
    },
    "hasParticipant": [
     {
@@ -137,8 +137,8 @@
   {
    "name": "Feeling_grateful_for_the_reunion_with_Monimia",
    "takePlaceAt": {
-    "name": "Feeling_grateful_for_the_reunion_with_Monimia",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Feeling_grateful_for_the_reunion_with_Monimia"
+    "name": "Madam_Clement_s_house",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Madam_Clement_s_house"
    },
    "hasParticipant": [
     {
@@ -155,8 +155,8 @@
   {
    "name": "Madam_Clement_s_request_to_share_his_journey_details",
    "takePlaceAt": {
-    "name": "Madam_Clement_s_request_to_share_his_journey_details",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Madam_Clement_s_request_to_share_his_journey_detai"
+    "name": "Madam_Clement_s_house",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Madam_Clement_s_house"
    },
    "hasParticipant": [
     {
@@ -173,8 +173,8 @@
   {
    "name": "Reunion_with_Renaldo",
    "takePlaceAt": {
-    "name": "Reunion_with_Renaldo",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Reunion_with_Renaldo"
+    "name": "Madam_Clement_s_house",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Madam_Clement_s_house"
    },
    "hasParticipant": [
     {
@@ -191,8 +191,8 @@
   {
    "name": "Feeling_grateful_for_Madam_Clement_s_care",
    "takePlaceAt": {
-    "name": "Feeling_grateful_for_Madam_Clement_s_care",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Feeling_grateful_for_Madam_Clement_s_care"
+    "name": "Madam_Clement_s_house",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Madam_Clement_s_house"
    },
    "hasParticipant": [
     {

@@ -121,8 +121,8 @@
   {
    "name": "Receiving_kindness_from_Miss_Jenkyns",
    "takePlaceAt": {
-    "name": "Receiving_kindness_from_Miss_Jenkyns",
-    "id": "texts/cranford.txt#Receiving_kindness_from_Miss_Jenkyns"
+    "name": "Miss_Jenkyns_house",
+    "id": "texts/cranford.txt#Miss_Jenkyns_house"
    },
    "hasParticipant": [
     {
@@ -139,8 +139,8 @@
   {
    "name": "Hearing_about_Captain_Brown_s_death",
    "takePlaceAt": {
-    "name": "Hearing_about_Captain_Brown_s_death",
-    "id": "texts/cranford.txt#Hearing_about_Captain_Brown_s_death"
+    "name": "Miss_Jenkyns_house",
+    "id": "texts/cranford.txt#Miss_Jenkyns_house"
    },
    "hasParticipant": [
     {
@@ -157,8 +157,8 @@
   {
    "name": "Miss_Brown_expressing_her_love_for_her_family",
    "takePlaceAt": {
-    "name": "Miss_Brown_expressing_her_love_for_her_family",
-    "id": "texts/cranford.txt#Miss_Brown_expressing_her_love_for_her_family"
+    "name": "Miss_Jenkyns_house",
+    "id": "texts/cranford.txt#Miss_Jenkyns_house"
    },
    "hasParticipant": [
     {
@@ -175,8 +175,8 @@
   {
    "name": "Miss_Jenkyns_offering_Miss_Jessie_a_place_to_stay",
    "takePlaceAt": {
-    "name": "Miss_Jenkyns_offering_Miss_Jessie_a_place_to_stay",
-    "id": "texts/cranford.txt#Miss_Jenkyns_offering_Miss_Jessie_a_place_to_stay"
+    "name": "Miss_Jenkyns_house",
+    "id": "texts/cranford.txt#Miss_Jenkyns_house"
    },
    "hasParticipant": [
     {
@@ -193,8 +193,8 @@
   {
    "name": "Realizing_her_family_members_are_gone",
    "takePlaceAt": {
-    "name": "Realizing_her_family_members_are_gone",
-    "id": "texts/cranford.txt#Realizing_her_family_members_are_gone"
+    "name": "Miss_Jenkyns_house",
+    "id": "texts/cranford.txt#Miss_Jenkyns_house"
    },
    "hasParticipant": [
     {
@@ -211,8 +211,8 @@
   {
    "name": "Miss_Brown_expressing_her_love_for_her_family",
    "takePlaceAt": {
-    "name": "Miss_Brown_expressing_her_love_for_her_family",
-    "id": "texts/cranford.txt#Miss_Brown_expressing_her_love_for_her_family"
+    "name": "Miss_Jenkyns_house",
+    "id": "texts/cranford.txt#Miss_Jenkyns_house"
    },
    "hasParticipant": [
     {
@@ -229,8 +229,8 @@
   {
    "name": "Miss_Jenkyns_offering_Miss_Jessie_a_place_to_stay",
    "takePlaceAt": {
-    "name": "Miss_Jenkyns_offering_Miss_Jessie_a_place_to_stay",
-    "id": "texts/cranford.txt#Miss_Jenkyns_offering_Miss_Jessie_a_place_to_stay"
+    "name": "Miss_Jenkyns_house",
+    "id": "texts/cranford.txt#Miss_Jenkyns_house"
    },
    "hasParticipant": [
     {

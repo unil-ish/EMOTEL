@@ -121,56 +121,56 @@
   {
    "name": "Lady_Catherine_s_manner",
    "takePlaceAt": {
-    "name": "Lady_Catherine_s_manner",
-    "id": "texts/prideandprejudice.txt#Lady_Catherine_s_manner"
+    "name": "Rosings_dining_room",
+    "id": "texts/prideandprejudice.txt#Rosings_dining_room"
    },
    "id": "texts/prideandprejudice.txt#Lady_Catherine_s_manner"
   },
   {
    "name": "Lady_Catherine_s_involvement_in_parish_matters",
    "takePlaceAt": {
-    "name": "Lady_Catherine_s_involvement_in_parish_matters",
-    "id": "texts/prideandprejudice.txt#Lady_Catherine_s_involvement_in_parish_matters"
+    "name": "Rosings",
+    "id": "texts/prideandprejudice.txt#Rosings"
    },
    "id": "texts/prideandprejudice.txt#Lady_Catherine_s_involvement_in_parish_matters"
   },
   {
    "name": "Walking_in_the_park",
    "takePlaceAt": {
-    "name": "Walking_in_the_park",
-    "id": "texts/prideandprejudice.txt#Walking_in_the_park"
+    "name": "Park_grove",
+    "id": "texts/prideandprejudice.txt#Park_grove"
    },
    "id": "texts/prideandprejudice.txt#Walking_in_the_park"
   },
   {
    "name": "Dinner_at_Rosings",
    "takePlaceAt": {
-    "name": "Dinner_at_Rosings",
-    "id": "texts/prideandprejudice.txt#Dinner_at_Rosings"
+    "name": "Rosings_dining_room",
+    "id": "texts/prideandprejudice.txt#Rosings_dining_room"
    },
    "id": "texts/prideandprejudice.txt#Dinner_at_Rosings"
   },
   {
    "name": "Displaying_Lady_Catherine_s_grandeur",
    "takePlaceAt": {
-    "name": "Displaying_Lady_Catherine_s_grandeur",
-    "id": "texts/prideandprejudice.txt#Displaying_Lady_Catherine_s_grandeur"
+    "name": "Rosings",
+    "id": "texts/prideandprejudice.txt#Rosings"
    },
    "id": "texts/prideandprejudice.txt#Displaying_Lady_Catherine_s_grandeur"
   },
   {
    "name": "Receiving_admiration_at_dinner",
    "takePlaceAt": {
-    "name": "Receiving_admiration_at_dinner",
-    "id": "texts/prideandprejudice.txt#Receiving_admiration_at_dinner"
+    "name": "Rosings_dining_room",
+    "id": "texts/prideandprejudice.txt#Rosings_dining_room"
    },
    "id": "texts/prideandprejudice.txt#Receiving_admiration_at_dinner"
   },
   {
    "name": "Elizabeth_s_response",
    "takePlaceAt": {
-    "name": "Elizabeth_s_response",
-    "id": "texts/prideandprejudice.txt#Elizabeth_s_response"
+    "name": "Rosings_dining_room",
+    "id": "texts/prideandprejudice.txt#Rosings_dining_room"
    },
    "id": "texts/prideandprejudice.txt#Elizabeth_s_response"
   }

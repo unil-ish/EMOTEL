@@ -127,8 +127,8 @@
   {
    "name": "Preparations_for_the_reception_of_his_bride",
    "takePlaceAt": {
-    "name": "Preparations_for_the_reception_of_his_bride",
-    "id": "texts/prideandprejudice.txt#Preparations_for_the_reception_of_his_bride"
+    "name": "Longbourn",
+    "id": "texts/prideandprejudice.txt#Longbourn"
    },
    "hasParticipant": [
     {
@@ -145,8 +145,8 @@
   {
    "name": "Taking_leave_of_his_relations",
    "takePlaceAt": {
-    "name": "Taking_leave_of_his_relations",
-    "id": "texts/prideandprejudice.txt#Taking_leave_of_his_relations"
+    "name": "Longbourn",
+    "id": "texts/prideandprejudice.txt#Longbourn"
    },
    "hasParticipant": [
     {
@@ -163,8 +163,8 @@
   {
    "name": "Mr_Bingley_s_absence",
    "takePlaceAt": {
-    "name": "Mr_Bingley_s_absence",
-    "id": "texts/prideandprejudice.txt#Mr_Bingley_s_absence"
+    "name": "Longbourn",
+    "id": "texts/prideandprejudice.txt#Longbourn"
    },
    "hasParticipant": [
     {
@@ -181,8 +181,8 @@
   {
    "name": "Feeling_thwarted_in_her_own_family",
    "takePlaceAt": {
-    "name": "Feeling_thwarted_in_her_own_family",
-    "id": "texts/prideandprejudice.txt#Feeling_thwarted_in_her_own_family"
+    "name": "Longbourn",
+    "id": "texts/prideandprejudice.txt#Longbourn"
    },
    "hasParticipant": {
     "name": "Mrs_Bennet",
@@ -193,8 +193,8 @@
   {
    "name": "Receiving_news_about_Miss_Bingley_s_letter",
    "takePlaceAt": {
-    "name": "Receiving_news_about_Miss_Bingley_s_letter",
-    "id": "texts/prideandprejudice.txt#Receiving_news_about_Miss_Bingley_s_letter"
+    "name": "Longbourn",
+    "id": "texts/prideandprejudice.txt#Longbourn"
    },
    "hasParticipant": [
     {
@@ -211,8 +211,8 @@
   {
    "name": "Receiving_news_about_Miss_Bingley_s_letter",
    "takePlaceAt": {
-    "name": "Receiving_news_about_Miss_Bingley_s_letter",
-    "id": "texts/prideandprejudice.txt#Receiving_news_about_Miss_Bingley_s_letter"
+    "name": "Longbourn",
+    "id": "texts/prideandprejudice.txt#Longbourn"
    },
    "hasParticipant": [
     {
@@ -229,8 +229,8 @@
   {
    "name": "Receiving_news_about_Jane_and_Elizabeth_s_correspondence",
    "takePlaceAt": {
-    "name": "Receiving_news_about_Jane_and_Elizabeth_s_correspondence",
-    "id": "texts/prideandprejudice.txt#Receiving_news_about_Jane_and_Elizabeth_s_correspo"
+    "name": "Longbourn",
+    "id": "texts/prideandprejudice.txt#Longbourn"
    },
    "hasParticipant": [
     {

@@ -67,32 +67,32 @@
   {
    "name": "Encounter_with_the_idea_of_the_great_whale",
    "takePlaceAt": {
-    "name": "Encounter_with_the_idea_of_the_great_whale",
-    "id": "texts/mobydick.txt#Encounter_with_the_idea_of_the_great_whale"
+    "name": "Mental_contemplation",
+    "id": "texts/mobydick.txt#Mental_contemplation"
    },
    "id": "texts/mobydick.txt#Encounter_with_the_idea_of_the_great_whale"
   },
   {
    "name": "Viewing_a_mysterious_painting",
    "takePlaceAt": {
-    "name": "Viewing_a_mysterious_painting",
-    "id": "texts/mobydick.txt#Viewing_a_mysterious_painting"
+    "name": "The_Spouter_Inn",
+    "id": "texts/mobydick.txt#The_Spouter_Inn"
    },
    "id": "texts/mobydick.txt#Viewing_a_mysterious_painting"
   },
   {
    "name": "Viewing_a_mysterious_painting",
    "takePlaceAt": {
-    "name": "Viewing_a_mysterious_painting",
-    "id": "texts/mobydick.txt#Viewing_a_mysterious_painting"
+    "name": "The_Spouter_Inn",
+    "id": "texts/mobydick.txt#The_Spouter_Inn"
    },
    "id": "texts/mobydick.txt#Viewing_a_mysterious_painting"
   },
   {
    "name": "Viewing_a_mysterious_painting",
    "takePlaceAt": {
-    "name": "Viewing_a_mysterious_painting",
-    "id": "texts/mobydick.txt#Viewing_a_mysterious_painting"
+    "name": "The_Spouter_Inn",
+    "id": "texts/mobydick.txt#The_Spouter_Inn"
    },
    "id": "texts/mobydick.txt#Viewing_a_mysterious_painting"
   }

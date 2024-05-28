@@ -135,16 +135,16 @@
   {
    "name": "Taking_off_shoes_and_stockings_and_letting_feet_hang_in_the_water",
    "takePlaceAt": {
-    "name": "Taking_off_shoes_and_stockings_and_letting_feet_hang_in_the_water",
-    "id": "texts/theenchantedapril.txt#Taking_off_shoes_and_stockings_and_letting_feet_ha"
+    "name": "Sitting_under_a_pine_tree_by_the_sea",
+    "id": "texts/theenchantedapril.txt#Sitting_under_a_pine_tree_by_the_sea"
    },
    "id": "texts/theenchantedapril.txt#Taking_off_shoes_and_stockings_and_letting_feet_ha"
   },
   {
    "name": "Realization_of_being_in_a_beautiful_place",
    "takePlaceAt": {
-    "name": "Realization_of_being_in_a_beautiful_place",
-    "id": "texts/theenchantedapril.txt#Realization_of_being_in_a_beautiful_place"
+    "name": "Observing_the_beauty_of_the_garden",
+    "id": "texts/theenchantedapril.txt#Observing_the_beauty_of_the_garden"
    },
    "id": "texts/theenchantedapril.txt#Realization_of_being_in_a_beautiful_place"
   },
@@ -191,8 +191,8 @@
   {
    "name": "Realization_of_being_extravagant",
    "takePlaceAt": {
-    "name": "Realization_of_being_extravagant",
-    "id": "texts/theenchantedapril.txt#Realization_of_being_extravagant"
+    "name": "Interaction_with_the_cook",
+    "id": "texts/theenchantedapril.txt#Interaction_with_the_cook"
    },
    "id": "texts/theenchantedapril.txt#Realization_of_being_extravagant"
   }

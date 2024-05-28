@@ -53,24 +53,24 @@
   {
    "name": "Adversaries_plotting_against_him",
    "takePlaceAt": {
-    "name": "Adversaries_plotting_against_him",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Adversaries_plotting_against_him"
+    "name": "Unknown_location",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Unknown_location"
    },
    "id": "texts/theadventuresofferdinandcountfathom.txt#Adversaries_plotting_against_him"
   },
   {
    "name": "Display_of_bloodied_sword",
    "takePlaceAt": {
-    "name": "Display_of_bloodied_sword",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Display_of_bloodied_sword"
+    "name": "Count_s_lodgings",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Count_s_lodgings"
    },
    "id": "texts/theadventuresofferdinandcountfathom.txt#Display_of_bloodied_sword"
   },
   {
    "name": "Stranger_demanding_Count_to_drop_correspondence_with_a_lady",
    "takePlaceAt": {
-    "name": "Stranger_demanding_Count_to_drop_correspondence_with_a_lady",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Stranger_demanding_Count_to_drop_correspondence_wi"
+    "name": "Count_s_lodgings",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Count_s_lodgings"
    },
    "id": "texts/theadventuresofferdinandcountfathom.txt#Stranger_demanding_Count_to_drop_correspondence_wi"
   }

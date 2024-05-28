@@ -87,40 +87,40 @@
   {
    "name": "Entering_the_Whaleman_s_Chapel",
    "takePlaceAt": {
-    "name": "Entering_the_Whaleman_s_Chapel",
-    "id": "texts/mobydick.txt#Entering_the_Whaleman_s_Chapel"
+    "name": "Whaleman_s_Chapel",
+    "id": "texts/mobydick.txt#Whaleman_s_Chapel"
    },
    "id": "texts/mobydick.txt#Entering_the_Whaleman_s_Chapel"
   },
   {
    "name": "Observing_the_grief_of_the_congregation",
    "takePlaceAt": {
-    "name": "Observing_the_grief_of_the_congregation",
-    "id": "texts/mobydick.txt#Observing_the_grief_of_the_congregation"
+    "name": "Whaleman_s_Chapel",
+    "id": "texts/mobydick.txt#Whaleman_s_Chapel"
    },
    "id": "texts/mobydick.txt#Observing_the_grief_of_the_congregation"
   },
   {
    "name": "Reading_the_inscriptions_on_the_wall",
    "takePlaceAt": {
-    "name": "Reading_the_inscriptions_on_the_wall",
-    "id": "texts/mobydick.txt#Reading_the_inscriptions_on_the_wall"
+    "name": "Whaleman_s_Chapel",
+    "id": "texts/mobydick.txt#Whaleman_s_Chapel"
    },
    "id": "texts/mobydick.txt#Reading_the_inscriptions_on_the_wall"
   },
   {
    "name": "Reflecting_on_the_meaning_of_death_and_faith",
    "takePlaceAt": {
-    "name": "Reflecting_on_the_meaning_of_death_and_faith",
-    "id": "texts/mobydick.txt#Reflecting_on_the_meaning_of_death_and_faith"
+    "name": "Whaleman_s_Chapel",
+    "id": "texts/mobydick.txt#Whaleman_s_Chapel"
    },
    "id": "texts/mobydick.txt#Reflecting_on_the_meaning_of_death_and_faith"
   },
   {
    "name": "Observing_the_solemnity_of_the_scene",
    "takePlaceAt": {
-    "name": "Observing_the_solemnity_of_the_scene",
-    "id": "texts/mobydick.txt#Observing_the_solemnity_of_the_scene"
+    "name": "Whaleman_s_Chapel",
+    "id": "texts/mobydick.txt#Whaleman_s_Chapel"
    },
    "id": "texts/mobydick.txt#Observing_the_solemnity_of_the_scene"
   }

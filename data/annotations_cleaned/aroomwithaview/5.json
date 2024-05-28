@@ -67,8 +67,8 @@
   {
    "name": "Dispensing_drinks_before_bed",
    "takePlaceAt": {
-    "name": "Dispensing_drinks_before_bed",
-    "id": "texts/aroomwithaview.txt#Dispensing_drinks_before_bed"
+    "name": "Before_bed",
+    "id": "texts/aroomwithaview.txt#Before_bed"
    },
    "hasParticipant": [
     {
@@ -93,8 +93,8 @@
   {
    "name": "Realization_of_Cecil_s_intolerable_behavior",
    "takePlaceAt": {
-    "name": "Realization_of_Cecil_s_intolerable_behavior",
-    "id": "texts/aroomwithaview.txt#Realization_of_Cecil_s_intolerable_behavior"
+    "name": "Evening",
+    "id": "texts/aroomwithaview.txt#Evening"
    },
    "hasParticipant": [
     {
@@ -111,8 +111,8 @@
   {
    "name": "Breaking_off_the_engagement",
    "takePlaceAt": {
-    "name": "Breaking_off_the_engagement",
-    "id": "texts/aroomwithaview.txt#Breaking_off_the_engagement"
+    "name": "Before_bed",
+    "id": "texts/aroomwithaview.txt#Before_bed"
    },
    "hasParticipant": [
     {
@@ -129,8 +129,8 @@
   {
    "name": "Lucy_breaking_off_the_engagement",
    "takePlaceAt": {
-    "name": "Lucy_breaking_off_the_engagement",
-    "id": "texts/aroomwithaview.txt#Lucy_breaking_off_the_engagement"
+    "name": "Before_bed",
+    "id": "texts/aroomwithaview.txt#Before_bed"
    },
    "hasParticipant": [
     {

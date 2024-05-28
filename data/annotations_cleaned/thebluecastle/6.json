@@ -67,32 +67,32 @@
   {
    "name": "Realizing_the_difficulty_of_getting_a_divorce_and_Barney_s_financial_situation",
    "takePlaceAt": {
-    "name": "Realizing_the_difficulty_of_getting_a_divorce_and_Barney_s_financial_situation",
-    "id": "texts/thebluecastle.txt#Realizing_the_difficulty_of_getting_a_divorce_and_"
+    "name": "Blue_Castle",
+    "id": "texts/thebluecastle.txt#Blue_Castle"
    },
    "id": "texts/thebluecastle.txt#Realizing_the_difficulty_of_getting_a_divorce_and_"
   },
   {
    "name": "Dr_Redfern_s_emotional_recounting_of_Barney_s_past",
    "takePlaceAt": {
-    "name": "Dr_Redfern_s_emotional_recounting_of_Barney_s_past",
-    "id": "texts/thebluecastle.txt#Dr_Redfern_s_emotional_recounting_of_Barney_s_past"
+    "name": "Blue_Castle",
+    "id": "texts/thebluecastle.txt#Blue_Castle"
    },
    "id": "texts/thebluecastle.txt#Dr_Redfern_s_emotional_recounting_of_Barney_s_past"
   },
   {
    "name": "Realizing_the_irony_of_the_situation",
    "takePlaceAt": {
-    "name": "Realizing_the_irony_of_the_situation",
-    "id": "texts/thebluecastle.txt#Realizing_the_irony_of_the_situation"
+    "name": "Blue_Castle",
+    "id": "texts/thebluecastle.txt#Blue_Castle"
    },
    "id": "texts/thebluecastle.txt#Realizing_the_irony_of_the_situation"
   },
   {
    "name": "Mental_exhaustion_and_emotional_turmoil",
    "takePlaceAt": {
-    "name": "Mental_exhaustion_and_emotional_turmoil",
-    "id": "texts/thebluecastle.txt#Mental_exhaustion_and_emotional_turmoil"
+    "name": "Blue_Castle",
+    "id": "texts/thebluecastle.txt#Blue_Castle"
    },
    "id": "texts/thebluecastle.txt#Mental_exhaustion_and_emotional_turmoil"
   }

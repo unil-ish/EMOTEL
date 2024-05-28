@@ -53,8 +53,8 @@
   {
    "name": "Receiving_an_invitation_to_Brighton_for_Lydia",
    "takePlaceAt": {
-    "name": "Receiving_an_invitation_to_Brighton_for_Lydia",
-    "id": "texts/prideandprejudice.txt#Receiving_an_invitation_to_Brighton_for_Lydia"
+    "name": "Longbourn_House",
+    "id": "texts/prideandprejudice.txt#Longbourn_House"
    },
    "hasParticipant": [
     {
@@ -71,8 +71,8 @@
   {
    "name": "Discussion_with_Mr_Bennet_about_Lydia_s_invitation_to_Brighton",
    "takePlaceAt": {
-    "name": "Discussion_with_Mr_Bennet_about_Lydia_s_invitation_to_Brighton",
-    "id": "texts/prideandprejudice.txt#Discussion_with_Mr_Bennet_about_Lydia_s_invitation"
+    "name": "Longbourn_House",
+    "id": "texts/prideandprejudice.txt#Longbourn_House"
    },
    "hasParticipant": [
     {
@@ -89,8 +89,8 @@
   {
    "name": "Lydia_s_invitation_to_Brighton",
    "takePlaceAt": {
-    "name": "Lydia_s_invitation_to_Brighton",
-    "id": "texts/prideandprejudice.txt#Lydia_s_invitation_to_Brighton"
+    "name": "Longbourn_House",
+    "id": "texts/prideandprejudice.txt#Longbourn_House"
    },
    "hasParticipant": [
     {

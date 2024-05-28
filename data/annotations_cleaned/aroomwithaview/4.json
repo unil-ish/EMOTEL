@@ -77,48 +77,48 @@
   {
    "name": "Memories_of_past_experiences",
    "takePlaceAt": {
-    "name": "Memories_of_past_experiences",
-    "id": "texts/aroomwithaview.txt#Memories_of_past_experiences"
+    "name": "Italy_and_familiar_places",
+    "id": "texts/aroomwithaview.txt#Italy_and_familiar_places"
    },
    "id": "texts/aroomwithaview.txt#Memories_of_past_experiences"
   },
   {
    "name": "Mother_s_insistence_on_inviting_Miss_Bartlett",
    "takePlaceAt": {
-    "name": "Mother_s_insistence_on_inviting_Miss_Bartlett",
-    "id": "texts/aroomwithaview.txt#Mother_s_insistence_on_inviting_Miss_Bartlett"
+    "name": "Home",
+    "id": "texts/aroomwithaview.txt#Home"
    },
    "id": "texts/aroomwithaview.txt#Mother_s_insistence_on_inviting_Miss_Bartlett"
   },
   {
    "name": "Feeling_drawn_to_George_Emerson",
    "takePlaceAt": {
-    "name": "Feeling_drawn_to_George_Emerson",
-    "id": "texts/aroomwithaview.txt#Feeling_drawn_to_George_Emerson"
+    "name": "Rectory",
+    "id": "texts/aroomwithaview.txt#Rectory"
    },
    "id": "texts/aroomwithaview.txt#Feeling_drawn_to_George_Emerson"
   },
   {
    "name": "Accepting_Miss_Bartlett_s_visit_and_George_Emerson_s_invitation_to_tennis",
    "takePlaceAt": {
-    "name": "Accepting_Miss_Bartlett_s_visit_and_George_Emerson_s_invitation_to_tennis",
-    "id": "texts/aroomwithaview.txt#Accepting_Miss_Bartlett_s_visit_and_George_Emerson"
+    "name": "Home_and_Rectory",
+    "id": "texts/aroomwithaview.txt#Home_and_Rectory"
    },
    "id": "texts/aroomwithaview.txt#Accepting_Miss_Bartlett_s_visit_and_George_Emerson"
   },
   {
    "name": "Discussion_about_Miss_Bartlett_and_the_Honeychurches_lives",
    "takePlaceAt": {
-    "name": "Discussion_about_Miss_Bartlett_and_the_Honeychurches_lives",
-    "id": "texts/aroomwithaview.txt#Discussion_about_Miss_Bartlett_and_the_Honeychurch"
+    "name": "Dinner_table",
+    "id": "texts/aroomwithaview.txt#Dinner_table"
    },
    "id": "texts/aroomwithaview.txt#Discussion_about_Miss_Bartlett_and_the_Honeychurch"
   },
   {
    "name": "Feeling_annoyed_at_the_conversation_and_situation_at_dinner",
    "takePlaceAt": {
-    "name": "Feeling_annoyed_at_the_conversation_and_situation_at_dinner",
-    "id": "texts/aroomwithaview.txt#Feeling_annoyed_at_the_conversation_and_situation_"
+    "name": "Dinner_table",
+    "id": "texts/aroomwithaview.txt#Dinner_table"
    },
    "id": "texts/aroomwithaview.txt#Feeling_annoyed_at_the_conversation_and_situation_"
   }

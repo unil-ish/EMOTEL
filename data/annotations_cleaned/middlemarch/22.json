@@ -53,8 +53,8 @@
   {
    "name": "Desire_to_see_Will_Ladislaw",
    "takePlaceAt": {
-    "name": "Desire_to_see_Will_Ladislaw",
-    "id": "texts/middlemarch.txt#Desire_to_see_Will_Ladislaw"
+    "name": "Lowick_Manor",
+    "id": "texts/middlemarch.txt#Lowick_Manor"
    },
    "hasParticipant": [
     {
@@ -71,8 +71,8 @@
   {
    "name": "Feeling_of_pity_towards_her_late_husband",
    "takePlaceAt": {
-    "name": "Feeling_of_pity_towards_her_late_husband",
-    "id": "texts/middlemarch.txt#Feeling_of_pity_towards_her_late_husband"
+    "name": "Lowick_Manor",
+    "id": "texts/middlemarch.txt#Lowick_Manor"
    },
    "hasParticipant": [
     {
@@ -89,8 +89,8 @@
   {
    "name": "Unexpected_meeting_with_Will_Ladislaw",
    "takePlaceAt": {
-    "name": "Unexpected_meeting_with_Will_Ladislaw",
-    "id": "texts/middlemarch.txt#Unexpected_meeting_with_Will_Ladislaw"
+    "name": "Lowick_Manor",
+    "id": "texts/middlemarch.txt#Lowick_Manor"
    },
    "hasParticipant": [
     {

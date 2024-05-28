@@ -85,8 +85,8 @@
   {
    "name": "Being_offered_patronage",
    "takePlaceAt": {
-    "name": "Being_offered_patronage",
-    "id": "texts/middlemarch.txt#Being_offered_patronage"
+    "name": "Lowick_Rectory",
+    "id": "texts/middlemarch.txt#Lowick_Rectory"
    },
    "hasParticipant": {
     "name": "Dorothea_Brooke",
@@ -97,8 +97,8 @@
   {
    "name": "Being_in_love_with_Mary_Garth",
    "takePlaceAt": {
-    "name": "Being_in_love_with_Mary_Garth",
-    "id": "texts/middlemarch.txt#Being_in_love_with_Mary_Garth"
+    "name": "Lowick_Rectory",
+    "id": "texts/middlemarch.txt#Lowick_Rectory"
    },
    "hasParticipant": [
     {
@@ -115,8 +115,8 @@
   {
    "name": "Fred_Vincy_seeking_advice",
    "takePlaceAt": {
-    "name": "Fred_Vincy_seeking_advice",
-    "id": "texts/middlemarch.txt#Fred_Vincy_seeking_advice"
+    "name": "Lowick_Rectory",
+    "id": "texts/middlemarch.txt#Lowick_Rectory"
    },
    "hasParticipant": [
     {
@@ -133,8 +133,8 @@
   {
    "name": "Being_approached_by_Mr_Farebrother_about_Fred_Vincy",
    "takePlaceAt": {
-    "name": "Being_approached_by_Mr_Farebrother_about_Fred_Vincy",
-    "id": "texts/middlemarch.txt#Being_approached_by_Mr_Farebrother_about_Fred_Vinc"
+    "name": "Lowick_Rectory",
+    "id": "texts/middlemarch.txt#Lowick_Rectory"
    },
    "hasParticipant": [
     {

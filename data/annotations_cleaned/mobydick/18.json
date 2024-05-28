@@ -93,8 +93,8 @@
   {
    "name": "Englishman_s_encounter_with_the_White_Whale",
    "takePlaceAt": {
-    "name": "Englishman_s_encounter_with_the_White_Whale",
-    "id": "texts/mobydick.txt#Englishman_s_encounter_with_the_White_Whale"
+    "name": "At_sea",
+    "id": "texts/mobydick.txt#At_sea"
    },
    "hasParticipant": [
     {
@@ -111,8 +111,8 @@
   {
    "name": "Revelation_about_Moby_Dick",
    "takePlaceAt": {
-    "name": "Revelation_about_Moby_Dick",
-    "id": "texts/mobydick.txt#Revelation_about_Moby_Dick"
+    "name": "At_sea",
+    "id": "texts/mobydick.txt#At_sea"
    },
    "hasParticipant": [
     {
@@ -129,8 +129,8 @@
   {
    "name": "Frustration_with_lack_of_information",
    "takePlaceAt": {
-    "name": "Frustration_with_lack_of_information",
-    "id": "texts/mobydick.txt#Frustration_with_lack_of_information"
+    "name": "At_sea",
+    "id": "texts/mobydick.txt#At_sea"
    },
    "hasParticipant": {
     "name": "Ahab",
@@ -141,8 +141,8 @@
   {
    "name": "Revelation_about_Moby_Dick",
    "takePlaceAt": {
-    "name": "Revelation_about_Moby_Dick",
-    "id": "texts/mobydick.txt#Revelation_about_Moby_Dick"
+    "name": "At_sea",
+    "id": "texts/mobydick.txt#At_sea"
    },
    "hasParticipant": [
     {
@@ -159,8 +159,8 @@
   {
    "name": "Revelation_about_Moby_Dick",
    "takePlaceAt": {
-    "name": "Revelation_about_Moby_Dick",
-    "id": "texts/mobydick.txt#Revelation_about_Moby_Dick"
+    "name": "At_sea",
+    "id": "texts/mobydick.txt#At_sea"
    },
    "hasParticipant": [
     {

@@ -79,8 +79,8 @@
   {
    "name": "Mr_Ladislaw_s_presence",
    "takePlaceAt": {
-    "name": "Mr_Ladislaw_s_presence",
-    "id": "texts/middlemarch.txt#Mr_Ladislaw_s_presence"
+    "name": "Lowick_churchyard",
+    "id": "texts/middlemarch.txt#Lowick_churchyard"
    },
    "hasParticipants": [
     {
@@ -101,8 +101,8 @@
   {
    "name": "Mr_Brooke_s_announcement",
    "takePlaceAt": {
-    "name": "Mr_Brooke_s_announcement",
-    "id": "texts/middlemarch.txt#Mr_Brooke_s_announcement"
+    "name": "Lowick_churchyard",
+    "id": "texts/middlemarch.txt#Lowick_churchyard"
    },
    "hasParticipants": [
     {
@@ -123,8 +123,8 @@
   {
    "name": "Mr_Brooke_s_announcement",
    "takePlaceAt": {
-    "name": "Mr_Brooke_s_announcement",
-    "id": "texts/middlemarch.txt#Mr_Brooke_s_announcement"
+    "name": "Lowick_churchyard",
+    "id": "texts/middlemarch.txt#Lowick_churchyard"
    },
    "hasParticipants": [
     {
@@ -141,8 +141,8 @@
   {
    "name": "Observing_the_churchyard_scene",
    "takePlaceAt": {
-    "name": "Observing_the_churchyard_scene",
-    "id": "texts/middlemarch.txt#Observing_the_churchyard_scene"
+    "name": "Lowick_churchyard",
+    "id": "texts/middlemarch.txt#Lowick_churchyard"
    },
    "hasParticipants": [
     {

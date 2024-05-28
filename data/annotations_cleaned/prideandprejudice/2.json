@@ -149,8 +149,8 @@
   {
    "name": "Daughters_returning_home",
    "takePlaceAt": {
-    "name": "Daughters_returning_home",
-    "id": "texts/prideandprejudice.txt#Daughters_returning_home"
+    "name": "Home",
+    "id": "texts/prideandprejudice.txt#Home"
    },
    "hasParticipant": [
     {
@@ -167,8 +167,8 @@
   {
    "name": "Mr_Bingley_s_unexpected_visit",
    "takePlaceAt": {
-    "name": "Mr_Bingley_s_unexpected_visit",
-    "id": "texts/prideandprejudice.txt#Mr_Bingley_s_unexpected_visit"
+    "name": "Home",
+    "id": "texts/prideandprejudice.txt#Home"
    },
    "hasParticipant": [
     {
@@ -185,8 +185,8 @@
   {
    "name": "Mr_Bingley_s_unexpected_visit",
    "takePlaceAt": {
-    "name": "Mr_Bingley_s_unexpected_visit",
-    "id": "texts/prideandprejudice.txt#Mr_Bingley_s_unexpected_visit"
+    "name": "Home",
+    "id": "texts/prideandprejudice.txt#Home"
    },
    "hasParticipant": [
     {
@@ -203,8 +203,8 @@
   {
    "name": "Expectation_of_a_guest",
    "takePlaceAt": {
-    "name": "Expectation_of_a_guest",
-    "id": "texts/prideandprejudice.txt#Expectation_of_a_guest"
+    "name": "Breakfast_table",
+    "id": "texts/prideandprejudice.txt#Breakfast_table"
    },
    "hasParticipant": [
     {
@@ -221,8 +221,8 @@
   {
    "name": "Mr_Collins_s_arrival",
    "takePlaceAt": {
-    "name": "Mr_Collins_s_arrival",
-    "id": "texts/prideandprejudice.txt#Mr_Collins_s_arrival"
+    "name": "Home",
+    "id": "texts/prideandprejudice.txt#Home"
    },
    "hasParticipant": [
     {
@@ -243,8 +243,8 @@
   {
    "name": "Conversation_between_Elizabeth_and_Jane_about_Mr_Wickham",
    "takePlaceAt": {
-    "name": "Conversation_between_Elizabeth_and_Jane_about_Mr_Wickham",
-    "id": "texts/prideandprejudice.txt#Conversation_between_Elizabeth_and_Jane_about_Mr_W"
+    "name": "Home",
+    "id": "texts/prideandprejudice.txt#Home"
    },
    "hasParticipant": [
     {
@@ -261,8 +261,8 @@
   {
    "name": "Conversation_between_Elizabeth_and_Jane_about_Mr_Wickham",
    "takePlaceAt": {
-    "name": "Conversation_between_Elizabeth_and_Jane_about_Mr_Wickham",
-    "id": "texts/prideandprejudice.txt#Conversation_between_Elizabeth_and_Jane_about_Mr_W"
+    "name": "Home",
+    "id": "texts/prideandprejudice.txt#Home"
    },
    "hasParticipant": [
     {
@@ -279,8 +279,8 @@
   {
    "name": "Conversation_between_Elizabeth_and_Jane_about_Mr_Wickham",
    "takePlaceAt": {
-    "name": "Conversation_between_Elizabeth_and_Jane_about_Mr_Wickham",
-    "id": "texts/prideandprejudice.txt#Conversation_between_Elizabeth_and_Jane_about_Mr_W"
+    "name": "Home",
+    "id": "texts/prideandprejudice.txt#Home"
    },
    "hasParticipant": [
     {
@@ -297,8 +297,8 @@
   {
    "name": "Conversation_with_Elizabeth_about_Mr_Darcy",
    "takePlaceAt": {
-    "name": "Conversation_with_Elizabeth_about_Mr_Darcy",
-    "id": "texts/prideandprejudice.txt#Conversation_with_Elizabeth_about_Mr_Darcy"
+    "name": "Home",
+    "id": "texts/prideandprejudice.txt#Home"
    },
    "hasParticipant": [
     {

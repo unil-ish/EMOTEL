@@ -121,8 +121,8 @@
   {
    "name": "Learning_about_Will_s_return_and_marriage",
    "takePlaceAt": {
-    "name": "Learning_about_Will_s_return_and_marriage",
-    "id": "texts/middlemarch.txt#Learning_about_Will_s_return_and_marriage"
+    "name": "Freshitt_Hall",
+    "id": "texts/middlemarch.txt#Freshitt_Hall"
    },
    "hasParticipant": [
     {
@@ -139,8 +139,8 @@
   {
    "name": "Learning_about_Dorothea_s_marriage",
    "takePlaceAt": {
-    "name": "Learning_about_Dorothea_s_marriage",
-    "id": "texts/middlemarch.txt#Learning_about_Dorothea_s_marriage"
+    "name": "Freshitt_Hall",
+    "id": "texts/middlemarch.txt#Freshitt_Hall"
    },
    "hasParticipant": [
     {
@@ -157,8 +157,8 @@
   {
    "name": "Decision_to_marry_Will_Ladislaw",
    "takePlaceAt": {
-    "name": "Decision_to_marry_Will_Ladislaw",
-    "id": "texts/middlemarch.txt#Decision_to_marry_Will_Ladislaw"
+    "name": "Freshitt_Hall",
+    "id": "texts/middlemarch.txt#Freshitt_Hall"
    },
    "hasParticipant": {
     "name": "Dorothea",
@@ -169,8 +169,8 @@
   {
    "name": "Learning_about_Dorothea_s_marriage_to_Ladislaw",
    "takePlaceAt": {
-    "name": "Learning_about_Dorothea_s_marriage_to_Ladislaw",
-    "id": "texts/middlemarch.txt#Learning_about_Dorothea_s_marriage_to_Ladislaw"
+    "name": "Freshitt_Hall",
+    "id": "texts/middlemarch.txt#Freshitt_Hall"
    },
    "hasParticipant": {
     "name": "Sir_James_Chettam",
@@ -181,8 +181,8 @@
   {
    "name": "Mention_of_the_union_of_Tipton_and_Freshitt_estates",
    "takePlaceAt": {
-    "name": "Mention_of_the_union_of_Tipton_and_Freshitt_estates",
-    "id": "texts/middlemarch.txt#Mention_of_the_union_of_Tipton_and_Freshitt_estate"
+    "name": "Freshitt_Hall",
+    "id": "texts/middlemarch.txt#Freshitt_Hall"
    },
    "hasParticipant": {
     "name": "Sir_James_Chettam",
@@ -193,8 +193,8 @@
   {
    "name": "Learning_about_Dorothea_s_marriage_to_Ladislaw",
    "takePlaceAt": {
-    "name": "Learning_about_Dorothea_s_marriage_to_Ladislaw",
-    "id": "texts/middlemarch.txt#Learning_about_Dorothea_s_marriage_to_Ladislaw"
+    "name": "Freshitt_Hall",
+    "id": "texts/middlemarch.txt#Freshitt_Hall"
    },
    "hasParticipant": {
     "name": "Mrs_Cadwallader",
@@ -205,8 +205,8 @@
   {
    "name": "Learning_about_Dorothea_s_marriage_to_Ladislaw",
    "takePlaceAt": {
-    "name": "Learning_about_Dorothea_s_marriage_to_Ladislaw",
-    "id": "texts/middlemarch.txt#Learning_about_Dorothea_s_marriage_to_Ladislaw"
+    "name": "Freshitt_Hall",
+    "id": "texts/middlemarch.txt#Freshitt_Hall"
    },
    "hasParticipant": {
     "name": "Mrs_Cadwallader",

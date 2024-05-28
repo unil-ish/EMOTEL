@@ -111,16 +111,16 @@
   {
    "name": "Observing_the_peaceful_concernments_of_the_whales",
    "takePlaceAt": {
-    "name": "Observing_the_peaceful_concernments_of_the_whales",
-    "id": "texts/mobydick.txt#Observing_the_peaceful_concernments_of_the_whales"
+    "name": "In_the_midst_of_the_commotion_among_the_whales",
+    "id": "texts/mobydick.txt#In_the_midst_of_the_commotion_among_the_whales"
    },
    "id": "texts/mobydick.txt#Observing_the_peaceful_concernments_of_the_whales"
   },
   {
    "name": "Seeing_the_enraged_drugged_whales",
    "takePlaceAt": {
-    "name": "Seeing_the_enraged_drugged_whales",
-    "id": "texts/mobydick.txt#Seeing_the_enraged_drugged_whales"
+    "name": "In_the_midst_of_the_commotion_among_the_whales",
+    "id": "texts/mobydick.txt#In_the_midst_of_the_commotion_among_the_whales"
    },
    "id": "texts/mobydick.txt#Seeing_the_enraged_drugged_whales"
   }

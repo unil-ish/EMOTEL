@@ -87,8 +87,8 @@
   {
    "name": "Receiving_a_telegram_from_Thomas_Briggs",
    "takePlaceAt": {
-    "name": "Receiving_a_telegram_from_Thomas_Briggs",
-    "id": "texts/theenchantedapril.txt#Receiving_a_telegram_from_Thomas_Briggs"
+    "name": "San_Salvatore",
+    "id": "texts/theenchantedapril.txt#San_Salvatore"
    },
    "hasParticipant": [
     {
@@ -105,8 +105,8 @@
   {
    "name": "Expecting_a_telegram_from_Frederick",
    "takePlaceAt": {
-    "name": "Expecting_a_telegram_from_Frederick",
-    "id": "texts/theenchantedapril.txt#Expecting_a_telegram_from_Frederick"
+    "name": "San_Salvatore",
+    "id": "texts/theenchantedapril.txt#San_Salvatore"
    },
    "hasParticipant": [
     {
@@ -123,8 +123,8 @@
   {
    "name": "Thomas_Briggs_arriving_at_San_Salvatore",
    "takePlaceAt": {
-    "name": "Thomas_Briggs_arriving_at_San_Salvatore",
-    "id": "texts/theenchantedapril.txt#Thomas_Briggs_arriving_at_San_Salvatore"
+    "name": "San_Salvatore",
+    "id": "texts/theenchantedapril.txt#San_Salvatore"
    },
    "hasParticipant": [
     {
@@ -141,8 +141,8 @@
   {
    "name": "Thinking_about_Rose_Arbuthnot",
    "takePlaceAt": {
-    "name": "Thinking_about_Rose_Arbuthnot",
-    "id": "texts/theenchantedapril.txt#Thinking_about_Rose_Arbuthnot"
+    "name": "On_the_way_to_San_Salvatore",
+    "id": "texts/theenchantedapril.txt#On_the_way_to_San_Salvatore"
    },
    "hasParticipant": [
     {
@@ -159,8 +159,8 @@
   {
    "name": "Examining_the_picture_of_the_Madonna",
    "takePlaceAt": {
-    "name": "Examining_the_picture_of_the_Madonna",
-    "id": "texts/theenchantedapril.txt#Examining_the_picture_of_the_Madonna"
+    "name": "San_Salvatore",
+    "id": "texts/theenchantedapril.txt#San_Salvatore"
    },
    "hasParticipant": [
     {

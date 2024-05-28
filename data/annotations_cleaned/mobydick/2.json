@@ -81,8 +81,8 @@
   {
    "name": "Offering_a_prayer",
    "takePlaceAt": {
-    "name": "Offering_a_prayer",
-    "id": "texts/mobydick.txt#Offering_a_prayer"
+    "name": "Chapel",
+    "id": "texts/mobydick.txt#Chapel"
    },
    "hasParticipant": {
     "name": "Father_Mapple",
@@ -93,8 +93,8 @@
   {
    "name": "Being_placed_next_to_the_Priest",
    "takePlaceAt": {
-    "name": "Being_placed_next_to_the_Priest",
-    "id": "texts/mobydick.txt#Being_placed_next_to_the_Priest"
+    "name": "Wedding_feast",
+    "id": "texts/mobydick.txt#Wedding_feast"
    },
    "hasParticipant": {
     "name": "Captain",
@@ -105,8 +105,8 @@
   {
    "name": "Being_laughed_at",
    "takePlaceAt": {
-    "name": "Being_laughed_at",
-    "id": "texts/mobydick.txt#Being_laughed_at"
+    "name": "Wedding_feast",
+    "id": "texts/mobydick.txt#Wedding_feast"
    },
    "hasParticipant": {
     "name": "Queequeg",
@@ -117,8 +117,8 @@
   {
    "name": "Defending_himself",
    "takePlaceAt": {
-    "name": "Defending_himself",
-    "id": "texts/mobydick.txt#Defending_himself"
+    "name": "Schooner",
+    "id": "texts/mobydick.txt#Schooner"
    },
    "hasParticipant": {
     "name": "Queequeg",
@@ -129,8 +129,8 @@
   {
    "name": "Being_threatened",
    "takePlaceAt": {
-    "name": "Being_threatened",
-    "id": "texts/mobydick.txt#Being_threatened"
+    "name": "Schooner",
+    "id": "texts/mobydick.txt#Schooner"
    },
    "hasParticipant": {
     "name": "Queequeg",

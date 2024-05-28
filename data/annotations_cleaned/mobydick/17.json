@@ -67,8 +67,8 @@
   {
    "name": "Being_entangled_in_the_whale_line_and_falling_into_the_water",
    "takePlaceAt": {
-    "name": "Being_entangled_in_the_whale_line_and_falling_into_the_water",
-    "id": "texts/mobydick.txt#Being_entangled_in_the_whale_line_and_falling_into"
+    "name": "On_the_boat",
+    "id": "texts/mobydick.txt#On_the_boat"
    },
    "hasParticipant": {
     "name": "Pip",
@@ -79,8 +79,8 @@
   {
    "name": "Being_left_behind_in_the_sea",
    "takePlaceAt": {
-    "name": "Being_left_behind_in_the_sea",
-    "id": "texts/mobydick.txt#Being_left_behind_in_the_sea"
+    "name": "In_the_sea",
+    "id": "texts/mobydick.txt#In_the_sea"
    },
    "hasParticipant": {
     "name": "Pip",
@@ -91,8 +91,8 @@
   {
    "name": "Squeezing_sperm",
    "takePlaceAt": {
-    "name": "Squeezing_sperm",
-    "id": "texts/mobydick.txt#Squeezing_sperm"
+    "name": "On_the_deck",
+    "id": "texts/mobydick.txt#On_the_deck"
    },
    "hasParticipant": {
     "name": "Pip",
@@ -103,8 +103,8 @@
   {
    "name": "Squeezing_hands",
    "takePlaceAt": {
-    "name": "Squeezing_hands",
-    "id": "texts/mobydick.txt#Squeezing_hands"
+    "name": "On_the_deck",
+    "id": "texts/mobydick.txt#On_the_deck"
    },
    "hasParticipant": {
     "name": "Pip",

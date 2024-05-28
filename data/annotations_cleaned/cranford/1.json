@@ -67,32 +67,32 @@
   {
    "name": "Mr_Holbrook_s_death",
    "takePlaceAt": {
-    "name": "Mr_Holbrook_s_death",
-    "id": "texts/cranford.txt#Mr_Holbrook_s_death"
+    "name": "Cranford",
+    "id": "texts/cranford.txt#Cranford"
    },
    "id": "texts/cranford.txt#Mr_Holbrook_s_death"
   },
   {
    "name": "Mr_Holbrook_s_death",
    "takePlaceAt": {
-    "name": "Mr_Holbrook_s_death",
-    "id": "texts/cranford.txt#Mr_Holbrook_s_death"
+    "name": "Cranford",
+    "id": "texts/cranford.txt#Cranford"
    },
    "id": "texts/cranford.txt#Mr_Holbrook_s_death"
   },
   {
    "name": "Martha_mentioning_Jem_Hearn",
    "takePlaceAt": {
-    "name": "Martha_mentioning_Jem_Hearn",
-    "id": "texts/cranford.txt#Martha_mentioning_Jem_Hearn"
+    "name": "Miss_Matty_s_house",
+    "id": "texts/cranford.txt#Miss_Matty_s_house"
    },
    "id": "texts/cranford.txt#Martha_mentioning_Jem_Hearn"
   },
   {
    "name": "Mr_Holbrook_s_death",
    "takePlaceAt": {
-    "name": "Mr_Holbrook_s_death",
-    "id": "texts/cranford.txt#Mr_Holbrook_s_death"
+    "name": "Cranford",
+    "id": "texts/cranford.txt#Cranford"
    },
    "id": "texts/cranford.txt#Mr_Holbrook_s_death"
   }

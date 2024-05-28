@@ -93,8 +93,8 @@
   {
    "name": "Justine_s_trial_and_conviction",
    "takePlaceAt": {
-    "name": "Justine_s_trial_and_conviction",
-    "id": "texts/frankenstein.txt#Justine_s_trial_and_conviction"
+    "name": "Courtroom",
+    "id": "texts/frankenstein.txt#Courtroom"
    },
    "hasParticipant": [
     {
@@ -111,8 +111,8 @@
   {
    "name": "Justine_s_impending_execution",
    "takePlaceAt": {
-    "name": "Justine_s_impending_execution",
-    "id": "texts/frankenstein.txt#Justine_s_impending_execution"
+    "name": "Prison_room",
+    "id": "texts/frankenstein.txt#Prison_room"
    },
    "hasParticipant": [
     {
@@ -129,8 +129,8 @@
   {
    "name": "Justine_s_confession",
    "takePlaceAt": {
-    "name": "Justine_s_confession",
-    "id": "texts/frankenstein.txt#Justine_s_confession"
+    "name": "Prison_room",
+    "id": "texts/frankenstein.txt#Prison_room"
    },
    "hasParticipant": [
     {
@@ -147,8 +147,8 @@
   {
    "name": "Confessing_falsely",
    "takePlaceAt": {
-    "name": "Confessing_falsely",
-    "id": "texts/frankenstein.txt#Confessing_falsely"
+    "name": "Prison_room",
+    "id": "texts/frankenstein.txt#Prison_room"
    },
    "hasParticipant": {
     "name": "Justine_Moritz",
@@ -159,8 +159,8 @@
   {
    "name": "Accepting_fate",
    "takePlaceAt": {
-    "name": "Accepting_fate",
-    "id": "texts/frankenstein.txt#Accepting_fate"
+    "name": "Prison_room",
+    "id": "texts/frankenstein.txt#Prison_room"
    },
    "hasParticipant": {
     "name": "Justine_Moritz",

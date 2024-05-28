@@ -101,8 +101,8 @@
   {
    "name": "Unexpected_sight_of_Meg_and_Mr_Brooke_together",
    "takePlaceAt": {
-    "name": "Unexpected_sight_of_Meg_and_Mr_Brooke_together",
-    "id": "texts/littlewomen.txt#Unexpected_sight_of_Meg_and_Mr_Brooke_together"
+    "name": "Parlor",
+    "id": "texts/littlewomen.txt#Parlor"
    },
    "hasParticipant": [
     {
@@ -123,8 +123,8 @@
   {
    "name": "Seeing_Meg_and_Mr_Brooke_together",
    "takePlaceAt": {
-    "name": "Seeing_Meg_and_Mr_Brooke_together",
-    "id": "texts/littlewomen.txt#Seeing_Meg_and_Mr_Brooke_together"
+    "name": "Parlor",
+    "id": "texts/littlewomen.txt#Parlor"
    },
    "hasParticipant": [
     {
@@ -145,8 +145,8 @@
   {
    "name": "Feeling_of_being_left_out",
    "takePlaceAt": {
-    "name": "Feeling_of_being_left_out",
-    "id": "texts/littlewomen.txt#Feeling_of_being_left_out"
+    "name": "Upstairs_room",
+    "id": "texts/littlewomen.txt#Upstairs_room"
    },
    "hasParticipant": [
     {
@@ -167,8 +167,8 @@
   {
    "name": "John_Brooke_s_dedication_to_Meg",
    "takePlaceAt": {
-    "name": "John_Brooke_s_dedication_to_Meg",
-    "id": "texts/littlewomen.txt#John_Brooke_s_dedication_to_Meg"
+    "name": "Home",
+    "id": "texts/littlewomen.txt#Home"
    },
    "hasParticipant": [
     {
@@ -185,8 +185,8 @@
   {
    "name": "Sitting_with_John_Brooke",
    "takePlaceAt": {
-    "name": "Sitting_with_John_Brooke",
-    "id": "texts/littlewomen.txt#Sitting_with_John_Brooke"
+    "name": "Parlor",
+    "id": "texts/littlewomen.txt#Parlor"
    },
    "hasParticipant": [
     {
@@ -203,8 +203,8 @@
   {
    "name": "Reflecting_on_past_events",
    "takePlaceAt": {
-    "name": "Reflecting_on_past_events",
-    "id": "texts/littlewomen.txt#Reflecting_on_past_events"
+    "name": "Parlor",
+    "id": "texts/littlewomen.txt#Parlor"
    },
    "hasParticipant": {
     "name": "Meg_March",

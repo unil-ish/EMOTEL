@@ -59,8 +59,8 @@
   {
    "name": "Discussion_with_Mr_Cadwallader",
    "takePlaceAt": {
-    "name": "Discussion_with_Mr_Cadwallader",
-    "id": "texts/middlemarch.txt#Discussion_with_Mr_Cadwallader"
+    "name": "Rectory",
+    "id": "texts/middlemarch.txt#Rectory"
    },
    "hasParticipant": [
     {
@@ -77,8 +77,8 @@
   {
    "name": "Visit_to_Mr_Casaubon_s_home",
    "takePlaceAt": {
-    "name": "Visit_to_Mr_Casaubon_s_home",
-    "id": "texts/middlemarch.txt#Visit_to_Mr_Casaubon_s_home"
+    "name": "Manorhouse",
+    "id": "texts/middlemarch.txt#Manorhouse"
    },
    "hasParticipant": [
     {
@@ -99,8 +99,8 @@
   {
    "name": "Visit_to_Mr_Casaubon_s_home",
    "takePlaceAt": {
-    "name": "Visit_to_Mr_Casaubon_s_home",
-    "id": "texts/middlemarch.txt#Visit_to_Mr_Casaubon_s_home"
+    "name": "Manorhouse",
+    "id": "texts/middlemarch.txt#Manorhouse"
    },
    "hasParticipant": [
     {

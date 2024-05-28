@@ -155,8 +155,8 @@
   {
    "name": "Preparing_a_disastrous_dinner",
    "takePlaceAt": {
-    "name": "Preparing_a_disastrous_dinner",
-    "id": "texts/littlewomen.txt#Preparing_a_disastrous_dinner"
+    "name": "Home_kitchen",
+    "id": "texts/littlewomen.txt#Home_kitchen"
    },
    "hasParticipant": [
     {
@@ -177,16 +177,16 @@
   {
    "name": "Successful_shopping",
    "takePlaceAt": {
-    "name": "Successful_shopping",
-    "id": "texts/littlewomen.txt#Successful_shopping"
+    "name": "Market",
+    "id": "texts/littlewomen.txt#Market"
    },
    "id": "texts/littlewomen.txt#Successful_shopping"
   },
   {
    "name": "Failed_dinner_preparation",
    "takePlaceAt": {
-    "name": "Failed_dinner_preparation",
-    "id": "texts/littlewomen.txt#Failed_dinner_preparation"
+    "name": "Dinner_table",
+    "id": "texts/littlewomen.txt#Dinner_table"
    },
    "hasParticipant": [
     {
@@ -215,8 +215,8 @@
   {
    "name": "Laurie_s_efforts_to_cheer_up_the_situation",
    "takePlaceAt": {
-    "name": "Laurie_s_efforts_to_cheer_up_the_situation",
-    "id": "texts/littlewomen.txt#Laurie_s_efforts_to_cheer_up_the_situation"
+    "name": "Dinner_table",
+    "id": "texts/littlewomen.txt#Dinner_table"
    },
    "hasParticipant": [
     {
@@ -245,8 +245,8 @@
   {
    "name": "Preparing_a_disastrous_dinner",
    "takePlaceAt": {
-    "name": "Preparing_a_disastrous_dinner",
-    "id": "texts/littlewomen.txt#Preparing_a_disastrous_dinner"
+    "name": "Home_kitchen",
+    "id": "texts/littlewomen.txt#Home_kitchen"
    },
    "hasParticipant": [
     {
@@ -267,8 +267,8 @@
   {
    "name": "Failed_dinner_preparation",
    "takePlaceAt": {
-    "name": "Failed_dinner_preparation",
-    "id": "texts/littlewomen.txt#Failed_dinner_preparation"
+    "name": "Dinner_table",
+    "id": "texts/littlewomen.txt#Dinner_table"
    },
    "hasParticipant": [
     {
@@ -297,16 +297,16 @@
   {
    "name": "Successful_shopping",
    "takePlaceAt": {
-    "name": "Successful_shopping",
-    "id": "texts/littlewomen.txt#Successful_shopping"
+    "name": "Market",
+    "id": "texts/littlewomen.txt#Market"
    },
    "id": "texts/littlewomen.txt#Successful_shopping"
   },
   {
    "name": "Failed_dinner_preparation",
    "takePlaceAt": {
-    "name": "Failed_dinner_preparation",
-    "id": "texts/littlewomen.txt#Failed_dinner_preparation"
+    "name": "Dinner_table",
+    "id": "texts/littlewomen.txt#Dinner_table"
    },
    "hasParticipant": [
     {
@@ -335,8 +335,8 @@
   {
    "name": "Failed_dinner_preparation",
    "takePlaceAt": {
-    "name": "Failed_dinner_preparation",
-    "id": "texts/littlewomen.txt#Failed_dinner_preparation"
+    "name": "Dinner_table",
+    "id": "texts/littlewomen.txt#Dinner_table"
    },
    "hasParticipant": [
     {

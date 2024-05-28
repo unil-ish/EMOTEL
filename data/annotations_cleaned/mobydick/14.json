@@ -121,8 +121,8 @@
   {
    "name": "Distrust_in_the_quality_of_the_substance",
    "takePlaceAt": {
-    "name": "Distrust_in_the_quality_of_the_substance",
-    "id": "texts/mobydick.txt#Distrust_in_the_quality_of_the_substance"
+    "name": "On_the_ship",
+    "id": "texts/mobydick.txt#On_the_ship"
    },
    "hasParticipant": {
     "name": "Starbuck",
@@ -133,8 +133,8 @@
   {
    "name": "Foul_line_incident",
    "takePlaceAt": {
-    "name": "Foul_line_incident",
-    "id": "texts/mobydick.txt#Foul_line_incident"
+    "name": "On_the_ship",
+    "id": "texts/mobydick.txt#On_the_ship"
    },
    "hasParticipant": {
     "name": "Daggoo",
@@ -145,8 +145,8 @@
   {
    "name": "Successful_rescue",
    "takePlaceAt": {
-    "name": "Successful_rescue",
-    "id": "texts/mobydick.txt#Successful_rescue"
+    "name": "On_the_ship",
+    "id": "texts/mobydick.txt#On_the_ship"
    },
    "hasParticipant": [
     {
@@ -163,8 +163,8 @@
   {
    "name": "Foul_line_incident",
    "takePlaceAt": {
-    "name": "Foul_line_incident",
-    "id": "texts/mobydick.txt#Foul_line_incident"
+    "name": "On_the_ship",
+    "id": "texts/mobydick.txt#On_the_ship"
    },
    "hasParticipant": {
     "name": "Daggoo",
@@ -175,8 +175,8 @@
   {
    "name": "Successful_rescue",
    "takePlaceAt": {
-    "name": "Successful_rescue",
-    "id": "texts/mobydick.txt#Successful_rescue"
+    "name": "On_the_ship",
+    "id": "texts/mobydick.txt#On_the_ship"
    },
    "hasParticipant": [
     {
@@ -193,8 +193,8 @@
   {
    "name": "Foul_line_incident",
    "takePlaceAt": {
-    "name": "Foul_line_incident",
-    "id": "texts/mobydick.txt#Foul_line_incident"
+    "name": "On_the_ship",
+    "id": "texts/mobydick.txt#On_the_ship"
    },
    "hasParticipant": {
     "name": "Daggoo",
@@ -205,8 +205,8 @@
   {
    "name": "Successful_rescue",
    "takePlaceAt": {
-    "name": "Successful_rescue",
-    "id": "texts/mobydick.txt#Successful_rescue"
+    "name": "On_the_ship",
+    "id": "texts/mobydick.txt#On_the_ship"
    },
    "hasParticipant": [
     {

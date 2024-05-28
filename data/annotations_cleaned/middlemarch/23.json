@@ -149,72 +149,72 @@
   {
    "name": "Caleb_s_reliability_and_honesty",
    "takePlaceAt": {
-    "name": "Caleb_s_reliability_and_honesty",
-    "id": "texts/middlemarch.txt#Caleb_s_reliability_and_honesty"
+    "name": "Conversation_with_Caleb",
+    "id": "texts/middlemarch.txt#Conversation_with_Caleb"
    },
    "id": "texts/middlemarch.txt#Caleb_s_reliability_and_honesty"
   },
   {
    "name": "Caleb_s_willingness_to_help_Fred",
    "takePlaceAt": {
-    "name": "Caleb_s_willingness_to_help_Fred",
-    "id": "texts/middlemarch.txt#Caleb_s_willingness_to_help_Fred"
+    "name": "Conversation_with_Caleb",
+    "id": "texts/middlemarch.txt#Conversation_with_Caleb"
    },
    "id": "texts/middlemarch.txt#Caleb_s_willingness_to_help_Fred"
   },
   {
    "name": "Fred_and_Mary_s_feelings_for_each_other",
    "takePlaceAt": {
-    "name": "Fred_and_Mary_s_feelings_for_each_other",
-    "id": "texts/middlemarch.txt#Fred_and_Mary_s_feelings_for_each_other"
+    "name": "Conversation_with_Caleb",
+    "id": "texts/middlemarch.txt#Conversation_with_Caleb"
    },
    "id": "texts/middlemarch.txt#Fred_and_Mary_s_feelings_for_each_other"
   },
   {
    "name": "Accidents_of_the_morning",
    "takePlaceAt": {
-    "name": "Accidents_of_the_morning",
-    "id": "texts/middlemarch.txt#Accidents_of_the_morning"
+    "name": "Encounter_with_the_laborers",
+    "id": "texts/middlemarch.txt#Encounter_with_the_laborers"
    },
    "id": "texts/middlemarch.txt#Accidents_of_the_morning"
   },
   {
    "name": "Enjoying_the_slip_in_the_earth",
    "takePlaceAt": {
-    "name": "Enjoying_the_slip_in_the_earth",
-    "id": "texts/middlemarch.txt#Enjoying_the_slip_in_the_earth"
+    "name": "Helping_Caleb_with_work",
+    "id": "texts/middlemarch.txt#Helping_Caleb_with_work"
    },
    "id": "texts/middlemarch.txt#Enjoying_the_slip_in_the_earth"
   },
   {
    "name": "Fred_s_decision_to_pursue_business",
    "takePlaceAt": {
-    "name": "Fred_s_decision_to_pursue_business",
-    "id": "texts/middlemarch.txt#Fred_s_decision_to_pursue_business"
+    "name": "Conversation_with_Caleb",
+    "id": "texts/middlemarch.txt#Conversation_with_Caleb"
    },
    "id": "texts/middlemarch.txt#Fred_s_decision_to_pursue_business"
   },
   {
    "name": "Fred_and_Mary_s_feelings_for_each_other",
    "takePlaceAt": {
-    "name": "Fred_and_Mary_s_feelings_for_each_other",
-    "id": "texts/middlemarch.txt#Fred_and_Mary_s_feelings_for_each_other"
+    "name": "Conversation_with_Fred",
+    "id": "texts/middlemarch.txt#Conversation_with_Fred"
    },
    "id": "texts/middlemarch.txt#Fred_and_Mary_s_feelings_for_each_other"
   },
   {
    "name": "Fred_s_request_for_help",
    "takePlaceAt": {
-    "name": "Fred_s_request_for_help",
-    "id": "texts/middlemarch.txt#Fred_s_request_for_help"
+    "name": "Conversation_with_Fred",
+    "id": "texts/middlemarch.txt#Conversation_with_Fred"
    },
    "id": "texts/middlemarch.txt#Fred_s_request_for_help"
   },
   {
    "name": "Fred_and_Mary_s_feelings_for_each_other",
    "takePlaceAt": {
-    "name": "Fred_and_Mary_s_feelings_for_each_other",
-    "id": "texts/middlemarch.txt#Fred_and_Mary_s_feelings_for_each_other"
+    "name": "Conversation_with_Fred",
+    "id": "texts/middlemarch.txt#Conversation_with_Fred"
    },
    "id": "texts/middlemarch.txt#Fred_and_Mary_s_feelings_for_each_other"
   }

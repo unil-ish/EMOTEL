@@ -95,8 +95,8 @@
   {
    "name": "John_s_reaction_to_Meg_s_appearance",
    "takePlaceAt": {
-    "name": "John_s_reaction_to_Meg_s_appearance",
-    "id": "texts/littlewomen.txt#John_s_reaction_to_Meg_s_appearance"
+    "name": "Home",
+    "id": "texts/littlewomen.txt#Home"
    },
    "hasParticipant": [
     {
@@ -113,8 +113,8 @@
   {
    "name": "John_s_reaction_to_Meg_s_request_for_change",
    "takePlaceAt": {
-    "name": "John_s_reaction_to_Meg_s_request_for_change",
-    "id": "texts/littlewomen.txt#John_s_reaction_to_Meg_s_request_for_change"
+    "name": "Home",
+    "id": "texts/littlewomen.txt#Home"
    },
    "hasParticipant": [
     {
@@ -131,8 +131,8 @@
   {
    "name": "Improvement_in_the_household",
    "takePlaceAt": {
-    "name": "Improvement_in_the_household",
-    "id": "texts/littlewomen.txt#Improvement_in_the_household"
+    "name": "Home",
+    "id": "texts/littlewomen.txt#Home"
    },
    "hasParticipant": [
     {
@@ -149,8 +149,8 @@
   {
    "name": "Meg_s_thoughts_on_politics",
    "takePlaceAt": {
-    "name": "Meg_s_thoughts_on_politics",
-    "id": "texts/littlewomen.txt#Meg_s_thoughts_on_politics"
+    "name": "Home",
+    "id": "texts/littlewomen.txt#Home"
    },
    "hasParticipant": [
     {
@@ -167,8 +167,8 @@
   {
    "name": "Division_of_labor_system",
    "takePlaceAt": {
-    "name": "Division_of_labor_system",
-    "id": "texts/littlewomen.txt#Division_of_labor_system"
+    "name": "Home",
+    "id": "texts/littlewomen.txt#Home"
    },
    "hasParticipant": [
     {
@@ -185,8 +185,8 @@
   {
    "name": "Realization_of_the_importance_of_home_and_family",
    "takePlaceAt": {
-    "name": "Realization_of_the_importance_of_home_and_family",
-    "id": "texts/littlewomen.txt#Realization_of_the_importance_of_home_and_family"
+    "name": "Home",
+    "id": "texts/littlewomen.txt#Home"
    },
    "hasParticipant": [
     {

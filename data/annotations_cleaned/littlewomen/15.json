@@ -141,8 +141,8 @@
   {
    "name": "Beth_s_confession",
    "takePlaceAt": {
-    "name": "Beth_s_confession",
-    "id": "texts/littlewomen.txt#Beth_s_confession"
+    "name": "At_the_beach",
+    "id": "texts/littlewomen.txt#At_the_beach"
    },
    "hasParticipant": [
     {
@@ -159,8 +159,8 @@
   {
    "name": "Beth_s_confession",
    "takePlaceAt": {
-    "name": "Beth_s_confession",
-    "id": "texts/littlewomen.txt#Beth_s_confession"
+    "name": "At_the_beach",
+    "id": "texts/littlewomen.txt#At_the_beach"
    },
    "hasParticipant": [
     {
@@ -177,8 +177,8 @@
   {
    "name": "Beth_s_confession",
    "takePlaceAt": {
-    "name": "Beth_s_confession",
-    "id": "texts/littlewomen.txt#Beth_s_confession"
+    "name": "At_the_beach",
+    "id": "texts/littlewomen.txt#At_the_beach"
    },
    "hasParticipant": [
     {
@@ -195,8 +195,8 @@
   {
    "name": "Beth_s_confession",
    "takePlaceAt": {
-    "name": "Beth_s_confession",
-    "id": "texts/littlewomen.txt#Beth_s_confession"
+    "name": "At_the_beach",
+    "id": "texts/littlewomen.txt#At_the_beach"
    },
    "hasParticipant": [
     {
@@ -213,8 +213,8 @@
   {
    "name": "Beth_s_confession",
    "takePlaceAt": {
-    "name": "Beth_s_confession",
-    "id": "texts/littlewomen.txt#Beth_s_confession"
+    "name": "At_the_beach",
+    "id": "texts/littlewomen.txt#At_the_beach"
    },
    "hasParticipant": [
     {
@@ -231,8 +231,8 @@
   {
    "name": "Meeting_Amy",
    "takePlaceAt": {
-    "name": "Meeting_Amy",
-    "id": "texts/littlewomen.txt#Meeting_Amy"
+    "name": "On_the_street_in_Nice",
+    "id": "texts/littlewomen.txt#On_the_street_in_Nice"
    },
    "hasParticipant": [
     {
@@ -249,8 +249,8 @@
   {
    "name": "Meeting_Amy",
    "takePlaceAt": {
-    "name": "Meeting_Amy",
-    "id": "texts/littlewomen.txt#Meeting_Amy"
+    "name": "On_the_street_in_Nice",
+    "id": "texts/littlewomen.txt#On_the_street_in_Nice"
    },
    "hasParticipant": [
     {
@@ -267,8 +267,8 @@
   {
    "name": "Meeting_Laurie",
    "takePlaceAt": {
-    "name": "Meeting_Laurie",
-    "id": "texts/littlewomen.txt#Meeting_Laurie"
+    "name": "On_the_street_in_Nice",
+    "id": "texts/littlewomen.txt#On_the_street_in_Nice"
    },
    "hasParticipant": [
     {

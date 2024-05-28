@@ -81,40 +81,40 @@
   {
    "name": "Being_in_quarters_of_cantonment",
    "takePlaceAt": {
-    "name": "Being_in_quarters_of_cantonment",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Being_in_quarters_of_cantonment"
+    "name": "Winter",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Winter"
    },
    "id": "texts/theadventuresofferdinandcountfathom.txt#Being_in_quarters_of_cantonment"
   },
   {
    "name": "Expectations_of_future_favour",
    "takePlaceAt": {
-    "name": "Expectations_of_future_favour",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Expectations_of_future_favour"
+    "name": "Winter",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Winter"
    },
    "id": "texts/theadventuresofferdinandcountfathom.txt#Expectations_of_future_favour"
   },
   {
    "name": "Reflections_on_his_talents",
    "takePlaceAt": {
-    "name": "Reflections_on_his_talents",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Reflections_on_his_talents"
+    "name": "Winter",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Winter"
    },
    "id": "texts/theadventuresofferdinandcountfathom.txt#Reflections_on_his_talents"
   },
   {
    "name": "Expectation_of_being_besieged",
    "takePlaceAt": {
-    "name": "Expectation_of_being_besieged",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Expectation_of_being_besieged"
+    "name": "Winter",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Winter"
    },
    "id": "texts/theadventuresofferdinandcountfathom.txt#Expectation_of_being_besieged"
   },
   {
    "name": "Discovery_of_the_theft",
    "takePlaceAt": {
-    "name": "Discovery_of_the_theft",
-    "id": "texts/theadventuresofferdinandcountfathom.txt#Discovery_of_the_theft"
+    "name": "Preparations_for_departure",
+    "id": "texts/theadventuresofferdinandcountfathom.txt#Preparations_for_departure"
    },
    "id": "texts/theadventuresofferdinandcountfathom.txt#Discovery_of_the_theft"
   }

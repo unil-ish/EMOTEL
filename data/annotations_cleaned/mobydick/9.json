@@ -155,72 +155,72 @@
   {
    "name": "Encounter_with_the_whale",
    "takePlaceAt": {
-    "name": "Encounter_with_the_whale",
-    "id": "texts/mobydick.txt#Encounter_with_the_whale"
+    "name": "In_the_boat",
+    "id": "texts/mobydick.txt#In_the_boat"
    },
    "id": "texts/mobydick.txt#Encounter_with_the_whale"
   },
   {
    "name": "Feeling_lost_at_sea",
    "takePlaceAt": {
-    "name": "Feeling_lost_at_sea",
-    "id": "texts/mobydick.txt#Feeling_lost_at_sea"
+    "name": "In_the_boat",
+    "id": "texts/mobydick.txt#In_the_boat"
    },
    "id": "texts/mobydick.txt#Feeling_lost_at_sea"
   },
   {
    "name": "Spotting_the_ship",
    "takePlaceAt": {
-    "name": "Spotting_the_ship",
-    "id": "texts/mobydick.txt#Spotting_the_ship"
+    "name": "In_the_boat",
+    "id": "texts/mobydick.txt#In_the_boat"
    },
    "id": "texts/mobydick.txt#Spotting_the_ship"
   },
   {
    "name": "Facing_extreme_tribulation",
    "takePlaceAt": {
-    "name": "Facing_extreme_tribulation",
-    "id": "texts/mobydick.txt#Facing_extreme_tribulation"
+    "name": "On_the_ship",
+    "id": "texts/mobydick.txt#On_the_ship"
    },
    "id": "texts/mobydick.txt#Facing_extreme_tribulation"
   },
   {
    "name": "Approaching_the_whale",
    "takePlaceAt": {
-    "name": "Approaching_the_whale",
-    "id": "texts/mobydick.txt#Approaching_the_whale"
+    "name": "In_the_boat",
+    "id": "texts/mobydick.txt#In_the_boat"
    },
    "id": "texts/mobydick.txt#Approaching_the_whale"
   },
   {
    "name": "Seeing_the_ship",
    "takePlaceAt": {
-    "name": "Seeing_the_ship",
-    "id": "texts/mobydick.txt#Seeing_the_ship"
+    "name": "In_the_boat",
+    "id": "texts/mobydick.txt#In_the_boat"
    },
    "id": "texts/mobydick.txt#Seeing_the_ship"
   },
   {
    "name": "Feeling_lost_at_sea",
    "takePlaceAt": {
-    "name": "Feeling_lost_at_sea",
-    "id": "texts/mobydick.txt#Feeling_lost_at_sea"
+    "name": "In_the_boat",
+    "id": "texts/mobydick.txt#In_the_boat"
    },
    "id": "texts/mobydick.txt#Feeling_lost_at_sea"
   },
   {
    "name": "Spotting_the_ship",
    "takePlaceAt": {
-    "name": "Spotting_the_ship",
-    "id": "texts/mobydick.txt#Spotting_the_ship"
+    "name": "In_the_boat",
+    "id": "texts/mobydick.txt#In_the_boat"
    },
    "id": "texts/mobydick.txt#Spotting_the_ship"
   },
   {
    "name": "Discussing_whale_hunting_techniques",
    "takePlaceAt": {
-    "name": "Discussing_whale_hunting_techniques",
-    "id": "texts/mobydick.txt#Discussing_whale_hunting_techniques"
+    "name": "On_the_ship",
+    "id": "texts/mobydick.txt#On_the_ship"
    },
    "id": "texts/mobydick.txt#Discussing_whale_hunting_techniques"
   }

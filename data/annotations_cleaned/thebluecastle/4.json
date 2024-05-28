@@ -109,56 +109,56 @@
   {
    "name": "Arriving_at_the_enchanted_island",
    "takePlaceAt": {
-    "name": "Arriving_at_the_enchanted_island",
-    "id": "texts/thebluecastle.txt#Arriving_at_the_enchanted_island"
+    "name": "Mistawis",
+    "id": "texts/thebluecastle.txt#Mistawis"
    },
    "id": "texts/thebluecastle.txt#Arriving_at_the_enchanted_island"
   },
   {
    "name": "Barney_kissing_her",
    "takePlaceAt": {
-    "name": "Barney_kissing_her",
-    "id": "texts/thebluecastle.txt#Barney_kissing_her"
+    "name": "Enchanted_island",
+    "id": "texts/thebluecastle.txt#Enchanted_island"
    },
    "id": "texts/thebluecastle.txt#Barney_kissing_her"
   },
   {
    "name": "Cousin_Georgiana_revealing_Edward_Beck_s_proposal",
    "takePlaceAt": {
-    "name": "Cousin_Georgiana_revealing_Edward_Beck_s_proposal",
-    "id": "texts/thebluecastle.txt#Cousin_Georgiana_revealing_Edward_Beck_s_proposal"
+    "name": "Deerwood",
+    "id": "texts/thebluecastle.txt#Deerwood"
    },
    "id": "texts/thebluecastle.txt#Cousin_Georgiana_revealing_Edward_Beck_s_proposal"
   },
   {
    "name": "Cousin_Georgiana_revealing_Edward_Beck_s_proposal",
    "takePlaceAt": {
-    "name": "Cousin_Georgiana_revealing_Edward_Beck_s_proposal",
-    "id": "texts/thebluecastle.txt#Cousin_Georgiana_revealing_Edward_Beck_s_proposal"
+    "name": "Deerwood",
+    "id": "texts/thebluecastle.txt#Deerwood"
    },
    "id": "texts/thebluecastle.txt#Cousin_Georgiana_revealing_Edward_Beck_s_proposal"
   },
   {
    "name": "Thinking_about_Barney_and_the_Blue_Castle",
    "takePlaceAt": {
-    "name": "Thinking_about_Barney_and_the_Blue_Castle",
-    "id": "texts/thebluecastle.txt#Thinking_about_Barney_and_the_Blue_Castle"
+    "name": "Enchanted_island",
+    "id": "texts/thebluecastle.txt#Enchanted_island"
    },
    "id": "texts/thebluecastle.txt#Thinking_about_Barney_and_the_Blue_Castle"
   },
   {
    "name": "Revealing_her_marriage_to_Cousin_Georgiana",
    "takePlaceAt": {
-    "name": "Revealing_her_marriage_to_Cousin_Georgiana",
-    "id": "texts/thebluecastle.txt#Revealing_her_marriage_to_Cousin_Georgiana"
+    "name": "Deerwood",
+    "id": "texts/thebluecastle.txt#Deerwood"
    },
    "id": "texts/thebluecastle.txt#Revealing_her_marriage_to_Cousin_Georgiana"
   },
   {
    "name": "Learning_about_Valancy_s_marriage",
    "takePlaceAt": {
-    "name": "Learning_about_Valancy_s_marriage",
-    "id": "texts/thebluecastle.txt#Learning_about_Valancy_s_marriage"
+    "name": "Deerwood",
+    "id": "texts/thebluecastle.txt#Deerwood"
    },
    "id": "texts/thebluecastle.txt#Learning_about_Valancy_s_marriage"
   }
