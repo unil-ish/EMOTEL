@@ -32,6 +32,7 @@ Nous utilisons ensuite des LLMs (ici [ChatGPT](https://chatgpt.com/)) pour annot
 | Outputs | Contient l'ontologie peuplée par le script `json_to_owl.py` qui repose sur la librairie [rdflib](https://rdflib.readthedocs.io/en/stable/) |
 | Project guidelines | Contient le `README.md` officiel de la donnée du projet |
 | Prompts | Contient différents itérations de la construction de nos prompts |
+| Queries | Conient un script python qui exécute des requêtes SPARQL sur notre ontologie |
 | Scripts | Contient les scripts conçus pour traiter nos données |
 | Texts | Contient les textes utilisés pour peupler notre ontologie |
 
