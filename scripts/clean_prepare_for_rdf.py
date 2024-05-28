@@ -190,7 +190,7 @@ def unnest_places_events(annotations):
         if "takePlaceAt" in ev.keys():
             pl = ev["takePlaceAt"]
             places.append(pl)
-            ev["takePlaceAt"] = {"name": ev["name"]}
+            ev["takePlaceAt"] = {"name": pl["name"]}
     annotations["Events"] = events
     annotations["Places"] = places
     return
