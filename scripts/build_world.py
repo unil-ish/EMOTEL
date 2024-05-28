@@ -7,11 +7,6 @@ from rdflib.namespace import XSD
 EMOTEL = Namespace("https://github.com/unil-ish/EMOTEL#")
 JSON_DIRECTORY = "data/annotations_cleaned"
 
-d = {}
-g = Graph()
-g.parse("ontology/ontology.owl", format="xml")
-g.bind("emotel", EMOTEL)
-
 
 def create_uri(element_id):
     """Crée un URI pour un élément donné.
@@ -30,7 +25,7 @@ def create_uri(element_id):
     return URIRef(f"{base_uri}{element_id}")
 
 
-def add_in_story(obj, obj_type, story):
+def add_in_story(g, obj, obj_type, story):
     """Une fonction simple et générique pour ajouter une instance dans une histoire.
 
     L'URI de l'instance est crée à partir de la clé 'id'.  Si l'instance a au nom, ce nom est aussi ajouté.
@@ -54,7 +49,7 @@ def add_in_story(obj, obj_type, story):
     return
 
 
-def add_event(obj, story):
+def add_event(g, obj, story):
     """Ajoute un événement dans le graphe, et les propriétés spécifiques.
 
     Args:
@@ -66,6 +61,7 @@ def add_event(obj, story):
     """
 
     i = add_in_story(
+        g=g,
         obj=obj,
         obj_type=EMOTEL.FictionalEvent,
         story=story,
@@ -92,7 +88,7 @@ def add_event(obj, story):
                 _ = g.add((i, EMOTEL.hasParticipant, uri))
 
 
-def add_emotion(obj, story, n, keep_new_emo) -> None:
+def add_emotion(g, obj, story, n, keep_new_emo) -> None:
     """Ajoute les émotions dans le graphe.
 
     Args:
@@ -167,10 +163,11 @@ def get_all_jsons(directory) -> list:
     return annotes
 
 
-def create_and_write_graph(
-    output_file,
-    keep_new_emo: bool,
-) -> None:
+def create_and_write_graph(output_file, keep_new_emo: bool, fp_onto) -> None:
+    g = Graph()
+    g.parse(fp_onto, format="xml")
+    g.bind("emotel", EMOTEL)
+
     n = 0
     for directory_name in os.listdir(JSON_DIRECTORY):
         story = create_uri(directory_name)
@@ -208,6 +205,7 @@ def create_and_write_graph(
         # ajouter les lieux
         for obj in places:
             _ = add_in_story(
+                g=g,
                 obj=obj,
                 obj_type=EMOTEL.FictionalPlace,
                 story=story,
@@ -216,6 +214,7 @@ def create_and_write_graph(
         # ajouter les personnages
         for obj in characters:
             _ = add_in_story(
+                g=g,
                 obj=obj,
                 obj_type=EMOTEL.FictionalCharacter,
                 story=story,
@@ -223,11 +222,12 @@ def create_and_write_graph(
 
         # ajouter les évenements
         for obj in events:
-            add_event(obj=obj, story=story)
+            add_event(g=g, obj=obj, story=story)
 
         for obj in emotions:
             n += 1
             add_emotion(
+                g=g,
                 obj=obj,
                 n=n,
                 story=story,
@@ -238,6 +238,13 @@ def create_and_write_graph(
         f.write(g.serialize(format="pretty-xml"))
 
 
-for keepnew, filename in [(True, 'world'), (False, 'world_strict')]:
-    fp = f"outputs/{filename}.rdf"
-    create_and_write_graph(keep_new_emo=keepnew, output_file=fp)
+if __name__ == "__main__":
+    for keepnew, rdfname, ontoname in [
+        (True, "world", "ontology_extended.owl"),
+        (False, "world_strict", "ontology.owl"),
+    ]:
+        fp_rdf = f"outputs/{rdfname}.rdf"
+        fp_onto = f"ontology/{ontoname}"
+        create_and_write_graph(
+            keep_new_emo=keepnew, output_file=fp_rdf, fp_onto=fp_onto
+        )
