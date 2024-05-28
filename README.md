@@ -16,7 +16,7 @@ Nous utilisons ensuite des LLMs (ici [ChatGPT](https://chatgpt.com/)) pour annot
 
 2. Alignement avec des ontologies existantes et récupération de classes et de propriétés intéressantes pour notre cas.
 
-3. Création d'une hiérarchie de classe de notre ontologie.
+3. Création d'une hiérarchie de classe dans notre ontologie.
 
 4. Développement de prompts permettant d'extraire les informations nécessaires au peuplement de notre ontologie.
 
@@ -31,7 +31,7 @@ Nous utilisons ensuite des LLMs (ici [ChatGPT](https://chatgpt.com/)) pour annot
 | Data | Contient les données intermédiaires au format JSON utilisées dans ce projet |
 | Doc | Documentation concernant la construction de notre ontologie ainsi que de nos réflexions théoriques autour d'une ontologie des émotions littéraires |
 | Ontology | Contient une première version de notre ontologie, créée avec [Protégé](https://protege.stanford.edu/) [owlready2](https://owlready2.readthedocs.io/en/latest/) ainsi qu'une deuxième qui résulte des sorties de ChatGPT et qui est créée par le script `clean_prepare_for_rdf.py`|
-| Outputs | Contient les deux versions d'ontologies peuplées par le script `json_to_owl.py` qui repose sur la librairie [rdflib](https://rdflib.readthedocs.io/en/stable/) |
+| Outputs | Contient les deux versions d'ontologies peuplées par le script `build_populated_ontology.py` qui repose sur la librairie [rdflib](https://rdflib.readthedocs.io/en/stable/) |
 | Project guidelines | Contient le `README.md` officiel de la donnée du projet |
 | Prompts | Contient différents itérations de la construction de nos prompts |
 | Queries | Conient un script python qui exécute des requêtes SPARQL sur notre ontologie |
@@ -49,10 +49,10 @@ Ce dossier contient les éléments suivants:
 ### Scripts
 
 - `ask_chatgpt.py` : Annote les morceaux de textes envoyés à l'API ChatGPT et nous indique si certains fichiers doivent être corrigés à la main
+- `build_populated_ontology.py` : Itère sur toutes les annotations de `annotations_cleaned` pour créer des individus et les injecter dans les ontologies `ontology.owl` et `ontology_extended.owl`
 - `clean_prepare_for_rdf.py` : Normalise les noms afin qu'ils puissent être utilisés pour des URIs (typiquement en remplaçant les espaces par des underscores), et reconstruit la structure souhaitée là où ChatGPT s'en éloigné du modèle.
 - `cut_text.py` : Prépare l'annotation en (1) coupant les fichiers textes après un certain nombre de caractères et (2) construisant des séquences de messages adaptés à l'analyse par ChatGPT.
 - `uniquiser_ids.py` : Construit des IDs utilisés pour les URIs et construit les liens entre les entités disjointes (pour des raisons techniques) au cours de l'annotation.
-- `json_to_owl.py` : Itère sur toutes les annotations de `annotations_cleaned` pour créer des individus et les injecter dans l'ontologie `ontology.owl`
 - `uniquiser_ids.py` : Uniformise les IDs assignés aux _FictionalCharacter_, _FictionalEvent_ et _FictionalPlace_
 
 ## Pipeline
@@ -63,7 +63,7 @@ Pour répliquer nos résultats (en partant de `ontology/ontology.owl`) :
 2. Exécuter `cut_text.py` pour séparer les textes en vue de leur passage dans l'API de ChatGPT
 3. Exécuter `ask_chatgpt.py` pour obtenir les fichiers JSON puis les vérifier
 4. Exécuter `uniquiser_ids.py` pour standardiser les IDs des objets de nos fichiers JSON
-5. Exécuter `build_world.py` pour créer les deux versions d'ontologies peuplées
+5. Exécuter `build_populated_ontology.py` pour créer les deux versions d'ontologies peuplées
 
 ## Dépendances
 
