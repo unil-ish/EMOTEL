@@ -10,6 +10,7 @@ JSON_DIRECTORY = "data/annotations_cleaned"
 
 def get_emotions_lists(fp_onto):
     import owlready2 as owl
+
     base_onto_full = f"file://{os.path.realpath(fp_onto)}"
     onto = owl.get_ontology(base_onto_full).load()
     registered_emotions = set()
@@ -24,7 +25,6 @@ def get_emotions_lists(fp_onto):
     for i in onto.Emotion.subclasses():
         rec_add_subclass(i)
     return registered_emotions
-
 
 
 def create_uri(element_id):
@@ -131,16 +131,6 @@ def add_emotion(g, obj, story, n, keep_new_emo, registered) -> None:
             unregistered = False
         else:
             return
-
-        # if emo_type not in registered:
-        #     emo_type = EMOTEL.Emotion
-        #     unregistered = True
-        # else:
-        #     if keep_new_emo is True:
-        #         emo_type = getattr(EMOTEL, obj["name"])
-        #         unregistered = False
-        #     else:
-        #         return
 
         _ = g.add((uri, RDF.type, emo_type))
         _ = g.add((uri, EMOTEL.isIn, story))

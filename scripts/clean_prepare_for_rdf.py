@@ -7,6 +7,7 @@ import owlready2 as owl
 import types
 from build_populated_ontology import get_all_jsons, JSON_DIRECTORY
 
+
 def dict_iter_rec(obj, fn_condition: Callable, fn_apply: Callable) -> None:
     """Recherche récursivement les dictionnaires satisfaisant une condition et leur applique une fonction.
 
@@ -27,6 +28,7 @@ def dict_iter_rec(obj, fn_condition: Callable, fn_apply: Callable) -> None:
         for i in obj:
             dict_iter_rec(i, fn_condition, fn_apply)
 
+
 def url_conformize(s: str) -> str:
     """Normalise une chaîne de caractères pour une URI.
 
@@ -39,6 +41,7 @@ def url_conformize(s: str) -> str:
     s = unicodedata.normalize("NFC", s)
     s = re.sub("[_' ]+", "_", s)
     return "".join([c for c in s if c.isalnum() or c == "_"])
+
 
 def normalize_obj_name(obj: dict) -> None:
     """Normalise l'attribut 'name' d'un dictionnaire.
@@ -53,6 +56,7 @@ def normalize_obj_name(obj: dict) -> None:
     name = url_conformize(name)
     obj["name"] = name
 
+
 def clean_annotation_names(annotations: dict) -> None:
     """Normalise les clés 'name' dans les annotations.
 
@@ -62,7 +66,12 @@ def clean_annotation_names(annotations: dict) -> None:
     Returns:
         None
     """
-    for key, ersatz in [("feels", "emotions"), ("causedBy", "cause"), ("hasObject", "object")]:
+    for key, ersatz in [
+        ("feels", "emotions"),
+        ("causedBy", "cause"),
+        ("hasObject", "object"),
+    ]:
+
         def missing_key_but_ersatz(d: dict) -> bool:
             return key not in d.keys() and ersatz in d.keys()
 
@@ -96,6 +105,7 @@ def clean_annotation_names(annotations: dict) -> None:
 
     dict_iter_rec(annotations, has_id_or_name_key, normalize_obj_name)
 
+
 def rename_causedBy(annotations: dict) -> None:
     """Remplace 'causedByEvent' par 'causedBy'.
 
@@ -105,6 +115,7 @@ def rename_causedBy(annotations: dict) -> None:
     Returns:
         None
     """
+
     def has_causedbyevent(d: dict) -> bool:
         return "causedByEvent" in d.keys()
 
@@ -113,6 +124,7 @@ def rename_causedBy(annotations: dict) -> None:
         d.pop("causedByEvent")
 
     dict_iter_rec(annotations, has_causedbyevent, rename_causedbyevent)
+
 
 def unnest_places_events(annotations: dict) -> None:
     """Déplie et agrège les JSONs.
@@ -143,6 +155,7 @@ def unnest_places_events(annotations: dict) -> None:
             ev["takePlaceAt"] = {"name": pl["name"]}
     annotations["Events"] = events
     annotations["Places"] = places
+
 
 def add_unregistered_emotions() -> None:
     """Ajoute des émotions non enregistrées dans l'ontologie.
@@ -195,8 +208,9 @@ def add_unregistered_emotions() -> None:
         for emo in unregistered:
             _ = types.new_class(emo, (onto.Emotion,))
 
-    onto_extend_fp = base_onto.replace('.', '_extended.')
+    onto_extend_fp = base_onto.replace(".", "_extended.")
     onto.save(file=onto_extend_fp, format="rdfxml")
+
 
 if __name__ == "__main__":
     dir_source = "data/annotations"
